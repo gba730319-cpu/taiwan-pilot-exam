@@ -8120,5 +8120,323 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "106-pilotage-01-answer-v1",
+    "questionId": "106-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_or_drawing",
+    "modelAnswer": "一、不淹岩（Rock which does not cover）\n表示任何潮位均露出水面的岩石，依海圖圖例使用不淹岩符號並標示其高度；不可與高潮會淹沒的乾出岩混淆。\n\n二、不到底（No bottom／Sounding not obtained）\n表示測深作業未能測得海底深度，或測深資料未能確認海床；海圖依圖例以特殊測深註記表示，航行時應視為資料不足區域，不得把它當成水深很深或無危險。\n\n三、平均大潮高潮（Mean High Water Springs, MHWS）\n表示平均大潮期間的平均高潮面，是潮汐基準資料之一；海圖或潮汐資料依圖例以MHWS註記或潮位基準線表示。\n\n四、禁區（Prohibited Area）\n表示船舶不得進入或從事指定活動的水域，依海圖以限制區界線及區域註記標示；須辨明是全面禁航、禁止錨泊、禁止捕撈或其他特定限制。\n\n五、退潮流附記速度（Ebb tidal stream with rate）\n以潮流箭頭表示流向，箭頭旁附記數字表示流速，通常以節（knots）為單位；退潮流表示潮水向外海或河口外流動的方向。作圖時須依圖例區分平均流速、最大流速及指定潮時的流速。\n\n**手繪要求：**五項圖例須依考試指定版次海圖圖例臨摹，特別注意「不到底」不是一般深水點、「禁區」須依限制種類註記，以及潮流箭頭方向與流速單位。",
+    "practicalAnalysis": "海圖符號應依海軍大氣海洋局圖例及IHO Chart 1版本繪製。不到底表示測深未能取得底深，不可解讀成深水；禁區的法律效果須看區域註記；退潮流箭頭表示流向，旁註速度通常以節為單位。",
+    "keyPoints": [
+      {
+        "point": "不淹岩：任何潮位均露出水面的岩石",
+        "importance": "essential"
+      },
+      {
+        "point": "不到底：測深未能取得或確認海底深度",
+        "importance": "essential"
+      },
+      {
+        "point": "MHWS：平均大潮高潮",
+        "importance": "essential"
+      },
+      {
+        "point": "禁區：依圖例標示禁止進入或特定活動限制",
+        "importance": "essential"
+      },
+      {
+        "point": "退潮流箭頭表示流向，附記速度以節表示",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "海圖圖例",
+        "sourceType": "official_port_or_authority",
+        "issuer": "海軍大氣海洋局",
+        "url": "https://navy.mnd.gov.tw/aboutus/partner_info.aspx?aid=30888&id=30198",
+        "pageOrSection": "水深、潮汐、限制區及潮流符號",
+        "accessedAt": "2026-11-05",
+        "supports": "臺灣海圖符號及潮流註記。"
+      },
+      {
+        "title": "IHO Chart 1 – Symbols, Abbreviations and Terms",
+        "sourceType": "technical_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/en/standards-and-specifications",
+        "pageOrSection": "Soundings, rocks, restricted areas and tidal streams",
+        "accessedAt": "2026-11-05",
+        "supports": "海圖深度、岩石、限制區及潮流符號。"
+      }
+    ],
+    "limitations": [
+      "正式圖形仍須依考試指定海圖圖例版次臨摹，前台文字說明不取代符號繪製。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "海圖圖例及海象定義已依官方資料核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立引港學專業複核",
+          "result": "needs_review",
+          "note": "仍待專業人士依考試指定圖例版次複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "106-pilotage-02-answer-v1",
+    "questionId": "106-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "definition",
+    "modelAnswer": "一、冷鋒（Cold Front）\n冷空氣向前推進，沿較暖空氣下方楔入並迫使暖空氣快速抬升的鋒面。常伴隨積雨雲、陣雨、雷暴、風向轉變、氣溫下降及氣壓變化；通過海域時可能出現強陣風、能見度短暫惡化及海況增強。\n\n二、霧（Fog）\n近地面空氣中的微小水滴或冰晶懸浮，使水平能見度降低至1公里以下的現象。常見成因包括暖濕空氣流經冷海面形成平流霧、夜間地面輻射冷卻形成輻射霧，以及暖濕空氣沿冷海面移動形成海霧。航海時須依能見度限制採安全速度、保持瞭望及鳴放霧號。\n\n三、長浪（Swell）\n由遠處風暴或強風區產生，離開原生成區後仍持續傳播的較規則波浪。長浪週期通常較風浪長，波峰較平順，但即使當地風力很小，長浪仍可能造成船舶劇烈縱搖、橫搖、上浪及港口外海作業困難。\n\n四、暴風半徑（Radius of Gale／Storm-force Wind Radius）\n指熱帶氣旋中心至指定風力門檻等風速線的距離，通常以暴風級風速範圍界定。不同氣象機關對暴風、烈風及強風的風速分級可能不同，引用時須說明採用的風級或風速門檻。暴風半徑可用於判斷船舶避風距離及颱風影響範圍。\n\n五、颱風眼（Eye of a Typhoon）\n位於成熟颱風中心附近的相對平靜區域，通常氣壓最低、風力較弱，常有下沉氣流，雲量可能較少。颱風眼周圍的眼牆（Eyewall）則是最強風、最強降雨及最劇烈對流區；船舶不可因進入颱風眼短暫平靜而認為颱風已結束，眼牆可能隨後再次通過。",
+    "practicalAnalysis": "五個名詞要能說出成因及航海影響。冷鋒重點是冷空氣楔入暖空氣；霧為能見度低於1km；長浪來自遠方風暴；暴風半徑須說明風速門檻因機關定義不同；颱風眼周圍眼牆才是最危險區。",
+    "keyPoints": [
+      {
+        "point": "冷鋒：冷空氣楔入暖空氣，造成抬升、陣雨及風向變化",
+        "importance": "essential"
+      },
+      {
+        "point": "霧：近地面懸浮水滴／冰晶，水平能見度低於1km",
+        "importance": "essential"
+      },
+      {
+        "point": "長浪：遠方風暴產生、離開生成區傳播的較長週期波浪",
+        "importance": "essential"
+      },
+      {
+        "point": "暴風半徑：中心至指定暴風風速等值線的距離",
+        "importance": "essential"
+      },
+      {
+        "point": "颱風眼：中心相對平靜區，眼牆風雨最強",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "Glossary of Meteorology",
+        "sourceType": "official_port_or_authority",
+        "issuer": "American Meteorological Society",
+        "url": "https://glossary.ametsoc.org/",
+        "pageOrSection": "Cold front, fog, swell and tropical cyclone eye",
+        "accessedAt": "2026-11-05",
+        "supports": "冷鋒、霧、長浪及颱風結構定義。"
+      },
+      {
+        "title": "颱風百問",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部中央氣象署",
+        "url": "https://www.cwa.gov.tw/V8/C/K/Encyclopedia/typhoon/typhoon.pdf",
+        "pageOrSection": "颱風結構、暴風圈及眼牆",
+        "accessedAt": "2026-11-05",
+        "supports": "颱風眼及風圈概念。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "海圖圖例及海象定義已依官方資料核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立引港學專業複核",
+          "result": "needs_review",
+          "note": "仍待專業人士依考試指定圖例版次複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "106-pilotage-03-answer-v1",
+    "questionId": "106-pilotage-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、迴旋圈（Turning Circle）的定義\n船舶在一定初始速度及舵角下，持續操舵作定舵迴轉時，其重心在水面上所描繪的軌跡稱為迴旋圈。迴旋圈用以評估船舶轉向能力及所需水域。\n\n二、迴旋圈的重要參數\n（一）進距（Advance）：自開始操舵位置沿原航向量至船舶艏向改變90度時，船舶重心前進的距離。\n（二）橫距（Transfer）：自開始操舵位置沿原航向的垂直方向量至船舶艏向改變90度時，船舶重心橫向移動的距離。\n（三）戰術直徑（Tactical Diameter）：船舶艏向改變180度時，船舶重心相對原航向的最大橫向距離。\n（四）最終直徑（Final Diameter）：船舶進入穩定迴轉後，迴旋軌跡的直徑。\n\n三、影響迴旋圈的因素\n（一）船舶尺度與船型：船長、船寬、吃水、方形係數、船體水下側面積及艏艉外型。\n（二）船舶載況：滿載或壓載、排水量、縱傾及重心位置。\n（三）初始航速：航速愈高，船舶慣性及進距通常愈大，迴轉半徑及停止距離亦可能增加。\n（四）舵角及舵效：舵角大小、舵葉面積、舵型、舵的位置及舵上水流速度。\n（五）推進系統：螺旋槳型式、旋向、主機轉速、推進器尾流及舵槳配置。\n（六）水域條件：水深、航道寬度、淺水效應、岸壁效應及水域阻塞程度。\n（七）環境條件：風、流、波浪及能見度；側風及橫流會造成漂移及偏航。\n（八）船舶操縱狀態：舵令施加時機、舵機反應、船舶慣性、轉向率及操作人員控制方式。\n\n四、結論\n迴旋圈是船舶在定舵迴轉時重心所描繪的軌跡，主要參數包括進距、橫距、戰術直徑及最終直徑。其大小受船型、尺度、載況、航速、舵效、推進器、水深、岸壁及風流等因素影響。",
+    "practicalAnalysis": "定義要寫出定舵迴轉時船舶重心軌跡；重要參數為Advance、Transfer、Tactical Diameter及Final Diameter。影響因素可按船舶本身、操縱設備、水域及環境四大類組織。",
+    "keyPoints": [
+      {
+        "point": "迴旋圈：定舵迴轉時船舶重心描繪的軌跡",
+        "importance": "essential"
+      },
+      {
+        "point": "Advance、Transfer、Tactical Diameter、Final Diameter",
+        "importance": "essential"
+      },
+      {
+        "point": "影響因素：船型尺度、載況、航速、舵槳、水深、岸壁、風流",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Turning circle, advance, transfer and tactical diameter",
+        "accessedAt": "2026-11-05",
+        "supports": "迴旋圈定義及主要參數。"
+      },
+      {
+        "title": "IMO Resolution A.751(18), Interim Standards for Ship Manoeuvrability",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.751(18).pdf",
+        "pageOrSection": "Turning ability and manoeuvring criteria",
+        "accessedAt": "2026-11-05",
+        "supports": "船舶迴轉能力及操縱性能標準。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "海圖圖例及海象定義已依官方資料核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立引港學專業複核",
+          "result": "needs_review",
+          "note": "仍待專業人士依考試指定圖例版次複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "106-pilotage-04-answer-v1",
+    "questionId": "106-pilotage-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、恒向線（Rhumb Line／Loxodrome）\n恒向線是與所有經線保持相同交角的航線，也就是船舶沿途保持固定羅經航向所形成的曲線。除赤道及經線外，恒向線在地球表面通常為螺旋曲線，逐漸趨近兩極；在墨卡托海圖上則呈直線。\n\n二、大圈線（Great Circle）\n大圈線是球面上通過球心的平面與地球表面相交所形成的最大圓，其圓心與地球球心相同。兩點間的大圈弧通常是球面最短距離，但沿線航向會不斷改變；赤道及所有經線均為大圈。\n\n三、海圖使用\n（一）墨卡托海圖（Mercator Chart）：恒向線呈直線，方便以固定航向航行及量取方位，因此一般沿岸航行及航海定位常用墨卡托海圖；大圈線在墨卡托圖上通常呈曲線。\n（二）心射投影海圖（Gnomonic Chart）：大圈線呈直線，適合規劃長距離大圈航線；但其尺度及角度變形較大，不宜直接作一般航行定位海圖。\n（三）長距離航行通常先在心射投影圖上選定大圈航線，再將航線分段轉繪至墨卡托海圖，以多段恒向線近似大圈航線，並依航行計畫定期修正航向。\n\n四、差異比較\n恒向線的航向固定、墨卡托圖上為直線，但通常不是兩點間最短路徑；大圈線通常為最短航程，但航向沿途改變，需分段操船。實務上應依航程長短、海況、冰區、風流及航行限制選擇合適航線。",
+    "practicalAnalysis": "核心比較：Rhumb line保持固定航向、Mercator上為直線；Great circle為球面最短路徑、航向持續改變、Gnomonic上為直線。長程航線常先以Gnomonic規劃，再轉繪Mercator分段航行。",
+    "keyPoints": [
+      {
+        "point": "恒向線：與經線交角固定，墨卡托海圖上為直線",
+        "importance": "essential"
+      },
+      {
+        "point": "大圈線：球面最大圓，通常是兩點間最短距離",
+        "importance": "essential"
+      },
+      {
+        "point": "大圈在心射投影上為直線，恒向線在墨卡托圖上為直線",
+        "importance": "essential"
+      },
+      {
+        "point": "長航程可先規劃大圈，再分段轉繪墨卡托航線",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Rhumb lines, great circles, Mercator and Gnomonic projections",
+        "accessedAt": "2026-11-05",
+        "supports": "恒向線、大圈線及海圖投影。"
+      },
+      {
+        "title": "IHO S-4 Regulations for International (INT) Charts",
+        "sourceType": "technical_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/en/standards-and-specifications",
+        "pageOrSection": "Chart projections and scale",
+        "accessedAt": "2026-11-05",
+        "supports": "海圖投影及航線表示。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "海圖圖例及海象定義已依官方資料核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立引港學專業複核",
+          "result": "needs_review",
+          "note": "仍待專業人士依考試指定圖例版次複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "106-pilotage-05-answer-v1",
+    "questionId": "106-pilotage-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、迴轉潮流（Rotary Tidal Current）\n（一）定義：潮流方向隨時間連續改變，通常在一個潮汐週期內，流向逐漸旋轉一周或接近一周，流速亦隨潮汐變化而增減。\n（二）形成原因：潮波在地球自轉科氏力、海岸線形狀、海底地形及海盆共振等因素影響下，潮流方向並非只沿單一軸線往返，而是隨時間逐漸旋轉。\n（三）常見地點：較開闊海域、外海及部分海岸外側水域，尤其潮波傳播方向與地形使流向呈連續旋轉的區域。\n\n二、往復潮流（Reversing／Rectilinear Tidal Current）\n（一）定義：潮流主要沿固定方向軸線往返流動，漲潮時朝一方向流，退潮時朝相反方向流；兩者轉換時會經過憩流（Slack Water）。\n（二）形成原因：海灣、海峽、河口及狹窄水道的地形限制潮流，使水體主要沿水道軸線進出，形成往返流動。\n（三）常見地點：海峽、港灣、河口、狹窄水道及潮汐河流等受地形導引的水域。\n\n三、兩者差異\n（一）迴轉潮流：流向連續旋轉，常形成潮流橢圓，流速與方向隨時間逐漸改變。\n（二）往復潮流：流向主要在兩個相反方向間轉換，轉換時通常出現憩流。\n（三）航海應用：迴轉潮流應掌握各時刻流向及流速；往復潮流則須掌握漲潮流、退潮流及憩流時間，並注意狹水道中潮流速度可能很大。\n\n四、結論\n迴轉潮流是潮流方向隨時間連續旋轉，常見於較開闊海域；往復潮流則受海峽、港灣及河口地形限制，沿固定軸線往返流動，常見於狹窄水道及河口。",
+    "practicalAnalysis": "需分清流向變化方式：迴轉潮流的方向連續旋轉；往復潮流沿固定軸線反向轉換，中間有Slack Water。形成因素須說明科氏力與海底／海岸地形。",
+    "keyPoints": [
+      {
+        "point": "迴轉潮流：流向隨時間連續旋轉，常見於較開闊水域",
+        "importance": "essential"
+      },
+      {
+        "point": "往復潮流：沿固定軸線漲退往返，轉換時有憩流",
+        "importance": "essential"
+      },
+      {
+        "point": "成因包括科氏力、潮波傳播、海岸線及海底地形",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "Tidal Currents and Tidal Stream Atlases",
+        "sourceType": "official_port_or_authority",
+        "issuer": "UK Hydrographic Office",
+        "url": "https://www.admiralty.co.uk/publications/admiralty-tidal-stream-atlases",
+        "pageOrSection": "Rotary and reversing tidal streams",
+        "accessedAt": "2026-11-05",
+        "supports": "迴轉潮流及往復潮流的型態。"
+      },
+      {
+        "title": "Tidal phenomena",
+        "sourceType": "official_port_or_authority",
+        "issuer": "Canadian Hydrographic Service",
+        "url": "https://www.tides.gc.ca/en/tidal-phenomena",
+        "pageOrSection": "Tidal currents and slack water",
+        "accessedAt": "2026-11-05",
+        "supports": "潮流轉向、憩流及地形影響。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "海圖圖例及海象定義已依官方資料核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立引港學專業複核",
+          "result": "needs_review",
+          "note": "仍待專業人士依考試指定圖例版次複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
