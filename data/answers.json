@@ -6076,5 +6076,168 @@
       "本答案為備考參考擬答，非官方公布解答。"
     ],
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-pilotage-01-answer-v1",
+    "questionId": "108-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、最重要考慮因素：航行安全水域與船舶可用水深\n\n沿岸航行決定離岸距離，首要原則是確保船舶始終位於已測量、可確認且具有足夠水深的安全水域，並與岸礁、淺灘、暗礁、沉船及其他航行危險保持適當安全距離。不可為了縮短航程而過度接近岸邊。\n\n二、除船舶大小外，尚須考慮下列因素：\n\n（一）吃水與龍骨下餘裕水深（UKC）：包含船舶實際吃水、潮高、潮汐變化、艉座及波浪造成的垂向運動。\n（二）海圖與測量資料：海圖比例尺、測量年代、測深品質、海圖基準面、航船布告改正及是否有未充分測量水域。\n（三）沿岸地形與航行危險：岸線形狀、海岬、海灣、礁石、淺灘、沉船、漁網、養殖設施及離岸風場等。\n（四）氣象與海象：風向風速、浪高、湧浪、能見度、海流及潮流，並考慮季風、颱風及突發天候。\n（五）船舶操縱性能：船速、停船距離、旋迴性能、舵效、推進器配置及低速操縱能力。\n（六）交通狀況：沿岸漁船、商船航路、分道通航制、引水區、港口進出航道及VTS管制。\n（七）助航設施：燈塔、燈浮、雷達標、AIS助航標誌及電子海圖資訊是否完整且正常。\n（八）錨泊與應變條件：附近是否有安全錨地、避風水域、可供緊急操船的海域及救援資源。\n（九）航行法規與限制：禁航區、軍事管制區、環境敏感區、漁業作業區及當地航行規定。\n（十）航次目的與航路計畫：預定抵港時間、潮窗、燃油效率、航路轉向點及備用航路。\n\n三、結論\n\n離岸距離不宜採固定值，而應依船舶吃水與操縱性能、海圖可靠度、沿岸危險、風浪流、交通及應變空間綜合決定。航行中並應持續定位、測深及監控船舶與岸線的相對位置，必要時增加離岸距離或改走較安全航路。",
+    "practicalAnalysis": "本題第一小題的核心不是船長或船寬本身，而是船舶與沿岸危險物之間是否保有足夠安全水域。船舶大小會影響操縱能力、轉向半徑與安全餘裕，但吃水、UKC、海圖品質及風流環境同樣重要。答案宜將「首要考量」與「其他因素」分開作答。",
+    "keyPoints": [
+      {
+        "point": "首要考量為可確認的安全水域、水深及與沿岸危險物的安全距離",
+        "importance": "essential"
+      },
+      {
+        "point": "吃水、潮高、艉座及波浪造成的UKC變化",
+        "importance": "essential"
+      },
+      {
+        "point": "海圖比例尺、測量品質、資料年代及改正狀態",
+        "importance": "supporting"
+      },
+      {
+        "point": "沿岸地形、礁石、淺灘、沉船、漁網及離岸設施",
+        "importance": "supporting"
+      },
+      {
+        "point": "風、浪、能見度、海流與潮流",
+        "importance": "supporting"
+      },
+      {
+        "point": "操縱性能、交通、助航設施、錨地及緊急應變空間",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "海圖圖例第八版",
+        "issuer": "海軍大氣海洋局",
+        "url": "https://navy.mnd.gov.tw/Files/Policy/%E6%B5%B7%E8%BB%8D_%E6%B5%B7%E5%9C%96%E5%9C%96%E4%BE%8B.pdf",
+        "supports": "海圖測深、危險物、海圖基準及航行資料使用注意事項。",
+        "sourceType": "official_chart_or_notice",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "COLREGs",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "Rule 5 lookout、Rule 6 safe speed、Rule 7 risk of collision及Rule 9 narrow channels。",
+        "sourceType": "IMO_or_treaty",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "離岸距離沒有適用所有船舶及海域的單一固定數值，須依當地海圖、航行警告及航次風險評估決定。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "沿岸航行安全因素涵蓋水深、海圖、危險物及環境",
+          "result": "pass"
+        },
+        {
+          "item": "未給出缺乏依據的固定離岸距離",
+          "result": "pass"
+        },
+        {
+          "item": "專業引航實務獨立複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "reviewNotes": [
+      "非官方參考擬答。",
+      "指定方信雄著作尚未取得可引用頁面，待取得後補充章節及頁碼。"
+    ],
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-pilotage-02-answer-v1",
+    "questionId": "108-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "calculation",
+    "modelAnswer": "一、燈塔燈質符號解讀\n\nGP. FL W. (3) 12 sec 36 M 17 m 可解讀如下：\n\n1. GP.：群組（Group）燈質標示。\n2. FL W. (3)：白色群閃光，每一週期出現三次閃光。\n3. 12 sec：完整燈質週期為12秒。\n4. 36 M：標示光程（名義光程）36浬。\n5. 17 m：燈高17公尺；實際使用時須依海圖圖例確認其採用的高度基準。\n\n因此可描述為：「白色三閃光，每12秒一組，名義光程36浬，燈高17公尺。」\n\n二、眼高16公尺時的可見距離\n\n燈光能否被看見，須同時考慮光度可見距離（luminous range）及地理可見距離（geographical range），實際可見距離取兩者較小值。\n\n在標準大氣折射近似下，地理可見距離可用：\n\nD = 2.08 × (√h₁ + √h₂)\n\n其中：\n- h₁ = 燈高 = 17 m\n- h₂ = 觀測者眼高 = 16 m\n- D 單位為海里\n\n代入：\n\nD = 2.08 × (√17 + √16)\n  = 2.08 × (4.123 + 4)\n  = 16.90 浬（約）\n\n燈標名義光程為36浬，若題目所稱正常視野代表標準能見度條件，光度可見距離仍須與地理可見距離比較；本題依燈高與眼高計算，地理可見距離約16.9浬，故理論上可見距離約17浬。\n\n答案：約17浬。",
+    "practicalAnalysis": "燈標標示的36浬是名義光程，不等於任何觀測者在任何高度都能看見36浬。燈光可見距離受燈光強度與氣象能見度影響；地理可見距離受燈高、眼高及大氣折射影響。題目給出燈高與眼高，應計算地理可見距離，再與光度可見距離比較。若題目對「正常視野」的能見度定義另有指定，應再依光度距離表或Allard定律校核。",
+    "keyPoints": [
+      {
+        "point": "FL W (3) 12 sec：白色三閃光，每12秒一週期",
+        "importance": "essential"
+      },
+      {
+        "point": "36 M為名義光程，17m為燈高",
+        "importance": "essential"
+      },
+      {
+        "point": "地理可見距離公式D=2.08(√燈高+√眼高)，單位海里",
+        "importance": "essential"
+      },
+      {
+        "point": "代入17m及16m，地理可見距離約16.9浬",
+        "importance": "essential"
+      },
+      {
+        "point": "實際可見距離取光度可見距離與地理可見距離較小者",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "Admiralty List of Lights and Fog Signals—Light characteristics and ranges",
+        "issuer": "UK Hydrographic Office",
+        "url": "https://www.admiralty.co.uk/publications/admiralty-list-of-lights-and-fog-signals",
+        "supports": "燈質、名義光程及燈高資料的航海出版品背景。",
+        "sourceType": "official_chart_or_notice",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch), Chapter 5: Navigational Aids and Lights",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "supports": "燈標地理可見距離、光度可見距離及大氣折射相關航海計算。",
+        "sourceType": "official_chart_or_notice",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "assumptions": [
+      "採標準大氣折射係數的近似公式D=2.08(√h₁+√h₂)。",
+      "題目未另提供能見度數值，依正常能見度條件判讀，並以地理可見距離約束結果。"
+    ],
+    "limitations": [
+      "若「正常視野」在原考題教材中有明確定義，應以該定義計算光度可見距離；本答案將其與地理可見距離分開說明。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "燈質符號解讀",
+          "result": "pass"
+        },
+        {
+          "item": "地理可見距離計算與單位",
+          "result": "pass"
+        },
+        {
+          "item": "名義光程與地理可見距離區分",
+          "result": "pass"
+        },
+        {
+          "item": "航海天文／燈標計算專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "reviewNotes": [
+      "非官方參考擬答；採近似標準折射公式。",
+      "需核對考試年度採用之海圖圖例及燈標資料中對 GP. 符號的標示慣例。"
+    ],
+    "lastUpdated": "2026-11-05"
   }
 ]
