@@ -7637,5 +7637,244 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-kaohsiung-waterway-03-answer-v1",
+    "questionId": "108-kaohsiung-waterway-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "operational_scenario",
+    "modelAnswer": "一、離泊前準備：確認CPP船總噸7,000、LOA120m、吃水4m，繫泊於B52／53浮筒，未下錨，配置2,400HP拖船。東北季風5級，先確認浮筒位置、船艏方向及風壓對船舶的作用方向。向VTS確認離泊排班、一港口航道及外海交通；查閱Pilot Card、主機、舵機及螺槳旋向，與拖船船長完成MPX、拖帶／推頂方式及緊急脫纜簡報。\n\n二、離開浮筒：拖船到位並建立控制力後，逐步解開浮筒繫纜，避免船舶突然受東北風推移。拖船依船艏艉及風壓狀況控制最易偏移的一端；若船艏受風偏移，先控制艏部；若船艉外擺，則控制艉部。因未下錨，不能以錨作為支點，須由拖船、主機及舵控制船位。保持低速，避免拖纜進入螺旋槳或舵區。\n\n三、一港口出港：向VTS報告離開浮筒及預定出港，依排班進入指定航道，守聽港內VHF。依分道通航規定航行，保持安全速度及瞭望，監控雷達、ECDIS、GNSS、AIS及目視船位。注意東北季風側風、潮流、港口入口水深及進出港船舶會遇；接近防波堤前確認航道淨空，避免與進港船在狹窄水域交會。離開港區後完成引水人離輪及VTS紀錄。\n\n四、結論：本船未下錨，離泊時須由2,400HP拖船先建立控制力，配合主機及舵逐步解纜、低速離開B52／53浮筒；之後依VTS排班及一港口分道通航規定出港。",
+    "practicalAnalysis": "題目未提供船舶艏向、浮筒相對位置及潮流方向，拖船控制艏或艉須依現場風壓及船舶運動決定。未下錨代表不能用錨作支點，應先建立拖船控制力再解纜。",
+    "keyPoints": [
+      {
+        "point": "東北季風5級，判斷風壓對船舶艏艉及浮筒的作用",
+        "importance": "essential"
+      },
+      {
+        "point": "未下錨，離泊依拖船、主機及舵控制",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船先建立控制力再逐步解纜",
+        "importance": "essential"
+      },
+      {
+        "point": "VTS排班、VHF守聽及一港口分道通航",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港水域船舶交通服務作業指南",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://www.baisha.gov.tw/uploaddowndoc?file=report%2F202303101642050.pdf&filedisplay=2032525_112D000784_112D2000473-01.pdf&flag=doc",
+        "pageOrSection": "港內航行、VTS通報及一港口航道",
+        "accessedAt": "2026-11-05",
+        "supports": "VTS航行及港內交通規定。"
+      },
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "pageOrSection": "拖船協助離泊及移泊程序",
+        "accessedAt": "2026-11-05",
+        "supports": "拖船及離泊協調。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "港務公司及官方航行規定已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立引水專業複核",
+          "result": "needs_review",
+          "note": "仍待依考試年度港區圖及現場條件複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-kaohsiung-waterway-04-answer-v1",
+    "questionId": "108-kaohsiung-waterway-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "operational_scenario",
+    "modelAnswer": "一、移泊前規劃：確認雜貨船總噸14,000、LOA160m、吃水5m，由31號碼頭移泊至95號碼頭，配置2,400HP及1,800HP拖船各一艘。北風5級，風由北向南吹，應依31及95號碼頭岸線方位判斷吹攏／吹離分力；確認潮流、航道、船席、主機舵機及螺槳旋向。向VTS申請移泊排班，確認航路、其他船舶及碼頭作業區淨空。兩艘拖船分別負責艏艉控制，約定拖纜、推頂／拖帶、通訊及緊急脫纜。\n\n二、離開31號碼頭：拖船到位並建立控制力後，逐步解開艏艉纜及彈簧纜，保留最後控制纜。兩艘拖船一艏一艉控制橫移及偏航，主機與舵控制前進速度及艏向；避免大舵角及高車速離岸。船體離岸後確認與鄰船及港內設施距離足夠，再沿VTS指定航路移泊。\n\n三、沿途注意：保持安全速度及瞭望，注意第四船渠、第一貨櫃中心、浮筒、船渠入口及港內交通。通過56至63號碼頭間水域時，依高雄港航行規定注意限速及與靠泊船舶的安全距離，避免高速船跡波影響其他船舶。遇船舶會遇、岸壁效應或拖船尾流影響時，依VTS指示等待或調整航路。\n\n四、靠泊95號碼頭：依風流及艏向安排兩艘拖船控制艏艉，逐步降低前進及橫向速度。使船體與碼頭平行，採平移平靠；必要時以一艏一艉拖船修正艏向及船艉外擺。依序送出艏纜、艉纜及彈簧纜，確認船位穩定後解除拖船。\n\n五、結論：全程以兩艘拖船分別控制艏艉，主機與舵控制速度及方向；依北風及實際風流修正航跡，遵守VTS排班及港內限速，並於95號碼頭低速平移平靠。",
+    "practicalAnalysis": "題目未提供兩碼頭岸線方向及船舶艏向，北風的吹攏／吹離分量須依圖面判斷。兩艘拖船應分別控制艏艉；航經56至63號碼頭間水域時注意高雄港限速及靠泊船舶安全距離。",
+    "keyPoints": [
+      {
+        "point": "2,400HP及1,800HP拖船一艏一艉分工",
+        "importance": "essential"
+      },
+      {
+        "point": "北風5級依碼頭方位判斷吹攏／吹離",
+        "importance": "essential"
+      },
+      {
+        "point": "VTS排班及56至63號碼頭間限速",
+        "importance": "essential"
+      },
+      {
+        "point": "95號碼頭低速平移平靠，控制艏艉掃掠",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港船舶航行規定",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "pageOrSection": "港內航行、限速及拖船協助",
+        "accessedAt": "2026-11-05",
+        "supports": "港內航行、限速及安全距離。"
+      },
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "pageOrSection": "拖船調派、移泊及靠離碼頭",
+        "accessedAt": "2026-11-05",
+        "supports": "移泊及拖船協調。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "港務公司及官方航行規定已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立引水專業複核",
+          "result": "needs_review",
+          "note": "仍待依考試年度港區圖及現場條件複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-kaohsiung-waterway-05-answer-v1",
+    "questionId": "108-kaohsiung-waterway-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "operational_scenario",
+    "modelAnswer": "一、安全登輪：颱風過境後西南風約6級，須確認風速、陣風、浪高、湧浪、能見度及引水艇可安全靠近的舷側。確認船舶14,800GT、LOA165m、艏吃水4m、艉吃水6m、艏推器1,000HP及3,200HP拖船配置，查閱Pilot Card。向VTS確認二港口登輪區及進港排班；選擇較背風、浪較小且引水艇可安全接近的一舷，船舶以適當低速保持穩定航向。依SOLAS V/23及IMO A.1045(27)檢查引水梯級、側繩、防扭梯級、固定點、扶手繩、照明及接應人員，不合格不得攀登。登輪後與船長交換操縱性能、航路、風流、拖船及緊急應變方案。\n\n二、進港規劃：向VTS報告引水人登輪，依第二港口分道通航及指定航道進港，監控雷達、ECDIS、GNSS、AIS及目視船位。西南風由西南吹向東北，須依81號碼頭岸線方向判斷吹攏／吹離分力；艏推器控制船艏橫移，拖船協助艉部及偏航控制。確認船席、鄰船、碼頭設備及可用水域，計算吃水與潮位下UKC。\n\n三、靠泊81號碼頭：接近泊位前提早減速，避免碼頭前急轉；以1,000HP艏推器控制船艏橫移，3,200HP拖船控制船艉及偏航，主機與舵配合維持速度及艏向。採低速平行接近，逐步消除橫向速度及轉向率，避免船艏先撞靠或船艉掃碰鄰船。確認護舷、繫船柱及帶纜人員安全後送纜，船位穩定再解除拖船；若風浪增強或船位失控，停止靠泊並帶離重定位。\n\n四、結論：颱風過境後仍有風及殘餘湧浪，應先確保引水艇與引水梯登輪安全，再依VTS指定登輪區進港。靠泊時艏推器控制艏部、拖船控制艉部，採低速平移平靠並設定中止條件。",
+    "practicalAnalysis": "此題特別要求安全登輪，應將颱風過境後殘餘湧浪、風向、引水艇接近舷側及引水梯檢查列為第一段。西南風相對81號碼頭岸線的吹攏／吹離方向須依圖面判斷。",
+    "keyPoints": [
+      {
+        "point": "評估颱風過境後風浪、湧浪及引水艇登輪安全",
+        "importance": "essential"
+      },
+      {
+        "point": "依二港口核定登輪區及VTS排班登輪",
+        "importance": "essential"
+      },
+      {
+        "point": "艏推器控制船艏、拖船控制船艉及偏航",
+        "importance": "essential"
+      },
+      {
+        "point": "低速平行接近、平移平靠及中止條件",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "SOLAS Chapter V Regulation 23 – Pilot transfer arrangements",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/pilotage.aspx",
+        "pageOrSection": "Pilot transfer arrangements",
+        "accessedAt": "2026-11-05",
+        "supports": "引水人登離船安全要求。"
+      },
+      {
+        "title": "IMO Resolution A.1045(27), Pilot Transfer Arrangements",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1045(27).pdf",
+        "pageOrSection": "Pilot ladder and combination arrangements",
+        "accessedAt": "2026-11-05",
+        "supports": "引水梯及登輪安全規範。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "港務公司及官方航行規定已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立引水專業複核",
+          "result": "needs_review",
+          "note": "仍待依考試年度港區圖及現場條件複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-kaohsiung-waterway-06-answer-v1",
+    "questionId": "108-kaohsiung-waterway-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "依高雄港船舶航行規定，**船長超過150公尺**的進港船舶，如靠泊30至35號及49至57號碼頭，應順進港方向靠泊，不得在碼頭前方水域迴轉。此規定是為避免大型船舶在碼頭前有限水域迴旋，造成艏艉掃掠、與鄰船碰撞或妨礙港內交通。引水人應事先規劃進港方向、轉向點及拖船配置，依VTS指示完成靠泊。",
+    "practicalAnalysis": "本題直接對應高雄港船舶航行規定第17點：船長超過150m，適用30–35及49–57號碼頭，須順進港方向靠泊，不得在碼頭前迴轉。",
+    "keyPoints": [
+      {
+        "point": "LOA超過150m",
+        "importance": "essential"
+      },
+      {
+        "point": "適用30–35及49–57號碼頭",
+        "importance": "essential"
+      },
+      {
+        "point": "須順進港方向靠泊，不得在碼頭前迴轉",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港船舶航行規定",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "pageOrSection": "第17點",
+        "accessedAt": "2026-11-05",
+        "supports": "超過150m船舶靠泊30–35及49–57號碼頭之限制。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "港務公司及官方航行規定已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立引水專業複核",
+          "result": "needs_review",
+          "note": "仍待依考試年度港區圖及現場條件複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
