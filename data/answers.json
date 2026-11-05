@@ -15829,5 +15829,409 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-pilotage-01-answer-v1",
+    "questionId": "102-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "definition",
+    "modelAnswer": "一、引導標誌（Leading Mark）\n由前、後兩個固定標誌組成，兩標誌位於同一直線上；船舶使前標遮住後標或兩標上下對齊，即表示船舶位於預定航道中心線或安全航線上。常用於港口入口、狹窄航道及淺水區。\n\n二、安全標誌（Clearing Mark）\n利用固定岸標或明顯物標作為安全界線判斷依據。船舶保持標誌與特定方位或相對位置關係，即可確認船舶仍在安全水域內，未越過危險淺點、礁石或航道邊界。其用途是提供安全界限，而非精確指示航道中心線。\n\n三、導燈（Range Light）\n由前、後兩座燈標組成，兩燈位於同一導線上，通常具有不同高度或燈質。船舶使兩燈在同一直線上重合，即可沿導線航行；偏離導線時，兩燈會呈現上下錯位。導燈常用於港口入口及狹窄航道夜間導引。",
+    "practicalAnalysis": "Leading marks及Range lights均以兩個標誌／燈標對準形成導線；Clearing mark則用來判斷船舶是否仍在安全水域，不一定代表航道中心線。",
+    "keyPoints": [
+      {
+        "point": "Leading Mark：前後岸標對齊，指示預定航道導線",
+        "importance": "essential"
+      },
+      {
+        "point": "Clearing Mark：提供安全界線，確認未越過危險區",
+        "importance": "essential"
+      },
+      {
+        "point": "Range Light：前後導燈重合時沿導線航行",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IALA Guideline G1111 and Maritime Buoyage System",
+        "sourceType": "technical_standard",
+        "issuer": "International Association of Marine Aids to Navigation and Lighthouse Authorities",
+        "url": "https://www.iala.int/technical/data/",
+        "pageOrSection": "Leading lines, clearing marks and lights",
+        "accessedAt": "2026-11-05",
+        "supports": "導引標誌、清除標誌及導燈的用途。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Leading lines and ranges",
+        "accessedAt": "2026-11-05",
+        "supports": "導線及導燈航行原理。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "三項術語定義及用途已區分",
+          "result": "pass"
+        },
+        {
+          "item": "導線及安全界線原理已核對",
+          "result": "pass"
+        },
+        {
+          "item": "引港學專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-pilotage-02-answer-v1",
+    "questionId": "102-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一般航海海圖依用途及比例尺可分為下列主要類型；各國水道機關分類界線略有差異，以下為常用範圍：\n\n一、航行總圖（Sailing Chart）：小比例尺，約1:3,500,000至1:1,000,000或更小。用於遠洋航線規劃及跨洋航行，表示大範圍海岸、主要航路及海域概況。\n\n二、一般圖（General Chart）：中小比例尺，約1:1,000,000至1:300,000。用於較大區域的沿岸及海域航行，提供主要航道、島嶼、海岸及水深概況。\n\n三、沿岸圖（Coastal Chart）：中比例尺，約1:300,000至1:75,000。用於沿岸航行，詳細表示海岸線、島嶼、航標、危險物及沿岸水深。\n\n四、進港圖／航道圖（Approach Chart）：較大比例尺，約1:75,000至1:25,000。用於接近港口、海灣及狹窄航道，顯示進港航路、航道界線、錨地、助航設施及淺點。\n\n五、港區圖（Harbour Chart）：大比例尺，約1:25,000至1:5,000。用於港內航行、靠離碼頭及移泊，詳細標示碼頭、船渠、浮筒、迴船池、水深及港區設施。\n\n六、泊位圖／靠泊圖（Berthing Plan）：特大比例尺，通常1:5,000或更大。用於碼頭附近精細操船，顯示護舷、繫船柱、碼頭前水深、船席及水下設施。\n\n海圖比例尺愈大，局部細節愈多，但涵蓋範圍愈小；比例尺愈小，適合大範圍航線規劃，但不適合靠離碼頭等精細操船。",
+    "practicalAnalysis": "海圖分類依用途及比例尺排列，應由遠洋總圖到港區及泊位圖。比例尺範圍在不同海道測量機關可能略有不同，考試時應以題目指定教材或海軍大氣海洋局分類為準。",
+    "keyPoints": [
+      {
+        "point": "Sailing Chart：小比例尺，遠洋航線規劃",
+        "importance": "essential"
+      },
+      {
+        "point": "General／Coastal Chart：一般海域及沿岸航行",
+        "importance": "essential"
+      },
+      {
+        "point": "Approach Chart：接近港口及狹窄航道",
+        "importance": "essential"
+      },
+      {
+        "point": "Harbour／Berthing Plan：港內操船及碼頭靠泊",
+        "importance": "essential"
+      },
+      {
+        "point": "比例尺愈大，局部細節愈多、涵蓋範圍愈小",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IHO S-4 Regulations for International (INT) Charts",
+        "sourceType": "technical_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/en/standards-and-specifications",
+        "pageOrSection": "Chart scales and usage categories",
+        "accessedAt": "2026-11-05",
+        "supports": "海圖比例尺及用途分類。"
+      },
+      {
+        "title": "NOAA Chart User's Guide",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA Office of Coast Survey",
+        "url": "https://nauticalcharts.noaa.gov/publications/docs/nautical-chart-manual/ChartUsersGuide.pdf",
+        "pageOrSection": "Chart scale and chart categories",
+        "accessedAt": "2026-11-05",
+        "supports": "航海海圖比例尺及使用範圍。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "各類海圖用途已依官方圖資分類整理",
+          "result": "pass"
+        },
+        {
+          "item": "比例尺範圍已標註為常用近似範圍",
+          "result": "pass"
+        },
+        {
+          "item": "指定教材版次仍待核對",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-pilotage-03-answer-v1",
+    "questionId": "102-pilotage-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "definition",
+    "modelAnswer": "一、Oc. (2+3) – Occulting, group (2+3)：明暗光中亮的時間長於暗的時間；每一完整週期分成兩閃及三閃兩組，兩組間有較長間隔。\n\n二、LFl – Long-flashing：長閃光，單次閃光時間至少2秒，依燈表所列週期重複。\n\n三、VQ – Very Quick：甚快閃光，閃光頻率每分鐘約100至120次。\n\n四、Mo. (A) – Morse code letter A：摩斯碼A字母燈質，呈現一短閃接一長閃（· —）的週期。\n\n五、Alt. – Alternating：交替燈光，燈色在同一燈標的週期中交替變化，例如白／紅交替或白／綠交替，實際顏色依燈表記載。",
+    "practicalAnalysis": "燈質代號需注意Oc為明暗光且亮時較長；LFl長閃至少2秒；VQ每分鐘100至120閃；Mo.(A)為短長閃；Alt為不同燈色交替。",
+    "keyPoints": [
+      {
+        "point": "Oc.(2+3)：明暗光，亮時長於暗時，兩閃加三閃分組",
+        "importance": "essential"
+      },
+      {
+        "point": "LFl：長閃，閃光時間至少2秒",
+        "importance": "essential"
+      },
+      {
+        "point": "VQ：甚快閃，每分鐘100–120次",
+        "importance": "essential"
+      },
+      {
+        "point": "Mo.(A)：摩斯碼A，短閃接長閃",
+        "importance": "essential"
+      },
+      {
+        "point": "Alt：交替燈色",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IALA Recommendation R0110 – The IALA Maritime Buoyage System",
+        "sourceType": "technical_standard",
+        "issuer": "International Association of Marine Aids to Navigation and Lighthouse Authorities",
+        "url": "https://www.iala.int/product/r0110/?download=true",
+        "pageOrSection": "Light characteristics and abbreviations",
+        "accessedAt": "2026-11-05",
+        "supports": "燈質代號、閃光頻率及交替燈色。"
+      },
+      {
+        "title": "Admiralty List of Lights and Fog Signals – Abbreviations",
+        "sourceType": "official_port_or_authority",
+        "issuer": "UK Hydrographic Office",
+        "url": "https://www.admiralty.co.uk/publications/admiralty-list-of-lights",
+        "pageOrSection": "Abbreviations and descriptions of lights",
+        "accessedAt": "2026-11-05",
+        "supports": "Oc、LFl、VQ、Mo及Alt燈質代號。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "五項燈質代號已依IALA及燈表術語核對",
+          "result": "pass"
+        },
+        {
+          "item": "分組及頻率定義已核對",
+          "result": "pass"
+        },
+        {
+          "item": "專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-pilotage-04-answer-v1",
+    "questionId": "102-pilotage-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "definition",
+    "modelAnswer": "一、太陰日（Lunar Day）：月球連續兩次通過同一地點子午線所需時間，平均約24小時50分；因月球每天相對地球向東移動，太陰日比太陽日長約50分鐘。\n\n二、日潮（Diurnal Tide）：一個太陰日內通常只有一次高潮及一次低潮的潮汐型態。\n\n三、混合潮（Mixed Tide）：一個太陰日內通常有兩次高潮及兩次低潮，但相鄰高潮或低潮的潮高、潮時差異明顯，日不等現象較大。\n\n四、憩潮（Stand of Tide）：高潮或低潮附近，潮位在一段時間內變化很小、看似暫時停留的現象；不等同潮流完全停止的憩流（Slack Water）。\n\n五、半潮面（Half Tide Level）：平均高潮面與平均低潮面之間的中間水位，常作為潮汐資料及海圖基準相關的參考水位；實際採用基準須依海圖及潮汐表說明。",
+    "practicalAnalysis": "太陰日平均24h50m；日潮每日一高一低；混合潮每日兩高兩低但不等；Stand of Tide是高潮／低潮附近潮位變化很小，不要與Slack Water（憩流）混淆；Half Tide Level是平均高潮與平均低潮的中間水位。",
+    "keyPoints": [
+      {
+        "point": "Lunar Day：約24小時50分",
+        "importance": "essential"
+      },
+      {
+        "point": "Diurnal Tide：每太陰日一高一低",
+        "importance": "essential"
+      },
+      {
+        "point": "Mixed Tide：兩高兩低但潮高／潮時不等",
+        "importance": "essential"
+      },
+      {
+        "point": "Stand of Tide：高潮或低潮附近潮位短暫變化很小",
+        "importance": "essential"
+      },
+      {
+        "point": "Half Tide Level：平均高潮與平均低潮的中間水位",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "Tidal Glossary",
+        "sourceType": "official_port_or_authority",
+        "issuer": "UK Hydrographic Office",
+        "url": "https://www.admiralty.co.uk/publications/admiralty-tide-tables",
+        "pageOrSection": "Lunar day, diurnal tide, mixed tide and stand of tide",
+        "accessedAt": "2026-11-05",
+        "supports": "潮汐相關名詞定義。"
+      },
+      {
+        "title": "Tides and Water Levels Glossary",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA National Ocean Service",
+        "url": "https://oceanservice.noaa.gov/education/tutorial_tides/tides05_glossary.html",
+        "pageOrSection": "Tidal terms and levels",
+        "accessedAt": "2026-11-05",
+        "supports": "潮汐週期及潮位名詞。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "五項潮汐名詞已區分",
+          "result": "pass"
+        },
+        {
+          "item": "Stand of Tide與Slack Water差異已註明",
+          "result": "pass"
+        },
+        {
+          "item": "專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-pilotage-05-answer-v1",
+    "questionId": "102-pilotage-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、氣團的成因\n氣團是大範圍空氣在廣闊、性質相對均勻的源地停留一段時間，逐漸取得該地區的溫度及濕度特性所形成。常見源地包括大陸、海洋、極地及熱帶地區；形成條件包括地表性質均勻、氣流停滯或緩慢移動及大氣層結穩定。\n\n二、氣團的種類\n（一）依溫度及緯度：北極氣團（A）、極地氣團（P）、熱帶氣團（T）及赤道氣團（E）。\n（二）依源地表面：大陸氣團（c，乾燥）及海洋氣團（m，潮濕）。因此可組合為大陸極地氣團（cP）、海洋極地氣團（mP）、大陸熱帶氣團（cT）、海洋熱帶氣團（mT）及海洋赤道氣團（mE）等。\n\n三、影響臺灣天氣的主要氣團\n（一）大陸極地氣團（cP）：源自西伯利亞及蒙古一帶，冬季隨東北季風南下，帶來寒冷乾燥空氣；經過東海及臺灣海峽後可吸收水氣，迎風面降雨增加。\n（二）海洋熱帶氣團（mT）：源自西北太平洋及南海，溫暖潮濕，夏季西南季風及太平洋高壓環流常將其帶至臺灣，造成高溫潮濕及午後對流降雨。\n（三）海洋赤道氣團（mE）：源自低緯度海域，溫暖且水氣豐富，常伴隨季風、熱帶低壓及颱風外圍環流影響臺灣。\n（四）大陸熱帶氣團（cT）：源自大陸內陸，較炎熱乾燥，春夏季可能影響臺灣，造成高溫及乾燥天氣。\n\n四、結論\n氣團由均勻源地取得溫濕特性，依溫度緯度及海陸源地分類。臺灣主要受冬季西伯利亞大陸極地氣團、夏季西北太平洋及南海海洋熱帶氣團，以及低緯度海洋赤道氣團影響。",
+    "practicalAnalysis": "氣團成因須提及源地廣大均勻、停留時間足夠及取得源地溫濕特性；分類依緯度及海陸表面；臺灣季節性天氣主要受冬季大陸極地氣團及夏季海洋熱帶／赤道氣團影響。",
+    "keyPoints": [
+      {
+        "point": "氣團在廣大均勻源地停留並取得溫度及濕度特性",
+        "importance": "essential"
+      },
+      {
+        "point": "分類：A、P、T、E及c／m海陸性",
+        "importance": "essential"
+      },
+      {
+        "point": "臺灣冬季主要受西伯利亞cP及東北季風影響",
+        "importance": "essential"
+      },
+      {
+        "point": "夏季受西北太平洋／南海mT及低緯度mE影響",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "Air Masses and Fronts",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA National Weather Service",
+        "url": "https://www.weather.gov/jetstream/airmasses",
+        "pageOrSection": "Air mass classification and source regions",
+        "accessedAt": "2026-11-05",
+        "supports": "氣團形成及分類。"
+      },
+      {
+        "title": "臺灣氣候及季風資料",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部中央氣象署",
+        "url": "https://www.cwa.gov.tw/",
+        "pageOrSection": "季風、氣團及臺灣季節天氣",
+        "accessedAt": "2026-11-05",
+        "supports": "影響臺灣的季風及氣團。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "氣團形成及分類已核對",
+          "result": "pass"
+        },
+        {
+          "item": "影響臺灣主要氣團及季節已整理",
+          "result": "pass"
+        },
+        {
+          "item": "氣象專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-pilotage-06-answer-v1",
+    "questionId": "102-pilotage-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "雷雨雲（西北雨，通常為積雨雲）發展可分為三個階段：\n\n一、積雲階段（Cumulus Stage）\n（一）地面受熱或地形抬升，使暖濕空氣強烈上升，形成積雲並逐漸向上發展。\n（二）雲內以強烈上升氣流為主，水滴及冰晶不斷凝結增大，雲頂逐漸升高。\n（三）此階段降雨通常尚未明顯，雲體持續發展，可能伴隨局部陣風。\n\n二、成熟階段（Mature Stage）\n（一）雲體發展至高空，雲頂常呈砧狀（Anvil），雲內同時存在強烈上升氣流及下降氣流。\n（二）水滴及冰晶增大後形成強降雨，可能伴隨雷電、冰雹、強陣風及短時間劇烈天氣。\n（三）降水拖曳及冷空氣下沉形成下沉氣流，地面可能出現陣風鋒面（Gust Front），風向及風速快速改變。\n（四）此階段對船舶最危險，可能造成能見度驟降、風浪突增及船舶操縱困難。\n\n三、消散階段（Dissipating Stage）\n（一）下降氣流逐漸占優勢，上升氣流減弱，雲體水氣來源減少。\n（二）降雨逐漸減弱，雲頂停止發展並逐漸崩解，雷電活動減少。\n（三）雲體消散後，局部天氣逐漸恢復，但附近仍可能有其他新生對流雲發展。\n\n四、航海注意事項\n雷雨雲接近時應注意雷達及氣象資訊，監控風向風速、氣壓、能見度及雷電；避免在強陣風及雷雨核心附近進行引水登離輪、靠離碼頭或吊裝作業，必要時減速、等待或改變航路。",
+    "practicalAnalysis": "三階段為積雲、成熟、消散。積雲階段以Updraft為主；成熟階段同時有Updraft及Downdraft，雷雨、強降雨、閃電、冰雹及陣風最強；消散階段Downdraft占優勢，上升氣流減弱。",
+    "keyPoints": [
+      {
+        "point": "積雲階段：暖濕空氣上升，雲體發展，上升氣流為主",
+        "importance": "essential"
+      },
+      {
+        "point": "成熟階段：上升與下降氣流並存，雷雨及強降雨最明顯",
+        "importance": "essential"
+      },
+      {
+        "point": "消散階段：下降氣流占優勢，上升氣流減弱，降雨停止",
+        "importance": "essential"
+      },
+      {
+        "point": "航海風險：陣風、風向突變、能見度下降及雷電",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "Thunderstorms",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA National Weather Service",
+        "url": "https://www.weather.gov/jetstream/thunderstorm",
+        "pageOrSection": "Cumulus, mature and dissipating stages",
+        "accessedAt": "2026-11-05",
+        "supports": "雷雨雲三階段及各階段氣流特徵。"
+      },
+      {
+        "title": "臺灣雷雨及午後對流資料",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部中央氣象署",
+        "url": "https://www.cwa.gov.tw/",
+        "pageOrSection": "雷雨雲及西北雨形成",
+        "accessedAt": "2026-11-05",
+        "supports": "臺灣午後雷雨及對流天氣。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "雷雨雲三階段及上升／下降氣流特徵已核對",
+          "result": "pass"
+        },
+        {
+          "item": "航海風險已補充",
+          "result": "pass"
+        },
+        {
+          "item": "氣象專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
