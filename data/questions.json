@@ -4528,5 +4528,65 @@
     "sourceId": "moex-087-shiphandling",
     "status": "已核對",
     "questionNo": 8
+  },
+  {
+    "id": "087-waterway-01",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "請描繪自第二港口防波堤口至前鎮河口間港域圖（包括中鋼、中船前支航道），並註明碼頭位置及編號、航道水深及最窄處寬度。（25分）",
+    "sourceId": "moex-087-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "087-waterway-02",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "船舶從第一港口進港時所需參考之導航標誌有多少？請以圖標示其位置，並描述其燈光特性。（15分）",
+    "sourceId": "moex-087-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "087-waterway-03",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "從第一港口進港時之航行方法及日夜間進出港管制信號為何？請說明之。（15分）",
+    "sourceId": "moex-087-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "087-waterway-04",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "高雄港第一、二港口外之航道禁錨區位於何處？港內航道禁止緊急拋錨區位於何處？請說明之。（15分）",
+    "sourceId": "moex-087-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "087-waterway-05",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "請就高雄港內最常發生之碰撞海事，概述其原因及防範之道？（15分）",
+    "sourceId": "moex-087-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "087-waterway-06",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "高雄港正在推動設置船舶交通管理系統（VTMS），請概述該系統架構、主要功能及船舶之配合措施？（15分）",
+    "sourceId": "moex-087-waterway",
+    "status": "已核對",
+    "questionNo": 6
   }
 ]
