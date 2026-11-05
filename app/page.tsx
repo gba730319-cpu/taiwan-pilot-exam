@@ -23,6 +23,8 @@ type Source = {
 
 const subjects = ["全部科目", "當地水道港灣詳情", "航政法規", "引港學", "船舶操縱", "專業英文", "實用英文"];
 const ports = ["全部港區", "高雄港", "基隆港", "臺中港", "臺北港", "和平港", "麥寮港", "麥寮工業專用港", "安平港", "蘇澳港", "花蓮港"];
+// 正式備考範圍：民國83、84、85、86、87、89、90、91、92、94、96、98、100、102、104、106、108、110、112、114年。
+const officialYears = new Set([1994, 1995, 1996, 1997, 1998, 2000, 2001, 2002, 2003, 2005, 2007, 2009, 2011, 2013, 2015, 2017, 2019, 2021, 2023, 2025]);
 
 function rocYear(year: number) {
   return year - 1911;
@@ -43,7 +45,7 @@ export default function Home() {
   const [year, setYear] = useState("全部年度");
   const [subject, setSubject] = useState("全部科目");
   const [port, setPort] = useState("高雄港");
-  const items = questions as Question[];
+  const items = (questions as Question[]).filter((q) => officialYears.has(q.year));
   const sources = sourceData as Source[];
   const sourceById = useMemo(() => new Map(sources.map((s) => [s.id, s] as const)), [sources]);
   const years = useMemo(
