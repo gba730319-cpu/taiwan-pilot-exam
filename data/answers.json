@@ -2942,5 +2942,309 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "112-pilotage-01-answer-v1",
+    "questionId": "112-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、颱風之定義\n颱風是發生於西北太平洋及南海熱帶海洋上的強烈熱帶氣旋。依中央氣象署定義，當熱帶氣旋近地面中心附近最大風速達到或超過每秒17.2公尺（約每小時62公里）時，稱為颱風。北半球環流方向為反時針，南半球為順時針。\n\n二、颱風之成因\n（一）海面溫度高且水氣充足：暖海面促進蒸發，暖濕空氣上升形成強烈對流雲系。\n（二）凝結潛熱釋放：水氣上升凝結成雲雨時釋放潛熱，使對流持續增強並維持低壓中心。\n（三）低層輻合及高層輻散：近地面空氣向低壓中心輻合上升，高層空氣向外輻散，使中心氣壓進一步降低。\n（四）科氏力：提供氣流旋轉所需偏向作用，故熱帶氣旋通常不在赤道附近生成。\n（五）適當環境條件：垂直風切較弱、對流層中層濕度足夠，且有初始擾動或季風槽等低壓系統，較有利於發展。\n（六）颱風主要能量來自暖海面水氣蒸發及凝結潛熱，並非單純由地面受熱形成。\n\n三、颱風之結構\n（一）颱風眼（Eye）：位於中心，通常風力較弱、天氣相對平靜，氣壓最低，空氣多有下沉作用；眼的大小及形狀會隨颱風強度與結構變化。\n（二）眼牆（Eyewall）：環繞颱風眼的強烈對流雲牆，通常為最大風速、最強降雨及最劇烈天氣區域。\n（三）螺旋雨帶（Spiral Rainbands）：由外圍向中心呈螺旋狀排列的對流雲帶，可帶來強降雨、陣風及局部劇烈天氣。\n（四）高層外流（Upper-level outflow）：颱風上層空氣向外輻散，協助維持低層輻合與整體環流。\n（五）暖心結構（Warm-core）：颱風中心附近中高層氣溫較周圍高，是熱帶氣旋的重要熱力特徵。\n\n四、颱風之行進變化\n（一）颱風主要受大尺度環境導引氣流控制，西北太平洋颱風常受太平洋副熱帶高壓環流影響。\n（二）副熱帶高壓位置與強弱變化，會使颱風路徑偏西、偏北、轉向東北或出現滯留、迴轉。\n（三）颱風接近中緯度時，可能受到西風帶及鋒面系統影響而轉向，並可能逐漸轉化為溫帶氣旋。\n（四）颱風登陸後失去暖海面水氣供應，且受地形摩擦及地形抬升影響，通常逐漸減弱；若移入較冷海域，也可能因能量來源減少而衰弱。\n（五）颱風可能增強、減弱、移速改變、路徑轉向或發生眼牆置換，不能只以單一典型路徑推斷。\n\n五、颱風對臺灣之影響\n（一）強風及陣風：造成建築物、電力設施、港口設備及船舶受損。\n（二）豪雨及洪水：造成河川暴漲、淹水、山崩、坍方及土石流。\n（三）暴潮及海水倒灌：低氣壓與強風推升海面，沿海低窪地區及港區可能淹水。\n（四）大浪及長週期湧浪：造成船舶劇烈搖晃、甲板上浪、繫纜斷裂、船舶走錨及港口作業中斷。\n（五）海流及潮汐異常：強風及氣壓變化可能改變沿岸流、港內流及潮位，影響船舶進出港及靠離泊。\n（六）航行及港口作業：能見度下降、航道障礙、助航設施受損、引水人及拖船登離輪困難，港口可能暫停進出港。\n\n六、結論\n颱風是以暖海面水氣及凝結潛熱為主要能量來源的強烈熱帶氣旋，具有颱風眼、眼牆及螺旋雨帶等結構，路徑受大尺度環流導引而可能轉向或變速。對臺灣的主要危害包括強風、豪雨、洪水、暴潮、大浪及港口航行風險，船舶應依官方警報、風圈及海象預報提早避風。",
+    "practicalAnalysis": "定義採中央氣象署17.2m/s門檻。成因需寫出暖海面、水氣、凝結潛熱、低層輻合、高層輻散、科氏力及弱垂直風切。結構至少分眼、眼牆、螺旋雨帶；行進變化須說明副熱帶高壓、西風帶及登陸／冷海面衰減。海事作答應補充大浪、暴潮、走錨及港口停航。",
+    "keyPoints": [
+      {
+        "point": "颱風定義：中心附近最大風速達17.2m/s",
+        "importance": "essential"
+      },
+      {
+        "point": "生成條件：暖海面、水氣、凝結潛熱、輻合輻散、科氏力及弱風切",
+        "importance": "essential"
+      },
+      {
+        "point": "結構：颱風眼、眼牆、螺旋雨帶及高層外流",
+        "importance": "essential"
+      },
+      {
+        "point": "路徑受副熱帶高壓及西風帶導引，可轉向、滯留或減弱",
+        "importance": "essential"
+      },
+      {
+        "point": "臺灣影響：強風、豪雨、洪水、暴潮、大浪及港口航安",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "颱風百問",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部中央氣象署",
+        "editionOrEffectiveDate": "2025-06",
+        "url": "https://www.cwa.gov.tw/V8/C/K/Encyclopedia/typhoon/typhoon.pdf",
+        "pageOrSection": "第1題颱風定義、第8題颱風內部結構及相關章節",
+        "accessedAt": "2026-11-05",
+        "supports": "颱風定義、結構、路徑及對臺灣影響。"
+      },
+      {
+        "title": "中央氣象署數位科普網：何謂災害性天氣",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部中央氣象署",
+        "url": "https://edu.cwa.gov.tw/PopularScience/pr/pr_11.html",
+        "pageOrSection": "颱風定義及風速分級",
+        "accessedAt": "2026-11-05",
+        "supports": "17.2m/s颱風門檻及臺灣風雨災害。"
+      },
+      {
+        "title": "Structure of Typhoons",
+        "sourceType": "official_port_or_authority",
+        "issuer": "Hong Kong Observatory",
+        "url": "https://my.weather.gov.hk/en/education/tropical-cyclone/classification-naming-characteristics/00147-structure-of-typhoons.html",
+        "pageOrSection": "Eye, eyewall and spiral rainbands",
+        "accessedAt": "2026-11-05",
+        "supports": "成熟颱風的眼、眼牆及螺旋雨帶結構。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "颱風定義及風速門檻已核對中央氣象署",
+          "result": "pass"
+        },
+        {
+          "item": "結構、路徑及臺灣災害已對照氣象署資料",
+          "result": "pass"
+        },
+        {
+          "item": "引港學專業複核",
+          "result": "needs_review",
+          "note": "已依IMO、IHO及官方氣象／水文資料核對，仍待獨立專業複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "112-pilotage-02-answer-v1",
+    "questionId": "112-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "依IMO MSC.232(82)《ECDIS修訂性能標準》Appendix 5，ECDIS必須提供的項目分為兩大類：**警報（Alarms）**及**指示（Indications）**。警報通常以聲響或聲響加視覺方式提醒需要立即注意的狀況；指示則以視覺方式提供系統或設備狀態資訊。\n\n一、警報（Alarms）\n（一）越過安全等深線（Crossing safety contour）：依預設時間，預測本船將越過安全等深線時發出警報。\n（二）進入具有特殊條件的區域（Area with special conditions）：本船接近或進入具有特別限制或危險條件的區域時，依設定及標準發出警報或指示。\n（三）偏離航線（Deviation from route）：本船偏離預定航線，超過使用者設定的偏航界限時發出警報。\n（四）定位系統故障（Positioning system failure）：GNSS或其他定位來源失效，造成本船定位資訊不可靠時發出警報。\n（五）接近關鍵點（Approach to critical point）：本船接近航線上的關鍵點或危險點，達到設定的警戒時間或距離時發出警報。\n（六）大地基準不同（Different geodetic datum）：定位系統與電子海圖使用不同大地基準，可能造成位置偏差時發出警報。\n（七）ECDIS故障（Malfunction of ECDIS）：系統發生影響正常功能的故障時，應提供警報或指示。\n\n二、指示（Indications）\n（一）預設安全等深線（Default safety contour）：當使用者未選擇安全等深線，ECDIS採用預設值時提供指示。\n（二）資訊超比例尺（Information overscale）：顯示比例尺大於ENC資料編製比例尺，可能使資訊顯示失真或不足時提供指示。\n（三）有較大比例尺ENC可用（Larger scale ENC available）：目前顯示區域有更大比例尺電子海圖可供使用時提供指示。\n（四）不同參考系統（Different reference system）：海圖或定位資料使用不同參考系統時提供指示。\n（五）無ENC可用（No ENC available）：本船所在或顯示區域沒有可用ENC資料時提供指示。\n（六）自訂顯示（Customized display）：使用者選擇自訂顯示設定時提供指示。\n（七）航線規劃穿越安全等深線（Route planning across safety contour）：規劃航線跨越本船安全等深線時提供指示。\n（八）航線規劃穿越特定區域（Route planning across specified area）：規劃航線接近或穿越禁止區域或具有特殊條件的區域時提供指示。\n（九）航線監控時穿越危險物（Crossing a danger in route monitoring mode）：本船航線監控過程中將通過危險物或危險區域時提供指示。\n（十）系統測試失敗（System test failure）：系統自我測試或性能檢查失敗時提供指示。\n\n三、警報與指示的差異\n警報代表有狀況需要立即注意，通常具有聲響提示；指示則提供系統狀態、資料品質或航線規劃資訊，主要以視覺方式呈現。航海人員應依警報或指示內容檢查船位、航線、安全等深線、定位來源及海圖資料，不可只消音或忽略提示。\n\n四、結論\nECDIS強制警報／指示分為Alarms與Indications兩組。警報包含越過安全等深線、特殊區域、偏離航線、定位失效、接近關鍵點、大地基準不同及ECDIS故障；指示包含預設安全等深線、超比例尺、較大比例尺ENC、參考系統差異、無ENC、自訂顯示、航線規劃穿越安全等深線／特殊區域、航線監控遇危險及系統測試失敗。",
+    "practicalAnalysis": "本題依MSC.232(82) Appendix 5逐項列出兩組。Alarm與Indication的區別是警報通常以聲響或聲響加視覺提醒需注意狀況；指示為視覺資訊。不同設備型號可能另外提供廠商警報，但考試應以IMO性能標準所列項目為核心。",
+    "keyPoints": [
+      {
+        "point": "兩大類：Alarms及Indications",
+        "importance": "essential"
+      },
+      {
+        "point": "警報：安全等深線、特殊區域、偏航、定位故障、接近關鍵點、基準不同、ECDIS故障",
+        "importance": "essential"
+      },
+      {
+        "point": "指示：預設安全等深線、超比例尺、大比例尺ENC、參考系統、無ENC、自訂顯示、規劃及監控危險、測試失敗",
+        "importance": "essential"
+      },
+      {
+        "point": "警報通常聲響或聲光；指示為視覺資訊",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Resolution MSC.232(82), Revised Performance Standards for ECDIS",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2006-12-05",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.232%2882%29.pdf",
+        "pageOrSection": "Appendix 5 – Alarms and Indicators",
+        "accessedAt": "2026-11-05",
+        "supports": "ECDIS警報與指示分類及各項觸發條件。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "MSC.232(82) Appendix 5兩大分類已核對",
+          "result": "pass"
+        },
+        {
+          "item": "警報及指示項目已依標準逐項列出",
+          "result": "pass"
+        },
+        {
+          "item": "引港學專業複核",
+          "result": "needs_review",
+          "note": "已依IMO、IHO及官方氣象／水文資料核對，仍待獨立專業複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "112-pilotage-03-answer-v1",
+    "questionId": "112-pilotage-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "definition",
+    "modelAnswer": "一、Nominal Range 與 Luminous Range\n（一）Nominal Range（名義光程）：在標準大氣能見度條件下，燈光可被看見的距離；依IALA定義，標準氣象能見度採10浬。它是燈具本身光強與標準大氣條件下的標準化光程。\n（二）Luminous Range（光力光程）：在當時實際氣象能見度條件下，依燈光強度及大氣透射率計算，觀察者能看見燈光的距離。\n（三）差異：Nominal Range以標準能見度10浬為基準；Luminous Range則隨當時霧、雨、濕度及大氣透射率改變。實際觀測時，還可能受到觀測者視覺閾值及背景光影響。\n\n二、Lateral System 與 Cardinal System\n（一）Lateral System（側面標誌系統）：用於標示航道左右側及分岔航道，標誌顏色與形狀依IALA A、B區域而異。臺灣屬IALA Region B，進港時左舷側標為綠色、右舷側標為紅色；標誌通常配合罐形、錐形、柱形或桿形頂標。\n（二）Cardinal System（方位標誌系統）：用於指示危險物周圍安全水域所在方位，分北、東、南、西四種，顏色均由黑色及黃色水平色帶組成，頂標由兩個黑色圓錐體的方向表示。\n（三）差異：Lateral System依航道左右側及進港方向判斷；Cardinal System依羅經方位指示應從危險物的哪一側通過，與進港或出港方向無關。\n\n三、Stand of Tide 與 Slack Water\n（一）Stand of Tide（平潮／潮位停滯期）：高潮或低潮附近，海面高度在一段時間內變化很小或近乎停止的期間，描述的是垂直潮位變化。\n（二）Slack Water（憩流／停流）：潮流由漲潮流轉為退潮流，或由退潮流轉為漲潮流時，流速降至零或接近零的短暫期間，描述的是水平潮流變化。\n（三）差異：Stand of Tide是潮位升降速度接近零；Slack Water是潮流速度接近零。兩者不一定同時發生，因潮位變化與潮流變化受地形、海灣形狀、水道及潮波傳播方式影響。\n\n四、結論\nNominal Range是標準能見度下的名義光程，Luminous Range是實際能見度下的光程；Lateral System標示航道左右側，Cardinal System標示危險物周圍安全方位；Stand of Tide描述潮位短暫停滯，Slack Water描述潮流轉向時流速接近零，兩者不可混為一談。",
+    "practicalAnalysis": "三組名詞的比較重點分別是「標準大氣 vs 當時能見度」、「航道左右側 vs 危險物方位」、「垂直潮位變化 vs 水平潮流變化」。臺灣屬IALA Region B，僅側面標誌顏色採B區規則；方位標誌兩區相同。",
+    "keyPoints": [
+      {
+        "point": "Nominal Range：以標準氣象能見度10浬計算；Luminous Range：依當時能見度",
+        "importance": "essential"
+      },
+      {
+        "point": "Lateral System：航道左右側；臺灣Region B進港左綠右紅",
+        "importance": "essential"
+      },
+      {
+        "point": "Cardinal System：黑黃水平色帶、雙黑錐頂標，指示安全通過方位",
+        "importance": "essential"
+      },
+      {
+        "point": "Stand of Tide：潮位變化小；Slack Water：潮流流速近零",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IALA Dictionary – Nominal Range",
+        "sourceType": "technical_standard",
+        "issuer": "International Association of Marine Aids to Navigation and Lighthouse Authorities",
+        "url": "https://www.iala.int/wiki/dictionary/index.php/Nominal_Range",
+        "pageOrSection": "Nominal Range definition",
+        "accessedAt": "2026-11-05",
+        "supports": "名義光程以氣象能見度10浬為標準。"
+      },
+      {
+        "title": "IALA Maritime Buoyage System – Recommendation R1001",
+        "sourceType": "technical_standard",
+        "issuer": "International Association of Marine Aids to Navigation and Lighthouse Authorities",
+        "url": "https://www.iala.int/product/r1001/?download=true",
+        "pageOrSection": "Lateral and Cardinal marks",
+        "accessedAt": "2026-11-05",
+        "supports": "側面標誌與方位標誌之顏色、形狀及頂標。"
+      },
+      {
+        "title": "Tidal phenomena",
+        "sourceType": "official_port_or_authority",
+        "issuer": "Canadian Hydrographic Service",
+        "url": "https://www.tides.gc.ca/en/tidal-phenomena",
+        "pageOrSection": "Stand of the tide and slack water",
+        "accessedAt": "2026-11-05",
+        "supports": "平潮與憩流的定義及兩者不必同時發生。"
+      },
+      {
+        "title": "NOAA Tides and Currents FAQ",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Oceanic and Atmospheric Administration",
+        "url": "https://www.tidesandcurrents.noaa.gov/faq.html",
+        "pageOrSection": "Relationship between tides and tidal currents",
+        "accessedAt": "2026-11-05",
+        "supports": "潮位與潮流時間不一定同步，依潮波型態而異。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "Nominal與Luminous Range定義已核對IALA",
+          "result": "pass"
+        },
+        {
+          "item": "側面及方位標誌顏色頂標已核對IALA",
+          "result": "pass"
+        },
+        {
+          "item": "Stand of Tide與Slack Water區分已核對水文機關資料",
+          "result": "pass"
+        },
+        {
+          "item": "引港學專業複核",
+          "result": "needs_review",
+          "note": "已依IMO、IHO及官方氣象／水文資料核對，仍待獨立專業複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "112-pilotage-04-answer-v1",
+    "questionId": "112-pilotage-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_or_drawing",
+    "modelAnswer": "IALA方位標誌（Cardinal Marks）用於表示危險物周圍安全水域所在的方位，分為北方標、東方標、南方標及西方標。四種標誌均使用黑色與黃色水平色帶，頂標均由兩個黑色圓錐體組成；圓錐尖端方向是判別方位標誌最重要的特徵。方位標誌的顏色及頂標在IALA A、B兩區相同。\n\n一、北方標（North Cardinal Mark）\n- 顏色：上黑、下黃（黑色在黃色上方）。\n- 頂標：兩個黑色圓錐尖端均向上（▲ ▲）。\n- 意義：安全水域在標誌北方，船舶應從標誌北側通過。\n\n二、東方標（East Cardinal Mark）\n- 顏色：上黑、中黃、下黑（黑—黃—黑）。\n- 頂標：兩個黑色圓錐底部相對、尖端分別向外（▲▼，尖端朝外）。\n- 意義：安全水域在標誌東方，船舶應從標誌東側通過。\n\n三、南方標（South Cardinal Mark）\n- 顏色：上黃、下黑（黃色在黑色上方）。\n- 頂標：兩個黑色圓錐尖端均向下（▼ ▼）。\n- 意義：安全水域在標誌南方，船舶應從標誌南側通過。\n\n四、西方標（West Cardinal Mark）\n- 顏色：上黃、中黑、下黃（黃—黑—黃）。\n- 頂標：兩個黑色圓錐尖端相對、底部朝外（▼▲，尖端相對）。\n- 意義：安全水域在標誌西方，船舶應從標誌西側通過。\n\n五、燈光特徵（補充）\n方位標誌若設燈，均使用白色燈光，閃光節奏可協助識別：\n- 北方標：連續極快閃光或快閃光（VQ或Q）。\n- 東方標：每組3次閃光。\n- 南方標：每組6次閃光，後接一次長閃光。\n- 西方標：每組9次閃光。\n其節奏以鐘面3、6、9、12點記憶；南方標額外加長閃光以免與其他標誌混淆。\n\n**手繪檢查：**每一標誌均須畫出黑黃水平色帶及雙錐頂標，且頂標尖端方向必須正確。圖旁標出N、E、S、W及「安全水域位於標誌所命名的方位」。",
+    "practicalAnalysis": "本題重點為四個方位標誌的黑黃分布與雙錐頂標方向。北標黑在上、南標黑在下；東標黑黃黑、頂標尖端向外；西標黃黑黃、頂標尖端相對。方位標誌A、B兩區相同，臺灣使用B區不會改變Cardinal Marks。",
+    "keyPoints": [
+      {
+        "point": "N：黑上黃下；雙錐尖端均向上",
+        "importance": "essential"
+      },
+      {
+        "point": "E：黑黃黑；雙錐尖端向外",
+        "importance": "essential"
+      },
+      {
+        "point": "S：黃上黑下；雙錐尖端均向下",
+        "importance": "essential"
+      },
+      {
+        "point": "W：黃黑黃；雙錐尖端相對",
+        "importance": "essential"
+      },
+      {
+        "point": "四種標誌均以黑黃水平色帶及雙黑錐頂標辨識",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IALA Maritime Buoyage System – Recommendation R1001",
+        "sourceType": "technical_standard",
+        "issuer": "International Association of Marine Aids to Navigation and Lighthouse Authorities",
+        "url": "https://www.iala.int/product/r1001/?download=true",
+        "pageOrSection": "§2.2 Cardinal Marks, colours, topmarks and light characteristics",
+        "accessedAt": "2026-11-05",
+        "supports": "四種方位標誌的黑黃顏色、雙錐頂標及燈質。"
+      },
+      {
+        "title": "Canadian Chart 1 – IALA Maritime Buoyage System",
+        "sourceType": "official_port_or_authority",
+        "issuer": "Canadian Hydrographic Service",
+        "url": "https://www.chs.gc.ca/publications/chart1-carte1/sections/q-buoys/iala-eng.html",
+        "pageOrSection": "130.3 Cardinal Marks",
+        "accessedAt": "2026-11-05",
+        "supports": "方位標誌顏色及頂標圖例。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "四方位標誌黑黃分布已核對IALA R1001",
+          "result": "pass"
+        },
+        {
+          "item": "雙錐頂標方向已核對官方圖例",
+          "result": "pass"
+        },
+        {
+          "item": "補充燈質節奏已核對IALA標準",
+          "result": "pass"
+        },
+        {
+          "item": "引港學專業複核",
+          "result": "needs_review",
+          "note": "已依IMO、IHO及官方氣象／水文資料核對，仍待獨立專業複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
