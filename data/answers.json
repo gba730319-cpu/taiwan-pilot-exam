@@ -14929,5 +14929,340 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-pilot-law-01-answer-v1",
+    "questionId": "102-pilot-law-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、積極資格：依《引水法》第11條，須為中華民國國民並經引水人考試及格；依引水人考試規則符合甲、乙種應考資格，通過筆試、口試及引水梯攀登體能測驗；考試及格後完成學習及實務訓練，取得考試及格證書；依引水法第21條領有交通部核發執業證書，並向指定引水區域航政機關登記取得登記證書；另須依第23條通過體格、視覺及聽覺檢查。\n\n二、消極資格：依引水法第13條，有下列情形之一不得為引水人：(1)喪失中華民國國籍；(2)停止執行領航業務期間未屆滿或執業證書遭廢止；(3)視覺、聽覺或體格衰退，經檢查確認不能執行職務；(4)年逾65歲；(5)犯罪經判處有期徒刑3年以上確定。\n\n三、結論：積極資格包含國籍、考試、學習、證照登記及健康；消極資格則為引水法第13條五款法定禁止事由。",
+    "practicalAnalysis": "本題分積極及消極資格作答。消極資格直接列引水法第13條五款；積極資格須補充考試、完成學習、執業證書、區域登記及健康檢查。",
+    "keyPoints": [
+      {
+        "point": "中華民國國民、引水人考試及格並完成學習",
+        "importance": "essential"
+      },
+      {
+        "point": "取得執業證書及指定區域登記證書",
+        "importance": "essential"
+      },
+      {
+        "point": "健康及體格檢查合格",
+        "importance": "essential"
+      },
+      {
+        "point": "消極資格：喪失國籍、停業未屆滿／廢止證書、身體不適任、逾65歲、徒刑3年以上確定",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "引水法",
+        "sourceType": "official_port_or_authority",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+        "pageOrSection": "第11、13、21至24條",
+        "accessedAt": "2026-11-05",
+        "supports": "引水人資格、禁止任職、執業證書及體格要求。"
+      },
+      {
+        "title": "專門職業及技術人員高等考試引水人考試規則",
+        "sourceType": "official_port_or_authority",
+        "issuer": "考選部",
+        "url": "https://law.exam.gov.tw/LawContent.aspx?id=FL016856&media=print",
+        "pageOrSection": "第5至14條及附表一",
+        "accessedAt": "2026-11-05",
+        "supports": "考試方式、應考資格、體能測驗及學習程序。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "引水法第11及13條已核對",
+          "result": "pass"
+        },
+        {
+          "item": "考試、學習、執業證書及區域登記要求已核對",
+          "result": "pass"
+        },
+        {
+          "item": "法律專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-pilot-law-02-answer-v1",
+    "questionId": "102-pilot-law-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、辦事處功能：(1)統一受理船舶招請領航，確認船名、總噸位、吃水、進出港時間及登輪位置；(2)設置輪值簿，安排引水人值勤及調度，確保全天候服務；(3)置備或租用引水船，管理船艇、無線電及登離輪安全設備；(4)備妥港區形勢圖、水位潮汐表、航行儀器資料及引水法規供引水人使用；(5)訂定辦事處規約、管理共同設備及經費；(6)與VTS、港務單位、拖船業者及代理人協調船舶服務。\n\n二、設置必要性：(1)船舶進出港時間不固定，需集中受理及輪值調度；(2)共用引水船、通訊及港區資料可降低個別設備成本；(3)統一排班可避免重複派遣及服務衝突；(4)統一管理船艇及安全設備可維持登離輪安全與服務品質；(5)受航政主管機關監督，有利執業紀律及事故通報。\n\n三、結論：辦事處是引水服務的共同調度、設備及資訊中心，確保公平、即時、專業、安全及持續服務。",
+    "practicalAnalysis": "依102年有效的引水人管理規則舊版第4至9條，辦事處除受理申請外，還負責輪值、引水船、無線電、港區圖資、潮汐資料及設備管理。",
+    "keyPoints": [
+      {
+        "point": "受理引水申請及輪值調度",
+        "importance": "essential"
+      },
+      {
+        "point": "配置引水船、無線電及安全設備",
+        "importance": "essential"
+      },
+      {
+        "point": "備妥港區圖資、潮汐表、儀器資料及法規",
+        "importance": "essential"
+      },
+      {
+        "point": "統一服務、降低成本、接受航政機關監督",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "引水人管理規則（民國93年12月2日修正版）",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部",
+        "editionOrEffectiveDate": "2004-12-02",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=H0029004&type=-1",
+        "pageOrSection": "第4至9條",
+        "accessedAt": "2026-11-05",
+        "supports": "辦事處設置、輪值簿、圖資、引水船及設備管理。"
+      },
+      {
+        "title": "引水法",
+        "sourceType": "official_port_or_authority",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+        "pageOrSection": "第42條",
+        "accessedAt": "2026-11-05",
+        "supports": "辦事處管理規則授權依據。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "102年有效管理規則第4至9條已核對",
+          "result": "pass"
+        },
+        {
+          "item": "辦事處必要性及功能已整理",
+          "result": "pass"
+        },
+        {
+          "item": "專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-pilot-law-03-answer-v1",
+    "questionId": "102-pilot-law-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、目的：港口國管制（PSC）是港口國主管機關對進入本國港口之外國船舶實施檢查，確認船舶、設備、證書及船員符合國際公約，淘汰次標準船，維護航安、人命及海洋環境。\n\n二、法源：《商港法》第58條規定航港局依IMO或相關機構頒布的PSC程序，檢查外國商船的船舶證書、安全、設備、船員配額及其他事項；第59條規定檢查紀錄由船長簽認，有缺失得限期改善，改善後申請複檢並繳費；第60條規定缺失重大、危及航行、人員安全或嚴重威脅海洋環境者，航港局得留置船舶至改善完成；第75條授權採用國際公約及相關程序。\n\n三、檢查內容：船舶法定證書、船體及機械、救生消防、無線電及導航設備、船員配額與適任證書、工作休息時間、安全管理、船舶保全及污染防治。\n\n四、程序：依風險選船→登船查驗證書及設備→製作缺失紀錄並由船長簽認→限期改善→複檢；嚴重缺失得留置。檢查結果並依區域合作機制及國際程序通報。\n\n五、國際合作：我國參照IMO PSC程序及Tokyo MOU等區域機制，實施船舶風險篩選、檢查、缺失通報及重點檢查活動。\n\n六、結論：我國PSC以商港法第58至60及75條為法源，由航港局檢查外國商船，要求改善、複檢，重大缺失得留置，以維護航安及海洋環境。",
+    "practicalAnalysis": "本題以102年商港法第58至60及75條為主，須說明檢查範圍、缺失改善／複檢、重大缺失留置及國際程序採用。",
+    "keyPoints": [
+      {
+        "point": "PSC檢查對象為進出商港之外國商船",
+        "importance": "essential"
+      },
+      {
+        "point": "第58條：證書、安全、設備、船員配額等檢查",
+        "importance": "essential"
+      },
+      {
+        "point": "第59條：檢查紀錄、限期改善及複檢",
+        "importance": "essential"
+      },
+      {
+        "point": "第60條：重大缺失得留置至改善",
+        "importance": "essential"
+      },
+      {
+        "point": "第75條：採用IMO及國際公約程序",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "商港法",
+        "sourceType": "official_port_or_authority",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "pageOrSection": "第58至60及75條",
+        "accessedAt": "2026-11-05",
+        "supports": "PSC檢查、改善、複檢、留置及國際規範採用。"
+      },
+      {
+        "title": "中華民國港口國管制102年度報告",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部航港局",
+        "editionOrEffectiveDate": "2013",
+        "url": "https://www.motcmpb.gov.tw/ServerFile/Get/79b4a336-4d41-48d2-902b-98f3e8fc212f?DLCount=1&Odf=True",
+        "pageOrSection": "法源及檢查程序",
+        "accessedAt": "2026-11-05",
+        "supports": "102年度我國PSC實施方式。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "商港法第58至60及75條已核對",
+          "result": "pass"
+        },
+        {
+          "item": "102年度PSC報告已參考",
+          "result": "pass"
+        },
+        {
+          "item": "法律複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-pilot-law-04-answer-v1",
+    "questionId": "102-pilot-law-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、主管機關分工：交通部為商港主管機關；國際商港由國營港務事業機構經營管理，涉及公權力事項由航港局辦理；港務公司負責碼頭、船席、港勤服務、港區設施及營運安全；港務警察、海巡、消防、海關及地方政府依職掌協力。\n\n二、船舶及航行安全：管理船舶進出港預報、船席安排、航行、停泊、移泊及錨泊；執行VTS交通管理及危險警告；要求船舶遵守安全速度、指定航道、助航標誌、引水及拖船規定；對危險品船及特殊作業採取必要管制。\n\n三、港口保全：依SOLAS XI-2及ISPS Code辦理港口設施保全評估及保全計畫，管理港區出入口、人員、車輛、貨物及船岸介面，執行巡邏、監視、保全等級及演習。\n\n四、設施安全：維護航道、碼頭、護岸、防波堤、浮筒及助航設施，管制施工及水下工程，避免影響航行安全。\n\n五、海難及緊急應變：遇碰撞、擱淺、失火、沉沒或漂流，命令船舶採取必要措施並協調救援；颱風或惡劣海象時得管制進出港、停止作業、移泊或避風。\n\n六、污染及危險物品：監督危險物品裝卸、儲存及運送，管制油污、污水、垃圾及其他污染物排放，發生事故時要求通報、圍堵及清除。\n\n七、結論：港區安全職掌包括航政與交通管理、港口保全、設施維護、海難救護、危險物品及污染防治；交通部主管政策，航港局執行公權力，港務公司負責營運，相關機關依法協力。",
+    "practicalAnalysis": "本題應從主管機關分工及實際職掌兩方面作答。102年港務公司化後，國際商港經營管理與公權力分開；答案應依當年商港法版本回溯。",
+    "keyPoints": [
+      {
+        "point": "交通部：商港主管機關及政策法規",
+        "importance": "essential"
+      },
+      {
+        "point": "港務公司：國際商港經營管理及設施營運",
+        "importance": "essential"
+      },
+      {
+        "point": "航港局：公權力港務管理及航政監理",
+        "importance": "essential"
+      },
+      {
+        "point": "航行安全、港口保全、設施安全、海難救護及污染防治",
+        "importance": "essential"
+      },
+      {
+        "point": "港警、海巡、消防及海關依法協力",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "商港法",
+        "sourceType": "official_port_or_authority",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "pageOrSection": "第1、2章及安全、污染防治章",
+        "accessedAt": "2026-11-05",
+        "supports": "主管機關、國際商港經營及公權力分工。"
+      },
+      {
+        "title": "交通部航港局業務職掌",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部航港局",
+        "url": "https://www.motcmpb.gov.tw/",
+        "pageOrSection": "港務管理及航政監理",
+        "accessedAt": "2026-11-05",
+        "supports": "航港局港區安全管理職掌。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "商港法主管機關及公權力分工已核對",
+          "result": "pass"
+        },
+        {
+          "item": "港區安全職掌分類已整理",
+          "result": "pass"
+        },
+        {
+          "item": "法律複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-pilot-law-05-answer-v1",
+    "questionId": "102-pilot-law-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "船舶在能見度受限制水域或其附近，應依COLREG Rule 19並配合Rule 5、6、7、8及35採取措施：\n\n一、保持瞭望：依Rule 5以視覺、聽覺及一切可用方法保持適當瞭望，安排船艏及兩舷瞭望，不可只依賴雷達或AIS。\n\n二、安全速度：依Rule 6考慮能見度、交通密度、操縱性能、停止距離、風浪流、水深及航行危險，採取安全速度；動力船應使主機隨時可供立即操縱。\n\n三、雷達使用：適當使用雷達，選擇合適量程，進行長程掃描及系統性目標追蹤，判斷CPA、TCPA及相對運動；ECDIS、AIS及GNSS僅作輔助，不得依不充分資料作假設。\n\n四、碰撞危險及避碰：雷達單獨偵測他船時，應判斷是否形成緊迫局面或碰撞危險；如有危險應及早採取明確避碰行動。對正橫前方船舶應盡可能避免向左轉；對正橫或正橫後方船舶，盡可能避免朝其方向轉向。\n\n五、霧號：依Rule 35按船舶種類及航行狀態鳴放霧號。動力船在水中對水航行時，每隔不超過2分鐘鳴放一長聲；停車且對水不航行時，每隔不超過2分鐘鳴放兩長聲。\n\n六、減速或停車：聽到他船霧號似乎在正橫前方，或無法避免與正橫前方船舶形成緊迫局面時，應將速度減至最低限度，以維持航向所需速度；必要時停車，並極度謹慎航行，直到碰撞危險消失。\n\n七、結論：能見度受限時應保持瞭望、採安全速度、主機備便、正確使用雷達、及早避碰、鳴放霧號，必要時減速、停車或等待。",
+    "practicalAnalysis": "以COLREG Rule 19為核心，連結Rule 5、6、7、8及35。重點為安全速度、主機備便、雷達偵測與碰撞危險判斷、避碰航向限制、霧號及必要時停車。",
+    "keyPoints": [
+      {
+        "point": "Rule 5：視覺、聽覺及所有可用方法保持瞭望",
+        "importance": "essential"
+      },
+      {
+        "point": "Rule 6：安全速度，主機隨時備便",
+        "importance": "essential"
+      },
+      {
+        "point": "Rule 19：雷達偵測、碰撞危險判斷及及早避碰",
+        "importance": "essential"
+      },
+      {
+        "point": "Rule 35：依航行狀態鳴放霧號",
+        "importance": "essential"
+      },
+      {
+        "point": "正橫前方霧號或緊迫危險，減至最低速度、必要時停車",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "COLREGs 1972",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rules 5, 6, 7, 8, 19 and 35",
+        "accessedAt": "2026-11-05",
+        "supports": "能見度受限時瞭望、安全速度、避碰及霧號。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "Rule 19及相關規則已核對",
+          "result": "pass"
+        },
+        {
+          "item": "霧號與避碰措施已列出",
+          "result": "pass"
+        },
+        {
+          "item": "法律專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
