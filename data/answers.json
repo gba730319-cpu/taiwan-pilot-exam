@@ -11635,5 +11635,422 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "96-kaohsiung-waterway-01-answer-v1",
+    "questionId": "96-kaohsiung-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、條件分析：5,000總噸滿載貨櫃船，船首無側推器，由第二港口進港，右靠75號近74號碼頭，僅配置一艘拖船。滿載船慣性大、停船距離長，無艏側推器表示低速時船首橫移控制較弱；因此須在通過VTS信號台後，提早建立靠泊航向與速度控制，不可等到近碼頭才依賴拖船。\n\n二、信號台後航行：\n1. 依VTS核准次序通過信號台及港內航道，保持安全速度及與前船間距。\n2. 與船長確認船長、船寬、吃水、主機型式、舵效、倒俥反應、停船距離及風壓資料。\n3. 確認75／74號碼頭實際泊位、靠泊方向、可用水深、防舷材及鄰船狀況。\n4. 與拖船船長約定拖帶點、拖纜、推／拖方向、口令及緊急脫離方式。\n\n三、接近泊位：\n1. 依碼頭位置及風流提早調整航向，控制縱向速度，避免以過高速度進入泊位前水域。\n2. 由拖船協助控制船首或船尾偏轉，因無艏側推器，須特別保留船舵及主機產生的舵效。\n3. 以小舵角、短時間車鐘及拖船分段施力控制船首向，避免過度修正造成船尾掃掠。\n4. 接近碼頭時先消除縱向速度，再控制橫向接近速度；船體應大致平行碼頭，採低速平移靠泊。\n5. 視風向決定拖船頂推或拖帶：風將船推離碼頭時提供向岸控制力；風將船壓向碼頭時協助抑制接近速度。\n6. 送纜後依序調整艏艉纜及倒纜，確認船舶平行碼頭且受力均勻。\n\n四、操船重點：滿載船慣性大，應早減速、早建立靠泊角度；無艏側推器，不能將拖船當作臨時側推器在最後一刻大力修正。單拖船能力不足時應要求增加拖船或等待較佳風流條件。",
+    "practicalAnalysis": "未提供風力、流向、拖船馬力及船舶操縱資料，故不指定唯一拖帶位置；依船舶偏移趨勢安排拖船控制船首／船尾。",
+    "keyPoints": [
+      {
+        "point": "滿載船慣性大、停船距離長",
+        "importance": "essential"
+      },
+      {
+        "point": "無艏側推器，低速船首橫移控制弱",
+        "importance": "essential"
+      },
+      {
+        "point": "提早減速及建立靠泊航向",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船控制艏艉偏轉與橫移",
+        "importance": "essential"
+      },
+      {
+        "point": "低速平移平靠，拖力不足則增派",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港船舶航行規定",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港內航行、信號板及餘裕水深",
+        "supports": "現行規定沿革始於96年1月9日，後續多次修正；信號板字母及0.5公尺餘裕水深可供比對。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "70、74、75及其他碼頭設施",
+        "supports": "現行碼頭設施資料，歷史狀態須另查。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      "缺當時風流資料、拖船馬力及船舶操縱資料，實際拖船配置須依船型及現場條件決定。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務／航行資料",
+          "result": "pass"
+        },
+        {
+          "item": "2007年歷史版本及港區設施資料",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "96-kaohsiung-waterway-02-answer-v1",
+    "questionId": "96-kaohsiung-waterway-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_or_drawing",
+    "modelAnswer": "一、簡圖應包含三部分：第一港口防波堤、港外雙向巷道與分道航行區、引水站位置。作圖時以北向為上，標示北／南防波堤端、港口中心線、雙向巷道、進港巷道、出港巷道、分隔線及引水登輪位置。\n\n二、港外分道航行區（依港務公司現行公開配置作識圖參考）：\n1. 第一港口雙向巷道自港口外海向外延伸，航向軸線約285°／105°；北側界線約由北防波堤端向外300°延伸，南側界線約由南防波堤端向外270°延伸。\n2. 分道航行區以分隔線分開進港與出港交通流；進港巷道位於分隔線一側，出港巷道位於另一側，船舶須依海圖箭頭及巷道方向航行。\n3. 現行公開座標資料以ATON F1（22°37′38″N, 120°13′22″E）至ATON F2（22°37′52″N, 120°12′19″E）作為分隔線；進、出港巷道外側界線另由海圖所列A、B點連線界定。\n4. 引水站位置P1約22°37′21″N、120°13′17″E，位於進港巷道與雙向巷道交會附近。2007年考試仍應核對當年海圖及引水站位置。\n\n三、分道航行規定：\n1. 船舶應依巷道箭頭方向航行，不得逆向行駛或任意穿越分隔線。\n2. 進出港船舶依VTS安排的順序及指定巷道通行，並保持安全間距。\n3. 不得在分道航行巷道內任意停留、漂航或妨礙他船；有特殊情況須先向VTS報告並取得指示。\n4. 不得任意橫越分道航行區；確有必要時，應依避碰規則及VTS指示，以盡可能接近直角的方向安全橫越。\n5. 避免在巷道內追越、交會或併列；須遵守港口交通管制及COLREGs適用規定。\n6. 保持VHF守聽、適當瞭望及安全速度，並注意漁船、工作船及錨泊船舶。\n\n四、考試作圖：畫出兩道防波堤、港口入口、外海雙向巷道、分隔線、進出港巷道箭頭、巷道邊界方位及P1引水站；座標與距離應以考試年度海圖為準。",
+    "practicalAnalysis": "目前官方公開資料可核對現行巷道界線、座標及P1引水站；2007年版本可能有位置與方向差異，正式圖面應以當年海圖及航船布告為準。",
+    "keyPoints": [
+      {
+        "point": "畫出防波堤及港外分道航行區",
+        "importance": "essential"
+      },
+      {
+        "point": "標示北／南界線方位與分隔線",
+        "importance": "essential"
+      },
+      {
+        "point": "標示引水站P1",
+        "importance": "essential"
+      },
+      {
+        "point": "依巷道方向單向航行",
+        "importance": "essential"
+      },
+      {
+        "point": "不得任意穿越、逆向、追越或妨礙交通",
+        "importance": "essential"
+      },
+      {
+        "point": "遵守VTS及COLREGs",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港分道航行制",
+        "url": "https://kh.twport.com.tw/zh-tw/port/Articles?a=952",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "一、二港口巷道、分隔線、巷道邊界及引水站座標",
+        "supports": "提供現行分道航行區座標與方位描述；歷史考題仍須核對2007年版本。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港船舶航行規定",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港內航行、信號板及餘裕水深",
+        "supports": "現行規定沿革始於96年1月9日，後續多次修正；信號板字母及0.5公尺餘裕水深可供比對。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      "2007年當年巷道座標及引水站位置尚未取得歷史海圖逐點核對；現行座標僅作識圖參考。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務／航行資料",
+          "result": "pass"
+        },
+        {
+          "item": "2007年歷史版本及港區設施資料",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "96-kaohsiung-waterway-03-answer-v1",
+    "questionId": "96-kaohsiung-waterway-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、Becker Rudder構造\nBecker舵屬帶襟翼的高升力舵（flap rudder）。主舵葉後緣裝有可動襟翼，襟翼與主舵葉透過連桿或機械裝置連動；當主舵轉動時，襟翼以適當角度偏轉，使舵面形成較大的有效弧度及升力。\n\n縱剖面簡圖應畫出舵桿、主舵葉、後緣襟翼及連動機構；橫剖面應顯示主舵葉與襟翼的相對位置、舵軸及水流方向。\n\n二、優點\n1. 在相同舵角下可產生較大側向力，提高轉向能力。\n2. 低速時仍可提供較有效的舵力，但實際效果仍取決於螺槳流、舵型及船速。\n3. 改善船舶迴轉性能及港內操縱性。\n4. 可在較小舵角下獲得所需轉向力，降低部分操縱阻力。\n5. 有助於狹窄水域、靠離泊及拖船不足時的操船控制。\n\n三、重載船左靠57號碼頭，自行離泊並由二港口迴船區右轉出港：\n1. 離泊前確認風流、潮位、船舶吃水、泊位淨空、鄰船及二港口交通，向VTS申請移泊／出港許可。\n2. 確認主機、舵機、Becker襟翼舵、艏側推器及錨機可用；與船長確認主機倒俥反應、舵角限制及側推器推力。\n3. 左舷靠泊時，依風流及船舶受力先安排艏艉纜鬆放順序。以艏側推器協助船首離開碼頭，舵與主機控制船尾及縱向運動，避免船尾掃向碼頭。\n4. 先使船體與碼頭保持安全間距，再逐步解除纜繩；不可在船舶尚未受控時一次解盡所有纜繩。\n5. 進入二港口迴船區前確認迴船池淨空及VTS准許。重載船慣性大，應提早減速並預留足夠迴轉空間。\n6. 右轉迴船時，Becker舵可提供較強舵力，艏側推器在低速時輔助船首向右移；主機及舵角分段配合，控制轉向率及船舶前進速度。\n7. 注意船尾外掃、船首內切、淺水效應及風流；若側推器效果隨船速增加而下降，應避免過度依賴側推器。\n8. 船首對準出港航向後，穩定航向與速度，依VTS排序通過第二港口。\n\n四、操船重點：先安全離開左舷泊位，再於淨空迴船區完成右轉；Becker舵提供轉向力，艏側推器控制低速船首橫移，主機負責縱向速度與舵效。",
+    "practicalAnalysis": "題目未提供主機型式、螺槳旋向、風流及船舶操縱資料，因此只描述可執行的控制邏輯，不指定固定車鐘或舵角序列。",
+    "keyPoints": [
+      {
+        "point": "主舵葉後緣襟翼連動",
+        "importance": "essential"
+      },
+      {
+        "point": "高升力及改善低速操縱能力",
+        "importance": "essential"
+      },
+      {
+        "point": "離泊先建立控制再逐步解纜",
+        "importance": "essential"
+      },
+      {
+        "point": "艏側推器協助船首橫移",
+        "importance": "essential"
+      },
+      {
+        "point": "Becker舵配合主機右轉",
+        "importance": "essential"
+      },
+      {
+        "point": "注意船首內切及船尾外掃",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港船舶航行規定",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港內航行、信號板及餘裕水深",
+        "supports": "現行規定沿革始於96年1月9日，後續多次修正；信號板字母及0.5公尺餘裕水深可供比對。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      "須依船舶實際Becker舵型式、主機螺槳旋向及操縱資料修訂離泊與右轉的具體車舵指令。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務／航行資料",
+          "result": "pass"
+        },
+        {
+          "item": "2007年歷史版本及港區設施資料",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "96-kaohsiung-waterway-04-answer-v1",
+    "questionId": "96-kaohsiung-waterway-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "本題所稱24號碼頭南部火力發電廠臨水面岸壁警示岸標，屬特定港區設施的助航／警示標誌。答題應列明標誌形狀、燈質、裝設位置及目的；其形狀、燈色與週期必須以2007年海圖、燈表或港務局航船布告為準。\n\n一、裝設位置：應標示在24號碼頭南部火力發電廠臨水面岸壁的臨水端或岸壁突出／危險部位，實際座標及位於岸壁哪一端須依當年港區圖確認。\n\n二、形狀及燈質：應依當年公告確認是固定式岸標、燈杆或警示燈；列明標體顏色、形狀、燈色、閃光週期及能見距。現行導航設施表未能提供足以確認本題特定警示岸標歷史燈質的資料，因此不填入未經核實的數字。\n\n三、設置目的：\n1. 提醒船舶注意岸壁突出部、碼頭端點或水域障礙。\n2. 夜間標示岸壁臨水邊界，避免船舶誤認可航水域。\n3. 協助引水人及船長判斷船舶與岸壁距離，降低擦碰及觸碰事故。\n4. 在背景燈光複雜的工業港區，提供明確的危險警示。\n\n四、航行注意：接近該岸壁時應同時以海圖、雷達、目視及VTS資訊確認位置；不能將警示燈當作航道中心線或可安全貼近的界線。",
+    "practicalAnalysis": "本題精確形狀、燈質與裝設位置屬歷史助航設施資料，必須由2007年港務局航船布告或燈表證實；現行清單不足以定案。",
+    "keyPoints": [
+      {
+        "point": "標示24號碼頭南部火力發電廠臨水岸壁危險位置",
+        "importance": "essential"
+      },
+      {
+        "point": "列明標體形狀與燈質須依2007年燈表",
+        "importance": "essential"
+      },
+      {
+        "point": "警示船舶避免岸壁突出部及水域障礙",
+        "importance": "essential"
+      },
+      {
+        "point": "以海圖雷達目視交叉確認",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港區導航設施清單",
+        "supports": "現行導航設施參照；未能確認2007年24號碼頭岸標歷史細節。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      "缺2007年24號碼頭南部火力發電廠岸壁警示岸標原始公告、燈表或港區圖；形狀、燈質及精確裝設位置待核。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務／航行資料",
+          "result": "pass"
+        },
+        {
+          "item": "2007年歷史版本及港區設施資料",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "96-kaohsiung-waterway-05-answer-v1",
+    "questionId": "96-kaohsiung-waterway-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、信號板位置\n1. 第一港口進出港信號板設於第一信號台。\n2. 第二港口進出港信號板設於高雄港VTS／船舶交通管理中心塔台。\n\n二、四個英文字母及意義\n1. **I — INTO**：表示港口航道已准許進港船舶通行；出港船舶不得同時通行。\n2. **O — OUT**：表示港口航道已准許出港船舶通行；進港船舶不得同時通行。\n3. **F — FREE**：表示此時沒有500總噸以上船舶進出港；500總噸以下小型船舶可依情況通行，仍須注意交通及自身安全。\n4. **S — SHUT**：表示港口管制中，禁止所有船舶進出港。\n\n三、使用注意\n信號板是港口交通管制的視覺指示，不代表船舶可不經VTS安排而自行進出。船舶仍須依規定申請、聽從VTS指示、保持瞭望及安全間距；若信號板顯示與VTS無線電指示不一致，應立即查證，不可自行猜測通行權。\n\n",
+    "practicalAnalysis": "官方現行規定沿革始於96年1月9日訂定，與本題2007年年度接近；仍應以當年原始版本確認位置文字及F信號適用條件。",
+    "keyPoints": [
+      {
+        "point": "第一信號台及VTS塔台位置",
+        "importance": "essential"
+      },
+      {
+        "point": "I=INTO進港",
+        "importance": "essential"
+      },
+      {
+        "point": "O=OUT出港",
+        "importance": "essential"
+      },
+      {
+        "point": "F=FREE無500GT以上船舶進出",
+        "importance": "essential"
+      },
+      {
+        "point": "S=SHUT禁止所有船舶進出",
+        "importance": "essential"
+      },
+      {
+        "point": "信號板仍須配合VTS許可",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港船舶航行規定",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港內航行、信號板及餘裕水深",
+        "supports": "現行規定沿革始於96年1月9日，後續多次修正；信號板字母及0.5公尺餘裕水深可供比對。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務／航行資料",
+          "result": "pass"
+        },
+        {
+          "item": "2007年歷史版本及港區設施資料",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "96-kaohsiung-waterway-06-answer-v1",
+    "questionId": "96-kaohsiung-waterway-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "calculation",
+    "modelAnswer": "一、餘裕水深（Under Keel Clearance, UKC）是船舶龍骨最低點與當時實際水底之間的垂直距離。其目的在確保船舶航行或靠泊時不因吃水、潮位、船舶下沉量、縱傾、橫傾、波浪及測深誤差而觸底。\n\n二、高雄港規定：高雄港船舶航行規定明定，船舶於港區航行應保持安全餘裕水深；通過過港隧道上方水域另明定至少0.5公尺餘裕水深並停俥滑行。題目問「高雄港規定是多少」，應依2007年有效條文核對是否已明定全港最低值；現行規定可查得0.5公尺的明文要求，但不可不加辨別地擴張為所有水域所有情況的唯一安全標準。\n\n三、70號碼頭設計水深14公尺：\n若題目採用最低UKC 0.5公尺，且假設14公尺為當時可用實際水深、無需另扣測深誤差或其他限制，則：\n最大安全吃水 = 水深 − 最低UKC\n= 14.0 − 0.5\n= **13.5公尺**。\n\n四、實際靠泊仍須注意：\n1. 設計水深不等於當日實測水深，應查碼頭實測水深圖。\n2. 應以最低潮位或預定靠泊時潮位計算可用水深。\n3. 進出港速度及水深受限時，須估算squat。\n4. 納入船舶縱傾、橫傾、波浪及測深誤差。\n5. 若船舶實際吃水接近13.5公尺，應確認是否有足夠潮高及港務單位核准，不能只依設計水深判斷。\n\n結論：依最低0.5公尺UKC的題目計算假設，70號碼頭水深14公尺時最大吃水為13.5公尺；但實務上仍須以實測水深、潮位及動態下沉量重新計算。",
+    "practicalAnalysis": "0.5m是現行規定可查到的最低數值；本題2007年時的適用範圍仍應核對當年版本。計算題按題目常見假設得13.5m，實務上須再扣除動態及測深因素。",
+    "keyPoints": [
+      {
+        "point": "UKC為龍骨至實際海底垂直距離",
+        "importance": "essential"
+      },
+      {
+        "point": "高雄港航行規定至少0.5m（需核對2007年適用範圍）",
+        "importance": "essential"
+      },
+      {
+        "point": "14.0m−0.5m=13.5m",
+        "importance": "essential"
+      },
+      {
+        "point": "設計水深不等於實測水深",
+        "importance": "essential"
+      },
+      {
+        "point": "考慮潮位、squat、縱傾橫傾及測深誤差",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港船舶航行規定",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港內航行、信號板及餘裕水深",
+        "supports": "現行規定沿革始於96年1月9日，後續多次修正；信號板字母及0.5公尺餘裕水深可供比對。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "70、74、75及其他碼頭設施",
+        "supports": "現行碼頭設施資料，歷史狀態須另查。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      "須核對2007年高雄港航行規定原始版本是否已採全港0.5m最低UKC；計算13.5m是依題目給定設計水深及0.5m假設。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務／航行資料",
+          "result": "pass"
+        },
+        {
+          "item": "2007年歷史版本及港區設施資料",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
