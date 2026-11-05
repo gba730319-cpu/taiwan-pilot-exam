@@ -13564,5 +13564,440 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-kaohsiung-waterway-01-answer-v1",
+    "questionId": "102-kaohsiung-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "本題為高雄港全港圖，範圍包括第一、第二港口防波堤口以內。應以2013年有效海圖及港區圖為底圖，北向朝上，標註圖號、比例尺、測深基準及資料日期。\n\n一、港區輪廓及航道：畫出第一、第二港口北／南防波堤、兩港口入口中心線、內港主航道、支航道、迴船池、前鎮河口、船渠及主要港池岸線。\n\n二、碼頭編號：依2013年港區圖標註各碼頭編號及岸線位置，區分貨櫃碼頭、散雜貨碼頭、液體化學品碼頭、客運及專用碼頭；註明長度、用途及設計水深。\n\n三、繫船浮筒：依當年浮筒配置表標示編號、座標、中心間距及核定用途；特別區分可供船舶繫泊的繫船浮筒與只供導航、警示或界定航道的燈浮標。\n\n四、船渠與船塢：標出各船渠入口、台船修造船塢、塢口、船廠及其作業水域，註明進出限制及可能影響主航道的船舶移動。\n\n五、導航設施：標示高雄港燈塔、第一／第二港口防波堤燈杆、導標、燈浮、雷達標、信號台及VTS塔台，列出燈色、燈質、週期、能見距及雷達標回復信號。\n\n六、圖例與附表：用不同符號標示航道、碼頭、浮筒、船渠、船塢、導航設施及錨區；附上碼頭表、浮筒表與主要助航設施表。圖面須反映2013年工程進度，不可把後來新建或改建設施回填為當時現況。",
+    "practicalAnalysis": "這題的重點是完整圖面，現行官方圖資只可用來核對現況；2013年版海圖及當年工程進度才是歷史作答依據。",
+    "keyPoints": [
+      {
+        "point": "全港兩港口防波堤內港圖",
+        "importance": "essential"
+      },
+      {
+        "point": "碼頭編號及用途",
+        "importance": "essential"
+      },
+      {
+        "point": "繫船浮筒與導航浮標區別",
+        "importance": "essential"
+      },
+      {
+        "point": "船渠船塢及港池",
+        "importance": "essential"
+      },
+      {
+        "point": "燈標燈質及雷達標",
+        "importance": "essential"
+      },
+      {
+        "point": "標明2013年版次與工程狀態",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      "尚未取得完整2013年港區圖與浮筒配置圖，文字答案不能取代比例圖。"
+    ],
+    "limitations": "chart_or_drawing",
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "2013年歷史圖資及法規版本",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-kaohsiung-waterway-02-answer-v1",
+    "questionId": "102-kaohsiung-waterway-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、服務區界線\n高雄港VTS為便利第一、第二港口船舶交通服務，將港區航道水域劃分為北區與南區：\n1. **港內界線：以前鎮河為界**，前鎮河以北屬船舶交通服務北區，南側屬船舶交通服務南區。\n2. **港外界線：以中洲污水處理污泥放流管延伸線為界**，分隔第一港口與第二港口的船舶交通服務區域。\n\n二、實務用途\n船舶進入相應服務區域後，應依該區規定守聽指定VHF頻道、向VTS報告船位及動態，並遵循管制員指示。北區主要服務第一港口，南區主要服務第二港口。跨區航行時應依VTS指示切換頻道及完成交接，避免漏聽交通指示。\n\n三、注意：服務區界線是VTS管理分區，不等同於行政港界、港口航道中心線或船舶分道航行巷道界線。",
+    "practicalAnalysis": "港外以中洲污水處理污泥放流管延伸線、港內以前鎮河為界；北區對應第一港口，南區對應第二港口。",
+    "keyPoints": [
+      {
+        "point": "港內以前鎮河為界",
+        "importance": "essential"
+      },
+      {
+        "point": "港外以中洲污水處理污泥放流管延伸線為界",
+        "importance": "essential"
+      },
+      {
+        "point": "北區服務第一港口、南區服務第二港口",
+        "importance": "essential"
+      },
+      {
+        "point": "服務分區不等於航道分道界線",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港船舶交通服務指南",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=14910&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "VTS服務區域及頻道",
+        "supports": "港外以中洲污水處理污泥放流管延伸線、港內以前鎮河為北南區界線。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "2013年歷史圖資及法規版本",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-kaohsiung-waterway-03-answer-v1",
+    "questionId": "102-kaohsiung-waterway-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、增派拖船的判斷\n引水人應依船舶尺度、總噸位、船長船寬、吃水、風壓面積、主機舵效、側推器性能、操縱限制、風流浪、能見度、航道寬度、泊位條件及鄰近交通，評估原核定拖船艘數是否足以安全完成進出港、移泊或靠離泊作業。\n\n二、得建議增派拖船的情況包括：\n1. 船舶大型、重載或慣性大，停船及轉向能力不足。\n2. 強風、橫流、湧浪或能見度不佳，單艘拖船難以控制船位。\n3. 船舶主機、舵機、側推器故障或操縱性能受限。\n4. 狹窄航道、迴船池、特殊碼頭或鄰近障礙物使操船風險提高。\n5. 危險品船、推頂／拖帶組合船或其他特殊作業，須增加冗餘控制能力。\n\n三、程序\n引水人應先向船長說明增加拖船的安全理由，取得船長同意後，再向拖船調度站提出增派需求；並依港口規定向VTS／港口管理單位通報及取得作業安排。拖船艘數與馬力應按實際操船需求決定，不應只以總噸位單一因素判斷。\n\n四、核心原則：拖船是輔助船舶操縱的安全資源，當原配置不足以控制船舶運動時，應及早提出增派，不可等到船舶失控才求援。",
+    "practicalAnalysis": "題目問的是增派拖船的條件及事前同意對象；應明確答出引水人評估必要性、事前徵得船長同意，再向拖船調度站提出增派。正式作答仍應對照2013年當時港勤拖船調派規定原文。",
+    "keyPoints": [
+      {
+        "point": "依船舶操縱能力及風流環境評估",
+        "importance": "essential"
+      },
+      {
+        "point": "大型重載、故障、惡劣天候、狹水域及特殊船型可增派",
+        "importance": "essential"
+      },
+      {
+        "point": "事前徵得船長同意",
+        "importance": "essential"
+      },
+      {
+        "point": "再向拖船調度站請求增派",
+        "importance": "essential"
+      },
+      {
+        "point": "同步向VTS通報及協調",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港船舶交通服務指南",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=14910&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "VTS服務區域及頻道",
+        "supports": "港外以中洲污水處理污泥放流管延伸線、港內以前鎮河為北南區界線。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      "尚需取得2013年有效的高雄港拖船調派規定原文，以確認程序中是否另須港務單位核准。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "2013年歷史圖資及法規版本",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-kaohsiung-waterway-04-answer-v1",
+    "questionId": "102-kaohsiung-waterway-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "(1) **餘裕水深：至少0.5公尺。** 高雄港船舶航行規定明定，船舶通過過港隧道上方水域時，應至少保持0.5公尺餘裕水深並停俥滑行。\n\n(2) 重載深吃水船停俥滑行的原因：\n1. 過港隧道上方水域水深受限，船舶航速增加會產生下沉量（squat），使實際吃水增加、UKC減少。\n2. 停俥滑行可降低船速及動態下沉量，減少船底觸碰隧道保護結構或海床的風險。\n3. 減少螺槳推力造成的局部沖刷、壓力變化及水流擾動。\n4. 深吃水船舶慣性大，應提早減速並確認船舶仍能保持航向與安全通過。\n\n(3) 無舵效時的操船：\n1. 先確認舵效喪失原因，是船速過低、主機停車、舵機故障或舵葉／舵機異常。\n2. 若舵機正常但水流不足，可利用主機短暫用車產生螺槳流通過舵葉，恢復舵效；必要時以短促車鐘及小舵角修正。\n3. 若舵機故障，應立即通報VTS及船長，備妥錨機並請求拖船協助。\n4. 在狹窄或淺水區不得為追求舵效而大幅加速；應以安全速度、拖船控制及錨泊備援避免碰撞或擱淺。\n\n結論：隧道上方至少0.5公尺UKC、停俥滑行以降低squat；無舵效時先辨明原因，利用適當車舵恢復舵流，必要時由拖船協助並通報VTS。",
+    "practicalAnalysis": "0.5公尺是規定值；深吃水船停俥滑行的核心原因是降低速度引起的squat及觸底風險。無舵效須區分低速失舵效與舵機故障兩種情況。",
+    "keyPoints": [
+      {
+        "point": "至少0.5m UKC",
+        "importance": "essential"
+      },
+      {
+        "point": "深吃水船停俥滑行降低squat",
+        "importance": "essential"
+      },
+      {
+        "point": "無舵效先辨明原因",
+        "importance": "essential"
+      },
+      {
+        "point": "以螺槳流恢復舵效或拖船協助",
+        "importance": "essential"
+      },
+      {
+        "point": "故障時通報VTS並備妥錨機",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港船舶航行規定",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "過港隧道餘裕水深及停俥滑行",
+        "supports": "明定過港隧道上方至少0.5公尺餘裕水深並停俥滑行。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "2013年歷史圖資及法規版本",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-kaohsiung-waterway-05-answer-v1",
+    "questionId": "102-kaohsiung-waterway-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、第二港口外主要導航設施\n第二港口外側主要固定助航設施包括北離岸防波堤燈杆、南外防波堤燈杆及相關航道燈標。現行港務公司導航設施表列：\n1. 北離岸防波堤燈杆：位置約22°33′00.9″N、120°16′22.5″E；綠閃光，週期6秒（明1.5秒、暗4.5秒）；現行名目能見距20浬。\n2. 南外防波堤燈杆：位置約22°32′37.4″N、120°17′10.4″E；紅閃光，週期6秒（明1.5秒、暗4.5秒）；現行名目能見距20浬。\n3. 二港口北防波堤雷達標杆：位置約22°33′04.6″N、120°18′02.8″E；雷達回復信號Y；現行資料列射程15浬（港務公司現行表列之雷達標規格應以當年公告核對）。\n\n二、辨識與使用\n船舶應依海圖及燈表辨識燈色、燈質與方位，並以雷達標提供距離及方位定位；不可將雷達標回復信號當作燈質。通過入口時，須同時使用目視、雷達、GPS／ECDIS及VTS指示交叉定位。\n\n三、歷史資料限制\n上述座標及燈質為現行公開清單資料；2013年題目要求的當年燈浮及雷達標資料，應以2013年海圖、燈表及航船布告確認，若燈標後續改建或移位，應以當年版本作答。",
+    "practicalAnalysis": "官方現行導航表可提供燈杆座標、燈質及能見距；但題目要求2013年歷史數據，尤其雷達標射程與回復信號須核對當年燈表，不能把現行值當成歷史值。",
+    "keyPoints": [
+      {
+        "point": "北離岸堤燈杆位置與綠閃光",
+        "importance": "essential"
+      },
+      {
+        "point": "南外防波堤燈杆位置與紅閃光",
+        "importance": "essential"
+      },
+      {
+        "point": "雷達標回復信號與射程分開列明",
+        "importance": "essential"
+      },
+      {
+        "point": "燈質與雷達回復信號不可混淆",
+        "importance": "essential"
+      },
+      {
+        "point": "以2013年燈表核對",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第二港口航路標識及雷達標",
+        "supports": "現行燈浮與雷達標回復信號、射程資料。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      "現行官方表與2013年燈表可能不同；本題所稱「燈浮標」是否專指外海浮標而非防波堤燈杆，亦須對照2013年海圖釐清。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "2013年歷史圖資及法規版本",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-kaohsiung-waterway-06-answer-v1",
+    "questionId": "102-kaohsiung-waterway-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、潮流方向\n高雄港第二港口外海潮流具有區域性及受風浪影響的特性。可取得的港口水文資料指出，第二港口附近漲潮流大致向南、退潮流大致向北；實際流向與流速仍會受季節風、外海湧浪、潮差及局部地形影響，應以當日潮流預報及現場海氣象儀為準。\n\n二、何時堤口流速較大\n1. 潮流通常在漲、退潮中段流速較強，接近高潮／低潮轉流時較弱；實際轉流時間會因地形及外海潮波傳遞而與潮汐表高潮低潮時刻不同。\n2. 大潮期間潮差較大，流速可能較強。\n3. 強季風、颱風外圍環流、外海湧浪或風向與潮流相反時，可能使堤口流場不規則或局部加速。\n4. 防波堤口及航道收縮處受地形約束，流束集中，局部流速可能高於外海。\n\n三、重載船於退潮流進港的受流情形\n退潮流大致向北，船舶由外海向港內進入時，可能受到沿航道方向的順流或斜向流影響；若流向與船舶航向不一致，會產生偏流角及橫向漂移。重載船慣性大、反應慢，若流速在堤口附近突然增強，船舶可能偏離航道中心、船首偏轉或船尾被流推向堤岸。\n\n四、安全操縱：\n1. 進港前向VTS取得實測流向、流速、浪向及堤口交通資料。\n2. 提早建立適當航向，預留流壓造成的偏流角，不要等到堤口才大幅修正。\n3. 保持足夠但不過高的對水速度，以維持舵效；避免因順流造成對地速度過高。\n4. 使用雷達、目視燈標、GPS／ECDIS及平行指標監控船位，持續修正偏流。\n5. 保持航道淨空，若橫流超出船舶操縱能力，應在安全水域等待較弱流時段，不應勉強通過。\n6. 大型重載船可依風流及操縱性能請求拖船協助，並與VTS協調通行時機。\n\n五、結論：潮流方向是規劃依據，不是固定不變的保證；堤口局部流速及流向必須以即時水文資料確認。重載船應預留偏流角、控制對水速度並保持舵效，必要時等待轉流或請求拖船。",
+    "practicalAnalysis": "現有資料顯示第二港口漲潮大致向南、退潮大致向北，但精確流速峰值及堤口局部流場需查2013年潮流圖／水文資料。",
+    "keyPoints": [
+      {
+        "point": "漲潮大致向南、退潮大致向北",
+        "importance": "essential"
+      },
+      {
+        "point": "潮流中段較強、轉流時較弱",
+        "importance": "essential"
+      },
+      {
+        "point": "大潮與強風浪可能加強或扭曲流場",
+        "importance": "essential"
+      },
+      {
+        "point": "重載船注意偏流角及橫向漂移",
+        "importance": "essential"
+      },
+      {
+        "point": "以即時流速、對水速度與VTS指示決定通過",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港潮流及水文資料",
+        "url": "https://www.chinaports.com/ports/eede2b5f-1320-4ac5-a16e-fd79eccb248f",
+        "sourceType": "official_port_or_authority",
+        "issuer": "secondary_reference",
+        "pageOrSection": "潮流概況",
+        "supports": "提供第二港口漲退潮大致方向的背景資料，並非官方2013年潮流圖。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第二港口航路標識及雷達標",
+        "supports": "現行燈浮與雷達標回復信號、射程資料。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      "缺2013年第二港口外潮流圖、潮流站時序資料及港外堤口局部流場資料；精確流速峰值及流向仍待核實。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "2013年歷史圖資及法規版本",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-kaohsiung-waterway-07-answer-v1",
+    "questionId": "102-kaohsiung-waterway-07",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "依高雄港現行港埠營運設施總表，列為親水遊憩用途的碼頭包括：\n- 2號、3號、4號、5號、6號及7號碼頭。\n- 11號、12號、13號、14號、15號及16號碼頭。\n此外，22號碼頭現列為遊艇碼頭，分類與一般親水遊憩碼頭不同，不宜未經確認就混列。\n\n本題為2013年考題，正式答案應依2013年當時碼頭用途及營運配置核對；現行設施表可作參考，但親水遊憩碼頭可能因港區更新而增加、調整或改名。",
+    "practicalAnalysis": "現行設施表明列2至7號及11至16號為親水遊憩碼頭；22號列遊艇用途，應與題目所稱親水遊憩碼頭區分。",
+    "keyPoints": [
+      {
+        "point": "現行親水遊憩碼頭為2–7號及11–16號",
+        "importance": "essential"
+      },
+      {
+        "point": "22號目前分類為遊艇碼頭，不宜直接混列",
+        "importance": "essential"
+      },
+      {
+        "point": "2013年答案仍須核對當年用途表",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "親水遊憩碼頭設施",
+        "supports": "現行表列2至7號、11至16號等親水遊憩碼頭，歷史年度仍須核對。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      "需取得2013年碼頭用途表，確認當年親水遊憩碼頭名單是否與現況相同。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "2013年歷史圖資及法規版本",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
