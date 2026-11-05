@@ -11443,5 +11443,197 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-kaohsiung-waterway-01-answer-v1",
+    "questionId": "104-kaohsiung-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_or_drawing",
+    "modelAnswer": "**繪圖基準：**使用高雄港全港海圖，比例尺1:30,000；圖上1cm代表實地300m，1mm代表30m。先標示圖號、圖名、北向、比例尺及深度基準。\n\n一、港口及航道：繪出第一、第二港口、防波堤、進出港航道、分道通航區、雙向航道及主要轉向位置，註明航道寬度、水深及航道界線。\n\n二、導助航設備及標誌：標示高雄燈塔、港口北／南防波堤燈桿、導標、燈浮標、側面標、方位標、雷達標、霧號及其他助航設施，並依燈表註明燈質、燈色、週期、光程及燈高。\n\n三、碼頭及船渠：標示各碼頭編號、岸線長度、使用水深及用途，並繪出第三、第四船渠、前鎮河船渠、台船修造船區、貨櫃碼頭中心及散雜貨碼頭。\n\n四、浮筒及漁港：逐一標示繫泊浮筒編號及位置，並繪出前鎮漁港、漁船活動水域、港勤船渠及其他小船通道；浮筒間距依海圖比例尺量取。\n\n五、錨地及限制區：標示一般錨地、危險品船錨地、引水站及引水登輪區、禁止錨泊區、禁航區、施工區及其他港區限制水域。\n\n六、潮信資料：標示主要潮汐站、潮汐基準面、高潮／低潮時間及潮高資料；潮汐數據須註明預報日期及基準，不能視為固定值。\n\n七、其他危險物：標示礁石、淺點、沉船、海底電纜、管線及其他妨礙航行的障礙物。\n\n**作圖順序：**岸線與防波堤→航道及迴船池→碼頭與船渠→浮筒、漁港及錨地→引水站→燈塔燈浮→禁錨區及危險物→潮信資料。完整圖面須依考試年度海圖及航船布告逐項落圖，文字清單不能取代正式全港圖。",
+    "practicalAnalysis": "本題要求全港圖，必須以海圖作底圖並逐一落圖各項助航設施、碼頭、浮筒、船渠、漁港、禁錨區、引水站及潮汐資料。每一浮筒位置及燈質須依海圖與燈表，不可自行推估。",
+    "keyPoints": [
+      {
+        "point": "比例尺1:30,000，1cm=300m",
+        "importance": "essential"
+      },
+      {
+        "point": "標示燈塔、燈浮、導標及其他導航標誌",
+        "importance": "essential"
+      },
+      {
+        "point": "標示碼頭、浮筒、船渠及漁港",
+        "importance": "essential"
+      },
+      {
+        "point": "標示禁錨區、引水站及潮汐資料",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "海圖0341C《高雄港及附近》",
+        "sourceType": "official_port_or_authority",
+        "issuer": "海軍大氣海洋局",
+        "url": "https://navy.mnd.gov.tw/aboutus/partner_info.aspx?aid=30888&id=30198",
+        "pageOrSection": "高雄港海圖及圖例",
+        "accessedAt": "2026-11-05",
+        "supports": "港區岸線、航道、助航設施及限制區。"
+      },
+      {
+        "title": "港埠營運設施總表",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "pageOrSection": "航道、碼頭及港區設施",
+        "accessedAt": "2026-11-05",
+        "supports": "碼頭、船渠及港區設施。"
+      }
+    ],
+    "limitations": [
+      "需以104年當時有效海圖及航船布告完成精確圖面，本文僅提供繪圖項目及順序。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "高雄港港務公司及海圖資料已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立引水專業複核",
+          "result": "needs_review",
+          "note": "仍須依104年海圖、碼頭圖及現場風流條件複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-kaohsiung-waterway-02-answer-v1",
+    "questionId": "104-kaohsiung-waterway-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "operational_scenario",
+    "modelAnswer": "一、進港前準備\n（一）確認雜貨船14,000GT、LOA160m、艏吃水8m、艉吃水9m，右舷靠泊56號碼頭，配置2,400HP拖船兩艘。\n（二）夏季西南風5級，風由西南吹向東北；依第一港口航道及56號碼頭岸線方向判斷吹攏／吹離分力，並確認潮流、潮位、港內水深及UKC。\n（三）向VTS申請進港排班，確認第一港口航道、迴船池及56號碼頭船席淨空；與船長交換Pilot Card、主機舵機、螺槳旋向、操縱性能及緊急方案。\n（四）兩艘拖船分別規劃艏艉控制，確認接掛位置、推頂／拖帶方式、VHF頻道及緊急脫纜程序。\n\n二、通過第一港口\n（一）依VTS指示及指定航道進港，保持安全航速及瞭望，監控雷達、ECDIS、GNSS、AIS及目視船位。\n（二）注意西南風造成的側漂、港口外海風浪、潮流及防波堤附近波浪繞射；不得在入口處急轉或以過高速度修正航跡。\n（三）確認進港船與出港船交通，必要時依VTS安排等待，避免在狹窄水域勉強會遇。\n\n三、靠泊56號碼頭（右舷靠泊）\n（一）接近碼頭前提早減速，依風向與碼頭岸線方向調整接近航向，預留船艏艉掃掠及風壓漂移空間。\n（二）第一艘拖船控制船艏，第二艘拖船控制船艉；兩艘拖船須協調推力，避免互相抵銷或產生過大偏航力矩。\n（三）以主機及舵控制前進速度及艏向，拖船控制橫移及船艉外擺；避免大舵角及高車速靠近碼頭。\n（四）使船體與碼頭平行後，採低速平移平靠，控制橫向速度及轉向率，確保船艏艉與鄰船及碼頭設備保持安全距離。\n（五）確認護舷、繫船柱及帶纜人員安全後送出艏纜、艉纜及彈簧纜，均勻收緊，船位穩定後解除拖船。\n\n四、結論\n本船尺度大、吃水深，夏季西南風5級下進港應依VTS排班通過第一港口，使用兩艘2,400HP拖船分別控制艏艉，主機及舵控制速度與艏向，並以低速平行接近、平移平靠56號碼頭。",
+    "practicalAnalysis": "題目未提供56號碼頭岸線方向及船艏方向，故西南風對右舷靠泊是吹攏或吹離須依圖面判斷。兩艘拖船一艏一艉分工，避免同時施力造成偏航或互相抵銷。",
+    "keyPoints": [
+      {
+        "point": "西南風5級，依56號碼頭方位判斷吹攏／吹離",
+        "importance": "essential"
+      },
+      {
+        "point": "VTS排班及第一港口航道交通管理",
+        "importance": "essential"
+      },
+      {
+        "point": "兩艘2,400HP拖船一艏一艉分工",
+        "importance": "essential"
+      },
+      {
+        "point": "低速平行接近、平移平靠並監控艏艉掃掠",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "pageOrSection": "進港排班、拖船調派及靠泊",
+        "accessedAt": "2026-11-05",
+        "supports": "VTS排班及拖船協助。"
+      },
+      {
+        "title": "高雄港船舶航行規定",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "pageOrSection": "第一港口及港內航行",
+        "accessedAt": "2026-11-05",
+        "supports": "港內航行及交通規定。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "高雄港港務公司及海圖資料已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立引水專業複核",
+          "result": "needs_review",
+          "note": "仍須依104年海圖、碼頭圖及現場風流條件複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-kaohsiung-waterway-03-answer-v1",
+    "questionId": "104-kaohsiung-waterway-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "operational_scenario",
+    "modelAnswer": "一、移泊前準備\n（一）確認雜貨船6,000GT、LOA110m、艏吃水4m、艉吃水5m，右舷靠泊32號碼頭，左錨已有3節錨鏈在水，預定移泊至25號浮筒，以船艏雙錨方式繫泊。\n（二）冬季東北風5級，風由東北吹向西南；確認32號碼頭及25號浮筒位置、船舶艏向、潮流、潮位及可用水域，判斷風壓對離泊及浮筒繫泊的影響。\n（三）檢查左錨及錨鏈方向、張力、錨爪抓底情形，確認錨機及煞車正常；與船長及2,400HP拖船船長完成MPX及拖帶計畫。\n（四）向VTS申請移泊排班，確認港內航路及25號浮筒可用，並確認浮筒繫纜設備及水域無其他船舶妨礙。\n\n二、離開32號碼頭\n（一）拖船先建立控制力，保留必要控制纜，逐步解開其餘繫纜；避免東北風使船舶突然漂離或撞向鄰船。\n（二）左錨三節鏈在水，若已抓底且位置適合，可在低速下作暫時控制點，配合拖船控制船艉離岸；若錨鏈受力不明或不適合，應先以拖船控制船位並收妥錨鏈。不得在錨鏈受力未明時大車或急轉。\n（三）船體離開碼頭後，確認與鄰船及碼頭安全距離，逐步收妥左錨及錨鏈，避免與拖纜或螺旋槳交纏。\n\n三、移泊至25號浮筒\n（一）依VTS指定航路低速移泊，監控船位、航向、航速及風流，保持適當瞭望。\n（二）接近浮筒前確認錨地水深、底質、潮流及可用迴旋空間，規劃兩錨的下錨位置、方向及錨鏈長度，使兩錨形成適當夾角以限制船舶擺動。\n（三）拖船協助控制船艉及船舶艏向，船舶以低速接近預定位置，依計畫先後拋下左、右錨，控制錨鏈放出速度及張力，避免兩錨鏈交叉或纏繞。\n（四）依浮筒繫泊方式將船舶與25號浮筒連接，調整兩錨及浮筒繫纜張力，使船舶在東北風及潮流下保持安全位置；確認錨鏈不妨礙航道及其他船舶。\n（五）完成繫泊後檢查錨鏈方向、錨爪抓底、浮筒繫纜及船舶擺動範圍，向VTS回報完成。\n\n四、結論\n本題須先處理左錨三節鏈在水的離泊風險，拖船建立控制力後逐步離開32號碼頭；移至25號浮筒後，依水深、底質及風流規劃兩錨夾角與錨鏈長度，配合拖船控制船艉及浮筒繫纜，完成船艏雙錨繫泊。",
+    "practicalAnalysis": "題目未提供25號浮筒繫泊平面圖及錨地底質，故兩錨精確下錨方位、間距及浮筒繫纜方式須依港區圖與現場指示確認。左錨三節在水不代表已抓底，必須先確認錨鏈張力及方向。",
+    "keyPoints": [
+      {
+        "point": "東北風5級，預估風壓及潮流對移泊影響",
+        "importance": "essential"
+      },
+      {
+        "point": "左錨三節在水，確認抓底及錨鏈張力後決定收錨或短暫控制",
+        "importance": "essential"
+      },
+      {
+        "point": "移泊至25號浮筒前確認水深、底質及錨地空間",
+        "importance": "essential"
+      },
+      {
+        "point": "兩錨依計畫分開下錨、控制錨鏈及夾角，避免交叉纏繞",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "pageOrSection": "移泊、錨泊及拖船協助",
+        "accessedAt": "2026-11-05",
+        "supports": "港內移泊及拖船作業。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Anchoring and mooring with two anchors",
+        "accessedAt": "2026-11-05",
+        "supports": "雙錨錨泊及錨鏈布置。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "高雄港港務公司及海圖資料已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立引水專業複核",
+          "result": "needs_review",
+          "note": "仍須依104年海圖、碼頭圖及現場風流條件複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
