@@ -287,5 +287,523 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "090-keelung-waterway-01-answer-v1",
+    "questionId": "090-keelung-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_or_drawing",
+    "modelAnswer": "以2001年基隆港海圖及港區配置圖為底圖，畫出外港、內港、東西防波堤、主航道、迴船池、各碼頭泊位、船渠及錨區。圖面應標出各碼頭正確泊位號碼及岸線位置，並列出燈塔、堤頭燈杆、導標、燈浮、雷達標及信號台的位置、燈色、燈質與能見距。防波堤口外附近的流水標記應依當年海圖及航船布告標示，並區分潮流標記、航道側面標誌及警示浮標。圖邊附碼頭編號表、助航設施表及港外流況標記圖例，註明北向、比例尺、圖號、測深基準及資料日期。",
+    "practicalAnalysis": "現行基隆港設施資料可供比對港區結構，但2001年碼頭號碼、導航設施及流水標記必須依當年海圖核實。",
+    "keyPoints": [
+      {
+        "point": "畫出外港、內港及東西防波堤",
+        "importance": "essential"
+      },
+      {
+        "point": "標示正確碼頭泊位號碼",
+        "importance": "essential"
+      },
+      {
+        "point": "標示導航設施與雷達標",
+        "importance": "essential"
+      },
+      {
+        "point": "標示堤口外流水標記",
+        "importance": "essential"
+      },
+      {
+        "point": "註明2001年海圖版次及測深基準",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "基隆港港口資訊",
+        "url": "https://www.twport.com.tw/business/PortInfo?a=311",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司",
+        "pageOrSection": "港口寬度、航道水深及迴船池",
+        "supports": "現行港口寬度、航道及迴船池資料；非2001年歷史值。"
+      },
+      {
+        "title": "基隆港國際商港港勤拖船調派規定",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=4134&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司基隆港務分公司",
+        "pageOrSection": "拖船作業區域、調派單位及特殊作業規定",
+        "supports": "現行拖船調派與港外作業安全要求。"
+      },
+      {
+        "title": "基隆港燈杆位置圖",
+        "url": "https://www.motcmpb.gov.tw/Information/Detail/34b02ad7-3489-4324-b320-8c34d21c9469?NodeId=495&SiteId=1",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部航港局",
+        "pageOrSection": "基隆港燈杆位置圖及雷達標功能",
+        "supports": "燈杆與雷達標現況位置及功能。"
+      },
+      {
+        "title": "基隆港碼頭設施",
+        "url": "https://kl.twport.com.tw/port/Articles?a=696",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司基隆港務分公司",
+        "pageOrSection": "碼頭、航道及迴船池設施",
+        "supports": "現行港區設施及碼頭配置。"
+      }
+    ],
+    "limitations": [
+      "缺2001年基隆港海圖及當年港外流水標記圖，無法在文字中重現精確比例圖。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對基隆港官方資料",
+          "result": "pass"
+        },
+        {
+          "item": "2001年歷史港區圖及規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "090-keelung-waterway-02-answer-v1",
+    "questionId": "090-keelung-waterway-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、外港迴船池：本題應以2001年「大船入港」工程規劃圖及竣工資料確認直徑與水深。現行基隆港官方資料列迴船池直徑約650公尺，但這不能直接當成2001年規劃數字；水深亦須區分設計水深與實測水深。二、最大型已進港裝卸船舶：應以2001年港務局實際靠泊紀錄核對船名、總噸位、LOA、Beam、吃水及靠泊碼頭，不能以今日計畫船型替代歷史最大實績。三、各單位安全措施：港務單位確認航道、迴船池、泊位水深及交通淨空；碼頭業者確認防舷材、繫纜樁、岸橋及裝卸設備；拖船調度單位依船舶尺度、風流及操縱性能派足拖船；船長提供操縱資料、主機舵機狀況及吃水；引水人執行MPX，訂定靠泊計畫、拖船分工、速度及中止條件。四、引水人應於進港前確認船舶操縱性能、潮位與UKC，評估迴船池旋迴空間、船尾外掃及岸壁效應，必要時採單向交通、增加拖船或選擇適當潮窗；若航道或迴船池條件不足，應暫緩進港。",
+    "practicalAnalysis": "現行迴船池約650m是現況參考；題目要求2001年規劃及實際最大船舶，需查當年港務紀錄。",
+    "keyPoints": [
+      {
+        "point": "2001年迴船池直徑與水深需歷史工程資料",
+        "importance": "essential"
+      },
+      {
+        "point": "最大實績船舶須以2001年靠泊紀錄確認",
+        "importance": "essential"
+      },
+      {
+        "point": "港務、碼頭、拖船、船長及引水人分工",
+        "importance": "essential"
+      },
+      {
+        "point": "UKC、迴轉空間、拖船及單向交通",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "基隆港港口資訊",
+        "url": "https://www.twport.com.tw/business/PortInfo?a=311",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司",
+        "pageOrSection": "港口寬度、航道水深及迴船池",
+        "supports": "現行港口寬度、航道及迴船池資料；非2001年歷史值。"
+      },
+      {
+        "title": "基隆港國際商港港勤拖船調派規定",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=4134&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司基隆港務分公司",
+        "pageOrSection": "拖船作業區域、調派單位及特殊作業規定",
+        "supports": "現行拖船調派與港外作業安全要求。"
+      },
+      {
+        "title": "基隆港燈杆位置圖",
+        "url": "https://www.motcmpb.gov.tw/Information/Detail/34b02ad7-3489-4324-b320-8c34d21c9469?NodeId=495&SiteId=1",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部航港局",
+        "pageOrSection": "基隆港燈杆位置圖及雷達標功能",
+        "supports": "燈杆與雷達標現況位置及功能。"
+      },
+      {
+        "title": "基隆港碼頭設施",
+        "url": "https://kl.twport.com.tw/port/Articles?a=696",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司基隆港務分公司",
+        "pageOrSection": "碼頭、航道及迴船池設施",
+        "supports": "現行港區設施及碼頭配置。"
+      }
+    ],
+    "limitations": [
+      "缺2001年大船入港工程圖及最大靠泊船舶紀錄，不能可靠填入歷史數值及船型。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對基隆港官方資料",
+          "result": "pass"
+        },
+        {
+          "item": "2001年歷史港區圖及規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "090-keelung-waterway-03-answer-v1",
+    "questionId": "090-keelung-waterway-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、颱風情況：2001年7月29日中度颱風桃芝位於臺東東方海面並向北北西移動，基隆港須依颱風警報、預測風向風力、波浪及港內泊位條件啟動防颱中心。二、外港船舶：外港較直接受湧浪及風浪影響，應逐船評估是否提前離港、移往較遮蔽水域或指定錨地；不能等到風浪增強後才移泊。無法安全離港者須加強艏艉纜、倒纜及防颱纜，必要時增加纜繩、護舷及拖船待命，保持主機備便並確認船舶間距。三、內港船舶：內港雖較遮蔽，仍須依風向及港池水位加強繫泊，檢查纜繩磨損、纜樁與繫纜角度，預留潮位變化及船舶升沉，避免纜繩過緊或鬆脫。四、引水人配套：成立防颱聯繫及值勤編組，掌握各泊位船舶名單、吃水、纜繩狀況及拖船需求；預先安排必要移泊及離港順序，確保引水艇、交通船與拖船在安全海況下作業；當風浪達安全限制時停止登輪及移泊，並維持與VTS、防颱中心及船公司聯繫。",
+    "practicalAnalysis": "需依2001年基隆港防颱作業規定確認各泊位是否有強制移泊或離港條件；此處先按外港暴露、內港遮蔽差異建立防颱方案。",
+    "keyPoints": [
+      {
+        "point": "依颱風路徑及風浪評估",
+        "importance": "essential"
+      },
+      {
+        "point": "外港優先評估提前離港或移至安全水域",
+        "importance": "essential"
+      },
+      {
+        "point": "內港加強纜繩及護舷",
+        "importance": "essential"
+      },
+      {
+        "point": "保持主機及拖船待命",
+        "importance": "essential"
+      },
+      {
+        "point": "引水人編組、值勤及停止作業門檻",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "基隆港港口資訊",
+        "url": "https://www.twport.com.tw/business/PortInfo?a=311",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司",
+        "pageOrSection": "港口寬度、航道水深及迴船池",
+        "supports": "現行港口寬度、航道及迴船池資料；非2001年歷史值。"
+      },
+      {
+        "title": "基隆港國際商港港勤拖船調派規定",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=4134&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司基隆港務分公司",
+        "pageOrSection": "拖船作業區域、調派單位及特殊作業規定",
+        "supports": "現行拖船調派與港外作業安全要求。"
+      },
+      {
+        "title": "基隆港燈杆位置圖",
+        "url": "https://www.motcmpb.gov.tw/Information/Detail/34b02ad7-3489-4324-b320-8c34d21c9469?NodeId=495&SiteId=1",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部航港局",
+        "pageOrSection": "基隆港燈杆位置圖及雷達標功能",
+        "supports": "燈杆與雷達標現況位置及功能。"
+      },
+      {
+        "title": "基隆港碼頭設施",
+        "url": "https://kl.twport.com.tw/port/Articles?a=696",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司基隆港務分公司",
+        "pageOrSection": "碼頭、航道及迴船池設施",
+        "supports": "現行港區設施及碼頭配置。"
+      }
+    ],
+    "limitations": [
+      "缺2001年基隆港颱風防颱作業程序及當年各泊位防颱命令，不能確認個別泊位的強制移泊要求。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對基隆港官方資料",
+          "result": "pass"
+        },
+        {
+          "item": "2001年歷史港區圖及規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "090-keelung-waterway-04-answer-v1",
+    "questionId": "090-keelung-waterway-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、仙洞燈杆是基隆港內外港交界附近的助航設施，現行航行指南仍將原仙洞燈杆列為航道定位點之一。題目所稱其功效不彰，應依2001年燈標現況、航船布告及航道圖確認是燈光故障、位置／方向被港區背景燈光混淆，或因港區設施及岸線變遷而失去原有導引效果；不可只憑現況推定當年原因。二、若燈杆遭背景燈光干擾或辨識度不足，船舶應：1. 不將該燈杆作為唯一定位依據；2. 以海圖、雷達、GPS、岸標及其他燈杆交叉定位；3. 依港口主航道邊界及VTS指示航行；4. 使用平行指標監控與岸線距離；5. 加強瞭望並注意小型船舶及漁船；6. 若燈標故障或定位不確定，向VTS確認並採安全速度通過。三、航標失效或背景燈光造成混淆時，應通報港務及航安單位，透過航船布告告知船舶並改善燈標辨識。",
+    "practicalAnalysis": "官方航行指南仍將原仙洞燈杆作為主航道邊界點之一；題目所問長期功效不彰原因須以2001年航船布告或維修紀錄確認。",
+    "keyPoints": [
+      {
+        "point": "仙洞燈杆位於內外港交界航道定位線",
+        "importance": "essential"
+      },
+      {
+        "point": "確認當年燈光故障或背景燈光干擾原因",
+        "importance": "essential"
+      },
+      {
+        "point": "不得單靠該燈杆定位",
+        "importance": "essential"
+      },
+      {
+        "point": "雷達、GPS、海圖及其他燈標交叉定位",
+        "importance": "essential"
+      },
+      {
+        "point": "VTS通報及安全速度",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "基隆港港口資訊",
+        "url": "https://www.twport.com.tw/business/PortInfo?a=311",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司",
+        "pageOrSection": "港口寬度、航道水深及迴船池",
+        "supports": "現行港口寬度、航道及迴船池資料；非2001年歷史值。"
+      },
+      {
+        "title": "基隆港國際商港港勤拖船調派規定",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=4134&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司基隆港務分公司",
+        "pageOrSection": "拖船作業區域、調派單位及特殊作業規定",
+        "supports": "現行拖船調派與港外作業安全要求。"
+      },
+      {
+        "title": "基隆港燈杆位置圖",
+        "url": "https://www.motcmpb.gov.tw/Information/Detail/34b02ad7-3489-4324-b320-8c34d21c9469?NodeId=495&SiteId=1",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部航港局",
+        "pageOrSection": "基隆港燈杆位置圖及雷達標功能",
+        "supports": "燈杆與雷達標現況位置及功能。"
+      },
+      {
+        "title": "基隆港碼頭設施",
+        "url": "https://kl.twport.com.tw/port/Articles?a=696",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司基隆港務分公司",
+        "pageOrSection": "碼頭、航道及迴船池設施",
+        "supports": "現行港區設施及碼頭配置。"
+      }
+    ],
+    "limitations": [
+      "缺2001年仙洞燈杆維修紀錄、燈質表及港區背景光源資料，無法確定其功效不彰的單一原因。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對基隆港官方資料",
+          "result": "pass"
+        },
+        {
+          "item": "2001年歷史港區圖及規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "090-keelung-waterway-05-answer-v1",
+    "questionId": "090-keelung-waterway-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、港勤拖船出港外作業須特別核准。依基隆港現行港勤拖船調派規定，拖船原則以港內作業為主；港外作業須考量拖船適航能力、風浪、能見度、雷達設備及港外作業申請程序。2001年考題應核對當時有效規定，不能直接引用現行條文。二、本案17,000總噸、LOA172m、吃水8m貨櫃船主機失效、漂流並由外海救難船拖回，應先評估海況、拖帶受力、船舶漂移方向、進港航道及48號碼頭泊位。三、拖船調派：以具足夠馬力及拖帶設備的拖船擔任主拖，於船艏建立主拖纜控制縱向拖帶；另派一艘拖船於船尾或側後方控制艏向、偏航及進港轉向；若港嘴及港內轉向空間狹窄，視船舶受風流情形增派第三艘協助控制船尾或橫移。拖船分工應由調度中心與引水人統一指揮，避免多艘拖船同時施力造成拖纜交叉。四、作業程序：外海救難船先將船舶拖至基隆港港外安全接替區，經港務拖船調度及港外作業許可後，港勤拖船接替；進港前確認拖纜、拖帶點、船舶舵角固定、錨機備便、VTS交通淨空及48號碼頭可用。主拖拖船控制前進，輔助拖船控制艏艉偏轉；接近泊位時降低拖速，分段控制橫移及艏向，必要時以拖船頂推靠泊。",
+    "practicalAnalysis": "本案船舶主機失效，不能依賴船舶自身操舵；主拖與艏艉控制拖船需分工，且港外接替作業須考量風浪與拖船適航性。",
+    "keyPoints": [
+      {
+        "point": "港外作業須核准並符合拖船適航限制",
+        "importance": "essential"
+      },
+      {
+        "point": "主拖船控制縱向拖帶",
+        "importance": "essential"
+      },
+      {
+        "point": "輔助拖船控制艏艉偏轉",
+        "importance": "essential"
+      },
+      {
+        "point": "視港嘴與泊位需要增加拖船",
+        "importance": "essential"
+      },
+      {
+        "point": "拖纜及拖帶點檢查、VTS淨空及分段靠泊",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "基隆港港口資訊",
+        "url": "https://www.twport.com.tw/business/PortInfo?a=311",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司",
+        "pageOrSection": "港口寬度、航道水深及迴船池",
+        "supports": "現行港口寬度、航道及迴船池資料；非2001年歷史值。"
+      },
+      {
+        "title": "基隆港國際商港港勤拖船調派規定",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=4134&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司基隆港務分公司",
+        "pageOrSection": "拖船作業區域、調派單位及特殊作業規定",
+        "supports": "現行拖船調派與港外作業安全要求。"
+      },
+      {
+        "title": "基隆港燈杆位置圖",
+        "url": "https://www.motcmpb.gov.tw/Information/Detail/34b02ad7-3489-4324-b320-8c34d21c9469?NodeId=495&SiteId=1",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部航港局",
+        "pageOrSection": "基隆港燈杆位置圖及雷達標功能",
+        "supports": "燈杆與雷達標現況位置及功能。"
+      },
+      {
+        "title": "基隆港碼頭設施",
+        "url": "https://kl.twport.com.tw/port/Articles?a=696",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司基隆港務分公司",
+        "pageOrSection": "碼頭、航道及迴船池設施",
+        "supports": "現行港區設施及碼頭配置。"
+      }
+    ],
+    "limitations": [
+      "缺2001年基隆港拖船艘數、馬力清冊及當年港外作業規定，無法確定最適拖船艘數與型號。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對基隆港官方資料",
+          "result": "pass"
+        },
+        {
+          "item": "2001年歷史港區圖及規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "090-keelung-waterway-06-answer-v1",
+    "questionId": "090-keelung-waterway-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、進港前評估：東北季風及冷鋒過境時，基隆港外海可能有強風、湧浪及橫流。船舶為貝里斯籍砂石船，滿載石材，原航向臺北港，臨時申請進基隆港補油，須先確認進港理由、油料需求、船舶吃水、船長、主機舵效、船況、危險品／污染防治及可用泊位。二、引水方式：依基隆港強制引水規定及港務單位核准辦理，由合格引水人登輪領航；進港前與船長完成MPX，確認船舶操縱特性、主機舵機、錨機、吃水、風壓及停船距離。三、航泊措施：1. 依VTS指示進港，選擇適當潮窗及較安全風浪時段；2. 以適當對水速度保持舵效，避免滿載船在強風浪下低速失控；3. 依風向及泊位方位配置拖船，必要時增派拖船協助進港、迴轉及靠泊；4. 進港後選擇經核准且適合補油的泊位，確認岸上油料供應、消防、污染防治及油管連接安全；5. 出港前再次確認風浪、潮流及交通狀況，完成補油後依VTS指示出港，必要時等待冷鋒通過。四、若港外海況超出引水艇登輪或船舶安全操縱限制，應在安全水域待命，不可為臨時補油需求強行進港。",
+    "practicalAnalysis": "需確認該輪是否符合當年強制引水、補油泊位及油料作業許可；東北季風與冷鋒下應以登輪安全及船舶操縱能力決定進港時機。",
+    "keyPoints": [
+      {
+        "point": "臨時進港須經港務單位核准及確認補油泊位",
+        "importance": "essential"
+      },
+      {
+        "point": "東北季風冷鋒下評估風浪與引水登輪安全",
+        "importance": "essential"
+      },
+      {
+        "point": "滿載石材船保持舵效並配置拖船",
+        "importance": "essential"
+      },
+      {
+        "point": "補油前確認消防及污染防治",
+        "importance": "essential"
+      },
+      {
+        "point": "海況不安全時待命",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "基隆港港口資訊",
+        "url": "https://www.twport.com.tw/business/PortInfo?a=311",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司",
+        "pageOrSection": "港口寬度、航道水深及迴船池",
+        "supports": "現行港口寬度、航道及迴船池資料；非2001年歷史值。"
+      },
+      {
+        "title": "基隆港國際商港港勤拖船調派規定",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=4134&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司基隆港務分公司",
+        "pageOrSection": "拖船作業區域、調派單位及特殊作業規定",
+        "supports": "現行拖船調派與港外作業安全要求。"
+      },
+      {
+        "title": "基隆港燈杆位置圖",
+        "url": "https://www.motcmpb.gov.tw/Information/Detail/34b02ad7-3489-4324-b320-8c34d21c9469?NodeId=495&SiteId=1",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部航港局",
+        "pageOrSection": "基隆港燈杆位置圖及雷達標功能",
+        "supports": "燈杆與雷達標現況位置及功能。"
+      },
+      {
+        "title": "基隆港碼頭設施",
+        "url": "https://kl.twport.com.tw/port/Articles?a=696",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司基隆港務分公司",
+        "pageOrSection": "碼頭、航道及迴船池設施",
+        "supports": "現行港區設施及碼頭配置。"
+      }
+    ],
+    "limitations": [
+      "缺2001年基隆港補油泊位規定、該輪實際吃水及當日風浪資料，不能指定唯一泊位或拖船配置。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對基隆港官方資料",
+          "result": "pass"
+        },
+        {
+          "item": "2001年歷史港區圖及規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
