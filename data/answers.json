@@ -7442,5 +7442,78 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-pilotage-05-answer-v1",
+    "questionId": "108-pilotage-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_or_drawing",
+    "modelAnswer": "本題為正式海圖符號手繪題，應以考試指定版次海軍大氣海洋局海圖圖例為準。\n\n一、禁止錨泊（Anchoring prohibited）\n在海圖上以錨泊禁止符號標示，並依限制範圍繪出區域界線。應注意這是禁止拋錨，不等同禁止所有船舶通過。\n\n二、漁柵（Fish weir／Fish trap）\n以固定漁具的樁列、網具或柵欄符號表示，依圖例畫出漁柵範圍及其延伸方向；不得誤畫成一般漁場或養殖場。\n\n三、不淹岩（Rock which does not cover）\n表示任何潮位均露出水面的岩石，使用不淹岩／小島圖例，並依資料註明其高度。它與高潮時被淹沒、低潮時露出的乾出岩不同。\n\n四、礙航沉船（Dangerous wreck）\n以危險沉船符號表示，依已知最淺水深標註深度；深度未知時使用危險沉船深度未知符號及危險界線。其意義是可能妨礙水面船舶安全航行。\n\n五、擱淺船（Stranded wreck）\n表示船舶擱淺，船體或上層結構有部分露出海圖深度基準面。大比例尺海圖可依船體外形描繪並加註Wk；比例尺不足時使用擱淺沉船符號。它與完全位於水下的沉船不同。\n\n**手繪檢查：**五項均須標註中英文名稱；特別區分「不淹岩／乾出岩」、「礙航沉船／非礙航沉船」及「擱淺船／水下沉船」。紙海圖各國補充符號可能略有差異，應以臺灣海軍大氣海洋局圖例為最終依據。",
+    "practicalAnalysis": "此題是正式海圖圖例手繪題。IHO Chart 1可核對rock which does not cover、dangerous wreck、stranded wreck及fish weir等國際圖例，但紙海圖的禁止錨泊符號及國家補充符號須以臺灣海軍大氣海洋局海圖圖例為準。",
+    "keyPoints": [
+      {
+        "point": "禁止錨泊：限制拋錨的區域符號，非全面禁航",
+        "importance": "essential"
+      },
+      {
+        "point": "漁柵：固定漁具樁列／網具",
+        "importance": "essential"
+      },
+      {
+        "point": "不淹岩：所有潮位均露出水面的岩石",
+        "importance": "essential"
+      },
+      {
+        "point": "礙航沉船：可能妨礙水面船舶安全的沉船",
+        "importance": "essential"
+      },
+      {
+        "point": "擱淺船：部分船體或上層結構露出深度基準面",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "海圖圖例",
+        "sourceType": "official_port_or_authority",
+        "issuer": "海軍大氣海洋局",
+        "url": "https://navy.mnd.gov.tw/aboutus/partner_info.aspx?aid=30888&id=30198",
+        "pageOrSection": "錨泊限制、漁柵、岩石及沉船圖例",
+        "accessedAt": "2026-11-05",
+        "supports": "臺灣海圖符號及國家補充圖例。"
+      },
+      {
+        "title": "IHO Chart 1 – Symbols, Abbreviations and Terms",
+        "sourceType": "technical_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://docs.iho.int/mtg_docs/com_wg/DIPWG/DIPWG3/TSMAD22_DIPWG3-08.6A_ECDIS_Chart_1.pdf",
+        "pageOrSection": "N – Areas; K – Rocks and Wrecks; fishing weirs",
+        "accessedAt": "2026-11-05",
+        "supports": "禁錨區、漁柵、岩石、危險沉船及擱淺船的圖例語意。"
+      }
+    ],
+    "limitations": [
+      "尚未將五個正式圖形逐一嵌入前台，需依指定版次海軍圖例臨摹，避免用文字符號取代正式圖例。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "五項符號語意已對照IHO Chart 1",
+          "result": "pass"
+        },
+        {
+          "item": "不淹岩、危險沉船及擱淺船區別已核對",
+          "result": "pass"
+        },
+        {
+          "item": "臺灣紙海圖正式符號外形待指定版次複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
