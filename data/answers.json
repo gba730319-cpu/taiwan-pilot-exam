@@ -13999,5 +13999,369 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-shiphandling-01-answer-v1",
+    "questionId": "102-shiphandling-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "calculation",
+    "modelAnswer": "一、已知條件\n船長220m、船寬36m，港口堤口寬230m；駕駛臺至船艏35m，故駕駛臺至船艉距離為：\n\\[220-35=185\\;m\\]\n船舶艏向與航道中心線因橫流形成7°偏流角。以下以駕駛臺位置位於航道中心線作幾何估算。\n\n二、船艉偏離航道中心線距離\n駕駛臺至船艉距離185m，偏流角7°：\n\\[d_{stern}=185\\sin7^\\circ\\]\n\\[d_{stern}=185\\times0.12187\\approx22.55\\;m\\]\n因此船艉約偏離航道中心線22.6m。\n\n三、距最近堤岸距離\n堤口半寬：\n\\[230/2=115\\;m\\]\n船寬半值：\n\\[36/2=18\\;m\\]\n最近堤岸淨距：\n\\[115-22.55-18=74.45\\;m\\]\n**答案：船艉偏離中心線約22.6m；距最近堤岸約74.5m。**\n\n四、操船注意\n2節橫流會造成顯著漂移，7°偏流角代表船艏向與對地航跡方向不一致。進堤口前應依流向預先修正艏向，監控船艉掃掠及兩側堤岸距離；若風流變化或船位偏離，應降低速度、調整航向，必要時延後進港。",
+    "practicalAnalysis": "題目給駕駛臺至船艏35m，必須先算駕駛臺至船艉185m，再乘sin7°。若駕駛臺位於航道中心線，船艉橫向偏移22.6m；最近堤岸淨距為半堤口寬115m減船寬半值18m再減偏移22.6m，約74.5m。若題目把「船位」定義為船舶重心而非駕駛臺，則需改用重心至船艉距離；本解採題目特別給駕駛臺距船艏的解讀。",
+    "keyPoints": [
+      {
+        "point": "駕駛臺至船艉=220−35=185m",
+        "importance": "essential"
+      },
+      {
+        "point": "船艉偏移=185×sin7°≈22.6m",
+        "importance": "essential"
+      },
+      {
+        "point": "最近堤岸距離=115−18−22.6≈74.5m",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Set, drift, leeway and ship geometry",
+        "accessedAt": "2026-11-05",
+        "supports": "偏流角、船位及操船幾何計算。"
+      },
+      {
+        "title": "IMO Resolution A.751(18), Interim Standards for Ship Manoeuvrability",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.751(18).pdf",
+        "pageOrSection": "Turning and manoeuvring characteristics",
+        "accessedAt": "2026-11-05",
+        "supports": "船舶操縱及偏移評估。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "計算、BRM及船舶操縱原理已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立船舶操縱專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-shiphandling-02-answer-v1",
+    "questionId": "102-shiphandling-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、船舶特性及環境評估\n（一）大型客船通常上層建築高、受風面積大，風壓中心較高，強風下容易產生側漂及偏航力矩。\n（二）客船吃水、載客量及載況會影響船舶慣性、穩度及停止距離；靠泊前應確認吃水、縱傾、排水量及操縱資料。\n（三）大型客船可能配備艏艉側推器、全迴轉吊艙推進器或多軸推進系統，須熟悉其可用功率、操作限制及低速反應。\n（四）確認碼頭長度、水深、護舷、繫船柱、登離船設施及鄰船間距，並評估風、流、潮位、能見度及港池迴旋空間。\n\n二、進港及靠泊操縱\n（一）事先完成Master-Pilot Information Exchange，確認船舶操縱性能、推進器配置、舵效、停止距離、拖船需求及緊急應變方案。\n（二）依風流及船舶受風面積安排拖船數量及位置；大型客船即使有側推器，強風下仍可能需要拖船協助控制艏艉及偏航。\n（三）提早減速，保持足夠舵效但避免過高速度；靠近碼頭時控制前進速度、橫向速度及轉向率，避免高速撞靠。\n（四）善用艏艉側推器或吊艙推進器作低速橫移及艏向控制，但不可忽略推進器限制、船舶慣性及水流干擾。\n（五）注意船艏及船艉掃掠範圍，駕駛臺位置與迴旋支點不同，須由船艏、船艉瞭望人員回報距離。\n\n三、旅客及碼頭安全\n（一）靠泊前與碼頭、代理人及船上部門協調舷梯、登船橋、岸電、加油及旅客上下船作業。\n（二）靠泊過程應限制旅客接近外甲板、舷邊及可能受衝擊區域，避免突然移動造成旅客跌倒。\n（三）確認繫纜作業區及纜繩回彈區無人員停留，避免纜繩斷裂造成傷害。\n（四）船舶靠妥並確認繫纜、護舷及船位穩定後，才可安排旅客及岸上設施接駁。\n\n四、結論\n大型客船操船應特別注意高受風面積、船舶慣性、推進器配置、拖船協助、艏艉掃掠及旅客安全。應充分交換船舶資料、提早減速、控制橫移及轉向率，並與碼頭及船上部門協調靠泊後的旅客作業。",
+    "practicalAnalysis": "大型客船重點為上層建築高、風壓面積大、旅客安全及低速推進系統差異。應確認艏艉側推器或吊艙推進器的實際性能，不能假設所有客船都能以側推器獨立完成靠泊。",
+    "keyPoints": [
+      {
+        "point": "高上層建築及大受風面積，強風側漂及偏航力矩大",
+        "importance": "essential"
+      },
+      {
+        "point": "確認艏艉側推器／吊艙推進器及拖船需求",
+        "importance": "essential"
+      },
+      {
+        "point": "提早減速，控制前進、橫移速度及轉向率",
+        "importance": "essential"
+      },
+      {
+        "point": "注意艏艉掃掠、繫纜回彈區及旅客安全",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "pageOrSection": "Master-Pilot Information Exchange",
+        "accessedAt": "2026-11-05",
+        "supports": "船長與引水人資訊交換。"
+      },
+      {
+        "title": "Guidelines for Safe Harbour Towage Operations",
+        "sourceType": "industry_guidance",
+        "issuer": "European Tugowners Association",
+        "url": "https://eurotugowners.com/wp-content/uploads/2017/11/STP-Guidelines-First-Edition-February-2015.pdf",
+        "pageOrSection": "Tug assistance for large passenger vessels",
+        "accessedAt": "2026-11-05",
+        "supports": "大型船舶拖船協助及港內操縱。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "計算、BRM及船舶操縱原理已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立船舶操縱專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-shiphandling-03-answer-v1",
+    "questionId": "102-shiphandling-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "definition",
+    "modelAnswer": "一、Single Point Failure（單點失效）的定義\n單點失效是指某一個人員、設備、系統、資訊來源或決策環節一旦失效，就會使整個作業或安全防護系統失去功能，且沒有其他獨立備援或交叉檢查可以阻止事故發生。\n\n二、引水作業中的例子\n（一）駕駛臺所有人員只依賴引水人判斷船位，沒有人獨立監控雷達、ECDIS或測深資料。\n（二）船長及船副因權威梯度不敢質疑引水人的錯誤指令，導致錯誤決策無人制止。\n（三）船舶只依賴單一GNSS定位，沒有雷達、目視或其他定位方式交叉確認。\n（四）唯一通訊設備故障，駕駛臺無法與拖船或VTS聯繫。\n（五）單一拖船或單一推進設備失效後，沒有備援措施而造成船舶失控。\n\n三、避免Single Point Failure的方法\n（一）建立BRM團隊分工，確保引水人、船長、值班船副及舵手各有明確職責。\n（二）採閉環通訊及交叉確認，重要舵令、車令及拖船指令須重複確認。\n（三）維持獨立監控，船長及船副不得因引水人在船而停止監控船位及航行計畫。\n（四）導航使用多種資訊來源交叉驗證，例如雷達、ECDIS、GNSS、目視及測深儀。\n（五）關鍵設備設置備援，並預先規劃主機、舵機、通訊、拖船或定位設備故障時的應變措施。\n（六）建立鼓勵提出疑慮的安全文化，降低權威梯度，任何團隊成員發現危險均可立即提出。\n\n四、結論\nSingle Point Failure是單一人員、設備或程序失效即可導致整體安全系統失效的風險。BRM透過團隊分工、獨立監控、交叉確認、設備備援及開放溝通，避免單一錯誤演變為重大事故。",
+    "practicalAnalysis": "本題不是只解釋設備故障，而是BRM人因及系統安全概念。引水作業中單一引水人決策、單一定位來源、無人交叉監控或唯一通訊設備均可能形成單點失效。",
+    "keyPoints": [
+      {
+        "point": "單一人員、設備或程序失效即使整體系統失效",
+        "importance": "essential"
+      },
+      {
+        "point": "例子：只依賴引水人、單一GNSS、單一通訊或單一拖船",
+        "importance": "essential"
+      },
+      {
+        "point": "以BRM分工、閉環通訊、獨立監控及設備備援避免",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Model Course 1.22 – Ship Simulator and Bridge Teamwork",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/OurWork/HumanElement/Pages/ModelCourses.aspx",
+        "pageOrSection": "Bridge resource management and human element",
+        "accessedAt": "2026-11-05",
+        "supports": "BRM、團隊監控及人因風險。"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "pageOrSection": "Master-Pilot Information Exchange",
+        "accessedAt": "2026-11-05",
+        "supports": "引水作業中資訊交換及團隊協作。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "計算、BRM及船舶操縱原理已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立船舶操縱專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-shiphandling-04-answer-v1",
+    "questionId": "102-shiphandling-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、港內操縱大型重載船的基本原則\n（一）安全速度：依船舶尺度、吃水、水深、航道寬度、交通密度、風流及操縱性能決定速度；速度須足以保持舵效，但不得過高而無法在可用水域內停止或轉向。\n（二）提早減速：大型重載船慣性大、停止距離長，接近港口、船渠、碼頭及迴船池前應提早減速，避免臨近才急停或倒俥。\n（三）注意淺水效應及艉座：淺水或狹窄水道高速航行會增加Squat、動態吃水及UKC風險，應降低速度並持續監控測深資料。\n（四）注意岸壁效應及船間作用：大型船靠近岸壁或其他船舶時，可能產生Bank Cushion、Bank Suction及船間吸引／排斥，須預留安全距離。\n（五）保持適當舵效：速度不可低至失去舵效；如需要低速操縱，應配合主機、舵、側推器及拖船控制船位。\n\n二、速度控制方法\n（一）依Pilot Card及操縱手冊掌握船舶停止距離、倒俥反應、最低有效操舵速度及轉向性能。\n（二）進港前先確認主機備便，依計畫逐步減速，避免頻繁大幅度加減車造成船舶慣性及推進器反應不易預測。\n（三）在狹水道中維持適當對水速度，並考慮潮流對SOG與STW的差異；順流時即使SOG較高，舵效仍取決於相對水流。\n（四）使用拖船協助制動、轉向及橫移，拖船配置應依船舶大小、風流及港區空間決定。\n（五）若風流或交通條件超出安全範圍，應減速、等待或中止進港，不得為趕船期而冒險。\n\n三、結論\n大型重載船港內操縱應採安全低速、提早減速、保持足夠舵效，並特別注意停止距離、艉座、UKC、岸壁效應及船間作用；必要時使用拖船及側推器協助，確保船舶在可用水域內仍有足夠操縱餘裕。",
+    "practicalAnalysis": "重載船速度控制的核心不是愈慢愈好，而是安全速度：既要保持舵效，也要能在限制水域內停止及轉向。需連結慣性、倒俥反應、Squat、UKC、岸壁效應及潮流造成SOG/STW差異。",
+    "keyPoints": [
+      {
+        "point": "依船舶操縱性能及水域條件採安全速度",
+        "importance": "essential"
+      },
+      {
+        "point": "大型重載船慣性大、停止距離長，應提早減速",
+        "importance": "essential"
+      },
+      {
+        "point": "注意Squat、UKC、岸壁效應及船間作用",
+        "importance": "essential"
+      },
+      {
+        "point": "維持足夠舵效，必要時以拖船及側推器協助",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Safe speed, shallow water and bank effects",
+        "accessedAt": "2026-11-05",
+        "supports": "港內速度及受限水域操縱。"
+      },
+      {
+        "title": "IMO Resolution A.751(18)",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.751(18).pdf",
+        "pageOrSection": "Stopping ability and turning ability",
+        "accessedAt": "2026-11-05",
+        "supports": "船舶停止及轉向性能。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "計算、BRM及船舶操縱原理已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立船舶操縱專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-shiphandling-05-answer-v1",
+    "questionId": "102-shiphandling-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、慣性係數（Inertia Factor）\n慣性係數是用以描述船舶在運動時，除船舶本身質量外，還須帶動周圍水體一同運動所增加的等效慣性影響。船舶加速、減速或轉向時，周圍水體會產生附加質量（Added Mass），因此船舶實際慣性大於單純以排水量計算的質量。\n\n二、影響慣性係數的因素\n（一）船舶尺度及船型：船長、船寬、吃水、船體線型及水下側面積。\n（二）排水量及載況：滿載、壓載、縱傾及重心位置。\n（三）水域條件：水深、航道寬度、淺水效應及岸壁限制；水域愈受限，附加水動力影響通常愈顯著。\n（四）運動方向：縱向加減速、橫向移動及迴轉時，附加質量及附加轉動慣量不同。\n（五）船速及流況：船舶相對水體速度、潮流及水流分布會影響船舶運動阻力及慣性反應。\n\n三、船舶艤裝數（Equipment Number）\n艤裝數是依船舶尺度、排水量及水線以上受風面積計算的數值，用來決定船舶應配備的錨、錨鏈、錨機及繫泊設備等最低規格。\n常用計算式：\n\\[EN=\\Delta^{2/3}+2BH+0.1A\\]\n其中：\n- Δ：夏季載重線吃水時的型排水量（tonnes）。\n- B：型寬（m）。\n- H：由夏季載重線至最高甲板室頂部的高度（m），依規範定義計算。\n- A：夏季載重線以上船體、上層建築及甲板室的側投影面積（m²），依規範範圍計算。\n\n四、艤裝數用途\n依艤裝數及船舶型式，查閱船級規範或相關設備表，決定錨的重量與數量、錨鏈直徑與長度、錨機能力及繫泊纜索等設備規格。艤裝數不是船舶實際操縱性能的直接指標，而是標準化艤裝配置依據。\n\n五、結論\n慣性係數反映船舶運動時附加水體對加減速及轉向的影響，受船型、尺度、載況、水深及運動方向影響；艤裝數則依排水量、船寬、上層建築高度及受風面積計算，用以決定錨泊及繫泊設備規格。",
+    "practicalAnalysis": "慣性係數需說明附加質量／附加慣性，不應僅寫排水量；艤裝數公式為Δ^(2/3)+2BH+0.1A，需解釋各變數及用途。實際計算應依適用船級規範對H與A的定義，不能任意量取。",
+    "keyPoints": [
+      {
+        "point": "慣性係數涉及船舶本體質量及附加水體質量",
+        "importance": "essential"
+      },
+      {
+        "point": "受船型、尺度、吃水、載況、水深及運動方向影響",
+        "importance": "essential"
+      },
+      {
+        "point": "EN=Δ^(2/3)+2BH+0.1A",
+        "importance": "essential"
+      },
+      {
+        "point": "艤裝數用於決定錨、錨鏈、錨機及繫泊設備規格",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IACS Unified Requirements A1 – Anchoring Equipment",
+        "sourceType": "technical_standard",
+        "issuer": "International Association of Classification Societies",
+        "url": "https://iacs.org.uk/resolutions/unified-requirements/ur-a",
+        "pageOrSection": "Equipment Number and anchoring equipment",
+        "accessedAt": "2026-11-05",
+        "supports": "艤裝數公式及錨泊設備規格。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Added mass and ship manoeuvring",
+        "accessedAt": "2026-11-05",
+        "supports": "附加質量及船舶慣性。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "計算、BRM及船舶操縱原理已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立船舶操縱專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-shiphandling-06-answer-v1",
+    "questionId": "102-shiphandling-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、錨在操船上的用途\n（一）減速及制動：在低速下放錨或拖錨，可增加阻力，協助減少船舶前進速度；但不得將錨當作唯一緊急煞車。\n（二）控制船艏及偏航：錨鏈張力可在船艏形成控制點，配合主機、舵及拖船產生偏航力矩，協助船舶轉向或限制船艏漂移。\n（三）協助調頭：在適當水域以單錨或雙錨控制船艏，配合拖船或主機使船艉旋轉，完成迴轉。\n（四）靠離碼頭：必要時以錨控制船艏位置或限制船舶向碼頭漂移，配合拖船及繫纜完成離泊或靠泊。\n（五）控制漂移及保持位置：在風流較強或主機／舵效有限時，利用錨及錨鏈提供額外保持力。\n（六）緊急應變：主機故障或船舶失去操縱能力時，可在適合水深及底質的水域拋錨，避免船舶漂向岸邊或其他危險物。\n\n二、使用錨前應考慮\n（一）水深、潮位、海床底質及錨爪抓底能力。\n（二）錨鏈長度、錨鏈方向、錨機及煞車狀態。\n（三）船舶速度、排水量、風流、船舶艏向及旋轉支點。\n（四）航道寬度、鄰船、碼頭、浮筒、海底電纜及管線。\n（五）錨鏈是否可能與拖纜、螺旋槳、舵或其他繫纜交纏。\n\n三、操作要領及風險\n（一）依操船計畫選擇適當錨及舷側，低速接近並逐步放鏈，控制錨鏈張力。\n（二）利用錨作控制點時，應與主機、舵及拖船協調，避免錨鏈突然抓底造成船舶急轉或錨鏈過載。\n（三）船速過高、海床不明、礁石或海底管線區域不宜拖錨。\n（四）完成操船後應收妥錨及錨鏈，確認不影響螺旋槳及舵。\n\n四、結論\n錨可用於減速、控制船艏、協助調頭、靠離碼頭、限制漂移及緊急應變；使用前須評估水深、底質、船速、風流、錨鏈及周邊障礙，操作時低速漸進放鏈並監控張力，避免卡錨、斷鏈及纏槳。",
+    "practicalAnalysis": "題目要求全面說明錨在操船上的運用，應涵蓋減速、控制船艏、調頭、靠離泊、保持位置及緊急應變，並補充水深、底質、速度、錨鏈張力與纏槳風險。",
+    "keyPoints": [
+      {
+        "point": "錨可用於減速、控制船艏及偏航",
+        "importance": "essential"
+      },
+      {
+        "point": "可協助調頭、靠離碼頭及限制漂移",
+        "importance": "essential"
+      },
+      {
+        "point": "緊急失控時可在安全水域拋錨",
+        "importance": "essential"
+      },
+      {
+        "point": "注意水深、底質、船速、錨鏈張力及纏槳風險",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Anchoring and use of anchors in shiphandling",
+        "accessedAt": "2026-11-05",
+        "supports": "錨在操船中的用途及操作限制。"
+      },
+      {
+        "title": "A Guide to Ship Handling",
+        "sourceType": "textbook_or_academic",
+        "issuer": "PupGroup33 digital copy",
+        "url": "https://pupgroup33.com/Web-Content/documents/books/ship_handling/Guide_to_Ship_Handling.pdf",
+        "pageOrSection": "Use of anchors during manoeuvring",
+        "accessedAt": "2026-11-05",
+        "supports": "錨協助減速、轉向及靠離泊。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "計算、BRM及船舶操縱原理已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立船舶操縱專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
