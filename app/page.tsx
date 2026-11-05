@@ -2,6 +2,7 @@
 import { useMemo, useState } from "react";
 import questions from "../data/questions.json";
 import sourceData from "../data/sources.json";
+import answerData from "../data/answers.json";
 
 type Question = {
   id: string;
@@ -13,6 +14,7 @@ type Question = {
   status: string;
   questionNo: number;
 };
+type Answer = { questionId: string; modelAnswer: string; };
 type Source = {
   id: string;
   exam: string;
@@ -48,6 +50,8 @@ export default function Home() {
   const [port, setPort] = useState("高雄港");
   const items = (questions as Question[]).filter((q) => officialYears.has(q.year));
   const sources = sourceData as Source[];
+  const answers = answerData as Answer[];
+  const answerByQuestionId = useMemo(() => new Map(answers.map((a) => [a.questionId, a] as const)), [answers]);
   const sourceById = useMemo(() => new Map(sources.map((s) => [s.id, s] as const)), [sources]);
   const years = useMemo(
     () => ["全部年度", ...Array.from(new Set(items.map((q) => String(q.year)))).sort((a, b) => Number(b) - Number(a))],
@@ -108,6 +112,7 @@ export default function Home() {
         ) : (
           <div>{filtered.map((q) => {
             const source = sourceById.get(q.sourceId);
+            const answer = answerByQuestionId.get(q.id);
             return (
               <article className="question" key={q.id}>
                 <small className="question-meta">民國{rocYear(q.year)}年・{q.subject}・{q.port}・第 {q.questionNo} 題</small>
@@ -120,6 +125,12 @@ export default function Home() {
                 ) : (
                   <div className="source-link missing">原卷來源待補登</div>
                 )}
+                {answer ? (
+                  <section className="answer">
+                    <h3>參考答案</h3>
+                    <p>{answer.modelAnswer}</p>
+                  </section>
+                ) : null}
               </article>
             );
           })}</div>
