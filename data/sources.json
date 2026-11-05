@@ -239,7 +239,7 @@
     "issuer": "考選部",
     "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=602&code=106060&q=1&s=1009&t=Q",
     "pages": 1,
-    "verified": "考選部官方 PDF 已取得並逐題核對"
+    "verified": "考選部官方 PDF 已取得可讀全文並逐題核對；題號、題文及配分已核實"
   },
   {
     "id": "moex-106-pilotage",
@@ -250,7 +250,7 @@
     "issuer": "考選部",
     "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=106060&q=1&s=1010&t=Q",
     "pages": 1,
-    "verified": "考選部官方 PDF 已取得並逐題核對"
+    "verified": "考選部官方 PDF 已取得可讀全文並逐題核對；題號、題文及配分已核實"
   },
   {
     "id": "moex-106-shiphandling",
@@ -261,7 +261,7 @@
     "issuer": "考選部",
     "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1011&t=Q",
     "pages": 1,
-    "verified": "考選部官方 PDF 已取得並逐題核對"
+    "verified": "考選部官方 PDF 已取得可讀全文並逐題核對；題號、題文及配分已核實"
   },
   {
     "id": "moex-106-english",
@@ -272,7 +272,7 @@
     "issuer": "考選部",
     "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1012&t=Q",
     "pages": 1,
-    "verified": "考選部官方 PDF 已取得並逐題核對"
+    "verified": "考選部官方 PDF 已取得可讀全文並逐題核對；題號、題文及配分已核實"
   },
   {
     "id": "moex-102-kaohsiung-waterway",
