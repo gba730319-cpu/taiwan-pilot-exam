@@ -4985,7 +4985,7 @@
     "subject": "當地水道港灣詳情",
     "port": "麥寮港",
     "question": "試繪麥寮工業區專用港設計簡圖，以示防波堤、碼頭、船渠、吸水口等之位置。（25 分）",
-    "sourceId": "moex-085-kaohsiung-waterway",
+    "sourceId": "moex-085-mailiao-waterway",
     "status": "已核對",
     "questionNo": 1
   },
@@ -4995,7 +4995,7 @@
     "subject": "當地水道港灣詳情",
     "port": "麥寮港",
     "question": "試述西碼頭三座碼頭之設計用途、設計長度、設計水深及設計靠泊船噸位。（10 分）",
-    "sourceId": "moex-085-kaohsiung-waterway",
+    "sourceId": "moex-085-mailiao-waterway",
     "status": "已核對",
     "questionNo": 2
   },
@@ -5005,7 +5005,7 @@
     "subject": "當地水道港灣詳情",
     "port": "麥寮港",
     "question": "試述設計導航設備之種類、數目及預設位置。（15 分）",
-    "sourceId": "moex-085-kaohsiung-waterway",
+    "sourceId": "moex-085-mailiao-waterway",
     "status": "已核對",
     "questionNo": 3
   },
@@ -5015,7 +5015,7 @@
     "subject": "當地水道港灣詳情",
     "port": "麥寮港",
     "question": "試述麥寮港附近之 MHWL、SP. RISE、NP. RISE、MSL 及漲落潮流之方向與速率。（10 分）",
-    "sourceId": "moex-085-kaohsiung-waterway",
+    "sourceId": "moex-085-mailiao-waterway",
     "status": "已核對",
     "questionNo": 4
   },
@@ -5025,7 +5025,7 @@
     "subject": "當地水道港灣詳情",
     "port": "麥寮港",
     "question": "西風五級，2,400 匹馬力拖船一艘，總噸位 3,000 噸之化學危險品船，吃水 5 米，如何靠泊北護岸碼頭？（20 分）",
-    "sourceId": "moex-085-kaohsiung-waterway",
+    "sourceId": "moex-085-mailiao-waterway",
     "status": "已核對",
     "questionNo": 5
   },
@@ -5035,7 +5035,7 @@
     "subject": "當地水道港灣詳情",
     "port": "麥寮港",
     "question": "如何引領一艘 15,000 總噸、吃水 10 米之化學品船靠北-1 化學品碼頭？3,200 匹馬力拖船兩艘備便。（20 分）",
-    "sourceId": "moex-085-kaohsiung-waterway",
+    "sourceId": "moex-085-mailiao-waterway",
     "status": "已核對",
     "questionNo": 6
   },
