@@ -3508,5 +3508,295 @@
     "sourceId": "moex-090-english",
     "status": "已核對",
     "questionNo": 4
+  },
+  {
+    "id": "089-kaohsiung-waterway-01",
+    "year": 2000,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "試繪高雄港簡圖，並標明導航設施及碼頭號碼。（40 分）",
+    "sourceId": "moex-089-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "089-kaohsiung-waterway-02",
+    "year": 2000,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "颱風由台灣中部東岸登陸，橫越台灣中部後離去。試簡單描述颱風來臨前及離去後，高雄地區之典型天氣變化。（15 分）",
+    "sourceId": "moex-089-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "089-kaohsiung-waterway-03",
+    "year": 2000,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "空載船舶繫泊雙浮筒時，均以頂風靠泊為原則。試問，如果順風繫泊雙浮筒時，有何缺失？（有一艘拖船協助）（15 分）",
+    "sourceId": "moex-089-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "089-kaohsiung-waterway-04",
+    "year": 2000,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "試述高雄港之拖船調度原則。（10 分）",
+    "sourceId": "moex-089-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "089-kaohsiung-waterway-05",
+    "year": 2000,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "無風無流，3,000 總噸之化學品船（船長 95M，吃水 6M）自一港口進港，欲左舷靠泊 60 號碼頭，有 1,800 匹馬力拖船一艘協助。請問，當船已通過 50 號碼頭後，應如何操縱船舶及利用拖船來安全靠泊？（20 分）",
+    "sourceId": "moex-089-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "089-pilot-law-01",
+    "year": 2000,
+    "subject": "航政法規",
+    "port": "麥寮港、高雄港",
+    "question": "八掌溪事件再度提醒吾人對急難救助時效之重要。設汝為某港引水人，在港口外附近寬闊海域中，剛由引水船登上正在走錨之被領商船，此時發現附近有海難，有立即救助之信號，汝應採取那些措施？（5 分）商港管理機關對海難救助應遵守採行那些作業規定？（10 分）",
+    "sourceId": "moex-089-pilot-law",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "089-pilot-law-02",
+    "year": 2000,
+    "subject": "航政法規",
+    "port": "麥寮港、高雄港",
+    "question": "商港區內不影響航行安全之沉船與港口附近狹窄航道中有礙船舶進出之沉船。兩者之打撈規定，請分別說明之。（10 分）",
+    "sourceId": "moex-089-pilot-law",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "089-pilot-law-03",
+    "year": 2000,
+    "subject": "航政法規",
+    "port": "麥寮港、高雄港",
+    "question": "那些船舶因何種原因會受到商港管理機關採取強制移泊之強制管理措施？執行該措施時，對商港管理機關有何權益保障之規定？（10 分）",
+    "sourceId": "moex-089-pilot-law",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "089-pilot-law-04",
+    "year": 2000,
+    "subject": "航政法規",
+    "port": "麥寮港、高雄港",
+    "question": "引水人受到收回執業證書三個月之行政處分，其可能之原因有哪些？請按現行引水法之規定說明之。（10 分）",
+    "sourceId": "moex-089-pilot-law",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "089-pilot-law-05",
+    "year": 2000,
+    "subject": "航政法規",
+    "port": "麥寮港、高雄港",
+    "question": "八十七年六月十七日修正公布之引水法第十三條，將引水人觸犯第三十四條、第三十五條、第三十六條規定之罪文句刪除，請問該三條所指為何罪？又本條修法之意旨何在？請分別說明之。（10 分）",
+    "sourceId": "moex-089-pilot-law",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "089-pilot-law-06",
+    "year": 2000,
+    "subject": "航政法規",
+    "port": "麥寮港、高雄港",
+    "question": "避碰規則附錄中，對各號燈顏色標準均有所規範。以紅色、綠色為例，各含次四組數值與英文字母 X、Y 等符號組成。請舉該兩色為例，說明其如何組成？又如何表示合乎規定之顏色？（10 分）",
+    "sourceId": "moex-089-pilot-law",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "089-pilot-law-07",
+    "year": 2000,
+    "subject": "航政法規",
+    "port": "麥寮港、高雄港",
+    "question": "A 船船長（LOA）49 公尺，為一動力挖泥船（Power-Driven Dredger），正以其右舷泥耙，沿適航水道邊緣從事疏浚作業，水道邊緣外為阻礙區。B 船為船長 101 公尺之商船。在同一直線適航水道中，僅有此兩船相距 10 浬迎面航行，兩船均按最低標準裝設號燈顯示之。在暗夜、天候良好、便於瞭望之情況下：(A) B 船船長能先發現對方？看到什麼？當時兩船距離為多少？(3 分) (B) A、B 兩船以號燈互見時，兩船距離為多少？(2 分) (C) B 船見知 A 船為從事疏浚作業、運轉能力受限制之航行船，當時兩船距離為多少？(2 分) (D) 前款當時，A 船顯示阻礙區側燈指明 B 船可由其另一側通過。請繪出 B 船所見 A 船號燈示意圖，並以文字說明其燈色作答。（8 分）",
+    "sourceId": "moex-089-pilot-law",
+    "status": "已核對",
+    "questionNo": 7
+  },
+  {
+    "id": "089-pilot-law-08",
+    "year": 2000,
+    "subject": "航政法規",
+    "port": "麥寮港、高雄港",
+    "question": "請依據相關之港航法規，解釋下列名詞或定義：(1)受吃水限制之船舶（2 分）(2)受限制之能見度（2 分）(3)潮流瞬間排洩率（3 分）(4)清潔壓艙水（3 分）",
+    "sourceId": "moex-089-pilot-law",
+    "status": "已核對",
+    "questionNo": 8
+  },
+  {
+    "id": "089-pilot-law-09",
+    "year": 2000,
+    "subject": "航政法規",
+    "port": "麥寮港、高雄港",
+    "question": "請列舉以商港法為母法之子法五個，並說明其名稱及訂定機關。（10 分）",
+    "sourceId": "moex-089-pilot-law",
+    "status": "已核對",
+    "questionNo": 9
+  },
+  {
+    "id": "089-pilotage-01",
+    "year": 2000,
+    "subject": "引港學",
+    "port": "麥寮港、高雄港",
+    "question": "試將下列海圖圖例之原文寫出，並譯成中文：（10 分）(1) P.D. (2) Oc.Lt. (3) Obscd. (4) E.D. (5) IQ",
+    "sourceId": "moex-089-pilotage",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "089-pilotage-02",
+    "year": 2000,
+    "subject": "引港學",
+    "port": "麥寮港、高雄港",
+    "question": "IALA-A 系統與 IALA-B 系統之側面標誌有何不同？其使用地區為何？（10 分）",
+    "sourceId": "moex-089-pilotage",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "089-pilotage-03",
+    "year": 2000,
+    "subject": "引港學",
+    "port": "麥寮港、高雄港",
+    "question": "試述台灣海峽潮汐潮流之大要，其較大之潮差發生於何處？原因為何？（20 分）",
+    "sourceId": "moex-089-pilotage",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "089-pilotage-04",
+    "year": 2000,
+    "subject": "引港學",
+    "port": "麥寮港、高雄港",
+    "question": "以千分之一比例刻度之雙筒望遠鏡中觀測到某燈塔（高 56M）得 6 刻度，求船與燈塔之距離（眼高不計）。（20 分）",
+    "sourceId": "moex-089-pilotage",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "089-pilotage-05",
+    "year": 2000,
+    "subject": "引港學",
+    "port": "麥寮港、高雄港",
+    "question": "台灣中南部災害性降水之成因有哪些？如逢在港內引航時，須注意之事項為何？（20 分）",
+    "sourceId": "moex-089-pilotage",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "089-pilotage-06",
+    "year": 2000,
+    "subject": "引港學",
+    "port": "麥寮港、高雄港",
+    "question": "某船 C270°，見 A 點在其正北，一小時後測 D 點之方位為 311°，又過一小時測 P 之方位為 030°，設 P 點在 A 點之正西 30 浬，求船速及 P 點與船之最近距離。（20 分）",
+    "sourceId": "moex-089-pilotage",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "089-shiphandling-01",
+    "year": 2000,
+    "subject": "船舶操縱",
+    "port": "麥寮港、高雄港",
+    "question": "試述錨泊時發生走錨之原因及如何測知船舶是否有走錨之現象？（15 分）",
+    "sourceId": "moex-089-shiphandling",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "089-shiphandling-02",
+    "year": 2000,
+    "subject": "船舶操縱",
+    "port": "麥寮港、高雄港",
+    "question": "超大型船舶靠泊時，在靠上碼頭之瞬間，除風及潮流以外，其接近速度應考慮那些事項？試述之。（15 分）",
+    "sourceId": "moex-089-shiphandling",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "089-shiphandling-03",
+    "year": 2000,
+    "subject": "船舶操縱",
+    "port": "麥寮港、高雄港",
+    "question": "船舶以右舷靠泊碼頭，風由船艉方向吹來，在無拖船協助下，如何離開碼頭並調頭出港？設若有拖船協助時，又如何操縱？試述之。（15 分）",
+    "sourceId": "moex-089-shiphandling",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "089-shiphandling-04",
+    "year": 2000,
+    "subject": "船舶操縱",
+    "port": "麥寮港、高雄港",
+    "question": "一般慣用之 WILLIAMSON TURN 適用於中、小型船舶，如使用於 VLCC 則無法回至原航線，請問 VLCC 應如何修正 WILLIAMSON TURN？試述之。（15 分）",
+    "sourceId": "moex-089-shiphandling",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "089-shiphandling-05",
+    "year": 2000,
+    "subject": "船舶操縱",
+    "port": "麥寮港、高雄港",
+    "question": "試比較說明裝有套筒式螺槳（DUCTED PROPELLER）之船舶與普通螺槳之船舶，在下列操船項目中有何異同？（20 分）(1)推進效率 (2)大舵角旋轉 (3)航向安定性 (4)舵效 (5)倒俥時船艏偏向影響",
+    "sourceId": "moex-089-shiphandling",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "089-shiphandling-06",
+    "year": 2000,
+    "subject": "船舶操縱",
+    "port": "麥寮港、高雄港",
+    "question": "排水量 200,000 噸之船舶，以惰力航行，其前進速力四節，今以拖船從後方拖曳，如欲在 1,500 公尺的距離將該船停住，試問拖船應以多大推力來拖曳（噸）？又試算出從開始拖曳到停止所需時間？風、潮及船體之阻抗等因素不列入考量。（20 分）",
+    "sourceId": "moex-089-shiphandling",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "089-english-01",
+    "year": 2000,
+    "subject": "實用英文",
+    "port": "麥寮港、高雄港",
+    "question": "Please use the following topic to write a short essay in English (no less than 150 words): “The pros and cons of using Thrusters VS Tugboats”.（40 分）",
+    "sourceId": "moex-089-english",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "089-english-02",
+    "year": 2000,
+    "subject": "實用英文",
+    "port": "麥寮港、高雄港",
+    "question": "Please correct all the errors you can find in each of the following sentences.（30 分）(a) When a vessel is anchor with both anchors leading ahead, she is said to open moor. (b) In a single-screw vessel, the rudder directly abaft the propeller and the slipstream strike directly upon the rudder surface. (c) The pilot ladders must capable of being use either of ship, they are only to use for pilots’ access. (d) The clear-view screens should tested beforehand, together with fog-signaling apparatus, in anticipation of poor visible. (e) Radar is a additional safeguard. And failure to use it might constitute negligences.",
+    "sourceId": "moex-089-english",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "089-english-03",
+    "year": 2000,
+    "subject": "實用英文",
+    "port": "麥寮港、高雄港",
+    "question": "Please translate the following passage from English into Chinese: A pilot may be defined as a qualified individual possessing local knowledge of shallows, rocks, currents, and so on, and usually licensed by appropriate authority, who is employed by shipowner to conduct a ship through a river, rock or channel, or from or into port. Pilots are established by legislative enactments at the principal seaports and have rights and bound to perform duties in accordance with the provisions of the Pilotage Act and the respective harbour regulations.（30 分）",
+    "sourceId": "moex-089-english",
+    "status": "已核對",
+    "questionNo": 3
   }
 ]
