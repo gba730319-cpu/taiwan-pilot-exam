@@ -10128,5 +10128,476 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-kaohsiung-waterway-01-answer-v1",
+    "questionId": "92-kaohsiung-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "本題核心是引水人因惡劣海況無法安全登輪時，船舶能否採取例外方式進入第二港口防波堤內。原則上，**船長不得因領港艇不能出港就自行決定進港；須依當時有效港口規定，先取得港口管理單位／VTS明確許可，並確認船舶本身可安全操縱。**\n\n一、啟動條件：領港艇因風浪、湧浪或能見度無法安全接送引水人；引水人辦事處評估登輪風險並向VTS通報；船舶主機、舵機、錨機及通信設備正常，船長熟悉港口入口與有效海圖。\n\n二、進港前應確認：\n1. 依當年規定取得港口當局許可，不得以船長單方決定取代。\n2. 確認入口橫浪、湧浪、風力、流速及能見度仍在船舶可安全操縱範圍。\n3. 向VTS申報船舶尺度、吃水、操縱限制及進港意圖，確認入口、航道及港內水域交通淨空。\n4. 主機、舵機、錨機備便，安排駕駛台瞭望、雷達／電子海圖定位交叉檢查及連續通信。\n5. 以適當低速保持舵效，預留停止、改向或緊急下錨的操縱餘裕。\n\n三、進入防波堤內後：仍須依VTS指示航行至指定水域，等待引水人於安全且獲准的位置登輪。防波堤內仍可能有反射浪、回流、橫流及港內交通風險，不能視為完全避風。\n\n四、責任：引水人尚未登輪前，船長仍負船舶指揮責任；VTS負交通管理及許可，不取代船長操船責任。應保存通話、天候、引水人辦事處建議及許可紀錄。\n\n**考試重點**：引水人無法安全登輪→辦事處通報建議→港口當局／VTS核准→確認船舶操縱能力與交通淨空→船長依指示進入→在安全水域候引水人登輪。",
+    "practicalAnalysis": "法定例外條件須以2003年有效規定原文為準；目前先完成安全決策及責任架構，避免將現行VTS程序誤稱為當年條文。",
+    "keyPoints": [
+      {
+        "point": "引水人無法安全登輪",
+        "importance": "essential"
+      },
+      {
+        "point": "引水人辦事處通報及建議",
+        "importance": "essential"
+      },
+      {
+        "point": "港口當局／VTS明確許可",
+        "importance": "essential"
+      },
+      {
+        "point": "船長確認船舶操縱能力與交通淨空",
+        "importance": "essential"
+      },
+      {
+        "point": "防波堤內候安全登輪",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港船舶交通服務指南",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=14910&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "高雄港報告機制及船舶航行規定",
+        "supports": "現行VTS報告及港內交通管理原則，供程序分析參考。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港船舶進出港管制基準（93年8月19日修正）",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0110001&type=-1",
+        "sourceType": "transport_authority",
+        "issuer": "交通部／國家運輸安全調查委員會",
+        "pageOrSection": "風力及颱風期間管制",
+        "supports": "可供比對2004年修正後規定，非當然等同2003年考試日有效版本。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      "尚缺2003年「領港艇無法出港時船長自行駛入二港口防波堤內」的原始條文或港務公告。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及可取得之官方資料",
+          "result": "pass"
+        },
+        {
+          "item": "2003年歷史港區圖、航船布告及規定版本",
+          "result": "needs_review",
+          "note": "缺少部分歷史原始資料，未以現行資料冒充舊制。"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-kaohsiung-waterway-02-answer-v1",
+    "questionId": "92-kaohsiung-waterway-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "本題分為第一港口導航標誌變遷、順榮塢設施變遷，以及深吃水船舶通過原順榮塢外側的安全事項。\n\n一、導航標誌：第一港口的主要固定助航設施包括旗後山高雄港燈塔、北防波堤燈杆、南防波堤燈杆及港內導引燈標。辨識時須同時核對海圖位置、燈色、燈質、週期、能見距及臨時航船布告；不能只看燈色或名稱推定航道側別。\n\n二、順榮塢變遷：題目稱「原順榮塢外」，顯示該處可能曾有船塢、岸線或港區配置變更。應以2003年海圖、港務局航船布告及工程完工公告，確認原船塢位置、變更範圍及新設燈標的座標與燈質。目前港務公司導航設施網頁屬現行清單，不能反推2003年變遷細節。\n\n三、吃水9公尺以上船舶通過注意事項：\n1. 依當年海圖及最新測深核對水深、等深線、淺點、沉積區及航道界線。\n2. 依潮位計算可用水深及富餘水深（UKC），納入船舶下沉量（squat）、縱傾、橫傾、波浪及測深誤差。\n3. 控制速度；高速通過淺水區會增加下沉量及岸壁效應，造成船體下沉、偏航及操縱反應改變。\n4. 保持在核定航道內，不可為避讓而任意切入未確認水深區；必要時先向VTS申請交通協調。\n5. 注意岸吸、艏推、橫流及風壓，若水深或標誌與海圖不符，應減速、通報並暫停通過。\n\n結論：深吃水船舶最重要的是以當年有效海圖及測深資料確認UKC，控制速度並保持在安全航路內。",
+    "practicalAnalysis": "現行官方燈表可供了解今日助航系統，但本題所問的歷史變遷須由2003年版海圖與航船布告確認。",
+    "keyPoints": [
+      {
+        "point": "第一港口燈塔及防波堤燈標",
+        "importance": "essential"
+      },
+      {
+        "point": "以2003年海圖核實順榮塢及新設標誌",
+        "importance": "essential"
+      },
+      {
+        "point": "深吃水船核算UKC與squat",
+        "importance": "essential"
+      },
+      {
+        "point": "低速守航道、注意岸壁效應",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第一、第二港口航路標識設備一覽表",
+        "supports": "現行燈標位置、燈質及能見距；不能代替2003年歷史燈表。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      "缺2003年第一港口燈表、順榮塢工程變更公告及原順榮塢外歷史測深資料。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及可取得之官方資料",
+          "result": "pass"
+        },
+        {
+          "item": "2003年歷史港區圖、航船布告及規定版本",
+          "result": "needs_review",
+          "note": "缺少部分歷史原始資料，未以現行資料冒充舊制。"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-kaohsiung-waterway-03-answer-v1",
+    "questionId": "92-kaohsiung-waterway-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、三線繫船浮筒的功能，是供船舶在港內指定水域繫泊或候泊，維持港池秩序，避免船舶任意拋錨、漂移或占用航道。三線排列通常依配置圖形成特定繫泊線，實際編號、排列順序及浮筒中心間距，必須依考試年度港區圖或浮筒配置表列出。\n\n二、編號與長度：答題應逐一列明三線浮筒編號，並區分浮筒中心至中心距離與可供船舶使用的設計繫泊長度。兩者不一定相同；實際可用長度還受船長、繫纜導向、浮筒位置、潮差、風流及鄰船迴旋空間影響。現有後續資料雖列出高雄港多組浮筒設計及實測長度，卻不足以確認本題2003年的三線配置，不能直接代入。\n\n三、設置目的：提供固定繫泊位置、減少航道內下錨、配合港區作業與候泊、降低漂移碰撞及妨礙交通的風險。\n\n四、繫泊最重要事項：**確認浮筒核定用途、承載能力及繫纜計畫，確保艏艉纜及必要倒纜／橫纜受力均勻。** 應確認浮筒、錨鏈、繫纜及船上繫纜樁的安全工作負荷，避免單一纜繩或浮筒承受全部外力。進入浮筒區前取得VTS許可並低速接近；離泊前確認交通淨空及拖船安排。",
+    "practicalAnalysis": "官方後續研究顯示浮筒設計長度與實測長度可能不同；但題目指定的三線歷史編號與間距仍須依2003年配置圖確認。",
+    "keyPoints": [
+      {
+        "point": "三線浮筒編號與距離依2003年配置圖",
+        "importance": "essential"
+      },
+      {
+        "point": "浮筒供指定繫泊及候泊",
+        "importance": "essential"
+      },
+      {
+        "point": "確認核定用途、SWL與繫纜受力",
+        "importance": "essential"
+      },
+      {
+        "point": "低速進入並依VTS指示",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港洲際貨櫃中心聯外交通改善策略研究",
+        "url": "https://www.iot.gov.tw/uploads/asset/data/66195c22367376304acd4c96/%E9%AB%98%E9%9B%84%E6%B8%AF%E6%B4%B2%E9%9A%9B%E8%B2%A8%E6%AB%83%E4%B8%AD%E5%BF%83%E8%81%AF%E5%A4%96%E4%BA%A4%E9%80%9A%E6%94%B9%E5%96%84%E7%AD%96%E7%95%A5%E4%B9%8B%E7%A0%94%E7%A9%B6.pdf",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "浮筒設施現況彙整表",
+        "supports": "後續浮筒編號及設計／實測長度資料；不能視為2003年配置。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港船舶交通服務指南",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=14910&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "高雄港報告機制及船舶航行規定",
+        "supports": "現行VTS報告及港內交通管理原則，供程序分析參考。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      "缺2003年三線繫船浮筒配置圖或當年港務局浮筒表，編號及各段長度尚不能可靠填入。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及可取得之官方資料",
+          "result": "pass"
+        },
+        {
+          "item": "2003年歷史港區圖、航船布告及規定版本",
+          "result": "needs_review",
+          "note": "缺少部分歷史原始資料，未以現行資料冒充舊制。"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-kaohsiung-waterway-04-answer-v1",
+    "questionId": "92-kaohsiung-waterway-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、操船條件：5,000總噸空船受風面積較大，夏季西南風可能造成顯著側向漂移及艏向偏轉。題目未給船長、船寬、拖船馬力、風力級數、潮流及碼頭方位，不能算出唯一拖船位置或拖力。\n\n二、進港前：向VTS確認進港排序、航道淨空及泊位可用；取得風速、陣風、流向、潮位與能見度；與船長交換船舶主機反應、舵效、停船距離、空船風壓面積及側推器資料；與拖船船長約定拖帶點、拖纜方式、拖力方向、口令及緊急應變。主機、舵機、錨機備便。\n\n三、進港與靠泊：\n1. 通過第一港口保持足夠舵效但避免過高速度，注意入口橫風及港內外風場差異。\n2. 港池內預先修正風致偏移，保持在安全航道內。\n3. 接近蓬萊區時先由主機、舵控制縱向速度及艏向，再由拖船協助控制橫移與艏向。\n4. 若西南風將船推離碼頭，拖船應在適當拖帶點提供向岸分力；若風將船壓向碼頭，則控制接近速度，避免碰撞。\n5. 採低速、分段、平移方式靠泊；先消除縱向速度，再控制橫向接近速度，避免拖船硬拉造成拖纜過載或船體急轉。\n6. 最後依風流及船舶慣性安排艏艉纜、倒纜，確認船舶安全繫妥。\n\n四、最重要事項：**一艘拖船的拖力與作用方向有限，須事先評估西南風對空船的風壓，安排拖船在能抵消漂移及控制艏向的位置，同時保留船舶自身主機舵效。** 若單拖船能力不足，應增加拖船、改變靠泊時機或暫緩作業。",
+    "practicalAnalysis": "本題資料不足以指定拖船馬力及確切繫帶位置；答案以空船風壓、拖船能力、主機舵效與平移平靠的決策原則作答。",
+    "keyPoints": [
+      {
+        "point": "空船風壓大",
+        "importance": "essential"
+      },
+      {
+        "point": "進港前確認拖船馬力與操縱資料",
+        "importance": "essential"
+      },
+      {
+        "point": "控制進港速度及橫移",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船控制艏向及漂移",
+        "importance": "essential"
+      },
+      {
+        "point": "單拖船能力不足時增加拖船或暫緩",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港船舶交通服務指南",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=14910&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "高雄港報告機制及船舶航行規定",
+        "supports": "現行VTS報告及港內交通管理原則，供程序分析參考。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭設施總表",
+        "supports": "現行蓬萊區碼頭資料；歷史泊位條件仍須查2003年港區資料。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      "題目未載拖船馬力、風力級數、潮流及碼頭方位，無法給出唯一拖船繫帶點與操作口令。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及可取得之官方資料",
+          "result": "pass"
+        },
+        {
+          "item": "2003年歷史港區圖、航船布告及規定版本",
+          "result": "needs_review",
+          "note": "缺少部分歷史原始資料，未以現行資料冒充舊制。"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-kaohsiung-waterway-05-answer-v1",
+    "questionId": "92-kaohsiung-waterway-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "本題要求的是2003年第二港口港內2、4、6號燈浮的精確位置、燈質及能見距。這些資料會因航道整建、疏浚、港區擴建及助航設施更新而變動，必須以2003年版海圖、燈表及航船布告為準。\n\n答題時應逐一列出每座燈浮的座標或相對地標位置、浮標顏色與形狀、燈質、閃光週期及能見距。現行港務公司導航設施清單可以查到今日第二港口部分燈杆與燈浮資料，但不足以證明2003年2、4、6號燈浮的歷史資料，不能把現行2號燈浮的燈質直接當成當年答案。\n\n燈浮設置目的包括：標示航道邊界及可航水域、提醒船舶避開淺灘或施工障礙、協助夜間及低能見度下辨識航路、配合岸上燈杆形成連續導航系統。船舶應依海圖與適用IALA浮標系統判讀，並以雷達、目視、電子海圖及定位交叉驗證；不可只憑編號推定紅綠側別。",
+    "practicalAnalysis": "已完成設置目的及導航判讀原則；三座燈浮的歷史座標、燈質及光程仍待原始海圖／燈表核實。",
+    "keyPoints": [
+      {
+        "point": "2、4、6號燈浮位置燈質光程須依2003年海圖燈表",
+        "importance": "essential"
+      },
+      {
+        "point": "標示航道邊界及危險水域",
+        "importance": "essential"
+      },
+      {
+        "point": "依IALA及海圖判讀",
+        "importance": "essential"
+      },
+      {
+        "point": "以雷達、目視及電子海圖交叉驗證",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第一、第二港口航路標識設備一覽表",
+        "supports": "現行燈標位置、燈質及能見距；不能代替2003年歷史燈表。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      "缺2003年第二港口2、4、6號燈浮海圖及燈表，故未填未經證實的座標、燈質與能見距。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及可取得之官方資料",
+          "result": "pass"
+        },
+        {
+          "item": "2003年歷史港區圖、航船布告及規定版本",
+          "result": "needs_review",
+          "note": "缺少部分歷史原始資料，未以現行資料冒充舊制。"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-kaohsiung-waterway-06-answer-v1",
+    "questionId": "92-kaohsiung-waterway-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、高雄港外海錨地數量與分區必須以2003年當時錨地配置圖為準；錨區會隨航道及港區擴建變動，不能將現行配置直接回推。\n\n二、危險品船應使用港口指定的危險品船專用錨區，依危險品種類、船舶尺度、吃水、裝載狀態及VTS分配錨位。專用錨區的目的，是將火災、爆炸、毒性或污染風險船舶與一般船舶分隔，降低事故連鎖風險，並便於消防、海巡及污染應變部署。\n\n三、題目所述兩萬總噸、由第一港口進港的危險品船，不能只依總噸位自行選錨位。應查當年危險品船錨泊規定及錨區圖，確認該船危險品類別、船長、吃水及港口別，再向VTS申請指定錨位。不得自行進入一般船舶錨區或選擇最近位置下錨。\n\n四、下錨前核對水深、底質、錨地界線、附近船舶及海底電纜／管線，計算錨鏈長度、迴旋半徑及安全距離；取得VTS同意後下錨，完成後回報位置及時間，保持主機備便、VHF守聽及錨泊守值。\n\n結論：危險品船須依當年指定專用錨區及VTS分配錨位；本題問及2003年錨地總數、專用區確切位置與指定錨位，仍須查當年港外錨地圖及危險品船錨泊規定。",
+    "practicalAnalysis": "現行制度已將高雄港錨區分區並設危險品船專用錨區，但規定始於108年，僅能作制度演變參考，不能回推2003年。",
+    "keyPoints": [
+      {
+        "point": "危險品船使用指定專用錨區",
+        "importance": "essential"
+      },
+      {
+        "point": "依危險品類別、吃水、船型與港口別分配",
+        "importance": "essential"
+      },
+      {
+        "point": "先向VTS申請指定錨位",
+        "importance": "essential"
+      },
+      {
+        "point": "核對水深底質錨鏈與安全距離",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄國際商港錨泊使用管理規定",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=14910&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第一至第四錨區及危險品船專用錨區",
+        "supports": "108年訂定、112年備查的後續制度；不得回推2003年。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      "缺2003年高雄港外海錨地圖及危險品船錨泊規定，不能確認當年錨區總數、專用區位置及指定錨位。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及可取得之官方資料",
+          "result": "pass"
+        },
+        {
+          "item": "2003年歷史港區圖、航船布告及規定版本",
+          "result": "needs_review",
+          "note": "缺少部分歷史原始資料，未以現行資料冒充舊制。"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-kaohsiung-waterway-07-answer-v1",
+    "questionId": "92-kaohsiung-waterway-07",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、低能見度管制目的：港口入口及港內交通密集，能見度不足會降低辨識防波堤、航道標誌、他船及岸上設施的能力；雷達與電子海圖亦受雨雜波、近岸回波、定位誤差及交通密度限制，因此港口得依規定暫停船舶進出。\n\n二、現行公開基準列明：500總噸以上船舶，一港口能見度低於1,000公尺、二港口低於1浬時得暫停進出；未滿500總噸船舶低於500公尺亦有管制基準。\n\n三、但不能將上述數字直接當成2003年答案。運安會公開資料記載，高雄港於110年3月29日修訂管制基準時，才新增一、二港口低能見度暫停進出港條件。因此，2003年題目所依據的舊版管制基準必須另行查明。\n\n四、歷史版本應確認：一、二港口是否採不同門檻；是否依總噸位或船種區分；條文用語為「得」或「應」暫停；能見度觀測位置及發布管制單位；平時與颱風期間是否有差異。\n\n五、實務上，即使未達法定門檻，若雨勢、背景燈光、雷達回波、交通密度或實際視程已嚴重影響操船，引水人仍應通報VTS並提出暫停或調整進出港建議。",
+    "practicalAnalysis": "現行數值可由官方基準確認，但官方事故調查資料顯示低能見度條件於2021年新增；本題2003年原始門檻尚待舊版法規核實。",
+    "keyPoints": [
+      {
+        "point": "低能見度影響辨識及安全操船",
+        "importance": "essential"
+      },
+      {
+        "point": "現行500GT以上一港口1000m、二港口1nm；未滿500GT 500m",
+        "importance": "essential"
+      },
+      {
+        "point": "低能見度條件於2021年增訂，不可回推2003年",
+        "importance": "essential"
+      },
+      {
+        "point": "歷史門檻須查當年有效基準",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港船舶進出港管制基準",
+        "url": "https://kh.twport.com.tw/fapi/AttFile?id=3732&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "能見度管制基準",
+        "supports": "現行低能見度門檻：500GT以上一港口低於1000m、二港口低於1浬；未滿500GT低於500m。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "運安會：1090106泰港輪高雄港觸碰事故改善建議紀錄",
+        "url": "https://www.ttsb.gov.tw/1133/1154/1168/23107/33015/",
+        "sourceType": "transport_authority",
+        "issuer": "交通部／國家運輸安全調查委員會",
+        "pageOrSection": "港務公司回覆",
+        "supports": "港務公司說明低能見度暫停進出港條件於110年3月29日修訂時新增。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      "2003年舊版管制基準原文尚未取得，題目要求的當年能見度門檻無法可靠確認。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及可取得之官方資料",
+          "result": "pass"
+        },
+        {
+          "item": "2003年歷史港區圖、航船布告及規定版本",
+          "result": "needs_review",
+          "note": "缺少部分歷史原始資料，未以現行資料冒充舊制。"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
