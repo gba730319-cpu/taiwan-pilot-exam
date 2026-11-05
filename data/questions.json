@@ -2878,5 +2878,265 @@
     "sourceId": "moex-102-english",
     "status": "已核對",
     "questionNo": 4
+  },
+  {
+    "id": "100-kaohsiung-waterway-01",
+    "year": 2011,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "試繪高雄港南區簡圖（前鎮河以南及二港口防波堤以內範圍），並標明碼頭編號、繫船浮筒、導航設施、船塢、船渠及漁港。（30 分）",
+    "sourceId": "moex-100-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "100-kaohsiung-waterway-02",
+    "year": 2011,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "4,000 總噸化學品船空載無船首推進器（Bow Thruster），自一港口進港左靠 58 號碼頭，派有一艘 1,800 匹馬力拖船協助靠泊，請詳述在東北季風強盛時如何使用拖船？在西南季風強盛時如何使用拖船來安全靠泊？（20 分）",
+    "sourceId": "moex-100-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "100-kaohsiung-waterway-03",
+    "year": 2011,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "請說明四、五線有那幾組繫船浮筒及其設計長度？又有那幾組不能繫船之原因為何？（15 分）",
+    "sourceId": "moex-100-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "100-kaohsiung-waterway-04",
+    "year": 2011,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "請敘明高雄港六大貨櫃中心其碼頭編號、碼頭長度、設計水深及租用公司？（15 分）",
+    "sourceId": "moex-100-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "100-kaohsiung-waterway-05",
+    "year": 2011,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "颱風過後西南氣流旺盛，併同西南湧波高 3 公尺，你如何建議進港船接近二港口 Pilot Station 安全上領港？（10 分）",
+    "sourceId": "moex-100-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "100-kaohsiung-waterway-06",
+    "year": 2011,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "二港口信號台前航道護岸目前正在改建拓寬，完工後航道寬度及水深多少公尺？改建後對船舶操航有何影響？原航道導航疊標何以不能再行使用？（10 分）",
+    "sourceId": "moex-100-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "100-pilot-law-01",
+    "year": 2011,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "請依引水法說明，引水人應如何與被引領船舶之船長或船舶所有人互動，以安全完成引水任務。如果有爭執時，應如何處理？（20 分）",
+    "sourceId": "moex-100-pilot-law",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "100-pilot-law-02",
+    "year": 2011,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "商港管理機關對商港區域內之沉船、漂流物等之打撈或移除有哪些義務或責任？對商港區域外航道之沉船、漂流物等，其義務或責任是否相同？（20 分）",
+    "sourceId": "moex-100-pilot-law",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "100-pilot-law-03",
+    "year": 2011,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "請說明應如何決定被引領船舶之安全速度。（20 分）",
+    "sourceId": "moex-100-pilot-law",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "100-pilot-law-04",
+    "year": 2011,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "在引領船舶入出港口時會有哪些碰撞危機？各應採何種避碰措施？（20 分）",
+    "sourceId": "moex-100-pilot-law",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "100-pilot-law-05",
+    "year": 2011,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "在何種狀況下，船長得拒絕引水人引領其船舶？引水人得拒絕引領該船舶？（20 分）",
+    "sourceId": "moex-100-pilot-law",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "100-pilotage-01",
+    "year": 2011,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "美國海圖編號由一位數字到五位數字，其分別代表何種意義？又臺灣地區海圖其開頭二位數字為何？（20 分）",
+    "sourceId": "moex-100-pilotage",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "100-pilotage-02",
+    "year": 2011,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "某船航向 030º 航速 20 節，於 ZT0800 測得一目標方位為 000º，ZT1000 又測同一目標方位為 330º。求該目標到達左正橫之時間，又此時船距目標多遠？（20 分）",
+    "sourceId": "moex-100-pilotage",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "100-pilotage-03",
+    "year": 2011,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "解釋下列燈光之光程與能見距之名詞：（20 分）(1)地平距離 (2)公稱光程 (3)照射光程 (4)地理見距",
+    "sourceId": "moex-100-pilotage",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "100-pilotage-04",
+    "year": 2011,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "臺灣之海圖基準面以何為準？高度基準面以何為準？又何謂回歸潮差？迴轉潮流？（20 分）",
+    "sourceId": "moex-100-pilotage",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "100-pilotage-05",
+    "year": 2011,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "寫出我國浮標制度？（20 分）",
+    "sourceId": "moex-100-pilotage",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "100-shiphandling-01",
+    "year": 2011,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "某貨櫃船全長 294 公尺，寬 32.2 公尺，吃水 12.2 公尺，排水量為 70,000 噸，其要靠泊於某一實心碼頭，該輪趨近碼頭的速度為 1 節，試問在無風、無流的情況下，要用多少拖船的拉力施於距離碼頭 30 公尺處外的貨櫃船，使能讓其在靠上碼頭時的側向速度為零？該輪無船艏橫向推進器，船席水深足夠勿需考慮淺水效應。（20 分）",
+    "sourceId": "moex-100-shiphandling",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "100-shiphandling-02",
+    "year": 2011,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "試述目前大型船舶所採用之 AZIPODS（全方向螺旋梭體）操縱系統的優劣點，以及引水人引領該等船舶應注意事項。（20 分）",
+    "sourceId": "moex-100-shiphandling",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "100-shiphandling-03",
+    "year": 2011,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "駕駛台資源管理（BRM）已成當前海運界改善航行安全的重要課程之一，試問當前國際海運社會推行「Close Loop Communication」之立意與內容為何？（15 分）",
+    "sourceId": "moex-100-shiphandling",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "100-shiphandling-04",
+    "year": 2011,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "試述港內拖帶 1 萬噸級無動力船舶泊靠碼頭應注意事項。（15 分）",
+    "sourceId": "moex-100-shiphandling",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "100-shiphandling-05",
+    "year": 2011,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "試比較操船者利用舵與船艏橫向推進器（Bow Thruster）進行迴轉時的影響差異。（15 分）",
+    "sourceId": "moex-100-shiphandling",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "100-shiphandling-06",
+    "year": 2011,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "臺灣各大商港常有大型客船泊靠，而在操船過程中常遭遇「陽台效應」（balcony effect）的影響，試就你所知詳述此現象與因應之道。（15 分）",
+    "sourceId": "moex-100-shiphandling",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "100-english-01",
+    "year": 2011,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please translate the following passages from English into Chinese.（30 分）(1) Pilotage is usually thought of as the guidance of a single vessel in ports, harbors and rivers by an experienced local specialist not regularly assigned to the ship. According to a convenient legal fiction, the vessel still belongs to the master and he can override the pilot at any time, for cause. In fact, however, in varying degrees the pilot shares responsibility for the safe navigation of the ship as an individual unit. (2) The achievement of safe, efficient and pollution free operations within a port area obviously depends upon the effective co-ordination of all elements. A pilot certainly has an essential role in the achievement of this objective but not the only role. Port co-ordination must be achieved through some authoritative form of co-operative effort, between all the groups which operate within the port area.",
+    "sourceId": "moex-100-english",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "100-english-02",
+    "year": 2011,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please translate the following passages from Chinese into English.（20 分）(1)船舶應儘可能避免橫越航行巷道，如不得已而橫越時，應儘可能與航行巷道一般通行方向成直角橫越之。 (2)當船舶駛入淺水區時，會產生壓力之改變，而導致船體之下沉及俯仰差之改變，尤其船舶以高速航行時，此現象更為明顯。",
+    "sourceId": "moex-100-english",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "100-english-03",
+    "year": 2011,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please translate the following terms from Chinese into English and use each term to make a complete sentence in English.（20 分）(1)走錨 (2)自動識別系統 (3)分道通航制 (4)迎艏正遇",
+    "sourceId": "moex-100-english",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "100-english-04",
+    "year": 2011,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please write a short composition on “Relationships between pilots and Vessel Traffic Center”.（around 300 words）（30 分）",
+    "sourceId": "moex-100-english",
+    "status": "已核對",
+    "questionNo": 4
   }
 ]
