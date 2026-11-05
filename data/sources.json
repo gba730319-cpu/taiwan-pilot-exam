@@ -724,5 +724,60 @@
     "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=044&code=090240&q=1&s=c051&t=Q",
     "pages": 1,
     "verified": "考選部官方 PDF 已取得；題目依原卷影像轉錄核對"
+  },
+  {
+    "id": "moex-089-kaohsiung-waterway",
+    "year": 2000,
+    "exam": "89年專門職業及技術人員特種考試第二次航海人員、引水人、第二次船舶電信人員考試",
+    "category": "甲種引水人（高雄港）",
+    "subject": "當地水道港灣詳情",
+    "issuer": "考選部",
+    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=1001&t=Q",
+    "pages": 1,
+    "verified": "考選部官方 PDF 已取得並依原卷影像逐題核對"
+  },
+  {
+    "id": "moex-089-english",
+    "year": 2000,
+    "exam": "89年專門職業及技術人員特種考試第二次航海人員、引水人、第二次船舶電信人員考試",
+    "category": "甲種引水人（麥寮港、高雄港）",
+    "subject": "實用英文",
+    "issuer": "考選部",
+    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=c051&t=Q",
+    "pages": 1,
+    "verified": "考選部官方 PDF 已取得並依原卷影像逐題核對"
+  },
+  {
+    "id": "moex-089-pilotage",
+    "year": 2000,
+    "exam": "89年專門職業及技術人員特種考試第二次航海人員、引水人、第二次船舶電信人員考試",
+    "category": "甲種引水人（麥寮港、高雄港）",
+    "subject": "引港學",
+    "issuer": "考選部",
+    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=c061&t=Q",
+    "pages": 1,
+    "verified": "考選部官方 PDF 已取得並依原卷影像逐題核對"
+  },
+  {
+    "id": "moex-089-shiphandling",
+    "year": 2000,
+    "exam": "89年專門職業及技術人員特種考試第二次航海人員、引水人、第二次船舶電信人員考試",
+    "category": "甲種引水人（麥寮港、高雄港）",
+    "subject": "船舶操縱",
+    "issuer": "考選部",
+    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=c081&t=Q",
+    "pages": 1,
+    "verified": "考選部官方 PDF 已取得並依原卷影像逐題核對"
+  },
+  {
+    "id": "moex-089-pilot-law",
+    "year": 2000,
+    "exam": "89年專門職業及技術人員特種考試第二次航海人員、引水人、第二次船舶電信人員考試",
+    "category": "甲種引水人（麥寮港、高雄港）",
+    "subject": "航政法規",
+    "issuer": "考選部",
+    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=c111&t=Q",
+    "pages": 1,
+    "verified": "考選部官方 PDF 已取得並依原卷影像逐題核對"
   }
 ]
