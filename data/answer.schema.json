@@ -1,0 +1,268 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/taiwan-pilot-exam/answer.schema.json",
+  "title": "Pilot exam answer record",
+  "description": "A traceable study answer. It is not an official marking scheme unless explicitly sourced as one.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "questionId",
+    "version",
+    "language",
+    "answerType",
+    "modelAnswer",
+    "practicalAnalysis",
+    "keyPoints",
+    "references",
+    "verification",
+    "lastUpdated"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "questionId": {
+      "type": "string",
+      "description": "Must match an existing data/questions.json id."
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "language": {
+      "type": "string",
+      "enum": [
+        "zh-TW",
+        "en"
+      ]
+    },
+    "answerType": {
+      "type": "string",
+      "enum": [
+        "essay",
+        "calculation",
+        "chart_or_drawing",
+        "translation",
+        "definition",
+        "operational_scenario"
+      ]
+    },
+    "modelAnswer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "practicalAnalysis": {
+      "type": "string",
+      "minLength": 1
+    },
+    "keyPoints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "point",
+          "importance"
+        ],
+        "properties": {
+          "point": {
+            "type": "string"
+          },
+          "importance": {
+            "type": "string",
+            "enum": [
+              "essential",
+              "supporting",
+              "bonus"
+            ]
+          },
+          "explanation": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "scoringGuide": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "items"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "editorial_estimate",
+            "official_rubric"
+          ]
+        },
+        "totalPoints": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "criterion",
+              "points"
+            ],
+            "properties": {
+              "criterion": {
+                "type": "string"
+              },
+              "points": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "basis": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "sourceType",
+          "url",
+          "supports"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "sourceType": {
+            "type": "string",
+            "enum": [
+              "law_or_regulation",
+              "official_port_or_authority",
+              "official_chart_or_notice",
+              "IMO_or_treaty",
+              "textbook_or_academic",
+              "manufacturer_manual",
+              "incident_report",
+              "other"
+            ]
+          },
+          "issuer": {
+            "type": "string"
+          },
+          "editionOrEffectiveDate": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "pageOrSection": {
+            "type": "string"
+          },
+          "accessedAt": {
+            "type": "string",
+            "format": "date"
+          },
+          "supports": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "assumptions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "checkedAt",
+        "checks"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "source_checked",
+            "technical_reviewed",
+            "approved_for_study"
+          ]
+        },
+        "checkedAt": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "checks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "item",
+              "result"
+            ],
+            "properties": {
+              "item": {
+                "type": "string"
+              },
+              "result": {
+                "type": "string",
+                "enum": [
+                  "pass",
+                  "needs_review",
+                  "not_applicable"
+                ]
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "reviewNotes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date"
+    }
+  }
+}
