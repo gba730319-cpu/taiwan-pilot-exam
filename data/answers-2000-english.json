@@ -1,0 +1,164 @@
+[
+  {
+    "id": "089-english-01-answer-v1",
+    "questionId": "089-english-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "**Model essay (approximately 190 words)**\n\nThrusters and tugboats are both useful aids to manoeuvring, especially when a vessel is operating at low speed in confined waters. However, they have different capabilities and limitations.\n\nA bow or stern thruster is installed on board and can produce transverse thrust without requiring the vessel to make much headway. It is readily available, responds quickly, and gives the bridge team greater independence during berthing and unberthing. It is particularly useful for small heading corrections and for controlling the bow or stern in calm or moderate conditions. Nevertheless, its effectiveness decreases as the vessel gathers speed, and it may be reduced by strong wind, current, shallow water, or heavy loading. Thrusters also require maintenance and consume considerable power.\n\nTugboats provide much greater external assistance. They can push or pull a large vessel, control its heading, check its speed, and help it turn in a restricted area. Their assistance is especially valuable for large ships with high windage or limited manoeuvrability. On the other hand, tug assistance involves additional cost, careful coordination, and the risk of towline failure or interaction with the ship's propeller and hull.\n\nIn conclusion, thrusters are convenient for routine low-speed adjustments, whereas tugboats provide more powerful and flexible assistance. The safest choice depends on the vessel's size, manoeuvring characteristics, weather, current, and available water space.",
+    "practicalAnalysis": "本題依航海專業語境、英文文法及標準海事術語作答。",
+    "keyPoints": [
+      {
+        "point": "thruster與tugboat功能差異",
+        "importance": "essential"
+      },
+      {
+        "point": "低速橫向推力及船速限制",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船外部推拉及轉向控制",
+        "importance": "essential"
+      },
+      {
+        "point": "費用、協調及拖纜風險",
+        "importance": "essential"
+      },
+      {
+        "point": "依船型、風流及港區空間選擇",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Standard Marine Communication Phrases",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/StandardMarineCommunicationPhrases.aspx",
+        "issuer": "International Maritime Organization",
+        "supports": "標準海事通信用語。"
+      }
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "英文語法及海事術語",
+          "result": "pass"
+        },
+        {
+          "item": "標準海事用語一致性",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "089-english-02-answer-v1",
+    "questionId": "089-english-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "(a) **When a vessel is anchored with both anchors leading ahead, she is said to be open moor.**\n“is anchor”改為“is anchored”；open moor為雙錨向前展開的錨泊方式。\n\n(b) **In a single-screw vessel, the rudder is directly abaft the propeller, and the propeller slipstream strikes directly upon the rudder surface.**\n在rudder前補be動詞；以propeller slipstream表示螺槳滑流。\n\n(c) **Pilot ladders must be capable of being used on either side of the ship; they are to be used only for pilots' access.**\n“must capable”改為“must be capable”；“being use”改為“being used”；“of ship”改為“of the ship”。\n\n(d) **The clear-view screens should be tested beforehand, together with the fog-signalling apparatus, in anticipation of poor visibility.**\n“should tested”改為“should be tested”；“poor visible”改為“poor visibility”。\n\n(e) **Radar is an additional safeguard, and failure to use it might constitute negligence.**\n“a additional”改為“an additional”；“negligences”改為不可數名詞“negligence”。",
+    "practicalAnalysis": "本題依航海專業語境、英文文法及標準海事術語作答。",
+    "keyPoints": [
+      {
+        "point": "被動語態及be動詞",
+        "importance": "essential"
+      },
+      {
+        "point": "anchor分詞用法",
+        "importance": "essential"
+      },
+      {
+        "point": "pilot ladder安全用語",
+        "importance": "essential"
+      },
+      {
+        "point": "visibility名詞用法",
+        "importance": "essential"
+      },
+      {
+        "point": "negligence不可數名詞",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Standard Marine Communication Phrases",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/StandardMarineCommunicationPhrases.aspx",
+        "issuer": "International Maritime Organization",
+        "supports": "標準海事通信用語。"
+      }
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "英文語法及海事術語",
+          "result": "pass"
+        },
+        {
+          "item": "標準海事用語一致性",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "089-english-03-answer-v1",
+    "questionId": "089-english-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "引水人可定義為具備專業資格及地方航海知識的人員，熟悉淺灘、礁石、潮流等水文與航行條件，通常由主管機關核發執照，受船舶所有人聘用，負責引導船舶通過河川、礁區或航道，或進出港口。\n\n主要海港通常依法律設置引水制度。引水人依法享有相關權利，並有義務依《引水法》及各港口適用的港口規章執行職務。\n\n術語：qualified individual＝具備資格之人員；local knowledge＝地方航海知識；shallows＝淺灘；currents＝潮流／海流；appropriate authority＝主管機關；shipowner＝船舶所有人；conduct a ship＝引領船舶；legislative enactments＝法律規定；principal seaports＝主要海港；bound to perform duties＝負有履行職務之義務。",
+    "practicalAnalysis": "本題依航海專業語境、英文文法及標準海事術語作答。",
+    "keyPoints": [
+      {
+        "point": "qualified individual具資格人員",
+        "importance": "essential"
+      },
+      {
+        "point": "local knowledge地方航海知識",
+        "importance": "essential"
+      },
+      {
+        "point": "conduct a ship引領船舶",
+        "importance": "essential"
+      },
+      {
+        "point": "legislative enactments法律規定",
+        "importance": "essential"
+      },
+      {
+        "point": "bound to perform duties負有職務義務",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Standard Marine Communication Phrases",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/StandardMarineCommunicationPhrases.aspx",
+        "issuer": "International Maritime Organization",
+        "supports": "標準海事通信用語。"
+      }
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "英文語法及海事術語",
+          "result": "pass"
+        },
+        {
+          "item": "標準海事用語一致性",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  }
+]
