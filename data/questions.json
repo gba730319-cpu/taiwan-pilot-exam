@@ -748,5 +748,275 @@
     "sourceId": "moex-110-english",
     "status": "已核對",
     "questionNo": 4
+  },
+  {
+    "id": "92-kaohsiung-waterway-01",
+    "year": 2003,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "颱風來襲前後風浪過大，領港艇無法出港送引水人上船，在何種規定條件下，由船長自行駛進二港口防波堤內上領港，請詳述之。（20 分）",
+    "sourceId": "moex-092-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "92-kaohsiung-waterway-02",
+    "year": 2003,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "一港口進港導航標誌及順榮塢有何變遷？試說明新設導航標誌位置及燈光特性？吃水九米以上船舶通過原順榮塢外時應注意事項？（20 分）",
+    "sourceId": "moex-092-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "92-kaohsiung-waterway-03",
+    "year": 2003,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "試說明高雄港三線繫船浮筒之編號、各浮筒間之長度，並說明其設置之目的？繫泊時最重要一點為何？（15 分）",
+    "sourceId": "moex-092-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "92-kaohsiung-waterway-04",
+    "year": 2003,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "夏季西南風強勁，伍仟總噸空船使用一艘拖船，由一港口進港靠蓬萊區碼頭，應如何靠泊？其中最重要一點為何？（15 分）",
+    "sourceId": "moex-092-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "92-kaohsiung-waterway-05",
+    "year": 2003,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "請說明二港口港內二、四、六號燈浮大概位置、燈光特性、能見距及其設置燈浮之目的為何？（10 分）",
+    "sourceId": "moex-092-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "92-kaohsiung-waterway-06",
+    "year": 2003,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "高雄港外海分幾個錨地？危險品船錨地在何處？一港口進港兩萬總噸之危險品船，應在何處危險品錨地下錨等候？原因何在？（10 分）",
+    "sourceId": "moex-092-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "92-kaohsiung-waterway-07",
+    "year": 2003,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "高雄港船舶進出管制基準規定，一、二港口颱風及平時期間，能見度低於何基準，得暫停船舶進出港？（10 分）",
+    "sourceId": "moex-092-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 7
+  },
+  {
+    "id": "92-pilot-law-01",
+    "year": 2003,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "自美國 911 事件後，反恐已成為國際間所重視之問題，請說明港口設施及船舶應如何互相配合，以實施保安（Security）措施。而針對海上人命安全公約二００二年修正案第 XI-2 章（加強海事保安之特別措施），將於二００四年七月一日生效，我國國籍船舶及我國港口當局應如何採取因應措施？為能提供執行之法源，我國商港法現行條文有哪些可以適用？（20 分）",
+    "sourceId": "moex-092-pilot-law",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "92-pilot-law-02",
+    "year": 2003,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "請說明在下列情況下，引水人、船長及船舶所有人是否有民事責任？若有，應如何劃分？而引水人是否有刑事責任？是否應受何種行政處分？請依商港法、引水法、海商法等相關法律條文說明之。（25 分）(1)所引領之船舶在港區內未緩輪慢行，致生碰撞，有人身傷亡。(2)發現他船遭遇海難未迅速報告有關機關。(3)發現有立待救助之信號，在不甚危害其船舶海員之範圍內，未設法施救，造成財物損失及加重海洋污染。(4)所引領之船舶在港區發生碰撞事故，未立即將碰撞海事通報港口管理機關。",
+    "sourceId": "moex-092-pilot-law",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "92-pilot-law-03",
+    "year": 2003,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "請說明我國之學習引水人制度之內容及目的，以及學習引水人與指導引水人、船長間之職務關係。（15 分）",
+    "sourceId": "moex-092-pilot-law",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "92-pilot-law-04",
+    "year": 2003,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "請舉三例說明船舶在何種情況下，有碰撞危機存在，以及在各該情況下船舶所應採之避碰措施？（20 分）",
+    "sourceId": "moex-092-pilot-law",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "92-pilot-law-05",
+    "year": 2003,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "港口國管制（Port State Control）的目的為何？港口國管制所檢查之船舶文書包括哪些？在何種情況下，港口國管制官員將登輪詳細檢查？（20 分）",
+    "sourceId": "moex-092-pilot-law",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "92-pilotage-01",
+    "year": 2003,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "解釋下列氣象名詞：（20 分）(1)氣溫垂直遞減率 (2)東風波 (3)海霧形成之原因 (4)焚風 (5)三胞環流",
+    "sourceId": "moex-092-pilotage",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "92-pilotage-02",
+    "year": 2003,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "十一月初在菲律賓東方海面發展形成輕度颱風米勒，朝西北方向前進。十一月二日上午八時到達巴士海峽，台灣、美軍、日本及中國氣象局均預測其會朝西北轉西登陸中國廣東省。請你分析其預測之根據，又實際該颱風轉向沿台灣東部海面由北轉北北東前進，為什麼？（20 分）",
+    "sourceId": "moex-092-pilotage",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "92-pilotage-03",
+    "year": 2003,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "某船航向 210° 航速 20 節，於 2000 測得一燈塔位於右舷 30°，2100 又測得該燈塔位於右舷 60°，試問該燈塔何時位於正橫？此時燈塔與船之距離為多少？（20 分）",
+    "sourceId": "moex-092-pilotage",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "92-pilotage-04",
+    "year": 2003,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "在 IALA 海上浮標制度中，有所謂基點標誌，請回答下列問題：（20 分）(1)形狀 (2)頂標之形狀及顏色 (3)浮標之顏色 (4)燈光特徵",
+    "sourceId": "moex-092-pilotage",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "92-pilotage-05",
+    "year": 2003,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "北太平洋主要有哪些海流？其流向及流速為何？對氣象及航海各有何影響？（20 分）",
+    "sourceId": "moex-092-pilotage",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "92-shiphandling-01",
+    "year": 2003,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "甲船右靠於某船渠內之碼頭，今欲於正橫向吹攏風的情況下開船，引水人利用船艏橫向推進器（Bow Thruster）（最大推力 15 噸，距船艉 180 公尺）及一艘 ZP 拖船在正船艉帶纜協助（拖船纜之拉力為 25 噸，拖纜仰角為 15°），使船身保持與碼頭線平行拖開碼頭至船渠外之迴船池調頭出港，當時風壓 20 噸，作用點距船艉 100 公尺，港內無水流影響，試問：（20 分）(1)船艏橫向推進器之推力至少應調整為多少？(2)拖船應採多大的拖曳角度？甲船之後退力為何？",
+    "sourceId": "moex-092-shiphandling",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "92-shiphandling-02",
+    "year": 2003,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "某船排水量 25,000 噸，欲使船速從 12 節加速至 14 節需耗時四分鐘，試問在此情況下之加速慣性以及加速所需之馬力數為何？此船船速 12 節時之柴油機引擎馬力為 5,000 ps。（20 分）",
+    "sourceId": "moex-092-shiphandling",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "92-shiphandling-03",
+    "year": 2003,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "吾人皆知船速過快時船艏橫向推進器即喪失應有效能，試問：（15 分）(1)就您經驗船速至何種程度，船艏橫向推進器始無作用？又造成此缺失之主因為何？(2)從船廠試驗中我們得知，橫向推進器的效能因子 C 與推力（T）、馬力（P）、橫向推進器圓面積（A）與水密度（d）有關，請用方程式表示出其間之關係。",
+    "sourceId": "moex-092-shiphandling",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "92-shiphandling-04",
+    "year": 2003,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "為防止引水區內海事的不斷發生，國際間近年來極力推行 BRM-P（Bridge Resource Management Plan）計劃，請就您所知，闡述 BRM-P 計劃的沿革與精神主旨所在。（15 分）",
+    "sourceId": "moex-092-shiphandling",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "92-shiphandling-05",
+    "year": 2003,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "試問何謂 Cross Channel Angle？若操船過程中發現此角度過大時，應採何措施？（15 分）",
+    "sourceId": "moex-092-shiphandling",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "92-shiphandling-06",
+    "year": 2003,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "試問何謂 Washing Damage？若操船過程中發現有發生此現象之疑慮時，應採何措施？（15 分）",
+    "sourceId": "moex-092-shiphandling",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "92-english-01",
+    "year": 2003,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please translate the following passage from English into Chinese.（30 分）Because of the worldwide escalation of acts of terrorism, there can be no doubt of the wisdom, for all parties concerned, of starting to put in place without delay all the necessary infrastructure, such as the legislative, administrative and operational measures, that will be needed to give effect to the decisions of the Maritime Security Conference. It is important that this is done methodically and systematically and as soon as possible, without waiting for the entry-into-force date of 1 July 2004. Hasty, last-minute action could not only play into the hands of the very people these measures are designed to stop but could also lead to restrictions on the movement of ships found not to be in compliance with the applicable requirements of SOLAS and the ISPS code. IMO invited the particular attention of SOLAS Contracting Governments to the new SOLAS regulation XI-2/9 on “Control and compliance measures”, and the corresponding requirements and guidance of the ISPS Code, and to the serious repercussions ships might face after 1 July 2004 if they were found not be in compliance with these requirement. The impact on port operations, in a similar situation, also needs to be assessed and the appropriate corrective action taken.",
+    "sourceId": "moex-092-english",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "92-english-02",
+    "year": 2003,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please correct all the errors in each of the following sentences.（20 分）(1) Line Companies is always prefer to have their dispute settlement at home rather than away. (2) Most salvage operations includes the remove of a greater or less quantity of water from one or most compartmentes of casualty. (3) The ISPS Code contain detail security relate requirements for Governmentes, port authorityes and shipping company in mandatory section.(Part A) (4) Inmarsats Fleet F77 have benefite end users by providing informations on applications and advise on optimization1.",
+    "sourceId": "moex-092-english",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "92-english-03",
+    "year": 2003,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please translate the following terms from Chinese into English and make sentences.（20 分）(1)引航 (2)保養計畫 (3)不可抗力 (4)故意擱淺 (5)海的危難",
+    "sourceId": "moex-092-english",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "92-english-04",
+    "year": 2003,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please write an essay on topic “Safe port and safe berth” in English.（No less than three paragraphs）（30 分）",
+    "sourceId": "moex-092-english",
+    "status": "已核對",
+    "questionNo": 4
   }
 ]
