@@ -11,13 +11,6 @@ import pilotage2003AnswerData from "../data/answers-2003-pilotage.json";
 import law2003AnswerData from "../data/answers-2003-law.json";
 import shiphandling2003AnswerData from "../data/answers-2003-shiphandling.json";
 import english2003AnswerData from "../data/answers-2003-professional-english.json";
-import english2003AnswerData from "../data/answers-2003-professional-english.json";
-import shiphandling2003AnswerData from "../data/answers-2003-shiphandling.json";
-import law2003AnswerData from "../data/answers-2003-law.json";
-import pilotage2003AnswerData from "../data/answers-2003-pilotage.json";
-import kaohsiung2003AnswerData from "../data/answers-2003-kaohsiung.json";
-import law2000AnswerData from "../data/answers-2000-law.json";
-import pilotage2000AnswerData from "../data/answers-2000-pilotage.json";
 
 type Question = {
   id: string;
