@@ -6,7 +6,7 @@
     "port": "高雄港",
     "question": "試以比例尺三萬分之一繪製高雄港全港圖，並詳細標示碼頭及其長度／設計水深、航道及其寬度、迴旋池及其直徑、船渠、漁港、禁止錨泊區、導航設施及潮信資料等。請參照海圖圖名：高雄港及附近，圖號：0341C。（25 分）",
     "sourceId": "moex-114-kaohsiung-waterway",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 1
   },
   {
@@ -16,7 +16,7 @@
     "port": "高雄港",
     "question": "高雄港新建置完成的 A-6 碼頭，其具體位置在何處？試簡單繪製該碼頭的輪廓，並標示碼頭長度及水深。試問該座碼頭營運目的及租用營運公司分別為何？建置後的碼頭，其對船舶操航有何影響？（12 分）",
     "sourceId": "moex-114-kaohsiung-waterway",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 2
   },
   {
@@ -26,7 +26,7 @@
     "port": "高雄港",
     "question": "於冬季東北風 5 級，某化學品船 4900 總噸，全長 108 公尺，艏艉吃水分別為 5 公尺及 5.5 公尺，左舷靠泊於 60 號碼頭，該輪無船艏推進器（Bow Thruster）；欲移泊至浮筒 B32/33，並配置有一艘拖輪 2400HP 協助，試問該如何安全完成船舶移泊作業？（15 分）",
     "sourceId": "moex-114-kaohsiung-waterway",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 3
   },
   {
@@ -36,7 +36,7 @@
     "port": "高雄港",
     "question": "依據最新修訂之高雄港一、二港口（含洲際二期）船舶進出港管制基準規定，試就平時期間、颱風期間，以及能見度受限時，分別敘述船舶管制進出港之基準為何？（15 分）",
     "sourceId": "moex-114-kaohsiung-waterway",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 4
   },
   {
@@ -46,7 +46,7 @@
     "port": "高雄港",
     "question": "於夏天西南風 6 級，某貨櫃船 6500 總噸，全長 130 公尺，艏艉吃水分別為 6 公尺及 7 公尺，該輪無船艏推進器（Bow Thruster）；欲自一港口進港右舷靠泊 65 號碼頭，且在泊位前後已分別有大型貨櫃船靠泊，並配置有一艘 2400HP 拖輪協助靠泊。試問該如何安全引領船舶進港靠泊碼頭？（10 分）",
     "sourceId": "moex-114-kaohsiung-waterway",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 5
   },
   {
@@ -56,7 +56,7 @@
     "port": "高雄港",
     "question": "於夏天盛行西南風 6 級，並夾帶豐富的雨量，某 CPP 船舶 6000 總噸，全長 110 公尺，艏艉吃水分別為 6 公尺及 7 公尺，該輪無船艏推進器（Bow Thruster），左舷靠泊於 99 號碼頭，該輪拋有 3 節開錨，且在 98 號及 101 號碼頭分別有大型海岬型散裝船靠泊，並配置有一艘 2400HP 拖輪協助離泊。試問依據高雄港之規定，99 號碼頭可靠泊船舶的船長（LOA）及吃水分別為多少？另依前述之環境條件，試問該如何安全完成船舶離泊出港作業？（12 分）",
     "sourceId": "moex-114-kaohsiung-waterway",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 6
   },
   {
@@ -66,7 +66,7 @@
     "port": "高雄港",
     "question": "依據臺灣港務公司已建置的商港海氣象資訊系統，該系統於高雄港區之波浪、潮位及港內靜穩度等測站位置分別設在何處？該系統所顯示的波高型式為何？而此波高型式代表的意義為何？（11 分）",
     "sourceId": "moex-114-kaohsiung-waterway",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 7
   },
   {
@@ -76,7 +76,7 @@
     "port": "共通科目",
     "question": "2021 年一艘貨櫃船在通過蘇伊士運河時，因故擱淺，造成遠歐海上交通動脈打結，更造成國際貿易物流斷鏈危機。據巴拿馬海事局（Panama Maritime Authority, PMA）的海事報告指出，該輪 LOA 399.98 M，MLB 58.8 M，MLD 32.9 M，夏季吃水 16.025 M，當時風速 25-27 節，陣風 40 節，擱淺時的船速約 12 節，請就船舶操縱與環境關係，論述此擱淺事故可能的原因。（20 分）",
     "sourceId": "moex-114-shiphandling",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 1
   },
   {
@@ -86,7 +86,7 @@
     "port": "共通科目",
     "question": "請說明 SCHOTTEL Rudder Propeller（SRP）型拖船與 Voith Schneider Propeller（VSP）型拖船的特性及其優劣點。（20 分）",
     "sourceId": "moex-114-shiphandling",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 2
   },
   {
@@ -96,7 +96,7 @@
     "port": "共通科目",
     "question": "船舶航行時為什麼會產生艉座（Squat）情形？（5 分）艉座量大小與操船的船速有何關係？（5 分）",
     "sourceId": "moex-114-shiphandling",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 3
   },
   {
@@ -106,7 +106,7 @@
     "port": "共通科目",
     "question": "迴旋支點和艏推器應如何配合使用可有較理想的操作效益？（10 分）",
     "sourceId": "moex-114-shiphandling",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 4
   },
   {
@@ -116,7 +116,7 @@
     "port": "共通科目",
     "question": "近年船舶大型化發展，貨櫃船、汽車船及郵輪都有很大的舷側受風面積，且駕駛臺都在近船艏處，請問這三種船型在操縱上有何差異？（20 分）",
     "sourceId": "moex-114-shiphandling",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 5
   },
   {
@@ -126,7 +126,7 @@
     "port": "共通科目",
     "question": "2024 年 6 月中油公司所屬通運輪（TONG YUN），總噸位 28,410，在駛出高雄港二港口時，右船艉擦撞高雄港二港口離岸堤，請問如何操縱船舶避免此次事故發生？是否有其他改善的可能？（20 分）",
     "sourceId": "moex-114-shiphandling",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 6
   },
   {
@@ -136,7 +136,7 @@
     "port": "共通科目",
     "question": "Please translate the following passages from English into Chinese.（每小題 15 分，共 30 分）(1) Vessel Traffic Services (VTS) play a crucial role in enhancing the safety and efficiency of maritime traffic in congested waters. Through real-time communication and monitoring, VTS significantly reduces collision risks and environmental hazards by providing vessels with critical navigational information and safety instructions. (2) The primary responsibility for the ship's navigation remains with the master, even when a pilot is on board. However, the pilot's expert local knowledge and navigation skills substantially contribute to the safe maneuvering of the vessel, particularly in challenging or unfamiliar waters.",
     "sourceId": "moex-114-english",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 1
   },
   {
@@ -146,7 +146,7 @@
     "port": "共通科目",
     "question": "Please translate the following passages from Chinese into English.（每小題 10 分，共 20 分）(1) 當船舶航行於狹窄水道或交通流密集區域時，應隨時保持高度警戒，主機亦應隨時備妥，以應付緊急狀況。(2) 船長與引水人應於引航作業開始前，明確界定各自的職責範圍，確保操作過程中彼此的溝通與合作能順暢無誤。",
     "sourceId": "moex-114-english",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 2
   },
   {
@@ -156,7 +156,7 @@
     "port": "共通科目",
     "question": "Please give the definitions of the following maritime term in English.（每小題 5 分，共 20 分）(1) Boarding arrangements (2) Crash-stop (3) Steerage way (4) Safe speed",
     "sourceId": "moex-114-english",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 3
   },
   {
@@ -166,7 +166,7 @@
     "port": "共通科目",
     "question": "Please write a short composition on “Importance of Communication between Pilots and Ship’s Bridge Team”. (around 300 words)（30 分）",
     "sourceId": "moex-114-english",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 4
   },
   {
@@ -176,7 +176,7 @@
     "port": "共通科目",
     "question": "請依引水法及通用之引水契約，說明引水人在執行業務時應遵循之義務及相關民事責任內容。（25 分）",
     "sourceId": "moex-114-pilot-law",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 1
   },
   {
@@ -186,7 +186,7 @@
     "port": "共通科目",
     "question": "請說明為保障船舶、設施和人命財產安全，進出港船舶應採何種航行安全措施？（25 分）",
     "sourceId": "moex-114-pilot-law",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 2
   },
   {
@@ -196,7 +196,7 @@
     "port": "共通科目",
     "question": "請依商港法說明商港法之立法目的，以及相關之港埠政策內容。（25 分）",
     "sourceId": "moex-114-pilot-law",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 3
   },
   {
@@ -206,7 +206,7 @@
     "port": "共通科目",
     "question": "請說明港口船舶交通服務（Vessel Traffic Service）在航行安全作業之職掌。（25 分）",
     "sourceId": "moex-114-pilot-law",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 4
   },
   {
@@ -216,7 +216,7 @@
     "port": "共通科目",
     "question": "請畫出表示下列導航標誌、設施或目標在電子海圖顯示與資訊系統（ECDIS）上的國際通用符號（無須著色）。（每小題 4 分，共 20 分）（一）離岸風場（Wind farm (offshore)）；（二）遵循航向的指向燈（Directional light without sector (Direction light with course to be followed)）；（三）深度未知或低於安全等深線的沈船（Submerged wreck with depth less than the safety contour or depth unknown）；（四）環境敏感水域（Environmentally Sensitive Sea Area）；（五）交通警戒區（Traffic precautionary area）。",
     "sourceId": "moex-114-pilotage",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 1
   },
   {
@@ -226,7 +226,7 @@
     "port": "共通科目",
     "question": "請敘述溫帶氣旋與熱帶氣旋的相似與差異處。（20 分）",
     "sourceId": "moex-114-pilotage",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 2
   },
   {
@@ -236,7 +236,7 @@
     "port": "共通科目",
     "question": "甲、乙兩船由同點出發，航向均為 000°，朝向正前方 35 浬處之燈塔 L 前進，甲船速率 15 節，乙船速率 12 節。2 小時後，甲船測 L 之方位為 040°，乙船測 L 之方位為 025°，求水流的流向與流速。（20 分）",
     "sourceId": "moex-114-pilotage",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 3
   },
   {
@@ -246,7 +246,7 @@
     "port": "共通科目",
     "question": "近年來臺灣沿岸及離岸設立諸多風力發電機（Wind Turbine），請敘述此等風機對船用雷達（含 X-Band 及 S-Band）的影響以及應注意事項。（20 分）",
     "sourceId": "moex-114-pilotage",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 4
   },
   {
@@ -256,7 +256,7 @@
     "port": "共通科目",
     "question": "請從引航定位的角度說明在港區狹窄水道航行應注意事項。（20 分）",
     "sourceId": "moex-114-pilotage",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 5
   },
   {
@@ -266,7 +266,7 @@
     "port": "高雄港",
     "question": "高雄港大型郵輪多靠泊於那幾處船席？靠、離泊有何應注意事項？大型郵輪自一港口進、出之限制為何？若因超出限制，必須繞道改由二港口進、出時，應注意事項為何？（15 分）",
     "sourceId": "moex-112-kaohsiung-waterway",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 1
   },
   {
@@ -276,7 +276,7 @@
     "port": "高雄港",
     "question": "2000 總噸之小型雜貨船左舷靠泊於74 號碼頭近73 號碼頭側，全長60 公尺，船艏吃水2.8 公尺，船艉吃水3.8 公尺，無配備船艏橫推器（Bow Thruster），未拋下外舷開錨，準備使用一艘2400 HP 拖船協助，請詳述如何安全完成離泊作業。若上述貨船靠泊位置改為極接近75 號碼頭側，應如何安全完成離泊作業？（15 分）",
     "sourceId": "moex-112-kaohsiung-waterway",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 2
   },
   {
@@ -286,7 +286,7 @@
     "port": "高雄港",
     "question": "請詳述下列港區、碼頭有何新增或拆除之設施及其使用現況：（一）四船渠；（二）愛河口；（三）淺水碼頭。（10 分）",
     "sourceId": "moex-112-kaohsiung-waterway",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 3
   },
   {
@@ -296,7 +296,7 @@
     "port": "高雄港",
     "question": "請以三萬分之一比例尺詳繪高雄港一、二港口及洲際二期港區，並請於圖上詳細標示所有進出港航道、錨泊區及禁錨區等。（30 分）",
     "sourceId": "moex-112-kaohsiung-waterway",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 4
   },
   {
@@ -306,7 +306,7 @@
     "port": "高雄港",
     "question": "請詳述新修訂高雄港國際商港港勤拖船調派規定中有關調派拖船馬力與艘數之原則。（15 分）",
     "sourceId": "moex-112-kaohsiung-waterway",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 5
   },
   {
@@ -316,7 +316,7 @@
     "port": "高雄港",
     "question": "請簡單敘述高雄港最新修訂之引水人登輪區規定？（15 分）",
     "sourceId": "moex-112-kaohsiung-waterway",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 6
   },
   {
@@ -326,7 +326,7 @@
     "port": "共通科目",
     "question": "請按引水法敘述得任引水人的基本要件？以及上船完成領航實務學習歷程之相關規定？並請條列出法定上不得擔任引水人的5款規定？與主管機關因引水人在業務上有重大過失，得報請交通部收回引水人執業證書的5款事由等的規定為何？（25 分）",
     "sourceId": "moex-112-pilot-law",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 1
   },
   {
@@ -336,7 +336,7 @@
     "port": "共通科目",
     "question": "請依據國際商港港勤拖船調派及管理要點，敘述引水人在作業中對：（一）拖船調派增減時機及（二）在拖船作業使用時的相關規定等各為何？（25 分）",
     "sourceId": "moex-112-pilot-law",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 2
   },
   {
@@ -346,7 +346,7 @@
     "port": "共通科目",
     "question": "請依據國際海上避碰規則，試述各船在航中：（一）安全速度（Safe Speed）定義上的要求；（二）當船舶以安全速度航駛時所應考慮的因素；（三）對使用雷達的船舶還需考慮的因素等各為何？（25 分）",
     "sourceId": "moex-112-pilot-law",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 3
   },
   {
@@ -356,7 +356,7 @@
     "port": "共通科目",
     "question": "請按引水法敘述受招登輪及領航業務過程中，引水人與船長各自的職責？與引水人可拒絕領航的情事為何？在領航作業中需即迅速報告，並於抵港時再用書面報告當地主管機關的規定為何？（25 分）",
     "sourceId": "moex-112-pilot-law",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 4
   },
   {
@@ -366,7 +366,7 @@
     "port": "共通科目",
     "question": "關於每年都可能侵擾臺灣的颱風，試說明：（一）颱風之定義（5分）；（二）颱風之成因（5分）；（三）颱風之結構（10分）；（四）颱風之行進變化（5分）；（五）颱風對臺灣之影響（5分）。",
     "sourceId": "moex-112-pilotage",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 1
   },
   {
@@ -376,7 +376,7 @@
     "port": "共通科目",
     "question": "ECDIS 必須提供的警報或指示項目可以分成那些群組？分別發生於何種狀況？（20分）",
     "sourceId": "moex-112-pilotage",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 2
   },
   {
@@ -386,7 +386,7 @@
     "port": "共通科目",
     "question": "解釋下列名詞並比較兩者差異：（一）Nominal Range & Luminous Range；（二）Lateral System & Cardinal System；（三）Stand of Tide & Slack Water。（每小題10分，共30分）",
     "sourceId": "moex-112-pilotage",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 3
   },
   {
@@ -396,7 +396,7 @@
     "port": "共通科目",
     "question": "IALA 浮標系統基點標誌之顏色及頂標各如何表示？試繪圖並敘述之。（20分）",
     "sourceId": "moex-112-pilotage",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 4
   },
   {
@@ -406,7 +406,7 @@
     "port": "共通科目",
     "question": "新型貨櫃船的艏、艉部船殼都有突出的外展（Flare/Overhang），常導致泊靠碼頭時船殼撞擊岸上機具，請敘述離、靠碼頭時，影響船殼撞擊碼頭岸上機具的因素。又某貨櫃船船長（LOA）210公尺，乾舷高9公尺，甲板上積載六層高的貨櫃，船舯平行船殼段的長度為52公尺，如果以船身與碼頭法線偏斜2°的態勢靠岸，請計算出船艉伸入碼頭法線內的距離。（20分）",
     "sourceId": "moex-112-shiphandling",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 1
   },
   {
@@ -416,7 +416,7 @@
     "port": "共通科目",
     "question": "某郵輪配置二具外旋（Outward turning）螺旋槳的全方位吊艙型推進器（Azi Pods），請以簡圖畫出二具吊艙（Pods）應置於什麼相對操作位置，才可以讓船舶產生最大向左與向右迴轉的橫向推力（Side thrust）？又如果要使此船在前進中停止下來，有幾種操作吊艙的方法？在無風、無流，空曠且水深足夠的水域。（20分）",
     "sourceId": "moex-112-shiphandling",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 2
   },
   {
@@ -426,7 +426,7 @@
     "port": "共通科目",
     "question": "散裝船A輪欲進港左舷泊靠B船席，港口碼頭配置如下圖所示。安排兩艘3,000匹馬力（HP）拖船協助，請說明如何引領A輪泊靠？A輪總噸17,000，船長165公尺，柴油機主機馬力7,000 HP，單俥右旋螺旋槳，艏艉無側推（Lateral Thruster），艏吃水4.5公尺，艉吃水6.0公尺，北風風速20節，港口外潮流流向西南，流速2.0節，港內水深12公尺。（20分）",
     "sourceId": "moex-112-shiphandling",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 3
   },
   {
@@ -436,7 +436,7 @@
     "port": "共通科目",
     "question": "試述操縱大型高乾舷船（High sided vessels）進出水域受限的港口時應注意事項。（15分）",
     "sourceId": "moex-112-shiphandling",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 4
   },
   {
@@ -446,7 +446,7 @@
     "port": "共通科目",
     "question": "試述港勤拖船（Harbour tugs）應具備的安全操作要求。（15分）",
     "sourceId": "moex-112-shiphandling",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 5
   },
   {
@@ -456,7 +456,7 @@
     "port": "共通科目",
     "question": "依據國際海事組織（IMO）第A.960(23)號決議案，建議引水人登輪執行引航程序前，至少要與船長交換哪幾項重要航行相關資訊（Information）？（10分）",
     "sourceId": "moex-112-shiphandling",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 6
   },
   {
@@ -466,7 +466,7 @@
     "port": "共通科目",
     "question": "Please translate the following paragraph into English.（20分）依法而言，縱使引水人在船，船長對其船舶之安全航行負完全責任。如果船長有明確的理由認為引水人可能危及航行安全，可以解除引水人的職責並要求另一名引水人登船。在任何情況下，在船上操作期間，引水人將處於船長的權力之下，並且始終位在「船舶指揮鏈」之外。引水人身為駕駛台團隊重要且不可或缺的一員而留在船上。",
     "sourceId": "moex-112-english",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 1
   },
   {
@@ -476,7 +476,7 @@
     "port": "共通科目",
     "question": "Explain indicate & comment of following Message Markers by English.（每小題6分，共24分）（一）INSTRUCTION；（二）ADVICE；（三）WARNING；（四）INFORMATION。（需寫出每一個Message Marker的indicate（指出發訊者企圖）和comment（請評論上述四個訊文的強制度）；不是解釋每一個Message Marker的詞意。）",
     "sourceId": "moex-112-english",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 2
   },
   {
@@ -486,7 +486,7 @@
     "port": "共通科目",
     "question": "Please give the definitions of the following maritime term in English.（每小題5分，共20分）（一）Dragging (of anchor)；（二）Leeward；（三）Boarding speed；（四）Drifting。",
     "sourceId": "moex-112-english",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 3
   },
   {
@@ -496,7 +496,7 @@
     "port": "共通科目",
     "question": "Please describe responsibilities which harbor pilots should have, using following sentences.（每小題4分，共36分）（一）Communicating with the captain of incoming vessels to provide…until…；（二）Monitoring the weather conditions and communicating with… to ensure… such as…；（三）Enforcing international and national laws pertaining to …；（四）Maintaining accurate records of all harbor…, including…；（五）Determining the best route for ships to take based on…；（六）Determining the depth of …to ensure…；（七）Coordinating with local port operators to ensure…；（八）Recommending measures to improve safety in the harbor, such as…；（九）Providing instructions to tugboat operators on how…",
     "sourceId": "moex-112-english",
-    "status": "已依官方原卷複核",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 4
   },
   {
