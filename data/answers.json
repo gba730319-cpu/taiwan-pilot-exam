@@ -10821,5 +10821,627 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "94-kaohsiung-waterway-01-answer-v1",
+    "questionId": "94-kaohsiung-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "本題為3,000總噸船舶以雙錨繫泊於25號浮筒，西北風5級，使用1,800匹拖船協助出港。操船重點是先掌握風壓及船舶受雙錨限制的狀態，再按錨鏈受力逐步解除繫泊，避免船舶失控橫移或錨鏈交叉。\n\n一、作業前確認：向VTS申請出港及拖船作業，確認航道淨空、風向風速、流向、潮位、錨鏈方向及船舶艏向；與船長確認主機、舵機、錨機、錨鏈長度、錨鏈受力及船舶操縱特性。拖船船長須知悉拖帶點、拖纜及口令。\n\n二、解除雙錨：\n1. 判斷當時受力較大的錨鏈及風壓方向，避免兩錨同時鬆鏈造成船舶漂移。\n2. 依計畫先收取較易回收的一錨，必要時以拖船控制船首或船位，減少船舶在風中偏轉。\n3. 保持另一錨作為暫時控制點，逐步收鏈至錨直立、破土及起錨；確認錨已離底後再處理另一錨。\n4. 避免兩錨鏈交叉、纏繞或船舶壓鏈；如鏈條受力異常，停止強行起錨，調整船位及拖船作用方向。\n5. 兩錨收妥後確認錨爪入錨架、錨鏈固定及錨機停止。\n\n三、拖船及主機配合：西北風會使船舶產生向東南方向的風致漂移（實際仍須依現場風向及船艏向判斷）。拖船應在可控制船首／船尾偏轉的位置施力，先抑制橫移，再協助船舶轉向及建立出港航向。主機低速配合舵角，避免在錨鏈尚未完全清除時大幅用車。\n\n四、離開浮筒區：確認錨已收妥、拖纜安全解脫、船舶已建立可控航向，並獲VTS同意後進入航道。注意浮筒、錨鏈及附近船舶，避免拖船與船體夾角過小或進入螺槳危險區。\n\n**關鍵：雙錨船應逐一、有控制地解除錨泊；拖船先提供船位與艏向控制，不能在錨鏈未清除前強行拖離。**",
+    "practicalAnalysis": "雙錨船的實際起錨順序須依錨鏈受力、風流及船艏向判斷，題目沒有提供錨鏈方向圖，故不指定固定左／右錨先起。",
+    "keyPoints": [
+      {
+        "point": "確認雙錨鏈受力及方向",
+        "importance": "essential"
+      },
+      {
+        "point": "逐一解除雙錨避免交叉",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船控制船位與艏向",
+        "importance": "essential"
+      },
+      {
+        "point": "錨收妥及拖纜解脫後依VTS許可出港",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭設施總表",
+        "supports": "現行碼頭長度、寬度、用途及水深；歷史年度須另核對。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港船舶交通服務指南",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=14910&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "高雄港報告機制及船舶航行規定",
+        "supports": "現行VTS通報及港內航行管理程序。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港港區碼頭設施研究",
+        "url": "https://www.ihmt.gov.tw/periodical/pdf/B1004540.pdf",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第四貨櫃中心118號碼頭結構",
+        "supports": "118號碼頭屬基樁棧橋式構造，鋼管樁及PC樁，提供尺寸與結構資訊；為後續研究資料。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      "缺25號浮筒2005年繫泊配置圖、兩錨方向及拖船拖帶點資料，不能指定固定先收左錨或右錨。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及可取得的港務／工程資料",
+          "result": "pass"
+        },
+        {
+          "item": "2005年當時碼頭配置、浮筒間距與航行規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "94-kaohsiung-waterway-02-answer-v1",
+    "questionId": "94-kaohsiung-waterway-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、條件判讀：8,000總噸半載貨櫃船由第二港口進港，右靠118號碼頭，東北風5級，配置1,800匹拖船。東北風通常由東北吹向西南，會使船舶產生向西南的風壓漂移；但實際側向作用仍取決於船艏向、航道方向及港池風場。右靠表示船舶右舷最後靠向碼頭，須事先規劃接近方向與拖船作用。\n\n二、進港前：與船長交換船長、船寬、吃水、風壓面積、主機及舵效、停船距離、側推器與迴轉特性；確認118號碼頭可用長度、水深、靠泊方向、鄰船及防舷材狀況。向VTS確認第二港口通行排序及拖船作業位置。\n\n三、操船程序：\n1. 以適當速度通過第二港口，保持足夠舵效，依港內交通及航道指示航行。\n2. 進入港池後評估東北風對船首及船尾的偏移，預留風壓漂移量，避免過早向碼頭靠近。\n3. 接近118號碼頭前先降低縱向速度，建立穩定船首向；拖船應依風向及船舶偏移趨勢配置，協助控制船首或船尾，必要時提供向離岸方向的抵抗力。\n4. 右舷靠泊時，須控制船舶橫向接近速度及艏艉角度，避免船首或船尾先行撞擊碼頭。拖船的推／拖方向應隨船舶位置、風力及主機舵效調整，不可只固定使用單一方向。\n5. 最後階段以低速平移平靠，先控制縱向速度，再控制橫向速度；依序送艏艉纜及倒纜，確認船舶受力均勻。\n\n四、拖船限制：1,800匹拖船的有效拖力受拖纜角度、船速、風浪及拖船位置影響。若東北風及船舶風壓超出單拖船可控制範圍，應要求增加拖船或等待風勢降低，不得勉強靠泊。\n\n五、118號碼頭結構：後續工程研究指出118號碼頭為基樁棧橋式碼頭，設有鋼管樁及PC樁；靠泊時須依碼頭設計防舷材與核定靠泊區域接觸，避免船體直接撞擊樁基、岸肩或其他突出結構。",
+    "practicalAnalysis": "118號碼頭後續工程研究可確認其為基樁棧橋式碼頭，但本題仍應使用2005年當時靠泊圖與碼頭設施狀態。",
+    "keyPoints": [
+      {
+        "point": "東北風5級對船舶風壓與漂移的影響",
+        "importance": "essential"
+      },
+      {
+        "point": "右舷靠泊的接近方向與橫移控制",
+        "importance": "essential"
+      },
+      {
+        "point": "單拖船作用方向依實際船位調整",
+        "importance": "essential"
+      },
+      {
+        "point": "低速平移平靠及VTS協調",
+        "importance": "essential"
+      },
+      {
+        "point": "確認118號碼頭棧橋式基樁結構及防舷材",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭設施總表",
+        "supports": "現行碼頭長度、寬度、用途及水深；歷史年度須另核對。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港船舶交通服務指南",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=14910&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "高雄港報告機制及船舶航行規定",
+        "supports": "現行VTS通報及港內航行管理程序。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港港區碼頭設施研究",
+        "url": "https://www.ihmt.gov.tw/periodical/pdf/B1004540.pdf",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第四貨櫃中心118號碼頭結構",
+        "supports": "118號碼頭屬基樁棧橋式構造，鋼管樁及PC樁，提供尺寸與結構資訊；為後續研究資料。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      "題目未提供船舶長寬吃水、118號碼頭當年可用泊位配置及拖船拖帶點，不能指定唯一拖船繫帶位置。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及可取得的港務／工程資料",
+          "result": "pass"
+        },
+        {
+          "item": "2005年當時碼頭配置、浮筒間距與航行規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "94-kaohsiung-waterway-03-answer-v1",
+    "questionId": "94-kaohsiung-waterway-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、第28號碼頭的特殊構造\n現行港務設施資料將28號碼頭列為大宗液貨／專用碼頭，長度約210公尺、寬度約8.5公尺、使用水深約10公尺。其窄幅及專用作業特性顯示靠泊時不能將其視為一般寬廣重力式碼頭；應進一步以2005年碼頭結構圖確認其是否採棧橋、樁基或獨立繫靠設施配置。現行設施表不能單獨證明2005年的結構型式。\n\n二、1,000總噸重載船靠泊風險\n重載船舶吃水較深、慣性較大，接近碼頭時若橫向速度或接觸角過大，可能造成船殼板局部凹陷、肋骨變形、外板擦傷，亦可能損壞防舷材、繫船設備或碼頭結構。若碼頭為樁基或棧橋式結構，船體不得直接碰觸樁柱、平台邊緣或非設計接觸部位。\n\n三、靠泊前措施\n1. 查明碼頭結構圖、核定靠泊位置、設計水深、可承受靠泊能量及防舷材位置。\n2. 確認船舶滿載／重載吃水、縱傾、風流、潮位、船舶排水量及靠泊速度。\n3. 必要時配置拖船協助控制艏艉及橫移，避免船舶靠泊角度過大。\n4. 確認防舷材完整、位置正確，避免船體外板直接接觸碼頭硬點。\n5. 以低速、近乎平行碼頭方式接近，避免以船首或船尾先撞碼頭。\n\n四、靠泊中與靠妥後\n控制船舶橫向接近速度，分段靠近，必要時由拖船頂推／拖帶調整船位；使用適當纜繩限制前後移動，避免纜繩突然受力。靠妥後檢查船體接觸位置、防舷材及繫纜設備，若有異常立即通報並留存紀錄。\n\n**最重要原則：重載船舶靠泊應降低接觸能量，確保船體只與設計防舷材接觸，不可讓外板直接撞擊樁基或碼頭突出結構。**",
+    "practicalAnalysis": "本題的精確特殊構造需以28號碼頭2005年結構圖確認；現行資料只可核對用途及尺度，不能作為歷史結構的唯一證據。",
+    "keyPoints": [
+      {
+        "point": "核對28號碼頭歷史結構圖及防舷材",
+        "importance": "essential"
+      },
+      {
+        "point": "重載船慣性大、接觸能量高",
+        "importance": "essential"
+      },
+      {
+        "point": "低速平行接近、控制橫移與接觸角",
+        "importance": "essential"
+      },
+      {
+        "point": "避免外板碰撞樁基或突出硬點",
+        "importance": "essential"
+      },
+      {
+        "point": "靠妥後檢查船體及防舷材",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭設施總表",
+        "supports": "現行碼頭長度、寬度、用途及水深；歷史年度須另核對。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港船舶交通服務指南",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=14910&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "高雄港報告機制及船舶航行規定",
+        "supports": "現行VTS通報及港內航行管理程序。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港港區碼頭設施研究",
+        "url": "https://www.ihmt.gov.tw/periodical/pdf/B1004540.pdf",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第四貨櫃中心118號碼頭結構",
+        "supports": "118號碼頭屬基樁棧橋式構造，鋼管樁及PC樁，提供尺寸與結構資訊；為後續研究資料。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      "缺28號碼頭2005年竣工圖／結構圖，特殊構造尚未能精確定名；應避免直接斷言為某種樁基或沉箱構造。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及可取得的港務／工程資料",
+          "result": "pass"
+        },
+        {
+          "item": "2005年當時碼頭配置、浮筒間距與航行規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "94-kaohsiung-waterway-04-answer-v1",
+    "questionId": "94-kaohsiung-waterway-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": [
+      "尚缺44號碼頭兩纜樁實際間距；數值例僅示範計算，不是題目最終答案。"
+    ],
+    "modelAnswer": "本題以兩個相鄰纜樁通過船舷某固定觀察點的時間，估算船舶對地航速。關鍵是先取得兩纜樁的實際間距。\n\n設兩纜樁沿船舶航行方向的距離為D公尺，通過時間t=8秒，則：\n船速（m/s）=D÷8\n船速（kn）=(D÷8)×1.94384\n因此：**V(kn)=0.24298×D(m)**。\n\n例如，若經港區圖或現場測量確認兩纜樁中心距D=20m，則：\nV=20÷8×1.94384=4.86節。\n若D=25m，則V=25÷8×1.94384=6.07節。\n以上僅示範公式，並非宣稱44號碼頭纜樁間距就是20或25公尺。\n\n操作措施：\n1. 以纜樁中心間距而非目測估計距離。\n2. 船舶應保持直線或已知航跡通過，避免轉向造成測距誤差。\n3. 觀察點固定，記錄同一船舷位置通過兩樁的時間。\n4. 測得的是船舶相對岸上固定物的對地速度；有流時，不等於對水速度。\n5. 若接近停泊船舶、浮筒或作業區，應減速並避免產生過大湧浪；遵守VTS及港內限速規定。\n\n結論：先量出D，再代入V=D/8×1.94384；沒有纜樁間距，就不能得到唯一數值。",
+    "practicalAnalysis": "公式可確定，但題目未提供兩纜樁間距。需以44號碼頭配置圖或現場尺寸取得D，避免憑空給出單一航速。",
+    "keyPoints": [
+      {
+        "point": "D為兩纜樁中心距",
+        "importance": "essential"
+      },
+      {
+        "point": "V(kn)=D/8×1.94384",
+        "importance": "essential"
+      },
+      {
+        "point": "測得對地速度",
+        "importance": "essential"
+      },
+      {
+        "point": "須確認44號碼頭實際間距",
+        "importance": "essential"
+      },
+      {
+        "point": "避免目測假設距離",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭設施總表",
+        "supports": "現行碼頭長度、寬度、用途及水深；歷史年度須另核對。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港船舶交通服務指南",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=14910&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "高雄港報告機制及船舶航行規定",
+        "supports": "現行VTS通報及港內航行管理程序。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港港區碼頭設施研究",
+        "url": "https://www.ihmt.gov.tw/periodical/pdf/B1004540.pdf",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第四貨櫃中心118號碼頭結構",
+        "supports": "118號碼頭屬基樁棧橋式構造，鋼管樁及PC樁，提供尺寸與結構資訊；為後續研究資料。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭設施總表",
+        "supports": "現行碼頭長度、寬度、用途及水深；歷史年度須另核對。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及可取得的港務／工程資料",
+          "result": "pass"
+        },
+        {
+          "item": "2005年當時碼頭配置、浮筒間距與航行規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "94-kaohsiung-waterway-05-answer-v1",
+    "questionId": "94-kaohsiung-waterway-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": [],
+    "modelAnswer": "船舶由42號碼頭倒退迴轉準備出港，判斷船舶是否已靜止，不能只看單一儀表。至少可使用下列方法交叉確認：\n\n1. **GPS／GNSS對地速度（SOG）**：確認數值接近0，但須注意更新延遲及定位誤差。\n2. **船用計程儀（Log）對水速度**：讀值接近0表示相對水體速度很低；若有流，仍可能對地漂移。\n3. **岸上固定目標方位**：連續觀察岸上燈標、建物或固定物方位是否變化；方位持續穩定可作為停止轉動或橫移的參考。\n4. **雷達距離及方位**：選取固定岸標或碼頭角點，連續比較距離與方位，確認船舶相對岸壁沒有持續移動。\n5. **平行指標／雷達平行線**：觀察固定目標是否沿設定平行線保持不變，判斷船舶是否仍有前後或橫向移動。\n6. **目視橫向／縱向參考**：觀察船艏、船艉與碼頭角點、繫纜樁或岸線的相對位置是否持續改變。\n7. **艏向與旋迴率（ROT）**：艏向不再變化、ROT接近0，可判斷迴轉運動已停止；但不能單獨證明船舶沒有平移。\n8. **岸上人員或引水人回報**：由船艏、船艉觀察員報告與固定物相對位置變化，作為交叉驗證。\n\n實務上應區分三種狀態：縱向速度為零、橫向速度為零，以及旋迴率為零。船舶可能停止前進但仍橫移，也可能沒有平移卻仍在轉向。因此應同時確認SOG、岸標相對運動及ROT，並考慮風流造成的漂移。\n\n**結論：至少以GPS SOG、Log、雷達固定目標、岸標方位、目視相對位置及ROT等多種方法交叉確認，不能只憑主機停車或車鐘位置認定船已靜止。**",
+    "practicalAnalysis": "停止前進不等於船舶完全靜止；須分別確認縱向、橫向及旋迴運動，並注意對地速度與對水速度在有流時的差異。",
+    "keyPoints": [
+      {
+        "point": "GPS SOG",
+        "importance": "essential"
+      },
+      {
+        "point": "計程儀Log",
+        "importance": "essential"
+      },
+      {
+        "point": "岸標方位及雷達距離",
+        "importance": "essential"
+      },
+      {
+        "point": "平行指標",
+        "importance": "essential"
+      },
+      {
+        "point": "目視固定物相對位置",
+        "importance": "essential"
+      },
+      {
+        "point": "ROT及艏向",
+        "importance": "essential"
+      },
+      {
+        "point": "艏艉觀察員回報",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭設施總表",
+        "supports": "現行碼頭長度、寬度、用途及水深；歷史年度須另核對。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港船舶交通服務指南",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=14910&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "高雄港報告機制及船舶航行規定",
+        "supports": "現行VTS通報及港內航行管理程序。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港港區碼頭設施研究",
+        "url": "https://www.ihmt.gov.tw/periodical/pdf/B1004540.pdf",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第四貨櫃中心118號碼頭結構",
+        "supports": "118號碼頭屬基樁棧橋式構造，鋼管樁及PC樁，提供尺寸與結構資訊；為後續研究資料。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      {
+        "title": "高雄港船舶交通服務指南",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=14910&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "高雄港報告機制及船舶航行規定",
+        "supports": "現行VTS通報及港內航行管理程序。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及可取得的港務／工程資料",
+          "result": "pass"
+        },
+        {
+          "item": "2005年當時碼頭配置、浮筒間距與航行規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "94-kaohsiung-waterway-06-answer-v1",
+    "questionId": "94-kaohsiung-waterway-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": [
+      "須依具體船舶總布置圖確認球艏突出長度及設計吃水；本答案提供通用操船原則。"
+    ],
+    "modelAnswer": "球型船艏（Bulbous Bow）在高雄港內操船時，除一般船艏外板外，還須考慮球艏突出於水線下方，可能在低速、淺水、轉向或靠離泊時接近水下障礙物、碼頭構造或其他船舶。\n\n一、航行及轉向：\n1. 依船舶總布置圖確認球艏向前突出長度及吃水，估算實際船首最前端位置，不能只以水線船艏作為距離基準。\n2. 在狹窄水域、轉彎、迴船池及碼頭前保持足夠前方淨距，考慮球艏可能先於船體其他部位接近障礙。\n3. 避免急轉及過度舵角，注意船首掃掠範圍、艏搖及船體慣性。\n4. 淺水區應計算UKC，並考慮球艏下方水深、潮位、波浪及squat；不得只看船中吃水。\n5. 低速時舵效可能降低，球艏與船體周圍流場亦會改變，應依船舶操縱資料控制車速及舵角。\n\n二、靠泊及離泊：\n1. 確認碼頭防舷材高度與位置，避免球艏突出部位接觸碼頭、護舷或水下構造。\n2. 靠泊前控制艏向與橫移速度，避免船艏先端撞擊碼頭或鄰船。\n3. 使用拖船時明確告知球艏突出尺寸及拖帶限制，拖船應避免在球艏突出區不當頂推或拖帶。\n4. 倒車時注意艏向變化與風流漂移，避免球艏掃向鄰近船舶或水下設施。\n\n三、與他船及港內設施互動：\n球艏會影響船首前端實際掃掠範圍；通過靠泊船舶、浮筒、繫纜及碼頭角點時，須保留額外安全距離。船長與引水人應交換球艏突出長度、艏吃水及操縱特性。\n\n四、核心原則：**以球艏最前端而非一般水線船艏作為前方距離判斷基準，並將球艏吃水、突出長度、UKC及轉向掃掠範圍納入操船計畫。**",
+    "practicalAnalysis": "球艏突出長度及其對水下淨距的影響，應由船舶總布置圖及裝載資料取得；不能僅依船型外觀估計。",
+    "keyPoints": [
+      {
+        "point": "確認球艏突出長度及艏吃水",
+        "importance": "essential"
+      },
+      {
+        "point": "以前端球艏估算淨距",
+        "importance": "essential"
+      },
+      {
+        "point": "轉向時注意艏部掃掠",
+        "importance": "essential"
+      },
+      {
+        "point": "淺水區計算UKC與squat",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船避免在球艏突出區不當頂推",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭設施總表",
+        "supports": "現行碼頭長度、寬度、用途及水深；歷史年度須另核對。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港船舶交通服務指南",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=14910&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "高雄港報告機制及船舶航行規定",
+        "supports": "現行VTS通報及港內航行管理程序。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港港區碼頭設施研究",
+        "url": "https://www.ihmt.gov.tw/periodical/pdf/B1004540.pdf",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第四貨櫃中心118號碼頭結構",
+        "supports": "118號碼頭屬基樁棧橋式構造，鋼管樁及PC樁，提供尺寸與結構資訊；為後續研究資料。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      {
+        "title": "高雄港船舶交通服務指南",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=14910&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "高雄港報告機制及船舶航行規定",
+        "supports": "現行VTS通報及港內航行管理程序。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及可取得的港務／工程資料",
+          "result": "pass"
+        },
+        {
+          "item": "2005年當時碼頭配置、浮筒間距與航行規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "94-kaohsiung-waterway-07-answer-v1",
+    "questionId": "94-kaohsiung-waterway-07",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": [],
+    "modelAnswer": "估計船艏、船艉的概略位置，應結合船舶尺度、駕駛台視線、雷達及岸上固定目標，至少可使用下列方法：\n\n1. **船舶總布置圖及駕駛台視線資料**：預先知道駕駛台至船艏、船艉的距離及盲區，依比例估算前後端位置。\n2. **雷達距離與方位**：利用碼頭角點、防波堤端點或固定岸標量測船舶與目標的相對距離及方位。\n3. **平行指標（Parallel Indexing）**：在雷達上設定與岸線平行的安全線，監控船舶與岸線的橫向距離，並配合船長、船寬及天線位置推估船艏艉位置。\n4. **目視岸標方位／距離**：利用已知位置的燈標、建物、碼頭角點，透過方位變化及估計距離判斷船舶前後端相對位置。\n5. **兩物標方位交叉定位**：以兩個固定物標的方位交會，取得船舶位置，再依船艏向、船長及船體參考點推算船艏艉座標。\n6. **GPS／ECDIS船位及天線偏移量**：確認GPS天線相對船艏、船艉及船中位置的偏移，將定位點轉換為船體端點位置；不可直接把天線位置當成船艏位置。\n7. **艏艉觀察員回報**：由艏樓及船艉人員觀察與碼頭、浮筒、鄰船的相對距離，透過VHF回報駕駛台。\n8. **已知船長與轉向幾何**：依船長、船寬、艏向及旋迴運動估算艏艉掃掠範圍，特別注意船尾外掃及船首內切。\n\n實務上應先確定船舶定位參考點（GPS天線、雷達天線或駕駛台位置）與船體端點的偏移量，再配合艏向計算船艏艉位置。靠離泊時應由雷達、目視及艏艉觀察員交叉確認，不能只靠單一目測距離。\n\n**核心：先掌握船長及定位天線偏移，再用雷達／岸標定位和艏向推算船艏艉；轉向時另加上船首內切、船尾外掃的動態範圍。**",
+    "practicalAnalysis": "GPS定位的是天線位置而非船艏艉；以艏向及天線偏移量推算船體端點，並用雷達、岸標與艏艉觀察員交叉驗證。",
+    "keyPoints": [
+      {
+        "point": "總布置圖與船長",
+        "importance": "essential"
+      },
+      {
+        "point": "雷達距離方位",
+        "importance": "essential"
+      },
+      {
+        "point": "平行指標",
+        "importance": "essential"
+      },
+      {
+        "point": "岸標方位及交叉定位",
+        "importance": "essential"
+      },
+      {
+        "point": "GPS天線偏移量",
+        "importance": "essential"
+      },
+      {
+        "point": "艏艉觀察員回報",
+        "importance": "essential"
+      },
+      {
+        "point": "轉向掃掠範圍",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭設施總表",
+        "supports": "現行碼頭長度、寬度、用途及水深；歷史年度須另核對。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港船舶交通服務指南",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=14910&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "高雄港報告機制及船舶航行規定",
+        "supports": "現行VTS通報及港內航行管理程序。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港港區碼頭設施研究",
+        "url": "https://www.ihmt.gov.tw/periodical/pdf/B1004540.pdf",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第四貨櫃中心118號碼頭結構",
+        "supports": "118號碼頭屬基樁棧橋式構造，鋼管樁及PC樁，提供尺寸與結構資訊；為後續研究資料。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      {
+        "title": "高雄港船舶交通服務指南",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=14910&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "高雄港報告機制及船舶航行規定",
+        "supports": "現行VTS通報及港內航行管理程序。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及可取得的港務／工程資料",
+          "result": "pass"
+        },
+        {
+          "item": "2005年當時碼頭配置、浮筒間距與航行規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
