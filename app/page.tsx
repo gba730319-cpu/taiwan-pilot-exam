@@ -1,6 +1,7 @@
 "use client";
 import { useMemo, useState } from "react";
 import questions from "../data/questions.json";
+import sourceData from "../data/sources.json";
 
 type Question = {
   id: string;
@@ -11,9 +12,17 @@ type Question = {
   sourceId: string;
   status: string;
 };
+type Source = {
+  id: string;
+  exam: string;
+  category: string;
+  subject: string;
+  issuer: string;
+  url: string;
+};
 
 const subjects = ["全部科目", "當地水道港灣詳情", "航政法規", "引港學", "船舶操縱", "專業英文", "實用英文"];
-const ports = ["全部港區", "高雄港", "基隆港", "臺中港", "臺北港", "和平港", "麥寮港", "安平港", "蘇澳港", "花蓮港"];
+const ports = ["全部港區", "高雄港", "基隆港", "臺中港", "臺北港", "和平港", "麥寮港", "麥寮工業專用港", "安平港", "蘇澳港", "花蓮港"];
 
 function rocYear(year: number) {
   return year - 1911;
@@ -22,7 +31,11 @@ function rocYear(year: number) {
 function matchesPort(questionPort: string, selectedPort: string) {
   if (selectedPort === "全部港區") return true;
   if (questionPort === "全港共通" || questionPort === "共通科目") return true;
-  return questionPort.split("、").includes(selectedPort);
+  const aliases: Record<string, string[]> = {
+    "麥寮港": ["麥寮工業專用港"],
+    "麥寮工業專用港": ["麥寮港"],
+  };
+  return questionPort.split("、").some((p) => p === selectedPort || (aliases[selectedPort] || []).includes(p));
 }
 
 export default function Home() {
@@ -31,6 +44,8 @@ export default function Home() {
   const [subject, setSubject] = useState("全部科目");
   const [port, setPort] = useState("高雄港");
   const items = questions as Question[];
+  const sources = sourceData as Source[];
+  const sourceById = useMemo(() => new Map(sources.map((s) => [s.id, s])), [sources]);
   const years = useMemo(
     () => ["全部年度", ...Array.from(new Set(items.map((q) => String(q.year)))).sort((a, b) => Number(b) - Number(a))],
     [items]
@@ -53,7 +68,7 @@ export default function Home() {
       <section className="hero">
         <small>PILOT EXAM QUESTION BANK</small>
         <h1>把歷屆考題，<br/><em>整理成真正能備考的資料庫。</em></h1>
-        <p>依年度、考科與港區查找題目。每道正式歷屆題目都附可追溯的原始來源。</p>
+        <p>依年度、考科與港區查找題目。每道正式歷屆題目都附可追溯的原始來源，可直接開啟考選部原卷核對。</p>
         <div className="stats">
           <div><b>{items.length}</b><span>已匯入題目</span></div>
           <div><b>{new Set(items.map((q) => q.year)).size}</b><span>涵蓋年度</span></div>
@@ -84,12 +99,23 @@ export default function Home() {
             <small>取得官方試卷 → 核對題目 → 建檔 → 匯入網站</small>
           </div>
         ) : (
-          <div>{filtered.map((q) => (
-            <article className="question" key={q.id}>
-              <small>民國{rocYear(q.year)}年・{q.subject}・{q.port}</small>
-              <p>{q.question}</p>
-            </article>
-          ))}</div>
+          <div>{filtered.map((q) => {
+            const source = sourceById.get(q.sourceId);
+            return (
+              <article className="question" key={q.id}>
+                <small className="question-meta">民國{rocYear(q.year)}年・{q.subject}・{q.port}</small>
+                <p>{q.question}</p>
+                {source?.url ? (
+                  <div className="source-link">
+                    <a href={source.url} target="_blank" rel="noreferrer">查看考選部原卷 PDF ↗</a>
+                    <span>{source.exam}</span>
+                  </div>
+                ) : (
+                  <div className="source-link missing">原卷來源待補登</div>
+                )}
+              </article>
+            );
+          })}</div>
         )}
       </section>
       <footer>本平台為備考整理工具；正式考題以主管機關公布之原始試卷為準。</footer>
