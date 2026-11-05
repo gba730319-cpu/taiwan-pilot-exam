@@ -603,5 +603,60 @@
     "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=703&code=098090&q=1&s=c751&t=Q",
     "pages": 1,
     "verified": "已取得考選部官方 PDF，題目逐題核對待匯入"
+  },
+  {
+    "id": "moex-096-kaohsiung-waterway",
+    "year": 2007,
+    "exam": "96年專門職業及技術人員特種考試引水人",
+    "category": "甲種引水人（高雄港）",
+    "subject": "當地水道港灣詳情",
+    "issuer": "考選部",
+    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=903&code=096080&q=1&s=1001&t=Q",
+    "pages": 1,
+    "verified": "考選部官方 PDF 文字已取得並逐題核對"
+  },
+  {
+    "id": "moex-096-pilot-law",
+    "year": 2007,
+    "exam": "96年專門職業及技術人員特種考試引水人",
+    "category": "甲種引水人（各港共通科目）",
+    "subject": "航政法規",
+    "issuer": "考選部",
+    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=906&code=096080&q=1&s=c041&t=Q",
+    "pages": 1,
+    "verified": "考選部官方 PDF 文字已取得並逐題核對"
+  },
+  {
+    "id": "moex-096-pilotage",
+    "year": 2007,
+    "exam": "96年專門職業及技術人員特種考試引水人",
+    "category": "甲種引水人（各港共通科目）",
+    "subject": "引港學",
+    "issuer": "考選部",
+    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=911&code=096080&q=1&s=c051&t=Q",
+    "pages": 1,
+    "verified": "考選部官方 PDF 文字已取得並逐題核對"
+  },
+  {
+    "id": "moex-096-shiphandling",
+    "year": 2007,
+    "exam": "96年專門職業及技術人員特種考試引水人",
+    "category": "甲種引水人（各港共通科目）",
+    "subject": "船舶操縱",
+    "issuer": "考選部",
+    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=906&code=096080&q=1&s=c061&t=Q",
+    "pages": 1,
+    "verified": "考選部官方 PDF 文字已取得並逐題核對"
+  },
+  {
+    "id": "moex-096-english",
+    "year": 2007,
+    "exam": "96年專門職業及技術人員特種考試引水人",
+    "category": "甲種引水人（各港共通科目）",
+    "subject": "專業英文",
+    "issuer": "考選部",
+    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=901&code=096080&q=1&s=c071&t=Q",
+    "pages": 1,
+    "verified": "考選部官方 PDF 文字已取得並逐題核對"
   }
 ]
