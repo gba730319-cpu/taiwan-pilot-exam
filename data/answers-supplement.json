@@ -1240,5 +1240,531 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "087-kaohsiung-waterway-01-answer-v1",
+    "questionId": "087-kaohsiung-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_or_drawing",
+    "modelAnswer": "本題範圍自第二港口防波堤口至前鎮河口，應以1998年海圖及港區配置圖為底圖，標示第二港口北、南防波堤、入口中心線、港池岸線及主航道。另標出中鋼支航道、中船支航道及各支航道與主航道的交會位置，依當年港區圖列出沿岸碼頭編號、岸線長度、用途與水深。航道水深應標註海圖基準面及測深日期；最窄處寬度應以當年航道邊界兩側的最短距離量取，不能以現行有效寬度取代。圖面附北向、比例尺、碼頭表、航道水深表及支航道圖例。",
+    "practicalAnalysis": "題目要求1998年特定港域圖及最窄處寬度，需以當年港區圖與測深圖確認；現行資料不能回推。",
+    "keyPoints": [
+      {
+        "point": "第二港口至前鎮河口範圍",
+        "importance": "essential"
+      },
+      {
+        "point": "中鋼及中船支航道",
+        "importance": "essential"
+      },
+      {
+        "point": "碼頭位置編號及用途",
+        "importance": "essential"
+      },
+      {
+        "point": "航道水深及最窄處寬度",
+        "importance": "essential"
+      },
+      {
+        "point": "海圖基準面與測深日期",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港區碼頭及航道設施",
+        "supports": "現行港區設施及碼頭資料，不能代替1998年圖資。"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第一、二港口助導航設備",
+        "supports": "現行燈杆、導標及雷達標資料。"
+      },
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港內交通管制及VTS",
+        "supports": "現行交通管制程序；1998年VTMS尚在規劃階段，須區分當時與現況。"
+      },
+      {
+        "title": "海軍海圖圖例",
+        "url": "https://navy.mnd.gov.tw/Files/Policy/海軍_海圖圖例.pdf",
+        "sourceType": "official_authority",
+        "issuer": "國防部海軍司令部",
+        "pageOrSection": "錨泊限制及海圖標誌",
+        "supports": "禁錨區、危險物及海圖符號判讀。"
+      }
+    ],
+    "limitations": [
+      "缺1998年高雄港南區港區圖及水深測量圖，不能提供最窄處精確寬度。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對官方港務資料及海圖圖例",
+          "result": "pass"
+        },
+        {
+          "item": "1998年歷史港區圖及規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "087-kaohsiung-waterway-02-answer-v1",
+    "questionId": "087-kaohsiung-waterway-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_or_drawing",
+    "modelAnswer": "第一港口進港應依1998年版海圖及燈表，辨識港外引導標誌、旗後山高雄港燈塔、北／南防波堤堤頭燈杆、港內導標及必要的警示燈標。題目要求的「有多少」應按1998年有效燈表逐項計數，並在圖上標出各燈標位置及相對方位。每一標誌至少列出：名稱、WGS84或當時海圖座標、標體顏色及形狀、燈色、燈質（定光／閃光及週期）、能見距及導航用途。燈杆通常成對協助辨識入口，進港船應將燈標與海圖航道線、雷達及目視岸標交叉核對。現行港務公司導航設施清單僅供現況參考，不能直接當作1998年的燈標數量及燈質。",
+    "practicalAnalysis": "燈標數量及燈質是年份敏感的歷史資料，必須以1998年燈表和航船布告核實。",
+    "keyPoints": [
+      {
+        "point": "依1998年燈表逐項計數",
+        "importance": "essential"
+      },
+      {
+        "point": "圖示燈標位置與相對方位",
+        "importance": "essential"
+      },
+      {
+        "point": "列標體形狀顏色、燈色燈質及能見距",
+        "importance": "essential"
+      },
+      {
+        "point": "與海圖、雷達及目視交叉定位",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港區碼頭及航道設施",
+        "supports": "現行港區設施及碼頭資料，不能代替1998年圖資。"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第一、二港口助導航設備",
+        "supports": "現行燈杆、導標及雷達標資料。"
+      },
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港內交通管制及VTS",
+        "supports": "現行交通管制程序；1998年VTMS尚在規劃階段，須區分當時與現況。"
+      },
+      {
+        "title": "海軍海圖圖例",
+        "url": "https://navy.mnd.gov.tw/Files/Policy/海軍_海圖圖例.pdf",
+        "sourceType": "official_authority",
+        "issuer": "國防部海軍司令部",
+        "pageOrSection": "錨泊限制及海圖標誌",
+        "supports": "禁錨區、危險物及海圖符號判讀。"
+      }
+    ],
+    "limitations": [
+      "缺1998年第一港口海圖及燈表，無法可靠確定題目所問燈標總數及各燈質。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對官方港務資料及海圖圖例",
+          "result": "pass"
+        },
+        {
+          "item": "1998年歷史港區圖及規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "087-kaohsiung-waterway-03-answer-v1",
+    "questionId": "087-kaohsiung-waterway-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、第一港口進港航行方法：進港前依海圖確認港口入口、導標及航道中心線，向VTS／港口管制單位報告船位、船舶尺度、吃水及預定進港時間；確認交通排序、能見度、風流及航道淨空。通過港口入口時保持安全速度及足夠舵效，依導標及航道線航行，不得任意偏離或在入口附近停留。進入港池後依指定航路航行，注意拖船、漁船、工作船及移泊船舶。二、夜間：確認燈塔、堤頭燈杆、導標及燈浮燈質，避免背景燈光混淆；以雷達、目視、GPS及海圖交叉定位，保持VHF守聽。三、日間：以堤頭、岸標、導標及雷達定位，注意逆光、雨霧及背景地物遮蔽。四、進出港管制信號：依當年港口信號台的日間旗號／號球及夜間燈號顯示判斷准許進港、准許出港、停止通行或無船舶進出等狀態；船舶仍須遵守VTS／信號台指示，不得僅憑目視信號自行進出。信號代碼、旗號及燈號應逐項照1998年有效規定列示。",
+    "practicalAnalysis": "1998年港口信號台的日夜信號代碼可能與後來的I/O/F/S系統不同，需查當年港口管制基準。",
+    "keyPoints": [
+      {
+        "point": "依海圖及導標進港",
+        "importance": "essential"
+      },
+      {
+        "point": "VTS報告及交通排序",
+        "importance": "essential"
+      },
+      {
+        "point": "日間以岸標／導標定位",
+        "importance": "essential"
+      },
+      {
+        "point": "夜間辨識燈質並防背景燈光混淆",
+        "importance": "essential"
+      },
+      {
+        "point": "日夜信號代碼依1998年規定核對",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港區碼頭及航道設施",
+        "supports": "現行港區設施及碼頭資料，不能代替1998年圖資。"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第一、二港口助導航設備",
+        "supports": "現行燈杆、導標及雷達標資料。"
+      },
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港內交通管制及VTS",
+        "supports": "現行交通管制程序；1998年VTMS尚在規劃階段，須區分當時與現況。"
+      },
+      {
+        "title": "海軍海圖圖例",
+        "url": "https://navy.mnd.gov.tw/Files/Policy/海軍_海圖圖例.pdf",
+        "sourceType": "official_authority",
+        "issuer": "國防部海軍司令部",
+        "pageOrSection": "錨泊限制及海圖標誌",
+        "supports": "禁錨區、危險物及海圖符號判讀。"
+      }
+    ],
+    "limitations": [
+      "缺1998年高雄港信號台日間旗號及夜間燈號表，不能把現行代碼直接套用。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對官方港務資料及海圖圖例",
+          "result": "pass"
+        },
+        {
+          "item": "1998年歷史港區圖及規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "087-kaohsiung-waterway-04-answer-v1",
+    "questionId": "087-kaohsiung-waterway-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、港外航道禁錨區：第一、第二港口外航道及其分道航行巷道內，為維持船舶進出港安全，不得任意拋錨；另海圖標示之海底電纜、管線、沉船、施工區及其他限制水域，亦須依海圖符號及航船布告遵守禁錨規定。二、港內航道緊急拋錨限制區：港內主航道、支航道、迴船池、狹窄水道、碼頭前船席及船舶迴轉掃掠水域，原則上不得任意錨泊；但遇船舶失控或有立即危險時，船長仍須以避免碰撞、擱淺或重大危害為優先，依緊急情況採取必要措施並立即通報VTS。三、實務判斷：應依1998年海圖上禁錨區界線、錨地界線及航道邊界逐一標示，不可只以文字說「航道附近不得下錨」。禁錨符號、錨地編號及座標應依當年海圖圖例辨識。",
+    "practicalAnalysis": "題目要求精確位置，需將1998年海圖的禁錨區界線及緊急拋錨限制水域繪出；現行海圖不能直接替代。",
+    "keyPoints": [
+      {
+        "point": "港外第一、二港口航道及TSS內禁錨",
+        "importance": "essential"
+      },
+      {
+        "point": "海底電纜、管線及施工區限制",
+        "importance": "essential"
+      },
+      {
+        "point": "港內主航道、支航道及迴船池禁錨",
+        "importance": "essential"
+      },
+      {
+        "point": "緊急情況仍以避免重大危害為優先並通報VTS",
+        "importance": "essential"
+      },
+      {
+        "point": "依1998年海圖標示界線",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港區碼頭及航道設施",
+        "supports": "現行港區設施及碼頭資料，不能代替1998年圖資。"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第一、二港口助導航設備",
+        "supports": "現行燈杆、導標及雷達標資料。"
+      },
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港內交通管制及VTS",
+        "supports": "現行交通管制程序；1998年VTMS尚在規劃階段，須區分當時與現況。"
+      },
+      {
+        "title": "海軍海圖圖例",
+        "url": "https://navy.mnd.gov.tw/Files/Policy/海軍_海圖圖例.pdf",
+        "sourceType": "official_authority",
+        "issuer": "國防部海軍司令部",
+        "pageOrSection": "錨泊限制及海圖標誌",
+        "supports": "禁錨區、危險物及海圖符號判讀。"
+      }
+    ],
+    "limitations": [
+      "缺1998年港外錨區及港內禁錨區海圖，無法列出精確界線座標。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對官方港務資料及海圖圖例",
+          "result": "pass"
+        },
+        {
+          "item": "1998年歷史港區圖及規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "087-kaohsiung-waterway-05-answer-v1",
+    "questionId": "087-kaohsiung-waterway-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "高雄港內常見碰撞事故可歸納為船舶進出港交會、移泊與靠離泊、船舶與碼頭設備、船舶與繫泊船舶之間的碰撞。主要原因包括：一、未依VTS排序及航道規定航行；二、瞭望不足、雷達／AIS資訊判讀錯誤或通信不良；三、船舶速度過高、停船距離估計不足；四、風流、岸壁效應、船尾外掃及船首內切估計錯誤；五、拖船配置不足或拖帶口令不清；六、引水人與船長未完成操縱資訊交換；七、靠泊前未確認岸橋、裝卸設備及防舷材狀態。防範措施：進港前完成MPX及操船計畫；遵守VTS及分道航行；保持安全速度與有效瞭望；利用雷達、目視及電子海圖交叉定位；提早減速並預留迴轉空間；明確分配拖船位置與口令；靠離泊前確認岸上設備及鄰船淨空；若風流或交通超出可控範圍，暫停或重新安排作業。",
+    "practicalAnalysis": "碰撞預防須同時涵蓋航道交通、船舶操縱、拖船協同及碼頭設備管理，不能只歸咎引水人或船長單一角色。",
+    "keyPoints": [
+      {
+        "point": "VTS排序及分道航行",
+        "importance": "essential"
+      },
+      {
+        "point": "瞭望、雷達及通信",
+        "importance": "essential"
+      },
+      {
+        "point": "安全速度與船尾外掃",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船配置及口令",
+        "importance": "essential"
+      },
+      {
+        "point": "MPX與操船計畫",
+        "importance": "essential"
+      },
+      {
+        "point": "碼頭設備及鄰船淨空",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港區碼頭及航道設施",
+        "supports": "現行港區設施及碼頭資料，不能代替1998年圖資。"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第一、二港口助導航設備",
+        "supports": "現行燈杆、導標及雷達標資料。"
+      },
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港內交通管制及VTS",
+        "supports": "現行交通管制程序；1998年VTMS尚在規劃階段，須區分當時與現況。"
+      },
+      {
+        "title": "海軍海圖圖例",
+        "url": "https://navy.mnd.gov.tw/Files/Policy/海軍_海圖圖例.pdf",
+        "sourceType": "official_authority",
+        "issuer": "國防部海軍司令部",
+        "pageOrSection": "錨泊限制及海圖標誌",
+        "supports": "禁錨區、危險物及海圖符號判讀。"
+      }
+    ],
+    "limitations": [
+      "題目問概述，無特定事故資料；應依個案分辨人為、設備及環境因素。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對官方港務資料及海圖圖例",
+          "result": "pass"
+        },
+        {
+          "item": "1998年歷史港區圖及規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "087-kaohsiung-waterway-06-answer-v1",
+    "questionId": "087-kaohsiung-waterway-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、VTMS系統架構：通常包括岸基雷達站、AIS接收、VHF無線電、CCTV、氣象與潮流感測器、船舶資料庫、航跡追蹤及整合顯示系統，並由船舶交通服務中心的值班管制員監控。雷達與AIS提供船位、航向、航速及識別資料，VHF用於雙向通訊，CCTV協助辨識港區及泊位動態。二、主要功能：1. 船舶識別及動態監控；2. 航道交通排序與進出港許可；3. 碰撞、擱淺及偏離航道預警；4. 提供氣象、水文及航行資訊；5. 協調拖船、引水人、工作船及緊急應變；6. 保存船舶動態及通訊紀錄供事故調查。三、船舶配合措施：依規定在指定區域守聽VHF，按要求報告船名、呼號、船位、航向、航速、吃水及目的泊位；保持AIS及導航設備正常；遵守VTS指示、航道及速度限制；發生設備故障、偏航、碰撞風險或緊急狀況時立即通報；引水人與船長仍須履行避碰及安全操船責任，VTMS不取代船長或引水人的專業判斷。",
+    "practicalAnalysis": "1998年題目為VTMS推動階段，應說明規劃架構與當時建置進度，不能描述成已全面運作的現代VTS。",
+    "keyPoints": [
+      {
+        "point": "雷達、AIS、VHF、CCTV及氣象水文",
+        "importance": "essential"
+      },
+      {
+        "point": "船舶識別與航跡監控",
+        "importance": "essential"
+      },
+      {
+        "point": "交通排序及進出港管制",
+        "importance": "essential"
+      },
+      {
+        "point": "風險預警與緊急協調",
+        "importance": "essential"
+      },
+      {
+        "point": "船舶報告、守聽及遵守指示",
+        "importance": "essential"
+      },
+      {
+        "point": "VTMS不取代船長與引水人責任",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港區碼頭及航道設施",
+        "supports": "現行港區設施及碼頭資料，不能代替1998年圖資。"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第一、二港口助導航設備",
+        "supports": "現行燈杆、導標及雷達標資料。"
+      },
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港內交通管制及VTS",
+        "supports": "現行交通管制程序；1998年VTMS尚在規劃階段，須區分當時與現況。"
+      },
+      {
+        "title": "海軍海圖圖例",
+        "url": "https://navy.mnd.gov.tw/Files/Policy/海軍_海圖圖例.pdf",
+        "sourceType": "official_authority",
+        "issuer": "國防部海軍司令部",
+        "pageOrSection": "錨泊限制及海圖標誌",
+        "supports": "禁錨區、危險物及海圖符號判讀。"
+      }
+    ],
+    "limitations": [
+      "需查1998年高雄港VTMS建置計畫書，確認當時實際規劃設備與建置階段。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對官方港務資料及海圖圖例",
+          "result": "pass"
+        },
+        {
+          "item": "1998年歷史港區圖及規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
