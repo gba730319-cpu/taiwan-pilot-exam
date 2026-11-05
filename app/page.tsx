@@ -4,7 +4,6 @@ import questions from "../data/questions.json";
 import sourceData from "../data/sources.json";
 import answerData from "../data/answers.json";
 import additionalAnswerData from "../data/answers-new.json";
-import answer091Step1 from "../data/answers-091-step1.json";
 
 type Question = {
   id: string;
@@ -52,7 +51,7 @@ export default function Home() {
   const [port, setPort] = useState("高雄港");
   const items = (questions as Question[]).filter((q) => officialYears.has(q.year));
   const sources = sourceData as Source[];
-  const answers = [...(answerData as Answer[]), ...(additionalAnswerData as Answer[]), ...(answer091Step1 as Answer[])];
+  const answers = [...(answerData as Answer[]), ...(additionalAnswerData as Answer[])];
   const answerByQuestionId = useMemo(() => new Map(answers.map((a) => [a.questionId, a] as const)), [answers]);
   const sourceById = useMemo(() => new Map(sources.map((s) => [s.id, s] as const)), [sources]);
   const years = useMemo(
