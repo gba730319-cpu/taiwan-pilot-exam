@@ -2078,5 +2078,265 @@
     "sourceId": "moex-106-english",
     "status": "已核對",
     "questionNo": 4
+  },
+  {
+    "id": "108-kaohsiung-waterway-01",
+    "year": 2019,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "試繪高雄港簡圖，並標明航道寬度及深度、導航設施及碼頭編號、繫船浮、漁港等。（30 分）",
+    "sourceId": "moex-108-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "108-kaohsiung-waterway-02",
+    "year": 2019,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "自一港口引領一艘近洋雜貨船進港，總噸 1,500 G/T，長度 76 公尺，吃水 3.0 公尺，配置 2,400 HP 拖船一艘，請說明如何安全操作靠泊 30 號碼頭？30 號碼頭長度如何分配危險品及雜貨碼頭？（15 分）",
+    "sourceId": "moex-108-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "108-kaohsiung-waterway-03",
+    "year": 2019,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "冬季東北季風 5 級，引領一艘 CPP 船舶，總噸 7,000 G/T，長度 120 公尺，吃水 4.0 公尺，配置 2,400 HP 拖船一艘，請說明如何安全自浮筒 B52/53（未下錨）離泊並完成一港口出港作業程序？（15 分）",
+    "sourceId": "moex-108-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "108-kaohsiung-waterway-04",
+    "year": 2019,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "某雜貨船總噸 14,000 G/T，長度 160 公尺，吃水 5.0 公尺，配置 2,400 HP 及 1,800 HP 拖船各一艘，由 31 號碼頭移泊至 95 號碼頭，當時北風 5 級，請說明如何安全完成移泊作業及沿途注意事項為何？（15 分）",
+    "sourceId": "moex-108-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "108-kaohsiung-waterway-05",
+    "year": 2019,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "颱風過境後，西南風強勁約 6 級，自二港口外引領一艘總噸 14,800，船長 165 公尺，艏吃水 4.0 公尺，艉吃水 6.0 公尺，備有艏側推器（Bow Thruster）1,000 HP，配置一艘 3,200 HP 拖船，準備以左舷靠泊 81 號碼頭，請說明如何安全登輪並完成靠泊作業？（15 分）",
+    "sourceId": "moex-108-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "108-kaohsiung-waterway-06",
+    "year": 2019,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "請說明高雄港有哪些碼頭靠泊或掉頭靠泊時，依規定船舶長度受到限制，限制長度規定為何？（10 分）",
+    "sourceId": "moex-108-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "108-pilot-law-01",
+    "year": 2019,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "請詳述引水人應招領航時之義務。（20 分）",
+    "sourceId": "moex-108-pilot-law",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "108-pilot-law-02",
+    "year": 2019,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "引水人於能見度受限制之水域領航時，請依據「國際海上避碰規則」詳述其應有的作為。（20 分）",
+    "sourceId": "moex-108-pilot-law",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "108-pilot-law-03",
+    "year": 2019,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "不符合安全規定的引水梯，往往是引水人上、下船舶意外事故的主要肇因，引水人絕對有為其本身及同僚舉發不符安全規定之引水梯，以及拒絕攀登該等不符規定的船舶之責任。請詳述船舶上與引水梯相關的常見缺失。（20 分）",
+    "sourceId": "moex-108-pilot-law",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "108-pilot-law-04",
+    "year": 2019,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "試問「商港法」對於航行於港區內之船舶有何規範？（20 分）",
+    "sourceId": "moex-108-pilot-law",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "108-pilot-law-05",
+    "year": 2019,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "引水人承擔沉重的公益責任與商業壓力，當然需要具備一定程度的專業水平與修為，唯有如此才能勝任此一繁重的任務。請試述引水人應具備哪些條件？（20 分）",
+    "sourceId": "moex-108-pilot-law",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "108-pilotage-01",
+    "year": 2019,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "沿岸航行時，離岸距離的決定，請回答下列問題：（每小題 10 分，共 20 分）(1)最重要考慮的因素是什麼？(2)除「船舶大小」之外，還有什麼要考慮的？",
+    "sourceId": "moex-108-pilotage",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "108-pilotage-02",
+    "year": 2019,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "有關燈塔，請回答下列問題：（每小題 10 分，共 20 分）(1)說明下列燈塔之意義：A 燈塔 GP. FL w. (3) 12 sec 36 M 17 m。(2)某船眼高 16 M，在正常視野下，多遠距離可看見燈光？",
+    "sourceId": "moex-108-pilotage",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "108-pilotage-03",
+    "year": 2019,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "太平洋之主要海流有哪些？並說明其流向。（20 分）",
+    "sourceId": "moex-108-pilotage",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "108-pilotage-04",
+    "year": 2019,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "一般地方型風，最主要有海風、陸風，說明其成因、發生之時間、影響範圍。（20 分）",
+    "sourceId": "moex-108-pilotage",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "108-pilotage-05",
+    "year": 2019,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "繪出下列海圖圖例：（每小題 4 分，共 20 分）(1)禁止錨泊 (2)漁柵 (3)不淹岩 (4)礙航沉船 (5)擱淺船",
+    "sourceId": "moex-108-pilotage",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "108-shiphandling-01",
+    "year": 2019,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "依據 1985 年 9 月 1 日生效的 IMO 第 A.526(XIII)號決議案，船舶應於駕駛台設置「迴轉率指示器」（Rate-of-Turn Indicator; ROTI），供船舶操縱參考。今某船指示器故障，該船以 10 節對地速度（Speed over ground）欲通過長度 1,000 公尺的彎曲河道，河道彎曲角度為 90°，當時視線良好，無風，落潮流流速 2 節，試問該船通過彎曲河道的迴轉率為何？（20 分）",
+    "sourceId": "moex-108-shiphandling",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "108-shiphandling-02",
+    "year": 2019,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "船舶科技日新月異，促使船舶操縱系統亦隨之改善精進，時下許多需要靈敏操縱性的船舶已採用 AZIPODS 操縱系統，請就您對此一系統的瞭解加以說明。（20 分）",
+    "sourceId": "moex-108-shiphandling",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "108-shiphandling-03",
+    "year": 2019,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "最近國內各大商港時有大型客船灣靠，請以簡圖畫出客船裝置的鰭狀穩定器（Fin Stabilizer）的標誌，並說明其種類、功能與使用注意事項。（15 分）",
+    "sourceId": "moex-108-shiphandling",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "108-shiphandling-04",
+    "year": 2019,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "為防止引水區內海事的不斷發生，國際間近年來極力推行 BRM-P 計畫（Bridge Resource Management Plan），請就您所知闡述 BRM-P 計畫的沿革與精神主旨所在。（15 分）",
+    "sourceId": "moex-108-shiphandling",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "108-shiphandling-05",
+    "year": 2019,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "請解釋「Steerage way」一詞在船舶操縱領域的意義與考量因素。（15 分）",
+    "sourceId": "moex-108-shiphandling",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "108-shiphandling-06",
+    "year": 2019,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "試問何謂 Washing damage？若操船過程中發現有發生此現象之疑慮時，應採何措施？（15 分）",
+    "sourceId": "moex-108-shiphandling",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "108-english-01",
+    "year": 2019,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please translate the following three paragraphs into Chinese. (1) Any vessel requires a pilot shall fly the “pilot request signal” as used universally or specified by ROC government authority. The owner or master of the vessel may communicate with a pilot’s local agency about the employment of pilot in advance. In the case of two or more vessels hanging the pilot request signals, the pilot shall respond to serve the first-come vessel; however, if one of these vessels is in distress, the pilot shall firstly render his service to such vessel.（12 分）(2) When a pilot is hired on board to pilot a vessel, the master shall flag down the “pilot request signal”, and replace it with a signal signifying “pilot on board”, and advise the pilot of maneuvering characteristics, tonnage, length, draft, speed, etc. of the vessel. The master shall not reject the request of the pilot for verification of relevant certificates.（10 分）(3) No pilot shall perform the pilotage service unless he/she holds a pilot license issued by the MOTC and a certificate of registration issued by the local shipping administration authority in the pilotage district.（8 分）",
+    "sourceId": "moex-108-english",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "108-english-02",
+    "year": 2019,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please translate the following paragraphs into English. (1) 採取任何避碰措施，均應符合國際海上避碰規則各條款並且在環境許可時，應有充分時間早作明確之行動，並注意優良船藝之施展。（8 分）(2) 為避免碰撞而採取之任何航向及（或）航速之改變，如環境允許，其改變幅度應足能為他船由目視或雷達所明顯測知，並應避免對航向及（或）航速，作斷續而微小之變動。（12 分）",
+    "sourceId": "moex-108-english",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "108-english-03",
+    "year": 2019,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please give the definitions of the following maritime terminologies in English.（每小題 5 分，共 20 分）(1) Cardinal buoys (2) Closest point of approach (3) Manoeuvring speed (4) List",
+    "sourceId": "moex-108-english",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "108-english-04",
+    "year": 2019,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "It is well known to seafarers that despite the pilot’s duties and responsibilities, his presence on board does not exempt the Master and the OOW from their duties and responsibilities for the ship’s safety. However, a large portion of navigation-related accidents occurs when a pilot is on board. Please discuss the factors triggering the accidents and give possible solutions for reducing the negative impacts arising from such factors. Please present your discussion in English. (around 300 words)（30 分）",
+    "sourceId": "moex-108-english",
+    "status": "已核對",
+    "questionNo": 4
   }
 ]
