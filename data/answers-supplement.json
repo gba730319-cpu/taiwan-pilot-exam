@@ -805,5 +805,440 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "089-kaohsiung-waterway-01-answer-v1",
+    "questionId": "089-kaohsiung-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_or_drawing",
+    "modelAnswer": "以2000年高雄港海圖及港區圖為底圖，畫出第一、第二港口、北／南防波堤、港池岸線、主航道、迴船池及主要船渠。依當年碼頭配置表標示各碼頭編號與岸線位置，區分貨櫃、散雜貨、液體貨物及專用碼頭。另標示高雄港燈塔、第一／第二港口堤頭燈杆、導標、燈浮、雷達標、信號台、VTS及引水站，並列出位置、燈色、燈質、週期與能見距。圖邊附碼頭表及助航設備表，註明圖號、比例尺、北向與測深基準。",
+    "practicalAnalysis": "2000年港區圖須反映當時碼頭與助航設施，不能把後續洲際二期等設施回填。",
+    "keyPoints": [
+      {
+        "point": "標兩港口與防波堤",
+        "importance": "essential"
+      },
+      {
+        "point": "標碼頭編號與用途",
+        "importance": "essential"
+      },
+      {
+        "point": "標燈塔、堤頭燈杆、導標及燈浮",
+        "importance": "essential"
+      },
+      {
+        "point": "標雷達標、VTS及引水站",
+        "importance": "essential"
+      },
+      {
+        "point": "註明海圖版次及測深基準",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭與港區設施",
+        "supports": "現行碼頭編號、長度及水深；歷史年度需核對。"
+      },
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "VTS、拖船調派及移泊程序",
+        "supports": "現行交通及拖船協調原則，歷史版本需核對。"
+      },
+      {
+        "title": "高雄港港勤設備",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=926",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港勤拖船及港勤設備",
+        "supports": "現行拖船服務資訊，不能代替2000年拖船清冊。"
+      },
+      {
+        "title": "中央氣象署颱風資料庫",
+        "url": "https://rdc28.cwa.gov.tw/TDB/public/typhoon_detail?typhoon_id=198906",
+        "sourceType": "official_authority",
+        "issuer": "交通部中央氣象署",
+        "pageOrSection": "颱風路徑與天氣資料",
+        "supports": "颱風路徑及歷史天氣查核入口。"
+      }
+    ],
+    "limitations": [
+      "缺2000年港區海圖及助航設施燈表。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "2000年歷史資料及規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "089-kaohsiung-waterway-02-answer-v1",
+    "questionId": "089-kaohsiung-waterway-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "颱風由臺灣中部東岸登陸、橫越中部後離去，高雄位於颱風路徑南側或西南側附近，天氣變化須依颱風中心位置、移動方向、季節及外圍環流判斷。典型而言，颱風接近前高雄風力逐漸增強，風向可能由東至東北轉為偏東或東南，氣壓下降、雲量增加、間歇性豪雨與陣風增多；颱風通過或遠離後，風向可能轉為西南至西風，風力逐漸減弱，氣壓回升，但外圍雨帶、強陣風及沿岸湧浪仍可能持續。高雄港操船不應只依「颱風已離去」判斷安全，須觀察風向轉變、陣風、降雨、能見度、潮流及港外湧浪，並確認港口開放與航道設施狀況。",
+    "practicalAnalysis": "颱風路徑若由東岸橫越中部，風向變化與颱風中心相對方位有關，不能以固定風向序列套用所有個案。",
+    "keyPoints": [
+      {
+        "point": "颱風接近前風力增強、氣壓下降",
+        "importance": "essential"
+      },
+      {
+        "point": "風向隨中心相對方位變化",
+        "importance": "essential"
+      },
+      {
+        "point": "颱風通過後風向可能轉為西南至西風",
+        "importance": "essential"
+      },
+      {
+        "point": "雨帶與湧浪可能滯後",
+        "importance": "essential"
+      },
+      {
+        "point": "以即時氣象與港口管制判斷恢復通航",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭與港區設施",
+        "supports": "現行碼頭編號、長度及水深；歷史年度需核對。"
+      },
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "VTS、拖船調派及移泊程序",
+        "supports": "現行交通及拖船協調原則，歷史版本需核對。"
+      },
+      {
+        "title": "高雄港港勤設備",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=926",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港勤拖船及港勤設備",
+        "supports": "現行拖船服務資訊，不能代替2000年拖船清冊。"
+      },
+      {
+        "title": "中央氣象署颱風資料庫",
+        "url": "https://rdc28.cwa.gov.tw/TDB/public/typhoon_detail?typhoon_id=198906",
+        "sourceType": "official_authority",
+        "issuer": "交通部中央氣象署",
+        "pageOrSection": "颱風路徑與天氣資料",
+        "supports": "颱風路徑及歷史天氣查核入口。"
+      }
+    ],
+    "limitations": [
+      "需確認題目所指特定颱風年份與路徑，才能提供逐時風向及天氣序列。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "2000年歷史資料及規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "089-kaohsiung-waterway-03-answer-v1",
+    "questionId": "089-kaohsiung-waterway-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "雙浮筒繫泊空載船時，頂風靠泊通常較易控制，因船舶艏向可迎風，風壓使船舶較容易保持在浮筒連線附近；若順風接近，風從船尾方向推進，船舶可能加速接近浮筒，船首舵效較弱且船舶慣性不易消除。其缺失包括：一、船舶順風接近時不易減速，容易超越預定繫泊位置；二、船尾受風壓推動，艏向控制及船位保持較困難；三、單艘拖船須同時控制船舶縱向速度及偏轉，拖力方向受限；四、船舶可能以不利角度接近浮筒，增加碰撞浮筒、錨鏈或鄰船的風險；五、空載船風壓面積較大，順風時更容易受風推移。若因水域或交通限制必須順風繫泊，應提早減速，利用拖船在船首或船尾建立制動及艏向控制，必要時以主機短促倒俥、舵角及繫纜分段配合；若單拖船不足，應改採頂風方向或增加拖船。",
+    "practicalAnalysis": "單拖船要同時控制縱向速度與艏向，順風接近浮筒會增加船舶超越及失控風險。",
+    "keyPoints": [
+      {
+        "point": "順風接近容易加速且不易停住",
+        "importance": "essential"
+      },
+      {
+        "point": "空載船風壓面積大",
+        "importance": "essential"
+      },
+      {
+        "point": "艏向及浮筒定位較難控制",
+        "importance": "essential"
+      },
+      {
+        "point": "單拖船須兼顧制動與偏轉",
+        "importance": "essential"
+      },
+      {
+        "point": "提早減速、拖船制動及必要時改頂風",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭與港區設施",
+        "supports": "現行碼頭編號、長度及水深；歷史年度需核對。"
+      },
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "VTS、拖船調派及移泊程序",
+        "supports": "現行交通及拖船協調原則，歷史版本需核對。"
+      },
+      {
+        "title": "高雄港港勤設備",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=926",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港勤拖船及港勤設備",
+        "supports": "現行拖船服務資訊，不能代替2000年拖船清冊。"
+      },
+      {
+        "title": "中央氣象署颱風資料庫",
+        "url": "https://rdc28.cwa.gov.tw/TDB/public/typhoon_detail?typhoon_id=198906",
+        "sourceType": "official_authority",
+        "issuer": "交通部中央氣象署",
+        "pageOrSection": "颱風路徑與天氣資料",
+        "supports": "颱風路徑及歷史天氣查核入口。"
+      }
+    ],
+    "limitations": [
+      "題目未給浮筒排列、船舶艏向及拖船拖帶點，不能指定固定拖船位置。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "2000年歷史資料及規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "089-kaohsiung-waterway-04-answer-v1",
+    "questionId": "089-kaohsiung-waterway-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "高雄港拖船調度應以安全操縱需求為優先，依船舶總噸位、船長、船寬、吃水、排水量、風壓面積、主機舵效、側推器性能、裝載狀態、拖帶／推頂方式、泊位與航道條件、風浪流及能見度決定拖船艘數與馬力。大型、重載、深吃水、操縱性能受限、強風橫流、狹窄水域、特殊碼頭或危險品船，應提高拖船配置。拖船調度單位須掌握拖船馬力、拖力、設備、位置、勤務及可用狀態，依進出港、移泊及特殊作業安排拖船；引水人應與船長交換操縱資料，說明增派拖船理由，並依港口程序提出需求。拖船分工應明確區分控制船首、船尾、制動、橫移及緊急應變，避免拖纜交叉或拖船進入螺槳流危險區。",
+    "practicalAnalysis": "2000年當時的拖船調派規則可能與現行規定不同，具體噸位對照表及馬力級距須查歷史版。",
+    "keyPoints": [
+      {
+        "point": "按船舶尺度及操縱性能",
+        "importance": "essential"
+      },
+      {
+        "point": "考慮風流浪及航道／泊位限制",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船馬力與數量符合實際拖力需求",
+        "importance": "essential"
+      },
+      {
+        "point": "調度單位掌握拖船可用狀態",
+        "importance": "essential"
+      },
+      {
+        "point": "引水人與船長協調並明確分工",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭與港區設施",
+        "supports": "現行碼頭編號、長度及水深；歷史年度需核對。"
+      },
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "VTS、拖船調派及移泊程序",
+        "supports": "現行交通及拖船協調原則，歷史版本需核對。"
+      },
+      {
+        "title": "高雄港港勤設備",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=926",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港勤拖船及港勤設備",
+        "supports": "現行拖船服務資訊，不能代替2000年拖船清冊。"
+      },
+      {
+        "title": "中央氣象署颱風資料庫",
+        "url": "https://rdc28.cwa.gov.tw/TDB/public/typhoon_detail?typhoon_id=198906",
+        "sourceType": "official_authority",
+        "issuer": "交通部中央氣象署",
+        "pageOrSection": "颱風路徑與天氣資料",
+        "supports": "颱風路徑及歷史天氣查核入口。"
+      }
+    ],
+    "limitations": [
+      "缺2000年高雄港拖船調度規則及拖船馬力清冊，無法列出當年噸位與拖船艘數對照表。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "2000年歷史資料及規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "089-kaohsiung-waterway-05-answer-v1",
+    "questionId": "089-kaohsiung-waterway-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、條件：3,000總噸化學品船，LOA95m、吃水6m，無風無流，由第一港口進港左舷靠60號碼頭，配置1,800HP拖船一艘。無風無流時，船舶風流漂移較小，但仍須控制進港速度、停船距離及靠泊角度；化學品船須確認泊位用途、危險品裝卸安全及消防要求。二、通過50號碼頭後：先確認60號碼頭位置、可用船席長度、水深、防舷材、鄰船及VTS交通安排；提早降低縱向速度，避免到泊位前才急停。三、拖船運用：依船舶主機舵效及螺槳旋向，拖船可配置於船首或船尾協助控制艏向及橫移；因僅一艘拖船，應先確定最需要控制的船端，主機與舵負責另一端及縱向速度。接近左舷泊位時，保持船體與碼頭平行，先消除前進速度，再由拖船提供適當推／拖力控制橫移；避免拖船在船體與碼頭間受擠壓。四、靠妥：以低速平移靠泊，避免艏艉先撞擊碼頭，依序送艏艉纜及倒纜，確認纜繩受力均勻；化學品作業依規定完成危險品通報、消防及禁火措施。",
+    "practicalAnalysis": "題目未提供船舶螺槳旋向、主機型式及60號碼頭岸線方向，故拖船位置與拖帶方向須依實際操縱資料決定。",
+    "keyPoints": [
+      {
+        "point": "通過50號碼頭後提早減速",
+        "importance": "essential"
+      },
+      {
+        "point": "核對60號泊位及水深",
+        "importance": "essential"
+      },
+      {
+        "point": "一艘拖船協助控制最難控制的船端",
+        "importance": "essential"
+      },
+      {
+        "point": "低速平行靠泊",
+        "importance": "essential"
+      },
+      {
+        "point": "化學品船消防及危險品作業要求",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭與港區設施",
+        "supports": "現行碼頭編號、長度及水深；歷史年度需核對。"
+      },
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "VTS、拖船調派及移泊程序",
+        "supports": "現行交通及拖船協調原則，歷史版本需核對。"
+      },
+      {
+        "title": "高雄港港勤設備",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=926",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港勤拖船及港勤設備",
+        "supports": "現行拖船服務資訊，不能代替2000年拖船清冊。"
+      },
+      {
+        "title": "中央氣象署颱風資料庫",
+        "url": "https://rdc28.cwa.gov.tw/TDB/public/typhoon_detail?typhoon_id=198906",
+        "sourceType": "official_authority",
+        "issuer": "交通部中央氣象署",
+        "pageOrSection": "颱風路徑與天氣資料",
+        "supports": "颱風路徑及歷史天氣查核入口。"
+      }
+    ],
+    "limitations": [
+      "缺60號碼頭2000年泊位圖、船舶操縱資料及拖船拖帶點，不能給唯一拖船位置及口令。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "2000年歷史資料及規定",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
