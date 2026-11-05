@@ -2563,5 +2563,532 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "087-taichung-waterway-01-answer-v1",
+    "questionId": "087-taichung-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "definition",
+    "modelAnswer": "(1) 暴潮（Storm Surge）：強風及低氣壓使海水向岸堆積，造成海面異常升高，常伴隨颱風，可能導致港區淹水、越波及碼頭受損。(2) 海嘯（Tsunami）：海底地震、海底山崩或火山活動引起海水體積突然變化，形成長週期波，近岸水深變淺後波高增大，造成港內強流及水位劇變。(3) 副振動／蕩漾（Seiche）：港池或封閉水域受外力激發產生的長週期水面振盪，可能造成繫纜張力變化、船舶碰撞及裝卸中斷。(4) 漂沙（Littoral Drift）：波浪斜向入射與沿岸流共同作用，使砂礫沿岸搬運，造成港口漂砂、航道淤積及岸線變遷。(5) 沿岸流（Alongshore Current）：波浪斜向入射、潮汐及風應力造成平行海岸的水流，影響船舶靠離岸及港口入口流場。(6) 坐落現象（Squat）：船舶在受限水域航行時，船底與海床間水流加速、壓力降低，使船體產生動態下沉及縱傾變化；航速越高、航道越淺窄，通常越明顯。",
+    "practicalAnalysis": "Squat是動態下沉，不是單純靜態吃水增加；Seiche與海嘯及潮汐不同。",
+    "keyPoints": [
+      {
+        "point": "六項定義與形成原因",
+        "importance": "essential"
+      },
+      {
+        "point": "對港池、航道與船舶的影響",
+        "importance": "essential"
+      },
+      {
+        "point": "Seiche與Tsunami區別",
+        "importance": "essential"
+      },
+      {
+        "point": "Squat與水深、航速及航道限制",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "臺中港港區資訊",
+        "url": "https://tc.twport.com.tw/zh-TW/port/Articles?a=515",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "pageOrSection": "港區航道與碼頭設施",
+        "supports": "現行臺中港港區與航道資訊。"
+      }
+    ],
+    "limitations": [
+      "需取得1998年港區海圖／相關規定原始版本核對歷史數據。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對可取得的官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1998年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "087-taichung-waterway-02-answer-v1",
+    "questionId": "087-taichung-waterway-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "operational_scenario",
+    "modelAnswer": "臺中港西碼頭區，風向NNE、流向NE。應先確認風力、流速、碼頭岸線方位、船舶尺度、吃水及主機舵效。風與流均來自東北偏北方向，船舶受風壓及流壓作用會產生漂移及艏向力矩，須分開估算。靠泊規劃應預留船舶迴轉半徑、船首內切及船尾外掃空間，確認航道淨空、鄰船及碼頭設備。進入西碼頭區前提早減速並建立接近航向；以主機及舵控制縱向速度與艏向，依相對風流方向預留偏流角；必要時由拖船控制船首／船尾及橫移。接近碼頭時先消除縱向速度，再以低速平移靠近，控制接觸角及橫向接近速度；送艏艉纜後調整倒纜。若風流超出船舶與拖船控制能力，應暫緩靠泊。",
+    "practicalAnalysis": "題目未提供風力、流速及碼頭方位，不能指定固定拖船位置或偏流角。",
+    "keyPoints": [
+      {
+        "point": "分別分析風壓與流壓",
+        "importance": "essential"
+      },
+      {
+        "point": "確認岸線方位及泊位淨空",
+        "importance": "essential"
+      },
+      {
+        "point": "預留船首內切及船尾外掃",
+        "importance": "essential"
+      },
+      {
+        "point": "提早減速與建立接近航向",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船協助橫移及艏艉控制",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "臺中港港區資訊",
+        "url": "https://tc.twport.com.tw/zh-TW/port/Articles?a=515",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "pageOrSection": "港區航道與碼頭設施",
+        "supports": "現行臺中港港區與航道資訊。"
+      }
+    ],
+    "limitations": [
+      "需取得1998年港區海圖／相關規定原始版本核對歷史數據。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對可取得的官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1998年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "087-taichung-waterway-03-answer-v1",
+    "questionId": "087-taichung-waterway-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "operational_scenario",
+    "modelAnswer": "100,000DWT貨輪在壓載狀況離岸出港，須注意壓載船乾舷高、風壓面積大、吃水較淺，螺槳與舵浸水狀態可能改變，操縱性與滿載時不同。離泊前確認風流、潮位、泊位淨空、拖船配置、主機舵機及錨機，與船長交換操縱資料。依風向及碼頭方位安排拖船控制船首與船尾，逐步解除纜繩，先建立離岸控制再解最後控制纜。船舶離岸後避免急轉，注意高乾舷風壓及船尾外掃；利用主機與舵保持舵效，拖船協助控制艏向與橫移。出港前依VTS排序確認航道淨空及外海風浪，通過防波堤口時保持適當對水速度，避免橫流造成偏航。",
+    "practicalAnalysis": "未提供泊位、風流及拖船配置，無法給出唯一離泊舵令及拖帶點。",
+    "keyPoints": [
+      {
+        "point": "壓載船風壓面積大",
+        "importance": "essential"
+      },
+      {
+        "point": "舵與螺槳浸水及操縱性差異",
+        "importance": "essential"
+      },
+      {
+        "point": "先建立控制再解纜",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船控制艏艉",
+        "importance": "essential"
+      },
+      {
+        "point": "VTS及防波堤口流況",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "臺中港港區資訊",
+        "url": "https://tc.twport.com.tw/zh-TW/port/Articles?a=515",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "pageOrSection": "港區航道與碼頭設施",
+        "supports": "現行臺中港港區與航道資訊。"
+      }
+    ],
+    "limitations": [
+      "需取得1998年港區海圖／相關規定原始版本核對歷史數據。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對可取得的官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1998年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "087-taichung-waterway-04-answer-v1",
+    "questionId": "087-taichung-waterway-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "VHDF（VHF Direction Finding，甚高頻無線電測向）利用岸上多座測向站接收船舶VHF訊號，測定其方位線並交會推算船位，可協助VTS監控未裝AIS或AIS資訊異常船舶，並支援遇險定位及通信監控。臺中港規劃VHDF時，應考量港口進出航道、外海錨地、港內航道交會區、漁船活動區及岸線遮蔽。測向站宜設於視野開闊、無高大建物遮蔽且能覆蓋港外及港內主要水域的位置，以兩站以上交會提升定位可靠度。主要規範包括：測向設備頻率與VHF海事頻道相容；天線架設及電磁干擾符合規範；測向站座標及校正資料準確；遇險通信優先處理；與雷達、AIS、CCTV及VTS整合。",
+    "practicalAnalysis": "1998年題目為VTMS規劃題，應說明當時規劃功能，不應把現代AIS功能回填為當年已具備。",
+    "keyPoints": [
+      {
+        "point": "VHDF測向原理及方位交會",
+        "importance": "essential"
+      },
+      {
+        "point": "補足雷達監控",
+        "importance": "essential"
+      },
+      {
+        "point": "港外、航道及漁船活動區覆蓋",
+        "importance": "essential"
+      },
+      {
+        "point": "測向站位置及遮蔽條件",
+        "importance": "essential"
+      },
+      {
+        "point": "與VTS整合",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "臺中港港區資訊",
+        "url": "https://tc.twport.com.tw/zh-TW/port/Articles?a=515",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "pageOrSection": "港區航道與碼頭設施",
+        "supports": "現行臺中港港區與航道資訊。"
+      }
+    ],
+    "limitations": [
+      "需取得1998年港區海圖／相關規定原始版本核對歷史數據。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對可取得的官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1998年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "087-taichung-waterway-05-answer-v1",
+    "questionId": "087-taichung-waterway-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "分道航行制（TSS）是將相反方向船舶交通流分配至不同通航分道，並以分隔線或分隔帶隔開，減少迎艏正遇及交叉相遇。規劃臺中港TSS應考量：港外主要船舶進出方向及交通流密度；航道寬度、水深、海床地形及海象；進出港船舶尺度、速度及操縱性能；漁船、工作船、錨泊船及近岸交通；航道與岸線、淺灘、海底管線及其他設施的距離；引水站、報到線及VTS監控能力。應依COLREG Rule 10規劃通航分道、分隔線、沿岸通航區及橫越規則，並透過海圖及航船布告公告。",
+    "practicalAnalysis": "本題為規劃原則，應以COLREG Rule 10及臺中港海上交通特性作答。",
+    "keyPoints": [
+      {
+        "point": "TSS定義與目的",
+        "importance": "essential"
+      },
+      {
+        "point": "交通流及船舶尺度",
+        "importance": "essential"
+      },
+      {
+        "point": "水深地形與海象",
+        "importance": "essential"
+      },
+      {
+        "point": "漁船及近岸活動",
+        "importance": "essential"
+      },
+      {
+        "point": "符合COLREG Rule 10",
+        "importance": "essential"
+      },
+      {
+        "point": "VTS監控與公告",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "臺中港港區資訊",
+        "url": "https://tc.twport.com.tw/zh-TW/port/Articles?a=515",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "pageOrSection": "港區航道與碼頭設施",
+        "supports": "現行臺中港港區與航道資訊。"
+      }
+    ],
+    "limitations": [
+      "需取得1998年港區海圖／相關規定原始版本核對歷史數據。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對可取得的官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1998年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "087-hualien-waterway-01-answer-v1",
+    "questionId": "087-hualien-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "花蓮港港池不穩主要與港口面向太平洋、外海長週期湧浪、颱風波浪繞射進港，以及港池自然週期與外來波浪週期接近而產生共振、副振動（seiche）有關。颱風從臺灣東方或東北方海面接近、沿臺灣東部北上或在東部近海滯留時，長週期波浪可能傳入港口，造成港池水位及流速振盪、船舶繫纜張力變化、船舶相互碰撞及裝卸作業中斷。港務當局應監測外海波浪與港池水位，發布港口作業限制，調整船席及船舶繫泊方式，增加纜繩與防舷措施，必要時停止裝卸、移泊或限制進出港，並透過防波堤及港池改善工程降低波浪能量。",
+    "practicalAnalysis": "題目要求特定颱風路徑，須以1998年以前花蓮港歷史風災資料核對；此處先說明港池不穩的水動力機制。",
+    "keyPoints": [
+      {
+        "point": "外海長週期湧浪",
+        "importance": "essential"
+      },
+      {
+        "point": "波浪繞射及港池共振",
+        "importance": "essential"
+      },
+      {
+        "point": "Seiche造成水位與流速振盪",
+        "importance": "essential"
+      },
+      {
+        "point": "颱風東部近海路徑",
+        "importance": "essential"
+      },
+      {
+        "point": "監測、加強繫泊及港口管制",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "花蓮港碼頭使用區分表",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=4138&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司花蓮港務分公司",
+        "pageOrSection": "碼頭結構、用途、水深及潮汐",
+        "supports": "現行花蓮港碼頭長度、水深與用途。"
+      }
+    ],
+    "limitations": [
+      "需取得1998年港區海圖／相關規定原始版本核對歷史數據。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對可取得的官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1998年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "087-hualien-waterway-02-answer-v1",
+    "questionId": "087-hualien-waterway-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "花蓮港碼頭結構可依岸線及受力方式概分為重力式碼頭、樁基／棧橋式碼頭及特殊突堤或專用碼頭。重力式碼頭通常以沉箱或鋼筋混凝土結構承受土壓及船舶靠泊力，優點是岸線連續、承載及繫纜設施較完整；缺點是地基及沉箱結構受限制，靠泊能量過大可能造成結構損傷。樁基／棧橋式碼頭由樁柱支撐平台，水流較易通過，但船體接觸位置及防舷材配置須特別注意，不能碰撞樁柱或平台突出部。指揮靠泊時應先確認碼頭型式、防舷材高度及間距、繫纜樁承載能力、岸上設備與可用船席長度，依結構承受能力控制接近速度與角度。",
+    "practicalAnalysis": "具體碼頭結構分布須依1998年花蓮港設施圖逐席核對。",
+    "keyPoints": [
+      {
+        "point": "重力式碼頭結構及優缺點",
+        "importance": "essential"
+      },
+      {
+        "point": "樁基／棧橋式碼頭結構及優缺點",
+        "importance": "essential"
+      },
+      {
+        "point": "特殊突堤與專用碼頭",
+        "importance": "essential"
+      },
+      {
+        "point": "依防舷材及繫纜配置控制靠泊",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "花蓮港碼頭使用區分表",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=4138&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司花蓮港務分公司",
+        "pageOrSection": "碼頭結構、用途、水深及潮汐",
+        "supports": "現行花蓮港碼頭長度、水深與用途。"
+      }
+    ],
+    "limitations": [
+      "需取得1998年港區海圖／相關規定原始版本核對歷史數據。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對可取得的官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1998年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "087-hualien-waterway-03-answer-v1",
+    "questionId": "087-hualien-waterway-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "operational_scenario",
+    "modelAnswer": "冬季東北季風期間，10號碼頭已有船舶靠泊，另一艘船欲靠11號碼頭，應先確認10、11號碼頭相鄰船舶尺度、船艏艉突出、繫纜及防舷材配置，避免新船靠泊時船首／船尾掃掠既有船舶。東北風會造成船舶向西南方向的風壓漂移，須依11號碼頭岸線方位判斷風壓是推向碼頭或離岸。靠泊前與船長交換船舶尺度、風壓面積、主機舵效及停船距離，向VTS確認交通淨空並配置足夠拖船。接近時提早減速，利用拖船控制船首及船尾，保持船體與碼頭平行，先消除縱向速度，再控制橫向接近速度；注意10號碼頭既有船舶的纜繩、錨鏈及上層結構。若兩船間淨距不足或東北風超出拖船控制能力，應等待或調整靠泊順序。",
+    "practicalAnalysis": "未提供船舶尺度、11號碼頭方位及風力級數，拖船位置需依現場條件決定。",
+    "keyPoints": [
+      {
+        "point": "東北季風風壓漂移",
+        "importance": "essential"
+      },
+      {
+        "point": "10號碼頭既有船舶淨距",
+        "importance": "essential"
+      },
+      {
+        "point": "船首內切及船尾外掃",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船控制艏艉及橫移",
+        "importance": "essential"
+      },
+      {
+        "point": "低速平行靠泊",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "花蓮港碼頭使用區分表",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=4138&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司花蓮港務分公司",
+        "pageOrSection": "碼頭結構、用途、水深及潮汐",
+        "supports": "現行花蓮港碼頭長度、水深與用途。"
+      }
+    ],
+    "limitations": [
+      "需取得1998年港區海圖／相關規定原始版本核對歷史數據。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對可取得的官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1998年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "087-hualien-waterway-04-answer-v1",
+    "questionId": "087-hualien-waterway-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_or_drawing",
+    "modelAnswer": "花蓮港區圖應以1998年海圖為底圖，標出外港、內港、東西防波堤、港口、主航道、迴船池、碼頭編號、用途及水深。潮汐資料應標示潮汐基準面、潮位站、平均高潮間隙、平均潮差、高潮／低潮時刻及潮高。附近助航設施應列出花蓮港燈塔、東西防波堤燈杆、導標、燈浮及雷達標，標示名稱、座標、燈色、燈質、週期、能見距及功能。現行花蓮港碼頭使用表可作碼頭長度、水深及用途參照，但1998年碼頭編號、用途及助航設備須以當年海圖與燈表核對。",
+    "practicalAnalysis": "缺1998年花蓮港海圖與潮汐表，現行碼頭資料不能替代當年圖資。",
+    "keyPoints": [
+      {
+        "point": "港區及航道配置",
+        "importance": "essential"
+      },
+      {
+        "point": "碼頭編號、用途及水深",
+        "importance": "essential"
+      },
+      {
+        "point": "平均潮汐及基準面",
+        "importance": "essential"
+      },
+      {
+        "point": "導航設施位置、燈質及功能",
+        "importance": "essential"
+      },
+      {
+        "point": "註明1998年圖資版本",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "花蓮港碼頭使用區分表",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=4138&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司花蓮港務分公司",
+        "pageOrSection": "碼頭結構、用途、水深及潮汐",
+        "supports": "現行花蓮港碼頭長度、水深與用途。"
+      }
+    ],
+    "limitations": [
+      "需取得1998年港區海圖／相關規定原始版本核對歷史數據。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對可取得的官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1998年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
