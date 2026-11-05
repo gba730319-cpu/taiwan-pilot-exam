@@ -16484,5 +16484,417 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "100-shiphandling-01-answer-v1",
+    "questionId": "100-shiphandling-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "calculation",
+    "modelAnswer": "一、已知條件\n排水量70,000t，靠泊時側向速度1kn，距碼頭30m，無風、無流、無艏側推器，水深足夠。\n\n二、速度換算\n\\[V=1\\times0.51444=0.51444\\;m/s\\]\n\n三、以等減速度計算所需拖船拉力\n船舶須在30m內將側向速度由0.51444m/s降至0，依運動公式：\n\\[V_f^2=V_i^2+2as\\]\n\\[0=0.51444^2+2a(30)\\]\n\\[a=-0.00441\\;m/s^2\\]\n所需側向制動力：\n\\[F=ma=70,000,000\\times0.00441\\]\n\\[F\\approx308,700\\;N\\approx31.5\\;tf\\]\n\n**答案：理想狀態下，拖船至少需提供約31.5公噸力的有效側向拉力。**\n\n四、實際拖船配置考量\n31.5tf為理想化最低值，尚未計入船舶附加質量、拖纜與船體夾角造成的分力損失、拖船推力建立時間及操縱安全裕度。實際調派應使拖船實測BP高於理論值，並確認拖纜方向使有效分力朝向制動方向；可先以約40t以上有效BP作為初步安全配置，再依拖船證書及現場條件確認。",
+    "practicalAnalysis": "本題採等減速度模型，側向速度1kn在30m內降為0，F=mv²/(2s)=31.5tf。此為有效側向力，不是拖船主機馬力；實際需依BP、拖纜角度、附加質量及推力建立時間留安全裕度。",
+    "keyPoints": [
+      {
+        "point": "1kn=0.51444m/s",
+        "importance": "essential"
+      },
+      {
+        "point": "a=v²/(2s)=0.00441m/s²",
+        "importance": "essential"
+      },
+      {
+        "point": "F=ma≈308.7kN≈31.5tf",
+        "importance": "essential"
+      },
+      {
+        "point": "實際拖船BP須考慮拖纜角度、附加質量及安全裕度",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Ship manoeuvring, lateral motion and stopping",
+        "accessedAt": "2026-11-05",
+        "supports": "船舶操縱及力學估算。"
+      },
+      {
+        "title": "Guidelines for Safe Harbour Towage Operations",
+        "sourceType": "industry_guidance",
+        "issuer": "European Tugowners Association",
+        "url": "https://eurotugowners.com/wp-content/uploads/2017/11/STP-Guidelines-First-Edition-February-2015.pdf",
+        "pageOrSection": "Bollard pull and effective towline force",
+        "accessedAt": "2026-11-05",
+        "supports": "拖船BP及拖纜有效分力。"
+      }
+    ],
+    "limitations": [
+      "忽略附加質量、船體流體阻力及拖船推力建立時間，屬理想化最低力估算。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "運動公式及單位換算已複核",
+          "result": "pass"
+        },
+        {
+          "item": "31.5tf為理想有效側向力而非馬力已註明",
+          "result": "pass"
+        },
+        {
+          "item": "獨立船舶操縱專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "100-shiphandling-02-answer-v1",
+    "questionId": "100-shiphandling-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、Azipod系統構造及原理\nAzipod為全迴轉吊艙式電力推進器，將電動馬達及螺旋槳裝於船底吊艙內，吊艙可水平旋轉約360度，使推力方向可隨操船需求改變，通常不需傳統舵葉即可控制船舶方向。\n\n二、優點\n（一）操縱靈活：推力可朝任意方向，低速時可直接提供前後及橫向推力，利於靠離碼頭及狹窄水域操船。\n（二）迴轉性能佳：推進器可在艏艉不同位置產生力矩，減少傳統舵效不足時的限制。\n（三）推進效率：吊艙式推進器可改善螺槳入流及船尾流場，部分船型可提升推進效率。\n（四）船體配置彈性：省去長軸系及傳統舵系，機艙配置更有彈性，噪音及振動可能降低。\n（五）冗餘性：多吊艙配置可在單一推進器故障時保留部分操縱能力，但仍須依船舶設計確認。\n\n三、缺點及限制\n（一）建造及維修成本高，吊艙內馬達、軸承、密封及冷卻系統維護要求高。\n（二）水下吊艙及推進器暴露於碰撞、漂流物、漁網及淺水觸底風險。\n（三）高負荷連續使用可能造成馬達、變頻器或冷卻系統過熱，須遵守功率及轉向限制。\n（四）高速時推進器全迴轉操縱可能受到流體負荷及設備限制，不能假設任何速度均可使用最大側向推力。\n（五）不同船舶控制系統、操縱模式及推力反應差異大，若不熟悉可能造成錯誤指令或推力方向判斷錯誤。\n\n四、引水人操船注意事項\n（一）登輪後詳細查閱Pilot Card及操縱手冊，確認吊艙數量、位置、旋轉角度、最大功率、限制速度、反應時間及緊急操作模式。\n（二）確認駕駛臺操縱桿、方向盤、Joystick及獨立控制模式的功能，與船長及駕駛臺團隊確認指令及回饋方式。\n（三）低速靠離泊時可利用吊艙直接提供橫向推力，但須監控船艏艉掃掠、船舶慣性及推力建立時間。\n（四）避免突然改變吊艙角度或推力方向，以免船舶產生突發偏航或橫移。\n（五）注意吊艙推力造成的碼頭反射流、船間吸引及淺水效應，必要時配置拖船備援。\n（六）如吊艙故障、警報或控制模式不一致，立即與船長確認，改採可用吊艙、拖船及安全航速方案。\n\n五、結論\nAzipod具全方向推力及優良低速操縱能力，但設備複雜、維修成本高且有功率與速度限制。引水人必須先熟悉船舶特定吊艙配置及操作模式，避免套用傳統舵槳船操縱經驗。",
+    "practicalAnalysis": "Azipod是吊艙式電力推進，吊艙可旋轉提供全方向推力。作答需同時說明靈活性、推進效率、機艙配置及缺點，並強調不同船舶的操縱介面、功率限制及故障應變。",
+    "keyPoints": [
+      {
+        "point": "吊艙內電動馬達及螺旋槳可水平全迴轉",
+        "importance": "essential"
+      },
+      {
+        "point": "優點：低速靈活、直接橫向推力、推進效率及配置彈性",
+        "importance": "essential"
+      },
+      {
+        "point": "缺點：成本高、維修複雜、吊艙受損風險及功率限制",
+        "importance": "essential"
+      },
+      {
+        "point": "引水人先讀Pilot Card／手冊，確認控制模式、速度及功率限制",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "Azipod propulsion",
+        "sourceType": "industry_guidance",
+        "issuer": "ABB Marine & Ports",
+        "url": "https://new.abb.com/marine/systems-and-solutions/azipod",
+        "pageOrSection": "Azipod propulsion system and manoeuvrability",
+        "accessedAt": "2026-11-05",
+        "supports": "Azipod構造、全方向推力及操縱特性。"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "pageOrSection": "Master-Pilot Information Exchange",
+        "accessedAt": "2026-11-05",
+        "supports": "引水人取得船舶操縱資料及操作限制。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "Azipod系統原理及優缺點已依製造商資料整理",
+          "result": "pass"
+        },
+        {
+          "item": "引水人操作注意事項已整理",
+          "result": "pass"
+        },
+        {
+          "item": "獨立船舶操縱專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "100-shiphandling-03-answer-v1",
+    "questionId": "100-shiphandling-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、Close Loop Communication（閉環通訊）的目的\n閉環通訊是駕駛臺團隊中，發令人、接收者及確認者形成完整訊息回饋的溝通方式，確保指令被正確聽到、理解、執行及確認，避免因語言、噪音、誤聽、記憶或權威梯度造成錯誤。\n\n二、基本程序\n（一）發出明確指令：指令者清楚說明動作、方向、數值及對象，例如「右舵十度」。\n（二）接收者覆誦：舵手或執行人員完整覆誦指令，例如「右舵十度」。\n（三）指令者確認：發令者確認覆誦正確；若錯誤立即更正，不得讓模糊指令繼續執行。\n（四）執行及回報：執行者完成指令後回報實際結果，例如「右舵十度已到」。\n（五）持續監控：發令者確認實際舵角、船位或設備狀態符合預期，必要時再下達修正指令。\n\n三、應用範圍\n（一）舵令、車令、側推器及拖船指令。\n（二）VTS通報、航向及航速改變、轉向點及錨泊操作。\n（三）緊急操船、主機故障、避碰及靠離碼頭作業。\n（四）引水人、船長、值班船副、舵手及拖船船長間的口令與回報。\n\n四、執行原則\n使用標準海事通信用語及簡潔語句；一次只傳達一項清楚指令；重要數字、方向及單位必須覆誦；不得使用含糊的「好」、「知道」代替完整覆誦；任何人發現指令不安全或不清楚，都應立即提出疑問。\n\n五、結論\n閉環通訊透過「發令—覆誦—確認—執行—回報—監控」形成完整回饋，確保團隊成員對指令有共同理解，降低誤操作及人為事故。",
+    "practicalAnalysis": "本題考BRM核心溝通程序，須明確寫出發令、覆誦、確認、執行、回報及監控。單純「收到」不算完整閉環，必須確認具體指令及執行結果。",
+    "keyPoints": [
+      {
+        "point": "發令者清楚下達具體指令",
+        "importance": "essential"
+      },
+      {
+        "point": "接收者完整覆誦",
+        "importance": "essential"
+      },
+      {
+        "point": "發令者確認正確後才執行",
+        "importance": "essential"
+      },
+      {
+        "point": "執行者回報結果，發令者持續監控",
+        "importance": "essential"
+      },
+      {
+        "point": "標準用語、明確數字及允許提出疑問",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Model Course 1.22 – Ship Simulator and Bridge Teamwork",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/OurWork/HumanElement/Pages/ModelCourses.aspx",
+        "pageOrSection": "Bridge team communication and closed-loop communication",
+        "accessedAt": "2026-11-05",
+        "supports": "駕駛臺團隊溝通及BRM。"
+      },
+      {
+        "title": "IMO Resolution A.918(22), Standard Marine Communication Phrases",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.918(22).pdf",
+        "pageOrSection": "General principles of communication",
+        "accessedAt": "2026-11-05",
+        "supports": "標準海事通信用語及明確通訊。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "閉環通訊流程已整理",
+          "result": "pass"
+        },
+        {
+          "item": "BRM及SMCP資料已參照",
+          "result": "pass"
+        },
+        {
+          "item": "專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "100-shiphandling-04-answer-v1",
+    "questionId": "100-shiphandling-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "operational_scenario",
+    "modelAnswer": "一、拖帶前準備\n（一）確認無動力船舶總噸位約10,000GT、船長、船寬、吃水、載況、受風面積、舵機及主機狀態，確認是否能使用錨及舵。\n（二）評估港內航道寬度、水深、潮位、風流、迴旋空間、碼頭、鄰船及水下障礙物，向VTS申請拖帶及交通窗口。\n（三）依被拖船舶尺度及風流選擇拖船艘數、馬力及配置；必要時採艏拖及艉拖兩艘拖船分別控制船艏、船艉。\n（四）檢查拖纜、拖鉤、導纜孔、拖帶點、拖纜長度及緊急脫纜裝置，確認拖船與被拖船通訊暢通。\n\n二、拖帶方式\n（一）離開原泊位時，拖船先建立控制力，確認船舶受控後逐步解纜；不可在拖船尚未就位時解除全部繫纜。\n（二）港內直線拖帶可採艏拖或艉拖；若需精確橫移，可採拖船推頂（Pushing）；大型船舶或強風流下可採多艘拖船一艏一艉分工。\n（三）拖帶轉向時應提早減速，拖船在適當位置施力形成偏航力矩，避免突然大角度拉轉。\n（四）靠近碼頭時，拖船控制船艏艉橫移及偏航，主機若可用則配合維持舵效及速度；無動力船須由拖船提供主要推力。\n\n三、靠泊碼頭\n（一）預先確認靠泊舷、碼頭岸線、護舷、繫船柱、鄰船及碼頭設備，計算船艏艉掃掠範圍。\n（二）以低速平行接近，逐步消除前進速度及橫向速度，避免船體以大角度撞靠碼頭。\n（三）拖船依船體位置分別推頂或拖帶，控制船艏艉，必要時使用拖纜制動；不得使拖纜與螺旋槳、錨鏈或繫纜交纏。\n（四）確認護舷及帶纜人員安全後送出艏纜、艉纜及彈簧纜，均勻收緊並確認船位穩定後解除拖船。\n\n四、安全注意事項\n注意拖纜張力、斷纜回彈區（Snap-back）、拖船橫傾／Girting、船間吸引、岸壁效應、拖船尾流及能見度；設定拖船失效、拖纜斷裂及風流增強時的應變方案。",
+    "practicalAnalysis": "10,000GT無動力船舶泊靠碼頭的核心為拖船數量及艏艉配置、拖帶方式、低速控制、拖纜安全及VTS交通安排。無動力船無法依主機舵獨立操縱，須由拖船提供主要推力。",
+    "keyPoints": [
+      {
+        "point": "確認被拖船狀態、尺度、吃水、受風面積及可用舵錨",
+        "importance": "essential"
+      },
+      {
+        "point": "依風流及水域配置拖船艘數與艏艉分工",
+        "importance": "essential"
+      },
+      {
+        "point": "先建立拖船控制力再解纜，低速拖帶及轉向",
+        "importance": "essential"
+      },
+      {
+        "point": "靠泊時低速平行接近，控制前進及橫向速度",
+        "importance": "essential"
+      },
+      {
+        "point": "注意Snap-back、Girting、纏槳及鄰船距離",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "Guidelines for Safe Harbour Towage Operations",
+        "sourceType": "industry_guidance",
+        "issuer": "European Tugowners Association",
+        "url": "https://eurotugowners.com/wp-content/uploads/2017/11/STP-Guidelines-First-Edition-February-2015.pdf",
+        "pageOrSection": "Harbour towage, pushing and towing safety",
+        "accessedAt": "2026-11-05",
+        "supports": "港內拖帶及拖船安全。"
+      },
+      {
+        "title": "A Guide to Good Practice on Port and Marine Facilities",
+        "sourceType": "official_port_or_authority",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/a-guide-to-good-practice-on-port-marine-operations/a-guide-to-good-practice-on-port-and-marine-facilities",
+        "pageOrSection": "Towage operations",
+        "accessedAt": "2026-11-05",
+        "supports": "港內拖帶風險管理。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "拖帶前評估、配置及靠泊程序已整理",
+          "result": "pass"
+        },
+        {
+          "item": "拖纜及拖船風險已參照業界指引",
+          "result": "pass"
+        },
+        {
+          "item": "專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "100-shiphandling-05-answer-v1",
+    "questionId": "100-shiphandling-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、利用舵迴轉\n（一）舵葉須有相對水流才能產生舵力；船舶前進時，舵葉受到水流作用，在船艉產生側向力及偏航力矩，使船艏轉向。\n（二）前進轉向時，旋轉支點通常位於船艏附近，船艏內切、船艉外掃；船速愈高，舵效通常愈明顯，但迴轉進距及慣性也會增加。\n（三）船舶低速或停船時，舵效不足；可藉主機短暫加車使水流通過舵葉，恢復操縱能力。\n\n二、利用艏側推器迴轉\n（一）艏側推器在船艏產生橫向推力，使船艏向推力方向移動，船艉相對向反方向移動，形成偏航力矩。\n（二）艏側推器不必依賴船舶前進速度，低速及接近停船時仍可提供艏部橫向控制，適合靠離碼頭及低速調頭。\n（三）艏側推器的有效推力會隨船速增加而下降，且受吃水、隧道浸水深度、船體線型、海況及推進器功率限制。\n\n三、兩者比較\n（一）舵：依賴相對水流，船速較高時效果較佳；施力點在艉部，主要由船艉產生側向力，船艏繞旋轉支點轉動。\n（二）艏側推器：主要在低速有效，直接於艏部產生橫向力；可在船舶幾乎靜止時控制船艏，但不能取代高速航行時的舵。\n（三）操船者須依船速、風流、船舶慣性及可用水域選擇舵、主機及側推器，必要時搭配拖船。\n\n四、結論\n舵利用水流在船艉產生側向力，需有足夠舵效；艏側推器則直接在船艏產生橫向力，低速時較有用。兩者施力位置、有效速度範圍及船體掃掠方向不同，操船時須依實際船速與環境條件搭配使用。",
+    "practicalAnalysis": "舵與艏側推器的關鍵差異是施力位置及是否依賴相對水流。舵在船艉產生側向力，船速高時有效；艏側推器在船艏直接產生橫向力，低速有效但船速增加後推力衰減。",
+    "keyPoints": [
+      {
+        "point": "舵：需相對水流，在船艉產生側向力及偏航力矩",
+        "importance": "essential"
+      },
+      {
+        "point": "艏側推器：船艏直接產生橫向推力，低速時有效",
+        "importance": "essential"
+      },
+      {
+        "point": "舵效隨船速增加通常增強；艏推器效果隨船速增加而下降",
+        "importance": "essential"
+      },
+      {
+        "point": "注意旋轉支點、船艏內切及船艉外掃",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Rudder action, bow thrusters and turning",
+        "accessedAt": "2026-11-05",
+        "supports": "舵與側推器操縱原理。"
+      },
+      {
+        "title": "A Guide to Ship Handling",
+        "sourceType": "textbook_or_academic",
+        "issuer": "PupGroup33 digital copy",
+        "url": "https://pupgroup33.com/Web-Content/documents/books/ship_handling/Guide_to_Ship_Handling.pdf",
+        "pageOrSection": "Bow thrusters and rudder effect",
+        "accessedAt": "2026-11-05",
+        "supports": "艏推器與舵的低速操縱差異。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "舵及艏推器施力原理已核對",
+          "result": "pass"
+        },
+        {
+          "item": "速度效應及船體掃掠已整理",
+          "result": "pass"
+        },
+        {
+          "item": "專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "100-shiphandling-06-answer-v1",
+    "questionId": "100-shiphandling-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、陽台效應（Balcony Effect）的定義\n大型郵輪或客船的外側陽台、突出式客艙及多層上層建築，會增加船舶水線以上的側面受風面積。風流經各層陽台時可能被截留、導引或形成局部渦流，使船舶在強側風下受到較大的風壓及不均勻側向力，增加漂移與偏航力矩；因此稱為陽台效應。\n\n二、對操船的影響\n（一）有效受風面積增加，強橫風下船舶側漂及偏航力矩可能明顯增加。\n（二）風壓分布受陽台排列、上層建築形狀、風向及風速影響，可能產生局部渦流及不均勻受力。\n（三）郵輪乾舷高、吃水相對較淺或載況不同時，風壓相對於水下側向阻力可能更顯著。\n（四）靠離碼頭時，船舶可能難以維持平行岸線，船艏或船艉突然偏移，增加碰撞碼頭、鄰船及岸上設備風險。\n\n三、因應措施\n（一）進港前取得船舶風壓面積、風壓中心、Pilot Card及操縱資料，並依風向、風速及碼頭方位評估風險。\n（二）提早評估是否延後靠泊、改變靠泊舷或調整船席；超出港口或船舶安全風速限制時不得勉強操作。\n（三）依船舶尺度、風壓及現場條件增派足夠拖船，安排艏艉分工，必要時讓拖船持續保持控制力。\n（四）利用艏艉側推器或全迴轉吊艙推進器控制橫移及艏向，但須注意功率、速度及持續使用限制。\n（五）採安全低速、預留足夠離岸及迴旋水域，控制船舶橫向速度及轉向率，避免大幅度突然操舵。\n（六）與船長、駕駛臺團隊、拖船及VTS保持閉環通訊，隨時監控風速、風向、船位及船艉外掃。\n\n四、結論\n陽台效應主要是大型客船外側陽台及上層建築增加受風面積並改變風流分布，使側風下漂移及偏航力矩增加。引水人應事先評估風壓資料、船席方向及安全限制，必要時增派拖船或延後靠泊，並以低速、充分水域及團隊協調控制船位。",
+    "practicalAnalysis": "陽台效應有實際港口引水及郵輪操縱資料支持，指陽台結構會截風並增加風對船舶操縱的影響。答案應說明受風面積、風壓分布及強橫風下靠離泊風險，並提出拖船、側推器、風速限制及延後作業等措施。",
+    "keyPoints": [
+      {
+        "point": "陽台及突出客艙增加受風面積並改變風流分布",
+        "importance": "essential"
+      },
+      {
+        "point": "強橫風下側漂及偏航力矩增加",
+        "importance": "essential"
+      },
+      {
+        "point": "依風壓資料、風向及碼頭方位評估風險",
+        "importance": "essential"
+      },
+      {
+        "point": "增派拖船、使用側推器／Azipod及必要時延後靠泊",
+        "importance": "essential"
+      },
+      {
+        "point": "低速、預留水域及閉環通訊",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "Summary of Observations and Findings – Cruise Ship Docking and Balcony Effect",
+        "sourceType": "official_port_or_authority",
+        "issuer": "City and Borough of Juneau, Docks and Harbors Planning Committee",
+        "editionOrEffectiveDate": "2009-10-14",
+        "url": "https://juneau.org/wp-content/uploads/2017/07/2009-10-14_Joint_Assembly-Docks_Harbors_Planning_Committee_Meeting_Packet.pdf",
+        "pageOrSection": "Summary of Observations and Findings, Gold Creek Dock",
+        "accessedAt": "2026-11-05",
+        "supports": "大型郵輪陽台增加受風面積及強側風下操縱風險。"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "pageOrSection": "Master-Pilot Information Exchange",
+        "accessedAt": "2026-11-05",
+        "supports": "引水人取得船舶操縱資料及安全協調。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "陽台效應的風壓與操縱影響已參考Juneau港口引水資料",
+          "result": "pass"
+        },
+        {
+          "item": "因應措施已依拖船及船舶操縱原理整理",
+          "result": "pass"
+        },
+        {
+          "item": "專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
