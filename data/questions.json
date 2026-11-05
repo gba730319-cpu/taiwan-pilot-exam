@@ -1886,7 +1886,7 @@
     "port": "全港共通",
     "question": "引水人執業時，在何種情況下應向航政主管機關報告？（20 分）",
     "sourceId": "moex-106-pilot-law",
-    "status": "已核對",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 1
   },
   {
@@ -1894,9 +1894,9 @@
     "year": 2017,
     "subject": "航政法規",
     "port": "全港共通",
-    "question": "我國國際商港之規劃建設、經營管理及公權力執行各由哪些單位負責？（20 分）",
+    "question": "我國國際商港之規劃建設、經營管理及公權力執行各由那些單位負責？（20 分）",
     "sourceId": "moex-106-pilot-law",
-    "status": "已核對",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 2
   },
   {
@@ -1906,7 +1906,7 @@
     "port": "全港共通",
     "question": "船舶在互見中，應如何使用聲響及燈光信號？（20 分）",
     "sourceId": "moex-106-pilot-law",
-    "status": "已核對",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 3
   },
   {
@@ -1916,7 +1916,7 @@
     "port": "全港共通",
     "question": "請說明引水法對引水人因執行業務上之過失，在行政及刑事上之規定。（20 分）",
     "sourceId": "moex-106-pilot-law",
-    "status": "已核對",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 4
   },
   {
@@ -1926,7 +1926,7 @@
     "port": "全港共通",
     "question": "請說明港口保全（security）之意義、商港法對港口保全之規定。（20 分）",
     "sourceId": "moex-106-pilot-law",
-    "status": "已核對",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 5
   },
   {
@@ -1936,7 +1936,7 @@
     "port": "全港共通",
     "question": "繪出下列海圖符號：（每小題 4 分，共 20 分）(1)不淹岩 (2)不到底 (3)平均大潮高潮 (4)禁區 (5)退潮流附記速度",
     "sourceId": "moex-106-pilotage",
-    "status": "已核對",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 1
   },
   {
@@ -1946,7 +1946,7 @@
     "port": "全港共通",
     "question": "說明下列氣象或海象名詞：（每小題 4 分，共 20 分）(1)冷鋒 (2)霧 (3)長浪 (4)暴風半徑 (5)颱風眼",
     "sourceId": "moex-106-pilotage",
-    "status": "已核對",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 2
   },
   {
@@ -1954,9 +1954,9 @@
     "year": 2017,
     "subject": "引港學",
     "port": "全港共通",
-    "question": "何謂船舶的迴旋圈？影響迴旋圈之因素有哪些？（20 分）",
+    "question": "何謂船舶的迴旋圈？影響迴旋圈之因素有那些？（20 分）",
     "sourceId": "moex-106-pilotage",
-    "status": "已核對",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 3
   },
   {
@@ -1966,7 +1966,7 @@
     "port": "全港共通",
     "question": "說明何謂「恒向線」與「大圈線」？各有何種海圖使用？（20 分）",
     "sourceId": "moex-106-pilotage",
-    "status": "已核對",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 4
   },
   {
@@ -1976,7 +1976,7 @@
     "port": "全港共通",
     "question": "何謂「迴轉潮流」與「往復潮流」？其產生之原因及地點為何？（20 分）",
     "sourceId": "moex-106-pilotage",
-    "status": "已核對",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 5
   },
   {
@@ -1986,7 +1986,7 @@
     "port": "全港共通",
     "question": "某貨櫃船 LOA 213 公尺，船深 16.5 公尺，最大吃水 10.0 公尺（Even Keel），住艙長度 19.2 公尺，主甲板至駕駛台頂部高度 21 公尺，主甲板自艏至艉裝滿四層高貨櫃；請問在遭遇正橫吹開風風力五級（22 節）的情況下，要使用多少馬力的拖輪協助，始能安全靠泊碼頭？（25 分）該輪船艏配置有一部 1,500 匹馬力的側推器（Bow Thruster）；勿需考量水流阻力。",
     "sourceId": "moex-106-shiphandling",
-    "status": "已核對",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 1
   },
   {
@@ -1996,7 +1996,7 @@
     "port": "全港共通",
     "question": "駕駛台團隊管理（BTM）已施行多年，並對海上安全多所助益，但仍未臻完善，今海運社會再度推行駕駛台統御與控制（BTCC），請問其內容為何？（15 分）",
     "sourceId": "moex-106-shiphandling",
-    "status": "已核對",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 2
   },
   {
@@ -2006,7 +2006,7 @@
     "port": "全港共通",
     "question": "請試述舵角指示器（Rudder Indicator）與迴轉率指示器（Rate of Turn Indicator），在船舶操縱過程中的功能差異。（15 分）",
     "sourceId": "moex-106-shiphandling",
-    "status": "已核對",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 3
   },
   {
@@ -2016,7 +2016,7 @@
     "port": "全港共通",
     "question": "理論上，拖船在協助大船作業時，其所拖出的拉力只要能夠克服風力、水流與波浪等施於船體上的總作用力即可產生效用；但除此之外，實務操船上仍有許多必須考量的因素，請列述之。（15 分）",
     "sourceId": "moex-106-shiphandling",
-    "status": "已核對",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 4
   },
   {
@@ -2026,7 +2026,7 @@
     "port": "全港共通",
     "question": "請試述引水人與船長對於船舶操縱在觀點上有何差異？（15 分）",
     "sourceId": "moex-106-shiphandling",
-    "status": "已核對",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 5
   },
   {
@@ -2036,7 +2036,7 @@
     "port": "全港共通",
     "question": "船舶進出港操船與離靠碼頭時，常採用拖錨走（Dredging）的動作，請問拖錨走時考慮之事項及其運用要領為何？（15 分）",
     "sourceId": "moex-106-shiphandling",
-    "status": "已核對",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 6
   },
   {
@@ -2046,7 +2046,7 @@
     "port": "全港共通",
     "question": "Please translate the following two paragraphs into Chinese. (1) Despite the duties and obligations of a pilot, the pilot’s presence on board does not relieve the master or officer in charge of the navigational watch from their duties and obligations for the safety of the ship. It is important that, upon the pilot boarding the ship and before the pilotage commences, the pilot, the master and the bridge personnel are aware of their respective roles in the safe passage of the ship.（15 分）(2) Pilots should be familiar with the IMO Standard Marine Communication Phrases and use them in appropriate situations during radio communications as well as during verbal exchanges on the bridge. This will enable the master and officer in charge of the navigational watch to better understand the communications and their intent.（10 分）",
     "sourceId": "moex-106-english",
-    "status": "已核對",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 1
   },
   {
@@ -2056,7 +2056,7 @@
     "port": "全港共通",
     "question": "請將下列中文譯為英文：(1) 引水人執行領航業務時，其所乘之引水船應懸掛國際通用或中華民國規定之引水船信號，夜間並應懸掛燈號。引水人離去引水船或非執行業務時，應將引水船信號或燈號撤除。（17 分）(2) 引水人在執行領航業務時，在未完成任務前非經船長同意不得離船。（8 分）",
     "sourceId": "moex-106-english",
-    "status": "已核對",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 2
   },
   {
@@ -2066,7 +2066,7 @@
     "port": "全港共通",
     "question": "Please give the definitions of the following terminologies in English.（每小題 5 分，共 20 分）(1) Head-on situation (2) Permeability (3) Block coefficient (4) Ship domain",
     "sourceId": "moex-106-english",
-    "status": "已核對",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 3
   },
   {
@@ -2076,7 +2076,7 @@
     "port": "全港共通",
     "question": "Please write a short composition on “How to become a qualified pilot”.（around 300 words）（30 分）",
     "sourceId": "moex-106-english",
-    "status": "已核對",
+    "status": "已依考選部官方原卷複核",
     "questionNo": 4
   },
   {
