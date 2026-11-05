@@ -129,7 +129,7 @@
     "issuer": "考選部",
     "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=507&code=110060&q=1&s=0909&t=Q",
     "pages": 1,
-    "verified": "2026-11-05：已依考選部官方原卷核對該科目題號、題文與配分；110年度25題完成複核。"
+    "verified": "2026-11-05：已確認考選部官方查詢頁列有該科試題連結；本輪PDF擷取回傳Cache miss，尚未取得可讀原卷，題目文字、題號及配分仍待逐題複核。"
   },
   {
     "id": "moex-110-pilotage",
@@ -140,7 +140,7 @@
     "issuer": "考選部",
     "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=505&code=110060&q=1&s=0910&t=Q",
     "pages": 1,
-    "verified": "2026-11-05：已依考選部官方原卷核對該科目題號、題文與配分；110年度25題完成複核。"
+    "verified": "2026-11-05：已確認考選部官方查詢頁列有該科試題連結；本輪PDF擷取回傳Cache miss，尚未取得可讀原卷，題目文字、題號及配分仍待逐題複核。"
   },
   {
     "id": "moex-110-shiphandling",
@@ -151,7 +151,7 @@
     "issuer": "考選部",
     "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=511&code=110060&q=1&s=0911&t=Q",
     "pages": 2,
-    "verified": "2026-11-05：已依考選部官方原卷核對該科目題號、題文與配分；110年度25題完成複核。"
+    "verified": "2026-11-05：已確認考選部官方查詢頁列有該科試題連結；本輪PDF擷取回傳Cache miss，尚未取得可讀原卷，題目文字、題號及配分仍待逐題複核。"
   },
   {
     "id": "moex-110-english",
@@ -162,7 +162,7 @@
     "issuer": "考選部",
     "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=110060&q=1&s=0912&t=Q",
     "pages": 2,
-    "verified": "2026-11-05：已依考選部官方原卷核對該科目題號、題文與配分；110年度25題完成複核。"
+    "verified": "2026-11-05：已確認考選部官方查詢頁列有該科試題連結；本輪PDF擷取回傳Cache miss，尚未取得可讀原卷，題目文字、題號及配分仍待逐題複核。"
   },
   {
     "id": "moex-108-kaohsiung-waterway",
