@@ -8,7 +8,7 @@
     "issuer": "考選部",
     "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=114050&q=1&s=0902&t=Q",
     "pages": 2,
-    "verified": "已逐題依官方PDF文字核對"
+    "verified": "2026-11-05：已重新依考選部官方原卷逐題核對題號、題文與配分；26題完成。"
   },
   {
     "id": "moex-114-shiphandling",
@@ -19,7 +19,7 @@
     "issuer": "考選部",
     "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=114050&q=1&s=0907&t=Q",
     "pages": 1,
-    "verified": "已逐題依官方PDF文字核對"
+    "verified": "2026-11-05：已重新依考選部官方原卷逐題核對題號、題文與配分；26題完成。"
   },
   {
     "id": "moex-114-english",
@@ -30,7 +30,7 @@
     "issuer": "考選部",
     "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=114050&q=1&s=0908&t=Q",
     "pages": 1,
-    "verified": "已逐題依官方PDF文字核對"
+    "verified": "2026-11-05：已重新依考選部官方原卷逐題核對題號、題文與配分；26題完成。"
   },
   {
     "id": "moex-114-pilot-law",
@@ -41,7 +41,7 @@
     "issuer": "考選部",
     "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=508&code=114050&q=1&s=0905&t=Q",
     "pages": 1,
-    "verified": "已逐題依考選部官方 PDF 文字核對"
+    "verified": "2026-11-05：已重新依考選部官方原卷逐題核對題號、題文與配分；26題完成。"
   },
   {
     "id": "moex-114-pilotage",
@@ -52,7 +52,7 @@
     "issuer": "考選部",
     "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=502&code=114050&q=1&s=0906&t=Q",
     "pages": 1,
-    "verified": "已逐題依考選部官方 PDF 文字核對"
+    "verified": "2026-11-05：已重新依考選部官方原卷逐題核對題號、題文與配分；26題完成。"
   },
   {
     "id": "moex-112-kaohsiung-waterway",
