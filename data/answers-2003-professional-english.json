@@ -1,0 +1,262 @@
+[
+  {
+    "id": "92-english-01-answer-v1",
+    "questionId": "92-english-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "由於全球恐怖主義行為日益升高，對所有相關各方而言，明智的作法莫過於立即著手建立落實海事保安會議各項決議所需的基礎設施，例如立法、行政及作業措施。重要的是，這些工作應以有條理、有系統的方式，並儘可能儘早完成，而不應等到2004年7月1日正式生效之日才開始。\n\n若倉促行事、拖到最後一刻才採取措施，不但可能正中這些措施原本要防範之人的下懷，也可能導致不符合SOLAS公約及ISPS章程適用要求的船舶，其航行或進出港活動受到限制。\n\nIMO特別提醒SOLAS締約國政府注意新增的SOLAS第XI-2/9條「管制與符合性措施」（Control and compliance measures），以及ISPS章程中相對應的要求與指引；並提醒各國，若船舶在2004年7月1日之後被發現不符合相關要求，可能面臨嚴重後果。\n\n此外，也必須評估類似情況對港口營運所造成的影響，並採取適當的改正措施。\n\n**重要術語：**\n- worldwide escalation：全球範圍日益升高\n- necessary infrastructure：必要的制度與基礎設施\n- legislative, administrative and operational measures：立法、行政及作業措施\n- entry into force：生效\n- last-minute action：最後一刻才採取的行動\n- restrictions on the movement of ships：對船舶航行／移動的限制\n- Control and compliance measures：管制與符合性措施\n- corrective action：矯正措施",
+    "practicalAnalysis": "本題以海事專業英文及國際公約術語為準；英文答案保留正式用語，中文翻譯避免逐字直譯造成法律概念失真。",
+    "keyPoints": [
+      {
+        "point": "entry into force譯為生效",
+        "importance": "essential"
+      },
+      {
+        "point": "ISPS Code譯為國際船舶及港口設施保安章程",
+        "importance": "essential"
+      },
+      {
+        "point": "Control and compliance measures為管制與符合性措施",
+        "importance": "essential"
+      },
+      {
+        "point": "區分船舶移動限制與港口營運影響",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Maritime Security",
+        "url": "https://www.imo.org/en/OurWork/Security/Pages/MaritimeSecurity.aspx",
+        "issuer": "IMO",
+        "supports": "SOLAS XI-2及ISPS Code正式英文術語。"
+      },
+      {
+        "title": "IMO Standard Marine Communication Phrases",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/StandardMarineCommunicationPhrases.aspx",
+        "issuer": "IMO",
+        "supports": "標準海事英文及通訊用語。"
+      },
+      {
+        "title": "ICS – Safe Ports and Safe Berths",
+        "url": "https://www.ics-shipping.org/",
+        "issuer": "International Chamber of Shipping",
+        "supports": "安全港、安全泊位及租船契約相關海事概念。"
+      }
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "英文文法及海事術語",
+          "result": "pass"
+        },
+        {
+          "item": "公約條文與專業用語一致性",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-english-02-answer-v1",
+    "questionId": "92-english-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "(1) **Liner companies always prefer to have their disputes settled at home rather than abroad.**\n- “Line Companies”應為“Liner companies”。\n- “is always prefer”改為“always prefer”。\n- “their dispute settlement”改為“their disputes settled”。\n- “away”可改為“abroad”，語意更自然。\n\n(2) **Most salvage operations include the removal of a greater or lesser quantity of water from one or more compartments of the casualty.**\n- “includes”改為“include”（主詞operations為複數）。\n- “the remove”改為“the removal”。\n- “greater or less”改為“greater or lesser”。\n- “one or most”改為“one or more”。\n- “compartmentes”改為“compartments”。\n- casualty在海事語境指遇難船舶／事故船。\n\n(3) **The ISPS Code contains detailed security-related requirements for Governments, port authorities and shipping companies in its mandatory Part A.**\n- “contain”改為“contains”。\n- “detail”改為“detailed”。\n- “security relate”改為“security-related”。\n- “Governmentes”改為“Governments”。\n- “port authorityes”改為“port authorities”。\n- “shipping company”改為“shipping companies”。\n- “mandatory section (Part A)”改為“mandatory Part A”。\n\n(4) **Inmarsat Fleet F77 has benefited end users by providing information on applications and advice on optimization.**\n- “have benefite”改為“has benefited”。\n- “informations”改為不可數名詞“information”。\n- “advise”名詞應為“advice”。\n- “optimization1”刪除多餘數字並修正拼字。",
+    "practicalAnalysis": "本題以海事專業英文及國際公約術語為準；英文答案保留正式用語，中文翻譯避免逐字直譯造成法律概念失真。",
+    "keyPoints": [
+      {
+        "point": "主詞動詞一致",
+        "importance": "essential"
+      },
+      {
+        "point": "動名詞／名詞轉換",
+        "importance": "essential"
+      },
+      {
+        "point": "比較級及複數",
+        "importance": "essential"
+      },
+      {
+        "point": "ISPS專業術語",
+        "importance": "essential"
+      },
+      {
+        "point": "information不可數、advice為名詞",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Maritime Security",
+        "url": "https://www.imo.org/en/OurWork/Security/Pages/MaritimeSecurity.aspx",
+        "issuer": "IMO",
+        "supports": "SOLAS XI-2及ISPS Code正式英文術語。"
+      },
+      {
+        "title": "IMO Standard Marine Communication Phrases",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/StandardMarineCommunicationPhrases.aspx",
+        "issuer": "IMO",
+        "supports": "標準海事英文及通訊用語。"
+      },
+      {
+        "title": "ICS – Safe Ports and Safe Berths",
+        "url": "https://www.ics-shipping.org/",
+        "issuer": "International Chamber of Shipping",
+        "supports": "安全港、安全泊位及租船契約相關海事概念。"
+      }
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "英文文法及海事術語",
+          "result": "pass"
+        },
+        {
+          "item": "公約條文與專業用語一致性",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-english-03-answer-v1",
+    "questionId": "92-english-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "(1) 引航：**Pilotage**\nSentence: *Pilotage is compulsory for certain vessels entering or leaving the port.*\n（特定船舶進出港時必須接受強制引航。）\n\n(2) 保養計畫：**Maintenance plan**\nSentence: *The chief engineer shall prepare and implement a planned maintenance plan for the main engine.*\n（輪機長應為主機制定並執行預防保養計畫。）\n\n(3) 不可抗力：**Force majeure**\nSentence: *The vessel's delay was caused by force majeure, including exceptionally severe weather.*\n（船舶延誤係由不可抗力因素造成，包括極端惡劣天候。）\n\n(4) 故意擱淺：**Intentional grounding**\nSentence: *The master ordered intentional grounding to prevent the vessel from sinking in deeper water.*\n（船長下令故意擱淺，以避免船舶在較深水域沉沒。）\n\n(5) 海的危難：**Peril of the sea**\nSentence: *The ship sustained damage due to a peril of the sea during the voyage.*\n（船舶在航程中因海上危險而受損。）\n\n**用語辨析：** pilotage是引航制度／引航服務；maintenance plan是保養計畫；force majeure是契約法上的不可抗力；intentional grounding是有意使船舶擱淺；peril of the sea是海上危險，常見於海上保險及海商法語境。",
+    "practicalAnalysis": "本題以海事專業英文及國際公約術語為準；英文答案保留正式用語，中文翻譯避免逐字直譯造成法律概念失真。",
+    "keyPoints": [
+      {
+        "point": "pilotage引航",
+        "importance": "essential"
+      },
+      {
+        "point": "maintenance plan保養計畫",
+        "importance": "essential"
+      },
+      {
+        "point": "force majeure不可抗力",
+        "importance": "essential"
+      },
+      {
+        "point": "intentional grounding故意擱淺",
+        "importance": "essential"
+      },
+      {
+        "point": "peril of the sea海上危險",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Maritime Security",
+        "url": "https://www.imo.org/en/OurWork/Security/Pages/MaritimeSecurity.aspx",
+        "issuer": "IMO",
+        "supports": "SOLAS XI-2及ISPS Code正式英文術語。"
+      },
+      {
+        "title": "IMO Standard Marine Communication Phrases",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/StandardMarineCommunicationPhrases.aspx",
+        "issuer": "IMO",
+        "supports": "標準海事英文及通訊用語。"
+      },
+      {
+        "title": "ICS – Safe Ports and Safe Berths",
+        "url": "https://www.ics-shipping.org/",
+        "issuer": "International Chamber of Shipping",
+        "supports": "安全港、安全泊位及租船契約相關海事概念。"
+      }
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "英文文法及海事術語",
+          "result": "pass"
+        },
+        {
+          "item": "公約條文與專業用語一致性",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-english-04-answer-v1",
+    "questionId": "92-english-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "**Safe Port and Safe Berth**\n\nA safe port is a port that a particular vessel can reach, use and leave without being exposed to danger that cannot be avoided by good navigation and seamanship. The safety of a port depends not only on its geographical position, but also on its approaches, channels, anchorage areas, weather conditions, tidal streams, port regulations and available facilities. A port may be safe for one vessel but unsafe for another because of differences in size, draft, manoeuvring characteristics and cargo.\n\nA safe berth is a specific place within a port where a vessel can safely arrive, remain and depart. The berth must have adequate depth, sufficient length and width, suitable fendering and mooring facilities, and enough water space for safe manoeuvring. The vessel should also be protected, as far as reasonably possible, from dangerous waves, currents, wind and other external hazards. The berth must be suitable for the vessel's dimensions, draft and operational requirements.\n\nThe master and pilot should carefully assess the weather, tide, current, under-keel clearance, traffic conditions and the condition of the berth before arrival. They should exchange relevant information, prepare a passage and berthing plan, and coordinate with the port authority and tugboats when necessary. If the berth becomes unsafe because of severe weather, obstruction, insufficient depth or other unexpected circumstances, the vessel should not be forced to enter or remain there.\n\nIn conclusion, the terms “safe port” and “safe berth” are relative to the particular vessel and the circumstances at the relevant time. Safety requires proper planning, accurate information, good seamanship and effective cooperation among the master, pilot, port authority and terminal operator.",
+    "practicalAnalysis": "本題以海事專業英文及國際公約術語為準；英文答案保留正式用語，中文翻譯避免逐字直譯造成法律概念失真。",
+    "keyPoints": [
+      {
+        "point": "安全港為特定船舶可安全到達、使用及離開",
+        "importance": "essential"
+      },
+      {
+        "point": "安全泊位須具足夠水深、長度、防舷及繫纜設施",
+        "importance": "essential"
+      },
+      {
+        "point": "安全性依船型、吃水及操縱性能而異",
+        "importance": "essential"
+      },
+      {
+        "point": "進港前評估UKC、風流、潮汐及交通",
+        "importance": "essential"
+      },
+      {
+        "point": "船長、引水人、港口及碼頭業者協調",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Maritime Security",
+        "url": "https://www.imo.org/en/OurWork/Security/Pages/MaritimeSecurity.aspx",
+        "issuer": "IMO",
+        "supports": "SOLAS XI-2及ISPS Code正式英文術語。"
+      },
+      {
+        "title": "IMO Standard Marine Communication Phrases",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/StandardMarineCommunicationPhrases.aspx",
+        "issuer": "IMO",
+        "supports": "標準海事英文及通訊用語。"
+      },
+      {
+        "title": "ICS – Safe Ports and Safe Berths",
+        "url": "https://www.ics-shipping.org/",
+        "issuer": "International Chamber of Shipping",
+        "supports": "安全港、安全泊位及租船契約相關海事概念。"
+      }
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "英文文法及海事術語",
+          "result": "pass"
+        },
+        {
+          "item": "公約條文與專業用語一致性",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  }
+]
