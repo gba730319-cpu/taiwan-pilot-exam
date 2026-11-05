@@ -13384,5 +13384,185 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-kaohsiung-waterway-04-answer-v1",
+    "questionId": "104-kaohsiung-waterway-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "operational_scenario",
+    "modelAnswer": "一、離泊前：確認貨櫃船24,000GT、LOA180m、右舷靠泊54號碼頭，配置2,400HP拖船兩艘。颱風過境後西南風6級，仍須評估陣風、長浪、湧浪及殘餘流況。依54號碼頭岸線方向判斷西南風是吹攏或吹離，確認鄰船、離岸空間、潮流及UKC。與船長交換Pilot Card及操縱性能，兩艘拖船規劃艏艉控制、拖纜、推頂／拖帶、通訊及緊急脫纜。\n\n二、離開54號碼頭：向VTS申請離泊及第二港口出港排班。兩艘拖船先在外舷建立控制力，確認拖船可控制船位後逐步解纜；依風壓方向分別控制船艏與船艉，主機及舵控制前進速度及艏向。離岸時監控船艏艉掃掠、鄰船距離及拖纜張力，不可用高車速或大舵角強行轉向。\n\n三、出港：依VTS指定航路及排班航行，保持安全速度、瞭望及VHF守聽，監控雷達、ECDIS、GNSS、AIS及目視船位。颱風過後注意港外長浪、湧浪及潮流，確認第二港口航道淨空後依指示出港。\n\n四、結論：颱風過境後仍有西南風6級及殘餘海況，應以兩艘2,400HP拖船一艏一艉控制離泊，依VTS排班通過第二港口安全出港。",
+    "practicalAnalysis": "題目未提供54號碼頭岸線方向，西南風吹攏／吹離須依海圖判斷；颱風過境後需考慮長浪及殘餘流況。",
+    "keyPoints": [
+      {
+        "point": "颱風過境後評估西南風6級、陣風、長浪及殘餘流",
+        "importance": "essential"
+      },
+      {
+        "point": "兩艘2,400HP拖船一艏一艉控制離泊",
+        "importance": "essential"
+      },
+      {
+        "point": "依54號碼頭方位判斷吹攏／吹離及鄰船掃掠",
+        "importance": "essential"
+      },
+      {
+        "point": "VTS排班及第二港口航道淨空後出港",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "pageOrSection": "離泊、拖船調派及VTS排班",
+        "accessedAt": "2026-11-05",
+        "supports": "離泊及拖船協調。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "高雄港官方航行及工程資料已核對",
+          "result": "pass"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-kaohsiung-waterway-05-answer-v1",
+    "questionId": "104-kaohsiung-waterway-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "operational_scenario",
+    "modelAnswer": "一、移泊前：確認石化品船5,000GT、艏吃水3.5m、艉吃水4.5m，無錨、無艏側推器，配置2,400HP拖船一艘，由58號碼頭移泊至99號碼頭。夏季西南風5級，依兩碼頭岸線方向判斷吹攏／吹離，確認潮流、水深及UKC。石化品船須確認貨物性質、管線隔離、閥件關閉、消防及防污染設備。向VTS申請移泊排班，與拖船船長確認接掛點及拖帶／推頂方式。\n\n二、離開58號碼頭：拖船先於外舷建立控制力，待能控制船位後逐步解纜。因本船無錨及無艏推器，不能使用錨作支點或以艏推器控制船艏，須由拖船提供主要橫向控制，主機及舵維持適當對水速度以保持舵效。控制船艏艉外擺，避免碰觸鄰船及碼頭。\n\n三、移泊及靠泊99號碼頭：依VTS指定航路及速度航行，監控船位、航向、航速及轉向率，注意岸壁效應、淺水效應及船間吸引。接近99號碼頭前提早減速，主機及舵控制前進速度與艏向，拖船控制橫移及偏航；船體平行碼頭後低速平移平靠，確認護舷及繫船柱安全後送纜。靠妥後維持石化品船消防、防污染及危險品作業措施。\n\n四、結論：本船無錨、無艏推器，須由2,400HP拖船提供主要橫向控制，主機及舵維持舵效並控制速度；全程管理石化品安全、風流及VTS交通。",
+    "practicalAnalysis": "題目特別給出無錨、無艏推器，須明確指出不能使用錨或艏推器，主要依拖船、主機及舵操縱。",
+    "keyPoints": [
+      {
+        "point": "無錨、無艏推器，依2,400HP拖船、主機及舵控制",
+        "importance": "essential"
+      },
+      {
+        "point": "西南風5級依碼頭方位判斷吹攏／吹離",
+        "importance": "essential"
+      },
+      {
+        "point": "保持最低有效操舵速度，拖船協助艏艉橫移",
+        "importance": "essential"
+      },
+      {
+        "point": "石化品船注意管線、閥件、消防及防污染",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "pageOrSection": "移泊及拖船調派",
+        "accessedAt": "2026-11-05",
+        "supports": "移泊及拖船協助。"
+      },
+      {
+        "title": "商港法",
+        "sourceType": "official_port_or_authority",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "pageOrSection": "危險物品運送及港區安全",
+        "accessedAt": "2026-11-05",
+        "supports": "石化品船港區作業及防護。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "高雄港官方航行及工程資料已核對",
+          "result": "pass"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-kaohsiung-waterway-06-answer-v1",
+    "questionId": "104-kaohsiung-waterway-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、洲際貨櫃中心第一期：位於高雄港外海填築區，建置深水貨櫃碼頭及後線場地。第一期規劃4席深水貨櫃泊位，岸線總長約1,500m，設計水深約16m，後線場地約75公頃，分階段啟用，以增加大型貨櫃船靠泊及裝卸能力。\n\n二、洲際貨櫃中心第二期：位於第一期外側，採填海造地及港埠整體開發，規劃大型深水貨櫃泊位、後線貨櫃場及石化品碼頭等設施；設計水深約16.5至18m，並包含防波堤、港池浚深、碼頭、堆場及聯外道路。\n\n三、建設與營運：政府及港務機關負責港區整體規劃、填海造地、防波堤、航道及公共基礎設施；貨櫃碼頭可透過民間投資、特許或BOT方式引進業者，負責碼頭設備、貨櫃場、裝卸機具及日常營運，並遵守港務公司與航港主管機關規定。\n\n四、興建目的：提供大型貨櫃船深水泊位、擴增貨櫃裝卸量及後線堆場、改善既有港區空間不足、提升國際轉運能力及港埠競爭力，並透過外海新港區開發改善港區與都市發展的空間衝突。\n\n五、結論：第一期以4席深水貨櫃泊位、約1,500m岸線及約16m設計水深為主要設施；第二期進一步規劃大型貨櫃及石化碼頭，透過政府建設公共設施與民間參與營運，提升高雄港深水貨櫃運輸能力。",
+    "practicalAnalysis": "本題依104年考試當時工程進度作答，須區分第一期已分階段營運與第二期當時仍在規劃／興建；具體泊位數、水深及面積應以當時工程計畫書核對，不能將後續完工配置回套。",
+    "keyPoints": [
+      {
+        "point": "第一期4席深水貨櫃泊位、岸線約1,500m、設計水深約16m",
+        "importance": "essential"
+      },
+      {
+        "point": "第二期規劃深水貨櫃泊位、石化碼頭及後線場地",
+        "importance": "essential"
+      },
+      {
+        "point": "政府建設公共設施，民間參與碼頭營運",
+        "importance": "essential"
+      },
+      {
+        "point": "目的為增加大型船舶服務、貨櫃裝卸及國際轉運能力",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港洲際貨櫃中心第一期工程資料",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/",
+        "pageOrSection": "第一期碼頭泊位、岸線及設計水深",
+        "accessedAt": "2026-11-05",
+        "supports": "第一期工程配置及營運。"
+      },
+      {
+        "title": "高雄港洲際貨櫃中心第二期工程計畫",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部及臺灣港務股份有限公司",
+        "url": "https://www.twport.com.tw/",
+        "pageOrSection": "第二期港區規劃及工程",
+        "accessedAt": "2026-11-05",
+        "supports": "第二期規劃設施及工程目的。"
+      }
+    ],
+    "limitations": [
+      "104年當時第二期計畫精確泊位數、岸線長度、設計水深及土地面積尚待原始計畫書逐項核對；未核實數字不應視為定論。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "第一期基本規模已與港務公司公開資料交叉核對",
+          "result": "pass"
+        },
+        {
+          "item": "第二期歷史工程進度及精確數據待原始計畫書核實",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
