@@ -81,5 +81,98 @@
       "本答案為考試參考擬答，非考選部公布之官方解答。"
     ],
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "114-shiphandling-04-answer-v1",
+    "questionId": "114-shiphandling-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、船舶前進時，迴旋支點向船艏移動；後退時，迴旋支點向船艉移動；無前進或後退速度時，約位於船舯附近。迴旋支點的位置會影響艏推器推力對船舶產生的迴轉力矩。\n\n二、欲增加艏推器使船艏偏轉的效益，可在船舶低速後退時配合使用，使迴旋支點移向船艉，增加艏推器至迴旋支點的力臂，提升迴轉力矩；若船舶有較大前進速度，迴旋支點移向船艏，艏推器力臂縮短，且水流干擾會降低其效能。\n\n三、實際操船時，應以主機及舵控制船舶前後速度與船艉動態，配合艏推器短時間、適量操作，使船艏依所需方向偏轉；並注意風、流、船速、可用水域及艏推器效能限制，避免後退速度過大或過度依賴艏推器。",
+    "practicalAnalysis": "本題核心為迴旋支點位置改變艏推器力臂。低速後退可使支點後移，增加艏推器的迴轉力矩；但艏推器實際效能亦受船速、船體周圍流場、吃水及水深影響，應依船舶操縱特性與現場條件操作。",
+    "keyPoints": [
+      {
+        "point": "前進時支點前移，後退時支點後移，停止時約在船舯",
+        "importance": "essential"
+      },
+      {
+        "point": "低速後退使艏推器力臂增加，較有利於船艏迴轉",
+        "importance": "essential"
+      },
+      {
+        "point": "前進速度增加會縮短艏推器力臂並降低其有效側推力",
+        "importance": "essential"
+      },
+      {
+        "point": "配合主機、舵及艏推器控制船艏船艉，並避免過大後退速度",
+        "importance": "supporting"
+      }
+    ],
+    "scoringGuide": null,
+    "references": [
+      {
+        "title": "Marine Safety Investigation Report MAIR 16/6 – Bow and stern thruster effectiveness and pivot point",
+        "sourceType": "incident_report",
+        "issuer": "Australian Transport Safety Bureau (ATSB)",
+        "url": "https://www.atsb.gov.au/sites/default/files/media/24999/mair166_001.pdf",
+        "pageOrSection": "Discussion of bow and stern thruster effectiveness",
+        "accessedAt": "2026-11-05",
+        "supports": "說明船舶前進、後退時迴旋支點位置變化，以及艏推器力臂和效能隨船速改變。"
+      },
+      {
+        "title": "A Master's Guide to Berthing",
+        "sourceType": "textbook_or_academic",
+        "issuer": "The Standard Club",
+        "editionOrEffectiveDate": "2021",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/Standard-Club-A-masters-guide-to-berthing-2021_01.pdf",
+        "pageOrSection": "Thrusters",
+        "accessedAt": "2026-11-05",
+        "supports": "說明艏推器在停止、前進及後退狀態下與迴旋支點的關係，以及船速增加對艏推器效能的影響。"
+      },
+      {
+        "title": "The effectiveness of a bow thruster at low and medium ship speeds",
+        "sourceType": "textbook_or_academic",
+        "issuer": "Ralph Norrby, International Shipbuilding Progress",
+        "editionOrEffectiveDate": "1967",
+        "url": "https://doi.org/10.3233/ISP-1967-1415601",
+        "pageOrSection": "Vol. 14, Issue 156, pp. 315–318",
+        "accessedAt": "2026-11-05",
+        "supports": "以模型試驗分析艏推器側向力與迴轉力矩隨船速變化的情形。"
+      }
+    ],
+    "assumptions": [
+      "以一般裝設艏推器之傳統單舵船為說明。"
+    ],
+    "limitations": [
+      "迴旋支點位置為動態概念，實際位置受船型、速度、舵角、風流及水域條件影響；不得將約略位置視為固定值。",
+      "艏推器的有效速度範圍依設備及船體設計而異，應以該船操縱資料為準。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "題目文字及題號與題庫主檔一致",
+          "result": "pass"
+        },
+        {
+          "item": "迴旋支點前後移動與船舶運動方向關係已核對",
+          "result": "pass"
+        },
+        {
+          "item": "艏推器力臂及船速對效能影響已核對事故調查與專業資料",
+          "result": "pass"
+        },
+        {
+          "item": "專業引水人複核",
+          "result": "needs_review",
+          "note": "尚未取得獨立專業審查，未標示為完成技術審查。"
+        }
+      ]
+    },
+    "reviewNotes": [
+      "本答案為考試參考擬答，非考選部公布之官方解答。"
+    ],
+    "lastUpdated": "2026-11-05"
   }
 ]
