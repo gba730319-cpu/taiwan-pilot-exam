@@ -1,0 +1,445 @@
+[
+  {
+    "id": "92-pilot-law-01-answer-v1",
+    "questionId": "92-pilot-law-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、國際制度背景\n2001年美國911事件後，IMO透過2002年外交會議修正SOLAS第XI-2章，並制定《國際船舶及港口設施保安章程》（ISPS Code），自2004年7月1日起生效。其目的在於預防恐怖攻擊、非法登船、船舶挾持、港口設施破壞及其他危害海事運輸的行為。\n\n二、船舶與港口設施互相配合\n1. **保安評估與計畫**：船舶進行Ship Security Assessment並制定Ship Security Plan；港口設施進行Port Facility Security Assessment並制定Port Facility Security Plan。\n2. **保安責任人**：船舶指定Company Security Officer（CSO）及Ship Security Officer（SSO）；港口設施指定Port Facility Security Officer（PFSO），建立聯絡及通報機制。\n3. **保安等級**：依主管機關公告的Security Level 1、2、3採取相應措施；等級提高時加強巡查、管制及限制活動。\n4. **人員與訪客管制**：核對船員、訪客、承攬商及登輪人員身分；管制通道、證件、行李及貨物。\n5. **船岸介面**：船舶靠港前提供保安資料，與港口設施協調登輪、貨物、供應品、船員上下岸及限制區域；必要時簽署Declaration of Security（DoS）。\n6. **監控與通訊**：建立警戒巡查、照明、CCTV、警報、通訊及事故通報程序，並定期演練。\n7. **船舶保安警報系統（SSAS）**：符合適用範圍的船舶設置並測試SSAS，遇保安威脅時依程序發送警報。\n8. **船港協調**：港口應提供保安等級、限制區域、登輪規定及緊急應變窗口；船舶應遵守港口設施保安計畫。\n\n三、2004年7月1日前我國因應措施\n1. 航政主管機關應完成國內法規、主管機關權責及執行程序修訂，指定Recognized Security Organization（RSO）及保安評估／審查機制。\n2. 我國適用SOLAS的國籍船舶應完成保安評估、保安計畫核准、船舶保安官訓練、SSAS安裝測試及保安證書／符合文件申請。\n3. 國際商港管理單位應完成港口設施保安評估、保安計畫、PFSO指派、門禁及限制區域設施改善，並建立保安等級通報及演練制度。\n4. 船舶與港口設施應進行聯合演練，確認船岸保安聲明、通報及緊急應變可執行。\n5. 不應等到生效日才開始，應先完成法制、預算、人力、設備及教育訓練。\n\n四、我國《商港法》可適用的法源\n可從當時商港法有關港區管理、港區秩序與安全、船舶進出港管制、港區設施及人員／車輛通行管理、危險物品裝卸與港區違規處罰等規定，作為港口門禁、限制區域及秩序維護的國內法基礎；並應配合《國家安全法》、《警察職權行使法》及其他相關法規。惟商港法當時尚未完整建立ISPS專章，應透過修法、授權子法及主管機關公告補足保安評估、保安計畫、保安官、保安等級及國際證書制度。\n\n五、結論\nISPS是船舶與港口設施共同承擔的風險管理制度，重點在保安評估、計畫、責任人、保安等級、門禁及船岸協調；我國須在生效前完成國內法源與執行能力，確保國籍船舶及國際商港均符合要求。",
+    "practicalAnalysis": "本題為法規綜合題，應區分船長、引水人、船舶所有人及港口管理機關的法定職責；民事、刑事及行政責任須分別判斷，不可互相取代。",
+    "keyPoints": [
+      {
+        "point": "SOLAS XI-2與ISPS Code於2004-07-01生效",
+        "importance": "essential"
+      },
+      {
+        "point": "船舶與港口設施各自評估並制定保安計畫",
+        "importance": "essential"
+      },
+      {
+        "point": "CSO、SSO、PFSO責任分工",
+        "importance": "essential"
+      },
+      {
+        "point": "保安等級1、2、3及DoS",
+        "importance": "essential"
+      },
+      {
+        "point": "SSAS與人員門禁、限制區域",
+        "importance": "essential"
+      },
+      {
+        "point": "國籍船舶與港口設施同步完成法制及設備準備",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "引水法（全國法規資料庫）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+        "issuer": "法務部全國法規資料庫",
+        "supports": "引水人職務義務、船長指揮權、事故通報及行政／刑事責任；須對照2003年版本。"
+      },
+      {
+        "title": "商港法（全國法規資料庫）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "issuer": "法務部全國法規資料庫",
+        "supports": "港區航行、事故通報、港口安全與管理機關權限。"
+      },
+      {
+        "title": "IMO SOLAS XI-2 and ISPS Code",
+        "url": "https://www.imo.org/en/OurWork/Security/Pages/MaritimeSecurity.aspx",
+        "issuer": "International Maritime Organization",
+        "supports": "船舶及港口設施保安、保安等級、保安計畫、保安官及保安聲明。"
+      },
+      {
+        "title": "IMO Port State Control",
+        "url": "https://www.imo.org/en/OurWork/MSAS/Pages/PortStateControl.aspx",
+        "issuer": "International Maritime Organization",
+        "supports": "港口國管制目的、檢查程序及國際公約證書。"
+      },
+      {
+        "title": "COLREG 1972",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/Preventing-Collisions.aspx",
+        "issuer": "International Maritime Organization",
+        "supports": "瞭望、安全航速、碰撞危險判斷及避碰行動。"
+      }
+    ],
+    "limitations": [
+      "題目要求列出2003年當時《商港法》具體可適用條文；須以民國92年法規全文逐條確認條號，避免引用後來修法條文。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "國際公約與法律責任架構",
+          "result": "source_checked"
+        },
+        {
+          "item": "民國92年有效條文及個案因果關係",
+          "result": "needs_review"
+        },
+        {
+          "item": "法律專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-pilot-law-02-answer-v1",
+    "questionId": "92-pilot-law-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "本題須分別判斷四個情境中的民事責任、刑事責任及引水人行政責任。引水人登輪領航並不當然取代船長的船舶指揮權；船長、引水人及船舶所有人的責任應依各自過失、因果關係及法律規定判斷。\n\n(1) **未緩速慢行造成碰撞及人身傷亡**\n- 引水人：若未依港區限速或未採取合理減速、瞭望及避碰措施，且其過失與碰撞及傷亡有因果關係，可能負民事侵權責任；若業務過失致死或傷，可能涉及《引水法》第34、35條刑責。\n- 船長：仍有最終指揮及安全航行責任；若明知船速不當、未監督或未採取必要措施，亦可能有過失責任。\n- 船舶所有人：依海商法及民法僱用人／船舶責任規定，可能對船員或受僱人職務行為負賠償責任；具體須依契約、僱傭關係及海商法責任限制規定判斷。\n- 行政處分：引水人違反航安規章造成事故，主管機關得依《引水法》第38條警告，情節重大者報請收回執業證書。\n\n(2) **發現他船遇險未迅速報告**\n- 引水人：若依法負有通報義務而故意或過失未通報，可能違反引水法業務義務，受警告或情節重大之執業證書處分；若因此造成可歸責損害，另判斷民事責任。\n- 船長及船舶所有人：若其亦知悉遇險而未依法通報，須依自身法定義務及過失判斷。\n- 刑事責任：單純未通報是否成立犯罪，須有明確刑罰規定及犯罪構成要件，不能僅因違反行政通報義務便直接認定犯罪。\n\n(3) **發現立待救助信號而未在不甚危害本船及船員範圍內施救**\n- 國際法及SOLAS規定船長在不使本船、船員及旅客遭受嚴重危險的情況下，應以最快速度前往救助海上遇險人員；引水人應提醒船長、協助判斷當地水域及通報搜救機關。\n- 若船長或引水人負有具體救助義務且無正當理由不履行，造成財物損失或污染擴大，可能產生民事責任；刑事責任仍須依當時刑法及海事特別法構成要件判斷。\n- 引水人未盡職務義務或隱匿事故，可能依引水法第38條受行政處分。\n\n(4) **港區碰撞後未立即通報港口管理機關**\n- 引水人若依法或依港口規章負有通報義務而未通報，可能違反業務義務，受引水法第38條行政處分；若延誤救助或造成損害擴大，須再判斷因果關係及民事責任。\n- 船長及船舶所有人亦須依商港法、港務規章及海事通報義務辦理；不能將通報責任全部推給引水人。\n- 是否構成刑事犯罪，須有明確刑罰條文；單純行政通報違規不當然成立刑責。\n\n五、責任分配原則\n1. 民事責任依過失、因果關係、損害及共同侵權關係分配；多人共同造成損害時，可能負連帶賠償責任。\n2. 刑事責任採個人責任原則，須證明行為人主觀過失、客觀注意義務違反、結果及因果關係。\n3. 行政責任由航政主管機關依引水法及商港規章處理。\n4. 引水人上船後，船長仍保有指揮權；引水人應提供專業引領，雙方應保持有效溝通。",
+    "practicalAnalysis": "本題為法規綜合題，應區分船長、引水人、船舶所有人及港口管理機關的法定職責；民事、刑事及行政責任須分別判斷，不可互相取代。",
+    "keyPoints": [
+      {
+        "point": "船長保有指揮權，引水人提供專業引領",
+        "importance": "essential"
+      },
+      {
+        "point": "民事責任依過失與因果關係",
+        "importance": "essential"
+      },
+      {
+        "point": "業務過失致死／傷及船舶沉沒／破壞之刑責",
+        "importance": "essential"
+      },
+      {
+        "point": "海上救助義務及遇險通報義務",
+        "importance": "essential"
+      },
+      {
+        "point": "引水法第38條警告與收回執業證書",
+        "importance": "essential"
+      },
+      {
+        "point": "單純行政違規不當然構成刑事犯罪",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "引水法（全國法規資料庫）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+        "issuer": "法務部全國法規資料庫",
+        "supports": "引水人職務義務、船長指揮權、事故通報及行政／刑事責任；須對照2003年版本。"
+      },
+      {
+        "title": "商港法（全國法規資料庫）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "issuer": "法務部全國法規資料庫",
+        "supports": "港區航行、事故通報、港口安全與管理機關權限。"
+      },
+      {
+        "title": "IMO SOLAS XI-2 and ISPS Code",
+        "url": "https://www.imo.org/en/OurWork/Security/Pages/MaritimeSecurity.aspx",
+        "issuer": "International Maritime Organization",
+        "supports": "船舶及港口設施保安、保安等級、保安計畫、保安官及保安聲明。"
+      },
+      {
+        "title": "IMO Port State Control",
+        "url": "https://www.imo.org/en/OurWork/MSAS/Pages/PortStateControl.aspx",
+        "issuer": "International Maritime Organization",
+        "supports": "港口國管制目的、檢查程序及國際公約證書。"
+      },
+      {
+        "title": "COLREG 1972",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/Preventing-Collisions.aspx",
+        "issuer": "International Maritime Organization",
+        "supports": "瞭望、安全航速、碰撞危險判斷及避碰行動。"
+      }
+    ],
+    "limitations": [
+      "本題四個情境涉及多部法律及個案因果關係；需取得民國92年《海商法》、《商港法》及《引水法》條文，並由法律專業者逐條校核刑責與賠償責任。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "國際公約與法律責任架構",
+          "result": "source_checked"
+        },
+        {
+          "item": "民國92年有效條文及個案因果關係",
+          "result": "needs_review"
+        },
+        {
+          "item": "法律專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-pilot-law-03-answer-v1",
+    "questionId": "92-pilot-law-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、制度目的\n學習引水人制度係由具備法定資格、通過相關考試或甄選的人員，在正式引水人指導下，接受港區地文、水文、助航標誌、港口規章、船舶操縱及實際領航訓練，以培養具備獨立執業能力的引水人。目的在確保新進引水人熟悉當地港區，維持引水服務品質及航行安全。\n\n二、訓練內容\n1. 港區地理：航道、港池、迴船池、錨地、碼頭、浮筒及禁航／禁錨區。\n2. 水文氣象：潮汐、潮流、季風、港內流、風浪、能見度及特殊海象。\n3. 助航設施：燈塔、燈杆、燈浮、導標、雷達標及海圖改正。\n4. 港口法規：引水法、商港法、港務規章、船舶進出港管制及VTS程序。\n5. 操船實務：各型船舶進出港、移泊、靠離泊、拖船配合、緊急操船及事故應變。\n6. 溝通管理：船長與引水人資料交換、BRM、標準海事通信用語及團隊協調。\n\n三、學習引水人與指導引水人關係\n1. 指導引水人負責安排訓練、示範操船、解說地方知識、監督學習引水人並評估其訓練成果。\n2. 學習引水人應遵從指導、準備航行計畫、熟悉港區資料，並在指導下逐步承擔實務任務。\n3. 學習引水人不得超越法定或核准的訓練範圍獨立執行引水業務；對安全有疑慮時應立即向指導引水人提出。\n\n四、與船長關係\n學習引水人登輪訓練時，船長仍負船舶安全航行及指揮責任；指導引水人應向船長說明學習人員身分及訓練安排。船長可基於安全提出異議，學習引水人不能因受訓而取代正式引水人的法定地位。\n\n五、考核及執業\n完成規定訓練後，依主管機關規定接受實務考核、資格審查及執業證書程序；取得正式執業資格後，始得依核准港區及範圍獨立執業。",
+    "practicalAnalysis": "本題為法規綜合題，應區分船長、引水人、船舶所有人及港口管理機關的法定職責；民事、刑事及行政責任須分別判斷，不可互相取代。",
+    "keyPoints": [
+      {
+        "point": "在正式引水人指導下訓練",
+        "importance": "essential"
+      },
+      {
+        "point": "地文、水文、法規、助航設施及操船實務",
+        "importance": "essential"
+      },
+      {
+        "point": "指導引水人負監督、示範及考核責任",
+        "importance": "essential"
+      },
+      {
+        "point": "學習引水人不得逾越訓練範圍獨立執業",
+        "importance": "essential"
+      },
+      {
+        "point": "船長仍保有船舶指揮權",
+        "importance": "essential"
+      },
+      {
+        "point": "完成訓練及考核後始取得執業資格",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "引水法（全國法規資料庫）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+        "issuer": "法務部全國法規資料庫",
+        "supports": "引水人職務義務、船長指揮權、事故通報及行政／刑事責任；須對照2003年版本。"
+      },
+      {
+        "title": "商港法（全國法規資料庫）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "issuer": "法務部全國法規資料庫",
+        "supports": "港區航行、事故通報、港口安全與管理機關權限。"
+      },
+      {
+        "title": "IMO SOLAS XI-2 and ISPS Code",
+        "url": "https://www.imo.org/en/OurWork/Security/Pages/MaritimeSecurity.aspx",
+        "issuer": "International Maritime Organization",
+        "supports": "船舶及港口設施保安、保安等級、保安計畫、保安官及保安聲明。"
+      },
+      {
+        "title": "IMO Port State Control",
+        "url": "https://www.imo.org/en/OurWork/MSAS/Pages/PortStateControl.aspx",
+        "issuer": "International Maritime Organization",
+        "supports": "港口國管制目的、檢查程序及國際公約證書。"
+      },
+      {
+        "title": "COLREG 1972",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/Preventing-Collisions.aspx",
+        "issuer": "International Maritime Organization",
+        "supports": "瞭望、安全航速、碰撞危險判斷及避碰行動。"
+      }
+    ],
+    "limitations": [
+      "學習引水人訓練期間、領航次數、考核程序及指導引水人資格須依民國92年《引水人管理規則》歷史版本補入精確規定。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "國際公約與法律責任架構",
+          "result": "source_checked"
+        },
+        {
+          "item": "民國92年有效條文及個案因果關係",
+          "result": "needs_review"
+        },
+        {
+          "item": "法律專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-pilot-law-04-answer-v1",
+    "questionId": "92-pilot-law-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、對遇（Head-on Situation）\n兩艘動力船在相反或接近相反航向相遇，存在碰撞危險。若兩船均為動力船，應各自向右轉向，使彼此在左舷通過；必要時以聲號及VHF確認意圖，但不得以通信取代COLREG避碰責任。\n\n二、交叉（Crossing Situation）\n兩艘動力船交叉航行而有碰撞危險時，看到他船在本船右舷的一方為讓路船，應及早採取大幅度行動，通常避免從他船船首前通過；另一船為直航船，應保持航向航速，但若讓路船未採取適當行動，直航船仍應依規則採取最有助於避免碰撞的行動。\n\n三、追越（Overtaking Situation）\n從他船正橫後方超過22.5°以內的方向接近，屬追越。追越船不論對方船舶類型，均應讓清被追越船，直到完全駛過及讓清為止。若有疑義，應視為追越並保持遠離。\n\n四、狹水道（Narrow Channel）\n船舶應盡可能靠近其右舷的航道外緣安全航行；小船、帆船及從事捕魚船不得妨礙只能在狹水道內安全航行的船舶。交叉或追越時應依第9條採取安全措施，並注意航道單向管制及VTS指示。\n\n五、受限能見度（Restricted Visibility）\n在能見度受限水域航行，應以安全航速、備妥主機、加強瞭望及雷達觀測；若雷達判斷有碰撞危險，應及早採取避碰行動。避免向正橫前方的他船左轉，除非正在被追越；並避免在霧中僅依VHF談判通過。\n\n六、共同原則\n任何情況下均須遵守Rule 5瞭望、Rule 6安全航速、Rule 7碰撞危險判斷及Rule 8及早且大幅度避碰行動；不能只依單一方位或CPA數值而忽略目視、雷達及環境。",
+    "practicalAnalysis": "本題為法規綜合題，應區分船長、引水人、船舶所有人及港口管理機關的法定職責；民事、刑事及行政責任須分別判斷，不可互相取代。",
+    "keyPoints": [
+      {
+        "point": "對遇兩船各向右轉",
+        "importance": "essential"
+      },
+      {
+        "point": "交叉時右舷來船為讓路船",
+        "importance": "essential"
+      },
+      {
+        "point": "追越船負責讓清",
+        "importance": "essential"
+      },
+      {
+        "point": "狹水道靠右並不得妨礙只能在航道內航行船舶",
+        "importance": "essential"
+      },
+      {
+        "point": "受限能見度安全航速、備車、雷達瞭望",
+        "importance": "essential"
+      },
+      {
+        "point": "Rule 5、6、7、8共同適用",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "引水法（全國法規資料庫）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+        "issuer": "法務部全國法規資料庫",
+        "supports": "引水人職務義務、船長指揮權、事故通報及行政／刑事責任；須對照2003年版本。"
+      },
+      {
+        "title": "商港法（全國法規資料庫）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "issuer": "法務部全國法規資料庫",
+        "supports": "港區航行、事故通報、港口安全與管理機關權限。"
+      },
+      {
+        "title": "IMO SOLAS XI-2 and ISPS Code",
+        "url": "https://www.imo.org/en/OurWork/Security/Pages/MaritimeSecurity.aspx",
+        "issuer": "International Maritime Organization",
+        "supports": "船舶及港口設施保安、保安等級、保安計畫、保安官及保安聲明。"
+      },
+      {
+        "title": "IMO Port State Control",
+        "url": "https://www.imo.org/en/OurWork/MSAS/Pages/PortStateControl.aspx",
+        "issuer": "International Maritime Organization",
+        "supports": "港口國管制目的、檢查程序及國際公約證書。"
+      },
+      {
+        "title": "COLREG 1972",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/Preventing-Collisions.aspx",
+        "issuer": "International Maritime Organization",
+        "supports": "瞭望、安全航速、碰撞危險判斷及避碰行動。"
+      }
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "國際公約與法律責任架構",
+          "result": "source_checked"
+        },
+        {
+          "item": "民國92年有效條文及個案因果關係",
+          "result": "needs_review"
+        },
+        {
+          "item": "法律專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-pilot-law-05-answer-v1",
+    "questionId": "92-pilot-law-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、港口國管制（Port State Control, PSC）的目的\nPSC係港口國主管機關對外國籍到港船舶進行檢查，確認其船舶、設備、船員及操作是否符合國際公約要求，防止低於標準船舶（substandard ships）危害海上安全、海洋環境及船員工作生活條件。PSC並非取代船旗國責任，而是補充監督機制。\n\n二、常見船舶文書與證書\n1. 船舶國籍證書／登記證書（Certificate of Registry）。\n2. 國際噸位證書（International Tonnage Certificate）。\n3. 國際載重線證書（International Load Line Certificate）。\n4. SOLAS安全構造、安全設備及安全無線電證書（或合併證書）。\n5. 國際油污染防止證書（IOPP Certificate）。\n6. 國際防止生活污水污染證書（ISPP，適用時）。\n7. 國際防止空氣污染證書（IAPP，適用時）。\n8. 最低安全配員文件（Minimum Safe Manning Document）。\n9. 船員適任證書及健康證明。\n10. 船舶安全管理證書（SMC）及公司符合文件（DOC）。\n11. 船舶保安證書（ISSC，依2004年7月1日後適用的SOLAS XI-2／ISPS要求）。\n12. 貨物安全、穀物、危險品、油輪／化學品船／液化氣船適用證書及相關紀錄簿。\n13. 船舶航海日誌、油類紀錄簿、垃圾紀錄簿、貨物紀錄及相關操作手冊。\n\n三、何時進行詳細檢查（More Detailed Inspection）\n1. 初步檢查發現船舶證書或文件有明顯缺漏、不一致或失效。\n2. 船體、機械、消防、救生、無線電、污染防治或航行設備有明顯缺陷。\n3. 船員不熟悉關鍵設備、緊急程序或安全管理制度，實際操作與文件不符。\n4. 有碰撞、擱淺、污染、設備故障、滯留或其他事故紀錄，顯示船舶可能不符合公約。\n5. 船旗國、船級社、公司或船舶有不良履歷，或先前缺失未改善。\n6. 船員配備、工時、休息、適任及船上生活條件有明顯疑慮。\n7. 存在明確理由（clear grounds）相信船舶或設備實際狀況不符合公約。\n\n四、檢查結果\n如缺失可立即改正，要求限期改善；若缺失對安全、環境或船員造成重大危險，得要求修復後離港或依法滯留（detention），並通知船旗國及相關船級社。\n\n五、結論\nPSC的核心是以國際公約證書及船舶實際狀況雙重查核，透過風險導向及明確理由擴大檢查，促使船舶維持安全、環保及適任標準。",
+    "practicalAnalysis": "本題為法規綜合題，應區分船長、引水人、船舶所有人及港口管理機關的法定職責；民事、刑事及行政責任須分別判斷，不可互相取代。",
+    "keyPoints": [
+      {
+        "point": "防止低標準船舶危害安全與環境",
+        "importance": "essential"
+      },
+      {
+        "point": "PSC補充而非取代船旗國責任",
+        "importance": "essential"
+      },
+      {
+        "point": "登記、噸位、載重線、SOLAS、MARPOL證書",
+        "importance": "essential"
+      },
+      {
+        "point": "最低安全配員、船員適任、ISM文件",
+        "importance": "essential"
+      },
+      {
+        "point": "明確理由（clear grounds）可進行詳細檢查",
+        "importance": "essential"
+      },
+      {
+        "point": "重大缺失得要求修復或滯留",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "引水法（全國法規資料庫）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+        "issuer": "法務部全國法規資料庫",
+        "supports": "引水人職務義務、船長指揮權、事故通報及行政／刑事責任；須對照2003年版本。"
+      },
+      {
+        "title": "商港法（全國法規資料庫）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "issuer": "法務部全國法規資料庫",
+        "supports": "港區航行、事故通報、港口安全與管理機關權限。"
+      },
+      {
+        "title": "IMO SOLAS XI-2 and ISPS Code",
+        "url": "https://www.imo.org/en/OurWork/Security/Pages/MaritimeSecurity.aspx",
+        "issuer": "International Maritime Organization",
+        "supports": "船舶及港口設施保安、保安等級、保安計畫、保安官及保安聲明。"
+      },
+      {
+        "title": "IMO Port State Control",
+        "url": "https://www.imo.org/en/OurWork/MSAS/Pages/PortStateControl.aspx",
+        "issuer": "International Maritime Organization",
+        "supports": "港口國管制目的、檢查程序及國際公約證書。"
+      },
+      {
+        "title": "COLREG 1972",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/Preventing-Collisions.aspx",
+        "issuer": "International Maritime Organization",
+        "supports": "瞭望、安全航速、碰撞危險判斷及避碰行動。"
+      }
+    ],
+    "limitations": [
+      "2003年尚未到ISPS生效日；ISSC應標示2004-07-01後適用，不宜列為2003年已全面強制持有的證書。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "國際公約與法律責任架構",
+          "result": "source_checked"
+        },
+        {
+          "item": "民國92年有效條文及個案因果關係",
+          "result": "needs_review"
+        },
+        {
+          "item": "法律專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  }
+]
