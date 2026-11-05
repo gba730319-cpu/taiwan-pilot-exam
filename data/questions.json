@@ -1,1 +1,172 @@
-[]
+[
+  {
+    "id": "114-kaohsiung-waterway-01",
+    "year": 2025,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "試以比例尺三萬分之一繪製高雄港全港圖，並詳細標示碼頭及其長度／設計水深、航道及其寬度、迴旋池及其直徑、船渠、漁港、禁止錨泊區、導航設施及潮信資料等。請參照海圖圖名：高雄港及附近，圖號：0341C。（25 分）",
+    "sourceId": "moex-114-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "114-kaohsiung-waterway-02",
+    "year": 2025,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "高雄港新建置完成的 A-6 碼頭，其具體位置在何處？試簡單繪製該碼頭的輪廓，並標示碼頭長度及水深。試問該座碼頭營運目的及租用營運公司分別為何？建置後的碼頭，其對船舶操航有何影響？（12 分）",
+    "sourceId": "moex-114-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "114-kaohsiung-waterway-03",
+    "year": 2025,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "於冬季東北風 5 級，某化學品船 4900 總噸，全長 108 公尺，艏艉吃水分別為 5 公尺及 5.5 公尺，左舷靠泊於 60 號碼頭，該輪無船艏推進器（Bow Thruster）；欲移泊至浮筒 B32/33，並配置有一艘拖輪 2400HP 協助，試問該如何安全完成船舶移泊作業？（15 分）",
+    "sourceId": "moex-114-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "114-kaohsiung-waterway-04",
+    "year": 2025,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "依據最新修訂之高雄港一、二港口（含洲際二期）船舶進出港管制基準規定，試就平時期間、颱風期間，以及能見度受限時，分別敘述船舶管制進出港之基準為何？（15 分）",
+    "sourceId": "moex-114-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "114-kaohsiung-waterway-05",
+    "year": 2025,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "於夏天西南風 6 級，某貨櫃船 6500 總噸，全長 130 公尺，艏艉吃水分別為 6 公尺及 7 公尺，該輪無船艏推進器（Bow Thruster）；欲自一港口進港右舷靠泊 65 號碼頭，且在泊位前後已分別有大型貨櫃船靠泊，並配置有一艘 2400HP 拖輪協助靠泊。試問該如何安全引領船舶進港靠泊碼頭？（10 分）",
+    "sourceId": "moex-114-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "114-kaohsiung-waterway-06",
+    "year": 2025,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "於夏天盛行西南風 6 級，並夾帶豐富的雨量，某 CPP 船舶 6000 總噸，全長 110 公尺，艏艉吃水分別為 6 公尺及 7 公尺，該輪無船艏推進器（Bow Thruster），左舷靠泊於 99 號碼頭，該輪拋有 3 節開錨，且在 98 號及 101 號碼頭分別有大型海岬型散裝船靠泊，並配置有一艘 2400HP 拖輪協助離泊。試問依據高雄港之規定，99 號碼頭可靠泊船舶的船長（LOA）及吃水分別為多少？另依前述之環境條件，試問該如何安全完成船舶離泊出港作業？（12 分）",
+    "sourceId": "moex-114-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "114-kaohsiung-waterway-07",
+    "year": 2025,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "依據臺灣港務公司已建置的商港海氣象資訊系統，該系統於高雄港區之波浪、潮位及港內靜穩度等測站位置分別設在何處？該系統所顯示的波高型式為何？而此波高型式代表的意義為何？（11 分）",
+    "sourceId": "moex-114-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 7
+  },
+  {
+    "id": "114-shiphandling-01",
+    "year": 2025,
+    "subject": "船舶操縱",
+    "port": "共通科目",
+    "question": "2021 年一艘貨櫃船在通過蘇伊士運河時，因故擱淺，造成遠歐海上交通動脈打結，更造成國際貿易物流斷鏈危機。據巴拿馬海事局（Panama Maritime Authority, PMA）的海事報告指出，該輪 LOA 399.98 M，MLB 58.8 M，MLD 32.9 M，夏季吃水 16.025 M，當時風速 25-27 節，陣風 40 節，擱淺時的船速約 12 節，請就船舶操縱與環境關係，論述此擱淺事故可能的原因。（20 分）",
+    "sourceId": "moex-114-shiphandling",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "114-shiphandling-02",
+    "year": 2025,
+    "subject": "船舶操縱",
+    "port": "共通科目",
+    "question": "請說明 SCHOTTEL Rudder Propeller（SRP）型拖船與 Voith Schneider Propeller（VSP）型拖船的特性及其優劣點。（20 分）",
+    "sourceId": "moex-114-shiphandling",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "114-shiphandling-03",
+    "year": 2025,
+    "subject": "船舶操縱",
+    "port": "共通科目",
+    "question": "船舶航行時為什麼會產生艉座（Squat）情形？（5 分）艉座量大小與操船的船速有何關係？（5 分）",
+    "sourceId": "moex-114-shiphandling",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "114-shiphandling-04",
+    "year": 2025,
+    "subject": "船舶操縱",
+    "port": "共通科目",
+    "question": "迴旋支點和艏推器應如何配合使用可有較理想的操作效益？（10 分）",
+    "sourceId": "moex-114-shiphandling",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "114-shiphandling-05",
+    "year": 2025,
+    "subject": "船舶操縱",
+    "port": "共通科目",
+    "question": "近年船舶大型化發展，貨櫃船、汽車船及郵輪都有很大的舷側受風面積，且駕駛臺都在近船艏處，請問這三種船型在操縱上有何差異？（20 分）",
+    "sourceId": "moex-114-shiphandling",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "114-shiphandling-06",
+    "year": 2025,
+    "subject": "船舶操縱",
+    "port": "共通科目",
+    "question": "2024 年 6 月中油公司所屬通運輪（TONG YUN），總噸位 28,410，在駛出高雄港二港口時，右船艉擦撞高雄港二港口離岸堤，請問如何操縱船舶避免此次事故發生？是否有其他改善的可能？（20 分）",
+    "sourceId": "moex-114-shiphandling",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "114-english-01",
+    "year": 2025,
+    "subject": "專業英文",
+    "port": "共通科目",
+    "question": "Please translate the following passages from English into Chinese.（每小題 15 分，共 30 分）(1) Vessel Traffic Services (VTS) play a crucial role in enhancing the safety and efficiency of maritime traffic in congested waters. Through real-time communication and monitoring, VTS significantly reduces collision risks and environmental hazards by providing vessels with critical navigational information and safety instructions. (2) The primary responsibility for the ship's navigation remains with the master, even when a pilot is on board. However, the pilot's expert local knowledge and navigation skills substantially contribute to the safe maneuvering of the vessel, particularly in challenging or unfamiliar waters.",
+    "sourceId": "moex-114-english",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "114-english-02",
+    "year": 2025,
+    "subject": "專業英文",
+    "port": "共通科目",
+    "question": "Please translate the following passages from Chinese into English.（每小題 10 分，共 20 分）(1) 當船舶航行於狹窄水道或交通流密集區域時，應隨時保持高度警戒，主機亦應隨時備妥，以應付緊急狀況。(2) 船長與引水人應於引航作業開始前，明確界定各自的職責範圍，確保操作過程中彼此的溝通與合作能順暢無誤。",
+    "sourceId": "moex-114-english",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "114-english-03",
+    "year": 2025,
+    "subject": "專業英文",
+    "port": "共通科目",
+    "question": "Please give the definitions of the following maritime term in English.（每小題 5 分，共 20 分）(1) Boarding arrangements (2) Crash-stop (3) Steerage way (4) Safe speed",
+    "sourceId": "moex-114-english",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "114-english-04",
+    "year": 2025,
+    "subject": "專業英文",
+    "port": "共通科目",
+    "question": "Please write a short composition on “Importance of Communication between Pilots and Ship’s Bridge Team”. (around 300 words)（30 分）",
+    "sourceId": "moex-114-english",
+    "status": "已核對",
+    "questionNo": 4
+  }
+]
