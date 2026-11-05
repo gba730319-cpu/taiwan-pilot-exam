@@ -5105,5 +5105,344 @@
       "指定方信雄著作列入後續交叉參考；未取得實際書頁前不作直接引文。"
     ],
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "110-pilotage-01-answer-v1",
+    "questionId": "110-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "各國海圖（Nautical Chart）所載資料，主要可分為下列十類以上：\n\n一、圖號、圖名及出版資料：包括海圖編號、圖名、出版機關、版次、改正及航船布告更新資訊。\n\n二、比例尺、投影及圖廓資料：包括比例尺、投影方式、經緯度刻度、圖幅範圍、羅經玫瑰及距離量測基準。\n\n三、基準資料：包括水平基準（Horizontal Datum）、深度基準面（Chart Datum）、高程基準及測量年代等。\n\n四、海岸線及陸上地物：包括海岸線、島嶼、岬角、沙洲、港區、碼頭、建築物、燈塔及其他顯著地物。\n\n五、水深及等深線：包括測深點、等深線、淺水區、乾出礁、潮間帶、潮高及水深註記。\n\n六、海床性質：包括泥、沙、礫石、岩石、珊瑚及其他底質資料，供錨泊及海床判斷參考。\n\n七、危險物及障礙物：包括暗礁、明礁、沉船、障礙物、殘骸、海底管線、海底電纜及其他危險區域。\n\n八、航路及交通制度：包括航道、分道通航制、雙向航道、推薦航路、警戒區、限制區、禁航區及錨地。\n\n九、助航設施：包括燈塔、燈標、燈浮標、導標、方位標、雷達標、霧號及AIS助航標誌，並註明燈質、燈色、週期、光程及燈高等。\n\n十、潮汐及海流資料：包括潮汐站、潮流箭頭、流速、流向、潮汐預報資料及其他海況資訊。\n\n十一、港務及行政區域：包括港界、港口限制、船席、錨地、引水區、檢疫區、海關區及其他港務管理區。\n\n十二、海圖註記及縮寫：包括航行注意事項、限制條件、地名、港口資訊、航海警告及國際海圖符號縮寫。\n\n**考試作答可列出其中十項；**建議優先寫圖號與比例尺、基準、海岸地形、水深、底質、危險物、航道、助航設施、潮流潮汐及港務限制等項目。",
+    "practicalAnalysis": "題目只要求十項，宜列出海圖主要資料類別並簡要說明，避免只列十個零散符號。要特別區分水平基準與深度基準面，以及水深、底質、危險物、航道與助航設施。",
+    "keyPoints": [
+      {
+        "point": "海圖出版資料、圖號、圖名、比例尺及投影",
+        "importance": "essential"
+      },
+      {
+        "point": "水平／深度基準、海岸線及陸上地物",
+        "importance": "essential"
+      },
+      {
+        "point": "水深、等深線、海床底質及危險物",
+        "importance": "essential"
+      },
+      {
+        "point": "航道、交通制度、錨地及限制區",
+        "importance": "essential"
+      },
+      {
+        "point": "燈標、潮汐、海流及港務註記",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "海圖圖例",
+        "sourceType": "official_port_or_authority",
+        "issuer": "海軍大氣海洋局",
+        "url": "https://navy.mnd.gov.tw/aboutus/partner_info.aspx?aid=30888&id=30198",
+        "pageOrSection": "海圖圖例A至W：一般項目、陸上記事、海上記事、航標及港務",
+        "accessedAt": "2026-11-05",
+        "supports": "海圖圖號、位置、地貌、港埠、水深、底質、危險物、航路、燈、浮標、雷達及港務資料分類。"
+      },
+      {
+        "title": "IHO S-4 Regulations for International (INT) Charts",
+        "sourceType": "technical_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/en/standards-and-specifications",
+        "pageOrSection": "Chart content, marginal information and symbols",
+        "accessedAt": "2026-11-05",
+        "supports": "海圖內容、基準、比例尺、符號及圖廓資訊。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "海軍大氣海洋局海圖圖例A至W已對照",
+          "result": "pass"
+        },
+        {
+          "item": "海圖資料分類至少列出十項且內容不重複",
+          "result": "pass"
+        },
+        {
+          "item": "海圖／海象專業複核",
+          "result": "needs_review",
+          "note": "名詞與資料已依官方海圖及水文資料核對，仍待獨立專業複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "110-pilotage-02-answer-v1",
+    "questionId": "110-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "太平洋洋流可依海區及環流方向整理如下：\n\n一、北太平洋赤道流系\n（一）北赤道洋流（North Equatorial Current）：位於熱帶北太平洋，主要由東向西流動。\n（二）赤道逆流（Equatorial Countercurrent）：位於北、南赤道流之間，主要由西向東流動。\n（三）南赤道洋流（South Equatorial Current）：位於熱帶南太平洋，主要由東向西流動。\n\n二、北太平洋環流系\n（一）黑潮（Kuroshio Current）：由菲律賓東方沿臺灣東側及日本南方向北流，為強而暖的西邊界流。\n（二）親潮（Oyashio Current）：由白令海及堪察加半島附近向南流，為寒冷的西北太平洋洋流。\n（三）北太平洋洋流（North Pacific Current）：由西向東橫越北太平洋，為中緯度環流的重要部分。\n（四）阿拉斯加洋流（Alaska Current）：沿北美西北岸向北及西北流動，屬北太平洋環流北側分支。\n（五）加利福尼亞洋流（California Current）：沿北美西岸向南流動，為寒流。\n\n三、南太平洋環流系\n（一）東澳洲洋流（East Australian Current）：沿澳洲東岸向南流動，為暖流。\n（二）秘魯洋流／洪堡洋流（Peru or Humboldt Current）：沿南美洲西岸向北流動，為寒流。\n（三）南太平洋洋流（South Pacific Current）：中緯度由西向東流動，連接西太平洋與南美洲西岸洋流系統。\n（四）西風漂流／南極繞極流（West Wind Drift／Antarctic Circumpolar Current）：位於南半球高緯度，受西風帶影響，主要由西向東環繞南極洲。\n\n四、洋流對航海的影響\n（一）洋流會改變船舶對地航速及航跡，應計算Set and Drift，並依實際流向及流速修正航向。\n（二）黑潮、親潮及其交會區可能產生較強流況、海面鋒面及海霧，航行時須注意海況與能見度。\n（三）赤道流系、季風流及西風漂流會影響航程、燃油消耗及航行時間，應納入航次計畫。\n\n五、結論\n太平洋主要洋流包括北、南赤道洋流、赤道逆流、黑潮、親潮、北太平洋洋流、阿拉斯加洋流、加利福尼亞洋流、東澳洲洋流、秘魯洋流、南太平洋洋流及南極繞極流等。洋流方向與強度會隨季節及氣候變化，航行時應以最新海流圖及航海資料為準。",
+    "practicalAnalysis": "本題以主要大洋環流及其西邊界流、東邊界流分類即可。太平洋主要環流包括北太平洋副熱帶環流、南太平洋副熱帶環流及赤道流系；另外黑潮、親潮及阿拉斯加／加利福尼亞流是北太平洋重要區域洋流。",
+    "keyPoints": [
+      {
+        "point": "赤道流系：北赤道流、赤道逆流、南赤道流",
+        "importance": "essential"
+      },
+      {
+        "point": "北太平洋：黑潮、親潮、北太平洋洋流、阿拉斯加流、加利福尼亞流",
+        "importance": "essential"
+      },
+      {
+        "point": "南太平洋：東澳洲流、秘魯／洪堡流、南太平洋洋流、西風漂流",
+        "importance": "essential"
+      },
+      {
+        "point": "洋流影響船舶對地航速、航跡、海霧、航程及燃油",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "Ocean Currents",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA National Ocean Service",
+        "url": "https://oceanservice.noaa.gov/education/tutorial_currents/",
+        "pageOrSection": "Major ocean currents and gyres",
+        "accessedAt": "2026-11-05",
+        "supports": "太平洋主要洋流及全球環流系統。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Ocean currents and current sailing",
+        "accessedAt": "2026-11-05",
+        "supports": "洋流、航行及Set and Drift之應用。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "太平洋主要洋流名稱及流向已核對",
+          "result": "pass"
+        },
+        {
+          "item": "洋流分布依北／南太平洋及赤道流系整理",
+          "result": "pass"
+        },
+        {
+          "item": "海圖／海象專業複核",
+          "result": "needs_review",
+          "note": "名詞與資料已依官方海圖及水文資料核對，仍待獨立專業複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "110-pilotage-03-answer-v1",
+    "questionId": "110-pilotage-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "空氣中的濕度可用下列方式表示：\n\n一、絕對濕度（Absolute Humidity）\n單位體積空氣中所含水蒸氣的質量，通常以g/m³表示。其數值會隨空氣體積及溫度變化。\n\n二、相對濕度（Relative Humidity, RH）\n在同一溫度下，空氣實際水蒸氣分壓與飽和水蒸氣壓的比值，以百分比表示：\n\\[\nRH=\\frac{e}{e_s}\\times100\\%\n\\]\n其中 (e) 為實際水蒸氣分壓，(e_s) 為該溫度下飽和水蒸氣壓。相對濕度達100%時，空氣達飽和狀態。\n\n三、比濕（Specific Humidity）\n水蒸氣質量與濕空氣總質量之比，通常以g/kg或kg/kg表示。比濕不因空氣體積膨脹而直接改變，常用於氣象及大氣熱力分析。\n\n四、混合比（Mixing Ratio）\n水蒸氣質量與乾空氣質量之比，通常以g/kg表示。其與比濕相近，但分母不同；混合比只以乾空氣質量為基準。\n\n五、水蒸氣分壓（Vapour Pressure）\n空氣中水蒸氣所產生的分壓，表示空氣中水蒸氣的實際含量；溫度相同時，水蒸氣分壓愈高，空氣中的水氣含量通常愈多。\n\n六、露點溫度（Dew-point Temperature）\n在水氣含量不變且氣壓條件適當下，將空氣冷卻至水蒸氣達飽和、開始凝結時的溫度。當空氣溫度降至露點，容易形成露、霧或雲。\n\n七、航海氣象應用\n相對濕度高且氣溫接近露點時，容易出現霧或低雲，降低能見度；引水及船舶航行應注意霧警、露點差、海陸風及海霧預報。\n\n八、結論\n濕度常用表示法包括絕對濕度、相對濕度、比濕、混合比、水蒸氣分壓及露點溫度。其中相對濕度最常用於日常氣象報告；比濕與混合比常用於氣象計算，露點則可協助判斷霧及凝結條件。",
+    "practicalAnalysis": "題目問「表示法」，最基本三種為絕對濕度、相對濕度及比濕；完整作答可補充混合比、水蒸氣分壓及露點。要特別區分比濕（水氣質量／濕空氣總質量）與混合比（水氣質量／乾空氣質量）。",
+    "keyPoints": [
+      {
+        "point": "絕對濕度：單位體積空氣中的水氣質量",
+        "importance": "essential"
+      },
+      {
+        "point": "相對濕度：實際水氣分壓／飽和水氣壓×100%",
+        "importance": "essential"
+      },
+      {
+        "point": "比濕：水氣質量／濕空氣總質量",
+        "importance": "essential"
+      },
+      {
+        "point": "混合比：水氣質量／乾空氣質量",
+        "importance": "supporting"
+      },
+      {
+        "point": "露點：冷卻至飽和凝結時的溫度",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "Glossary of Meteorology – Humidity",
+        "sourceType": "official_port_or_authority",
+        "issuer": "American Meteorological Society",
+        "url": "https://glossary.ametsoc.org/wiki/Humidity",
+        "pageOrSection": "Absolute humidity, relative humidity, specific humidity and mixing ratio",
+        "accessedAt": "2026-11-05",
+        "supports": "各種濕度表示法的定義。"
+      },
+      {
+        "title": "Meteorological Glossary",
+        "sourceType": "official_port_or_authority",
+        "issuer": "UK Met Office",
+        "url": "https://www.metoffice.gov.uk/weather/learn-about/weather",
+        "pageOrSection": "Humidity, dew point and fog",
+        "accessedAt": "2026-11-05",
+        "supports": "濕度、露點及霧形成的氣象意義。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "相對濕度公式及符號定義已核對",
+          "result": "pass"
+        },
+        {
+          "item": "比濕與混合比的分母差異已確認",
+          "result": "pass"
+        },
+        {
+          "item": "露點定義及航海應用已核對",
+          "result": "pass"
+        },
+        {
+          "item": "海圖／海象專業複核",
+          "result": "needs_review",
+          "note": "名詞與資料已依官方海圖及水文資料核對，仍待獨立專業複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "110-pilotage-04-answer-v1",
+    "questionId": "110-pilotage-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "潮汐依每日高潮、低潮出現次數及潮差變化，大致分為三種類型：\n\n一、半日潮（Semi-diurnal Tide）\n每日約有兩次高潮及兩次低潮，且相鄰高潮或低潮的高度大致相近，兩次高潮及兩次低潮的時間間隔約為12小時25分。臺灣西部沿海多呈半日潮或混合潮特徵。\n\n二、全日潮（Diurnal Tide）\n每日約有一次高潮及一次低潮，高潮與低潮間隔約12小時25分；相鄰兩日的高潮及低潮時間約延遲50分鐘左右。此類潮汐常見於部分低緯度海域。\n\n三、混合潮（Mixed Tide）\n每日通常有兩次高潮及兩次低潮，但兩次高潮或兩次低潮的高度差異明顯，稱為混合潮；其潮汐型態可依日不等程度而有不同變化。\n\n四、潮汐型態的判別\n可利用潮汐日不等及潮汐型態係數（Form Factor）判斷：\n\\[\nF=\\frac{K_1+O_1}{M_2+S_2}\n\\]\n其中K1、O1為主要日潮分潮，M2、S2為主要半日潮分潮。一般而言：\n- (F\\leq0.25)：半日潮。\n- (0.25<F\\leq1.5)：混合潮，以半日潮為主。\n- (1.5<F\\leq3.0)：混合潮，以全日潮為主。\n- (F>3.0)：全日潮。\n\n五、航海應用\n不同潮汐型態會影響高潮、低潮時間及潮差預測；船舶應依潮汐表及潮流表掌握可用水深、UKC、潮流轉向及進出港時機，尤其大型船舶須注意潮汐日不等及港口潮流與潮位不一定同步。",
+    "practicalAnalysis": "題目要求三種潮汐型態，須寫半日潮、全日潮及混合潮，並說明每日高潮低潮次數及潮高是否相近。潮汐型態係數可補充作判別，勿把潮位平潮與潮流憩流混為一談。",
+    "keyPoints": [
+      {
+        "point": "半日潮：每日約兩次高潮、兩次低潮且潮高相近",
+        "importance": "essential"
+      },
+      {
+        "point": "全日潮：每日約一次高潮及一次低潮",
+        "importance": "essential"
+      },
+      {
+        "point": "混合潮：每日通常兩次高潮及兩次低潮，但潮高差異明顯",
+        "importance": "essential"
+      },
+      {
+        "point": "潮汐型態係數F=(K1+O1)/(M2+S2)",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "Tidal Analysis and Prediction",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Oceanic and Atmospheric Administration",
+        "url": "https://tidesandcurrents.noaa.gov/",
+        "pageOrSection": "Tidal constituents and tide type classification",
+        "accessedAt": "2026-11-05",
+        "supports": "日潮、半日潮、混合潮及分潮分析。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Tides and tidal phenomena",
+        "accessedAt": "2026-11-05",
+        "supports": "潮汐型態及航海潮汐應用。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "三種潮汐型態定義及高潮低潮次數已核對",
+          "result": "pass"
+        },
+        {
+          "item": "潮汐型態係數公式及範圍已核對",
+          "result": "pass"
+        },
+        {
+          "item": "海圖／海象專業複核",
+          "result": "needs_review",
+          "note": "名詞與資料已依官方海圖及水文資料核對，仍待獨立專業複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "110-pilotage-05-answer-v1",
+    "questionId": "110-pilotage-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "definition",
+    "modelAnswer": "一、紅黑相間橫條紋浮標\n用於標示航道中界，航行船舶應依海圖或港口規定由該浮標右側通過；依中華民國浮標制度附表，為航道中央標誌。\n\n二、紅黑相間直條紋浮標\n設於地形尖端、沙洲、淺灘或險礁的內外端，表示該標誌兩側均有可航水道；船舶不得從浮標與其所標示危險物之間通過，應從安全水道一側通過。\n\n三、紅黑相間方格浮標\n用於標示海中礁石或範圍較小的障礙物，且危險物兩側均有航道可通；標示障礙物時，浮標設於危險物向海的一側，提醒船舶注意障礙物位置及安全通過方向。\n\n四、綠色浮標\n用於標示沉船；如為燈浮，燈光亦為綠色。沉船位於海中且兩側有寬闊航道時，浮標設於沉船向海的一側；沉船位於江內、港內、河口或狹窄水道時，浮標設於沉船向航道的一側。\n\n五、補充注意\n以上屬中華民國傳統浮標制度圖例，與現行IALA海上浮標系統的標誌分類不同。實際航行時應以海圖、航路標識資料及主管機關最新公告為準，不可將紅黑相間傳統浮標直接套用為IALA孤立危險標誌或其他國際浮標。",
+    "practicalAnalysis": "本題明確問「我國浮標系統」，應採海軍大氣海洋局《水道燈表》附表五「中華民國浮標制度」，不可誤用IALA的紅白安全水域標、黑紅孤立危險標。紅黑橫條表示航道中界；紅黑直條標示危險物邊界且不可從浮標與危險物間通過；紅黑方格標示海中礁石／小型障礙物；綠色標示沉船。",
+    "keyPoints": [
+      {
+        "point": "紅黑橫條：航道中界，依我國圖例規定由浮標右側通過",
+        "importance": "essential"
+      },
+      {
+        "point": "紅黑直條：沙洲、淺灘或險礁端部，勿從浮標與危險物間通過",
+        "importance": "essential"
+      },
+      {
+        "point": "紅黑方格：標示礁石或小型障礙物，設於危險物向海側",
+        "importance": "essential"
+      },
+      {
+        "point": "綠色浮標：標示沉船，燈浮燈光亦為綠色",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "水道燈表（99年版）附表五：中華民國浮標制度",
+        "sourceType": "official_port_or_authority",
+        "issuer": "海軍大氣海洋局",
+        "editionOrEffectiveDate": "2010",
+        "url": "https://www.mnd.gov.tw/NewUpload/userfiles/File/%E5%A4%A7%E6%B0%A3%E6%B5%B7%E6%B4%8B%E5%B1%80/99%E6%B0%B4%E9%81%93%E7%87%88%E8%A1%A8.pdf",
+        "pageOrSection": "附表五第14頁",
+        "accessedAt": "2026-11-05",
+        "supports": "紅黑橫條、紅黑直條、紅黑方格及綠色浮標之傳統我國制度意義。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "我國傳統浮標制度與IALA制度已明確區分",
+          "result": "pass"
+        },
+        {
+          "item": "四種浮標意義已對照海軍大氣海洋局附表五",
+          "result": "pass"
+        },
+        {
+          "item": "海圖／海象專業複核",
+          "result": "needs_review",
+          "note": "名詞與資料已依官方海圖及水文資料核對，仍待獨立專業複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
