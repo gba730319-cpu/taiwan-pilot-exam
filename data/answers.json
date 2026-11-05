@@ -7277,6 +7277,15 @@
         "pageOrSection": "拖船協助離泊及移泊程序",
         "accessedAt": "2026-11-05",
         "supports": "拖船及離泊協調。"
+      },
+      {
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "accessedAt": "2026-11-05",
+        "title": "高雄港公共水域（含浮筒座標間距）及附屬港水深圖",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=920",
+        "pageOrSection": "全港浮筒座標及間距、一港口及二港口外水深圖、全港區水深圖",
+        "supports": "核對浮筒位置與間距、港外及港內水深；現行公開圖資，歷史題仍須核對考試年度海圖及通告。"
       }
     ],
     "verification": {
@@ -7403,6 +7412,15 @@
         "pageOrSection": "Pilot ladder and combination arrangements",
         "accessedAt": "2026-11-05",
         "supports": "引水梯及登輪安全規範。"
+      },
+      {
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "accessedAt": "2026-11-05",
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "pageOrSection": "81號碼頭長度、寬度、使用水深與用途",
+        "supports": "核對現行碼頭設施；現況不等於108年歷史配置，81號碼頭現列整建中，不能直接代替108年泊位資料。"
       }
     ],
     "verification": {
@@ -7420,7 +7438,10 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-05",
+    "limitations": [
+      "高雄港務分公司現行設施表將81號碼頭列為長120m、使用水深13.5m，並註記第五貨櫃中心整建中；此為現行頁面資料，不可直接套用108年考試時的碼頭狀態或可用船席長度。歷史靠泊條件須另以108年港區圖、碼頭配置及港務通告核實。"
+    ]
   },
   {
     "id": "106-shiphandling-01-answer-v1",
