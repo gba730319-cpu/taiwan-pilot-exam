@@ -1,0 +1,520 @@
+[
+  {
+    "id": "92-shiphandling-01-answer-v1",
+    "questionId": "92-shiphandling-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "calculation",
+    "modelAnswer": "一、已知資料及力矩基準\n以船艉為力矩基準，假設各橫向力方向均以「離開碼頭」為正，並假設拖船拉力的25噸為拖纜張力、仰角15°為拖纜相對水平面的仰角。\n- 艏側推器最大推力15 tf，距船艉180m。\n- 拖船拖纜張力25 tf，作用於船艉。\n- 風壓20 tf，作用點距船艉100m。\n- 船舶須保持與碼頭平行，港內無水流。\n\n二、(1) 艏側推器至少推力\n以船艉取矩，拖船作用點在船艉，力臂近似為0；風壓力矩為20×100=2,000 tf·m。\n側推器須提供反向力矩：\nT_B×180=20×100\nT_B=2,000÷180=**11.11 tf**。\n故艏側推器至少需約11.1噸推力，未超過最大15噸。\n\n三、(2) 拖船拖曳角度\n風壓20 tf朝碼頭方向，艏側推器11.11 tf朝離岸方向，尚需拖船提供的橫向分力：\nF_y=20−11.11=8.89 tf（離岸方向）。\n拖纜仰角15°，拖船張力的水平分量：\nT_h=25 cos15°=24.15 tf。\n若α為拖船水平拖曳方向與船舶縱向軸線的夾角：\nsinα=8.89/24.15\nα=**21.6°**（約）。\n拖船水平縱向分力為：\nF_x=T_h cosα=24.15×cos21.6°≈**22.45 tf**。\n\n四、(3) 甲船後退力\n若拖船的縱向分力方向朝船艉，則甲船所受後退力約為**22.45 tf**。拖纜仰角造成的垂直分力為25 sin15°≈6.47 tf，應另列為垂向分力，不計入水平後退力。\n\n五、操作提醒\n實際拖船方向須依風壓方向及船舶相對碼頭位置設定；計算結果只在題目假設的靜力平衡、拖船作用於船艉且拖纜仰角15°條件下成立。",
+    "practicalAnalysis": "以船舶操縱力學、港內操船及引水實務作答；計算題須清楚列明力的方向、作用點、單位及模型假設。",
+    "keyPoints": [
+      {
+        "point": "船艉取力矩基準",
+        "importance": "essential"
+      },
+      {
+        "point": "艏推器力矩平衡20×100／180",
+        "importance": "essential"
+      },
+      {
+        "point": "艏推器推力約11.11tf",
+        "importance": "essential"
+      },
+      {
+        "point": "拖纜水平張力25cos15°",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船水平拖曳角約21.6°",
+        "importance": "essential"
+      },
+      {
+        "point": "後退力約22.45tf",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO A.960(23) – Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/Pilotage.aspx",
+        "issuer": "IMO",
+        "supports": "引水人作業程序、船長與引水人交換資料及安全管理。"
+      },
+      {
+        "title": "The Nautical Institute – Bridge Team Management",
+        "url": "https://www.nautinst.org/",
+        "issuer": "The Nautical Institute",
+        "supports": "BRM、團隊溝通、情境意識及人因風險。"
+      },
+      {
+        "title": "ABB Marine – Azimuth and Thruster Technology",
+        "url": "https://new.abb.com/marine",
+        "issuer": "ABB",
+        "supports": "側推器推力、推進與船舶操縱設備原理。"
+      },
+      {
+        "title": "Britannia P&I – Ship's wash and damage",
+        "url": "https://www.britanniapandi.com/",
+        "issuer": "Britannia P&I",
+        "supports": "船舶尾流、螺槳流及wash damage風險。"
+      },
+      {
+        "title": "方信雄《航行避碰與操船》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "船舶操縱力矩、拖船配合及港內操船核心參考書。"
+      }
+    ],
+    "limitations": [
+      "本解將拖纜仰角15°解讀為相對水平面的垂直仰角，並將拖曳角定義為水平面內相對船舶縱軸的角度；若原卷示意圖定義不同，數值須依圖修正。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "操船力學與計算架構",
+          "result": "pass"
+        },
+        {
+          "item": "個別船型／設備特性及題目圖示",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-shiphandling-02-answer-v1",
+    "questionId": "92-shiphandling-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "calculation",
+    "modelAnswer": "一、加速慣性（慣性力）\n排水量Δ=25,000公噸，質量m=25,000,000kg。\n初速12節，末速14節，速度變化：\nΔV=2×1852/3600=1.0289m/s。\n時間Δt=4分鐘=240秒。\n平均加速度：\na=ΔV/Δt=1.0289/240=0.004287m/s²。\n加速慣性力：\nF=ma=25,000,000×0.004287\n≈107,175N。\n換算公噸力：\n107,175÷9,806.65≈**10.93 tf**。\n\n二、加速所需附加馬力\n假設加速度在四分鐘內均勻，平均船速：\nV_avg=(12+14)/2=13節\n=13×1852/3600=6.687m/s。\n平均加速功率：\nP=F×V_avg=107,175×6.687≈716,600W。\n換算公制馬力（1PS=735.5W）：\nP≈716,600/735.5≈**974 PS**。\n\n三、與原有主機馬力的關係\n題目給12節時柴油機馬力5,000PS。上述約974PS是依理想慣性模型估算的「額外加速功率」，不是主機總輸出馬力。若題目要求把原有推進功率與加速功率相加，可作概念估算約5,974PS；但實際推進功率與船速並非線性關係，不能把5000PS直接當作全程固定阻力功率。\n\n四、答案\n- 加速度約0.004287m/s²。\n- 加速慣性力約107.2kN，即10.93tf。\n- 以平均船速估算的額外加速功率約974PS。",
+    "practicalAnalysis": "以船舶操縱力學、港內操船及引水實務作答；計算題須清楚列明力的方向、作用點、單位及模型假設。",
+    "keyPoints": [
+      {
+        "point": "2節換算1.0289m/s",
+        "importance": "essential"
+      },
+      {
+        "point": "4分鐘240秒",
+        "importance": "essential"
+      },
+      {
+        "point": "a=ΔV/Δt",
+        "importance": "essential"
+      },
+      {
+        "point": "F=m a約10.93tf",
+        "importance": "essential"
+      },
+      {
+        "point": "P=F×平均速度約974PS",
+        "importance": "essential"
+      },
+      {
+        "point": "區分額外加速功率與主機總馬力",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO A.960(23) – Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/Pilotage.aspx",
+        "issuer": "IMO",
+        "supports": "引水人作業程序、船長與引水人交換資料及安全管理。"
+      },
+      {
+        "title": "The Nautical Institute – Bridge Team Management",
+        "url": "https://www.nautinst.org/",
+        "issuer": "The Nautical Institute",
+        "supports": "BRM、團隊溝通、情境意識及人因風險。"
+      },
+      {
+        "title": "ABB Marine – Azimuth and Thruster Technology",
+        "url": "https://new.abb.com/marine",
+        "issuer": "ABB",
+        "supports": "側推器推力、推進與船舶操縱設備原理。"
+      },
+      {
+        "title": "Britannia P&I – Ship's wash and damage",
+        "url": "https://www.britanniapandi.com/",
+        "issuer": "Britannia P&I",
+        "supports": "船舶尾流、螺槳流及wash damage風險。"
+      },
+      {
+        "title": "方信雄《航行避碰與操船》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "船舶操縱力矩、拖船配合及港內操船核心參考書。"
+      }
+    ],
+    "limitations": [
+      "未提供船舶阻力曲線、推進效率及主機負荷特性；本題僅按排水量慣性力計算理想加速功率。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "操船力學與計算架構",
+          "result": "pass"
+        },
+        {
+          "item": "個別船型／設備特性及題目圖示",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-shiphandling-03-answer-v1",
+    "questionId": "92-shiphandling-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "(1) **有效作用速度與原因**\n艏側推器依靠隧道內螺槳產生橫向推力。船速增加時，船體外部流場及隧道兩端壓力差改變，隧道入口可能產生不利流動、吸入／排出效率下降，且船舶縱向流速會削弱側推器的有效橫向推力。因此側推器通常在低速或接近零速時最有效；船速提高後效能逐漸下降，並無所有船舶通用的固定失效節點。實務上常見約3～5節後效能明顯降低，但須依側推器型式、隧道位置、船體設計及製造商資料判斷。\n\n(2) **效能因子C的方程式**\n以量綱分析，推力T、功率P、圓面積A及水密度ρ的關係可寫成：\n[\nT=C,\rho^{1/3}P^{2/3}A^{1/3}\n]\n其中C為無因次效能因子，受螺槳、導管、隧道及流場設計影響。\n亦可整理為：\n[\nC=\frac{T}{\rho^{1/3}P^{2/3}A^{1/3}}\n]\n\n三、操船應用\n接近泊位時應在船速尚低且側推器有效的階段使用；若船速已高，不可假設側推器仍能產生額定橫向力，應配合主機舵及拖船控制。",
+    "practicalAnalysis": "以船舶操縱力學、港內操船及引水實務作答；計算題須清楚列明力的方向、作用點、單位及模型假設。",
+    "keyPoints": [
+      {
+        "point": "側推器低速時效能最佳",
+        "importance": "essential"
+      },
+      {
+        "point": "船速增加使隧道流場與壓差不利",
+        "importance": "essential"
+      },
+      {
+        "point": "沒有通用固定失效船速",
+        "importance": "essential"
+      },
+      {
+        "point": "T=Cρ^(1/3)P^(2/3)A^(1/3)",
+        "importance": "essential"
+      },
+      {
+        "point": "C為無因次效能因子",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO A.960(23) – Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/Pilotage.aspx",
+        "issuer": "IMO",
+        "supports": "引水人作業程序、船長與引水人交換資料及安全管理。"
+      },
+      {
+        "title": "The Nautical Institute – Bridge Team Management",
+        "url": "https://www.nautinst.org/",
+        "issuer": "The Nautical Institute",
+        "supports": "BRM、團隊溝通、情境意識及人因風險。"
+      },
+      {
+        "title": "ABB Marine – Azimuth and Thruster Technology",
+        "url": "https://new.abb.com/marine",
+        "issuer": "ABB",
+        "supports": "側推器推力、推進與船舶操縱設備原理。"
+      },
+      {
+        "title": "Britannia P&I – Ship's wash and damage",
+        "url": "https://www.britanniapandi.com/",
+        "issuer": "Britannia P&I",
+        "supports": "船舶尾流、螺槳流及wash damage風險。"
+      },
+      {
+        "title": "方信雄《航行避碰與操船》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "船舶操縱力矩、拖船配合及港內操船核心參考書。"
+      }
+    ],
+    "limitations": [
+      "3～5節僅為常見效能明顯下降的概略範圍，應依個別船舶側推器試驗資料修正。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "操船力學與計算架構",
+          "result": "pass"
+        },
+        {
+          "item": "個別船型／設備特性及題目圖示",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-shiphandling-04-answer-v1",
+    "questionId": "92-shiphandling-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、沿革\nBRM（Bridge Resource Management）由早期Bridge Team Management及海事事故人因研究逐步發展，重點從單純強調船長個人操船能力，轉向有效運用駕駛台所有人員、設備、資訊及程序。近年將引水人納入橋樓團隊，形成BRM-P（Bridge Resource Management with Pilot），強調船長、引水人及駕駛台團隊共同維持航行安全。\n\n二、精神主旨\n1. **團隊合作**：明確分工，讓船長、引水人、值班駕駛員及舵手理解各自責任。\n2. **情境意識**：持續掌握船位、航向、速度、風流、航道、他船及設備狀態。\n3. **有效溝通**：引水人登輪後進行Master-Pilot Exchange，交換船舶操縱資料、吃水、主機舵效、拖船配置、預定航線及港口限制。\n4. **共同航行計畫**：說明航路、轉向點、速度、UKC、拖船、錨泊及緊急應變，確保橋樓團隊理解。\n5. **監控與交叉檢查**：駕駛台人員監控船位、航向、速度、舵令、車鐘及引水人操船意圖；發現偏差立即提醒。\n6. **明確權責**：引水人提供地方知識及操船建議，但船長仍負船舶安全指揮責任；雙方不得因對方在場而放棄監控。\n7. **挑戰與回應**：任何團隊成員對不安全命令或偏離計畫有責任提出疑問；採閉環通信確認命令已接收及執行。\n8. **人因管理**：注意疲勞、壓力、語言障礙、階級文化及自滿，建立可安全表達異議的工作環境。\n\n三、BRM-P的價值\n可降低引水人與船長溝通落差、避免錯誤假設、提早發現航行偏差，並把引水人的地方知識與船舶團隊的船況知識結合。\n\n四、結論\nBRM-P不是引水人單方面指揮，也不是船長把責任交給引水人，而是以共同計畫、明確分工、有效溝通、交叉監控及人因管理建立安全防線。",
+    "practicalAnalysis": "以船舶操縱力學、港內操船及引水實務作答；計算題須清楚列明力的方向、作用點、單位及模型假設。",
+    "keyPoints": [
+      {
+        "point": "由BTM／BRM發展並納入引水人",
+        "importance": "essential"
+      },
+      {
+        "point": "Master-Pilot Exchange",
+        "importance": "essential"
+      },
+      {
+        "point": "共同航行計畫及明確分工",
+        "importance": "essential"
+      },
+      {
+        "point": "情境意識與交叉監控",
+        "importance": "essential"
+      },
+      {
+        "point": "閉環溝通及勇於提出疑慮",
+        "importance": "essential"
+      },
+      {
+        "point": "船長指揮權與引水專業角色並存",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO A.960(23) – Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/Pilotage.aspx",
+        "issuer": "IMO",
+        "supports": "引水人作業程序、船長與引水人交換資料及安全管理。"
+      },
+      {
+        "title": "The Nautical Institute – Bridge Team Management",
+        "url": "https://www.nautinst.org/",
+        "issuer": "The Nautical Institute",
+        "supports": "BRM、團隊溝通、情境意識及人因風險。"
+      },
+      {
+        "title": "ABB Marine – Azimuth and Thruster Technology",
+        "url": "https://new.abb.com/marine",
+        "issuer": "ABB",
+        "supports": "側推器推力、推進與船舶操縱設備原理。"
+      },
+      {
+        "title": "Britannia P&I – Ship's wash and damage",
+        "url": "https://www.britanniapandi.com/",
+        "issuer": "Britannia P&I",
+        "supports": "船舶尾流、螺槳流及wash damage風險。"
+      },
+      {
+        "title": "方信雄《航行避碰與操船》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "船舶操縱力矩、拖船配合及港內操船核心參考書。"
+      }
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "操船力學與計算架構",
+          "result": "pass"
+        },
+        {
+          "item": "個別船型／設備特性及題目圖示",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-shiphandling-05-answer-v1",
+    "questionId": "92-shiphandling-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、定義\nCross Channel Angle（橫越航道角）通常指船舶在橫越主航道時，其船舶航向／航跡與航道主軸線之間所形成的夾角。實務上應先確認題目採用的是船艏向（heading）或對地航跡（course over ground）作為角度基準；兩者在有風流時可能不同。\n\n二、角度過大的風險\n1. 船舶橫越航道所需時間增加，長時間占用主航道。\n2. 船體可能以較大的斜角暴露於來船航跡，增加碰撞風險。\n3. 船舶受橫流時容易產生偏流、艏向與航跡不一致。\n4. 大型船舶船尾外掃及艏部內切可能侵入相鄰航道或泊位。\n5. 若速度過低，舵效不足；若速度過高，則增加碰撞後果及操船慣性。\n\n三、修正措施\n1. 事先選擇適當橫越點，確認兩側交通及VTS許可，盡量以接近直角、最短時間橫越。\n2. 若發現角度過大，應及早調整艏向及航跡，避免在航道中央急轉。\n3. 依風流修正艏向，區分船艏向與對地航跡；使用雷達、GNSS及平行指標監控。\n4. 控制安全速度，保持舵效並避免不必要的停船或大幅變速。\n5. 若交通狀況不允許安全橫越，應在航道外安全水域等待，不可強行穿越。\n6. 與VTS及附近船舶保持通信，依COLREG第9條狹水道規則及第15至17條交叉相遇規則採取行動。",
+    "practicalAnalysis": "以船舶操縱力學、港內操船及引水實務作答；計算題須清楚列明力的方向、作用點、單位及模型假設。",
+    "keyPoints": [
+      {
+        "point": "角度基準需分辨艏向與對地航跡",
+        "importance": "essential"
+      },
+      {
+        "point": "盡量以接近直角及最短時間橫越",
+        "importance": "essential"
+      },
+      {
+        "point": "避免在航道中央急轉",
+        "importance": "essential"
+      },
+      {
+        "point": "風流修正及雷達／GNSS監控",
+        "importance": "essential"
+      },
+      {
+        "point": "交通不安全時在航道外等待",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO A.960(23) – Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/Pilotage.aspx",
+        "issuer": "IMO",
+        "supports": "引水人作業程序、船長與引水人交換資料及安全管理。"
+      },
+      {
+        "title": "The Nautical Institute – Bridge Team Management",
+        "url": "https://www.nautinst.org/",
+        "issuer": "The Nautical Institute",
+        "supports": "BRM、團隊溝通、情境意識及人因風險。"
+      },
+      {
+        "title": "ABB Marine – Azimuth and Thruster Technology",
+        "url": "https://new.abb.com/marine",
+        "issuer": "ABB",
+        "supports": "側推器推力、推進與船舶操縱設備原理。"
+      },
+      {
+        "title": "Britannia P&I – Ship's wash and damage",
+        "url": "https://www.britanniapandi.com/",
+        "issuer": "Britannia P&I",
+        "supports": "船舶尾流、螺槳流及wash damage風險。"
+      },
+      {
+        "title": "方信雄《航行避碰與操船》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "船舶操縱力矩、拖船配合及港內操船核心參考書。"
+      }
+    ],
+    "limitations": [
+      "Cross Channel Angle在不同操船教材中可能採不同角度定義；須以題目所依教材圖示確認是船艏向角、航跡角或船體與航道軸線夾角。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "操船力學與計算架構",
+          "result": "pass"
+        },
+        {
+          "item": "個別船型／設備特性及題目圖示",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-shiphandling-06-answer-v1",
+    "questionId": "92-shiphandling-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、定義\nWashing Damage指船舶航行或操船時產生的螺槳流（propeller wash）、船體尾流及船行波（ship-generated waves）對附近船舶、浮筒、碼頭、岸壁、繫纜設備或岸上人員造成的損害。常見情況包括螺槳流沖擊靠泊船舶、船行波使小船劇烈搖晃、繫纜受力突增、浮筒船舶碰撞及岸邊沖刷。\n\n二、可能成因\n1. 船舶在港內航速過高，排水量大、船體寬或吃水淺，造成較大船行波。\n2. 靠近碼頭、浮筒、漁港或小船航行，船體與岸壁間水流受限，產生較強回流及水位變化。\n3. 主機突然加車、倒車或大舵角操船，螺槳流集中沖擊附近船舶或設施。\n4. 在淺水、狹水道或港池內高速航行，造成波浪增大及水流加速。\n5. 未注意小船、浮動碼頭、繫泊浮筒及岸上作業人員的脆弱性。\n\n三、預防與處置\n1. 港內依規定減速，以最低安全速度維持操縱能力；通過浮筒、遊艇碼頭、漁港及靠泊船舶附近時應特別緩行。\n2. 避免突然加車、倒車及不必要的大舵角，減少螺槳流直接沖擊。\n3. 與碼頭、浮筒及其他船舶保持足夠安全距離，避免貼近岸壁高速通過。\n4. 依VTS及港口限速規定航行；若有wash damage疑慮，立即降低車速並調整航路。\n5. 事先警告附近小船及作業人員，必要時暫停通過或請求VTS協調。\n6. 若已造成損害，應立即通報VTS及港口管理機關，協助檢查受損船舶、浮筒、繫纜及碼頭設施，並保存車鐘、航速及雷達紀錄。\n\n四、結論\nWashing Damage的預防重點是港內安全速度、適當距離及平順操船；引水人應考量船舶排水量、吃水、螺槳流、淺水效應及周遭繫泊船舶，不可只以是否遵守一般航速上限判斷安全。",
+    "practicalAnalysis": "以船舶操縱力學、港內操船及引水實務作答；計算題須清楚列明力的方向、作用點、單位及模型假設。",
+    "keyPoints": [
+      {
+        "point": "螺槳流及船行波造成損害",
+        "importance": "essential"
+      },
+      {
+        "point": "港內高速、淺水及岸壁效應",
+        "importance": "essential"
+      },
+      {
+        "point": "避免突然加車／倒車及大舵角",
+        "importance": "essential"
+      },
+      {
+        "point": "浮筒、漁港及小船附近緩行",
+        "importance": "essential"
+      },
+      {
+        "point": "VTS協調、即時通報及保存紀錄",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO A.960(23) – Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/Pilotage.aspx",
+        "issuer": "IMO",
+        "supports": "引水人作業程序、船長與引水人交換資料及安全管理。"
+      },
+      {
+        "title": "The Nautical Institute – Bridge Team Management",
+        "url": "https://www.nautinst.org/",
+        "issuer": "The Nautical Institute",
+        "supports": "BRM、團隊溝通、情境意識及人因風險。"
+      },
+      {
+        "title": "ABB Marine – Azimuth and Thruster Technology",
+        "url": "https://new.abb.com/marine",
+        "issuer": "ABB",
+        "supports": "側推器推力、推進與船舶操縱設備原理。"
+      },
+      {
+        "title": "Britannia P&I – Ship's wash and damage",
+        "url": "https://www.britanniapandi.com/",
+        "issuer": "Britannia P&I",
+        "supports": "船舶尾流、螺槳流及wash damage風險。"
+      },
+      {
+        "title": "方信雄《航行避碰與操船》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "船舶操縱力矩、拖船配合及港內操船核心參考書。"
+      }
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "操船力學與計算架構",
+          "result": "pass"
+        },
+        {
+          "item": "個別船型／設備特性及題目圖示",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  }
+]
