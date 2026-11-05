@@ -2674,5 +2674,273 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "112-english-01-answer-v1",
+    "questionId": "112-english-01",
+    "version": 1,
+    "language": "en",
+    "answerType": "translation",
+    "modelAnswer": "As a matter of law, the master remains fully responsible for the safe navigation of the vessel, even when a pilot is on board. If the master has clear grounds to believe that the pilot may endanger the safety of navigation, the master may relieve the pilot of his or her duties and request another pilot to board the vessel. In all circumstances, while carrying out pilotage duties on board, the pilot is under the authority of the master but remains outside the ship's chain of command. The pilot remains on board as an important and indispensable member of the bridge team.",
+    "practicalAnalysis": "本題翻譯要保留兩個看似矛盾但其實並存的概念：船長對安全航行負責並保有指揮權；引水人雖在船長權限之下，仍以專業引航者身分留在駕駛臺團隊中，但不納入船舶正式指揮鏈。relieve the pilot of his/her duties 比 dismiss the pilot 更符合解除其引航職責的語境。",
+    "keyPoints": [
+      {
+        "point": "縱使引水人在船，船長仍負安全航行責任",
+        "importance": "essential"
+      },
+      {
+        "point": "clear grounds to believe that the pilot may endanger safety of navigation",
+        "importance": "essential"
+      },
+      {
+        "point": "relieve the pilot of his or her duties and request another pilot",
+        "importance": "supporting"
+      },
+      {
+        "point": "under the authority of the master but outside the ship's chain of command",
+        "importance": "essential"
+      },
+      {
+        "point": "important and indispensable member of the bridge team",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Resolution A.960(23), Annex 2",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2003-12-05",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "pageOrSection": "Annex 2, §§1–2 and 5",
+        "accessedAt": "2026-11-05",
+        "supports": "船長與引水人責任、船長指揮權及引水人與駕駛臺團隊關係。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "船長責任及引水人角色的法律語意保留",
+          "result": "pass"
+        },
+        {
+          "item": "chain of command及bridge team術語使用一致",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review",
+          "note": "術語及語意已依IMO文件核對，仍待引水／航海英文專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "112-english-02-answer-v1",
+    "questionId": "112-english-02",
+    "version": 1,
+    "language": "en",
+    "answerType": "definition",
+    "modelAnswer": "**(1) INSTRUCTION**\n\n**Indicate:** This message marker indicates that the speaker intends the following message to be understood as an instruction that the addressee is expected to carry out.\n\n**Comment:** It is the strongest and most directive of the four markers. The speaker is responsible for making the instruction clear and unambiguous. The addressee should comply with it when it is issued by an authorized source and is consistent with applicable regulations and safety requirements.\n\n**(2) ADVICE**\n\n**Indicate:** This marker indicates that the speaker intends to influence the addressee by making a recommendation.\n\n**Comment:** Advice is advisory rather than compulsory. The addressee is responsible for deciding whether to follow it, taking the prevailing circumstances and safety into account.\n\n**(3) WARNING**\n\n**Indicate:** This marker indicates that the speaker intends to alert the addressee to a danger or hazardous situation.\n\n**Comment:** A warning is not, by itself, an order. It highlights a hazard and calls for the addressee's attention and appropriate action. The addressee should assess the danger and take whatever action is necessary for safety.\n\n**(4) INFORMATION**\n\n**Indicate:** This marker indicates that the following message is intended to provide factual information, such as observed facts, positions, traffic conditions or other relevant circumstances.\n\n**Comment:** It is neutral and does not normally direct the addressee to take a particular action. It supports situational awareness and decision-making.\n\n**Overall comparison:** INSTRUCTION is directive; ADVICE is a recommendation; WARNING alerts the listener to danger; INFORMATION provides facts. They should not be treated as a simple four-step scale in every situation: a warning may describe an immediate danger even though it is not phrased as an instruction.",
+    "practicalAnalysis": "題目特別要求indicate及comment，不是翻譯四個單字。回答須說明發訊者意圖，以及訊息的規範力／強制程度。INSTRUCTION最具指令性；ADVICE是建議；WARNING是危險警示但本身不是命令；INFORMATION為事實資訊。WARNING雖非命令，危險程度可能最高，因此不能把四者機械化為單一強弱排序。",
+    "keyPoints": [
+      {
+        "point": "INSTRUCTION：發訊者意圖要求對方執行，具指令性",
+        "importance": "essential"
+      },
+      {
+        "point": "ADVICE：發訊者提出建議，是否採納由接收者判斷",
+        "importance": "essential"
+      },
+      {
+        "point": "WARNING：告知危險，不等於命令，但應採取必要安全行動",
+        "importance": "essential"
+      },
+      {
+        "point": "INFORMATION：提供事實與情勢，不直接要求特定行動",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Resolution A.918(22), IMO Standard Marine Communication Phrases",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2001-11-29",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.918(22).pdf",
+        "pageOrSection": "General – Message Markers",
+        "accessedAt": "2026-11-05",
+        "supports": "INSTRUCTION、ADVICE、WARNING及INFORMATION之發訊意圖與使用原則。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "四種Message Marker之indicate與comment分別作答",
+          "result": "pass"
+        },
+        {
+          "item": "指令、建議、警告及資訊的規範力差異已區分",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review",
+          "note": "術語及語意已依IMO文件核對，仍待引水／航海英文專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "112-english-03-answer-v1",
+    "questionId": "112-english-03",
+    "version": 1,
+    "language": "en",
+    "answerType": "definition",
+    "modelAnswer": "**(1) Dragging (of anchor)**\n\nThe movement of a vessel over the seabed because its anchor is not holding, or is no longer holding, the vessel in position. The vessel may gradually move away from its intended anchorage position.\n\n**(2) Leeward**\n\nThe direction or side of a vessel that is sheltered from the wind; it is the side toward which the wind is blowing. The opposite side is the windward side.\n\n**(3) Boarding speed**\n\nThe speed of a vessel when a person, such as a pilot, is being transferred between the vessel and a pilot boat or another craft. It should be sufficiently low and controlled to permit a safe transfer, taking account of sea state, wind, vessel type and the transfer arrangements.\n\n**(4) Drifting**\n\nThe movement of a vessel caused mainly by wind and/or current, without the vessel being intentionally propelled along a controlled course by its own propulsion. A vessel may drift while stopped, with engines stopped, or while making little or no way through the water.",
+    "practicalAnalysis": "Dragging of anchor是錨未能抓牢海床而拖行，常以船位持續偏移、錨鏈方向及張力變化、GPS／雷達定位監控判斷。Leeward是下風側／背風側，定義依風向而定。Boarding speed不是所有船舶通用固定節數，而是為引水人安全轉乘所控制的低速。Drifting指風流造成的漂移，與主動操縱航行不同。",
+    "keyPoints": [
+      {
+        "point": "Dragging anchor：錨抓底不足，船舶相對海床移動",
+        "importance": "essential"
+      },
+      {
+        "point": "Leeward：背風側／下風側，風所吹向的一側",
+        "importance": "essential"
+      },
+      {
+        "point": "Boarding speed：為安全轉乘而控制的船速，非固定節數",
+        "importance": "essential"
+      },
+      {
+        "point": "Drifting：主要受風或流作用而漂移",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Standard Marine Communication Phrases (SMCP)",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.918%2822%29.pdf",
+        "pageOrSection": "Anchoring, pilot transfer and manoeuvring terminology",
+        "accessedAt": "2026-11-05",
+        "supports": "錨泊、引水人登離船及船舶操縱相關標準術語。"
+      },
+      {
+        "title": "SOLAS Chapter V, Regulation 23 – Pilot transfer arrangements",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/pilotage.aspx",
+        "pageOrSection": "Pilot transfer arrangements",
+        "accessedAt": "2026-11-05",
+        "supports": "引水人安全登離船及轉乘安排。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "四個名詞以英文定義而非逐字翻譯",
+          "result": "pass"
+        },
+        {
+          "item": "Boarding speed未提供不適用的固定節數",
+          "result": "pass"
+        },
+        {
+          "item": "Leeward風向關係已確認",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review",
+          "note": "術語及語意已依IMO文件核對，仍待引水／航海英文專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "112-english-04-answer-v1",
+    "questionId": "112-english-04",
+    "version": 1,
+    "language": "en",
+    "answerType": "essay",
+    "modelAnswer": "(1) **Communicating with the captain of incoming vessels to provide** local navigational information, port regulations, traffic conditions and the planned passage **until** the vessel has safely completed the pilotage operation and is alongside or has cleared the port limits.\n\n(2) **Monitoring the weather conditions and communicating with** the Vessel Traffic Service (VTS), port authorities and shipmasters **to ensure** that pilotage operations are conducted safely, particularly during adverse weather **such as** strong winds, heavy rain, restricted visibility and rough seas.\n\n(3) **Enforcing international and national laws pertaining to** navigation, collision prevention, port regulations, environmental protection and maritime safety, while reporting any violation to the appropriate authority.\n\n(4) **Maintaining accurate records of all harbor** pilotage operations, **including** vessel particulars, time and position of boarding and disembarkation, passage details, tug assistance, incidents and any unusual circumstances.\n\n(5) **Determining the best route for ships to take based on** charted depths, under-keel clearance, tides, currents, weather, traffic density, navigational marks and the vessel's manoeuvring characteristics.\n\n(6) **Determining the depth of** water in the channel, basin and alongside the berth **to ensure** that the vessel has adequate under-keel clearance throughout the passage and berthing operation.\n\n(7) **Coordinating with local port operators to ensure** that berths, tugs, mooring boats, linesmen and other port services are available at the required time and that the vessel can berth or depart safely.\n\n(8) **Recommending measures to improve safety in the harbor, such as** improving navigational aids, reviewing traffic routes, dredging shallow areas, updating port regulations and conducting joint emergency drills.\n\n(9) **Providing instructions to tugboat operators on how to** position, secure, push or tow the assisted vessel, while maintaining clear communications and ensuring that the tug operation remains within safe operating limits.",
+    "practicalAnalysis": "題目提供九個句首，應以完整英文句子接續，並涵蓋引水人實務職責。用語包括VTS、under-keel clearance、mooring boats、linesmen、navigational aids及tug assistance。第3小題的enforcing不可解讀為引水人具有一般執法權；較精確的職責是確保航行作業遵守法規，並對違規事項通報主管機關。",
+    "keyPoints": [
+      {
+        "point": "與船長溝通航路、港規、交通及引航計畫",
+        "importance": "essential"
+      },
+      {
+        "point": "監控天候並與VTS及港口單位協調",
+        "importance": "essential"
+      },
+      {
+        "point": "遵守及通報國際、國內航安與環保規定",
+        "importance": "essential"
+      },
+      {
+        "point": "記錄船舶資料、登離輪、拖船及事故情況",
+        "importance": "supporting"
+      },
+      {
+        "point": "規劃航路、水深及UKC，協調拖船與碼頭作業",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Resolution A.960(23), Annex 2",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "pageOrSection": "Pilotage procedures, master-pilot exchange and pilot responsibilities",
+        "accessedAt": "2026-11-05",
+        "supports": "引水人職責、船長資訊交換及安全領航程序。"
+      },
+      {
+        "title": "引水人管理規則",
+        "sourceType": "official_port_or_authority",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0070029",
+        "pageOrSection": "引水人業務、紀錄及領航程序規定",
+        "accessedAt": "2026-11-05",
+        "supports": "引水人業務執行、紀錄及專業義務。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "九個句首均完成英文句子",
+          "result": "pass"
+        },
+        {
+          "item": "引水人法定職責與執法權限已適當區分",
+          "result": "pass"
+        },
+        {
+          "item": "航海專業詞彙使用一致",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review",
+          "note": "術語及語意已依IMO文件核對，仍待引水／航海英文專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
