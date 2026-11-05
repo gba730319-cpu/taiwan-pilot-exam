@@ -1548,5 +1548,275 @@
     "sourceId": "moex-098-english",
     "status": "已核對",
     "questionNo": 4
+  },
+  {
+    "id": "96-kaohsiung-waterway-01",
+    "year": 2007,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "五千總噸滿載貨櫃船船首未裝側推器，自二港口進港右靠七十五近七十四號碼頭，使用一艘拖船協助，請詳述船過信號台後靠泊過程及操船重點。（20 分）",
+    "sourceId": "moex-096-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "96-kaohsiung-waterway-02",
+    "year": 2007,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "請繪一港口防波堤及港外分道航行區簡圖，並註明巷道邊界方位、引水站位置及船舶航行於分道區之規定。（20 分）",
+    "sourceId": "moex-096-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "96-kaohsiung-waterway-03",
+    "year": 2007,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "請繪縱面與橫面簡圖，說明 BECKER RUDDER 構造及此型舵之優點。現有重載船乙艘左靠五十七號碼頭，自行使用 BECKER RUDDER 與艏側推器（BOW THRUSTER）開船，並由二港口迴船區右轉出港，請說明如何操船。（20 分）",
+    "sourceId": "moex-096-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "96-kaohsiung-waterway-04",
+    "year": 2007,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "二十四號碼頭南部火力發電廠臨水面岸壁裝置警示岸標，請敘明其形狀、燈質、裝設位置。此警示岸標裝設之目的何在？（20 分）",
+    "sourceId": "moex-096-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "96-kaohsiung-waterway-05",
+    "year": 2007,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "請敘明高雄港一、二港口進出港信號板位置及英文字母代表意義。（10 分）",
+    "sourceId": "moex-096-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "96-kaohsiung-waterway-06",
+    "year": 2007,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "請解釋「餘裕水深」之意義？高雄港規定是多少？七十號碼頭設計水深是 14 公尺，則船舶可靠泊之最大安全吃水是多少？（10 分）",
+    "sourceId": "moex-096-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "96-pilot-law-01",
+    "year": 2007,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "請說明我國之引水制度（包括強制引水、引水人資格、僱用及執業監督等）的內容，並分析現行制度是否仍有待修正之處。（25 分）",
+    "sourceId": "moex-096-pilot-law",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "96-pilot-law-02",
+    "year": 2007,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "引水人在船引航期間發生船舶碰撞，致有人身傷亡及財物損失之情形，則引水人、船長、船舶所有人、拖船所有人、港務局間之民事、刑事及行政責任之關係如何？請說明之。（20 分）",
+    "sourceId": "moex-096-pilot-law",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "96-pilot-law-03",
+    "year": 2007,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "請依商港法及國際商港港務管理規則說明船舶出入港應遵行之程序。（20 分）",
+    "sourceId": "moex-096-pilot-law",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "96-pilot-law-04",
+    "year": 2007,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "請依引水法及引水人管理規則說明，引水人在引航船舶中有哪些事項應向當地航政主管機關報告？（20 分）",
+    "sourceId": "moex-096-pilot-law",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "96-pilot-law-05",
+    "year": 2007,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "請說明在狹窄水道中航行應注意事項。（15 分）",
+    "sourceId": "moex-096-pilot-law",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "96-pilotage-01",
+    "year": 2007,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "試繪出下列海圖符號：（10 分）(1)沉船堆 (2)禁區、限制區 (3)70 米水深不到底 (4)迴轉潮流 (5)禁止錨泊",
+    "sourceId": "moex-096-pilotage",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "96-pilotage-02",
+    "year": 2007,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "解釋名詞：（20 分）(1) Estimated current (2) Course of advance (3) Speed over the ground (4) Course made good (5) Drift",
+    "sourceId": "moex-096-pilotage",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "96-pilotage-03",
+    "year": 2007,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "說明 IALA-A 與 IALA-B 之差異？以及我國浮標制度係採用何制度，並列舉出我國主要浮標？（20 分）",
+    "sourceId": "moex-096-pilotage",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "96-pilotage-04",
+    "year": 2007,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "說明梅雨形成之因素？梅雨季節對我國及中國之影響與期間為何？試述之。（20 分）",
+    "sourceId": "moex-096-pilotage",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "96-pilotage-05",
+    "year": 2007,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "由潮差、風向、風速以及其他因素，分析基隆港與台中港進港之方法及其困難度。（20 分）",
+    "sourceId": "moex-096-pilotage",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "96-pilotage-06",
+    "year": 2007,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "南中國海每年夏天均會形成數個颱風，說明其原因及其可能行經之路徑。（10 分）",
+    "sourceId": "moex-096-pilotage",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "96-shiphandling-01",
+    "year": 2007,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "某輪排水量 6,000 噸，黑夜中，因風險流急，需以 12 節速度趨近港口，行進中突然發現前方 450 公尺處有不明物體，試問該輪如果保持航向不變僅使用倒俥的情況下，是否會撞上該不明物體？又該輪撞上不明物體時的船速及動能（Energy）為何？（該輪倒俥力為 25 噸， 不考慮倒俥時產生的橫向分力。）（25 分）",
+    "sourceId": "moex-096-shiphandling",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "96-shiphandling-02",
+    "year": 2007,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "在航行時，試以 Interaction 之觀點圖示說明，通過（Passing）與追越（Overtaking）所產生之效應為何？（15 分）",
+    "sourceId": "moex-096-shiphandling",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "96-shiphandling-03",
+    "year": 2007,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "操船模擬機已是當前操船不可或缺的操船訓練設備，試問何謂 MMG 模式？其特色為何？（15 分）",
+    "sourceId": "moex-096-shiphandling",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "96-shiphandling-04",
+    "year": 2007,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "船舶科技日新月異，促使船舶操縱系統亦隨之改善精進，時下許多需要靈敏操縱性的船舶已採用 AZIPODS 操縱系統，請就您對此一系統的瞭解加以說明。（15 分）",
+    "sourceId": "moex-096-shiphandling",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "96-shiphandling-05",
+    "year": 2007,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "引水人引領船舶的過程中常發生所謂的置換性干預（Convert interference），試問若遇此情形您該如何處置？（15 分）",
+    "sourceId": "moex-096-shiphandling",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "96-shiphandling-06",
+    "year": 2007,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "試問 Railroad track effect 對操船上有何影響？操船者要如何因應？（15 分）",
+    "sourceId": "moex-096-shiphandling",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "96-english-01",
+    "year": 2007,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please translate the following passages from English into Chinese: (30 分) (1) It is a fact that very few casualties occur in pilot waters that do not involve some degree of acquiescence on the part of the master. In many cases, if the master had done no more than suggest that the pilot reduce speed in fog or clarify a proposed meeting arrangement with an approaching vessel, no accident would have occurred since the pilot will not refuse to handle a situation more safely in such conditions. In most reports of marine casualties it is obvious that the master was reluctant to get involved and allowed the pilot act alone until it was too late to avoid an accident. (2) Should the ship take a sheer, the anchor can be used to regain control and prevent collision or grounding. It is important, though, that the anchor not dig in when used at such a time, so minimize the amount of chain slacked. When the anchor is dragging properly the bow immediately steadies up and the rudder becomes more effective, the stern lifts away from the bank, and the sheer is broken.",
+    "sourceId": "moex-096-english",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "96-english-02",
+    "year": 2007,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please translate the following passages from Chinese into English: (20 分) (1) 不論是否為強制引水，船東都應對船舶或船舶航行之任何疏失所造成之任何損失或損害負責。 (2) 引水人遇有船長不合理之要求，或有其他正當理由不能執行業務時，得拒絕領航其船舶。但應將具體事實，報告當地航政主管機關。",
+    "sourceId": "moex-096-english",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "96-english-03",
+    "year": 2007,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please explain the following terms in English: (20 分) (1) Vessel traffic services (2) Risk of collision (3) Tactical diameter (4) Safe speed",
+    "sourceId": "moex-096-english",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "96-english-04",
+    "year": 2007,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please write a short composition on “How to be a qualified pilot” in English.（about 300 words）（30 分）",
+    "sourceId": "moex-096-english",
+    "status": "已核對",
+    "questionNo": 4
   }
 ]
