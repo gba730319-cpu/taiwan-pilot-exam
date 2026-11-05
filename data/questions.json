@@ -168,5 +168,95 @@
     "sourceId": "moex-114-english",
     "status": "已核對",
     "questionNo": 4
+  },
+  {
+    "id": "114-pilot-law-01",
+    "year": 2025,
+    "subject": "航政法規",
+    "port": "共通科目",
+    "question": "請依引水法及通用之引水契約，說明引水人在執行業務時應遵循之義務及相關民事責任內容。（25 分）",
+    "sourceId": "moex-114-pilot-law",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "114-pilot-law-02",
+    "year": 2025,
+    "subject": "航政法規",
+    "port": "共通科目",
+    "question": "請說明為保障船舶、設施和人命財產安全，進出港船舶應採何種航行安全措施？（25 分）",
+    "sourceId": "moex-114-pilot-law",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "114-pilot-law-03",
+    "year": 2025,
+    "subject": "航政法規",
+    "port": "共通科目",
+    "question": "請依商港法說明商港法之立法目的，以及相關之港埠政策內容。（25 分）",
+    "sourceId": "moex-114-pilot-law",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "114-pilot-law-04",
+    "year": 2025,
+    "subject": "航政法規",
+    "port": "共通科目",
+    "question": "請說明港口船舶交通服務（Vessel Traffic Service）在航行安全作業之職掌。（25 分）",
+    "sourceId": "moex-114-pilot-law",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "114-pilotage-01",
+    "year": 2025,
+    "subject": "引港學",
+    "port": "共通科目",
+    "question": "請畫出表示下列導航標誌、設施或目標在電子海圖顯示與資訊系統（ECDIS）上的國際通用符號（無須著色）。（每小題 4 分，共 20 分）（一）離岸風場（Wind farm (offshore)）；（二）導循航向的指向燈（Directional light without sector (Direction light with course to be followed)）；（三）深度未知或低於安全等深線的沉船（Submerged wreck with depth less than the safety contour or depth unknown）；（四）環境敏感水域（Environmentally Sensitive Sea Area）；（五）交通警戒區（Traffic precautionary area）。",
+    "sourceId": "moex-114-pilotage",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "114-pilotage-02",
+    "year": 2025,
+    "subject": "引港學",
+    "port": "共通科目",
+    "question": "請敘述溫帶氣旋與熱帶氣旋的相似與差異處。（20 分）",
+    "sourceId": "moex-114-pilotage",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "114-pilotage-03",
+    "year": 2025,
+    "subject": "引港學",
+    "port": "共通科目",
+    "question": "甲、乙兩船由同點出發，航向均為 000°，朝向正前方 35 里處之燈塔 L 前進，甲船速率 15 節，乙船速率 12 節。2 小時後，甲船測 L 之方位為 040°，乙船測 L 之方位為 025°，求水流的流向與流速。（20 分）",
+    "sourceId": "moex-114-pilotage",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "114-pilotage-04",
+    "year": 2025,
+    "subject": "引港學",
+    "port": "共通科目",
+    "question": "近年來臺灣沿岸及離岸設立諸多風力發電機（Wind Turbine），請敘述此等風機對船用雷達（含 X-Band 及 S-Band）的影響以及應注意事項。（20 分）",
+    "sourceId": "moex-114-pilotage",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "114-pilotage-05",
+    "year": 2025,
+    "subject": "引港學",
+    "port": "共通科目",
+    "question": "請從引航定位的角度說明在港區狹窄水道航行應注意事項。（20 分）",
+    "sourceId": "moex-114-pilotage",
+    "status": "已核對",
+    "questionNo": 5
   }
 ]
