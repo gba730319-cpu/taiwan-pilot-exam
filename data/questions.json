@@ -4588,5 +4588,455 @@
     "sourceId": "moex-087-waterway",
     "status": "已核對",
     "questionNo": 6
+  },
+  {
+    "id": "086-taichung-waterway-01",
+    "year": 1997,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "試繪台中港港內圖（包括運煤航道及台電碼頭）。（30 分）",
+    "sourceId": "moex-086-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "086-taichung-waterway-02",
+    "year": 1997,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "試繪台中港港口分道航行圖（包括分隔區、進出港航路、引水登輪點、及防波堤口）。（10 分）",
+    "sourceId": "moex-086-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "086-taichung-waterway-03",
+    "year": 1997,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "試列述協助台電碼頭運煤輪專用之拖船船名、馬力、性能為何？在進出港作業中如何配置及繫帶拖纜？並試述使用上述拖船協助進港之滿載運煤輪（LOA 225 米、G/T 35450、吃水 F：12.00 米、A：12.00 米）於運煤航道中航行至 #15 號燈浮附近時，忽然運煤輪之主機故障（失去動力）惟舵機尚未故障，應如何應變？若主機短時間之內無法修復時，可否操縱該輪停靠台電 #101 號碼頭？（20 分）",
+    "sourceId": "moex-086-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "086-taichung-waterway-04",
+    "year": 1997,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "颱風路徑行經本省約有七大類，其中以那些路徑易對台中港造成影響？對港內停泊中船隻是否需要作何防颱措施？歷年來颱風對台中港造成影響者，其影響程度如何？颱風期間適逢大潮，港內潮位會有何現象發生？（15 分）",
+    "sourceId": "moex-086-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "086-taichung-waterway-05",
+    "year": 1997,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "引領一艘滿載貨櫃船（LOA 175 米、吃水 F：7.50 米、A：9.00 米）在十級東北季風中進港往靠 #32 號碼頭，試問應申請幾艘拖船為宜？拖船應如何配置及繫帶拖纜？如何靠泊？（15 分）",
+    "sourceId": "moex-086-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "086-taichung-waterway-06",
+    "year": 1997,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "台中港霧季發生在幾月份？霧季之能見度可能低到什麼程度？霧季中領航作業應注意事項為何？（10 分）",
+    "sourceId": "moex-086-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "086-anping-waterway-01",
+    "year": 1997,
+    "subject": "當地水道港灣詳情",
+    "port": "安平港",
+    "question": "試繪安平港簡圖，並標明其導航設施、碼頭方位、碼頭水深及 6 米之等深線。（30 分）",
+    "sourceId": "moex-086-anping-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "086-anping-waterway-02",
+    "year": 1997,
+    "subject": "當地水道港灣詳情",
+    "port": "安平港",
+    "question": "通過護岸耗時兩分鐘，請列式計算當時本船之大約時速。（10 分）",
+    "sourceId": "moex-086-anping-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "086-anping-waterway-03",
+    "year": 1997,
+    "subject": "當地水道港灣詳情",
+    "port": "安平港",
+    "question": "試述安平港的潮汐及潮流概況。（20 分）",
+    "sourceId": "moex-086-anping-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "086-anping-waterway-04",
+    "year": 1997,
+    "subject": "當地水道港灣詳情",
+    "port": "安平港",
+    "question": "颱風過後，安平港外應如何駕駛使領港安全上船？（10 分）",
+    "sourceId": "moex-086-anping-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "086-anping-waterway-05",
+    "year": 1997,
+    "subject": "當地水道港灣詳情",
+    "port": "安平港",
+    "question": "安平港內，如何知道本船船艉在水面之大概位置？（10 分）",
+    "sourceId": "moex-086-anping-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "086-anping-waterway-06",
+    "year": 1997,
+    "subject": "當地水道港灣詳情",
+    "port": "安平港",
+    "question": "六千總噸、吃水 6 米之水泥船，欲靠泊 6 號碼頭。二仟四佰匹馬力拖船乙艘備便。請問您自堤外如何引導靠泊？其沿路航向為何？（20 分）",
+    "sourceId": "moex-086-anping-waterway",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "086-kaohsiung-waterway-01",
+    "year": 1997,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "試繪高雄港簡圖，並標明其導航設施及各水面之寬度。（30 分）",
+    "sourceId": "moex-086-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "086-kaohsiung-waterway-02",
+    "year": 1997,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "最近高雄港增加了那些安全導航設施？（10 分）",
+    "sourceId": "moex-086-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "086-kaohsiung-waterway-03",
+    "year": 1997,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "試述高雄港於濃霧時段有何航行限制？濃霧通常發生於什麼季節？（10 分）",
+    "sourceId": "moex-086-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "086-kaohsiung-waterway-04",
+    "year": 1997,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "航行於高雄港，如無任何航速儀器時，如何得知本船之大約航速？（10 分）",
+    "sourceId": "moex-086-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "086-kaohsiung-waterway-05",
+    "year": 1997,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "試述一千總噸重載化學品船，靠泊第 27 號碼頭應注意事項。（10 分）",
+    "sourceId": "moex-086-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "086-kaohsiung-waterway-06",
+    "year": 1997,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "吹 4 級西北風時，拖船之艏，如何駛離繫泊於第 25 號浮筒並下雙錨之五仟總噸空船？（10 分）",
+    "sourceId": "moex-086-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "086-kaohsiung-waterway-07",
+    "year": 1997,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "150 米長之重載船，由一港口進港欲右靠第 52 號碼頭，請問如何調頭較安全？（10 分）",
+    "sourceId": "moex-086-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 7
+  },
+  {
+    "id": "086-kaohsiung-waterway-08",
+    "year": 1997,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "於高雄港港內，如何知道本船船艉在水面之大概位置？（10 分）",
+    "sourceId": "moex-086-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 8
+  },
+  {
+    "id": "086-pilotage-01",
+    "year": 1997,
+    "subject": "引港學",
+    "port": "臺中港、高雄港、安平港",
+    "question": "試依新制海圖圖例說明或繪出下列符號：（20 分）(1)WGS (2)Fl(3)WRG15s21M15-11M (3)領海直線基線 (4)警戒區 (5)檢疫錨泊區 (6)海底電力電纜區 (7)海產養殖場（小尺度圖）(8)推薦航線（090°～270°）(9)貨櫃起重機（附舉重限量 50T）(10)高壓電纜及鐵塔（附安全直隙 64M）",
+    "sourceId": "moex-086-pilotage",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "086-pilotage-02",
+    "year": 1997,
+    "subject": "引港學",
+    "port": "臺中港、高雄港、安平港",
+    "question": "試分析我國潮汐表之精確度。（15 分）",
+    "sourceId": "moex-086-pilotage",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "086-pilotage-03",
+    "year": 1997,
+    "subject": "引港學",
+    "port": "臺中港、高雄港、安平港",
+    "question": "夜間於港內航行如何避開浮筒？（10 分）",
+    "sourceId": "moex-086-pilotage",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "086-pilotage-04",
+    "year": 1997,
+    "subject": "引港學",
+    "port": "臺中港、高雄港、安平港",
+    "question": "試比較海峽兩岸在航行標誌與海圖基準面之異同。（15 分）",
+    "sourceId": "moex-086-pilotage",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "086-pilotage-05",
+    "year": 1997,
+    "subject": "引港學",
+    "port": "臺中港、高雄港、安平港",
+    "question": "試述起源自南中國海之颱風的特性，及其對台灣之影響。（20 分）",
+    "sourceId": "moex-086-pilotage",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "086-pilotage-06",
+    "year": 1997,
+    "subject": "引港學",
+    "port": "臺中港、高雄港、安平港",
+    "question": "某船由 H 島東方 15 浬出發，航駛情形如下：0800 C000° S15Kn，0820 C075° S12Kn，0840 C310° S12Kn，0940 C220° S12Kn，1020 定位於 H 025° 之方向，距離 7 浬，試以計算法求水流。（20 分）",
+    "sourceId": "moex-086-pilotage",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "086-english-01",
+    "year": 1997,
+    "subject": "實用英文",
+    "port": "臺中港、高雄港、安平港",
+    "question": "Please proofread the following letter making corrections as necessary:（40 分）Capt. P. C. Chiu, Tai An Marine Supplies, 7th Floor, No.75, Nanking East Road, Sec. 4th, Taipei, Taiwan. Dear Capt. Chiu: On December 12, 1996, I placed an order for one set of three charts from Tai An Marine Supplies. Whoever took the order for your organization must have misunderstood my order, as they wrote an order for 3 sets of 3 charts. When the order arrived, I told T.K. Chen, the delivery driver, that I had only ordered one set and that I could not accept the additional sets which was not a part of our order. Mr. Chen said that since he worked for Speedy Delivery and Tai An Marine Supplies, they could not alter the shipment. They said we either had to accept the order as it were or reject the entire shipment. We rejected the incorrect order entirely. I has just received an invoice from Tai An Marine Supplies, which states that I owe NT$900 for 3 sets of charts. Obviously, this are a mistake which we would like to see corrected. In addition, I am still awaiting receipt of my original order which have still not arrived. I would appreciate your looking into why we have not yet received my one set of charts. Thank you.",
+    "sourceId": "moex-086-english",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "086-english-02",
+    "year": 1997,
+    "subject": "實用英文",
+    "port": "臺中港、高雄港、安平港",
+    "question": "Please translate the following passage into Chinese: (1) His job for the next three hours was just like that of every other bay and harbor pilot before him, in a profession stretching back to biblical times, to guide the ship safely into or out of port, using his intimate knowledge of the ocean and the bay’s difficult waters. (2) A pilot does not take command of a ship and does not touch any of its controls. In the words of maritime law, he is “the borrowed servant of the vessel”. The ship’s captain remains in charge and can even dismiss a pilot or override an order, but it is to the pilot that “belongs the conduct of the vessel”.（40 分）",
+    "sourceId": "moex-086-english",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "086-english-03",
+    "year": 1997,
+    "subject": "實用英文",
+    "port": "臺中港、高雄港、安平港",
+    "question": "Please translate the following Chinese terms into English and use the same to construct a complete sentence in English:（20 分）(1)不良船席 (2)易變天氣 (3)迴轉穩定器 (4)海事報告 (5)舉證責任",
+    "sourceId": "moex-086-english",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "086-pilot-law-01",
+    "year": 1997,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港、安平港",
+    "question": "在有拖船協助之領航作業時，說明船長、引水人、拖船間之關係。（10 分）",
+    "sourceId": "moex-086-pilot-law",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "086-pilot-law-02",
+    "year": 1997,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港、安平港",
+    "question": "請依據引水法第十七條，說明船舶應如何招請引水人。（10 分）",
+    "sourceId": "moex-086-pilot-law",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "086-pilot-law-03",
+    "year": 1997,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港、安平港",
+    "question": "按現行辦法，一心身健康品德優良之中華民國國民，參加甲種引水人考試，經榜示錄取後，應經那些過程，領取那些證書後，方得在其諸習引水區域執行領航業務？（請扼要作答，不必詳述過程、證書之細節、內容）（10 分）",
+    "sourceId": "moex-086-pilot-law",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "086-pilot-law-04",
+    "year": 1997,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港、安平港",
+    "question": "引水人在其執業引水區域內，發現船舶所有人僱用不合格之人引領其船舶，引水人應如何處理此事？依據引水有關法規，該船舶所有人，可受到如何之處罰？（10 分）",
+    "sourceId": "moex-086-pilot-law",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "086-pilot-law-05",
+    "year": 1997,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港、安平港",
+    "question": "商港法第十八條規定，在商港區域內，不得為那些行為？（10 分）",
+    "sourceId": "moex-086-pilot-law",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "086-pilot-law-06",
+    "year": 1997,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港、安平港",
+    "question": "依據商港法有關條文之規定，對於拖欠商港管理機關應繳之設施使用費、損壞設施修復費，商港管理機關可採取那些管理行為或措施？（10 分）",
+    "sourceId": "moex-086-pilot-law",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "086-pilot-law-07",
+    "year": 1997,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港、安平港",
+    "question": "請依據國際商港港務管理規則第十四條，說明停泊船舶安排駐留船員之要求事項？（10 分）",
+    "sourceId": "moex-086-pilot-law",
+    "status": "已核對",
+    "questionNo": 7
+  },
+  {
+    "id": "086-pilot-law-08",
+    "year": 1997,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港、安平港",
+    "question": "國際商港港務管理規則中，對遇難或避難船舶，經檢查發現有那些情事者，應拒絕其進港？（10 分）",
+    "sourceId": "moex-086-pilot-law",
+    "status": "已核對",
+    "questionNo": 8
+  },
+  {
+    "id": "086-pilot-law-09",
+    "year": 1997,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港、安平港",
+    "question": "國際海上避碰規則第六條規定，各船應經常以安全速度（SAFE SPEED）航行。在決定安全速度時，所有船舶（ALL VESSELS）應有哪些考慮事項？（使用雷達船舶之考慮事項，非問可免答）（10 分）",
+    "sourceId": "moex-086-pilot-law",
+    "status": "已核對",
+    "questionNo": 9
+  },
+  {
+    "id": "086-pilot-law-10",
+    "year": 1997,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港、安平港",
+    "question": "一航行中長度為三十公尺之動力引水船於正從事引水作業中。該船之號燈、號笛均按規定設置使用。請問：(1)在晴朗夜間應顯示那些號燈？該等號燈之最小能見距各為多少海里？（5 分）(2)在能見度受限制時，應以號笛發出那些音響信號？該號笛聲能聽距（AUDIBILITY RANGE）之參考代表數值為多少海里？（5 分）",
+    "sourceId": "moex-086-pilot-law",
+    "status": "已核對",
+    "questionNo": 10
+  },
+  {
+    "id": "086-shiphandling-01",
+    "year": 1997,
+    "subject": "船舶操縱",
+    "port": "臺中港、高雄港、安平港",
+    "question": "當引水人登輪領航時，通常船長會提出那些問題？試評述之。（15 分）",
+    "sourceId": "moex-086-shiphandling",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "086-shiphandling-02",
+    "year": 1997,
+    "subject": "船舶操縱",
+    "port": "臺中港、高雄港、安平港",
+    "question": "航行於狹窄水道（Narrow Channel）中，在追越他船時，請詳述被追越船所受影響的各種情況。（15 分）",
+    "sourceId": "moex-086-shiphandling",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "086-shiphandling-03",
+    "year": 1997,
+    "subject": "船舶操縱",
+    "port": "臺中港、高雄港、安平港",
+    "question": "某船在外海以速度 12 節航行準備進港，於通過防波堤口時需保持 8 節航速，入港後限制航速為 3 節，今日知悉該船由 12 節減至 8 節需時 6 分鐘，試問應於距離防波堤口若干浬處即須減速？（15 分）",
+    "sourceId": "moex-086-shiphandling",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "086-shiphandling-04",
+    "year": 1997,
+    "subject": "船舶操縱",
+    "port": "臺中港、高雄港、安平港",
+    "question": "附有 KORT NOZZLE 的 CPP 拖船，試述其特性及使用時應注意事項。（15 分）",
+    "sourceId": "moex-086-shiphandling",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "086-shiphandling-05",
+    "year": 1997,
+    "subject": "船舶操縱",
+    "port": "臺中港、高雄港、安平港",
+    "question": "某船全長 155 公尺，總噸位 12,000 噸，吃水艏 4 公尺、艉 6 公尺，主副機均無法使用，於港內無風無流時，自船拋錨碼頭移泊至距離 2,000 碼之浮筒繫泊繼續修理工程。試說明在操船上應如何安排以達到安全移泊之要求？（20 分）",
+    "sourceId": "moex-086-shiphandling",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "086-shiphandling-06",
+    "year": 1997,
+    "subject": "船舶操縱",
+    "port": "臺中港、高雄港、安平港",
+    "question": "試述正橫潮流之強度如何求得？在水深 46 呎之水域中，一艘 70,000 DWT 之油輪，其水線長度為 790 呎，在橫流 1 節、2 節及 3 節之情況下，其所承受之力各為若干噸？（該船壓艙時平均吃水為 21 呎，滿載時吃水為 42 呎）。（20 分）",
+    "sourceId": "moex-086-shiphandling",
+    "status": "已核對",
+    "questionNo": 6
   }
 ]
