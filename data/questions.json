@@ -5038,5 +5038,35 @@
     "sourceId": "moex-086-shiphandling",
     "status": "已核對",
     "questionNo": 6
+  },
+  {
+    "id": "086-practical-english-01",
+    "year": 1997,
+    "subject": "實用英文",
+    "port": "臺中港、高雄港、安平港",
+    "question": "Please proofread the following letter making corrections as necessary:（40分）\nCapt. P. C. Chiu\nTai An Marine Supplies\n7th Floor, No.75, Nanking East Road, Sec. 4th\nTaipei, Taiwan\n\nDear Capt. Chiu\n\nOn December 12, 1996, I placed a order for one set of three charts from Tai An Marine Supplies. Whomever took the order for your organization must have misunderstood my order, as they wrote an order for 3 sets of 3 charts.\n\nWhen the order arrived, I told T.K. Chen, the delivery driver, that I had only ordered one set and that I could not accept the additional sets which was not part of our order. Mr. Chen said that since he worked for Speedy Delivery and Tai An Marine Supplies, they could not alter the shipment. They said we either had to accept the order as it were or reject the entire shipment. We rejected the incorrect shipment entirely.\n\nI has just received an invoice from Tai An Marine Supplies, which states that I owe NT$900 for 3 sets of charts. Obviously, this are a mistake which we would like to see corrected. In addition, I am still awaiting receipt of my original order which have still not arrived. I would appreciate your looking into why we have not yet received my one set of charts.\n\nThank you.",
+    "sourceId": "moex-086-practical-english",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "086-practical-english-02",
+    "year": 1997,
+    "subject": "實用英文",
+    "port": "臺中港、高雄港、安平港",
+    "question": "Please translate the following passage into Chinese:（40分）(1) His job for the next three hours was just like that of every other bay and harbor pilot before him, in a profession stretching back to biblical times, to guide the ship safely into or out of port, using his intimate knowledge of the ocean and the bay's difficult waters. (2) A pilot does not take command of a ship and does not touch any of its controls. In the words of maritime law, he is “the borrowed servant of the vessel”. The ship's captain remains in charge and can even dismiss a pilot or override an order, but it is to the pilot that “belongs the conduct of the vessel”.",
+    "sourceId": "moex-086-practical-english",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "086-practical-english-03",
+    "year": 1997,
+    "subject": "實用英文",
+    "port": "臺中港、高雄港、安平港",
+    "question": "Please translate the following Chinese terms into English and use the same to construct a complete sentence in English:（20分）(一)不良船席 (二)易變天氣 (三)迴轉穩定器 (四)海事報告 (五)舉證責任",
+    "sourceId": "moex-086-practical-english",
+    "status": "已核對",
+    "questionNo": 3
   }
 ]
