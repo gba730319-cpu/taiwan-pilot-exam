@@ -3090,5 +3090,593 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "086-kaohsiung-waterway-01-answer-v1",
+    "questionId": "086-kaohsiung-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_or_drawing",
+    "modelAnswer": "以1997年高雄港海圖為底圖，標出第一、第二港口防波堤、港池岸線、主航道、支航道、迴船池及主要船渠。分別標示兩港口入口寬度、港內主航道及各水域最窄處寬度，並註明海圖基準面與測深日期。導航設施包括高雄港燈塔、兩港口防波堤燈杆、導標、燈浮、雷達標、信號台及引水站，須列出位置、燈色、燈質、週期與能見距。各碼頭依1997年港區圖標示編號、岸線位置、用途及水深。不可用現行港區寬度與後續工程資料替代1997年數據。",
+    "practicalAnalysis": "題目要求各水面寬度及導航設施，需以1997年港區圖與燈表逐項量取。",
+    "keyPoints": [
+      {
+        "point": "兩港口及防波堤",
+        "importance": "essential"
+      },
+      {
+        "point": "各水面寬度與航道最窄處",
+        "importance": "essential"
+      },
+      {
+        "point": "導航燈標及雷達標",
+        "importance": "essential"
+      },
+      {
+        "point": "碼頭編號與用途",
+        "importance": "essential"
+      },
+      {
+        "point": "註明1997年海圖版次",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港區碼頭及航道設施",
+        "supports": "現行港區碼頭、航道及水深資料。"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "助導航設備",
+        "supports": "現行燈杆、導標、雷達標及導航設施。"
+      },
+      {
+        "title": "高雄港船舶進出港管制規定",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "濃霧及進出港限制",
+        "supports": "現行能見度及航行限制，不能直接套用1997年。"
+      }
+    ],
+    "limitations": [
+      "需取得1997年高雄港歷史圖資核對細節。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及可取得官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1997年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "086-kaohsiung-waterway-02-answer-v1",
+    "questionId": "086-kaohsiung-waterway-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "本題所稱「最近增加」的安全導航設施，必須以1997年港務局航船布告、助航設施增設公告及當年燈表確認。答題應逐項列出新增燈杆、導標、燈浮、雷達標或警示標誌的名稱、位置、燈色、燈質、週期、能見距及設置目的，並說明其改善的是港口入口辨識、航道邊界、淺點警示或雷達定位。現行導航設施清單只能提供今日狀態，不能反推1997年「最近新增」的項目。",
+    "practicalAnalysis": "需取得1997年新增助航設施公告才能定稿，避免把現行設施誤稱為當年新增。",
+    "keyPoints": [
+      {
+        "point": "以1997年航船布告核實新增設施",
+        "importance": "essential"
+      },
+      {
+        "point": "列位置、燈色燈質及能見距",
+        "importance": "essential"
+      },
+      {
+        "point": "說明安全功能及警示水域",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港區碼頭及航道設施",
+        "supports": "現行港區碼頭、航道及水深資料。"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "助導航設備",
+        "supports": "現行燈杆、導標、雷達標及導航設施。"
+      },
+      {
+        "title": "高雄港船舶進出港管制規定",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "濃霧及進出港限制",
+        "supports": "現行能見度及航行限制，不能直接套用1997年。"
+      }
+    ],
+    "limitations": [
+      "需取得1997年高雄港歷史圖資核對細節。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及可取得官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1997年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "086-kaohsiung-waterway-03-answer-v1",
+    "questionId": "086-kaohsiung-waterway-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "高雄港濃霧時的進出港限制，應依1997年當時有效的高雄港船舶進出港管制基準作答，確認是否依港口別、船舶總噸位、船種或能見度分級，並區分「停止進出港」與「限制特定船舶通行」。濃霧通常發生於冬末至春季，尤其東北季風轉弱、暖濕空氣移入較冷海面時，容易形成平流霧；實際月份及頻率應以高雄港歷史氣象資料確認。濃霧期間應加強雷達及目視瞭望、使用安全速度、鳴放霧號、守聽VHF並服從VTS指示；能見度不足以安全操船時應等待，不可僅依雷達勉強進港。",
+    "practicalAnalysis": "現行低能見度標準可能是後續修訂，不可直接回填1997年門檻。",
+    "keyPoints": [
+      {
+        "point": "濃霧管制門檻依1997年有效基準",
+        "importance": "essential"
+      },
+      {
+        "point": "區分暫停與限制船種",
+        "importance": "essential"
+      },
+      {
+        "point": "冬末春季平流霧可能性",
+        "importance": "essential"
+      },
+      {
+        "point": "安全速度、霧號、雷達及VHF",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港區碼頭及航道設施",
+        "supports": "現行港區碼頭、航道及水深資料。"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "助導航設備",
+        "supports": "現行燈杆、導標、雷達標及導航設施。"
+      },
+      {
+        "title": "高雄港船舶進出港管制規定",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "濃霧及進出港限制",
+        "supports": "現行能見度及航行限制，不能直接套用1997年。"
+      }
+    ],
+    "limitations": [
+      "需取得1997年高雄港歷史圖資核對細節。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及可取得官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1997年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "086-kaohsiung-waterway-04-answer-v1",
+    "questionId": "086-kaohsiung-waterway-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "calculation",
+    "modelAnswer": "無航速儀器時，可利用已知距離與通過時間估算船舶對地航速。若船舶通過兩個固定岸標、碼頭角點或纜樁的距離為D公尺，所需時間為t秒，則V(m/s)=D/t；換算節數：V(kn)=D/t×1.94384。亦可用雷達量測固定目標距離變化，或用GPS SOG作交叉檢查。若以船舶長度L作為已知基準，船首通過固定物至船艉通過同一物的時間t，則V(kn)=L/t×1.94384。需注意：此方法測得多為對地速度；有流時與對水速度不同。估算時應選固定目標、避免轉向及橫移，並重複測量以降低誤差。",
+    "practicalAnalysis": "題目未提供固定距離或通過時間，應回答方法及公式而非單一數值。",
+    "keyPoints": [
+      {
+        "point": "已知距離D與時間t",
+        "importance": "essential"
+      },
+      {
+        "point": "V(kn)=D/t×1.94384",
+        "importance": "essential"
+      },
+      {
+        "point": "可用船長作基準",
+        "importance": "essential"
+      },
+      {
+        "point": "分辨對地與對水速度",
+        "importance": "essential"
+      },
+      {
+        "point": "重複測量降低誤差",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港區碼頭及航道設施",
+        "supports": "現行港區碼頭、航道及水深資料。"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "助導航設備",
+        "supports": "現行燈杆、導標、雷達標及導航設施。"
+      },
+      {
+        "title": "高雄港船舶進出港管制規定",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "濃霧及進出港限制",
+        "supports": "現行能見度及航行限制，不能直接套用1997年。"
+      }
+    ],
+    "limitations": [
+      "需取得1997年高雄港歷史圖資核對細節。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及可取得官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1997年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "086-kaohsiung-waterway-05-answer-v1",
+    "questionId": "086-kaohsiung-waterway-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "1,000總噸重載化學品船靠泊27號碼頭，應先確認碼頭當年用途、結構型式、船席長度、水深、防舷材及危險品作業限制。重載船慣性大，接觸能量較高，靠泊時須控制接近速度與角度，避免船體外板直接撞擊碼頭樁柱、岸肩或其他硬點。靠泊前核算吃水、潮位及UKC，與船長交換主機舵效、停船距離及操縱限制，必要時配置拖船控制艏艉及橫移。接近碼頭時保持船體平行，以低速分段靠近，先消除縱向速度，再控制橫向速度；確認防舷材與船體接觸位置相符，送纜後平均分配纜繩張力。化學品船另須確認危險品通報、消防、禁火、靜電及裝卸管線安全。",
+    "practicalAnalysis": "27號碼頭1997年結構型式及防舷材配置須查當年設施圖。",
+    "keyPoints": [
+      {
+        "point": "核對27號碼頭用途與結構",
+        "importance": "essential"
+      },
+      {
+        "point": "重載船降低接觸能量",
+        "importance": "essential"
+      },
+      {
+        "point": "UKC及潮位",
+        "importance": "essential"
+      },
+      {
+        "point": "防舷材與繫纜設備",
+        "importance": "essential"
+      },
+      {
+        "point": "化學品消防及禁火",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港區碼頭及航道設施",
+        "supports": "現行港區碼頭、航道及水深資料。"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "助導航設備",
+        "supports": "現行燈杆、導標、雷達標及導航設施。"
+      },
+      {
+        "title": "高雄港船舶進出港管制規定",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "濃霧及進出港限制",
+        "supports": "現行能見度及航行限制，不能直接套用1997年。"
+      }
+    ],
+    "limitations": [
+      "需取得1997年高雄港歷史圖資核對細節。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及可取得官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1997年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "086-kaohsiung-waterway-06-answer-v1",
+    "questionId": "086-kaohsiung-waterway-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "operational_scenario",
+    "modelAnswer": "5,000總噸空船以船艏下雙錨繫泊25號浮筒，西北風4級，拖船協助離泊。西北風由西北吹向東南，空船風壓面積大，船舶可能向東南漂移；實際作用仍須依船艏向及錨鏈方向判斷。離泊前先向VTS申請，確認航道淨空、錨鏈方向、兩錨受力及浮筒周圍船舶。拖船先在適當位置建立控制，抑制船舶受風漂移及艏向偏轉；再逐一收取雙錨，避免兩錨鏈交叉或同時失去控制。錨鏈卸力後起錨，確認兩錨收妥及固定，才解除浮筒繫纜。主機與舵配合拖船控制船位，低速離開浮筒區，依VTS指示進入航道。若錨鏈受力異常，停止強拉並調整船位卸力。",
+    "practicalAnalysis": "未提供船艏向、錨鏈方向及拖船拖帶點，不能指定固定先收左錨或右錨。",
+    "keyPoints": [
+      {
+        "point": "確認雙錨方向及受力",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船先建立船位控制",
+        "importance": "essential"
+      },
+      {
+        "point": "逐一卸力起錨避免纏鏈",
+        "importance": "essential"
+      },
+      {
+        "point": "錨收妥才解浮筒纜",
+        "importance": "essential"
+      },
+      {
+        "point": "主機舵與拖船協同",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港區碼頭及航道設施",
+        "supports": "現行港區碼頭、航道及水深資料。"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "助導航設備",
+        "supports": "現行燈杆、導標、雷達標及導航設施。"
+      },
+      {
+        "title": "高雄港船舶進出港管制規定",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "濃霧及進出港限制",
+        "supports": "現行能見度及航行限制，不能直接套用1997年。"
+      }
+    ],
+    "limitations": [
+      "需取得1997年高雄港歷史圖資核對細節。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及可取得官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1997年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "086-kaohsiung-waterway-07-answer-v1",
+    "questionId": "086-kaohsiung-waterway-07",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "operational_scenario",
+    "modelAnswer": "150m重載船由第一港口進港右靠52號碼頭，若需調頭，應先確認可用迴船水域、船舶吃水、迴轉性能、風流、航道交通及拖船配置。重載船慣性大，船首內切及船尾外掃範圍不可忽略；不得在狹窄航道或碼頭前臨時急轉。進港前與船長交換操縱資料，向VTS申請交通排序，確認迴船池及轉向水域淨空。以適當速度進入預定迴轉區，利用主機及舵建立轉向，必要時由拖船控制船首或船尾，避免船尾掃向鄰近碼頭。完成調頭後先穩定航向及速度，再以低速接近52號碼頭，控制右舷靠泊的橫向速度及接觸角。若迴轉水域不足或風流不利，應改採其他安全轉向方案或等待。",
+    "practicalAnalysis": "需依當年第一港口迴船池尺寸、52號碼頭位置及船舶操縱資料決定具體迴轉點。",
+    "keyPoints": [
+      {
+        "point": "確認迴船水域及淨空",
+        "importance": "essential"
+      },
+      {
+        "point": "重載船慣性及船尾外掃",
+        "importance": "essential"
+      },
+      {
+        "point": "提早減速",
+        "importance": "essential"
+      },
+      {
+        "point": "主機舵與拖船配合轉向",
+        "importance": "essential"
+      },
+      {
+        "point": "右舷低速平移靠泊",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港區碼頭及航道設施",
+        "supports": "現行港區碼頭、航道及水深資料。"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "助導航設備",
+        "supports": "現行燈杆、導標、雷達標及導航設施。"
+      },
+      {
+        "title": "高雄港船舶進出港管制規定",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "濃霧及進出港限制",
+        "supports": "現行能見度及航行限制，不能直接套用1997年。"
+      }
+    ],
+    "limitations": [
+      "需取得1997年高雄港歷史圖資核對細節。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及可取得官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1997年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "086-kaohsiung-waterway-08-answer-v1",
+    "questionId": "086-kaohsiung-waterway-08",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "估計船艉在水面上的位置，可先確認GPS天線、雷達天線或駕駛台定位點至船艉的縱向偏移量，再依船舶艏向推算船艉座標。另可使用雷達固定岸標距離與方位、平行指標、岸上固定物方位交會、目視船艉與碼頭角點的相對距離，以及艉部觀察員透過VHF回報。轉向時須考慮船尾外掃，不能只以船舶中心點推算；若GPS天線位於駕駛台或船中，必須輸入正確天線偏移量。靠離泊時應以雷達、目視、GPS及艉部觀察員交叉驗證，尤其注意船艉與鄰船、碼頭、浮筒及繫纜的淨距。",
+    "practicalAnalysis": "題目問概略位置，重點是定位參考點偏移及轉向船尾外掃。",
+    "keyPoints": [
+      {
+        "point": "船舶總布置圖及天線偏移",
+        "importance": "essential"
+      },
+      {
+        "point": "GPS艏向推算船艉座標",
+        "importance": "essential"
+      },
+      {
+        "point": "雷達固定目標及平行指標",
+        "importance": "essential"
+      },
+      {
+        "point": "艉部觀察員回報",
+        "importance": "essential"
+      },
+      {
+        "point": "轉向時船尾外掃",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "港區碼頭及航道設施",
+        "supports": "現行港區碼頭、航道及水深資料。"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "助導航設備",
+        "supports": "現行燈杆、導標、雷達標及導航設施。"
+      },
+      {
+        "title": "高雄港船舶進出港管制規定",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "濃霧及進出港限制",
+        "supports": "現行能見度及航行限制，不能直接套用1997年。"
+      }
+    ],
+    "limitations": [
+      "需取得1997年高雄港歷史圖資核對細節。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及可取得官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1997年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
