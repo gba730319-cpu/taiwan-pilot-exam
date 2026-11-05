@@ -4108,5 +4108,425 @@
     "sourceId": "moex-091-english",
     "status": "已核對",
     "questionNo": 3
+  },
+  {
+    "id": "087-keelung-waterway-01",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "基隆港",
+    "question": "試述基隆港之地理環境與港區狀況。（包括地理位置、港區劃分、進出港口主航道、船舶泊地、檢疫錨地及禁止錨泊區等）（30 分）",
+    "sourceId": "moex-087-keelung-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "087-keelung-waterway-02",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "基隆港",
+    "question": "基隆港在港外實施分道航行制，其內容及相關規定為何？試繪簡圖說明之。（15 分）",
+    "sourceId": "moex-087-keelung-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "087-keelung-waterway-03",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "基隆港",
+    "question": "最近基隆港開始實施新制引水制度，試述其與原引水制度有何異同之處？倘使商輪船長要求依照新制引領船舶時，您會如何處理？試述理由。（15 分）",
+    "sourceId": "moex-087-keelung-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "087-keelung-waterway-04",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "基隆港",
+    "question": "船舶在引水人引領及港勤拖船協助下靠離碼頭時，常有碰撞碼頭、碰撞停靠之他船或撞損碼頭裝卸設備之意外事故發生，您認為：(1)此種事故之發生，引水人是否應負疏失之責？理由何在？(2)此種意外事故是否可以事先予以防範？如何防止之？（10 分）",
+    "sourceId": "moex-087-keelung-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "087-keelung-waterway-05",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "基隆港",
+    "question": "通常前來基隆港之大型船舶包括貨櫃輪、油輪、散裝船、客船及汽車船，分別靠泊船席為何？其水深及長度為何？有無特別限制？請說明之。（15 分）",
+    "sourceId": "moex-087-keelung-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "087-keelung-waterway-06",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "基隆港",
+    "question": "基隆港外野柳附近海域海圖上常有標幟「錨與錨」之字標，其意義為何？又如船長徵詢您（引水人）對錨泊之看法時，您會如何予以建議，理由何在？又倘若船舶在預備進港前，無法將錨及錨鏈順利收回時，您認為原因有哪些？應如何處理方為適當？（15 分）",
+    "sourceId": "moex-087-keelung-waterway",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "087-taichung-waterway-01",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "試解釋下列專有名詞：（30 分）(1)暴潮（Storm Surge）(2)海嘯（Tsunami）(3)副振動或蕩漾（Seiche or Oscillation）(4)漂沙（Littoral Drift）(5)沿岸流（Alongshore Current）(6)坐落現象（Squat）",
+    "sourceId": "moex-087-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "087-taichung-waterway-02",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "設某船進入臺中港西碼頭區，此時風之方向為 NNE，流之方向為 NE，試繪圖說明如何配置與規劃操船之空間，並敘述該船靠碼頭之程序。（25 分）",
+    "sourceId": "moex-087-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "087-taichung-waterway-03",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "設有 100,000 DWT 之貨輪一艘，在壓載狀況下，離岸出港，試問離岸操船之程序如何？（15 分）",
+    "sourceId": "moex-087-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "087-taichung-waterway-04",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "臺中港刻正規劃 VTMS，設該系統擬放置 VHDF，請說明 VHDF 之功能及以臺中港之海上交通條件列舉說明主要規範及設置地點。（20 分）",
+    "sourceId": "moex-087-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "087-taichung-waterway-05",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "分道航行（Traffic Separation System）之意義為何？試述規劃臺中港分道航行之原則。（10 分）",
+    "sourceId": "moex-087-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "087-kaohsiung-waterway-01",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "請描繪自第二港口防波堤口至前鎮河口間港域圖（包括中鋼、中船前支航道），並註明碼頭位置及編號、航道水深及最窄處寬度。（25 分）",
+    "sourceId": "moex-087-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "087-kaohsiung-waterway-02",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "船舶從第一港口進港時所需參考之導航標誌有多少？請以圖標示其位置，並描述其燈光特性。（15 分）",
+    "sourceId": "moex-087-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "087-kaohsiung-waterway-03",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "從第一港口進港時之航行方法及日夜間進出港管制信號為何？請說明之。（15 分）",
+    "sourceId": "moex-087-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "087-kaohsiung-waterway-04",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "高雄港第一、二港口外之航道禁錨區位於何處？港內航道禁止緊急拋錨區位於何處？請說明之。（15 分）",
+    "sourceId": "moex-087-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "087-kaohsiung-waterway-05",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "請就高雄港內最常發生之碰撞海事，概述其原因及防範之道？（15 分）",
+    "sourceId": "moex-087-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "087-kaohsiung-waterway-06",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "高雄港正在推動設置船舶交通管理系統（VTMS），請概述該系統架構、主要功能及船舶之配合措施？（15 分）",
+    "sourceId": "moex-087-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "087-hualien-waterway-01",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "花蓮港",
+    "question": "試述花蓮港港池不穩之主要原因與形成其風災之颱風路徑為何？港務當局採取何種應變措施？（20 分）",
+    "sourceId": "moex-087-hualien-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "087-hualien-waterway-02",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "花蓮港",
+    "question": "花蓮港碼頭結構概分為幾種？有何優缺點？在指揮靠泊作業上有何不同？（20 分）",
+    "sourceId": "moex-087-hualien-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "087-hualien-waterway-03",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "花蓮港",
+    "question": "詳述冬天於花蓮港第十號碼頭靠有他船之情況，如何指揮船舶靠泊第十一號碼頭？（25 分）",
+    "sourceId": "moex-087-hualien-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "087-hualien-waterway-04",
+    "year": 1998,
+    "subject": "當地水道港灣詳情",
+    "port": "花蓮港",
+    "question": "試繪花蓮港區圖（包括碼頭編號、用途、水深、正常平均潮汐）暨附近導航設施之名稱、位置、特性及功能。（35 分）",
+    "sourceId": "moex-087-hualien-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "087-pilotage-01",
+    "year": 1998,
+    "subject": "引港學",
+    "port": "基隆港、臺中港、高雄港、花蓮港",
+    "question": "試繪下列海圖圖例：（14 分）(1)引水站 (2)中港浮 (3)防波堤 (4)礙航沉船 (5)起重機 (6)落潮流 2 節 (7)禁止航行區域之界線。",
+    "sourceId": "moex-087-pilotage",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "087-pilotage-02",
+    "year": 1998,
+    "subject": "引港學",
+    "port": "基隆港、臺中港、高雄港、花蓮港",
+    "question": "我國海圖水深基準面，一般多採平均海面下 Hm + Hs + H′ + Ho 之水面，試說明 Hm、Hs、H′、Ho 各代表何意義？（14 分）",
+    "sourceId": "moex-087-pilotage",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "087-pilotage-03",
+    "year": 1998,
+    "subject": "引港學",
+    "port": "基隆港、臺中港、高雄港、花蓮港",
+    "question": "何謂公稱光程？若燈塔高 22M、公稱光程 19 浬、能見度 10 浬，某船對正該燈塔航行，航速 10 節，現在距離燈塔 20 浬，觀測者眼高 14M，試問再過多少時間可看見燈光？（16 分）",
+    "sourceId": "moex-087-pilotage",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "087-pilotage-04",
+    "year": 1998,
+    "subject": "引港學",
+    "port": "基隆港、臺中港、高雄港、花蓮港",
+    "question": "何謂氣壓？其單位為何？天氣預報方法，應用氣壓趨勢法（Tendency methods）之一一般法則如何？（18 分）",
+    "sourceId": "moex-087-pilotage",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "087-pilotage-05",
+    "year": 1998,
+    "subject": "引港學",
+    "port": "基隆港、臺中港、高雄港、花蓮港",
+    "question": "某船自外海進港，離港口 2,000 碼時，船首對正港口中央航行，可目視兩側防波堤之燈標，無需定位是否能知道船有無偏離航道？試述其可能之情況及應採措施？（18 分）",
+    "sourceId": "moex-087-pilotage",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "087-pilotage-06",
+    "year": 1998,
+    "subject": "引港學",
+    "port": "基隆港、臺中港、高雄港、花蓮港",
+    "question": "某港口航道圖示水深 8M，某船吃水 8.5M，為安全起見，船底餘裕水深 0.5M，當日潮汐如下：0100 時潮高 0.6M，0726 時潮高 3.5M，試問該船何時可出港？（20 分）",
+    "sourceId": "moex-087-pilotage",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "087-english-01",
+    "year": 1998,
+    "subject": "實用英文",
+    "port": "基隆港、臺中港、高雄港、花蓮港",
+    "question": "Please translate the following passage from English into Chinese: (1) When handling a ship, avoid the staging of a grandstand play. Even an expert will meet his Waterloo if he undertakes to go in for showmanship. His superior knowledge will “get him by” for a while, perhaps for years, but the law of averages will eventually catch up with him. (2) In every case, both vessel traffic centers and pilots can play major roles in lessening marine navigational risk. But to do that they must cooperate closely. Even a cursory reading of the roles of traffic centers and of pilots shows that there is an inevitable overlapping of interest between them—that is, the safe and efficient movement of the ship within a given inshore or offshore body of water.（30 分）",
+    "sourceId": "moex-087-english",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "087-english-02",
+    "year": 1998,
+    "subject": "實用英文",
+    "port": "基隆港、臺中港、高雄港、花蓮港",
+    "question": "Please explain the following terms in English: (1) Port state control (2) Crash stops (3) Port helm rule (4) Radar surveillance (5) Transverse thrust of propeller (6) Righting moment.（30 分）",
+    "sourceId": "moex-087-english",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "087-english-03",
+    "year": 1998,
+    "subject": "實用英文",
+    "port": "基隆港、臺中港、高雄港、花蓮港",
+    "question": "Please write a short composition on “The responsibility of pilots”.（around 200–300 words）（40 分）",
+    "sourceId": "moex-087-english",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "087-pilot-law-01",
+    "year": 1998,
+    "subject": "航政法規",
+    "port": "基隆港、臺中港、高雄港、花蓮港",
+    "question": "船舶在商港區域內及其附近水域發生海難或其他意外事故時，船長應作何處置？在什麼事項下商港管理機關應拒絕其進港？試述之。（25 分）",
+    "sourceId": "moex-087-pilot-law",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "087-pilot-law-02",
+    "year": 1998,
+    "subject": "航政法規",
+    "port": "基隆港、臺中港、高雄港、花蓮港",
+    "question": "何謂學習引水人？學習引水人經何種程序後，始可正式領航？試述之。（25 分）",
+    "sourceId": "moex-087-pilot-law",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "087-pilot-law-03",
+    "year": 1998,
+    "subject": "航政法規",
+    "port": "基隆港、臺中港、高雄港、花蓮港",
+    "question": "船舶應經常以安全速度航行，俾能採取適當有效之措施，以避免碰撞，請敘述在決定安全速度時，應考慮之事項。（25 分）",
+    "sourceId": "moex-087-pilot-law",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "087-pilot-law-04",
+    "year": 1998,
+    "subject": "航政法規",
+    "port": "基隆港、臺中港、高雄港、花蓮港",
+    "question": "船長得在什麼情況下，在引水人應招請後或領航中拒絕其領航，另行招請他人充任？為什麼？試述之。（25 分）",
+    "sourceId": "moex-087-pilot-law",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "087-shiphandling-01",
+    "year": 1998,
+    "subject": "船舶操縱",
+    "port": "基隆港、臺中港、高雄港、花蓮港",
+    "question": "說明在受限水域航進中，一單車船舶受外界影響發生突然擺頭現象之可能原因為何？又其應急措施為何？（15 分）",
+    "sourceId": "moex-087-shiphandling",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "087-shiphandling-02",
+    "year": 1998,
+    "subject": "船舶操縱",
+    "port": "基隆港、臺中港、高雄港、花蓮港",
+    "question": "重載船與輕載船在操船上有何差異？試述之。（15 分）",
+    "sourceId": "moex-087-shiphandling",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "087-shiphandling-03",
+    "year": 1998,
+    "subject": "船舶操縱",
+    "port": "基隆港、臺中港、高雄港、花蓮港",
+    "question": "在向岸風（On-shore Wind）情況時，一 FPP 單車船舶如何僅運用本身主機之車、舵及錨來靠、離碼頭？（15 分）",
+    "sourceId": "moex-087-shiphandling",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "087-shiphandling-04",
+    "year": 1998,
+    "subject": "船舶操縱",
+    "port": "基隆港、臺中港、高雄港、花蓮港",
+    "question": "在無風、流情況下，如何運用一艘拖船來使前進中之大船作側向移動（Move Laterally）？（附註：該大船為一 FPP 單車船，且未配置艏或艉橫推進器）（15 分）",
+    "sourceId": "moex-087-shiphandling",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "087-shiphandling-05",
+    "year": 1998,
+    "subject": "船舶操縱",
+    "port": "基隆港、臺中港、高雄港、花蓮港",
+    "question": "說明船速（即作用於舵葉上之水流速度）是由那些部分組成？又船舶在受限水域航進，如何作大角度轉向？（15 分）",
+    "sourceId": "moex-087-shiphandling",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "087-shiphandling-06",
+    "year": 1998,
+    "subject": "船舶操縱",
+    "port": "基隆港、臺中港、高雄港、花蓮港",
+    "question": "說明利用 Standard 10°/10° Zig-zag Test 可量度出船舶那些操縱性能？（10 分）",
+    "sourceId": "moex-087-shiphandling",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "087-shiphandling-07",
+    "year": 1998,
+    "subject": "船舶操縱",
+    "port": "基隆港、臺中港、高雄港、花蓮港",
+    "question": "船舶在港內運轉時，拖錨（Dredging Anchor）運用之時機為何？（10 分）",
+    "sourceId": "moex-087-shiphandling",
+    "status": "已核對",
+    "questionNo": 7
+  },
+  {
+    "id": "087-shiphandling-08",
+    "year": 1998,
+    "subject": "船舶操縱",
+    "port": "基隆港、臺中港、高雄港、花蓮港",
+    "question": "拖船欲旋轉大船時，最有效之位置應位在大船之何處？（5 分）",
+    "sourceId": "moex-087-shiphandling",
+    "status": "已核對",
+    "questionNo": 8
   }
 ]
