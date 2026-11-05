@@ -2036,5 +2036,378 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "112-shiphandling-01-answer-v1",
+    "questionId": "112-shiphandling-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "calculation",
+    "modelAnswer": "一、船殼外展（Flare／Overhang）造成碰撞的主要因素\n（一）船艏、船艉外展：船體在水線以上向外擴張，船殼外緣可能超出水線處船寬；若只依海圖或水線處船位估算與碼頭距離，可能低估高處船殼與岸上機具的碰撞風險。\n（二）乾舷與甲板貨櫃高度：乾舷愈高、甲板貨櫃堆疊愈高，船舶上部外展與岸上橋式起重機、裝卸設備、管線及平台的垂直干涉風險愈大。\n（三）靠泊角度：船舶縱軸若未與碼頭平行，船艏或船艉會先向碼頭方向伸入；即使船中已靠近碼頭，端部仍可能掃入岸上機具範圍。\n（四）船舶運動及環境：橫移速度、艏向角、轉向率、風壓、流壓、船舶慣性、拖船推力、主機及舵效均會影響船殼與碼頭相對運動。\n（五）靠泊水域及碼頭設備：碼頭岸線是否平直、起重機伸臂及支腿位置、護舷突出量、鄰船位置、船席長度及可用操縱空間均須事前確認。\n（六）船舶操縱資料：應查閱總布置圖、船體線型圖、Pilot Card及靠泊限制，確認艏艉外展的高度與範圍，不能僅以LOA及船寬推估。\n\n二、計算船艉伸入碼頭法線內的距離\n已知：\n- 船長 LOA = 210m\n- 船舯平行船殼段長度 = 52m\n- 船身與碼頭法線偏斜角 = 2°\n- 假設船舯平行段位於船長中點，艏艉外展段長度平均分配。\n\n船艉外展段長度：\n\\[\nL_o=\\frac{210-52}{2}=79\\text{ m}\n\\]\n\n船艉因2°偏斜而向碼頭法線方向的投影距離：\n\\[\nd=L_o\\sin2^\\circ\n=79\\times0.03490\n\\approx2.76\\text{ m}\n\\]\n\n**答案：在上述幾何假設下，船艉外展段相對於船舯平行段的橫向投影約為2.76公尺。**\n\n三、實際操船應注意\n本題所求為平面幾何投影，並非船艉外展的實際最大突出距離。船舶靠泊前仍須依船體線型確認外展在不同高度的橫向尺寸，並將風壓、船舶偏航、艉擺及拖船推力造成的動態位移納入安全裕度。靠泊時應先控制艏向與橫移速度，必要時利用拖船使船舶平行靠近，避免以船艏或船艉斜角撞入碼頭機具範圍。",
+    "practicalAnalysis": "計算以「船舯平行段居中，兩端外展長度平均」作假設。外展段=(210−52)/2=79m；偏斜2°造成橫向投影79sin2°≈2.76m。若題目所稱距離是整艘船長在碼頭法線上的投影，會是210sin2°≈7.33m，但「船艉伸入」通常應取端部外展段；答題應把幾何定義寫清楚，避免把兩種距離混淆。",
+    "keyPoints": [
+      {
+        "point": "影響因素包含外展幾何、乾舷／貨櫃高度、靠泊角度、風流、船舶慣性及碼頭機具",
+        "importance": "essential"
+      },
+      {
+        "point": "外展段長度=(210−52)/2=79m",
+        "importance": "essential"
+      },
+      {
+        "point": "船艉偏斜投影=79sin2°≈2.76m",
+        "importance": "essential"
+      },
+      {
+        "point": "實際碰撞風險須以不同高度船體線型及動態掃掠範圍評估",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Shiphandling, pivot point, turning and interaction",
+        "accessedAt": "2026-11-05",
+        "supports": "船舶轉向、橫移及船體運動的操縱分析基礎。"
+      },
+      {
+        "title": "A Guide to Ship Handling",
+        "sourceType": "textbook_or_academic",
+        "issuer": "PupGroup33 digital copy",
+        "url": "https://pupgroup33.com/Web-Content/documents/books/ship_handling/Guide_to_Ship_Handling.pdf",
+        "pageOrSection": "Large vessel manoeuvring and berthing considerations",
+        "accessedAt": "2026-11-05",
+        "supports": "大型船舶靠泊、風壓及船體端部掃掠等操縱因素。"
+      }
+    ],
+    "assumptions": [
+      "平行船殼段52m位於船長中點，艏艉外展段平均分配為79m。",
+      "2°為船舶縱軸與碼頭法線的夾角。"
+    ],
+    "limitations": [
+      "題幹未提供船艏、船艉實際線型圖及外展高度尺寸；2.76m為平面幾何投影，不代表三維船殼最大突出量。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "外展段長度計算已核對",
+          "result": "pass"
+        },
+        {
+          "item": "sin2度投影計算已重算",
+          "result": "pass"
+        },
+        {
+          "item": "已明確區分船艉外展投影與整船長度投影",
+          "result": "pass"
+        },
+        {
+          "item": "獨立船舶操縱專業複核",
+          "result": "needs_review",
+          "note": "已依專業資料核對原理及計算，仍待獨立專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "112-shiphandling-02-answer-v1",
+    "questionId": "112-shiphandling-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "operational_scenario",
+    "modelAnswer": "一、兩具外旋螺旋槳Azimuthing Pods產生最大橫向推力\n（一）兩具吊艙均使用正車轉速（positive RPM），並將推進器轉向約船舶橫向的舷外方向，使兩具螺旋槳的尾流朝船體外側排出，避免尾流直接衝擊船底或另一具吊艙。\n（二）欲使船艉向左舷移動，兩具吊艙應採用能產生左向合力的橫向角度，約在相對船艏向的75°至105°範圍；欲使船艉向右舷移動，則將兩具吊艙鏡像轉向右舷相同範圍。\n（三）兩具吊艙應採適當的Toe-out相對角度，使各自尾流向外排放，減少船體與另一具吊艙對推力的遮蔽及干擾。實際角度應以該船ABB／推進器原廠操縱手冊及控制系統顯示為準，不能把75°至105°視為所有船型的固定設定值。\n\n二、前進中停止船舶的方法\n（一）傳統倒俥停船（Conventional crash stop）：將兩具吊艙維持大致前後方向，將螺旋槳轉速由正車逐步降至零，再依原廠程序改為倒車轉速，產生反向推力使船舶減速停止。\n（二）Pod-way停船：保持螺旋槳轉速為正值，將吊艙由前進推力方向旋轉約180°，使推力方向轉為向後，利用吊艙旋轉改變推力方向，不必先反轉螺旋槳旋向。\n（三）分段偏轉／組合停船：依原廠允許的吊艙角度及轉速限制，分階段調整兩具吊艙方向，利用縱向反推力與適當的橫向力控制減速及艏向；此方式須依船舶操縱手冊與實船試驗資料執行。\n\n三、操作限制及安全注意\n（一）停止距離及時間受初始船速、排水量、吊艙功率、螺旋槳轉速、吊艙旋轉速度及水深等因素影響，不能僅憑吊艙角度推定固定停船距離。\n（二）吊艙轉向過程可能產生高扭矩、彎矩及推力突變；應遵守原廠設定的最大轉速／角度組合，避免在高功率下急速大角度轉向。\n（三）空曠、無風、無流且水深足夠時，可先以低速熟悉吊艙反應，再依試驗結果逐步提高功率；仍須保持足夠安全距離並準備中止操縱。\n（四）兩具吊艙若採不同方向或不同轉速，可能產生偏航力矩；應監控艏向、轉向率及船速，必要時修正兩具吊艙推力差。\n\n四、結論\n兩具Azipod要產生最大橫向推力，原則上均使用正轉速，吊艙轉向約75°至105°的橫向區域並採適當Toe-out，讓尾流向外排放；船舶前進中停船則可採傳統倒俥方式，或保持正轉速將吊艙旋轉約180°的Pod-way方式。所有角度及轉速限制均須以該船原廠手冊為準。",
+    "practicalAnalysis": "ABB Azipod操作指引指出，雙吊艙最大橫向力可由兩具吊艙均使用positive RPM、角度約75°–105°，並使尾流向外（open）以避免船體及吊艙互相干擾達成。Azipod停船研究區分傳統反轉螺旋槳與Pod-way（吊艙旋轉180°而保持正轉速）方式。題目未給出船舶型號及原廠操縱手冊，因此不提供固定停船距離或轉速。",
+    "keyPoints": [
+      {
+        "point": "最大橫向推力：兩具Pods均正轉，吊艙約75°–105°橫向角度",
+        "importance": "essential"
+      },
+      {
+        "point": "雙吊艙採Toe-out／尾流向外，避免船體及吊艙尾流干擾",
+        "importance": "essential"
+      },
+      {
+        "point": "傳統停船：降速、停車、反轉螺旋槳",
+        "importance": "essential"
+      },
+      {
+        "point": "Pod-way：維持正RPM，吊艙旋轉約180°改變推力方向",
+        "importance": "essential"
+      },
+      {
+        "point": "實際角度、轉速及負荷限制依原廠手冊與實船試驗",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "Azipod Operating Guidelines",
+        "sourceType": "manufacturer_manual",
+        "issuer": "ABB Oy Marine",
+        "url": "https://de.scribd.com/document/481703166/ABB-Azipod-Operation-Guidelines",
+        "pageOrSection": "§2.4.2 Operation with two Azipod units, Figure 2–3",
+        "accessedAt": "2026-11-05",
+        "supports": "雙吊艙最大側推力、正RPM及75°至105°角度範圍、尾流向外配置。"
+      },
+      {
+        "title": "Comparison of stopping modes for pod-driven ships by simulation based on model testing",
+        "sourceType": "textbook_or_academic",
+        "issuer": "Woodward, Atlar and Clarke, Proceedings of the IMechE Part M",
+        "editionOrEffectiveDate": "2005",
+        "url": "https://doi.org/10.1243/147509005X10396",
+        "pageOrSection": "Stopping modes for pod-driven ships",
+        "accessedAt": "2026-11-05",
+        "supports": "傳統螺旋槳反轉與吊艙推力方向旋轉之停船模式比較。"
+      }
+    ],
+    "limitations": [
+      "原廠操作指引為特定型式Azimuthing Pods的角度配置示例；不同Azipod世代、船體線型及控制系統的角度限制可能不同。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "最大側推角度及雙吊艙尾流方向已核對ABB操作指引",
+          "result": "pass"
+        },
+        {
+          "item": "兩種停船方式已對照學術研究",
+          "result": "pass"
+        },
+        {
+          "item": "未推定固定停船距離或功率限制",
+          "result": "pass"
+        },
+        {
+          "item": "獨立船舶操縱專業複核",
+          "result": "needs_review",
+          "note": "已依專業資料核對原理及計算，仍待獨立專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "112-shiphandling-04-answer-v1",
+    "questionId": "112-shiphandling-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、航前風險評估與資料交換\n（一）確認船舶總長、船寬、吃水、乾舷、甲板貨物及風壓面積，特別注意空船或壓載狀態下乾舷增加、受風面積變大的情形。\n（二）查閱Pilot Card、Wheelhouse Poster、操縱手冊及船舶試航資料，掌握迴旋圈、停止距離、低速舵效、倒俥反應、主機限制及側推器能力。\n（三）引水人與船長交換預定航路、轉向點、安全航速、拖船配置、風流潮汐、水深及緊急應變方案。\n\n二、受限水域之風壓與水動力影響\n（一）高乾舷船舶受風面積大，側風容易造成明顯橫移及偏航力矩；風壓中心與水下側向阻力中心的相對位置會影響艏向反應。\n（二）在狹窄或淺水水域，船舶高速航行會增加艉座（Squat），減少UKC，並可能改變舵效與船體操縱反應。\n（三）船舶靠近岸壁時可能發生岸推（Bank Cushion）及岸吸（Bank Suction），導致船艏、船艉產生不同方向的橫向作用力及偏航。\n（四）船舶在狹水道中會受阻塞效應影響，船側與船底水流加速，壓力分布改變；大型高乾舷船尤其需要控制速度與航道位置。\n\n三、操船及航速控制\n（一）採取安全航速，兼顧舵效、船舶慣性、淺水效應及可用停船距離；不可單純為增加舵效而在受限水域加速。\n（二）提早減速及預先修正航向，避免臨近碼頭或航道轉折才作大舵角操作。\n（三）充分考慮船舶旋迴支點（Pivot Point）、船艏／船艉外擺、掃掠範圍及船體外展；大型船舶轉向時不能只監控船中位置。\n（四）必要時使用拖船、艏艉側推器或其他輔助設備，並確認其可用馬力、推力方向及限制。\n（五）在風力較大時，應預留足夠側向操縱空間，依風向與船舶受風面積安排拖船位置及控制點。\n\n四、定位、瞭望與駕駛臺團隊\n（一）使用雷達、ECDIS、GNSS、目視導標及測深資料交叉確認船位，持續監控航道偏離、UKC及與岸壁的距離。\n（二）加強前後瞭望，確認船艏、船艉及高處外展與碼頭機具、橋梁、岸上設備及鄰船的間距。\n（三）駕駛臺團隊採閉環通訊，明確分工監控船位、航向、航速及拖船作業；船長應持續監督引水計畫並於有疑慮時及時介入。\n\n五、緊急應變\n如風力超出港口限制、能見度不足、主機或舵機異常、UKC不足、拖船失去控制或航道空間不足，應及早減速、停止進港、改變計畫或在安全水域等待，不可為維持既定靠泊時程而勉強操船。\n\n六、結論\n大型高乾舷船在受限水域操縱，必須同時考慮風壓、艉座、岸壁效應、船舶慣性及艏艉掃掠。操船核心為航前交換資料、採安全航速、提早規劃轉向、善用拖船及多源定位，並設定明確的中止作業條件。",
+    "practicalAnalysis": "高乾舷船在受限水域的核心風險是受風面積大，側風漂移與偏航顯著；水深、航道寬度及岸壁效應則會放大操縱難度。答案將風壓、艉座、岸壁效應、Pivot Point、艏艉掃掠及駕駛臺團隊合併分析，避免只列一般靠泊注意事項。",
+    "keyPoints": [
+      {
+        "point": "高乾舷及大風壓面積造成側漂與偏航力矩",
+        "importance": "essential"
+      },
+      {
+        "point": "狹水道中注意艉座、UKC、岸推及岸吸",
+        "importance": "essential"
+      },
+      {
+        "point": "安全航速、提前減速及控制艏艉掃掠範圍",
+        "importance": "essential"
+      },
+      {
+        "point": "使用拖船／側推器並監控其能力限制",
+        "importance": "supporting"
+      },
+      {
+        "point": "雷達、ECDIS、GNSS、目視與測深交叉定位",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Shiphandling in shallow water, banks and restricted channels",
+        "accessedAt": "2026-11-05",
+        "supports": "艉座、岸壁效應、狹水道及船舶操縱。"
+      },
+      {
+        "title": "A Guide to Good Practice on Port and Marine Facilities",
+        "sourceType": "official_port_or_authority",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/a-guide-to-good-practice-on-port-marine-operations/a-guide-to-good-practice-on-port-and-marine-facilities",
+        "pageOrSection": "Towage, pilotage planning and safe operations",
+        "accessedAt": "2026-11-05",
+        "supports": "港內拖船風險評估、引水計畫、船長與引水人資訊交換及拖船配置。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "高乾舷風壓、受限水域水動力與操縱要點已整合",
+          "result": "pass"
+        },
+        {
+          "item": "安全航速及拖船運用已依港內作業指南整理",
+          "result": "pass"
+        },
+        {
+          "item": "獨立船舶操縱專業複核",
+          "result": "needs_review",
+          "note": "已依專業資料核對原理及計算，仍待獨立專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "112-shiphandling-05-answer-v1",
+    "questionId": "112-shiphandling-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、拖船及設備適航要求\n（一）拖船應依其用途、作業水域及港口要求具備適當船級、檢驗、證書、救生、消防、通訊及導航設備。\n（二）主機、舵機、推進器、拖鉤、拖纜機、拖纜、導纜孔、繫船柱及緊急釋放裝置應保持良好狀態，並依規定檢查及測試。\n（三）拖船須具備足夠穩度、乾舷、浮力及甲板排水能力，避免拖帶時因橫向受力、拖纜高位受力或突發轉向而發生傾覆。\n（四）拖船應有適當防護裝置及護舷，並備妥個人防護裝備、救生設備及落水救援裝置。\n\n二、作業前風險評估與簡報\n（一）引水人、船長及拖船船長應交換船舶尺度、吃水、操縱性能、拖船馬力及繫掛方式、風流、潮汐、能見度、航道寬度及靠泊計畫。\n（二）確認拖船數量、馬力／靜態繫柱拉力（Bollard Pull）、拖船型式、可用推力方向及接掛位置符合本船及港口規定。\n（三）事前約定VHF頻道、口令、推頂／拖帶方式、拖纜長度、解纜程序、緊急脫纜及中止作業條件。\n（四）確認船舶拖帶點、導纜孔、拖船拖鉤及拖纜安全工作負荷（SWL）足夠，避免拖纜角度或受力方向超出設備設計能力。\n\n三、拖船接掛及作業中安全\n（一）拖船接近被協助船舶時，應控制相對速度及接近角度，避免碰撞；被協助船舶應依約定速度及舵令配合。\n（二）拖纜應由受訓人員操作，避免站在纜圈、纜繩回彈區及受力線上；不得跨越受張力拖纜或站在拖鉤、導纜孔危險區。\n（三）拖船作業中應避免拖纜被螺旋槳、舵、艉部突出物或其他設備纏住；必要時調整拖纜長度及拖船相對位置。\n（四）拖船須避免Girting（拖船被拖纜拉至橫向、拖纜受力線接近船舯側向而導致傾覆）及過度橫傾；拖船船長應持續監控拖纜角度、張力、船速及自身穩度。\n（五）拖船與引水人／被協助船舶保持閉環通訊，拖船長應在能力範圍內拒絕不安全指令並即時報告設備異常或危險狀況。\n\n四、環境與限制條件\n（一）依港口拖船作業指南設定風力、浪高、流速、能見度及作業速度限制；現場條件超出限制時應暫停或改變作業方式。\n（二）拖船作業應考慮淺水、岸壁效應、船間吸引／排斥、螺旋槳流及船舶尾流造成的水動力干擾。\n（三）拖船推頂時應選擇適當接觸位置，確認護舷與船殼結構可承受局部壓力；拖帶時應注意拖纜受力、拖船操縱空間及緊急脫離路徑。\n（四）拖船不應在不具備足夠馬力、設備或合格船員的情況下承接超出能力的作業。\n\n五、緊急應變及作業後檢查\n（一）拖船應備妥拖纜快速釋放、主機／舵機故障、失去通訊、拖纜斷裂、拖船失控及人員落水等應變程序，並定期演練。\n（二）發生拖纜纏繞、拖船橫傾、被協助船舶失控或作業區出現碰撞危險時，應立即採取安全脫離或緊急釋放措施。\n（三）作業後檢查拖鉤、拖纜、導纜孔、絞纜機及甲板設備是否受損，記錄異常、事故及近失事件，並依安全管理系統改善程序處理。\n\n六、結論\n港勤拖船安全操作須具備適航船舶與合格船員、足夠拖力與可靠設備、完善的風險評估及作業簡報、正確拖纜操作、避免Girting、有效通訊、環境限制及緊急釋放程序。引水人與拖船船長應共同確認作業方式及安全界限，不能只以馬力大小判斷拖船作業是否安全。",
+    "practicalAnalysis": "本題宜從拖船本身適航、拖帶設備、作業前資訊交換、接掛操作、Girting風險、環境限制、緊急釋放與作業後檢查分層回答。港內拖船作業安全不能只寫「聽從引水人指揮」，拖船船長仍須依專業判斷確保拖船與船員安全。",
+    "keyPoints": [
+      {
+        "point": "拖船及主機、舵機、拖鉤、拖纜機、緊急釋放設備須適航",
+        "importance": "essential"
+      },
+      {
+        "point": "作業前交換船舶操縱資料、拖力、繫掛方式、風流及通訊口令",
+        "importance": "essential"
+      },
+      {
+        "point": "避免纜繩回彈區、纏槳及Girting傾覆危險",
+        "importance": "essential"
+      },
+      {
+        "point": "遵守風浪、流速、能見度及拖船速度限制",
+        "importance": "essential"
+      },
+      {
+        "point": "備妥緊急脫纜、失去通訊、人員落水及設備故障應變",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "A Guide to Good Practice on Port and Marine Facilities",
+        "sourceType": "official_port_or_authority",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/a-guide-to-good-practice-on-port-marine-operations/a-guide-to-good-practice-on-port-and-marine-facilities",
+        "pageOrSection": "§4.6 Towage, risk assessment, tug operations and training",
+        "accessedAt": "2026-11-05",
+        "supports": "港內拖船風險評估、最低拖力、拖船接掛、作業限制、通訊及訓練。"
+      },
+      {
+        "title": "Guidelines for Safe Harbour Towage Operations",
+        "sourceType": "industry_guidance",
+        "issuer": "European Tugowners Association",
+        "editionOrEffectiveDate": "2015-02",
+        "url": "https://eurotugowners.com/wp-content/uploads/2017/11/STP-Guidelines-First-Edition-February-2015.pdf",
+        "pageOrSection": "§§3–8, tug limitations, securing tugs, communications and severe weather",
+        "accessedAt": "2026-11-05",
+        "supports": "港勤拖船作業限制、繫掛、纜繩、通訊與惡劣天候作業安全。"
+      },
+      {
+        "title": "Guidance Note for the Classification, Safe Design, Construction and Operation of Tugs",
+        "sourceType": "technical_standard",
+        "issuer": "Lloyd's Register",
+        "editionOrEffectiveDate": "2018-08",
+        "url": "https://imorules.com/GUID-7719FF80-AE2A-4F12-970C-5A3E1A7DC833.html",
+        "pageOrSection": "Chapter 1, §2 Operations and arrangements",
+        "accessedAt": "2026-11-05",
+        "supports": "港勤拖船用途及作業型態。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "港勤拖船安全要求已依MCA及ETA作業指南整理",
+          "result": "pass"
+        },
+        {
+          "item": "Girting及緊急釋放風險已納入",
+          "result": "pass"
+        },
+        {
+          "item": "作業前簡報及拖船限制已明確列出",
+          "result": "pass"
+        },
+        {
+          "item": "獨立船舶操縱專業複核",
+          "result": "needs_review",
+          "note": "已依專業資料核對原理及計算，仍待獨立專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "112-shiphandling-06-answer-v1",
+    "questionId": "112-shiphandling-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "依IMO第A.960(23)號決議Annex 2第5節，船長與引水人在引航開始前應進行Master-Pilot Information Exchange，至少交換下列重要資訊：\n\n一、船舶資料\n（一）船長、船寬、吃水、縱傾、排水量及載況。\n（二）主機型式、功率、可用轉速、加減車反應、倒俥能力及操作限制。\n（三）舵機、舵角、舵效、側推器、全迴轉推進器及其他操縱設備之性能與限制。\n（四）船舶迴旋圈、停止距離、低速操縱性能、風壓特性及其他特殊操縱特徵。\n（五）錨、繫纜、拖帶設備及其可用狀態。\n\n二、預定引航計畫\n（一）預定航路、航向、轉向點、航速及預估通過時間。\n（二）預定靠泊／離泊方式、船席、錨地、拖船數量、拖船位置及拖帶方式。\n（三）狹窄水道、淺水區、橋梁、航道限制、UKC及其他航行危險。\n（四）緊急情況下的替代航路、停船或中止作業位置及應變計畫。\n\n三、環境與交通資訊\n（一）潮汐、潮流、流速、流向及預期變化。\n（二）風向、風速、陣風、能見度、浪高及其他氣象海象條件。\n（三）航道水深、港口設施、航標、施工區、障礙物及最新航行警告。\n（四）港區交通、會遇船舶、VTS指示及其他船舶動態。\n\n四、通訊及責任分工\n（一）確認工作語言、VHF頻道、引水人與船長及駕駛臺團隊的通訊方式。\n（二）確認操舵、主機、拖船及船位監控等工作分工。\n（三）明確船長與引水人的責任、船長保留的指揮權及駕駛臺團隊監控方式。\n（四）約定引水計畫偏離、設備異常、氣象惡化或出現緊迫局面時的通報與介入方式。\n\n五、結論\n引航前資訊交換應使引水人了解船舶操縱能力，使船長了解當地航道、交通及環境條件，並使雙方對航路、航速、拖船、通訊、責任及緊急應變形成共同認知。資訊交換不是一次性口頭程序，航行中若條件改變，雙方仍應持續更新資訊與調整計畫。",
+    "practicalAnalysis": "IMO A.960(23) Annex 2第5節要求船長與引水人交換船舶操縱資料、航行計畫、港口及環境條件、拖船安排、通訊與應變資訊。答案以「船舶資料—航行計畫—環境交通—通訊分工」四組整理，避免只背船長與引水人的姓名或一般航行資料。",
+    "keyPoints": [
+      {
+        "point": "船舶尺度、吃水、操縱性能、主機舵機及推進器限制",
+        "importance": "essential"
+      },
+      {
+        "point": "航路、航向、轉向點、航速、靠離泊及拖船計畫",
+        "importance": "essential"
+      },
+      {
+        "point": "潮汐、潮流、風、浪、能見度、水深、航標及交通",
+        "importance": "essential"
+      },
+      {
+        "point": "工作語言、VHF頻道、責任分工及緊急應變",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Resolution A.960(23), Recommendations on Training and Certification and on Operational Procedures for Maritime Pilots",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2003-12-05",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "pageOrSection": "Annex 2, §5 Master-Pilot Information Exchange",
+        "accessedAt": "2026-11-05",
+        "supports": "引航前船長與引水人交換船舶、航行計畫、環境、拖船及通訊資訊。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "A.960(23) Annex 2第5節已核對",
+          "result": "pass"
+        },
+        {
+          "item": "交換資訊依船舶、計畫、環境及溝通分類",
+          "result": "pass"
+        },
+        {
+          "item": "獨立船舶操縱專業複核",
+          "result": "needs_review",
+          "note": "已依專業資料核對原理及計算，仍待獨立專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
