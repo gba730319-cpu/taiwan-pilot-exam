@@ -108,5 +108,60 @@
     "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=112060&q=1&s=0910&t=Q",
     "pages": 2,
     "verified": "已逐題依考選部官方 PDF 文字核對"
+  },
+  {
+    "id": "moex-110-kaohsiung-waterway",
+    "year": 2021,
+    "exam": "110年專門職業及技術人員高等考試引水人",
+    "category": "甲種引水人（高雄港）",
+    "subject": "當地水道港灣詳情",
+    "issuer": "考選部",
+    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=110060&q=1&s=0903&t=Q",
+    "pages": 2,
+    "verified": "已逐題依考選部官方 PDF 文字核對"
+  },
+  {
+    "id": "moex-110-pilot-law",
+    "year": 2021,
+    "exam": "110年專門職業及技術人員高等考試引水人",
+    "category": "甲種引水人（各港共通科目）",
+    "subject": "航政法規",
+    "issuer": "考選部",
+    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=507&code=110060&q=1&s=0909&t=Q",
+    "pages": 1,
+    "verified": "已逐題依考選部官方 PDF 文字核對"
+  },
+  {
+    "id": "moex-110-pilotage",
+    "year": 2021,
+    "exam": "110年專門職業及技術人員高等考試引水人",
+    "category": "甲種引水人（各港共通科目）",
+    "subject": "引港學",
+    "issuer": "考選部",
+    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=505&code=110060&q=1&s=0910&t=Q",
+    "pages": 1,
+    "verified": "已逐題依考選部官方 PDF 文字核對"
+  },
+  {
+    "id": "moex-110-shiphandling",
+    "year": 2021,
+    "exam": "110年專門職業及技術人員高等考試引水人",
+    "category": "甲種引水人（各港共通科目）",
+    "subject": "船舶操縱",
+    "issuer": "考選部",
+    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=511&code=110060&q=1&s=0911&t=Q",
+    "pages": 2,
+    "verified": "已逐題依考選部官方 PDF 文字核對"
+  },
+  {
+    "id": "moex-110-english",
+    "year": 2021,
+    "exam": "110年專門職業及技術人員高等考試引水人",
+    "category": "甲種引水人（各港共通科目）",
+    "subject": "專業英文",
+    "issuer": "考選部",
+    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=110060&q=1&s=0912&t=Q",
+    "pages": 2,
+    "verified": "已逐題依考選部官方 PDF 文字核對"
   }
 ]
