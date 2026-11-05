@@ -10599,5 +10599,227 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-english-01-answer-v1",
+    "questionId": "104-english-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "（一）數百年來，各地引水人憑藉當地知識受僱登船，協助船舶安全進出港口，或在任何被認為具有航行危險的水域引導航行，尤其是在船長不熟悉該地區的情況下。除了具備當地知識及專業技能外，引水人通常還能使用當地語言，與岸上單位及拖船進行有效溝通。\n\n（二）合格引水人通常由當地港口或海事主管機關僱用，並向船舶提供收費服務；費用依船舶總噸位、吃水或其他計費標準計算。對於港口進出航道及其他需要專業當地知識的水域，僱用合格引水人的重要性，已於1968年獲得IMO正式認可；當年IMO通過大會第A.159號決議《引水建議案》。該決議建議各國政府組織引水服務，並界定哪些船舶或船舶類別必須僱用引水人。",
+    "practicalAnalysis": "重點為引水人的地方知識、專業技能及岸船／拖船溝通；第二段說明僱用機構、費用基準及IMO 1968年A.159決議。A.159是引水建議案，不是強制公約。",
+    "keyPoints": [
+      {
+        "point": "地方知識及專業技能",
+        "importance": "essential"
+      },
+      {
+        "point": "與岸上及拖船有效溝通",
+        "importance": "essential"
+      },
+      {
+        "point": "費用依總噸位、吃水或其他標準計算",
+        "importance": "essential"
+      },
+      {
+        "point": "IMO A.159(ES.IV)於1968年通過",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Assembly Resolution A.159(ES.IV), Recommendation on Pilotage",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "1968",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.159(ES.IV).pdf",
+        "pageOrSection": "Recommendation on Pilotage",
+        "accessedAt": "2026-11-05",
+        "supports": "引水服務及政府組織引水制度建議。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "COLREG及IMO英文術語已核對",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-english-02-answer-v1",
+    "questionId": "104-english-02",
+    "version": 1,
+    "language": "en",
+    "answerType": "translation",
+    "modelAnswer": "(1) Every vessel shall at all times proceed at a safe speed so that she can take proper and effective action to avoid collision and can be stopped within a distance appropriate to the prevailing circumstances and conditions.\n\n(2) In determining a safe speed, all vessels shall take into account the following factors: the state of visibility; the traffic density, including concentrations of fishing vessels or any other vessels; the manoeuvrability of the vessel, with special reference to stopping distance and turning ability in the prevailing conditions; at night, the presence of background light such as from shore lights or from the backscatter of her own lights; the state of wind, sea and current, and the proximity of navigational hazards; and the draft in relation to the available depth of water.",
+    "practicalAnalysis": "第一句對應COLREG Rule 6安全速度原則，第二句為Rule 6(a)考量因素。使用proper and effective action、stopped within a distance appropriate、traffic density、manoeuvrability、background light及draft in relation to available depth等標準術語。",
+    "keyPoints": [
+      {
+        "point": "Proceed at a safe speed at all times",
+        "importance": "essential"
+      },
+      {
+        "point": "Proper and effective action to avoid collision",
+        "importance": "essential"
+      },
+      {
+        "point": "Stopped within a distance appropriate to circumstances",
+        "importance": "essential"
+      },
+      {
+        "point": "Rule 6(a)因素：能見度、交通密度、操縱性能、背景燈光、風浪流及吃水／水深",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "COLREGs 1972",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rule 6 – Safe Speed",
+        "accessedAt": "2026-11-05",
+        "supports": "安全速度定義及考量因素。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "COLREG及IMO英文術語已核對",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-english-03-answer-v1",
+    "questionId": "104-english-03",
+    "version": 1,
+    "language": "en",
+    "answerType": "definition",
+    "modelAnswer": "**(1) Course Made Good (CMG)**\nThe actual direction of the track made good by a vessel over the ground between two positions, taking the effects of current, wind and other external forces into account.\n\n**(2) Hampered Vessel**\nA vessel which, because of the nature of her work, is unable to keep out of the way of another vessel as required by the COLREGs. This term is used for vessels engaged in operations such as laying or servicing navigation marks, submarine cables or pipelines, dredging or underwater work.\n\n**(3) Underway**\nA vessel is underway when she is not at anchor, or made fast to the shore, or aground. A vessel may be underway even when she is not making way through the water.\n\n**(4) Search and Rescue Transponder (SART)**\nA radar transponder carried on a survival craft or survival equipment. When activated by an approaching ship's radar, it responds with a series of signals on the radar display to help rescuers locate the survival craft or persons in distress.",
+    "practicalAnalysis": "CMG是實際對地航跡方向；Hampered vessel是因工作性質不能讓路的船舶，須與Not Under Command區分；Underway不等於making way；SART由雷達觸發回應協助搜救定位。",
+    "keyPoints": [
+      {
+        "point": "CMG：實際對地航跡方向",
+        "importance": "essential"
+      },
+      {
+        "point": "Hampered vessel：因工作性質不能依規則讓路",
+        "importance": "essential"
+      },
+      {
+        "point": "Underway：未錨泊、未繫岸、未擱淺，即使無對水航速仍可能在航",
+        "importance": "essential"
+      },
+      {
+        "point": "SART：雷達觸發回應的搜救定位應答器",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "COLREGs 1972",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rule 3 – General Definitions",
+        "accessedAt": "2026-11-05",
+        "supports": "Underway及相關船舶定義。"
+      },
+      {
+        "title": "GMDSS Manual",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/radiocommunications-default.aspx",
+        "pageOrSection": "Search and Rescue Radar Transponder (SART)",
+        "accessedAt": "2026-11-05",
+        "supports": "SART功能。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "COLREG及IMO英文術語已核對",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-english-04-answer-v1",
+    "questionId": "104-english-04",
+    "version": 1,
+    "language": "en",
+    "answerType": "essay",
+    "modelAnswer": "**Roles and Responsibilities of the Pilot, Master and Officer of the Watch**\n\nSafe navigation during pilotage depends on effective cooperation among the pilot, the master and the officer of the watch (OOW). Each has a different role, but all must work together as one bridge team.\n\nThe pilot is a local navigation expert. The pilot provides knowledge of the port, fairways, channels, tides, currents, weather, navigational marks, traffic regulations and local hazards. The pilot advises on or conducts manoeuvring, discusses the pilotage passage plan, and coordinates with Vessel Traffic Services, tug operators and shore personnel. Before pilotage begins, the pilot should exchange information with the master, including the vessel's manoeuvring characteristics, draft, propulsion and steering limitations, tug requirements and contingency arrangements. The pilot must respect the master's authority and report unsafe conditions.\n\nThe master has overall command and responsibility for the safety of the vessel, crew, passengers, cargo and the marine environment. The master should provide accurate information about the vessel's condition and manoeuvring performance, review and agree on the pilotage plan, ensure that the bridge team understands it, and monitor the pilot's actions. The presence of a pilot does not relieve the master of responsibility. If the master believes an order or action is unsafe, the master must intervene.\n\nThe OOW is responsible for maintaining a proper lookout, monitoring the vessel's position, course, speed, rate of turn and under-keel clearance, and checking that the pilotage plan is followed. The OOW should use radar, ECDIS, GNSS, AIS and visual observations to cross-check the vessel's position and traffic situation. The OOW must communicate clearly, confirm orders and report any deviation or danger immediately.\n\nIn conclusion, the pilot contributes local expertise, the master retains command responsibility, and the OOW provides continuous monitoring and support. Effective communication and shared situational awareness are essential for safe pilotage.",
+    "practicalAnalysis": "作文須區分引水人地方知識與領航協調、船長整體指揮責任、OOW瞭望及船位監控，並強調引水人在船不免除船長責任。",
+    "keyPoints": [
+      {
+        "point": "Pilot：地方知識、領航計畫及VTS／拖船協調",
+        "importance": "essential"
+      },
+      {
+        "point": "Master：對船舶及人員安全負整體指揮責任",
+        "importance": "essential"
+      },
+      {
+        "point": "OOW：瞭望、船位航向航速及UKC監控",
+        "importance": "essential"
+      },
+      {
+        "point": "Pilot on board does not relieve the master of responsibility",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "pageOrSection": "Annex 2 – Master-Pilot Information Exchange",
+        "accessedAt": "2026-11-05",
+        "supports": "引水人、船長及駕駛臺團隊角色與責任。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "COLREG及IMO英文術語已核對",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
