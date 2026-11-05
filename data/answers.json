@@ -4529,5 +4529,276 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "110-english-01-answer-v1",
+    "questionId": "110-english-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "（一）船舶在狹窄水域航行，碰撞或擱淺的風險會增加。因此，在開始通過此類水域之前，應將風險分析納入安全管理系統（Safety Management System, SMS）的一部分，以確保備援系統隨時可供使用。\n\n（二）船舶在受限制水域航行時，必須保持高度警覺的目視瞭望，並經常前往船舶兩側的駕駛臺翼樓（Bridge Wings）察看。狹窄及受限制水域，以及所有警戒區（Precautionary Areas）內，禁止追越。當船長或引水人對附近其他船舶的航行意圖有疑慮時，基於航行安全考量，應鳴放五短聲警告聲號。",
+    "practicalAnalysis": "narrow waters譯為狹窄水域；confined waters為受限制水域；backup systems為備援系統。Bridge wings是駕駛臺兩側翼樓，不是船橋兩側。five short blasts為五短聲警告聲號，對應COLREG Rule 34(d)的懷疑或警告聲號。題幹「禁止追越」亦包含地方航行規定或警戒區管理，不能誤以為COLREG對所有海域一律禁止追越。",
+    "keyPoints": [
+      {
+        "point": "narrow waters／confined waters分別譯為狹窄水域／受限制水域",
+        "importance": "essential"
+      },
+      {
+        "point": "risk analysis納入SMS並確保備援系統可用",
+        "importance": "essential"
+      },
+      {
+        "point": "Bridge Wings譯為駕駛臺翼樓",
+        "importance": "supporting"
+      },
+      {
+        "point": "five short blasts為五短聲警告聲號",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "COLREGs 1972",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rule 34(d) – Manoeuvring and warning signals",
+        "accessedAt": "2026-11-05",
+        "supports": "五短聲警告聲號。"
+      },
+      {
+        "title": "International Safety Management Code",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/humanelement/pages/ismcode.aspx",
+        "pageOrSection": "Safety management system and risk assessment",
+        "accessedAt": "2026-11-05",
+        "supports": "航行風險分析及備援系統管理。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "兩段中譯保留原文完整語意",
+          "result": "pass"
+        },
+        {
+          "item": "COLREG聲號用語已核對",
+          "result": "pass"
+        },
+        {
+          "item": "SMS及駕駛臺術語一致",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review",
+          "note": "譯文與術語已依COLREG及IMO文件核對，仍待專業英文複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "110-english-02-answer-v1",
+    "questionId": "110-english-02",
+    "version": 1,
+    "language": "en",
+    "answerType": "translation",
+    "modelAnswer": "Each vessel shall at all times proceed at a safe speed adapted to the prevailing circumstances and conditions of restricted visibility, and shall exercise due caution. A power-driven vessel shall have her engines ready for immediate manoeuvre.\n\nA vessel which detects the presence of another vessel by radar alone shall determine whether a close-quarters situation is developing and/or whether a risk of collision exists. If so, she shall take avoiding action in ample time, provided that, when such action consists of an alteration of course, so far as possible the following shall be avoided:\n\n(1) An alteration of course to port for a vessel forward of the beam, other than a vessel being overtaken.\n\n(2) An alteration of course towards a vessel abeam or abaft the beam.",
+    "practicalAnalysis": "本題內容對應COLREG Rule 6（安全速度）及Rule 19（能見度受限時船舶行動）。譯文盡量採用公約原文句型：proceed at a safe speed、engines ready for immediate manoeuvre、determine whether a close-quarters situation is developing、risk of collision、take avoiding action in ample time、forward of the beam、abeam or abaft the beam。",
+    "keyPoints": [
+      {
+        "point": "安全速度及主機備便使用COLREG標準句型",
+        "importance": "essential"
+      },
+      {
+        "point": "Radar alone偵測他船時須判斷close-quarters situation及risk of collision",
+        "importance": "essential"
+      },
+      {
+        "point": "避碰行動應in ample time",
+        "importance": "essential"
+      },
+      {
+        "point": "盡可能避免對正橫前船舶向左轉及向正橫／正橫後船舶轉向",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "COLREGs 1972",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rule 6 and Rule 19(d)",
+        "accessedAt": "2026-11-05",
+        "supports": "安全速度、雷達單獨偵測及能見度受限避碰行動的官方英文原文。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "Rule 6及Rule 19(d)英文字句已逐項核對",
+          "result": "pass"
+        },
+        {
+          "item": "方位術語forward of the beam、abeam及abaft the beam正確",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review",
+          "note": "譯文與術語已依COLREG及IMO文件核對，仍待專業英文複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "110-english-03-answer-v1",
+    "questionId": "110-english-03",
+    "version": 1,
+    "language": "en",
+    "answerType": "definition",
+    "modelAnswer": "**(1) Anchorage**\n\nA designated area of water where vessels may anchor and remain safely while waiting for a berth, orders, favourable weather or other services. An anchorage is normally selected with regard to water depth, seabed holding ground, shelter, traffic and navigational safety.\n\n**(2) Approaches**\n\nThe navigable waters leading to a port, harbour, channel or other destination, through which vessels normally proceed before entering the port or reaching the intended area. The approaches may include fairways, pilotage waters, traffic lanes and areas where special navigational precautions are required.\n\n**(3) Breakwater**\n\nA structure built offshore or near the entrance of a harbour to reduce the force of waves and provide sheltered, calmer water for vessels and port operations. Breakwaters may also help protect harbour entrances and maintain the stability of the harbour basin.\n\n**(4) Deadweight (DWT)**\n\nThe total weight a ship can safely carry when loaded to its permitted load line, including cargo, fuel, fresh water, ballast water, stores, crew and passengers. It is the difference between the ship's loaded displacement and its lightweight.",
+    "practicalAnalysis": "四個詞彙均以航海英文定義句型作答。Deadweight是載重噸，包含貨物、燃油、淡水、壓艙水、物料、人員等，不等於貨物重量；Approaches通常指港口外接近航道及進港水域，不只是港口入口。",
+    "keyPoints": [
+      {
+        "point": "Anchorage：指定安全錨泊水域",
+        "importance": "essential"
+      },
+      {
+        "point": "Approaches：通往港口或航道的接近水域",
+        "importance": "essential"
+      },
+      {
+        "point": "Breakwater：降低波浪、提供港內遮蔽水域的防波堤",
+        "importance": "essential"
+      },
+      {
+        "point": "Deadweight：滿載排水量減輕船重量，包含貨物及所有可載物資",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Anchorage, approaches, breakwaters and ship tonnage terminology",
+        "accessedAt": "2026-11-05",
+        "supports": "錨地、進港接近水域、防波堤及船舶噸位術語。"
+      },
+      {
+        "title": "International Convention on Tonnage Measurement of Ships, 1969",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/international-convention-on-tonnage-measurement-of-ships.aspx",
+        "pageOrSection": "Deadweight and displacement terminology",
+        "accessedAt": "2026-11-05",
+        "supports": "船舶噸位與排水量概念。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "四個名詞均提供完整英文定義",
+          "result": "pass"
+        },
+        {
+          "item": "Deadweight與cargo weight區分正確",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review",
+          "note": "譯文與術語已依COLREG及IMO文件核對，仍待專業英文複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "110-english-04-answer-v1",
+    "questionId": "110-english-04",
+    "version": 1,
+    "language": "en",
+    "answerType": "essay",
+    "modelAnswer": "**Bridge Resource Management (BRM) Training for Maritime Pilots**\n\nThe main objective of a pilot-specific BRM course is to improve safety by ensuring that the pilot, master and bridge team work together effectively. A pilot may possess detailed local knowledge, but the master remains responsible for the vessel. The course should therefore develop teamwork, communication, situational awareness and sound decision-making in a non-routine pilotage environment.\n\nFirst, the course should cover the Master-Pilot Information Exchange. Pilots should practise exchanging the vessel's manoeuvring characteristics, draft, propulsion and steering limitations, passage plan, tug requirements, weather, tide, current and traffic information. They should learn to agree on roles, responsibilities, working language, VHF channels and contingency plans before pilotage begins.\n\nSecond, communication and teamwork should be central topics. Training should include closed-loop communication, standard marine communication phrases, clear helm and engine orders, confirmation of tug instructions and effective coordination with Vessel Traffic Services. Pilots should learn how to communicate assertively while respecting the master's authority and the experience of the bridge team.\n\nThird, the course should develop situational awareness and workload management. Participants should practise monitoring position, heading, speed, rate of turn, under-keel clearance, traffic and environmental conditions. They should learn to identify early signs of a developing close-quarters situation, loss of situational awareness, fatigue and information overload.\n\nFourth, decision-making and leadership should be addressed. Pilots should practise challenging unsafe assumptions, speaking up, managing authority gradients, resolving disagreements and deciding when to abort or modify a passage plan. The course should also cover human error, cultural differences and stress management.\n\nFinally, simulator exercises should reproduce realistic pilotage situations, including restricted waters, strong currents, adverse weather, tug operations, equipment failures and emergency manoeuvres. Debriefing should focus on communication, teamwork and decision-making rather than merely the final manoeuvring result.\n\nIn conclusion, pilot-specific BRM training should produce pilots who can integrate their local expertise with the ship's bridge team, maintain shared situational awareness, communicate clearly and make timely safety decisions. The ultimate objective is to reduce human error and prevent accidents during pilotage.",
+    "practicalAnalysis": "約300字英文申論採目的、MPX、溝通團隊、情境覺察／工作負荷、決策領導、模擬器及結論架構。需特別強調引水人不是船員指揮鏈成員，但必須有效融入駕駛臺團隊；船長仍負責船舶安全。",
+    "keyPoints": [
+      {
+        "point": "BRM課程目標：降低人為錯誤、提升引航安全",
+        "importance": "essential"
+      },
+      {
+        "point": "Master-Pilot Information Exchange與航行計畫",
+        "importance": "essential"
+      },
+      {
+        "point": "閉環通訊、SMCP、VTS及拖船協調",
+        "importance": "essential"
+      },
+      {
+        "point": "情境覺察、工作負荷、疲勞及決策",
+        "importance": "essential"
+      },
+      {
+        "point": "權威梯度、提出疑慮、模擬器及事故案例訓練",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "pageOrSection": "Annex 1 training and certification; Annex 2 operational procedures",
+        "accessedAt": "2026-11-05",
+        "supports": "引水人訓練、引航程序及船長與引水人合作。"
+      },
+      {
+        "title": "IMO Model Course 1.22 – Ship Simulator and Bridge Teamwork",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/OurWork/HumanElement/Pages/ModelCourses.aspx",
+        "pageOrSection": "Bridge teamwork, communication and simulator training",
+        "accessedAt": "2026-11-05",
+        "supports": "駕駛臺團隊合作、溝通與模擬器訓練。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "文章約300字並包含課程目標及內容",
+          "result": "pass"
+        },
+        {
+          "item": "涵蓋引水人與船長、駕駛臺團隊之角色關係",
+          "result": "pass"
+        },
+        {
+          "item": "BRM訓練主題與IMO引水作業原則相符",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review",
+          "note": "譯文與術語已依COLREG及IMO文件核對，仍待專業英文複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
