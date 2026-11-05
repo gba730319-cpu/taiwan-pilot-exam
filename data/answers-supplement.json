@@ -1,0 +1,291 @@
+[
+  {
+    "id": "090-heping-waterway-01-answer-v1",
+    "questionId": "090-heping-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_or_drawing",
+    "modelAnswer": "以2001年海圖及港區配置圖為底圖，畫出北、南防波堤、港嘴、主航道、迴船池、南北泊渠及碼頭。現行官方資料列航道有效寬約200m、長約1,200m、水深約-16至-15m，迴船池直徑約500m；碼頭包括N2卸煤碼頭330m／-16m、S1多用途碼頭120m／-9m、S2多功能碼頭220m／-13m、S3水泥專用碼頭220m／-13m、S4水泥專用碼頭200m／-12m。圖上並標示堤頭燈杆、警示燈杆、雷達標杆、警示燈浮、信號台及引水站，附位置、燈質、能見距與功能。二期未完工泊位應以虛線標示，不可畫成已營運。",
+    "practicalAnalysis": "圖面須依2001年工程狀態及當年海圖核實；現行港區資料僅作對照。",
+    "keyPoints": [
+      {
+        "point": "標示航道、迴船池及防波堤",
+        "importance": "essential"
+      },
+      {
+        "point": "列N2、S1至S4碼頭長度與水深",
+        "importance": "essential"
+      },
+      {
+        "point": "標導航設施及功能",
+        "importance": "essential"
+      },
+      {
+        "point": "區分當年完工與未完工設施",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "和平港區簡介",
+        "url": "https://www.bip.gov.tw/iphw/hpharb/index.do?id=10",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "港區航道、碼頭及防波堤",
+        "supports": "現行航道及碼頭配置資料。"
+      }
+    ],
+    "limitations": [
+      "缺2001年海圖及導航燈表。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對官方港區資料",
+          "result": "pass"
+        },
+        {
+          "item": "2001年歷史圖資",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "090-heping-waterway-02-answer-v1",
+    "questionId": "090-heping-waterway-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "和平港位於臺灣東岸。冬季主要受東北季風影響，夏季常受西南季風及西南氣流影響。港外海流受黑潮及沿岸流控制，沿岸流常年大致向北；近岸潮流表面流向亦可能受黑潮影響，不一定單純隨漲退潮反轉。南外防波堤突出岸外，會使沿岸流改向，形成可能向東南的反射流，與進港航向近乎垂直。船舶可能在南外堤前約0.5浬開始受橫向推力而偏離主航道。風向季節轉換會改變船舶風壓漂移，強風、湧浪及漂砂淤積則增加操縱與水深風險。進港前須取得最新測深及海象，提早監控船位、預留偏流角、保持舵效，必要時使用拖船；流況或水深超出安全範圍時應暫緩進港。",
+    "practicalAnalysis": "黑潮沿岸流與南外堤反射流是和平港的重要操船背景。",
+    "keyPoints": [
+      {
+        "point": "冬季東北風、夏季西南風",
+        "importance": "essential"
+      },
+      {
+        "point": "黑潮沿岸流常年北向",
+        "importance": "essential"
+      },
+      {
+        "point": "南外堤形成反射流",
+        "importance": "essential"
+      },
+      {
+        "point": "南外堤前約0.5浬可能發生偏航",
+        "importance": "essential"
+      },
+      {
+        "point": "最新測深、即時流況及提早修正",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "和平港主航道進港船舶操縱事故調查報告",
+        "url": "https://www.ttsb.gov.tw/media/6119/federal-sw%E9%87%8D%E5%A4%A7%E6%B0%B4%E8%B7%AF%E4%BA%8B%E6%95%85%E8%AA%BF%E6%9F%A5%E5%A0%B1%E5%91%8A.pdf",
+        "sourceType": "transport_authority",
+        "issuer": "國家運輸安全調查委員會",
+        "pageOrSection": "黑潮沿岸流及南外堤反射流",
+        "supports": "說明沿岸北流、反射流及偏航風險。"
+      }
+    ],
+    "limitations": [
+      "缺2001年當地逐月風流統計；方向以季節性概況表述。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對事故調查資料",
+          "result": "pass"
+        },
+        {
+          "item": "2001年氣候水文統計",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "090-heping-waterway-03-answer-v1",
+    "questionId": "090-heping-waterway-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "Panamax極限型船舶須以實際LOA、Beam、艏艉吃水、排水量及風壓面積判斷，不可只憑船型名稱認定適航。和平港現行航道有效寬約200m、長約1,200m、水深約-16至-15m，迴船池直徑約500m。滿載進港前應核對當年航道測深、潮位、UKC、船舶squat、泊位水深與長度、迴轉空間及防波堤口流況；與船長交換主機舵效、停船距離及操縱限制，安排專用引水及足夠拖船。通過主航道時以適當對水速度維持舵效，注意南外堤前反射流及船尾外掃；進入迴船池前確認淨空，低速轉向並由拖船控制艏艉。若吃水、船寬、迴轉空間或流況超出安全能力，應拒絕勉強進港。",
+    "practicalAnalysis": "題目未給具體船舶尺度，無法判斷是否達到航道／迴船池限制。",
+    "keyPoints": [
+      {
+        "point": "實際尺度及吃水核對",
+        "importance": "essential"
+      },
+      {
+        "point": "航道寬深與500m迴船池",
+        "importance": "essential"
+      },
+      {
+        "point": "UKC及squat",
+        "importance": "essential"
+      },
+      {
+        "point": "南外堤反射流",
+        "importance": "essential"
+      },
+      {
+        "point": "專用引水及拖船配置",
+        "importance": "essential"
+      },
+      {
+        "point": "不符合安全條件則暫緩",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "和平港區簡介",
+        "url": "https://www.bip.gov.tw/iphw/hpharb/index.do?id=10",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "港區航道及迴船池",
+        "supports": "現行航道與迴船池尺度。"
+      }
+    ],
+    "limitations": [
+      "缺該艘Panamax船的實際尺度、吃水與2001年測深。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對港區資料",
+          "result": "pass"
+        },
+        {
+          "item": "船舶尺度與歷史水深",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "090-heping-waterway-04-answer-v1",
+    "questionId": "090-heping-waterway-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "和平港操船最大困難是外海沿岸流與南外防波堤造成的反射流，加上航道受漂砂淤積影響而變窄、變淺。黑潮及沿岸流常年大致向北，南外堤突出岸外後可能使局部流向轉向東南，產生與進港航向近乎垂直的橫流；事故調查指出船舶常在南外堤前約0.5浬開始被推離主航道。克服方式：進港前取得最新測深與海象；由專用引水人領航並受信號台管制；提早監控船位、預留偏流角；保持適當對水速度與舵效；使用雷達、GNSS及目視燈標交叉定位；依船舶尺度及風流配置拖船；若水深或流況不安全，暫緩進港。",
+    "practicalAnalysis": "事故調查資料支持反射流與淤沙為主要風險。",
+    "keyPoints": [
+      {
+        "point": "黑潮沿岸流與反射流",
+        "importance": "essential"
+      },
+      {
+        "point": "南外堤前約0.5浬偏航區",
+        "importance": "essential"
+      },
+      {
+        "point": "航道淤積縮減有效寬度",
+        "importance": "essential"
+      },
+      {
+        "point": "即時測深及流況",
+        "importance": "essential"
+      },
+      {
+        "point": "提早修正、拖船及暫緩",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "和平港主航道進港船舶操縱事故調查報告",
+        "url": "https://www.ttsb.gov.tw/media/6119/federal-sw%E9%87%8D%E5%A4%A7%E6%B0%B4%E8%B7%AF%E4%BA%8B%E6%95%85%E8%AA%BF%E6%9F%A5%E5%A0%B1%E5%91%8A.pdf",
+        "sourceType": "transport_authority",
+        "issuer": "國家運輸安全調查委員會",
+        "pageOrSection": "黑潮沿岸流及南外堤反射流",
+        "supports": "和平港主航道進港風險。"
+      }
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對事故調查資料",
+          "result": "pass"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "090-heping-waterway-05-answer-v1",
+    "questionId": "090-heping-waterway-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "和平港現行官方資料列S1多用途碼頭船席長120m、水深約-9m；題目船舶LOA約160m，長度比船席多約40m。靠泊前必須查2001年當時S1有效船席長度、碼頭端部及碰墊配置、船舶允許突出範圍、吃水與UKC。若船長確實超過有效船席，未經港口管理單位及碼頭業者核准，不應直接靠泊；須確認艏艉突出不妨礙航道、鄰近泊位及港勤作業，並核對防舷材、纜樁承載能力與繫纜角度。若無法證明特殊超長靠泊安全，應改用長度足夠的S2碼頭（現行船席長220m）或其他核准泊位。",
+    "practicalAnalysis": "核心是160m船舶與S1 120m船席長度不相容，須有特殊核准及完整風險評估。",
+    "keyPoints": [
+      {
+        "point": "LOA160m大於S1現行120m",
+        "importance": "essential"
+      },
+      {
+        "point": "查2001年船席有效長度",
+        "importance": "essential"
+      },
+      {
+        "point": "核對端部淨空、防舷材及纜樁",
+        "importance": "essential"
+      },
+      {
+        "point": "未核准不得超長靠泊",
+        "importance": "essential"
+      },
+      {
+        "point": "優先改用足長泊位",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "和平港區簡介",
+        "url": "https://www.bip.gov.tw/iphw/hpharb/index.do?id=10",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "S1及S2碼頭設施",
+        "supports": "現行S1長120m、S2長220m。"
+      }
+    ],
+    "limitations": [
+      "需核對2001年S1船席長度及特殊超長靠泊許可。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對港區資料",
+          "result": "pass"
+        },
+        {
+          "item": "2001年泊位及特殊核准",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  }
+]
