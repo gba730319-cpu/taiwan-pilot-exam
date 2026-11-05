@@ -9136,5 +9136,390 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-shiphandling-01-answer-v1",
+    "questionId": "104-shiphandling-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "calculation",
+    "modelAnswer": "一、已知資料\n滿載排水量180,000t，LOA284m，主機最大馬力27,600PS，船速5kn，單俥右旋螺旋槳；風速低於10m/s，無流水影響。\n\n二、估算大船全速倒俥的等效拖船拉力\n主機功率換算：\n\\[27,600\\text{ PS}\\times0.7355\\approx20,288\\text{ kW}\\]\n拖船繫柱拉力（BP）常以約每100HP相當1t級作初步估算，但主機馬力不能直接等同船舶倒俥推力。若以考題常用的倒俥等效推力粗估法，取最大馬力約1%作為噸力級估值：\n\\[F\\approx27,600\\times0.01=276\\text{ tf}\\]\n因此，需約276t級的總拖船BP，才能在靜態等效拉力上接近該估值。\n\n拖船配置可用以下方式初估：\n- 5,000HP級拖船約50t BP：至少6艘，合計約300t BP。\n- 4,000HP級拖船約40t BP：至少7艘，合計約280t BP。\n- 3,200HP級拖船約32t BP：至少9艘，合計約288t BP。\n\n實際配置須依拖船實測BP證書、拖纜方向、船艏艉施力位置及安全係數決定；不能只以主機馬力直接換算拖船艘數。\n\n三、停止距離初估\n5kn換算為：\n\\[V=5\\times0.51444=2.5722\\text{ m/s}\\]\n以排水量180,000t及等效反向力276tf作理想化估算：\n\\[a=\\frac{F}{m}=\\frac{276,000\\times9.80665}{180,000,000}\\approx0.0150\\text{ m/s}^2\\]\n停止距離：\n\\[S=\\frac{V^2}{2a}=\\frac{2.5722^2}{2\\times0.0150}\\approx220\\text{ m}\\]\n若再考慮附加質量、拖纜角度、拖船施力效率及操縱延遲，實際距離會更長，初步可預留約240m以上的安全距離。\n\n四、操船限制及結論\n上述276tf及220m是依明示簡化假設推估，不是船舶試航數據。實際倒俥推力隨船速、螺槳轉速、主機反應及水動力改變；拖船也不能同時在各處完全同向施力。靠近堤口時應提早減速、安排多艘拖船分布艏艉、確認拖纜受力及避免單俥右旋側推造成船艉偏移。",
+    "practicalAnalysis": "本題未提供該船試航倒俥推力、停止距離曲線及拖船實測BP，因此無法得出唯一精確值。答案以最大馬力約1%作粗略等效噸力估算，再用F=ma及S=V²/(2a)推算停止距離；此法只供考試估算，實際必須以Pilot Card、操縱手冊及拖船BP證書為準。",
+    "keyPoints": [
+      {
+        "point": "27,600PS約20,288kW",
+        "importance": "essential"
+      },
+      {
+        "point": "以約1%馬力作粗估，倒俥等效力約276tf",
+        "importance": "essential"
+      },
+      {
+        "point": "5kn=2.572m/s，理想化停止距離約220m",
+        "importance": "essential"
+      },
+      {
+        "point": "實際拖船艘數及停止距離須依BP、拖纜角度、附加質量及試航資料複核",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Resolution A.751(18), Interim Standards for Ship Manoeuvrability",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.751(18).pdf",
+        "pageOrSection": "Stopping ability and manoeuvring criteria",
+        "accessedAt": "2026-11-05",
+        "supports": "船舶停止能力及操縱性能評估。"
+      },
+      {
+        "title": "Guidelines for Safe Harbour Towage Operations",
+        "sourceType": "industry_guidance",
+        "issuer": "European Tugowners Association",
+        "url": "https://eurotugowners.com/wp-content/uploads/2017/11/STP-Guidelines-First-Edition-February-2015.pdf",
+        "pageOrSection": "Bollard pull and tug performance",
+        "accessedAt": "2026-11-05",
+        "supports": "拖船BP及拖帶能力限制。"
+      }
+    ],
+    "limitations": [
+      "276tf倒俥等效力係採考試估算假設，非由該船實測倒俥資料取得；停止距離亦為理想化估算。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "船舶操縱公式及SOLAS條文已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立船舶操縱專業複核",
+          "result": "needs_review",
+          "note": "計算題依明示假設估算，仍待專業複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-shiphandling-02-answer-v1",
+    "questionId": "104-shiphandling-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "operational_scenario",
+    "modelAnswer": "一、作業前準備\n（一）確認大船無前俥，主機不能提供前進推力；查閱船舶吃水、船長、寬度、螺槳旋向、舵機及倒俥能力，確認拖船數量、馬力及拖纜配置。\n（二）確認船渠寬度、水深、轉向空間、岸壁及鄰船位置，並向VTS申請出渠及出港交通窗口。\n（三）與船長、駕駛臺團隊及拖船船長完成MPX，明確約定拖船位置、拖纜長度、拖帶速度、轉向方向、通訊頻道及緊急脫纜。\n\n二、由拖船倒拖出船渠\n（一）拖船於大船艏部或適當拖帶點接掛，依船渠方向及可用空間建立穩定拖帶；若船艏需保持方向，應安排另一艘拖船或使用艉部控制方式限制偏航。\n（二）拖船以低速、穩定拉力倒拖大船出渠，避免突然增加拖力造成拖纜張力劇增或船舶突然偏移。\n（三）大船舵在低速時可能缺乏舵效，應依舵機及倒俥能力配合拖船控制；不得假設舵葉在無足夠水流時仍能有效轉向。\n（四）船舶出渠時注意船艏、船艉外擺及與渠壁、碼頭、繫纜及鄰船的間距；拖船須避開大船螺旋槳尾流及船體與岸壁間的高風險區。\n\n三、出渠後調頭\n（一）先將大船拖至有足夠迴旋水域的位置，確認航道淨空及進出港船舶交通，不得在狹窄渠口內勉強迴轉。\n（二）以拖船分別控制船艏及船艉，建立轉向力矩；一端拖帶、另一端推頂或拖帶制動，依所需方向調整推力，避免兩艘拖船互相抵銷。\n（三）利用大船錨作為必要的輔助控制時，須確認海床底質、水深及錨鏈安全；不得讓錨鏈與拖纜或螺旋槳交纏。\n（四）調頭過程持續監控船位、艏向、轉向率、船艉掃掠及拖纜張力；以小幅、漸進推力修正，不可突然大幅拉轉。\n（五）船艏轉至預定出港方向後，逐步解除拖船或改為艏艉控制，確認船舶航向穩定、航道淨空後，依VTS指示出港。\n\n四、結論\n大船無前俥，不能依靠主機前進推力自行出渠，須以拖船低速倒拖至足夠水域，再以艏艉拖船建立轉向力矩調頭。全程重點是控制拖纜張力、船艏艉掃掠、舵效不足及狹窄水域風險，並遵守VTS交通管制。",
+    "practicalAnalysis": "題目特別指出大船無前俥，出渠主要依拖船倒拖；調頭應在有足夠水域後以艏艉拖船形成力矩，不能在狹窄船渠內勉強轉向。",
+    "keyPoints": [
+      {
+        "point": "大船無前俥，須以拖船低速倒拖出渠",
+        "importance": "essential"
+      },
+      {
+        "point": "出渠前確認船渠寬度、水深、交通及艏艉掃掠",
+        "importance": "essential"
+      },
+      {
+        "point": "出渠後在足夠水域以艏艉拖船建立轉向力矩",
+        "importance": "essential"
+      },
+      {
+        "point": "監控拖纜張力、螺旋槳尾流及舵效不足",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "Guidelines for Safe Harbour Towage Operations",
+        "sourceType": "industry_guidance",
+        "issuer": "European Tugowners Association",
+        "url": "https://eurotugowners.com/wp-content/uploads/2017/11/STP-Guidelines-First-Edition-February-2015.pdf",
+        "pageOrSection": "Tug positioning, towing and manoeuvring",
+        "accessedAt": "2026-11-05",
+        "supports": "拖船倒拖、艏艉配置及拖帶安全。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Tug-assisted manoeuvring and turning",
+        "accessedAt": "2026-11-05",
+        "supports": "拖船協助調頭及操縱原理。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "船舶操縱公式及SOLAS條文已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立船舶操縱專業複核",
+          "result": "needs_review",
+          "note": "計算題依明示假設估算，仍待專業複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-shiphandling-03-answer-v1",
+    "questionId": "104-shiphandling-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、SOLAS第II-1章第29條：主舵機及輔舵機\n（一）主舵機應有足夠強度及能力，在船舶最大營運速度及最深航海吃水下，能將舵由一舷35度轉至另一舷30度，時間不超過28秒。\n（二）輔舵機應能在船舶最深航海吃水及最大前進服務速度一半或7節（取較大者）下，於不超過60秒內將舵由一舷15度轉至另一舷15度。\n（三）主舵機及輔舵機應安排成其中一套失效時，不致使另一套失去作用；若主舵機由兩套或以上相同動力單元構成，並符合規定，得依公約條件免設獨立輔舵機。\n（四）主舵機動力單元應能在電源恢復後自動重新啟動，並設置動力故障警報及舵機控制系統警報。\n（五）駕駛臺應能控制主舵機及輔舵機，並應設置舵角指示器；舵角指示應能獨立顯示實際舵葉角度。\n（六）駕駛臺與舵機室間應有可靠通訊；舵機室應有舵角及操舵控制裝置，並備有必要的應急操舵程序。\n（七）液壓舵機應設低液位警報及適當儲油設備，並定期檢查液壓管路及動力單元。\n\n二、SOLAS第V章第22條：駕駛臺視野及盲區\n（一）自駕駛臺指揮位置向前方海面之視野，不得被遮蔽超過船長兩倍或500公尺（取較小者）的距離，且須涵蓋船艏前方10度範圍。\n（二）駕駛臺前方視野的盲區不得超過10度；所有盲區總和不得超過20度；盲區之間的可視區域不得小於5度。\n（三）自駕駛臺指揮位置向左右舷的水平視野，應符合公約規定；船舶應能從指揮位置觀察船艏至船艉及兩舷附近水域。\n（四）駕駛臺兩側翼樓應提供足夠視野，使駕駛人員能觀察船舶兩舷及靠離碼頭時的船體位置；若有突出結構或貨物遮蔽視線，應以其他適當設備補足。\n（五）駕駛臺窗戶應符合視野及防眩光要求，不得以反光或不適當窗框妨礙瞭望。\n\n三、結論\nSOLAS II-1/29規範主舵機及輔舵機的操舵能力、轉舵時間、獨立性、動力及警報；SOLAS V/22則規範駕駛臺前方海面視野、盲區角度、盲區間可視區域及駕駛臺翼樓視野，以確保船舶操縱及瞭望安全。",
+    "practicalAnalysis": "舵機規範的數值要準確：主舵機35°一舷至30°另一舷不超過28秒；輔舵機15°一舷至15°另一舷不超過60秒，測試速度為最深吃水下最大服務速度一半或7節取較大者。駕駛臺盲區規定須區分單一盲區10°、總盲區20°、盲區間可視區至少5°。",
+    "keyPoints": [
+      {
+        "point": "主舵機：35°一舷至30°另一舷≤28秒",
+        "importance": "essential"
+      },
+      {
+        "point": "輔舵機：15°一舷至15°另一舷≤60秒；速度取最大服務速度一半或7kn較大者",
+        "importance": "essential"
+      },
+      {
+        "point": "主／輔舵機獨立性、警報、舵角指示及駕駛臺至舵機室通訊",
+        "importance": "essential"
+      },
+      {
+        "point": "前方單一盲區≤10°、總盲區≤20°、盲區間可視區≥5°",
+        "importance": "essential"
+      },
+      {
+        "point": "前方海面視野遮蔽不超過2L或500m取較小者",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "SOLAS Consolidated Edition, Chapter II-1 Regulation 29",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/ship-design-and-stability.aspx",
+        "pageOrSection": "Regulation 29 – Steering gear",
+        "accessedAt": "2026-11-05",
+        "supports": "主舵機及輔舵機性能、轉舵時間及控制要求。"
+      },
+      {
+        "title": "SOLAS Chapter V Regulation 22 – Navigation bridge visibility",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/navigation-safety.aspx",
+        "pageOrSection": "Regulation 22 – Navigation bridge visibility",
+        "accessedAt": "2026-11-05",
+        "supports": "駕駛臺視野及盲區要求。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "船舶操縱公式及SOLAS條文已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立船舶操縱專業複核",
+          "result": "needs_review",
+          "note": "計算題依明示假設估算，仍待專業複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-shiphandling-04-answer-v1",
+    "questionId": "104-shiphandling-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、旋轉支點（Pivot Point）的定義\n旋轉支點是船舶在轉向時，船體上瞬間橫向速度近似為零、船舶主要繞其旋轉的參考位置。它不是固定的物理支點，而會隨船舶運動狀態、推進器、舵、風流及拖船作用而改變。\n\n二、前進及後退時的位置\n（一）船舶前進時，旋轉支點通常位於船艏附近，約在船長前方四分之一處；船速增加且舵效明顯時，支點通常更靠近船艏。\n（二）船舶後退時，旋轉支點通常移至船艉附近，約在船長後方四分之一處。\n（三）船舶靜止或低速時，旋轉支點位置不穩定，受風流、主機、舵及推進器影響較大。\n\n三、影響旋轉支點改變的因素\n（一）船舶前進或後退方向及速度：前進時支點前移，後退時支點後移；速度及水流對船體的相對作用會改變支點位置。\n（二）舵角及舵效：舵角大小、舵上水流及舵的位置會改變船舶偏航力矩。\n（三）主機及螺旋槳：前進／倒俥、螺旋槳旋向、側推效應及推進器尾流會影響船艏艉運動。\n（四）風及流：風壓作用點、流壓中心及船舶水下側向阻力中心的相對位置，會改變支點位置。\n（五）船舶載況：吃水、縱傾、排水量、乾舷及船體受風面積均會影響船體水動力及風壓力矩。\n（六）水域條件：淺水、狹水道、岸壁效應、船間吸引及水流分布會改變支點位置。\n（七）拖船及側推器：拖船在船艏或船艉施力，以及艏艉側推器使用，會改變船舶旋轉中心及偏航力矩。\n\n四、操船應用\n引水人應依船舶前進或後退、舵角、主機、風流及拖船施力判斷旋轉支點，並預估船艏及船艉掃掠範圍。靠離碼頭時不可只看船舶中心位置，須同時監控艏艉與碼頭、鄰船及防波堤的距離。\n\n五、結論\n旋轉支點隨船舶運動狀態改變，前進時通常靠近船艏，後退時通常靠近船艉；其位置受速度、舵角、推進器、風流、吃水、水深、岸壁及拖船作用影響。",
+    "practicalAnalysis": "Pivot Point不是固定的船體中心；前進時約在艏部1/4船長處，後退時約在艉部1/4處，但實際位置隨速度、舵、主機、風流及水域改變。答題要說明支點變化與艏艉掃掠的實務關係。",
+    "keyPoints": [
+      {
+        "point": "Pivot Point是轉向時船體瞬間橫向速度近似零的參考位置",
+        "importance": "essential"
+      },
+      {
+        "point": "前進時通常在艏部約1/4 LOA，後退時在艉部約1/4 LOA",
+        "importance": "essential"
+      },
+      {
+        "point": "受速度、舵角、主機、螺槳、風流、吃水及水深影響",
+        "importance": "essential"
+      },
+      {
+        "point": "靠離泊須監控船艏船艉掃掠，而非只看船舶中心",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Pivot point and ship manoeuvring",
+        "accessedAt": "2026-11-05",
+        "supports": "旋轉支點位置及船舶操縱原理。"
+      },
+      {
+        "title": "A Guide to Ship Handling",
+        "sourceType": "textbook_or_academic",
+        "issuer": "PupGroup33 digital copy",
+        "url": "https://pupgroup33.com/Web-Content/documents/books/ship_handling/Guide_to_Ship_Handling.pdf",
+        "pageOrSection": "Pivot point, turning and lateral movement",
+        "accessedAt": "2026-11-05",
+        "supports": "前進／後退時旋轉支點及艏艉掃掠。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "船舶操縱公式及SOLAS條文已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立船舶操縱專業複核",
+          "result": "needs_review",
+          "note": "計算題依明示假設估算，仍待專業複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-shiphandling-05-answer-v1",
+    "questionId": "104-shiphandling-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、拖帶前準備\n（一）確認被拖船舶是否完全失去動力、舵機及電力，查明船長、船寬、吃水、載況、風壓面積、錨及繫纜狀況。\n（二）確認港內航道、迴旋水域、碼頭、浮筒、橋梁、其他船舶及水下障礙物，向VTS申請拖帶及交通窗口。\n（三）選擇拖船艘數、馬力及拖帶方式；依被拖船舶大小、風流、航道寬度及轉向需求，決定單拖、雙拖、艏拖或艉拖。\n（四）檢查拖纜、拖鉤、拖纜眼、導纜孔、拖帶點、拖纜長度及緊急脫纜設備，確認拖船與被拖船之間通訊暢通。\n\n二、拖帶方式及配置\n（一）港內直線拖帶可採艏拖或艉拖，拖纜長度須兼顧船舶間距、轉向空間及拖纜張力。\n（二）狹窄水域或需要精確控制船位時，可採推頂拖帶（Pushing），拖船靠近被拖船適當位置，以推力控制橫移及方向。\n（三）大型或高受風面積被拖船，必要時採兩艘以上拖船，一艏一艉分工控制船舶偏航及橫移。\n（四）拖帶轉向時應提早減速，拖船逐步建立轉向力矩，避免突然拉轉或拖纜角度過大。\n\n三、拖帶操縱要領\n（一）以低速及平穩拖力開始拖帶，避免突然加速造成拖纜衝擊及斷裂。\n（二）拖船保持適當相對位置及拖纜張力，避免拖船進入被拖船螺旋槳、舵後流或船體與岸壁間的高風險區。\n（三）轉向時依船舶迴旋支點及艏艉掃掠安排拖船位置；需要控制船艏時在艏部施力，需要控制船艉外擺時在艉部施力。\n（四）注意風壓及流壓造成的偏移，預留足夠航道寬度及停止距離。\n（五）拖帶過程持續監控拖纜張力、拖船穩度、船舶船位、航向、速度及周圍交通。\n\n四、安全注意事項\n（一）避免拖纜過短、突然受力、超過拖船BP或拖纜安全工作負荷。\n（二）注意Girting（拖船被拖纜拉至橫向而傾覆）及Snap-back（拖纜斷裂回彈）風險，拖船應保持安全艏向及拖帶角度。\n（三）避免拖纜與螺旋槳、舵、錨鏈、繫纜及其他船舶纏繞。\n（四）必要時設置第二拖船或緊急拖帶設備，並預先規劃失去拖船、拖纜斷裂及船舶失控時的應變措施。\n（五）拖帶完成後應在安全水域解除拖纜，確認拖船及被拖船均已安全離開航道。\n\n五、結論\n港內拖帶無動力船舶應先評估船舶狀態、風流及航道，選擇適當拖船數量與拖帶方式，以低速、平穩拖力及明確通訊控制船位與方向；全程注意拖纜張力、Girting、Snap-back、纏槳及船艏艉掃掠。",
+    "practicalAnalysis": "本題應涵蓋拖帶前評估、拖船數量／配置、拖帶方式、速度與轉向、通訊及拖纜風險。港內空間有限，須注意Girting、Snap-back、纏槳及被拖船艏艉掃掠。",
+    "keyPoints": [
+      {
+        "point": "拖帶前評估被拖船狀態、風流、航道及拖船能力",
+        "importance": "essential"
+      },
+      {
+        "point": "依船型及水域選擇艏拖、艉拖、推頂或多拖船配置",
+        "importance": "essential"
+      },
+      {
+        "point": "低速平穩拖力，提早減速及控制轉向力矩",
+        "importance": "essential"
+      },
+      {
+        "point": "注意Girting、Snap-back、纏槳及拖纜超載",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "Guidelines for Safe Harbour Towage Operations",
+        "sourceType": "industry_guidance",
+        "issuer": "European Tugowners Association",
+        "url": "https://eurotugowners.com/wp-content/uploads/2017/11/STP-Guidelines-First-Edition-February-2015.pdf",
+        "pageOrSection": "Towing, pushing, towline and girting hazards",
+        "accessedAt": "2026-11-05",
+        "supports": "港內拖帶、拖纜及拖船安全。"
+      },
+      {
+        "title": "A Guide to Good Practice on Port and Marine Facilities",
+        "sourceType": "official_port_or_authority",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/a-guide-to-good-practice-on-port-marine-operations/a-guide-to-good-practice-on-port-and-marine-facilities",
+        "pageOrSection": "Towage operations",
+        "accessedAt": "2026-11-05",
+        "supports": "港內拖帶作業風險及管理。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "船舶操縱公式及SOLAS條文已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立船舶操縱專業複核",
+          "result": "needs_review",
+          "note": "計算題依明示假設估算，仍待專業複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-shiphandling-06-answer-v1",
+    "questionId": "104-shiphandling-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "operational_scenario",
+    "modelAnswer": "一、操船前評估\n（一）確認船舶5,000GT、LOA120m、艏吃水3m、艉吃水4m，航道寬300m，吹向岸風5級，外檔錨已放出兩節，使用拖船一艘。\n（二）確認船舶前後鄰船、碼頭、航道邊界及迴旋水域；風向吹向岸邊，船舶受風後容易向岸漂移，須預留足夠離岸距離。\n（三）確認錨鏈方向、張力及錨爪是否抓底；與拖船船長約定接掛點、推頂／拖帶、通訊及緊急脫纜。\n（四）向VTS確認調頭水域及進出港交通，避免在狹窄航道或前後船舶間隙內強行迴轉。\n\n二、調頭程序\n（一）先以拖船建立控制力，保留必要繫纜或錨鏈控制，逐步解除不需要的繫纜；避免吹向岸風使船舶突然向岸漂移。\n（二）若外檔錨兩節鏈已抓底，可在低速下作為暫時控制點，限制船艏漂移並配合拖船將船艉帶出；若錨未抓底或方向不適合，應先由拖船控制船位並收妥錨鏈，不可讓錨鏈受力不明。\n（三）拖船依調頭方向在船艏或船艉適當位置施力，利用拖船力臂產生偏航力矩；主機及舵配合控制速度及艏向。\n（四）調頭時注意前後鄰船，計算船艏及船艉掃掠範圍；不得讓船艉掃碰後方船舶或船艏接近前方船舶。\n（五）船舶轉至預定出港方向後，逐步收妥錨鏈，確認錨及拖纜不影響螺旋槳與舵，再建立出港航向。\n\n三、調頭後出港\n（一）向VTS報告船位及出港準備，依指定航道航行，保持安全速度及瞭望。\n（二）注意吹向岸風造成的側漂，保持足夠離岸距離；必要時由拖船協助控制船艏或船艉。\n（三）通過狹窄水域時避免追越及急轉，持續監控雷達、ECDIS、GNSS及目視船位。\n\n四、結論\n吹向岸風下調頭，應先確認外檔錨兩節鏈的受力及抓底情況，再由拖船建立控制力，配合主機及舵以低速產生所需偏航力矩。調頭時保留前後鄰船安全距離，完成轉向後收妥錨鏈並依VTS指示出港。",
+    "practicalAnalysis": "題目未提供船舶艏向、岸線方向及錨鏈抓底狀態，故不能指定固定左轉或右轉。外檔錨可在適當條件下作短暫控制點，但若未抓底或錨鏈方向不利，應先收錨；拖船與錨鏈不得交纏。",
+    "keyPoints": [
+      {
+        "point": "吹向岸風5級，預留離岸距離及側漂補償",
+        "importance": "essential"
+      },
+      {
+        "point": "外檔錨兩節鏈先確認方向、張力及是否抓底",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船在艏或艉施力產生轉向力矩，主機舵控制速度",
+        "importance": "essential"
+      },
+      {
+        "point": "調頭須計算前後鄰船及船艏艉掃掠，完成後收妥錨鏈",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "pageOrSection": "拖船協助調頭及VTS排班",
+        "accessedAt": "2026-11-05",
+        "supports": "拖船協助及港內交通管制。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Anchors and turning manoeuvres",
+        "accessedAt": "2026-11-05",
+        "supports": "錨在調頭操船中的運用。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "船舶操縱公式及SOLAS條文已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立船舶操縱專業複核",
+          "result": "needs_review",
+          "note": "計算題依明示假設估算，仍待專業複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
