@@ -1,0 +1,395 @@
+[
+  {
+    "id": "92-pilotage-01-answer-v1",
+    "questionId": "92-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "(1) **氣溫垂直遞減率（Lapse Rate）**\n指氣溫隨高度增加而降低的速率，通常以每上升1公里降低幾°C表示。未飽和空氣團的乾絕熱遞減率約9.8°C/km；飽和空氣團的濕絕熱遞減率約4～7°C/km，隨溫度及水氣含量而變。實際大氣環境遞減率則由探空觀測決定，關係到大氣穩定度及對流發展。\n\n(2) **東風波（Easterly Wave）**\n在熱帶東風帶內向西傳播的低壓槽／波動，常伴隨低層輻合、上升運動、雲雨及雷暴。若海溫高、水氣充足且垂直風切適合，東風波可能發展為熱帶性低氣壓或熱帶氣旋。\n\n(3) **海霧形成原因**\n海霧多屬平流霧：暖濕空氣流經較冷海面，底層空氣冷卻至露點以下，水氣凝結成微小水滴。也可能由潮濕空氣在夜間輻射冷卻、蒸發作用或冷暖海流交界等條件形成。海霧會使能見度降低，對港口進出及引水登輪構成風險。\n\n(4) **焚風（Foehn）**\n潮濕空氣受地形抬升，在迎風坡冷卻凝結降雨；越過山脈後，空氣下沉至背風坡，因壓縮增溫而變得較乾、較暖，形成局部強而乾熱的下坡風。臺灣常見於中央山脈背風側，可能造成高溫、低濕及強陣風。\n\n(5) **三胞環流（三圈環流）**\n地球大氣在每個半球的理想化經向環流，分為哈德里環流（Hadley Cell，低緯度）、費雷爾環流（Ferrel Cell，中緯度）及極地環流（Polar Cell，高緯度）。三圈環流與地球自轉、太陽輻射差異及氣壓帶共同形成信風、西風帶及極地東風。",
+    "practicalAnalysis": "本題以氣象、地文航海及助航標誌原理作答；氣象個案與海流速度均須注意季節、位置及當時觀測資料。",
+    "keyPoints": [
+      {
+        "point": "乾絕熱與濕絕熱遞減率",
+        "importance": "essential"
+      },
+      {
+        "point": "東風波為熱帶東風帶向西傳播波動",
+        "importance": "essential"
+      },
+      {
+        "point": "海霧常由暖濕空氣流經冷海面形成",
+        "importance": "essential"
+      },
+      {
+        "point": "焚風為背風坡下沉壓縮增溫",
+        "importance": "essential"
+      },
+      {
+        "point": "Hadley、Ferrel、Polar三圈環流",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "中央氣象署氣象百科與颱風資料",
+        "url": "https://www.cwa.gov.tw/",
+        "issuer": "交通部中央氣象署",
+        "supports": "氣溫遞減率、東風波、海霧、焚風、颱風路徑及氣候資料。"
+      },
+      {
+        "title": "IALA Maritime Buoyage System R1001",
+        "url": "https://www.iala.int/product/r1001/",
+        "issuer": "IALA",
+        "supports": "基點標誌形狀、顏色、頂標及燈質。"
+      },
+      {
+        "title": "北太平洋海流圖及海洋環流資料",
+        "url": "https://oceanservice.noaa.gov/education/tutorial_currents/",
+        "issuer": "NOAA",
+        "supports": "北太平洋環流系統、主要海流及其氣候影響。"
+      },
+      {
+        "title": "方信雄《船舶引航專論》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "地文航海、定位、海流及引航實務核心參考書。"
+      }
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "基礎氣象／地文航海原理",
+          "result": "pass"
+        },
+        {
+          "item": "個案原始氣象資料或海流速度",
+          "result": "needs_review"
+        },
+        {
+          "item": "專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-pilotage-02-answer-v1",
+    "questionId": "92-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、初期預測向西北移動的可能根據\n1. 副熱帶高壓脊：颱風通常受周圍大尺度引導氣流控制；若西太平洋副熱帶高壓向西伸展，其南側或西南側的偏東至東南引導氣流可使颱風向西或西北移動。\n2. 低層季風氣流：菲律賓以東的季風槽及低層東風可能提供向西北的合成引導氣流。\n3. 中高層環境：當時若中緯度西風槽尚未明顯向南伸展，颱風可能維持在副高南緣，沿西北方向前進。\n4. 多模式預報：各國氣象機構依當時可取得的衛星、海面觀測、探空及數值模式資料，推估未來副高、槽線及引導氣流，因此路徑預報具有不確定性。\n\n二、實際轉向北至北北東的可能原因\n1. 副熱帶高壓減弱、東退或西伸脊線斷裂，使原先向西北的引導氣流減弱。\n2. 中緯度西風槽向東移近或向南伸展，颱風受到槽前西南氣流引導而逐漸轉向北或東北。\n3. 颱風進入較高緯度後，背景環境風場及β效應可能促成路徑偏轉；若附近存在其他熱帶擾動，也可能改變局部引導氣流。\n4. 颱風強度、垂直風切及中心定位誤差亦會影響預報路徑，弱颱風尤其容易受低層季風與中層引導氣流差異影響。\n\n三、預報判斷\n應綜合分析500hPa副熱帶高壓脊線、200hPa西風槽、850hPa季風氣流、垂直風切及海溫，並持續更新衛星雲圖與數值預報。不能只用「颱風季節常向西」作單一判斷。\n\n四、引水實務\n颱風路徑預報有不確定性，港口應依預報路徑、暴風圈、風向轉變及外海湧浪提前安排船舶避風、錨泊及拖船資源，避免只依單一預報路徑決策。",
+    "practicalAnalysis": "本題以氣象、地文航海及助航標誌原理作答；氣象個案與海流速度均須注意季節、位置及當時觀測資料。",
+    "keyPoints": [
+      {
+        "point": "副熱帶高壓引導氣流",
+        "importance": "essential"
+      },
+      {
+        "point": "季風槽與低層東風",
+        "importance": "essential"
+      },
+      {
+        "point": "中緯度西風槽南伸造成轉向",
+        "importance": "essential"
+      },
+      {
+        "point": "β效應及垂直風切",
+        "importance": "essential"
+      },
+      {
+        "point": "多模式預報與不確定性",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "中央氣象署氣象百科與颱風資料",
+        "url": "https://www.cwa.gov.tw/",
+        "issuer": "交通部中央氣象署",
+        "supports": "氣溫遞減率、東風波、海霧、焚風、颱風路徑及氣候資料。"
+      },
+      {
+        "title": "IALA Maritime Buoyage System R1001",
+        "url": "https://www.iala.int/product/r1001/",
+        "issuer": "IALA",
+        "supports": "基點標誌形狀、顏色、頂標及燈質。"
+      },
+      {
+        "title": "北太平洋海流圖及海洋環流資料",
+        "url": "https://oceanservice.noaa.gov/education/tutorial_currents/",
+        "issuer": "NOAA",
+        "supports": "北太平洋環流系統、主要海流及其氣候影響。"
+      },
+      {
+        "title": "方信雄《船舶引航專論》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "地文航海、定位、海流及引航實務核心參考書。"
+      }
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "基礎氣象／地文航海原理",
+          "result": "pass"
+        },
+        {
+          "item": "個案原始氣象資料或海流速度",
+          "result": "needs_review"
+        },
+        {
+          "item": "專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-pilotage-03-answer-v1",
+    "questionId": "92-pilotage-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "calculation",
+    "modelAnswer": "一、已知資料\n船舶真航向210°，航速20節；2000時燈塔在右舷相對方位30°，2100時在右舷相對方位60°。假設船舶兩小時內保持航向及航速，且無風流造成的對地航跡偏差。\n\n二、建立幾何關係\n2000時燈塔真方位＝210°+30°＝240°。\n2100時燈塔真方位＝210°+60°＝270°。\n船舶一小時航程＝20浬。\n由兩條方位線及船舶航跡作圖，可得2100時船舶至燈塔的距離為20浬；此時相對方位為右舷60°，尚未到正橫。\n\n三、求正橫時間\n以2100時船位為起點，船舶再向210°航行一小時後，燈塔相對方位達右舷90°（正橫）。因此：\n正橫時間＝2100+1小時＝**2200時**。\n\n四、正橫距離\n燈塔在正橫時的距離即最近距離。由等速直線航行的方位三角形，可得正橫距離約**20浬**。\n\n**答案：2200時燈塔位於右舷正橫，最近距離約20浬。**",
+    "practicalAnalysis": "本題以氣象、地文航海及助航標誌原理作答；氣象個案與海流速度均須注意季節、位置及當時觀測資料。",
+    "keyPoints": [
+      {
+        "point": "2000真方位240°",
+        "importance": "essential"
+      },
+      {
+        "point": "2100真方位270°",
+        "importance": "essential"
+      },
+      {
+        "point": "航速20節，每小時20浬",
+        "importance": "essential"
+      },
+      {
+        "point": "2200時相對方位右舷90°",
+        "importance": "essential"
+      },
+      {
+        "point": "正橫距離約20浬",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "中央氣象署氣象百科與颱風資料",
+        "url": "https://www.cwa.gov.tw/",
+        "issuer": "交通部中央氣象署",
+        "supports": "氣溫遞減率、東風波、海霧、焚風、颱風路徑及氣候資料。"
+      },
+      {
+        "title": "IALA Maritime Buoyage System R1001",
+        "url": "https://www.iala.int/product/r1001/",
+        "issuer": "IALA",
+        "supports": "基點標誌形狀、顏色、頂標及燈質。"
+      },
+      {
+        "title": "北太平洋海流圖及海洋環流資料",
+        "url": "https://oceanservice.noaa.gov/education/tutorial_currents/",
+        "issuer": "NOAA",
+        "supports": "北太平洋環流系統、主要海流及其氣候影響。"
+      },
+      {
+        "title": "方信雄《船舶引航專論》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "地文航海、定位、海流及引航實務核心參考書。"
+      }
+    ],
+    "limitations": [
+      "應以原卷航海定位圖形再核對幾何解；本解採等速、定向且無風流的平面航法假設。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "基礎氣象／地文航海原理",
+          "result": "pass"
+        },
+        {
+          "item": "個案原始氣象資料或海流速度",
+          "result": "needs_review"
+        },
+        {
+          "item": "專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-pilotage-04-answer-v1",
+    "questionId": "92-pilotage-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "IALA基點標誌（Cardinal Marks）用來表示可航水域位於標誌的哪一側，分為北、東、南、西四種。船舶應從標誌所代表的安全側通過。\n\n(1) **形狀**\n通常為柱形或桿形浮標（pillar or spar buoy）。\n\n(2) **頂標形狀及顏色**\n頂標由兩個黑色圓錐體組成，方向依方位而異：\n- 北方標：兩錐尖端均朝上。\n- 南方標：兩錐尖端均朝下。\n- 東方標：兩錐底部相對（尖端向外）。\n- 西方標：兩錐尖端相對（尖端向內）。\n\n(3) **浮標顏色**\n- 北方標：上黑下黃（Black over Yellow）。\n- 東方標：黑黃黑（Black-Yellow-Black）。\n- 南方標：上黃下黑（Yellow over Black）。\n- 西方標：黃黑黃（Yellow-Black-Yellow）。\n\n(4) **燈光特徵**\n均使用白色燈光，閃光組數與方位數字相聯：\n- 北方標：連續快閃或甚快閃（Q 或 VQ）。\n- 東方標：每組3閃（Q(3)或VQ(3)）。\n- 南方標：每組6閃加長閃（Q(6)+LFl或VQ(6)+LFl）。\n- 西方標：每組9閃（Q(9)或VQ(9)）。\n\n記憶方式：北上、南下、東三、西九；南方六閃後加長閃。",
+    "practicalAnalysis": "本題以氣象、地文航海及助航標誌原理作答；氣象個案與海流速度均須注意季節、位置及當時觀測資料。",
+    "keyPoints": [
+      {
+        "point": "四種基點標誌表示安全通過方位",
+        "importance": "essential"
+      },
+      {
+        "point": "兩個黑色圓錐頂標方向",
+        "importance": "essential"
+      },
+      {
+        "point": "黑黃顏色配置",
+        "importance": "essential"
+      },
+      {
+        "point": "白燈Q／VQ閃光組數",
+        "importance": "essential"
+      },
+      {
+        "point": "北連續、東3、南6加長閃、西9",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "中央氣象署氣象百科與颱風資料",
+        "url": "https://www.cwa.gov.tw/",
+        "issuer": "交通部中央氣象署",
+        "supports": "氣溫遞減率、東風波、海霧、焚風、颱風路徑及氣候資料。"
+      },
+      {
+        "title": "IALA Maritime Buoyage System R1001",
+        "url": "https://www.iala.int/product/r1001/",
+        "issuer": "IALA",
+        "supports": "基點標誌形狀、顏色、頂標及燈質。"
+      },
+      {
+        "title": "北太平洋海流圖及海洋環流資料",
+        "url": "https://oceanservice.noaa.gov/education/tutorial_currents/",
+        "issuer": "NOAA",
+        "supports": "北太平洋環流系統、主要海流及其氣候影響。"
+      },
+      {
+        "title": "方信雄《船舶引航專論》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "地文航海、定位、海流及引航實務核心參考書。"
+      }
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "基礎氣象／地文航海原理",
+          "result": "pass"
+        },
+        {
+          "item": "個案原始氣象資料或海流速度",
+          "result": "needs_review"
+        },
+        {
+          "item": "專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-pilotage-05-answer-v1",
+    "questionId": "92-pilotage-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、北太平洋主要海流\n北太平洋副熱帶環流呈順時針方向，主要包括：\n1. **北赤道洋流（North Equatorial Current）**：由東向西流，位於熱帶北太平洋。\n2. **黑潮（Kuroshio Current）**：由臺灣東方及琉球群島附近向北、東北流，屬暖流，流速較強。\n3. **北太平洋洋流（North Pacific Current）**：由西向東流，位於中緯度北太平洋，為黑潮延伸流。\n4. **加利福尼亞洋流（California Current）**：沿北美西岸向南流，屬寒流。\n5. **阿拉斯加洋流（Alaska Current）**：沿北美西北岸及阿拉斯加灣向北、東北流，屬暖流。\n6. **親潮／千島洋流（Oyashio／Kuril Current）**：由白令海及千島群島附近向南流，屬寒流，與黑潮在日本東方海域交會。\n7. **北太平洋逆流（North Equatorial Countercurrent）**：位於北赤道洋流以北或熱帶海域，局部向東流，季節變化明顯。\n\n二、流向與流速\n海流流速會隨季節、位置、深度及風場改變，不宜將單一數值視為全流域固定值。黑潮主流通常約1～2節，局部可更強；北太平洋洋流及加利福尼亞洋流多為較緩的數十分之一節至約1節，近岸及海峽處變化較大。\n\n三、對氣象的影響\n1. 暖流提高海面熱量及水氣供應，影響沿岸氣溫、濕度、霧及降水。\n2. 寒暖流交會區溫度梯度大，容易形成海霧及鋒面性天氣。\n3. 黑潮及其延伸流對西北太平洋熱帶氣旋海面熱能及海氣交換有影響。\n4. 海流與季風共同作用，影響海面溫度、海氣熱通量及區域氣候。\n\n四、對航海的影響\n1. 順流可提高對地航速、節省航時與燃油；逆流則降低對地航速。\n2. 橫流造成偏流角及航跡偏移，須以流壓修正角修正航向。\n3. 黑潮流速強，臺灣東部航行及引水外海接近時須特別注意流壓。\n4. 寒暖流交會可能出現海霧，應加強瞭望、雷達及霧中航行措施。\n5. 海流可能影響船舶操縱、漂航、錨泊及搜救漂移推算。",
+    "practicalAnalysis": "本題以氣象、地文航海及助航標誌原理作答；氣象個案與海流速度均須注意季節、位置及當時觀測資料。",
+    "keyPoints": [
+      {
+        "point": "北太平洋副熱帶環流順時針",
+        "importance": "essential"
+      },
+      {
+        "point": "黑潮北上、北太平洋洋流東流",
+        "importance": "essential"
+      },
+      {
+        "point": "加利福尼亞洋流南流、阿拉斯加洋流北流",
+        "importance": "essential"
+      },
+      {
+        "point": "親潮南流並與黑潮交會",
+        "importance": "essential"
+      },
+      {
+        "point": "流速因位置季節變化，避免固定化",
+        "importance": "essential"
+      },
+      {
+        "point": "影響氣候、海霧、對地航速與航跡",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "中央氣象署氣象百科與颱風資料",
+        "url": "https://www.cwa.gov.tw/",
+        "issuer": "交通部中央氣象署",
+        "supports": "氣溫遞減率、東風波、海霧、焚風、颱風路徑及氣候資料。"
+      },
+      {
+        "title": "IALA Maritime Buoyage System R1001",
+        "url": "https://www.iala.int/product/r1001/",
+        "issuer": "IALA",
+        "supports": "基點標誌形狀、顏色、頂標及燈質。"
+      },
+      {
+        "title": "北太平洋海流圖及海洋環流資料",
+        "url": "https://oceanservice.noaa.gov/education/tutorial_currents/",
+        "issuer": "NOAA",
+        "supports": "北太平洋環流系統、主要海流及其氣候影響。"
+      },
+      {
+        "title": "方信雄《船舶引航專論》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "地文航海、定位、海流及引航實務核心參考書。"
+      }
+    ],
+    "limitations": [
+      "海流流速需依指定海圖／海流圖及季節資料給值；此處僅提供典型量級，不能取代航路計畫所需的當期流況。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "基礎氣象／地文航海原理",
+          "result": "pass"
+        },
+        {
+          "item": "個案原始氣象資料或海流速度",
+          "result": "needs_review"
+        },
+        {
+          "item": "專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  }
+]
