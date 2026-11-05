@@ -16896,5 +16896,335 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "100-pilot-law-01-answer-v1",
+    "questionId": "100-pilot-law-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、引水人與船長的互動原則\n（一）引水人登輪前，船長應依引水法第20條提供船舶運轉性能、總噸位、船長、吃水及速率等資料；引水人要求檢閱證書時，船長不得拒絕。\n（二）引水人應熟悉當地港口航道、水深、潮汐、潮流、氣象、助航設施及交通規定，向船長說明預定航路、速度、轉向點、拖船配置及緊急應變計畫。\n（三）船長應提供船舶操縱限制、主機、舵機、螺旋槳、側推器及設備故障等資訊，並與引水人完成Master-Pilot Information Exchange（MPX）。\n（四）引水人領航時仍須尊重船長指揮權，船長及駕駛臺團隊亦應持續監控船位、航向、航速及引水人操作；引水人在船不免除船長責任。\n\n二、發生爭執時的處理\n（一）雙方應先以船舶安全為最高原則，清楚說明不同意見及其理由，並重新確認航行計畫、風流、水深、船位及避碰風險。\n（二）如船長認為引水人體力、經驗或技術不足，或領航不當，依引水法第19條得基於航行安全採取必要措施或拒絕其領航，另行招請他人充任，並將具體事實報告當地航政主管機關。\n（三）如引水人遇船長不合理要求，例如要求違反國內或國際航海法規及避碰規則，或有其他正當理由不能執行業務，依第30條得拒絕領航，但應將具體事實報告當地航政主管機關。\n（四）如有立即危險，任何一方均應先採取必要安全措施，例如減速、停車、改變航向、請求拖船或等待交通管制，不得為爭論而延誤避險。\n\n三、結論\n引水人提供地方知識及專業領航，船長提供本船操縱資訊並保有指揮權；雙方應透過MPX及駕駛臺團隊合作。爭執時以航安為先，船長可依第19條拒絕不適任或領航不當的引水人，引水人可依第30條拒絕違法或不合理要求，並依法報告主管機關。",
+    "practicalAnalysis": "本題法條核心為引水法第19、20、30及32條。船長可拒絕不適任或領航不當的引水人；引水人可拒絕船長違法或不合理要求；兩者都須有具體事實及航安理由，並依法報告。",
+    "keyPoints": [
+      {
+        "point": "第20條：船長提供船舶操縱資料及證書",
+        "importance": "essential"
+      },
+      {
+        "point": "第32條：引水人仍須尊重船長指揮權",
+        "importance": "essential"
+      },
+      {
+        "point": "第19條：船長得因引水人體力、經驗、技術不足或領航不當而拒絕",
+        "importance": "essential"
+      },
+      {
+        "point": "第30條：引水人得拒絕違法、不合理要求或其他正當理由",
+        "importance": "essential"
+      },
+      {
+        "point": "爭執以航安為先，採取必要措施並報告主管機關",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "引水法",
+        "sourceType": "official_port_or_authority",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+        "pageOrSection": "第19、20、30及32條",
+        "accessedAt": "2026-11-05",
+        "supports": "船長與引水人互動、拒絕領航及船長指揮權。"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "pageOrSection": "Annex 2 – Master-Pilot Information Exchange",
+        "accessedAt": "2026-11-05",
+        "supports": "MPX及駕駛臺合作。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "引水法第19、20、30及32條已核對",
+          "result": "pass"
+        },
+        {
+          "item": "IMO A.960(23)資訊交換已參照",
+          "result": "pass"
+        },
+        {
+          "item": "法律專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "100-pilot-law-02-answer-v1",
+    "questionId": "100-pilot-law-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、商港區域內之沉船、物資及漂流物\n依100年考試當時《商港法》第16條，沉船、物資或漂流物所有人未依商港管理機關公告或通知的期限打撈、清除者，由商港管理機關負責打撈、清除；所有人不明或無法通知者亦同。若其位置在港口、船席或航道，已阻塞船舶進出、航行或停泊，且必須緊急處理時，商港管理機關得立即打撈、清除，不必等待所有人處理。\n\n商港管理機關代為打撈、清除後，得向所有人收取費用；所有人未於通知期限繳費領回或所有人不明時，得依法公告拍賣，價金先抵繳打撈及清除費用，餘額依規定發還或保管。\n\n二、商港區域外航道之沉船、擱淺或故障漂流船舶\n依100年考試當時《商港法》第16條之2，船舶於商港區域外因海難或其他意外事故致擱淺、沉沒或故障漂流者，航政主管機關應命令船長及船舶所有人採取必要應變措施，並限期打撈、移除船舶及所載貨物至指定區域；必要時主管機關得逕行採取應變或處理措施，費用由船舶所有人負擔。\n\n三、兩者差異\n（一）商港區域內：商港管理機關直接負責港區沉船、物資及漂流物的打撈清除，特別是阻塞港口、船席或航道時得立即處理。\n（二）商港區域外：主要由航政主管機關命令船長及船舶所有人限期應變及移除，必要時主管機關得代為處理並向船舶所有人求償。\n（三）因此，兩者的主管機關、處理方式及法律義務不同，但目的均在維護航行安全、公共利益及避免污染。\n\n四、結論\n商港區域內依當時商港法第16條由商港管理機關打撈清除；商港區域外依第16條之2由航政主管機關命令船長及船舶所有人限期打撈移除，必要時主管機關得代為處理，費用由船舶所有人負擔。",
+    "practicalAnalysis": "100年考題適用2011年12月全文修正前的商港法條次：港內第16條，港外第16條之2。不可直接套用現行第13及53條；港內義務與港外船東移除義務須分開。",
+    "keyPoints": [
+      {
+        "point": "港內：商港法第16條，商港管理機關打撈清除沉船、物資及漂流物",
+        "importance": "essential"
+      },
+      {
+        "point": "阻塞港口、船席或航道須緊急處理時得立即清除",
+        "importance": "essential"
+      },
+      {
+        "point": "港外：第16條之2，主管機關命船長及船東限期打撈移除",
+        "importance": "essential"
+      },
+      {
+        "point": "必要時主管機關得代為處理，費用由船舶所有人負擔",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "商港法（100年考試時有效版本）",
+        "sourceType": "official_port_or_authority",
+        "issuer": "總統府公報",
+        "editionOrEffectiveDate": "2011年12月6日修法前版本",
+        "url": "https://www.president.gov.tw/PORTALS/0/BULLETINS/PAPER/PDF/7009-8.PDF",
+        "pageOrSection": "第16條及第16條之2",
+        "accessedAt": "2026-11-05",
+        "supports": "港內及港外沉船、漂流物打撈移除責任。"
+      },
+      {
+        "title": "商港法修正沿革",
+        "sourceType": "official_port_or_authority",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "pageOrSection": "第13條及第53條現行規定與沿革",
+        "accessedAt": "2026-11-05",
+        "supports": "歷史條次與現行條次對照。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "100年版本第16及16-2條已對照歷史法規",
+          "result": "pass"
+        },
+        {
+          "item": "現行條次差異已註明",
+          "result": "pass"
+        },
+        {
+          "item": "法律專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "100-pilot-law-03-answer-v1",
+    "questionId": "100-pilot-law-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、安全速度的定義\n依COLREG Rule 6，船舶在任何時候均應以安全速度航行，使其能採取適當且有效的避碰行動，並能在當時環境及情況所適當的距離內停船。\n\n二、決定安全速度應考量的因素\n（一）能見度：霧、雨、雪、煙霧或夜間背景燈光會降低目標辨識能力，應降低速度。\n（二）交通密度：漁船、工作船、交通船及大型船舶密集時，應降低速度並保留避讓空間。\n（三）船舶操縱性能：特別考慮停止距離、倒俥反應、迴轉能力、舵效及船舶慣性。\n（四）夜間背景燈光：岸上燈光、港區照明及本船燈光反射可能造成目標辨識困難。\n（五）風、浪及流：強風、湧浪、橫流及潮流會影響船位、操縱及停止能力。\n（六）航行危險物的接近程度：淺點、礁石、沉船、防波堤、碼頭及狹窄航道附近應降低速度。\n（七）吃水與可用水深：須考慮UKC、Squat及淺水效應，深吃水船在淺水或狹水道應採更低速度。\n\n三、雷達及特殊情況\n依Rule 6(b)，裝有雷達且可使用時，還應考量雷達性能及限制、量程選擇、海況與雨雪雜波、目標數量、可能未被雷達偵測的小船或浮標，以及雷達所測目標的距離與方位。\n\n四、港內引水操船的實務原則\n（一）依船舶Pilot Card及操縱手冊掌握最低有效舵速、停止距離及倒俥反應。\n（二）接近港口、碼頭、迴船池及狹窄水道前提早減速，避免臨近才急停或急轉。\n（三）速度須足以維持舵效，但不得超過在可用水域內安全停止及轉向的能力。\n（四）必要時使用拖船、側推器或等待潮流轉弱；當環境超出安全限制時，應延後進港或中止作業。\n\n五、結論\n安全速度不是固定節數，而是依能見度、交通密度、船舶操縱性能、背景燈光、風浪流、航行危險、吃水與水深，以及雷達性能等因素綜合決定，使船舶始終有足夠避碰及停止能力。",
+    "practicalAnalysis": "本題以COLREG Rule 6為主，應完整列出(a)項七項因素及(b)項雷達附加因素。安全速度不是固定值，且須兼顧最低有效舵速及可用水域停止距離。",
+    "keyPoints": [
+      {
+        "point": "Rule 6：能採適當有效避碰行動，並在適當距離內停船",
+        "importance": "essential"
+      },
+      {
+        "point": "七因素：能見度、交通密度、操縱性能、背景燈光、風浪流、航行危險、吃水與水深",
+        "importance": "essential"
+      },
+      {
+        "point": "雷達性能、量程、雜波、目標數量及未被偵測目標",
+        "importance": "essential"
+      },
+      {
+        "point": "安全速度須維持舵效且具備停止及轉向能力",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "COLREGs 1972",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rule 6 – Safe Speed",
+        "accessedAt": "2026-11-05",
+        "supports": "安全速度及雷達附加考量因素。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Safe speed and ship manoeuvring",
+        "accessedAt": "2026-11-05",
+        "supports": "安全速度及操縱性能。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "COLREG Rule 6(a)及(b)已核對",
+          "result": "pass"
+        },
+        {
+          "item": "港內引水實務已補充",
+          "result": "pass"
+        },
+        {
+          "item": "專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "100-pilot-law-04-answer-v1",
+    "questionId": "100-pilot-law-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "引水人領航船舶進出港口時，常見碰撞危機及避碰措施如下：\n\n一、迎艏正遇（Head-on Situation）\n兩艘動力船在相反或接近相反航向上相遇並有碰撞危險時，依COLREG Rule 14，雙方均應向右轉向，使兩船左舷對左舷通過；保持安全速度並確認對方已採取相應行動。\n\n二、交叉相遇（Crossing Situation）\n依Rule 15，若他船位於本船右舷，應讓路並盡可能避免從他船船艏前方通過；依Rule 16及17及早、明確採取避讓，直航船仍須監控並於必要時採取行動。\n\n三、追越（Overtaking）\n依Rule 13，追越船應讓清被追越船，直到完全駛過及清離；狹窄水道追越另須依Rule 9及34(c)取得同意並鳴放規定聲號。\n\n四、狹窄水道及航道內會遇\n依Rule 9，船舶應盡可能靠近右舷安全可航水域外緣；小船、帆船及漁船不得妨礙只能在航道內安全航行的船舶。橫越航道不得妨礙受限船舶，彎道須鳴放聲號並謹慎航行。\n\n五、能見度受限制時\n依Rule 19，保持瞭望、採安全速度、主機備便、正確使用雷達及系統追蹤目標；對正橫前方船舶避免向左轉，聽到霧號或有緊迫危險時減至最低速度，必要時停車。\n\n六、進出港口及靠離碼頭\n（一）進出港船舶交會：依VTS排序、航道規定及安全距離航行，避免在港口入口及防波堤附近形成緊迫局面。\n（二）靠泊或離泊船舶：注意船艏艉掃掠、船間吸引、岸壁效應及風流漂移，及早減速並使用拖船協助。\n（三）狹窄水域轉向：避免急轉、過高速度及在航道內追越；必要時等待對向船舶通過。\n（四）錨泊船及工作船：注意其錨鏈、作業範圍及操縱限制，保持足夠安全距離。\n\n七、結論\n引水人應依碰撞態勢適用COLREG規則，採取及早、明確及有效的避碰行動；港內另須遵守VTS、航道及拖船規定，並持續監控風流、岸壁效應及船舶掃掠範圍。",
+    "practicalAnalysis": "本題須涵蓋COLREG常見會遇態勢及港內特有碰撞風險：迎艏、交叉、追越、狹水道、能見度受限、靠離碼頭及錨泊／工作船。每一態勢要配對正確規則與行動。",
+    "keyPoints": [
+      {
+        "point": "迎艏正遇：Rule 14，雙方右轉、左舷對左舷",
+        "importance": "essential"
+      },
+      {
+        "point": "交叉相遇：Rule 15–17，右舷見他船者讓路",
+        "importance": "essential"
+      },
+      {
+        "point": "追越：Rule 13，追越船讓清；狹水道依Rule 9及34",
+        "importance": "essential"
+      },
+      {
+        "point": "狹水道：Rule 9靠右，不得妨礙受限船",
+        "importance": "essential"
+      },
+      {
+        "point": "能見度受限：Rule 19安全速度、雷達及霧號",
+        "importance": "essential"
+      },
+      {
+        "point": "港內靠離泊：注意船艏艉掃掠、岸壁效應及拖船",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "COLREGs 1972",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rules 9, 13–19 and 34",
+        "accessedAt": "2026-11-05",
+        "supports": "各種碰撞態勢及避碰規則。"
+      },
+      {
+        "title": "高雄港船舶航行規定",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "pageOrSection": "港內航行及交通管制",
+        "accessedAt": "2026-11-05",
+        "supports": "港內航道及交通規定。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "COLREG主要碰撞態勢及條文已核對",
+          "result": "pass"
+        },
+        {
+          "item": "港內操船風險已補充",
+          "result": "pass"
+        },
+        {
+          "item": "專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "100-pilot-law-05-answer-v1",
+    "questionId": "100-pilot-law-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、船長得拒絕引水人領航的情況\n依《引水法》第19條，船長於引水人應招後或領航中，發現引水人的體力、經驗或技術等不克勝任，或引水人領航不當時，得基於船舶航行安全採取必要措施，或拒絕其領航，另行招請他人充任，並將具體事實報告當地航政主管機關。\n\n例如：引水人身體不適、無法安全登離船或執行領航；缺乏該船型或港區所需經驗；錯誤判斷船位、航道或交通；下達違反航安或COLREG的操船指令；未依安全計畫使用拖船或設備，且有危及船舶安全情形。\n\n二、引水人得拒絕領航的情況\n依《引水法》第30條，遇有船長不合理要求，例如要求違反中華民國或國際航海法規及避碰章程，或有其他正當理由不能執行業務時，引水人得拒絕領航，但應將具體事實報告當地航政主管機關。\n\n例如：船長要求違反COLREG、港口航行規定或VTS指示；船舶有重大不適航狀況或設備故障，無法安全領航；風浪、能見度或登輪條件超出安全限制；船長未提供必要船舶資料，或要求引水人超越指定引水區域執業。\n\n三、共同原則\n（一）拒絕領航須有航安或其他正當理由，不得任意拒絕招請。\n（二）應先採取必要安全措施，避免船舶處於危險位置。\n（三）應具體記錄時間、地點、船名、事件經過及理由，並報告當地航政主管機關。\n（四）船長保有指揮權，引水人應尊重船長指揮權；雙方應以安全航行為共同目標。\n\n四、結論\n船長依第19條得因引水人體力、經驗、技術不適任或領航不當而拒絕；引水人依第30條得因船長不合理、違法要求或其他正當理由拒絕。雙方均須基於航行安全，採取必要措施並向當地航政主管機關報告具體事實。",
+    "practicalAnalysis": "本題分別考引水法第19條（船長拒絕引水人）及第30條（引水人拒絕船長要求）。不要把兩者理由混在一起；船長拒絕重點為引水人不適任或領航不當，引水人拒絕重點為船長不合理或違法要求及其他正當理由。",
+    "keyPoints": [
+      {
+        "point": "第19條：引水人體力、經驗、技術不勝任或領航不當，船長得拒絕",
+        "importance": "essential"
+      },
+      {
+        "point": "第30條：船長不合理要求、違反國內／國際航規及COLREG或其他正當理由，引水人得拒絕",
+        "importance": "essential"
+      },
+      {
+        "point": "雙方均須採取必要安全措施並報告航政主管機關",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "引水法",
+        "sourceType": "official_port_or_authority",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+        "pageOrSection": "第19及30條",
+        "accessedAt": "2026-11-05",
+        "supports": "船長拒絕引水人及引水人拒絕領航的法定情形。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "引水法第19及30條已核對",
+          "result": "pass"
+        },
+        {
+          "item": "雙方拒絕事由已分開整理",
+          "result": "pass"
+        },
+        {
+          "item": "法律專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
