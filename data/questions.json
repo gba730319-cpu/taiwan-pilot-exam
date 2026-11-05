@@ -1018,5 +1018,275 @@
     "sourceId": "moex-092-english",
     "status": "已核對",
     "questionNo": 4
+  },
+  {
+    "id": "94-kaohsiung-waterway-01",
+    "year": 2005,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "西北風 5 級，馬力 1800 匹拖船乙艘，如何讓三千總噸泊於第 25 號浮筒下雙錨之船出港？（20 分）",
+    "sourceId": "moex-094-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "94-kaohsiung-waterway-02",
+    "year": 2005,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "八千總噸之半載貨櫃船，由二港口進港，右靠第 118 號碼頭，要領如何？當時東北風 5 級，拖船乙艘，馬力 1800 匹。（20 分）",
+    "sourceId": "moex-094-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "94-kaohsiung-waterway-03",
+    "year": 2005,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "試述第 28 號碼頭構造有何特殊處？一千總噸重載船靠泊時應注意何事並採何措施以維護船體？（20 分）",
+    "sourceId": "moex-094-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "94-kaohsiung-waterway-04",
+    "year": 2005,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "航行經過 44 號碼頭兩個纜樁之時間為 8 秒，試問該船航速大約幾節？試計算之並列式。又應採何種措施？（10 分）",
+    "sourceId": "moex-094-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "94-kaohsiung-waterway-05",
+    "year": 2005,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "船舶自第 42 號碼頭倒退迴轉準備出港，試列至少五種確定船已靜止之參考方法。（10 分）",
+    "sourceId": "moex-094-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "94-kaohsiung-waterway-06",
+    "year": 2005,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "試述球型船艏船舶在高雄港內運轉應注意事項。（10 分）",
+    "sourceId": "moex-094-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "94-kaohsiung-waterway-07",
+    "year": 2005,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "航行高雄港中，試列舉至少五種估計船艏、船艉之概略位置之方法。（10 分）",
+    "sourceId": "moex-094-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 7
+  },
+  {
+    "id": "94-pilot-law-01",
+    "year": 2005,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "請依商港法說明我國國際商港之規劃、建設、管理、經營等事項應由哪一機關負責及施行？此等業務之主要內容各為何？（10 分）",
+    "sourceId": "moex-094-pilot-law",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "94-pilot-law-02",
+    "year": 2005,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "請依引水法及引水人管理規則說明當地航政主管機關對引水人執行業務之監督事項包括哪些？（20 分）",
+    "sourceId": "moex-094-pilot-law",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "94-pilot-law-03",
+    "year": 2005,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "目前我國各國際商港港務局所掌理之主要業務包括港務、棧埠及航政三項，請說明這三項業務之性質及主要內容。（20 分）",
+    "sourceId": "moex-094-pilot-law",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "94-pilot-law-04",
+    "year": 2005,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "請依國際海上避碰規則說明船舶在能見度受限制時所應採之措施及音響信號。（20 分）",
+    "sourceId": "moex-094-pilot-law",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "94-pilot-law-05",
+    "year": 2005,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "請依商港法及引水法相關規定，綜合說明引水人在執行業務時應注意哪些事項以維護港區安全。（30 分）",
+    "sourceId": "moex-094-pilot-law",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "94-pilotage-01",
+    "year": 2005,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "試繪出下列海圖符號：（10 分）(1)50 噚等深線 (2)渦流或漩流 (3)漁柵 (4)礙航暗礁 (5)珊瑚礁",
+    "sourceId": "moex-094-pilotage",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "94-pilotage-02",
+    "year": 2005,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "試繪出下列導航圖之符號：（10 分）(1)蒲福風力表 (2)迴轉潮流圖 (3)氣溫線 (4)冰區 (5)磁差線",
+    "sourceId": "moex-094-pilotage",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "94-pilotage-03",
+    "year": 2005,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "美國出版之航行指南係由何單位發行？其主要內容為何？（20 分）",
+    "sourceId": "moex-094-pilotage",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "94-pilotage-04",
+    "year": 2005,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "試繪圖並說明，下列三項：（20 分）(1)危險方位 (2)水平危險角 (3)垂直危險角",
+    "sourceId": "moex-094-pilotage",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "94-pilotage-05",
+    "year": 2005,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "試說明台灣及其附近海域，一年十二個月之主要氣象變化，包括風及雨。（20 分）",
+    "sourceId": "moex-094-pilotage",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "94-pilotage-06",
+    "year": 2005,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "試說明台灣附近海域，一年十二個月之海流與潮流之變化？包括流向及流速。（20 分）",
+    "sourceId": "moex-094-pilotage",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "94-shiphandling-01",
+    "year": 2005,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "某滿載貨櫃船之船長 280m，乾舷 25m，今欲左靠碼頭，此時船正在後退中（making sternway），左舷正橫來風，風力 30kts，船艏推進器之推力 10t 向左，距船艏 25m。四艘拖船協助，其中：1 號拖船位於正船艏處，用 40t 拉力向左舷拖帶；2 號拖船位於右舷距船艏 55m，用 30t 推力推頂船舶；3 號拖船位於右舷距船艏 210m，用 40t 推力推頂船舶；4 號拖船位於正船艉處，用 15t 拉力向左舷拖帶。不計流力與水阻力，求每 1000m2 所受之風力有多少？左舷與右舷的 turning moment 各為多少？（20 分）",
+    "sourceId": "moex-094-shiphandling",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "94-shiphandling-02",
+    "year": 2005,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "某船之船長 280m，船寬 45m，滿載吃力 17m，船速 17kts，舵角轉至 10°、20°、35°，分別費時 3s、8s、15s，操各舵角時的 T（追蹤性指數）分別為 6.2、1.9、1.0，K（迴轉性指數）分別為 3.2、1.3、1.0，若分別以上述三個舵角轉向 70°，則新航向距離（即操舵之施舵點至轉向點之距離）各為多少？並比較說明三者之結果。（20 分）",
+    "sourceId": "moex-094-shiphandling",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "94-shiphandling-03",
+    "year": 2005,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "吾人知道錨之重量與種類、錨鏈、拖纜等係按各船之屬具數（equipment number）而定，試列出屬具數之方程式並解釋其意義。（10 分）又某船於無風無流情況下，在錨地起錨準備接領港進港，其時錨已離地，兩節在甲板，試求需要多少時間，可將錨收起？（5 分）",
+    "sourceId": "moex-094-shiphandling",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "94-shiphandling-04",
+    "year": 2005,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "試說明主機各種輸出（out put），及其功率比各為多少？試說明推進器各種馬力（horse power），及其相互間關係。（15 分）",
+    "sourceId": "moex-094-shiphandling",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "94-shiphandling-05",
+    "year": 2005,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "有此一說，沒有兩位領港會用同一方式離靠碼頭；甚至說，同一領港不會對同一船舶用同一方式離靠碼頭。試說明影響領港離靠碼頭的變數有哪些？（10 分）",
+    "sourceId": "moex-094-shiphandling",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "94-shiphandling-06",
+    "year": 2005,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "何謂 winding ship 作業？若某船 G/T 8000、右舷靠碼頭、順流，在不使用拖船的情況下，試繪簡圖說明其 winding ship 作業？何謂 girding 現象？造成的原因為何？如何防患未然？（20 分）",
+    "sourceId": "moex-094-shiphandling",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "94-english-01",
+    "year": 2005,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please write a letter of resignation to your owner stating the reason why you decided to quit the job and to join a new post as pilot and request his kind approval.（30 分）",
+    "sourceId": "moex-094-english",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "94-english-02",
+    "year": 2005,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please translate the following from Chinese into English：（30 分）在週五發生全日蝕之際，一片黑幕籠罩著印尼及南菲律賓大部分的地區，面對此情景的成千群眾裡有人祈禱、有人歡呼，也有人擊鼓。遠自西邊的印度、東南亞地區、中國大陸、日本、新幾內亞以及部分澳洲和太平洋群島地區都可見到日偏蝕。",
+    "sourceId": "moex-094-english",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "94-english-03",
+    "year": 2005,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please translate the following Chinese terms into English and use the same to construct a complete sentence in English：（40 分）(1)危機處理 (2)舉證責任 (3)職業安全 (4)鋒面雨 (5)法律規定的 (6)分道航行規劃 (7)易變天氣 (8)引水法條款 (9)迴轉穩定器 (10)自動調整拖纜機",
+    "sourceId": "moex-094-english",
+    "status": "已核對",
+    "questionNo": 3
   }
 ]
