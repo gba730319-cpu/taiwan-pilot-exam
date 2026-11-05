@@ -1843,5 +1843,107 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "114-pilotage-01-answer-v1",
+    "questionId": "114-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_or_drawing",
+    "modelAnswer": "本題依 IHO S-52 ECDIS Presentation Library 與 S-57 ENC 物標分類作答。考卷要求無須著色，應以符號外形、方向及必要文字標示為主。不同ECDIS顯示設定或Presentation Library版本可能使線型及細節略有差異，正式作答應以題目所採國際圖例版本為準。\n\n（一）離岸風場（Wind farm offshore）\n- 繪出海上風場範圍，範圍內以風力發電機／風車符號表示個別風機；若圖面比例尺不足以逐座顯示，應以風場區域符號及名稱標示。\n- ENC資料以 Offshore Production Area（OSPARE）物標表示，類別 CATPRA = 9（wind farm）；個別風機可用 Landmark（LNDMRK）物標，類別 CATLMK = 19（windmotor）。\n- 風場若另有禁航或限制水域，應另以 Restricted Area（RESARE）標示，不能只憑風機符號推定禁航範圍。\n\n（二）遵循航向的指向燈（Directional light without sector）\n- 繪出指向燈標誌，並以箭頭或方向線標示船舶應遵循的航向；旁註燈質、燈色、週期及光程等資料（題目若未要求可略）。\n- 此類燈為指示特定航向的方向燈，沒有以不同顏色扇形界定航道的扇形燈特徵。應依燈表及海圖標示的指定方向航行，不能把方向燈誤畫成一般全周燈或扇形燈。\n\n（三）深度未知或低於安全等深線的沈船（Submerged wreck with depth less than the safety contour or depth unknown）\n- 以沈船／危險物標誌表示，並依海圖資料註明已知最淺水深；若深度未知，應保留「深度未知」的危險資訊。\n- ECDIS會依沈船最淺水深（VALSOU）、水面狀態（WATLEV）、測量品質及本船安全等深線判斷顯示；沈船深度等於或淺於本船安全等深線、且位於較深水域時，會以紫紅色孤立危險物符號（isolated danger symbol）醒目顯示。\n- 因題目要求無須著色，仍應畫出孤立危險物／沈船符號的外形；不得自行填入未提供的水深數字。\n\n（四）環境敏感水域（Environmentally Sensitive Sea Area, ESSA）\n- 以封閉的區域界線圈出敏感水域，並在區域內或界線旁標註「ESSA」或其正式區域名稱。\n- ENC以 Restricted Area（RESARE）或相關管理區域物標表達，並依區域類別、限制條件及官方文字資料顯示；若屬特別敏感海域（PSSA），不得與一般ESSA混為同一名詞。\n- 區域界線、限制內容及是否禁止進入，應依海圖註記及主管機關公告判斷，不能只由ESSA名稱推定一律禁航。\n\n（五）交通警戒區（Traffic precautionary area）\n- 以紫紅色交通警戒區界線及區域符號表示；IHO S-52圖例包含交通警戒區點符號（PRCARE12）及區域符號（PRCARE51），可依圖面呈現方式繪出。\n- 圖面可在區域內標示「PRECAUTIONARY AREA」，並以三角形交通警戒區點符號作為識別。\n- 船舶進入該區域應提高瞭望、注意交通流向、航路交會及其他船舶動態，並依海圖註記與適用航路規則航行。\n\n**作圖檢查：**五項符號分別標註英文名稱；離岸風場畫出範圍與風機、方向燈畫出遵循航向、沈船呈現危險物性質、ESSA畫出區域界線、交通警戒區畫出專用區域符號。作答時以 IHO ECDIS Chart 1／S-52 Presentation Library 為準，不要用一般地圖圖示替代航海圖例。",
+    "practicalAnalysis": "本題是符號辨識與手繪題，關鍵不只是畫出大致圖形，而是把每個符號對應到正確ENC物標與屬性。離岸風場是OSPARE CATPRA=9，單座風機可用LNDMRK CATLMK=19；交通警戒區使用PRCARE；沈船顯示受安全等深線及深度資料影響；ESSA與PSSA需區分。正式符號的幾何外形應對照IHO S-52 Chart 1及S-57／S-101正式圖例，不能以文字說明取代考場繪圖。",
+    "keyPoints": [
+      {
+        "point": "離岸風場：OSPARE CATPRA=9；個別風機LNDMRK CATLMK=19",
+        "importance": "essential"
+      },
+      {
+        "point": "方向燈須畫出指定遵循航向，不是一般燈標或扇形燈",
+        "importance": "essential"
+      },
+      {
+        "point": "沈船依VALSOU、WATLEV及安全等深線顯示孤立危險物",
+        "importance": "essential"
+      },
+      {
+        "point": "ESSA以管理區域界線及名稱標示，勿逕認一律禁航",
+        "importance": "essential"
+      },
+      {
+        "point": "交通警戒區：PRCARE12點符號及PRCARE51區域符號",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IHO S-52 ECDIS Presentation Library",
+        "sourceType": "technical_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/en/enc-portrayal",
+        "pageOrSection": "S-52 Presentation Library, Chart 1 and symbolization rules",
+        "accessedAt": "2026-11-05",
+        "supports": "ECDIS符號、顏色、物標顯示及圖例規則。"
+      },
+      {
+        "title": "IHO S-57 Appendix B.1 Annex A – Use of the Object Catalogue for ENC",
+        "sourceType": "technical_standard",
+        "issuer": "International Hydrographic Organization",
+        "editionOrEffectiveDate": "Edition 4.1.0, 2018-01",
+        "url": "https://iho.int/iho_pubs/standard/S-57Ed3.1/S-57%20Appendix%20B.1%20Annex%20A%20UOC%20Edition%204.1.0_Jan18_EN.pdf",
+        "pageOrSection": "OSPARE, LNDMRK, WRECKS and RESARE object encoding",
+        "accessedAt": "2026-11-05",
+        "supports": "離岸風場、風機、沈船及限制區域之ENC物標分類與屬性。"
+      },
+      {
+        "title": "IHO S-52 Presentation Library Addendum",
+        "sourceType": "technical_standard",
+        "issuer": "International Hydrographic Organization",
+        "editionOrEffectiveDate": "Edition 4.0.3, 2020-12",
+        "url": "https://iho.int/uploads/user/pubs/standards/s-52/S-52%20PresLib%20Ed%204.0.3%20Part%20I%20Addendum_Clean.pdf",
+        "pageOrSection": "Symbol PRCARE12 and PRCARE51 – Traffic Precautionary Area",
+        "accessedAt": "2026-11-05",
+        "supports": "交通警戒區點符號與區域符號之官方定義。"
+      },
+      {
+        "title": "Singapore Chart 1 – Symbols, Abbreviations and Terms",
+        "sourceType": "official_port_or_authority",
+        "issuer": "Maritime and Port Authority of Singapore",
+        "url": "https://www.mpa.gov.sg/docs/mpalibraries/default-document-library/who-we-are/about-mpa/chart-symbols-and-abbreviations/chart1_jan13.pdf",
+        "pageOrSection": "Section N, Environmentally Sensitive Sea Areas; Section P, Direction Lights",
+        "accessedAt": "2026-11-05",
+        "supports": "ESSA海圖圖例及方向燈的傳統紙海圖參照。"
+      }
+    ],
+    "limitations": [
+      "文字擬答已對應國際ENC物標與符號類別；正式幾何符號外形仍應依考試採用之S-52 Presentation Library／ECDIS Chart 1版本臨摹，避免將不同版本或紙海圖符號混用。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "離岸風場及個別風機ENC物標分類已核對IHO S-57",
+          "result": "pass"
+        },
+        {
+          "item": "交通警戒區PRCARE12及PRCARE51符號已核對IHO S-52",
+          "result": "pass"
+        },
+        {
+          "item": "沈船危險符號與安全等深線關係已核對IHO S-52",
+          "result": "pass"
+        },
+        {
+          "item": "ESSA與限制區域語意已核對海圖圖例",
+          "result": "pass"
+        },
+        {
+          "item": "完整符號外形獨立圖例複核",
+          "result": "needs_review",
+          "note": "仍需以考試指定版本S-52 Chart 1逐一確認最終手繪圖形。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
