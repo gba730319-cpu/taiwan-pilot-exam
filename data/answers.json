@@ -1,1 +1,85 @@
-[]
+[
+  {
+    "id": "114-shiphandling-03-answer-v1",
+    "questionId": "114-shiphandling-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、船舶航行時，船體周圍及船底水流因船舶前進而加速，造成船底附近壓力降低，使船體產生下沉（Sinkage）及縱向傾斜（Trim），此現象稱為艉座（Squat）。在淺水或狹窄水道中，因水流受到限制，艉座現象更為明顯，會使船舶動態吃水增加，龍骨下餘裕水深減少。\n\n二、艉座量與船舶相對水體的速度平方約成正比，即 S ∝ V²。船速愈快，艉座量愈大；在其他條件相同時，船速增加一倍，艉座量約增加為四倍。因此船舶航行於淺水或狹窄水道時，應適當降低船速，以減少艉座，避免觸底或擱淺。",
+    "practicalAnalysis": "此題為簡答題，作答重點在說明艉座的水動力成因、船體下沉與縱向傾斜，以及船速平方關係。平方關係為相同船型、水深及航道條件下的近似關係，實際艉座亦受船型、吃水、水深及航道斷面限制程度影響。",
+    "keyPoints": [
+      {
+        "point": "船底水流加速、壓力降低，造成船體下沉及縱向傾斜",
+        "importance": "essential"
+      },
+      {
+        "point": "艉座使動態吃水增加、龍骨下餘裕水深減少",
+        "importance": "essential"
+      },
+      {
+        "point": "艉座量與船舶對水速度平方約成正比",
+        "importance": "essential"
+      },
+      {
+        "point": "淺水及受限制水域會加劇艉座，應適當減速",
+        "importance": "supporting"
+      }
+    ],
+    "scoringGuide": null,
+    "references": [
+      {
+        "title": "The American Practical Navigator (Bowditch), 2019 Edition, §1118",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency (NGA)",
+        "editionOrEffectiveDate": "2019",
+        "url": "https://msi.nga.mil/apology_objects/Bowditch_Vol_1.pdf",
+        "pageOrSection": "§1118, Effects of Banks, Channels, and Shallow Water",
+        "accessedAt": "2026-11-05",
+        "supports": "說明艉座成因、船體下沉及淺水中船速增加會加劇艉座。"
+      },
+      {
+        "title": "EM 1110-2-1613, Hydraulic Design of Deep-Draft Navigation Projects",
+        "sourceType": "official_port_or_authority",
+        "issuer": "U.S. Army Corps of Engineers",
+        "editionOrEffectiveDate": "2006-05-31",
+        "url": "https://www.publications.usace.army.mil/Portals/76/Publications/EngineerManuals/EM_1110-2-1613.pdf?ver=2013-09-04-161111-177",
+        "pageOrSection": "Chapter 6, §6-3, Ship Squat, pp. 6-3–6-5",
+        "accessedAt": "2026-11-05",
+        "supports": "說明船體下沉及縱向傾斜、淺水與受限制水域效應，並指出艉座與船速平方及水深、船舶幾何條件有關。"
+      }
+    ],
+    "assumptions": [
+      "船舶在其他條件大致相同下比較不同航速。"
+    ],
+    "limitations": [
+      "S ∝ V² 為近似關係，不可不考慮船型、水深及航道限制而直接用於精確艉座量計算。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "題目文字及題號與題庫主檔一致",
+          "result": "pass"
+        },
+        {
+          "item": "艉座成因及淺水效應已對照航海權威資料",
+          "result": "pass"
+        },
+        {
+          "item": "船速平方關係及適用限制已對照工程手冊",
+          "result": "pass"
+        },
+        {
+          "item": "專業引水人複核",
+          "result": "needs_review",
+          "note": "尚未取得獨立專業審查，因此不標示為已完成技術審查。"
+        }
+      ]
+    },
+    "reviewNotes": [
+      "本答案為考試參考擬答，非考選部公布之官方解答。"
+    ],
+    "lastUpdated": "2026-11-05"
+  }
+]
