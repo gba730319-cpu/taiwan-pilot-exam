@@ -2236,5 +2236,332 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "087-keelung-waterway-01-answer-v1",
+    "questionId": "087-keelung-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "基隆港位於臺灣北部，港口朝西北，屬天然港灣，港區可概分外港、內港及相關船渠／漁港水域。作圖應以1998年海圖標示東西防波堤、港口主航道、外港與內港界線、各碼頭泊位、迴船池、船舶錨地、檢疫錨地及禁錨區。主航道需標示進出港方向、航道寬度及水深；泊地依船種、噸位、吃水與碼頭用途分配；檢疫錨地供入港前依法檢疫及候泊船舶使用；禁錨區包括航道、迴船池、海底電纜／管線及港勤作業水域。船舶應依港務單位指定錨位，不得在主航道或未核准水域下錨。",
+    "practicalAnalysis": "分區與精確錨地界線須以1998年海圖及當年港務公告確認。",
+    "keyPoints": [
+      {
+        "point": "地理位置及天然港灣特性",
+        "importance": "essential"
+      },
+      {
+        "point": "外港、內港及船渠區分",
+        "importance": "essential"
+      },
+      {
+        "point": "主航道與迴船池",
+        "importance": "essential"
+      },
+      {
+        "point": "泊地與檢疫錨地",
+        "importance": "essential"
+      },
+      {
+        "point": "禁錨區及錨泊許可",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "基隆港港口資訊",
+        "url": "https://www.twport.com.tw/business/PortInfo?a=311",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司",
+        "pageOrSection": "地理位置、港區及航道",
+        "supports": "現行港區分區、航道及迴船池資料。"
+      }
+    ],
+    "limitations": [
+      "需取得1998年基隆港海圖／規定原始版本核對歷史數據。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對可取得的官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1998年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "087-keelung-waterway-02-answer-v1",
+    "questionId": "087-keelung-waterway-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_or_drawing",
+    "modelAnswer": "基隆港外港實施分道航行制（TSS），目的在將進港與出港交通流分隔，減少迎艏正遇及交叉相遇。作圖時標出港口位置、東西防波堤、進港巷道、出港巷道、中間分隔線、巷道外側界線、報到線及引水站。船舶應沿指定巷道方向航行，不得逆向或任意穿越分隔線；若需橫越，應依COLREG Rule 10以接近直角方向安全橫越，並先與VTS協調。巷道內應保持安全速度及瞭望，不得任意停留或錨泊。現行基隆港TSS資料可作結構參考，但1998年巷道座標、長度及邊界應以當年海圖核實。",
+    "practicalAnalysis": "1998年TSS的正式邊界及座標需以當年海圖和航船布告核對。",
+    "keyPoints": [
+      {
+        "point": "TSS目的及分隔線",
+        "importance": "essential"
+      },
+      {
+        "point": "進出港巷道方向",
+        "importance": "essential"
+      },
+      {
+        "point": "報到線及引水站",
+        "importance": "essential"
+      },
+      {
+        "point": "不得逆向或任意穿越",
+        "importance": "essential"
+      },
+      {
+        "point": "依COLREG及VTS指示橫越",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "基隆港船舶交通服務指南",
+        "url": "https://www.twport.com.tw/fapi/AttFile?id=14218&l=1&type=AttFile",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司",
+        "pageOrSection": "航道及分道航行",
+        "supports": "現行TSS、報到線與燈杆位置。"
+      }
+    ],
+    "limitations": [
+      "需取得1998年基隆港海圖／規定原始版本核對歷史數據。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對可取得的官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1998年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "087-keelung-waterway-03-answer-v1",
+    "questionId": "087-keelung-waterway-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "新制引水制度與原制度的差異，應從引水人派遣、引水服務組織、輪值與分區、引水人登輪程序、引水費及責任制度等面向比較。新制若涉及引水人輪值或派遣方式改變，並不表示船長可自行選擇制度或要求特定引水人採用不同程序。商輪船長要求依新制引領時，引水人應先確認主管機關及引水人辦事處已正式公告實施、船舶符合適用條件、當次派遣及作業程序已依新制核准；若尚未正式生效或不適用，應依有效法規及港口程序辦理，向船長說明並通報引水人辦事處。",
+    "practicalAnalysis": "需取得1998年新舊引水制度公告與條文，才能具體比較制度差異。",
+    "keyPoints": [
+      {
+        "point": "新舊制度比較法源及派遣方式",
+        "importance": "essential"
+      },
+      {
+        "point": "新制正式生效與適用範圍",
+        "importance": "essential"
+      },
+      {
+        "point": "船長不能單方選擇制度",
+        "importance": "essential"
+      },
+      {
+        "point": "引水人依有效規定執行並通報",
+        "importance": "essential"
+      }
+    ],
+    "references": [],
+    "limitations": [
+      "需取得1998年基隆港海圖／規定原始版本核對歷史數據。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對可取得的官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1998年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "087-keelung-waterway-04-answer-v1",
+    "questionId": "087-keelung-waterway-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "(1) 引水人是否負疏失責任，不能僅因發生碰撞就推定有過失；應依海況、船舶操縱性能、是否完成MPX、是否制定操船計畫、拖船配置、速度控制及是否及時採取避碰／制動措施，判斷是否違反專業注意義務。船長仍負船舶安全及法定責任，引水人提供專業引航並依港口制度執行，責任須依事證及法律判斷。(2) 事故可透過事前風險評估防範：靠泊前確認泊位、岸橋、裝卸設備、鄰船及防舷材；交換船舶尺度、吃水、主機舵效及停船距離；規劃速度、靠泊角度、拖船分工與中止條件；使用雷達、目視及岸標交叉定位；保持VHF通信；必要時增加拖船或延後作業。靠泊過程以低速、低接觸能量、分段控制方式進行。",
+    "practicalAnalysis": "法律責任須依當年商港法、引水法及海商法版本及個案證據判斷。",
+    "keyPoints": [
+      {
+        "point": "事故不等於引水人當然有過失",
+        "importance": "essential"
+      },
+      {
+        "point": "引水人與船長職責分工",
+        "importance": "essential"
+      },
+      {
+        "point": "MPX與操船計畫",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船配置及通信",
+        "importance": "essential"
+      },
+      {
+        "point": "靠泊速度、角度及設備淨空",
+        "importance": "essential"
+      }
+    ],
+    "references": [],
+    "limitations": [
+      "需取得1998年基隆港海圖／規定原始版本核對歷史數據。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對可取得的官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1998年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "087-keelung-waterway-05-answer-v1",
+    "questionId": "087-keelung-waterway-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "大型船舶靠泊泊位應依船種、碼頭用途、船席長度、設計水深、實測水深及裝卸設備配置決定。貨櫃輪通常靠貨櫃中心碼頭，注意岸橋臂架、軌道及船舶上層結構淨空；油輪靠油品專用碼頭，須符合危險品船泊位、管線、消防及防污染規定；散裝船靠散雜貨或專用碼頭，注意卸船機及輸送帶；客船靠客運碼頭，確認旅客橋及岸接設施；汽車船靠RO-RO或具跳板設施的碼頭，確認跳板角度、岸接承載及水位差。各泊位長度與水深須逐席依1998年碼頭使用表列出，並核對船舶LOA、吃水及UKC；大型船舶可能有單向航行、潮窗、拖船或特定泊位限制。",
+    "practicalAnalysis": "缺1998年基隆港碼頭使用區分表，無法逐項列出歷史船席編號、長度及水深。",
+    "keyPoints": [
+      {
+        "point": "貨櫃輪—貨櫃中心碼頭",
+        "importance": "essential"
+      },
+      {
+        "point": "油輪—油品專用碼頭",
+        "importance": "essential"
+      },
+      {
+        "point": "散裝船—散雜貨／專用碼頭",
+        "importance": "essential"
+      },
+      {
+        "point": "客船—客運碼頭",
+        "importance": "essential"
+      },
+      {
+        "point": "汽車船—RO-RO碼頭",
+        "importance": "essential"
+      },
+      {
+        "point": "各泊位水深、長度及限制依1998年表核對",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "基隆港港口資訊",
+        "url": "https://www.twport.com.tw/business/PortInfo?a=311",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司",
+        "pageOrSection": "地理位置、港區及航道",
+        "supports": "現行港區分區、航道及迴船池資料。"
+      }
+    ],
+    "limitations": [
+      "需取得1998年基隆港海圖／規定原始版本核對歷史數據。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對可取得的官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1998年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "087-keelung-waterway-06-answer-v1",
+    "questionId": "087-keelung-waterway-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "海圖上「錨與錨」或雙錨類符號必須依該版海圖圖例判讀，可能表示錨地、錨泊限制或特定錨泊警示；不可只憑圖形推定。引水人應先查海圖圖例及航船布告，確認野柳附近該符號的正式含義，再向船長說明水深、底質、風浪、流況、錨地界線、附近航道及船舶迴旋半徑。若無適當錨地或風浪流不利，建議不要在未核准水域下錨。若進港前錨及錨鏈無法收回，可能原因包括錨爪抓底、錨鏈受力方向不利、錨鏈纏繞或交叉、錨機／煞車故障、錨鏈扭結或錨被障礙物卡住。處理方式：停止強行起錨，保持船舶操縱控制，依風流調整船位使錨鏈卸力；必要時用主機／拖船協助移動船位，分段收鏈；檢查錨機、煞車及鏈輪；仍無法起錨則通報VTS及港務單位，評估暫留錨或依法採取棄錨措施。",
+    "practicalAnalysis": "海圖符號須先核對1998年圖例；題目所述「錨與錨」未取得原圖，不能直接定義。",
+    "keyPoints": [
+      {
+        "point": "先查海圖圖例確認符號意義",
+        "importance": "essential"
+      },
+      {
+        "point": "錨泊建議考慮水深底質風流及禁錨區",
+        "importance": "essential"
+      },
+      {
+        "point": "錨鏈卡底、纏繞、受力或錨機故障",
+        "importance": "essential"
+      },
+      {
+        "point": "卸力後分段起錨",
+        "importance": "essential"
+      },
+      {
+        "point": "無法起錨即通報VTS及處置",
+        "importance": "essential"
+      }
+    ],
+    "references": [],
+    "limitations": [
+      "需取得1998年基隆港海圖／規定原始版本核對歷史數據。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對可取得的官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "1998年歷史資料",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
