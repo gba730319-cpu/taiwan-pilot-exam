@@ -8438,5 +8438,260 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "106-english-01-answer-v1",
+    "questionId": "106-english-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "（一）儘管引水人負有其專業職責及義務，引水人在船上並不會免除船長或負責航行當值人員對船舶安全所應承擔的職責與義務。引水人登船後、開始領航之前，引水人、船長及駕駛臺人員必須清楚了解彼此在確保船舶安全航行方面各自的角色與責任，這一點十分重要。\n\n（二）引水人應熟悉IMO《標準海事通信用語》（SMCP），並在無線電通訊及駕駛臺口頭溝通的適當情況下使用。如此可使船長及負責航行當值人員更容易理解相關通訊內容及其意圖。",
+    "practicalAnalysis": "第一段核心是引水人在船不免除船長及航行當值人員責任；第二段要求引水人熟悉並適時使用IMO SMCP，以降低語言及指令誤解。",
+    "keyPoints": [
+      {
+        "point": "pilot's presence on board does not relieve the master or OOW of responsibility",
+        "importance": "essential"
+      },
+      {
+        "point": "登輪後、開始領航前須確認各自角色與責任",
+        "importance": "essential"
+      },
+      {
+        "point": "SMCP適用於無線電及駕駛臺口頭溝通",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "pageOrSection": "Annex 2 – Master-Pilot Information Exchange and bridge team",
+        "accessedAt": "2026-11-05",
+        "supports": "船長、引水人及駕駛臺人員責任與資訊交換。"
+      },
+      {
+        "title": "IMO Resolution A.918(22), Standard Marine Communication Phrases",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.918(22).pdf",
+        "pageOrSection": "SMCP general principles",
+        "accessedAt": "2026-11-05",
+        "supports": "標準海事通信用語。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "IMO及海事英文術語已核對",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review",
+          "note": "仍待專業英文人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "106-english-02-answer-v1",
+    "questionId": "106-english-02",
+    "version": 1,
+    "language": "en",
+    "answerType": "translation",
+    "modelAnswer": "(1) When a pilot is performing pilotage duties, the pilot boat on which the pilot is carried shall display the internationally recognized signals or the signals prescribed by the Republic of China. At night, it shall also display the prescribed lights. When the pilot leaves the pilot boat or is not engaged in pilotage duties, the pilot boat signals and lights shall be removed.\n\n(2) A pilot engaged in pilotage duties shall not leave the vessel before the pilotage assignment has been completed, unless the master has given permission.",
+    "practicalAnalysis": "本題翻譯重點為pilot boat signals、prescribed lights、not engaged in pilotage duties及not leave the vessel before the assignment has been completed unless the master has given permission。用shall表達法定義務，避免以may弱化規範。",
+    "keyPoints": [
+      {
+        "point": "pilot boat shall display internationally recognized or prescribed signals",
+        "importance": "essential"
+      },
+      {
+        "point": "at night it shall display the prescribed lights",
+        "importance": "essential"
+      },
+      {
+        "point": "pilot shall not leave before completion unless master gives permission",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "引水法",
+        "sourceType": "official_port_or_authority",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+        "pageOrSection": "引水船信號及引水人執業相關條文",
+        "accessedAt": "2026-11-05",
+        "supports": "引水船信號、燈號及引水人不得任意離船之法定義務。"
+      },
+      {
+        "title": "IMO Standard Marine Communication Phrases",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.918%2822%29.pdf",
+        "pageOrSection": "Pilotage and pilot boat terminology",
+        "accessedAt": "2026-11-05",
+        "supports": "pilot boat及pilotage英文術語。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "IMO及海事英文術語已核對",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review",
+          "note": "仍待專業英文人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "106-english-03-answer-v1",
+    "questionId": "106-english-03",
+    "version": 1,
+    "language": "en",
+    "answerType": "definition",
+    "modelAnswer": "**(1) Head-on situation**\nA situation in which two power-driven vessels are meeting on reciprocal or nearly reciprocal courses, with a risk of collision. Each vessel should alter her course to starboard so that they pass port side to port side, in accordance with Rule 14 of the COLREGs.\n\n**(2) Permeability**\nThe percentage of the volume of a compartment or space that can be occupied by water. It is the ratio of the volume available for water ingress to the total volume of the space, expressed as a percentage.\n\n**(3) Block coefficient (Cb)**\nThe ratio of the underwater volume of displacement of a ship to the volume of a rectangular block having the same length between perpendiculars, breadth and draft. It is expressed as: Cb = ∇ / (Lpp × B × T), where ∇ is the displacement volume, Lpp is length between perpendiculars, B is breadth and T is draft.\n\n**(4) Ship domain**\nThe area of water surrounding a vessel that the navigator wishes to keep free of other vessels or obstacles to ensure safe navigation. Its size and shape depend on the vessel's dimensions, speed, manoeuvring characteristics, traffic conditions, visibility and the navigator's assessment of risk.",
+    "practicalAnalysis": "四個定義須使用專業英文。Head-on situation對應COLREG Rule 14；Permeability是艙室可被水占據的容積比例；Block coefficient為排水體積與Lpp×B×T之比；Ship domain是船舶周圍應保持淨空的安全水域。",
+    "keyPoints": [
+      {
+        "point": "Head-on: reciprocal or nearly reciprocal courses with collision risk",
+        "importance": "essential"
+      },
+      {
+        "point": "Permeability: percentage of compartment volume available for water",
+        "importance": "essential"
+      },
+      {
+        "point": "Cb = displacement volume / (Lpp × B × draft)",
+        "importance": "essential"
+      },
+      {
+        "point": "Ship domain: surrounding water area kept clear for safe navigation",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "COLREGs 1972",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rule 14 – Head-on situation",
+        "accessedAt": "2026-11-05",
+        "supports": "Head-on situation之公約定義。"
+      },
+      {
+        "title": "International Convention on Load Lines, 1966",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/international-convention-on-load-lines.aspx",
+        "pageOrSection": "Subdivision and permeability concepts",
+        "accessedAt": "2026-11-05",
+        "supports": "艙室滲透率之船舶穩度及分艙概念。"
+      },
+      {
+        "title": "Ship Design and Construction",
+        "sourceType": "textbook_or_academic",
+        "issuer": "Standard naval architecture reference",
+        "pageOrSection": "Hull form coefficients and block coefficient",
+        "supports": "方形係數定義及公式。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "IMO及海事英文術語已核對",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review",
+          "note": "仍待專業英文人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "106-english-04-answer-v1",
+    "questionId": "106-english-04",
+    "version": 1,
+    "language": "en",
+    "answerType": "essay",
+    "modelAnswer": "**How to Become a Qualified Pilot**\n\nBecoming a qualified maritime pilot requires more than extensive sea experience. A pilot must combine professional knowledge, shiphandling skills, local knowledge, sound judgement and strong communication skills. The ultimate responsibility is to ensure the safe movement of vessels in ports and confined waters while protecting human life, property and the marine environment.\n\nFirst, a candidate should obtain the required maritime education and sea-going experience. Practical service as a deck officer and master helps develop a thorough understanding of navigation, ship stability, propulsion, steering systems, cargo operations and emergency procedures. This experience provides the foundation for making sound decisions under pressure.\n\nSecond, the candidate must pass the national pilot examination and complete the prescribed training and supervised pilotage programme. During training, the trainee should learn the local port's channels, depths, tides, currents, weather, navigational marks, anchorages, traffic rules and emergency arrangements. Knowledge of local conditions is essential because every port has its own characteristics and operational restrictions.\n\nThird, a qualified pilot must maintain excellent shiphandling skills. The pilot should understand the effects of wind, current, shallow water, bank interaction, squat, propeller action and tug assistance. Familiarity with different ship types, propulsion systems and manoeuvring characteristics is also necessary. Simulator training and regular assessment can help maintain these skills.\n\nCommunication and teamwork are equally important. A pilot must conduct an effective Master-Pilot Information Exchange, agree on a passage plan and work closely with the master, bridge team, tug operators and Vessel Traffic Services. The pilot should use standard marine communication phrases, maintain situational awareness and speak up whenever safety is at risk. The master's authority must always be respected.\n\nFinally, a professional pilot must be physically and mentally fit, honest, disciplined and committed to continuous learning. Laws, port facilities, charts and navigation technology change, so pilots must keep their knowledge up to date and learn from accidents and near misses.\n\nIn conclusion, a qualified pilot is a competent mariner, a skilled shiphandler and an effective team member. Professional integrity, local knowledge and an unwavering commitment to safety are the foundations of successful pilotage.",
+    "practicalAnalysis": "約300字作文宜按海勤資歷、國家考試與學習引水、港區知識、船舶操縱、溝通BRM、身心倫理及持續進修安排。不可只寫通過考試，還要說明實務領航能力。",
+    "keyPoints": [
+      {
+        "point": "Maritime education and sea-going experience",
+        "importance": "essential"
+      },
+      {
+        "point": "Pass national pilot examination and complete supervised pilotage training",
+        "importance": "essential"
+      },
+      {
+        "point": "Local knowledge of channels, tides, currents, weather and port rules",
+        "importance": "essential"
+      },
+      {
+        "point": "Shiphandling, tug operations, simulator training and risk assessment",
+        "importance": "essential"
+      },
+      {
+        "point": "MPX, BRM, communication, fitness, integrity and continuous learning",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "引水法",
+        "sourceType": "official_port_or_authority",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+        "pageOrSection": "第11、21至24條",
+        "accessedAt": "2026-11-05",
+        "supports": "引水人考試、學習及執業資格。"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "pageOrSection": "Annex 1 – Training and certification; Annex 2 – Operational procedures",
+        "accessedAt": "2026-11-05",
+        "supports": "引水人訓練、專業能力及領航程序。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "IMO及海事英文術語已核對",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review",
+          "note": "仍待專業英文人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
