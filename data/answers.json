@@ -15264,5 +15264,570 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "091-heping-waterway-01-answer-v1",
+    "questionId": "091-heping-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_or_drawing",
+    "modelAnswer": "本題應以2002年和平工業專用港海圖及港區配置圖為底圖，按適當比例描繪港口入口、主航道、迴船池、碼頭、導航設施及港區界線。\n\n一、港口輪廓：標示和平溪出海口、北／南防波堤、港嘴、主航道、迴船池及南北泊渠。官方港區資料現列航道有效寬約200m、長約1,200m、水深約-16至-15m，迴船池直徑約500m；2002年作圖仍須核對當年海圖及工程狀態。\n\n二、碼頭：\n- N2卸煤碼頭：船席長330m，水深約-16m，主要供3至8萬噸燃煤船。\n- S1多用途碼頭：船席長120m，水深約-9m，主要供砂石等多用途船舶。\n- S2多功能碼頭：船席長220m，水深約-13m。\n- S3水泥專用碼頭：船席長220m，水深約-13m。\n- S4水泥專用碼頭：船席長200m，水深約-12m。\n另標示港勤碼頭及未完工泊位，並清楚區分已營運與規劃／未完工設施。\n\n三、導航標誌：標示北／南防波堤堤頭燈杆、警示燈杆、雷達標杆、警示燈浮、信號台及引水站，附位置、燈色、燈質、能見距及雷達標回復信號。\n\n四、圖面附表：列各碼頭編號、長度、水深及用途；列航道寬度、水深與迴船池直徑；列導航標誌功能及位置。圖上須標北向、比例尺、測深基準與海圖版次。",
+    "practicalAnalysis": "現行官方港區資料列有各碼頭長度、水深與用途，但本題要求2002年港圖，須以當年港區圖確認當時已完工的碼頭及標誌。",
+    "keyPoints": [
+      {
+        "point": "港區輪廓及南北防波堤",
+        "importance": "essential"
+      },
+      {
+        "point": "主航道與迴船池",
+        "importance": "essential"
+      },
+      {
+        "point": "N2、S1至S4碼頭編號長度水深",
+        "importance": "essential"
+      },
+      {
+        "point": "導航燈杆、雷達標、警示燈浮及信號台",
+        "importance": "essential"
+      },
+      {
+        "point": "標明當年工程狀態與海圖版次",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "和平港區簡介",
+        "url": "https://www.bip.gov.tw/iphw/hpharb/index.do?id=10",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "港區基本資料、碼頭、防波堤及導航設施",
+        "supports": "官方現行港區配置：航道有效寬200m、長1200m、深-16至-15m；迴船池直徑500m；列出N2、S1至S4碼頭。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港港區作業規定及文件下載",
+        "url": "https://www.bip.gov.tw/iphw/hpharb/index.do?id=download",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "港區作業規定、船席錨地調配、港勤棧埠規定",
+        "supports": "官方提供危險物品裝卸、船席與錨地指定調配、港勤及棧埠作業規定。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港船舶進出港作業流程",
+        "url": "https://www.bip.gov.tw/iphw/hpharb/index.do?id=download",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "船舶進港及出港流程",
+        "supports": "官方進出港流程文件下載入口。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港主航道進港船舶操縱事故調查報告",
+        "url": "https://www.ttsb.gov.tw/media/6119/federal-sw%E9%87%8D%E5%A4%A7%E6%B0%B4%E8%B7%AF%E4%BA%8B%E6%95%85%E8%AA%BF%E6%9F%A5%E5%A0%B1%E5%91%8A.pdf",
+        "sourceType": "official_port_or_authority",
+        "issuer": "國家運輸安全調查委員會",
+        "pageOrSection": "沿岸流、黑潮、南外防波堤反射流及進港偏航",
+        "supports": "指出黑潮沿岸北流、南外堤造成反射流，可能在南外防波堤前約0.5浬使進港船受橫向流推離主航道。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港港務及棧埠設施一覽表",
+        "url": "https://www.bip.gov.tw/iphw/downLoad?index=file&uid=MDU5MXwyMjl8NDc0MA%3D%3D",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "防舷材、纜樁及碼頭附屬設施",
+        "supports": "官方PDF下載入口；需取得附件原圖核對S2碰墊與纜樁間距。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      "缺2002年和平港海圖及當年助航設施燈表，現行設施資料不能完全替代歷史圖。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對和平港官方港區資料及事故調查資料",
+          "result": "pass"
+        },
+        {
+          "item": "2002年港區配置、規定及附屬設施圖",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "091-heping-waterway-02-answer-v1",
+    "questionId": "091-heping-waterway-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": [],
+    "modelAnswer": "一、風險背景\n和平港位於臺灣東岸開放海域，港外受黑潮及沿岸流影響。國家運輸安全調查委員會事故調查指出，沿岸流常年大致向北；南外防波堤突出岸外後，可能使原本沿岸北流的水流產生反射流，流向轉為東南，與進港航向近乎垂直。此反射流在南外防波堤前約0.5浬處可能將船舶向外推離主航道，且流速不易預測。\n\n二、進港前準備\n1. 取得最新水深測量、航道疏浚狀態、潮流、風浪及信號台通報；確認北防波堤南端內側是否有淤沙及航道有效寬度。\n2. 依最新海圖及航船布告確認安全航路，不得因舊圖標示主航道較寬就忽略快速淤積。\n3. 與船長交換船舶操縱性能、吃水、主機舵效、停船距離及風壓資料，確認拖船配置。\n4. 由和平港專用引水人領航，並依信號台交通管制及進港許可程序執行。\n\n三、通過堤口操船\n1. 在南外防波堤前約0.5浬前即開始監控船位及偏流，不能等到船舶明顯偏離才修正。\n2. 以雷達、GNSS、目視堤頭燈標及平行指標交叉定位，持續確認船舶相對主航道中心線的位置。\n3. 由於橫向反射流可能把船舶向外推，應預先建立適當流壓修正角，保持足夠對水速度及舵效；避免過低速導致舵效喪失。\n4. 若流速突增，避免大幅急舵及盲目加車造成船尾外掃；依船舶反應分段修正航向與車速。\n5. 必要時使用拖船協助控制船首或船尾，並與信號台保持通信。\n6. 若航道淤沙嚴重、實際水深不足或流況超出操縱能力，應停止進港並在安全水域待命，等待測深、疏浚或流況改善。\n\n四、核心原則\n和平港不能只依一般漲退潮表推估港嘴流況；黑潮沿岸流與防波堤反射流可能造成突發橫流。引水人應以即時船位、流況及航道測深作決策，預留橫向漂移量，必要時暫停進港。",
+    "practicalAnalysis": "事故調查指出南外防波堤反射流是和平港進港偏航的重要風險，船舶常在南外堤前約0.5浬開始受橫向推力；應把監控與修正點前移。",
+    "keyPoints": [
+      {
+        "point": "北流黑潮沿岸流",
+        "importance": "essential"
+      },
+      {
+        "point": "南外防波堤反射流轉向東南",
+        "importance": "essential"
+      },
+      {
+        "point": "南外堤前約0.5浬可能受強橫流推離主航道",
+        "importance": "essential"
+      },
+      {
+        "point": "及早預留偏流角並交叉定位",
+        "importance": "essential"
+      },
+      {
+        "point": "淤沙或流況不安全時停止進港",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "和平港區簡介",
+        "url": "https://www.bip.gov.tw/iphw/hpharb/index.do?id=10",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "港區基本資料、碼頭、防波堤及導航設施",
+        "supports": "官方現行港區配置：航道有效寬200m、長1200m、深-16至-15m；迴船池直徑500m；列出N2、S1至S4碼頭。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港港區作業規定及文件下載",
+        "url": "https://www.bip.gov.tw/iphw/hpharb/index.do?id=download",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "港區作業規定、船席錨地調配、港勤棧埠規定",
+        "supports": "官方提供危險物品裝卸、船席與錨地指定調配、港勤及棧埠作業規定。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港船舶進出港作業流程",
+        "url": "https://www.bip.gov.tw/iphw/hpharb/index.do?id=download",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "船舶進港及出港流程",
+        "supports": "官方進出港流程文件下載入口。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港主航道進港船舶操縱事故調查報告",
+        "url": "https://www.ttsb.gov.tw/media/6119/federal-sw%E9%87%8D%E5%A4%A7%E6%B0%B4%E8%B7%AF%E4%BA%8B%E6%95%85%E8%AA%BF%E6%9F%A5%E5%A0%B1%E5%91%8A.pdf",
+        "sourceType": "official_port_or_authority",
+        "issuer": "國家運輸安全調查委員會",
+        "pageOrSection": "沿岸流、黑潮、南外防波堤反射流及進港偏航",
+        "supports": "指出黑潮沿岸北流、南外堤造成反射流，可能在南外防波堤前約0.5浬使進港船受橫向流推離主航道。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港港務及棧埠設施一覽表",
+        "url": "https://www.bip.gov.tw/iphw/downLoad?index=file&uid=MDU5MXwyMjl8NDc0MA%3D%3D",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "防舷材、纜樁及碼頭附屬設施",
+        "supports": "官方PDF下載入口；需取得附件原圖核對S2碰墊與纜樁間距。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      {
+        "title": "和平港主航道進港船舶操縱事故調查報告",
+        "url": "https://www.ttsb.gov.tw/media/6119/federal-sw%E9%87%8D%E5%A4%A7%E6%B0%B4%E8%B7%AF%E4%BA%8B%E6%95%85%E8%AA%BF%E6%9F%A5%E5%A0%B1%E5%91%8A.pdf",
+        "sourceType": "official_port_or_authority",
+        "issuer": "國家運輸安全調查委員會",
+        "pageOrSection": "沿岸流、黑潮、南外防波堤反射流及進港偏航",
+        "supports": "指出黑潮沿岸北流、南外堤造成反射流，可能在南外防波堤前約0.5浬使進港船受橫向流推離主航道。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對和平港官方港區資料及事故調查資料",
+          "result": "pass"
+        },
+        {
+          "item": "2002年港區配置、規定及附屬設施圖",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "091-heping-waterway-03-answer-v1",
+    "questionId": "091-heping-waterway-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": [
+      "需取得2002年和平港港區作業規定原文，才能完整列出當年特別限制、船舶尺度門檻及作業條件。"
+    ],
+    "modelAnswer": "和平港屬工業專用港，並非一般開放型公共商港。其主要服務和平工業區內廠商原物料及成品輸出入，船舶進出與港內作業須依專用港管理規定及管理單位許可辦理。\n\n一、進出港許可與引水\n1. 船舶應依和平港進出港申請流程提出申請，取得進港許可及船席安排。\n2. 進港須由專用引水人領航，依信號台指示及港口交通管制進出；船舶不得自行選擇進港時機。\n3. 船舶應依港口規定提供船舶資料、吃水、貨物種類、危險品資料及預定抵離港時間。\n\n二、船席與錨地\n船席及錨地由管理單位指定調配，不得任意靠泊、移泊或錨泊。船舶應依指定泊位、靠泊方向、船席長度及水深限制操作；未經許可不得進入其他泊位或作業水域。\n\n三、貨物及危險品\n1. 和平港主要處理工業原物料及成品，裝卸作業須配合港區營運及業者規定。\n2. 危險物品裝卸須事先取得許可，並通知港區消防及棧埠作業機構。\n3. 危險品船舶進出、裝卸、暫存及應變應遵守專用港危險物品裝卸規定及相關法規。\n\n四、港區管理與安全\n船舶、船員及承攬業者須遵守港區通行、保全、環保、消防、污染防治、施工及作業許可規定。港區非一般觀光或自由進出區域，外來人員與車輛須依規定申請通行。\n\n五、港勤及事故應變\n船舶須依港勤及棧埠作業規定接受拖船、繫解纜及裝卸作業安排；遇海象惡化、機械故障、污染或海難，應立即通報信號台／港口管理單位並依緊急應變程序處理。\n\n六、歷史版本提醒\n題目問2002年當時的特別規定與限制，應再核對當年和平港港區作業規定及工業專用港管理辦法版本；現行官方規定可作制度框架，不能直接取代當年條文。",
+    "practicalAnalysis": "官方管理小組資料確認和平港為工業專用港，主要供和平工業區廠商使用，且有危險品許可、船席錨地調配及港勤作業規定。",
+    "keyPoints": [
+      {
+        "point": "工業專用港用途限制",
+        "importance": "essential"
+      },
+      {
+        "point": "船舶進出港須申請許可",
+        "importance": "essential"
+      },
+      {
+        "point": "專用引水及信號台管制",
+        "importance": "essential"
+      },
+      {
+        "point": "船席錨地由管理單位指定",
+        "importance": "essential"
+      },
+      {
+        "point": "危險品裝卸事先核准",
+        "importance": "essential"
+      },
+      {
+        "point": "遵守港區通行、保全及環保規定",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "和平港區簡介",
+        "url": "https://www.bip.gov.tw/iphw/hpharb/index.do?id=10",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "港區基本資料、碼頭、防波堤及導航設施",
+        "supports": "官方現行港區配置：航道有效寬200m、長1200m、深-16至-15m；迴船池直徑500m；列出N2、S1至S4碼頭。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港港區作業規定及文件下載",
+        "url": "https://www.bip.gov.tw/iphw/hpharb/index.do?id=download",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "港區作業規定、船席錨地調配、港勤棧埠規定",
+        "supports": "官方提供危險物品裝卸、船席與錨地指定調配、港勤及棧埠作業規定。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港船舶進出港作業流程",
+        "url": "https://www.bip.gov.tw/iphw/hpharb/index.do?id=download",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "船舶進港及出港流程",
+        "supports": "官方進出港流程文件下載入口。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港主航道進港船舶操縱事故調查報告",
+        "url": "https://www.ttsb.gov.tw/media/6119/federal-sw%E9%87%8D%E5%A4%A7%E6%B0%B4%E8%B7%AF%E4%BA%8B%E6%95%85%E8%AA%BF%E6%9F%A5%E5%A0%B1%E5%91%8A.pdf",
+        "sourceType": "official_port_or_authority",
+        "issuer": "國家運輸安全調查委員會",
+        "pageOrSection": "沿岸流、黑潮、南外防波堤反射流及進港偏航",
+        "supports": "指出黑潮沿岸北流、南外堤造成反射流，可能在南外防波堤前約0.5浬使進港船受橫向流推離主航道。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港港務及棧埠設施一覽表",
+        "url": "https://www.bip.gov.tw/iphw/downLoad?index=file&uid=MDU5MXwyMjl8NDc0MA%3D%3D",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "防舷材、纜樁及碼頭附屬設施",
+        "supports": "官方PDF下載入口；需取得附件原圖核對S2碰墊與纜樁間距。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      {
+        "title": "和平港港區作業規定及文件下載",
+        "url": "https://www.bip.gov.tw/iphw/hpharb/index.do?id=download",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "港區作業規定、船席錨地調配、港勤棧埠規定",
+        "supports": "官方提供危險物品裝卸、船席與錨地指定調配、港勤及棧埠作業規定。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港船舶進出港作業流程",
+        "url": "https://www.bip.gov.tw/iphw/hpharb/index.do?id=download",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "船舶進港及出港流程",
+        "supports": "官方進出港流程文件下載入口。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對和平港官方港區資料及事故調查資料",
+          "result": "pass"
+        },
+        {
+          "item": "2002年港區配置、規定及附屬設施圖",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "091-heping-waterway-04-answer-v1",
+    "questionId": "091-heping-waterway-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": [
+      "缺2002年和平港各泊位結構竣工圖及岸上設備配置圖，無法逐項標示當年設備位置與防舷材規格。"
+    ],
+    "modelAnswer": "一、碼頭結構特性\n和平港屬外海工業專用港，碼頭配置包含卸煤碼頭N2、多用途碼頭S1、多功能碼頭S2及水泥專用碼頭S3、S4，另有港勤碼頭。港區設有防波堤、內外泊渠、迴船池、裝卸設備及專用輸送設施。各碼頭功能與靠泊船型不同，不能以一般直線岸壁碼頭一概而論。\n\n二、岸上設施特性\n1. N2卸煤碼頭設有卸煤及輸送系統，船舶靠泊須注意卸船機、輸送帶、轉運塔及其作業範圍。\n2. S1、S2多用途碼頭可能使用移動式裝卸設備及重件貨物作業設施，須確認岸上機具及作業區淨空。\n3. S3、S4為水泥專用碼頭，應注意水泥裝卸管線、氣力輸送設備及相關岸上管線。\n4. 防舷材、繫纜樁及碼頭平台的配置與承載能力，須依各泊位設計及港勤設施圖核對。\n\n三、引水靠泊應對\n1. 靠泊前先與信號台、碼頭作業單位及船長交換泊位、船型、吃水、裝卸設備狀態及岸上障礙物資料。\n2. 確認防舷材位置與船舶接觸點相符，避免船體直接碰觸平台邊緣、輸送設備支架或其他硬點。\n3. 控制船舶靠泊速度與角度，重載船及大型船舶須降低接觸能量，必要時使用拖船協助橫移及艏艉控制。\n4. 依泊位配置安排艏艉纜及倒纜，避免纜繩與裝卸管線、輸送設備或岸上作業區干涉。\n5. 靠妥後確認船舶與岸上設備保持安全距離，裝卸前依港口規定完成安全檢查及作業許可。\n\n四、結論\n和平港各泊位具有工業專用裝卸設施，靠泊前必須先確認碼頭用途、設備突出範圍、防舷材與繫纜配置；操船時以低速、低接觸能量及拖船輔助，避免碰撞岸上機具或碼頭結構。",
+    "practicalAnalysis": "官方現行港區簡介列出N2、S1至S4的用途及船席尺度；但各碼頭細部結構、碰墊與岸上機具位置須依2002年設施圖及附屬設施表核實。",
+    "keyPoints": [
+      {
+        "point": "N2卸煤輸送設備",
+        "importance": "essential"
+      },
+      {
+        "point": "S1/S2多用途及重件作業",
+        "importance": "essential"
+      },
+      {
+        "point": "S3/S4水泥裝卸管線",
+        "importance": "essential"
+      },
+      {
+        "point": "核對防舷材及繫纜樁配置",
+        "importance": "essential"
+      },
+      {
+        "point": "低速低能量靠泊並避開岸上機具",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "和平港區簡介",
+        "url": "https://www.bip.gov.tw/iphw/hpharb/index.do?id=10",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "港區基本資料、碼頭、防波堤及導航設施",
+        "supports": "官方現行港區配置：航道有效寬200m、長1200m、深-16至-15m；迴船池直徑500m；列出N2、S1至S4碼頭。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港港區作業規定及文件下載",
+        "url": "https://www.bip.gov.tw/iphw/hpharb/index.do?id=download",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "港區作業規定、船席錨地調配、港勤棧埠規定",
+        "supports": "官方提供危險物品裝卸、船席與錨地指定調配、港勤及棧埠作業規定。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港船舶進出港作業流程",
+        "url": "https://www.bip.gov.tw/iphw/hpharb/index.do?id=download",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "船舶進港及出港流程",
+        "supports": "官方進出港流程文件下載入口。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港主航道進港船舶操縱事故調查報告",
+        "url": "https://www.ttsb.gov.tw/media/6119/federal-sw%E9%87%8D%E5%A4%A7%E6%B0%B4%E8%B7%AF%E4%BA%8B%E6%95%85%E8%AA%BF%E6%9F%A5%E5%A0%B1%E5%91%8A.pdf",
+        "sourceType": "official_port_or_authority",
+        "issuer": "國家運輸安全調查委員會",
+        "pageOrSection": "沿岸流、黑潮、南外防波堤反射流及進港偏航",
+        "supports": "指出黑潮沿岸北流、南外堤造成反射流，可能在南外防波堤前約0.5浬使進港船受橫向流推離主航道。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港港務及棧埠設施一覽表",
+        "url": "https://www.bip.gov.tw/iphw/downLoad?index=file&uid=MDU5MXwyMjl8NDc0MA%3D%3D",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "防舷材、纜樁及碼頭附屬設施",
+        "supports": "官方PDF下載入口；需取得附件原圖核對S2碰墊與纜樁間距。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      {
+        "title": "和平港區簡介",
+        "url": "https://www.bip.gov.tw/iphw/hpharb/index.do?id=10",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "港區基本資料、碼頭、防波堤及導航設施",
+        "supports": "官方現行港區配置：航道有效寬200m、長1200m、深-16至-15m；迴船池直徑500m；列出N2、S1至S4碼頭。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港港務及棧埠設施一覽表",
+        "url": "https://www.bip.gov.tw/iphw/downLoad?index=file&uid=MDU5MXwyMjl8NDc0MA%3D%3D",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "防舷材、纜樁及碼頭附屬設施",
+        "supports": "官方PDF下載入口；需取得附件原圖核對S2碰墊與纜樁間距。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對和平港官方港區資料及事故調查資料",
+          "result": "pass"
+        },
+        {
+          "item": "2002年港區配置、規定及附屬設施圖",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "091-heping-waterway-05-answer-v1",
+    "questionId": "091-heping-waterway-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": [
+      "缺S2碰墊及纜樁配置圖、中心間距與起算端偏移量，故無法確定碰墊及纜樁的具體序號。"
+    ],
+    "modelAnswer": "一、船舶與泊位幾何\nS2船席長220公尺，駁船／散裝船LOA 180公尺，若船舶置中並使艏艉至泊位兩端等距，兩端各留：\n(220−180)÷2=20公尺。\n\n題目給駕駛台至船艏152公尺，因此駕駛台至船艉距離為：\n180−152=28公尺。\n\n故船舶置中時，若以船艉端為起算基準，駕駛台距船艉20+28=**48公尺**；若從船艏端起算，則距船艏20+152=172公尺。兩者相加為220公尺，可互相校驗。\n\n二、碰墊位置\n應先取得S2碼頭碰墊配置圖，確認碰墊中心間距、第一個碰墊相對泊位端點的偏移量及編號方向。以泊位端點為原點，駕駛台位置48公尺，換算最近的碰墊編號：\n碰墊序號＝（48公尺−第一碰墊中心偏移）÷碰墊中心間距，再依實際編號規則取最接近且能滿足船體接觸要求的碰墊位置。\n不得在未知道碰墊間距時直接猜第幾個碰墊。\n\n三、纜樁位置\n同理，須取得S2纜樁配置圖及纜樁間距。以船艉方向起算，駕駛台基準點位於距船艉48公尺的泊位位置；將48公尺除以纜樁間距並加上起算端的第一支纜樁偏移，才能換算纜樁序號。\n\n四、結論\n幾何計算可確定駕駛台距船艉方向的泊位端點48公尺；碰墊及纜樁的確切編號，必須依S2實際碰墊／纜樁間距與第一個設施位置換算。",
+    "practicalAnalysis": "船舶置中計算可確定駕駛台距船艉端的碼頭端點48m；碰墊與纜樁序號依配置間距及首個設施偏移決定，現有官方下載附件尚未能取得內容。",
+    "keyPoints": [
+      {
+        "point": "S2船席220m、船長180m，兩端各20m",
+        "importance": "essential"
+      },
+      {
+        "point": "駕駛台距船艉28m",
+        "importance": "essential"
+      },
+      {
+        "point": "駕駛台距船艉端的碼頭基準位置48m",
+        "importance": "essential"
+      },
+      {
+        "point": "碰墊與纜樁編號需以間距與起算偏移換算",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "和平港區簡介",
+        "url": "https://www.bip.gov.tw/iphw/hpharb/index.do?id=10",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "港區基本資料、碼頭、防波堤及導航設施",
+        "supports": "官方現行港區配置：航道有效寬200m、長1200m、深-16至-15m；迴船池直徑500m；列出N2、S1至S4碼頭。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港港區作業規定及文件下載",
+        "url": "https://www.bip.gov.tw/iphw/hpharb/index.do?id=download",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "港區作業規定、船席錨地調配、港勤棧埠規定",
+        "supports": "官方提供危險物品裝卸、船席與錨地指定調配、港勤及棧埠作業規定。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港船舶進出港作業流程",
+        "url": "https://www.bip.gov.tw/iphw/hpharb/index.do?id=download",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "船舶進港及出港流程",
+        "supports": "官方進出港流程文件下載入口。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港主航道進港船舶操縱事故調查報告",
+        "url": "https://www.ttsb.gov.tw/media/6119/federal-sw%E9%87%8D%E5%A4%A7%E6%B0%B4%E8%B7%AF%E4%BA%8B%E6%95%85%E8%AA%BF%E6%9F%A5%E5%A0%B1%E5%91%8A.pdf",
+        "sourceType": "official_port_or_authority",
+        "issuer": "國家運輸安全調查委員會",
+        "pageOrSection": "沿岸流、黑潮、南外防波堤反射流及進港偏航",
+        "supports": "指出黑潮沿岸北流、南外堤造成反射流，可能在南外防波堤前約0.5浬使進港船受橫向流推離主航道。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港港務及棧埠設施一覽表",
+        "url": "https://www.bip.gov.tw/iphw/downLoad?index=file&uid=MDU5MXwyMjl8NDc0MA%3D%3D",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "防舷材、纜樁及碼頭附屬設施",
+        "supports": "官方PDF下載入口；需取得附件原圖核對S2碰墊與纜樁間距。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      {
+        "title": "和平港區簡介",
+        "url": "https://www.bip.gov.tw/iphw/hpharb/index.do?id=10",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "港區基本資料、碼頭、防波堤及導航設施",
+        "supports": "官方現行港區配置：航道有效寬200m、長1200m、深-16至-15m；迴船池直徑500m；列出N2、S1至S4碼頭。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "和平港港務及棧埠設施一覽表",
+        "url": "https://www.bip.gov.tw/iphw/downLoad?index=file&uid=MDU5MXwyMjl8NDc0MA%3D%3D",
+        "sourceType": "official_port_or_authority",
+        "issuer": "經濟部和平工業專用港管理小組",
+        "pageOrSection": "防舷材、纜樁及碼頭附屬設施",
+        "supports": "官方PDF下載入口；需取得附件原圖核對S2碰墊與纜樁間距。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對和平港官方港區資料及事故調查資料",
+          "result": "pass"
+        },
+        {
+          "item": "2002年港區配置、規定及附屬設施圖",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
