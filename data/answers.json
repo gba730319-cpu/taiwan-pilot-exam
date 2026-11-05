@@ -5644,5 +5644,437 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-pilotage-03-answer-v1",
+    "questionId": "108-pilotage-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "太平洋主要海流可依北太平洋、赤道海域及南太平洋分區說明：\n\n一、北太平洋環流\n（一）北赤道洋流（North Equatorial Current）：受信風影響，主要由東向西流。\n（二）黑潮（Kuroshio）：由菲律賓東側向北，經臺灣東側及琉球群島附近，沿日本南方外海向東北流，屬暖流。\n（三）黑潮延伸流（Kuroshio Extension）：黑潮離開日本東方後，向東延伸。\n（四）北太平洋洋流（North Pacific Current）：中緯度海域主要由西向東流。\n（五）阿拉斯加洋流（Alaska Current）：北太平洋東北部沿阿拉斯加灣一帶流動。\n（六）加利福尼亞洋流（California Current）：沿北美洲西岸向南流，屬寒流。\n（七）親潮（Oyashio）：由白令海及西北太平洋高緯度海域向南流，與黑潮水系交會。\n\n二、赤道及南太平洋環流\n（一）赤道逆流（Equatorial Countercurrent）：位於赤道洋流系統之間，主要向東流。\n（二）南赤道洋流（South Equatorial Current）：熱帶南太平洋主要向西流。\n（三）南太平洋洋流（South Pacific Current）：南太平洋中緯度主要向東流。\n（四）秘魯／洪堡洋流（Peru or Humboldt Current）：沿南美洲西岸向北流，屬寒流。\n（五）東澳洲洋流（East Australian Current）：沿澳洲東岸向南流，屬暖流。\n（六）南極繞極流（Antarctic Circumpolar Current）：環繞南極洲由西向東流動。\n\n太平洋洋流的實際流向與流速會受季節風、信風、海氣交互作用、地形及海洋環流變化影響。航行計畫應參考航路指南、海流圖及當時海洋預報，並利用船位推算與實際觀測修正流壓，不宜僅以概略洋流圖取代即時資料。",
+    "practicalAnalysis": "本題重點在於正確列出主要洋流及流向，並辨識黑潮、東澳洲洋流等暖流，以及加利福尼亞、秘魯及親潮等寒流。洋流是大尺度海洋環流，與港區潮流不同；航海定位時需將洋流造成的流壓與潮流分開評估。",
+    "keyPoints": [
+      {
+        "point": "北太平洋環流主要包括北赤道洋流、黑潮、黑潮延伸流、北太平洋洋流、阿拉斯加洋流、加利福尼亞洋流及親潮",
+        "importance": "essential"
+      },
+      {
+        "point": "赤道附近有赤道逆流及南赤道洋流",
+        "importance": "essential"
+      },
+      {
+        "point": "南太平洋主要包括南太平洋洋流、秘魯洋流、東澳洲洋流及南極繞極流",
+        "importance": "supporting"
+      },
+      {
+        "point": "黑潮沿臺灣東側向北至東北流動，對臺灣東部航行具有重要性",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "Major Ocean Currents",
+        "issuer": "NOAA JetStream",
+        "url": "https://www.noaa.gov/jetstream/ocean/circulations/jetstream-max-major-ocean-currents",
+        "supports": "全球及太平洋主要洋流名稱、分布與流向。",
+        "sourceType": "textbook_or_academic",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "Ocean Surface Currents",
+        "issuer": "University of Hawaiʻi, Exploring Our Fluid Earth",
+        "url": "https://manoa.hawaii.edu/exploringourfluidearth/physical/atmospheric-effects/ocean-surface-currents",
+        "supports": "洋流形成、風場驅動與全球表層洋流分布。",
+        "sourceType": "textbook_or_academic",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "洋流名稱及流向為大尺度概略資料，實際流速及位置應依航區、季節及當時海流資料確認。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "題目與答案關聯核對",
+          "result": "pass"
+        },
+        {
+          "item": "專業定義／規則已對照正式資料",
+          "result": "pass"
+        },
+        {
+          "item": "方信雄指定著作未取得可引用全文，未杜撰頁碼",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "reviewNotes": [
+      "本答案為備考參考擬答，非官方公布解答。"
+    ],
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-pilotage-04-answer-v1",
+    "questionId": "108-pilotage-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "海風（Sea Breeze）與陸風（Land Breeze）是由海陸受熱及冷卻速度不同所形成的地方性環流。\n\n一、海風\n（一）成因：白天陸地比熱較小，升溫速度通常比海洋快，陸地上空空氣受熱膨脹並上升，近地面氣壓相對較低；海面上空空氣較冷、氣壓相對較高，因此近地面空氣由海洋吹向陸地，形成海風。高空則有相反方向的補償氣流，形成局部環流。\n（二）發生時間：通常在日出後陸地逐漸升溫時形成，午後陸海溫差較大時較強，傍晚陸地冷卻後逐漸減弱。\n（三）影響範圍：主要影響沿岸及近海地區，強弱與陸海溫差、地形、背景風及天氣系統有關；在適當條件下可向內陸及外海延伸數十公里，並非固定距離。\n\n二、陸風\n（一）成因：夜間陸地散熱比海洋快，陸地上空空氣較冷、氣壓相對較高，海面相對較暖，近地面空氣由陸地吹向海洋，形成陸風；高空形成反向補償氣流。\n（二）發生時間：通常在日落後陸地逐漸冷卻時形成，夜間至日出前較明顯，日出後隨陸地升溫而減弱。\n（三）影響範圍：主要影響沿岸及近海地區，通常較海風弱，但仍受地形、背景風及天氣條件影響。\n\n三、對航海及引航的影響\n（一）海風可能使船舶進港或靠泊時受到由海向岸的風壓；陸風則可能使船舶受到由岸向海的風壓。實際影響須依碼頭方向及風向與船舶縱、橫軸的夾角判斷。\n（二）海風、陸風可能與季風、海岸地形及港區建築物造成的局部風場疊加，改變船舶橫移及偏航趨勢。\n（三）引水人應持續觀察風向、風速及其變化，配合船舶受風面積、吃水、載況、拖輪及艏艉推進器能力，預留操船餘裕。",
+    "practicalAnalysis": "海風、陸風屬熱力環流，應以白天陸地較熱、夜間陸地較冷的溫差機制解釋。發生時刻及影響距離不是固定值，背景季風或鋒面風較強時，地方型環流可能被削弱或改變。",
+    "keyPoints": [
+      {
+        "point": "海風：白天近地面由海吹向陸，午後通常較強",
+        "importance": "essential"
+      },
+      {
+        "point": "陸風：夜間近地面由陸吹向海，夜間至清晨較明顯",
+        "importance": "essential"
+      },
+      {
+        "point": "形成原因為陸海熱容量及升降溫速度不同",
+        "importance": "supporting"
+      },
+      {
+        "point": "影響範圍受背景風、地形及陸海溫差影響",
+        "importance": "supporting"
+      },
+      {
+        "point": "港區操船應評估風向與船舶縱軸、橫軸及受風面積關係",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "Sea and Land Breezes",
+        "issuer": "NOAA JetStream",
+        "url": "https://www.noaa.gov/jetstream/ocean/sea-and-land-breezes",
+        "supports": "說明海風與陸風的形成、日夜變化及地方性環流。",
+        "sourceType": "textbook_or_academic",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "Sea Breeze",
+        "issuer": "Met Office",
+        "url": "https://weather.metoffice.gov.uk/learn-about/weather/how-weather-works/sea-breeze",
+        "supports": "說明海風形成及其日間發展特性。",
+        "sourceType": "textbook_or_academic",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "題目與答案關聯核對",
+          "result": "pass"
+        },
+        {
+          "item": "專業定義／規則已對照正式資料",
+          "result": "pass"
+        },
+        {
+          "item": "方信雄指定著作未取得可引用全文，未杜撰頁碼",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "reviewNotes": [
+      "本答案為備考參考擬答，非官方公布解答。"
+    ],
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-english-01-answer-v1",
+    "questionId": "108-english-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "（一）任何需要引水人引航的船舶，均應懸掛普遍使用或由中華民國主管機關指定的「請求引水信號」。船舶所有人或船長得事先與當地引水機構聯繫，安排引水服務。如有兩艘或兩艘以上船舶同時懸掛請求引水信號，引水人應依先到先服務的原則提供服務；但其中如有船舶處於遇險狀態，引水人應優先為該遇險船舶提供服務。\n\n（二）引水人受聘登輪執行引航時，船長應降下「請求引水信號」，改懸「引水人在船」信號，並向引水人告知船舶的操縱特性、總噸位、船長、吃水、船速等資料。船長不得拒絕引水人查驗相關證書的要求。\n\n（三）引水人除持有交通部核發的引水人執業證書，以及當地航政機關核發、適用於該引水區的登記證書外，不得執行引航業務。",
+    "practicalAnalysis": "本題為法規情境英文翻譯，應區分 pilot request signal（請求引水信號）、pilot on board（引水人在船信號）、pilotage district（引水區）及 certificate of registration（登記證書）。原文的法定證書名稱與現行法規用語可能因法規修正而變動，考試作答應依題目年度適用法規及正式中英文名稱。",
+    "keyPoints": [
+      {
+        "point": "先到先服務原則，但遇險船舶優先",
+        "importance": "essential"
+      },
+      {
+        "point": "引水登輪後更換信號並進行船舶資料交換",
+        "importance": "essential"
+      },
+      {
+        "point": "船長應提供船舶操縱特性、噸位、船長、吃水及船速等資料",
+        "importance": "supporting"
+      },
+      {
+        "point": "引水人須具備主管機關核發的執業及登記資格",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "引水法",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0070001",
+        "supports": "引水人執業資格、登記及執行引航業務之法定規範。",
+        "sourceType": "law_or_regulation",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "IMO Recommendations on Operational Procedures for Maritime Pilots (Resolution A.960(23))",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imorules.com/GUID-1B007126-91DD-4B5F-A342-344A97085B91.html",
+        "supports": "引水作業程序及船長、引水人間的資訊交換。",
+        "sourceType": "IMO_or_treaty",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "英文原文的證書名稱及法規措辭應依108年考試年度當時有效法規核實。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "題目與答案關聯核對",
+          "result": "pass"
+        },
+        {
+          "item": "專業定義／規則已對照正式資料",
+          "result": "pass"
+        },
+        {
+          "item": "方信雄指定著作未取得可引用全文，未杜撰頁碼",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "reviewNotes": [
+      "本答案為備考參考擬答，非官方公布解答。"
+    ],
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-english-02-answer-v1",
+    "questionId": "108-english-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "(1) Any action taken to avoid collision shall be in accordance with the provisions of the International Regulations for Preventing Collisions at Sea. When the circumstances permit, such action shall be taken in ample time and shall be positive and made in good time, with due regard to the observance of good seamanship.\n\n(2) Any alteration of course and/or speed to avoid collision shall, if the circumstances of the case admit, be large enough to be readily apparent to another vessel observing visually or by radar. A succession of small alterations of course and/or speed should be avoided.",
+    "practicalAnalysis": "兩段主要對應 COLREG Rule 8 的避碰行動原則。關鍵用語包括 in ample time（及早／有充分時間）、positive action（明確果斷的行動）、good seamanship（優良船藝）、readily apparent（明顯可察覺）及 a succession of small alterations（連續多次小幅改變）。",
+    "keyPoints": [
+      {
+        "point": "避碰措施須符合 COLREG 各條規則",
+        "importance": "essential"
+      },
+      {
+        "point": "環境許可時應及早採取明確、果斷行動",
+        "importance": "essential"
+      },
+      {
+        "point": "航向／航速改變幅度應足以讓他船目視或雷達明顯察覺",
+        "importance": "supporting"
+      },
+      {
+        "point": "避免連續、斷續而微小的航向或航速變動",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972 (COLREGs)",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "Rules 5–8, 19 and 34: lookout, safe speed, collision risk, avoiding action, restricted visibility and sound signals.",
+        "sourceType": "IMO_or_treaty",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "英文答案採符合 IMO 用語的意譯；不同版本的 COLREG 英文原文可能有標點及措辭差異。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "題目與答案關聯核對",
+          "result": "pass"
+        },
+        {
+          "item": "專業定義／規則已對照正式資料",
+          "result": "pass"
+        },
+        {
+          "item": "方信雄指定著作未取得可引用全文，未杜撰頁碼",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "reviewNotes": [
+      "本答案為備考參考擬答，非官方公布解答。"
+    ],
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-english-03-answer-v1",
+    "questionId": "108-english-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "definition",
+    "modelAnswer": "(1) Cardinal buoys\nMarks used to indicate the direction of safe water in relation to a danger. They are named North, East, South and West and show that navigable water lies in the corresponding direction from the mark.\n\n(2) Closest point of approach (CPA)\nThe shortest distance at which one vessel is predicted to pass another vessel or a fixed object if both maintain their present courses and speeds.\n\n(3) Manoeuvring speed\nA speed selected for safe and effective ship handling, usually in restricted waters or during pilotage, at which the vessel retains adequate control while avoiding excessive speed and stopping distance. The appropriate speed depends on the vessel, water depth, environmental conditions and the manoeuvre being performed.\n\n(4) List\nThe inclination of a vessel to port or starboard from the upright position, usually caused by an off-centre weight distribution or a transverse shift of weight. A list is generally distinguished from a temporary heel caused by wind, turning or waves.",
+    "practicalAnalysis": "四個名詞應以精簡英文定義為主。Cardinal buoys 指四方位標誌；CPA 是依目前航向與航速推算的最近會遇距離；manoeuvring speed 沒有所有船舶通用的固定數值；list 通常指船舶因重量分布造成的持續橫傾，須與轉向、風浪造成的暫時 heel 區分。",
+    "keyPoints": [
+      {
+        "point": "Cardinal buoys 表示危險物周圍可航水域的方位",
+        "importance": "essential"
+      },
+      {
+        "point": "CPA 是預測最近會遇距離，需配合 TCPA 及風險判斷",
+        "importance": "essential"
+      },
+      {
+        "point": "Manoeuvring speed 依船型、操縱性能、水深及環境而定",
+        "importance": "supporting"
+      },
+      {
+        "point": "List 通常源於橫向重量不平衡，與動態 heel 不同",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "IALA Maritime Buoyage System",
+        "issuer": "International Association of Marine Aids to Navigation and Lighthouse Authorities",
+        "url": "https://www.iala.int/content/uploads/woocommerce_uploads/2017/06/R1001-The-IALA-Maritime-Buoyage-System-Ed1.1-June-2017.pdf",
+        "supports": "Cardinal marks 的定義、方位及可航水域意義。",
+        "sourceType": "official_chart_or_notice",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "COLREGs",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "避碰判斷及安全航行基本規範。",
+        "sourceType": "IMO_or_treaty",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "題目與答案關聯核對",
+          "result": "pass"
+        },
+        {
+          "item": "專業定義／規則已對照正式資料",
+          "result": "pass"
+        },
+        {
+          "item": "方信雄指定著作未取得可引用全文，未杜撰頁碼",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "reviewNotes": [
+      "本答案為備考參考擬答，非官方公布解答。"
+    ],
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-english-04-answer-v1",
+    "questionId": "108-english-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "Factors Contributing to Pilotage Accidents and Possible Solutions\n\nAlthough a pilot provides essential local knowledge and advice, the presence of a pilot does not relieve the master or the officer of the watch of their responsibility for the safety of the vessel. Pilotage accidents may still occur because safe navigation depends on effective cooperation between the pilot and the ship’s bridge team.\n\nOne major factor is poor communication. If the pilot’s orders are unclear, are not repeated, or are misunderstood because of language difficulties, the vessel may respond incorrectly. This risk can be reduced by using a common working language, closed-loop communication and the IMO Standard Marine Communication Phrases. Helm and engine orders should be repeated and checked.\n\nA second factor is an inadequate Master-Pilot Exchange. The pilot may not know the vessel’s actual manoeuvring characteristics, equipment limitations, draft, stopping distance or propulsion defects. Before commencing pilotage, the master and pilot should exchange relevant information, agree on the passage plan, discuss tug requirements and establish contingency measures.\n\nA third factor is poor bridge resource management and excessive authority gradient. Bridge officers may hesitate to question a pilot even when they observe an unsafe situation. The pilot should encourage the bridge team to speak up, while the master and officers should continuously monitor the vessel’s position, speed, heading and progress against the passage plan.\n\nOther contributing factors include fatigue, high workload, overconfidence, inadequate passage planning, inaccurate position fixing, strong wind or current, restricted visibility and insufficient knowledge of local hazards. These risks can be reduced through proper rest, adequate manning, systematic monitoring, updated charts, simulator training and regular safety briefings.\n\nFinally, VTS and tug communication should be clear and timely. Any change in traffic, weather or operational conditions must be shared immediately.\n\nIn conclusion, pilotage safety is a shared responsibility. Effective communication, proper preparation, independent monitoring and a supportive bridge team can reduce human error and prevent collisions, groundings and contact damage.",
+    "practicalAnalysis": "作文須避免將事故歸咎於單一個人。可從人因、船長—引水人資訊交換、BRM、船舶操縱資料、疲勞與工作負荷、環境及VTS／拖輪協調等面向分析，並為每一項風險提出具體改善措施。",
+    "keyPoints": [
+      {
+        "point": "溝通失誤、語言障礙及未確認操舵／車鐘命令",
+        "importance": "essential"
+      },
+      {
+        "point": "MPX 不完整，船舶操縱性能或設備限制未充分交換",
+        "importance": "essential"
+      },
+      {
+        "point": "權威梯度使船橋團隊不敢提出疑慮",
+        "importance": "supporting"
+      },
+      {
+        "point": "監控不足、航次計畫不完整、定位與航跡監控失效",
+        "importance": "supporting"
+      },
+      {
+        "point": "疲勞、過度自信、工作負荷及惡劣風流能見度",
+        "importance": "supporting"
+      },
+      {
+        "point": "以 BRM、共同語言、閉環通訊、獨立監控及模擬訓練改善",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Standard Marine Communication Phrases",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/standardmarinecommunicationphrases.aspx",
+        "supports": "標準化船舶安全通訊及引水人與船橋團隊的溝通。",
+        "sourceType": "IMO_or_treaty",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "Recommendations on Training and Certification and on Operational Procedures for Maritime Pilots other than Deep-Sea Pilots (A.960(23))",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imorules.com/GUID-1B007126-91DD-4B5F-A342-344A97085B91.html",
+        "supports": "引水人作業程序、船長與引水人溝通及資訊交換。",
+        "sourceType": "IMO_or_treaty",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "A Master's Guide to: Berthing",
+        "issuer": "Standard Club",
+        "url": "https://www.standard-club.com/fileadmin/uploads/standardclub/Documents/Import/publications/masters-guides/3391962-sc-mg-berthing-20210203-final.pdf",
+        "supports": "MPX、船橋團隊合作、引水人與船長在操船中的協作。",
+        "sourceType": "textbook_or_academic",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "題目與答案關聯核對",
+          "result": "pass"
+        },
+        {
+          "item": "專業定義／規則已對照正式資料",
+          "result": "pass"
+        },
+        {
+          "item": "方信雄指定著作未取得可引用全文，未杜撰頁碼",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "reviewNotes": [
+      "本答案為備考參考擬答，非官方公布解答。"
+    ],
+    "lastUpdated": "2026-11-05"
   }
 ]
