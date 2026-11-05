@@ -9521,5 +9521,293 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-pilot-law-01-answer-v1",
+    "questionId": "104-pilot-law-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "依《國際海上避碰規則》Rule 9，船舶在狹窄水道或航道航行時，應遵守下列規定：\n\n一、靠右側航行：沿狹窄水道或航道航行的船舶，應盡可能靠近其右舷側安全可航水域的外緣航行。\n\n二、小船及帆船不得妨礙：船長小於20公尺的船舶或帆船，不得妨礙只能在狹窄水道或航道內安全航行的動力船通過。\n\n三、漁船不得妨礙：從事捕魚作業的船舶，不得妨礙任何其他船舶在狹窄水道或航道內航行。\n\n四、橫越航道：船舶不得橫越狹窄水道或航道；如情況允許必須橫越，應確保不妨礙只能在該水道或航道內安全航行的船舶。若有疑慮，應使用Rule 34(d)五短聲警告。\n\n五、彎道及障礙物：船舶接近狹窄水道內彎道或可能被其他船舶遮蔽視線的區域時，應特別謹慎航行，並依Rule 34(e)鳴放適當聲號。\n\n六、追越：在狹窄水道內追越，應依Rule 9(e)及Rule 34(c)辦理；追越船須確認被追越船同意，並以規定聲號表達追越意圖，不得在無足夠空間或可能危及安全時追越。\n\n七、錨泊及分隔區：船舶在狹窄水道內應避免錨泊，除非情況需要或有正當理由；航行時仍須保持瞭望、採安全速度及遵守其他適用COLREG規則。\n\n八、結論：狹窄水道航行核心為靠右側安全水域、不得妨礙受限船舶、小船及漁船負有不妨礙義務、橫越須避免妨礙、彎道須鳴號、追越須取得同意並確保安全。",
+    "practicalAnalysis": "本題需完整依COLREG Rule 9分款作答，特別注意小於20m船舶／帆船不得妨礙、漁船不得妨礙、橫越不得妨礙、彎道聲號及狹水道追越同意程序。",
+    "keyPoints": [
+      {
+        "point": "沿狹窄水道航行應盡可能靠近右舷安全可航外緣",
+        "importance": "essential"
+      },
+      {
+        "point": "小於20m船舶、帆船及漁船不得妨礙只能在航道內安全航行的船舶",
+        "importance": "essential"
+      },
+      {
+        "point": "橫越不得妨礙；彎道或遮蔽區須謹慎並鳴放聲號",
+        "importance": "essential"
+      },
+      {
+        "point": "追越須確認同意並依Rule 34(c)使用聲號",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "COLREGs 1972",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rule 9 – Narrow Channels; Rule 34(c) and 34(e)",
+        "accessedAt": "2026-11-05",
+        "supports": "狹窄水道航行、橫越、追越及聲號。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "COLREG、引水法及商港法官方條文已核對",
+          "result": "pass"
+        },
+        {
+          "item": "法律專業複核",
+          "result": "needs_review",
+          "note": "歷史題應依104年當時有效法規版本回溯。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-pilot-law-02-answer-v1",
+    "questionId": "104-pilot-law-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、引水制度及僱用原則\n（一）依《引水法》第5條，我國引水制度分為強制引水及自由引水；交通部得依港口及水域航行安全需要公告實施強制引水區域。\n（二）依第16條，中華民國船舶總噸位1,000以上、外國船舶總噸位500以上，於強制引水區域航行或出入強制引水港口時，原則上應僱用引水人；法定例外及經核准免僱者依相關規定辦理。\n（三）非強制引水區域，船舶得依需要自由僱用引水人；但仍須遵守港口交通及航行規定。\n\n二、僱用方式及申請\n（一）船舶所有人或船長應依規定向當地引水人辦事處或指定窗口申請引水服務，提供船名、總噸位、船長、吃水、預定進出港時間及其他必要資料。\n（二）引水人辦事處依引水區域、船舶到港時間及人力安排引水人，並與VTS、港務單位及拖船業者協調。\n（三）兩艘以上船舶同時要求引水時，依先到先服務原則安排；遇險船舶應優先提供必要協助。\n\n三、引水費及服務管理\n引水費依主管機關核定的收費標準及船舶總噸位、吃水、航程或服務項目計算；船舶應依規定支付引水費及相關服務費用。引水人須具備法定資格、執業證書及指定區域登記，始得執行領航。\n\n四、結論\n引水法規定強制及自由引水兩種制度，依船舶國籍、總噸位及港口公告判斷是否強制僱用；船舶所有人或船長向當地引水辦事處申請，由其依船舶到港時間安排引水人，並依主管機關核定標準支付引水費。",
+    "practicalAnalysis": "本題重點是強制引水與自由引水、國籍與總噸位門檻、僱用申請及費用。注意歷史法規可能對引水人辦事處及申請程序用語有修正，考試應依104年有效版本核對。",
+    "keyPoints": [
+      {
+        "point": "引水法第5條：強制引水及自由引水",
+        "importance": "essential"
+      },
+      {
+        "point": "第16條：國輪1,000GT以上、外輪500GT以上強制引水原則",
+        "importance": "essential"
+      },
+      {
+        "point": "船舶所有人或船長向當地引水人辦事處申請",
+        "importance": "essential"
+      },
+      {
+        "point": "先到先服務、遇險船舶優先，費用依核定標準計收",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "引水法",
+        "sourceType": "official_port_or_authority",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+        "pageOrSection": "第5、16至20條",
+        "accessedAt": "2026-11-05",
+        "supports": "強制及自由引水、僱用、引水服務及費用規定。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "COLREG、引水法及商港法官方條文已核對",
+          "result": "pass"
+        },
+        {
+          "item": "法律專業複核",
+          "result": "needs_review",
+          "note": "歷史題應依104年當時有效法規版本回溯。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-pilot-law-03-answer-v1",
+    "questionId": "104-pilot-law-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、引水人執行領航業務之要件\n（一）依《引水法》第21條，引水人須領有交通部核發的執業證書，並向指定引水區域當地航政主管機關登記，取得登記證書後始得執業。\n（二）依第22條，引水人只能在指定引水區域執行領航業務。\n（三）依第23條，引水人須經指定醫院體格檢查合格，執業期間每年接受視覺、聽覺及體格檢查。\n（四）依第24條，執業時應攜帶執業證書及登記證書，船長要求檢閱時不得拒絕。\n\n二、引水人拒絕領航之原因\n依第30條，船長提出不合理要求、要求違反國內或國際航海法規及避碰規則，或有其他正當理由不能執行業務時，引水人得拒絕領航；但應將具體事實報告當地航政主管機關。另如船舶不適航、登離船安全無法確保或引水人健康狀況不適合執業，亦應依法律及安全原則處理。\n\n三、船長指揮權之尊重\n依第32條，引水人登船執行領航，仍須尊重船長指揮權。引水人提供專業領航及操船指令，不代表船長失去對船舶、人員及貨物安全的整體責任；船長及駕駛臺團隊仍須監控船位、航向、航速及引水人操作。\n\n四、僱用拖船協助之請求\n依第27條，引水人認為必要時，得請船舶所有人或船長僱用拖船協助，以維護航行、靠離碼頭及移泊安全。拖船數量、馬力及配置應依船舶尺度、操縱性能、風流、港區限制及現場風險決定。\n\n五、結論\n引水人須具備執業證書、指定區域登記及合格體格；遇船長不合理或違法要求及其他正當理由得拒絕領航並報告主管機關；執行領航時尊重船長指揮權，必要時得請求僱用拖船協助。",
+    "practicalAnalysis": "題目明確對應引水法第21至24、27、30及32條，應逐項列出執業要件、拒絕領航、尊重船長指揮權及請求拖船協助的條文依據。",
+    "keyPoints": [
+      {
+        "point": "第21至24條：執業證書、區域登記、體格檢查及攜帶證件",
+        "importance": "essential"
+      },
+      {
+        "point": "第30條：不合理或違法要求及正當理由得拒絕，並報告主管機關",
+        "importance": "essential"
+      },
+      {
+        "point": "第32條：引水人須尊重船長指揮權",
+        "importance": "essential"
+      },
+      {
+        "point": "第27條：必要時請船舶所有人或船長僱用拖船協助",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "引水法",
+        "sourceType": "official_port_or_authority",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+        "pageOrSection": "第21至24、27、30及32條",
+        "accessedAt": "2026-11-05",
+        "supports": "引水人執業、拒絕領航、船長指揮權及拖船協助。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "COLREG、引水法及商港法官方條文已核對",
+          "result": "pass"
+        },
+        {
+          "item": "法律專業複核",
+          "result": "needs_review",
+          "note": "歷史題應依104年當時有效法規版本回溯。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-pilot-law-04-answer-v1",
+    "questionId": "104-pilot-law-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、施放信號彈、煙火或爆發物之限制\n依《商港法》第28條，船舶在商港區域內，未經商港經營事業機構、航港局或指定機關同意，不得施放信號彈、煙火或其他爆發物，以免造成火災、誤報、驚擾及港區安全危害。\n\n二、失火或緊急事故之例外\n如船舶發生失火或其他緊急事故，應鳴放汽笛及警鐘；日間並應懸掛警報旗號，夜間得燃放信號彈、焰火或閃光，以警告附近船舶及岸上單位並請求救援。\n\n三、鳴放音響或信號之限制\n依《商港法》第29條，船舶在商港區域內，除為遵守航行避碰規定、警告危險或其他告急時所必需者外，不得任意鳴放音響或信號。此規定旨在避免港區聲號混亂、誤導其他船舶或妨礙港口交通秩序。\n\n四、與COLREG之關係\n船舶仍須依COLREG使用必要的操縱聲號、警告聲號及霧號；商港法並非禁止依法應使用的避碰聲號，而是禁止無正當理由任意鳴放。船舶應區分法定避碰信號、危險警告、緊急求救及非必要的娛樂性施放。\n\n五、結論\n商港區域內施放信號彈、煙火或爆發物，原則上須事先取得港務經營事業機構、航港局或指定機關同意；發生失火或緊急事故時，依規定鳴放汽笛、警鐘及警報信號。音響或其他信號除避碰、警告危險及告急所必要外，不得任意使用。",
+    "practicalAnalysis": "本題直接考商港法第28、29條。第28條是信號彈、煙火及爆發物的事前同意要求及緊急事故例外；第29條是港內不得任意鳴放音響或信號，但避碰、警告危險及告急所必要者除外。",
+    "keyPoints": [
+      {
+        "point": "商港法第28條：未經同意不得施放信號彈、煙火或爆發物",
+        "importance": "essential"
+      },
+      {
+        "point": "失火或緊急事故：汽笛、警鐘，日間警報旗，夜間信號彈／閃光",
+        "importance": "essential"
+      },
+      {
+        "point": "第29條：除避碰、警告危險或告急必要外，不得任意鳴放",
+        "importance": "essential"
+      },
+      {
+        "point": "依法使用COLREG聲號不在禁止之列",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "商港法",
+        "sourceType": "official_port_or_authority",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "pageOrSection": "第28及29條",
+        "accessedAt": "2026-11-05",
+        "supports": "港區施放信號及鳴放音響限制。"
+      },
+      {
+        "title": "COLREGs 1972",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rules 32–37 – Sound and light signals",
+        "accessedAt": "2026-11-05",
+        "supports": "依法應使用的避碰聲號、霧號及遇險信號。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "COLREG、引水法及商港法官方條文已核對",
+          "result": "pass"
+        },
+        {
+          "item": "法律專業複核",
+          "result": "needs_review",
+          "note": "歷史題應依104年當時有效法規版本回溯。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-pilot-law-05-answer-v1",
+    "questionId": "104-pilot-law-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、法規依據\n依《商港法》第31條，船舶在商港區域內應緩輪慢行，並不得於航道追越他船或妨礙他船航行。\n\n二、緩輪慢行之意義\n（一）船舶在港區內應依水域寬度、水深、交通密度、船舶尺度、吃水、風流及能見度，採取足以維持操縱且不危及他船及港口設施的安全速度。\n（二）「緩輪慢行」並非要求所有船舶以同一固定節數航行，而是依當時環境及船舶操縱性能控制速度。\n（三）船舶不得在航道內追越他船，避免狹窄水域船間吸引、岸壁效應、船跡波及會遇空間不足所造成的危險。\n（四）船舶不得妨礙其他船舶航行，應遵守VTS指揮、指定航道、交通次序及安全距離。\n\n三、實務操作\n（一）接近港口、碼頭、船渠、浮筒及迴船池前應提早減速，避免臨近才急停或急轉。\n（二）在狹窄水道及高密度船舶區域，應維持足夠舵效但不過度加速，並注意淺水效應及岸壁效應。\n（三）拖船、引水人及船長應協調主機、舵及拖船推力，避免船跡波、尾流或推進器水流影響鄰船及碼頭。\n（四）遇能見度不良、強風流或交通密集時，應進一步降低速度，必要時依VTS指示等待或停止進港。\n\n四、結論\n商港法第31條要求船舶在商港區域內緩輪慢行，不得在航道追越他船或妨礙他船航行。船舶應依船型、吃水、水深、交通、風流及能見度採取適當安全速度，並遵守港務及VTS交通指揮。",
+    "practicalAnalysis": "本題直接考商港法第31條。要指出緩輪慢行是依環境與船舶操縱性能決定的安全速度，不是固定節數；另有不得在航道追越及不得妨礙他船航行兩項明文義務。",
+    "keyPoints": [
+      {
+        "point": "商港法第31條：港內緩輪慢行",
+        "importance": "essential"
+      },
+      {
+        "point": "不得在航道追越他船",
+        "importance": "essential"
+      },
+      {
+        "point": "不得妨礙他船航行，遵守VTS及港口交通指揮",
+        "importance": "essential"
+      },
+      {
+        "point": "速度依水深、交通、船型、風流及能見度調整",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "商港法",
+        "sourceType": "official_port_or_authority",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "pageOrSection": "第31條",
+        "accessedAt": "2026-11-05",
+        "supports": "商港區域內緩輪慢行、禁止航道追越及妨礙他船航行。"
+      },
+      {
+        "title": "高雄港船舶航行規定",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "pageOrSection": "港內航行速度及交通管制",
+        "accessedAt": "2026-11-05",
+        "supports": "高雄港港內速度及交通規定。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "COLREG、引水法及商港法官方條文已核對",
+          "result": "pass"
+        },
+        {
+          "item": "法律專業複核",
+          "result": "needs_review",
+          "note": "歷史題應依104年當時有效法規版本回溯。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
