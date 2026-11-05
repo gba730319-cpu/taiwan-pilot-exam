@@ -10,3 +10,6 @@
 
 ## 資料狀態
 目前開始建立專案骨架，尚未匯入任何經原始試卷核對的歷屆題目。請見 docs/IMPORT_STATUS.md。
+
+## 部署
+此 Repository 已連結 Vercel，正式分支為 `main`。推送至 `main` 的提交會自動觸發 Vercel 部署。
