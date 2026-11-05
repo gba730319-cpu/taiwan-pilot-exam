@@ -7515,5 +7515,127 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-kaohsiung-waterway-01-answer-v1",
+    "questionId": "108-kaohsiung-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_or_drawing",
+    "modelAnswer": "使用海圖0341C《高雄港及附近》，比例尺1:30,000；圖上1cm代表實地300m，1mm代表30m，1浬約6.17cm。先標北向、圖號、圖名及比例尺。\n\n一、航道及迴船池：第一港口有效寬約98m、水深約12.5m；第二港口寬約183m、水深約17.5m。第一港口迴船池直徑約400m，第二港口約600m；另標前鎮河口、大林蒲及洲際商港區迴船池。\n\n二、碼頭及港區：依海圖及港務公司設施表標出各碼頭編號、岸線位置、長度、使用水深及用途，並標示第四船渠、第三船渠、前鎮河船渠、台船修造船區、第一及第二貨櫃中心、洲際二期港區。\n\n三、繫船浮筒：依海圖逐一標示浮筒編號及位置，包含港內繫泊浮筒及引水登輪區附近浮筒；浮筒間距須按海圖比例尺量取，不得憑記憶估算。\n\n四、漁港及船渠：標出前鎮漁港、漁船活動區、前鎮河口及各船渠入口，區分漁船航路與商港主航道。\n\n五、導航設施：標示高雄燈塔、第一及第二港口防波堤燈桿、導標、燈浮標、側面標、方位標、雷達標及其他助航設施，依燈表註明燈質、燈色、週期及光程。\n\n六、航行限制：標示港界、分道通航區、雙向航道、錨地、禁止錨泊區、危險品船錨區、施工區、沉船、淺點及海底管線／電纜。\n\n七、圖邊資料：列出航道寬度及水深、各迴船池直徑、碼頭長度及使用水深、浮筒編號及潮汐基準；潮汐預報須註明日期。\n\n作圖順序：岸線與防波堤→航道及迴船池→碼頭及船渠→繫船浮筒與漁港→導航設施→錨地、禁錨區及危險物。完整浮筒、碼頭及燈標位置須依海圖0341C原圖逐一落圖，文字清單不能取代全港圖。",
+    "practicalAnalysis": "需以海圖0341C為底圖，港務公司設施表補充碼頭長度及水深。浮筒間距、導航設施及限制區必須逐項依海圖原圖繪製。",
+    "keyPoints": [
+      {
+        "point": "海圖0341C比例尺1:30,000，1cm=300m",
+        "importance": "essential"
+      },
+      {
+        "point": "第一港口寬98m、水深12.5m；第二港口寬183m、水深17.5m",
+        "importance": "essential"
+      },
+      {
+        "point": "標示碼頭、浮筒、漁港、導航設施、錨地及禁錨區",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "海圖0341C《高雄港及附近》",
+        "sourceType": "official_port_or_authority",
+        "issuer": "海軍大氣海洋局",
+        "editionOrEffectiveDate": "2020-12-25第9版",
+        "url": "https://navy.mnd.gov.tw/Files/Others/20-130%28%E6%B0%91%29.pdf",
+        "pageOrSection": "圖號、比例尺及版次",
+        "accessedAt": "2026-11-05",
+        "supports": "繪圖底圖及比例尺。"
+      },
+      {
+        "title": "港埠營運設施總表",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "pageOrSection": "航道、迴船池及碼頭設施",
+        "accessedAt": "2026-11-05",
+        "supports": "港區主要尺度及設施資料。"
+      }
+    ],
+    "limitations": [
+      "完整全港圖仍須海圖0341C原圖逐項描繪，尚未在前台呈現圖形。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "港務公司官方資料已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立引水專業複核",
+          "result": "needs_review",
+          "note": "仍待依考試年度港區圖及現場條件複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-kaohsiung-waterway-02-answer-v1",
+    "questionId": "108-kaohsiung-waterway-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "operational_scenario",
+    "modelAnswer": "一、進港前準備：確認近洋雜貨船1,500GT、LOA76m、吃水3.0m及2,400HP拖船；查閱Pilot Card、主機、舵機、螺槳旋向、倒俥反應及操縱性能。向VTS確認一港口排班、航道淨空、潮位、水深、風流及30號碼頭船席安排。\n\n二、30號碼頭分配：碼頭總長約298.3m，歷史設施資料列為200m及93.5m兩段；約200m為危險品／液化品作業段，約93.5m為一般雜貨／駁船作業段。本船為一般雜貨船，應確認獲分配的雜貨段及作業區淨空。\n\n三、進港及接近：依VTS指示進入一港口，保持安全航速及瞭望。依30號碼頭岸線方向、風流及船舶艏向規劃接近航跡及轉向點，不在狹窄碼頭前水域急轉或高速接近。拖船依風流及船舶運動狀態在艏或艉建立控制力，協助轉向、橫移及控制偏航；主機與舵控制前進速度及艏向。\n\n四、靠泊：接近時監控船艏、船艉外擺及與鄰船間距；逐步減速，使船舶與碼頭平行，控制橫向速度。拖船配合主機及舵平移平靠。確認護舷、繫船柱及帶纜人員位置後送纜，均勻收緊並確認船位穩定，再解除拖船。吃水3m仍須依潮位及實測水深確認UKC。\n\n五、結論：本船以2,400HP拖船協助低速轉向及平移平靠，確認30號碼頭200m危險品／液化品段與93.5m雜貨段的船席分配，並核實船席可用、水深及安全距離。",
+    "practicalAnalysis": "30號碼頭總長298.3m，歷史設施資料列200m及93.5m兩段；本題問危險品與雜貨長度分配，答案依歷史港區資料作200m危險品／液化品段、93.5m一般雜貨／駁船段。",
+    "keyPoints": [
+      {
+        "point": "30號碼頭總長298.3m，分200m危險品／液化品及93.5m雜貨／駁船",
+        "importance": "essential"
+      },
+      {
+        "point": "1,500GT、LOA76m、吃水3m，配置2,400HP拖船",
+        "importance": "essential"
+      },
+      {
+        "point": "VTS排班、低速接近、拖船協助及平移平靠",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港碼頭設施表及30號碼頭使用資料",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部運輸研究所",
+        "url": "https://www.iot.gov.tw/uploads/asset/data/661a0db1367376304acd5953/%E9%AB%98%E9%9B%84%E6%B8%AF%E6%B8%AF%E6%B1%A0%E6%B0%B4%E7%90%86%E6%A8%A1%E5%BC%8F%E4%B9%8B%E7%A0%94%E7%A9%B686.pdf",
+        "pageOrSection": "表2-2-1：30號碼頭200m及93.5m區段",
+        "accessedAt": "2026-11-05",
+        "supports": "30號碼頭長度分段及設施配置。"
+      },
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "pageOrSection": "拖船調派及靠離碼頭作業",
+        "accessedAt": "2026-11-05",
+        "supports": "拖船及移泊作業協調。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "港務公司官方資料已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立引水專業複核",
+          "result": "needs_review",
+          "note": "仍待依考試年度港區圖及現場條件複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
