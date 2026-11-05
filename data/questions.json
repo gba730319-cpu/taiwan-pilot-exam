@@ -3798,5 +3798,315 @@
     "sourceId": "moex-089-english",
     "status": "已核對",
     "questionNo": 3
+  },
+  {
+    "id": "091-kaohsiung-waterway-01",
+    "year": 2002,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "試繪高雄港全港簡圖，並標明碼頭名稱、浮筒名稱、導航燈標、船渠及禁錨區。（30 分）",
+    "sourceId": "moex-091-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "091-kaohsiung-waterway-02",
+    "year": 2002,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "船舶倒拖出港在第二港口迴轉池，如何確認船舶已經完全停止之各種參考方法，試述之。（10 分）",
+    "sourceId": "moex-091-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "091-kaohsiung-waterway-03",
+    "year": 2002,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "一千（1,000）總噸之重載化學品船靠泊第 27 號碼頭時，應注意何事及採取何種措施以維護船體？（15 分）",
+    "sourceId": "moex-091-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "091-kaohsiung-waterway-04",
+    "year": 2002,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "試述高雄港各貨櫃中心之各碼頭之貨櫃吊桿配置數，並說明船舶靠離該等碼頭時應注意事項及採取何種措施？（20 分）",
+    "sourceId": "moex-091-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "091-kaohsiung-waterway-05",
+    "year": 2002,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "一艘吃水 9.50 米船長 220 米之散裝船欲由一港口進港右靠第 50 號碼頭，請問該如何靠泊？（10 分）",
+    "sourceId": "moex-091-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "091-kaohsiung-waterway-06",
+    "year": 2002,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "試繪高雄港夏季（夏至前後）及冬季（冬至前後）之朔望潮汐曲線，並說明其相異處。（15 分）",
+    "sourceId": "moex-091-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "091-heping-waterway-01",
+    "year": 2002,
+    "subject": "當地水道港灣詳情",
+    "port": "和平港",
+    "question": "請試以適當比例描繪和平工業專用港港圖，並註明碼頭編號、長度、水深、導航標誌及其功能。（20 分）",
+    "sourceId": "moex-091-heping-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "091-heping-waterway-02",
+    "year": 2002,
+    "subject": "當地水道港灣詳情",
+    "port": "和平港",
+    "question": "和平港進出港主航道，北防波堤南端內側淤沙迅速且嚴重，主航道快速縮減，又無任何警告標示，堤口附近又遇強流時，如何操控船隻安全進港？（20 分）",
+    "sourceId": "moex-091-heping-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "091-heping-waterway-03",
+    "year": 2002,
+    "subject": "當地水道港灣詳情",
+    "port": "和平港",
+    "question": "和平工業區專用港實業股份有限公司對進出和平港船隻有何特別規定與限制，請詳述之。（20 分）",
+    "sourceId": "moex-091-heping-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "091-heping-waterway-04",
+    "year": 2002,
+    "subject": "當地水道港灣詳情",
+    "port": "和平港",
+    "question": "試述和平港碼頭結構及岸上設施有何特別之處，對指揮靠泊作業上應如何因應。（20 分）",
+    "sourceId": "moex-091-heping-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "091-heping-waterway-05",
+    "year": 2002,
+    "subject": "當地水道港灣詳情",
+    "port": "和平港",
+    "question": "操控一艘散裝船欲左舷泊靠 S2，該散裝船 LOA 180 米、船寬 28 米、船艏至駕駛台 152 米，靠泊定位後，必須前後距離碼頭兩端等距，請問以駕駛台為基準點，應靠於第幾個碰墊上？又若以纜樁計算單位，是第幾個纜樁？（從船艉方向起算）（20 分）",
+    "sourceId": "moex-091-heping-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "091-pilot-law-01",
+    "year": 2002,
+    "subject": "航政法規",
+    "port": "高雄港、和平港",
+    "question": "何類船舶非經商船管理機關許可，不得在港內行駛作業？又其艘數如何規定？當接到遇難或避難船舶，經檢查後在那些狀況下應拒絕入港？（20 分）",
+    "sourceId": "moex-091-pilot-law",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "091-pilot-law-02",
+    "year": 2002,
+    "subject": "航政法規",
+    "port": "高雄港、和平港",
+    "question": "國際商港港務管理規則第九條規定對船舶在港內應緩輪航行，其應注意事項有哪些？（20 分）",
+    "sourceId": "moex-091-pilot-law",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "091-pilot-law-03",
+    "year": 2002,
+    "subject": "航政法規",
+    "port": "高雄港、和平港",
+    "question": "引水法對引水人執行業務有哪些規定？（20 分）",
+    "sourceId": "moex-091-pilot-law",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "091-pilot-law-04",
+    "year": 2002,
+    "subject": "航政法規",
+    "port": "高雄港、和平港",
+    "question": "商港法對港區安全有哪些規定？試就相關條文說明之。（20 分）",
+    "sourceId": "moex-091-pilot-law",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "091-pilot-law-05",
+    "year": 2002,
+    "subject": "航政法規",
+    "port": "高雄港、和平港",
+    "question": "解釋下列名詞：避碰措施、碰撞危機、港區安全、商港設施。（20 分）",
+    "sourceId": "moex-091-pilot-law",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "091-pilotage-01",
+    "year": 2002,
+    "subject": "引港學",
+    "port": "高雄港、和平港",
+    "question": "請依最新版海圖圖例繪出下列海圖符號：（20 分）等差線、推薦通行方向、制定通行方向、警戒區、X-band 雷控標、WGS 84、交通標誌台、Zo、Phrase Lag.、岩石圈。",
+    "sourceId": "moex-091-pilotage",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "091-pilotage-02",
+    "year": 2002,
+    "subject": "引港學",
+    "port": "高雄港、和平港",
+    "question": "我國之 Notice to Mariners、Navigational Warning、NAVTEX 各由何單位發布？又高雄港之航行障礙通告自 86.7.1 起改以電子通訊發布，其發布方式有那幾種？網址為何？（20 分）",
+    "sourceId": "moex-091-pilotage",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "091-pilotage-03",
+    "year": 2002,
+    "subject": "引港學",
+    "port": "高雄港、和平港",
+    "question": "試述南部海域之霧季及其成因？「日出則消，風大則濃」分別指那種霧？（15 分）",
+    "sourceId": "moex-091-pilotage",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "091-pilotage-04",
+    "year": 2002,
+    "subject": "引港學",
+    "port": "高雄港、和平港",
+    "question": "自 2002.7.1 起 SOLAS 第 V 章中對船舶自動識別系統（AIS）有何規定？又國際電信聯合會（ITU）指定船舶 VHF 中 AIS 之使用頻道為何？（10 分）",
+    "sourceId": "moex-091-pilotage",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "091-pilotage-05",
+    "year": 2002,
+    "subject": "引港學",
+    "port": "高雄港、和平港",
+    "question": "何謂電子海圖顯示和資料系統（ECDIS）？此系統包括那些系統及設備？（15 分）",
+    "sourceId": "moex-091-pilotage",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "091-pilotage-06",
+    "year": 2002,
+    "subject": "引港學",
+    "port": "高雄港、和平港",
+    "question": "某船羅經航向 090°，航速 15 Kn，午夜時測鵝鑾鼻燈塔之羅經方位 045°，經計程儀航行 10 浬後發現燈塔在正橫，當時東北風風壓差 5°，當地磁差 6°W，羅經自差 1°E，流水方向 045°，3 Kn，求燈塔在正橫時之方位及距離。（20 分）",
+    "sourceId": "moex-091-pilotage",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "091-shiphandling-01",
+    "year": 2002,
+    "subject": "船舶操縱",
+    "port": "高雄港、和平港",
+    "question": "某船船長 150 公尺，艏艉分別繫泊於 A、B 二浮筒，今該船承受五噸來自圖示方向的風壓力，致使船體偏離浮筒線，試問繫船纜 AC 與 BD 所受的水平張力為何？並請求出風壓力在船舶艏艉線上的作用點位置。不計流力與水阻力。（20 分）",
+    "sourceId": "moex-091-shiphandling",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "091-shiphandling-02",
+    "year": 2002,
+    "subject": "船舶操縱",
+    "port": "高雄港、和平港",
+    "question": "何謂緊急停船（CRASH STOP）？試以簡圖就時間、葉轉速、推進力、船速、阻力與前進距離等因素說明船舶在緊急停船過程中之各種變化。又影響船舶緊急停船操作的因素為何？（20 分）",
+    "sourceId": "moex-091-shiphandling",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "091-shiphandling-03",
+    "year": 2002,
+    "subject": "船舶操縱",
+    "port": "高雄港、和平港",
+    "question": "吾人皆知船舶的迴轉支點（PIVOTING POINT）位置並非固定，但一般航海人員皆認為前進中船舶之迴轉支點在距船艏三分之一船長處，試述其立論理由為何並以數據說明之，請從靜止狀態中的船舶開始解釋之。（15 分）",
+    "sourceId": "moex-091-shiphandling",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "091-shiphandling-04",
+    "year": 2002,
+    "subject": "船舶操縱",
+    "port": "高雄港、和平港",
+    "question": "何謂 VIRTUAL MASS 與 ADDED MASS？何謂 FROUDE’S NUMBER？試問有何簡易公式或數學式可以表示之，並說明其對操船上有何影響？（15 分）",
+    "sourceId": "moex-091-shiphandling",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "091-shiphandling-05",
+    "year": 2002,
+    "subject": "船舶操縱",
+    "port": "高雄港、和平港",
+    "question": "試述產生 WAKE CURRENT 的三個主要原因及其對操船之影響？（15 分）",
+    "sourceId": "moex-091-shiphandling",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "091-shiphandling-06",
+    "year": 2002,
+    "subject": "船舶操縱",
+    "port": "高雄港、和平港",
+    "question": "試述 SIDE/LATERAL THRUSTER 的功用及影響其效率的因素與使用中應注意的事項。（15 分）",
+    "sourceId": "moex-091-shiphandling",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "091-english-01",
+    "year": 2002,
+    "subject": "專業英文",
+    "port": "高雄港、和平港",
+    "question": "請將下列所節錄之演講文稿譯為中文。（30 分）資料來源：Speech by Mr. W.A. O’Neil, Secretary-General of IMO, XVIth International Maritime Pilots’ Association (IMPA) Congress, Hamburg, 28 July-2 August 2002. IMO is also stressing the need for a universal safety culture within the shipping industry and indeed the need to cultivate a safety culture on all ships. This will be the principal focus of the World Maritime Day celebrations around the world later this year. And, it goes almost without saying, that pilotage has a major part to play in developing and contributing to that culture. By creating conditions in which it is easier to do something the right way rather than to do it the wrong way, we are taking a significant step in the proper direction. What IMO is fostering is the concept that it is not enough to simply respond to shifting cultural, economic and social patterns as and when their effects begin to manifest themselves, but that it is necessary to intervene pro-actively to influence cultural development in a direction that will be sustainable and will pay positive dividends in the future.",
+    "sourceId": "moex-091-english",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "091-english-02",
+    "year": 2002,
+    "subject": "專業英文",
+    "port": "高雄港、和平港",
+    "question": "請依聯合國國際海事組織標準海事通訊語彙（SMCP）語法，將下列文句譯為英文。（30 分）請使用標準海事通訊語彙：(1)依港口規則規定你船必須用 2 艘拖船；(2)登船設備不符合海上人命安全國際公約規定；(3)引水梯防扭桿有損壞；(4)跟隨引水船向內港航行至引水人可登船處；(5)你是否接受由在岸上基地之引水人協助航行？(6)引水梯處備便撇纜繩；(7)備便於特高頻頻道 13 直到引水人接送完成；(8)你預期到達引水站之當地時間為何？(9)我不需要引水人—我船有引水豁免證書。",
+    "sourceId": "moex-091-english",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "091-english-03",
+    "year": 2002,
+    "subject": "專業英文",
+    "port": "高雄港、和平港",
+    "question": "請以 “Master-Pilot relationship” 為題作一約 300 字短文。（40 分）",
+    "sourceId": "moex-091-english",
+    "status": "已核對",
+    "questionNo": 3
   }
 ]
