@@ -11,6 +11,7 @@ type Question = {
   question: string;
   sourceId: string;
   status: string;
+  questionNo: number;
 };
 type Source = {
   id: string;
@@ -49,7 +50,7 @@ export default function Home() {
   const sources = sourceData as Source[];
   const sourceById = useMemo(() => new Map(sources.map((s) => [s.id, s] as const)), [sources]);
   const years = useMemo(
-    () => ["全部年度", ...Array.from(new Set(items.map((q) => String(q.year)))).sort((a, b) => Number(b) - Number(a))],
+    () => ["全部年度", ...Array.from(new Set(items.map((q) => String(q.year)))).sort((a, b) => Number(a) - Number(b))],
     [items]
   );
   const filtered = items.filter(
@@ -58,6 +59,10 @@ export default function Home() {
       (subject === "全部科目" || q.subject === subject) &&
       matchesPort(q.port, port) &&
       (!search || q.question.toLowerCase().includes(search.toLowerCase()))
+  ).sort((a, b) =>
+    a.year - b.year ||
+    subjects.indexOf(a.subject) - subjects.indexOf(b.subject) ||
+    a.questionNo - b.questionNo
   );
 
   return (
@@ -105,7 +110,7 @@ export default function Home() {
             const source = sourceById.get(q.sourceId);
             return (
               <article className="question" key={q.id}>
-                <small className="question-meta">民國{rocYear(q.year)}年・{q.subject}・{q.port}</small>
+                <small className="question-meta">民國{rocYear(q.year)}年・{q.subject}・{q.port}・第 {q.questionNo} 題</small>
                 <p>{q.question}</p>
                 {source?.url ? (
                   <div className="source-link">
