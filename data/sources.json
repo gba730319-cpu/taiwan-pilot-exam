@@ -1089,61 +1089,6 @@
     "verified": "考選部官方 PDF 已取得並依原卷影像逐題核對"
   },
   {
-    "id": "moex-083-second-pilotage",
-    "year": 1994,
-    "exam": "83年特種考試第二次航海人員、引水人考試",
-    "category": "甲種二等引水人（高雄港）",
-    "subject": "引港學",
-    "issuer": "考選部",
-    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=2001&t=Q",
-    "pages": 1,
-    "verified": "考選部官方 PDF 已取得並依原卷影像逐題核對"
-  },
-  {
-    "id": "moex-083-second-english",
-    "year": 1994,
-    "exam": "83年特種考試第二次航海人員、引水人考試",
-    "category": "甲種二等引水人（高雄港）",
-    "subject": "實用英文",
-    "issuer": "考選部",
-    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=3001&t=Q",
-    "pages": 1,
-    "verified": "考選部官方 PDF 已取得並依原卷影像逐題核對"
-  },
-  {
-    "id": "moex-083-second-kaohsiung-waterway",
-    "year": 1994,
-    "exam": "83年特種考試第二次航海人員、引水人考試",
-    "category": "甲種二等引水人（高雄港）",
-    "subject": "當地水道港灣詳情",
-    "issuer": "考選部",
-    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=5001&t=Q",
-    "pages": 1,
-    "verified": "考選部官方 PDF 已取得並依原卷影像逐題核對"
-  },
-  {
-    "id": "moex-083-second-pilot-law",
-    "year": 1994,
-    "exam": "83年特種考試第二次航海人員、引水人考試",
-    "category": "甲種二等引水人（高雄港）",
-    "subject": "航政法規",
-    "issuer": "考選部",
-    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=6001&t=Q",
-    "pages": 1,
-    "verified": "考選部官方 PDF 已取得並依原卷影像逐題核對"
-  },
-  {
-    "id": "moex-083-second-shiphandling",
-    "year": 1994,
-    "exam": "83年特種考試第二次航海人員、引水人考試",
-    "category": "甲種二等引水人（高雄港）",
-    "subject": "船舶操縱",
-    "issuer": "考選部",
-    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=7001&t=Q",
-    "pages": 1,
-    "verified": "考選部官方 PDF 已取得並依原卷影像逐題核對"
-  },
-  {
     "id": "moex-083-first-keelung-waterway",
     "year": 1994,
     "exam": "83年特種考試第二次航海人員、引水人考試",
@@ -1151,17 +1096,6 @@
     "subject": "當地水道港灣詳情",
     "issuer": "考選部",
     "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=083180&q=1&s=5011&t=Q",
-    "pages": 1,
-    "verified": "考選部官方 PDF 已取得並依原卷影像逐題核對"
-  },
-  {
-    "id": "moex-083-first-kaohsiung-waterway",
-    "year": 1994,
-    "exam": "83年特種考試第二次航海人員、引水人考試",
-    "category": "甲種一等引水人（高雄港）",
-    "subject": "當地水道港灣詳情",
-    "issuer": "考選部",
-    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=083180&q=1&s=5021&t=Q",
     "pages": 1,
     "verified": "考選部官方 PDF 已取得並依原卷影像逐題核對"
   },
