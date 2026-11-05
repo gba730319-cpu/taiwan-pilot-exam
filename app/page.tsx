@@ -50,7 +50,7 @@ export default function Home() {
   const sources = sourceData as Source[];
   const sourceById = useMemo(() => new Map(sources.map((s) => [s.id, s] as const)), [sources]);
   const years = useMemo(
-    () => ["全部年度", ...Array.from(new Set(items.map((q) => String(q.year)))).sort((a, b) => Number(a) - Number(b))],
+    () => ["全部年度", ...Array.from(new Set(items.map((q) => String(q.year)))).sort((a, b) => Number(b) - Number(a))],
     [items]
   );
   const filtered = items.filter(
@@ -60,7 +60,7 @@ export default function Home() {
       matchesPort(q.port, port) &&
       (!search || q.question.toLowerCase().includes(search.toLowerCase()))
   ).sort((a, b) =>
-    a.year - b.year ||
+    b.year - a.year ||
     subjects.indexOf(a.subject) - subjects.indexOf(b.subject) ||
     a.questionNo - b.questionNo
   );
