@@ -1288,5 +1288,265 @@
     "sourceId": "moex-094-english",
     "status": "已核對",
     "questionNo": 3
+  },
+  {
+    "id": "98-kaohsiung-waterway-01",
+    "year": 2009,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "請繪製自第一港口防波堤口至前鎮河口間港區圖，並請註明碼頭及浮筒位置、編號，導助航標誌與潮信資料。（20 分）",
+    "sourceId": "moex-098-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "98-kaohsiung-waterway-02",
+    "year": 2009,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "請說明在東北季風 5 級時，移泊一艘 6000 總噸之雜貨船，該船無前俥（Bow Thruster），右舷靠泊於 31 號碼頭，並下有 3 節錨鏈，卸完貨後欲移往 94 號碼頭，配置一艘 1800 HP 之拖船協助，應如何操作及注意哪些事項？（20 分）",
+    "sourceId": "moex-098-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "98-kaohsiung-waterway-03",
+    "year": 2009,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "高雄港區內常有渡輪與遊港船在港內航行，請說明渡輪與遊港船之船名、航行路線以及如有需要時之聯絡方式？（10 分）",
+    "sourceId": "moex-098-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "98-kaohsiung-waterway-04",
+    "year": 2009,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "高雄港在颱風過境後，港口開放進出港作業，但第一港口因風浪仍大，僅開放第二港口進出港作業，你在第二港口引水站登上一艘 5000 總噸之雜貨船，平均吃水 8 米，該船無前俥（Bow Thruster），配置一艘 1800 HP 之拖船協助，請說明如何安全引領靠泊 7 號碼頭？（20 分）",
+    "sourceId": "moex-098-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "98-kaohsiung-waterway-05",
+    "year": 2009,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "你奉派引領一艘推頂式船舶，駁船長度為 115 米，欲靠泊台船大塢之塢口卸載大型機具，配置二艘 1800 HP 拖船協助，請說明如何安全靠泊？（20 分）",
+    "sourceId": "moex-098-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "98-kaohsiung-waterway-06",
+    "year": 2009,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "請寫出下列各泊位：30 號、48 號、60 號、104 號及 105 號碼頭長度、碼頭方位及設計水深。（10 分）",
+    "sourceId": "moex-098-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "98-pilot-law-01",
+    "year": 2009,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "請說明引水人、拖船船長及本船（被引領船舶）船長三者間之權利責任關係。（20 分）",
+    "sourceId": "moex-098-pilot-law",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "98-pilot-law-02",
+    "year": 2009,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "請依商港法及商港港務管理規則之規定，說明在商港區域從事危險品之裝卸，應注意哪些事項？（20 分）",
+    "sourceId": "moex-098-pilot-law",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "98-pilot-law-03",
+    "year": 2009,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "船舶在進出、使用、橫越分道航行巷道時，應注意哪些事項？（20 分）",
+    "sourceId": "moex-098-pilot-law",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "98-pilot-law-04",
+    "year": 2009,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "為何引水法規定引水人必須為中華民國國民？（20 分）",
+    "sourceId": "moex-098-pilot-law",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "98-pilot-law-05",
+    "year": 2009,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "請依商港法及相關法規，說明商港管理機關對遇難及避難船舶應採之處理方式。（20 分）",
+    "sourceId": "moex-098-pilot-law",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "98-pilotage-01",
+    "year": 2009,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "試繪出下列海圖符號：（20 分）(1)記深沉船 (2)不礙航沉船 (3)漲潮流附速度 (4)人工漁礁 (5)50 米不到底",
+    "sourceId": "moex-098-pilotage",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "98-pilotage-02",
+    "year": 2009,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "何謂基點標註，試說明之。（20 分）",
+    "sourceId": "moex-098-pilotage",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "98-pilotage-03",
+    "year": 2009,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "解釋下列氣象名詞：（20 分）(1)逆溫層 (2)ITCZ (3)海風、陸風 (4)囚錮鋒 (5)船體流汗",
+    "sourceId": "moex-098-pilotage",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "98-pilotage-04",
+    "year": 2009,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "何謂麥式投影？麥式海圖之優缺點為何？（20 分）",
+    "sourceId": "moex-098-pilotage",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "98-pilotage-05",
+    "year": 2009,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "某船 0800 DR L 00°00’ N λ120°00’E，航向 000°航程 1800 浬，轉向 090°航程 1800 浬，再轉向 180°航程 1800 浬，求到達點位置。（20 分）",
+    "sourceId": "moex-098-pilotage",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "98-shiphandling-01",
+    "year": 2009,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "吾人皆知，舵為影響船舶操縱的主要因素之一，舵板過小舵效不佳，但因受機械性與船體構造上的限制又不能太大，今有某船總噸（GRT）15,000 噸，船寬 26 公尺，船尾垂線間長度（LBP）150 公尺，設計水深 9 公尺，試問欲滿足該船操縱需要之最小舵板面積為何？該船之舵裝置於俥葉正後方。（25 分）",
+    "sourceId": "moex-098-shiphandling",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "98-shiphandling-02",
+    "year": 2009,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "試問何謂參數橫搖效應（parametric rolling effect）？以及其產生條件為何？（15 分）",
+    "sourceId": "moex-098-shiphandling",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "98-shiphandling-03",
+    "year": 2009,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "試問依據 2002 年 IMO Resolution MSC 137(76)號決議案【取代原 1993 年 IMO A751(18)號決議案】之規定，自 1994 年 7 月 1 日以後，船長超過百公尺以上之船舶，有關船舶操縱應符合何種要求？又該要求中有關操船基準（Criteria）之規定如何？（15 分）",
+    "sourceId": "moex-098-shiphandling",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "98-shiphandling-04",
+    "year": 2009,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "請列述汽車專用船（PCC）的船體特徵與靠泊注意事項。（15 分）",
+    "sourceId": "moex-098-shiphandling",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "98-shiphandling-05",
+    "year": 2009,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "何謂 Virtual Mass 與 Added Mass？何謂 Froude’s Number？試問有何簡易公式或數學式可以近似或表示，及其對操船上有何影響？（15 分）",
+    "sourceId": "moex-098-shiphandling",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "98-shiphandling-06",
+    "year": 2009,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "試述船舶併靠他船外檔（Double banked）時應注意事項。（15 分）",
+    "sourceId": "moex-098-shiphandling",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "98-english-01",
+    "year": 2009,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please translate the following passages from English into Chinese.（30 分）(1) Any authority responsible for the safe and efficient flow of traffic and at the same time for the protection of the population and the environment in a certain area has a great number of instruments available to pursue these goals. Each instrument has its particular area of application but may simultaneously have a subsidiary function in other areas, thus generating added value in the process of interaction. (2) The pilot is in charge of the navigation of the ship while aboard and the ship’s crew is required to obey the compulsory pilot’s orders relating to navigation unless the master determines it is necessary to intercede for reasons yet to be discussed. In the presence of the compulsory pilot, a master’s responsibility is not total and forever. Both master and pilot bear an unusual degree of responsibility not only to the vessel, cargo, and crew, but also to the public.",
+    "sourceId": "moex-098-english",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "98-english-02",
+    "year": 2009,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please translate the following passages from Chinese into English.（20 分）(1)引水人執行領航業務時，應攜帶執業證書及有關證件，如遇船長索閱時，引水人不得拒絕。(2)港口設立船舶交通服務之目的在於加強區域內船舶航行及錨泊之安全、保護海洋環境及維持一個有秩序之交通流。",
+    "sourceId": "moex-098-english",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "98-english-03",
+    "year": 2009,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please translate the following terms from Chinese into English and use each term to make a complete sentence in English.（20 分）(1)助航設施 (2)搜索與救助 (3)海事報告 (4)人為過失",
+    "sourceId": "moex-098-english",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "98-english-04",
+    "year": 2009,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please write a short composition on “The training of a pilot”.（around 300 words）（30 分）",
+    "sourceId": "moex-098-english",
+    "status": "已核對",
+    "questionNo": 4
   }
 ]
