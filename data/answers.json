@@ -16233,5 +16233,256 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-english-01-answer-v1",
+    "questionId": "102-english-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "裝設可變螺距螺旋槳（Variable Pitch Propeller, VPP）的船舶，其操縱特性與裝設固定螺距螺旋槳（Fixed Pitch Propeller, FPP）的船舶有顯著不同。可變螺距推進系統具有若干優點：配備此系統的柴油主機不必停車及重新起動即可倒俥，而且可選擇幾乎無段差的各種航速。此外，船舶可以持續使用倒俥，這是渦輪機驅動船舶無法做到的；與傳統機動船不同，可變螺距船舶可以反覆改變推進方向，而不必擔心耗盡起動空氣供應。",
+    "practicalAnalysis": "翻譯重點為Variable Pitch Propeller可變螺距螺旋槳、Fixed Pitch Propeller固定螺距螺旋槳、go astern倒俥、starting air起動空氣。VPP藉改變槳葉螺距調整推力方向及大小，主機轉向通常不必跟著改變。",
+    "keyPoints": [
+      {
+        "point": "variable pitch propeller：可變螺距螺旋槳",
+        "importance": "essential"
+      },
+      {
+        "point": "fixed pitch propeller：固定螺距螺旋槳",
+        "importance": "essential"
+      },
+      {
+        "point": "go astern：倒俥；starting air：起動空氣",
+        "importance": "essential"
+      },
+      {
+        "point": "VPP可改變推進方向而不必反覆停起主機",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Propellers and ship manoeuvring",
+        "accessedAt": "2026-11-05",
+        "supports": "可變螺距與固定螺距推進系統操縱差異。"
+      },
+      {
+        "title": "Variable Pitch Propeller Systems",
+        "sourceType": "industry_guidance",
+        "issuer": "Wärtsilä",
+        "url": "https://www.wartsila.com/encyclopedia/term/controllable-pitch-propeller-(cpp)",
+        "pageOrSection": "Controllable pitch propeller operating principle",
+        "accessedAt": "2026-11-05",
+        "supports": "CPP螺距調整及正倒俥原理。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "VPP、FPP及起動空氣術語已核對",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-english-02-answer-v1",
+    "questionId": "102-english-02",
+    "version": 1,
+    "language": "en",
+    "answerType": "translation",
+    "modelAnswer": "(1) Every vessel shall use all available means appropriate to the prevailing circumstances and conditions to determine if risk of collision exists. If there is any doubt, such risk shall be deemed to exist.\n\n(2) If radar equipment is fitted and operational, it shall be used properly, including long-range scanning to obtain early warning of risk of collision and radar plotting or equivalent systematic observation of detected objects.\n\n(3) Assumptions shall not be made on the basis of scanty information, especially scanty radar information.",
+    "practicalAnalysis": "本題是COLREG Rule 7(a)、7(b)及7(c)的正式英譯。應保留all available means、prevailing circumstances and conditions、risk of collision、long-range scanning、early warning、systematic observation及scanty radar information等原文術語。",
+    "keyPoints": [
+      {
+        "point": "Rule 7(a)：all available means及有疑即視為有碰撞危險",
+        "importance": "essential"
+      },
+      {
+        "point": "Rule 7(b)：radar properly used、long-range scanning及systematic observation",
+        "importance": "essential"
+      },
+      {
+        "point": "Rule 7(c)：不得依scanty information尤其雷達資料作假設",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "COLREGs 1972",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rule 7(a), 7(b) and 7(c) – Risk of Collision",
+        "accessedAt": "2026-11-05",
+        "supports": "碰撞危險判斷、雷達使用及資料不足不得作假設之公約原文。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "三段譯文已與COLREG Rule 7原文核對",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-english-03-answer-v1",
+    "questionId": "102-english-03",
+    "version": 1,
+    "language": "en",
+    "answerType": "definition",
+    "modelAnswer": "**(1) Rhumb Line**\nA line on the Earth's surface that cuts all meridians at the same angle. It represents a constant compass or true course and appears as a straight line on a Mercator chart. Except for the equator and meridians, it is generally not the shortest distance between two points.\n\n**(2) List**\nA vessel's steady inclination to port or starboard, usually caused by an off-centre distribution or shifting of weight. It is generally a persistent transverse inclination, as distinct from a temporary heel caused by wind or turning.\n\n**(3) Beam Sea**\nA sea condition in which waves approach the vessel from approximately abeam, or at about 90 degrees to the ship's heading. It may cause considerable rolling.\n\n**(4) Leeway**\nThe sideways displacement of a vessel caused mainly by wind. It is commonly expressed as the angle between the vessel's heading and her actual track through the water or over the ground, depending on the stated reference.\n\n**(5) Magnetic North**\nThe direction indicated by the north-seeking end of a freely suspended magnetic needle. It is the direction of the Earth's local magnetic meridian and differs from true north by magnetic variation.",
+    "practicalAnalysis": "Rhumb line為等角航線；List是持續橫傾，常由重量分布不均造成；Beam sea為正橫來浪；Leeway為風造成的側漂角；Magnetic North與True North間差異為Variation。",
+    "keyPoints": [
+      {
+        "point": "Rhumb line：與各經線交角固定，Mercator圖上為直線",
+        "importance": "essential"
+      },
+      {
+        "point": "List：船舶持續向左或右傾斜，常因重量偏移",
+        "importance": "essential"
+      },
+      {
+        "point": "Beam sea：波浪由正橫方向來襲",
+        "importance": "essential"
+      },
+      {
+        "point": "Leeway：風造成的側向漂移／偏流角",
+        "importance": "essential"
+      },
+      {
+        "point": "Magnetic north：磁針指北端所指方向，與真北有磁差",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Rhumb lines, magnetic variation, leeway and ship motions",
+        "accessedAt": "2026-11-05",
+        "supports": "五項航海英文術語及導航定義。"
+      },
+      {
+        "title": "IHO Chart 1 – Symbols, Abbreviations and Terms",
+        "sourceType": "technical_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/en/standards-and-specifications",
+        "pageOrSection": "Rhumb line and magnetic information",
+        "accessedAt": "2026-11-05",
+        "supports": "海圖及航海術語。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "五項術語英文定義已核對",
+          "result": "pass"
+        },
+        {
+          "item": "List與heel差異已註明",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "102-english-04-answer-v1",
+    "questionId": "102-english-04",
+    "version": 1,
+    "language": "en",
+    "answerType": "essay",
+    "modelAnswer": "**The Relationship between the Master and a Compulsory Pilot**\n\nThe relationship between the master and a compulsory pilot is based on professional cooperation, mutual respect and a shared commitment to safe navigation. Although the employment of a pilot is compulsory in designated waters, the presence of the pilot does not transfer the master's overall command of the vessel.\n\nThe compulsory pilot is a qualified local navigation expert. The pilot has detailed knowledge of the port, channels, fairways, tides, currents, weather, navigational marks, traffic regulations and local hazards. The pilot advises on or conducts the vessel's manoeuvring and coordinates with Vessel Traffic Services, tug operators and shore authorities. The pilot should understand the vessel's manoeuvring characteristics and prepare or discuss a safe pilotage passage plan with the master.\n\nThe master retains overall command and responsibility for the safety of the vessel, crew, passengers, cargo and the marine environment. Before pilotage begins, the master should provide accurate information about the vessel's draft, propulsion, steering, stopping distance, manoeuvring limitations and defects. The master should review and agree on the pilotage plan, ensure that the bridge team understands it and continuously monitor the vessel's position and the pilot's actions. The master's responsibility is not relieved by the presence of a compulsory pilot.\n\nBoth parties should conduct an effective Master-Pilot Information Exchange. They should agree on the intended route, speed, wheel-over positions, tug requirements, communication procedures and contingency plans. The bridge team should use closed-loop communication and cross-check the vessel's position by radar, ECDIS, GNSS and visual observations. If the master considers that a pilot's order or action is unsafe, the master must question it and intervene when necessary. Likewise, the pilot should explain local hazards clearly and respect the master's knowledge of the vessel.\n\nIn conclusion, the pilot contributes local expertise and professional pilotage, while the master retains command authority and overall responsibility. Mutual respect, clear communication and continuous monitoring are essential to safe compulsory pilotage.",
+    "practicalAnalysis": "作文核心是強制引水不代表船長喪失指揮權。引水人負責地方知識與領航，船長對全船安全負整體責任；雙方應完成MPX、共同確認航行計畫，駕駛臺團隊持續監控。",
+    "keyPoints": [
+      {
+        "point": "Compulsory pilot provides local knowledge and pilotage expertise",
+        "importance": "essential"
+      },
+      {
+        "point": "Master retains overall command and responsibility",
+        "importance": "essential"
+      },
+      {
+        "point": "Conduct Master-Pilot Information Exchange and agree on passage plan",
+        "importance": "essential"
+      },
+      {
+        "point": "Bridge team cross-checks position and monitors pilot's actions",
+        "importance": "essential"
+      },
+      {
+        "point": "Mutual respect, clear communication and intervention when unsafe",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "pageOrSection": "Annex 2 – Master-Pilot Information Exchange and pilotage procedures",
+        "accessedAt": "2026-11-05",
+        "supports": "船長與引水人角色、責任及資訊交換。"
+      },
+      {
+        "title": "引水法",
+        "sourceType": "official_port_or_authority",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+        "pageOrSection": "第30及32條",
+        "accessedAt": "2026-11-05",
+        "supports": "引水人拒絕領航及尊重船長指揮權。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "引水人與船長權責已依IMO A.960(23)核對",
+          "result": "pass"
+        },
+        {
+          "item": "引水法第30及32條已參照",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
