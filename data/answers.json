@@ -7382,5 +7382,79 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-kaohsiung-waterway-06-answer-v1",
+    "questionId": "108-kaohsiung-waterway-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "依題目所屬考試年度（民國108年）應採當時有效的《高雄港船舶航行規定》版本作答，不宜直接套用後續修正條文。\n\n一、受船長限制的碼頭區段\n\n依民國101年2月24日修正版本之《高雄港船舶航行規定》第十七點，進港船舶靠泊下列碼頭區段，船長超過150公尺者，不得在碼頭前方水域迴轉掉頭：\n\n（一）30號至35號碼頭。\n（二）49號至57號碼頭。\n\n二、操船要求\n\n（一）船長超過150公尺之船舶，應順進港方向靠泊，不得在碼頭前水域自行迴轉後再靠泊。\n（二）引水人應於進港前確認船長、碼頭船席及港區航行規定，預先規劃進港航向與靠泊舷側，避免抵達碼頭前才臨時改變操船計畫。\n（三）如船舶操縱性能、風流或交通狀況不利，應及早與VTS確認作業安排，並依規定配置適當拖船及保留安全水域。\n\n三、法規版本提醒\n\n本題問的是108年考題，答案應以當時有效規定為準。現行《高雄港船舶航行規定》已歷經112年及114年修正，準備考試時應分別掌握歷史考題年度版本及現行版本，避免混用條文。",
+    "practicalAnalysis": "這題考的是高雄港在特定碼頭區段對長船迴轉靠泊的限制。核心是「船長超過150公尺」與「30–35、49–57號碼頭」兩組條件，且規定重點在不得於碼頭前水域掉頭，應順進港方向靠泊。考題年度為108年，須以當時的101年修正版本核對，不能以112／114年後修正版本倒推。",
+    "keyPoints": [
+      {
+        "point": "30號至35號碼頭及49號至57號碼頭",
+        "importance": "essential"
+      },
+      {
+        "point": "船長超過150公尺",
+        "importance": "essential"
+      },
+      {
+        "point": "不得在碼頭前方水域迴轉掉頭，應順進港方向靠泊",
+        "importance": "essential"
+      },
+      {
+        "point": "以108年考試年度有效版本為準，區分後續修法",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港船舶航行規定（民國101年2月24日修正版本）",
+        "sourceType": "law_or_regulation",
+        "issuer": "交通部／高雄港務局",
+        "editionOrEffectiveDate": "2012-02-24",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0113005&type=-1",
+        "pageOrSection": "第十七點",
+        "supports": "規定進港靠泊30至35號及49至57號碼頭且船長超過150公尺之船舶，不得於碼頭前水域掉頭。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港船舶航行規定（現行彙整頁）",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "supports": "確認該規定後續修正沿革及現行條文與歷史版本差異。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "本答案依可取得之民國101年修正版本作答；正式上架前仍應核對108年當時是否有未收錄之個別補充公告或作業通告。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "碼頭區段及150公尺門檻已核對歷史法規頁面",
+          "result": "pass"
+        },
+        {
+          "item": "已區分108年考題年度版本與現行修正版本",
+          "result": "pass"
+        },
+        {
+          "item": "港務機關歷史檔案完整性複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "reviewNotes": [
+      "非官方參考擬答。",
+      "法規題應優先使用考題年度有效版本；如取得108年官方存檔原件，應補核發布日期及條次。"
+    ],
+    "lastUpdated": "2026-11-05"
   }
 ]
