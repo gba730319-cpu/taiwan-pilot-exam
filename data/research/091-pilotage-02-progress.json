@@ -1,0 +1,47 @@
+{
+  "questionId": "091-pilotage-02",
+  "year": 2002,
+  "subject": "引港學",
+  "questionNo": 2,
+  "question": "我國之 Notice to Mariners、Navigational Warning、NAVTEX 各由何單位發布？又高雄港之航行障礙通告自 86.7.1 起改以電子通訊發布，其發布方式有那幾種？網址為何？（20 分）",
+  "status": "research_in_progress_not_imported",
+  "scopeDecision": "本題題庫標示港區為「高雄港、和平港」，屬港區相關題目。依使用者最新指示，地方港區專屬內容暫不匯入網站。本檔僅保存已整理的共同性研究方向，待明日確認範圍與官方證據後再決定是否拆分共同部分。",
+  "confirmedConcepts": [
+    {
+      "term": "Notice to Mariners (NtM)",
+      "chinese": "航船布告／航海通告",
+      "function": "以正式通告方式發布海圖及航海出版品改正資訊；應區分發布機關、資料彙整機關及海圖改正責任機關。",
+      "verification": "需以我國海軍大氣海洋局現行及歷史官方資料確認本題所問的發布單位。"
+    },
+    {
+      "term": "Navigational Warning",
+      "chinese": "航行警告",
+      "function": "用於迅速傳遞影響航行安全的危險、障礙或重要臨時資訊；須區分全球／區域（NAVAREA）、沿岸及港區警告的發布與協調責任。",
+      "verification": "需以IMO/IHO全球航行警告服務文件及我國主管機關資料確認本題所問層級與發布單位。"
+    },
+    {
+      "term": "NAVTEX",
+      "chinese": "航行警告電傳",
+      "function": "海事安全資訊的自動接收與播送服務／系統，不是與NtM、Navigational Warning同一層級的通告種類；國際NAVTEX通常以518 kHz英文播送。",
+      "verification": "須確認我國當年由哪個海岸電臺／主管單位負責播送，以及本題歷史時點的服務安排。"
+    }
+  ],
+  "historicalKaohsiungPortSection": {
+    "status": "excluded_pending_official_historical_evidence",
+    "note": "「高雄港之航行障礙通告自民國86年7月1日起改以電子通訊發布」及其發布方式、網址，屬港區專屬歷史資訊。未找到民國86年7月1日原始公告或可信歷史存檔前，不得以現行港灣通報網站、現行電子郵件或簡訊服務替代當年答案。"
+  },
+  "nextSteps": [
+    "先取得考選部原卷影像，核對題目完整文字與標點。",
+    "以海軍大氣海洋局、交通部航港局、海岸電臺及IMO/IHO官方文件，分別確認NtM、Navigational Warning、NAVTEX的我國發布／播送權責。",
+    "若仍遵守地方題暫停原則，僅整理可獨立成立的共同性知識，不把高雄港歷史發布方式匯入網站。",
+    "若需要回答高雄港自民國86年7月1日起的歷史發布方式，必須找到當年公告或可追溯的歷史網站資料，否則明確標示待查。"
+  ],
+  "referencesToVerify": [
+    "海軍大氣海洋局：航船布告及航行警告官方資料",
+    "交通部航港局：海岸電臺、GMDSS及海事安全資訊服務資料",
+    "IMO/IHO World-Wide Navigational Warning Service (WWNWS) 文件",
+    "NAVTEX Manual及我國海岸電臺歷史播送資料",
+    "高雄港務分公司民國86年7月1日前後原始公告／港灣通報歷史存檔"
+  ],
+  "lastUpdated": "2026-11-05"
+}
