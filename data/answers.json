@@ -7250,5 +7250,197 @@
       "法規題應優先使用考題年度有效版本；如取得108年官方存檔原件，應補核發布日期及條次。"
     ],
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-pilotage-01-answer-v1",
+    "questionId": "108-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、沿岸航行離岸距離最重要的考慮因素是航行安全，尤其是船舶吃水與沿岸水深之間的關係，即龍骨下餘裕水深（UKC）。應確保船舶不進入未測量或水深不足區域，避免觸礁、擱淺，並注意淺水效應及岸壁效應。\n\n二、除船舶大小外，還應考慮：\n1. 船舶吃水、縱傾、潮位及UKC。\n2. 海圖比例尺、測量年代、水平及深度基準、淺點、礁石、沉船與未測水域。\n3. 風向、風速、浪高、湧浪、能見度及海霧。\n4. 潮流、沿岸流、河口流的流向及流速。\n5. 其他船舶、漁船、漁具、航道、分道通航制及警戒區。\n6. 船舶停止距離、迴旋半徑、舵效、主機反應及拖船能力。\n7. 岸邊地形、防波堤、港口入口、海底電纜及管線。\n8. 附近安全錨地、避風港及緊急轉向水域。\n9. 禁航區、軍事管制區、保護區及地方航行規定。\n10. 高乾舷、甲板貨物及空船狀態所造成的風壓漂移。\n\n三、離岸距離應先依海圖水深及船舶UKC確定安全水域，再依風流、交通、海況、操縱性能及岸邊障礙調整；不能只以固定浬數決定所有船舶的沿岸距離。應使用大比例尺海圖、雷達平行索引及目視定位，持續監控船位。",
+    "practicalAnalysis": "第1小題以航行安全及水深／UKC為核心；第2小題列海圖、風浪流、交通、操縱性能、岸邊障礙、錨地及法規等因素。",
+    "keyPoints": [
+      {
+        "point": "首要考量為水深、吃水及UKC",
+        "importance": "essential"
+      },
+      {
+        "point": "考慮海圖品質、風浪流、交通、操縱性能及岸邊障礙",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Coastal navigation and under-keel clearance",
+        "accessedAt": "2026-11-05",
+        "supports": "沿岸航行及UKC。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "航海資料及計算已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立專業複核",
+          "result": "needs_review",
+          "note": "仍待專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-pilotage-02-answer-v1",
+    "questionId": "108-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "calculation",
+    "modelAnswer": "一、燈質GP. FL W. (3) 12 sec 36 M 17 m：GP為群組（Group），FL為閃光（Flashing），W為白色，(3)表示每組三閃，12 sec為完整週期12秒，36 M為名義光程36浬，17 m為燈高17公尺。\n\n二、觀測者眼高16m，燈高17m，地理光程：\n\\[D_g=2.08(\\sqrt{h_1}+\\sqrt{h_2})\\]\n\\[D_g=2.08(\\sqrt{16}+\\sqrt{17})=2.08(4+4.123)\\approx16.90\\text{ NM}\\]\n\n燈塔名義光程36浬大於地理光程16.90浬，故正常視野下實際可見距離受地球曲率限制，約16.9浬。\n\n三、名義光程以標準氣象能見度為基準；地理光程由燈高及觀測者眼高決定。實際可見距離還須考慮當時氣象能見度及燈光強度。",
+    "practicalAnalysis": "GP.FL.W.(3)12s 36M 17m為白色群閃，每12秒三閃，名義光程36浬，燈高17m。地理光程2.08(√16+√17)=16.9NM，小於36NM，故取16.9浬。",
+    "keyPoints": [
+      {
+        "point": "白色群閃，每12秒三閃；名義光程36浬；燈高17m",
+        "importance": "essential"
+      },
+      {
+        "point": "地理光程約16.9浬，小於名義光程",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "Admiralty List of Lights and Fog Signals",
+        "sourceType": "official_port_or_authority",
+        "issuer": "UK Hydrographic Office",
+        "url": "https://www.admiralty.co.uk/publications/admiralty-list-of-lights",
+        "pageOrSection": "Light descriptions and abbreviations",
+        "accessedAt": "2026-11-05",
+        "supports": "燈質縮寫及名義光程。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "航海資料及計算已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立專業複核",
+          "result": "needs_review",
+          "note": "仍待專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-pilotage-03-answer-v1",
+    "questionId": "108-pilotage-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "太平洋主要海流如下：\n\n一、北太平洋：黑潮沿菲律賓東方、臺灣東側向北流；親潮由堪察加及白令海附近向南流；北太平洋洋流由西向東橫越中緯度；阿拉斯加洋流沿北美西北岸向北／西北流；加利福尼亞洋流沿北美西岸向南流。\n\n二、赤道流系：北赤道洋流由東向西；赤道逆流由西向東；南赤道洋流由東向西。\n\n三、南太平洋：東澳洲洋流沿澳洲東岸向南；秘魯／洪堡洋流沿南美洲西岸向北；南太平洋洋流由西向東；南極繞極流／西風漂流在南半球高緯度由西向東環繞南極洲。\n\n四、航海應用：洋流造成Set and Drift，影響船舶對地航速及航跡；黑潮、親潮交會區可能出現海流鋒面及海霧；航行應依海流圖修正航向並計算航時及燃油。",
+    "practicalAnalysis": "依北太平洋環流、赤道流系及南太平洋環流分類，並標示主要流向；特別指出黑潮沿臺灣東側北流、親潮南流。",
+    "keyPoints": [
+      {
+        "point": "黑潮北流、親潮南流、北太平洋洋流東流",
+        "importance": "essential"
+      },
+      {
+        "point": "北／南赤道洋流西流、赤道逆流東流",
+        "importance": "essential"
+      },
+      {
+        "point": "東澳洲流南流、秘魯流北流、南極繞極流東流",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "Ocean Currents",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA National Ocean Service",
+        "url": "https://oceanservice.noaa.gov/education/tutorial_currents/",
+        "pageOrSection": "Major ocean currents",
+        "accessedAt": "2026-11-05",
+        "supports": "太平洋主要洋流及流向。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "航海資料及計算已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立專業複核",
+          "result": "needs_review",
+          "note": "仍待專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-pilotage-04-answer-v1",
+    "questionId": "108-pilotage-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、海風（Sea Breeze）：白天陸地升溫比海洋快，陸地上方空氣受熱上升、氣壓降低，海面較冷、氣壓相對較高，空氣由海吹向陸。通常上午形成、午後最強，傍晚陸地降溫後減弱；影響沿岸及近海，可向內陸延伸數十公里，實際範圍受地形及背景風影響。\n\n二、陸風（Land Breeze）：夜間陸地降溫比海洋快，陸地上方空氣較冷、氣壓相對較高，空氣由陸吹向海。通常日落後形成、深夜至清晨較明顯，日出後逐漸減弱；影響沿岸及近海數十公里，通常較海風弱。\n\n三、海陸風為地方性日週期熱力環流，主要由陸海熱容量差異造成。若季風、鋒面或背景風很強，海陸風可能被削弱或不明顯。航海時應注意午後海風及夜間陸風對靠離泊、錨泊及小船操縱的影響。",
+    "practicalAnalysis": "答題須說明陸海升降溫速率差、氣壓差、風向、發生時間及影響範圍；影響距離非固定值，受地形及背景風影響。",
+    "keyPoints": [
+      {
+        "point": "海風：白天由海吹陸，午後較強",
+        "importance": "essential"
+      },
+      {
+        "point": "陸風：夜間由陸吹海，深夜至清晨較明顯",
+        "importance": "essential"
+      },
+      {
+        "point": "影響沿岸及近海數十公里，受地形及背景風影響",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "Sea and Land Breezes",
+        "sourceType": "official_port_or_authority",
+        "issuer": "UK Met Office",
+        "url": "https://www.metoffice.gov.uk/weather/learn-about/weather/types-of-weather/wind/sea-breeze",
+        "pageOrSection": "Sea breeze and land breeze",
+        "accessedAt": "2026-11-05",
+        "supports": "海陸風成因及發生時間。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "航海資料及計算已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立專業複核",
+          "result": "needs_review",
+          "note": "仍待專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
