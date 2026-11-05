@@ -53,5 +53,60 @@
     "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=502&code=114050&q=1&s=0906&t=Q",
     "pages": 1,
     "verified": "已逐題依考選部官方 PDF 文字核對"
+  },
+  {
+    "id": "moex-112-kaohsiung-waterway",
+    "year": 2023,
+    "exam": "112年專門職業及技術人員高等考試引水人",
+    "category": "甲種引水人（高雄港）",
+    "subject": "當地水道港灣詳情",
+    "issuer": "考選部",
+    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=112060&q=1&s=0902&t=Q",
+    "pages": 1,
+    "verified": "已逐題依考選部官方 PDF 文字核對"
+  },
+  {
+    "id": "moex-112-pilot-law",
+    "year": 2023,
+    "exam": "112年專門職業及技術人員高等考試引水人",
+    "category": "甲種引水人（臺中港、高雄港、花蓮港、蘇澳港、麥寮港、安平港）",
+    "subject": "航政法規",
+    "issuer": "考選部",
+    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=502&code=112060&q=1&s=0907&t=Q",
+    "pages": 1,
+    "verified": "已逐題依考選部官方 PDF 文字核對"
+  },
+  {
+    "id": "moex-112-pilotage",
+    "year": 2023,
+    "exam": "112年專門職業及技術人員高等考試引水人",
+    "category": "甲種引水人（臺中港、高雄港、花蓮港、蘇澳港、麥寮港、安平港）",
+    "subject": "引港學",
+    "issuer": "考選部",
+    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=511&code=112060&q=1&s=0908&t=Q",
+    "pages": 1,
+    "verified": "已逐題依考選部官方 PDF 文字核對"
+  },
+  {
+    "id": "moex-112-shiphandling",
+    "year": 2023,
+    "exam": "112年專門職業及技術人員高等考試引水人",
+    "category": "甲種引水人（臺中港、高雄港、花蓮港、蘇澳港、麥寮港、安平港）",
+    "subject": "船舶操縱",
+    "issuer": "考選部",
+    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=112060&q=1&s=0909&t=Q",
+    "pages": 2,
+    "verified": "已逐題依考選部官方 PDF 文字核對"
+  },
+  {
+    "id": "moex-112-english",
+    "year": 2023,
+    "exam": "112年專門職業及技術人員高等考試引水人",
+    "category": "甲種引水人（臺中港、高雄港、花蓮港、蘇澳港、麥寮港、安平港）",
+    "subject": "專業英文",
+    "issuer": "考選部",
+    "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=112060&q=1&s=0910&t=Q",
+    "pages": 2,
+    "verified": "已逐題依考選部官方 PDF 文字核對"
   }
 ]
