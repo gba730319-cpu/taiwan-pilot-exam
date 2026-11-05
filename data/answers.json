@@ -542,5 +542,554 @@
       "題目敘述以操縱通運輪為主，答案另納入正式調查報告揭示的長輝船、VTS及港口制度因素，避免錯誤歸因。"
     ],
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "114-english-01-answer-v1",
+    "questionId": "114-english-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "（一）船舶交通服務（Vessel Traffic Services, VTS）在提升繁忙水域海上交通的安全與效率方面扮演關鍵角色。VTS 透過即時通訊與監控，向船舶提供重要的航行資訊及安全指示，大幅降低碰撞風險與環境危害。\n\n（二）即使船上有引水人，船舶航行的主要責任仍由船長承擔。然而，引水人具備的專業當地知識與航行技能，能大幅協助船舶安全操縱，尤其是在具有挑戰性或船舶不熟悉的水域。",
+    "practicalAnalysis": "翻譯重點在 maritime collocation 與法律責任語氣。VTS 可譯「船舶交通服務」；congested waters 為「交通繁忙水域」；master 的責任不能翻成引水人登輪後移轉。primary responsibility 在此宜譯「主要責任」，但不代表引水人完全沒有專業義務。",
+    "keyPoints": [
+      {
+        "point": "Vessel Traffic Services 譯為船舶交通服務（VTS）",
+        "importance": "essential"
+      },
+      {
+        "point": "real-time communication and monitoring 譯為即時通訊與監控",
+        "importance": "supporting"
+      },
+      {
+        "point": "船長仍負船舶航行主要責任，引水人提供專業引領協助",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Resolution A.960(23), Annex 2",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2003-12-05",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "pageOrSection": "Annex 2, §§1–2",
+        "accessedAt": "2026-11-05",
+        "supports": "船長、引水人及駕駛臺團隊職責與協調原則。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "VTS及航行責任用語符合IMO引水作業原則",
+          "result": "pass"
+        },
+        {
+          "item": "中文譯文保留原文語意及責任層次",
+          "result": "pass"
+        },
+        {
+          "item": "獨立專業複核",
+          "result": "needs_review",
+          "note": "已完成來源及計算核對，仍待獨立專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "114-english-02-answer-v1",
+    "questionId": "114-english-02",
+    "version": 1,
+    "language": "en",
+    "answerType": "translation",
+    "modelAnswer": "(1) When a vessel is navigating in a narrow channel or an area with dense traffic, it should maintain a high level of vigilance at all times, and the main engine should be kept ready for immediate manoeuvring in case of an emergency.\n\n(2) Before pilotage commences, the master and the pilot should clearly define their respective responsibilities to ensure smooth and effective communication and cooperation throughout the operation.",
+    "practicalAnalysis": "採用國際航海常用語。narrow channel、dense traffic、maintain a proper lookout／vigilance、main engine ready、pilotage commences、respective responsibilities 均屬常見專業搭配。原文「主機隨時備妥」不是 engine is ready（容易像已啟動），而是 kept ready for immediate manoeuvring。",
+    "keyPoints": [
+      {
+        "point": "狹窄水道：narrow channel",
+        "importance": "essential"
+      },
+      {
+        "point": "交通流密集區域：area with dense traffic",
+        "importance": "supporting"
+      },
+      {
+        "point": "主機備妥：main engine kept ready for immediate manoeuvring",
+        "importance": "essential"
+      },
+      {
+        "point": "引航作業開始前：before pilotage commences",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Resolution A.960(23), Annex 2",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2003-12-05",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "pageOrSection": "Annex 2, §§1–2 and 5",
+        "accessedAt": "2026-11-05",
+        "supports": "引水開始前資訊交換、職責確認與駕駛臺協調。"
+      },
+      {
+        "title": "COLREGs 1972",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rules 5, 6 and 9",
+        "accessedAt": "2026-11-05",
+        "supports": "瞭望、安全航速與狹窄水道航行義務。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "英文句型及航海術語已核對",
+          "result": "pass"
+        },
+        {
+          "item": "翻譯保留主機備妥及職責事前確認的原意",
+          "result": "pass"
+        },
+        {
+          "item": "獨立專業複核",
+          "result": "needs_review",
+          "note": "已完成來源及計算核對，仍待獨立專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "114-english-03-answer-v1",
+    "questionId": "114-english-03",
+    "version": 1,
+    "language": "en",
+    "answerType": "definition",
+    "modelAnswer": "(1) Boarding arrangements: The equipment and means provided to enable a person to embark on or disembark from a ship safely. For a pilot, this normally includes a pilot ladder, accommodation ladder when required, associated access arrangements and proper lighting.\n\n(2) Crash-stop: An emergency stopping manoeuvre in which the propulsion system is operated in the appropriate astern mode, usually after an order for full astern, to stop a vessel proceeding ahead. The stopping distance and time depend on the vessel's speed, displacement, propulsion system, loading condition and environmental conditions.\n\n(3) Steerage way: The minimum speed through the water at which a vessel has sufficient water flow over its rudder or other steering device to maintain effective directional control. It varies with the vessel's design, loading condition and environmental conditions.\n\n(4) Safe speed: A speed at which a vessel can take proper and effective action to avoid collision and can be stopped within an appropriate distance for the prevailing circumstances and conditions.",
+    "practicalAnalysis": "Crash-stop 是緊急停船操縱，不應將其誤解為固定距離或固定秒數。Steerage way 不是一個所有船舶通用的固定節數。Safe speed 應依 COLREG Rule 6 的具體因素判斷，而非單純等於港口限速。",
+    "keyPoints": [
+      {
+        "point": "Boarding arrangements 定義涵蓋安全登離船設備與通道",
+        "importance": "essential"
+      },
+      {
+        "point": "Crash-stop 是由前進狀態施以適當倒俥使船舶停止的操縱",
+        "importance": "essential"
+      },
+      {
+        "point": "Steerage way 與舵面水流及有效操舵能力相關",
+        "importance": "essential"
+      },
+      {
+        "point": "Safe speed 應能有效避碰並在適當距離內停船",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "SOLAS Chapter V, Regulation 23 – Pilot transfer arrangements",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/pilotage.aspx",
+        "pageOrSection": "Pilot transfer arrangements",
+        "accessedAt": "2026-11-05",
+        "supports": "引水人安全登離船設備及相關規範。"
+      },
+      {
+        "title": "COLREGs 1972",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rule 6 – Safe speed",
+        "accessedAt": "2026-11-05",
+        "supports": "安全航速定義與判斷因素。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "四個術語均以航海專業語境定義",
+          "result": "pass"
+        },
+        {
+          "item": "Safe speed 定義對應COLREG Rule 6",
+          "result": "pass"
+        },
+        {
+          "item": "Steerage way及Crash-stop未提供無根據的固定數值",
+          "result": "pass"
+        },
+        {
+          "item": "獨立專業複核",
+          "result": "needs_review",
+          "note": "已完成來源及計算核對，仍待獨立專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "114-english-04-answer-v1",
+    "questionId": "114-english-04",
+    "version": 1,
+    "language": "en",
+    "answerType": "essay",
+    "modelAnswer": "**Importance of Communication between Pilots and Ship’s Bridge Team**\n\nEffective communication between a pilot and a ship’s bridge team is essential for safe navigation, particularly in confined waters, busy ports and other challenging conditions. Although a pilot provides local knowledge and professional advice, the master remains responsible for the safety of the vessel. Therefore, both parties must work together as one coordinated team.\n\nBefore pilotage begins, the pilot and the master should exchange important information. This includes the vessel’s manoeuvring characteristics, draft, engine and steering condition, planned route, expected speed, tug assistance, weather, tide, current and traffic situation. They should also agree on the passage plan, communication language, roles and responsibilities, and actions to be taken in an emergency. This exchange helps prevent misunderstandings and ensures that both parties have the same understanding of the operation.\n\nDuring pilotage, clear and closed-loop communication is particularly important. Helm and engine orders should be repeated and confirmed. The bridge team should continuously monitor the vessel’s position, heading, speed and progress against the agreed passage plan. If the pilot’s actions or the vessel’s movement differ from the plan, the officer of the watch should speak up immediately. The master should also intervene whenever the safety of the vessel may be at risk.\n\nGood communication is not limited to verbal orders. It also includes sharing radar, ECDIS, visual observations, navigational warnings and information from Vessel Traffic Services. In an emergency, concise and unambiguous communication enables the bridge team, pilot, tugs and VTS to respond quickly and effectively.\n\nIn conclusion, effective communication builds mutual understanding, improves situational awareness and reduces human error. A safe pilotage operation depends not only on the pilot’s local expertise but also on teamwork, monitoring and the active participation of the master and bridge team.",
+    "practicalAnalysis": "約300字英文短文以引航前資訊交換、引航中閉環通訊、監控與提出疑慮、VTS及拖船協調、結論五段組成。用詞以 IMO A.960(23) 的 Master-Pilot Information Exchange 及橋樓團隊協作為主軸。",
+    "keyPoints": [
+      {
+        "point": "引水人提供當地知識，但船長責任不因引水人在船而解除",
+        "importance": "essential"
+      },
+      {
+        "point": "引航前交換船舶操縱資料、航路、風流、拖船及應變計畫",
+        "importance": "essential"
+      },
+      {
+        "point": "引航中使用閉環通訊並持續監控船位、航向及航速",
+        "importance": "essential"
+      },
+      {
+        "point": "橋樓團隊應勇於提出疑慮，必要時船長介入",
+        "importance": "essential"
+      },
+      {
+        "point": "整合雷達、ECDIS、目視、VTS及拖船資訊",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Resolution A.960(23), Annex 2",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2003-12-05",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "pageOrSection": "Annex 2, §§1, 2 and 5",
+        "accessedAt": "2026-11-05",
+        "supports": "引水人與船長及駕駛臺團隊的資訊交換、共同責任及監控。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "文章涵蓋引航前、中、緊急狀況及結論",
+          "result": "pass"
+        },
+        {
+          "item": "船長責任與引水人專業角色區分正確",
+          "result": "pass"
+        },
+        {
+          "item": "英文篇幅符合約300字要求",
+          "result": "pass"
+        },
+        {
+          "item": "獨立專業複核",
+          "result": "needs_review",
+          "note": "已完成來源及計算核對，仍待獨立專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "114-pilotage-02-answer-v1",
+    "questionId": "114-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、相似處\n（一）兩者均屬大氣中的低氣壓系統，中心氣壓通常低於周圍，空氣向低壓中心輻合並上升，常伴隨雲雨、強風及海象惡化。\n（二）北半球環流方向通常為逆時針，南半球通常為順時針；實際風場仍受摩擦、地形及周邊氣壓場影響。\n（三）均可能造成大浪、湧浪、能見度降低、強降雨及風向風速快速變化，對船舶航行、靠離泊及引水作業構成風險。\n（四）均需藉由氣象圖、衛星雲圖、氣象預報及船舶觀測資料掌握其位置、移動方向、速度及強度。\n\n二、溫帶氣旋（Extratropical／Mid-latitude Cyclone）\n（一）主要生成於中高緯度鋒面及冷暖氣團交界，具有明顯冷鋒、暖鋒，成熟階段常形成囚錮鋒。\n（二）能量主要來自水平溫度差所造成的斜壓不穩定，屬斜壓性系統；冷暖空氣交互作用明顯。\n（三）尺度通常較大，生命史可達數日，移動多受西風帶引導，常由西向東移動，但仍視大尺度環流而定。\n（四）風雨分布與鋒面及氣旋環流相關，暖區、冷鋒附近及氣旋不同象限的風向、風速與天氣差異明顯；不具有熱帶氣旋典型的暖心與對稱眼牆結構。\n（五）船舶應注意鋒面通過前後風向轉變、氣壓變化、冷鋒後強陣風、海浪及海流變化，並依氣旋路徑調整航線。\n\n三、熱帶氣旋（Tropical Cyclone）\n（一）主要生成於熱帶或副熱帶暖海面，需有足夠海溫、濕潤中層大氣、適當科氏力及較弱垂直風切等條件；通常不具有溫帶氣旋式的鋒面結構。\n（二）能量主要來自暖海面蒸發水氣及水氣凝結釋放的潛熱，核心為暖心結構。\n（三）成熟系統通常較具軸對稱性，可具有中心眼、眼牆及螺旋雨帶；最強風通常集中於眼牆附近，但風圈大小依個別系統而異。\n（四）移動路徑受副熱帶高壓、季風槽及其他大尺度環流引導，可能轉向、滯留或加速，不能一概認為固定向西或向西北移動。\n（五）強度以各海域氣象機關採用的分類標準表示，船舶應注意最大持續風速、陣風、暴風圈半徑、移動速度及預報路徑誤差。\n\n四、主要差異比較\n（一）生成區域：溫帶氣旋主要在中高緯度鋒面區；熱帶氣旋主要在熱帶暖海面。\n（二）能量來源：溫帶氣旋主要由水平溫度梯度與斜壓不穩定提供能量；熱帶氣旋主要由海面熱量、水氣蒸發及凝結潛熱供能。\n（三）鋒面：溫帶氣旋通常具有冷鋒、暖鋒；成熟熱帶氣旋一般沒有鋒面。\n（四）結構：溫帶氣旋多呈不對稱、鋒面型結構；熱帶氣旋常呈暖心、近似軸對稱結構，強烈者可有風眼與眼牆。\n（五）尺度與移動：溫帶氣旋通常水平尺度較大並受西風帶引導；熱帶氣旋尺度差異大，路徑受副熱帶高壓及熱帶環流影響。\n\n五、引水及船舶操縱上的注意事項\n應持續追蹤氣旋中心與船舶相對位置、移動方向及速度，並參考預報風圈及海象，而非只看中心路徑。船舶應評估風壓、波浪方向、橫搖與縱搖、甲板上浪、操舵能力、主機狀態及港口限制；靠離泊及狹水道引航時，應依港口公告及實際風浪條件決定是否延後作業。",
+    "practicalAnalysis": "本題應避免將溫帶氣旋簡化成「冷心、冬季、範圍大」或熱帶氣旋簡化成「暖心、夏季、範圍小」。核心區別是能量來源、鋒面結構與熱力結構；兩者尺度與路徑皆有變異。",
+    "keyPoints": [
+      {
+        "point": "溫帶氣旋具鋒面、斜壓性，主要由水平溫度梯度提供能量",
+        "importance": "essential"
+      },
+      {
+        "point": "熱帶氣旋為暖心系統，主要由海面熱量及凝結潛熱供能",
+        "importance": "essential"
+      },
+      {
+        "point": "兩者均可能帶來強風、大浪、降雨及航行風險",
+        "importance": "essential"
+      },
+      {
+        "point": "需依氣旋路徑、風圈、移速與海象安排航行及引水作業",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "NOAA National Hurricane Center – Tropical Cyclone Climatology and Structure",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Oceanic and Atmospheric Administration",
+        "url": "https://www.nhc.noaa.gov/",
+        "pageOrSection": "Tropical cyclone structure and forecast products",
+        "accessedAt": "2026-11-05",
+        "supports": "熱帶氣旋結構、暖海面能量與預報資訊。"
+      },
+      {
+        "title": "Met Office – Weather systems and depressions",
+        "sourceType": "official_port_or_authority",
+        "issuer": "UK Met Office",
+        "url": "https://www.metoffice.gov.uk/weather/learn-about/weather/types-of-weather/wind/depressions",
+        "pageOrSection": "Mid-latitude depressions and fronts",
+        "accessedAt": "2026-11-05",
+        "supports": "溫帶低壓、鋒面與斜壓系統特徵。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "能量來源、鋒面與暖心結構的比較已區分",
+          "result": "pass"
+        },
+        {
+          "item": "未將氣旋路徑、尺度或季節寫成絕對規則",
+          "result": "pass"
+        },
+        {
+          "item": "納入船舶航行及引水實務影響",
+          "result": "pass"
+        },
+        {
+          "item": "獨立專業複核",
+          "result": "needs_review",
+          "note": "已完成來源及計算核對，仍待獨立專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "114-pilotage-03-answer-v1",
+    "questionId": "114-pilotage-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "calculation",
+    "modelAnswer": "**解題假設：**題目所稱「測 L 之方位 040°、025°」視為真方位（True Bearing），且兩船均以題示船速、航向在水中航行；兩船所受流向、流速相同，忽略風壓及其他外力。\n\n一、設兩小時內共同水流位移為：向東 (x) 浬、向北 (y) 浬。燈塔 L 相對出發點位於正北 35 浬。\n\n二、甲船兩小時航行距離：\n(15\\times2=30) 浬。\n因此甲船位置為 ((x, y+30))，燈塔相對甲船的北向距離為 (35-y-30=5-y)。由方位角 040°：\n\\[\n\\tan40^\\circ=\\frac{-x}{5-y}\n\\]\n\n三、乙船兩小時航行距離：\n(12\\times2=24) 浬。\n因此乙船位置為 ((x, y+24))，燈塔相對乙船的北向距離為 (35-y-24=11-y)。由方位角 025°：\n\\[\n\\tan25^\\circ=\\frac{-x}{11-y}\n\\]\n\n四、聯立兩式：\n\\[\n\\tan40^\\circ(5-y)=\\tan25^\\circ(11-y)\n\\]\n解得：\n\\[\ny\\approx-2.50\\text{ 浬},\\quad x\\approx-6.30\\text{ 浬}\n\\]\n表示兩小時內水流位移約向西 6.30 浬、向南 2.50 浬。\n\n五、流速：\n\\[\nV=\\frac{\\sqrt{6.30^2+2.50^2}}{2}\n\\approx3.39\\text{ 節}\n\\]\n流向以「流往方向」表示，約為 248°（真方位）。\n\n**答案：水流約以 3.4 節流速，向 248°（西南西偏西）流去。**",
+    "practicalAnalysis": "以兩船在相同水流中的共同位移作未知數。關鍵是把兩船對燈塔的真方位轉成正切關係，利用兩船兩小時航程相差 6 浬形成兩個不同的北向距離，再聯立求流位移。若題目所稱方位是相對方位或羅經方位，需先換算真方位；若題目未說明，應於答案列明假設。",
+    "keyPoints": [
+      {
+        "point": "甲乙兩船兩小時水中航程分別為30浬及24浬",
+        "importance": "essential"
+      },
+      {
+        "point": "兩船共同水流位移以東西、南北分量設未知數",
+        "importance": "essential"
+      },
+      {
+        "point": "以真方位角建立正切方程並聯立求解",
+        "importance": "essential"
+      },
+      {
+        "point": "流速約3.39節，流向約248°真方位",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Dead reckoning, set and drift, and current sailing",
+        "accessedAt": "2026-11-05",
+        "supports": "航位推算、流向（set）及流速（drift）的分量解法。"
+      }
+    ],
+    "assumptions": [
+      "題目方位角視為真方位。",
+      "兩船兩小時內受相同且均勻的水流；船速為對水速度。",
+      "向248°表示水流流往方向，不是來向。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "兩船航程及方位方程已重算",
+          "result": "pass"
+        },
+        {
+          "item": "流速由兩小時位移換算",
+          "result": "pass"
+        },
+        {
+          "item": "流向已採流往方向並註明真方位假設",
+          "result": "pass"
+        },
+        {
+          "item": "獨立專業複核",
+          "result": "needs_review",
+          "note": "已完成來源及計算核對，仍待獨立專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "114-pilotage-04-answer-v1",
+    "questionId": "114-pilotage-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、風力發電機對船用雷達的主要影響\n（一）強烈回波及假回波：風機塔柱、機艙及葉片具有金屬結構，可能產生明顯雷達回波；葉片轉動時回波強度與位置可能變化，形成閃爍或間歇性回波。\n（二）遮蔽與陰影區：風機塔柱及大型結構可能遮蔽其後方目標，形成雷達陰影區（Radar Shadow），使小型船舶、浮標或低反射目標不易被發現。\n（三）多重反射及旁瓣回波：風機與海面、鄰近風機或其他大型結構間可能產生多重反射、旁瓣或間接回波，造成非真實目標或位置判讀困難。\n（四）雜波與目標辨識：密集風場可能在雷達螢幕上形成連續或群聚回波，與船舶、浮標及海岸線回波混雜，增加目標追蹤及避碰判斷難度。\n\n二、X-Band 與 S-Band 的差異\n（一）X-Band 頻率約 9 GHz、波長約 3 cm，通常具有較高角解析能力，對小型目標及細節辨識較有利；但在雨衰及海面雜波條件下較容易受影響。\n（二）S-Band 頻率約 3 GHz、波長約 10 cm，通常較不易受強降雨衰減，惡劣天候下可作為重要補充；但其天線尺寸、解析能力及實際偵測效果仍須依設備性能與設定判斷。\n（三）風機造成的金屬結構回波、遮蔽及多重反射，兩種頻段均可能發生；不能認為 S-Band 完全不受影響，亦不能認為 X-Band 一定無法辨識風機。\n\n三、航行及引水時的注意事項\n（一）航前查閱最新海圖、航海通告、風場公告及航路限制，確認風機區邊界、風機位置、禁航或限制水域、施工船及電纜相關警示。\n（二）不得只依賴單一雷達判斷船位或目標。應交叉使用 X-Band、S-Band、ECDIS、GNSS、AIS、目視及船舶交通服務資訊。\n（三）使用平行索引線（Parallel Indexing）及固定目標方位／距離監控船舶與風場邊界的安全間隔；注意雷達陰影區內可能存在未顯示目標。\n（四）依當時雨勢、海況及目標特性調整增益、海浪抑制、雨雪抑制及調諧等設定，避免過度抑制而將小型目標一併消除。\n（五）兩部雷達應適當選擇不同量程及頻段，定期比較回波差異；對不明回波應以目視、AIS或其他導航設備確認，不可將所有風機回波一概當作固定物或船舶。\n（六）在風場附近航行應採安全航速、保持適當瞭望，注意施工船、維修船、繫泊浮具及可能的臨時作業區；並留意風機葉片、塔柱及海底電纜等相關安全限制。\n\n四、結論\n離岸風機可能造成強回波、遮蔽、假回波及目標辨識困難，X-Band 與 S-Band 均有其優缺點，應依天候與設備性能互補使用。引水人應結合最新海圖與航安公告，並以雷達、ECDIS、AIS、目視及定位監控交叉驗證，不能單憑雷達影像決定安全航跡。",
+    "practicalAnalysis": "本題需區分風機作為固定大型金屬結構的回波、葉片動態回波與風機造成的遮蔽／多重反射。X/S頻段差異應以一般雷達波段特性描述，不宜宣稱風機只影響其中一種頻段；實際影響取決於風機尺寸、排列、雷達高度、距離、天候及雷達處理設定。",
+    "keyPoints": [
+      {
+        "point": "風機可能產生強回波、假回波、旁瓣及多重反射",
+        "importance": "essential"
+      },
+      {
+        "point": "風機結構會形成雷達遮蔽或陰影區",
+        "importance": "essential"
+      },
+      {
+        "point": "X-Band解析度較佳但較易受雨衰影響；S-Band雨衰通常較小",
+        "importance": "essential"
+      },
+      {
+        "point": "雙頻雷達、ECDIS、AIS、GNSS及目視交叉驗證",
+        "importance": "essential"
+      },
+      {
+        "point": "航前查閱海圖、航安通告、風場限制及施工船資訊",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "IALA Guidance on the Use of Radar in the Vicinity of Wind Farms",
+        "sourceType": "technical_standard",
+        "issuer": "International Association of Marine Aids to Navigation and Lighthouse Authorities",
+        "url": "https://www.iala.int/",
+        "pageOrSection": "Radar effects in offshore wind farm areas",
+        "accessedAt": "2026-11-05",
+        "supports": "風場對雷達回波、遮蔽與目標辨識的影響。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Radar navigation and radar limitations",
+        "accessedAt": "2026-11-05",
+        "supports": "雷達頻段、雨衰、雜波及雷達導航限制。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "風機回波、遮蔽及多重反射機制已區分",
+          "result": "pass"
+        },
+        {
+          "item": "X/S頻段差異以一般特性描述且避免絕對化",
+          "result": "pass"
+        },
+        {
+          "item": "航行建議包含多源導航資訊交叉驗證",
+          "result": "pass"
+        },
+        {
+          "item": "獨立專業複核",
+          "result": "needs_review",
+          "note": "已完成來源及計算核對，仍待獨立專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "114-pilotage-05-answer-v1",
+    "questionId": "114-pilotage-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、航前定位與航道資料準備\n（一）使用最新海圖、電子海圖及航海通告，確認港區水道邊界、航道中心線、轉向點、航標、碼頭、淺點、沉船、禁錨區及施工區。\n（二）確認定位基準與資料品質，包括海圖基準、GNSS基準、天線位置、船舶定位偏移量及ECDIS安全設定，避免不同系統基準不一致造成位置誤判。\n（三）依船舶吃水、潮位、預估艉座及海床不確定性，計算可用龍骨下餘裕水深（UKC），並將潮汐、流速、船速及測深資料納入航行計畫。\n\n二、狹窄水道的定位方法\n（一）衛星定位：以GNSS／DGPS提供連續船位，但須注意多路徑、遮蔽、干擾及天線位置偏移，不能單獨依賴衛星定位。\n（二）雷達定位：利用雷達測距、測方位、平行索引線（Parallel Indexing）及岸上固定目標，持續監控船舶相對航道邊界及轉向點的位置。\n（三）目視定位：利用燈塔、燈標、導標、岸上顯著物及固定方位線確認船位，夜間注意燈質、燈色、燈弧及背景燈光。\n（四）交叉方位與距離：選擇兩個以上辨識明確且分布適當的固定目標，取得交叉方位或方位與距離線，檢查GNSS及雷達定位是否合理。\n（五）電子海圖監控：設定安全等深線、淺水警戒、航道偏離警報及轉向點警報；確認ENC更新及顯示比例尺適當，避免過度縮小比例尺而漏看重要細節。\n\n三、航行中應注意事項\n（一）保持適當安全航速與足夠舵效，狹窄水道中避免突然大幅轉向或急速加減車；預先考慮船舶慣性、旋迴圈、船艉外擺及風流壓力。\n（二）依COLREG Rule 9，在安全可行範圍內靠近本船右舷航道外側界限航行，避免妨礙只能在狹窄航道內安全航行的船舶；並遵守港口及地方航行規定。\n（三）依COLREG Rule 6及Rule 19，依能見度、交通密度、操縱性能、水深、風流及雷達條件選擇安全航速；能見度受限時加強瞭望、主機備便及雷達避碰判斷。\n（四）持續比較預定航跡與實際船位，設定偏航警戒界限；若船位偏離、定位來源不一致或航標異常，立即降低風險並重新確認船位。\n（五）注意橫流、風壓、岸壁效應及艉座對船舶航跡的影響，尤其在航道轉折、狹窄處、淺水區及大型船舶會遇時。\n（六）駕駛臺團隊採閉環通訊，明確分工由一人操舵、一人監控船位及航跡、一人瞭望或通訊；引水人應與船長交換計畫並確保船長及船副持續監控。\n\n四、定位失效或船位存疑時的處置\n若GNSS、ECDIS或雷達定位出現異常，不可盲目沿用單一錯誤船位。應立即以雷達距離／方位、目視導標、測深、第二套定位設備及已知固定目標交叉確認；必要時減速、停止前進或在安全水域等待，並通知VTS。若無法確認船位或航道安全，應避免繼續深入狹窄水道。\n\n五、結論\n狹窄水道引航定位的核心是「多源定位、連續監控、預先警戒及即時交叉驗證」。GNSS與ECDIS提供連續位置資訊，雷達平行索引及目視導標可確認相對航道位置，測深與UKC監控則確保水深安全。引水人應依船舶操縱性能及環境條件保持安全航速，並與駕駛臺團隊及VTS維持有效溝通。",
+    "practicalAnalysis": "題目要求從「引航定位」角度作答，核心應放在定位基準、GNSS、雷達PI、目視導標、交叉方位、ECDIS安全設定、測深與UKC，而不是只寫一般狹水道避碰。另需把定位失效時的交叉驗證及停止／減速條件寫出。",
+    "keyPoints": [
+      {
+        "point": "使用最新海圖、ENC及航海通告，確認基準與定位偏移",
+        "importance": "essential"
+      },
+      {
+        "point": "GNSS、雷達PI、目視導標、交叉方位及測深多源定位",
+        "importance": "essential"
+      },
+      {
+        "point": "ECDIS安全等深線、淺水及偏航警報設定",
+        "importance": "essential"
+      },
+      {
+        "point": "連續監控航跡、UKC、風流、艉座及岸壁效應",
+        "importance": "essential"
+      },
+      {
+        "point": "定位存疑時交叉驗證，必要時減速、停止或通知VTS",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "COLREGs 1972",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rules 5, 6, 7, 9 and 19",
+        "accessedAt": "2026-11-05",
+        "supports": "瞭望、安全航速、碰撞危險判斷、狹窄水道及能見度受限航行。"
+      },
+      {
+        "title": "IMO Resolution A.960(23), Annex 2",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "pageOrSection": "Annex 2, §§1–2 and 5",
+        "accessedAt": "2026-11-05",
+        "supports": "引水人與船長及駕駛臺團隊協調與航行計畫交換。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "答案聚焦引航定位方法與交叉驗證",
+          "result": "pass"
+        },
+        {
+          "item": "COLREG狹窄水道及安全航速原則已核對",
+          "result": "pass"
+        },
+        {
+          "item": "納入ENC設定、測深、UKC與定位失效處置",
+          "result": "pass"
+        },
+        {
+          "item": "獨立專業複核",
+          "result": "needs_review",
+          "note": "已完成來源及計算核對，仍待獨立專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
