@@ -5,6 +5,13 @@ import sourceData from "../data/sources.json";
 import answerData from "../data/answers.json";
 import supplementalAnswerData from "../data/answers-supplement.json";
 import english2000AnswerData from "../data/answers-2000-english.json";
+import english2003AnswerData from "../data/answers-2003-professional-english.json";
+import shiphandling2003AnswerData from "../data/answers-2003-shiphandling.json";
+import law2003AnswerData from "../data/answers-2003-law.json";
+import pilotage2003AnswerData from "../data/answers-2003-pilotage.json";
+import kaohsiung2003AnswerData from "../data/answers-2003-kaohsiung.json";
+import law2000AnswerData from "../data/answers-2000-law.json";
+import pilotage2000AnswerData from "../data/answers-2000-pilotage.json";
 
 type Question = {
   id: string;
@@ -52,7 +59,7 @@ export default function Home() {
   const [port, setPort] = useState("高雄港");
   const items = (questions as Question[]).filter((q) => officialYears.has(q.year));
   const sources = sourceData as Source[];
-  const answers = [...(answerData as Answer[]), ...(supplementalAnswerData as Answer[]), ...(english2000AnswerData as Answer[]), ...(pilotage2000AnswerData as Answer[]), ...(law2000AnswerData as Answer[]), ...(kaohsiung2003AnswerData as Answer[]), ...(pilotage2003AnswerData as Answer[]), ...(law2003AnswerData as Answer[]), ...(shiphandling2003AnswerData as Answer[]), ...(english2003AnswerData as Answer[]), ...(english2000AnswerData as Answer[])];
+  const answers = [...(answerData as Answer[]), ...(supplementalAnswerData as Answer[]), ...(english2000AnswerData as Answer[]), ...(pilotage2000AnswerData as Answer[]), ...(law2000AnswerData as Answer[]), ...(kaohsiung2003AnswerData as Answer[]), ...(pilotage2003AnswerData as Answer[]), ...(law2003AnswerData as Answer[]), ...(shiphandling2003AnswerData as Answer[]), ...(english2003AnswerData as Answer[])];
   const answerByQuestionId = useMemo(() => new Map(answers.map((a) => [a.questionId, a] as const)), [answers]);
   const sourceById = useMemo(() => new Map(sources.map((s) => [s.id, s] as const)), [sources]);
   const years = useMemo(
