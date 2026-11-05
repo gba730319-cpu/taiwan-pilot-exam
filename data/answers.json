@@ -12690,5 +12690,699 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "100-kaohsiung-waterway-01-answer-v1",
+    "questionId": "100-kaohsiung-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_or_drawing",
+    "modelAnswer": "本題作圖範圍為前鎮河以南、第二港口防波堤以內的高雄港南區。應以2011年有效海圖及港區配置圖為底圖，標明北向、比例尺、圖號及資料日期。\n\n一、港區輪廓：畫出前鎮河口、第二港口北／南防波堤、港池岸線、主要航道及迴船水域，並標示紅毛港、南星計畫及當時已存在的洲際港區工程範圍。\n\n二、碼頭編號：依2011年港區圖由北向南標註各碼頭編號及岸線位置，區分貨櫃碼頭、散雜貨碼頭、油品／化學品專用碼頭及其他專用碼頭。不可把2011年尚未啟用的後續貨櫃中心當作已營運碼頭。\n\n三、繫船浮筒：標示四、五線等各組浮筒編號、座標及設計長度，並區分可繫船浮筒、導航標誌浮標、警示浮標及非繫泊用途浮筒。浮筒的設計長度與實測間距不同時，應分別註明。\n\n四、導航設施：標示第二港口北、南防波堤燈杆、離岸堤燈標、航道側面標、導標、警示燈及雷達標，列出燈色、燈質、週期與能見距。\n\n五、船塢、船渠及漁港：標示台船修造船塢及塢口、各船渠入口、紅毛港／前鎮漁業活動水域與漁港設施，並區分商船主航道與漁船活動水域。\n\n六、圖例：用不同符號區分碼頭、浮筒、燈標、船塢、船渠、漁港、航道及施工區；圖邊附碼頭表、浮筒表及主要燈標表。",
+    "practicalAnalysis": "此題必須依2011年港區圖完成比例圖；現行圖資可供核對，但不能直接取代歷史港區配置。",
+    "keyPoints": [
+      {
+        "point": "前鎮河以南至二港口防波堤內南區圖",
+        "importance": "essential"
+      },
+      {
+        "point": "標碼頭編號與用途",
+        "importance": "essential"
+      },
+      {
+        "point": "標浮筒並區分繫泊與導航用途",
+        "importance": "essential"
+      },
+      {
+        "point": "標燈標及燈質",
+        "importance": "essential"
+      },
+      {
+        "point": "標船塢、船渠及漁港",
+        "importance": "essential"
+      },
+      {
+        "point": "註明2011年版次與工程狀態",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭、貨櫃中心設施",
+        "supports": "現行碼頭長度、水深及用途；歷史租用公司與2011年資料需另查。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港公共水域及浮筒座標間距圖",
+        "url": "https://kh.twport.com.tw/port/Articles?a=920",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "全港浮筒座標及間距",
+        "supports": "現行浮筒編號、設計／實測長度及水深圖。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港分道航行制",
+        "url": "https://kh.twport.com.tw/zh-tw/port/Articles?a=952",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第二港口巷道及引水站",
+        "supports": "現行第二港口引水站、航道配置與座標。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第二港口助航設施",
+        "supports": "現行燈杆、燈浮及導標資料；歷史疊標須查當年航船布告。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港歷史沿革",
+        "url": "https://kh.twport.com.tw/port/Articles?a=229",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "貨櫃中心建設及營運沿革",
+        "supports": "提供各貨櫃中心建設、啟用與租用沿革線索。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      "缺2011年海圖及南區完整港區圖；文字答案不能代替題目要求的比例簡圖。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "2011年歷史圖資、浮筒與租約資料",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "100-kaohsiung-waterway-02-answer-v1",
+    "questionId": "100-kaohsiung-waterway-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": [
+      "需補58號碼頭2011年岸線方位及實際船舶風壓資料，才能將東北／西南風換算成固定向岸或離岸拖力。"
+    ],
+    "modelAnswer": "一、基本條件：4,000總噸空載化學品船，無艏側推器，左靠58號碼頭，使用一艘1,800HP拖船。空載船受風面積相對大，東北季風與西南季風方向相反，拖船應依風向改變作用方向，不能用同一套拖帶方式。\n\n二、共同準備：確認船長、船寬、吃水、主機舵效、螺槳旋向、停船距離、空船風壓面積及拖船拖力；確認58號碼頭靠泊方向、防舷材、鄰船與可用水深；向VTS申請進港及拖船作業，約定拖帶點、拖纜、口令及緊急脫離。\n\n三、東北季風強盛時：\n1. 東北風由東北吹向西南，船舶受風壓向西南漂移；實際靠泊時須依碼頭方位判斷風是推船靠岸或離岸。\n2. 若風將船推離左舷靠泊碼頭，拖船應在能產生向岸分力的位置協助控制船首或船尾，防止船舶被吹離泊位。\n3. 若風將船壓向碼頭，拖船則應提供離岸控制力，抑制過快橫向接近速度。\n4. 因無艏側推器，拖船需特別協助控制船首橫移及艏向；主機與舵保持足夠舵效，避免完全依賴拖船。\n\n四、西南季風強盛時：風向反轉，船舶風壓及漂移方向亦反轉，拖船應改變作用方向。重新評估風壓對艏、艉的力矩，決定拖船控制船首或船尾；若風將船壓向碼頭，拖船須抑制接近速度；若風將船吹離碼頭，則協助向岸控制。不得沿用東北風時的拖船位置及口令。\n\n五、靠泊程序：進港後逐步減速，先建立船首向，再以拖船控制橫移；接近泊位時保持船體平行碼頭、低速平移，避免艏艉角度過大。送纜後調整艏艉纜及倒纜，使受力平均。\n\n六、決策原則：單拖船能力不足以抵抗風壓或控制船首時，應增派拖船或延後靠泊。化學品船另須注意貨物危險性、靜電／火源管理及碼頭作業安全。",
+    "practicalAnalysis": "題目未給58號碼頭岸線方位及當日風流資料，因此東北／西南風的具體拖船施力方向須依實際岸線方向判斷；答案明確區分風向反轉時的控制原則。",
+    "keyPoints": [
+      {
+        "point": "空載船風壓大且無艏側推器",
+        "importance": "essential"
+      },
+      {
+        "point": "東北風與西南風方向相反，拖船作用方向需重新配置",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船控制船首橫移與艏向",
+        "importance": "essential"
+      },
+      {
+        "point": "主機舵保持舵效",
+        "importance": "essential"
+      },
+      {
+        "point": "低速平移平靠",
+        "importance": "essential"
+      },
+      {
+        "point": "能力不足增派拖船或延後",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭、貨櫃中心設施",
+        "supports": "現行碼頭長度、水深及用途；歷史租用公司與2011年資料需另查。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港公共水域及浮筒座標間距圖",
+        "url": "https://kh.twport.com.tw/port/Articles?a=920",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "全港浮筒座標及間距",
+        "supports": "現行浮筒編號、設計／實測長度及水深圖。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港分道航行制",
+        "url": "https://kh.twport.com.tw/zh-tw/port/Articles?a=952",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第二港口巷道及引水站",
+        "supports": "現行第二港口引水站、航道配置與座標。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第二港口助航設施",
+        "supports": "現行燈杆、燈浮及導標資料；歷史疊標須查當年航船布告。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港歷史沿革",
+        "url": "https://kh.twport.com.tw/port/Articles?a=229",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "貨櫃中心建設及營運沿革",
+        "supports": "提供各貨櫃中心建設、啟用與租用沿革線索。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭、貨櫃中心設施",
+        "supports": "現行碼頭長度、水深及用途；歷史租用公司與2011年資料需另查。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港分道航行制",
+        "url": "https://kh.twport.com.tw/zh-tw/port/Articles?a=952",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第二港口巷道及引水站",
+        "supports": "現行第二港口引水站、航道配置與座標。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "2011年歷史圖資、浮筒與租約資料",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "100-kaohsiung-waterway-03-answer-v1",
+    "questionId": "100-kaohsiung-waterway-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": [
+      "缺2011年四、五線浮筒配置表及禁繫浮筒公告，具體組別、編號及設計長度尚不能定稿。"
+    ],
+    "modelAnswer": "一、繫船浮筒組別與設計長度：題目所稱四、五線，應以2011年港務局浮筒配置表逐組列出浮筒編號、兩浮筒中心間設計距離及可供船舶繫泊的有效長度。設計長度與現場實測長度可能因錨鏈、浮筒位置及港池測量而不同，必須分開列示。\n\n二、不能繫船的浮筒組：不能繫船的原因應依各組用途逐項說明，可能包括：\n1. 屬導航／側面標誌浮標，功能是標示航道或危險物，並非繫泊設施。\n2. 位於航道、迴船池或船舶轉向掃掠區，繫泊會妨礙交通。\n3. 浮筒或錨碇系統未設計承受船舶繫泊荷重，不能視為繫船浮筒。\n4. 位於施工區、淺水區或其他限制水域，繫泊可能危及船舶及港區工程。\n5. 港務機關公告為禁繫或暫停使用。\n\n三、繫泊前應核對浮筒編號、核定用途、錨碇及繫纜承載能力，並向VTS申請；不得只因浮筒外觀可繫纜就自行繫泊。",
+    "practicalAnalysis": "現行港務資料可查浮筒座標及間距，但本題特定的四、五線組別及不能繫船的組別需以2011年配置表和航船布告核對，避免用後續設施數量代替。",
+    "keyPoints": [
+      {
+        "point": "列四、五線各組浮筒編號及設計長度",
+        "importance": "essential"
+      },
+      {
+        "point": "區分設計長度與實測距離",
+        "importance": "essential"
+      },
+      {
+        "point": "說明導航浮標非繫泊設施",
+        "importance": "essential"
+      },
+      {
+        "point": "航道／迴船池及施工區浮標不得繫船",
+        "importance": "essential"
+      },
+      {
+        "point": "以核定用途及承載能力判斷",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭、貨櫃中心設施",
+        "supports": "現行碼頭長度、水深及用途；歷史租用公司與2011年資料需另查。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港公共水域及浮筒座標間距圖",
+        "url": "https://kh.twport.com.tw/port/Articles?a=920",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "全港浮筒座標及間距",
+        "supports": "現行浮筒編號、設計／實測長度及水深圖。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港分道航行制",
+        "url": "https://kh.twport.com.tw/zh-tw/port/Articles?a=952",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第二港口巷道及引水站",
+        "supports": "現行第二港口引水站、航道配置與座標。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第二港口助航設施",
+        "supports": "現行燈杆、燈浮及導標資料；歷史疊標須查當年航船布告。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港歷史沿革",
+        "url": "https://kh.twport.com.tw/port/Articles?a=229",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "貨櫃中心建設及營運沿革",
+        "supports": "提供各貨櫃中心建設、啟用與租用沿革線索。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      {
+        "title": "高雄港公共水域及浮筒座標間距圖",
+        "url": "https://kh.twport.com.tw/port/Articles?a=920",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "全港浮筒座標及間距",
+        "supports": "現行浮筒編號、設計／實測長度及水深圖。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "2011年歷史圖資、浮筒與租約資料",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "100-kaohsiung-waterway-04-answer-v1",
+    "questionId": "100-kaohsiung-waterway-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": [
+      "缺2011年高雄港六大貨櫃中心碼頭配置表及租用契約／年報，尚無法可靠填入各席數值與公司名稱。"
+    ],
+    "modelAnswer": "本題所稱六大貨櫃中心，應依2011年當時高雄港貨櫃中心的營運分區，逐一列出碼頭編號、岸線長度、設計水深及租用公司。作答須以當年港務局碼頭租約、貨櫃中心營運資料及設施表為準，不能把後來新增的第六、第七貨櫃中心或後續租用業者回填到2011年。\n\n建議表格欄位：\n| 貨櫃中心 | 碼頭編號 | 碼頭長度 | 設計水深 | 2011年租用／營運公司 |\n| 第一貨櫃中心 | 依2011年碼頭配置表 | 逐席列示 | 逐席列示 | 依當年租約 |\n| 第二貨櫃中心 | 依2011年碼頭配置表 | 逐席列示 | 逐席列示 | 依當年租約 |\n| 第三貨櫃中心 | 依2011年碼頭配置表 | 逐席列示 | 逐席列示 | 依當年租約 |\n| 第四貨櫃中心 | 依2011年碼頭配置表 | 逐席列示 | 逐席列示 | 依當年租約 |\n| 第五貨櫃中心 | 依2011年碼頭配置表 | 逐席列示 | 逐席列示 | 依當年租約 |\n| 第六貨櫃中心 | 依2011年碼頭配置表 | 逐席列示 | 逐席列示 | 依當年租約 |\n\n核對時要區分「貨櫃中心整體岸線長度」與「各碼頭席長度」，也要區分「設計水深」與「現況實測水深」。租用公司應以2011年有效契約及港務局年報為準，因為後續招商、合併、改名及搬遷可能改變營運者。",
+    "practicalAnalysis": "高雄港官方歷史沿革可協助確認各貨櫃中心興建及啟用年代，但要完整填出2011年碼頭編號、每席長度、水深與租用公司，仍需當年設施表與租約資料。",
+    "keyPoints": [
+      {
+        "point": "按2011年六大中心逐一列碼頭",
+        "importance": "essential"
+      },
+      {
+        "point": "各席長度與設計水深",
+        "importance": "essential"
+      },
+      {
+        "point": "租用公司採2011年有效契約",
+        "importance": "essential"
+      },
+      {
+        "point": "區分中心岸線長度與單席長度",
+        "importance": "essential"
+      },
+      {
+        "point": "不把後續營運者回填歷史",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭、貨櫃中心設施",
+        "supports": "現行碼頭長度、水深及用途；歷史租用公司與2011年資料需另查。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港公共水域及浮筒座標間距圖",
+        "url": "https://kh.twport.com.tw/port/Articles?a=920",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "全港浮筒座標及間距",
+        "supports": "現行浮筒編號、設計／實測長度及水深圖。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港分道航行制",
+        "url": "https://kh.twport.com.tw/zh-tw/port/Articles?a=952",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第二港口巷道及引水站",
+        "supports": "現行第二港口引水站、航道配置與座標。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第二港口助航設施",
+        "supports": "現行燈杆、燈浮及導標資料；歷史疊標須查當年航船布告。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港歷史沿革",
+        "url": "https://kh.twport.com.tw/port/Articles?a=229",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "貨櫃中心建設及營運沿革",
+        "supports": "提供各貨櫃中心建設、啟用與租用沿革線索。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭、貨櫃中心設施",
+        "supports": "現行碼頭長度、水深及用途；歷史租用公司與2011年資料需另查。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港歷史沿革",
+        "url": "https://kh.twport.com.tw/port/Articles?a=229",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "貨櫃中心建設及營運沿革",
+        "supports": "提供各貨櫃中心建設、啟用與租用沿革線索。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "2011年歷史圖資、浮筒與租約資料",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "100-kaohsiung-waterway-05-answer-v1",
+    "questionId": "100-kaohsiung-waterway-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": [
+      "需依當日湧浪週期、波向、風速及引水艇性能判斷，無法從題目單一浪高指定安全接近航向。"
+    ],
+    "modelAnswer": "一、環境判斷：颱風過後西南氣流旺盛，西南湧浪高3公尺，船舶接近第二港口Pilot Station時，主要風險是長週期湧浪造成船舶縱搖、橫搖及艏艉升沉，引水梯與船側相對運動增大，可能使引水人登輪失去安全條件。\n\n二、引水前聯繫與決策：\n1. 進港船應提前向VTS報告船位、船速、吃水、船型及預計抵達時間，確認第二港口開放及Pilot Station登輪安排。\n2. 引水人辦事處應依實際浪向、浪高、週期、風速、流速及引水梯位置判斷能否安全登輪；不能只看「港口已開放」。\n3. 如3公尺湧浪使登輪不安全，應建議船舶在指定安全水域待命或暫緩登輪，不能勉強接近引水站。\n\n三、接近Pilot Station：\n1. 船長應依VTS及引水人辦事處指示，選擇可維持操縱控制且避免船舶橫向受浪的航向。\n2. 以適當低速接近，但須保持足夠舵效；不可過低速而失去操縱能力，也不可高速衝浪。\n3. 視浪向選擇相對較平穩的船首向，使船舶避免以橫浪方式長時間停留；具體航向須依當時西南湧浪方向與航道走向決定。\n4. 進入登輪區前與VTS確認周邊船舶及拖船動態，避免在引水梯附近急轉或急停。\n\n四、登輪安全：\n1. 引水梯須符合SOLAS及IMO A.1045(27)等要求，檢查梯長、固定點、照明及甲板人員。\n2. 船舶應調整速度與航向，使引水梯一側保持相對安全的下風／背浪條件；但不得讓船舶失去航道安全或造成引水艇受困。\n3. 船舶與引水艇保持通信，確認引水艇可安全靠近及撤離。\n4. 若船舶橫搖、縱搖或升沉過大，立即停止登輪作業，駛離危險區等待海況改善。\n5. 引水人登輪後確認人員安全及引水梯收妥，再依VTS安排進港。\n\n五、核心原則：**3公尺湧浪下應以引水人登輪安全為優先，船舶不得為趕時間而在不安全海況下強行靠近或停船；應由VTS與引水人辦事處共同協調登輪時機及位置。**",
+    "practicalAnalysis": "題目未提供湧浪週期及方向、風速與引水梯高度，無法指定固定接近航向；需依即時海況選擇相對平穩的登輪姿態。",
+    "keyPoints": [
+      {
+        "point": "VTS確認二港口開放與登輪區",
+        "importance": "essential"
+      },
+      {
+        "point": "3m西南湧浪造成船舶運動與梯船相對運動",
+        "importance": "essential"
+      },
+      {
+        "point": "適當速度保持舵效、避免橫浪",
+        "importance": "essential"
+      },
+      {
+        "point": "引水梯符合SOLAS／IMO要求",
+        "importance": "essential"
+      },
+      {
+        "point": "不安全時停止登輪並待命",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭、貨櫃中心設施",
+        "supports": "現行碼頭長度、水深及用途；歷史租用公司與2011年資料需另查。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港公共水域及浮筒座標間距圖",
+        "url": "https://kh.twport.com.tw/port/Articles?a=920",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "全港浮筒座標及間距",
+        "supports": "現行浮筒編號、設計／實測長度及水深圖。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港分道航行制",
+        "url": "https://kh.twport.com.tw/zh-tw/port/Articles?a=952",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第二港口巷道及引水站",
+        "supports": "現行第二港口引水站、航道配置與座標。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第二港口助航設施",
+        "supports": "現行燈杆、燈浮及導標資料；歷史疊標須查當年航船布告。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港歷史沿革",
+        "url": "https://kh.twport.com.tw/port/Articles?a=229",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "貨櫃中心建設及營運沿革",
+        "supports": "提供各貨櫃中心建設、啟用與租用沿革線索。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      {
+        "title": "高雄港分道航行制",
+        "url": "https://kh.twport.com.tw/zh-tw/port/Articles?a=952",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第二港口巷道及引水站",
+        "supports": "現行第二港口引水站、航道配置與座標。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第二港口助航設施",
+        "supports": "現行燈杆、燈浮及導標資料；歷史疊標須查當年航船布告。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "2011年歷史圖資、浮筒與租約資料",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "100-kaohsiung-waterway-06-answer-v1",
+    "questionId": "100-kaohsiung-waterway-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": [
+      "尚缺第二港口信號台前護岸拓寬工程竣工圖及當年公告，現行250m／183m／17.5m不可直接當成題目歷史答案。"
+    ],
+    "modelAnswer": "一、航道改建後的寬度及水深\n本題所稱第二港口信號台前航道護岸改建拓寬，應以工程竣工圖、港務局完工公告及2009至2011年間海圖改正資料確認。現行高雄港第二港口內港口寬約250公尺、有效航道寬約183公尺，水深約17.5公尺；但這是現況資料，不可未經工程文件核實就認定為本題所問「改建完工後」的歷史數值。\n\n二、改建對船舶操航的影響：\n1. 航道加寬可增加大型船舶通過及會船時的橫向餘裕，但仍須遵守VTS交通排序及航道管制。\n2. 可降低船舶受兩側岸壁限制的程度，改善轉向及偏航修正空間。\n3. 可能改變岸壁效應、回流及局部流場，船舶仍須依新航道測深及水流特性操船。\n4. 拓寬後航道中心線或岸線幾何可能改變，舊有導標／疊標的對準線可能不再代表新航道中心線。\n5. 工程期間及完工後應依最新海圖、航船布告及助航標誌位置航行。\n\n三、原航道導航疊標不能再用的原因\n疊標原本以特定前後標的方位重合，指示原航道中心線或安全航向。護岸拓寬後若航道邊界、中心線或標誌位置改變，原疊標的幾何對準方向便可能偏離新航道，繼續使用會造成船舶偏離新航路或接近淺區／施工設施。因此必須重新測量、設置或公告新導標，並以新版海圖為準。\n\n四、結論：航道拓寬可增加操船空間，但需重新確認航道寬度、水深、中心線與導標對準關係；舊疊標不再代表新航道，應停止使用並依新公告導航。",
+    "practicalAnalysis": "現行第二港口內港口寬度250m、有效寬度183m、水深17.5m可作現況參考；題目要求的工程完工歷史數值仍須以該工程竣工資料核對。",
+    "keyPoints": [
+      {
+        "point": "工程竣工圖核實拓寬後寬度與水深",
+        "importance": "essential"
+      },
+      {
+        "point": "拓寬增加橫向操船餘裕",
+        "importance": "essential"
+      },
+      {
+        "point": "水流及岸壁效應仍須評估",
+        "importance": "essential"
+      },
+      {
+        "point": "航道中心線改變會使舊疊標失準",
+        "importance": "essential"
+      },
+      {
+        "point": "依新海圖及新助航公告導航",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭、貨櫃中心設施",
+        "supports": "現行碼頭長度、水深及用途；歷史租用公司與2011年資料需另查。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港公共水域及浮筒座標間距圖",
+        "url": "https://kh.twport.com.tw/port/Articles?a=920",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "全港浮筒座標及間距",
+        "supports": "現行浮筒編號、設計／實測長度及水深圖。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港分道航行制",
+        "url": "https://kh.twport.com.tw/zh-tw/port/Articles?a=952",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第二港口巷道及引水站",
+        "supports": "現行第二港口引水站、航道配置與座標。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第二港口助航設施",
+        "supports": "現行燈杆、燈浮及導標資料；歷史疊標須查當年航船布告。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港歷史沿革",
+        "url": "https://kh.twport.com.tw/port/Articles?a=229",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "貨櫃中心建設及營運沿革",
+        "supports": "提供各貨櫃中心建設、啟用與租用沿革線索。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "limitations": [
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "碼頭、貨櫃中心設施",
+        "supports": "現行碼頭長度、水深及用途；歷史租用公司與2011年資料需另查。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "pageOrSection": "第二港口助航設施",
+        "supports": "現行燈杆、燈浮及導標資料；歷史疊標須查當年航船布告。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已比對題目及官方港務資料",
+          "result": "pass"
+        },
+        {
+          "item": "2011年歷史圖資、浮筒與租約資料",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
