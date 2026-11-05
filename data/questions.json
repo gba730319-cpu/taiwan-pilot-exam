@@ -4115,7 +4115,7 @@
     "subject": "當地水道港灣詳情",
     "port": "基隆港",
     "question": "試述基隆港之地理環境與港區狀況。（包括地理位置、港區劃分、進出港口主航道、船舶泊地、檢疫錨地及禁止錨泊區等）（30 分）",
-    "sourceId": "moex-087-keelung-waterway",
+    "sourceId": "moex-087-waterway",
     "status": "已核對",
     "questionNo": 1
   },
@@ -4125,7 +4125,7 @@
     "subject": "當地水道港灣詳情",
     "port": "基隆港",
     "question": "基隆港在港外實施分道航行制，其內容及相關規定為何？試繪簡圖說明之。（15 分）",
-    "sourceId": "moex-087-keelung-waterway",
+    "sourceId": "moex-087-waterway",
     "status": "已核對",
     "questionNo": 2
   },
@@ -4135,7 +4135,7 @@
     "subject": "當地水道港灣詳情",
     "port": "基隆港",
     "question": "最近基隆港開始實施新制引水制度，試述其與原引水制度有何異同之處？倘使商輪船長要求依照新制引領船舶時，您會如何處理？試述理由。（15 分）",
-    "sourceId": "moex-087-keelung-waterway",
+    "sourceId": "moex-087-waterway",
     "status": "已核對",
     "questionNo": 3
   },
@@ -4145,7 +4145,7 @@
     "subject": "當地水道港灣詳情",
     "port": "基隆港",
     "question": "船舶在引水人引領及港勤拖船協助下靠離碼頭時，常有碰撞碼頭、碰撞停靠之他船或撞損碼頭裝卸設備之意外事故發生，您認為：(1)此種事故之發生，引水人是否應負疏失之責？理由何在？(2)此種意外事故是否可以事先予以防範？如何防止之？（10 分）",
-    "sourceId": "moex-087-keelung-waterway",
+    "sourceId": "moex-087-waterway",
     "status": "已核對",
     "questionNo": 4
   },
@@ -4155,7 +4155,7 @@
     "subject": "當地水道港灣詳情",
     "port": "基隆港",
     "question": "通常前來基隆港之大型船舶包括貨櫃輪、油輪、散裝船、客船及汽車船，分別靠泊船席為何？其水深及長度為何？有無特別限制？請說明之。（15 分）",
-    "sourceId": "moex-087-keelung-waterway",
+    "sourceId": "moex-087-waterway",
     "status": "已核對",
     "questionNo": 5
   },
@@ -4165,7 +4165,7 @@
     "subject": "當地水道港灣詳情",
     "port": "基隆港",
     "question": "基隆港外野柳附近海域海圖上常有標幟「錨與錨」之字標，其意義為何？又如船長徵詢您（引水人）對錨泊之看法時，您會如何予以建議，理由何在？又倘若船舶在預備進港前，無法將錨及錨鏈順利收回時，您認為原因有哪些？應如何處理方為適當？（15 分）",
-    "sourceId": "moex-087-keelung-waterway",
+    "sourceId": "moex-087-waterway",
     "status": "已核對",
     "questionNo": 6
   },
@@ -4175,7 +4175,7 @@
     "subject": "當地水道港灣詳情",
     "port": "臺中港",
     "question": "試解釋下列專有名詞：（30 分）(1)暴潮（Storm Surge）(2)海嘯（Tsunami）(3)副振動或蕩漾（Seiche or Oscillation）(4)漂沙（Littoral Drift）(5)沿岸流（Alongshore Current）(6)坐落現象（Squat）",
-    "sourceId": "moex-087-taichung-waterway",
+    "sourceId": "moex-087-waterway",
     "status": "已核對",
     "questionNo": 1
   },
@@ -4185,7 +4185,7 @@
     "subject": "當地水道港灣詳情",
     "port": "臺中港",
     "question": "設某船進入臺中港西碼頭區，此時風之方向為 NNE，流之方向為 NE，試繪圖說明如何配置與規劃操船之空間，並敘述該船靠碼頭之程序。（25 分）",
-    "sourceId": "moex-087-taichung-waterway",
+    "sourceId": "moex-087-waterway",
     "status": "已核對",
     "questionNo": 2
   },
@@ -4195,7 +4195,7 @@
     "subject": "當地水道港灣詳情",
     "port": "臺中港",
     "question": "設有 100,000 DWT 之貨輪一艘，在壓載狀況下，離岸出港，試問離岸操船之程序如何？（15 分）",
-    "sourceId": "moex-087-taichung-waterway",
+    "sourceId": "moex-087-waterway",
     "status": "已核對",
     "questionNo": 3
   },
@@ -4205,7 +4205,7 @@
     "subject": "當地水道港灣詳情",
     "port": "臺中港",
     "question": "臺中港刻正規劃 VTMS，設該系統擬放置 VHDF，請說明 VHDF 之功能及以臺中港之海上交通條件列舉說明主要規範及設置地點。（20 分）",
-    "sourceId": "moex-087-taichung-waterway",
+    "sourceId": "moex-087-waterway",
     "status": "已核對",
     "questionNo": 4
   },
@@ -4215,7 +4215,7 @@
     "subject": "當地水道港灣詳情",
     "port": "臺中港",
     "question": "分道航行（Traffic Separation System）之意義為何？試述規劃臺中港分道航行之原則。（10 分）",
-    "sourceId": "moex-087-taichung-waterway",
+    "sourceId": "moex-087-waterway",
     "status": "已核對",
     "questionNo": 5
   },
@@ -4225,7 +4225,7 @@
     "subject": "當地水道港灣詳情",
     "port": "高雄港",
     "question": "請描繪自第二港口防波堤口至前鎮河口間港域圖（包括中鋼、中船前支航道），並註明碼頭位置及編號、航道水深及最窄處寬度。（25 分）",
-    "sourceId": "moex-087-kaohsiung-waterway",
+    "sourceId": "moex-087-waterway",
     "status": "已核對",
     "questionNo": 1
   },
@@ -4235,7 +4235,7 @@
     "subject": "當地水道港灣詳情",
     "port": "高雄港",
     "question": "船舶從第一港口進港時所需參考之導航標誌有多少？請以圖標示其位置，並描述其燈光特性。（15 分）",
-    "sourceId": "moex-087-kaohsiung-waterway",
+    "sourceId": "moex-087-waterway",
     "status": "已核對",
     "questionNo": 2
   },
@@ -4245,7 +4245,7 @@
     "subject": "當地水道港灣詳情",
     "port": "高雄港",
     "question": "從第一港口進港時之航行方法及日夜間進出港管制信號為何？請說明之。（15 分）",
-    "sourceId": "moex-087-kaohsiung-waterway",
+    "sourceId": "moex-087-waterway",
     "status": "已核對",
     "questionNo": 3
   },
@@ -4255,7 +4255,7 @@
     "subject": "當地水道港灣詳情",
     "port": "高雄港",
     "question": "高雄港第一、二港口外之航道禁錨區位於何處？港內航道禁止緊急拋錨區位於何處？請說明之。（15 分）",
-    "sourceId": "moex-087-kaohsiung-waterway",
+    "sourceId": "moex-087-waterway",
     "status": "已核對",
     "questionNo": 4
   },
@@ -4265,7 +4265,7 @@
     "subject": "當地水道港灣詳情",
     "port": "高雄港",
     "question": "請就高雄港內最常發生之碰撞海事，概述其原因及防範之道？（15 分）",
-    "sourceId": "moex-087-kaohsiung-waterway",
+    "sourceId": "moex-087-waterway",
     "status": "已核對",
     "questionNo": 5
   },
@@ -4275,7 +4275,7 @@
     "subject": "當地水道港灣詳情",
     "port": "高雄港",
     "question": "高雄港正在推動設置船舶交通管理系統（VTMS），請概述該系統架構、主要功能及船舶之配合措施？（15 分）",
-    "sourceId": "moex-087-kaohsiung-waterway",
+    "sourceId": "moex-087-waterway",
     "status": "已核對",
     "questionNo": 6
   },
@@ -4285,7 +4285,7 @@
     "subject": "當地水道港灣詳情",
     "port": "花蓮港",
     "question": "試述花蓮港港池不穩之主要原因與形成其風災之颱風路徑為何？港務當局採取何種應變措施？（20 分）",
-    "sourceId": "moex-087-hualien-waterway",
+    "sourceId": "moex-087-waterway",
     "status": "已核對",
     "questionNo": 1
   },
@@ -4295,7 +4295,7 @@
     "subject": "當地水道港灣詳情",
     "port": "花蓮港",
     "question": "花蓮港碼頭結構概分為幾種？有何優缺點？在指揮靠泊作業上有何不同？（20 分）",
-    "sourceId": "moex-087-hualien-waterway",
+    "sourceId": "moex-087-waterway",
     "status": "已核對",
     "questionNo": 2
   },
@@ -4305,7 +4305,7 @@
     "subject": "當地水道港灣詳情",
     "port": "花蓮港",
     "question": "詳述冬天於花蓮港第十號碼頭靠有他船之情況，如何指揮船舶靠泊第十一號碼頭？（25 分）",
-    "sourceId": "moex-087-hualien-waterway",
+    "sourceId": "moex-087-waterway",
     "status": "已核對",
     "questionNo": 3
   },
@@ -4315,7 +4315,7 @@
     "subject": "當地水道港灣詳情",
     "port": "花蓮港",
     "question": "試繪花蓮港區圖（包括碼頭編號、用途、水深、正常平均潮汐）暨附近導航設施之名稱、位置、特性及功能。（35 分）",
-    "sourceId": "moex-087-hualien-waterway",
+    "sourceId": "moex-087-waterway",
     "status": "已核對",
     "questionNo": 4
   },
@@ -4528,66 +4528,6 @@
     "sourceId": "moex-087-shiphandling",
     "status": "已核對",
     "questionNo": 8
-  },
-  {
-    "id": "087-waterway-01",
-    "year": 1998,
-    "subject": "當地水道港灣詳情",
-    "port": "高雄港",
-    "question": "請描繪自第二港口防波堤口至前鎮河口間港域圖（包括中鋼、中船前支航道），並註明碼頭位置及編號、航道水深及最窄處寬度。（25分）",
-    "sourceId": "moex-087-waterway",
-    "status": "已核對",
-    "questionNo": 1
-  },
-  {
-    "id": "087-waterway-02",
-    "year": 1998,
-    "subject": "當地水道港灣詳情",
-    "port": "高雄港",
-    "question": "船舶從第一港口進港時所需參考之導航標誌有多少？請以圖標示其位置，並描述其燈光特性。（15分）",
-    "sourceId": "moex-087-waterway",
-    "status": "已核對",
-    "questionNo": 2
-  },
-  {
-    "id": "087-waterway-03",
-    "year": 1998,
-    "subject": "當地水道港灣詳情",
-    "port": "高雄港",
-    "question": "從第一港口進港時之航行方法及日夜間進出港管制信號為何？請說明之。（15分）",
-    "sourceId": "moex-087-waterway",
-    "status": "已核對",
-    "questionNo": 3
-  },
-  {
-    "id": "087-waterway-04",
-    "year": 1998,
-    "subject": "當地水道港灣詳情",
-    "port": "高雄港",
-    "question": "高雄港第一、二港口外之航道禁錨區位於何處？港內航道禁止緊急拋錨區位於何處？請說明之。（15分）",
-    "sourceId": "moex-087-waterway",
-    "status": "已核對",
-    "questionNo": 4
-  },
-  {
-    "id": "087-waterway-05",
-    "year": 1998,
-    "subject": "當地水道港灣詳情",
-    "port": "高雄港",
-    "question": "請就高雄港內最常發生之碰撞海事，概述其原因及防範之道？（15分）",
-    "sourceId": "moex-087-waterway",
-    "status": "已核對",
-    "questionNo": 5
-  },
-  {
-    "id": "087-waterway-06",
-    "year": 1998,
-    "subject": "當地水道港灣詳情",
-    "port": "高雄港",
-    "question": "高雄港正在推動設置船舶交通管理系統（VTMS），請概述該系統架構、主要功能及船舶之配合措施？（15分）",
-    "sourceId": "moex-087-waterway",
-    "status": "已核對",
-    "questionNo": 6
   },
   {
     "id": "086-taichung-waterway-01",
@@ -5038,36 +4978,6 @@
     "sourceId": "moex-086-shiphandling",
     "status": "已核對",
     "questionNo": 6
-  },
-  {
-    "id": "086-practical-english-01",
-    "year": 1997,
-    "subject": "實用英文",
-    "port": "臺中港、高雄港、安平港",
-    "question": "Please proofread the following letter making corrections as necessary:（40分）\nCapt. P. C. Chiu\nTai An Marine Supplies\n7th Floor, No.75, Nanking East Road, Sec. 4th\nTaipei, Taiwan\n\nDear Capt. Chiu\n\nOn December 12, 1996, I placed a order for one set of three charts from Tai An Marine Supplies. Whomever took the order for your organization must have misunderstood my order, as they wrote an order for 3 sets of 3 charts.\n\nWhen the order arrived, I told T.K. Chen, the delivery driver, that I had only ordered one set and that I could not accept the additional sets which was not part of our order. Mr. Chen said that since he worked for Speedy Delivery and Tai An Marine Supplies, they could not alter the shipment. They said we either had to accept the order as it were or reject the entire shipment. We rejected the incorrect shipment entirely.\n\nI has just received an invoice from Tai An Marine Supplies, which states that I owe NT$900 for 3 sets of charts. Obviously, this are a mistake which we would like to see corrected. In addition, I am still awaiting receipt of my original order which have still not arrived. I would appreciate your looking into why we have not yet received my one set of charts.\n\nThank you.",
-    "sourceId": "moex-086-practical-english",
-    "status": "已核對",
-    "questionNo": 1
-  },
-  {
-    "id": "086-practical-english-02",
-    "year": 1997,
-    "subject": "實用英文",
-    "port": "臺中港、高雄港、安平港",
-    "question": "Please translate the following passage into Chinese:（40分）(1) His job for the next three hours was just like that of every other bay and harbor pilot before him, in a profession stretching back to biblical times, to guide the ship safely into or out of port, using his intimate knowledge of the ocean and the bay's difficult waters. (2) A pilot does not take command of a ship and does not touch any of its controls. In the words of maritime law, he is “the borrowed servant of the vessel”. The ship's captain remains in charge and can even dismiss a pilot or override an order, but it is to the pilot that “belongs the conduct of the vessel”.",
-    "sourceId": "moex-086-practical-english",
-    "status": "已核對",
-    "questionNo": 2
-  },
-  {
-    "id": "086-practical-english-03",
-    "year": 1997,
-    "subject": "實用英文",
-    "port": "臺中港、高雄港、安平港",
-    "question": "Please translate the following Chinese terms into English and use the same to construct a complete sentence in English:（20分）(一)不良船席 (二)易變天氣 (三)迴轉穩定器 (四)海事報告 (五)舉證責任",
-    "sourceId": "moex-086-practical-english",
-    "status": "已核對",
-    "questionNo": 3
   },
   {
     "id": "085-kaohsiung-waterway-01",
