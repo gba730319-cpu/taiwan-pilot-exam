@@ -5988,5 +5988,175 @@
     "sourceId": "moex-083-shiphandling",
     "status": "已核對",
     "questionNo": 7
+  },
+  {
+    "id": "083-first-keelung-waterway-01",
+    "year": 1994,
+    "subject": "當地水道港灣詳情",
+    "port": "基隆港",
+    "question": "試繪基隆港圖，儘可能標示港口導航設施、碼頭長度、方位、概略水深等。（40 分）",
+    "sourceId": "moex-083-first-keelung-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "083-first-keelung-waterway-02",
+    "year": 1994,
+    "subject": "當地水道港灣詳情",
+    "port": "基隆港",
+    "question": "東北季風湧潮時，試述引領一巨型油輪進港及靠泊西 33 號碼頭應注意之事項。（15 分）",
+    "sourceId": "moex-083-first-keelung-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "083-first-keelung-waterway-03",
+    "year": 1994,
+    "subject": "當地水道港灣詳情",
+    "port": "基隆港",
+    "question": "試列舉出基隆港之拖船及其馬力大小。（15 分）",
+    "sourceId": "moex-083-first-keelung-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "083-first-keelung-waterway-04",
+    "year": 1994,
+    "subject": "當地水道港灣詳情",
+    "port": "基隆港",
+    "question": "試述一無主機之船（LOA 100 米）如何靠泊西 7 號碼頭（西 8 號碼頭有船）。（15 分）",
+    "sourceId": "moex-083-first-keelung-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "083-first-keelung-waterway-05",
+    "year": 1994,
+    "subject": "當地水道港灣詳情",
+    "port": "基隆港",
+    "question": "若颱風過境臺灣南部海域時，在未封港情況下，試述如何引領一長 250 米之船舶靠泊西 25 號碼頭。（15 分）",
+    "sourceId": "moex-083-first-keelung-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "082-keelung-waterway-01",
+    "year": 1993,
+    "subject": "當地水道港灣詳情",
+    "port": "基隆港",
+    "question": "基隆港目前各營運碼頭之設計水深、實際水深及供何種船舶靠泊？請一一列舉之。（20 分）",
+    "sourceId": "moex-082-keelung-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "082-keelung-waterway-02",
+    "year": 1993,
+    "subject": "當地水道港灣詳情",
+    "port": "基隆港",
+    "question": "基隆港現有經常協助商船靠泊作業之港勤拖船有幾艘？其機器種類、馬力，請一一列舉，並說明其優缺點。於東北季風強勁時伴有湧浪現象，現有拖船作業並不理想，就你所知，是否有更先進性能較越之拖船能使靠泊作業更為順利？（20 分）",
+    "sourceId": "moex-082-keelung-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "082-keelung-waterway-03",
+    "year": 1993,
+    "subject": "當地水道港灣詳情",
+    "port": "基隆港",
+    "question": "近年世界各地氣候受全球溫室效應增強之影響而有所變化，試述基隆港因此所受之影響如何？（15 分）",
+    "sourceId": "moex-082-keelung-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "082-keelung-waterway-04",
+    "year": 1993,
+    "subject": "當地水道港灣詳情",
+    "port": "基隆港",
+    "question": "基隆港碼頭岸線內可能妨礙船舶離靠作業之岸上裝備有哪些？分布情形如何？作業時應如何加強注意？請說明之。（15 分）",
+    "sourceId": "moex-082-keelung-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "082-keelung-waterway-05",
+    "year": 1993,
+    "subject": "當地水道港灣詳情",
+    "port": "基隆港",
+    "question": "大型貨櫃船抵達基隆港時主機運轉故障，僅能以微速前進，且停俥後即無法再啟動使用，試述事前應考慮那些因素及如何引領該貨櫃船安全靠泊西七十號碼頭。（15 分）",
+    "sourceId": "moex-082-keelung-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "082-keelung-waterway-06",
+    "year": 1993,
+    "subject": "當地水道港灣詳情",
+    "port": "基隆港",
+    "question": "基隆港夏季風向常因海陸風之影響而有所改變，試述此時期引領船舶錨泊於港內檢疫錨地應注意之事項。（15 分）",
+    "sourceId": "moex-082-keelung-waterway",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "082-taichung-waterway-01",
+    "year": 1993,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "台中港北外防波堤延長 850 米後，對引水作業之影響如何？試申論之。（20 分）",
+    "sourceId": "moex-082-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "082-taichung-waterway-02",
+    "year": 1993,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "試述滿載之巴拿馬極限輪於強勁之東北季風下進台中港，在操船上應注意之事項。（20 分）",
+    "sourceId": "moex-082-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "082-taichung-waterway-03",
+    "year": 1993,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "試述台中港運煤航道之導航設施。（15 分）",
+    "sourceId": "moex-082-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "082-taichung-waterway-04",
+    "year": 1993,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "台中港之 RACON 位於何處？（15 分）",
+    "sourceId": "moex-082-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "082-taichung-waterway-05",
+    "year": 1993,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "在台中港商業營運區繫船拋錨之船舶是否受漲落潮流之影響？（15 分）",
+    "sourceId": "moex-082-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "082-taichung-waterway-06",
+    "year": 1993,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "試述東北季風期間，引領汽車船靠泊碼頭應注意事項。（15 分）",
+    "sourceId": "moex-082-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 6
   }
 ]
