@@ -5618,5 +5618,375 @@
     "sourceId": "moex-084-shiphandling",
     "status": "已核對",
     "questionNo": 7
+  },
+  {
+    "id": "083-waterway-grade1-01",
+    "year": 1994,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "那幾個碼頭可停靠吃水14.5公尺之船舶？你認為靠泊那一處最為困難？請說明其原因。（25分）",
+    "sourceId": "moex-083-waterway-grade1",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "083-waterway-grade1-02",
+    "year": 1994,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "兩萬總噸重載船進港靠泊41號碼頭時，僅有一艘拖船協助，應如何迅速並安全達成任務？（25分）",
+    "sourceId": "moex-083-waterway-grade1",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "083-waterway-grade1-03",
+    "year": 1994,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "97號碼頭巨型礦砂船於讓位時應如何選擇錨位並採取何種措施，使98號碼頭之進出港船得以順利通過？（25分）",
+    "sourceId": "moex-083-waterway-grade1",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "083-waterway-grade1-04",
+    "year": 1994,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "半載之大型貨櫃船，當西南風強勁時，應如何安全靠泊第三及第四貨櫃中心之碼頭？（25分）",
+    "sourceId": "moex-083-waterway-grade1",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "083-waterway-grade2-01",
+    "year": 1994,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "試繪高雄港外港之海岸線及防波堤現狀圖（自一、二港口防波堤各自向北及向南延伸3,000公尺為界），以及5公尺、10公尺及20公尺之等深線，並請標明正北方位及比例尺。（20分）",
+    "sourceId": "moex-083-waterway-grade2",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "083-waterway-grade2-02",
+    "year": 1994,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "在某個無月光但視線及氣候良好之晚上，某小型貨輪自4號碼頭移泊至94號碼頭，該輪除羅經外其他航儀均不能使用，請問應如何航行？又沿途可能遇到那些情況？（20分）",
+    "sourceId": "moex-083-waterway-grade2",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "083-waterway-grade2-03",
+    "year": 1994,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "高雄港有那幾處航道（限最少200公尺寬、600公尺長之可航行水道）轉彎角度達45°以上？設有一萬總噸之重載船在無拖船協助之情形下，航經何處彎道最為困難？說明其原因。（20分）",
+    "sourceId": "moex-083-waterway-grade2",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "083-waterway-grade2-04",
+    "year": 1994,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "高雄港於船舶雙靠泊時，時常必須下錨。試列舉五個不同之例子，並分別說明下錨之原因及其作用。（20分）",
+    "sourceId": "moex-083-waterway-grade2",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "083-waterway-grade2-05",
+    "year": 1994,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "12號碼頭之吃水限制為何？重載原木船靠泊該碼頭時應特別注意那些事項？（20分）",
+    "sourceId": "moex-083-waterway-grade2",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "083-pilotage-01",
+    "year": 1994,
+    "subject": "引港學",
+    "port": "高雄港",
+    "question": "依照中國浮標制度，繪出：（1）沉船浮（2）中港浮（3）右障浮（4）端障浮（5）測量浮。（10分）",
+    "sourceId": "moex-083-pilotage",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "083-pilotage-02",
+    "year": 1994,
+    "subject": "引港學",
+    "port": "高雄港",
+    "question": "解釋下列名詞意義：（1）Diurnal inequality及其成因（2）Solar tide（3）Perigean tide（4）Spring tide（5）Priming of the tide。（10分）",
+    "sourceId": "moex-083-pilotage",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "083-pilotage-03",
+    "year": 1994,
+    "subject": "引港學",
+    "port": "高雄港",
+    "question": "在有潮汐現象的海峽中，如英吉利海峽，若一端為漲潮而另一端為退潮，試問：（1）何處潮差最大（2）何處潮差最小（3）何處流速最大。（10分）",
+    "sourceId": "moex-083-pilotage",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "083-pilotage-04",
+    "year": 1994,
+    "subject": "引港學",
+    "port": "高雄港",
+    "question": "試述鋒面（Front）通過後氣壓有何變化又當冷鋒通過時有何現象發生？（10分）",
+    "sourceId": "moex-083-pilotage",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "083-pilotage-05",
+    "year": 1994,
+    "subject": "引港學",
+    "port": "高雄港",
+    "question": "試述那四種無需仔細測定船位而可保持船舶安全通過特定危險區的方法？（15分）",
+    "sourceId": "moex-083-pilotage",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "083-pilotage-06",
+    "year": 1994,
+    "subject": "引港學",
+    "port": "高雄港",
+    "question": "試述季風的成因及季風對台灣氣候的影響。（15分）",
+    "sourceId": "moex-083-pilotage",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "083-pilotage-07",
+    "year": 1994,
+    "subject": "引港學",
+    "port": "高雄港",
+    "question": "試述熱帶氣旋與溫帶氣旋有何不同之處？（15分）",
+    "sourceId": "moex-083-pilotage",
+    "status": "已核對",
+    "questionNo": 7
+  },
+  {
+    "id": "083-pilotage-08",
+    "year": 1994,
+    "subject": "引港學",
+    "port": "高雄港",
+    "question": "試述潮汐受月亮那幾種因素所影響？（15分）",
+    "sourceId": "moex-083-pilotage",
+    "status": "已核對",
+    "questionNo": 8
+  },
+  {
+    "id": "083-practical-english-01",
+    "year": 1994,
+    "subject": "實用英文",
+    "port": "高雄港",
+    "question": "Describe briefly the reason why you are intending for the job of a pilot.（40分）",
+    "sourceId": "moex-083-practical-english",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "083-practical-english-02",
+    "year": 1994,
+    "subject": "實用英文",
+    "port": "高雄港",
+    "question": "Translate the following passage from English into Chinese:（30分）Shiphandling is the highest form of seamanship. It is an art because the factors involved are so many, so variable, and so different from ship to ship under all conditions of wind and sea. The successful handling of ships is entirely dependent upon the handler having a wide knowledge of the many factors, such as rudder and propeller, are controllable by him, others are not, and he must quickly assess their effects so that he may make due allowance for them. Some factors, such as wind and current, may be used to great advantage, providing they are well understood.",
+    "sourceId": "moex-083-practical-english",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "083-practical-english-03",
+    "year": 1994,
+    "subject": "實用英文",
+    "port": "高雄港",
+    "question": "Please translate the following Chinese terms into English and use the same to construct a complete sentence in English:（30分）（一）掛滿旗（二）壞天氣（三）禁泊區（四）巡航半徑（五）貨櫃船格（六）車葉橫推力（七）迴旋場（八）臨界轉數（九）空氣壓縮機（十）快速碼頭",
+    "sourceId": "moex-083-practical-english",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "083-pilot-law-01",
+    "year": 1994,
+    "subject": "航政法規",
+    "port": "高雄港",
+    "question": "請依據引水人管理規則第三十七條，說明引水人得要求更換協助拖船及繫纜人員之規定事項。（10分）",
+    "sourceId": "moex-083-pilot-law",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "083-pilot-law-02",
+    "year": 1994,
+    "subject": "航政法規",
+    "port": "高雄港",
+    "question": "引水法中對引水人因業務上之過失致犯罪，其屬於告訴乃論之罪者共有二條條文，請分別說明之。（10分）",
+    "sourceId": "moex-083-pilot-law",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "083-pilot-law-03",
+    "year": 1994,
+    "subject": "航政法規",
+    "port": "高雄港",
+    "question": "某船招請引水人準備進港，有三人合法乘應招之引水船同登某船至領航作業完成後離船。請依據引水法及引水人管理規則那幾條條文之規定，分析該三人身分之組成，有那些種可能之情形，請分別予以說明。（10分）",
+    "sourceId": "moex-083-pilot-law",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "083-pilot-law-04",
+    "year": 1994,
+    "subject": "航政法規",
+    "port": "高雄港",
+    "question": "請依據國際商港港務管理規則第六十三條，說明有關船舶在商港區域，災害防範及處理事項之規定。（10分）",
+    "sourceId": "moex-083-pilot-law",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "083-pilot-law-05",
+    "year": 1994,
+    "subject": "航政法規",
+    "port": "高雄港",
+    "question": "我國商港法之立法，已盡其周延縝密，但若有未規定之事項涉及國際事務者，該法有何預留補救之條文可資採用施行？（10分）",
+    "sourceId": "moex-083-pilot-law",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "083-pilot-law-06",
+    "year": 1994,
+    "subject": "航政法規",
+    "port": "高雄港",
+    "question": "國際商港之業務管理與經營，近日多有港市合一或分立之議論。請依據商港法有關條文之規定，說明港市合一或分立之適法性之所在？（10分）",
+    "sourceId": "moex-083-pilot-law",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "083-pilot-law-07",
+    "year": 1994,
+    "subject": "航政法規",
+    "port": "高雄港",
+    "question": "國際海上避碰規則規定，在能見度受限制之情形下，從事捕魚中之船舶在錨泊中，應如何按規定鳴放音響信號？（10分）",
+    "sourceId": "moex-083-pilot-law",
+    "status": "已核對",
+    "questionNo": 7
+  },
+  {
+    "id": "083-pilot-law-08",
+    "year": 1994,
+    "subject": "航政法規",
+    "port": "高雄港",
+    "question": "國際海上避碰規則規定，在能見度受限制之情形下，從事捕魚中之船舶在錨泊中，應如何按規定鳴放音響信號？（10分）",
+    "sourceId": "moex-083-pilot-law",
+    "status": "已核對",
+    "questionNo": 8
+  },
+  {
+    "id": "083-pilot-law-09",
+    "year": 1994,
+    "subject": "航政法規",
+    "port": "高雄港",
+    "question": "依據國際海上避碰規則第五條，如何保持正確瞭望？（10分）",
+    "sourceId": "moex-083-pilot-law",
+    "status": "已核對",
+    "questionNo": 9
+  },
+  {
+    "id": "083-pilot-law-10",
+    "year": 1994,
+    "subject": "航政法規",
+    "port": "高雄港",
+    "question": "請依據括弧內註明之法規條文，解釋下列名詞或定義：（一）清除水域（海水污染管理規則）（二）廢水（海水污染管理規則）（三）港口（台灣區港口管理辦法）（四）一般海難（海難救助機構組織及作業辦法）。（10分）",
+    "sourceId": "moex-083-pilot-law",
+    "status": "已核對",
+    "questionNo": 10
+  },
+  {
+    "id": "083-shiphandling-01",
+    "year": 1994,
+    "subject": "船舶操縱",
+    "port": "高雄港",
+    "question": "船舶於進出港時，航行於緊靠岸船附近，對緊靠船舶有何影響？又其影響因素何種因素而加大？應如何注意？（10分）",
+    "sourceId": "moex-083-shiphandling",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "083-shiphandling-02",
+    "year": 1994,
+    "subject": "船舶操縱",
+    "port": "高雄港",
+    "question": "使用拖船操船時，因橫反拖而導致拖船翻覆事件偶有所聞，試問何種情況下，橫反拖易於發生？舉例說明之。（10分）",
+    "sourceId": "moex-083-shiphandling",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "083-shiphandling-03",
+    "year": 1994,
+    "subject": "船舶操縱",
+    "port": "高雄港",
+    "question": "說明俯仰差（TRIM）對操船之影響。（10分）",
+    "sourceId": "moex-083-shiphandling",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "083-shiphandling-04",
+    "year": 1994,
+    "subject": "船舶操縱",
+    "port": "高雄港",
+    "question": "在無風無流影響之情況下，本輪微速前進，並以左舵協助，拖船分別如圖（A）以正橫方向推頂本輪左舷或圖（B）以正橫方向拉引本輪左舷，試繪圖說明兩者對本輪運動軌跡之相異處。（15分）",
+    "sourceId": "moex-083-shiphandling",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "083-shiphandling-05",
+    "year": 1994,
+    "subject": "船舶操縱",
+    "port": "高雄港",
+    "question": "試述重載大型船舶從港外深水航道進靠碼頭，在操船上可能發生何種情況？並說明其對策。（15分）",
+    "sourceId": "moex-083-shiphandling",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "083-shiphandling-06",
+    "year": 1994,
+    "subject": "船舶操縱",
+    "port": "高雄港",
+    "question": "PANAMAX型船，全長230公尺，船深18公尺，半載時吃水9公尺，於正橫風16m/s時拖離碼頭（風力12m/s時風壓係數為2.5kg/m²），試問：（1）該船所受之風壓力為若干噸？（2）拖離碼頭時最少需要多少馬力之拖船？（20分）",
+    "sourceId": "moex-083-shiphandling",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "083-shiphandling-07",
+    "year": 1994,
+    "subject": "船舶操縱",
+    "port": "高雄港",
+    "question": "在駕駛台操船時，因船首部結構而產生視線死角，試就下列條件，計算出視線死角部份，最遠處與船舶之水平距離需多少公尺？（20分）操船者眼睛高度：船底正上方31公尺；操船者與船舶結構物之水平距離：200公尺；船舶結構物之高度：船底正上方23公尺；船舶全長：240公尺。（假設本船為箱型船，前後吃水皆為7公尺，操船者與船舶之間無障礙物，海面平靜，船舶無動搖。）",
+    "sourceId": "moex-083-shiphandling",
+    "status": "已核對",
+    "questionNo": 7
   }
 ]
