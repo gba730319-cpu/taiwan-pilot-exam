@@ -6680,5 +6680,79 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-pilotage-05-answer-v1",
+    "questionId": "108-pilotage-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_or_drawing",
+    "modelAnswer": "本題應依海軍大氣海洋局《海圖圖例》第八版的正式符號作圖。考場繪圖時，須保留符號的基本形狀、線型、顏色及必要縮寫；以下先列出辨識重點，實際圖形請依官方圖例描繪。\n\n一、禁止錨泊（Anchoring prohibited）\n- 依海圖圖例 N 節「限制區」第20項，使用禁止錨泊區界線符號，通常以海圖所示限制區界線圈定範圍。\n- 作圖時應依圖例原符號繪出限制區界線及相應標註，不可只畫一個打叉的錨而取代正式界線符號。\n- 航行者不得在該區域內下錨；仍應依海圖註記確認限制範圍及主管機關規定。\n\n二、漁柵（Fishing stakes）\n- 依 K 節第44.1項，為成組的漁柵／漁樁符號，圖例以兩個漁樁符號表示。\n- 表示水中設有漁柵、漁樁等漁業設施，可能妨礙船舶航行及操船。\n- 航行時應保持適當距離，避免船體、螺槳或舵與漁具纏繞。\n\n三、不淹岩（Rock which does not cover）\n- 依 K 節岩礁第10項，表示不會被海水淹沒的岩礁或小島，圖載高度以高度基準面為準。\n- 繪圖時依圖例使用岩礁／小島的黑色陸地符號，並依題目要求標示高度資料。\n- 不淹岩通常可作為目視定位物，但仍須注意其周圍水下延伸地形及海圖水深。\n\n四、礙航沉船（Wreck, depth unknown, potentially dangerous to surface navigation）\n- 依 K 節沉船第28項，表示深度不詳且被認定對水面航行具有潛在危險的沉船。\n- 應依圖例繪出藍色沉船符號；不可將其與已確認具有足夠安全水深的沉船符號混淆。\n- 航行時應視為危險物，保持安全距離，不得僅憑附近水深推定可安全通過。\n\n五、擱淺船（Wreck showing any part of hull or superstructure at Chart Datum）\n- 依 K 節沉船第24項，表示在深度基準面時，船體或上層結構仍有部分露出。\n- 應依正式圖例繪出擱淺／露出船體的沉船符號，並注意其符號位置及危險範圍。\n- 此類沉船可能對航行構成直接障礙，應依海圖危險線、深度資料及航船布告判斷安全通過距離。\n\n注意：題目使用「不淹岩」及「擱淺船」等中文名稱，應以考試年度指定海圖圖例版本核對。海圖符號的顏色及細節在紙海圖、電子海圖及不同圖例版次可能不同，不能只以文字示意代替正式符號。",
+    "practicalAnalysis": "本題是圖例辨識與繪圖題，重點不是只寫中文名稱，而是能依海軍大氣海洋局《海圖圖例》畫出正式符號。尤其要區分岩礁、不淹岩、可淹岩、適淹岩，以及不同水深可靠度的沉船符號；危險沉船與已測得安全淨空深度的沉船不可混為一談。",
+    "keyPoints": [
+      {
+        "point": "禁止錨泊區：依N節第20項畫出限制區界線，不可只用自創禁錨圖案",
+        "importance": "essential"
+      },
+      {
+        "point": "漁柵：依K節第44.1項，成組漁樁符號",
+        "importance": "essential"
+      },
+      {
+        "point": "不淹岩：依K節第10項，岩礁／小島不會被淹沒，高度自高度基準面起算",
+        "importance": "essential"
+      },
+      {
+        "point": "礙航沉船：依K節第28項，深度不詳且對水面航行具潛在危險",
+        "importance": "essential"
+      },
+      {
+        "point": "擱淺船：依K節第24項，深度基準面時仍有部分船體或上層結構露出",
+        "importance": "essential"
+      },
+      {
+        "point": "正式作圖應以考試年度適用圖例版次為準",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "海圖圖例第八版（Pub. No.1）",
+        "sourceType": "official_chart_or_notice",
+        "issuer": "海軍大氣海洋局",
+        "editionOrEffectiveDate": "2010年12月，第八版",
+        "url": "https://navy.mnd.gov.tw/Files/Policy/%E6%B5%B7%E8%BB%8D_%E6%B5%B7%E5%9C%96%E5%9C%96%E4%BE%8B.pdf",
+        "pageOrSection": "N節第20項；K節第10、24、28、44.1項",
+        "supports": "直接核對禁止錨泊區、漁柵、不淹岩、礙航沉船及擱淺船的海圖符號定義。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "文字答案說明符號辨識要點，不能完全取代考場手繪的正式圖例符號；上線前宜補充官方圖例局部圖作為視覺教學。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "五項圖例均已對照海軍大氣海洋局第八版",
+          "result": "pass"
+        },
+        {
+          "item": "沉船符號依危險性及深度資訊區分",
+          "result": "pass"
+        },
+        {
+          "item": "手繪圖形與圖例影像逐項視覺複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "reviewNotes": [
+      "非官方參考擬答。",
+      "此題屬繪圖題，網站若僅呈現文字會降低學習效果，後續應將官方圖例符號整理為可縮放圖片或向量圖。"
+    ],
+    "lastUpdated": "2026-11-05"
   }
 ]
