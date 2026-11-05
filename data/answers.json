@@ -7806,5 +7806,319 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "106-pilot-law-01-answer-v1",
+    "questionId": "106-pilot-law-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "依《引水法》第31條，引水人執行領航業務時，發現下列情事，應以最迅速方法報告有關機關，並於抵港時將詳細情形以書面報告：\n\n一、水道有變遷，例如水深、航道位置、沙洲或河口地形改變。\n二、水道上出現新障礙，妨害航行安全，例如新沉船、漂流物、礁石或施工設施。\n三、燈塔、燈船、標桿、浮標等航行標誌位置變更，或其燈號、信號、聲號失常、熄滅或失去作用。\n四、船舶遇險，包括碰撞、擱淺、失火、失控、進水或其他危及人命及船舶安全情況。\n五、船舶違反航行法令或港口航行規定。\n\n通報方式應以最快且有效的方法通知VTS、航政主管機關或其他相關機關；抵港後再提出完整書面報告，記載時間、地點、船名、天候海況、事故經過及已採取措施。若情況涉及立即危險，應同步採取必要避險及救助措施，不可只完成通報而未處置。",
+    "practicalAnalysis": "本題直接考《引水法》第31條五款。作答要列完整五項，並說明「最迅速方法即時通報」及「抵港後書面詳細報告」兩階段義務。",
+    "keyPoints": [
+      {
+        "point": "水道變遷",
+        "importance": "essential"
+      },
+      {
+        "point": "水道有新障礙妨害航安",
+        "importance": "essential"
+      },
+      {
+        "point": "燈塔、燈船、標桿、浮標位置變更或燈號／信號／聲號失常",
+        "importance": "essential"
+      },
+      {
+        "point": "船舶遇險",
+        "importance": "essential"
+      },
+      {
+        "point": "船舶違反航行法令；即時通報並抵港書面報告",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "引水法",
+        "sourceType": "official_port_or_authority",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+        "pageOrSection": "第31條",
+        "accessedAt": "2026-11-05",
+        "supports": "引水人發現水道變遷、新障礙、航標異常、船舶遇險及違法航行之通報義務。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "引水法、商港法及COLREG官方條文已核對",
+          "result": "pass"
+        },
+        {
+          "item": "法律專業複核",
+          "result": "needs_review",
+          "note": "仍待法律專業人士複核，歷史題應依106年有效版本。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "106-pilot-law-02-answer-v1",
+    "questionId": "106-pilot-law-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "我國國際商港的規劃建設、經營管理及公權力執行，依《商港法》及航港體制分工如下：\n\n一、規劃建設：交通部為商港主管機關，負責國家港埠政策、整體規劃、建設方向及重大計畫核定；港務公司依主管機關核定計畫辦理港埠設施興建、維護及建設執行。\n\n二、經營管理：臺灣港務股份有限公司（Taiwan International Ports Corporation, TIPC）為國營港務事業機構，負責國際商港經營及管理，包括碼頭、船席、港勤服務、裝卸設施、港區土地及營運服務。\n\n三、公權力執行：交通部航港局（Maritime and Port Bureau, MOTC）負責國際商港涉及公權力的管理事項，包括航政監理、港務行政、船舶進出港及停泊管理、港口保全查核、污染防治、行政檢查及依法處罰等。\n\n四、其他協力機關：港務警察、海巡署、關務署、消防機關及地方政府依各自法定職掌，負責港區治安、海上執法、通關、消防救災及地方公共設施管理。\n\n五、結論：交通部負責主管政策與規劃建設，臺灣港務公司負責國際商港經營管理，航港局負責涉及公權力的港務及航政管理；警察、海巡、海關及消防等機關則依法協力執行各項安全與公共管理。",
+    "practicalAnalysis": "本題考航港體制改革後三個主要角色。依商港法第2條，國際商港由國營事業機構經營管理，涉及公權力事項由航港局辦理；交通部為主管機關。建設執行由港務公司依政策及核定計畫辦理，避免將政策主管、營運者及公權力機關混為一談。",
+    "keyPoints": [
+      {
+        "point": "交通部：商港主管機關、政策及整體規劃",
+        "importance": "essential"
+      },
+      {
+        "point": "臺灣港務股份有限公司：國際商港經營管理及設施營運",
+        "importance": "essential"
+      },
+      {
+        "point": "交通部航港局：涉及公權力之港務管理及航政監理",
+        "importance": "essential"
+      },
+      {
+        "point": "港警、海巡、海關及消防依職掌協力",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "商港法",
+        "sourceType": "official_port_or_authority",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "pageOrSection": "第1、2條",
+        "accessedAt": "2026-11-05",
+        "supports": "交通部主管、國際商港經營管理及公權力分工。"
+      },
+      {
+        "title": "交通部航港局組織及業務",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部航港局",
+        "url": "https://www.motcmpb.gov.tw/",
+        "pageOrSection": "航政監理及港務管理職掌",
+        "accessedAt": "2026-11-05",
+        "supports": "航港局公權力管理職掌。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "引水法、商港法及COLREG官方條文已核對",
+          "result": "pass"
+        },
+        {
+          "item": "法律專業複核",
+          "result": "needs_review",
+          "note": "仍待法律專業人士複核，歷史題應依106年有效版本。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "106-pilot-law-03-answer-v1",
+    "questionId": "106-pilot-law-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "船舶在互見中，應依《國際海上避碰規則》第34條使用操縱及警告聲號，必要時可輔以燈光信號；並依第33、36及37條使用其他適用聲號。\n\n一、操縱聲號（Rule 34(a)）\n（一）一短聲：表示「我正在向右轉向」。\n（二）二短聲：表示「我正在向左轉向」。\n（三）三短聲：表示「我正在使用倒俥推進」。\n\n二、燈光信號（Rule 34(b)）\n在互見且適用情況下，動力船可用白色環照燈以閃光補充聲號：一閃表示右轉、二閃表示左轉、三閃表示使用倒俥。每次閃光約1秒，閃光間隔約1秒，連續信號間隔至少10秒；燈光須具規定能見距離，且不得與其他航行燈混淆。\n\n三、狹窄水道追越聲號（Rule 34(c)）\n（一）欲從被追越船右舷追越：兩長聲一短聲。\n（二）欲從被追越船左舷追越：兩長聲兩短聲。\n（三）被追越船同意時：依規則鳴放一長、一短、一長、一短聲。\n\n四、警告及疑慮信號（Rule 34(d)）\n如船舶對他船意圖或行動有疑慮，應至少鳴放五短聲；五短聲亦可用來警告他船注意危險。\n\n五、其他聲號\n（一）Rule 33：船舶應依船長及設備配置備有規定的汽笛、短笛、鐘及銅鑼等聲號設備。\n（二）Rule 36：如需引起他船注意，可使用燈光或聲號，但不得使用可能被誤認為規則所規定航行燈或聲號的信號。\n（三）Rule 37：遇險船舶應使用國際遇險信號，例如SOS、連續聲響、紅色火焰、橙色煙霧或其他規定遇險信號。\n\n六、結論\n互見時最常用的操縱聲號為一短右轉、二短左轉、三短倒俥；燈光可用一、二、三閃補充；狹窄水道追越依Rule 34(c)使用長短聲組合；對他船意圖有疑慮時鳴放五短聲。所有聲光信號均須依COLREG規定使用，避免與航行燈混淆。",
+    "practicalAnalysis": "本題主要考COLREG Rule 34，應完整列操縱聲號、燈光補充、狹水道追越及五短聲警告。Rule 33、36、37可作補充，不要把霧號Rule 35混入互見操縱聲號。",
+    "keyPoints": [
+      {
+        "point": "一短右轉、二短左轉、三短使用倒俥",
+        "importance": "essential"
+      },
+      {
+        "point": "一閃右轉、二閃左轉、三閃倒俥",
+        "importance": "essential"
+      },
+      {
+        "point": "狹水道追越：兩長一短／兩長兩短；同意一長一短一長一短",
+        "importance": "essential"
+      },
+      {
+        "point": "五短聲表示疑慮或警告",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "COLREGs 1972",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rules 33, 34, 36 and 37",
+        "accessedAt": "2026-11-05",
+        "supports": "互見時操縱聲號、燈光、追越及警告信號。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "引水法、商港法及COLREG官方條文已核對",
+          "result": "pass"
+        },
+        {
+          "item": "法律專業複核",
+          "result": "needs_review",
+          "note": "仍待法律專業人士複核，歷史題應依106年有效版本。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "106-pilot-law-04-answer-v1",
+    "questionId": "106-pilot-law-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、行政責任\n（一）依《引水法》第38條，引水人怠忽業務、違反業務義務、違反航行安全規章致生災害損失、因職務過失造成海難，或因引水人原因致船舶、貨物損害、延誤船期或人員傷亡，以及其他違反引水法或授權命令者，當地航政主管機關得予警告。\n（二）情節重大者，得報請交通部收回執業證書，期間為3個月至2年。\n（三）引水人在2年內經警告達3次者，得收回執業證書3個月。\n（四）行政處分目的在維護引水專業及航行安全，是否警告或收回證書，須依違失情節、因果關係及法定程序判斷。\n\n二、刑事責任\n（一）引水人執行業務因過失造成他人死亡，符合犯罪構成要件時，可能依《刑法》第276條過失致死罪論處。\n（二）因過失造成他人受傷，可能依《刑法》第284條過失傷害罪論處。\n（三）若行為涉及其他公共危險或海難犯罪構成要件，應依具體事實及相關刑法規定判斷；並非只要發生船舶事故就當然成立刑事犯罪，仍須證明注意義務違反、過失、因果關係及法定結果。\n（四）行政責任與刑事責任可以並存；行政機關對執業資格及專業紀律處分，不妨礙司法機關依法追究刑事責任。\n\n三、與民事責任之區別\n若引水人因過失造成船舶、貨物或第三人財產損害，另可能依民法侵權行為及相關契約規定負民事賠償責任；本題所問行政及刑事責任，應與民事賠償分開說明。\n\n四、結論\n引水人業務過失的行政責任依引水法第38條，可受警告或收回執業證書3個月至2年；2年內警告3次可收回3個月。若過失造成他人死亡或受傷，符合刑法構成要件時，另可能成立過失致死或過失傷害罪；行政、刑事及民事責任應分別判斷。",
+    "practicalAnalysis": "行政責任直接依引水法第38條；刑事責任依具體結果及刑法構成要件，例如過失致死、過失傷害。不能把所有海難事故都自動等同刑事犯罪，必須有注意義務、過失、因果關係及法定結果。",
+    "keyPoints": [
+      {
+        "point": "引水法第38條：警告及重大情節收回執業證書3個月至2年",
+        "importance": "essential"
+      },
+      {
+        "point": "2年內警告3次，收回執業證書3個月",
+        "importance": "essential"
+      },
+      {
+        "point": "過失致死依刑法第276條；過失傷害依第284條",
+        "importance": "essential"
+      },
+      {
+        "point": "行政與刑事責任可並存，刑事須符合構成要件",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "引水法",
+        "sourceType": "official_port_or_authority",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+        "pageOrSection": "第38條",
+        "accessedAt": "2026-11-05",
+        "supports": "引水人業務過失行政處分及收回執業證書。"
+      },
+      {
+        "title": "中華民國刑法",
+        "sourceType": "official_port_or_authority",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001",
+        "pageOrSection": "第276條、第284條",
+        "accessedAt": "2026-11-05",
+        "supports": "過失致死及過失傷害刑事責任。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "引水法、商港法及COLREG官方條文已核對",
+          "result": "pass"
+        },
+        {
+          "item": "法律專業複核",
+          "result": "needs_review",
+          "note": "仍待法律專業人士複核，歷史題應依106年有效版本。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "106-pilot-law-05-answer-v1",
+    "questionId": "106-pilot-law-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、港口保全（Port Facility Security）的意義\n港口保全是為防止恐怖攻擊、非法侵入、破壞、劫持、走私、爆炸物或其他故意危害船舶、港口設施、人員及貨物安全的行為，透過風險評估、保全計畫、人員訓練、門禁管制、監視及應變措施，維持港口設施安全與國際航運供應鏈正常運作。\n\n二、國際法源\n（一）SOLAS第XI-2章及《國際船舶及港口設施保全章程》（ISPS Code）規範船舶及港口設施保全。\n（二）ISPS Code分為A部強制性規定及B部指引性規定，要求締約國指定主管機關、完成保全評估、制定保全計畫及設置保全負責人。\n（三）港口保全等級分為三級：Level 1一般狀態；Level 2保全威脅升高；Level 3保全事件可能或即將發生時採取特殊措施。\n\n三、商港法規定\n（一）依《商港法》第42條，商港經營事業機構應辦理各國際商港保全評估，據以擬訂保全評估報告及保全計畫，報請航港局核定後實施；國際商港區域內各公民營事業機構亦應依計畫辦理港口設施保全評估及保全計畫，報航港局或認可機構核定。\n（二）依第43條，航港局得查核及測試國際商港區域內各公民營事業機構的港口設施保全措施及業務；受查核者不得規避、妨礙或拒絕，發現缺失應限期改善，必要時得會同港務警察及其他安全機關辦理。\n（三）依第73條，港口設施公民營事業機構未完成保全評估及保全計畫，經通知限期改善仍未完成者，得勒令停止作業。\n\n四、港口保全實施措施\n（一）港區出入口及人員、車輛、船舶、貨物門禁管制。\n（二）設置港口設施保全員（PFSO）及保全委員會，執行保全計畫。\n（三）監視錄影、巡邏、照明、警報及限制區管制。\n（四）危險物品、可疑包裹及未授權物品查驗。\n（五）定期辦理保全演習、教育訓練及計畫檢討。\n（六）保全等級提升時加強人員查驗、船岸介面管制及限制區安全措施。\n（七）發生保全事件時立即通報航港局、港務警察、海巡及相關機關，並依保全計畫應變。\n\n五、結論\n港口保全係依SOLAS XI-2及ISPS Code建立的港口安全制度，透過風險評估、保全計畫、三階保全等級、人員與車輛門禁、監視、演練及應變措施防止非法危害。商港法第42條規定保全評估與計畫，第43條規定航港局查核測試，第73條規定未完成保全計畫得勒令停止作業。",
+    "practicalAnalysis": "本題法規依據為商港法第42、43、73條；應說明ISPS Code、保全評估、保全計畫、航港局核定及查核權限。港口保全等級為1一般、2升高、3特殊。106年法規版本條號需依當年版本回溯，答案以目前可核對條文編號並提示版本檢查。",
+    "keyPoints": [
+      {
+        "point": "港口保全防止恐怖攻擊、非法侵入、破壞及其他故意危害",
+        "importance": "essential"
+      },
+      {
+        "point": "SOLAS XI-2及ISPS Code為國際法源",
+        "importance": "essential"
+      },
+      {
+        "point": "商港法第42條：保全評估及保全計畫",
+        "importance": "essential"
+      },
+      {
+        "point": "第43條：航港局查核測試；第73條：未改善得停止作業",
+        "importance": "essential"
+      },
+      {
+        "point": "保全等級1一般、2升高、3特殊",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "商港法",
+        "sourceType": "official_port_or_authority",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "pageOrSection": "第42、43、73條",
+        "accessedAt": "2026-11-05",
+        "supports": "港口保全評估、保全計畫、查核測試及未改善之處分。"
+      },
+      {
+        "title": "國際港口設施保全業務",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部航港局",
+        "url": "https://www.motcmpb.gov.tw/Information/Detail/fc2039dc-abb2-42b2-9c61-41019958f5df?NodeId=337&SiteId=1",
+        "pageOrSection": "ISPS Code、港口設施保全評估及查核",
+        "accessedAt": "2026-11-05",
+        "supports": "我國國際商港保全制度及主管機關分工。"
+      },
+      {
+        "title": "高雄港港口設施保全Q&A",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/port/Articles?a=937",
+        "pageOrSection": "港口設施保全等級",
+        "accessedAt": "2026-11-05",
+        "supports": "三種港口保全等級及發布方式。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "引水法、商港法及COLREG官方條文已核對",
+          "result": "pass"
+        },
+        {
+          "item": "法律專業複核",
+          "result": "needs_review",
+          "note": "仍待法律專業人士複核，歷史題應依106年有效版本。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
