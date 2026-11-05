@@ -2338,5 +2338,265 @@
     "sourceId": "moex-108-english",
     "status": "已核對",
     "questionNo": 4
+  },
+  {
+    "id": "104-kaohsiung-waterway-01",
+    "year": 2015,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "請詳細繪出高雄港全港圖，包括各個導助航設備與標誌、碼頭、浮筒、船渠、漁港、潮信資料等。（25 分）",
+    "sourceId": "moex-104-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "104-kaohsiung-waterway-02",
+    "year": 2015,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "夏季西南風 5 級時，自高雄港第 1 港口引領一艘 14,000 總噸，船長 160 公尺，船艏吃水 8 米，船艉吃水 9 米之雜貨船進港，準備以右舷靠泊 56 號碼頭，配置 2,400 HP 拖船二艘，請詳述如何安全操作進港靠泊碼頭？（15 分）",
+    "sourceId": "moex-104-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "104-kaohsiung-waterway-03",
+    "year": 2015,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "冬季東北風 5 級的情況下，引領一艘 6,000 總噸，船長 110 公尺，船艏吃水 4 米，船艉吃水 5 米之雜貨船，該船右舷靠泊 32 號碼頭，左錨 3 節水面，配置 2,400 HP 拖船一艘，準備自 32 號碼頭移泊至 25 號浮筒以船艏下雙錨方式繫泊，請詳述應如何安全操作移泊作業？（15 分）",
+    "sourceId": "moex-104-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "104-kaohsiung-waterway-04",
+    "year": 2015,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "颱風過境後，西南風強勁約 6 級時，引領一艘 24,000 總噸，船長 180 公尺，船艏吃水 5 米，船艉吃水 6 米之雜貨船，配置拖船 2,400 HP 二艘，該船是以右舷靠泊 54 號碼頭，請詳述如何安全操作自第 2 港口出港？（15 分）",
+    "sourceId": "moex-104-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "104-kaohsiung-waterway-05",
+    "year": 2015,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "在西南風 5 級情況下，一艘 5,000 總噸之石化輪，船艏吃水 3.5 米，船艉吃水 4.5 米，該輪未下錨，亦無艏側推器（Bow Thruster），配置 2,400 HP 拖船一艘，在 58 號碼頭卸完貨之後，欲移泊至 99 號碼頭載運油貨，請詳述如何安全引領該船移泊作業？（15 分）",
+    "sourceId": "moex-104-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "104-kaohsiung-waterway-06",
+    "year": 2015,
+    "subject": "當地水道港灣詳情",
+    "port": "高雄港",
+    "question": "請詳述高雄港洲際貨櫃碼頭之規劃及營運情形。（15 分）",
+    "sourceId": "moex-104-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "104-pilot-law-01",
+    "year": 2015,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "在狹窄水域或航道航行之船舶，應注意規定為何？試依國際海上避碰規則第九條規定申論之。（20 分）",
+    "sourceId": "moex-104-pilot-law",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "104-pilot-law-02",
+    "year": 2015,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "引水人之僱用，引水法有何規定？（20 分）",
+    "sourceId": "moex-104-pilot-law",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "104-pilot-law-03",
+    "year": 2015,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "引水人執行領航業務之要件、引水人拒絕領航之原因、船長指揮權之尊重及僱用拖船協助之請求，引水法有何規定？（20 分）",
+    "sourceId": "moex-104-pilot-law",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "104-pilot-law-04",
+    "year": 2015,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "為航行港區安全，施放信號彈、煙火或爆發物有何限制？鳴放音響或信號有何限制？試依商港法之規定申論之。（20 分）",
+    "sourceId": "moex-104-pilot-law",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "104-pilot-law-05",
+    "year": 2015,
+    "subject": "航政法規",
+    "port": "全港共通",
+    "question": "船舶在商港區域內應緩輪慢行，商港法規有何規定？（20 分）",
+    "sourceId": "moex-104-pilot-law",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "104-pilotage-01",
+    "year": 2015,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "何謂季風？試述其成因及著名有季風環流分布的區域。（20 分）",
+    "sourceId": "moex-104-pilotage",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "104-pilotage-02",
+    "year": 2015,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "試述構成平流霧的條件及其特性。（20 分）",
+    "sourceId": "moex-104-pilotage",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "104-pilotage-03",
+    "year": 2015,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "試述臺灣海峽及臺灣東岸之洋流狀況。（20 分）",
+    "sourceId": "moex-104-pilotage",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "104-pilotage-04",
+    "year": 2015,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "試列舉有關海圖之圖刊名稱及其用途。（20 分）",
+    "sourceId": "moex-104-pilotage",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "104-pilotage-05",
+    "year": 2015,
+    "subject": "引港學",
+    "port": "全港共通",
+    "question": "試述下列海圖上用以表示海底特性簡字之意義。（每小題 2 分，共 20 分）(1) Cl. (2) G. (3) Oz. (4) S. (5) Sn. (6) Co. (7) M. (8) P. (9) Sh. (10) St.",
+    "sourceId": "moex-104-pilotage",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "104-shiphandling-01",
+    "year": 2015,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "某輪滿載排水量 180,000 噸，LOA 284 公尺，最大馬力為 27,600 PS，最高船速 16.3 kt，模寬 44 公尺，模深 25 公尺，單俥右旋俥葉。試問於船速 5 節下停俥入堤，此時風速低於 10 m/sec 無流水影響，需要幾條、各多少匹馬力之拖船，始能產生大船全速倒俥之效果將大船拉停？又停止距離為多少公尺？（25 分）",
+    "sourceId": "moex-104-shiphandling",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "104-shiphandling-02",
+    "year": 2015,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "試述港內大船由拖船倒拖出船渠後，調頭出港之操縱要領與注意事項。（大船無前俥）（15 分）",
+    "sourceId": "moex-104-shiphandling",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "104-shiphandling-03",
+    "year": 2015,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "依國際海上人命安全公約（SOLAS）第二之一章第 29 條，對船上舵機及輔舵機之規定為何？又 SOLAS 第五章第 22 條對船上駕駛台之盲區（Blind Sector）有何規定？（15 分）",
+    "sourceId": "moex-104-shiphandling",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "104-shiphandling-04",
+    "year": 2015,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "試述船舶運轉時，旋轉支點（Pivot Point）位置的改變因素及特性。（15 分）",
+    "sourceId": "moex-104-shiphandling",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "104-shiphandling-05",
+    "year": 2015,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "在港內拖帶無動力船舶之要領為何？（15 分）",
+    "sourceId": "moex-104-shiphandling",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "104-shiphandling-06",
+    "year": 2015,
+    "subject": "船舶操縱",
+    "port": "全港共通",
+    "question": "某船總噸位 5,000 噸，船長 120 公尺，航道寬 300 公尺，吹向岸風五級，吃水：艏 3 米、艉 4 米。前後有船，該輪拋有外檔錨 2 節下水，使用拖船一艘，調頭出港，試說明操縱程序與要領。（15 分）",
+    "sourceId": "moex-104-shiphandling",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "104-english-01",
+    "year": 2015,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please translate the following two paragraphs into Chinese. (1) Pilots with local knowledge have been employed on board ships for centuries to guide vessels into or out of port safely or wherever navigation may be considered hazardous, particularly when a shipmaster is unfamiliar with the area. In addition to local knowledge and expertise, pilots are able to provide effective communication with the shore and with tugs, often in the local language.（10 分）(2) Qualified pilots are usually employed by the local port or maritime administration and provide their services to ships for a fee, calculated in relation to the ship's tonnage, draught or other criteria. The importance of employing qualified pilots in approaches to ports and other areas where specialized local knowledge is required was formally recognized by IMO in 1968, when the Organization adopted Assembly Resolution A.159 Recommendation on Pilotage. The Resolution recommends Governments to organize pilotage services and to define the ships and classes of ships for which employment of a pilot would be mandatory.（20 分）",
+    "sourceId": "moex-104-english",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "104-english-02",
+    "year": 2015,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "請將下列中文譯為英文：(1) 各船應經常以安全速度航行，俾能採取適當而有效之措施，以避免碰撞，並在適合當前環境與情況之距離內，能使船舶停止前進。（8 分）(2) 在決定安全速度時，所有船舶應考慮能見度之情況、交通密度、船舶之運轉能力、夜間出現之背景亮光、風浪及水流情形、吃水與可航水深之關係等因素。（12 分）",
+    "sourceId": "moex-104-english",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "104-english-03",
+    "year": 2015,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please give the definitions of the following terminologies in English.（20 分）(1) Course made good (2) Hampered vessels (3) Underway (4) Search and rescue transponder",
+    "sourceId": "moex-104-english",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "104-english-04",
+    "year": 2015,
+    "subject": "專業英文",
+    "port": "全港共通",
+    "question": "Please discuss the roles and responsibilities of a pilot on the bridge, the captain and the officer on watch (OOW).（around 300 words）（30 分）",
+    "sourceId": "moex-104-english",
+    "status": "已核對",
+    "questionNo": 4
   }
 ]
