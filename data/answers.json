@@ -9809,5 +9809,324 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-pilotage-01-answer-v1",
+    "questionId": "104-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、季風（Monsoon）的定義\n季風是指某一地區盛行風向隨季節發生明顯轉變的風系，通常夏季與冬季風向大致相反，並伴隨降雨及氣候型態的季節變化。\n\n二、形成原因\n（一）陸地與海洋熱容量不同：陸地升溫及降溫較海洋快，造成季節性溫度及氣壓差異。\n（二）季節性氣壓配置：夏季大陸受熱形成低壓，海洋相對高壓，氣流由海洋吹向陸地；冬季大陸冷卻形成高壓，氣流由陸地吹向海洋。\n（三）地球自轉及科氏力：使氣流方向偏轉，影響季風風向及強度。\n（四）地形及海陸分布：高原、山脈、海岸線及海盆形狀會改變季風環流及降雨分布。\n（五）季節性太陽輻射及ITCZ移動：影響熱帶及副熱帶地區氣壓帶位置，形成季節性風向變化。\n\n三、著名季風環流分布區域\n（一）南亞季風區：印度、孟加拉灣、阿拉伯海及印度洋北部，夏季西南季風、冬季東北季風。\n（二）東亞季風區：中國東部、臺灣、日本及東海，夏季偏南或西南風，冬季東北季風。\n（三）東南亞季風區：南海、菲律賓、馬來群島及印尼周邊海域，受西南及東北季風影響。\n（四）西非季風區：幾內亞灣及西非沿岸，季節性海陸風與熱帶季風交互作用。\n（五）澳洲北部季風區：夏季西北季風帶來雨季，冬季東南信風較明顯。\n（六）東非及阿拉伯海周邊：受印度洋季風及季節性風向轉變影響。\n\n四、航海影響\n季風會影響風浪、海流、海霧、航速、航線、燃油及港口作業；船舶應依季節性風場及海流安排航次，特別注意季風轉換期的風向突變及氣象不穩定。",
+    "practicalAnalysis": "季風不是單純某一季的強風，而是季節性盛行風向反轉。成因須包含海陸熱力差、季節性氣壓配置、科氏力、地形及ITCZ移動；區域可列南亞、東亞、東南亞、西非、澳洲北部及東非。",
+    "keyPoints": [
+      {
+        "point": "季風是盛行風向隨季節顯著轉變的風系",
+        "importance": "essential"
+      },
+      {
+        "point": "成因：海陸熱容量差、氣壓差、科氏力、地形及ITCZ",
+        "importance": "essential"
+      },
+      {
+        "point": "主要區域：南亞、東亞、東南亞、西非、澳洲北部及東非",
+        "importance": "essential"
+      },
+      {
+        "point": "影響風浪、洋流、航線及港口作業",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "Monsoons",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA National Weather Service",
+        "url": "https://www.weather.gov/jetstream/monsoon",
+        "pageOrSection": "Monsoon formation and seasonal reversal",
+        "accessedAt": "2026-11-05",
+        "supports": "季風定義、成因及分布。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Monsoons and seasonal winds",
+        "accessedAt": "2026-11-05",
+        "supports": "季風對航海及風場的影響。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "氣象、水文及海圖官方資料已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立引港學專業複核",
+          "result": "needs_review",
+          "note": "仍待專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-pilotage-02-answer-v1",
+    "questionId": "104-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、平流霧（Advection Fog）的形成條件\n（一）暖濕空氣移動至較冷的海面或陸面上方，空氣因接觸冷表面而逐漸冷卻。\n（二）空氣溫度降至露點，水氣達飽和，水蒸氣凝結成大量微小水滴或冰晶，形成霧。\n（三）需有足夠水氣來源及適度風力，使暖濕空氣持續流經冷表面；風力太弱不易形成深厚霧層，風力太強則可能使霧層混合稀釋。\n（四）常見於暖濕海洋氣流流經寒流海域、沿岸冷海面或冷陸面上方，例如暖濕空氣流經冷海流區。\n\n二、平流霧的特性\n（一）可在白天或夜間形成，不必依賴夜間地面輻射冷卻。\n（二）常具有較廣泛及持續時間較長的特性，可覆蓋沿岸、海峽及外海水域。\n（三）通常需要一定風力，霧層可隨風平流移動，並可能向陸地延伸。\n（四）霧層厚度及能見度受風速、海氣溫差、濕度及海面溫度影響；能見度可能突然降低，對船舶瞭望及進出港造成危險。\n（五）當風向改變、空氣變乾或海面溫度升高時，平流霧可能逐漸消散。\n\n三、與輻射霧之差異\n平流霧由暖濕空氣移動至冷表面而冷卻形成，可於日夜發生且常有風；輻射霧則主要由夜間地表輻射冷卻使近地面空氣降至露點形成，常在風弱、晴朗夜晚出現。\n\n四、航海注意事項\n遇平流霧時應依COLREG Rule 19採安全速度、保持視覺及聽覺瞭望、使用雷達及AIS輔助判斷，並依Rule 35鳴放霧號；進入港口前應評估能見度及交通條件，必要時減速或等待。",
+    "practicalAnalysis": "平流霧的核心是暖濕空氣水平移動並流經較冷表面，冷卻至露點；可日夜發生，常需適度風力，範圍廣且持續。要與夜間輻射冷卻形成的輻射霧區分。",
+    "keyPoints": [
+      {
+        "point": "暖濕空氣流經冷海面／冷陸面，冷卻至露點形成",
+        "importance": "essential"
+      },
+      {
+        "point": "可日夜發生，通常有適度風力並隨風移動",
+        "importance": "essential"
+      },
+      {
+        "point": "範圍廣、持續時間可長，常見於暖濕氣流遇寒流海域",
+        "importance": "essential"
+      },
+      {
+        "point": "霧中依Rule 19安全速度、瞭望及Rule 35霧號",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fog – Advection Fog",
+        "sourceType": "official_port_or_authority",
+        "issuer": "Met Office",
+        "url": "https://www.metoffice.gov.uk/weather/learn-about/weather/types-of-weather/fog",
+        "pageOrSection": "Advection fog formation and characteristics",
+        "accessedAt": "2026-11-05",
+        "supports": "平流霧形成條件及特性。"
+      },
+      {
+        "title": "COLREGs 1972",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rules 19 and 35",
+        "accessedAt": "2026-11-05",
+        "supports": "能見度受限制時的航行及霧號。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "氣象、水文及海圖官方資料已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立引港學專業複核",
+          "result": "needs_review",
+          "note": "仍待專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-pilotage-03-answer-v1",
+    "questionId": "104-pilotage-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、臺灣海峽洋流\n（一）臺灣海峽水流受季風、潮汐及地形共同影響，季節性變化明顯，不能視為全年固定單一方向。\n（二）冬季東北季風盛行時，海峽北部及西側沿岸常有向南的中國沿岸流，海峽南部亦可能有南向流；但海峽中部及東側仍受南海暖水、黑潮分支及潮流影響，局部流向會隨潮汐改變。\n（三）夏季西南季風盛行時，海峽內北向流增強，南海暖水可經海峽向北輸送；海峽北口及沿岸流場仍會受季風及潮汐影響。\n（四）臺灣海峽水深較淺、地形狹長，潮流及季風流相互作用明顯；船舶航行應查閱潮流圖及當地流速資料，特別注意海峽中部、澎湖水道及沿岸流。\n\n二、臺灣東岸洋流\n（一）臺灣東岸主要受黑潮（Kuroshio Current）影響，黑潮由菲律賓東方北上，沿臺灣東部外海向北流經花蓮、宜蘭外海，再往琉球及日本方向流動。\n（二）黑潮為暖流，流速較強且較穩定，主流通常位於臺灣東岸外海；近岸水域仍會受地形、潮汐、季風及局部渦流影響。\n（三）黑潮與近岸水體交界可能形成海流鋒面及海面溫度梯度，影響海霧、漁場及船舶航速。\n（四）臺灣東岸近岸流並非完全等同黑潮主流，局部可能出現反向流、渦旋及季節性變化，航行時應依最新海流圖及實測資料判斷。\n\n三、航海應用\n船舶通過臺灣海峽時應依季風季節、潮流及航道位置修正航向與航速；沿臺灣東岸航行則須注意黑潮強流造成的Set and Drift，並評估其對航程、燃油及操縱安全的影響。",
+    "practicalAnalysis": "臺灣海峽洋流具季節性：冬季東北季風時南向沿岸流較明顯，夏季西南季風時北向流增強；東岸主要為黑潮沿岸外海北流。應避免把臺灣海峽簡化為全年固定南流或北流，並區分黑潮主流與近岸局部流。",
+    "keyPoints": [
+      {
+        "point": "臺灣海峽洋流受季風、潮汐及地形共同影響",
+        "importance": "essential"
+      },
+      {
+        "point": "冬季東北季風時南向沿岸流較明顯",
+        "importance": "essential"
+      },
+      {
+        "point": "夏季西南季風時北向流增強",
+        "importance": "essential"
+      },
+      {
+        "point": "臺灣東岸主要受黑潮影響，沿東岸外海向北流",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "Ocean Circulation and Currents around Taiwan",
+        "sourceType": "textbook_or_academic",
+        "issuer": "中央研究院環境變遷研究中心及海洋研究資料",
+        "url": "https://www.oc.ntu.edu.tw/",
+        "pageOrSection": "臺灣海峽季風流及黑潮",
+        "accessedAt": "2026-11-05",
+        "supports": "臺灣海峽及東岸海流季節變化。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Ocean currents and current sailing",
+        "accessedAt": "2026-11-05",
+        "supports": "洋流對航海航跡及航速影響。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "氣象、水文及海圖官方資料已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立引港學專業複核",
+          "result": "needs_review",
+          "note": "仍待專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-pilotage-04-answer-v1",
+    "questionId": "104-pilotage-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "海圖相關圖刊及其用途如下：\n\n一、海圖目錄（Catalogue of Charts）：列出海圖圖號、圖名、比例尺、涵蓋範圍及出版狀態，供航線規劃及選購海圖。\n\n二、海圖圖例（Chart 1／Symbols, Abbreviations and Terms）：說明海圖符號、縮寫、燈標、浮標、水深、底質及危險物表示方式，供正確判讀海圖。\n\n三、航路指南／航路誌（Sailing Directions／Pilot）：提供沿岸地形、港口、航道、水深、潮流、氣象、錨地、助航設施及進出港注意事項。\n\n四、燈表（List of Lights and Fog Signals）：列出燈塔、燈標、燈浮及霧號資料，包括位置、燈質、週期、燈色、光程及燈高。\n\n五、潮汐表（Tide Tables）：提供各潮汐站每日高潮、低潮時間及潮高，供計算潮位及UKC。\n\n六、潮流圖／潮流表（Tidal Stream Atlas）：提供特定海域不同潮時的潮流方向及流速，協助航線及通航時間規劃。\n\n七、航船布告（Notices to Mariners）：公布海圖及航海圖書的改正，包括新設或移除航標、沉船、障礙物、航道工程、水深變化及臨時航行警告。\n\n八、航海年曆（Nautical Almanac）：提供天體赤緯、格林威治時角、天文曙暮光及天文定位所需資料。\n\n九、無線電信號表（Admiralty List of Radio Signals）：提供海岸電台、VTS、無線電醫療諮詢、導航警告、通訊頻率及無線電服務資料。\n\n十、世界海洋航路（Ocean Passages for the World）：提供遠洋航線、季節性風流、氣象、航程及航行安全建議。\n\n十一、航海警告（Maritime Safety Information／NAVAREA Warnings）：提供海上臨時危險、軍演、漂流物、沉船、助航設施失效及其他緊急航安資訊。\n\n十二、航海手冊及法規資料：包括COLREG、SOLAS、港口規定及船舶操縱資料，供航行及港內作業遵循。",
+    "practicalAnalysis": "題目要求列舉圖刊名稱及用途，至少列海圖目錄、海圖圖例、航路誌、燈表、潮汐表、潮流圖、航船布告、航海年曆、無線電信號表及世界海洋航路，並簡述用途。",
+    "keyPoints": [
+      {
+        "point": "海圖目錄及海圖圖例：選圖及判讀符號",
+        "importance": "essential"
+      },
+      {
+        "point": "Sailing Directions、List of Lights：港口水道及助航資料",
+        "importance": "essential"
+      },
+      {
+        "point": "Tide Tables、Tidal Stream Atlas：潮位及潮流",
+        "importance": "essential"
+      },
+      {
+        "point": "Notices to Mariners：海圖及航海圖書改正",
+        "importance": "essential"
+      },
+      {
+        "point": "Nautical Almanac、Radio Signals、Ocean Passages：天文定位、通訊及遠洋航線",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "Admiralty Publications Catalogue",
+        "sourceType": "official_port_or_authority",
+        "issuer": "UK Hydrographic Office",
+        "url": "https://www.admiralty.co.uk/publications",
+        "pageOrSection": "Sailing Directions, List of Lights, Tide Tables, Tidal Stream Atlases, Radio Signals and Ocean Passages",
+        "accessedAt": "2026-11-05",
+        "supports": "各類航海圖書名稱及用途。"
+      },
+      {
+        "title": "IHO Publications and Standards",
+        "sourceType": "technical_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/en/standards-and-specifications",
+        "pageOrSection": "Chart 1 and nautical publications",
+        "accessedAt": "2026-11-05",
+        "supports": "海圖圖例及水文航海資料。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "氣象、水文及海圖官方資料已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立引港學專業複核",
+          "result": "needs_review",
+          "note": "仍待專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "104-pilotage-05-answer-v1",
+    "questionId": "104-pilotage-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "definition",
+    "modelAnswer": "海圖底質簡字意義如下：\n\n1. **Cl.（Clay）**：黏土。\n2. **G.（Gravel）**：礫石。\n3. **Oz.（Ooze）**：軟泥／海底軟泥。\n4. **S.（Sand）**：砂。\n5. **Sn.（Shingle）**：粗礫、卵石或小礫石堆積物。\n6. **Co.（Coral）**：珊瑚。\n7. **M.（Mud）**：泥。\n8. **P.（Pebbles）**：卵石。\n9. **Sh.（Shells）**：貝殼或貝殼碎屑。\n10. **St.（Stones）**：石塊。\n\n**注意：**Sn.是Shingle，不是Sand；S.才是Sand。底質資料可供判斷錨爪抓底能力、錨泊安全及海床性質，但仍須配合海圖水深、潮流及當地錨地資料判斷。",
+    "practicalAnalysis": "本題十個縮寫採海圖底質名詞。特別容易混淆Sn與S：Sn=Shingle（粗礫／礫石堆積），S=Sand（砂）；Cl=Clay、Oz=Ooze、Co=Coral。",
+    "keyPoints": [
+      {
+        "point": "Cl=Clay黏土；G=Gravel礫石；Oz=Ooze軟泥",
+        "importance": "essential"
+      },
+      {
+        "point": "S=Sand砂；Sn=Shingle粗礫／小礫石",
+        "importance": "essential"
+      },
+      {
+        "point": "Co=Coral珊瑚；M=Mud泥；P=Pebbles卵石",
+        "importance": "essential"
+      },
+      {
+        "point": "Sh=Shells貝殼；St=Stones石塊",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "NOAA Nautical Chart Manual, Bottom Characteristics and Abbreviations",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA Office of Coast Survey",
+        "url": "https://ocsdata.ncd.noaa.gov/mcs/04_ncm_vol1.pdf",
+        "pageOrSection": "Section 4.6.5, Table 4-9",
+        "accessedAt": "2026-11-05",
+        "supports": "Cl、G、Oz、S、Sn、Co、M、P、Sh及St底質縮寫。"
+      },
+      {
+        "title": "IHO Chart 1 – Nature of the Seabed",
+        "sourceType": "technical_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://charts.gc.ca/publications/chart1-carte1/sections/j-seabed/index-eng.html",
+        "pageOrSection": "Section J – Nature of the Seabed",
+        "accessedAt": "2026-11-05",
+        "supports": "海圖底質分類及縮寫。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "氣象、水文及海圖官方資料已核對",
+          "result": "pass"
+        },
+        {
+          "item": "獨立引港學專業複核",
+          "result": "needs_review",
+          "note": "仍待專業人士複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
