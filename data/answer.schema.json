@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.invalid/taiwan-pilot-exam/answer.schema.json",
+  "$id": "urn:taiwan-pilot-exam:answer.schema.json",
   "title": "Pilot exam answer record",
   "description": "A traceable study answer. It is not an official marking scheme unless explicitly sourced as one.",
   "type": "object",
