@@ -5378,5 +5378,335 @@
     "sourceId": "moex-085-shiphandling",
     "status": "已核對",
     "questionNo": 7
+  },
+  {
+    "id": "084-taichung-waterway-01",
+    "year": 1995,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "繪台中港港圖（包括運煤航道及台電碼頭）。（35 分）",
+    "sourceId": "moex-084-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "084-taichung-waterway-02",
+    "year": 1995,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "現階段汽車船進台中港都靠泊何碼頭？為什麼要右舷靠？高潮時靠泊要注意什麼事項？從該碼頭離泊時，若遇七級西南季風時，請用圖文說明操船出港步驟，拖船使用 #411 及 #405。（15 分）",
+    "sourceId": "moex-084-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "084-taichung-waterway-03",
+    "year": 1995,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "本港運煤航道設計水深是幾米？現階段規定滿載船進港水尺限制最深水尺是幾米？航道寬度是幾米？燈浮標示航道之水域寬度是幾米？該燈浮如此佈設之用意何在？在實際引水作業時應考慮滿載進港煤輪之水深餘裕有幾項考量因素？（15 分）",
+    "sourceId": "moex-084-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "084-taichung-waterway-04",
+    "year": 1995,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "右舷靠 #29 號碼頭之巴拿馬極限型船，卸貨後，空船吃水 F：6 米 A：7 米，吹正橫左吹開風（吹擋風）平均風力 15m/sec，使用拖船 #411 及 #405 出港，試略估該輪之受風面積是幾平方公尺？風壓幾噸？並推定 #411 及 #405 拖船之拖力各幾噸？若使用尼龍纜繩應使用多少直徑（m/m）？各需幾條拖纜？並以圖文說明出港操船步驟。（15 分）",
+    "sourceId": "moex-084-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "084-taichung-waterway-05",
+    "year": 1995,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "試述台中港北外防波堤延伸 850 米之後，對引水作業之影響。（10 分）",
+    "sourceId": "moex-084-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "084-taichung-waterway-06",
+    "year": 1995,
+    "subject": "當地水道港灣詳情",
+    "port": "臺中港",
+    "question": "根據民國 84 年 4 月 18 日之航船佈告，試述台中港南外防波堤燈塔之位置（經緯度）、燈質、燈高、公稱光程（浬）、燈光、燈塔高度及其顏色外觀，另外其輔助燈位置、燈質、公稱光程（浬）、明弧（度）及其裝設用途。（10 分）",
+    "sourceId": "moex-084-taichung-waterway",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "084-pilotage-01",
+    "year": 1995,
+    "subject": "引港學",
+    "port": "臺中港、高雄港",
+    "question": "試述海流形成之原因及種類？（15 分）",
+    "sourceId": "moex-084-pilotage",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "084-pilotage-02",
+    "year": 1995,
+    "subject": "引港學",
+    "port": "臺中港、高雄港",
+    "question": "試述台灣沿岸之潮流概況？（15 分）",
+    "sourceId": "moex-084-pilotage",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "084-pilotage-03",
+    "year": 1995,
+    "subject": "引港學",
+    "port": "臺中港、高雄港",
+    "question": "試述霧的成因及種類（四種十霧）？颱風來臨前之雲系變化如何？（15 分）",
+    "sourceId": "moex-084-pilotage",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "084-pilotage-04",
+    "year": 1995,
+    "subject": "引港學",
+    "port": "臺中港、高雄港",
+    "question": "試述颱風形成之必備條件及我國對颱風之分類法。（15 分）",
+    "sourceId": "moex-084-pilotage",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "084-pilotage-05",
+    "year": 1995,
+    "subject": "引港學",
+    "port": "臺中港、高雄港",
+    "question": "試繪我國常用之高程及深度示意圖；其中標明架空電纜垂直間隙、山高、島高、燈塔高、暗礁、適淹岩、可淹岩、不淹岩、深度及其相關之各種基準潮面。（15 分）",
+    "sourceId": "moex-084-pilotage",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "084-pilotage-06",
+    "year": 1995,
+    "subject": "引港學",
+    "port": "臺中港、高雄港",
+    "question": "在筆直且寬度 500 米之河道中，兩等速船於河道中線對遇，相距 2,000 米；問須各讓幾度方可以間隔 100 米相互通過？（10 分）",
+    "sourceId": "moex-084-pilotage",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "084-pilotage-07",
+    "year": 1995,
+    "subject": "引港學",
+    "port": "臺中港、高雄港",
+    "question": "台灣某港之潮信如下，其大潮發生於朔月之後一二天內，試求陰曆六月五日之大概高潮時間及潮高。（15 分）",
+    "sourceId": "moex-084-pilotage",
+    "status": "已核對",
+    "questionNo": 7
+  },
+  {
+    "id": "084-english-01",
+    "year": 1995,
+    "subject": "實用英文",
+    "port": "臺中港、高雄港",
+    "question": "Please translate the following passage from English into Chinese:（40 分）(1) The screw exerts its greatest turning effect when the engines are going slow ahead or full astern, the radius of the ship’s turning circle increasing with her speed through the water. (2) The churning of the water is greatest when starting the engines from rest, particularly when going astern, and especially so when reversing from full ahead to full astern. The excessive vibration then felt throughout the ship is due to cavitation, the blades following each other in quick succession into the same “HOLE” before the water has time to fill the cavity.",
+    "sourceId": "moex-084-english",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "084-english-02",
+    "year": 1995,
+    "subject": "實用英文",
+    "port": "臺中港、高雄港",
+    "question": "Your ship is to arrive at a port in bad weather and you decided to moor the ship with both anchors in roadstead. Please describe, step by step, in English, no less than 200 words regarding:（40 分）(1) Ship’s condition (2) approaching in bad weather (3) find a suitable anchorage (4) the way you used the anchors and cables.",
+    "sourceId": "moex-084-english",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "084-english-03",
+    "year": 1995,
+    "subject": "實用英文",
+    "port": "臺中港、高雄港",
+    "question": "Please translate the following Chinese terms into English and use the same to construct a complete sentence in English:（20 分）(1)暴風軌跡 (2)氣壓梯度 (3)東北季風 (4)應急舵 (5)雷達導燈 (6)危險暗礁 (7)橫向推進器 (8)球形舵柱 (9)傾斜角 (10)自脫鉤",
+    "sourceId": "moex-084-english",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "084-pilot-law-01",
+    "year": 1995,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港",
+    "question": "引水人因業務上之過失，使其領航之船舶發生無人員傷亡之一般海難，依據引水法罰則有關條文之規定，該引水人可受到那些處分？（10 分）",
+    "sourceId": "moex-084-pilot-law",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "084-pilot-law-02",
+    "year": 1995,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港",
+    "question": "雙重國籍問題近日廣被討論。(1)引水法第十一條規定，引水人須為中華民國之國民，請列舉四項主要之理由，說明其意義之所在。（8 分）(2)引水人如兼有他國國籍，請引用引水有關法規條文，概要說明你對此情形之看法。（2 分）",
+    "sourceId": "moex-084-pilot-law",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "084-pilot-law-03",
+    "year": 1995,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港",
+    "question": "引水人管理規則第三十八條規定，某些船舶應僱用兩名以上之引水人，請就本次考試引水區域（臺中港、高雄港），擇一說明當港現行僱用兩名（含）以上引水人之規定事項。（10 分）",
+    "sourceId": "moex-084-pilot-law",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "084-pilot-law-04",
+    "year": 1995,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港",
+    "question": "依據本年四月修正發布之引水人管理規則，甲種引水人已無一等、二等之分，然對其執業領航上仍有所區別限制，請引據辦法說明其規定。（10 分）",
+    "sourceId": "moex-084-pilot-law",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "084-pilot-law-05",
+    "year": 1995,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港",
+    "question": "請依據商港法第二十八條，說明船舶入港停泊之規定事項。（10 分）",
+    "sourceId": "moex-084-pilot-law",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "084-pilot-law-06",
+    "year": 1995,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港",
+    "question": "滯留商港區域內之船舶經依法查封者，對其所載之貨物，商港法第二十一條有何管理規定事項？（10 分）",
+    "sourceId": "moex-084-pilot-law",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "084-pilot-law-07",
+    "year": 1995,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港",
+    "question": "商港管理機關，按其商港管轄地區，應辦理那些災害處理事項？（10 分）",
+    "sourceId": "moex-084-pilot-law",
+    "status": "已核對",
+    "questionNo": 7
+  },
+  {
+    "id": "084-pilot-law-08",
+    "year": 1995,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港",
+    "question": "國際商港港務管理規則第四條條文中，將資訊系統、電腦連線應用於船舶管理事項之中。所指係何事？請說明之。（10 分）",
+    "sourceId": "moex-084-pilot-law",
+    "status": "已核對",
+    "questionNo": 8
+  },
+  {
+    "id": "084-pilot-law-09",
+    "year": 1995,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港",
+    "question": "兩船互見時，請依據國際避碰規則第十七條，說明直航船舶之措施。（10 分）",
+    "sourceId": "moex-084-pilot-law",
+    "status": "已核對",
+    "questionNo": 9
+  },
+  {
+    "id": "084-pilot-law-10",
+    "year": 1995,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港",
+    "question": "A、B 兩船串成一直線實施拖曳作業，A 船為海洋拖船（OCEAN TUG），長度 99 公尺，B 船為無動力被拖船，長度 101 公尺，兩船間拖纜長度 201 公尺。(1)兩船依規定各應顯示那些號燈與號標？（4 分）(2)據此情境暗夜時，分別自 A、B 兩船觀看他船，就所見之號燈，請繪示意圖並附以文字標明其燈色作答。（4 分）(3)如 B 船因有充分理由無法顯示前開依規定應顯示之號燈時，應採行那些補救措施？（2 分）",
+    "sourceId": "moex-084-pilot-law",
+    "status": "已核對",
+    "questionNo": 10
+  },
+  {
+    "id": "084-shiphandling-01",
+    "year": 1995,
+    "subject": "船舶操縱",
+    "port": "臺中港、高雄港",
+    "question": "試述港內操船發生意外之原因？應如何儘量防止海事之發生？（10 分）",
+    "sourceId": "moex-084-shiphandling",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "084-shiphandling-02",
+    "year": 1995,
+    "subject": "船舶操縱",
+    "port": "臺中港、高雄港",
+    "question": "主機馬力 3,000 匹之 ZP TUG 於協助大船離靠、迴轉之作業中有何限制條件？（10 分）",
+    "sourceId": "moex-084-shiphandling",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "084-shiphandling-03",
+    "year": 1995,
+    "subject": "船舶操縱",
+    "port": "臺中港、高雄港",
+    "question": "1994 年 7 月 1 日以後新建之百米以上船舶，其船舶操縱性能應符合 IMO 之何種暫行標準？該標準中有關基本數（CRITERIA）之規定如何？（15 分）",
+    "sourceId": "moex-084-shiphandling",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "084-shiphandling-04",
+    "year": 1995,
+    "subject": "船舶操縱",
+    "port": "臺中港、高雄港",
+    "question": "船舶倒行時其 PIVOT POINT 變化情形如何？如何始能保持近似直退？（15 分）",
+    "sourceId": "moex-084-shiphandling",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "084-shiphandling-05",
+    "year": 1995,
+    "subject": "船舶操縱",
+    "port": "臺中港、高雄港",
+    "question": "試述順風靠泊之方法及應注意之要領。（15 分）",
+    "sourceId": "moex-084-shiphandling",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "084-shiphandling-06",
+    "year": 1995,
+    "subject": "船舶操縱",
+    "port": "臺中港、高雄港",
+    "question": "試述使用舵與使用 BOW THRUSTER 之轉向有何不同？（15 分）",
+    "sourceId": "moex-084-shiphandling",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "084-shiphandling-07",
+    "year": 1995,
+    "subject": "船舶操縱",
+    "port": "臺中港、高雄港",
+    "question": "排水量 200,000 噸之船舶，以惰力航行，其前進速力 4 節，今以拖船從後方拖曳，如欲在 1,500 公尺的距離將該船停住，試問拖船應以多大推力來拖曳（噸）？又試算出從開始拖曳到停止所需之時間。風、潮及船體之阻抗等因素不列入考量。（20 分）",
+    "sourceId": "moex-084-shiphandling",
+    "status": "已核對",
+    "questionNo": 7
   }
 ]
