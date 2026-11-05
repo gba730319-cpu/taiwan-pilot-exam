@@ -1752,5 +1752,96 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "114-kaohsiung-waterway-07-answer-v1",
+    "questionId": "114-kaohsiung-waterway-07",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、波浪測站\n依交通部運輸研究所「商港波浪觀測及統計分析」資料，高雄港原第二港口波浪觀測站因洲際二期工程影響，於2018年8月撤站；同年9月於第一港口設置波流即時觀測站，作為高雄港外海波浪及海流觀測資料來源。高雄港VTC即時海氣象資訊亦分別顯示第一港口及第二港口（含洲際二期）波浪與海流資訊，供船舶進出港作業參考。\n\n二、潮位測站\n高雄港VTC海氣象資訊系統所列潮汐觀測位置為「過港隧道頂」，提供潮高及水深等資料，作為港區潮位及通航水深判斷參考。\n\n三、港內靜穩度測站\n交通部運輸研究所設置之高雄港港內靜穩度測站，依官方研究報告表5-1所列如下：\n（一）KHHS01：洲際二期 S5 碼頭。\n（二）KHHS02：8號碼頭。\n（三）KHHS03：洲際二期 S3 碼頭。\n（四）KHHS04：洲際二期 S13 碼頭。\n上述測站用以量測港內波浪，評估不同港區及碼頭水域的靜穩程度。\n\n四、波高型式及意義\n系統顯示之波高為示性波高（Significant Wave Height, Hs），亦常以最高三分之一波高的平均值表示。其意義為在一段觀測時間內，將各個波浪依波高由大至小排列，取最高三分之一波浪的波高平均值；它能代表海面較具代表性的波浪大小，通常比全部波高的算術平均值大，但不是該時段可能出現的最大單一波高。\n實際航行時，仍應注意單一大浪可能明顯高於示性波高，因此不能將Hs直接視為最大波高或船舶必然承受的最大浪高。\n\n五、結論\n高雄港波浪觀測以第一港口外海波流測站為重要資料來源；潮位測站位於過港隧道頂；港內靜穩度測站則設於洲際二期S5、8號、洲際二期S3及S13碼頭。系統波高採示性波高Hs，代表最高三分之一波浪的平均高度，不等於最大單一波高。",
+    "practicalAnalysis": "本題容易把外海波浪測站、潮位測站與港內靜穩度測站混為一談。官方研究報告明確列出四個港內靜穩度測站；VTC即時資訊將潮位位置標示為過港隧道頂，波流資訊則分第一、二港口顯示。題幹所稱波高型式對應示性波高Hs。",
+    "keyPoints": [
+      {
+        "point": "外海波流測站：第一港口；第二港口舊站因洲際二期工程於2018年8月撤站",
+        "importance": "essential"
+      },
+      {
+        "point": "潮位站：過港隧道頂",
+        "importance": "essential"
+      },
+      {
+        "point": "靜穩度站：KHHS01洲際二期S5、KHHS02 8號碼頭、KHHS03洲際二期S3、KHHS04洲際二期S13",
+        "importance": "essential"
+      },
+      {
+        "point": "示性波高Hs為最高三分之一波浪的平均波高，不是最大單一波高",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "商港波浪觀測及統計分析",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部運輸研究所",
+        "editionOrEffectiveDate": "2024-03",
+        "url": "https://www.motc.gov.tw/uploaddowndoc?file=datagov%2F1414545569854001152.pdf&filedisplay=113-47.113%E5%B9%B4_%E9%81%8B%E8%BC%B8%E6%8A%80%E8%A1%93%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83_%E5%95%86%E6%B8%AF%E6%B3%A2%E6%B5%AA%E8%A7%80%E6%B8%AC%E5%8F%8A%E7%B5%B1%E8%A8%88%E5%88%86%E6%9E%90.pdf&flag=doc&folderName=201506260001&lang=ch",
+        "pageOrSection": "第2章高雄港波浪站說明；第5章表5-1及圖5.7、5.8",
+        "accessedAt": "2026-11-05",
+        "supports": "高雄港第一港口外海波流站及四處港內靜穩度測站位置。"
+      },
+      {
+        "title": "高雄港海氣象資訊",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司VTC",
+        "url": "https://kh-vtc1.twport.com.tw/DelphiWWW/VDMSWWW_MET_v2.0.html",
+        "pageOrSection": "海流及波浪、潮汐資料來源及測站位置",
+        "accessedAt": "2026-11-05",
+        "supports": "VTC系統顯示第一、二港口波流資訊及過港隧道頂潮位資料。"
+      },
+      {
+        "title": "商港海氣象波浪資訊資料集",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部政府資料開放平台",
+        "url": "https://data.gov.tw/dataset/149147",
+        "pageOrSection": "欄位說明：Hs_m、Tp_sec、Wave_Direction",
+        "accessedAt": "2026-11-05",
+        "supports": "官方波浪資料以Hs波高、尖峰週期及波向欄位呈現。"
+      }
+    ],
+    "assumptions": [
+      "「波高型式」依商港海氣象系統常見欄位Hs及研究報告示性波高欄位解讀。"
+    ],
+    "limitations": [
+      "各測站現場設備與資料介接可能更新，考試作答應以考題年度所指系統版本及官方測站圖為準。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "港內靜穩度四測站位置已對照運輸研究所表5-1",
+          "result": "pass"
+        },
+        {
+          "item": "外海波浪站歷史異動已對照官方研究報告",
+          "result": "pass"
+        },
+        {
+          "item": "VTC潮位測站位置已對照官方即時資訊",
+          "result": "pass"
+        },
+        {
+          "item": "Hs意義已按示性波高定義表述",
+          "result": "pass"
+        },
+        {
+          "item": "獨立海象專業複核",
+          "result": "needs_review",
+          "note": "資料來源與名詞已核對，仍待獨立專業複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
