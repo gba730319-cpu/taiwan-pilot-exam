@@ -7115,5 +7115,272 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-english-01-answer-v1",
+    "questionId": "108-english-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "（一）任何需要引水人的船舶，均應懸掛國際通用或中華民國主管機關規定的「要求引水信號」。船舶所有人或船長得事先與當地引水人辦事處聯繫，洽商僱用引水人事宜。若有兩艘以上船舶同時懸掛要求引水信號，引水人應依先到先服務原則提供服務；但其中如有船舶遇險，引水人應優先對該遇險船舶提供服務。\n\n（二）引水人受僱登船執行領航時，船長應降下「要求引水信號」，改掛表示「引水人在船」的信號，並告知引水人船舶的操縱特性、總噸位、船長、吃水、船速等資料。船長不得拒絕引水人查驗相關證書的要求。\n\n（三）引水人除非持有交通部核發的引水人執業證書，以及指定引水區域當地航政主管機關核發的登記證書，否則不得執行領航業務。",
+    "practicalAnalysis": "本題三段直接對應引水法的應招領航、先到先服務、遇險優先、船長提供操縱資料及引水人雙證書制度。Pilot request signal譯為要求引水信號；pilot on board譯為引水人在船信號；certificate of registration是指定引水區域登記證書。",
+    "keyPoints": [
+      {
+        "point": "pilot request signal：要求引水信號",
+        "importance": "essential"
+      },
+      {
+        "point": "first-come vessel：先到先服務；distress vessel：遇險船舶優先",
+        "importance": "essential"
+      },
+      {
+        "point": "pilot on board：引水人在船信號",
+        "importance": "essential"
+      },
+      {
+        "point": "pilot license及certificate of registration：執業證書及區域登記證書",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "引水法",
+        "sourceType": "official_port_or_authority",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+        "pageOrSection": "第17、20、21條",
+        "accessedAt": "2026-11-05",
+        "supports": "引水信號、先到先服務、遇險優先、船舶資料及執業證書登記制度。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "三段中譯完整保留原文法律意義",
+          "result": "pass"
+        },
+        {
+          "item": "先到先服務及遇險優先用語正確",
+          "result": "pass"
+        },
+        {
+          "item": "執業證書與區域登記證書區分正確",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review",
+          "note": "翻譯與定義已依COLREG及IMO文件核對，仍待專業英文複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-english-02-answer-v1",
+    "questionId": "108-english-02",
+    "version": 1,
+    "language": "en",
+    "answerType": "translation",
+    "modelAnswer": "(1) Any action taken to avoid collision shall, if the circumstances of the case admit, be positive, made in ample time and with due regard to the observance of good seamanship.\n\n(2) Any alteration of course and/or speed to avoid collision shall, if the circumstances of the case admit, be large enough to be readily apparent to another vessel observing visually or by radar. A succession of small alterations of course and/or speed should be avoided.",
+    "practicalAnalysis": "兩句幾乎直接對應COLREG Rule 8(a)及8(b)，應盡量使用公約原文。關鍵術語為positive、in ample time、good seamanship、large enough to be readily apparent、observing visually or by radar及a succession of small alterations。",
+    "keyPoints": [
+      {
+        "point": "Rule 8(a)：positive, made in ample time, good seamanship",
+        "importance": "essential"
+      },
+      {
+        "point": "Rule 8(b)：alteration large enough to be readily apparent visually or by radar",
+        "importance": "essential"
+      },
+      {
+        "point": "避免連續多次小幅航向或航速改變",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "COLREGs 1972",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rule 8(a) and 8(b) – Action to avoid collision",
+        "accessedAt": "2026-11-05",
+        "supports": "避碰行動及航向／航速改變的公約英文原文。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "Rule 8(a)及8(b)英文原文已核對",
+          "result": "pass"
+        },
+        {
+          "item": "避碰標準術語與句型正確",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review",
+          "note": "翻譯與定義已依COLREG及IMO文件核對，仍待專業英文複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-english-03-answer-v1",
+    "questionId": "108-english-03",
+    "version": 1,
+    "language": "en",
+    "answerType": "definition",
+    "modelAnswer": "**(1) Cardinal buoys**\n\nCardinal buoys are navigation marks used to indicate the direction of safe water in relation to a nearby danger. They are named North, East, South and West cardinal marks, and vessels should pass on the side indicated by the mark. Their colours are black and yellow, and their topmarks consist of two black cones arranged in a distinctive direction.\n\n**(2) Closest Point of Approach (CPA)**\n\nCPA is the shortest distance at which one vessel is predicted to pass another vessel if both vessels maintain their present courses and speeds. It is used to assess the risk of collision, normally together with the Time to Closest Point of Approach (TCPA).\n\n**(3) Manoeuvring speed**\n\nManoeuvring speed is a reduced speed used when a vessel is approaching, leaving or moving within a restricted area, such as a harbour or berth. It is selected to provide sufficient control and steerage while allowing the vessel to stop or alter its movement within a safe distance.\n\n**(4) List**\n\nList is a permanent or semi-permanent inclination of a vessel to port or starboard, usually caused by an uneven distribution of weight, such as improper cargo loading, ballast distribution or liquid transfer. It differs from heel, which is generally a temporary inclination caused by external forces such as wind, turning or waves.",
+    "practicalAnalysis": "CPA應定義為在雙方維持目前航向及航速下，預測兩船最近會遇距離；Manoeuvring speed不是固定數字，而是港內操縱所需速度；List與Heel需區分，List多由重量分布不均造成，Heel則常由外力或轉向造成。",
+    "keyPoints": [
+      {
+        "point": "Cardinal buoys指示危險物周圍安全水域方位",
+        "importance": "essential"
+      },
+      {
+        "point": "CPA是維持現有航向航速時預測的最近會遇距離",
+        "importance": "essential"
+      },
+      {
+        "point": "Manoeuvring speed是受限水域操縱所需的控制速度",
+        "importance": "essential"
+      },
+      {
+        "point": "List通常由重量分布不均造成，與外力造成的Heel不同",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IALA Maritime Buoyage System – Recommendation R1001",
+        "sourceType": "technical_standard",
+        "issuer": "International Association of Marine Aids to Navigation and Lighthouse Authorities",
+        "url": "https://www.iala.int/product/r1001/?download=true",
+        "pageOrSection": "Cardinal Marks",
+        "accessedAt": "2026-11-05",
+        "supports": "方位標誌用途、顏色及頂標。"
+      },
+      {
+        "title": "COLREGs 1972",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Risk of collision and closest point of approach concepts",
+        "accessedAt": "2026-11-05",
+        "supports": "CPA在碰撞危險判斷中的應用。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Ship stability, list and heel; manoeuvring",
+        "accessedAt": "2026-11-05",
+        "supports": "List、Heel及操縱速度的航海術語。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "四個術語均以英文完整定義",
+          "result": "pass"
+        },
+        {
+          "item": "CPA、List及Heel語意區分正確",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review",
+          "note": "翻譯與定義已依COLREG及IMO文件核對，仍待專業英文複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "108-english-04-answer-v1",
+    "questionId": "108-english-04",
+    "version": 1,
+    "language": "en",
+    "answerType": "essay",
+    "modelAnswer": "A pilot's presence on board does not relieve the master or the officer of the watch (OOW) of their responsibility for the safety of the vessel. Nevertheless, many navigation-related accidents occur during pilotage because of a combination of human, operational and environmental factors.\n\nOne major factor is poor communication between the pilot and the bridge team. If the master and pilot fail to exchange information about the vessel's manoeuvring characteristics, draft, propulsion, steering limitations, passage plan, tug requirements and local conditions, the pilot may make decisions based on incomplete information. Unclear helm or engine orders and the absence of closed-loop communication can also lead to misunderstandings.\n\nA second factor is an inadequate bridge team and poor situational awareness. Bridge officers may assume that the pilot is monitoring everything and fail to check the vessel's position, speed, heading, rate of turn or under-keel clearance. This can create an excessive authority gradient, where junior officers are reluctant to question an unsafe decision. Fatigue, high workload, language barriers and unfamiliar equipment may further increase the risk.\n\nA third factor is insufficient planning and failure to account for local conditions. Strong winds, currents, restricted visibility, shallow water, bank effect, squat, traffic density and limited manoeuvring space may combine to create a dangerous situation. Incorrect assumptions about tug performance or the vessel's stopping distance can make the situation worse.\n\nSeveral measures can reduce these risks. First, a comprehensive Master-Pilot Information Exchange should be completed before pilotage, and the passage plan, roles, communications and contingency arrangements should be agreed. Second, the bridge team should practise Bridge Resource Management (BRM), maintain independent monitoring and challenge any unsafe action respectfully. Third, pilots and bridge officers should receive regular simulator training based on realistic port scenarios and accident investigations. Finally, fatigue management, standard marine communication phrases, reliable navigation equipment and effective coordination with VTS and tug operators should be ensured.\n\nIn conclusion, pilotage safety depends not only on the pilot's local knowledge but also on teamwork, communication, planning and continuous monitoring. The master remains responsible for the vessel, while the pilot must work as an effective member of the bridge team. A shared commitment to safety is essential to prevent accidents.",
+    "practicalAnalysis": "約300字英文申論應採事故因素與改善措施對照結構。重要因素包括MPX不足、權威梯度、駕駛臺監控失效、疲勞、語言文化差異、環境水動力及拖船／操縱資料錯誤；改善則對應MPX、BRM、獨立監控、模擬器、疲勞管理及VTS協調。",
+    "keyPoints": [
+      {
+        "point": "Poor Master-Pilot communication and incomplete information exchange",
+        "importance": "essential"
+      },
+      {
+        "point": "Authority gradient, weak bridge monitoring and poor situational awareness",
+        "importance": "essential"
+      },
+      {
+        "point": "Fatigue, workload, language barriers and unfamiliar equipment",
+        "importance": "essential"
+      },
+      {
+        "point": "Environmental and hydrodynamic risks: wind, current, squat, bank effect and traffic",
+        "importance": "essential"
+      },
+      {
+        "point": "Solutions: MPX, BRM, closed-loop communication, simulator training and VTS/tug coordination",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "pageOrSection": "Annex 2 – Operational procedures for maritime pilots",
+        "accessedAt": "2026-11-05",
+        "supports": "Master-Pilot Information Exchange及引水作業程序。"
+      },
+      {
+        "title": "IMO Model Course 1.22 – Ship Simulator and Bridge Teamwork",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/OurWork/HumanElement/Pages/ModelCourses.aspx",
+        "pageOrSection": "Bridge team communication and resource management",
+        "accessedAt": "2026-11-05",
+        "supports": "BRM、團隊溝通及模擬器訓練。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "英文申論約300字並涵蓋事故因素與改善措施",
+          "result": "pass"
+        },
+        {
+          "item": "船長責任及引水人角色關係正確",
+          "result": "pass"
+        },
+        {
+          "item": "BRM及MPX改善建議符合IMO引水原則",
+          "result": "pass"
+        },
+        {
+          "item": "航海英文專業複核",
+          "result": "needs_review",
+          "note": "翻譯與定義已依COLREG及IMO文件核對，仍待專業英文複核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
