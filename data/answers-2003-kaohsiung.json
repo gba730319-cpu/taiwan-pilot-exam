@@ -1,0 +1,647 @@
+[
+  {
+    "id": "92-kaohsiung-waterway-01-answer-v1",
+    "questionId": "92-kaohsiung-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、原則\n領港艇因颱風前後風浪過大而無法安全出港登輪時，船長不得自行判斷「港口尚可通行」便逕自進港。是否得由船長自行駕駛船舶進入第二港口防波堤內等待引水人，必須符合當時高雄港船舶進出港管制規定，並取得港口交通管制單位許可。\n\n二、應確認條件\n1. 船舶是否屬當時規定可免僱引水人之船舶，或是否有主管機關核准之特殊安排；不能把免強制引水資格自行擴張適用。\n2. 船長須具備該港區航行經驗及熟悉第二港口航道、助航標誌、潮流、淺點與迴旋水域，並能證明船舶操縱性能適合當時海象。\n3. 進港前應向VTS／信號台提出申請，說明引水艇無法登輪、船舶尺度吃水、主機舵效、風浪及拖船配置，經明確同意後始得採行。\n4. 依規定完成船長切結或書面聲明，確認由船長自行操縱之責任及風險；若當時規定要求特定船種、噸位或船長資格，必須逐項符合。\n5. 進入防波堤內等待引水人時，應依VTS指示航路、速度及等待位置，不得妨礙其他船舶進出或擅自在航道內停留。\n6. 若港口已發布停止進港管制，或能見度、湧浪、風力超過限制，不得以「進入堤內再上引水」作為規避管制的方法。\n\n三、引水人及船長責任\n引水人未登輪前，船長仍負船舶安全航行責任；引水人登輪後，仍須依引水法尊重船長指揮權，船長與引水人應交換船舶資料並共同確認操船計畫。\n\n四、結論\n本題得分關鍵不是單純描述船長自行進港，而是指出：須有當時法規明文或港口主管機關核准、船長具備港區熟悉能力、完成必要切結並受VTS管制；若港口已停止進港，仍不得進入。",
+    "practicalAnalysis": "本題為高雄港地方港航題。應優先使用考試年度有效海圖、燈表、港區圖及交通管制規定；現行官方資料只作現況對照，不得回推成2003年資料。",
+    "keyPoints": [
+      {
+        "point": "引水艇不能安全登輪不代表可自行進港",
+        "importance": "essential"
+      },
+      {
+        "point": "須符合當時免引水／特殊進港規定",
+        "importance": "essential"
+      },
+      {
+        "point": "先向VTS申請並取得許可",
+        "importance": "essential"
+      },
+      {
+        "point": "船長熟悉港區及船舶操縱性能",
+        "importance": "essential"
+      },
+      {
+        "point": "必要切結與責任確認",
+        "importance": "essential"
+      },
+      {
+        "point": "不得藉此規避停止進港管制",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "港口導航標誌、燈質、位置及能見距資料；現行資料須與2003年燈表區分。"
+      },
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "碼頭及港區設施現況。"
+      },
+      {
+        "title": "高雄港公共水域及浮筒配置資料",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=920",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "港區公共水域、浮筒位置及水深圖。"
+      },
+      {
+        "title": "高雄港船舶進出港管制基準",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0110001&type=-1",
+        "issuer": "交通部法規查詢系統",
+        "supports": "歷史管制基準及能見度限制條文；須核對2003年適用版本。"
+      },
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "港內交通管制、拖船協調及操船安全原則。"
+      },
+      {
+        "title": "高雄港錨泊使用管理規定",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1051",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "現行錨區配置及危險品船專用錨區；非2003年歷史版本。"
+      }
+    ],
+    "limitations": [
+      "須取得民國92年高雄港船舶進出港管制規定原文，確認船長自行進入二港口內上領港的具體資格、切結及港口管制條件；目前不填入未經核實的噸位門檻。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已建立操船／港航作答架構並比對官方現行資料",
+          "result": "pass"
+        },
+        {
+          "item": "2003年歷史海圖、燈表、浮筒配置及管制條文",
+          "result": "needs_review"
+        },
+        {
+          "item": "高雄港引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-kaohsiung-waterway-02-answer-v1",
+    "questionId": "92-kaohsiung-waterway-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、導航標誌變遷的判讀\n本題應以2003年以前及當年最新海圖、航船布告（Notices to Mariners）與高雄港燈表比較，逐項標出一港口新增、移設、改燈或撤除的標誌；並將順榮塢工程變更後形成的新岸線、突出構造及水深變化畫在圖上。\n\n二、作答應列資料\n1. 新設標誌名稱及編號。\n2. 精確位置：經緯度及相對於港口防波堤、順榮塢或航道中心線的位置。\n3. 燈質：燈色、閃光／明暗光型式、週期（秒）、明暗時間及能見距。\n4. 標誌用途：標示航道邊界、障礙物、轉向點或施工後新形成的危險水域。\n5. 舊標誌撤除或移位日期，以及海圖改正依據。\n\n三、吃水9m以上船舶通過原順榮塢外側的注意事項\n1. 不可只依舊海圖岸線估算安全距離，應確認塢體拆除／改建後是否留下水下殘構、基礎、沉箱或淺點。\n2. 依最新測深及海圖確認可用水深，計算UKC並考慮潮位、船舶squat、縱傾及測深基準。\n3. 保持在公告航道及安全水域內，避免為避讓他船而靠近未確認水深的塢體外緣。\n4. 使用雷達、GNSS、目視燈標及平行指標交叉定位，並依VTS指示航行。\n5. 大型或深吃水船舶應控制航速，避免淺水效應、岸壁效應及船尾外掃；必要時候潮或改道。\n\n四、結論\n本題不能以今日導航設施表直接代替2003年新設標誌資料；必須以當年航船布告與燈表補上標誌名稱、座標、燈質及能見距。",
+    "practicalAnalysis": "本題為高雄港地方港航題。應優先使用考試年度有效海圖、燈表、港區圖及交通管制規定；現行官方資料只作現況對照，不得回推成2003年資料。",
+    "keyPoints": [
+      {
+        "point": "以2003年前後海圖及航船布告比對變遷",
+        "importance": "essential"
+      },
+      {
+        "point": "逐項列標誌名稱、座標、燈質、週期及見距",
+        "importance": "essential"
+      },
+      {
+        "point": "注意順榮塢工程殘構與水下淺點",
+        "importance": "essential"
+      },
+      {
+        "point": "吃水9m以上核算UKC、squat及潮位",
+        "importance": "essential"
+      },
+      {
+        "point": "雷達、GNSS、PI及VTS交叉確認",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "港口導航標誌、燈質、位置及能見距資料；現行資料須與2003年燈表區分。"
+      },
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "碼頭及港區設施現況。"
+      },
+      {
+        "title": "高雄港公共水域及浮筒配置資料",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=920",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "港區公共水域、浮筒位置及水深圖。"
+      },
+      {
+        "title": "高雄港船舶進出港管制基準",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0110001&type=-1",
+        "issuer": "交通部法規查詢系統",
+        "supports": "歷史管制基準及能見度限制條文；須核對2003年適用版本。"
+      },
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "港內交通管制、拖船協調及操船安全原則。"
+      },
+      {
+        "title": "高雄港錨泊使用管理規定",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1051",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "現行錨區配置及危險品船專用錨區；非2003年歷史版本。"
+      }
+    ],
+    "limitations": [
+      "缺2003年一港口航船布告、順榮塢工程竣工圖及當年燈表，不能可靠填入新設標誌座標與燈質。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已建立操船／港航作答架構並比對官方現行資料",
+          "result": "pass"
+        },
+        {
+          "item": "2003年歷史海圖、燈表、浮筒配置及管制條文",
+          "result": "needs_review"
+        },
+        {
+          "item": "高雄港引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-kaohsiung-waterway-03-answer-v1",
+    "questionId": "92-kaohsiung-waterway-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、三線繫船浮筒的功能\n三線浮筒係港內供船舶繫泊、待命或特定作業使用的浮筒組，依其位置及繫泊配置形成多條繫泊線，以增加可用繫泊水域、減少船舶占用碼頭岸線，並依港區交通及作業需求安排船舶。\n\n二、編號及間距\n浮筒編號、各浮筒中心間距及排列方向，應依2003年高雄港港區圖、浮筒配置圖或當年港務公告逐一標示。不得以現行B32/B33或今日公共水域圖反推2003年的全部三線浮筒編號及間距。考試圖面應標出每一浮筒編號、座標、相鄰浮筒中心距離及各線間距。\n\n三、繫泊操作最重要事項\n1. 船舶應依指定浮筒及繫泊方式配置艏艉纜，纜繩受力應均衡，並預留潮位變化及船舶偏盪空間。\n2. 依風流方向安排迎風／迎流端的控制纜，避免船舶橫移或旋轉侵入航道及鄰船水域。\n3. 繫泊前確認浮筒、繫纜環及繫纜設備的額定負荷，避免超負荷或纜繩磨損。\n4. 浮筒繫泊船舶應注意不得任意下錨，避免錨鏈纏繞浮筒繫泊鏈或海底設施；須遵守港務單位指定作業方式。\n5. 加強值班，監控風向、潮流及纜繩張力，天候惡化前及早加纜或移泊。\n\n四、作答結構\n先畫三線浮筒排列與編號，再列表列出相鄰浮筒間距，最後說明繫泊目的與安全要點。",
+    "practicalAnalysis": "本題為高雄港地方港航題。應優先使用考試年度有效海圖、燈表、港區圖及交通管制規定；現行官方資料只作現況對照，不得回推成2003年資料。",
+    "keyPoints": [
+      {
+        "point": "三線浮筒供港內繫泊／作業調度",
+        "importance": "essential"
+      },
+      {
+        "point": "編號及中心間距須由歷史配置圖確認",
+        "importance": "essential"
+      },
+      {
+        "point": "纜繩均衡、控制風流及船舶偏盪",
+        "importance": "essential"
+      },
+      {
+        "point": "注意浮筒及繫纜設備額定負荷",
+        "importance": "essential"
+      },
+      {
+        "point": "不得任意下錨及纏繞浮筒繫泊鏈",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "港口導航標誌、燈質、位置及能見距資料；現行資料須與2003年燈表區分。"
+      },
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "碼頭及港區設施現況。"
+      },
+      {
+        "title": "高雄港公共水域及浮筒配置資料",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=920",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "港區公共水域、浮筒位置及水深圖。"
+      },
+      {
+        "title": "高雄港船舶進出港管制基準",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0110001&type=-1",
+        "issuer": "交通部法規查詢系統",
+        "supports": "歷史管制基準及能見度限制條文；須核對2003年適用版本。"
+      },
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "港內交通管制、拖船協調及操船安全原則。"
+      },
+      {
+        "title": "高雄港錨泊使用管理規定",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1051",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "現行錨區配置及危險品船專用錨區；非2003年歷史版本。"
+      }
+    ],
+    "limitations": [
+      "缺2003年三線浮筒配置圖及浮筒編號清冊，故不能列出每一浮筒編號與間距的具體數值。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已建立操船／港航作答架構並比對官方現行資料",
+          "result": "pass"
+        },
+        {
+          "item": "2003年歷史海圖、燈表、浮筒配置及管制條文",
+          "result": "needs_review"
+        },
+        {
+          "item": "高雄港引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-kaohsiung-waterway-04-answer-v1",
+    "questionId": "92-kaohsiung-waterway-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、環境與船舶特性\n5,000總噸空船受風面積相對較大、吃水較淺，夏季西南強風會使船舶產生明顯風壓漂移；單艘拖船的推力有限，應先評估船舶受風面積、風向與泊位方向、潮流、空船縱傾、螺槳旋向及主機舵效。\n\n二、進港與靠泊計畫\n1. 進港前向VTS申請，確認第一港口交通、航道淨空、風速風向、潮流及蓬萊區目標泊位。\n2. 與船長交換操縱資料，確認空船狀態、艏艉吃水、主機倒俥能力、舵效及停船距離。\n3. 先規劃進港航線及靠泊側，估算西南風對船首、船尾的風壓矩；若風力已超過拖船控制能力，應延後靠泊。\n4. 拖船應依風壓方向及泊位幾何安排在船首或船尾，主要任務為控制船首偏轉及橫移，不宜等船舶接近碼頭才開始施力。\n5. 進入蓬萊區後提早減速，保持足夠舵效；利用主機、舵及拖船配合，控制船體平行於碼頭。\n6. 最後階段採低速平移平靠，先消除縱向速度，再控制橫向接近速度，避免艏艉先碰或船體撞擊碼頭硬點。\n7. 送纜後依風向安排艏艉纜、倒纜及橫纜，平均分配張力並確認船舶不會被風推離泊位。\n\n三、最重要的一點\n空船受風壓影響大，應提早建立船位控制並讓拖船在有效位置持續控制艏向／橫移；不可只靠主機舵在碼頭前急轉急靠。實際拖船位置及推拉方式須依泊位方向與當時風流決定。",
+    "practicalAnalysis": "本題為高雄港地方港航題。應優先使用考試年度有效海圖、燈表、港區圖及交通管制規定；現行官方資料只作現況對照，不得回推成2003年資料。",
+    "keyPoints": [
+      {
+        "point": "空船風壓面積大、吃水淺",
+        "importance": "essential"
+      },
+      {
+        "point": "進港前確認風流及拖船能力",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船提早建立艏艉控制",
+        "importance": "essential"
+      },
+      {
+        "point": "主機舵與拖船協同",
+        "importance": "essential"
+      },
+      {
+        "point": "低速平行平靠、控制橫向速度",
+        "importance": "essential"
+      },
+      {
+        "point": "風力超過控制能力即延後靠泊",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "港口導航標誌、燈質、位置及能見距資料；現行資料須與2003年燈表區分。"
+      },
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "碼頭及港區設施現況。"
+      },
+      {
+        "title": "高雄港公共水域及浮筒配置資料",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=920",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "港區公共水域、浮筒位置及水深圖。"
+      },
+      {
+        "title": "高雄港船舶進出港管制基準",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0110001&type=-1",
+        "issuer": "交通部法規查詢系統",
+        "supports": "歷史管制基準及能見度限制條文；須核對2003年適用版本。"
+      },
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "港內交通管制、拖船協調及操船安全原則。"
+      },
+      {
+        "title": "高雄港錨泊使用管理規定",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1051",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "現行錨區配置及危險品船專用錨區；非2003年歷史版本。"
+      }
+    ],
+    "limitations": [
+      "題目未提供蓬萊區具體泊位編號、風速及風向角度，無法指定拖船應頂推或拖帶的唯一位置。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已建立操船／港航作答架構並比對官方現行資料",
+          "result": "pass"
+        },
+        {
+          "item": "2003年歷史海圖、燈表、浮筒配置及管制條文",
+          "result": "needs_review"
+        },
+        {
+          "item": "高雄港引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-kaohsiung-waterway-05-answer-v1",
+    "questionId": "92-kaohsiung-waterway-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、燈浮判讀原則\n第二港口2、4、6號燈浮屬港內航道助航標誌，應依2003年高雄港燈表及海圖確認其位置、標誌側別、燈色、燈質、週期與能見距。答題時須分別列出：\n- 2號燈浮：位置座標、紅／綠燈色、閃光特性、週期及能見距。\n- 4號燈浮：位置座標、紅／綠燈色、閃光特性、週期及能見距。\n- 6號燈浮：位置座標、紅／綠燈色、閃光特性、週期及能見距。\n\n二、設置目的\n1. 標示港內航道邊界及安全水域。\n2. 協助船舶辨識航道彎曲、轉向位置及與港池／泊位的相對位置。\n3. 提醒船舶避開淺水、施工區、離岸堤或其他水下障礙。\n4. 在夜間及能見度良好時提供視覺定位；能見度不良時仍須搭配雷達、電子海圖、GNSS及VTS，不得只靠燈浮。\n\n三、引水實務\n通過燈浮時，應依海圖確認浮標是否為側面標誌、其編號及所在航道方向；注意浮標可能因風浪、流及繫鏈而偏移，不能把浮標本體當作精確固定點。船舶應保持安全速度與航道位置，避免過度接近浮標造成碰撞或螺槳捲入繫鏈。\n\n四、歷史資料\n現行導航設施清單及今日燈浮位置可能與2003年不同，不能直接把現行資料當成考題答案。",
+    "practicalAnalysis": "本題為高雄港地方港航題。應優先使用考試年度有效海圖、燈表、港區圖及交通管制規定；現行官方資料只作現況對照，不得回推成2003年資料。",
+    "keyPoints": [
+      {
+        "point": "逐一列2、4、6號燈浮座標及燈質",
+        "importance": "essential"
+      },
+      {
+        "point": "標示燈色、週期、明暗時間與能見距",
+        "importance": "essential"
+      },
+      {
+        "point": "說明航道邊界、轉向及障礙警示用途",
+        "importance": "essential"
+      },
+      {
+        "point": "浮標會有位置擺動，不能視為精確固定點",
+        "importance": "essential"
+      },
+      {
+        "point": "現行燈表不可回推2003年資料",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "港口導航標誌、燈質、位置及能見距資料；現行資料須與2003年燈表區分。"
+      },
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "碼頭及港區設施現況。"
+      },
+      {
+        "title": "高雄港公共水域及浮筒配置資料",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=920",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "港區公共水域、浮筒位置及水深圖。"
+      },
+      {
+        "title": "高雄港船舶進出港管制基準",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0110001&type=-1",
+        "issuer": "交通部法規查詢系統",
+        "supports": "歷史管制基準及能見度限制條文；須核對2003年適用版本。"
+      },
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "港內交通管制、拖船協調及操船安全原則。"
+      },
+      {
+        "title": "高雄港錨泊使用管理規定",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1051",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "現行錨區配置及危險品船專用錨區；非2003年歷史版本。"
+      }
+    ],
+    "limitations": [
+      "缺2003年第二港口燈表與航船布告，無法可靠填入2、4、6號燈浮的具體座標、燈質及能見距。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已建立操船／港航作答架構並比對官方現行資料",
+          "result": "pass"
+        },
+        {
+          "item": "2003年歷史海圖、燈表、浮筒配置及管制條文",
+          "result": "needs_review"
+        },
+        {
+          "item": "高雄港引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-kaohsiung-waterway-06-answer-v1",
+    "questionId": "92-kaohsiung-waterway-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、高雄港外海錨地\n高雄港外海錨地應依當年港務局公布之錨地配置圖及港區規定區分一般商船錨地與危險品船專用錨地。錨地名稱、數量及座標可能隨港區發展調整，答題應以2003年版本為準，不可直接使用今日第一至第四錨區及危險品專用錨區配置。\n\n二、危險品船錨地\n危險品船應依船舶貨物種類、危險等級、船舶尺度及港口管理規定，停泊於指定危險品船錨地，不得任意選擇一般商船錨地。危險品船錨地位置應依當年海圖及錨地公告標示，並注意與港口入口、一般船舶錨地、沿岸設施及航道保持安全距離。\n\n三、兩萬總噸危險品船由第一港口進港的等待位置\n應依當年港務局指定的危險品船錨地及進港管制程序，先在指定錨位等候，不應為縮短航程而在第一港口口門、航道入口或一般錨區自行下錨。若危險品錨地與預定進港港口相距較遠，仍應依管理機關指定錨位，不得自行改選。\n原因包括：\n1. 危險品事故可能造成火災、爆炸、毒性或污染，須與一般船舶及人口密集區保持隔離。\n2. 指定錨地便於港務、海巡、消防及危險品應變單位監控。\n3. 避免錨泊船舶阻塞港口航道、迴船池及其他船舶進出。\n4. 便於依危險品種類、船舶尺度、氣象海象及港口作業順序安排進港。\n\n四、錨泊安全\n下錨前確認水深、底質、錨鏈出鏈長度、風流及周圍船舶；保持錨泊值班與走錨警報，並依港務單位許可及VTS指示行動。",
+    "practicalAnalysis": "本題為高雄港地方港航題。應優先使用考試年度有效海圖、燈表、港區圖及交通管制規定；現行官方資料只作現況對照，不得回推成2003年資料。",
+    "keyPoints": [
+      {
+        "point": "一般錨地與危險品船專用錨地區分",
+        "importance": "essential"
+      },
+      {
+        "point": "危險品船須停指定錨位",
+        "importance": "essential"
+      },
+      {
+        "point": "不得在港口口門或航道任意下錨",
+        "importance": "essential"
+      },
+      {
+        "point": "隔離危險、便於應變及港口交通管理",
+        "importance": "essential"
+      },
+      {
+        "point": "依當年錨地圖及公告核對位置",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "港口導航標誌、燈質、位置及能見距資料；現行資料須與2003年燈表區分。"
+      },
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "碼頭及港區設施現況。"
+      },
+      {
+        "title": "高雄港公共水域及浮筒配置資料",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=920",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "港區公共水域、浮筒位置及水深圖。"
+      },
+      {
+        "title": "高雄港船舶進出港管制基準",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0110001&type=-1",
+        "issuer": "交通部法規查詢系統",
+        "supports": "歷史管制基準及能見度限制條文；須核對2003年適用版本。"
+      },
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "港內交通管制、拖船協調及操船安全原則。"
+      },
+      {
+        "title": "高雄港錨泊使用管理規定",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1051",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "現行錨區配置及危險品船專用錨區；非2003年歷史版本。"
+      }
+    ],
+    "limitations": [
+      "缺2003年高雄港外海錨地配置圖及危險品錨地公告，不能確定當年錨區數量、座標及兩萬總噸船的指定錨位。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已建立操船／港航作答架構並比對官方現行資料",
+          "result": "pass"
+        },
+        {
+          "item": "2003年歷史海圖、燈表、浮筒配置及管制條文",
+          "result": "needs_review"
+        },
+        {
+          "item": "高雄港引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "92-kaohsiung-waterway-07-answer-v1",
+    "questionId": "92-kaohsiung-waterway-07",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "依交通部法規資料庫所載歷史版《高雄港船舶進出港管制基準》，能見度低於下列標準時，得暫停船舶進出港：\n1. **第一港口：小於1,000公尺**，即第一信號台至第一港口防波堤口的能見度基準。\n2. **第二港口：小於1浬**，即VTC塔台至第二港口防波堤口的能見度基準。\n\n此管制基準的用意，是確保船舶在港口狹窄入口及防波堤口能有足夠視距辨識航道、標誌、他船及防波堤位置。能見度低於標準時，應依港口管制命令暫停進出港；不得以雷達或AIS設備作為自行豁免管制的理由。\n\n**歷史版本提醒：** 上述1,000公尺／1浬數值見於民國93年修訂的官方歷史條文。題目為民國92年（2003年）考題，應再核對民國92年當時版本是否已採相同門檻；未取得原始版本前，作為參考答案並標示待核。",
+    "practicalAnalysis": "本題為高雄港地方港航題。應優先使用考試年度有效海圖、燈表、港區圖及交通管制規定；現行官方資料只作現況對照，不得回推成2003年資料。",
+    "keyPoints": [
+      {
+        "point": "第一港口小於1,000m",
+        "importance": "essential"
+      },
+      {
+        "point": "第二港口小於1浬",
+        "importance": "essential"
+      },
+      {
+        "point": "依港口管制命令暫停進出港",
+        "importance": "essential"
+      },
+      {
+        "point": "雷達／AIS不能自行豁免管制",
+        "importance": "essential"
+      },
+      {
+        "point": "須核對民國92年歷史版本",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港導航及通訊設施現況",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "港口導航標誌、燈質、位置及能見距資料；現行資料須與2003年燈表區分。"
+      },
+      {
+        "title": "高雄港港埠營運設施總表",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "碼頭及港區設施現況。"
+      },
+      {
+        "title": "高雄港公共水域及浮筒配置資料",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=920",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "港區公共水域、浮筒位置及水深圖。"
+      },
+      {
+        "title": "高雄港船舶進出港管制基準",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0110001&type=-1",
+        "issuer": "交通部法規查詢系統",
+        "supports": "歷史管制基準及能見度限制條文；須核對2003年適用版本。"
+      },
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "港內交通管制、拖船協調及操船安全原則。"
+      },
+      {
+        "title": "高雄港錨泊使用管理規定",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1051",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "supports": "現行錨區配置及危險品船專用錨區；非2003年歷史版本。"
+      }
+    ],
+    "limitations": [
+      "已取得之官方歷史條文版本為民國93年8月19日修訂；本題為民國92年考試，需取得前一版原文確認兩港口能見度門檻是否相同。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "已建立操船／港航作答架構並比對官方現行資料",
+          "result": "pass"
+        },
+        {
+          "item": "2003年歷史海圖、燈表、浮筒配置及管制條文",
+          "result": "needs_review"
+        },
+        {
+          "item": "高雄港引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  }
+]
