@@ -1766,5 +1766,475 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "089-shiphandling-01-answer-v1",
+    "questionId": "089-shiphandling-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、走錨原因\n1. 錨抓力不足：錨型、錨爪入土能力、錨重或錨鏈長度不足，或錨未確實抓底。\n2. 底質不良：硬底、礫石、岩盤、海草或極軟泥底，均可能降低抓力；底質與錨型不相配亦會走錨。\n3. 外力增加：風力、潮流、浪及船舶受風面積增加，使錨鏈張力超過錨抓力。\n4. 錨泊操作不當：拋錨速度過快、出鏈不足、錨鏈未受控、錨未確實落底，或船舶仍有過大前進速度。\n5. 船舶運動：風向／流向轉變、潮流反轉、浪湧及船舶偏盪（sheering）使錨鏈受力方向反覆改變，造成錨爪翻起。\n6. 水深及錨鏈：水深較深而出鏈長度不足，錨鏈懸垂重量與水平拉力不足，錨桿受力角度不利。\n\n二、測知走錨\n1. 雷達：以固定岸標、雷達目標及平行指標（PI）連續監控船位；若船舶相對固定物持續移動且非正常偏盪，應警覺走錨。\n2. GNSS／電子海圖：設定錨位及警戒圈（anchor watch circle），監看船位是否持續向外移動；警戒圈應考慮船長、出鏈長度及正常偏盪範圍。\n3. 方位及距離：定時測量兩個以上固定物的方位／距離，或以雷達測距交叉確認；單一方位可能受船舶迴旋影響。\n4. 錨鏈狀況：觀察錨鏈方向、張力、出鏈長度及錨鏈是否持續繃緊／震動；錨鏈方向異常改變可能是走錨徵兆。\n5. 船舶運動：若船舶持續偏向下風／下流側，且無法回到正常錨泊迴旋位置，應視為疑似走錨。\n6. 錨泊警報：使用錨泊警報及值班監控，但不得只依賴GPS警報；應以雷達、目視及錨鏈狀況交叉核對。\n\n三、發現後處置\n立即通知船長及駕駛台值班人員，備車、備舵，評估是否收錨重拋、增加出鏈或移至安全錨地；若有碰撞、擱淺或航道阻塞風險，應即通知VTS／港口主管機關並按需要起錨離開。",
+    "practicalAnalysis": "走錨判斷須排除正常偏盪及風流轉向造成的錨泊迴旋；至少以GNSS、雷達固定目標及錨鏈狀態交叉確認。",
+    "keyPoints": [
+      {
+        "point": "風流浪外力超過錨抓力",
+        "importance": "essential"
+      },
+      {
+        "point": "底質、錨型、拋錨及出鏈不當",
+        "importance": "essential"
+      },
+      {
+        "point": "雷達固定目標及PI監控",
+        "importance": "essential"
+      },
+      {
+        "point": "GNSS錨位警戒圈",
+        "importance": "essential"
+      },
+      {
+        "point": "錨鏈方向與張力",
+        "importance": "essential"
+      },
+      {
+        "point": "發現後備車備舵並通知VTS",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO 船舶操縱及操船性能相關資料",
+        "url": "https://www.imo.org/",
+        "issuer": "International Maritime Organization",
+        "supports": "船舶操縱安全、操船性能及海上安全原則。"
+      },
+      {
+        "title": "The Nautical Institute – Bridge Team Management",
+        "url": "https://www.nautinst.org/",
+        "issuer": "The Nautical Institute",
+        "supports": "錨泊、駕駛台團隊管理、操船風險控制及緊急操船實務。"
+      },
+      {
+        "title": "方信雄《船舶引航專論》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "引水作業、港內操船及實務判斷之核心參考書；頁碼須依實際版本核對。"
+      },
+      {
+        "title": "方信雄《航行避碰與操船》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "避碰、操船性能及船舶操縱理論之核心參考書；頁碼須依實際版本核對。"
+      }
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "船舶操縱原理與實務架構",
+          "result": "pass"
+        },
+        {
+          "item": "題目所需個別船舶操縱資料／歷史法規",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "089-shiphandling-02-answer-v1",
+    "questionId": "089-shiphandling-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "超大型船舶靠泊瞬間的接近速度，不能只以風、潮流決定，還須考慮船舶質量、靠泊角度、船體結構、碼頭防舷材及泊位條件。\n\n一、船舶本身\n1. 排水量及慣性：船舶越大、越重，接近速度相同時動能越大，靠泊衝擊能量約與速度平方成正比（E=½mv²）。\n2. 船長、船寬、吃水及船型：船體水下側面積、船首外飄、艏艉形狀與水動力效應，會影響接觸點及靠泊反應。\n3. 裝載狀態：滿載／壓載、縱傾、GM及乾舷會改變慣性、風壓面積及船體受流狀況。\n4. 操縱性能：主機反應、舵效、倒俥能力、側推器及拖船配置，決定船舶能否在最後階段修正速度與角度。\n\n二、環境與水域\n1. 水深與淺水效應：淺水、狹水道及岸壁效應可能改變船體阻力、偏轉力矩及停船性能。\n2. 風流及浪：風壓中心與水下側壓中心的相對位置會造成偏轉；橫流可能使船體橫移，即使縱向速度很低仍有碰撞風險。\n3. 泊位前水域：迴旋空間、鄰船、航道、碼頭端部及水域限制，決定可否提前減速與調整角度。\n\n三、碼頭及防舷材\n1. 防舷材型式、數量、位置、吸能能力及允許反力。\n2. 碼頭結構設計靠泊能量、樁基／岸壁承載能力及局部突出硬點。\n3. 船舶與防舷材接觸角度及接觸點；船首或船尾先碰可能造成局部集中負荷。\n\n四、操船控制\n應先控制船舶縱向速度，再控制橫向接近速度與接觸角；使用拖船控制艏艉、必要時以主機及舵修正。最後靠泊速度應由泊位設計能量、船舶排水量及防舷材性能反推，不能套用單一固定速度。",
+    "practicalAnalysis": "靠泊能量與速度平方成正比，因此大型船舶最後階段應採極低接近速度；實際限值應依碼頭設計資料及船舶尺度決定。",
+    "keyPoints": [
+      {
+        "point": "船舶排水量與動能",
+        "importance": "essential"
+      },
+      {
+        "point": "接近速度平方關係",
+        "importance": "essential"
+      },
+      {
+        "point": "船型、吃水、裝載及操縱性能",
+        "importance": "essential"
+      },
+      {
+        "point": "水深、淺水、岸壁效應與風流",
+        "importance": "essential"
+      },
+      {
+        "point": "防舷材吸能及碼頭容許反力",
+        "importance": "essential"
+      },
+      {
+        "point": "接觸角度與艏艉橫移",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO 船舶操縱及操船性能相關資料",
+        "url": "https://www.imo.org/",
+        "issuer": "International Maritime Organization",
+        "supports": "船舶操縱安全、操船性能及海上安全原則。"
+      },
+      {
+        "title": "The Nautical Institute – Bridge Team Management",
+        "url": "https://www.nautinst.org/",
+        "issuer": "The Nautical Institute",
+        "supports": "錨泊、駕駛台團隊管理、操船風險控制及緊急操船實務。"
+      },
+      {
+        "title": "方信雄《船舶引航專論》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "引水作業、港內操船及實務判斷之核心參考書；頁碼須依實際版本核對。"
+      },
+      {
+        "title": "方信雄《航行避碰與操船》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "避碰、操船性能及船舶操縱理論之核心參考書；頁碼須依實際版本核對。"
+      }
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "船舶操縱原理與實務架構",
+          "result": "pass"
+        },
+        {
+          "item": "題目所需個別船舶操縱資料／歷史法規",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "089-shiphandling-03-answer-v1",
+    "questionId": "089-shiphandling-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、無拖船時的離泊\n船舶右舷靠泊，風由船艉方向吹來，屬艉風，可能使船舶向前推進並增加船尾離岸／船首貼岸或船首偏轉風險；實際受力仍取決於上層建築及風壓中心位置。\n\n1. 離泊前評估風力、流向、泊位兩端空間、鄰船及船舶螺槳旋向；備車備舵，確認主機及舵機正常。\n2. 先保留艏纜或艉纜作為控制纜，依船舶螺槳效應及泊位空間安排spring line，防止船舶不受控前後移動。\n3. 若需使船尾先離岸，可利用艏倒纜／艏spring控制船舶樞轉，配合主機短暫進退車及舵角，使船尾逐步離開碼頭；若需船首先離岸，則反向選擇控制纜及支點。\n4. 不可同時解掉所有纜繩；應逐條解纜並保持至少一條有效控制纜，確認船體已有安全間隙後再解最後控制纜。\n5. 船舶完全離岸後，於足夠水域以主機、舵及船舶迴旋性能調頭；避免在狹窄水域急轉，並注意船尾外掃及螺槳流。\n\n二、有拖船時\n1. 先與拖船約定位置、拖帶方式、通訊及緊急停止口令。\n2. 拖船可在船首或船尾提供橫向推力／拖力，協助船舶離岸並控制艏向；另一端可用spring line及主機舵保持支點。\n3. 依風力方向安排拖船抵抗風壓，防止船舶被吹回碼頭或撞向鄰船。\n4. 船舶離岸後，拖船控制艏艉轉向，主機舵配合完成調頭；轉向時確認拖纜不進入螺槳危險區。\n5. 拖船解拖前，確認船舶已取得足夠操縱速度及安全水域。\n\n三、關鍵原則\n先確保船舶受控、逐步建立離岸間隙，再調頭；不能僅依風向假設船首／船尾必然如何漂移，應依實際風壓中心、螺槳旋向及泊位幾何決定spring與拖船配置。",
+    "practicalAnalysis": "題目未給單螺槳／雙螺槳、螺槳旋向、泊位方向及風力，故以通用操船原則說明；實際spring選擇須依船舶操縱資料調整。",
+    "keyPoints": [
+      {
+        "point": "保留控制纜及spring line",
+        "importance": "essential"
+      },
+      {
+        "point": "先建立離岸間隙再調頭",
+        "importance": "essential"
+      },
+      {
+        "point": "利用主機舵及螺槳效應",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船提供橫向力並控制艏艉",
+        "importance": "essential"
+      },
+      {
+        "point": "避免拖纜進入螺槳區",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO 船舶操縱及操船性能相關資料",
+        "url": "https://www.imo.org/",
+        "issuer": "International Maritime Organization",
+        "supports": "船舶操縱安全、操船性能及海上安全原則。"
+      },
+      {
+        "title": "The Nautical Institute – Bridge Team Management",
+        "url": "https://www.nautinst.org/",
+        "issuer": "The Nautical Institute",
+        "supports": "錨泊、駕駛台團隊管理、操船風險控制及緊急操船實務。"
+      },
+      {
+        "title": "方信雄《船舶引航專論》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "引水作業、港內操船及實務判斷之核心參考書；頁碼須依實際版本核對。"
+      },
+      {
+        "title": "方信雄《航行避碰與操船》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "避碰、操船性能及船舶操縱理論之核心參考書；頁碼須依實際版本核對。"
+      }
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "船舶操縱原理與實務架構",
+          "result": "pass"
+        },
+        {
+          "item": "題目所需個別船舶操縱資料／歷史法規",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "089-shiphandling-04-answer-v1",
+    "questionId": "089-shiphandling-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、一般Williamson Turn\n一般Williamson Turn用於人員落水等需要返回原航跡的情況：舵向落水側打滿；艏向偏離原航向約60°時，舵打反向；艏向接近反向航向（約180°）時，舵回正，並依船舶操縱性能微調，使船舶返回原航跡。\n\n二、VLCC需修正的原因\nVLCC具有巨大慣性、較長旋迴直徑、較長停船距離及較慢舵效反應。若直接採用中小型船常用的60°／180°固定轉舵點，船舶可能因轉向延遲及旋迴慣性而越過原航跡，無法準確返回落水位置。\n\n三、VLCC修正方法\n1. 不應機械套用固定60°及180°舵角點，應以船舶實際操縱資料、舵效及旋迴試驗結果決定。\n2. 提前開始反舵：考慮VLCC轉向反應慢，應在較小偏航角時提前反舵，避免轉向過度。\n3. 反向舵角可採分段控制，觀察艏向變化率（ROT）及船位，避免大角度反舵造成過度修正。\n4. 以GPS／雷達監控原航跡及落水點，必要時配合平行指標；在回轉後段以小幅舵角及主機控制對準原航跡。\n5. 若風流明顯，應修正風流漂移並考慮對地航跡與艏向的差異。\n6. 船舶回到原航向後，仍須調整速度及操船方式，避免高速通過落水位置。\n\n四、實務原則\nVLCC應依船舶操縱手冊、Wheelhouse Poster及實際試航資料，制定適合本船的修正Williamson Turn；核心是較早反舵、依ROT控制轉向率，並以位置而非只看艏向判斷是否回到原航跡。",
+    "practicalAnalysis": "Williamson Turn的舵角及偏航角轉換點會因船型及操縱性能而變化；本題沒有指定VLCC型號，不能提供單一通用修正角度。",
+    "keyPoints": [
+      {
+        "point": "VLCC慣性大、旋迴直徑大、舵效反應慢",
+        "importance": "essential"
+      },
+      {
+        "point": "固定60°／180°轉舵點未必適用",
+        "importance": "essential"
+      },
+      {
+        "point": "提早反舵並依ROT調整",
+        "importance": "essential"
+      },
+      {
+        "point": "GPS／雷達監控原航跡",
+        "importance": "essential"
+      },
+      {
+        "point": "依本船Wheelhouse Poster及操縱資料",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO 船舶操縱及操船性能相關資料",
+        "url": "https://www.imo.org/",
+        "issuer": "International Maritime Organization",
+        "supports": "船舶操縱安全、操船性能及海上安全原則。"
+      },
+      {
+        "title": "The Nautical Institute – Bridge Team Management",
+        "url": "https://www.nautinst.org/",
+        "issuer": "The Nautical Institute",
+        "supports": "錨泊、駕駛台團隊管理、操船風險控制及緊急操船實務。"
+      },
+      {
+        "title": "方信雄《船舶引航專論》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "引水作業、港內操船及實務判斷之核心參考書；頁碼須依實際版本核對。"
+      },
+      {
+        "title": "方信雄《航行避碰與操船》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "避碰、操船性能及船舶操縱理論之核心參考書；頁碼須依實際版本核對。"
+      }
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "船舶操縱原理與實務架構",
+          "result": "pass"
+        },
+        {
+          "item": "題目所需個別船舶操縱資料／歷史法規",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "089-shiphandling-05-answer-v1",
+    "questionId": "089-shiphandling-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、套筒式螺槳（ducted propeller）基本原理\n套筒式螺槳在螺槳外圍設置導管（通常為Kort nozzle），導管可使螺槳周圍水流加速並產生額外推力，尤其在低速、高推力及拖帶工況較有利；但高速航行時導管阻力可能抵銷其優勢。\n\n(1) 推進效率\n低速、高負荷時，導管可提高推力及推進效率，常見於拖船及低速工作船；高速航行時導管本身阻力增加，普通螺槳可能較有效率。\n\n(2) 大舵角旋轉\n導管若固定不隨舵轉動，舵後流場及螺槳推力方向改變有限；若為可轉向導管／導管舵（steerable nozzle），可將推力方向偏轉，低速旋迴能力通常較佳。必須先確認題目所指導管型式。\n\n(3) 航向安定性\n固定導管會影響船尾流場與水動力阻尼，對航向安定性的影響取決於導管形狀、舵配置及船體設計，不能概括認定一定較穩或較不穩。\n\n(4) 舵效\n普通螺槳的滑流直接沖擊舵面，可在低速時提供舵效；導管式螺槳將水流集中於導管內，若舵位於導管後方，舵效仍可良好，但舵與導管的相對位置會影響效果。可轉向導管則可直接改變推力方向。\n\n(5) 倒俥時船艏偏向\n倒車時螺槳推力方向及伴流改變，艏偏向仍受螺槳旋向、船體、舵及導管設計影響。導管可能改變倒車流場及橫向力，不能只憑「有導管」推定船艏偏向方向；應依單螺槳旋向及本船操縱資料判斷。\n\n二、比較結論\n導管螺槳優勢在低速大推力、拖帶及可轉向導管的低速操縱；普通螺槳通常較適合較高航速。大舵角、航向安定性及倒車艏偏向須結合固定／可轉向導管、舵型與螺槳旋向判斷。",
+    "practicalAnalysis": "題目未說明導管是固定式或可轉向式、舵在導管前後及螺槳旋向；答案將條件分開說明，避免把兩種系統混為一談。",
+    "keyPoints": [
+      {
+        "point": "導管低速大推力優勢",
+        "importance": "essential"
+      },
+      {
+        "point": "高速導管阻力",
+        "importance": "essential"
+      },
+      {
+        "point": "固定導管與可轉向導管差異",
+        "importance": "essential"
+      },
+      {
+        "point": "舵效受滑流及舵導管配置影響",
+        "importance": "essential"
+      },
+      {
+        "point": "倒車艏偏向依螺槳旋向及船型判斷",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO 船舶操縱及操船性能相關資料",
+        "url": "https://www.imo.org/",
+        "issuer": "International Maritime Organization",
+        "supports": "船舶操縱安全、操船性能及海上安全原則。"
+      },
+      {
+        "title": "The Nautical Institute – Bridge Team Management",
+        "url": "https://www.nautinst.org/",
+        "issuer": "The Nautical Institute",
+        "supports": "錨泊、駕駛台團隊管理、操船風險控制及緊急操船實務。"
+      },
+      {
+        "title": "方信雄《船舶引航專論》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "引水作業、港內操船及實務判斷之核心參考書；頁碼須依實際版本核對。"
+      },
+      {
+        "title": "方信雄《航行避碰與操船》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "避碰、操船性能及船舶操縱理論之核心參考書；頁碼須依實際版本核對。"
+      }
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "船舶操縱原理與實務架構",
+          "result": "pass"
+        },
+        {
+          "item": "題目所需個別船舶操縱資料／歷史法規",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "089-shiphandling-06-answer-v1",
+    "questionId": "089-shiphandling-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "calculation",
+    "modelAnswer": "一、已知資料\n排水量Δ=200,000公噸；初速V₀=4節；停止距離s=1,500m；忽略風、潮及船體阻抗，假設拖船提供恆定、與船舶運動方向相反的淨拖曳力。\n\n二、速度換算\n4節=4×1852/3600=2.0578m/s。\n\n三、以等減速度求減速度\n由運動公式：\nV²=V₀²+2as\n停止時V=0，因此：\na=−V₀²/(2s)=−(2.0578²)/(2×1500)=−0.001411m/s²。\n\n四、所需拖曳力\n質量m=200,000,000kg。\nF=m|a|=200,000,000×0.001411\n≈282,200N。\n換算公噸力：\n282,200÷9,806.65≈28.8 tf。\n\n五、停止時間\nt=(0−V₀)/a=2.0578/0.001411≈1,459秒\n≈24.3分鐘。\n\n六、答案與假設\n理想恆定減速模型下，拖船需提供約**28.8公噸力**的淨反向拖力，約**24.3分鐘**可在1,500m內停止。此數值是船舶所需淨制動力，不等同拖船主機標示的靜態繫柱拉力（Bollard Pull）；實際拖曳效率、拖纜角度、拖船航速及流體阻力均會影響結果。",
+    "practicalAnalysis": "以等減速度及恆定淨拖力計算；題目明確排除風、潮與船體阻抗，因此不再加計流體阻力。",
+    "keyPoints": [
+      {
+        "point": "4節換算2.0578m/s",
+        "importance": "essential"
+      },
+      {
+        "point": "a=V²/(2s)",
+        "importance": "essential"
+      },
+      {
+        "point": "F=ma約28.8tf",
+        "importance": "essential"
+      },
+      {
+        "point": "t=V/a約1459秒",
+        "importance": "essential"
+      },
+      {
+        "point": "淨制動力不等於拖船Bollard Pull",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO 船舶操縱及操船性能相關資料",
+        "url": "https://www.imo.org/",
+        "issuer": "International Maritime Organization",
+        "supports": "船舶操縱安全、操船性能及海上安全原則。"
+      },
+      {
+        "title": "The Nautical Institute – Bridge Team Management",
+        "url": "https://www.nautinst.org/",
+        "issuer": "The Nautical Institute",
+        "supports": "錨泊、駕駛台團隊管理、操船風險控制及緊急操船實務。"
+      },
+      {
+        "title": "方信雄《船舶引航專論》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "引水作業、港內操船及實務判斷之核心參考書；頁碼須依實際版本核對。"
+      },
+      {
+        "title": "方信雄《航行避碰與操船》",
+        "url": "",
+        "issuer": "方信雄",
+        "supports": "避碰、操船性能及船舶操縱理論之核心參考書；頁碼須依實際版本核對。"
+      }
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "船舶操縱原理與實務架構",
+          "result": "pass"
+        },
+        {
+          "item": "題目所需個別船舶操縱資料／歷史法規",
+          "result": "needs_review"
+        },
+        {
+          "item": "引水專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
