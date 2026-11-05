@@ -5068,5 +5068,315 @@
     "sourceId": "moex-086-practical-english",
     "status": "已核對",
     "questionNo": 3
+  },
+  {
+    "id": "085-kaohsiung-waterway-01",
+    "year": 1996,
+    "subject": "當地水道港灣詳情",
+    "port": "麥寮工業專用港",
+    "question": "試繪麥寮工業區專用港設計簡圖，以示防波堤、碼頭、船渠、吸水口等之位置。（25 分）",
+    "sourceId": "moex-085-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "085-kaohsiung-waterway-02",
+    "year": 1996,
+    "subject": "當地水道港灣詳情",
+    "port": "麥寮工業專用港",
+    "question": "試述西碼頭三座碼頭之設計用途、設計長度、設計水深及設計靠泊船噸位。（10 分）",
+    "sourceId": "moex-085-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "085-kaohsiung-waterway-03",
+    "year": 1996,
+    "subject": "當地水道港灣詳情",
+    "port": "麥寮工業專用港",
+    "question": "試述設計導航設備之種類、數目及預設位置。（15 分）",
+    "sourceId": "moex-085-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "085-kaohsiung-waterway-04",
+    "year": 1996,
+    "subject": "當地水道港灣詳情",
+    "port": "麥寮工業專用港",
+    "question": "試述麥寮港附近之 MHWL、SP. RISE、NP. RISE、MSL 及漲落潮流之方向與速率。（10 分）",
+    "sourceId": "moex-085-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "085-kaohsiung-waterway-05",
+    "year": 1996,
+    "subject": "當地水道港灣詳情",
+    "port": "麥寮工業專用港",
+    "question": "西風五級，2,400 匹馬力拖船一艘，總噸位 3,000 噸之化學危險品船，吃水 5 米，如何靠泊北護岸碼頭？（20 分）",
+    "sourceId": "moex-085-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "085-kaohsiung-waterway-06",
+    "year": 1996,
+    "subject": "當地水道港灣詳情",
+    "port": "麥寮工業專用港",
+    "question": "如何引領一艘 15,000 總噸、吃水 10 米之化學品船靠北-1 化學品碼頭？3,200 匹馬力拖船兩艘備便。（20 分）",
+    "sourceId": "moex-085-kaohsiung-waterway",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "085-pilotage-01",
+    "year": 1996,
+    "subject": "引港學",
+    "port": "臺中港、高雄港",
+    "question": "試繪出下列圖例：（20 分）防波堤、海關、暗渠、高架電線、漁港、雷達標、海底管線區、拖底掃測、089°30′ Mds。",
+    "sourceId": "moex-085-pilotage",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "085-pilotage-02",
+    "year": 1996,
+    "subject": "引港學",
+    "port": "臺中港、高雄港",
+    "question": "潮汐中何謂 RISE？何謂 RANGE？請圖示說明：Spring Rise、Mean Spring Rise、Neap Rise、Mean Neap Rise 及 Spring Range、Neap Range、Mean Range、Diurnal Range。（20 分）",
+    "sourceId": "moex-085-pilotage",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "085-pilotage-03",
+    "year": 1996,
+    "subject": "引港學",
+    "port": "臺中港、高雄港",
+    "question": "中國沿海海霧的生成及分佈如何？（20 分）",
+    "sourceId": "moex-085-pilotage",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "085-pilotage-04",
+    "year": 1996,
+    "subject": "引港學",
+    "port": "臺中港、高雄港",
+    "question": "某港全天潮流資料如下，某油輪 DWT 15 萬噸，吃水 16m，求：(1)該日 0900 潮流；(2)該日流速在一節以下可入港之時間。（20 分）資料：0031/0、0326/2.5′f、0619/0、0950/3.1′e、1322/0、1554/3.5′f、1830/0、2201/2.5′e。",
+    "sourceId": "moex-085-pilotage",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "085-pilotage-05",
+    "year": 1996,
+    "subject": "引港學",
+    "port": "臺中港、高雄港",
+    "question": "兩船由 A 趨 B，兩地相距 28 浬，B 在 A 之正南，甲船航速 20 節、乙船航速 15 節，航向均為 180°，經一小時後，甲船在 B 地之 334° 方向，乙船在 B 地之 351° 方向，試以計算法求水流。（20 分）",
+    "sourceId": "moex-085-pilotage",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "085-english-01",
+    "year": 1996,
+    "subject": "實用英文",
+    "port": "臺中港、高雄港",
+    "question": "Please explain the following terms in English:（30 分）(1) Wind Rode (2) Clear Hawse (3) Muster List (4) Bower Anchor (5) “Tender” ship (6) Wake current.",
+    "sourceId": "moex-085-english",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "085-english-02",
+    "year": 1996,
+    "subject": "實用英文",
+    "port": "臺中港、高雄港",
+    "question": "Use the word “ship” to write a sentence in each of the following modes:（20 分）(1) Declarative mode (2) Interrogative mode (3) Exclamatory mode (4) Imperative mode.",
+    "sourceId": "moex-085-english",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "085-english-03",
+    "year": 1996,
+    "subject": "實用英文",
+    "port": "臺中港、高雄港",
+    "question": "Please write a short composition on “Harbor Pilot”.（around 200–300 words）（50 分）",
+    "sourceId": "moex-085-english",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "085-pilot-law-01",
+    "year": 1996,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港",
+    "question": "依據引水法第二十條，船長對應招登船之引水人，應有那些配合措施，俾利領航？如有違反，船長可受到何種處分？（10 分）",
+    "sourceId": "moex-085-pilot-law",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "085-pilot-law-02",
+    "year": 1996,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港",
+    "question": "引水人執行領航業務有那些情事，當地航政主管機關得停止其領航業務一個月至一年？（10 分）",
+    "sourceId": "moex-085-pilot-law",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "085-pilot-law-03",
+    "year": 1996,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港",
+    "question": "某商港引水人於港外領航時，發現航道外側附近有一小型漁船擱淺，船上有立待救助之人。依據引水有關法規，引水人應採取那些行動或措施？（10 分）",
+    "sourceId": "moex-085-pilot-law",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "085-pilot-law-04",
+    "year": 1996,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港",
+    "question": "某商港興建中，預期營運之初，仍有鄰他港引水區引水人之支援。按現行引水有關法規，有何措施使得他港引水人，能在此新建商港引水區，合法地執行領航業務？（10 分）",
+    "sourceId": "moex-085-pilot-law",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "085-pilot-law-05",
+    "year": 1996,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港",
+    "question": "設某離島缺水，自來水公司租用某巴拿馬（PANAMA）籍運水船，自本島某國際商港運水至離島之國內商港待命。依據商港法第二條，該船出入該兩港，有何不同之管理規定？（10 分）",
+    "sourceId": "moex-085-pilot-law",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "085-pilot-law-06",
+    "year": 1996,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港",
+    "question": "本（八十五）年一月十日公布修正商港法第十二條條文，將原可由中華民國業者優先興建或租賃經營部分商港設施之權利予以刪除，請說明其意義何在？（10 分）",
+    "sourceId": "moex-085-pilot-law",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "085-pilot-law-07",
+    "year": 1996,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港",
+    "question": "請依據國際商港港務管理規則第六條，說明到港船舶有關檢疫、查驗地點之規定事項。（10 分）",
+    "sourceId": "moex-085-pilot-law",
+    "status": "已核對",
+    "questionNo": 7
+  },
+  {
+    "id": "085-pilot-law-08",
+    "year": 1996,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港",
+    "question": "請依據海難救護機構組織及作業辦法第三章（海難救護作業程序）有關條文之規定，說明商港管理機關在得知那種情形之海難時，應儘速指派或出動船艇前往救助？（10 分）",
+    "sourceId": "moex-085-pilot-law",
+    "status": "已核對",
+    "questionNo": 8
+  },
+  {
+    "id": "085-pilot-law-09",
+    "year": 1996,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港",
+    "question": "請說明國際海上避碰規則第十三條，有關追越（OVERTAKING）之規定事項。（10 分）",
+    "sourceId": "moex-085-pilot-law",
+    "status": "已核對",
+    "questionNo": 9
+  },
+  {
+    "id": "085-pilot-law-10",
+    "year": 1996,
+    "subject": "航政法規",
+    "port": "臺中港、高雄港",
+    "question": "在能見度受限制之情形下，一船僅能在雷達上發現他船而有碰撞危機時，自應即早採取各種避碰措施。如必須以改變航向來防止碰撞，問此項改變航向之措施，應儘可能避免那些事項？（10 分）",
+    "sourceId": "moex-085-pilot-law",
+    "status": "已核對",
+    "questionNo": 10
+  },
+  {
+    "id": "085-shiphandling-01",
+    "year": 1996,
+    "subject": "船舶操縱",
+    "port": "臺中港、高雄港",
+    "question": "何謂岸壁效應（BANK EFFECT）？並列舉出在何種情況下其效應最為顯著。（10 分）",
+    "sourceId": "moex-085-shiphandling",
+    "status": "已核對",
+    "questionNo": 1
+  },
+  {
+    "id": "085-shiphandling-02",
+    "year": 1996,
+    "subject": "船舶操縱",
+    "port": "臺中港、高雄港",
+    "question": "港內操船利用拖船協助調頭時，有那幾種配置方式？試分述其利弊。（10 分）",
+    "sourceId": "moex-085-shiphandling",
+    "status": "已核對",
+    "questionNo": 2
+  },
+  {
+    "id": "085-shiphandling-03",
+    "year": 1996,
+    "subject": "船舶操縱",
+    "port": "臺中港、高雄港",
+    "question": "試說明船舶接近碼頭的速度有那些可供判定的方法？又接靠碼頭的角度有那些需要考慮的因素？（15 分）",
+    "sourceId": "moex-085-shiphandling",
+    "status": "已核對",
+    "questionNo": 3
+  },
+  {
+    "id": "085-shiphandling-04",
+    "year": 1996,
+    "subject": "船舶操縱",
+    "port": "臺中港、高雄港",
+    "question": "船舶迴轉性能受船舶本身影響之因素有那些？其迴轉力矩可用何種公式表示？設若船舶經改裝船身加長後，在限制水域中運轉應如何操縱以策安全？試述之。（15 分）",
+    "sourceId": "moex-085-shiphandling",
+    "status": "已核對",
+    "questionNo": 4
+  },
+  {
+    "id": "085-shiphandling-05",
+    "year": 1996,
+    "subject": "船舶操縱",
+    "port": "臺中港、高雄港",
+    "question": "何謂 DIRECTIONALLY UNSTABLE SHIP？那些船有這種特性？試述在操縱上應注意那些事項。（15 分）",
+    "sourceId": "moex-085-shiphandling",
+    "status": "已核對",
+    "questionNo": 5
+  },
+  {
+    "id": "085-shiphandling-06",
+    "year": 1996,
+    "subject": "船舶操縱",
+    "port": "臺中港、高雄港",
+    "question": "何謂 FROUDE’S NUMBER？何謂 SQUAT？何以超大型船舶在淺水中不發生 SQUAT 之現象？（15 分）",
+    "sourceId": "moex-085-shiphandling",
+    "status": "已核對",
+    "questionNo": 6
+  },
+  {
+    "id": "085-shiphandling-07",
+    "year": 1996,
+    "subject": "船舶操縱",
+    "port": "臺中港、高雄港",
+    "question": "某輪總噸位 9,500 噸，滿載時排水量 17,101 噸，SEA SPEED 18 KTS 時 RPM 為 110，BHP 為 9,628，HARBOR SPEED 之 RPM 為：DS/40、S/50、H/60、F/80（進倒俥一樣），於前進惰力 3KTS 情況下，求應於距泊位 N 旗前多少公尺開始以半速倒俥，適可將船於 N 旗處停住？風、流及船體等阻抗因素不列入考量。（20 分）",
+    "sourceId": "moex-085-shiphandling",
+    "status": "已核對",
+    "questionNo": 7
   }
 ]
