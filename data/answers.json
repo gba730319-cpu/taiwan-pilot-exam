@@ -8714,5 +8714,85 @@
       ]
     },
     "lastUpdated": "2026-11-05"
+  },
+  {
+    "id": "106-kaohsiung-waterway-06-answer-v1",
+    "questionId": "106-kaohsiung-waterway-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "**一、拖船馬力及艘數（依105年1月20日高雄港歷史規定）**\n\n| 船舶總噸位 | 進、出港拖船配置 |\n|---|---|\n| 8,000 GT | 2,400 HP × 1艘，或1,800 HP × 2艘 |\n| 12,000 GT | 2,400 HP × 1艘＋1,800 HP × 1艘 |\n| 25,000 GT | 3,200 HP × 1艘＋2,400 HP × 1艘 |\n| 50,000 GT | 4,000 HP × 1艘，或3,200 HP × 2艘 |\n| 70,000 GT | 4,000 HP以上拖船3艘（含5,200 HP級拖船） |\n\n**二、尖峰時段優先調派順序**\n1. 經通報核准候潮進港船舶優先。\n2. 台船進出塢及貨櫃輪進出港優先於一般船舶。\n3. 同一碼頭進出港，以先出後進為原則。\n4. 進出港船舶優先於移泊船舶（台船碼頭移泊亦同）。\n5. 無動力船舶進港或移泊，待上述作業完成、有空檔時再安排。\n\n具有正常運作橫向推進器的船舶，得依規定申請酌減拖船，但須經港務分公司核准；特殊天候、重載或現場風險可要求增派。以上表格依106年考試時有效的歷史版本，不可直接以後續修訂表取代。",
+    "practicalAnalysis": "依105年1月20日高雄港務分公司港勤拖船調派規定附件三。分級完整範圍為：未滿5,000GT 1,800HP×1；5,000–10,000GT 2,400HP×1或1,800HP×2；10,000–15,000GT 2,400HP及1,800HP各1；15,000–30,000GT 3,200HP及2,400HP各1；30,000–45,000GT 3,200HP×2或2,400HP×3；45,000–60,000GT 4,000HP×1或3,200HP×2；60,000GT以上4,000HP以上（含5,200HP）×3。",
+    "keyPoints": [
+      {
+        "point": "8,000GT：2,400HP×1或1,800HP×2",
+        "importance": "essential"
+      },
+      {
+        "point": "12,000GT：2,400HP及1,800HP各1",
+        "importance": "essential"
+      },
+      {
+        "point": "25,000GT：3,200HP及2,400HP各1",
+        "importance": "essential"
+      },
+      {
+        "point": "50,000GT：4,000HP×1或3,200HP×2",
+        "importance": "essential"
+      },
+      {
+        "point": "70,000GT：4,000HP以上×3",
+        "importance": "essential"
+      },
+      {
+        "point": "尖峰優先五項：候潮、台船及貨櫃輪、先出後進、進出港優先移泊、無動力船最後",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "高雄港務分公司港勤拖船調派規定（附件三）",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "editionOrEffectiveDate": "104至105年修正版",
+        "url": "https://www.lawinsider.com/zh/contracts/BI3mvONOlc",
+        "pageOrSection": "附件三：拖船調派對照表及尖峰優先順序",
+        "accessedAt": "2026-11-05",
+        "supports": "各噸位拖船配置及尖峰調派順序。"
+      },
+      {
+        "title": "106年甲種引水人（高雄港）當地水道港灣詳情考題",
+        "sourceType": "official_port_or_authority",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "2017",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=106060&q=1&s=1003&t=Q",
+        "pageOrSection": "第6題",
+        "accessedAt": "2026-11-05",
+        "supports": "題目年度及考題內容。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-05",
+      "checks": [
+        {
+          "item": "拖船噸位對照表已核對105年1月20日修正版",
+          "result": "pass"
+        },
+        {
+          "item": "尖峰優先順序五項已核對歷史附件三",
+          "result": "pass"
+        },
+        {
+          "item": "歷史版本與後續修訂版已區分",
+          "result": "pass"
+        },
+        {
+          "item": "獨立港勤拖船專業複核",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-05"
   }
 ]
