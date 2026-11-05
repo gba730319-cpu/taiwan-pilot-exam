@@ -45,7 +45,7 @@ export default function Home() {
   const [port, setPort] = useState("高雄港");
   const items = questions as Question[];
   const sources = sourceData as Source[];
-  const sourceById = useMemo(() => new Map(sources.map((s) => [s.id, s])), [sources]);
+  const sourceById = useMemo(() => new Map(sources.map((s) => [s.id, s] as const)), [sources]);
   const years = useMemo(
     () => ["全部年度", ...Array.from(new Set(items.map((q) => String(q.year)))).sort((a, b) => Number(b) - Number(a))],
     [items]
