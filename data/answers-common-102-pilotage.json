@@ -591,5 +591,123 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "102-pilotage-06-answer-v1",
+    "questionId": "102-pilotage-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "meteorology_essay",
+    "modelAnswer": "【一、雷雨雲（西北雨）之形成概念】\n\n雷雨雲主要由積雨雲（Cumulonimbus, Cb）發展而成。當地面受日照加熱，近地面暖濕空氣因浮力上升，或受到地形、鋒面、海風輻合等作用抬升，空氣上升膨脹冷卻，水氣凝結形成積雲；若對流持續發展，雲體便逐漸增高並形成雷雨雲。\n\n一般單一雷雨胞（Thunderstorm Cell）的生命週期可分為三個階段：發展期（積雲期）、成熟期及消散期。一般單一雷雨胞的生命史約數十分鐘至一小時，但若由多個雷雨胞接續生成，整個雷雨系統可持續更久。\n\n【二、第一階段：發展期／積雲期（Cumulus Stage）】\n\n1. **主要氣流：**雲體內以強烈上升氣流（Updraft）為主，暖濕空氣持續由近地面向上輸送。\n2. **雲體發展：**上升空氣因氣壓降低而膨脹冷卻，達到露點後水氣凝結，形成積雲；凝結釋放潛熱，使空氣浮力增加，進一步加強上升運動。\n3. **雲型特徵：**積雲迅速向上發展，呈塔狀或花椰菜狀，雲頂逐漸增高，最後可能發展成積雨雲。\n4. **天氣現象：**此階段通常尚無明顯地面降雨，或僅有少量降水；雲內已可能有強烈亂流及垂直氣流。\n5. **發展條件：**需要持續暖濕空氣供應及足夠不穩定度；若上升氣流被抑制，積雲可能停止發展，不一定形成雷雨。\n\n【三、第二階段：成熟期（Mature Stage）】\n\n1. **主要氣流：**雲體內同時存在強烈上升氣流及下降氣流（Downdraft），為雷雨胞最旺盛、危險性最高的階段。\n2. **降水形成：**雲內水滴、冰晶及冰雹等降水粒子逐漸長大，當其重量超過上升氣流支撐能力，便開始下降；降水拖曳周圍空氣下沉，形成下降氣流。\n3. **強烈天氣：**常出現短時間強降雨、雷電、強陣風、局部冰雹及能見度急遽降低；強烈下降氣流到達地面後向四周擴散，可能形成陣風鋒（Gust Front）或下擊暴流（Downburst）。\n4. **雲體外觀：**雲體高度快速增加，雲頂可能到達對流層頂後向外擴展，形成砧狀雲（Anvil）。\n5. **雷電形成：**雲內水滴、冰晶及霰粒碰撞，使電荷分離並累積，形成雲內或雲地放電，產生閃電與雷聲。\n6. **此階段特性：**上升與下降氣流並存，降雨及雷電最強，是船舶航行及港內操船應特別警戒的時段。\n\n【四、第三階段：消散期（Dissipating Stage）】\n\n1. **主要氣流：**下降氣流逐漸占據整個雲體，上升氣流減弱或被切斷。\n2. **水氣供應中斷：**下降氣流及冷空氣外流阻斷近地面暖濕空氣進入雲體，使雷雨胞失去維持對流的能量來源。\n3. **降雨減弱：**強降雨逐漸轉為較弱降雨，雷電及陣風活動減少，但仍可能有短暫殘留降水或外流陣風。\n4. **雲體消散：**積雨雲逐漸失去垂直發展能力，雲體由下往上減弱，最後可能只剩高空砧狀雲或薄雲殘留。\n5. **後續影響：**即使雷雨雲本體已減弱，冷空氣外流及陣風鋒仍可能向外傳播，對附近海域、船舶及港區造成短暫風向及風速變化。\n\n【五、對臺灣西北雨及海事操船之影響】\n\n1. 臺灣夏季午後地面受熱，暖濕空氣因熱對流及地形抬升形成積雲，常發展成局部雷雨胞，造成俗稱「西北雨」的短時強降雨。\n2. 雷雨胞成熟時可能出現強陣風、風向突變、短時間強降雨、雷擊及能見度驟降，船舶應特別注意。\n3. 陣風鋒或下擊暴流可能在雷雨雲抵達前後造成突發風力變化，港內大型船舶靠離泊時應預留安全水域及拖船支援。\n4. 船舶應密切觀察雷達回波、氣象雷達、衛星雲圖及港區風速風向資訊；如雷雨胞接近，應評估減速、暫停靠離泊、停止甲板作業或移至安全水域。\n5. 雷雨雲的單一胞生命史雖然不長，但多胞連續生成時，降雨及陣風影響可持續較久，不能只因一個雷雨胞減弱便判斷天氣已完全恢復安全。\n\n【結論】\n\n雷雨雲由發展期、成熟期及消散期三階段組成。發展期以暖濕空氣上升及積雲垂直發展為主；成熟期上升與下降氣流並存，出現強降雨、雷電及陣風，為最危險階段；消散期則因下降氣流切斷暖濕空氣供應，上升氣流減弱，降雨及雷電逐漸消失。臺灣夏季西北雨常由局部雷雨胞造成，船舶應注意突發陣風、風向變化、雷擊及能見度降低，並依氣象資訊及時調整操船計畫。",
+    "practicalAnalysis": "本題15分，三階段各約5分。發展期＝只有上升氣流、積雲塔狀成長、通常尚無明顯地面降雨；成熟期＝上升與下降氣流並存、強降雨雷電陣風最強，可能形成Gust Front／Downburst；消散期＝下降氣流占優勢、切斷暖濕氣流供應、降雨減弱、雲體消散。加分可補西北雨成因與海事風險：午後熱對流、地形抬升、陣風鋒、突發風向變化及能見度下降。",
+    "keyPoints": [
+      {
+        "point": "雷雨胞三階段：發展期／積雲期、成熟期、消散期。",
+        "importance": "essential",
+        "explanation": "單一雷雨胞生命史通常為數十分鐘至一小時，並非固定時間。"
+      },
+      {
+        "point": "發展期：暖濕空氣強烈上升，水氣凝結釋放潛熱，積雲快速向上發展，通常尚無明顯地面降雨。",
+        "importance": "essential",
+        "explanation": "主要氣流為Updraft。"
+      },
+      {
+        "point": "成熟期：Updraft與Downdraft同時存在，降雨粒子下落形成下降氣流，出現強降雨、雷電、陣風及可能冰雹。",
+        "importance": "essential",
+        "explanation": "最旺盛且最危險階段。"
+      },
+      {
+        "point": "成熟期下降氣流抵達地面向外擴散，形成Gust Front或Downburst。",
+        "importance": "supporting",
+        "explanation": "可能造成突發風速及風向變化。"
+      },
+      {
+        "point": "消散期：Downdraft占優勢，切斷暖濕空氣供應，上升氣流減弱，降雨及雷電逐漸消失。",
+        "importance": "essential",
+        "explanation": "雲體逐漸消散，可能殘留砧狀雲。"
+      },
+      {
+        "point": "臺灣西北雨常由夏季午後熱對流、地形抬升及局部輻合造成。",
+        "importance": "supporting",
+        "explanation": "具有局部性、短時強降雨特徵。"
+      },
+      {
+        "point": "海事風險包括雷擊、陣風、風向突變、能見度降低及下擊暴流。",
+        "importance": "essential",
+        "explanation": "靠離泊及甲板作業應及早調整或暫停。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Life Cycle of a Thunderstorm",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Oceanic and Atmospheric Administration",
+        "url": "https://www.noaa.gov/jetstream/thunderstorms/life-cycle-of-thunderstorm",
+        "supports": "雷雨胞發展期、成熟期及消散期之氣流、降水與雲體變化。"
+      },
+      {
+        "title": "Thunderstorm Life Cycle",
+        "sourceType": "official_port_or_authority",
+        "issuer": "U.S. National Weather Service",
+        "url": "https://www.weather.gov/spotterguide/life",
+        "supports": "三階段特徵、Updraft、Downdraft、Gust Front及成熟期危險天氣。"
+      },
+      {
+        "title": "Severe Weather 101: Thunderstorm Basics",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA National Severe Storms Laboratory",
+        "url": "https://www.nssl.noaa.gov/education/svrwx101/thunderstorms/",
+        "supports": "雷雨胞三階段、雲內電荷分離、閃電及消散機制。"
+      },
+      {
+        "title": "102年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國102年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=802&code=102070&q=1&s=0805&t=Q",
+        "pageOrSection": "引港學第六題",
+        "supports": "核對原題及15分配分。"
+      }
+    ],
+    "assumptions": [
+      "本題雷雨雲依一般單一對流雷雨胞（Ordinary Thunderstorm Cell）三階段生命史解釋。",
+      "西北雨依臺灣夏季局部午後對流降雨現象解讀，並補充對港內操船之風險。"
+    ],
+    "limitations": [
+      "多胞雷雨系統可能由不同生命階段的雷雨胞組成，整個雷雨系統的持續時間可遠長於單一雷雨胞。",
+      "成熟期雲頂高度、生命史長度及降雨強度會依環境不穩定度、垂直風切及水氣供應而變化，不設定固定高度或時間。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "發展期",
+          "result": "pass",
+          "note": "依NOAA雷雨生命史及NWS資料核對上升氣流、積雲發展及少雨特徵。"
+        },
+        {
+          "item": "成熟期",
+          "result": "pass",
+          "note": "依NOAA/NWS資料核對上升及下降氣流並存、強降雨、雷電、陣風及Gust Front。"
+        },
+        {
+          "item": "消散期",
+          "result": "pass",
+          "note": "依NOAA資料核對下降氣流切斷暖濕氣流供應及雲體消散。"
+        },
+        {
+          "item": "海事影響補充",
+          "result": "pass",
+          "note": "依成熟期陣風鋒、下擊暴流及能見度變化之氣象機制整理。"
+        },
+        {
+          "item": "原題及配分",
+          "result": "pass",
+          "note": "依考選部102年引港學第六題核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
