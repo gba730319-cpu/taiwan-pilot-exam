@@ -490,5 +490,102 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "098-pilotage-05-answer-v1",
+    "questionId": "98-pilotage-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "calculation",
+    "modelAnswer": "【一、已知條件】\n\n起點：0800 DR，緯度00°00′N、經度120°00′E。\n\n航行順序：\n1. 航向000°，航程1,800浬。\n2. 轉向090°，航程1,800浬。\n3. 轉向180°，航程1,800浬。\n\n假設航向為真航向，航程為對水或對地計算之理想航程，忽略風、流、羅經差、航速誤差及其他外力。\n\n【二、第一段：航向000°，北航1,800浬】\n\n沿經線向北航行，1分緯度約等於1浬。\n\n\\[\n\\Delta Lat=\\frac{1800}{60}=30^\\circ\n\\]\n\n起點緯度00°00′N，向北增加30°：\n\n\\[\nLat_1=00^\\circ00'N+30^\\circ00'=30^\\circ00'N\n\\]\n\n經度不變：\n\n\\[\nLong_1=120^\\circ00'E\n\\]\n\n第一段終點：30°00′N，120°00′E。\n\n【三、第二段：航向090°，沿30°N向東航行1,800浬】\n\n本段沿緯線航行，使用平行航法（Parallel Sailing）：\n\n\\[\nD=\\Delta Long\\times60\\times\\cos Lat\n\\]\n\n因此：\n\n\\[\n\\Delta Long=\\frac{D}{60\\cos Lat}\n\\]\n\n代入D=1,800浬、Lat=30°N：\n\n\\[\n\\Delta Long=\\frac{1800}{60\\times\\cos30^\\circ}\n\\]\n\n\\[\n=\\frac{1800}{60\\times0.8660254}\n=34.6410^\\circ\n\\]\n\n換算為度分：\n\n\\[\n0.6410^\\circ\\times60=38.46'\n\\]\n\n所以：\n\n\\[\n\\Delta Long\\approx34^\\circ38.46'\n\\]\n\n向東航行，經度增加：\n\n\\[\nLong_2=120^\\circ00'E+34^\\circ38.46'\n=154^\\circ38.46'E\n\\]\n\n緯度仍為30°00′N。\n\n第二段終點：30°00′N，154°38.46′E。\n\n【四、第三段：航向180°，南航1,800浬】\n\n沿經線向南航行：\n\n\\[\n\\Delta Lat=\\frac{1800}{60}=30^\\circ\n\\]\n\n由30°00′N向南減少30°：\n\n\\[\nLat_3=30^\\circ00'N-30^\\circ00'=00^\\circ00'\n\\]\n\n經度不變：\n\n\\[\nLong_3=154^\\circ38.46'E\n\\]\n\n【五、最後到達位置】\n\n\\[\n\\boxed{00^\\circ00'N\\quad154^\\circ38.46'E}\n\\]\n\n換算至秒約為：\n\n\\[\n\\boxed{00^\\circ00'00''N\\quad154^\\circ38'28''E}\n\\]\n\n【六、答案檢核】\n\n1. 第一段北航1,800浬，緯度由00°N增加至30°N。\n2. 第二段在30°N沿緯線東航1,800浬，經度增加34°38.46′，不是直接以1,800/60=30°計算；因緯線長度隨緯度增加而縮短，故經度差必須除以cos30°。\n3. 第三段南航1,800浬，緯度由30°N回到00°N，經度維持不變。\n4. 因航線沒有跨越180°經線，經度仍以東經表示。\n\n【結論】\n\n本船最後到達位置為：\n\n\\[\n\\boxed{Lat\\ 00^\\circ00'N,\\quad Long\\ 154^\\circ38.46'E}\n\\]\n\n本題關鍵是第二段須使用平行航法，不能將1,800浬直接換算成30°經度；在30°N緯度上，經度差應為34°38.46′。",
+    "practicalAnalysis": "本題20分，三段航程中第一、三段沿經線，1,800浬各代表30°緯度；第二段沿30°N緯線向東，必須用平行航法D=ΔLong×60×cosL，因此ΔLong=1800/(60cos30°)=34°38.46′。最後緯度回到00°N，經度由120°E增加至154°38.46′E。最常見錯誤是把第二段1,800浬直接當成30°經度，漏掉cos30°修正。",
+    "keyPoints": [
+      {
+        "point": "第一段沿經線北航1,800浬，緯度增加1,800/60=30°，到30°00′N、120°00′E。",
+        "importance": "essential",
+        "explanation": "經線上1分緯度約等於1浬。"
+      },
+      {
+        "point": "第二段沿30°N緯線東航，使用D=ΔLong×60×cosL。",
+        "importance": "essential",
+        "explanation": "平行航法須乘cos緯度。"
+      },
+      {
+        "point": "第二段經度差ΔLong=1800/(60cos30°)=34.6410°=34°38.46′。",
+        "importance": "essential",
+        "explanation": "不可直接把1800浬換成30°經度。"
+      },
+      {
+        "point": "第三段沿經線南航1,800浬，緯度減少30°，回到00°00′N，經度不變。",
+        "importance": "essential",
+        "explanation": "經線航行不改變經度。"
+      },
+      {
+        "point": "最後位置為00°00′N、154°38.46′E（約154°38′28″E）。",
+        "importance": "essential",
+        "explanation": "沒有跨越180°經線。"
+      }
+    ],
+    "references": [
+      {
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "textbook_or_academic",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "pageOrSection": "Plane Sailing and Parallel Sailing",
+        "supports": "經線航行、緯差、平行航法及經度差計算公式。"
+      },
+      {
+        "title": "Nautical Almanac and Navigation",
+        "sourceType": "textbook_or_academic",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "supports": "航海計算中緯度、經度及平行航法之基本原理。"
+      },
+      {
+        "title": "98年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國98年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=703&code=098090&q=2&s=c721&t=Q",
+        "pageOrSection": "引港學第五題",
+        "supports": "確認原題起點、三段航向及各段航程。"
+      }
+    ],
+    "assumptions": [
+      "航向000°、090°及180°均視為真航向。",
+      "三段航程均視為理想航程，忽略風、流、羅經差、航速誤差及地球橢球修正。",
+      "第二段090°航行視為沿30°N緯線航行，使用球面平行航法。"
+    ],
+    "limitations": [
+      "若實際航行存在風流壓差，DR位置與實際船位會不同；本題未提供風流資料，故不作航跡修正。",
+      "計算採球面航海近似，對本題一般航海考試精度已足夠。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "第一段經線航法",
+          "result": "pass",
+          "note": "1800浬/60=30°，緯度到30°N。"
+        },
+        {
+          "item": "第二段平行航法",
+          "result": "pass",
+          "note": "1800/(60cos30°)=34.6410°=34°38.46′。"
+        },
+        {
+          "item": "第三段經線航法",
+          "result": "pass",
+          "note": "南航30°回到赤道，經度不變。"
+        },
+        {
+          "item": "最後位置",
+          "result": "pass",
+          "note": "00°00′N、154°38.46′E，換算約154°38′28″E。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
