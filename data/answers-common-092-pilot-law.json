@@ -358,7 +358,7 @@
         "sourceType": "law_or_regulation",
         "issuer": "全國法規資料庫／歷史法規",
         "editionOrEffectiveDate": "2002-01-30",
-        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0002006&type=-1",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=H0028005&type=-1",
         "pageOrSection": "第31、34至38條",
         "supports": "引水人遇險通報義務、業務過失致死傷及船舶沉沒或破壞之刑責、行政警告及收回執業證書。"
       },
@@ -367,7 +367,7 @@
         "sourceType": "law_or_regulation",
         "issuer": "總統府公報／全國法規資料庫歷史法規",
         "editionOrEffectiveDate": "2003-01-02",
-        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=H0028005&type=-1",
+        "url": "https://www.president.gov.tw/Page/294/34863",
         "pageOrSection": "第32、40、47條",
         "supports": "港區事故通報、緩輪慢行及違反相關義務之行政罰。"
       },
@@ -385,6 +385,24 @@
         "issuer": "International Maritime Organization",
         "pageOrSection": "Chapter V, Regulation 33",
         "supports": "船長收到海上遇險人員求救資訊後，在不嚴重危及本船及船上人員前提下，應以全速前往協助。"
+      },
+      {
+        "title": "商港法（民國69年制定公布）",
+        "sourceType": "law_or_regulation",
+        "issuer": "總統府公報",
+        "editionOrEffectiveDate": "1980-05-02",
+        "url": "https://www.president.gov.tw/Page/294/37932",
+        "pageOrSection": "第40條及港區航行安全規定",
+        "supports": "商港法原始條文及港區船舶緩輪慢行等基本規範；搭配後續修正公報判讀考試時點適用條文。"
+      },
+      {
+        "title": "商港法增訂、刪除並修正條文（民國90年11月21日公布）",
+        "sourceType": "law_or_regulation",
+        "issuer": "總統府公報",
+        "editionOrEffectiveDate": "2001-11-21",
+        "url": "https://www.president.gov.tw/Page/294/34863",
+        "pageOrSection": "第47條",
+        "supports": "核對民國92年考試時有效之第47條罰鍰規定，列舉第32條及第37至42條違規處罰。"
       }
     ],
     "assumptions": [
@@ -429,6 +447,11 @@
           "item": "民事責任比例及個別刑事責任",
           "result": "needs_review",
           "note": "須依實際事證、因果關係、僱傭及營運關係認定，題目未提供足夠資料。"
+        },
+        {
+          "item": "歷史法規來源連結與法規名稱對應",
+          "result": "pass",
+          "note": "重新以交通部法規系統核對LawID：H0028005為民國91年1月30日修正之引水法；原先引水法與商港法參考網址曾對調，已更正並補入商港法官方公報。"
         }
       ]
     },
