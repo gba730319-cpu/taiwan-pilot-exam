@@ -1,0 +1,128 @@
+[
+  {
+    "id": "094-shiphandling-03-answer-v1",
+    "questionId": "94-shiphandling-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "calculation",
+    "modelAnswer": "【一、Equipment Number（屬具數）的定義】\n\n屬具數（Equipment Number，EN）是船級規範用來衡量船舶錨泊、繫泊及拖帶設備需求的指標。其目的在於以船舶排水量、船寬、上層建築高度及水線以上側投影面積，概括估算船舶受到風力與水流作用的程度，再依屬具數查表決定錨、錨鏈及相關設備的規格。\n\n屬具數不是總噸位（G/T），也不是船舶重量本身；它是依規範公式計算的無因次設備選配指標。\n\n【二、屬具數公式】\n\n一般貨船常用公式：\n\nEN=Δ^(2/3)+2.0hB+A/10\n\n其中：\n\n- Δ：船舶在夏季載重線（Summer Load Waterline）時的型排水量，單位公噸（t）。\n- B：船舶型寬（m）。\n- h：夏季載重線至最上層甲板室頂部的有效高度（m）。\n- A：夏季載重線以上，位於規範船長範圍內，且符合規定寬度條件之船體、上層建築及甲板室側投影面積（m²）。\n\n有效高度h通常由夏季載重線至上甲板，再加上符合規定寬度條件之各層甲板室高度計算。各船級社規範對煙囪、特殊甲板室及寬度門檻可能有細部補充，應依適用版本認定。\n\n【三、公式各項的物理意義】\n\n（一）Δ^(2/3)：代表船舶水線以下船體受流作用的概括尺度。排水量愈大，水下船體尺度通常愈大，所受水流作用也愈顯著。\n\n（二）2hB：以船寬B及有效高度h概括船舶水線以上縱向受風面積。船寬及上層建築高度愈大，側向受風面積通常愈大。\n\n（三）A/10：將水線以上船體及上層建築的側投影面積納入計算，反映船舶側向風壓受力面積。\n\n因此，屬具數同時考量船舶水下受流尺度及水上受風尺度，並非單純以船長或總噸位決定設備。\n\n【四、屬具數的用途】\n\n計算出EN後，依適用船級規範的Equipment Table查得或決定：\n1. 船首錨的重量、型式及數量。\n2. 錨鏈直徑、等級及總長度。\n3. 錨鏈附件、卸扣及相關連接設備。\n4. 繫泊纜、拖纜及其相關設備的規格或最低要求。\n\n錨型可依規範採普通錨（ordinary anchor）、高抓力錨（HHP）或其他經認可型式。不同錨型的抓力性能不同，不能只憑相同重量就認為抓力相同。\n\n【五、第二部分：起錨時間】\n\n題目條件：\n- 無風、無流。\n- 錨已離開海床（anchor aweigh）。\n- 題目記載「兩節在甲板」。\n- 要求估算將錨收至錨穴（home/stowed position）的時間。\n\n錨機（windlass）規範性能可作估算依據。船級規範常見要求為：在錨及錨鏈懸空、測試起始有至少三節錨鏈（3 shots，82.5m）浸水的條件下，量測兩節錨鏈的平均起升速度，平均速度不得低於9m/min（約0.15m/s）。此為錨機性能試驗基準，不代表每艘船實際操作均固定以9m/min起升。\n\n若題目欲表達「尚須起升兩節錨鏈」且以27.5m為一節（shot），則待起升鏈長：\n\nL=2×27.5=55m\n\n以9m/min估算：\n\nt=L/V=55/9=6.11 min\n\n因此，**兩節錨鏈的理論起升時間約6.1分鐘**。\n\n但題目原文「兩節在甲板」按字面可理解為兩節錨鏈已經收在甲板上，與「尚有兩節錨鏈待起升」並不相同。若兩節已在甲板，題目並未交代錨鏈剩餘懸垂長度、錨至錨唇距離、錨機實際速度及錨穴收妥時間，故無法唯一算出完整收錨時間。應在考試答案中明確列出上述假設，不可將6.1分鐘說成不附條件的唯一答案。\n\n【六、作答結論】\n\n屬具數公式為：\n\nEN=Δ^(2/3)+2.0hB+A/10\n\nΔ^(2/3)代表水下船體受流尺度；2hB及A/10代表水線以上側向受風尺度。計算後依規範表決定錨、錨鏈、繫泊及拖帶設備規格。\n\n錨機平均起升速度常見規範最低基準為9m/min。若假設尚有兩節、共55m錨鏈待起升，所需時間約6.1分鐘；但題目「兩節在甲板」的語意及剩餘鏈長不明，完整收錨時間須有實際剩餘鏈長、錨機速度及錨穴收妥時間才能精確計算。",
+    "practicalAnalysis": "第一部分為規範公式題，需寫出Δ、B、h、A的定義及各項物理意義，並說明EN需查設備表，不可直接等同G/T。第二部分題目資料不足，尤其「兩節在甲板」可能是已收上甲板的鏈長，而非尚待起升鏈長。IACS及船級規範的9m/min是特定錨機試驗條件下的平均起升速度基準；若考題意圖以兩節55m作為待起升長度，才可算得約6.1分鐘。答案因此提供條件式計算並揭示資料缺口。",
+    "keyPoints": [
+      {
+        "point": "屬具數EN用於決定錨、錨鏈及相關繫泊／拖帶設備規格，不等同G/T。",
+        "importance": "essential"
+      },
+      {
+        "point": "公式EN=Δ^(2/3)+2hB+A/10。",
+        "importance": "essential"
+      },
+      {
+        "point": "Δ為夏季載重線排水量；B為型寬；h為夏季載重線至最上層甲板室頂部的有效高度；A為水線以上側投影面積。",
+        "importance": "essential"
+      },
+      {
+        "point": "Δ^(2/3)概括水下受流尺度，2hB與A/10概括水線以上受風尺度。",
+        "importance": "essential"
+      },
+      {
+        "point": "EN計算後須依適用規範設備表查得錨重、錨鏈直徑及長度等，不能僅靠公式直接得出所有設備規格。",
+        "importance": "essential"
+      },
+      {
+        "point": "錨機常見平均起升速度最低基準9m/min，試驗條件為錨及鏈懸空並有規定鏈長浸水。",
+        "importance": "essential"
+      },
+      {
+        "point": "若尚待起升兩節、每節27.5m，55/9約6.1分鐘；若兩節已在甲板，剩餘鏈長不明，不能直接套用。",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IACS Unified Requirements A1: Anchoring Equipment",
+        "sourceType": "other",
+        "issuer": "International Association of Classification Societies (IACS)",
+        "editionOrEffectiveDate": "UR A1, Rev.8, 2023",
+        "url": "https://iacs.s3.af-south-1.amazonaws.com/wp-content/uploads/2023/08/10161943/ur-a1rev8.pdf",
+        "pageOrSection": "A1.2 Equipment number and anchoring equipment table",
+        "supports": "EN公式、Δ、B、h、A定義，以及依EN查表決定錨與錨鏈設備。"
+      },
+      {
+        "title": "A1.2 Equipment number and anchoring equipment table",
+        "sourceType": "other",
+        "issuer": "IACS Unified Requirements",
+        "url": "https://phlconnect.ched.gov.ph/admin/uploads/1e913e1b06ead0b66e30b6867bf63549/IACS-Unified-Requirements-Anchoring-fittings-and-Windlass.pdf",
+        "pageOrSection": "A1.2.1",
+        "supports": "EN=Δ^(2/3)+2hB+A/10公式及有效高度、側投影面積定義。"
+      },
+      {
+        "title": "Rules for the Classification of Ships, Part 9: Machines",
+        "sourceType": "other",
+        "issuer": "Croatian Register of Shipping",
+        "editionOrEffectiveDate": "July 2022",
+        "url": "https://www.crs.hr/Portals/0/adam/KlasifikacijskaPravila/QqpmU_zWzEekrpmM5HNJnw/Dokument/Rules%20for%20the%20Classification%20of%20Ships%2C%20Pt.%209%2C%20Machines%2C%2007_2022.pdf",
+        "pageOrSection": "Windlasses, Hoisting Speed",
+        "supports": "錨及錨鏈起升平均速度至少9m/min，以及兩節鏈長、三節初始浸水鏈長的試驗條件。"
+      },
+      {
+        "title": "2025 Rules for the Classification of Steel Ships, Part 5: Machinery Installations, Chapter 8",
+        "sourceType": "other",
+        "issuer": "Korean Register",
+        "editionOrEffectiveDate": "2025",
+        "url": "https://www.krs.co.kr/KRRules/KRRules2025/data/data_part/english/PART%205_2025.pdf",
+        "pageOrSection": "Ch.8 Windlasses and Mooring Winches",
+        "supports": "錨機平均起升速度至少0.15m/s及測試條件。"
+      },
+      {
+        "title": "94年專門職業及技術人員特種考試引水人船舶操縱試題",
+        "sourceType": "official_port_or_authority",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=343&code=094080&q=1&s=4001&t=Q",
+        "supports": "本題原始題目及屬具數、起錨時間問題敘述。"
+      }
+    ],
+    "assumptions": [
+      "公式採一般貨船IACS Equipment Number基本形式；特殊船型、煙囪或特殊上層建築依適用船級規範補充。",
+      "兩節錨鏈按每節27.5m計，合計55m。",
+      "條件式起升時間採9m/min作為錨機平均起升速度基準。",
+      "條件式6.1分鐘只計錨鏈直線起升時間，不含錨體進入錨唇、錨穴對位、停機及固定時間。"
+    ],
+    "limitations": [
+      "題目未提供船舶排水量、型寬、有效高度及側投影面積，因此無法代數計算特定船舶EN數值。",
+      "題目未清楚說明兩節錨鏈是已收在甲板上，或尚待起升的鏈長；亦未提供錨機實際起升速度及錨至錨穴距離，故完整收錨時間無唯一數值解。",
+      "9m/min為特定規範試驗條件下的平均速度要求，不應直接視為所有船舶、所有負載及整段收錨過程的固定速度。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "Equipment Number公式及參數定義",
+          "result": "pass",
+          "note": "依IACS UR A1核對EN=Δ^(2/3)+2hB+A/10及參數定義。"
+        },
+        {
+          "item": "Equipment Number物理意義",
+          "result": "pass",
+          "note": "依IACS文件及學術研究核對水下受流與水上受風尺度的意義。"
+        },
+        {
+          "item": "錨機平均起升速度",
+          "result": "pass",
+          "note": "船級規範常見基準為至少9m/min，並有規定的兩節量測及三節初始浸水試驗條件。"
+        },
+        {
+          "item": "兩節錨鏈時間計算",
+          "result": "needs_review",
+          "note": "只有在兩節55m為尚待起升鏈長時，才可用55/9=6.11min。"
+        },
+        {
+          "item": "原題『兩節在甲板』語意及完整起錨時間",
+          "result": "needs_review",
+          "note": "缺少剩餘鏈長、錨機速度及錨穴收妥時間，無法唯一計算。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
