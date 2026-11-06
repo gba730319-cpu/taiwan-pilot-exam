@@ -77,7 +77,7 @@
         "title": "94年專門職業及技術人員特種考試引水人船舶操縱試題",
         "sourceType": "official_port_or_authority",
         "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=343&code=094080&q=1&s=4001&t=Q",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=343&code=094080&q=3&s=4001&t=Q",
         "supports": "本題原始題目及屬具數、起錨時間問題敘述。"
       }
     ],
@@ -126,6 +126,11 @@
           "item": "兩節在甲板之操作語意與條件式時間重算",
           "result": "needs_review",
           "note": "按已收進兩節解讀；若假設每舷總計10節，尚餘8節×27.5m=220m，220/9=24.44分鐘。總節數未見於題幹，故不將24.4分鐘標為唯一答案。"
+        },
+        {
+          "item": "考選部原題PDF題號連結",
+          "result": "pass",
+          "note": "已核對答案對應第3題，將官方試題PDF網址參數由錯誤題號修正為 q=3。"
         }
       ]
     },
