@@ -1,0 +1,215 @@
+[
+  {
+    "id": "092-english-01-answer-v1",
+    "questionId": "92-english-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "【參考中譯】\n鑑於全球恐怖主義行為日益增加，對所有相關方面而言，立即開始建立實施海事保安會議決議所需的各項基礎建設，包括立法、行政及作業措施，無疑是明智之舉。這些工作必須有條理、有系統，並應儘速完成，不應等到 2004 年 7 月 1 日生效日期才開始。倉促且拖到最後一刻才採取行動，不僅可能正中這些措施所欲防範之人的下懷，也可能導致未符合 SOLAS 公約及 ISPS Code 適用要求的船舶，其航行或港口活動受到限制。\n\nIMO 特別提醒 SOLAS 締約國政府注意新訂 SOLAS 第 XI-2/9 條「管制與符合措施」，以及 ISPS Code 中相應的要求與指引；並提醒各國，船舶若在 2004 年 7 月 1 日之後被發現不符合上述要求，可能面臨嚴重後果。對於港口作業在類似情況下可能受到的影響，也應進行評估，並採取適當的改正措施。\n\n【重要詞彙】\n1. worldwide escalation：全球範圍內日益增加／升高。\n2. put in place：建立、設置、付諸實施。\n3. legislative, administrative and operational measures：立法、行政及作業措施。\n4. give effect to：使……生效／落實……。\n5. methodically and systematically：有條理且有系統地。\n6. entry-into-force date：生效日期。\n7. play into the hands of：正中……下懷。\n8. compliance：符合規定、遵循要求。\n9. repercussions：後果、影響。\n10. corrective action：改正措施。",
+    "practicalAnalysis": "翻譯時要掌握海事法律文件的正式語氣，SOLAS、ISPS Code 及 regulation XI-2/9 應保留正確專有名稱。句子很長時可依語意切分，但不可漏譯因果、時間及條件關係。",
+    "keyPoints": [
+      {
+        "point": "put in place 指建立或落實制度，不宜直譯為放置。",
+        "importance": "essential"
+      },
+      {
+        "point": "give effect to 指使決議或規定得以實施。",
+        "importance": "essential"
+      },
+      {
+        "point": "play into the hands of 指正中某人下懷。",
+        "importance": "essential"
+      },
+      {
+        "point": "entry into force 是法規／公約生效，不等同通過或採納。",
+        "importance": "essential"
+      },
+      {
+        "point": "repercussions 指嚴重後果或影響。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      "IMO SOLAS 1974, Chapter XI-2",
+      "International Ship and Port Facility Security (ISPS) Code"
+    ],
+    "assumptions": [
+      "以正式海事法規文件語體翻譯，保留公約及規則編號。"
+    ],
+    "limitations": [
+      "翻譯可有不同措辭；本答案以語意準確、適合考試書寫為原則。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "原文句意及專業詞彙翻譯",
+          "result": "source_checked"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "092-english-02-answer-v1",
+    "questionId": "92-english-02",
+    "version": 1,
+    "language": "en",
+    "answerType": "definition",
+    "modelAnswer": "【Corrected sentences】\n(1) Line companies always prefer to have their disputes settled at home rather than abroad.\n(2) Most salvage operations include the removal of a greater or lesser quantity of water from one or more compartments of a casualty.\n(3) The ISPS Code contains detailed security-related requirements for governments, port authorities and shipping companies in its mandatory section (Part A).\n(4) Inmarsat Fleet F77 has benefited end users by providing information on applications and advice on optimization.\n\n【Correction notes】\n(1) Remove the incorrect auxiliary structure “is always prefer”; use “always prefer”. “Disputes settled” is a natural passive construction, and “abroad” is more idiomatic than “away” in this context.\n(2) “Operations” is plural, so use “include”; “remove” must be the noun “removal”; use “one or more compartments”; correct the spelling of “compartments”. “A greater or lesser quantity” is the formal expression.\n(3) “Code” is singular, so use “contains”; “detail” becomes “detailed”; “security relate” becomes “security-related”; “governments”, “authorities” and “companies” are plural forms; “in its mandatory section” refers to Part A.\n(4) “Fleet F77” is singular, so use “has benefited”; “benefite” becomes “benefited”; “informations” is uncountable and becomes “information”; “advise” is a verb, while the required noun is “advice”; remove the stray numeral “1”.",
+    "practicalAnalysis": "本題主要考主詞動詞一致、詞性轉換、可數與不可數名詞、拼字及正式海事英文搭配。作答時先找主詞與動詞，再檢查名詞單複數、動詞時態、形容詞與副詞，最後檢查拼字及語意。",
+    "keyPoints": [
+      {
+        "point": "Line companies：複數主詞，使用 prefer。",
+        "importance": "essential"
+      },
+      {
+        "point": "removal 為名詞；include 與 plural subject operations 一致。",
+        "importance": "essential"
+      },
+      {
+        "point": "The ISPS Code contains：單數主詞搭配 contains。",
+        "importance": "essential"
+      },
+      {
+        "point": "information、advice 均為不可數名詞；advise 是動詞。",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      "Maritime English usage and standard English grammar"
+    ],
+    "assumptions": [
+      "以保留原句核心意思、修正文法及專業搭配為原則。"
+    ],
+    "limitations": [
+      "第（1）句的 home 可依語境指本國／本地；若原文意指仲裁地，可進一步改寫為 in their home country。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "四句文法、詞性及拼字修正",
+          "result": "source_checked"
+        },
+        {
+          "item": "第（1）句 home／abroad 的語境",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "092-english-03-answer-v1",
+    "questionId": "92-english-03",
+    "version": 1,
+    "language": "en",
+    "answerType": "translation",
+    "modelAnswer": "(1) 引航 — Pilotage\nSentence: Pilotage is required for certain vessels entering or leaving the port.\n中文：特定船舶進出港時必須接受引航。\n\n(2) 保養計畫 — Maintenance plan\nSentence: The chief engineer prepared a maintenance plan for the main engine and auxiliary machinery.\n中文：輪機長為主機及輔機擬定保養計畫。\n\n(3) 不可抗力 — Force majeure\nSentence: The shipowner shall not be liable for delay caused by force majeure, subject to the terms of the contract and applicable law.\n中文：船東對因不可抗力所造成的延誤，應依契約條款及適用法律判斷是否免責。\n\n(4) 故意擱淺 — Intentional grounding / Deliberate grounding\nSentence: The master ordered the intentional grounding of the vessel to prevent it from sinking in deep water.\n中文：船長下令故意將船舶擱淺，以避免船舶在深水中沉沒。\n\n(5) 海的危難 — Perils of the sea\nSentence: The vessel sustained damage due to perils of the sea during the voyage.\n中文：船舶在航程中因海上危難而受損。\n\n【用語提醒】\nPilotage 指引航業務或引航制度；pilot 是引水人。Force majeure 是法律及契約常用語。Intentional grounding 與 deliberate grounding 均可表達故意擱淺；在海事法律及保險語境中，perils of the sea 是常見固定用語。",
+    "practicalAnalysis": "中翻英時應選擇海事法律及航運文件常用搭配，而非逐字翻譯。每個詞彙造句要展示其正確詞性及海事情境；涉及免責或保險時，句子應保留 subject to applicable law 等限制，避免把法律效果說成絕對。",
+    "keyPoints": [
+      {
+        "point": "引航：pilotage；引水人：pilot。",
+        "importance": "essential"
+      },
+      {
+        "point": "保養計畫：maintenance plan。",
+        "importance": "essential"
+      },
+      {
+        "point": "不可抗力：force majeure。",
+        "importance": "essential"
+      },
+      {
+        "point": "故意擱淺：intentional grounding 或 deliberate grounding。",
+        "importance": "essential"
+      },
+      {
+        "point": "海的危難：perils of the sea。",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      "IMO／海事法律與航運契約常用英文術語"
+    ],
+    "assumptions": [
+      "採用海事英文及法律文件中常見的標準用語。"
+    ],
+    "limitations": [
+      "特定契約、保險條款或司法管轄區可能對 force majeure、perils of the sea 有專門定義，須依文件脈絡判斷。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "五組海事英文詞彙及例句",
+          "result": "source_checked"
+        },
+        {
+          "item": "perils of the sea 與 force majeure 在特定契約中的法律效果",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "092-english-04-answer-v1",
+    "questionId": "92-english-04",
+    "version": 1,
+    "language": "en",
+    "answerType": "essay",
+    "modelAnswer": "Safe Port and Safe Berth\n\nA safe port is a port that a vessel can reach, use and leave without being exposed to danger that cannot be avoided by good navigation and seamanship. The safety of a port depends on many factors, including weather, tides, currents, water depth, navigational channels, pilotage services, traffic conditions and available port facilities. A port should also provide adequate protection from ordinary seasonal weather conditions and have suitable arrangements for emergencies.\n\nA safe berth is a particular place within a port where a vessel can safely lie alongside, anchor or moor, provided that the vessel is properly handled and operated with reasonable care. The berth must have sufficient depth, adequate under-keel clearance, suitable holding ground or mooring facilities, and enough room for the vessel to approach, turn and depart. The condition of the quay, fenders, bollards and mooring equipment should also be suitable for the vessel's size and condition.\n\nThe distinction between a safe port and a safe berth is important. A port may generally be safe while a particular berth is temporarily unsafe because of insufficient depth, damaged facilities, strong currents or congestion. Likewise, a safe berth does not necessarily make the whole port safe if the approach channel is obstructed or exposed to unacceptable hazards. Before entering a port, the master and pilot should exchange relevant information, check the latest charts and notices, assess weather and tidal conditions, and prepare a suitable passage and berthing plan. Safety must be maintained throughout the vessel's arrival, stay and departure.",
+    "practicalAnalysis": "題目要求至少三段，答案以定義、泊位條件及兩者區別／實務程序三段展開。法律及租船契約語境中 safe port、safe berth 可能涉及保證義務與例外，若考題只要求一般航海英文作文，應以安全航行與泊位條件為主，不宜過度引入特定契約責任。",
+    "keyPoints": [
+      {
+        "point": "Safe port：船舶能安全抵達、使用及離開的港口。",
+        "importance": "essential"
+      },
+      {
+        "point": "Safe berth：港內特定可安全靠泊、錨泊或繫泊的位置。",
+        "importance": "essential"
+      },
+      {
+        "point": "港口安全涉及航道、水深、潮流、氣象、交通及港口設施。",
+        "importance": "essential"
+      },
+      {
+        "point": "泊位安全涉及水深、UKC、繫泊設備、護舷材、繫纜樁及靠離泊空間。",
+        "importance": "essential"
+      },
+      {
+        "point": "港口整體安全與個別泊位安全是不同層次，須分別評估。",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      "Maritime English and charterparty terminology: safe port and safe berth"
+    ],
+    "assumptions": [
+      "以一般海事英文申論為主，非針對特定租船契約的法律意見。"
+    ],
+    "limitations": [
+      "Safe port／safe berth 在租船契約及判例中可能有更精細的法律測試，需依契約文字及適用法域判斷。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "三段英文作文符合題目主旨及段落要求",
+          "result": "source_checked"
+        },
+        {
+          "item": "特定契約法下 safe port／safe berth 的法律定義",
+          "result": "needs_review"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
