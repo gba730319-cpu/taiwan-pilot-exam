@@ -1,0 +1,159 @@
+[
+  {
+    "id": "084-english-03-answer-v1",
+    "questionId": "084-english-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "本題共 10 個海事術語。建議以航海語境翻譯，並用完整句子呈現用法：\n\n| 題號 | 中文 | 建議英文 | 英文例句 |\n|---:|---|---|---|\n| (1) | 暴風軌跡 | storm track / typhoon track | The storm track is expected to turn north-eastward after passing the northern part of the Philippine Sea. |\n| (2) | 氣壓梯度 | pressure gradient | A steep pressure gradient usually produces strong winds. |\n| (3) | 東北季風 | northeast monsoon | The northeast monsoon generally prevails over the waters around Taiwan during winter. |\n| (4) | 應急舵 | emergency steering gear / emergency steering | All deck officers should be familiar with the emergency steering procedure. |\n| (5) | 雷達導燈 | radar beacon aligned with leading lights（暫定；須依原卷／海圖圖例確認） | The vessel should identify the radar beacon and verify the leading lights before entering the channel. |\n| (6) | 危險暗礁 | dangerous submerged rock / dangerous submerged reef | The chart indicates a dangerous submerged rock close to the recommended track. |\n| (7) | 橫向推進器 | transverse thruster / side thruster（艏側推器為 bow thruster） | The transverse thruster can help the vessel move sideways at low speed. |\n| (8) | 球形舵柱 | spherical rudder stock（直譯暫定；非已確認的標準術語） | The spherical rudder stock should be inspected for cracks, wear and abnormal movement. |\n| (9) | 傾斜角 | angle of heel / heel angle | The angle of heel increased when the vessel made a sharp turn. |\n| (10) | 自脫鉤 | automatic release hook（救生筏吊放裝置）；quick-release towing hook（拖船拖鉤語境） | The automatic release hook is designed to release the life raft when it becomes waterborne. |\n\n【術語辨析與考試注意】\n\n1. 「暴風軌跡」若題目泛指風暴路徑，可用 storm track；明確指颱風則 typhoon track 更精確。\n2. 「應急舵」通常指主操舵系統失效時使用的備援操舵設備或程序，emergency steering gear 是設備名稱，emergency steering 是操舵作業／程序。\n3. 「雷達導燈」不是可直接確定的單一標準英文詞。若原意是雷達標杆與導燈共同提供導引，建議寫 radar beacon aligned with leading lights；若只指雷達標杆，應寫 radar beacon。不要將 leading lights 誤當成雷達設備本身。\n4. 「危險暗礁」若按海圖術語，宜表達為 dangerous underwater rock / dangerous submerged rock；若明確是礁體，可用 dangerous submerged reef。海圖上仍須依 IHO 圖例辨認其水深是否已知及是否被認定妨礙水面航行。\n5. 「橫向推進器」是泛稱 transverse thruster 或 side thruster；裝在船艏者才特稱 bow thruster，裝在船艉者為 stern thruster。\n6. 「球形舵柱」字面可譯 spherical rudder stock，但目前未查得足以證明此為通用標準術語的權威詞條。若原卷實際意指舵上的球狀整流部，可能應為 rudder bulb / bulbous rudder；此項須保留疑義，不應將猜測當成確定答案。\n7. 「自脫鉤」須依設備用途區分：救生筏吊放裝置的自動脫離鉤是 automatic release hook；拖船拖纜緊急釋放鉤通常稱 quick-release towing hook。若沒有設備情境，不宜只背一個英文詞。\n\n【考場作答建議】\n每個詞先寫最貼切的主譯，再寫一句文法完整、語意清楚的海事英文。遇到設備名稱，句子要呈現設備用途；遇到氣象或航海現象，句子要呈現其對航行或操船的影響。對第 (5)、(8)、(10) 題，若原卷影像或當年使用教材可供確認，應優先按原始語境定稿。",
+    "practicalAnalysis": "本題測驗的不只是字面翻譯，而是能否將術語放入正確的航海情境。可確定的詞彙包括 storm track、pressure gradient、northeast monsoon、emergency steering gear、dangerous submerged rock、transverse thruster 及 angle of heel。較需審慎處理的是「雷達導燈」、「球形舵柱」與「自脫鉤」：前者可能涉及 radar beacon 與 leading lights 的組合；「球形舵柱」尚未找到可核實的標準詞條；「自脫鉤」則會因救生筏吊放鉤或拖船拖鉤而分別使用 automatic release hook 或 quick-release towing hook。為避免誤導，答案將這些詞標示為暫定或依設備情境選用。",
+    "keyPoints": [
+      {
+        "point": "storm track / typhoon track；pressure gradient；northeast monsoon 三項氣象術語拼寫正確",
+        "importance": "essential"
+      },
+      {
+        "point": "emergency steering gear 指應急操舵設備；emergency steering 可指應急操舵程序",
+        "importance": "essential"
+      },
+      {
+        "point": "dangerous submerged rock / reef 能表達對水面航行構成危險的水下岩礁",
+        "importance": "essential"
+      },
+      {
+        "point": "transverse thruster 為橫向推進器泛稱；bow thruster 與 stern thruster 依安裝位置區分",
+        "importance": "essential"
+      },
+      {
+        "point": "angle of heel 是船舶橫向傾斜角，不應與 trim 或 list 混淆",
+        "importance": "essential"
+      },
+      {
+        "point": "automatic release hook 與 quick-release towing hook 依救生筏或拖船用途區分",
+        "importance": "essential"
+      },
+      {
+        "point": "雷達導燈及球形舵柱目前仍需原始語境或專業詞典複核，不可將暫定譯法當成已確認標準",
+        "importance": "essential"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "totalPoints": 20,
+      "items": [
+        {
+          "criterion": "十個術語的英文翻譯正確且符合航海語境",
+          "points": 10,
+          "basis": "編輯建議配分，每詞1分；非官方評分標準"
+        },
+        {
+          "criterion": "十句例句文法完整、用詞自然且正確呈現術語",
+          "points": 10,
+          "basis": "編輯建議配分，每句1分；非官方評分標準"
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "84年特種考試第二次航海人員、引水人考試—實用英文原卷",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "1995",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=3001&t=Q",
+        "pageOrSection": "第1頁第3題",
+        "supports": "核對本題十個中文術語及原始題目要求。"
+      },
+      {
+        "title": "Marine Chart Symbols and Abbreviations (Chart 1)",
+        "sourceType": "official_chart_or_notice",
+        "issuer": "中華民國國防部／海軍大氣海洋局",
+        "url": "https://www.mnd.gov.tw/newUpload/UserFiles/File/大氣海洋局/海圖圖例(1020730).pdf",
+        "supports": "海圖圖例中對水下岩石、危險水下岩石及雷達相關助航設施的英文術語，可供雷達導引與危險暗礁用語辨析。"
+      },
+      {
+        "title": "List of Lights and Radar Beacons",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部航港局",
+        "editionOrEffectiveDate": "2025",
+        "url": "https://www.scribd.com/document/1073652461/交通部航港局燈塔及助航設施表114年版-1150310勘誤",
+        "supports": "說明航標設施表中 radar beacon 的設備分類與用途；此處只用來辨明 radar beacon 與 leading lights 不應混為同一設備。"
+      },
+      {
+        "title": "LSA Code, Chapter VI, paragraph 6.1.5",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imorules.com/GUID-A0BE4E1A-2B05-4AF0-AA94-F41C3D560DDB.html",
+        "supports": "救生筏吊放裝置須配備 automatic release hook，並說明其於救生筏浮於水面時釋放的功能。"
+      },
+      {
+        "title": "Quick Release Hook",
+        "sourceType": "manufacturer_manual",
+        "issuer": "Posidonia S.r.l.",
+        "url": "https://www.posidonia.com/deck-equipment/quick-release-hook",
+        "supports": "說明拖帶作業中的 quick-release hook 可迅速釋放拖纜，供拖船語境辨析。"
+      },
+      {
+        "title": "Emergency steering",
+        "sourceType": "incident_report",
+        "issuer": "Australian Transport Safety Bureau",
+        "url": "https://www.atsb.gov.au/node?page=92",
+        "supports": "說明 emergency steering 在海事業界通常指由舵機艙進行的應急／就地操舵。"
+      },
+      {
+        "title": "Angle of heel",
+        "sourceType": "official_port_or_authority",
+        "issuer": "United States Coast Guard",
+        "url": "https://www.dco.uscg.mil/Portals/9/DCO%20Documents/5p/5ps/Design%20and%20Engineering%20Standards/Naval%20Architecture%20Division/fr08202008.pdf",
+        "supports": "提供 angle of heel 的船舶傾斜角定義。"
+      }
+    ],
+    "assumptions": [
+      "英文例句以一般商船航行及港口作業為情境，非考選部公布的標準句。",
+      "雷達導燈及球形舵柱之翻譯，因目前缺少可直接確認的權威對照詞條，採暫定譯法並明列替代解釋。",
+      "自脫鉤按救生筏吊放裝置與拖船拖鉤兩種常見設備情境分別說明。"
+    ],
+    "limitations": [
+      "第(5)題「雷達導燈」須以原卷字形、當年海圖圖例或教材確認其究竟指 radar beacon、leading lights，或兩者組合。",
+      "第(8)題「球形舵柱」目前未取得足以確認標準英譯的權威來源；spherical rudder stock 僅為字面暫譯，若原詞實為球形舵／舵球，應改用 rudder bulb 或 bulbous rudder。",
+      "第(10)題「自脫鉤」須依設備類別選詞，不宜將救生筏 automatic release hook 與拖船 quick-release towing hook 視為完全相同。",
+      "本答案為考試參考擬答，非考選部公布之官方解答。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "十個中文術語及題目要求",
+          "result": "pass",
+          "note": "依題庫主檔及考選部官方原卷來源索引核對題目。"
+        },
+        {
+          "item": "氣象、操舵、側推器及傾斜角常用英文",
+          "result": "pass",
+          "note": "採海事常用術語，並以相關官方或專業資料交叉確認。"
+        },
+        {
+          "item": "雷達導燈的確切原意",
+          "result": "needs_review",
+          "note": "需確認 radar beacon 與 leading lights 是否為題目所指的組合。"
+        },
+        {
+          "item": "球形舵柱的標準英文",
+          "result": "needs_review",
+          "note": "目前只可提供字面暫譯，尚無可靠權威詞條確認。"
+        },
+        {
+          "item": "自脫鉤的設備情境",
+          "result": "needs_review",
+          "note": "分列救生筏自動脫離鉤及拖船快速釋放拖鉤兩種術語，仍待原卷教材語境確認。"
+        }
+      ]
+    },
+    "reviewNotes": [
+      "英文術語以海事語境優先，不採逐字直譯。",
+      "第(5)、(8)、(10)題的疑義已在答案中明示，待取得當年教材或更清晰原卷影像再定稿。",
+      "例句為練習用句，非原卷提供的參考答案。"
+    ],
+    "lastUpdated": "2026-11-07"
+  }
+]
