@@ -1,0 +1,99 @@
+[
+  {
+    "id": "091-pilotage-04-answer-v1",
+    "questionId": "091-pilotage-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、法規依據與適用船舶\nSOLAS 1974 第V章第19條（Regulation V/19.2.4）規定，船舶應依船型及總噸位裝設自動識別系統（Automatic Identification System, AIS），適用對象為：\n（一）從事國際航行、總噸位300以上之船舶。\n（二）未從事國際航行、總噸位500以上之貨船。\n（三）不論噸位大小之客船。\n二、裝設時程（以2002年7月1日生效版本為基準）\n（一）2002年7月1日或以後建造之新船，應於交船前裝設AIS。\n（二）2002年7月1日前建造、從事國際航行之既有船舶，依下列時程分階段裝設：\n1. 客船：最遲於2003年7月1日。\n2. 油輪：不得遲於2003年7月1日或其後第一次安全設備檢驗。\n3. 非客船、非油輪，總噸位50,000以上：最遲於2004年7月1日。\n4. 非客船、非油輪，總噸位10,000以上未滿50,000：最遲於2005年7月1日。\n5. 非客船、非油輪，總噸位3,000以上未滿10,000：最遲於2006年7月1日。\n6. 非客船、非油輪，總噸位300以上未滿3,000：最遲於2007年7月1日。\n（三）未從事國際航行、2002年7月1日前建造之適用貨船，最遲於2008年7月1日裝設。\n三、AIS主要功能及應傳送資料\nAIS應能自動向適當岸台、其他船舶及航空器提供本船資料，並自動接收其他裝有AIS船舶之相關資訊，以利船舶監控、追蹤及船岸資料交換。主要資料包括：\n（一）靜態資料：海事識別碼（MMSI）、船名、呼號、IMO編號（如適用）、船舶種類及定位天線位置。\n（二）動態資料：船位、UTC時間、對地航向（COG）、對地航速（SOG）、船首向、轉向率（如設備具備）及航行狀態。\n（三）航次相關資料：吃水、危險貨物種類（依設備與規定輸入）、目的港及預計到達時間等。\n（四）安全相關短訊：供船舶間或船岸間交換航行安全資訊。\nAIS應保持正常運作，但國際協定、規則或標準為保護航行資訊而允許關閉時，得依規定處理；船長仍應確保其操作符合主管機關及船舶安全要求。\n四、ITU指定之AIS VHF頻道\n依ITU-R M.1371-1（2001年8月版）及無線電規則附錄18，國際通用AIS雙頻道為：\n（一）AIS 1：VHF Channel 87B，161.975 MHz。\n（二）AIS 2：VHF Channel 88B，162.025 MHz。\n一般船載AIS以雙頻道方式接收，並在兩頻道間依規定安排傳送；如特定海域經主管機關指定區域頻率，則應依區域頻率設定及岸台指令切換。\n五、結論\n自2002年7月1日起，SOLAS第V章第19條開始對新造船及適用既有船舶實施AIS裝設要求，涵蓋國際航行300總噸以上船舶、非國際航行500總噸以上貨船及所有客船；既有船依船型與噸位分階段完成。ITU指定AIS 1及AIS 2分別使用VHF 87B（161.975 MHz）及88B（162.025 MHz）。",
+    "practicalAnalysis": "本題最重要的是把「適用船舶範圍」、「新船／既有船分階段期限」及「AIS頻道」分開作答。特別注意，2002年7月1日生效版本的原始既有船裝設時程，與2002年12月SOLAS外交會議後修正的部分期限不同；本答案依題目指定的2002年7月1日版本列示，避免將後續加速期限倒套。",
+    "keyPoints": [
+      {
+        "point": "國際航行300 GT以上；非國際航行貨船500 GT以上；所有客船不論噸位。",
+        "importance": "essential"
+      },
+      {
+        "point": "2002-07-01或以後建造的新船應於交船前裝設AIS。",
+        "importance": "essential"
+      },
+      {
+        "point": "既有國際航行船舶依客船、油輪及貨船噸位分階段至2007年7月1日前裝設；非國際航行適用船舶至2008年7月1日前裝設。",
+        "importance": "essential"
+      },
+      {
+        "point": "AIS 1：CH 87B／161.975 MHz；AIS 2：CH 88B／162.025 MHz。",
+        "importance": "essential"
+      },
+      {
+        "point": "AIS提供船舶識別、船位、航向、航速、船首向、航行狀態及航次資料，供船對船、船對岸自動交換。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "SOLAS Chapter V – Safety of Navigation (text in force from 1 July 2002)",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "United Kingdom Maritime and Coastguard Agency",
+        "editionOrEffectiveDate": "1 July 2002 text",
+        "url": "https://assets.publishing.service.gov.uk/media/5a7f0081ed915d74e33f3c6e/solas_v_on_safety_of_navigation.pdf?pubDate=20260519",
+        "pageOrSection": "Chapter V, Regulation 19.2.4",
+        "accessedAt": "2026-11-06",
+        "supports": "AIS mandatory carriage categories and phased implementation dates beginning with ships constructed on or after 1 July 2002."
+      },
+      {
+        "title": "AIS transponders",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/ais.aspx",
+        "pageOrSection": "Regulations for carriage of AIS",
+        "accessedAt": "2026-11-06",
+        "supports": "AIS information functions and carriage categories: 300 GT international voyages, 500 GT cargo ships not on international voyages, and passenger ships irrespective of size."
+      },
+      {
+        "title": "Recommendation ITU-R M.1371-1 (08/2001)",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Telecommunication Union",
+        "editionOrEffectiveDate": "August 2001",
+        "url": "https://www.itu.int/dms_pubrec/itu-r/rec/m/R-REC-M.1371-1-200108-S%21%21PDF-E.pdf",
+        "pageOrSection": "§4.1.1 Operating frequency channels",
+        "accessedAt": "2026-11-06",
+        "supports": "AIS 1 on VHF channel 87B (161.975 MHz) and AIS 2 on VHF channel 88B (162.025 MHz)."
+      }
+    ],
+    "assumptions": [
+      "依題目所指2002年7月1日生效之SOLAS第V章修訂文本說明原始AIS分階段裝設時程。",
+      "AIS頻道依當時適用之ITU-R M.1371-1（2001年8月版）列示。"
+    ],
+    "limitations": [
+      "IMO於2002年12月SOLAS外交會議後，曾修正部分既有船AIS裝設期限；若題目要求以2002年12月修正後版本作答，應另列修正時程。",
+      "AIS資料項目會隨設備等級、訊息類型及後續標準演進；本題以2002年規範及考試所需核心資料為主。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "AIS適用船舶類別",
+          "result": "source_checked",
+          "note": "依SOLAS V/19.2.4及IMO AIS官方說明核對三類船舶適用門檻。"
+        },
+        {
+          "item": "2002年7月1日版本分階段期限",
+          "result": "source_checked",
+          "note": "依2002年7月1日生效之SOLAS Chapter V文本核對新船及既有船分階段期限；並註明2002年12月後續修正的版本差異。"
+        },
+        {
+          "item": "ITU AIS頻道",
+          "result": "source_checked",
+          "note": "依ITU-R M.1371-1（08/2001）第4.1.1節核對CH87B／161.975 MHz及CH88B／162.025 MHz。"
+        },
+        {
+          "item": "AIS主要功能",
+          "result": "source_checked",
+          "note": "依IMO AIS官方說明核對船舶識別、動態資訊、自動船岸及船舶間資料交換功能。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
