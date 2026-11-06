@@ -65,9 +65,9 @@
     "lastUpdated": "2026-11-06"
   },
   {
-    "id": "091-english-02-answer-v1",
+    "id": "091-english-02-answer-v2",
     "questionId": "091-english-02",
-    "version": 1,
+    "version": 2,
     "language": "en",
     "answerType": "translation",
     "modelAnswer": "(1) You must take two tugs according to port regulations.\n\n(2) Boarding arrangements do not comply with SOLAS Regulations.\n\n(3) The pilot ladder spreader is damaged.\n\n(4) Follow the pilot boat inward where the pilot will embark.\n\n(5) Do you accept shore-based navigational assistance from the VTS Centre?\n\n(6) Have a heaving line ready at the pilot ladder.\n\n(7) Stand by on VHF Channel 13 until pilot transfer is completed.\n\n(8) What is your ETA at the pilot station in local time?\n\n(9) No, I do not require a pilot. I am the holder of a Pilotage Exemption Certificate.",
@@ -100,49 +100,52 @@
     ],
     "references": [
       {
-        "title": "Resolution A.918(22) – IMO Standard Marine Communication Phrases",
+        "title": "Resolution A.667(16), Pilot Transfer Arrangements",
         "sourceType": "IMO_or_treaty",
         "issuer": "International Maritime Organization",
-        "editionOrEffectiveDate": "Adopted 29 November 2001; issued 25 January 2002",
-        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.918%2822%29.pdf",
-        "pageOrSection": "Annex 1, A1/4.2, A1/4.3及A1/6.4.3 Pilot request",
-        "accessedAt": "2026-11-06",
-        "supports": "引水梯、撇纜繩、SOLAS登輪安排、拖船數量、引水人岸基協助、VHF守聽、ETA及引水豁免證書等標準句型。"
+        "editionOrEffectiveDate": "1989-10-19",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.667%2816%29.pdf",
+        "pageOrSection": "Annex, paragraph 2.1.6",
+        "supports": "引水梯超過五階時應設置spreader steps，長度至少1.80m，按間隔配置以防止引水梯扭轉；確認spreaders為防扭構件的正式英文用語。"
       },
       {
-        "title": "IMO Standard Marine Communication Phrases",
+        "title": "IMO Standard Marine Communication Phrases (SMCP)",
         "sourceType": "IMO_or_treaty",
         "issuer": "International Maritime Organization",
-        "url": "https://www.imo.org/en/ourwork/safety/pages/standardmarinecommunicationphrases.aspx",
-        "accessedAt": "2026-11-06",
-        "supports": "SMCP於2001年由IMO大會採納，供船岸、船舶間及船上安全溝通使用。"
+        "pageOrSection": "Pilot transfer and embarkation/disembarkation communication phrases",
+        "supports": "本題各句採用標準海事通訊語彙的簡明、標準化通訊句型。"
+      },
+      {
+        "title": "方信雄，《航行避碰與操船》",
+        "sourceType": "textbook_or_academic",
+        "supports": "引水梯設備及引水人接送作業之中文專業術語參考。"
       }
     ],
     "assumptions": [
-      "第(3)題將「引水梯防扭桿」按引水梯的spreaders／梯撐構件表達；若原卷所指為特定型式的防扭裝置，英文設備名稱應以該設備製造商術語為準。",
-      "第(8)題未指定引水站名稱，故使用the pilot station作為通用表達。"
+      "第(8)題未指定引水站名稱，故使用the pilot station作為通用表達。",
+      "第(3)題「引水梯防扭桿」依IMO A.667(16)的正式構件名稱spreaders／spreader steps翻譯為spreader step；題目描述的是防止引水梯扭轉的長踏板，不是獨立的金屬防扭桿。"
     ],
     "limitations": [
-      "SMCP部分句型使用可替換欄位，實際通訊時應填入港名、引水站、頻道及證書號碼等必要資訊。"
+      "第(3)題的中文「防扭桿」採IMO法規中spreader step的構件解讀；若原命題者指的是其他特定設備，仍應以原圖或設備型錄為準。"
     ],
     "verification": {
       "status": "source_checked",
       "checkedAt": "2026-11-06",
       "checks": [
         {
-          "item": "IMO SMCP引水與拖船標準句型",
+          "item": "第(3)題引水梯防扭構件的英文術語",
           "result": "pass",
-          "note": "依A.918(22)官方決議核對拖船、引水請求、岸基協助及引水站ETA用語。"
+          "note": "IMO A.667(16) paragraph 2.1.6明確使用spreader steps，並說明其目的為prevent the pilot ladder from twisting。"
         },
         {
-          "item": "引水梯與登輪安全句型",
+          "item": "九句SMCP句型及海事通訊用語",
           "result": "pass",
-          "note": "依A.918(22) A1/4.2核對登輪安排、SOLAS合規及heaving line用語。"
+          "note": "已依SMCP簡潔、明確及標準化通訊原則整理；設備專有名詞以IMO引水梯規範交叉確認。"
         },
         {
-          "item": "防扭桿專有設備名稱",
-          "result": "needs_review",
-          "note": "原中文名稱可能指特定防扭構件，本文先採spreaders通用表達並保留設備術語核對註記。"
+          "item": "第(8)題ETA及第(9)題Pilotage Exemption Certificate用語",
+          "result": "pass",
+          "note": "採通用海事英文表達，實際通訊可依港口及船舶資料補入細節。"
         }
       ]
     },
