@@ -1,0 +1,183 @@
+[
+  {
+    "id": "094-pilotage-01-answer-v1",
+    "questionId": "94-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_or_drawing",
+    "modelAnswer": "本題依美國 Chart No.1（1997年第10版）及 IHO INT 1 紙海圖符號系統整理。考試作圖時應畫出符號主體，並在旁標註英文縮寫或深度數值；不同國家海圖製圖機關可能有細部差異，應以題目指定圖例為準。\n\n【(1) 50 噚等深線】\n畫一條連續、平滑的等深線，沿線標註「50」或「50 fm」，使讀圖者知道該線代表水深50噚。若海圖深度單位為噚，50 fm＝300 ft＝91.44 m；不可將50噚誤寫成50公尺。等深線是連接相同水深點的線，線本身不表示海底地形一定平坦。\n示意：  ─────── 50 fm ───────\n實際作圖：連續曲線，於線旁重複標示50（依海圖單位）。\n\n【(2) 渦流或漩流（Eddies）】\n以小型旋渦／螺旋狀符號表示，圖例 H45，通常只在範圍較小處使用。\n示意：  @   @   @\n          @   @\n應畫成幾個小旋渦，不要畫成一般潮流方向箭頭；若是較大範圍海流，應以流向箭頭及流速標示。\n\n【(3) 漁柵（Fish traps / Fish weirs）】\n依漁具型態可見漁樁（Fishing stakes，K44.1）或魚柵、魚網（Fish trap / fish weir / tunny nets，K44.2）符號。魚柵可用岸向延伸的柵狀線及端部轉折表示；若標示整片漁柵分布區，則以區域界線或文字註記表示。\n示意：  □────╲\n          Fish trap\n應注意漁柵、漁網是實際水面／水下障礙，不能與一般漁場範圍或養殖區符號混為一談。\n\n【(4) 礙航暗礁（Dangerous underwater rock, depth uncertain）】\n使用危險水下岩礁符號；Chart No.1 K13 常見表示為「＋」或帶圈十字型符號，表示水下岩礁深度不明且具航行危險。\n示意：  ＋\n若已測得最淺水深，則依圖例在岩礁符號旁加註水深及 Rk／R；不可把「深度不明」與「已知深度」的礁石符號混用。\n\n【(5) 珊瑚礁（Coral reef）】\n依海圖符號 K16，以礁線表示珊瑚礁範圍，並以「Co」或「Coral」標示；若珊瑚礁具有覆沒、露出等潮間帶特性，應依相應圖例區別。\n示意：  Co  Co  Co\n        ─────────\n重點是畫出礁線並註記 Co，不宜只寫一個「Co」而沒有表現礁體範圍。\n\n【作圖總結】\n50 fm＝連續等深線＋深度數字；Eddies＝小旋渦；Fish trap＝漁柵／漁網線狀符號；礙航暗礁＝危險水下岩礁符號（深度不明）；Coral reef＝礁線＋Co。",
+    "practicalAnalysis": "本題10分，每小題2分。最重要的是把「等深線、海流現象、漁業障礙物、水下危險物、海底地貌」分清楚。答題時不宜只寫中文名稱，應畫符號並標出必要縮寫。50噚須先確認圖上深度單位；若採噚制，50 fm等於300 ft，約91.44 m。暗礁要區分深度不明與已知深度，珊瑚礁則要表現礁線及Co註記。",
+    "keyPoints": [
+      {
+        "point": "50噚等深線以連續等深線表示，旁註50或50 fm；50 fm＝300 ft＝91.44 m。",
+        "importance": "essential"
+      },
+      {
+        "point": "渦流／漩流依Chart No.1 H45，以小型旋渦符號表示。",
+        "importance": "essential"
+      },
+      {
+        "point": "漁柵須區分漁樁K44.1與魚柵、魚網K44.2。",
+        "importance": "essential"
+      },
+      {
+        "point": "礙航暗礁屬危險水下岩礁，深度不明時採K13符號；已知深度另依K14標示。",
+        "importance": "essential"
+      },
+      {
+        "point": "珊瑚礁以礁線及Co／Coral標示，注意覆沒或露出狀態。",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "Chart No. 1: Nautical Chart Symbols, Abbreviations and Terms, Tenth Edition (November 1997)",
+        "sourceType": "official_chart_or_notice",
+        "issuer": "NOAA National Ocean Service / National Imagery and Mapping Agency",
+        "editionOrEffectiveDate": "1997年11月，第10版",
+        "url": "https://repository.library.noaa.gov/view/noaa/1669",
+        "pageOrSection": "B—Units；H45；I—Depth Contours；K13、K14、K16、K44.1、K44.2",
+        "supports": "核對50噚等深線、渦流、礙航水下岩礁、珊瑚礁、漁樁及魚柵符號；該版說明納入IHO INT 1。"
+      },
+      {
+        "title": "U.S. Chart No. 1—Official Chart Symbols",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA Office of Coast Survey",
+        "url": "https://www.nauticalcharts.noaa.gov/publications/us-chart-1.html",
+        "supports": "現行官方海圖符號參考，說明紙海圖與電子海圖符號的使用。"
+      },
+      {
+        "title": "IHO S-4 / INT 1—Symbols, Abbreviations and Terms used on Charts",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/standards-and-specifications",
+        "supports": "國際海圖符號規格及INT 1符號索引。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "1997 Chart No.1版本及IHO INT 1對應",
+          "result": "pass",
+          "note": "NOAA官方典藏書目確認1997年第10版，前言明載納入IHO Chart 1 (INT 1)。"
+        },
+        {
+          "item": "H45渦流、K13暗礁、K16珊瑚礁、K44漁柵",
+          "result": "pass",
+          "note": "依1997年第10版符號表核對。"
+        },
+        {
+          "item": "50噚換算及等深線表達",
+          "result": "pass",
+          "note": "Chart No.1深度等深線表及單位表；50 fm對應300 ft。"
+        },
+        {
+          "item": "台灣考試當年指定圖例版本",
+          "result": "needs_review",
+          "note": "尚未取得原考試命題所依據之海圖圖例版本；答案以1997美國Chart No.1及IHO INT 1作為可追溯國際參照。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "094-pilotage-02-answer-v1",
+    "questionId": "94-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_or_drawing",
+    "modelAnswer": "本題考查氣象、潮流及海洋環境圖上的常用圖示。以下以標準圖例概念畫出考場可辨識的示意；氣象圖、海洋圖及各國水道圖的線型可能因製圖機關不同而異，應以圖例說明為準。\n\n【(1) 蒲福風力表（Beaufort Wind Scale）】\n蒲福風力表不是單一線狀海圖符號，而是以0至12級表示風力，並配合風速、風況及海面狀態的對照表。作圖時可畫成表格：\n級數： 0  1  2  3  4  5  6  7  8  9  10  11  12\n風況： 靜風／微風／輕風／和風／至颶風\n風速（節）：0–1、1–3、4–6、7–10、11–16、17–21、22–27、28–33、34–40、41–47、48–55、56–63、64以上。\n蒲福級數是風力等級，不是風向；風向須另以風向標或風羽表示。考試作圖可列級數與風速區間，並註明風級0至12。\n\n【(2) 迴轉潮流圖（Rotary Tidal Current Diagram）】\n以一個中心點為基準，向四周畫出不同時刻的潮流方向箭頭，箭頭旁標示時刻及流速，呈現一個潮汐週期內流向與流速逐時轉變的情形。\n示意：\n              00\n          ↖       ↗\n       21     ●      03\n          ↙       ↘\n       18             06\n          ↘       ↗\n       15     ←      09\n              12\n實際圖應依潮流資料標示各時刻流向與流速；圖中箭頭代表流向（流往方向），不是來向。這種圖可用來快速掌握潮流轉向、憩流及流速變化。\n\n【(3) 氣溫線（Isotherm）】\n氣溫相同的各點連接成線，稱等溫線（isotherm）。在天氣圖或氣候圖上，以連續曲線表示，並在曲線旁標註溫度值及單位，例如10°C、20°C。\n示意：\n       ───── 20°C ─────\n     ／                  ＼\n    ───── 15°C ─────────\n不可與等壓線（isobar）混淆；等溫線表示溫度相同，不表示氣壓或水深相同。\n\n【(4) 冰區（Ice Area / Ice Limit）】\n在海冰圖或航海圖上，以界線標示冰區範圍，並以不同線型、陰影或斜線區分固定冰、浮冰／密集海冰及季節性冰界；界線旁應標明日期或冰況資料。\n示意：\n   - - - - - - - - -   冰界\n   ///////// 冰區 /////////\n冰況會隨季節、風、流及氣溫快速變化，作圖時必須註明資料時間；不可把冰區界線當成永久固定的海岸線或航道界線。\n\n【(5) 磁差線（Isogonic Line）】\n磁差相同的各點連接成線，稱等磁差線／磁差線（isogonic line）。線上標註磁差角度及東、西方向，例如5°W、2°E；零磁差線稱無磁差線（agonic line）。\n示意：\n   - - - - 5°W - - - - -\n       - - 2°W - - -\n   - - - - 0° - - - -\n磁差線表示地磁北與真北之間的角度分布；磁差會隨地點及年代改變，應注意海圖或磁差圖的基準年份及年變率。不可與羅經自差（deviation）混淆。\n\n【作圖總結】\n蒲福風力表＝0至12級風力與風速對照表；迴轉潮流圖＝中心放射式潮流箭頭及時間、流速；氣溫線＝等溫線；冰區＝冰界線及冰區範圍；磁差線＝等磁差線，標示E／W角度及年份。",
+    "practicalAnalysis": "本題10分，每小題2分。前兩項偏向表格與潮流變化圖，後三項是等值線或區域界線。作答應分辨資料變數：蒲福表表示風力級數；迴轉潮流圖表示潮流流向與流速隨時間的旋轉；等溫線表示相同氣溫；冰界表示冰區邊界；等磁差線表示相同磁差。題目稱「導航圖」但未指定圖種或圖例版本，因此本答案採通用海洋氣象／水文圖示方式，圖形線型以命題所依圖例為準。",
+    "keyPoints": [
+      {
+        "point": "蒲福風力表列0至12級，配合風速（節）及風況描述。",
+        "importance": "essential"
+      },
+      {
+        "point": "迴轉潮流圖用放射狀箭頭表示各時刻潮流流向，並標出流速與時間。",
+        "importance": "essential"
+      },
+      {
+        "point": "氣溫線即等溫線，連接相同氣溫點，標註°C。",
+        "importance": "essential"
+      },
+      {
+        "point": "冰區以冰界線及區域陰影／斜線表示，並注意資料日期與冰況更新。",
+        "importance": "essential"
+      },
+      {
+        "point": "磁差線即等磁差線（isogonic line），標示E／W角度；零磁差線為agonic line。",
+        "importance": "essential"
+      },
+      {
+        "point": "磁差（variation）與羅經自差（deviation）不同，且磁差隨地點、年代變化。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "Beaufort Wind Scale",
+        "sourceType": "official_port_or_authority",
+        "issuer": "U.S. National Weather Service",
+        "url": "https://www.weather.gov/crp/BeaufortScale",
+        "supports": "蒲福風力級數0至12及對應風速、海面狀態。"
+      },
+      {
+        "title": "Chart No. 1: Nautical Chart Symbols, Abbreviations and Terms, Tenth Edition (November 1997)",
+        "sourceType": "official_chart_or_notice",
+        "issuer": "NOAA National Ocean Service / National Imagery and Mapping Agency",
+        "url": "https://repository.library.noaa.gov/view/noaa/1669",
+        "pageOrSection": "H—Tides, Currents；B—Positions, Distances, Directions, Compass",
+        "supports": "潮流箭頭、流速、潮流圖及磁差註記、等磁差線（isogonic lines）的海圖表達。"
+      },
+      {
+        "title": "NOAA Tides & Currents Glossary",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Oceanic and Atmospheric Administration",
+        "url": "https://tidesandcurrents.noaa.gov/glossary",
+        "supports": "潮流、渦流及潮流資料圖表的術語與定義。"
+      },
+      {
+        "title": "Met Office Beaufort Scale",
+        "sourceType": "official_port_or_authority",
+        "issuer": "UK Met Office",
+        "url": "https://weather.metoffice.gov.uk/guides/coast-and-sea/beaufort-scale",
+        "supports": "蒲福風力等級、風速區間及海況對照。"
+      }
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "蒲福風力級數及風速",
+          "result": "pass",
+          "note": "依美國NWS及英國Met Office風力表核對。"
+        },
+        {
+          "item": "迴轉潮流圖概念",
+          "result": "pass",
+          "note": "依海圖潮流方向箭頭及流速標示、潮流圖用途整理。"
+        },
+        {
+          "item": "氣溫線及冰區之標準圖面線型",
+          "result": "needs_review",
+          "note": "尚未取得本題指定導航圖或歷史版圖例；線型、陰影樣式依出版機關可能不同。"
+        },
+        {
+          "item": "等磁差線定義及標示",
+          "result": "pass",
+          "note": "依1997 Chart No.1 B71等磁差線及磁差註記核對。"
+        },
+        {
+          "item": "與原考題指定圖例一致性",
+          "result": "needs_review",
+          "note": "原卷只有題文，未附參考圖例；本題維持draft，不將示意線型宣稱為唯一標準。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
