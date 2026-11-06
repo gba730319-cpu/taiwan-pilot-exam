@@ -229,5 +229,140 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "096-pilotage-03-answer-v1",
+    "questionId": "96-pilotage-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、IALA-A與IALA-B之差異】\n\nIALA（International Association of Marine Aids to Navigation and Lighthouse Authorities，國際航標協會；現已轉型為政府間組織）所制定之海上浮標制度，將世界分為A、B兩區。兩區的主要差異在於「側面標誌（Lateral Marks）」的紅、綠顏色配置相反；方位標誌、孤立危險物標誌、安全水域標誌及特殊標誌等其他標誌類型，兩區原則上相同。\n\n（一）側面標誌顏色與形狀\n\n1. IALA-A區：\n- 左舷標（Port-hand mark）：紅色，通常為圓筒形／罐形（Can）；頂標如有設置，為單一紅色圓筒。\n- 右舷標（Starboard-hand mark）：綠色，通常為圓錐形（Cone）；頂標如有設置，為單一綠色圓錐，尖端向上。\n- 進港時通常左紅、右綠。\n\n2. IALA-B區：\n- 左舷標（Port-hand mark）：綠色，通常為圓筒形／罐形（Can）；頂標如有設置，為單一綠色圓筒。\n- 右舷標（Starboard-hand mark）：紅色，通常為圓錐形（Cone）；頂標如有設置，為單一紅色圓錐，尖端向上。\n- 進港時通常左綠、右紅，記憶口訣為「Red Right Returning」，即由海上向港口航行時，紅色標誌在右舷。\n\n3. 兩區側面標誌的燈色原則上與標體顏色相同；燈光節奏可依航道需要選用，但分道點之優先航道標誌有特定複合群閃節奏。\n\n（二）優先航道標誌（Preferred Channel Marks）\n\n在航道分岔處，依通常浮標方向航行時，若主管機關指定其中一側為優先航道，則以側面標誌加一條寬廣水平色帶表示：\n- IALA-A區：優先航道在右側，使用紅色標體加一條寬綠色水平帶；優先航道在左側，使用綠色標體加一條寬紅色水平帶。\n- IALA-B區：優先航道在右側，使用綠色標體加一條寬紅色水平帶；優先航道在左側，使用紅色標體加一條寬綠色水平帶。\n- 燈光通常採複合群閃（2+1），燈色與標體主色相同。\n\n（三）其他標誌類型\n\n除側面標誌外，IALA-A與IALA-B之下列標誌含義及主要外觀相同：\n1. 方位標誌（Cardinal Marks）。\n2. 孤立危險物標誌（Isolated Danger Marks）。\n3. 安全水域標誌（Safe Water Marks）。\n4. 特殊標誌（Special Marks）。\n5. 2006年版制度另納入緊急沉船標誌（Emergency Wreck Marking Buoy），供新發現且尚未完成永久標示之危險沉船暫時使用。\n\n【二、我國採用之制度】\n\n我國臺灣沿岸及港口採用IALA-B區制度。船舶由海上依通常浮標方向進入港口時：\n- 左舷：綠色側面標誌，通常罐形（Can）。\n- 右舷：紅色側面標誌，通常錐形（Cone）。\n- 航道分岔時，優先航道在右側使用綠色標體加寬紅色水平帶；優先航道在左側使用紅色標體加寬綠色水平帶。\n\n此規則只適用於側面標誌及優先航道標誌；方位標誌等其他標誌不能將紅綠對調。\n\n【三、我國主要浮標種類及辨識】\n\n（一）側面標誌（Lateral Marks）\n用於標示航道左右邊界，依IALA-B制度，左舷綠色、右舷紅色。形狀、顏色、頂標及燈色相互配合，協助船舶依正確方向通過航道。\n\n（二）方位標誌（Cardinal Marks）\n表示危險物周圍可航水域位於標誌所命名之方位，分為北、東、南、西四種；標體由黑、黃水平色帶組成，頂標為兩個黑色圓錐，燈光為白色快速閃光或甚快閃光。\n1. 北方位標（North）：黑色在上、黃色在下；頂標兩錐尖端均向上；安全水域在標誌北方。\n2. 東方位標（East）：黑、黃、黑三帶；頂標兩錐底部相對；安全水域在標誌東方。\n3. 南方位標（South）：黃色在上、黑色在下；頂標兩錐尖端均向下；安全水域在標誌南方。\n4. 西方位標（West）：黃、黑、黃三帶；頂標兩錐尖端相對；安全水域在標誌西方。\n\n（三）孤立危險物標誌（Isolated Danger Marks）\n設置於孤立危險物上或其附近，危險物周圍仍有可航水域。標體為黑色，具有一條或多條寬紅色水平帶；頂標為兩個黑色圓球；燈光為白色群閃二次（Fl(2)）。船舶仍須依海圖判斷危險物範圍及安全通過距離。\n\n（四）安全水域標誌（Safe Water Marks）\n表示標誌周圍均為可航水域，常用於航道中央、分道通航區中線或進港 landfall。標體為紅、白垂直相間條紋；頂標為單一紅色圓球；燈光為白色明暗、等明、長閃或摩斯碼A等特性。\n\n（五）特殊標誌（Special Marks）\n用以標示非以直接助航為主要目的之特殊區域或設施，例如海洋觀測站、軍事演習區、疏浚區、海底電纜或管線、施工區及其他主管機關指定區域。標體為黃色，頂標如有設置為黃色X形；燈光為黃色，閃光節奏可依用途指定。\n\n（六）緊急沉船標誌（Emergency Wreck Marking Buoy）\n2006年IALA制度新增之暫時性標誌，用於新發現、尚未完成永久航標設置之危險沉船。標體為藍、黃垂直相間條紋，頂標為黃色直立十字；燈光以藍、黃交替閃光，供航海人員辨識新危險。此標誌應配合航船布告等航行安全資訊使用，並於永久標誌設置或危險資訊充分發布後依主管機關指示處理。\n\n【四、結論】\n\nIALA-A與IALA-B最大的差異在側面標誌紅、綠顏色互換；我國採IALA-B，進港時左綠右紅。方位標誌、孤立危險物、安全水域及特殊標誌等主要類型，兩區含義相同；2006年版另加入緊急沉船標誌，以加強新發現沉船危險之臨時警示。航海人員應同時判讀標體顏色、形狀、頂標及燈光特性，並以海圖、航船布告及當地航標資料交叉確認。",
+    "practicalAnalysis": "本題20分，建議先用表格比較A、B區，再說明我國採B區，最後列舉主要標誌。必背核心：A區左紅右綠；B區左綠右紅；臺灣進港左綠右紅。優先航道色帶也隨區域反轉。方位標誌的黑黃配置及兩錐頂標在A、B區完全相同，不能跟著紅綠一起反轉。2006年版IALA制度已加入緊急沉船標誌，2007年考題可列為新增類型補充。",
+    "keyPoints": [
+      {
+        "point": "IALA-A區左舷紅、右舷綠；IALA-B區左舷綠、右舷紅。",
+        "importance": "essential",
+        "explanation": "兩區主要差異是側面標誌的紅綠顏色互換。"
+      },
+      {
+        "point": "A區優先航道右側紅底寬綠帶、左側綠底寬紅帶；B區相反，右側綠底寬紅帶、左側紅底寬綠帶。",
+        "importance": "essential",
+        "explanation": "航道分岔時表示優先通過之航道。"
+      },
+      {
+        "point": "我國採IALA-B，進港時左綠右紅，右舷紅色記憶口訣Red Right Returning。",
+        "importance": "essential",
+        "explanation": "我國官方航港局資料確認採B區。"
+      },
+      {
+        "point": "主要標誌包括側面、方位、孤立危險物、安全水域、特殊標誌；2006年制度新增緊急沉船標誌。",
+        "importance": "essential",
+        "explanation": "2007年考試可將緊急沉船標誌列為新制補充。"
+      },
+      {
+        "point": "方位標誌四種：北黑上黃下、東黑黃黑、南黃上黑下、西黃黑黃；頂標兩黑錐方向各異。",
+        "importance": "supporting",
+        "explanation": "A、B區均相同。"
+      },
+      {
+        "point": "孤立危險物標誌黑色紅帶、兩黑球頂標、白色群閃二次；安全水域標誌紅白垂直條紋、紅球頂標。",
+        "importance": "supporting",
+        "explanation": "與側面標誌的紅綠規則不同。"
+      },
+      {
+        "point": "特殊標誌為黃色、X形頂標及黃光；緊急沉船標誌為藍黃垂直條紋、黃色直立十字及藍黃交替閃光。",
+        "importance": "supporting",
+        "explanation": "注意兩者用途完全不同。"
+      }
+    ],
+    "references": [
+      {
+        "title": "The IALA Maritime Buoyage System, Recommendation R1001",
+        "sourceType": "official_port_or_authority",
+        "issuer": "International Association of Marine Aids to Navigation and Lighthouse Authorities (IALA)",
+        "editionOrEffectiveDate": "Edition 2.0, June 2022",
+        "url": "https://www.iala.int/content/uploads/2022/05/C75-10.3.7-Revised-Recommendation-R1001-Ed2.0-The-IALA-Maritime-Buoyage-System-June-2022.pdf",
+        "pageOrSection": "Sections 2.1–2.5, 3–7; Region A/B lateral marks, preferred channel, cardinal, isolated danger, safe water, special and emergency wreck marks",
+        "supports": "IALA官方建議，核對A/B側面標誌及優先航道顏色、其他共同標誌類型與緊急沉船標誌。"
+      },
+      {
+        "title": "IALA Maritime Buoyage System, NP 735, Edition 6",
+        "sourceType": "other",
+        "issuer": "IALA / United Kingdom Hydrographic Office",
+        "editionOrEffectiveDate": "2006 edition",
+        "url": "https://www.scribd.com/document/1047793480/IALA-Maritime-Buoyage-System-NP-735-Edition-6-2006",
+        "pageOrSection": "Diagrams 6–11; Section 7 Emergency Wreck Marking Buoy",
+        "supports": "2006年版制度，與2007年考試年代接近；核對B區左綠右紅、優先航道標誌顏色及2006年新增緊急沉船標誌。"
+      },
+      {
+        "title": "海圖圖例（Pub. No.1 Chart Symbols and Abbreviations）",
+        "sourceType": "official_port_or_authority",
+        "issuer": "中華民國海軍大氣海洋局",
+        "editionOrEffectiveDate": "第九版",
+        "url": "https://navy.mnd.gov.tw/Files/Policy/%E6%B5%B7%E8%BB%8D_%E6%B5%B7%E5%9C%96%E5%9C%96%E4%BE%8B.pdf",
+        "pageOrSection": "Q章130 IALA Maritime Buoyage System",
+        "supports": "我國官方中英文海圖圖例，列出IALA海上浮標制度、浮標形狀、各類標誌及其圖式。"
+      },
+      {
+        "title": "燈塔與航路標識：浮標助航制度",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部航港局",
+        "url": "https://www.motcmpb.gov.tw/Information/Detail/3125d6a4-8313-4065-960f-0574776f60cb?NodeId=495&SiteId=1",
+        "pageOrSection": "伍、浮標助航制度",
+        "supports": "明確說明我國航路標識採IALA-B區制，船舶入港時左側綠色、右側紅色；並列出五種主要浮標標誌。"
+      },
+      {
+        "title": "臺灣航路標識設置技術規範",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部航港局",
+        "editionOrEffectiveDate": "民國114年8月11日修正公告",
+        "url": "https://www.motcmpb.gov.tw/Information/Detail/d38c2d61-ecf8-419b-8956-eb5255b7e8b6?NodeId=371&SiteId=1",
+        "supports": "現行我國航路標識採用IALA-B制度之官方技術規範；僅作現代制度確認，不倒套為2007年版規範。"
+      },
+      {
+        "title": "96年專門職業及技術人員特種考試引水人考試試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國96年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=911&code=096080&q=1&s=c051&t=Q",
+        "pageOrSection": "甲種引水人共同科目，引港學第3題",
+        "supports": "確認原題要求比較IALA-A與IALA-B、判斷我國制度並列舉主要浮標。"
+      }
+    ],
+    "assumptions": [
+      "本題按2007年考試年度作答，使用當時已公布之IALA Maritime Buoyage System 2006版；2006年版新增緊急沉船標誌，故列為新制補充。",
+      "我國採用IALA-B區之判定由交通部航港局官方資料確認；現行網頁僅用於確認制度延續，歷史考試內容仍以2006年IALA版本為主。"
+    ],
+    "limitations": [
+      "IALA在2024年8月22日轉型為政府間組織，名稱變更不影響2007年考題作答；當年名稱為International Association of Marine Aids to Navigation and Lighthouse Authorities。",
+      "緊急沉船標誌在2006年版屬新增之臨時標誌，實際部署仍由主管機關依當時危險標示政策決定；不可與永久孤立危險物標誌混淆。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "IALA-A與IALA-B側面標誌差異",
+          "result": "pass",
+          "note": "依IALA R1001及2006年NP735核對：A區左紅右綠，B區左綠右紅；罐形左舷標、錐形右舷標。"
+        },
+        {
+          "item": "優先航道標誌顏色",
+          "result": "pass",
+          "note": "依IALA 2006及2022版核對，B區優先航道右側綠底紅帶、左側紅底綠帶；A區相反。"
+        },
+        {
+          "item": "我國採用IALA-B",
+          "result": "pass",
+          "note": "依交通部航港局官方燈塔與航路標識頁面核對，臺灣採B區，入港左綠右紅。"
+        },
+        {
+          "item": "主要標誌種類及外觀",
+          "result": "pass",
+          "note": "依IALA 2006與2022版核對側面、方位、孤立危險物、安全水域、特殊及緊急沉船標誌。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
