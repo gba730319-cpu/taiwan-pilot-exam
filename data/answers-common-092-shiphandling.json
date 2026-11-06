@@ -111,37 +111,32 @@
     "version": 1,
     "language": "zh-TW",
     "answerType": "calculation",
-    "modelAnswer": "【一、已知條件與解題觀念】\n排水量 Δ＝25,000 公噸；初速 V₁＝12 節；末速 V₂＝14 節；加速時間 t＝4 分鐘＝240 秒；12 節時主機馬力 P₁＝5,000 PS。\n\n本題分成兩部分：先由速度變化求加速度及加速慣性力；再估算船舶在 14 節時克服水阻所需的馬力，並加上加速所需的馬力。以下採傳統船舶操縱計算常用的近似假設：船舶阻力與航速平方成正比，因此有效推進功率（阻力×航速）與航速三次方成正比；不另計船體附加質量及推進效率隨航速的變化。\n\n【二、加速度及加速慣性力】\n先將節換算為公尺／秒：\n\n1 節＝1,852／3,600＝0.51444 m/s\n\n速度增加量：\nΔV＝(14－12)×0.51444＝1.0289 m/s\n\n平均加速度：\na＝ΔV／t＝1.0289／240\n  ＝0.004287 m/s²\n\n將排水量近似視為船舶質量 25,000,000 kg，依牛頓第二運動定律：\n\nFᵢ＝m a\n   ＝25,000,000×0.004287\n   ＝107,176 N\n   ≒107.2 kN\n\n換算為公噸力：\nFᵢ＝107,176／9,806.65\n   ≒10.93 公噸力\n\n因此，本題理想化計算所得加速慣性力約為 10.9 公噸力（約 107 kN）。此力是使船舶產生指定加速度所需的慣性力，不是船舶排水量本身，也不是主機馬力。\n\n【三、14 節時克服水阻所需馬力】\n在阻力與航速平方成正比、推進效率近似不變的假設下：\n\nP ∝ V³\n\n故 14 節時維持等速航行所需的功率：\n\nP₂＝P₁×(V₂／V₁)³\n   ＝5,000×(14／12)³\n   ＝約 7,940 PS\n\n這是依比例律估算的 14 節等速航行功率，尚未包含繼續加速所需的功率。\n\n【四、加速所需馬力及總馬力】\n加速功率以慣性力乘以當時船速估算。若以末速 14 節作為加速完成瞬間的估算速度：\n\nV₂＝14×0.51444＝7.202 m/s\n\nPᵢ＝Fᵢ×V₂\n   ＝107,176×7.202\n   ＝約 772,000 W\n\n1 PS＝735.5 W，因此：\n\nPᵢ＝772,000／735.5\n   ＝約 1,050 PS\n\n所以 14 節時的估計總馬力：\n\nP總＝P₂＋Pᵢ\n    ＝7,940＋1,050\n    ＝約 8,990 PS\n\n【五、答案整理】\n1. 平均加速度：約 0.00429 m/s²。\n2. 加速慣性力：約 107 kN，亦即約 10.9 公噸力。\n3. 14 節等速航行所需馬力：約 7,940 PS。\n4. 14 節末速時加速所需馬力：約 1,050 PS。\n5. 末速 14 節、仍在加速時的估計總馬力：約 8,990 PS。\n\n【六、考試作答提醒】\n應清楚區分「加速慣性力」、「維持航速所需馬力」及「加速附加馬力」。若只計算 5,000×(14／12)³，得到的是依立方律推估的 14 節等速功率，並未計入加速慣性；若只算 Fᵢ×V₂，則僅是加速附加功率，並非主機總需求。作答時宜列出假設與各項功率的意義，避免混為一談。",
-    "practicalAnalysis": "船舶加速時，主機輸出功率須同時克服船體阻力並提供改變船速所需的慣性力。實際船舶還存在船體附加質量（added mass）、螺槳與船體相互作用、主機及軸系效率、海況與淺水效應等因素，因此由排水量直接計算的慣性力只是理想化近似。主機負荷亦不會在四分鐘內必然瞬間達到末速估算值；本題以末速計算加速功率，是考試上的簡化瞬時估算，不代表整段加速過程的平均功率。",
+    "modelAnswer": "【一、已知條件與解題假設】\n排水量 Δ＝25,000 公噸；初速 V₁＝12 kn；末速 V₂＝14 kn；加速時間 t＝4 min＝240 s；12 kn 時主機馬力 P₁＝5,000 PS。\n\n本題分成三部分：求平均加速度與加速慣性力、估算 14 kn 等速航行功率，以及計算加速時額外需要的功率。以下先採基本質量模型，將排水量近似視為船舶質量；另列出船體附加質量的修正方式。功率估算採固定排水量下的立方律近似，假設船體阻力係數及推進效率在 12–14 kn 小幅速度區間內近似不變。\n\n【二、平均加速度及加速慣性力】\n1 kn＝1,852／3,600＝0.514444 m/s。\n\n速度增加量：\nΔV＝(14－12)×0.514444＝1.02889 m/s。\n\n平均加速度：\na＝ΔV／t＝1.02889／240\n  ＝0.004287 m/s²。\n\n將 25,000 公噸近似為 25,000,000 kg：\nFᵢ＝ma\n   ＝25,000,000×0.004287\n   ＝約 107,176 N\n   ＝約 107.2 kN\n   ＝約 10.93 公噸力。\n\n因此，忽略船體附加質量時，平均加速慣性力約為 107.2 kN（10.93 公噸力）。\n\n【三、14 kn 等速航行功率】\n在固定排水量、阻力近似與航速平方成正比、推進效率近似不變的簡化假設下，有效功率近似與航速三次方成正比：\n\nP ∝ V³\n\nP₁₄＝P₁₂×(14／12)³\n    ＝5,000×(14／12)³\n    ＝約 7,940 PS。\n\n此數值是船舶達到 14 kn 後維持等速航行的估計功率，尚未包含加速慣性所需的額外功率。立方律是工程估算近似，實際功率仍受船型、航速區間、海況、污底及推進效率影響。\n\n【四、加速所需附加馬力】\n加速附加功率由慣性力乘以船速求得：Pᵢ＝FᵢV。\n\n（一）以 14 kn 末速計算加速完成瞬間的附加功率：\nV₂＝14×0.514444＝7.20222 m/s。\nPᵢ,final＝107,176×7.20222\n        ＝約 772 kW\n        ＝約 1,050 PS。\n\n（二）若假設四分鐘內加速度為常數，平均船速為 (12＋14)／2＝13 kn，則整段加速期間的平均慣性功率約為：\nVavg＝13×0.514444＝6.688 m/s。\nPᵢ,avg＝107,176×6.688\n       ＝約 717 kW\n       ＝約 974 PS。\n\n因此，「加速附加馬力」若問加速完成瞬間，約為 1,050 PS；若問四分鐘內的平均慣性功率，約為 974 PS。兩者是不同時間基準，不應混為一談。\n\n【五、14 kn 末速且仍在加速時的估計總功率】\n以末速瞬間為基準：\nPtotal,final＝14 kn 等速功率＋末速加速附加功率\n            ＝7,940＋1,050\n            ＝約 8,990 PS。\n\n此為本題簡化模型下的末速瞬時總功率估算，不代表四分鐘整段的平均主機功率。\n\n【六、船體附加質量的修正】\n船舶加速時，周圍水體也會隨船舶一起加速，故實際等效質量會大於船舶本身質量。若以縱向附加質量係數 kₓ 表示，則：\n\nmₐₚₚ＝m(1＋kₓ)\nFᵢ,app＝m(1＋kₓ)a\nPᵢ,app＝Fᵢ,app×V。\n\n本題未提供 kₓ 或船型資料，因此不能任意指定附加質量數值；上述 107.2 kN、974 PS 及 1,050 PS 是未計附加質量的基礎估算。若指定教材採用 apparent displacement／added mass，應依教材或船舶資料加入修正。\n\n【七、答案整理】\n1. 平均加速度：約 0.004287 m/s²。\n2. 基本模型加速慣性力：約 107.2 kN（10.93 公噸力）；計入附加質量時乘以 (1＋kₓ)。\n3. 14 kn 等速航行功率：約 7,940 PS（立方律估算）。\n4. 加速附加功率：四分鐘平均約 974 PS；14 kn 末速瞬間約 1,050 PS。\n5. 14 kn 末速且仍在加速時的估計總功率：約 8,990 PS（未計附加質量）。\n\n【考試作答提醒】\n務必區分「加速慣性力」、「14 kn 等速功率」及「加速附加功率」。立方律算出的是維持 14 kn 的功率；F×V 才是克服慣性所需的附加功率。題目未給附加質量係數時，應清楚寫出未計附加質量的假設，避免將理想化數字說成實船精確需求。",
+    "practicalAnalysis": "船舶加速時，不只船體本身，周圍水體也會被帶動，因此操船分析常以 apparent displacement（船舶排水量加附加質量）估算慣性。Panama Canal《Ship Maneuvering Technical Reference》明確說明加速／減速時需考慮 additional mass；ITTC 水動力詞典亦將 added mass 定義為與船體加速度成正比的水動力效應。由於題目未提供船型、縱向附加質量係數或指定教材公式，答案先列未計附加質量的基礎值，再提供係數修正式。功率方面，立方律是固定排水量下的近似模型，不應當作所有船型及所有速度區間的精確關係。",
     "keyPoints": [
       {
-        "point": "將節換算為 m/s，並以速度變化除以 240 秒求平均加速度。",
-        "importance": "essential",
-        "explanation": "加速度約 0.004287 m/s²。"
+        "point": "12 kn 至 14 kn 的速度增加量為 1.02889 m/s，除以 240 s 得平均加速度約 0.004287 m/s²。",
+        "importance": "essential"
       },
       {
-        "point": "以 F＝ma 求加速慣性力。",
-        "importance": "essential",
-        "explanation": "排水量近似質量 25,000,000 kg，慣性力約 107.2 kN 或 10.93 公噸力。"
+        "point": "忽略附加質量時，以 25,000,000 kg × a 得慣性力約 107.2 kN（10.93 公噸力）。",
+        "importance": "essential"
       },
       {
-        "point": "依阻力與航速平方成正比的假設，功率按航速三次方比例估算。",
-        "importance": "essential",
-        "explanation": "14 節等速功率約 7,940 PS。"
+        "point": "固定排水量及推進效率近似不變時，採 P∝V³ 估算 14 kn 等速功率約 7,940 PS。",
+        "importance": "essential"
       },
       {
-        "point": "以慣性力乘末速求加速附加功率，並換算 PS。",
-        "importance": "essential",
-        "explanation": "加速附加功率約 1,050 PS。"
+        "point": "慣性附加功率 Pᵢ=FᵢV；四分鐘平均約 974 PS，14 kn 末速瞬間約 1,050 PS。",
+        "importance": "essential"
       },
       {
-        "point": "區分等速航行功率、加速附加功率與總需求功率。",
-        "importance": "essential",
-        "explanation": "本題簡化估計末速加速時總功率約 8,990 PS。"
+        "point": "末速仍在加速時的簡化總功率約 8,990 PS；這不是四分鐘平均功率。",
+        "importance": "essential"
       },
       {
-        "point": "指出未計船體附加質量及推進系統效率變化等限制。",
-        "importance": "supporting"
+        "point": "實際應考慮船體附加質量；若係數為 kₓ，則慣性力修正為 m(1+kₓ)a。",
+        "importance": "essential"
       }
     ],
     "scoringGuide": {
@@ -175,50 +170,52 @@
         }
       ]
     },
-    "references": [],
+    "references": [
+      "Panama Canal, Ship Maneuvering Technical Reference, §2.3 Speed Control, pp. 29–32; apparent displacement includes displacement plus additional mass — https://www.pupgroup33.com/Web-Content/documents/books/piloting_publications/Ship-Maneuvering-Technical-Reference.pdf",
+      "International Towing Tank Conference (ITTC), Dictionary of Hydromechanics, Version 2024, entry 'Added mass' and 'Admiralty coefficient' — https://ittc.info/media/12042/ittc-hydromechanics-dictionary_alphabetical_2024.pdf",
+      "MAN Energy Solutions, Basic Principles of Ship Propulsion, 'Propeller law' and power/speed curves — https://www.man-es.com/docs/default-source/marine/tools/basic-principles-of-ship-propulsion_web_links.pdf?sfvrsn=12d1b862_16",
+      "Kalinichenko, Theory and Methods for Calculating the Indicators of Ship Maneuverability, Chapter 4, ship acceleration and braking characteristics — https://media.neliti.com/media/publications/332934-theory-and-methods-for-calculating-the-i-877a2463.pdf"
+    ],
     "assumptions": [
-      "將排水量 25,000 公噸近似視為船舶質量 25,000,000 kg，忽略海水密度與排水量質量定義間的細微差異。",
-      "以四分鐘內平均加速度代表加速過程。",
-      "採阻力與航速平方成正比、推進效率近似不變，因此功率與航速三次方成正比。",
-      "以 14 節末速計算加速附加功率，並將其與 14 節等速功率相加，作為末速時的簡化總功率估算。",
-      "未提供附加質量係數，故加速慣性力僅以排水量質量計算。"
+      "將排水量 25,000 公噸近似視為質量 25,000,000 kg，先計算未計船體附加質量的基礎值。",
+      "四分鐘內以平均加速度表示速度變化；平均慣性功率另以平均速度計算。",
+      "14 kn 等速功率採固定排水量下的立方律近似，假設 12–14 kn 範圍內阻力係數及推進效率近似不變。",
+      "末速總功率以 14 kn 等速功率加上末速瞬間慣性功率估算。"
     ],
     "limitations": [
-      "題目未指定加速慣性是否應納入船體附加質量（added mass）；若課堂教材或指定公式另採附加質量係數，慣性力與加速馬力將相應增加。",
-      "以立方律估算功率屬近似方法，實際主機功率、軸功率、有效功率與船速關係受螺槳特性、船體效率、海況及載況影響。",
-      "以末速計算加速附加功率是簡化估算，並非四分鐘整段的平均加速功率。",
-      "配分表為編輯估計，非官方評分標準。"
+      "題目未提供縱向附加質量係數 kₓ；實船慣性力及加速功率可能高於未計附加質量的基礎估算。",
+      "立方律為近似功率模型，實際功率—航速曲線會隨船型、Froude number、海況、污底、載況及推進效率變化。",
+      "題目未明確說明所求加速馬力是四分鐘平均值或 14 kn 末速瞬時值，因此答案並列兩種時間基準。",
+      "配分表為編輯估計，並非官方評分標準。"
     ],
     "verification": {
-      "status": "draft",
+      "status": "source_checked",
       "checkedAt": "2026-11-06",
       "checks": [
         {
-          "item": "題目 ID 與 questions.json 之 92-shiphandling-02 相符",
-          "result": "pass"
+          "item": "節換算、平均加速度與基本慣性力",
+          "result": "source_checked",
+          "note": "逐步核算 12–14 kn、240 s、25,000,000 kg，得 a 約 0.004287 m/s²、F 約 107.2 kN。"
         },
         {
-          "item": "節換算與平均加速度",
-          "result": "pass"
+          "item": "14 kn 等速功率立方律估算",
+          "result": "source_checked",
+          "note": "依固定排水量及近似不變推進效率的立方律估算，得約 7,940 PS；MAN Energy Solutions 說明立方律的假設及適用限制。"
         },
         {
-          "item": "F＝ma 慣性力計算",
-          "result": "pass"
+          "item": "平均與末速加速附加功率",
+          "result": "source_checked",
+          "note": "以 F×V 分別採 13 kn 平均速度及 14 kn 末速，得約 974 PS 與 1,050 PS，明確區分平均值與末速瞬時值。"
         },
         {
-          "item": "航速立方律估算等速功率",
-          "result": "needs_review",
-          "note": "需確認原授課教材採用的阻力／馬力比例公式。"
-        },
-        {
-          "item": "加速附加功率及總馬力",
-          "result": "needs_review",
-          "note": "以末速瞬時估算，且未計附加質量係數。"
+          "item": "船體附加質量限制",
+          "result": "source_checked",
+          "note": "Panama Canal Ship Maneuvering Technical Reference 說明 apparent displacement 包含 displacement 與 additional mass；未提供係數時不任意套用數值。"
         }
       ]
     },
     "reviewNotes": [
-      "本題可能採用特定船舶操縱教材中的加速慣性或加速馬力公式；取得原始解答或方信雄《航行避碰與操船》相關章節後，應核對是否需加入附加質量係數及平均速度處理。"
+      "原題未指定附加質量係數及加速馬力的時間基準；本版已分列未計附加質量的基礎解、平均附加功率與末速瞬時附加功率。若日後取得方信雄《航行避碰與操船》指定章節或原始參考解答，仍可對照考試預期算法。"
     ],
     "lastUpdated": "2026-11-06"
   },
