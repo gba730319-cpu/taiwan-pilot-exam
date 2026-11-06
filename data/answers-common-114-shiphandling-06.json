@@ -1,0 +1,81 @@
+[
+  {
+    "id": "answer-114-shiphandling-06",
+    "questionId": "114-shiphandling-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "operational_scenario",
+    "modelAnswer": "操船上應在引水人離船前確認外側航道及離岸堤附近水域淨空，與VTS及進港船引水人確認會遇順序和位置。出港期間應依分道航行規定，使用雷達、ECDIS、平行索引及岸標持續監控船位，預先評估CPA/TCPA、船舶慣性、船艉掃掠、風流及離岸堤距離。若進港船漂入雙向航道，應及早透過VHF與VTS協調，必要時減速、停止前進或等待，避免在緊迫局面才大幅轉向。主機及舵機應保持備便，航速須兼顧舵效與停船餘裕，必要時預先安排拖輪戒護。駕駛臺團隊應確認操船意圖、覆誦舵令車令並持續監控。制度面應檢討二港口分道航行、雙向會遇、VTS警示及引水人離輪前航道淨空配套。",
+    "practicalAnalysis": "運安會正式調查指出，長輝輪等待時受風流影響漂入雙向航道，限縮通運輪出港空間；通運輪引水人已離船，船長須獨自處理交通態勢及VTS聯繫。題目文字提到右船艉，但運安會正式敘述為右舷船身觸碰離岸堤，本答案採官方調查用語。",
+    "keyPoints": [
+      {
+        "point": "長輝輪受風流影響漂入雙向航道，限縮通運輪出港空間。",
+        "importance": "essential"
+      },
+      {
+        "point": "通運輪引水人已離船，船長須獨自處理交通態勢及VTS聯繫。",
+        "importance": "essential"
+      },
+      {
+        "point": "離輪前應確認航道淨空，必要時延後離輪或安排VTS管制。",
+        "importance": "essential"
+      },
+      {
+        "point": "會遇風險應及早協調，避免緊迫局面才以急轉向作單一避讓手段。",
+        "importance": "essential"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "totalPoints": 20,
+      "items": []
+    },
+    "references": [
+      {
+        "title": "通運輪與FPMC B FOREVER會遇觸碰離岸堤事故調查報告",
+        "sourceType": "incident_report",
+        "issuer": "國家運輸安全調查委員會",
+        "editionOrEffectiveDate": "114-06-16",
+        "url": "https://www.ttsb.gov.tw/1133/1178/1179/46148/post",
+        "accessedAt": "2026-11-07",
+        "supports": "事故經過、可能肇因與安全改善建議。"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "accessedAt": "2026-11-07",
+        "supports": "船長與引水人資訊交換及駕駛臺團隊責任。"
+      },
+      "方信雄，《船舶引航專論》；方信雄，《航行避碰與操船》。"
+    ],
+    "assumptions": [],
+    "limitations": [
+      "操船動作須依當時船位、相對運動、船舶操縱資料、COLREG及高雄港正式規定決定。",
+      "未取得考選部官方逐項評分細則。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題號與題文",
+          "result": "pass",
+          "note": "對照114年共同科目題庫資料。"
+        },
+        {
+          "item": "事故事實",
+          "result": "pass",
+          "note": "依運安會114年6月16日正式調查報告核對。"
+        },
+        {
+          "item": "官方評分細則",
+          "result": "needs_review",
+          "note": "未取得官方逐項評分細則。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
