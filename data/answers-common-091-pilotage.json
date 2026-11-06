@@ -74,22 +74,22 @@
       "checks": [
         {
           "item": "AIS適用船舶類別",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依SOLAS V/19.2.4及IMO AIS官方說明核對三類船舶適用門檻。"
         },
         {
           "item": "2002年7月1日版本分階段期限",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依2002年7月1日生效之SOLAS Chapter V文本核對新船及既有船分階段期限；並註明2002年12月後續修正的版本差異。"
         },
         {
           "item": "ITU AIS頻道",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依ITU-R M.1371-1（08/2001）第4.1.1節核對CH87B／161.975 MHz及CH88B／162.025 MHz。"
         },
         {
           "item": "AIS主要功能",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依IMO AIS官方說明核對船舶識別、動態資訊、自動船岸及船舶間資料交換功能。"
         }
       ]
