@@ -1,0 +1,122 @@
+[
+  {
+    "id": "100-pilotage-01-answer-v1",
+    "questionId": "100-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "technical_essay",
+    "modelAnswer": "【一、美國海圖編號制度概述】\n\n美國海圖編號由美國國家地理空間情報局（NGA，早期DMA／NIMA）及美國國家海洋暨大氣總署（NOAA）等依海圖涵蓋之地理區域及比例尺編排。一般分為一位數至五位數，位數主要反映海圖種類及比例尺範圍；部分編號的首位數字亦代表海洋區域或地理分區。\n\n【二、一位數至五位數之意義】\n\n（一）一位數（1–9）\n此類編號通常不是一般航行海圖，而是海圖系統中無比例尺或特殊用途之圖書、圖表，例如：\n- Chart No. 1：海圖圖式、符號及縮寫（Chart Symbols and Abbreviations）。\n- 其他特殊旗號、信號或相關圖表。\n因此，一位數編號不以一般海圖比例尺區分。\n\n（二）二位數（10–99）\n屬小比例尺海圖，比例尺為1:9,000,000及更小（分母更大），涵蓋大範圍海洋或主要海盆；第一位數字表示所屬海洋區域／海盆，第二位數字為該區域內的編號。\n\n（三）三位數（100–999）\n屬小比例尺至中小比例尺海圖，比例尺約為1:2,000,000至1:9,000,000，通常涵蓋較大海域或海盆之一部分；第一位數字同樣用以識別海洋區域，後續數字依地理範圍及圖幅序列編排。\n\n（四）四位數（常見5000–9999）\n通常用於特殊用途或非一般航行用途之圖表，例如大圓航線追蹤圖、電子導航系統標繪圖、操船圖（Maneuvering Board）及其他專用圖表；不以一般沿岸航行海圖比例尺系列解讀。\n\n（五）五位數（常見11000–99999）\n用於比例尺1:2,000,000及更大（分母較小）的航行海圖，涵蓋海岸線、沿岸、港口及其附近水域。\n1. 第一位數字表示較大的地理區域（Region）。\n2. 第二位數字表示該區域內的地理次區域（Subregion）。\n3. 最後三位數字表示該次區域內各張海圖的編號，依地理位置順序編排。\n4. 部分號碼會保留不用，以便日後新增海圖時可插入適當地理位置。\n\n【三、臺灣地區海圖之開頭二位數字】\n\n我國海軍大氣海洋局所刊行之臺灣及附近海圖，五位數海圖編號的前兩位數字為「04」。例如：\n- 04501：出風鼻至車城泊地。\n- 04502：車城泊地至枋寮泊地。\n- 04503：琉球嶼及附近。\n- 04504：枋寮泊地至高雄港（含琉球嶼）。\n- 04505：高雄港至安平港。\n\n上述圖號可由海軍大氣海洋局《航海圖書目錄》及海圖圖號索引查證。\n\n【結論】\n\n美國海圖編號依一至五位數區分：一位數為無比例尺或特殊圖書圖表；二位數比例尺1:9,000,000及更小；三位數約1:2,000,000至1:9,000,000；四位數為特殊用途或非一般航行圖表；五位數為1:2,000,000及更大之航行海圖，其前兩位數表示地理區域及次區域，末三位為該區域海圖序號。臺灣地區海圖的五位數編號前兩位為04。",
+    "practicalAnalysis": "本題20分，先列五類位數與比例尺，再補臺灣海圖前兩位數04。最容易失分的是把四位數誤當成一般大比例尺海圖，或將五位數的前兩位只說成「臺灣」而未說明其地理區域／次區域編碼。例子可舉04501至04505，說明臺灣及附近海圖系列以04開頭。",
+    "keyPoints": [
+      {
+        "point": "一位數：無比例尺或特殊用途圖表，例如Chart No.1海圖圖式。",
+        "importance": "essential",
+        "explanation": "不是一般航行海圖比例尺分類。"
+      },
+      {
+        "point": "二位數：比例尺1:9,000,000及更小；首位數表示海洋區域／海盆。",
+        "importance": "essential",
+        "explanation": "小比例尺、大範圍海域圖。"
+      },
+      {
+        "point": "三位數：比例尺約1:2,000,000至1:9,000,000；首位數亦表示海洋區域。",
+        "importance": "essential",
+        "explanation": "較大範圍海域圖。"
+      },
+      {
+        "point": "四位數：特殊用途或非一般航行用途圖表，例如操船圖及標繪圖。",
+        "importance": "essential",
+        "explanation": "不宜誤寫為一般沿岸航行海圖。"
+      },
+      {
+        "point": "五位數：比例尺1:2,000,000及更大；前兩位表示Region及Subregion，末三位為個別海圖序號。",
+        "importance": "essential",
+        "explanation": "保留部分號碼供未來新增圖幅。"
+      },
+      {
+        "point": "臺灣海圖五位數圖號前兩位為04，例如04501、04505。",
+        "importance": "essential",
+        "explanation": "依海軍大氣海洋局海圖目錄核對。"
+      }
+    ],
+    "references": [
+      {
+        "title": "The American Practical Navigator (Bowditch), Chapter 3 — Nautical Charts, Chart Numbering",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "editionOrEffectiveDate": "2019 edition",
+        "url": "https://msi.nga.mil/api/publications/download?key=16693975%2FSFH00000%2FBowditch_Vol_1_LoRes_2019.pdf",
+        "pageOrSection": "Chapter 3, paragraph 448, Chart Numbering System",
+        "supports": "美國海圖一至五位數編號、比例尺範圍、地理區域與次區域之編碼意義。"
+      },
+      {
+        "title": "Nautical Chart Manual, Section 2.5.1 Chart Numbers",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA Office of Coast Survey",
+        "editionOrEffectiveDate": "Revised January 8, 2004",
+        "url": "https://ocsdata.ncd.noaa.gov/mcs/02_ncm_vol1.pdf",
+        "pageOrSection": "Section 2.5.1",
+        "supports": "美國海圖五類編號、位數及五位數海圖地理區域與圖幅序號規則。"
+      },
+      {
+        "title": "航海圖書目錄",
+        "sourceType": "official_port_or_authority",
+        "issuer": "中華民國海軍大氣海洋局",
+        "url": "https://navy.mnd.gov.tw/Files/Others/%E8%88%AA%E6%B5%B7%E5%9C%96%E6%9B%B8%E7%9B%AE%E9%8C%84.pdf",
+        "pageOrSection": "臺灣及附近海圖索引，Chart Nos. 04501–04505",
+        "supports": "核對臺灣海圖系列圖號以04開頭及實際圖號範例。"
+      },
+      {
+        "title": "Chart Symbols and Abbreviations — Chart No. 1",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA Office of Coast Survey",
+        "url": "https://www.nauticalcharts.noaa.gov/publications/us-chart-1.html",
+        "supports": "Chart No.1為海圖符號、縮寫及術語圖表，作為一位數編號範例。"
+      },
+      {
+        "title": "100年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國100年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=100090&q=2&s=1205&t=Q",
+        "pageOrSection": "引港學第一題",
+        "supports": "核對原題及20分配分。"
+      }
+    ],
+    "assumptions": [
+      "題目所稱美國海圖編號，依NGA／NOAA通用一至五位數海圖編號制度解讀。",
+      "臺灣海圖前兩位數04，依我國海軍大氣海洋局之臺灣及附近海圖系列圖號判斷。"
+    ],
+    "limitations": [
+      "海圖編號制度曾隨出版機關及特殊用途產品有所例外；五位數分類為一般航行海圖系列，特殊軍用或其他產品可能另有編碼。",
+      "比例尺表述「1:9,000,000及更小」係指比例尺分母更大、圖面涵蓋範圍更廣；「1:2,000,000及更大」係指比例尺分母更小、圖面較詳細。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "美國海圖一至五位數分類",
+          "result": "pass",
+          "note": "依NGA Bowditch 2019及NOAA Nautical Chart Manual第2.5.1節核對。"
+        },
+        {
+          "item": "五位數前兩位及末三位",
+          "result": "pass",
+          "note": "依Bowditch與NOAA手冊核對Region、Subregion及個別海圖序號。"
+        },
+        {
+          "item": "臺灣海圖前兩位04",
+          "result": "pass",
+          "note": "依海軍大氣海洋局海圖目錄及04501至04505圖號核對。"
+        },
+        {
+          "item": "原題及配分",
+          "result": "pass",
+          "note": "依考選部100年引港學第一題核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
