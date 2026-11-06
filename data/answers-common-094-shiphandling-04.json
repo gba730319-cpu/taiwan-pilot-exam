@@ -80,7 +80,7 @@
         "title": "94年專門職業及技術人員特種考試引水人船舶操縱試題",
         "sourceType": "official_port_or_authority",
         "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=343&code=094080&q=1&s=4001&t=Q",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=343&code=094080&q=4&s=4001&t=Q",
         "supports": "本題原始題目。"
       },
       {
@@ -162,6 +162,11 @@
           "item": "船體效率伴流定義",
           "result": "needs_review",
           "note": "(1−t)/(1−w)採Taylor伴流分數慣例；不同文獻若採Froude伴流定義，公式形式不同，考試應標明慣例。"
+        },
+        {
+          "item": "考選部原題PDF題號連結",
+          "result": "pass",
+          "note": "已核對答案對應第4題，將官方試題PDF網址參數由錯誤題號修正為 q=4。"
         }
       ]
     },
