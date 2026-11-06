@@ -27,15 +27,24 @@ type Question = {
   questionNo: number;
 };
 type AnswerKeyPoint = { point: string; importance?: string; explanation?: string; };
-type AnswerReference = string | { title?: string; url?: string; pageOrSection?: string; supports?: string; };
+type AnswerReferenceObject = {
+  title?: string;
+  url?: string;
+  sourceType?: string;
+  issuer?: string;
+  pageOrSection?: string;
+  supports?: string;
+  accessedAt?: string;
+};
+type AnswerReference = string | AnswerReferenceObject;
 type Answer = {
   questionId: string;
   modelAnswer: string;
   practicalAnalysis?: string;
   keyPoints?: AnswerKeyPoint[];
   references?: AnswerReference[];
-  assumptions?: string[];
-  limitations?: string[];
+  assumptions?: Array<string | AnswerReferenceObject>;
+  limitations?: Array<string | AnswerReferenceObject> | string;
   verification?: { status?: string };
 };
 type Source = {
@@ -74,7 +83,28 @@ export default function Home() {
   const items = (questions as Question[]).filter((q) => officialYears.has(q.year));
   const sources = sourceData as Source[];
   const answers = [...(answerData as Answer[]), ...(additionalAnswerData as Answer[]), ...(common091Shiphandling as Answer[]), ...(common091Pivot as Answer[]), ...(common091MassFroude as Answer[]), ...(common091WakeCurrent as Answer[]), ...(common091SideThruster as Answer[]), ...(common091Pilotage01 as Answer[]), ...(common092Shiphandling as Answer[]), ...(common092PilotLaw as Answer[]), ...(common092Pilotage as Answer[]), ...(common092English as Answer[]), ...(common094PilotLaw as Answer[])];
-  const answerByQuestionId = useMemo(() => new Map(answers.map((a) => [a.questionId, a] as const)), [answers]);
+  const normalizedAnswers = answers.map((answer) => {
+    const legacyRefs = [
+      ...(Array.isArray(answer.assumptions) ? answer.assumptions : []),
+      ...(Array.isArray(answer.limitations) ? answer.limitations : []),
+    ].filter((item): item is AnswerReferenceObject => typeof item === "object" && item !== null);
+    const assumptions = Array.isArray(answer.assumptions)
+      ? answer.assumptions.filter((item): item is string => typeof item === "string")
+      : [];
+    const limitations = Array.isArray(answer.limitations)
+      ? answer.limitations.filter((item): item is string => typeof item === "string")
+      : typeof answer.limitations === "string" ? [answer.limitations] : [];
+    return {
+      ...answer,
+      assumptions,
+      limitations,
+      references: [
+        ...(Array.isArray(answer.references) ? answer.references : []),
+        ...legacyRefs,
+      ],
+    };
+  });
+  const answerByQuestionId = useMemo(() => new Map(normalizedAnswers.map((a) => [a.questionId, a] as const)), [normalizedAnswers]);
   const sourceById = useMemo(() => new Map(sources.map((s) => [s.id, s] as const)), [sources]);
   const years = useMemo(
     () => ["全部年度", ...Array.from(new Set(items.map((q) => String(q.year)))).sort((a, b) => Number(b) - Number(a))],
@@ -196,6 +226,7 @@ export default function Home() {
                                 {typeof item === "string" ? item : (
                                   <>
                                     {item.url ? <a href={item.url} target="_blank" rel="noreferrer">{item.title || item.url}</a> : item.title}
+                                    {item.issuer ? `｜${item.issuer}` : ""}
                                     {item.pageOrSection ? `（${item.pageOrSection}）` : ""}
                                     {item.supports ? <span> — {item.supports}</span> : null}
                                   </>
