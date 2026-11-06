@@ -199,22 +199,22 @@
       "checks": [
         {
           "item": "節換算、平均加速度與基本慣性力",
-          "result": "source_checked",
+          "result": "pass",
           "note": "逐步核算 12–14 kn、240 s、25,000,000 kg，得 a 約 0.004287 m/s²、F 約 107.2 kN。"
         },
         {
           "item": "14 kn 等速功率立方律估算",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依固定排水量及近似不變推進效率的立方律估算，得約 7,940 PS；MAN Energy Solutions 說明立方律的假設及適用限制。"
         },
         {
           "item": "平均與末速加速附加功率",
-          "result": "source_checked",
+          "result": "pass",
           "note": "以 F×V 分別採 13 kn 平均速度及 14 kn 末速，得約 974 PS 與 1,050 PS，明確區分平均值與末速瞬時值。"
         },
         {
           "item": "船體附加質量限制",
-          "result": "source_checked",
+          "result": "pass",
           "note": "Panama Canal Ship Maneuvering Technical Reference 說明 apparent displacement 包含 displacement 與 additional mass；未提供係數時不任意套用數值。"
         }
       ]
@@ -313,22 +313,22 @@
       "checks": [
         {
           "item": "Bow Thruster 低速用途及船速影響",
-          "result": "source_checked",
+          "result": "pass",
           "note": "以Norrby 1967模型試驗、Cai et al. 2024研究及Standard Club操船指引交叉核對。"
         },
         {
           "item": "靜態效能因子 C 的原始定義",
-          "result": "source_checked",
+          "result": "pass",
           "note": "Beveridge 1971原始報告第5頁直接列出 C = 0.00182 T^(3/2)/(SHP√ρA)，A為圓形導管截面積。"
         },
         {
           "item": "C 的量綱與平方形式",
-          "result": "source_checked",
+          "result": "pass",
           "note": "C∝T^(3/2)/(P√(dA))為無因次比例；平方形式C²∝T³/(dAP²)與原式等價。"
         },
         {
           "item": "2–3 kn速度經驗值的限制",
-          "result": "source_checked",
+          "result": "pass",
           "note": "不同研究顯示衰減程度依船型與隧道設計而異，故不將2–3 kn視為通用完全失效門檻。"
         }
       ]
@@ -386,17 +386,17 @@
       "checks": [
         {
           "item": "BRM-P 在引水水域的應用及實務問題",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依加拿大運安會 M97W0197 報告核對。"
         },
         {
           "item": "1997 年事故調查與 BRM 訓練推動",
-          "result": "source_checked",
+          "result": "pass",
           "note": "報告記錄 passage plan 未取得共識、引水人與 OOW 溝通不足及訓練驗證建議。"
         },
         {
           "item": "BRM-P 是否為獨立 IMO 強制公約",
-          "result": "source_checked",
+          "result": "pass",
           "note": "定位為 BRM 在 pilotage 作業的應用；未將其描述為獨立公約。"
         }
       ]
@@ -449,12 +449,12 @@
       "checks": [
         {
           "item": "Cross-Channel Angle 定義及定方位接近開口的概念",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依 Crenshaw, Naval Shiphandling 有關狹窄開口及橫風／橫流操船章節核對。"
         },
         {
           "item": "角度過大時增加速度或在開口處轉船的處置",
-          "result": "source_checked",
+          "result": "pass",
           "note": "原著同時警告速度加倍會使動能約增為四倍，且轉船方案須有足夠下風側水域。"
         },
         {
@@ -514,22 +514,22 @@
       "checks": [
         {
           "item": "Wash damage 的非接觸性損害定義",
-          "result": "source_checked",
+          "result": "pass",
           "note": "P&I 指引將船舶通過波浪／壓力場及螺槳紊流造成的鄰船、繫泊設備與碼頭損害列為 wash damage。"
         },
         {
           "item": "波浪、交互作用與繫泊船 surge 機制",
-          "result": "source_checked",
+          "result": "pass",
           "note": "Britannia P&I 及 Proinde 港口案例說明通過船舶的波浪與壓力場可使繫泊船移動、繫纜受力及設施受損。"
         },
         {
           "item": "螺槳噴流造成碼頭附近底床淘刷",
-          "result": "source_checked",
+          "result": "pass",
           "note": "Hamill et al. 1999 研究碼頭附近 propeller wash scour；Gard 亦說明螺槳紊流可損害港灣設施。"
         },
         {
           "item": "速度與通過距離控制",
-          "result": "source_checked",
+          "result": "pass",
           "note": "P&I 指引建議近距離通過時減速並增加通過距離，但須維持本船舵效與安全操縱。"
         }
       ]
