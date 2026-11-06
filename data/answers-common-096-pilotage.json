@@ -1,0 +1,121 @@
+[
+  {
+    "id": "096-pilotage-01-answer-v1",
+    "questionId": "96-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_symbols",
+    "modelAnswer": "本題共5個海圖符號，每個2分。繪圖時應注意符號的「邊界線型、符號方向、英文縮寫及深度數字」；不同版次圖例可能有少許差異，考場以題目指定或當時使用之海圖圖例為準。\n\n【1. 沉船堆 — Wreckage / Wks】\n\n表示海底有兩艘以上沉船或沉船殘骸散布之區域，不是單一沉船符號。應以點狀危險界線（dotted danger curve）圈出範圍，區內加淺藍危險水域色，並註記「Wks」或「Wreckage」；若依部分版次圖例以險惡區表示沉船殘骸，則按該版圖例註記「Foul」。\n\n示意：\n```\n       · · · · · · · · ·\n     ·    Wks   Wk  Wks   ·\n    ·   Wk    Wreckage     ·\n     ·      Wks   Wk      ·\n       · · · · · · · · ·\n```\n\n重點：沉船堆代表「多艘沉船或殘骸集中／散布的區域」，應標示危險範圍，不可只畫一艘沉船的船形符號。\n\n【2. 禁區、限制區 — Prohibited Area / Restricted Area】\n\n兩者均以紫紅色（magenta）界線表示，但須區分：\n- 限制區（Restricted Area）：以紫紅色虛線界定區域，區內註記「Restricted Area」或該區限制事項。\n- 禁止進入區（Area into which entry is prohibited）：以紫紅色界線並配合界線上的圓形標記表示，區內註記「Entry Prohibited」或「Prohibited Area」。\n\n示意：\n```\n限制區 Restricted Area\n— — — — — — — — — —\n|                     |\n|     Restricted      |\n|        Area         |\n|                     |\n— — — — — — — — — —\n\n禁止進入區 Entry Prohibited\n— ○ — ○ — ○ — ○ — ○ —\n|                     |\n|   Entry Prohibited  |\n|                     |\n— ○ — ○ — ○ — ○ — ○ —\n```\n\n【3. 70公尺水深，不到底 — No bottom found at depth shown】\n\n依海圖圖例I13，於水深數字左側加短橫線，表示測深至該深度仍未觸底。\n\n示意：\n```\n— 70\n```\n\n即「70公尺處仍未測到底」，不是表示海底深度恰為70公尺。海圖深度單位應依該圖圖廓或標題註記判讀；若該圖以公尺為單位，數字70即為70m。\n\n【4. 迴轉潮流 — Rotary Tidal Stream Diagram】\n\n使用潮流圖（Tidal Stream Diagram）之放射狀圖式：中央畫小圓，周圍以12支放射箭頭表示各時段潮流方向，並依圖例標示0至11之時序數字；箭頭方向表示潮流流向，箭頭長度或旁註資料依該圖例表示流速。\n\n示意：\n```\n                 ↑ 0\n           ↖ 11     1 ↗\n        ← 10           2 →\n      ↙ 9       ○        3 ↘\n        ↙ 8           4 ↘\n           ↙ 7     5 ↘\n                 ↓ 6\n```\n\n注意：此為潮流圖符號示意，實際箭頭方位及數字位置應依海圖圖例原圖繪製；潮流方向、流速與時序應配合該海圖的潮流表及圖下注記判讀。中華民國海軍海圖圖例第八版將此列為H章「潮與流」之自訂符號ac（Tidal stream diagram），不宜誤畫成單一海流箭頭。\n\n【5. 禁止錨泊 — Anchoring Prohibited】\n\n以錨（anchor）符號加斜線劃除，表示該處禁止拋錨；若海圖以區域方式標示，並應配合紫紅色界線及「Anchoring prohibited」註記。\n\n示意：\n```\n   ⚓\n  ╱\n```\n\n【繪圖總整理】\n\n| 題目 | 英文名稱 | 主要辨識特徵 |\n|---|---|---|\n| 沉船堆 | Wreckage / Wks | 點狀危險界線圈區，註記Wks或Wreckage |\n| 禁區 | Prohibited Area | 紫紅色禁制界線，必要時以圓形標記及Entry Prohibited註記 |\n| 限制區 | Restricted Area | 紫紅色虛線界線及Restricted Area註記 |\n| 70公尺不到底 | No bottom found at depth shown | 水深數字左側短橫線：— 70 |\n| 迴轉潮流 | Rotary Tidal Stream Diagram | 中央小圓、12支放射箭頭、0–11時序標記 |\n| 禁止錨泊 | Anchoring Prohibited | 錨符號加斜線劃除 |\n\n【考試提醒】\n本題重點是符號本身，作答時不必長篇解釋，但必須畫出危險界線、方向箭頭、數字及必要英文註記。沉船堆與單一沉船、限制區與禁止進入區、禁止錨泊與一般錨地，均不可混淆。",
+    "practicalAnalysis": "本題10分，五項各2分。最需注意「沉船堆」不是單一沉船；應畫出散布區域及危險界線並註記Wks/Wreckage。「禁區、限制區」應分別表現禁止進入與一般限制的界線差異；「70公尺不到底」為水深數字左側加短橫線；「迴轉潮流」是中央小圓加12支放射箭頭及0–11標記；「禁止錨泊」為錨符號加斜線。海軍圖例第八版為2010年版，2007年考試當時圖例版次仍待取得原件，因此沉船堆的縮寫／界線型式須保留版次核對。",
+    "keyPoints": [
+      {
+        "point": "沉船堆是多艘沉船或殘骸散布區，應以點狀危險界線圈出範圍並註記Wks／Wreckage。",
+        "importance": "essential",
+        "explanation": "不可只畫單一沉船船形；不同版次可能以Foul或Wreckage表示，依考試年代圖例。"
+      },
+      {
+        "point": "限制區以紫紅色虛線界定並註記Restricted Area；禁止進入區以禁制界線及Entry Prohibited標示。",
+        "importance": "essential",
+        "explanation": "兩者限制程度不同，不應只畫同一條線而不註記。"
+      },
+      {
+        "point": "70m no bottom found：水深數字左側加短橫線，畫作— 70。",
+        "importance": "essential",
+        "explanation": "表示測至70m仍未觸底。"
+      },
+      {
+        "point": "迴轉潮流圖：中央小圓、12支放射箭頭、0至11時序標記。",
+        "importance": "essential",
+        "explanation": "海軍圖例第八版列於H章自訂符號ac。"
+      },
+      {
+        "point": "禁止錨泊：錨符號加斜線劃除，區域式標示時配合界線及文字註記。",
+        "importance": "essential",
+        "explanation": "英文Anchoring prohibited。"
+      }
+    ],
+    "references": [
+      {
+        "title": "海圖圖例第八版（Pub. No.1 Chart Symbols and Abbreviations）",
+        "sourceType": "official_port_or_authority",
+        "issuer": "中華民國海軍大氣海洋局",
+        "editionOrEffectiveDate": "民國99年12月（2010年）第八版",
+        "url": "https://www.mnd.gov.tw/newUpload/UserFiles/File/%E5%A4%A7%E6%B0%A3%E6%B5%B7%E6%B4%8B%E5%B1%80/%E6%B5%B7%E5%9C%96%E5%9C%96%E4%BE%8B%281020730%29.pdf",
+        "pageOrSection": "H章ac潮流圖；I章13不到底深度；N章2.1限制區、2.2禁制區、20禁止錨泊；K章沉船及險惡區",
+        "supports": "臺灣官方中英文海圖圖例，可核對迴轉潮流、70m不到底、限制區／禁制區及禁止錨泊符號。第八版為2010年版，僅作符號核對參考，不直接視為2007年考試當時版次。"
+      },
+      {
+        "title": "U.S. Chart No.1: Nautical Chart Symbols, Abbreviations and Terms",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Oceanic and Atmospheric Administration (NOAA) / National Geospatial-Intelligence Agency (NGA)",
+        "editionOrEffectiveDate": "2003版",
+        "url": "https://repository.library.noaa.gov/view/noaa/49552/noaa_49552_DS1.pdf",
+        "pageOrSection": "K Rocks, Wrecks and Obstructions; Wreckage symbol and danger curve",
+        "supports": "核對Wreckage以危險界線圈出多艘沉船或散布殘骸區域，並以Wreckage／Wks註記之圖式。"
+      },
+      {
+        "title": "IHO S-4 Chart Specifications, B-422.8 — Foul ground and sites of cleared platforms",
+        "sourceType": "international_convention",
+        "issuer": "International Hydrographic Organization (IHO)",
+        "url": "https://legacy.iho.int/mtg_docs/com_wg/CSPCWG/CSPCWG6/CSPCWG6-08.2A_Fouls_and_Foul_Ground.pdf",
+        "pageOrSection": "B-422.8, K31",
+        "supports": "說明Foul ground可用於沉船殘骸區等不宜錨泊或拖撈之區域；有助於區分可航行但不宜錨泊的Foul ground與危險沉船堆。"
+      },
+      {
+        "title": "96年專門職業及技術人員特種考試引水人考試試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國96年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=911&code=096080&q=1&s=c051&t=Q",
+        "pageOrSection": "甲種引水人基隆港、高雄港、臺北港、安平港，引港學第一題",
+        "supports": "確認原題五項符號為沉船堆、禁區／限制區、70米水深不到底、迴轉潮流及禁止錨泊。"
+      }
+    ],
+    "assumptions": [
+      "本題依2007年引水人考試題目作答；可取得之臺灣官方海圖圖例為2010年第八版，故用以核對通用圖式，但不將其版次宣稱為2007年考試當時版本。",
+      "「沉船堆」依Wreckage解讀為多艘沉船或散布殘骸區域，並以危險界線圈出；若當年考試指定圖例使用Foul／Wks不同標註，應以該版原圖為準。",
+      "「禁區、限制區」依海圖界線符號分別解讀為禁止進入區及限制區，並非單指禁止錨泊區；第五項才是禁止錨泊。"
+    ],
+    "limitations": [
+      "尚未取得2007年當時海軍大氣海洋局海圖圖例第七版原件，因此沉船堆的當年縮寫、危險界線及填色細節仍列為needs_review。",
+      "ASCII示意僅供記憶符號組成，不能取代正式海圖圖例的比例、線型、色彩及符號位置。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "原題五項符號",
+          "result": "pass",
+          "note": "依考選部96年引水人考試原題核對五項名稱。"
+        },
+        {
+          "item": "70m no bottom found",
+          "result": "pass",
+          "note": "依海軍海圖圖例第八版I13核對，水深數字左側短橫線表示No bottom found at depth shown。"
+        },
+        {
+          "item": "迴轉潮流圖",
+          "result": "pass",
+          "note": "依海軍海圖圖例第八版H章自訂符號ac核對，為中央小圓及0至11標記之放射狀潮流圖。"
+        },
+        {
+          "item": "禁區與限制區",
+          "result": "pass",
+          "note": "依海軍海圖圖例第八版N2.1及N2.2區分限制區界與禁止進入區界；N20另為禁止錨泊。"
+        },
+        {
+          "item": "禁止錨泊",
+          "result": "pass",
+          "note": "依海軍海圖圖例第八版N20核對Anchoring prohibited。"
+        },
+        {
+          "item": "沉船堆當年版次圖式",
+          "result": "needs_review",
+          "note": "NOAA 2003 Chart No.1以Wreckage及危險界線標示多艘沉船或散布殘骸；IHO/臺灣後續版次亦可能以Foul area表示殘骸區。尚未取得2007年臺灣海軍圖例第七版原件，故保留待核。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
