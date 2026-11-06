@@ -1,0 +1,64 @@
+{
+  "id": "084-pilot-law-10-answer-v1",
+  "questionId": "084-pilot-law-10",
+  "version": 1,
+  "language": "zh-TW",
+  "answerType": "legal_analysis",
+  "modelAnswer": "本題依《1972年國際海上避碰規則》第24條拖帶船舶號燈、號標規定。拖帶長度應由拖船船尾量至被拖物最後端；本題即使只看201公尺拖纜，已超過200公尺，連同101公尺被拖船船長計算更超過200公尺。\n\n一、A船（海洋拖船，99公尺）\n（一）桅燈：拖帶時應顯示垂直線排列之兩盞桅燈；拖帶長度超過200公尺時，改顯示三盞桅燈，均為白燈。\n（二）舷燈：右舷綠燈、左舷紅燈。\n（三）艉燈：白色艉燈。\n（四）拖帶燈：在艉燈垂直上方顯示一盞黃色拖帶燈。\n（五）號標：拖帶長度超過200公尺，應在最易見處顯示一個菱形號標。\n\n二、B船（無動力被拖船，101公尺）\n（一）顯示左右舷燈：右舷綠燈、左舷紅燈。\n（二）顯示白色艉燈。\n（三）拖帶長度超過200公尺時，於最易見處顯示一個菱形號標。\n\n三、暗夜互見燈光\n（一）由B船向前看A船：可見A船垂直排列之三盞白色桅燈、左右舷燈（依觀察方位可能見紅或綠）、白色艉燈及其上方黃色拖帶燈。\n（二）由A船向後看B船：可見B船前端舷燈（依觀察方位可能見紅或綠）；若從正後方觀察，應見B船白色艉燈。燈光可見範圍仍依船舶相對方位及遮蔽情形判讀。\n\n四、B船無法顯示規定燈號時\n如有充分理由致被拖船無法顯示第24條(e)所規定燈號，應採取一切可能措施照明被拖船，或至少指示該無燈船舶／物體的存在，使他船能及早察覺並避免碰撞。",
+  "practicalAnalysis": "本題數字刻意將拖纜設為201公尺，已超過第24條的200公尺門檻，故拖船需三盞桅燈並顯示菱形號標；被拖船亦須顯示菱形號標。判斷拖帶長度時，規則的量測基準是拖船船尾至被拖物最後端，不是單純只量拖纜。B船長101公尺不會使其變成動力船，仍依被拖船規定顯示舷燈、艉燈及必要號標。",
+  "keyPoints": [
+    {
+      "point": "拖帶長度量自拖船船尾至被拖物最後端；超過200公尺。",
+      "importance": "essential"
+    },
+    {
+      "point": "A船三盞垂直白色桅燈、紅綠舷燈、白色艉燈、艉燈上方黃色拖帶燈。",
+      "importance": "essential"
+    },
+    {
+      "point": "拖帶超過200公尺，A及B均應顯示菱形號標。",
+      "importance": "essential"
+    },
+    {
+      "point": "B船顯示紅綠舷燈及白色艉燈。",
+      "importance": "essential"
+    },
+    {
+      "point": "被拖船無法顯示燈號時，採取一切可能照明措施，至少指示其存在。",
+      "importance": "essential"
+    }
+  ],
+  "scoringGuide": {
+    "status": "editorial_estimate",
+    "totalPoints": 10,
+    "items": [
+      {
+        "criterion": "法條依據與規範內容正確",
+        "points": 6,
+        "basis": "編輯建議配分，非官方評分標準"
+      },
+      {
+        "criterion": "說明適用情境、程序及法律效果",
+        "points": 4,
+        "basis": "編輯建議配分，非官方評分標準"
+      }
+    ]
+  },
+  "references": [
+    {
+      "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972 (COLREGs)",
+      "sourceType": "international_convention",
+      "issuer": "International Maritime Organization",
+      "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+      "pageOrSection": "Rules 17 and 24",
+      "supports": "直航船措施及拖帶船舶號燈、號標規定。"
+    }
+  ],
+  "assumptions": [
+    "本題依民國84年考試時有效法規作答；現行法條僅作對照，不倒推適用。"
+  ],
+  "limitations": [
+    "暗夜觀察示意圖須依實際觀察方位繪製；文字答案已列燈色，但網站題目要求的圖示可在後續 UI 中補成互動示意圖。"
+  ],
+  "lastUpdated": "2026-11-07"
+}
