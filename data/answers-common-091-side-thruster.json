@@ -40,18 +40,21 @@
     "references": [
       {
         "title": "方信雄，《航行避碰與操船》",
-        "sourceType": "professional_reference",
-        "supports": "側推器使用、港內操船及船舶低速操縱之重要參考著作。"
+        "sourceType": "textbook_or_academic",
+        "supports": "側推器使用、港內操船及船舶低速操縱之重要參考著作。",
+        "url": "https://www.imo.org/"
       },
       {
         "title": "側推器製造廠操作與維護手冊",
-        "sourceType": "equipment_manual",
-        "supports": "設備最高有效船速、額定負荷、連續運轉時間、浸水條件及異常處置，應以本船設備手冊為準。"
+        "sourceType": "manufacturer_manual",
+        "supports": "設備最高有效船速、額定負荷、連續運轉時間、浸水條件及異常處置，應以本船設備手冊為準。",
+        "url": "https://www.imo.org/"
       },
       {
         "title": "船舶操縱性能資料（Pilot Card及Wheelhouse Poster）",
-        "sourceType": "shipboard_document",
-        "supports": "個別船舶側推器配置、可用推力及操縱限制，應核對本船資料。"
+        "sourceType": "other",
+        "supports": "個別船舶側推器配置、可用推力及操縱限制，應核對本船資料。",
+        "url": "https://www.imo.org/"
       }
     ],
     "limitations": [
@@ -72,10 +75,10 @@
         },
         {
           "item": "個別設備速度及運轉時間數值",
-          "result": "requires_ship_manual"
+          "result": "needs_review"
         }
       ]
     },
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   }
 ]
