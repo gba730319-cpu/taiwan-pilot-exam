@@ -1,0 +1,402 @@
+[
+  {
+    "id": "100-english-01-answer-v1",
+    "questionId": "100-english-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "【第一段英翻中】\n\n引水通常被認為是由熟悉當地水域、且並非經常固定派任於該船舶的專業人員，在港口、港灣及河川中引導單一船舶航行的工作。依照一種便於理解的法律擬制，船舶仍由船長負責，船長在任何時候只要有正當理由，均可推翻引水人的決定。然而，事實上，引水人在不同程度上也分擔了確保船舶作為獨立個體安全航行的責任。\n\n【第二段英翻中】\n\n港區內要達成安全、有效率且無污染的作業，顯然有賴於所有相關要素之間的有效協調。引水人對達成此一目標固然扮演不可或缺的角色，但並非唯一的角色。港口協調必須透過某種具權威性的合作方式，在港區內運作的所有團體之間共同完成。\n\n【重要字詞與翻譯說明】\n1. pilotage：引水、領航業務。\n2. local specialist：熟悉當地水域的專業人員／引水人。\n3. not regularly assigned to the ship：並非固定派任於該船舶。\n4. legal fiction：法律擬制，指法律上為方便適用而採取的假定，不是單純的虛構。\n5. override the pilot：推翻、否決或不採納引水人的建議／指令；應依上下文理解。\n6. for cause：基於正當理由。\n7. in varying degrees：在不同程度上。\n8. safe navigation of the ship as an individual unit：該船舶作為獨立航行單位之安全航行。\n9. effective co-ordination：有效協調。\n10. authoritative form of co-operative effort：具權威性或正式組織性的合作方式。\n11. all the groups which operate within the port area：所有在港區內運作的相關團體，包括港務、VTS、引水、拖船、碼頭及船舶等單位。",
+    "practicalAnalysis": "本題30分，兩段都要注意長句結構。第一段主句是Pilotage is usually thought of as...；not regularly assigned修飾local specialist；according to a convenient legal fiction是法律擬制；for cause為有正當理由；in varying degrees表示引水人分擔責任的程度不同。第二段主詞是The achievement，動詞depends upon；not the only role強調引水人不是港口協調的唯一角色；authoritative form of co-operative effort要翻成具權威性／正式組織性的合作方式。",
+    "keyPoints": [
+      {
+        "point": "legal fiction譯為法律擬制，不是法律虛構。",
+        "importance": "essential",
+        "explanation": "指法律上為方便適用所採的假定。"
+      },
+      {
+        "point": "override the pilot at any time, for cause譯為船長有正當理由時可推翻或不採納引水人的決定。",
+        "importance": "essential",
+        "explanation": "for cause不可漏譯。"
+      },
+      {
+        "point": "in varying degrees譯為在不同程度上，表示引水人亦分擔安全航行責任。",
+        "importance": "essential",
+        "explanation": "不是單純共同負責而不分程度。"
+      },
+      {
+        "point": "safe, efficient and pollution free operations譯為安全、有效率且無污染的作業。",
+        "importance": "essential",
+        "explanation": "三個並列形容詞都應翻出。"
+      },
+      {
+        "point": "authoritative form of co-operative effort譯為具權威性或正式組織性的合作方式。",
+        "importance": "supporting",
+        "explanation": "反映港區各單位需有制度化協調。"
+      }
+    ],
+    "references": [
+      {
+        "title": "100年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國100年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=808&code=100090&q=4&s=1207&t=Q",
+        "pageOrSection": "專業英文第一題",
+        "supports": "核對兩段英文原文。"
+      },
+      {
+        "title": "Resolution A.960(23): Recommendations on Training and Certification and on Operational Procedures for Maritime Pilots other than Deep-Sea Pilots",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "5 December 2003",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.960%2823%29.pdf",
+        "pageOrSection": "Annex 2, paragraphs 1–2",
+        "supports": "引水人、船長及駕駛台團隊之角色、溝通及安全責任背景。"
+      },
+      {
+        "title": "Resolution A.857(20): Guidelines for Vessel Traffic Services",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "27 November 1997",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.857%2820%29.pdf",
+        "pageOrSection": "Paragraph 2.1 Objectives and 2.3 VTS Services",
+        "supports": "港區安全、效率、環境保護及各單位協調之背景。"
+      }
+    ],
+    "assumptions": [
+      "第一段legal fiction依原文語境譯為法律擬制，保留其對船長與引水人責任關係的描述。",
+      "override the pilot採「推翻／不採納引水人的決定」翻譯，並不表示船長可無正當理由任意忽視安全建議。"
+    ],
+    "limitations": [
+      "本題為英文翻譯題，譯文依原文句意呈現；涉及船長與引水人法律責任時，仍應以我國引水法及適用國際規範為準。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "原文核對",
+          "result": "pass",
+          "note": "依考選部100年專業英文第一題核對兩段英文。"
+        },
+        {
+          "item": "專業用語",
+          "result": "pass",
+          "note": "核對pilotage、legal fiction、for cause及port co-ordination等用語。"
+        },
+        {
+          "item": "法律責任語意",
+          "result": "pass",
+          "note": "保留原文對船長及引水人責任分擔的描述，並註明法律擬制語意。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "100-english-02-answer-v1",
+    "questionId": "100-english-02",
+    "version": 1,
+    "language": "en",
+    "answerType": "translation",
+    "modelAnswer": "**(1) 中文英譯**\n\nA vessel should, as far as practicable, avoid crossing traffic lanes. If it is obliged to cross a traffic lane, it should do so on a heading as nearly as practicable at right angles to the general direction of traffic flow.\n\n**(2) 中文英譯**\n\nWhen a vessel enters shallow water, changes in pressure occur, causing the vessel to squat and change its trim. This phenomenon becomes more pronounced, especially when the vessel is proceeding at high speed.\n\n**Alternative version of (2), more technical**\n\nWhen a ship enters shallow water, the pressure distribution around the hull changes, resulting in increased sinkage and a change in trim. This effect is particularly significant at high speed.\n\n【用語提示】\n- 儘可能：as far as practicable / as nearly as practicable\n- 橫越航行巷道：cross a traffic lane\n- 一般通行方向：the general direction of traffic flow\n- 成直角：at right angles\n- 淺水區：shallow water\n- 壓力之改變：changes in pressure / changes in pressure distribution\n- 船體下沉：squat / sinkage\n- 俯仰差／縱傾：trim\n- 高速航行：proceeding at high speed",
+    "practicalAnalysis": "本題20分。第一句可直接採COLREG Rule 10(c)的標準英文：avoid crossing traffic lanes；如不得已，heading as nearly as practicable at right angles to the general direction of traffic flow。第二句的「船體下沉」專業上可用Squat；「俯仰差」在此指船舶縱傾（Trim）的改變，不宜譯成pitching（波浪中的縱搖運動）。",
+    "keyPoints": [
+      {
+        "point": "航行巷道：traffic lane；橫越：cross；儘可能避免：as far as practicable, avoid。",
+        "importance": "essential",
+        "explanation": "採用COLREG Rule 10(c)標準術語。"
+      },
+      {
+        "point": "與一般通行方向成直角：at right angles to the general direction of traffic flow。",
+        "importance": "essential",
+        "explanation": "Rule 10(c)的核心要求。"
+      },
+      {
+        "point": "淺水區：shallow water；船體下沉：squat或sinkage。",
+        "importance": "essential",
+        "explanation": "Squat為船舶淺水效應常用專業詞。"
+      },
+      {
+        "point": "俯仰差／縱傾：trim，不是pitching。",
+        "importance": "essential",
+        "explanation": "Trim指船首尾吃水差；Pitching指縱搖運動。"
+      },
+      {
+        "point": "高速航行：proceeding at high speed；更為明顯：becomes more pronounced。",
+        "importance": "supporting",
+        "explanation": "符合技術英文語氣。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972 (COLREGs)",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rule 10(c), Traffic Separation Schemes",
+        "supports": "船舶應避免橫越交通航道；不得不橫越時應儘可能採接近直角航向。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch), Chapter 9 — Tides and Tidal Currents / Shallow Water",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/api/publications/download?key=16693975%2FSFH00000%2FBowditch_Vol_1_LoRes_2019.pdf",
+        "pageOrSection": "Chapter 9, Shallow-water effects",
+        "supports": "淺水效應、船體下沉及縱傾變化之航海術語。"
+      },
+      {
+        "title": "100年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國100年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=808&code=100090&q=4&s=1207&t=Q",
+        "pageOrSection": "專業英文第二題",
+        "supports": "核對原中文句子。"
+      }
+    ],
+    "assumptions": [
+      "第一句依COLREG Rule 10(c)官方英文原文翻譯。",
+      "第二句將「俯仰差」依船舶淺水效應解讀為trim（縱傾）變化，而非pitching（縱搖）。"
+    ],
+    "limitations": [
+      "不同教材對「船體下沉」可用squat或sinkage；在操船技術語境中squat更具體，指船舶在淺水航行時因流場與壓力變化產生的下沉及縱傾變化。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "Rule 10(c)英譯",
+          "result": "pass",
+          "note": "依COLREG Rule 10(c)正式英文原文核對。"
+        },
+        {
+          "item": "淺水效應術語",
+          "result": "pass",
+          "note": "依航海術語區分squat、sinkage及trim。"
+        },
+        {
+          "item": "原題核對",
+          "result": "pass",
+          "note": "依考選部100年專業英文第二題核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "100-english-03-answer-v1",
+    "questionId": "100-english-03",
+    "version": 1,
+    "language": "en",
+    "answerType": "vocabulary_and_sentences",
+    "modelAnswer": "**(1) 走錨 — Dragging Anchor**\n\nSentence: The vessel began dragging anchor because of the strong wind and current.\n\n**(2) 自動識別系統 — Automatic Identification System (AIS)**\n\nSentence: The officer of the watch used the Automatic Identification System (AIS), together with radar and visual observations, to monitor nearby traffic.\n\n**(3) 分道通航制 — Traffic Separation Scheme (TSS)**\n\nSentence: Vessels navigating in a traffic separation scheme should proceed in the appropriate traffic lane in the direction of traffic flow.\n\n**(4) 迎艏正遇 — Head-on Situation**\n\nSentence: When two power-driven vessels meet on reciprocal or nearly reciprocal courses and there is a risk of collision, both vessels should alter course to starboard.\n\n【用語補充】\n- Dragging anchor：錨抓力不足，船舶受風流影響而拖錨漂移。\n- Automatic Identification System (AIS)：自動識別系統；第一次出現應先寫全名再加縮寫。\n- Traffic Separation Scheme (TSS)：交通分道制度。\n- Head-on situation：迎艏正遇；COLREG Rule 14使用的正式用語為head-on situation。",
+    "practicalAnalysis": "本題20分，每小題要寫正確英文術語並造完整句子。走錨用Dragging Anchor，不要用anchor dragging作為名詞答案；AIS首次出現寫全名及縮寫；分道通航制用Traffic Separation Scheme；迎艏正遇用Head-on Situation。句子內容最好結合航行安全或COLREG規則，避免只有單字片語。",
+    "keyPoints": [
+      {
+        "point": "走錨：Dragging Anchor。",
+        "importance": "essential",
+        "explanation": "例句可說強風流使船舶開始拖錨漂移。"
+      },
+      {
+        "point": "自動識別系統：Automatic Identification System (AIS)。",
+        "importance": "essential",
+        "explanation": "正式全名及縮寫。"
+      },
+      {
+        "point": "分道通航制：Traffic Separation Scheme (TSS)。",
+        "importance": "essential",
+        "explanation": "COLREG Rule 10。"
+      },
+      {
+        "point": "迎艏正遇：Head-on Situation。",
+        "importance": "essential",
+        "explanation": "COLREG Rule 14正式用語。"
+      },
+      {
+        "point": "每個術語須搭配完整英文句子。",
+        "importance": "essential",
+        "explanation": "句子需有主詞、動詞及完整意思。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972 (COLREGs)",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rules 10 and 14",
+        "supports": "Traffic Separation Scheme及Head-on Situation正式術語與規則背景。"
+      },
+      {
+        "title": "AIS — Automatic Identification System",
+        "sourceType": "official_port_or_authority",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/ais.aspx",
+        "supports": "AIS正式英文全名及用途。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch), Chapter 7 — Anchoring",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/api/publications/download?key=16693975%2FSFH00000%2FBowditch_Vol_1_LoRes_2019.pdf",
+        "pageOrSection": "Chapter 7, Anchoring and dragging anchor",
+        "supports": "走錨及錨泊術語。"
+      },
+      {
+        "title": "100年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國100年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=808&code=100090&q=4&s=1207&t=Q",
+        "pageOrSection": "專業英文第三題",
+        "supports": "核對原題四個中文術語。"
+      }
+    ],
+    "assumptions": [
+      "走錨採用Dragging Anchor；AIS、TSS及Head-on Situation採COLREG與IMO通用術語。"
+    ],
+    "limitations": [
+      "Dragging anchor描述船舶因錨抓力不足而移動；若要表達「錨正在拖動」的動作，可依句構改寫，但考試術語以Dragging Anchor最直接。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "走錨英文",
+          "result": "pass",
+          "note": "依Bowditch錨泊章節核對dragging anchor。"
+        },
+        {
+          "item": "AIS英文",
+          "result": "pass",
+          "note": "依IMO官方AIS頁核對Automatic Identification System。"
+        },
+        {
+          "item": "TSS及迎艏正遇",
+          "result": "pass",
+          "note": "依COLREG Rule 10及Rule 14核對正式英文。"
+        },
+        {
+          "item": "原題核對",
+          "result": "pass",
+          "note": "依考選部100年專業英文第三題核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "100-english-04-answer-v1",
+    "questionId": "100-english-04",
+    "version": 1,
+    "language": "en",
+    "answerType": "composition",
+    "modelAnswer": "**Relationships between Pilots and Vessel Traffic Center**\n\nA good relationship between maritime pilots and a Vessel Traffic Service (VTS) centre is essential for safe and efficient navigation in port areas and their approaches. Although pilots and VTS operators have different duties, they share the common goal of preventing accidents, protecting the marine environment and maintaining an orderly flow of vessel traffic.\n\nFirst, VTS provides pilots and vessels with important traffic and navigational information. Such information may include the positions and intentions of other vessels, weather conditions, tidal currents, waterway restrictions, navigational hazards and changes to port operations. This information helps pilots plan a safe passage and make timely decisions.\n\nSecond, pilots should maintain clear and continuous communication with the VTS centre. Before entering or leaving a port, the pilot should report the vessel's identity, position, destination, estimated time of arrival, draught and other information required by local procedures. During pilotage, the pilot should keep VTS informed of the vessel's movements, intended manoeuvres, delays and any unusual situation. Standard Marine Communication Phrases should be used whenever practicable to avoid misunderstandings.\n\nThird, VTS plays an important role in traffic organization. It can coordinate the movements of arriving, departing and shifting vessels, allocate suitable passage times, provide warnings and assist in preventing dangerous encounters. In restricted visibility, bad weather or heavy traffic, navigational assistance from VTS may be especially valuable.\n\nHowever, VTS does not replace the pilot or the ship's master. The pilot provides local knowledge and conducts the pilotage operation in cooperation with the bridge team, while the master remains responsible for the safety of the ship. VTS instructions should be clearly identified as information, advice, warnings or instructions, and should not interfere with the traditional relationship between the master and the pilot.\n\nIn conclusion, mutual respect, accurate information, timely reporting and effective communication are the foundations of a good relationship between pilots and VTS. By working together, they can improve navigation safety, protect the environment and ensure the smooth movement of ships in port waters.",
+    "practicalAnalysis": "本題30分，約300字作文，建議五段式：引言、VTS提供資訊、引水人回報與通訊、VTS交通組織及責任界線、結論。內容應提到VTS三項服務：Information Service、Navigational Assistance Service、Traffic Organization Service；引水人需報告船舶動態、ETA、吃水及操船意圖；但VTS不取代引水人及船長責任，船長仍負船舶安全責任。作文約300字，採正式海事英文。",
+    "keyPoints": [
+      {
+        "point": "引言說明引水人與VTS共同目標為航行安全、保護環境及維持有秩序的船舶交通。",
+        "importance": "essential",
+        "explanation": "建立雙方合作關係。"
+      },
+      {
+        "point": "VTS提供資訊服務：他船位置與意圖、天候、潮流、水道限制及航行危險。",
+        "importance": "essential",
+        "explanation": "Information Service。"
+      },
+      {
+        "point": "引水人應持續向VTS報告船位、船舶動態、ETA、目的地、吃水、操船計畫及異常。",
+        "importance": "essential",
+        "explanation": "保持及時、準確、連續的通訊。"
+      },
+      {
+        "point": "VTS提供航行協助及交通組織，協調進出港、移泊、通行時段及交通風險。",
+        "importance": "essential",
+        "explanation": "Navigational Assistance Service及Traffic Organization Service。"
+      },
+      {
+        "point": "VTS不取代引水人或船長；VTS訊息應明確區分資訊、建議、警告及指令。",
+        "importance": "essential",
+        "explanation": "保留船長及引水人職責界線。"
+      },
+      {
+        "point": "使用IMO SMCP及清楚標準化通訊，避免語言及資訊誤解。",
+        "importance": "supporting",
+        "explanation": "標準海事通信用語。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Resolution A.857(20): Guidelines for Vessel Traffic Services",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "27 November 1997",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.857%2820%29.pdf",
+        "pageOrSection": "Paragraphs 2.1–2.4, Objectives, VTS Services and Communication",
+        "supports": "VTS目的、資訊服務、航行協助、交通組織、責任界線及訊息分類。"
+      },
+      {
+        "title": "Resolution A.960(23): Recommendations on Training and Certification and on Operational Procedures for Maritime Pilots other than Deep-Sea Pilots",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "5 December 2003",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.960%2823%29.pdf",
+        "pageOrSection": "Annex 2, paragraphs 1–5",
+        "supports": "引水人、船長及駕駛台團隊之溝通、資訊交換及引水程序。"
+      },
+      {
+        "title": "IMO Standard Marine Communication Phrases",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "Resolution A.918(22), 29 November 2001",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/standardmarinecommunicationphrases.aspx",
+        "supports": "VTS、船舶及岸台之標準海事通訊用語。"
+      },
+      {
+        "title": "100年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國100年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=808&code=100090&q=4&s=1207&t=Q",
+        "pageOrSection": "專業英文第四題",
+        "supports": "核對作文題目及約300字要求。"
+      }
+    ],
+    "assumptions": [
+      "作文以2011年考試年度適用之IMO A.857(20)、A.960(23)及A.918(22)為背景，字數約300字。"
+    ],
+    "limitations": [
+      "各港VTS實際權限、通報點、報告內容及通訊頻道依當地港口規章而異；作文描述國際通用原則，不取代個別港口程序。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "VTS三項服務",
+          "result": "pass",
+          "note": "依IMO A.857(20)第2.3節核對Information、Navigational Assistance及Traffic Organization Services。"
+        },
+        {
+          "item": "引水人與船長責任",
+          "result": "pass",
+          "note": "依IMO A.960(23) Annex 2核對引水人、船長及駕駛台團隊責任。"
+        },
+        {
+          "item": "VTS訊息分類與通訊",
+          "result": "pass",
+          "note": "依IMO A.857(20)第2.4節及SMCP核對資訊、建議、警告、指令及標準通訊。"
+        },
+        {
+          "item": "作文字數及內容",
+          "result": "pass",
+          "note": "依考選部100年專業英文第四題確認約300字短文要求。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
