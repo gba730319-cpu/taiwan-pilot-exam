@@ -1,0 +1,102 @@
+[
+  {
+    "id": "083-shiphandling-01-answer-v1",
+    "questionId": "083-shiphandling-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "technical_analysis",
+    "modelAnswer": "一、緊靠岸船附近航行時，對緊靠船舶的影響\n本題主要考查船舶近距離通過時的水動力交互作用（hydrodynamic interaction）。航行船舶周圍的水流及壓力場會隨船舶通過而改變，造成繫泊船舶受到縱向、橫向及垂向力，並可能產生搖擺、橫移、艏艉偏轉及繫纜負荷急遽增加。\n\n（一）船首波及壓力變化：航行船舶接近繫泊船時，船首波及船體周圍的高壓區可能先作用於繫泊船，使其受推擠或產生橫向位移；船首波亦可能造成繫泊船上下起伏。\n（二）船間狹窄水道的吸引作用：兩船接近時，船體間水流通道縮小，水流加速、壓力降低，可能產生船間吸引力，使繫泊船向通過船靠近；通過船船首、船尾通過時，作用方向及大小會隨時間改變。\n（三）船尾流及螺旋槳流：通過船的艉流、螺旋槳排出流及舵流可能直接衝擊繫泊船，造成橫移、偏轉、振動或船體碰撞風險。\n（四）繫泊系統受力：船舶受上述水動力作用後，繫纜張力可能突然增加或鬆弛，繫纜可能斷裂、跳脫；碰墊可能移位或失效，舷梯、裝卸設備及船岸管線亦可能受損。\n（五）船舶運動與人員風險：繫泊船可能突然向外移動、向通過船靠攏或產生艏艉擺動，導致船岸間隙改變、舷梯墜落、甲板作業人員失足及貨物裝卸中斷。\n\n二、影響程度較大的因素\n（一）通過船速度：通常速度愈高，船體周圍流速與壓力變化愈大，交互作用及繫纜動態負荷通常也愈顯著。\n（二）兩船間距及相對尺度：兩船越接近、船長及吃水越大，或通過船相對繫泊船越大，受影響通常越明顯。\n（三）水深與航道限制：水深較淺、航道狹窄、岸壁或碼頭造成水流受限時，淺水效應、岸壁效應與船間交互作用可能疊加。\n（四）船舶載況及水下形狀：吃水、縱傾、船體線型、方形係數、球鼻艏及船舶排水量均會影響壓力場及尾流。\n（五）通過方式：平行通過、追越、會船及船首或船尾近距離通過時，交互作用的方向、持續時間與變化不同。\n（六）繫泊條件：繫纜配置、纜繩彈性與長度、碰墊性能、潮位、風流及繫泊船是否裝卸貨物，均影響其反應及受損風險。\n\n三、引水及操船應注意事項\n（一）事前評估：確認繫泊船位置、船型、吃水、繫纜及裝卸狀態，並評估航道寬度、水深、潮流與可用通過距離。\n（二）降低通過速度：在不喪失操縱能力及不違反港口規定之前提下，採取足以維持舵效的最低安全速度；避免突然加速、急轉舵或不必要的大幅主機變化。\n（三）保持適當橫距：在航道及安全條件許可下，與繫泊船保持足夠距離，避免貼近通過；不得為追求距離而侵入對向航道或造成其他船舶危險。\n（四）注意船首波與艉流：避免以過大速度使船首波直接衝擊繫泊船，並留意螺旋槳尾流對繫泊船、舷梯及岸邊作業的影響。\n（五）加強溝通：必要時通知VTS、碼頭及繫泊船，提醒甲板人員停止高風險舷側作業、固定舷梯及活動設備，並確認繫纜與碰墊狀況。\n（六）持續監控：通過期間觀察繫泊船位移、繫纜張力、碰墊及舷梯狀態；若有異常，應及早減速或採取安全措施。\n（七）避免不當操船：不得在繫泊船旁突然倒車、急劇變速或大角度轉向，以免產生強烈螺旋槳流及瞬間壓力變化。\n\n四、結論\n航行船舶靠近繫泊船通過時，會因船首波、船間吸引、壓力變化及螺旋槳尾流，使繫泊船產生橫移、偏轉、搖擺與繫纜負荷變化。影響通常隨速度增加、間距縮小及水域受限而加劇。引水人應以安全速度、適當橫距、充分溝通及持續監控降低風險。",
+    "practicalAnalysis": "答題應先說明水動力交互作用，再依序寫出繫泊船的運動、繫纜與碼頭設備風險，最後提出速度、橫距、溝通及監控措施。不可把船間作用簡化成單一方向的吸引力：船首波、船間低壓區及艉流在不同船位階段會產生不同方向的力。題目未提供船型、航道尺度及通過速度，不宜虛構固定安全距離或速度數值。",
+    "keyPoints": [
+      {
+        "point": "通過船會以船首波、船間壓力變化及艉流影響繫泊船。",
+        "importance": "essential"
+      },
+      {
+        "point": "繫泊船可能橫移、偏轉、搖擺，繫纜張力及碰墊負荷改變。",
+        "importance": "essential"
+      },
+      {
+        "point": "速度愈高、兩船間距愈小、水域愈狹窄，交互作用通常愈強。",
+        "importance": "essential"
+      },
+      {
+        "point": "應維持最低安全操縱速度及適當橫距，並注意航道與對向交通。",
+        "importance": "essential"
+      },
+      {
+        "point": "事前通知碼頭與繫泊船，固定舷梯及設備，持續監控繫纜與船位。",
+        "importance": "important"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "totalPoints": 10,
+      "items": [
+        {
+          "criterion": "交互作用原理及對繫泊船的影響",
+          "points": 4,
+          "basis": "編輯建議配分，非官方評分標準"
+        },
+        {
+          "criterion": "影響程度因素",
+          "points": 3,
+          "basis": "編輯建議配分，非官方評分標準"
+        },
+        {
+          "criterion": "引水及操船預防措施",
+          "points": 3,
+          "basis": "編輯建議配分，非官方評分標準"
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "MGN 199 (M) Amendment 1 — Danger of interaction",
+        "sourceType": "official_maritime_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
+        "supports": "船舶近距離通過時的船間水動力交互作用、狹水道及淺水效應風險。"
+      },
+      {
+        "title": "Marine transportation safety investigation report M20C0188",
+        "sourceType": "official_accident_investigation",
+        "issuer": "Transportation Safety Board of Canada",
+        "url": "https://www.tsb.gc.ca/eng/rapports-reports/marine/2020/m20c0188/m20c0188.html",
+        "supports": "岸壁效應、船首排斥及船尾吸引的壓力與流場機制，並指出速度提高會放大岸壁效應。"
+      },
+      {
+        "title": "Dynamic Effects of Ship Passage on Moored Vessels",
+        "sourceType": "academic_paper",
+        "issuer": "Journal of the Waterways, Harbors and Coastal Engineering Division, 1975",
+        "url": "https://doi.org/10.1061/AWHCAR.0000283",
+        "supports": "通過船舶造成繫泊船動態受力及繫纜負荷的研究背景。"
+      },
+      {
+        "title": "《航行避碰與操船》",
+        "sourceType": "textbook",
+        "issuer": "方信雄",
+        "supports": "船舶操縱與狹水域水動力交互作用之專業延伸參考；未標示未核實頁碼。"
+      }
+    ],
+    "assumptions": [
+      "題目所稱「緊靠岸船」依上下文解讀為停泊於碼頭或岸邊的繫泊船。",
+      "以一般大型商船於港內或限制水域通過說明；實際安全速度與通過距離依港口規定、船舶尺度、水深及現場條件決定。"
+    ],
+    "limitations": [
+      "題目未提供船舶尺度、通過速度、間距及水深，無法計算特定船間作用力或提出通用數值界線。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "船間交互作用及近距離通過風險",
+          "result": "pass",
+          "note": "參考英國MCA指引及加拿大TSB調查資料。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
