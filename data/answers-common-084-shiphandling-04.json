@@ -1,0 +1,63 @@
+{
+  "id": "084-shiphandling-04-answer-v1",
+  "questionId": "084-shiphandling-04",
+  "version": 1,
+  "language": "zh-TW",
+  "answerType": "technical_analysis",
+  "modelAnswer": "一、倒行時Pivot Point的變化\n（一）船舶靜止時，迴旋支點通常約在船體中部附近，實際位置受船型、吃水、風流及外力影響。\n（二）船舶開始倒車而仍有前進慣性時，支點不會瞬間跳到船尾；會隨前進速度消退及倒退速度建立而逐漸向船尾移動。\n（三）船舶建立穩定船尾向（sternway）後，支點移至船體後半部，通常接近船尾前方。實船研究指出，倒行穩態時支點位於船體後部；其精確位置並非固定比例，會隨船型、速度及操縱狀態改變。\n（四）支點移至後方後，船尾附近施力的力臂縮短，船艏因而可能產生較大的橫向擺動；倒車時舵效亦通常較前進時差。\n\n二、保持近似直退的方法\n（一）倒車前先使船舶對準預定退行軸線，確認船艉、船艏兩端及兩舷均有足夠水域。\n（二）先以小幅、漸進方式建立船尾向，避免突然大車倒車造成螺槳橫向推力及船艉偏擺。\n（三）舵角以小舵、及早修正為原則；注意倒車時舵效與前進時不同，不能期待大舵立即產生相同效果。\n（四）密切觀察船艏與船艉的橫移、艏向變化及岸距，利用雷達、岸標、艏艉方位及橫移速度交叉確認。\n（五）單螺槳船須掌握倒車螺槳橫向推力（propeller walk），預先補償船艉偏向；必要時以短促的前進車配合舵角修正艏向，但須避免消除所需船尾向。\n（六）雙螺槳船可利用左右主機差速或單側短促用車控制偏航；具艏艉側推器者，可在其有效船速範圍內輔助修正。\n（七）若風壓使船艏偏移，應將風向、受風面及支點位置納入預判；必要時降低退行速度、暫停倒退或改採拖船協助。\n\n三、結論\n倒行時Pivot Point由船體中部逐漸向船尾移動，穩定船尾向時位於船體後半部。欲保持直退，須先對正、低速建立船尾向、掌握螺槳橫向推力、及早小幅修舵，並持續監控艏艉橫移及外界風流。",
+  "practicalAnalysis": "本題不宜將Pivot Point位置寫成絕對固定的「船尾四分之一」；這類比例只能作概略操船參考。日本航海學會1974年實船實驗摘要指出，倒行穩態時支點至少位於船體後半部，並特別指出倒行支點位置沒有單一確定理論。答題重點應放在支點後移的趨勢及其對艏艉力臂、舵效和偏擺的影響。",
+  "keyPoints": [
+    {
+      "point": "由中部附近逐漸向船尾移動，穩定船尾向時在船體後半部。",
+      "importance": "essential"
+    },
+    {
+      "point": "倒車時舵效通常較前進弱，螺槳橫向推力影響較明顯。",
+      "importance": "essential"
+    },
+    {
+      "point": "先對正退行軸線，再低速建立船尾向。",
+      "importance": "essential"
+    },
+    {
+      "point": "小舵、及早修正，監控艏艉橫移。",
+      "importance": "essential"
+    },
+    {
+      "point": "利用短促前進車、差速、側推器或拖船修正，但避免失去船尾向。",
+      "importance": "essential"
+    }
+  ],
+  "scoringGuide": {
+    "status": "editorial_estimate",
+    "totalPoints": 15,
+    "items": [
+      {
+        "criterion": "原理、操作方法及安全考量完整",
+        "points": 10,
+        "basis": "編輯建議配分，非官方評分標準"
+      }
+    ]
+  },
+  "references": [
+    {
+      "title": "On the pivot Point when Ships run astern-I: Ship Experiment",
+      "sourceType": "technical_reference",
+      "issuer": "Journal of Japan Institute of Navigation",
+      "url": "https://www.jstage.jst.go.jp/article/jin/52/0/52_KJ00004819076/_article/-char/en",
+      "supports": "倒行時迴旋支點位置之實船實驗，證明倒行穩態時支點位於船體後半部"
+    },
+    {
+      "title": "Vessel Maneuvering and Handling — OUPV Study Guide",
+      "sourceType": "technical_reference",
+      "issuer": "TowBoatU.S.",
+      "url": "https://towboatussavannah.com/boating/oupv-license/topics/shiphandling/",
+      "supports": "舵效、螺槳流、倒車時舵效降低及倒行操船控制原理"
+    }
+  ],
+  "assumptions": [
+    "以一般單螺槳、單舵大型商船之操船原理說明；實際操作仍須依船型操縱手冊、主機/舵機限制及當時風流條件調整。"
+  ],
+  "limitations": [],
+  "lastUpdated": "2026-11-07"
+}
