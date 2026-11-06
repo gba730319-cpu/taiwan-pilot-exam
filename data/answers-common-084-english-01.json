@@ -1,0 +1,93 @@
+[
+  {
+    "id": "084-english-01-answer-v1",
+    "questionId": "084-english-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "【中文翻譯】\n（1）螺旋槳所產生的轉向作用力，在主機以慢速前進或全速倒車運轉時最為顯著；船舶在水中的速度愈高，其旋迴圈半徑也愈大。\n\n（2）主機由停止狀態起動時，螺旋槳所造成的水流攪動最為劇烈，尤其在倒車時更是如此；若由全速前進突然轉為全速倒車，這種現象尤其明顯。此時全船所感受到的劇烈振動，是由空化現象（cavitation）所造成：螺旋槳各槳葉接連快速通過同一個「空穴」（hole），而周圍的水尚來不及回填該空穴。\n\n【語意補充】\n第一句的 screw 指螺旋槳（propeller），不是螺絲；turning effect 在此指螺旋槳運轉所產生、會影響船首轉向的作用，不宜直接譯成船舶旋迴能力。turning circle radius 是旋迴圈半徑，與船速增加時旋迴圈尺度變大的敘述相連。\n\n第二段描述主機換向時螺旋槳造成的強烈紊流與空化。cavitation 通常譯為空化或空蝕現象，係槳葉附近局部壓力降低，使水形成蒸氣空泡；空泡進入較高壓區後潰滅，可能伴隨噪音、振動及槳葉表面侵蝕。原文以 hole 作比喻，表示槳葉接續通過尚未被周圍水體填補的空穴，考試翻譯宜保留其形象，但不應誤認為螺旋槳在水中真的留下固定孔洞。",
+    "practicalAnalysis": "本題測驗船舶推進與操縱英文。翻譯時須掌握三個層次：一是螺旋槳在低速前進及倒車時對船舶轉向的影響；二是主機由停止起動、尤其由全速前進急速換至全速倒車時，槳葉負荷及尾流變化造成的強烈水流攪動；三是空化造成的振動機理。應避免把 screw 譯為螺絲、astern 譯為船尾方向、turning circle 譯為單純轉向角，或把 cavitation 與一般水流紊亂混為一談。實務上，急速換向會對主機、軸系、螺旋槳及船體產生較大負荷，操船應依主機操作限制、轉速與負荷指示逐步執行，不可只依本段文字推論可任意全速倒俥。",
+    "keyPoints": [
+      {
+        "point": "screw 在船舶推進語境中指螺旋槳（propeller）。",
+        "importance": "essential"
+      },
+      {
+        "point": "slow ahead 為慢速前進；full astern 為全速倒車／全速倒俥。",
+        "importance": "essential"
+      },
+      {
+        "point": "turning circle radius 為旋迴圈半徑；原文指出船速增加時旋迴圈半徑增大。",
+        "importance": "essential"
+      },
+      {
+        "point": "churning of the water 指螺旋槳造成的水流劇烈攪動。",
+        "importance": "essential"
+      },
+      {
+        "point": "cavitation 為空化（空蝕）現象，可能引發噪音、振動及槳葉侵蝕。",
+        "importance": "essential"
+      },
+      {
+        "point": "HOLE 是原文用來描述空穴的比喻，不應直譯成實際孔洞。",
+        "importance": "important"
+      },
+      {
+        "point": "主機由全速前進突然換至全速倒車，須注意推進系統與軸系負荷及操作限制。",
+        "importance": "important"
+      }
+    ],
+    "references": [
+      {
+        "title": "Marine Propulsion and Cavitation — 基本船舶推進與空化原理",
+        "sourceType": "technical_reference",
+        "issuer": "船舶推進工程通用原理",
+        "supports": "螺旋槳空化、空泡潰滅、振動及槳葉侵蝕等術語與物理意義。"
+      },
+      {
+        "title": "《船舶引航專論》",
+        "sourceType": "textbook",
+        "issuer": "方信雄",
+        "supports": "引水及操船情境下螺旋槳效應、船舶操縱反應之專業參考；本題未標示未核實頁碼。"
+      },
+      {
+        "title": "《航行避碰與操船》",
+        "sourceType": "textbook",
+        "issuer": "方信雄",
+        "supports": "船舶操縱、主機與舵槳配合之延伸參考；本題未標示未核實頁碼。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "原文逐句翻譯",
+          "result": "pass",
+          "note": "依題目英文原文逐句翻譯，保留兩段因果關係與操船語境。"
+        },
+        {
+          "item": "船舶專業術語",
+          "result": "pass",
+          "note": "screw、astern、turning circle、churning、cavitation 等均依船舶推進與操縱語境處理。"
+        },
+        {
+          "item": "空化機理補充",
+          "result": "pass",
+          "note": "以局部低壓形成空泡、空泡潰滅及可能造成振動侵蝕說明；與原文比喻區分。"
+        },
+        {
+          "item": "原文技術敘述的適用範圍",
+          "result": "needs_review",
+          "note": "原文將槳效應、旋迴圈半徑及空化現象作概括描述；實際反應仍受船型、槳型、主機、吃水、船速與水深等因素影響。"
+        }
+      ]
+    },
+    "reviewNotes": [
+      "turning effect 可依上下文理解為螺旋槳造成的轉向作用；若原始教材脈絡特指螺旋槳橫向推力（transverse thrust），可再調整譯詞。",
+      "本題為翻譯題，中文答案以忠實翻譯為主，補充說明另列，避免把原文未明示的工程細節混入譯文。",
+      "未取得原命題參考譯文，故此版本屬專業校訂譯稿，非官方標準答案。"
+    ],
+    "lastUpdated": "2026-11-06"
+  }
+]
