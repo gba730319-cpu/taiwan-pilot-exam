@@ -617,5 +617,131 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "100-shiphandling-06-answer-v1",
+    "questionId": "100-shiphandling-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "technical_essay",
+    "modelAnswer": "【一、陽台效應（Balcony Effect）之意義】\n\n大型郵輪為提供乘客觀景及休憩空間，客艙外側常設有大量向外突出之私人陽台（Balconies）。這些突出結構使船舶水線以上的上層建築更為複雜，當風從船舷側面或斜向吹來時，陽台欄板、平台及外凸結構會承受風壓，增加船舶有效受風面積及空氣阻力，並可能形成局部亂流及壓力分布變化。此種因陽台突出結構使大型客船受風影響加劇的現象，稱為陽台效應。\n\n大型郵輪原本即具有高乾舷、高大上層建築及大受風面積；陽台效應會進一步增加風壓及風致力矩，使船舶在港內低速操縱、靠泊及離泊時更容易產生橫移、偏航及船首向改變。\n\n【二、陽台效應造成之操船影響】\n\n1. **增加受風面積及風壓：**陽台向外突出，風作用於陽台外緣及欄板，增加船舶側向風阻；橫風時尤其明顯。\n2. **增加橫向漂移：**大型郵輪水線以上受風面積大，水線以下船體相對較窄或吃水較淺時，風壓與水下流體阻力不平衡，容易造成船舶向下風側漂移。\n3. **產生偏航力矩：**船首、船尾及上層建築的受風面積與風壓中心不一定對稱，風壓中心與船舶水下阻力中心存在距離，會產生偏航力矩，使船首或船尾偏向一側。\n4. **低速時較難控制：**港內低速時舵效及螺槳流減弱，船舶本身的水動力控制能力降低，陽台效應造成的橫向風壓及偏航力矩可能超過舵力。\n5. **陣風及風向變化使操縱不穩定：**風向、風速及陣風變化會使船舶受風力及力矩快速改變，造成靠泊角度、橫向速度及船位不易維持。\n6. **增加拖船及繫泊負荷：**靠泊時可能需要較大拖船推力或拉力維持船位；停泊期間則增加繫纜張力、防舷材反力及碼頭受力，強風下可能導致繫纜過載或船舶離岸。\n\n【三、引水人因應陽台效應之措施】\n\n（一）航前評估\n1. 取得船舶General Arrangement、側面投影圖、風壓面積、風壓中心、吃水、排水量及操縱性能資料，評估陽台及上層建築對受風的影響。\n2. 查詢港口風速、風向、陣風及短期預報，並注意船上桅桿高度與岸上測站高度不同，實際船上風速可能高於岸上觀測值。\n3. 評估風向與泊位方向的關係，尤其注意正橫風及斜向橫風；若風力超過船舶、拖船及泊位可安全控制的範圍，應延後靠泊或改變作業計畫。\n4. 事先確認拖船數量、馬力、可用拖力及位置，必要時增加艏艉拖船或預先安排拖船待命。\n\n（二）接近及靠泊操船\n1. 依風向調整進港及靠泊角度，盡可能降低船舶側面直接承受的風壓；但仍須兼顧航道、潮流、碼頭及船舶操縱性能。\n2. 在強橫風下，應保留較大水域及足夠距離，不宜過早貼近碼頭；必要時先在安全距離外控制船速、船首向及橫移，再逐步接近。\n3. 低速時舵效不足，應利用主機、舵、艏艉側推器及拖船共同控制船首、船尾及橫移；不能只依靠艏推器或單一拖船。\n4. 拖船應依風壓中心及船舶偏航趨勢配置，艏拖及艉拖分別控制船首向與船尾位置，避免船舶被風吹成大角度斜靠。\n5. 進入最後靠泊階段時，須控制縱向及橫向接近速度，避免船舶在風壓推動下突然撞擊碼頭或防舷材。\n6. 若風勢突然增強或船舶無法維持預定航跡，應及早中止靠泊、增加拖船控制或退出至安全水域，不可勉強完成靠泊。\n\n（三）靠泊後及離泊\n1. 依船舶受風面積、風向、碼頭及繫泊系統設計，確認艏纜、艉纜、倒纜及橫纜配置足夠，並監控纜繩張力及防舷材受力。\n2. 強風時加派繫纜巡查，注意纜繩磨損、伸長、鬆弛及繫纜樁負荷，必要時依船長及碼頭規定調整纜繩。\n3. 離泊前重新評估風向及風速；若風壓會使船舶離岸或船艏船艉偏移，應事先配置拖船及側推器，確認解纜順序及緊急脫離方案。\n4. 若風速已超過港口或船舶安全作業限制，應等待風勢減弱，或依港務主管機關指示離泊至安全水域。\n\n【四、陽台效應之管理與預防】\n\n1. **泊位規劃：**港口規劃郵輪泊位時，應考量主導風向、碼頭方位、周圍建築物及防波堤遮蔽效果，避免泊位長期承受強烈正橫風。\n2. **風場監測：**在碼頭及船舶附近設置風速風向監測設備，並考量不同高度的風速差異與陣風；岸上測站數據不一定能代表船舶上層建築所受風力。\n3. **拖船政策：**針對大型郵輪及高受風面積船舶，依船型、風速、風向及泊位條件訂定拖船使用標準及風速限制。\n4. **繫泊系統設計：**依實際風荷重及船舶側面投影面積設計繫纜、繫纜樁、防舷材及碼頭結構，不可僅以船舶噸位估算。\n5. **模擬及訓練：**利用操船模擬器及港口風場資料，演練強橫風、陣風、拖船失效及緊急離泊等情境，提升引水人、船長及拖船船長的協同能力。\n\n【結論】\n\n陽台效應是大型郵輪外凸陽台及高大上層建築增加有效受風面積、風壓及風致力矩的現象，會使船舶在港內低速時產生較大的橫移、偏航及靠離泊控制困難。引水人應於航前掌握船舶風壓資料及港口風況，依風向調整靠泊角度，預先配置足夠拖船及側推器，控制船舶低速接近，並在靠泊後加強繫纜監控；當風勢超出安全控制能力時，應延後靠泊或中止作業，以確保船舶、碼頭及人員安全。",
+    "practicalAnalysis": "本題15分，先定義陽台效應：大型郵輪客艙外凸陽台使上層結構受風面積及風壓增加，橫風下風壓、橫移與偏航力矩更明顯；再說低速舵效不足，靠泊與離泊更難控制。因應分航前風況與風壓評估、選擇靠泊角度與泊位、艏艉拖船配置、側推器與主機舵協同、控制靠泊速度、繫纜及碼頭負荷、風勢超限時延後或中止。不可把陽台效應只寫成一般高乾舷受風，須點出外凸陽台增加風荷重的特殊性。",
+    "keyPoints": [
+      {
+        "point": "陽台效應係大型郵輪客艙外凸陽台及欄板增加有效受風面積與風壓的現象。",
+        "importance": "essential",
+        "explanation": "大型郵輪原本高乾舷及大上層建築會使風壓更明顯。"
+      },
+      {
+        "point": "橫風及斜向橫風會造成船舶橫移、偏航及風致力矩，低速時更難以舵效控制。",
+        "importance": "essential",
+        "explanation": "風壓中心與水下阻力中心不重合會產生旋迴力矩。"
+      },
+      {
+        "point": "陣風及風向變化使船舶受風力快速改變，可能增加拖船負荷、繫纜張力及防舷材反力。",
+        "importance": "essential",
+        "explanation": "靠泊及停泊期間均須評估。"
+      },
+      {
+        "point": "航前須取得船舶風壓面積、風壓中心、風向風速、陣風及泊位方位資料。",
+        "importance": "essential",
+        "explanation": "岸上測站高度與船上高度不同，需注意實際風況。"
+      },
+      {
+        "point": "靠泊時調整進港角度及接近速度，配置艏艉拖船及側推器，控制船首、船尾及橫移。",
+        "importance": "essential",
+        "explanation": "不能只依靠舵或單一拖船。"
+      },
+      {
+        "point": "靠泊後監控繫纜、防舷材及碼頭負荷；風勢超限時延後靠泊或離泊至安全水域。",
+        "importance": "essential",
+        "explanation": "安全限制應依港口、船舶及拖船能力訂定。"
+      },
+      {
+        "point": "泊位規劃、風場監測、繫泊系統設計及模擬訓練可降低陽台效應風險。",
+        "importance": "supporting",
+        "explanation": "以港口及船舶整體風險管理因應。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Joint Assembly Docks & Harbors Planning Committee — Cruise Ship Wind and Balcony Effect Observations",
+        "sourceType": "official_port_or_authority",
+        "issuer": "City and Borough of Juneau, Alaska",
+        "editionOrEffectiveDate": "14 October 2009",
+        "url": "https://juneau.org/wp-content/uploads/2017/07/2009-10-14_Joint_Assembly-Docks_Harbors_Planning_Committee_Meeting_Packet.pdf",
+        "pageOrSection": "Summary of observations and findings, Gold Creek Dock",
+        "supports": "引水人及郵輪業者指出郵輪陽台會捕捉風力，增加船舶受風及操縱困難；強橫風及拖船需求。"
+      },
+      {
+        "title": "Wind Tunnel Experimental Investigation of the Aerodynamic Coefficients Reduction Due to Sheltering Surroundings on a Cruise Ship Moored in Port",
+        "sourceType": "academic_paper",
+        "issuer": "Journal of Wind Engineering and Industrial Aerodynamics",
+        "editionOrEffectiveDate": "2021",
+        "url": "https://doi.org/10.1016/j.jweia.2021.104731",
+        "supports": "大型郵輪風荷重、側向力及偏航力矩會受周圍港口建築與遮蔽環境顯著影響。"
+      },
+      {
+        "title": "CFD Simulation of Wind Forces on Ships in Ports: Case Study for the Rotterdam Cruise Terminal",
+        "sourceType": "academic_paper",
+        "issuer": "Journal of Wind Engineering and Industrial Aerodynamics",
+        "editionOrEffectiveDate": "2020",
+        "url": "https://doi.org/10.1016/j.jweia.2020.104315",
+        "supports": "郵輪在港區風力受碼頭及周圍建築影響，側向力與垂向力可能改變。"
+      },
+      {
+        "title": "A Master's Guide to: Berthing",
+        "sourceType": "industry_guideline",
+        "issuer": "Standard Club",
+        "editionOrEffectiveDate": "2021",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2012/10/mg-ships-berthing.pdf",
+        "pageOrSection": "Berthing in Wind",
+        "supports": "高乾舷、大受風面積船舶在強風靠泊的風險、接近角度、拖船及風速評估。"
+      },
+      {
+        "title": "100年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國100年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=808&code=100090&q=1&s=1207&t=Q",
+        "pageOrSection": "船舶操縱第六題",
+        "supports": "核對原題及15分配分。"
+      }
+    ],
+    "assumptions": [
+      "陽台效應依大型郵輪外凸陽台增加風荷重之引水實務用語解讀；該詞為操作經驗描述，並非單一國際公約中的正式定義。",
+      "風荷重及拖船需求依船型、風向、陣風、港區遮蔽及泊位方位而異，題目未提供特定郵輪與港口數據，故不設定通用風速門檻。"
+    ],
+    "limitations": [
+      "陽台突出結構對總風荷重的增量不能僅依陽台數量簡單相加，實際風荷重須由船型風壓資料、風洞試驗或CFD及現場風況評估。",
+      "港區周圍建築可能造成遮蔽或局部加速，實際風場不一定等同開闊海面風況。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "陽台效應之定義及引水實務觀察",
+          "result": "pass",
+          "note": "依Juneau市政府2009年碼頭規劃委員會會議資料，郵輪陽台捕風會增加風對船舶操縱之影響。"
+        },
+        {
+          "item": "大型郵輪風荷重及港區風場",
+          "result": "pass",
+          "note": "依2020及2021年風洞／CFD研究核對港區周圍環境對郵輪側向力及偏航力矩之影響。"
+        },
+        {
+          "item": "靠泊因應措施",
+          "result": "pass",
+          "note": "依Standard Club靠泊強風指南及Juneau引水人意見整理拖船、靠泊角度、風況監測與安全限制。"
+        },
+        {
+          "item": "風速門檻",
+          "result": "needs_review",
+          "note": "不同港口及郵輪風壓資料差異甚大，未將Juneau案例的15–20kn直接套用為臺灣各港通用限制。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
