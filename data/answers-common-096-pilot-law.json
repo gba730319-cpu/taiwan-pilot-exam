@@ -601,5 +601,125 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "096-pilot-law-05-answer-v1",
+    "questionId": "96-pilot-law-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、法源與基本原則】\n\n狹窄水道或航道（narrow channel or fairway）因可航水域有限，船舶會船、追越、轉向及避碰空間受到限制，尤其大型船舶受吃水、船長、船寬、操縱性能、停船距離、轉向半徑及岸壁效應影響更大。航行時應以安全航行及避免妨礙他船為原則，並遵守《1972年國際海上避碰規則》（COLREGs）第9條狹窄水道規定，以及第2、5、6、7、8、13、19、34、35條等相關規定。\n\n【二、COLREG Rule 9：狹窄水道七項規定】\n\n（一）盡量靠近本船右舷外緣（Rule 9(a)）\n沿狹窄水道或航道航行之船舶，只要安全可行（as is safe and practicable），應盡量靠近位於本船右舷之水道或航道外緣（outer limit）。但不得為了貼近右側而進入淺水、危險區、礙航區或造成擱淺風險；仍須考量水深、吃水、潮流、風、岸壁效應及他船動態。\n\n（二）小船及帆船不得妨礙大型受限船舶（Rule 9(b)）\n船長未滿20公尺之船舶或帆船，不得妨礙只能在狹窄水道或航道內安全航行之船舶通過。此處not impede（不得妨礙）並非只在最後一刻讓路，而應及早採取行動，預留足夠水域，使該船安全通過。\n\n（三）從事捕魚船舶不得妨礙水道內其他船舶（Rule 9(c)）\n從事捕魚之船舶，不得妨礙任何在狹窄水道或航道內航行之其他船舶。漁船應注意漁具、拖網及其操縱限制，不可因作業而阻塞主航道。\n\n（四）不得妨礙受限船舶之穿越（Rule 9(d)）\n任何船舶不得穿越狹窄水道或航道，而妨礙只能在該水道或航道內安全航行之船舶通過。若該受限船舶對穿越船之意圖有疑慮，得使用Rule 34(d)規定之至少五短而急促聲號（not less than five short and rapid blasts）表示懷疑或警告。\n\n（五）狹窄水道內追越（Rule 9(e)）\n1. 如在狹窄水道內追越，必須由被追越船採取行動配合，追越船才有足夠水域安全通過時，追越船應先以Rule 34(c)(i)聲號表示意圖。\n2. 追越船欲從被追越船右舷通過，應鳴放二長聲後接一短聲；欲從被追越船左舷通過，應鳴放二長聲後接二短聲。\n3. 被追越船同意時，應以一長聲、一短聲、一長聲、一短聲回覆，並採取措施讓出安全通過水域；如有疑慮，得鳴放Rule 34(d)至少五短而急促聲號。\n4. 即使被追越船同意，追越船仍不得免除Rule 13追越船之責任，必須確保安全通過。\n\n（六）接近彎道或視線受阻區域（Rule 9(f)）\n船舶接近彎道，或接近有突出物、岸壁、碼頭等遮蔽視線而可能看不見對向船舶之狹窄水道區域時，應特別警覺並謹慎航行（particular alertness and caution），並依Rule 34(e)鳴放一長聲，提醒彎道另一側船舶。\n\n（七）避免在狹窄水道錨泊（Rule 9(g)）\n在情況許可時，任何船舶均應避免在狹窄水道或航道內錨泊，以免阻塞航道或使其他船舶無法安全通過。若因故不得不錨泊，應選擇不妨礙通航之位置，並依規定顯示號燈、號標及聲號，儘速通知港口管制單位。\n\n【三、狹窄水道實際操船注意事項】\n\n1. 航前計畫：事先研究海圖、航道寬度、水深、底質、潮汐、流向流速、潮高、淺灘、轉彎點、橋梁、架空電纜、助航標誌及港口通告；依船舶吃水、縱傾、橫傾及預估下沉量計算足夠富餘水深（UKC）。\n2. 保持安全航速：依Rule 6考量能見度、交通密度、船舶操縱性能、風流、航道寬度、水深及停船距離，採取可維持操縱且能及時停船或避讓之安全航速；不得只以港內限速作為唯一安全標準。\n3. 注意淺水效應及岸壁效應：淺水區可能增加船舶下沉量、轉向遲滯及操縱反應時間；靠近岸壁、河岸或防波堤時，可能產生船首偏轉、船尾吸引及橫向力，應避免過度接近及突然大舵角。\n4. 保持正確瞭望及雷達觀測：依Rule 5運用視覺、聽覺、雷達、AIS及其他可用設備，掌握前後方、彎道另一側、支流、錨地及橫越船舶；不得只依AIS資訊判斷碰撞風險。\n5. 評估碰撞危機：依Rule 7使用雷達標繪、ARPA及目視方位變化，必要時確認CPA、TCPA；不得依片面或不足資訊作出假設。\n6. 避讓行動及主機備便：依Rule 8及良好船藝及早採取明確行動，避免連續小幅度改向；狹水道內應保持主機、舵機及必要設備備便，必要時減速、停船或倒車，但須考量船舶停船距離及舵效。\n7. 會船及追越：事先選擇適當會船地點，避免在彎道、淺窄處、橋孔或航道轉折點會船；需要追越時應確認前方水域、對向交通、航道寬度及被追越船配合意願，並依Rule 9(e)及Rule 34(c)使用聲號。\n8. 橫越航道：小船、帆船、漁船及橫越船不得妨礙只能在水道內安全航行之船舶；橫越應選擇適當時機及位置，避免突然穿越船艏。\n9. 彎道及盲區：接近彎道、突出岸角或視線受阻處，應減速、加強瞭望、鳴放一長聲，並預想對向船可能出現之位置。\n10. 通訊及引水：依港口規定與VTS、信號台、引水人及拖船保持聯繫；大型船舶、特殊操縱船舶或強制引水區域，應依規定僱用引水人，必要時使用拖船協助。\n11. 能見度不良：若處於能見度受限制情況，仍須遵守Rule 19，採取安全航速、保持機器備便、加強雷達觀測及適當聲號；Rule 9不會排除Rule 19之適用。\n12. 遵守地方管制：依港務局或航道管理機關公告之單向航道、分時通航、速限、會船點、錨地及施工管制航行，不得擅自偏離指定航道。\n\n【四、結論】\n\n狹窄水道航行的核心是「靠右、不得妨礙、謹慎會船、追越先示意、彎道鳴號、避免錨泊」，並配合安全航速、良好瞭望、雷達標繪、足夠富餘水深及主機備便。Rule 9是特殊水域的具體規定，但不取代Rule 2、5、6、7、8、13及19等一般避碰義務；船長仍應依當時環境及良好船藝採取最安全之操船措施。",
+    "practicalAnalysis": "本題15分，應先完整列出COLREG Rule 9(a)至(g)七款，再補充操船實務。必背聲號：追越船欲從被追越船右舷通過為二長一短；欲從左舷通過為二長二短；被追越船同意為一長一短一長一短；有疑慮為至少五短而急促；接近彎道或視線受阻處為一長聲。另須記得Rule 9(e)(ii)不免除追越船Rule 13責任，Rule 9(g)要求情況許可時避免在狹水道錨泊。",
+    "keyPoints": [
+      {
+        "point": "Rule 9(a)：沿狹窄水道航行，安全可行時盡量靠近本船右舷外緣。",
+        "importance": "essential",
+        "explanation": "不得為靠右而犧牲水深、UKC或航行安全。"
+      },
+      {
+        "point": "Rule 9(b)：未滿20公尺船舶及帆船不得妨礙只能在狹水道內安全航行之船舶。",
+        "importance": "essential",
+        "explanation": "not impede要求及早採取行動，不是等到最後一刻才讓路。"
+      },
+      {
+        "point": "Rule 9(c)：從事捕魚船舶不得妨礙水道內其他船舶。",
+        "importance": "essential",
+        "explanation": "注意拖網、漁具及作業限制。"
+      },
+      {
+        "point": "Rule 9(d)：不得穿越狹水道而妨礙只能在水道內安全航行之船舶；有疑慮可鳴五短聲。",
+        "importance": "essential",
+        "explanation": "Rule 34(d)。"
+      },
+      {
+        "point": "Rule 9(e)：追越須先示意；右舷超越二長一短、左舷超越二長二短；被追越船同意一長一短一長一短；追越船仍負Rule 13責任。",
+        "importance": "essential",
+        "explanation": "Rule 34(c)(i)、(ii)及Rule 13。"
+      },
+      {
+        "point": "Rule 9(f)：接近彎道或視線受阻處，特別警覺謹慎並鳴一長聲。",
+        "importance": "essential",
+        "explanation": "Rule 34(e)。"
+      },
+      {
+        "point": "Rule 9(g)：情況許可時避免在狹窄水道錨泊。",
+        "importance": "essential",
+        "explanation": "避免阻塞航道。"
+      },
+      {
+        "point": "實務上應注意安全航速、瞭望、雷達標繪、UKC、淺水效應、岸壁效應、主機備便及地方VTS管制。",
+        "importance": "supporting",
+        "explanation": "Rule 9不排除Rule 2、5、6、7、8、19及其他相關規則。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972 (COLREGs)",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization (IMO)",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rule 9 — Narrow Channels; Rules 2, 5, 6, 7, 8, 13, 19, 34 and 35",
+        "supports": "IMO官方說明狹窄水道右舷外緣、未滿20公尺船舶及帆船不得妨礙、漁船不得妨礙及不得妨礙受限船舶通過等規則。"
+      },
+      {
+        "title": "COLREG Rule 9 — Narrow Channels",
+        "sourceType": "other",
+        "issuer": "International Maritime Organization Rules transcription",
+        "url": "https://www.imorules.com/GUID-62A6D536-F1D8-42A8-BE0C-5023A62D4491.html",
+        "pageOrSection": "Rule 9(a)–(g)",
+        "supports": "逐款呈現Rule 9(a)至(g)完整英文條文，供核對追越、彎道聲號及避免錨泊等細節；法規權威仍以IMO公約原文為準。"
+      },
+      {
+        "title": "COLREGs Rule 9中英文對照引文",
+        "sourceType": "official_port_or_authority",
+        "issuer": "國家運輸安全調查委員會",
+        "url": "https://www.ttsb.gov.tw/media/5303/%E8%90%87%E8%96%AA%E8%BC%AA%E6%B0%B4%E8%B7%AF%E4%BA%8B%E6%95%85%E8%AA%BF%E6%9F%A5%E5%A0%B1%E5%91%8A%E8%8D%89%E6%A1%88-%E7%AC%AC2%E7%B4%9A-_%E5%A7%94%E5%93%A1%E6%9C%83%E5%AF%A9%E8%AD%B0%E5%AE%8C%E6%88%90r.pdf",
+        "pageOrSection": "COLREG第9條狹窄水道，中英對照",
+        "supports": "臺灣官方事故調查文件中引用第9條中英文對照，供中文用語與英文原文比對。"
+      },
+      {
+        "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972 — Rule 9",
+        "sourceType": "other",
+        "issuer": "United States Coast Guard Navigation Center",
+        "url": "https://www.navcen.uscg.gov/navigation-rules-amalgamated",
+        "pageOrSection": "Rule 9 and Rule 34",
+        "supports": "補充核對狹水道追越聲號、彎道聲號及Rule 34對應規定；美國內河特別條文不適用於本題國際規則作答。"
+      }
+    ],
+    "assumptions": [
+      "本題以1972年COLREG及截至2007年有效之修正內容作答；Rule 9(a)至(g)為國際規則共同條文。",
+      "題目未指定特定港口或水道，因此以一般狹窄水道規則及通用操船實務作答，不加入美國內河水道特有的上下水流優先權規定。"
+    ],
+    "limitations": [
+      "狹窄水道之判斷不宜只用固定寬度或船長作單一標準，須考量航道可用水域、船舶操縱能力、吃水及當時環境。",
+      "聲號與通航程序仍應配合當地港口特別規則、VTS及主管機關公告；若題目指定特定港口，應補充該港單向航道、會船點及速限。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "COLREG Rule 9(a)至(g)條文",
+          "result": "pass",
+          "note": "依IMO官方Rule 9說明及完整英文條文逐款核對右側外緣、未滿20m船舶／帆船、漁船、穿越、追越、彎道及錨泊規定。"
+        },
+        {
+          "item": "Rule 34追越及彎道聲號",
+          "result": "pass",
+          "note": "依Rule 34(c)、(d)、(e)核對二長一短、二長二短、同意追越一長一短一長一短、疑慮五短及彎道一長聲。"
+        },
+        {
+          "item": "Rule 13追越責任",
+          "result": "pass",
+          "note": "Rule 9(e)(ii)明定不免除追越船依Rule 13所負責任。"
+        },
+        {
+          "item": "Rule 9與一般避碰規則關係",
+          "result": "pass",
+          "note": "IMO官方資料確認Rule 9為特定水域規則，不取代其他COLREG義務；已提醒Rule 2、5、6、7、8、19等仍適用。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
