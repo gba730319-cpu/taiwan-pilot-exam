@@ -380,5 +380,115 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "098-pilotage-04-answer-v1",
+    "questionId": "98-pilotage-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、麥卡托投影（Mercator Projection）之定義】\n\n麥卡托投影又稱等角圓柱投影（Conformal Cylindrical Projection），由Gerardus Mercator於1569年提出。其原理是將地球表面經緯度位置依數學關係投影至與地球相切於赤道的圓柱面，再將圓柱展開成平面海圖。為保持等角性，緯線間距須隨緯度增加而逐漸放大。\n\n其主要幾何特性如下：\n1. 經線：在圖上表示為互相平行、等距的垂直直線。\n2. 緯線：表示為互相平行的水平直線，並與經線成直角。\n3. 緯線間距：由赤道向南北兩極逐漸增加，愈接近兩極，間距愈大。\n4. 投影性質：屬等角投影，局部角度及小範圍形狀可保持正確；但面積及距離並非全圖等比例。\n5. 航向線：等角航線（Rhumb Line／Loxodrome）在麥卡托海圖上呈直線，且與各經線保持相同角度。\n\n球面麥卡托投影之基本公式可表示為：\n\n\\[\nx=R\\lambda\n\\]\n\n\\[\ny=R\\ln\\tan\\left(\\frac{\\pi}{4}+\\frac{\\varphi}{2}\\right)\n\\]\n\n其中R為地球半徑，\\(\\lambda\\)為經度（弧度），\\(\\varphi\\)為緯度（弧度）。其局部比例尺因子約為：\n\n\\[\nk=\\sec\\varphi=\\frac{1}{\\cos\\varphi}\n\\]\n\n因此緯度愈高，比例尺放大愈明顯；兩極因比例尺趨近無限大，無法在一般麥卡托投影圖上表示。\n\n【二、麥卡托海圖之優點】\n\n（一）等角性良好\n麥卡托投影可保持局部角度及小範圍形狀，船舶在局部海域量測方位、航向及轉向角度較方便。\n\n（二）等角航線為直線\n船舶以固定真航向航行時，其航跡為等角航線；在麥卡托海圖上呈直線，可直接使用量角器量取航向，方便航線規劃及操船。\n\n（三）經緯線呈直角網格\n經線為平行垂直直線，緯線為平行水平直線，兩者互相垂直，便於標繪經緯度、定位及量測航向。\n\n（四）適合一般海洋及沿岸航行\n多數一般航海海圖採用麥卡托投影，航海人員熟悉其圖式，便於航線標繪、定位及與電子海圖系統配合。\n\n（五）方便航向及距離量測\n航向可由等角航線直線量取；距離則可在航線中分緯度附近的緯度刻度上量測，較符合一般航海作業需求。\n\n【三、麥卡托海圖之缺點】\n\n（一）高緯度面積及距離變形大\n緯度愈高，比例尺愈大；高緯度地區在圖上被嚴重放大，面積及距離容易產生錯誤直覺，不能直接用全圖固定比例尺量距。\n\n（二）兩極無法表示\n緯度接近90度時，投影比例尺趨近無限大，南北兩極無法表示，因此不適合極區及高緯度航行之小比例尺總圖。\n\n（三）大圓航線不是直線\n兩點間最短距離通常為大圓航線（Great Circle／Orthodrome），在麥卡托海圖上除赤道及經線等特殊情況外，通常呈曲線；若直接以直線連接兩點，得到的是等角航線，不一定是最短航程。\n\n（四）全圖比例尺不一致\n同一張海圖不同緯度位置之比例尺不同，量測距離時應使用航線中分緯度附近的緯度刻度，不能直接使用圖上任意位置的比例尺。\n\n（五）不適合呈現全球面積分布\n因高緯度面積被放大，不適合用來比較各地區實際面積大小或作全球地理面積分析。\n\n【四、航海實務之使用方法】\n\n1. 標繪等角航線時，將出發點及目的地連線，量取該直線與經線之夾角，即可取得等角航線之真航向。\n2. 若計畫航行大圓航線，應先利用心射投影圖（Gnomonic Chart）將大圓航線畫成直線，再將航線轉換為若干航點，逐段標繪於麥卡托海圖，以便實際操船。\n3. 在麥卡托海圖量測距離時，應於航線中分緯度附近的緯度刻度量取；緯度1分約等於1海里，但應依海圖比例及位置正確讀取。\n4. 高緯度航行應特別注意比例尺變形，必要時使用適合極區之投影海圖。\n\n【結論】\n\n麥卡托投影為等角圓柱投影，其最大優點是等角航線在圖上呈直線，且經緯線互相垂直，方便航向量取、定位及一般航線規劃；缺點是緯度愈高比例尺愈大、面積及距離變形愈嚴重，兩極無法表示，且大圓最短航線在圖上通常為曲線。因此適合一般海洋及沿岸航行，但高緯度及極區航行須配合其他投影海圖使用。",
+    "practicalAnalysis": "本題20分。定義要寫「等角圓柱投影」及圓柱展開；特性要寫經線平行等距、緯線平行且與經線垂直、緯線間距往兩極增加、等角航線為直線。優點以航向量取及定位方便為核心；缺點以高緯度比例尺及面積失真、兩極無法表示、大圓航線為曲線、量距需用中分緯度刻度為核心。可加比例尺因子k=secφ及投影公式加強專業度。",
+    "keyPoints": [
+      {
+        "point": "麥卡托投影是等角圓柱投影，圓柱通常與赤道相切後展開為平面。",
+        "importance": "essential",
+        "explanation": "由Gerardus Mercator於1569年提出。"
+      },
+      {
+        "point": "經線為平行等距直線，緯線為平行水平直線且與經線垂直；緯線間距向兩極逐漸增大。",
+        "importance": "essential",
+        "explanation": "掌握網格形狀及緯度變形。"
+      },
+      {
+        "point": "等角航線（Rhumb Line／Loxodrome）在麥卡托海圖上為直線，可直接量取固定真航向。",
+        "importance": "essential",
+        "explanation": "這是麥卡托海圖廣泛用於航海的主要原因。"
+      },
+      {
+        "point": "優點：局部角度及形狀正確、定位與航向量取方便、經緯網格規則。",
+        "importance": "essential",
+        "explanation": "應連結航海實務。"
+      },
+      {
+        "point": "缺點：高緯度比例尺及面積放大、兩極無法表示、比例尺隨緯度變化。",
+        "importance": "essential",
+        "explanation": "量距應使用航線中分緯度附近的緯度刻度。"
+      },
+      {
+        "point": "大圓航線通常在麥卡托海圖上呈曲線，需用心射投影圖規劃後轉為航點。",
+        "importance": "supporting",
+        "explanation": "區分等角航線與最短距離大圓航線。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Nautical Cartography — Mercator Projection",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA Office of Coast Survey",
+        "url": "https://www.nauticalcharts.noaa.gov/learn/nautical-cartography.html",
+        "supports": "麥卡托圓柱投影、經緯線直角、等角航線直線及其航海用途。"
+      },
+      {
+        "title": "U.S. Coast Pilot 3, Chapter 1 — Chart Projections",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA Office of Coast Survey",
+        "editionOrEffectiveDate": "2026",
+        "url": "https://www.nauticalcharts.noaa.gov/publications/coast-pilot/files/cp3/CPB3_WEB.pdf",
+        "pageOrSection": "Chapter 1, Chart Projections",
+        "supports": "說明麥卡托海圖經線、緯線間距及等角航線直線特性。"
+      },
+      {
+        "title": "Shore and Sea Boundaries, Volume 2, Chapter 6",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA / U.S. Coast and Geodetic Survey",
+        "url": "https://nauticalcharts.noaa.gov/publications/docs/shore-and-sea-boundaries/volume-2/cse-library-shalowitz-v2-p2-ch6.pdf",
+        "pageOrSection": "Mercator projection, conformality and great-circle distortion",
+        "supports": "說明等角性、面積變形及大圓航線在麥卡托圖上呈曲線。"
+      },
+      {
+        "title": "98年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國98年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=703&code=098090&q=2&s=c721&t=Q",
+        "pageOrSection": "引港學第四題",
+        "supports": "確認原題要求說明麥卡托投影及其優缺點。"
+      }
+    ],
+    "assumptions": [
+      "本題以球面麥卡托投影說明基本原理；現代海圖可能使用橢球麥卡托及不同參數，但航海特性相同。"
+    ],
+    "limitations": [
+      "等角航線直線不代表最短距離；大圓航線通常為曲線，不能將兩者混淆。",
+      "麥卡托投影在高緯度比例尺變形嚴重，實際距離應依中分緯度及海圖比例尺量取。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "投影類型及經緯線幾何",
+          "result": "pass",
+          "note": "依NOAA官方航海製圖資料核對等角圓柱投影、經線平行、緯線間距隨緯度增加。"
+        },
+        {
+          "item": "等角航線與航向量取",
+          "result": "pass",
+          "note": "依NOAA官方資料核對Rhumb Line在Mercator海圖上為直線。"
+        },
+        {
+          "item": "高緯度失真及兩極限制",
+          "result": "pass",
+          "note": "依NOAA及USGS資料核對比例尺、面積變形及極點無法表示。"
+        },
+        {
+          "item": "大圓航線",
+          "result": "pass",
+          "note": "依NOAA海圖投影資料核對大圓航線在麥卡托圖上通常呈曲線。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
