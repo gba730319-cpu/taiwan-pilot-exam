@@ -34,18 +34,8 @@
       }
     ],
     "references": [
-      {
-        "title": "方信雄，《航行避碰與操船》",
-        "sourceType": "textbook_or_academic",
-        "supports": "船舶操縱、船體水動力及淺水操船之重要參考著作。",
-        "url": "https://www.imo.org/"
-      },
-      {
-        "title": "船舶操縱流體力學（Ship Manoeuvring Hydrodynamics）",
-        "sourceType": "textbook_or_academic",
-        "supports": "附加質量、質量矩陣、船長傅汝德數及淺水傅汝德數的理論基礎。",
-        "url": "https://www.imo.org/"
-      }
+      "方信雄，《航行避碰與操船》。船舶操縱、船體水動力及淺水操船之重要參考著作。",
+      "船舶操縱流體力學（Ship Manoeuvring Hydrodynamics）。附加質量、質量矩陣、船長傅汝德數及淺水傅汝德數的理論基礎。"
     ],
     "limitations": [
       "Virtual Mass與Added Mass在不同教材中的術語使用可能略有差異，本文採用Virtual Mass為船體質量加上附加質量的等效慣性質量之常見定義。",
