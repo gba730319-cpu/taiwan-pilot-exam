@@ -1,0 +1,100 @@
+[
+  {
+    "id": "091-pilotage-05-answer-v1",
+    "questionId": "091-pilotage-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "definition",
+    "modelAnswer": "一、ECDIS之定義\n電子海圖顯示與資訊系統（Electronic Chart Display and Information System, ECDIS），係一種航行資訊系統。它以官方水道測量機關授權發行的電子航行海圖（ENC）為資料來源，經系統轉換及更新形成系統電子航行海圖資料庫（SENC），再結合船位、航向及航速等導航感測器資訊，於顯示器上呈現船舶位置及必要海圖資訊，協助航海人員進行航線規劃（Route Planning）、航線監控（Route Monitoring）及安全航行。依IMO性能標準，在具備適當備援安排時，ECDIS可被接受為符合SOLAS海圖配備要求的電子海圖系統。\n\n二、主要系統及資料\n（一）ENC（Electronic Navigational Chart）：由政府授權水道測量機關依IHO標準製作、發行的官方電子航行海圖資料庫，具有標準化內容、結構及格式。\n（二）SENC（System Electronic Navigational Chart）：ECDIS將ENC轉換、套用官方更新並加入航海人員資料後，供系統實際讀取、顯示及執行航行功能的資料庫。\n（三）海圖更新系統：接收、載入及管理ENC官方改正資料，保存更新紀錄，確保資料版本及內容適用於預定航程。\n（四）航線規劃與監控功能：設定航路點、計畫航線、替代航線、船位追蹤、偏航監控、安全等深線／安全水深設定、危險區及重要航路點警示，以及航程紀錄。\n\n三、主要設備及感測器\n1. ECDIS主機／處理單元：執行海圖資料處理、航線計畫、監控、警報及航程紀錄。\n2. 顯示器及操作介面：以適當比例尺、方向、色彩及符號顯示SENC資料、船位與航行資訊，供駕駛台人員操作及監控。\n3. 船位定位設備：通常由GNSS／GPS提供連續船位；標準要求定位資訊精度符合安全航行需求，並盡可能配置不同型式的第二套獨立定位方法。\n4. 航向感測器：陀螺羅經或其他適當航向來源，提供連續航向資訊。\n5. 航速感測器：計程儀／Speed Log提供航速資訊。\n6. 電源及備援設備：包括正常及緊急電源、備援ECDIS或其他符合規範的備援方式，確保主系統故障時仍可安全完成剩餘航程。\n7. 警報及故障指示：例如偏離計畫航線、接近或穿越安全等深線、進入限制區、接近關鍵航路點、定位輸入中斷及設備故障等警報或指示。\n\n四、可整合的其他航海設備\nECDIS可依設備標準及船舶配置，整合或疊加雷達影像、ARPA目標資訊、AIS目標、測深資料及其他航行相關資訊；但這些資訊必須與海圖資料清楚區分，並使用一致的參考基準，避免覆疊資訊降低ENC本身的可讀性。應注意：雷達、AIS及測深設備是可整合的外部資訊來源，不應誤稱每一項都是ECDIS定義中不可或缺的基本組成。\n\n五、備援及操作注意事項\nECDIS故障時必須有足以維持安全航行的備援安排，例如符合規定的第二套ECDIS，或適當紙海圖及相關程序。操作人員仍須確認ENC是否為最新版本、更新是否正確載入、船位感測器與SENC大地基準是否一致，並持續核對雷達、目視及其他導航資訊。ECDIS是協助航行決策的系統，不能取代航海人員的瞭望、判斷及船長責任。",
+    "practicalAnalysis": "本題問「定義」與「包括哪些系統及設備」，應先按IMO A.817(19)給出精確定義，再分成資料層（ENC、SENC、更新資料）、功能層（航線規劃、監控、警報、紀錄）、設備層（處理主機、顯示器、定位、航向、航速、電源與備援）作答。雷達／ARPA、AIS及測深儀屬可整合的外部導航資訊，不宜一概說成ECDIS本體必要設備。2002年考題應以當時已採用的A.817(19)及相關修正為時代基準，不應直接套用2006年MSC.232(82)之後的新標準。",
+    "keyPoints": [
+      {
+        "point": "ECDIS是結合SENC海圖資料與導航感測器船位資訊，以支援航線規劃及航線監控的航行資訊系統。",
+        "importance": "essential"
+      },
+      {
+        "point": "ENC為官方水道測量機關授權發行的電子航行海圖；SENC為ECDIS轉換並套用更新後實際使用的資料庫。",
+        "importance": "essential"
+      },
+      {
+        "point": "核心硬體包括處理主機、顯示器、操作介面、資料儲存及電源。",
+        "importance": "essential"
+      },
+      {
+        "point": "核心感測輸入包括連續船位、航向及航速資訊，常見來源為GNSS、陀螺羅經及計程儀。",
+        "importance": "essential"
+      },
+      {
+        "point": "主要功能包括航線規劃、航線監控、船位顯示、偏航與危險警報、ENC更新及航程紀錄。",
+        "importance": "essential"
+      },
+      {
+        "point": "雷達／ARPA、AIS及測深資訊可整合顯示，但須與SENC海圖資訊清楚區分。",
+        "importance": "supporting"
+      },
+      {
+        "point": "ECDIS必須具備適當備援及緊急電源安排，故障時仍能安全完成剩餘航程。",
+        "importance": "essential"
+      },
+      {
+        "point": "ECDIS不等於一般電子海圖顯示器（ECS）；須符合IMO性能標準並使用官方ENC，才具備SOLAS海圖替代資格。",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Resolution A.817(19), Performance Standards for Electronic Chart Display and Information Systems (ECDIS), 23 November 1995",
+        "sourceType": "IMO_or_treaty",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.817%2819%29.pdf",
+        "pageOrSection": "Annex §§1–2, 4, 6, 10, 12–15",
+        "supports": "ECDIS、ENC及SENC定義；資料更新、航線規劃監控、感測器連接、警報、備援及電源要求。"
+      },
+      {
+        "title": "IMO Resolution A.817(19) official resolution index",
+        "sourceType": "IMO_or_treaty",
+        "url": "https://www.imo.org/en/knowledgecentre/indexofimoresolutions/pages/a-1995.aspx",
+        "supports": "確認A.817(19)為1995年ECDIS性能標準及其後續修訂沿革。"
+      },
+      {
+        "title": "IHO S-57, IHO Transfer Standard for Digital Hydrographic Data",
+        "sourceType": "textbook_or_academic",
+        "url": "https://iho.int/en/standards-in-force",
+        "supports": "電子航行海圖資料交換格式及ENC資料標準的水道測量專業基礎。"
+      }
+    ],
+    "assumptions": [
+      "依2002年考試時點，以IMO Resolution A.817(19)及當時有效修訂為主要標準基礎。",
+      "題目所稱「系統及設備」採功能、資料、硬體、感測器及備援分層整理。"
+    ],
+    "limitations": [
+      "船舶實際配備及強制適用日期須依船舶種類、總噸位、建造日期及當時SOLAS規定判斷；本答案不將現行強制配備範圍倒推至2002年。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "ECDIS、ENC、SENC定義",
+          "result": "pass",
+          "note": "依IMO A.817(19)附件第2節。"
+        },
+        {
+          "item": "感測器連接及航線規劃監控功能",
+          "result": "pass",
+          "note": "依A.817(19)第10、12節。"
+        },
+        {
+          "item": "備援及電源要求",
+          "result": "pass",
+          "note": "依A.817(19)第14、15節。"
+        },
+        {
+          "item": "雷達等外部資訊整合定位",
+          "result": "pass",
+          "note": "依A.817(19)第6節；外部資訊不得混同為ECDIS定義中的基本感測器。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
