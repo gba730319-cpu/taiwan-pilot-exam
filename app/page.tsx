@@ -101,7 +101,7 @@ export default function Home() {
       references: [
         ...(Array.isArray(answer.references) ? answer.references : []),
         ...legacyRefs,
-      ],
+      ].map((item) => typeof item === "string" ? item : JSON.stringify(item)),
     };
   });
   const answerByQuestionId = useMemo(() => new Map(normalizedAnswers.map((a) => [a.questionId, a] as const)), [normalizedAnswers]);
