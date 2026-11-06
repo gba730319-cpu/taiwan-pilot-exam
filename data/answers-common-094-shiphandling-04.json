@@ -46,12 +46,7 @@
         "url": "https://ittc.info/downloads/quality-systems-manual/ittc-dictionary-structured/",
         "supports": "齒輪效率、船體效率、機械效率及推進功率相關術語與公式。"
       },
-      {
-        "title": "Principles of Naval Architecture: Resistance, Propulsion and Ship Maneuverability",
-        "sourceType": "textbook_or_academic",
-        "issuer": "Society of Naval Architects and Marine Engineers",
-        "supports": "船舶阻力、螺槳推進、推力減額、伴流及推進效率之基本理論。"
-      },
+      "Principles of Naval Architecture: Resistance, Propulsion and Ship Maneuverability, SNAME. 船舶阻力、螺槳推進、推力減額、伴流及推進效率之基本理論。",
       {
         "title": "USNA EN400: Chapter 7 Resistance and Powering of Ships",
         "sourceType": "textbook_or_academic",
