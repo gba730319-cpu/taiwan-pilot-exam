@@ -355,5 +355,114 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "102-pilotage-04-answer-v1",
+    "questionId": "102-pilotage-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "technical_terms",
+    "modelAnswer": "【一、太陰日（Lunar Day）】\n\n太陰日又稱潮汐日（Tidal Day），係地球上某一地點相對於月球完成一次自轉所需的時間，亦即月球連續兩次通過該地點同一子午線（通常指連續兩次上中天）之時間間隔。\n\n平均太陰日約為24小時50分鐘（約24.84小時），比平均太陽日24小時長約50分鐘。其原因為月球在地球自轉同時亦沿軌道向東運行，地球必須再多轉一段角度，才能使同一地點再次對準月球。\n\n【二、日潮（Diurnal Tide）】\n\n日潮係指在一個太陰日（約24小時50分鐘）內，某地僅發生一次高潮及一次低潮的潮汐型態。\n\n其特徵如下：\n1. 每一太陰日只有一次高潮及一次低潮。\n2. 與半日潮不同，半日潮在一個太陰日內通常有兩次高潮及兩次低潮。\n3. 日潮的形成與月球、太陽赤緯及當地海岸、海底地形等因素有關。\n4. 日潮區域之潮汐時間間隔及潮高變化，仍須依當地潮汐表及觀測資料判斷。\n\n【三、混合潮（Mixed Tide）】\n\n混合潮係指一個太陰日內通常有兩次高潮及兩次低潮，但相鄰兩次高潮或兩次低潮之潮高具有明顯不等（日潮不等，Diurnal Inequality）的潮汐型態。\n\n其特徵如下：\n1. 通常每天有兩次高潮及兩次低潮。\n2. 兩次高潮的高度可能差異明顯，稱為高潮不等；兩次低潮的高度亦可能差異明顯，稱為低潮不等。\n3. 其潮汐曲線呈現半日潮與日潮成分混合的特徵。\n4. 依日潮成分與半日潮成分的相對強弱，可分為以半日潮為主的混合潮及以日潮為主的混合潮。\n5. 月球赤緯愈大時，日潮不等通常較明顯；月球接近赤道時，日潮不等通常較小。\n\n【四、憩潮（Stand Tide／Stand of Tide）】\n\n憩潮係指潮水在高潮或低潮附近，潮位高度變化非常緩慢，在一段短時間內看起來幾乎沒有升降的現象，又稱平台潮（Platform Tide）。\n\n其特徵如下：\n1. 高潮前後，潮位上升逐漸減慢，達到高潮後再開始下降；低潮前後亦同。\n2. 在最高或最低潮位附近，潮位變化率接近零，因此看起來像水面暫時停止升降。\n3. 憩潮的長短受潮差及潮汐曲線形狀影響；一般潮差較小時，憩潮現象可能較明顯或持續較久。\n4. 憩潮是垂直潮位升降變化很小的現象，並不等同於潮流的憩流（Slack Water）。\n\n**重要區別：**\n- Stand Tide：潮位（垂直升降）在高潮或低潮附近幾乎不變。\n- Slack Water：潮流（水平流動）流速接近零，常見於往復潮流轉流前後。\n兩者發生時間不一定相同，須依當地潮流型態判斷。\n\n【五、半潮面（Half Tide Level）】\n\n半潮面又稱平均潮位（Mean Tide Level，MTL），係平均高潮面（Mean High Water，MHW）與平均低潮面（Mean Low Water，MLW）兩者高度的算術平均值，即位於平均高潮與平均低潮之間的中間水位。\n\n[\n\text{Half Tide Level}=\text{MTL}\n=\frac{\text{MHW}+\text{MLW}}{2}\n]\n\n例如某地平均高潮面為+1.8公尺、平均低潮面為+0.2公尺（相對同一基準面），則：\n\n[\n\text{MTL}=\frac{1.8+0.2}{2}=1.0 \text{m}\n]\n\n半潮面是由平均高潮及平均低潮求得的潮汐基準面；依潮汐形態及地區差異，不一定與長期平均海水面（Mean Sea Level, MSL）完全相同。\n\n【結論】\n\n太陰日是月球連續兩次通過同一地點子午線的平均時間，約24小時50分鐘；日潮為每太陰日一次高潮及一次低潮；混合潮通常每太陰日有兩次高潮及兩次低潮，但高低潮高度有明顯不等；憩潮是高潮或低潮附近潮位升降暫時不明顯的現象，不等於潮流憩流；半潮面則為平均高潮面與平均低潮面的算術平均值，亦稱平均潮位。",
+    "practicalAnalysis": "本題20分，每小題4分。太陰日24h50m；日潮一日一高潮一低潮；混合潮通常兩高潮兩低潮但高度不等；Stand Tide是高潮／低潮附近垂直潮位升降很慢，絕不可與Slack Water（水平潮流近零）混淆；Half Tide Level=MTL=(MHW+MLW)/2，並不必然等於MSL。這題最重要的辨析就是Stand Tide與Slack Water。",
+    "keyPoints": [
+      {
+        "point": "太陰日：月球連續兩次上中天的時間間隔，平均約24小時50分鐘。",
+        "importance": "essential",
+        "explanation": "比平均太陽日多約50分鐘。"
+      },
+      {
+        "point": "日潮：每一太陰日只有一次高潮及一次低潮。",
+        "importance": "essential",
+        "explanation": "不同於半日潮每一太陰日通常兩次高潮、兩次低潮。"
+      },
+      {
+        "point": "混合潮：通常每一太陰日兩次高潮及兩次低潮，但高低潮之間有明顯日潮不等。",
+        "importance": "essential",
+        "explanation": "潮汐曲線同時具有半日潮與日潮成分。"
+      },
+      {
+        "point": "憩潮：高潮或低潮附近潮位垂直升降變化很小，呈平台狀。",
+        "importance": "essential",
+        "explanation": "Stand Tide不是Slack Water。"
+      },
+      {
+        "point": "半潮面：MTL=(MHW+MLW)/2，為平均高潮與平均低潮的算術平均。",
+        "importance": "essential",
+        "explanation": "不必然等於長期平均海水面MSL。"
+      }
+    ],
+    "references": [
+      {
+        "title": "NOAA Tides and Currents Glossary",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Oceanic and Atmospheric Administration",
+        "url": "https://tidesandcurrents.noaa.gov/glossary",
+        "pageOrSection": "Lunar Day; Diurnal; Mixed Tide; Stand of Tide; Half-Tide Level; Mean Tide Level",
+        "supports": "太陰日、日潮、混合潮、憩潮及半潮面之正式定義。"
+      },
+      {
+        "title": "Tidal Glossary",
+        "sourceType": "official_port_or_authority",
+        "issuer": "Australian Hydrographic Office",
+        "url": "https://www.hydro.gov.au/hydrography/tidal-information/tidal-glossary",
+        "supports": "太陰日、Stand of Tide及Half-Tide Level之定義。"
+      },
+      {
+        "title": "How frequent are tides?",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA National Ocean Service",
+        "url": "https://oceanservice.noaa.gov/facts/tidefrequency.html",
+        "supports": "太陰日約24小時50分鐘及潮汐週期之說明。"
+      },
+      {
+        "title": "102年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國102年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=802&code=102070&q=1&s=0805&t=Q",
+        "pageOrSection": "引港學第四題",
+        "supports": "核對原題五個潮汐名詞及配分。"
+      }
+    ],
+    "assumptions": [
+      "本題潮汐名詞依NOAA及澳洲海道測量局官方潮汐詞彙表解釋。",
+      "半潮面採NOAA定義，即平均高潮面與平均低潮面的算術平均值。"
+    ],
+    "limitations": [
+      "太陰日平均長度約24.84小時，實際月球連續過中天間隔會因月球軌道及赤緯變化略有不同。",
+      "憩潮長短依當地潮差及潮汐曲線而異；憩潮與潮流憩流的時間關係須依當地潮流資料判斷。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "太陰日",
+          "result": "pass",
+          "note": "依NOAA及澳洲海道測量局詞彙表核對連續月球過中天及24h50m平均值。"
+        },
+        {
+          "item": "日潮及混合潮",
+          "result": "pass",
+          "note": "依NOAA官方詞彙表核對每日高潮低潮次數及日潮不等。"
+        },
+        {
+          "item": "憩潮",
+          "result": "pass",
+          "note": "依NOAA stand of tide定義核對高潮／低潮附近水位無明顯變化，並區分slack water。"
+        },
+        {
+          "item": "半潮面",
+          "result": "pass",
+          "note": "依NOAA glossary核對Half-tide level等於MTL，為MHW與MLW算術平均。"
+        },
+        {
+          "item": "原題及配分",
+          "result": "pass",
+          "note": "依考選部102年引港學第四題核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
