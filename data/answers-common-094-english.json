@@ -34,8 +34,17 @@
       }
     ],
     "references": [
-      "考選部民國94年引水人考試專業英文第1題原文：Please write a letter of resignation to your owner stating the reason why you decided to quit the job and to join a new post as pilot and request his kind approval.（30分）。",
-      "商務英文正式書信慣例：辭職信應明確表達辭職意旨、理由、感謝及交接安排；本題未提供特定公司名稱、日期、職位或離職日，故以方括號作為可替換欄位。"
+      {
+        "title": "94年引水人考試專業英文第1題原題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "supports": "原題要求向船東提出辭職、說明轉任引水人的理由並請求批准。"
+      },
+      {
+        "title": "商務英文正式書信慣例：辭職信應明確表達辭職意旨、理由、感謝及交接安排；本題未提供特定公司名稱、日期、職位或離職日，故以方括號作為可替換欄位。",
+        "sourceType": "other",
+        "supports": "補充參考資料。"
+      }
     ],
     "assumptions": [
       "以船員寫給船東／船公司負責人的正式英文書信為情境。",
@@ -99,7 +108,12 @@
       }
     ],
     "references": [
-      "考選部民國94年引水人考試專業英文第2題原文：請將有關週五全日蝕及日偏蝕可見範圍的中文新聞段落翻譯成英文。",
+      {
+        "title": "94年引水人考試專業英文第2題原題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "supports": "中翻英原題及全日蝕、日偏蝕可見範圍的中文敘述。"
+      },
       {
         "title": "NASA – Solar Eclipses",
         "sourceType": "other",
