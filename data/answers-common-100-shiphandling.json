@@ -1,0 +1,118 @@
+[
+  {
+    "id": "100-shiphandling-01-answer-v1",
+    "questionId": "100-shiphandling-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "engineering_calculation",
+    "modelAnswer": "【一、已知條件】\n\n- 船舶排水量：(Delta=70,000 \text{t})\n- 船寬：(B=32.2 \text{m})\n- 吃水：(T=12.2 \text{m})\n- 接近碼頭之側向速度：(V=1 \text{kn}=0.5144 \text{m/s})\n- 船舶距實心碼頭：(s=30 \text{m})\n- 無風、無流；水深足夠，不考慮淺水效應；無艏側推器。\n\n題意為拖船提供與船舶側向運動相反的拉力，使船舶在剩餘30公尺內將側向速度降至零。\n\n【二、計算側向附加質量係數】\n\n船舶橫向移動時，會帶動船體周圍水體一起移動，故應以船舶排水量乘上附加質量係數（Added Mass Coefficient）計算等效質量。\n\n深水、側向靠泊常用Vasco Costa近似式：\n\n[\nC_m=1+\frac{2T}{B}\n]\n\n代入：\n\n[\nC_m=1+\frac{2\times12.2}{32.2}\n=1.7578\n]\n\n因此船舶與隨船水體的等效質量為：\n\n[\nM_e=Delta C_m\n=70,000\times1.7578\n=123,043 \text{t}\n]\n\n【三、求拖船所需拉力】\n\n假設拖船提供穩定且與船舶側向速度相反的水平拉力，並以船舶重心附近施力，讓船舶在30公尺內等減速度停止。\n\n由運動學：\n\n[\nV_f^2=V_0^2+2as\n]\n\n因到達碼頭前側向速度為零，(V_f=0)，故：\n\n[\na=-\frac{V_0^2}{2s}\n=-\frac{0.5144^2}{2\times30}\n=-0.00441 \text{m/s}^2\n]\n\n拖船拉力：\n\n[\nF=M_e|a|\n]\n\n若以公噸力（tf）表示：\n\n[\nF=\frac{Delta C_m V^2}{2gs}\n]\n\n[\nF=\frac{70,000\times1.7578\times0.5144^2}\n{2\times9.81\times30}\n]\n\n[\n\boxed{Fapprox55.3 \text{tf}}\n]\n\n換算為千牛頓：\n\n[\n55.3\times9.80665approx542.5 \text{kN}\n]\n\n【答案】\n\n拖船應提供約 **55.3公噸力（tf），約542.5 kN** 的反向側向拉力，理想化地使船舶在距碼頭30公尺的剩餘距離內，將側向速度由1節降至零。\n\n【四、操船實務補充】\n\n1. 上述為理想化計算，假設拖船拉力在30公尺內保持穩定、施力方向與船舶側向運動相反，且作用線通過船舶重心，不產生額外偏航力矩。\n2. 實際拖船拉力會受拖纜角度、拖船位置、拖纜受力、拖船自身推進能力及風流等影響；必須預留安全裕度。\n3. 本題假設深水且不考慮淺水效應，因此使用深水附加質量近似式；若龍骨下淨空不足，附加質量係數可能增加，須重新計算。\n4. 不可忽略拖船建立拉力所需時間、拖纜鬆弛及受力延遲；實際操作應提早開始制動，不能等到距碼頭30公尺才突然施力。\n5. 若只用船舶排水量、不計附加質量，計算所得約31.5 tf，會低估側向運動所需制動力；本題已知船寬及吃水，應納入側向附加質量係數。",
+    "practicalAnalysis": "本題20分，關鍵是把側向附加質量算進去。深水側靠可用Vasco Costa近似式Cm=1+2T/B=1.7578；等效質量=70,000×1.7578=123,043t。1kn=0.5144m/s，30m內停下，a=V²/(2s)=0.00441m/s²。F=M_e a，換算公噸力約55.3tf（542.5kN）。若完全不計附加質量會得到約31.5tf，明顯偏低。實務上還要考慮拖船建立推力、拖纜角度、施力點及偏航力矩。",
+    "keyPoints": [
+      {
+        "point": "側向靠泊須考慮周圍隨船水體的附加質量，等效質量為排水量乘Cm。",
+        "importance": "essential",
+        "explanation": "不可只用船舶排水量計算。"
+      },
+      {
+        "point": "深水側靠Vasco Costa近似式Cm=1+2T/B。",
+        "importance": "essential",
+        "explanation": "本題T=12.2m、B=32.2m，Cm=1.7578。"
+      },
+      {
+        "point": "1kn=0.5144m/s，30m內停下，減速度大小a=V²/(2s)=0.00441m/s²。",
+        "importance": "essential",
+        "explanation": "由v²=u²+2as求得。"
+      },
+      {
+        "point": "拖船拉力F=ΔCmV²/(2gs)，結果約55.3tf或542.5kN。",
+        "importance": "essential",
+        "explanation": "假設拉力穩定且作用於重心附近。"
+      },
+      {
+        "point": "若忽略附加質量，約31.5tf，會低估制動力。",
+        "importance": "supporting",
+        "explanation": "可作為比較，說明為何必須考慮附加質量。"
+      },
+      {
+        "point": "實際操船須提早建立拖力，並考慮拖纜角度、拖船推力、力矩及安全裕度。",
+        "importance": "essential",
+        "explanation": "理論值不是直接可用的操作保證值。"
+      }
+    ],
+    "references": [
+      {
+        "title": "100年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國100年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=808&code=100090&q=1&s=1207&t=Q",
+        "pageOrSection": "船舶操縱第一題",
+        "supports": "核對船長、船寬、吃水、排水量、1節接近速度及30公尺停止距離。"
+      },
+      {
+        "title": "Fender Application Design Manual",
+        "sourceType": "industry_guideline",
+        "issuer": "Trelleborg Marine and Infrastructure",
+        "url": "https://www.trelleborg.com/marine-and-infrastructure/-/media/marine-systems/resources/guides-and-design-manual/downloads/fender-application-design-manual.pdf",
+        "pageOrSection": "Added Mass Coefficient; Vasco Costa method",
+        "supports": "船舶側向移動帶動周圍水體之附加質量概念及Cm=1+2T/B近似式。"
+      },
+      {
+        "title": "Fender Design Test Guideline",
+        "sourceType": "industry_guideline",
+        "issuer": "Coastal Development Institute of Technology, Japan",
+        "url": "https://www.cdit.or.jp/en/FenderDesignTestGuideline.pdf",
+        "pageOrSection": "Chapter 5.3.3 Virtual mass factor, equation 5.3.9",
+        "supports": "側向靠泊虛擬質量係數Cm=1+2d/B及適用條件。"
+      },
+      {
+        "title": "PIANC 2002 Berthing Energy Method",
+        "sourceType": "industry_guideline",
+        "issuer": "PIANC",
+        "url": "https://www.porttechnology.org/wp-content/uploads/2021/02/SFT-Design-Manual-A4-English-Low-Resolution.pdf",
+        "pageOrSection": "Added Mass Coefficient (Cm)",
+        "supports": "附加質量係數與水深、龍骨下淨空之關係及PIANC方法。"
+      }
+    ],
+    "assumptions": [
+      "以排水量作為船舶質量，並採深水側靠之Vasco Costa近似式Cm=1+2T/B；題目明示水深足夠、不考慮淺水效應。",
+      "拖船拉力假設為恆定且與側向速度反向，作用線通過船舶重心附近，不考慮旋迴角速度及其他外力。"
+    ],
+    "limitations": [
+      "實際側向附加質量與船型、船寬吃水比、水深、加減速歷時及船體線型有關；Cm=1+2T/B為工程近似，不是所有船舶的精確水動力係數。",
+      "若拖船在船艏或船艉偏心施力，會產生偏航力矩，需以六自由度操船模型或拖船配置另行分析。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "題目數據",
+          "result": "pass",
+          "note": "依考選部100年船舶操縱第一題核對全部已知條件。"
+        },
+        {
+          "item": "側向附加質量係數",
+          "result": "pass",
+          "note": "依Trelleborg及日本CDIT設計指南核對深水側靠Cm=1+2T/B及適用條件。"
+        },
+        {
+          "item": "等減速度計算",
+          "result": "pass",
+          "note": "依v²=u²+2as計算30m內將0.5144m/s降至零。"
+        },
+        {
+          "item": "拖船拉力",
+          "result": "pass",
+          "note": "F=ΔCmV²/(2gs)=55.3tf，約542.5kN。"
+        },
+        {
+          "item": "實務限制",
+          "result": "pass",
+          "note": "已註明恆定拉力、通過重心、忽略偏航及拖纜建立拉力時間等假設。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
