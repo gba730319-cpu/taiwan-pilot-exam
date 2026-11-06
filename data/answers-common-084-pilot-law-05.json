@@ -1,59 +1,61 @@
-{
-  "id": "084-pilot-law-05-answer-v1",
-  "questionId": "084-pilot-law-05",
-  "version": 1,
-  "language": "zh-TW",
-  "answerType": "legal_analysis",
-  "modelAnswer": "依民國69年5月2日制定公布、至民國84年考試時適用之《商港法》第28條：\n\n（一）原則：船舶入港後，應依商港管理機關指定之船席或錨地停泊，不得任意選擇泊位或錨地。\n（二）例外：如遇危急情況，必須作必要之緊急停泊，得在不妨害商港安全的情形下停泊。\n（三）事後報備：採取緊急停泊後，應以書面向商港管理機關申述理由並報備。\n\n因此，本條兼顧港口統一調度與船舶緊急避險：一般情況服從指定船席或錨地；危急時允許必要緊急停泊，但不得危害商港安全，且負有事後書面說明義務。",
-  "practicalAnalysis": "第28條不是一般船舶任意選擇錨位的授權。答題應完整寫出「指定船席或錨地」的原則、「危急情況」的例外、「不妨害商港安全」的限制，以及「事後書面申述理由報備」的程序。",
-  "keyPoints": [
-    {
-      "point": "入港船舶依商港管理機關指定船席或錨地停泊。",
-      "importance": "essential"
-    },
-    {
-      "point": "危急情況下可作必要緊急停泊。",
-      "importance": "essential"
-    },
-    {
-      "point": "緊急停泊仍不得妨害商港安全。",
-      "importance": "essential"
-    },
-    {
-      "point": "事後須以書面申述理由向商港管理機關報備。",
-      "importance": "essential"
-    }
-  ],
-  "scoringGuide": {
-    "status": "editorial_estimate",
-    "totalPoints": 10,
-    "items": [
+[
+  {
+    "id": "084-pilot-law-05-answer-v1",
+    "questionId": "084-pilot-law-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "legal_analysis",
+    "modelAnswer": "依民國69年5月2日制定公布、至民國84年考試時適用之《商港法》第28條：\n\n（一）原則：船舶入港後，應依商港管理機關指定之船席或錨地停泊，不得任意選擇泊位或錨地。\n（二）例外：如遇危急情況，必須作必要之緊急停泊，得在不妨害商港安全的情形下停泊。\n（三）事後報備：採取緊急停泊後，應以書面向商港管理機關申述理由並報備。\n\n因此，本條兼顧港口統一調度與船舶緊急避險：一般情況服從指定船席或錨地；危急時允許必要緊急停泊，但不得危害商港安全，且負有事後書面說明義務。",
+    "practicalAnalysis": "第28條不是一般船舶任意選擇錨位的授權。答題應完整寫出「指定船席或錨地」的原則、「危急情況」的例外、「不妨害商港安全」的限制，以及「事後書面申述理由報備」的程序。",
+    "keyPoints": [
       {
-        "criterion": "法條依據與規範內容正確",
-        "points": 6,
-        "basis": "編輯建議配分，非官方評分標準"
+        "point": "入港船舶依商港管理機關指定船席或錨地停泊。",
+        "importance": "essential"
       },
       {
-        "criterion": "說明適用情境、程序及法律效果",
-        "points": 4,
-        "basis": "編輯建議配分，非官方評分標準"
+        "point": "危急情況下可作必要緊急停泊。",
+        "importance": "essential"
+      },
+      {
+        "point": "緊急停泊仍不得妨害商港安全。",
+        "importance": "essential"
+      },
+      {
+        "point": "事後須以書面申述理由向商港管理機關報備。",
+        "importance": "essential"
       }
-    ]
-  },
-  "references": [
-    {
-      "title": "制定商港法；廢止商港條例",
-      "sourceType": "official_law_gazette",
-      "issuer": "總統府公報",
-      "editionOrEffectiveDate": "1980-05-02",
-      "url": "https://www.president.gov.tw/Page/294/37932",
-      "pageOrSection": "第21、28條",
-      "supports": "民國69年制定商港法之原始條文；第21條及第28條於民國84年考試時適用。"
-    }
-  ],
-  "assumptions": [
-    "本題依民國84年考試時有效法規作答；現行法條僅作對照，不倒推適用。"
-  ],
-  "limitations": [],
-  "lastUpdated": "2026-11-07"
-}
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "totalPoints": 10,
+      "items": [
+        {
+          "criterion": "法條依據與規範內容正確",
+          "points": 6,
+          "basis": "編輯建議配分，非官方評分標準"
+        },
+        {
+          "criterion": "說明適用情境、程序及法律效果",
+          "points": 4,
+          "basis": "編輯建議配分，非官方評分標準"
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "制定商港法；廢止商港條例",
+        "sourceType": "official_law_gazette",
+        "issuer": "總統府公報",
+        "editionOrEffectiveDate": "1980-05-02",
+        "url": "https://www.president.gov.tw/Page/294/37932",
+        "pageOrSection": "第21、28條",
+        "supports": "民國69年制定商港法之原始條文；第21條及第28條於民國84年考試時適用。"
+      }
+    ],
+    "assumptions": [
+      "本題依民國84年考試時有效法規作答；現行法條僅作對照，不倒推適用。"
+    ],
+    "limitations": [],
+    "lastUpdated": "2026-11-07"
+  }
+]
