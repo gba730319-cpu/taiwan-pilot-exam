@@ -1,0 +1,101 @@
+[
+  {
+    "id": "098-shiphandling-01-answer-v1",
+    "questionId": "98-shiphandling-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "calculation",
+    "modelAnswer": "【一、已知條件】\n\n- 總噸位（GRT）：15,000\n- 船寬：B=26m\n- 垂線間長：LBP=150m\n- 設計水深／設計吃水：T=9m（依題意解讀為船舶設計吃水）\n- 舵位：舵板直接位於螺槳正後方（rudder directly behind propeller）\n\n【二、舵面積經驗公式】\n\n依Det Norske Veritas（DNV）舵面積估算公式，舵板直接位於螺槳正後方時，最小舵面積可估算為：\n\n\\[\nA_R=\\frac{T\\times LBP}{100}\n\\left[1+25\\left(\\frac{B}{LBP}\\right)^2\\right]\n\\]\n\n其中：\n- \\(A_R\\)：舵板面積（m²）\n- \\(T\\)：船舶設計吃水（m）\n- \\(LBP\\)：垂線間長（m）\n- \\(B\\)：船寬（m）\n\n【三、代入計算】\n\n\\[\nA_R=\\frac{9\\times150}{100}\n\\left[1+25\\left(\\frac{26}{150}\\right)^2\\right]\n\\]\n\n先計算：\n\n\\[\n\\frac{9\\times150}{100}=13.5\n\\]\n\n\\[\n\\left(\\frac{26}{150}\\right)^2\n=0.0300444\n\\]\n\n\\[\n1+25\\times0.0300444\n=1.751111\n\\]\n\n因此：\n\n\\[\nA_R=13.5\\times1.751111\n=23.64\\ m^2\n\\]\n\n【四、答案】\n\n\\[\n\\boxed{A_R\\approx23.64\\ m^2}\n\\]\n\n故該船欲滿足基本操縱需要，依上述經驗公式估算之最小舵板面積約為23.64平方公尺。\n\n【五、補充說明】\n\n1. 題目特別說明舵板位於螺槳正後方，是因為螺槳尾流可增加流經舵板之水流速度及舵力；本題可直接採用上述公式。\n2. 若舵板不在螺槳尾流正後方，DNV相關經驗建議通常須增加至少30%的舵面積；本題不需加計此修正。\n3. 題目所給總噸位15,000 GRT並未直接代入此DNV公式；舵面積主要由船長、船寬、吃水及舵與螺槳之相對位置估算。\n4. 本公式為初步設計估算，不代表所有船型均適用的法定最低舵面積；實際設計仍須考慮船型、螺槳尾流、舵型、舵高、舵角、操縱性能及船級規範。\n\n【結論】\n\n採用舵板位於螺槳正後方之DNV經驗公式，計算最小舵板面積約為23.64m²。",
+    "practicalAnalysis": "本題25分，關鍵是辨認舵位在螺槳正後方，採DNV經驗公式AR=(T×LBP/100)[1+25(B/LBP)²]。以T=9m、LBP=150m、B=26m代入，結果23.64m²。GRT 15,000不會代入此公式，是題目提供的背景資料。若舵不在螺槳尾流後方，經驗上需增加約30%，但本題明確說明位於螺槳正後方，不加此修正。需註明把「設計水深9m」解讀為船舶設計吃水T；若題目真指航道水深，則缺少吃水資料，無法套用。",
+    "keyPoints": [
+      {
+        "point": "採DNV經驗公式：AR=(T×LBP/100)[1+25(B/LBP)²]。",
+        "importance": "essential",
+        "explanation": "舵位直接在螺槳後方時使用。"
+      },
+      {
+        "point": "代入T=9m、LBP=150m、B=26m，得AR=23.64m²。",
+        "importance": "essential",
+        "explanation": "計算過程應逐步列出。"
+      },
+      {
+        "point": "舵板位於螺槳正後方，螺槳尾流可提高舵效；若舵不在螺槳後方，經驗上需增加約30%面積。",
+        "importance": "essential",
+        "explanation": "題目特別提供舵位是為了選用正確修正條件。"
+      },
+      {
+        "point": "總噸位GRT 15,000不直接代入此公式。",
+        "importance": "supporting",
+        "explanation": "本經驗式使用船寬、垂線間長及吃水。"
+      },
+      {
+        "point": "9m依題意解讀為設計吃水T；若只是航道水深，則資料不足。",
+        "importance": "essential",
+        "explanation": "明確寫出計算假設。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Estimation of Rudder Area and Manoeuvring Characteristics",
+        "sourceType": "textbook_or_academic",
+        "issuer": "University of Glasgow thesis",
+        "url": "https://theses.gla.ac.uk/74749/1/11007668.pdf",
+        "pageOrSection": "Chapter 6, Section 6.4, Eq. 6.43",
+        "supports": "引用DNV最小舵面積經驗公式AR=(T×LBP/100)[1+25(B/LBP)²]，並說明適用於舵位於螺槳正後方；其他配置須增加至少30%。"
+      },
+      {
+        "title": "Sixty years of research on ship rudders: effects of design choices on rudder performance",
+        "sourceType": "textbook_or_academic",
+        "issuer": "Ships and Offshore Structures",
+        "editionOrEffectiveDate": "2016",
+        "url": "https://doi.org/10.1080/17445302.2016.1178205",
+        "supports": "說明舵面積通常以船舶水下側投影面積LBP×T為基礎估算，並引用DNV經驗式及舵位於螺槳後方之條件。"
+      },
+      {
+        "title": "98年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國98年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=703&code=098090&q=3&s=c721&t=Q",
+        "pageOrSection": "船舶操縱第一題",
+        "supports": "確認原題船舶尺寸、總噸位及舵位條件。"
+      }
+    ],
+    "assumptions": [
+      "題目所稱「設計水深9公尺」依舵面積公式所需變數解讀為船舶設計吃水T=9m。",
+      "舵板直接位於螺槳正後方，故不增加非螺槳尾流位置所需的30%經驗修正。",
+      "使用DNV舵面積估算公式作初步設計計算，非取代船級社完整舵系設計及操縱性能驗證。"
+    ],
+    "limitations": [
+      "若原題「設計水深」實際指航道水深而非船舶吃水，則缺少設計吃水，不能計算舵面積；本答案已明確列出解讀假設。",
+      "總噸位不是排水量，且此經驗公式不使用GRT；不可把GRT直接當成船舶質量代入。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "DNV舵面積公式",
+          "result": "pass",
+          "note": "依Glasgow學術論文引用之DNV公式核對舵位在螺槳後方時的適用條件。"
+        },
+        {
+          "item": "數值計算",
+          "result": "pass",
+          "note": "9×150/100×[1+25×(26/150)²]=23.64m²。"
+        },
+        {
+          "item": "舵位修正",
+          "result": "pass",
+          "note": "依DNV引用資料，非螺槳後方配置須增加至少30%；本題不需加計。"
+        },
+        {
+          "item": "GRT及設計水深解讀",
+          "result": "needs_review",
+          "note": "GRT不代入此公式；題目用語「設計水深」按設計吃水解讀，應留意原始命題是否為設計吃水。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
