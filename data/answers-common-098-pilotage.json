@@ -1,0 +1,131 @@
+[
+  {
+    "id": "098-pilotage-01-answer-v1",
+    "questionId": "98-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_symbols",
+    "modelAnswer": "【一、記深沉船（Wreck, depth known）】\n\n- IHO海圖圖例主要符號：K22，Submerged wreck, depth known（已知水深之水下沉船）。\n- 圖上以沉船符號標示沉船位置，並在旁標註已知水深；若題目所指的是「沉船最淺深度僅由測深取得」，則應使用K26（Wreck, least depth known by sounding only）；若最淺深度經拖網或潛水員掃測確認，則為K27。\n- 航海意義：表示該位置存在沉船，水深資料已知，但仍須依海圖危險線、周圍水深及本船吃水判斷安全通過距離。\n\n【二、不礙航沉船（Non-dangerous wreck）】\n\n- 若指沉船殘骸或其他海床障礙物，對一般水面航行不構成危險，但錨泊、拖網等作業應避免，IHO圖例為K31（Remains of a wreck or other foul ground, non-dangerous to navigation but to be avoided by vessels anchoring, trawling etc.）。\n- 若指完整沉船但最淺深度不明，海圖認為其覆水深度通常足以讓一般水面船舶通過，則可能使用K29（Wreck, least depth unknown）；但K29不代表對所有船舶均安全，深吃水船舶仍可能有危險。\n- 因此，考題若以「不礙航沉船」描述殘骸或非危險障礙物，應答K31；若圖例指的是深水中最淺深度不明之沉船，則須依K29及海圖註記判讀。\n\n【三、漲潮流（附速度）（Flood tidal stream with rate）】\n\n- IHO海圖圖例：H40。\n- 以箭頭表示漲潮流流向，箭頭旁標註流速，通常以節（knots）表示；依圖例註記，所標數值可能表示大潮時瞬間最大流速。\n- 航海意義：箭頭尖端表示潮流流去的方向，速度數值表示流速大小，不是風速，也不是船舶對地航速。\n- 操船時應依當地潮流表、潮流圖及潮時判斷流向、流速與轉流時間，並將潮流向量納入航跡及速度計算。\n\n【四、人工漁礁（Fish haven／Artificial reef）】\n\n- IHO海圖圖例：K46.1，Fish haven（人工魚礁／漁業資源保護礁區）；若另標示最小水深，則可使用K46.2。\n- 海圖以特定礁區範圍或點位符號標示人工設置之魚礁或漁業資源保護區，並可能附註名稱、範圍或水深。\n- 航海意義：人工魚礁可能形成水下障礙物或限制漁業作業區，船舶應依海圖標示及地方公告保持安全距離，避免擱淺、碰撞或錨泊拖網造成損害。\n\n【五、50公尺不到底（No bottom found at depth shown）】\n\n- IHO海圖圖例：I13。\n- 圖上以水深數字「50」上方加橫線及小點（上橫線、點號）表示，意即測深至50公尺仍未觸底。\n- 航海意義：50公尺是測深時已達到的深度，並非海床確切深度；實際水深大於50公尺，海圖不得將其解讀為海床恰在50公尺處。\n- 船舶航行時應依周圍等深線、測深資料品質及海圖註記判斷，不能把「不到底」當作已測得的精確水深。\n\n【整理表】\n\n| 題目名稱 | IHO圖例代碼 | 英文名稱／圖示意義 | 航海判讀 |\n|---|---|---|---|\n| 記深沉船 | K22；特定情況K26／K27 | Submerged wreck, depth known | 沉船位置及水深已知；依危險線與最淺深度判斷 |\n| 不礙航沉船 | 通常K31；深水未知沉船另有K29 | Wreck remains / non-dangerous wreck | 一般水面航行不構成危險，但仍可能限制錨泊、拖網或深吃水船 |\n| 漲潮流附速度 | H40 | Flood tidal stream with rate | 箭頭示流向，數字示流速（knots） |\n| 人工漁礁 | K46.1／K46.2 | Fish haven | 標示人工魚礁及可能之最小水深 |\n| 50公尺不到底 | I13 | No bottom found at depth shown | 測深至50m仍未觸底，實際水深大於50m |\n\n【結論】\n\n本題應熟記五個海圖符號的代碼及航海意義：沉船K22（最淺深度由測深取得時K26）、不礙航沉船殘骸K31、漲潮流附速度H40、人工魚礁K46.1、不到底水深I13。特別注意K29與K31的差異，以及I13的50公尺是測深未觸底的深度，不是海床確切深度。",
+    "practicalAnalysis": "本題圖例辨識，建議以「符號代碼＋英文名稱＋中文意義＋航海注意事項」作答。IHO標準代碼：K22已知水深水下沉船；K26最淺深度僅由測深取得；K27最淺深度經拖網／潛水掃測；K31沉船殘骸或污底，對一般航行不危險但應避免錨泊拖網；K29則為最淺深度未知的沉船，通常覆水較深但深吃水船仍可能有危險；H40漲潮流附流速；K46.1人工魚礁；I13不到底。題目「不礙航沉船」若未附圖，須說明K31與K29依圖例語境區別，避免過度武斷。",
+    "keyPoints": [
+      {
+        "point": "記深沉船：K22，已知水深之水下沉船；最淺深度僅由測深取得為K26，掃測確認為K27。",
+        "importance": "essential",
+        "explanation": "須區分一般已知水深與最淺深度的取得方式。"
+      },
+      {
+        "point": "不礙航沉船殘骸：K31，對一般航行不構成危險，但應避免錨泊及拖網；K29則是最淺深度未知的沉船。",
+        "importance": "essential",
+        "explanation": "兩者不能混為一談，深吃水船仍須注意K29。"
+      },
+      {
+        "point": "漲潮流附速度：H40，箭頭表示流向，旁邊數字表示流速，通常以節表示。",
+        "importance": "essential",
+        "explanation": "流速不是船速或風速。"
+      },
+      {
+        "point": "人工漁礁：K46.1 Fish haven；附最小水深時可用K46.2。",
+        "importance": "essential",
+        "explanation": "表示人工魚礁或漁業保護礁區。"
+      },
+      {
+        "point": "50m不到底：I13，50上方有橫線及點號，表示測深至50m仍未觸底，實際水深大於50m。",
+        "importance": "essential",
+        "explanation": "不可將50m誤讀為海床確切水深。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Pub. No.1 海圖圖例（Chart Symbols and Abbreviations）第九版",
+        "sourceType": "official_port_or_authority",
+        "issuer": "中華民國海軍大氣海洋局",
+        "editionOrEffectiveDate": "第九版",
+        "url": "https://navy.mnd.gov.tw/Files/Others/%E6%B5%B7%E5%9C%96%E5%9C%96%E4%BE%8B.pdf",
+        "pageOrSection": "H 潮與流、I 深度、K 岩礁沉船障礙物；目錄頁29、33、39",
+        "supports": "我國官方海圖圖例之分類及章節依據；完整圖式應配合海圖圖例正文查閱。"
+      },
+      {
+        "title": "Canadian Chart 1 — Wrecks",
+        "sourceType": "official_port_or_authority",
+        "issuer": "Canadian Hydrographic Service, Fisheries and Oceans Canada",
+        "url": "https://charts.gc.ca/publications/chart1-carte1/sections/k-rocks/wrecks-eng.html",
+        "pageOrSection": "Section K, symbols K20–K31",
+        "supports": "IHO通用符號中K22已知水深沉船、K26測深所得最淺深度、K27掃測沉船、K29最淺深度未知沉船及K31非航行危險之沉船殘骸。"
+      },
+      {
+        "title": "Canadian Chart 1 — Obstructions and Aquaculture",
+        "sourceType": "official_port_or_authority",
+        "issuer": "Canadian Hydrographic Service, Fisheries and Oceans Canada",
+        "url": "https://charts.gc.ca/publications/chart1-carte1/sections/k-rocks/obstructions-eng.html",
+        "pageOrSection": "Section K, K46.1 Fish haven and K46.2 Fish haven with minimum depth",
+        "supports": "人工魚礁（Fish haven）之IHO圖例代碼及水深註記。"
+      },
+      {
+        "title": "Canadian Chart 1 — Tides and Currents",
+        "sourceType": "official_port_or_authority",
+        "issuer": "Canadian Hydrographic Service, Fisheries and Oceans Canada",
+        "url": "https://charts.gc.ca/publications/chart1-carte1/sections/h-tides/tidal-streams-eng.html",
+        "pageOrSection": "Section H, H40 Flood tidal stream with rate",
+        "supports": "漲潮流箭頭及附記流速之圖例。"
+      },
+      {
+        "title": "Canadian Chart 1 — Soundings",
+        "sourceType": "official_port_or_authority",
+        "issuer": "Canadian Hydrographic Service, Fisheries and Oceans Canada",
+        "url": "https://www.chs.gc.ca/publications/chart1-carte1/sections/i-depths/soundings-eng.html",
+        "pageOrSection": "Section I, I13 No bottom found at depth shown",
+        "supports": "不到底水深符號I13及其意義。"
+      },
+      {
+        "title": "98年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國98年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=703&code=098090&q=2&s=c721&t=Q",
+        "pageOrSection": "引港學第一題",
+        "supports": "確認原題五項海圖符號。"
+      }
+    ],
+    "assumptions": [
+      "題目所稱「記深沉船」依IHO海圖用語解讀為已知水深之水下沉船K22；若強調最淺深度的測定方式，另補充K26及K27。",
+      "題目所稱「不礙航沉船」依一般中文圖例語意解釋為不妨礙一般航行之沉船殘骸K31；另說明K29以避免把深水未知沉船誤認為所有船舶皆安全。",
+      "海圖符號以IHO Chart 1標準代碼為主；我國不同版次海圖圖例可能存在符號外觀或編號差異，實際使用須核對該版圖例。"
+    ],
+    "limitations": [
+      "題目未附原始圖示，故「記深沉船」與「不礙航沉船」採IHO通用圖例解釋；若考選部指定版本使用不同代碼，應以該版海圖圖例為準。",
+      "我國海軍官方Pub. No.1第九版公開頁面目前僅能直接讀取目錄頁，完整圖式需以海軍出版品正文核對；本答案以加拿大水道測量局所刊IHO通用符號作交叉核對。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "已知水深沉船及最淺深度符號",
+          "result": "pass",
+          "note": "依Canadian Chart 1核對K22、K26及K27之不同定義。"
+        },
+        {
+          "item": "不礙航沉船與深水未知沉船",
+          "result": "pass",
+          "note": "依IHO通用圖例核對K31為非航行危險之沉船殘骸／污底，K29為最淺深度未知沉船，對深吃水船仍可能危險。"
+        },
+        {
+          "item": "漲潮流附速度",
+          "result": "pass",
+          "note": "依Chart 1 Section H核對H40及流向箭頭、流速註記。"
+        },
+        {
+          "item": "人工魚礁",
+          "result": "pass",
+          "note": "依Chart 1 Section K核對K46.1及K46.2。"
+        },
+        {
+          "item": "50m不到底",
+          "result": "pass",
+          "note": "依Chart 1 Section I核對I13為No bottom found at depth shown，水深數值上方有橫線及點號。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
