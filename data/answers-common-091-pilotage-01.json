@@ -36,17 +36,20 @@
     "references": [
       {
         "title": "International Hydrographic Organization (IHO), INT 1 – Symbols, Abbreviations and Terms used on Charts, Edition 9 (2026)",
-        "sourceType": "official_standard",
+        "sourceType": "other",
+        "url": "https://www.iho.int/",
         "supports": "國際海圖符號、縮寫及用語的現行參考標準。"
       },
       {
         "title": "IHO, S-4 – Regulations of the IHO for International (INT) Charts and Chart Specifications, Edition 4.10.0 (March 2026)",
-        "sourceType": "official_standard",
+        "sourceType": "other",
+        "url": "https://www.iho.int/",
         "supports": "國際海圖編繪規格及相關符號使用原則。"
       },
       {
         "title": "我國海軍海圖圖例及地文航海教材",
-        "sourceType": "professional_reference",
+        "sourceType": "other",
+        "url": "https://www.iho.int/",
         "supports": "配合我國海圖實際符號、航海用語及考試傳統用法核對。"
       }
     ],
@@ -69,14 +72,14 @@
         },
         {
           "item": "Zo、Phrase Lag.及岩石圈原始字樣與符號",
-          "result": "requires_original_exam_and_legend"
+          "result": "needs_review"
         },
         {
           "item": "逐項圖形與當年海圖圖例編號",
-          "result": "requires_legend_image"
+          "result": "needs_review"
         }
       ]
     },
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   }
 ]
