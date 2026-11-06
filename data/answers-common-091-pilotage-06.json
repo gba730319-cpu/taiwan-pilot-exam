@@ -1,0 +1,66 @@
+[
+  {
+    "id": "091-pilotage-06-answer-v1",
+    "questionId": "091-pilotage-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "calculation",
+    "modelAnswer": "一、羅經航向090°C，自差1°E、磁差6°W，真航向=090°+1°−6°=085°T；羅經差為5°W。初始燈塔羅經方位045°C，改正後真方位=040°T。\n二、計程儀航程10浬、船速15節，航行時間=10/15小時=40分鐘。同期流移=3×2/3=2浬，方向045°T。\n三、依東北風造成船舶向右舷偏流5°之假設，船舶對水航跡約090°T。對水位移10浬向東；流移分量為東向1.414浬、北向1.414浬。合成位移東向11.414浬、北向1.414浬，對地航跡約083°T，合成距離約11.50浬。\n四、燈塔初始真方位040°T與對地航跡083°T夾角約43°。燈塔在船舶左舷，當燈塔正橫時，初始視線沿航跡方向的投影等於船舶位移：R cos43°=11.50，故初始距離R約15.72浬；正橫距離d=R sin43°，約10.72浬。正橫真方位約083°−90°=353°T，換算羅經方位約358°C。\n答案：燈塔正橫時真方位約353°T（羅經方位約358°C），船舶至燈塔距離約10.7浬。",
+    "practicalAnalysis": "本題應分成羅經改正、航行時間、風壓差與流移向量、正橫幾何四步。計程儀航程視為對水航程，流移需以相同時間換算後向量合成。正橫距離的幾何關係為：初始燈塔距離在船舶航跡方向的投影等於船舶位移，因此R cosθ=s，正橫距離d=R sinθ=s tanθ；不能誤用s sinθ。",
+    "keyPoints": [
+      {
+        "point": "羅經差5°W，真航向085°T，初始燈塔真方位040°T。",
+        "importance": "essential"
+      },
+      {
+        "point": "航行時間40分鐘，同期流移2浬、方向045°T。",
+        "importance": "essential"
+      },
+      {
+        "point": "對水位移與流移須向量合成，對地航跡約083°T。",
+        "importance": "essential"
+      },
+      {
+        "point": "正橫距離應使用d=s tan43°，約10.7浬。",
+        "importance": "essential"
+      },
+      {
+        "point": "風壓差方向須依原題採用的定義或示意圖確認。",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      "Bowditch, The American Practical Navigator, chapters on compass error, set and drift, and dead reckoning.",
+      "方信雄，《航行避碰與操船》（風壓差、流壓差及航跡推算相關章節；頁碼依版本核對）。"
+    ],
+    "assumptions": [
+      "流向045°解作流往045°T。",
+      "東北風風壓差5°依船舶向右舷偏流解讀，使對水航跡約090°T。",
+      "計程儀10浬為對水航程，航速15節為對水速度。"
+    ],
+    "limitations": [
+      "題目文字未附風壓差方向示意圖；若原卷定義的偏流方向相反，對地航跡及正橫方位、距離均須重算。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "羅經改正、航行時間及流移向量",
+          "result": "source_checked"
+        },
+        {
+          "item": "正橫距離幾何",
+          "result": "source_checked",
+          "note": "依沿航跡投影R cosθ=s，正橫距離d=s tanθ。"
+        },
+        {
+          "item": "風壓差方向",
+          "result": "needs_review",
+          "note": "尚須依原題示意圖或教材符號慣例確認。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
