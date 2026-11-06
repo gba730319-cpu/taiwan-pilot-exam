@@ -6,7 +6,7 @@
     "language": "zh-TW",
     "answerType": "essay",
     "modelAnswer": "（1）氣溫垂直遞減率（Lapse Rate）：指大氣中氣溫隨高度增加而降低的程度，通常以每上升 100 公尺或 1 公里降低幾度表示。環境氣溫遞減率受氣團穩定度影響；乾絕熱遞減率約 9.8°C/km，飽和濕絕熱遞減率約 4～7°C/km，實際環境值隨溫濕度而變。若環境遞減率大，空氣較不穩定，易有對流、積雲及雷雨；遞減率小或有逆溫時，大氣較穩定，能見度及污染物擴散可能受影響。\n\n（2）東風波（Easterly Waves）：主要在熱帶東風帶內向西移動的低壓槽或波動，常伴隨低層東風輻合、上升運動、雲雨及陣雨雷暴。東風波可提供熱帶氣旋生成的擾動環境，但並非每一道東風波都會發展成熱帶氣旋；是否發展仍取決於海溫、垂直風切、低層渦度及大氣濕度等條件。\n\n（3）海霧形成原因：海霧是近海面空氣達到飽和而形成的霧。常見有平流霧：暖濕空氣移經較冷海面，底層冷卻至露點；蒸發霧：冷空氣移至較暖海面，水面蒸發增加低層水氣並形成霧；此外鋒面霧、輻射霧及海面冷暖水交界亦可能造成霧。海霧常見於暖濕氣流流經寒流或冷水區，對船舶造成能見度驟降風險。\n\n（4）焚風（Föhn）：濕潤氣流受地形抬升，迎風坡上升冷卻並可能凝結降水；越過山脈後，空氣在背風坡下沉壓縮增溫，變得較乾燥，形成溫暖、乾燥且有時強勁的下坡風。其主要特徵為背風側氣溫升高、相對濕度下降，可能造成能見度、火災及局部強風風險。\n\n（5）三胞環流：此名詞在不同中文氣象教材中可能有不同譯法，通常應對照原題指定教材確認。若題目指全球大氣三圈環流（three-cell circulation），則每半球由赤道至極區分為哈德里環流（Hadley cell）、費雷爾環流（Ferrel cell）及極地環流（Polar cell）。赤道受熱空氣上升，於高空向副熱帶流動並下沉形成副熱帶高壓；中緯度環流與西風帶、極鋒及氣旋活動有關；極地冷空氣下沉並向低緯流動。三圈環流與信風、西風、極地東風及全球氣壓帶分布密切相關。",
-    "practicalAnalysis": "引水與航行應特別注意海霧及局部地形風。海霧形成時能見度可能迅速下降，應依 COLREGs 第 19 條採取安全速度、加強瞭望並備妥主機；焚風及地形加速風可能使船舶靠離泊時風壓突然增加。氣溫遞減率則有助判斷大氣穩定度與對流發展。",
+    "practicalAnalysis": "本題是五個基本氣象名詞的定義題，作答時應把「環境氣溫垂直遞減率」與「乾、濕絕熱遞減率」分開；海霧以暖濕空氣移經冷海面形成的平流霧為主；焚風須交代迎風坡抬升冷卻、背風坡下沉增溫。題目中的「三胞環流」應先說明若指全球三圈環流，即 Hadley、Ferrel、Polar 三個環流胞，避免把名稱誤解為三種局部風系。",
     "keyPoints": [
       {
         "point": "氣溫垂直遞減率：氣溫隨高度增加而下降的速率；乾絕熱約 9.8°C/km。",
@@ -30,8 +30,11 @@
       }
     ],
     "references": [
-      "地文航海及海洋氣象相關教材（需依指定版本補頁碼）",
-      "NOAA／WMO 海洋氣象與大氣環流基礎資料（待補精確來源）"
+      "NOAA National Weather Service Glossary, Adiabatic Lapse Rate and Environmental Lapse Rate",
+      "NOAA JetStream, Global Atmospheric Circulations",
+      "NOAA National Weather Service, Fog Over Water",
+      "NOAA National Hurricane Center, Tropical Cyclone Frequently Asked Questions: What is an easterly wave?",
+      "地文航海及海洋氣象相關教材（考試作答可補充指定版本頁碼）"
     ],
     "assumptions": [
       "將三胞環流解釋為全球三圈環流；此名詞須核對考試指定中文教材。"
@@ -41,17 +44,28 @@
       "乾、濕絕熱遞減率為典型參考值，濕絕熱遞減率隨溫度及水氣含量變動。"
     ],
     "verification": {
-      "status": "draft",
+      "status": "source_checked",
       "checkedAt": "2026-11-06",
       "checks": [
         {
-          "item": "氣溫遞減率、東風波、海霧及焚風基本定義",
-          "result": "source_checked"
+          "item": "氣溫垂直遞減率與乾絕熱遞減率",
+          "result": "source_checked",
+          "note": "NOAA NWS說明環境遞減率為實際大氣溫度隨高度變化；乾絕熱遞減率約9.8°C/km，濕絕熱遞減率則隨溫度與壓力變化。"
         },
         {
-          "item": "三胞環流中文術語對應",
-          "result": "needs_review",
-          "note": "須對照指定教材確認是否指全球三圈環流。"
+          "item": "東風波",
+          "result": "source_checked",
+          "note": "依NOAA NHC熱帶氣旋教育資料，熱帶東風波為低層向西移動的擾動，可作為部分熱帶氣旋生成的種子系統，但非每一道波動都會發展成氣旋。"
+        },
+        {
+          "item": "海霧與焚風",
+          "result": "source_checked",
+          "note": "NOAA NWS說明海霧常由暖濕空氣移經較冷水面形成；焚風按絕熱過程與山脈背風側下沉增溫原理說明。"
+        },
+        {
+          "item": "三胞環流",
+          "result": "source_checked",
+          "note": "NOAA JetStream明確列出每半球Hadley、Ferrel及Polar三個環流胞；中文術語以三圈環流表述。"
         }
       ]
     },
