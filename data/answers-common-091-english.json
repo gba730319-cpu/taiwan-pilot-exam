@@ -30,12 +30,7 @@
       }
     ],
     "references": [
-      {
-        "title": "Speech by IMO Secretary-General Mr. W.A. O’Neil, IMPA Congress, Hamburg, 28 July–2 August 2002",
-        "sourceType": "other",
-        "issuer": "International Maritime Organization",
-        "supports": "題目所引英文演講原文及其演講背景。"
-      },
+      "Speech by IMO Secretary-General Mr. W.A. O’Neil, IMPA Congress, Hamburg, 28 July–2 August 2002 — 題目所引英文演講原文及其演講背景。",
       {
         "title": "IMO Standard Marine Communication Phrases and maritime safety culture resources",
         "sourceType": "IMO_or_treaty",
@@ -209,12 +204,7 @@
         "accessedAt": "2026-11-06",
         "supports": "引水人訓練、引航作業程序、船長與引水人資訊交換及駕駛台協作原則。"
       },
-      {
-        "title": "SOLAS 1974, Chapter V, Regulation 34 and Regulation 34-1",
-        "sourceType": "IMO_or_treaty",
-        "issuer": "International Maritime Organization",
-        "supports": "船舶航行計畫及船長專業判斷與指揮權的國際公約背景。"
-      }
+      "SOLAS 1974, Chapter V, Regulation 34 and Regulation 34-1 — 船舶航行計畫及船長專業判斷與指揮權的國際公約背景。"
     ],
     "assumptions": [
       "短文以一般商船港內引航作業為情境，採正式海事英文及IMO常用術語。"
