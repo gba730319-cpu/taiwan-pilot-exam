@@ -95,5 +95,120 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "091-pilotage-05-answer-v1",
+    "questionId": "091-pilotage-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、ECDIS之定義（Electronic Chart Display and Information System）\nECDIS中文為「電子海圖顯示與資訊系統」，係一種船舶航行資訊系統，透過顯示系統電子航行海圖（System Electronic Navigational Chart, SENC）之選定資訊，並整合船位等導航感測器資料，協助航海人員進行航線規劃（Route Planning）、航線監控（Route Monitoring）及船位判定；必要時亦可顯示其他與航行有關的資訊。依IMO A.817(19)性能標準，ECDIS在具備適當備援安排時，得符合SOLAS所要求之最新海圖配備義務。\n\n二、相關名詞及基本區別\n（一）ENC（Electronic Navigational Chart，電子航行海圖）：由政府授權之水道測量機關或海圖機關發行，依IHO規格統一其內容、結構及格式的向量式海圖資料庫。\n（二）SENC（System Electronic Navigational Chart，系統電子航行海圖）：ECDIS將ENC及其更新資料轉換、編輯或整合後，供系統實際顯示及使用的內部資料庫。\n（三）ECDIS與一般電子海圖系統（ECS）不同：ECDIS須符合IMO性能標準及相關IHO、IEC標準，並經型式認可；一般ECS若未符合規範，不能僅因能顯示電子海圖，就視為可取代SOLAS規定的紙海圖。\n（四）RCDS（Raster Chart Display System）：在符合條件下顯示官方光柵海圖的模式；光柵圖並非ENC向量資料，資訊查詢、警示及自動安全檢查能力有所限制，使用時仍須依規定配置適當備援及補充資料。\n\n三、ECDIS主要系統及設備\n（一）電子海圖資料與資料管理系統\n1. 官方ENC資料：提供海岸線、等深線、水深、礙航物、助航標誌、航道、錨地及其他航海資訊。\n2. SENC資料庫：儲存已載入及更新後的海圖資料，供畫面即時呈現、查詢及安全檢查。\n3. 海圖更新設備與程序：透過資料媒體或核准的通訊方式接收海圖改正，確認更新版本、範圍及日期，避免使用過期資料。\n4. 資料保護與驗證：確認資料來源、完整性及授權狀態，避免載入錯誤或未經核准的資料。\n\n（二）電子海圖顯示及運算主機\n1. 顯示器：呈現海圖、船位、航向、航速、航跡、航線及相關航行資訊，並可依日間、黃昏及夜間模式調整亮度與顏色。\n2. 電腦及應用軟體：負責海圖資料讀取、座標轉換、圖像呈現、航線計算、船位監控及警報判斷。\n3. 操作介面：包括鍵盤、軌跡球、滑鼠或觸控等輸入裝置，供航海人員選取海圖比例尺、圖層、航線及警報設定。\n4. 儲存及備份裝置：保存ENC、SENC、更新資料、航線及航行紀錄；實際備份方式依設備設計與船舶程序辦理。\n\n（三）導航感測器及外部資料輸入\n1. GNSS／GPS接收機：提供船舶位置及UTC時間，作為電子海圖上船位顯示的重要來源。\n2. 陀螺羅經（Gyro Compass）：提供船首向（Heading），供船位符號、航向線及航跡顯示。\n3. 計程儀（Speed Log）：提供船速資料；須辨明對水速度（STW）或對地速度（SOG），不可混為一談。\n4. AIS：提供其他裝有AIS船舶的識別及動態資料，輔助交通情勢判斷；AIS目標仍須以雷達、目視及其他資料交叉核對。\n5. 雷達／ARPA：可提供雷達目標及追蹤資訊；整合方式依設備配置而異，雷達回波或ARPA目標不得取代海圖本身的測量與定位資料。\n6. 其他感測器：例如回聲測深儀、風向風速儀及轉向率指示器等，可依設備介面與船舶需求輸入或顯示。\n\n（四）航線規劃、監控及安全警報功能\n1. 航線規劃：設定航路點、航段、轉向點及航行限制，檢查航線是否接近淺水、礙航物或其他危險區域。\n2. 航線監控：即時比較船舶位置與預定航線，顯示偏航、到達轉向點及航行進度。\n3. 安全等深線及安全水深：依船舶吃水、龍骨下安全餘裕、潮高及水域條件設定；系統可依海圖資料提供相關警示，但不能保證所有未測量或未標示危險均被發現。\n4. 擱淺及危險警示：依安全等深線、危險物、禁航區及預設警戒條件提供警報或提示。\n5. 船位及設備異常警報：例如定位資料中斷、感測器輸入異常、航線偏離及系統故障等；應確認警報來源並採取適當處置。\n\n（五）電源、備援及整合設備\n1. 主電源及必要的緊急／備用供電，確保設備在規定條件下維持運作。\n2. 獨立備援安排：當主ECDIS故障時，仍須有符合規範且可立即使用的備援方式，例如第二套合規ECDIS或符合規定的紙海圖配置；不得只依賴單一顯示器或單一定位來源。\n3. 與雷達、AIS、羅經、計程儀及船舶整合導航系統（INS）介接時，應確認資料來源、輸入品質、時間同步及故障警示。\n\n四、ECDIS使用上的限制與航海人員注意事項\n（一）ECDIS不是自動駕駛或自動避碰系統，航海人員仍須負責瞭望、定位、避碰及航行決策。\n（二）必須使用適當比例尺及最新官方ENC，避免過度放大（Over-scaling）造成誤判，也不可因畫面看似詳細而忽略海圖資料精度。\n（三）應正確設定安全等深線、安全水深、船舶吃水、偏航警戒及其他安全參數；設定錯誤可能造成警報失效或過多無效警報。\n（四）GNSS、陀螺羅經及計程儀等感測器可能故障、偏差或受干擾，應與雷達定位、目視方位、測深及其他獨立方法交叉核對。\n（五）海圖未測區、資料品質、測量年代、潮汐變化及新生礙航物等，均可能使實際水深或航行環境與畫面不同。\n（六）航海人員應熟悉本船設備操作、警報意義、海圖改正程序及備援切換程序，並定期演練設備故障時的應變。\n\n五、結論\nECDIS是以官方電子航行海圖為核心，整合船位、航向、航速及其他導航感測器資料，支援航線規劃、航線監控、船位顯示及航行危險警示的船舶導航資訊系統。其主要構成包括ENC／SENC資料與更新系統、顯示及運算主機、導航感測器、操作介面、警報功能、電源與獨立備援設備。ECDIS能提升航行資訊整合效率，但不能取代航海人員的專業判斷、瞭望及獨立定位。",
+    "practicalAnalysis": "本題15分，建議採「定義與法規地位—ENC／SENC名詞—系統設備分類—操作限制」四段作答。題目問「包括哪些系統及設備」，不能只列GPS、雷達、AIS等外部感測器，必須同時寫出電子海圖資料庫、顯示運算主機、更新設備、操作介面、警報、電源及備援安排。另應注意：ECDIS並非單純電子海圖顯示器，也不是自動避碰系統；只有符合IMO性能標準、型式認可並具備適當備援的設備，才可能用來履行SOLAS海圖配備要求。",
+    "keyPoints": [
+      {
+        "point": "ECDIS依IMO A.817(19)定義，是以SENC及導航感測器資料支援航線規劃、監控與船位顯示的導航資訊系統。",
+        "importance": "essential"
+      },
+      {
+        "point": "ENC是官方授權水道測量機關發行的標準化電子航行海圖；SENC是ECDIS供實際使用的系統海圖資料庫。",
+        "importance": "essential"
+      },
+      {
+        "point": "ECDIS核心構成包括ENC/SENC及更新管理、顯示器與運算主機、操作介面、感測器輸入、警報、電源及備援。",
+        "importance": "essential"
+      },
+      {
+        "point": "常見輸入包括GNSS/GPS、陀螺羅經、計程儀、AIS、雷達/ARPA及其他導航感測器。",
+        "importance": "essential"
+      },
+      {
+        "point": "ECDIS須具備航線規劃、航線監控、船位顯示及依設定提供安全警報等功能。",
+        "importance": "essential"
+      },
+      {
+        "point": "ECDIS與一般ECS不同；未符合IMO性能標準及型式認可的ECS不能當作SOLAS合規ECDIS。",
+        "importance": "essential"
+      },
+      {
+        "point": "ECDIS需有適當獨立備援，且仍不能取代瞭望、獨立定位與航海人員判斷。",
+        "importance": "essential"
+      },
+      {
+        "point": "2002年考題應以當時IMO A.817(19)性能標準為歷史基準，不應把2006年MSC.232(82)後續標準倒套為當時規定。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "Resolution A.817(19) – Performance Standards for Electronic Chart Display and Information Systems (ECDIS)",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "Adopted 23 November 1995",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.817%2819%29.pdf",
+        "pageOrSection": "Annex §§1–2及性能標準相關章節",
+        "accessedAt": "2026-11-06",
+        "supports": "ECDIS定義、主要功能、ENC定義、航線規劃與監控、警報及備援等基本性能要求。"
+      },
+      {
+        "title": "ENC & ECDIS",
+        "sourceType": "official_chart_or_notice",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/en/enc-ecdis",
+        "accessedAt": "2026-11-06",
+        "supports": "ECDIS使用官方ENC、型式認可、符合IHO標準及具備適當獨立備援的現行原則。"
+      },
+      {
+        "title": "IHO S-57 Standards in Force",
+        "sourceType": "official_chart_or_notice",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/en/s-57-standards-in-force",
+        "accessedAt": "2026-11-06",
+        "supports": "ENC資料標準、ECDIS相關IHO標準，以及依安裝時點適用不同IMO性能標準的說明。"
+      },
+      {
+        "title": "Introduction to ENC Portrayal and IHO S-52",
+        "sourceType": "official_chart_or_notice",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://www.iho-ohi.net/english/about-encs/enc-portrayal/introduction.html",
+        "accessedAt": "2026-11-06",
+        "supports": "S-52對ENC更新、海圖顯示、顏色符號及Presentation Library的規範角色。"
+      }
+    ],
+    "assumptions": [
+      "本題為民國91年（2002年）考題，法規與性能標準背景以當時已採用的IMO A.817(19)為主。",
+      "題目所稱「系統及設備」採船舶ECDIS整體功能架構說明；各船設備品牌、介面及感測器整合程度可能不同。"
+    ],
+    "limitations": [
+      "不同廠牌ECDIS的硬體配置、操作介面及可整合感測器有所差異，本文列舉的是典型系統架構，不代表每艘船均具有完全相同配置。",
+      "ECDIS性能標準曾經修訂；本題以2002年歷史背景說明，現行設備仍須依其型式認可日期及適用標準判斷。",
+      "RCDS為光柵海圖顯示模式，與以向量ENC為核心的完整ECDIS功能並不完全相同。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "ECDIS及ENC定義",
+          "result": "pass",
+          "note": "依IMO A.817(19)第1、2節核對ECDIS與ENC定義及主要用途。"
+        },
+        {
+          "item": "系統功能及備援要求",
+          "result": "pass",
+          "note": "依IMO A.817(19)及IHO ENC/ECDIS官方說明整理航線規劃、監控、更新及備援原則。"
+        },
+        {
+          "item": "IHO標準角色",
+          "result": "pass",
+          "note": "依IHO S-57、S-52官方資料核對ENC資料格式及顯示規範的分工。"
+        },
+        {
+          "item": "各船設備配置",
+          "result": "needs_review",
+          "note": "實際設備與介面依船舶型式認可文件及製造廠手冊而異，本文僅列典型架構。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
