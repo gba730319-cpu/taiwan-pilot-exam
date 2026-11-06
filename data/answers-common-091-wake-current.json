@@ -34,18 +34,8 @@
       }
     ],
     "references": [
-      {
-        "title": "方信雄，《航行避碰與操船》",
-        "sourceType": "textbook_or_academic",
-        "supports": "船舶伴流、螺槳流及港內操船實務之重要參考著作。",
-        "url": "https://www.imo.org/"
-      },
-      {
-        "title": "船舶操縱流體力學（Ship Manoeuvring Hydrodynamics）",
-        "sourceType": "textbook_or_academic",
-        "supports": "船體邊界層、伴流、螺槳射流及受限水域流場之理論基礎。",
-        "url": "https://www.imo.org/"
-      }
+      "方信雄，《航行避碰與操船》。船舶伴流、螺槳流及港內操船實務之重要參考著作。",
+      "船舶操縱流體力學（Ship Manoeuvring Hydrodynamics）。船體邊界層、伴流、螺槳射流及受限水域流場之理論基礎。"
     ],
     "limitations": [
       "Wake Current在不同教材中可能指廣義船行尾流，亦可能專指船舶通過後的局部伴流；本文採操船實務上的廣義流場分解。",
