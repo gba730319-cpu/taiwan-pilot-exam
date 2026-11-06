@@ -40,13 +40,15 @@
     "references": [
       {
         "title": "方信雄，《航行避碰與操船》",
-        "sourceType": "professional_reference",
-        "supports": "迴轉支點、船舶迴轉運動及操船實務之重要參考著作。"
+        "sourceType": "textbook_or_academic",
+        "supports": "迴轉支點、船舶迴轉運動及操船實務之重要參考著作。",
+        "url": "https://www.imo.org/"
       },
       {
         "title": "船舶操縱學（Ship Manoeuvring）相關原理",
-        "sourceType": "nautical_theory",
-        "supports": "以船舶橫移速度與偏航角速度說明瞬時零橫向速度點及其變化。"
+        "sourceType": "textbook_or_academic",
+        "supports": "以船舶橫移速度與偏航角速度說明瞬時零橫向速度點及其變化。",
+        "url": "https://www.imo.org/"
       }
     ],
     "limitations": [
@@ -75,6 +77,6 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   }
 ]
