@@ -253,5 +253,132 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "098-pilotage-03-answer-v1",
+    "questionId": "98-pilotage-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "definitions",
+    "modelAnswer": "【一、Inversion Layer（逆溫層）】\n一般對流層氣溫隨高度增加通常降低；逆溫層則是氣溫在某一大氣層內隨高度增加反而升高。常由夜間地面輻射冷卻、下沉氣流或鋒面結構造成，使大氣垂直穩定度增加、抑制上下混合，容易使霧、煙塵及污染物滯留近地面；配合高濕度時可能造成能見度不良，影響瞭望及進出港安全。\n\n【二、ITCZ（Intertropical Convergence Zone，熱帶輻合帶）】\nITCZ為赤道附近南北半球信風及季風氣流匯合之低壓帶，低層空氣輻合上升，形成旺盛對流，常伴隨積雨雲、雷雨、陣雨及陣風，近地面風力可能較弱或方向不定，俗稱Doldrums。ITCZ隨太陽直射點及季節南北移動，北半球夏季通常北移、冬季南移。航行時應注意雷雨、強陣風、短時強降雨、能見度及風向不穩定。\n\n【三、Sea Breeze and Land Breeze（海風與陸風）】\n1. 海風：白天陸地受太陽加熱較快，陸地上方暖空氣上升，較冷海面空氣由海上流向陸地，形成海風，通常午後較明顯。\n2. 陸風：夜間陸地散熱較快，陸地溫度低於海面，近地面空氣由陸地流向海面，形成陸風，通常夜間至清晨較明顯。\n海陸風屬局部環流，會受季風、背景風、地形及雲量影響；港口及沿岸航行須注意局部風向、風速變化。\n\n【四、Occluded Front（錮囚鋒／囚錮鋒）】\n溫帶氣旋發展時，移動較快的冷鋒追上暖鋒，使暖區暖空氣被迫抬升離開地面，形成錮囚鋒。冷鋒後方空氣較冷者為冷式錮囚鋒；若冷鋒後方空氣較暖、沿前方較冷空氣上方爬升，則為暖式錮囚鋒。錮囚鋒附近常有廣泛雲系、持續降雨或降雪、風向轉變及氣壓變化，航行時須注意鋒面通過前後風、浪及能見度改變。\n\n【五、Sweating of Ship's Hull（船體流汗／船體結露）】\n船體流汗是暖濕空氣接觸低於其露點溫度的冷船體鋼板、艙壁或艙內結構時，水氣凝結成水珠並附著於船體或艙壁內側。常見於船舶由寒冷海域航行至溫暖潮濕海域，船體仍維持低溫時，可能使貨物受潮、包裝損壞或金屬貨物鏽蝕。\n須與Cargo Sweat（貨物流汗）區分：Ship's Sweat凝結在冷船體／艙壁；Cargo Sweat凝結在較冷貨物表面。預防方法是監測艙內外溫度、濕度及露點；只有外界空氣露點低於貨物或冷表面溫度、通風確實有利除濕時才通風；若外界露點較高，應關閉艙口並使用除濕或其他防潮措施。\n\n【結論】\n逆溫層抑制垂直混合；ITCZ為信風輻合上升的多雨雷暴帶；海風白天海吹陸、陸風夜間陸吹海；錮囚鋒為冷鋒追上暖鋒使暖空氣抬升；船體流汗為暖濕空氣接觸低於露點之冷船體表面而結露。",
+    "practicalAnalysis": "本題20分，五個名詞各4分。Inversion layer：氣溫隨高度反而上升，穩定大氣、抑制混合；ITCZ：南北信風輻合上升，對流雷雨多、風弱不定；海風白天海吹陸、陸風夜間陸吹海；Occluded front：冷鋒追上暖鋒、暖空氣被抬升；Ship's sweat：暖濕空氣接觸低於露點的冷船體／艙壁而凝結。必須區分Ship's sweat與Cargo sweat，並說明露點通風原則。",
+    "keyPoints": [
+      {
+        "point": "Inversion layer：氣溫隨高度增加反而上升，形成穩定層並抑制垂直混合，可能使霧及污染物滯留。",
+        "importance": "essential",
+        "explanation": "說明溫度遞減率反轉及能見度影響。"
+      },
+      {
+        "point": "ITCZ：南北半球信風及季風氣流輻合上升，雲雨、雷暴及陣風頻繁，近地面風可能弱且不定。",
+        "importance": "essential",
+        "explanation": "並說明其隨季節南北移動。"
+      },
+      {
+        "point": "海風白天由海吹向陸地；陸風夜間由陸地吹向海面。",
+        "importance": "essential",
+        "explanation": "由海陸加熱與冷卻速度不同造成。"
+      },
+      {
+        "point": "Occluded front：移動較快冷鋒追上暖鋒，暖區暖空氣被抬升離地。",
+        "importance": "essential",
+        "explanation": "可補充冷式及暖式錮囚鋒。"
+      },
+      {
+        "point": "Ship's sweat：暖濕空氣接觸低於露點的冷船體或艙壁而凝結；Cargo sweat則凝結於較冷貨物表面。",
+        "importance": "essential",
+        "explanation": "必須分清兩者並說明通風露點原則。"
+      },
+      {
+        "point": "船體流汗防治：監測溫濕度及露點，只有外界空氣露點低於冷表面溫度時才通風。",
+        "importance": "supporting",
+        "explanation": "避免將外界暖濕空氣帶入冷艙。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Temperature Inversions",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Weather Service (NOAA)",
+        "url": "https://www.weather.gov/source/zhu/ZHU_Training_Page/winds/Temperature_Inversions/Temperature_Inversions.html",
+        "supports": "逆溫層定義、形成原因及穩定大氣對垂直混合的抑制作用。"
+      },
+      {
+        "title": "Intertropical Convergence Zone (ITCZ)",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA / National Weather Service",
+        "url": "https://www.weather.gov/jetstream/itcz",
+        "supports": "ITCZ為南北信風輻合、空氣上升及對流降雨區域之氣象說明。"
+      },
+      {
+        "title": "Sea and Land Breezes",
+        "sourceType": "official_port_or_authority",
+        "issuer": "Florida Department of Agriculture and Consumer Services",
+        "url": "https://www.fdacs.gov/Forest-Wildfire/Wildland-Fire/Fire-Weather/Links-and-Information/Sea-Breezes",
+        "supports": "海陸加熱差異造成白天海風、夜間陸風之機制。"
+      },
+      {
+        "title": "Occluded Fronts",
+        "sourceType": "official_port_or_authority",
+        "issuer": "Met Office",
+        "url": "https://weather.metoffice.gov.uk/learn-about/weather/how-weather-works/what-is-a-front/occluded-front",
+        "supports": "冷鋒追上暖鋒、暖空氣被抬升及冷式／暖式錮囚鋒之定義。"
+      },
+      {
+        "title": "Ship Sweat and Cargo Sweat",
+        "sourceType": "official_port_or_authority",
+        "issuer": "Gard P&I",
+        "url": "https://www.gard.no/insights/condensation-and-cargo-damage/",
+        "supports": "船體流汗與貨物流汗的差異、露點及貨艙通風防潮原則。"
+      },
+      {
+        "title": "98年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國98年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=703&code=098090&q=2&s=c721&t=Q",
+        "pageOrSection": "引港學第三題",
+        "supports": "確認原題五項氣象及貨物照管名詞。"
+      }
+    ],
+    "assumptions": [
+      "「船體流汗」依貨艙貨物照管語境解釋為Ship's Sweat，即冷船體或艙壁表面結露。",
+      "海風與陸風採一般沿岸局部環流定義，實際風場會受季風、地形及背景風影響。"
+    ],
+    "limitations": [
+      "逆溫層可能由多種機制造成，本文採一般氣象定義，未限定為夜間輻射逆溫或下沉逆溫。",
+      "船體流汗是否發生，須依船體溫度、空氣露點、貨物溫度及通風條件判斷，不能僅以外界氣溫高低決定是否通風。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "逆溫層",
+          "result": "pass",
+          "note": "依NOAA/NWS核對氣溫垂直分布反轉及穩定層效應。"
+        },
+        {
+          "item": "ITCZ",
+          "result": "pass",
+          "note": "依NOAA氣象資料核對信風輻合、上升對流及季節移動。"
+        },
+        {
+          "item": "海風與陸風",
+          "result": "pass",
+          "note": "依官方氣象教育資料核對白天海風、夜間陸風之方向及形成原因。"
+        },
+        {
+          "item": "錮囚鋒",
+          "result": "pass",
+          "note": "依Met Office核對冷鋒追上暖鋒及冷式、暖式錮囚鋒。"
+        },
+        {
+          "item": "船體流汗",
+          "result": "pass",
+          "note": "依Gard P&I貨物照管資料核對Ship's Sweat、Cargo Sweat及露點通風原則。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
