@@ -72,8 +72,18 @@
         "url": "https://tc.canada.ca/en/marine-transportation/publications/tp-743-termpol-review-process-2019-edition",
         "supports": "靠離泊風速上限、潮流特性、泊位受力、潮差、水深、淺水與岸壁效應、繫泊方法、拖船數量及其他作業限制。"
       },
-      "方信雄，《船舶引航專論》。作為領港操船、靠離泊計畫及港區實務之專業參考，與IMO及港口官方指引交叉使用。",
-      "方信雄，《航行避碰與操船》。作為船舶操縱性能、環境外力與操船決策之專業參考。",
+      {
+        "title": "《船舶引航專論》",
+        "sourceType": "textbook_or_academic",
+        "issuer": "方信雄",
+        "supports": "領港操船、靠離泊計畫及港區實務之專業參考；與IMO及港口官方指引交叉使用。"
+      },
+      {
+        "title": "《航行避碰與操船》",
+        "sourceType": "textbook_or_academic",
+        "issuer": "方信雄",
+        "supports": "船舶操縱性能、環境外力與操船決策之專業參考。"
+      },
       {
         "title": "94年專門職業及技術人員特種考試引水人船舶操縱試題",
         "sourceType": "other",
