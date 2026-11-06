@@ -1,0 +1,97 @@
+[
+  {
+    "id": "answer-114-shiphandling-01",
+    "questionId": "114-shiphandling-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "**一、事故背景與船舶特性**\nEVER GIVEN 為大型貨櫃船，LOA約400 m、船寬約58.8 m、夏季吃水約16.0 m。貨櫃堆疊使其水上受風面積及風壓中心高度很大；當時風速約25–27節、陣風約40節，擱淺時航速約12節。大型船舶慣性大、迴旋與停船反應需要時間，狹窄運河又限制可用水域及修正空間。\n\n**二、可能肇因及操縱機理**\n1. **強風與陣風造成偏航及橫移**：橫風作用於龐大水上側面，產生風壓及偏航力矩；陣風與風向變化使風力不穩定。船舶可能被推向航道一側，需以舵、車及拖輪及早修正。\n2. **狹水道與岸壁效應**：船舶通過狹窄水道時，船體周圍水流加速、壓力分布改變，可能出現岸壁吸引／排斥及艏艉橫向力矩；在淺水或受限水域，交互作用更明顯，舵效亦可能改變。\n3. **艉座（Squat）及淺水效應**：船速增加使船底下及船旁水流加速、壓力降低，船體下沉並可能產生縱傾變化。航速愈高，艉座通常以近似速度平方的趨勢增加，並降低龍骨下富餘水深；若航道水深或寬度受限，擱淺風險上升。\n4. **航速偏高、動能及操縱餘裕不足**：約12節的速度代表大型船舶具有很大的動能與慣性，需較長距離才能減速或改變運動狀態。若未依運河規定及環境條件降低速度，遇陣風或偏航時可用反應時間不足。\n5. **未充分運用拖輪或外部協助**：在強風、低能見度或大型高風壓面船舶通過受限水域時，若未依風險評估配置護航拖輪，船舶可用的橫向控制力及緊急修正能力會降低。\n6. **駕駛臺團隊與引水人溝通不足**：引水人、船長及駕駛臺若未充分交換風況、船舶操縱性能、預定航速、應變方案及風險，船長可能無法及時理解偏航風險或介入；語言或指令溝通不清亦會延誤修正。\n\n**三、預防與操船對策**\n通過前應評估風速、陣風、風向、能見度、水深、航道寬度、潮流及船舶受風面積；必要時延後通過或依規定配置拖輪。依當地規定控制安全航速，預留足夠舵效但避免過速；連續監控船位、偏航率、橫移速度、舵角、主機及UKC。引水人與船長應完成MPX，明確約定航路、速度、拖輪、警戒界線及中止／應變條件。若船舶偏離預定航跡且無法安全修正，應及早減速、請求協助，必要時停止通過而非持續勉強前進。\n\n**結論**：事故不能單以「風太大」解釋，而是大型船舶高風壓面、強陣風、受限水域的岸壁／淺水效應、航速與操縱餘裕、拖輪支援及駕駛臺協作等因素共同作用的風險事件。",
+    "practicalAnalysis": "本題應將題幹數據轉化為操縱風險：400 m級船舶的水上側面積大，陣風可造成顯著橫移與偏航；12節的動能及停船距離不能忽略。不可把事故說成單一風力造成，也不可把艉座公式當成精確事故重建。巴拿馬海事局報告列出的關鍵調查方向包括惡劣天候風險評估、拖輪支援、速度、bank effect／squat及駕駛臺溝通。考試作答宜明確區分「物理機理」與「調查報告指出的管理／操作因素」。",
+    "keyPoints": [
+      {
+        "point": "大型貨櫃船受風面積大，風壓中心高，強風陣風造成橫移及偏航力矩。",
+        "importance": "essential"
+      },
+      {
+        "point": "受限水域中的bank effect、船間交互作用及淺水效應會放大操縱難度。",
+        "importance": "essential"
+      },
+      {
+        "point": "艉座通常隨船速增加而快速增加，常以近似V²關係說明，但實際值受水深、航道阻塞比及船型影響。",
+        "importance": "essential"
+      },
+      {
+        "point": "12節航速使大型船舶動能及停止距離增加，減少修正時間。",
+        "importance": "essential"
+      },
+      {
+        "point": "拖輪支援、適時延後通過及安全航速應依風險評估決定。",
+        "importance": "supporting"
+      },
+      {
+        "point": "引水人、船長及駕駛臺團隊必須持續交換資訊並建立應變共識。",
+        "importance": "supporting"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "totalPoints": null,
+      "items": []
+    },
+    "references": [
+      {
+        "title": "M/V EVER GIVEN, Final Investigation Report R-026-2021-DIAM",
+        "sourceType": "incident_report",
+        "issuer": "Panama Maritime Authority",
+        "url": "https://marineindustrynews.co.uk/wp-content/uploads/2023/07/Final-Investigation-Report-Ever-Given-23-March-2021.pdf",
+        "accessedAt": "2026-11-07",
+        "supports": "作答之專業依據；應配合船舶實際操縱資料及當地規定使用。"
+      },
+      {
+        "title": "MGN 199 (M) Amendment 1 — Danger of interaction",
+        "sourceType": "official_port_or_authority",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction",
+        "accessedAt": "2026-11-07",
+        "supports": "作答之專業依據；應配合船舶實際操縱資料及當地規定使用。"
+      },
+      {
+        "title": "Special Notice — Vessel Squat in Shallow Water",
+        "sourceType": "official_chart_or_notice",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/api/publications/download?key=16694429%2FSFH00000%2FUNTM%2F202001%2FSpecial_Notice.pdf",
+        "accessedAt": "2026-11-07",
+        "supports": "作答之專業依據；應配合船舶實際操縱資料及當地規定使用。"
+      },
+      "方信雄，《船舶引航專論》；方信雄，《航行避碰與操船》（依船舶操縱、風流壓力、淺水與引航協調相關章節研讀；未引用未核實頁碼）。"
+    ],
+    "assumptions": [],
+    "limitations": [
+      "題目提供的風速、陣風及航速為事故情境資料；未以此推算特定風壓力或實際擱淺瞬間船位。",
+      "艉座量需船舶吃水、方形係數、航道水深與寬度等資料，不能僅憑題幹精確計算。",
+      "未取得考選部官方逐項評分細則；本文為依題目及可查證資料撰寫的研讀答案。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題號與題文",
+          "result": "pass",
+          "note": "對照114年共同科目題庫資料。"
+        },
+        {
+          "item": "技術概念與資料來源",
+          "result": "pass",
+          "note": "已以官方事故調查、主管機關或設備製造商資料交叉核對。"
+        },
+        {
+          "item": "官方評分細則",
+          "result": "needs_review",
+          "note": "未取得考選部官方評分細則。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
