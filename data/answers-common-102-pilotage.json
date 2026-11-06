@@ -107,5 +107,129 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "102-pilotage-02-answer-v1",
+    "questionId": "102-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "technical_essay",
+    "modelAnswer": "【一、海圖分類之原則】\n\n海圖依涵蓋範圍、比例尺及航行用途分類。小比例尺海圖涵蓋範圍大、地形及水深資料較概略，適合遠洋航行及航線規劃；大比例尺海圖涵蓋範圍較小，但水深、礁石、航標、航道、錨地及港口設施等資料較詳細，適合沿岸、進港及靠泊操船。\n\n傳統紙海圖常分為四大類：航洋圖（Sailing Chart）、總圖／一般圖（General Chart）、沿岸圖（Coastal Chart）及港泊圖（Harbour Chart）。部分海道測量機關會再細分為進港圖（Approach Chart）及靠泊圖（Berthing Chart）。\n\n【二、傳統海圖四大類及其比例尺與用途】\n\n（一）航洋圖（Sailing Chart）\n- 比例尺：通常為1:600,000及更小比例尺（分母較大）。\n- 用途：供遠洋航行、跨洋航線規劃及長距離海上航行使用。\n- 內容：主要顯示大範圍海岸線、主要島嶼、主要燈塔、重要航標、海域水深概況及主要危險物；細節較少。\n- 使用時機：船舶遠離陸地或進行長程航線規劃時。\n\n（二）總圖／一般圖（General Chart）\n- 比例尺：通常約1:150,000至1:600,000。\n- 用途：供較大範圍海域之航行及沿岸航線規劃，作為航洋圖與沿岸圖之間的過渡。\n- 內容：顯示較完整的海岸線、主要航道、島嶼、燈塔、主要助航標誌及海底地形。\n- 使用時機：船舶由外海接近沿岸，或沿岸港口間較長距離航行。\n\n（三）沿岸圖（Coastal Chart）\n- 比例尺：通常約1:50,000至1:150,000。\n- 用途：供沿岸航行、陸地可視範圍內之船位判定及沿岸港口間航行使用。\n- 內容：較詳細表示海岸地形、港灣外側水深、礁石、淺灘、航標、燈塔、錨地及航道。\n- 使用時機：船舶沿岸航行、接近港口外海及需要以陸上目標定位時。\n\n（四）港泊圖（Harbour Chart）\n- 比例尺：通常為1:50,000及更大比例尺（分母較小），實際可依港口大小及水域複雜程度採用更大比例尺。\n- 用途：供船舶進出港、港內航行、移泊、錨泊及靠離碼頭使用。\n- 內容：詳細標示港口航道、水深、礁石、沉船、浮標、燈標、碼頭、船席、錨地、迴船池、防波堤及港區設施。\n- 使用時機：船舶進出港、港內操船及靠泊作業。\n\n【三、進一步細分：進港圖與靠泊圖】\n\n部分海道測量機關及現代海圖制度，會將港泊圖再細分：\n\n1. **進港圖（Approach Chart）：**常見比例尺約1:25,000至1:50,000，供船舶由沿岸或外海接近港口、航道入口、錨地及港口轉向點時使用，顯示港口外側水深、航道、助航標誌及主要障礙。\n2. **港內圖（Harbour Chart）：**常見比例尺約1:5,000至1:25,000，供港區內航行、迴船池、船席、錨地及港口設施使用。\n3. **靠泊圖（Berthing Chart／Berthing Plan）：**常見比例尺約1:5,000或更大，供船舶接近碼頭、靠泊及離泊時使用，詳細表示碼頭線、繫纜設施、防舷材、局部水深及附近障礙物。\n\n【四、IHO現代用途分類之參考】\n\n依國際海道測量組織（IHO）S-4海圖規格，現代海圖用途可細分為六類，其典型比例尺區間如下：\n\n| IHO用途分類 | 典型比例尺 | 主要用途 |\n|---|---:|---|\n| Overview Chart 總覽圖 | 小於1:1,500,000 | 全球或大洋航線規劃 |\n| General Chart 一般圖 | 1:350,000至1:1,500,000 | 大範圍海域及遠岸航行 |\n| Coastal Chart 沿岸圖 | 1:90,000至1:350,000 | 沿岸航行 |\n| Approach Chart 進港圖 | 1:22,000至1:90,000 | 接近港口、航道入口及錨地 |\n| Harbour Chart 港內圖 | 1:4,000至1:22,000 | 港內航行、移泊及錨泊 |\n| Berthing Chart 靠泊圖 | 大於1:4,000 | 碼頭附近精細操船及靠泊 |\n\n以上為IHO現代分類之典型尺度範圍，與傳統各國紙海圖分類名稱及比例尺分界可能略有差異；實際使用應以該海圖出版機關所標示之比例尺及用途為準。\n\n【五、海圖選用之基本原則】\n\n1. 船舶應依所在海域及航行階段，選用足夠比例尺及最新改正之海圖。\n2. 接近陸地、礁石、狹窄航道及港口時，應改用較大比例尺海圖。\n3. 大比例尺海圖顯示細節較多，但涵蓋範圍較小；小比例尺海圖涵蓋範圍較大，但細節較少。\n4. 不得以小比例尺海圖取代港泊圖執行狹水道、港內及靠泊操船。\n5. 使用海圖時應同時參考航船布告、燈表、潮汐表、潮流表及航路指南，並確認海圖是否已改正至最新通告。\n\n【結論】\n\n傳統海圖主要分為航洋圖、總圖／一般圖、沿岸圖及港泊圖；比例尺依序由小至大，涵蓋範圍由廣至窄，用途由遠洋航行逐步細化至港內及靠泊操船。現代IHO又將海圖用途細分為總覽、一般、沿岸、進港、港內及靠泊六類。船舶愈接近陸地、航道及碼頭，越應使用較大比例尺、細節較完整的海圖。",
+    "practicalAnalysis": "本題20分，先以傳統四大類作答：航洋圖1:600,000及更小；總圖1:150,000–1:600,000；沿岸圖1:50,000–1:150,000；港泊圖1:50,000及更大。再補進港圖及靠泊圖的細分。若考場採IHO現代六類分類，可補充Overview、General、Coastal、Approach、Harbour、Berthing及其尺度。一定要提醒：大比例尺代表分母較小、涵蓋範圍較小但細節較多；小比例尺則相反。不同海道測量機關分界略有差異，依出版機關分類為準。",
+    "keyPoints": [
+      {
+        "point": "傳統航洋圖：1:600,000及更小，供遠洋、跨洋及長程航線規劃。",
+        "importance": "essential",
+        "explanation": "小比例尺、大範圍、細節較少。"
+      },
+      {
+        "point": "傳統總圖／一般圖：約1:150,000至1:600,000，供大範圍海域及沿岸港口間航行。",
+        "importance": "essential",
+        "explanation": "由外海接近沿岸的過渡圖。"
+      },
+      {
+        "point": "傳統沿岸圖：約1:50,000至1:150,000，供沿岸航行及陸地可視範圍定位。",
+        "importance": "essential",
+        "explanation": "海岸地形及助航標誌較詳細。"
+      },
+      {
+        "point": "傳統港泊圖：1:50,000及更大，供進出港、港內航行、移泊、錨泊及靠離泊。",
+        "importance": "essential",
+        "explanation": "水深、航道、碼頭及障礙物詳細。"
+      },
+      {
+        "point": "現代IHO六類：Overview、General、Coastal、Approach、Harbour、Berthing。",
+        "importance": "supporting",
+        "explanation": "可補充說明不同海道測量機關會細分進港及靠泊用途。"
+      },
+      {
+        "point": "大比例尺分母較小、涵蓋範圍小但細節多；小比例尺分母較大、涵蓋範圍大但細節少。",
+        "importance": "essential",
+        "explanation": "是海圖選用及比例尺判讀核心。"
+      },
+      {
+        "point": "接近港口、狹水道及碼頭時必須使用足夠大比例尺海圖，並確認改正至最新。",
+        "importance": "essential",
+        "explanation": "搭配航船布告、燈表、潮汐及潮流資料。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Nautical Chart Manual, Section 5.8 Ranges and chart classification",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA Office of Coast Survey",
+        "editionOrEffectiveDate": "2003",
+        "url": "https://ocsdata.ncd.noaa.gov/mcs/05_ncm_vol1_pt2.pdf",
+        "pageOrSection": "Chart types and scale classification",
+        "supports": "傳統Sailing、General、Coastal及Harbor海圖分類與比例尺用途。"
+      },
+      {
+        "title": "How to Read Your Paper Charts",
+        "sourceType": "official_port_or_authority",
+        "issuer": "Canadian Hydrographic Service",
+        "url": "https://www.chs.gc.ca/help-aide/tips-conseils-eng.html",
+        "supports": "港泊圖、進港圖、沿岸圖、一般圖及航洋圖之比例尺及用途。"
+      },
+      {
+        "title": "Chart Specifications of the IHO (S-4), Edition 4.9.0",
+        "sourceType": "international_convention",
+        "issuer": "International Hydrographic Organization",
+        "editionOrEffectiveDate": "March 2021",
+        "url": "https://iho.int/uploads/user/pubs/standards/s-4/S4_V4-9-0_March_2021.pdf",
+        "pageOrSection": "B-300.3, The scale and purpose of the chart",
+        "supports": "Overview、General、Coastal、Approach、Harbour及Berthing之現代用途分類與比例尺。"
+      },
+      {
+        "title": "Nautical Cartography — A Chart Scale for Every Navigational Purpose",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA Office of Coast Survey",
+        "url": "https://www.nauticalcharts.noaa.gov/learn/nautical-cartography.html",
+        "supports": "六類海圖用途及靠近海岸、港口時需使用較大比例尺之原則。"
+      },
+      {
+        "title": "102年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國102年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=802&code=102070&q=1&s=0805&t=Q",
+        "pageOrSection": "引港學第二題",
+        "supports": "核對原題及20分配分。"
+      }
+    ],
+    "assumptions": [
+      "傳統四大類比例尺採NOAA／加拿大水文機關常用紙海圖分類；現代六類分類採IHO S-4 B-300.3。",
+      "題目未指定採用哪一國海圖機關分類，因此以傳統分類作為主答，並附IHO現代分類供交叉理解。"
+    ],
+    "limitations": [
+      "各國海道測量機關的海圖系列比例尺分界並不完全相同，不能將某一機關的分界視為全球唯一固定標準。",
+      "不同版本IHO S-4對Overview及General等類別的範圍可能依圖幅及用途調整，實際應以海圖出版機關的圖幅標示為準。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "傳統四類海圖比例尺",
+          "result": "pass",
+          "note": "依NOAA Chart Manual及加拿大水文局紙海圖分類核對Sailing、General、Coastal、Harbour比例尺。"
+        },
+        {
+          "item": "IHO現代六類分類",
+          "result": "pass",
+          "note": "依IHO S-4 B-300.3核對Overview、General、Coastal、Approach、Harbour及Berthing用途。"
+        },
+        {
+          "item": "用途與選圖原則",
+          "result": "pass",
+          "note": "依NOAA及加拿大水文機關官方資料核對遠洋、沿岸、進港及靠泊用途。"
+        },
+        {
+          "item": "原題及配分",
+          "result": "pass",
+          "note": "依考選部102年引港學第二題核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
