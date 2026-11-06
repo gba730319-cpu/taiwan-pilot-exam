@@ -97,5 +97,132 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "098-shiphandling-02-answer-v1",
+    "questionId": "98-shiphandling-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、定義】\n參數橫搖（Parametric Rolling）是船舶在迎浪、順浪或斜浪中航行時，波峰與波谷通過船體，使船體浸水形狀、水線面積、浮心及初穩性高度GM週期性改變，導致橫向復原力矩隨時間變動，進而產生參數共振，使橫搖角度在短時間內迅速放大的現象。\n\n與同步橫搖（Synchronous Rolling）不同：同步橫搖主要是波浪直接施加橫向激振力；參數橫搖則是波浪使穩性參數及復原力矩週期變化，令橫搖運動自我放大。\n\n【二、產生機制】\n1. 波峰、波谷沿船長方向移動，使船首、船中及船尾的浸水狀態及水線面積不斷改變。\n2. 浮心及復原力臂隨波浪位置改變，使GM與復原力矩週期性增減。\n3. 當穩性變化週期與自然橫搖週期形成適當共振關係，每次穩性降低均可能與橫搖運動配合，持續向橫搖系統輸入能量。\n4. 若橫搖阻尼不足，橫搖振幅逐次增加，可能迅速形成危險的大角度橫搖，造成貨櫃移位、綁紮失效、貨物落海及人員受傷。\n\n【三、主要產生條件】\n（一）波長與船長相近：常見研究範圍約為0.8至2.0倍LBP，波峰及波谷通過船體時會造成顯著穩性變化。\n\n（二）遭遇週期與自然橫搖週期共振：典型嚴重參數橫搖條件為：\n\n\\[\nT_R\\approx2T_E\n\\]\n\n其中TR為船舶自然橫搖週期，TE為波浪遭遇週期；即波浪遭遇頻率約為自然橫搖頻率的兩倍。IMO MSC.1/Circ.1228亦說明另一種可能情況為穩性變化遭遇週期約等於橫搖週期（TE≈TR），可能形成非對稱橫搖。\n\n（三）航向及海況：最常見於迎浪及順浪，斜浪亦可能發生；波高須足以造成明顯水線面及復原力變化。船速與航向會改變遭遇週期，即使波浪不變，改變船速或航向也可能使船舶進入或離開共振條件。\n\n（四）船型及裝載：船首、船尾外飄（flare）及水線面變化較大的船型，GM變化可能較顯著；大型貨櫃船、汽車專用船等須特別注意。裝載狀況、吃水、縱傾、GM及自由液面亦會影響自然橫搖週期。\n\n（五）橫搖阻尼較低：橫搖能量不易消散，振幅容易逐次增加；船速、船型及舭龍骨等均影響阻尼。\n\n【四、危害及預防】\n1. 可能造成大角度橫搖、貨櫃綁紮受力過大、貨物移位或落海、船員受傷及船體結構受損。\n2. 航前應依氣象、波浪預報及船舶自然橫搖週期評估風險。\n3. 發現橫搖振幅快速增加時，應調整航向或航速，使遭遇週期離開共振範圍；依IMO指引，應避免TE接近TR或0.5TR之危險條件。\n4. 注意壓艙水、GM及自由液面，並確保貨物綁紮及船舶穩性符合規定。\n\n【結論】\n參數橫搖是波浪造成船舶水線面及穩性參數週期性變化，進而使橫搖因參數共振而快速放大的現象。主要條件為波長與船長相近、遭遇週期與自然橫搖週期形成共振、迎浪或順浪、波高足以造成穩性變化及橫搖阻尼較小。操船上應調整航向及航速避開共振週期。",
+    "practicalAnalysis": "本題15分，先區分參數橫搖與同步橫搖：參數橫搖不是波浪直接從舷側推船，而是波峰／波谷使水線面及GM週期變化，復原力矩隨之變動而引起參數共振。典型條件：波長約0.8–2.0 LBP；自然橫搖週期TR約為遭遇週期TE兩倍（TR≈2TE）；主要在迎浪、順浪或斜浪；波高足以造成GM變化；橫搖阻尼低。IMO MSC.1/Circ.1228亦提及TE≈TR的另一種非對稱模式。處置是調整航向及航速避開共振。",
+    "keyPoints": [
+      {
+        "point": "參數橫搖是波浪使水線面、浸水形狀及GM週期性變化，導致復原力矩變化並產生參數共振。",
+        "importance": "essential",
+        "explanation": "與波浪直接橫向激振的同步橫搖不同。"
+      },
+      {
+        "point": "典型共振條件為自然橫搖週期TR約等於波浪遭遇週期TE的兩倍，即TR≈2TE。",
+        "importance": "essential",
+        "explanation": "波浪遭遇頻率約為自然橫搖頻率的兩倍。"
+      },
+      {
+        "point": "波長通常與船長相近，研究常見範圍約0.8至2.0倍LBP。",
+        "importance": "essential",
+        "explanation": "使船首、船中及船尾浸水狀態週期性改變。"
+      },
+      {
+        "point": "主要出現在迎浪、順浪或斜浪；波高足以造成穩性變化，且橫搖阻尼較低時風險增加。",
+        "importance": "essential",
+        "explanation": "船速及航向會改變遭遇週期。"
+      },
+      {
+        "point": "大型貨櫃船及船首船尾外飄較大的船型可能較易受影響，造成大角度橫搖、貨櫃落海及人員受傷。",
+        "importance": "supporting",
+        "explanation": "裝載、GM、自由液面及船型均影響風險。"
+      },
+      {
+        "point": "應調整航向或航速，避免遭遇週期接近TR或0.5TR等危險共振條件。",
+        "importance": "essential",
+        "explanation": "依IMO MSC.1/Circ.1228之避險建議。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Revised Guidance to the Master for Avoiding Dangerous Situations in Adverse Weather and Sea Conditions, MSC.1/Circ.1228",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "11 December 2007",
+        "url": "https://www.mlit.go.jp/common/000144435.pdf",
+        "pageOrSection": "Annex, Section 3.3 Parametric roll motions; Section 4.2.3",
+        "supports": "參數橫搖定義、遭遇週期與橫搖週期關係、迎浪／順浪條件及調整航向航速避開共振之建議。"
+      },
+      {
+        "title": "Loss of containers overboard involving YM Efficiency",
+        "sourceType": "official_port_or_authority",
+        "issuer": "Australian Transport Safety Bureau (ATSB)",
+        "editionOrEffectiveDate": "2018 investigation report",
+        "url": "https://www.atsb.gov.au/investigations/344-mo-2018-008",
+        "pageOrSection": "Parametric rolling",
+        "supports": "整理參數橫搖可能條件：迎浪或順浪、自然橫搖週期約為遭遇週期兩倍、波長約0.8–2倍LBP及低阻尼。"
+      },
+      {
+        "title": "Marine Investigation Report M21P0297 — ZIM Kingston",
+        "sourceType": "official_port_or_authority",
+        "issuer": "Transportation Safety Board of Canada",
+        "editionOrEffectiveDate": "2021 incident investigation",
+        "url": "https://www.tsb.gc.ca/eng/rapports-reports/marine/2021/m21p0297/m21p0297.html",
+        "pageOrSection": "Parametric rolling",
+        "supports": "說明波長與船長、波高、船速、航向、裝載狀況及橫搖阻尼如何共同影響參數橫搖。"
+      },
+      {
+        "title": "Implementation of the IMO Second Generation Intact Stability Guidelines",
+        "sourceType": "textbook_or_academic",
+        "issuer": "Journal of Marine Science and Engineering",
+        "editionOrEffectiveDate": "2022",
+        "url": "https://www.mdpi.com/2077-1312/10/1/41",
+        "pageOrSection": "Section 2.4 Parametric Roll",
+        "supports": "說明參數橫搖是穩性隨遭遇波浪同步變化之失穩模式，並說明迎浪及順浪之機制。"
+      },
+      {
+        "title": "98年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國98年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=703&code=098090&q=3&s=c721&t=Q",
+        "pageOrSection": "船舶操縱第二題",
+        "supports": "確認原題要求定義參數橫搖及說明產生條件。"
+      }
+    ],
+    "assumptions": [
+      "本題以2007年IMO MSC.1/Circ.1228及後續事故調查所採之參數橫搖定義作答，補充現代研究之0.8–2.0 LBP波長範圍。"
+    ],
+    "limitations": [
+      "參數橫搖發生條件是多項條件共同作用，不可只憑波長或單一週期比值判定一定發生。",
+      "IMO指引指出除典型TR≈2TE外，亦可能出現TE≈TR的非對稱模式；考試作答應先寫典型條件，再補充另一模式。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "參數橫搖機制",
+          "result": "pass",
+          "note": "依IMO MSC.1/Circ.1228及2022年學術研究核對波浪造成GM與復原力矩週期變化。"
+        },
+        {
+          "item": "典型週期關係",
+          "result": "pass",
+          "note": "依IMO指引及ATSB事故調查核對TR約為2TE。"
+        },
+        {
+          "item": "波長與船長條件",
+          "result": "pass",
+          "note": "依ATSB報告核對波長約0.8–2.0 LBP。"
+        },
+        {
+          "item": "海況、阻尼及船型因素",
+          "result": "pass",
+          "note": "依ATSB、TSB及ClassNK研究核對迎浪／順浪、波高、船速、裝載及阻尼。"
+        },
+        {
+          "item": "預防措施",
+          "result": "pass",
+          "note": "依IMO指引核對調整航向及航速以避開TE接近TR或0.5TR之條件。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
