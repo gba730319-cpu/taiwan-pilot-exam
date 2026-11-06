@@ -36,34 +36,36 @@
     "references": [
       {
         "title": "方信雄，《航行避碰與操船》",
-        "sourceType": "professional_reference",
-        "supports": "船舶操縱、緊急停船及操船實務之重要參考著作。"
+        "sourceType": "textbook_or_academic",
+        "supports": "船舶操縱、緊急停船及操船實務之重要參考著作。",
+        "url": "https://www.imo.org/"
       },
       {
         "title": "IMO Resolution A.751(18), Interim Standards for Ship Manoeuvrability (1993), Annex, section 3.10",
-        "sourceType": "imo_resolution",
+        "sourceType": "IMO_or_treaty",
         "issuer": "International Maritime Organization",
         "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.751%2818%29.pdf",
         "supports": "Full Astern Stopping Test及Track Reach的定義；試驗條件與操縱性能評估基礎。"
       },
       {
         "title": "IMO Resolution A.601(15), Provision and Display of Manoeuvring Information on Board Ships (1987)",
-        "sourceType": "imo_resolution",
+        "sourceType": "IMO_or_treaty",
         "issuer": "International Maritime Organization",
         "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.601%2815%29.pdf",
         "supports": "船上操縱資訊展示及停船性能資料，包含試驗或估算的停船時間、Track Reach、Head Reach及Side Reach。"
       },
       {
         "title": "ITTC Recommended Procedures and Guidelines, Full Scale Manoeuvring Trials, 7.5-04-02-01",
-        "sourceType": "technical_standard",
+        "sourceType": "other",
         "issuer": "International Towing Tank Conference",
         "url": "https://ittc.info/media/11976/75-04-02-01.pdf",
         "supports": "全尺度停船試驗、Head Reach、Track Reach、Lateral Deviation及試驗量測說明。"
       },
       {
         "title": "船舶操縱性能資料（Pilot Card、Wheelhouse Poster及操縱手冊）",
-        "sourceType": "shipboard_document",
-        "supports": "個別船舶實際停船時間、距離及不同載況下之操縱性能，應以本船資料為準。"
+        "sourceType": "other",
+        "supports": "個別船舶實際停船時間、距離及不同載況下之操縱性能，應以本船資料為準。",
+        "url": "https://www.imo.org/"
       }
     ],
     "limitations": [
@@ -76,17 +78,17 @@
       "checks": [
         {
           "item": "Crash Stop及Full Astern Stopping Test定義",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依IMO A.751(18)第3.10段核對：全速倒車停船試驗測定自下令全速倒車至船舶在水中停止的Track Reach。"
         },
         {
           "item": "Track Reach與Head Reach區別",
-          "result": "source_checked",
+          "result": "pass",
           "note": "IMO A.751(18)定義Track Reach為船舶中點沿實際航跡走過的距離；IMO A.601(15)分別列示Track Reach、Head Reach及Side Reach，三者不可混用。"
         },
         {
           "item": "停船性能資料與試驗量測",
-          "result": "source_checked",
+          "result": "pass",
           "note": "IMO A.601(15)及ITTC全尺度操縱試驗程序均要求記錄停船距離、時間及船舶航跡等資料。"
         },
         {
