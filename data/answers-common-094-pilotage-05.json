@@ -96,6 +96,21 @@
         "issuer": "Advances in Meteorology",
         "url": "https://onlinelibrary.wiley.com/doi/10.1155/2016/3102895",
         "supports": "西南季風、東北季風、梅雨、颱風及中央山脈造成的區域降雨差異。"
+      },
+      {
+        "title": "隨季節變換的風—季風",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部中央氣象署數位科普網",
+        "url": "https://edu.cwa.gov.tw/PopularScience/wt/wt_3.html",
+        "supports": "官方說明臺灣季風轉換時序：東北季風約10月至翌年4月，西南季風約6月中至9月中，並說明12月至2月東北季風最盛。"
+      },
+      {
+        "title": "基隆氣象站1981年至2010年逐月盛行風向及平均風速",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部中央氣象署",
+        "url": "https://www.cwa.gov.tw/Data/service/notice/download/publish_20201104102827.pdf",
+        "pageOrSection": "氣候統計資料表",
+        "supports": "提供基隆逐月盛行風向及平均風速，並說明北部雨港與中南部乾濕季的地形及季風差異；僅作北部代表站，不外推為全臺海域統一風向。"
       }
     ],
     "verification": {
@@ -124,8 +139,8 @@
         },
         {
           "item": "12個月份逐月盛行風向",
-          "result": "needs_review",
-          "note": "逐月風向為季節氣候概括，非逐月風玫瑰統計；若需精確月平均風向風速，應另以各海域測站或浮標長期觀測資料分區統計。"
+          "result": "pass",
+          "note": "已補入中央氣象署季風時序資料（東北季風約10月至翌年4月、西南季風約6月中至9月中）及基隆1981–2010逐月盛行風向統計。答案仍明確註明逐月風向會因海域、測站與地形不同，不將基隆站資料外推全臺。"
         },
         {
           "item": "各海域及各地區降雨差異",
