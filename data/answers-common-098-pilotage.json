@@ -127,5 +127,131 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "098-pilotage-02-answer-v1",
+    "questionId": "98-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、海圖基準（Datum）之意義】\n\n題目所稱「基點標註」依海圖航海語境，較合理解讀為海圖基準（Chart Datum／Datum）的標示。海圖上之位置、水深、乾出高度及陸上物體高度，都必須相對於明確基準才有意義。海圖基準主要分為水平基準（Horizontal Datum）及垂直基準（Vertical Datum）；垂直基準又須區分水深基準面與高度基準面。\n\n【二、海圖基準之標註方法】\n\n（一）水平基準（Horizontal Datum）\n1. 在海圖標題欄或圖廓註記中，標明經緯度所依據之大地基準，例如World Geodetic System 1984（WGS-84）。\n2. 若海圖採用地方大地基準，應註明基準名稱及與WGS-84之坐標差或改正量，供GPS／GNSS定位資料與海圖坐標互相轉換。\n3. 使用舊版海圖或外國海圖時，仍須確認其坐標基準，不可假設所有海圖均與GPS顯示一致。\n\n（二）水深基準面（Chart Datum／Sounding Datum）\n1. 在海圖標題欄或圖廓註記中，標明海圖水深之起算面，例如約最低低潮面、最低天文潮（LAT）或該區域採用之地方基準面。\n2. 海圖所標水深是由水深基準面向下量至海床之垂直距離；潮位高於基準面時，實際水深應加上當時潮高。\n3. 若海圖採用不同區域或不同年代之水深基準面，應於圖廓或資料來源註記中明確標示，避免不同測量資料混用。\n\n（三）高度基準面（Height Datum）\n1. 陸上地形高程、燈塔高度、橋梁淨空及其他架空物高度，應註明其起算基準面，例如平均海面（Mean Sea Level, MSL）或平均大潮高潮面（Mean High Water Springs, MHWS）。\n2. 乾出高度（Drying Height）通常以水深基準面為起算面；燈高、橋梁淨空及陸上高程則可能採不同高度基準面，應依海圖註記判讀。\n3. 海圖應清楚標明高度單位及基準面，避免把水深基準與陸上高度基準混為一談。\n\n（四）基準點（Benchmark, BM）及潮位資料連結\n1. 在岸上選定穩固且不易變動之永久基準點，測定其高程並設置基準點標誌。\n2. 潮位站以水尺或潮位儀觀測潮位，並將觀測水位與岸上基準點高程連結，建立當地潮位基準。\n3. 海圖或相關潮汐資料應註明基準面名稱、基準點資料、採用年代或基準面改正資訊，使不同測量及潮位資料能在同一垂直基準下比較。\n\n【三、海圖基準標註之重要性】\n\n1. 確保水深判讀正確：依海圖水深、當時潮高及船舶吃水計算實際水深及富餘水深（UKC），避免擱淺。\n2. 正確判斷乾出礁及淺灘：乾出高度以特定基準面起算，基準面不明可能造成高潮、低潮時露出情形判斷錯誤。\n3. 確保GPS／GNSS定位與海圖一致：水平基準不同會產生坐標偏差，未改正可能使船舶定位錯誤，尤其接近航道邊界、礁石或岸線時風險更高。\n4. 正確計算橋梁及架空電纜淨空：高度基準不同會造成空高計算錯誤，可能導致桅杆、天線或吊臂碰撞。\n5. 確保潮汐預報與海圖水深可互相配合：潮汐表、潮位站及海圖必須使用可追溯的基準面，才能正確換算潮高及實際水深。\n6. 不同海圖及測量資料可互相比較：明確標註基準面及基準年代，可避免不同國家、測量年代或區域的水深資料產生系統性差異。\n7. 提升航海安全及海圖更新品質：有助於海道測量、海圖改版、電子海圖資料整合及航行風險評估。\n\n【四、我國海圖基準補充】\n\n依海軍大氣海洋局《海圖圖例》第九版說明，我國海圖主要採用WGS-84衛星定位坐標系統；水深基準面採約最低低潮面，部分區域亦可能沿用原始資料來源之地方基準面。海圖所載水深為水深基準面以下之水深，通常以公尺表示；高度則依海圖註記採平均海面或原始資料基準面，燈高另依其指定基準面計算。\n\n【結論】\n\n海圖基準應在標題欄或圖廓註記中清楚標示水平大地基準、水深基準面及高度基準面，必要時補充基準點、基準年代及坐標改正量。其重要性在於確保海圖定位、水深、潮高、乾出高度及架空物淨空計算正確，避免因基準面不同造成定位偏差、UKC誤算及擱淺或碰撞事故。",
+    "practicalAnalysis": "本題20分，先說明datum是海圖資料的共同起算基準。至少分成水平基準（WGS-84）、水深基準面（Chart Datum／約最低低潮面或LAT）及高度基準面（MSL、MHWS等）。標註位置在海圖標題欄或圖廓註記；必要時註明地方基準、坐標改正量及基準年代。重要性連結GPS定位、潮高加算實際水深、UKC、乾出礁及橋梁淨空。若題目「基點」特指岸上Benchmark，補充固定基準點與潮位站的高程連結方式。",
+    "keyPoints": [
+      {
+        "point": "海圖基準應於標題欄或圖廓註記中標明，至少區分水平大地基準、垂直水深基準及高度基準。",
+        "importance": "essential",
+        "explanation": "題目所稱基點標註宜從Datum系統整體回答。"
+      },
+      {
+        "point": "水平基準常用WGS-84；若採地方基準，須註明坐標差或改正量。",
+        "importance": "essential",
+        "explanation": "避免GPS／GNSS定位與海圖位置不一致。"
+      },
+      {
+        "point": "水深基準面是海圖水深的起算面，例如約最低低潮面或LAT；實際水深等於圖載水深加潮高。",
+        "importance": "essential",
+        "explanation": "用於UKC及擱淺風險計算。"
+      },
+      {
+        "point": "高度基準面可能採MSL或MHWS等；乾出高度與燈高、橋梁淨空未必採同一基準。",
+        "importance": "essential",
+        "explanation": "避免將水深基準與高度基準混用。"
+      },
+      {
+        "point": "Benchmark為岸上穩固的固定基準點，可與潮位站觀測連結，建立地方垂直基準。",
+        "importance": "supporting",
+        "explanation": "若題目所稱基點指基準點，應補充此內容。"
+      },
+      {
+        "point": "基準標註的重要性包括GPS定位、潮高與水深換算、UKC、乾出礁及橋梁淨空計算。",
+        "importance": "essential",
+        "explanation": "要說明基準不一致造成的具體航安風險。"
+      }
+    ],
+    "references": [
+      {
+        "title": "海圖圖例（Pub. No.1 Chart Symbols and Abbreviations）第九版",
+        "sourceType": "official_port_or_authority",
+        "issuer": "中華民國海軍大氣海洋局",
+        "editionOrEffectiveDate": "第九版",
+        "url": "https://navy.mnd.gov.tw/Files/Policy/%E6%B5%B7%E8%BB%8D_%E6%B5%B7%E5%9C%96%E5%9C%96%E4%BE%8B.pdf",
+        "pageOrSection": "說明第5至8點；A圖號標題及圖廓註記；H潮與流；I深度",
+        "supports": "我國海圖採用WGS-84坐標系統、水深基準面約最低低潮面、海圖水深及高度基準面之官方說明。"
+      },
+      {
+        "title": "海圖基準面",
+        "sourceType": "official_port_or_authority",
+        "issuer": "國家教育研究院辭書",
+        "editionOrEffectiveDate": "2003年10月",
+        "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E6%B5%B7%E5%9C%96%E5%9F%BA%E6%BA%96%E9%9D%A2",
+        "supports": "海圖基準面之定義：計算水深及潮高之永久性基準面，圖載深度由基準面向下推算，乾出高度由基準面向上計算。"
+      },
+      {
+        "title": "Naming Convention for the Vertical Datum of Charts, IHO Resolution 1/2008",
+        "sourceType": "international_convention",
+        "issuer": "International Hydrographic Organization",
+        "editionOrEffectiveDate": "2008",
+        "url": "https://iho.int/iho_pubs/misc/M3-E-AUGUST18.pdf",
+        "pageOrSection": "A2.16",
+        "supports": "建議海圖垂直基準明確命名，必要時註明基準年代，以利水深資料比較及不同基準資料整合。"
+      },
+      {
+        "title": "Chart No.1 — Chart Number, Title and Marginal Notes",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency (NGA)",
+        "url": "https://repository.library.noaa.gov/view/noaa/2615/noaa_2615_DS1.pdf",
+        "pageOrSection": "Chart Datum and marginal notes",
+        "supports": "海圖標題及圖廓註記中標示Chart Datum、深度單位、水平基準及潮汐資料之示例。"
+      },
+      {
+        "title": "98年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國98年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=703&code=098090&q=2&s=c721&t=Q",
+        "pageOrSection": "引港學第二題",
+        "supports": "確認原題要求說明海圖基點標註法及其重要性。"
+      }
+    ],
+    "assumptions": [
+      "題目所稱「基點標註法」依航海海圖語境解釋為Datum之標註，包含水平大地基準及垂直基準面。",
+      "另補充Benchmark（岸上基準點）及潮位站連結方式，以涵蓋題目若使用「基點」而非「基準面」之可能語意。"
+    ],
+    "limitations": [
+      "不同海圖可能使用不同水深基準面及高度基準面；不可將所有海圖一律假設為LAT或MSL，必須讀取該圖標題欄及圖廓註記。",
+      "海軍第九版海圖圖例公開說明係現代版本；2009年海圖可能採用當時的地方基準或較早版註記，應以題目所指海圖版本為準。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "水平大地基準標註",
+          "result": "pass",
+          "note": "依海軍海圖圖例第九版核對我國海圖主要採WGS-84，地方基準須註明。"
+        },
+        {
+          "item": "水深基準面及圖載水深",
+          "result": "pass",
+          "note": "依海軍圖例及國家教育研究院辭書核對水深由Chart Datum向下起算，潮高用於換算實際水深。"
+        },
+        {
+          "item": "高度基準面",
+          "result": "pass",
+          "note": "依海軍圖例核對陸上高度、燈高及乾出高度可能採不同基準面。"
+        },
+        {
+          "item": "基準點及年代",
+          "result": "pass",
+          "note": "依IHO Resolution 1/2008核對垂直基準命名及基準年代標註的重要性。"
+        },
+        {
+          "item": "重要性及航安應用",
+          "result": "pass",
+          "note": "核對GPS坐標轉換、UKC、潮高、乾出礁及橋梁淨空之應用。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
