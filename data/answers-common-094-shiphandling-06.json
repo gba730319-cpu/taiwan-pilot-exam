@@ -73,8 +73,18 @@
         "url": "https://shp-13383-s3.s3.eu-west-2.amazonaws.com/media/5416/8667/7299/PUBS-Loss-Prevention-Tug-and-Tow-Safety-and-Operational-Guide_A5_0715.pdf",
         "supports": "拖纜導向、拖鉤快速脫纜、gog/gob wire、水密開口及拖船防止傾覆的安全措施。"
       },
-      "方信雄，《船舶引航專論》。作為領港靠離泊、港區操船及繫纜輔助操船的專業參考；本題具體操作仍須依泊位圖及現場條件判定。",
-      "方信雄，《航行避碰與操船》。作為船舶操縱、外力影響及拖船協助操船之專業參考。",
+      {
+        "title": "《船舶引航專論》",
+        "sourceType": "textbook_or_academic",
+        "issuer": "方信雄",
+        "supports": "領港靠離泊、港區操船及繫纜輔助操船的專業參考；本題具體操作仍須依泊位圖及現場條件判定。"
+      },
+      {
+        "title": "《航行避碰與操船》",
+        "sourceType": "textbook_or_academic",
+        "issuer": "方信雄",
+        "supports": "船舶操縱、外力影響及拖船協助操船之專業參考。"
+      },
       {
         "title": "94年專門職業及技術人員特種考試引水人船舶操縱試題",
         "sourceType": "other",
