@@ -1,0 +1,60 @@
+{
+  "id": "084-shiphandling-07-answer-v1",
+  "questionId": "084-shiphandling-07",
+  "version": 1,
+  "language": "zh-TW",
+  "answerType": "technical_analysis",
+  "modelAnswer": "一、已知條件\n船舶排水量（近似質量）m＝200,000公噸；初速V₀＝4節；末速V＝0；停止距離S＝1,500公尺。題目排除風、潮及船體阻抗，假設拖船提供固定反向拖力，使船舶等減速度停止，且不另計附加水質量。\n\n二、換算初速\n4節＝4×1,852÷3,600＝2.0578公尺／秒。\n\n三、求減速度\n使用運動公式：V²＝V₀²＋2aS。\n0＝(2.0578)²＋2×a×1,500。\na＝－(2.0578)²÷3,000＝－0.0014115公尺／秒²。\n\n四、求拖船所需反向推力\nF＝ma＝200,000,000 kg×0.0014115 m/s²\n＝282,300 N（約）。\n換算公噸力：282,300÷9,806.65＝28.8公噸力（約）。\n\n五、求停止時間\n使用V＝V₀＋at：\nt＝(0－2.0578)÷(－0.0014115)\n＝1,458秒，約24.3分鐘。\n\n六、答案\n在題目假設下，拖船需提供約28.8公噸力的持續反向拖力，船舶約需24.3分鐘停止。實際拖船配置尚須考慮附加水質量、拖纜角度、拖船實際繫柱拉力、風流及船體阻抗；題目已明確排除後三項因素，因此本計算為理想化結果。",
+  "practicalAnalysis": "計算時先將排水量200,000公噸換成質量200,000,000 kg，不能把公噸數直接當成牛頓。拖力是力，最後要除以標準重力加速度換成公噸力。停止時間在等減速度假設下，等於平均速度（初速與末速平均）乘以時間，亦可用t＝2S/V₀求得。日本船東互保協會的操船停止距離資料亦列出以動能及作用力估算拖曳停止力的公式。",
+  "keyPoints": [
+    {
+      "point": "4節＝2.0578 m/s。",
+      "importance": "essential"
+    },
+    {
+      "point": "減速度大小＝V₀²/(2S)＝0.0014115 m/s²。",
+      "importance": "essential"
+    },
+    {
+      "point": "反向力＝ma≈282.3 kN。",
+      "importance": "essential"
+    },
+    {
+      "point": "換算約28.8公噸力。",
+      "importance": "essential"
+    },
+    {
+      "point": "停止時間＝2S/V₀≈1,458秒≈24.3分鐘。",
+      "importance": "essential"
+    },
+    {
+      "point": "此為等減速度、無附加水質量與阻力之理想化答案。",
+      "importance": "essential"
+    }
+  ],
+  "scoringGuide": {
+    "status": "editorial_estimate",
+    "totalPoints": 20,
+    "items": [
+      {
+        "criterion": "原理、操作方法及安全考量完整",
+        "points": 20,
+        "basis": "編輯建議配分，非官方評分標準"
+      }
+    ]
+  },
+  "references": [
+    {
+      "title": "Basics of Stopping Distance, Vessel Weight, and Acceleration",
+      "sourceType": "technical_reference",
+      "issuer": "Japan P&I Club",
+      "url": "https://www.pic.or.jp/wp-content/uploads/2018/04/Loss-Prevention-Bulletine-Vol.32-Full.pdf",
+      "supports": "船舶停止距離、重量、加速度與拖船反向力之關係"
+    }
+  ],
+  "assumptions": [
+    "以一般單螺槳、單舵大型商船之操船原理說明；實際操作仍須依船型操縱手冊、主機/舵機限制及當時風流條件調整。"
+  ],
+  "limitations": [],
+  "lastUpdated": "2026-11-07"
+}
