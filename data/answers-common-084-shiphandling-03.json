@@ -1,0 +1,75 @@
+{
+  "id": "084-shiphandling-03-answer-v1",
+  "questionId": "084-shiphandling-03",
+  "version": 1,
+  "language": "zh-TW",
+  "answerType": "technical_analysis",
+  "modelAnswer": "本題所指標準為IMO第18屆大會於1993年11月4日通過之A.751(18)決議《船舶操縱性暫行標準》（Interim Standards for Ship Manoeuvrability）。適用於1994年7月1日以後建造、船長100公尺以上之船舶，以及所有化學品船、液化氣船。其基本性能準則如下：\n\n一、迴旋性能（Turning ability）\n以最大舵角進行迴旋試驗：進距（Advance）不得超過4.5L；戰術直徑（Tactical diameter）不得超過5.0L。L為船長。\n\n二、初始迴轉性能（Initial turning ability）\n舵角施以左右10度時，船舶航向改變10度以前所航行的距離，不得超過2.5L。\n\n三、航向保持及偏航抑制性能（Course-keeping and yaw-checking ability）\n以10°/10° Z形操舵試驗測定第一超越角：L/V小於10秒時不得超過10度；L/V介於10至30秒時不得超過（5＋0.5L/V）度；L/V達30秒以上時不得超過20度。第二超越角上限依標準分別為25度、（17.5＋0.75L/V）度及40度。另以20°/20° Z形操舵試驗測定第一超越角，不得超過25度。L以公尺、V以公尺／秒表示。\n\n四、停止性能（Stopping ability）\n全速倒車停止試驗之航跡距離（Track reach）不得超過15L。對大型排水量船舶，如主管機關認為15L難以實現，得予調整，但不得超過20L。\n\n五、結論\nA.751(18)以迴旋、初始迴轉、航向保持／偏航抑制及停止四大性能評估船舶操縱性，並以船長倍數及Z形操舵超越角作為量化標準。",
+  "practicalAnalysis": "本題必須寫出A.751(18)，而非2002年後的MSC.137(76)正式標準。1994年日本造船學會論文摘要確認該暫行標準於1993年11月採納，適用於1994年7月1日起建造的100公尺以上船舶。考試作答應列出四大類性能及各項數值；L/V的單位與分段尤其容易漏寫。",
+  "keyPoints": [
+    {
+      "point": "IMO A.751(18)，1993年11月採納。",
+      "importance": "essential"
+    },
+    {
+      "point": "適用：1994-07-01以後建造、100公尺以上船舶及所有化學品船、液化氣船。",
+      "importance": "essential"
+    },
+    {
+      "point": "迴旋：Advance ≤4.5L；Tactical diameter ≤5.0L。",
+      "importance": "essential"
+    },
+    {
+      "point": "初始迴轉：10度舵角至航向改變10度，航程≤2.5L。",
+      "importance": "essential"
+    },
+    {
+      "point": "10/10 Z試驗第一超越角：L/V<10秒≤10°；10至30秒≤5+0.5L/V；≥30秒≤20°。",
+      "importance": "essential"
+    },
+    {
+      "point": "第二超越角：依分段25°、17.5+0.75L/V、40°。",
+      "importance": "essential"
+    },
+    {
+      "point": "20/20 Z試驗第一超越角≤25°。",
+      "importance": "essential"
+    },
+    {
+      "point": "全速倒車停止航跡距離≤15L；大型船經主管機關調整最高不得超過20L。",
+      "importance": "essential"
+    }
+  ],
+  "scoringGuide": {
+    "status": "editorial_estimate",
+    "totalPoints": 15,
+    "items": [
+      {
+        "criterion": "原理、操作方法及安全考量完整",
+        "points": 15,
+        "basis": "編輯建議配分，非官方評分標準"
+      }
+    ]
+  },
+  "references": [
+    {
+      "title": "IMO Resolution A.751(18), Interim Standards for Ship Manoeuvrability",
+      "sourceType": "technical_reference",
+      "issuer": "International Maritime Organization",
+      "url": "https://www.imorules.com/GUID-DB7CD50D-0335-4910-AAB7-95ABD47A4A25.html",
+      "supports": "1993年11月採納之操縱性暫行標準及基本性能準則"
+    },
+    {
+      "title": "Studies on the Stopping Ability of a Manoeuvring Standard",
+      "sourceType": "technical_reference",
+      "issuer": "Journal of the Society of Naval Architects of Japan",
+      "url": "https://www.jstage.jst.go.jp/article/jjasnaoe1968/1994/176/1994_176_259/_article/-char/en",
+      "supports": "確認A.751(18)於1993年採納及適用於1994年7月1日起建造之100公尺以上船舶"
+    }
+  ],
+  "assumptions": [
+    "以一般單螺槳、單舵大型商船之操船原理說明；實際操作仍須依船型操縱手冊、主機/舵機限制及當時風流條件調整。"
+  ],
+  "limitations": [],
+  "lastUpdated": "2026-11-07"
+}
