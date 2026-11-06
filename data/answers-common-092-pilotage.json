@@ -82,92 +82,145 @@
     "lastUpdated": "2026-11-06"
   },
   {
-    "id": "092-pilotage-02-answer-v1",
+    "id": "092-pilotage-02-answer-v2",
     "questionId": "92-pilotage-02",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、颱風身分與時間定位】\n本題米勒颱風為2003年第19號颱風MELOR（0319）。中央氣象署資料記載其於11月2日侵（近）臺，通過呂宋島進入巴士海峽後，先北北西、再北北東，經臺灣東南部近海朝琉球方向前進。\n題目11月2日08時為臺灣時間（UTC+8），即00 UTC。JMA最佳路徑在00 UTC記錄中心約20.1°N、121.0°E；香港天文台同日02時HKT實況記錄約19.0°N、120.8°E。兩者分析時次不同，不能視為同一觀測，但均顯示颱風在呂宋北部／巴士海峽附近。JMA最佳路徑顯示11月2日12 UTC中心約21.4°N、121°E，之後向東北移動。\n\n【二、當時為何預測西北或西北西移動】\n（一）環境引導氣流與副熱帶高壓：熱帶氣旋主要受周圍環境引導氣流控制。若副熱帶高壓在颱風北側或東北側維持勢力，颱風可能沿其南緣向西或西北西移動，朝南海方向前進。\n（二）秋季槽脊及高壓配置：中緯度槽脊、太平洋高壓與大陸高壓的相對位置變化，可能使引導氣流減弱或轉向，增加路徑預報不確定性。\n（三）東北季風：東北季風會改變臺灣、巴士海峽及南海北部低層風場，並與颱風外圍環流交互作用；不可簡化成東北季風直接把颱風吹向北方。\n（四）同期預報紀錄：TVBS於2003年11月3日報導，中央氣象局11月1日先預測西北，後修正西北西；11月2日發布警報後又多次調整，傍晚改為北移並曾預估可能登陸臺灣。報導稱最大預報落差約300公里。這是同期新聞對預報變化的紀錄，不是JMA最佳路徑誤差統計。\n\n【三、實際路徑轉變的可能原因】\n（一）呂宋島地形：米勒穿越呂宋島後，地形摩擦、阻擋及地形誘發流場可能改變其內部環流，使中心定位與強度判讀更困難。TVBS同期報導引述臺大大氣科學系教授吳俊傑指出，米勒通過呂宋後內部環流受破壞，衛星雲圖呈現中心較空、外圍雲系仍明顯的樣態。這是同期專家解釋，不是本答案已用再分析資料獨立證明的唯一機制。\n（二）引導氣流偏弱及高壓牽制：同期專家分析認為，秋季引導氣流較夏季弱，太平洋高壓與大陸高壓相互抗衡，可能使颱風周圍缺乏穩定單一方向的引導。\n（三）東北季風交互作用：東北季風增強會改變颱風周邊環境風場，並可能增加臺灣附近風雨的不對稱性；須與高壓及中緯度槽脊共同分析。\n（四）預報系統限制：JMA 2003年年報指出，當時路徑預報主要依Typhoon Model（TYM）及Global Spectral Model（GSM），低緯度另採Persistence-Climatology方法；中心定位主要依靜止氣象衛星雲圖。地形對環流結構的影響及中心定位不確定性，可能影響模式初始場與路徑預報，但不能據此斷言某一模式在本案的單一失誤原因。\n\n【四、結論及引水實務】\n米勒原先西北／西北西移動的預報，主要依當時環境引導氣流及高壓配置推估其可能進入南海；實際上穿越呂宋後先北移，再於巴士海峽附近轉東北，沿臺灣東南部近海朝琉球方向前進。呂宋地形、秋季引導氣流較弱、高壓系統牽制及東北季風交互作用，是同期專家提出的主要解釋；各因素的定量貢獻仍須逐時再分析資料驗證。\n引水人面對預報分歧時，不應只依單一預報線判斷港口風險，應持續追蹤官方警報、中心定位與移速、風場及外圍環流，並結合港區實測風浪、潮流、港口管制、拖船可用性及避風水域，保留安全裕度。",
+    "modelAnswer": "【一、颱風身分與時間定位】\n本題米勒颱風為2003年第19號颱風MELOR（0319）。中央氣象署資料記載其於11月2日侵（近）臺，通過呂宋島進入巴士海峽後，先北北西、再北北東，經臺灣東南部近海朝琉球方向前進。\n題目11月2日08時為臺灣時間（UTC+8），即00 UTC。JMA最佳路徑資料（Digital Typhoon轉錄JMA best track）在11月2日00 UTC記錄中心約20.1°N、120.8°E；06 UTC約20.6°N、120.7°E；12 UTC約21.4°N、120.9°E；18 UTC約22.0°N、121.3°E；11月3日00 UTC約22.8°N、122.5°E。可見颱風在巴士海峽附近先向北移動，隨後逐漸轉向東北。香港天文台同期公告的觀測與預報時次不同，應分開引用，不可混作同一定位。\n\n【二、當時為何預測西北或西北西移動】\n（一）環境引導氣流與副熱帶高壓：熱帶氣旋主要受周圍環境引導氣流控制。若副熱帶高壓在颱風北側或東北側維持勢力，颱風可能沿其南緣向西或西北西移動，朝南海方向前進。\n（二）秋季槽脊及高壓配置：中緯度槽脊、太平洋高壓與大陸高壓的相對位置變化，可能使引導氣流減弱或轉向，增加路徑預報不確定性。\n（三）東北季風：東北季風會改變臺灣、巴士海峽及南海北部低層風場，並與颱風外圍環流交互作用；不可簡化成東北季風直接把颱風吹向北方。\n（四）同期預報紀錄：香港天文台2003年11月1日23時HKT的公告，預測米勒於11月2日23時位於19.9°N、119.3°E，11月3日23時位於19.7°N、117.3°E，顯示當時預測路徑向西進入南海。中央氣象局同期預報變化可由2003年11月3日TVBS報導及颱風部屋逐日保存的警報資訊交叉重建：11月1日曾預測西北後調整西北西，11月2日警報發布後仍曾預測北北西／西北，11月3日則因持續偏北而再修正。這些資料可證明預報方向曾有變化，但不能據此宣稱臺灣、美國、日本、中國四個機關在同一時刻發布了完全相同的路徑。\n\n【三、實際路徑轉變的可能原因】\n（一）呂宋島地形及陸地作用：NASA Earth Observatory依2003年11月2日MODIS影像及TRMM降雨資料指出，米勒於11月1日穿越呂宋北部後，轉向北移並逐漸減弱，之後擦過臺灣東南部。穿越陸地時的地形摩擦、低層環流受阻及水氣／熱力供應改變，均可能影響強度與渦旋結構。TVBS同期報導亦引述臺大大氣科學系教授吳俊傑，指出通過呂宋後內部環流受破壞、衛星雲圖中心較空。這些證據支持地形影響的合理性，但不足以證明地形單獨造成路徑轉向。\n（二）引導氣流與槽脊配置：熱帶氣旋的移動主要受深厚環境引導氣流控制。當副熱帶高壓脊東退、斷裂或其西側出現槽系時，原本偏向西行的引導氣流可能減弱或轉向，使颱風改向北或東北。要確認米勒個案是否由此機制主導，必須檢視當時500 hPa高度場、850–300 hPa深層平均風及副高脊線位置，不能僅憑事後路徑倒推。\n（三）東北季風與共伴效應：中央氣象局同期資料及2003年11月2日颱風部屋紀錄均提及米勒外圍環流與南下東北季風可能產生共伴效應，為臺灣東半部及北部帶來豪雨。這可解釋降雨分布與環境風場交互作用，但東北季風造成共伴降雨，不等於已證明它是颱風中心轉向北／東北的直接動力原因。\n（四）預報系統限制：JMA 2003年年報指出，當時路徑預報主要依Typhoon Model（TYM）及Global Spectral Model（GSM），低緯度另採Persistence-Climatology方法；中心定位主要依靜止氣象衛星雲圖。地形對環流結構的影響及中心定位不確定性，可能影響模式初始場與路徑預報，但不能據此斷言某一模式在本案的單一失誤原因。\n\n【四、結論及引水實務】\n米勒在11月1日至2日穿越呂宋北部後，實際路徑並未依部分預報進入南海，而是先向北，再逐漸轉東北，擦過臺灣東南部。當時預測向西，係依當時可取得的環境引導氣流及高壓配置推估；事後可確認呂宋地形及陸地作用影響其強度與環流結構，東北季風亦與外圍環流產生共伴降雨。但「造成路徑轉向」的主因仍需以當時中高層環境場與深層引導氣流分析，不宜僅以東北季風或地形作單一解釋。\n引水人面對預報分歧時，不應只依單一預報線判斷港口風險，應持續追蹤官方警報、中心定位與移速、風場及外圍環流，並結合港區實測風浪、潮流、港口管制、拖船可用性及避風水域，保留安全裕度。",
     "practicalAnalysis": "本題須分清官方最佳路徑、同期預報紀錄及事後成因解釋。CWA與JMA資料確立實際路徑；香港天文台2003年11月2日公告及TVBS 11月3日報導可重建當時西北／南海方向預測及多次修正；呂宋地形、秋季引導氣流、高壓抗衡及東北季風的成因說明主要來自同期專家分析，尚非本答案以逐時再分析場獨立量化的因果結論。",
     "keyPoints": [
       {
-        "point": "米勒為2003年第19號颱風MELOR（0319）；官方最佳路徑確認其通過呂宋後北移，再於巴士海峽附近轉東北。",
+        "point": "米勒為2003年第19號颱風MELOR（0319）；CWA記載其穿越呂宋後先北北西、再北北東，經臺灣東南部近海朝琉球前進。",
         "importance": "essential"
       },
       {
-        "point": "題目11月2日08時臺灣時間等於00 UTC；JMA最佳路徑00 UTC中心約20.1°N、121.0°E。",
+        "point": "JMA最佳路徑：11月2日00 UTC 20.1°N、120.8°E；06 UTC 20.6°N、120.7°E；12 UTC 21.4°N、120.9°E；18 UTC 22.0°N、121.3°E。",
         "importance": "essential"
       },
       {
-        "point": "當時西北／西北西預報依環境引導氣流及高壓配置推估其可能進入南海。",
+        "point": "香港天文台11月1日23時HKT預測米勒於11月2日23時到19.9°N、119.3°E，11月3日23時到19.7°N、117.3°E，顯示當時向西進入南海的預報。",
         "importance": "essential"
       },
       {
-        "point": "TVBS 2003年11月3日同期報導記錄中央氣象局預報多次修正，並稱最大預報落差約300公里。",
+        "point": "中央氣象局同期預報在11月1日至3日多次修正；媒體及歷史檔案可作預報沿革佐證，但不可把各機關不同時次預報說成同一份預報。",
         "importance": "essential"
       },
       {
-        "point": "呂宋地形、秋季引導氣流較弱、高壓牽制及東北季風交互作用，是同期專家提出的路徑變化解釋。",
+        "point": "呂宋地形與陸地作用可影響颱風強度及內部環流；NASA影像及同期專家說法提供佐證，但不足以證明其單獨造成路徑轉向。",
         "importance": "essential"
       },
       {
-        "point": "JMA 2003年年報指出當時使用TYM、GSM及低緯度Persistence-Climatology方法預報，中心定位主要依賴衛星雲圖。",
+        "point": "副熱帶高壓、槽脊與深層引導氣流是判斷轉向的主要動力框架；應以當時500 hPa及深層平均風場驗證。",
+        "importance": "essential"
+      },
+      {
+        "point": "東北季風與颱風外圍環流的共伴效應可解釋臺灣北部、東半部豪雨，不能直接等同於颱風中心轉向的原因。",
+        "importance": "essential"
+      },
+      {
+        "point": "引水實務須追蹤官方警報、最佳路徑、預報分歧、實測風浪與港口管制，不依賴單一預報線。",
         "importance": "supporting"
-      },
-      {
-        "point": "各因素因果權重仍須逐時地面、高空天氣圖與再分析場驗證。",
-        "importance": "essential"
       }
     ],
     "references": [
       "交通部中央氣象署，颱風資料庫：2003年第19號颱風米勒（MELOR），編號200319 — https://rdc28.cwa.gov.tw/TDB/public/typhoon_detail?typhoon_id=200319",
-      "Japan Meteorological Agency, RSMC Tokyo, Annual Report on the Activities of the RSMC Tokyo - Typhoon Center 2003, STS MELOR (0319), forecast methods and best-track table — https://www.jma.go.jp/jma/jma-eng/jma-center/rsmc-hp-pub-eg/AnnualReport/2003/Text/Text2003.pdf",
-      "Hong Kong Observatory, Weather Information for South China Coastal Waters and Local Weather Forecast, 2 November 2003 — https://envf.ust.hk/dataview/api_2dmap/current/display_winfo.py?file=/dataop/data/hko/webpages/hourly/2003/200311/2003110119.hko.htm",
-      "TVBS，〈「米勒」一翻三轉　三天內動向忽西忽東〉，2003年11月3日 — https://news.tvbs.com.tw/life/395509",
-      "NASA Earth Observatory, Flooding in Luzon, the Philippines, 7 November 2003 — https://science.nasa.gov/earth/earth-observatory/flooding-in-luzon-the-philippines-12436/"
+      {
+        "title": "Typhoon 200319 (MELOR) - Detailed Track Information",
+        "sourceType": "official_chart_or_notice",
+        "issuer": "Digital Typhoon, National Institute of Informatics; JMA best-track data",
+        "url": "https://agora.ex.nii.ac.jp/digital-typhoon/summary/wnp/l/200319.html.en",
+        "pageOrSection": "2003-11-02 00, 06, 12, 18 UTC and 2003-11-03 00 UTC best-track positions",
+        "supports": "JMA best-track positions: 2 Nov 00 UTC 20.1N 120.8E; 06 UTC 20.6N 120.7E; 12 UTC 21.4N 120.9E; 18 UTC 22.0N 121.3E; 3 Nov 00 UTC 22.8N 122.5E."
+      },
+      {
+        "title": "Weather Information for South China Coastal Waters and Local Weather Forecast, 1 November 2003, 23:00 HKT",
+        "sourceType": "official_port_or_authority",
+        "issuer": "Hong Kong Observatory",
+        "url": "https://envf.ust.hk/dataview/api_2dmap/current/display_winfo.py?file=/dataop/data/hko/webpages/hourly/2003/200311/2003110119.hko.htm",
+        "supports": "同期預測米勒11月2日23時位於19.9N 119.3E、11月3日23時位於19.7N 117.3E，顯示預測向西進入南海。"
+      },
+      {
+        "title": "「米勒」一翻三轉　三天內動向忽西忽東",
+        "sourceType": "other",
+        "issuer": "TVBS",
+        "editionOrEffectiveDate": "2003-11-03",
+        "url": "https://news.tvbs.com.tw/life/395509",
+        "supports": "同期記錄中央氣象局11月1日至3日預報方向多次修正及專家對呂宋地形影響的說明。"
+      },
+      {
+        "title": "2003年颱風資訊與部屋更新記錄",
+        "sourceType": "other",
+        "issuer": "颱風部屋 Typhoon Room",
+        "url": "https://tyroom.tw/tynews_2003/",
+        "supports": "2003年11月1日至3日逐日保存的中央氣象局警報及預報摘要；11月2日記錄預測偏北北西／西北及東北季風共伴效應，11月3日記錄因地形效應而持續偏北。"
+      },
+      {
+        "title": "Flooding in Luzon, the Philippines",
+        "sourceType": "other",
+        "issuer": "NASA Earth Observatory",
+        "editionOrEffectiveDate": "2003-11-07",
+        "url": "https://science.nasa.gov/earth/earth-observatory/flooding-in-luzon-the-philippines-12436/",
+        "supports": "依MODIS及TRMM資料說明米勒穿越呂宋北部後轉向北移、減弱並擦過臺灣東南部。"
+      },
+      {
+        "title": "Japan Meteorological Agency, RSMC Tokyo - Typhoon Center, Annual Report 2003",
+        "sourceType": "official_chart_or_notice",
+        "issuer": "Japan Meteorological Agency",
+        "url": "https://www.jma.go.jp/jma/jma-eng/jma-center/rsmc-hp-pub-eg/AnnualReport/2003/Text/Text2003.pdf",
+        "supports": "2003年西北太平洋熱帶氣旋業務預報系統及MELOR最佳路徑資料。"
+      }
     ],
     "assumptions": [
       "題目11月2日上午8時以臺灣標準時間UTC+8解讀，換算為00 UTC。",
-      "JMA最佳路徑與CWA歷史路徑用以確認事後路徑；同期新聞及香港天文台公告用以重建當時預報，兩者資料性質不同。",
-      "TVBS所稱最大預報落差約300公里，僅作同期媒體紀錄，不等同JMA最佳路徑驗證誤差。"
+      "最佳路徑位置採JMA best track轉錄資料；官方CWA路徑敘述用以確認侵臺過程。不同機關最佳路徑分析可能有小幅差異。",
+      "香港天文台預報公告時間為2003年11月1日23時HKT，為題目所述11月2日08時前的同期預報參考，不代表所有機關同時發布的預報。",
+      "同期新聞與歷史颱風紀錄用於重建CWA預報沿革，並非完整官方原始預報圖檔。"
     ],
     "limitations": [
-      "目前可確認官方最佳路徑及同期預報變動，並找到同期專家對呂宋地形與大尺度環流的解釋；尚未取得完整逐時地面、高空再分析場及各機關所有原始預報圖，故不能量化各因素的因果權重。",
-      "題幹若要求逐一比較各機關預報登陸廣東的預報圖，仍需取得當時各機關原始公報或預報圖才能逐一核實。"
+      "目前可確認HKO同期向西預報、CWA預報多次修正及JMA事後最佳路徑；尚未取得美國JTWC、日本JMA及中國氣象部門在題目指定時刻的原始預報圖，不能逐一驗證各機關預測完全一致。",
+      "目前未取得完整逐時500 hPa高度場、深層平均風場及數值預報初始場，無法定量判斷副高、槽脊、呂宋地形及東北季風各自對路徑轉向的因果權重。",
+      "東北季風共伴效應主要用來解釋臺灣降雨分布，不能僅據此推論颱風中心轉向。",
+      "TVBS與颱風部屋為同期媒體及歷史紀錄，應與CWA、JMA、HKO官方資料區分使用。"
     ],
     "verification": {
       "status": "source_checked",
       "checkedAt": "2026-11-06",
       "checks": [
         {
-          "item": "颱風身分及實際路徑",
+          "item": "颱風身分及CWA實際路徑描述",
           "result": "pass",
-          "note": "CWA歷史資料及JMA 2003年年報最佳路徑互相印證；JMA記錄11月2日00 UTC約20.1°N、121°E，12 UTC約21.4°N、121°E，之後向東北移動。"
+          "note": "CWA 200319歷史資料確認穿越呂宋後先北北西、再北北東，經臺灣東南部近海。"
         },
         {
-          "item": "題目時間及位置",
+          "item": "JMA最佳路徑位置與時間",
           "result": "pass",
-          "note": "11月2日08時臺灣時間為00 UTC；JMA最佳路徑與HKO同日02時實況均顯示颱風在呂宋北部／巴士海峽附近，定位時次不同。"
+          "note": "依Digital Typhoon所列JMA best-track逐時位置核對，修正11月2日00 UTC位置為20.1N、120.8E。"
         },
         {
-          "item": "同期西北及南海方向預報",
+          "item": "同期向西進入南海的預報",
           "result": "pass",
-          "note": "香港天文台2003年11月2日02:49 HKT公告預測米勒向西北移動並進入南海北部；TVBS 2003年11月3日報導重建中央氣象局11月1至2日預報多次修正。"
+          "note": "HKO 2003-11-01 23:00 HKT公告提供11月2日及3日預測位置，直接支持當時向西預測；CWA預報沿革由TVBS及Typhoon Room交叉核對。"
         },
         {
-          "item": "JMA當時預報系統及定位方法",
+          "item": "呂宋地形對強度及內部環流影響",
           "result": "pass",
-          "note": "JMA 2003年年報指出路徑預報主要依TYM、GSM，低緯度另採Persistence-Climatology方法；中心定位主要依靜止氣象衛星雲圖。"
+          "note": "NASA Earth Observatory影像／降雨分析及TVBS同期專家訪問支持地形影響的合理性，但不主張地形單獨造成轉向。"
         },
         {
-          "item": "呂宋地形及秋季環流等個案成因",
-          "result": "pass",
-          "note": "引用2003年11月3日同期報導所引述專家分析，明確標示為同期解釋，未宣稱為獨立再分析的定量因果證明。"
-        },
-        {
-          "item": "各環流因素因果權重",
+          "item": "副高、槽脊及深層引導氣流對轉向的個案因果權重",
           "result": "needs_review",
-          "note": "尚無完整逐時地面、高空再分析圖與原始預報場，不能量化單一因素對路徑轉向的貢獻。"
+          "note": "尚未取得完整逐時500 hPa高度場、深層平均風場及原始數值預報場，不能確定哪一項為主因。"
+        },
+        {
+          "item": "東北季風與共伴降雨的區別",
+          "result": "pass",
+          "note": "同期颱風部屋紀錄及中央氣象局警報沿革可佐證共伴降雨；答案已明確區分降雨效應與中心轉向動力。"
+        },
+        {
+          "item": "美國、日本、中國等各機關同一時刻的原始預報路徑",
+          "result": "needs_review",
+          "note": "目前取得HKO同期預報及CWA預報沿革；尚未取得美國JTWC、日本JMA及中國氣象部門當時同時次的原始預報圖，故不宣稱四方預報完全一致。"
         }
       ]
     },
