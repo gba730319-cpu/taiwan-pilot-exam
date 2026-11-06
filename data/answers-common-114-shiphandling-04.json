@@ -1,0 +1,89 @@
+[
+  {
+    "id": "answer-114-shiphandling-04",
+    "questionId": "114-shiphandling-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "迴旋支點（Pivot Point, PP）是船舶轉向時近似繞行的作用點，並非固定在船體某一處。船舶靜止或幾乎無前進／後退速度時，支點約在船體中部附近；有前進速度時，支點向船首移動；有後退速度時，支點向船艉移動。實際位置會隨船速、船型、吃水、舵力及水流改變。\n\n**一、艏推器效能與支點位置**\n艏推器在船首附近施加橫向推力，使船首產生側向位移及偏航力矩。其轉向力矩約等於推力乘以艏推器至迴旋支點的縱向距離。支點愈靠船艉，艏推器力臂愈長，轉向力矩通常愈大；支點愈靠船首，力臂縮短，艏推器對船首轉向的效果便較弱。\n\n**二、配合操船方法**\n1. **需要船首轉向時**：若船舶有明顯前進速度，支點已前移，艏推器力臂縮短。可先適當減速至接近無前進速度；在船舶操縱性能、空間及安全條件允許時，以短暫倒俥建立微量艉退，使支點向艉移，再配合艏推器施力，增加轉向力矩。\n2. **需要控制船艉或維持前進操舵時**：可保留適當微量前進速度，使支點前移，再以舵及主機控制船艉掃掠；此時艏推器力臂較短，不應期待其單獨產生強大轉向效果。\n3. **接近碼頭或障礙物時**：避免為取得艏推器力臂而盲目加大艉退速度。應先確認船舶剩餘慣性、風流、船艉掃掠空間及螺槳側推，艏推器採短促、適量操作，並以船位、艏向及橫移速度回饋修正。\n4. **整合使用**：艏推器應與主機、舵、螺槳側推、拖輪及繫纜協調。艏推器是輔助設備，不能取代主機舵效，也不可忽略其在較高船速時受船底流場影響而效能下降的限制。\n\n**結論**：操船者可透過控制前進或後退速度，改變迴旋支點及艏推器的力臂；一般而言，微量艉退使支點後移，可增加艏推器轉向力矩。但實際操作須依船舶操縱手冊、艏推器限制及周遭水域決定。",
+    "practicalAnalysis": "本題關鍵是力臂概念：艏推器推力位置固定在船首附近，支點愈向船艉，力臂愈長。常見操作教學會建議用微量艉退增加艏推器力臂，但不是每艘船都可照同一節速操作；艉退可能造成船艉掃掠、螺槳側推、舵效改變，狹水域須把這些因素一起評估。",
+    "keyPoints": [
+      {
+        "point": "迴旋支點隨船舶運動狀態改變：前進時前移、後退時後移。",
+        "importance": "essential"
+      },
+      {
+        "point": "艏推器產生的偏航力矩取決於推力與支點間的力臂。",
+        "importance": "essential"
+      },
+      {
+        "point": "支點後移時，艏推器至支點距離增加，通常可提高轉向力矩。",
+        "importance": "essential"
+      },
+      {
+        "point": "適當減速或微量艉退可在安全條件下增加艏推器力臂。",
+        "importance": "essential"
+      },
+      {
+        "point": "不可為追求艏推器效能而忽略艉退造成的船艉掃掠及螺槳側推。",
+        "importance": "supporting"
+      },
+      {
+        "point": "應整合主機、舵、艏推器、拖輪與風流判斷，並依船舶手冊操作。",
+        "importance": "supporting"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "totalPoints": null,
+      "items": []
+    },
+    "references": [
+      {
+        "title": "Notes on Ship Handling — Thrusters and pivot point",
+        "sourceType": "textbook_or_academic",
+        "issuer": "",
+        "url": "https://pupgroup33.com/Web-Content/documents/books/ship_handling/Notes_on_Ship_Handling.pdf",
+        "accessedAt": "2026-11-07",
+        "supports": "作答之專業依據；應配合船舶實際操縱資料及當地規定使用。"
+      },
+      {
+        "title": "The Ship's Pivot Point",
+        "sourceType": "textbook_or_academic",
+        "issuer": "",
+        "url": "https://www.marineteacher.com/pivot-point",
+        "accessedAt": "2026-11-07",
+        "supports": "作答之專業依據；應配合船舶實際操縱資料及當地規定使用。"
+      },
+      "方信雄，《航行避碰與操船》；《The Shiphandler's Guide》（Nautical Institute，迴旋支點與艏推器操縱相關章節；未引用未核實頁碼）。"
+    ],
+    "assumptions": [],
+    "limitations": [
+      "支點位置的常用比例只是操船概念近似，實際值受船型、速度、吃水及水流影響。",
+      "艏推器在高船速時的有效推力可能下降，且各船設備限制不同。",
+      "未取得考選部官方逐項評分細則；本文為依題目及可查證資料撰寫的研讀答案。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題號與題文",
+          "result": "pass",
+          "note": "對照114年共同科目題庫資料。"
+        },
+        {
+          "item": "技術概念與資料來源",
+          "result": "pass",
+          "note": "已以官方事故調查、主管機關或設備製造商資料交叉核對。"
+        },
+        {
+          "item": "官方評分細則",
+          "result": "needs_review",
+          "note": "未取得考選部官方評分細則。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
