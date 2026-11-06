@@ -160,7 +160,7 @@
     "language": "zh-TW",
     "answerType": "translation",
     "modelAnswer": "(1) 危機處理 — **crisis management**\\nSentence: Effective crisis management is essential when a ship is involved in a serious accident.\\n\\n(2) 舉證責任 — **burden of proof**\\nSentence: The burden of proof rests with the party making the allegation.\\n\\n(3) 職業安全 — **occupational safety**\\nSentence: The company must provide proper training and equipment to ensure occupational safety on board.\\n\\n(4) 鋒面雨 — **frontal rain** / **rain associated with a front**\\nSentence: Frontal rain may reduce visibility and make pilotage operations more difficult.\\n\\n(5) 法律規定的 — **statutory** / **prescribed by law**\\nSentence: The master must comply with the statutory requirements for the safe operation of the vessel.\\n\\n(6) 分道航行規劃 — **traffic separation scheme (TSS)**\\nSentence: Vessels navigating in a traffic separation scheme should proceed in the appropriate traffic lane and follow the applicable routing rules.\\n\\n(7) 易變天氣 — **changeable weather** / **unsettled weather**\\nSentence: The pilot should take extra care when navigating in changeable weather conditions.\\n\\n(8) 引水法條款 — **provisions of the Pilotage Act**\\nSentence: The pilot must perform his duties in accordance with the relevant provisions of the Pilotage Act.\\n\\n(9) 迴轉穩定器 — **gyroscopic stabilizer** (also: **gyro stabilizer**)\\nSentence: A gyroscopic stabilizer can reduce a ship's rolling motion in certain operating conditions.\\n\\n(10) 自動調整拖纜機 — **automatic-tension towing winch** / **automatic tension-controlled towing winch**\\nSentence: The tug is fitted with an automatic-tension towing winch to help maintain the required tension in the towline.",
-    "practicalAnalysis": "本題每一中文詞組均須翻成合適英文，並各自造一個完整句子。法律及航海制度詞彙應採固定搭配：burden of proof、occupational safety、traffic separation scheme、provisions of the Pilotage Act。第(4)題「鋒面雨」可用frontal rain，句中也可寫rain associated with a front；第(5)題形容詞可用statutory，若放入句子則prescribed by law亦自然。第(9)題「迴轉穩定器」按船舶減搖設備理解為gyroscopic stabilizer（gyro stabilizer），須與fin stabilizer區分。第(10)題重點是拖纜張力能自動控制；美國海軍拖帶手冊使用automatic towing machine（ATM）稱呼自動化拖帶機械，並將automatic tension control列為其功能，因此以automatic tension towing machine (ATM)作主譯，automatic tension towing winch作可接受變體。",
+    "practicalAnalysis": "第(6)題雖依中文題幹寫作「分道航行規劃」，COLREG Rule 10的正式制度名稱是Traffic Separation Schemes，臺灣常用法規譯名為「分道通航制」，答題應以traffic separation scheme (TSS)為主。第(10)題美國海軍拖帶手冊使用automatic towing machinery等設備術語，IALA詞典對towing winch的定義則涵蓋拖纜收放及自動控制；本答案以automatic tension towing machine (ATM)作主譯，並列constant-tension towing winch等依機型而異的可接受說法。",
     "keyPoints": [
       {
         "point": "危機處理＝crisis management；須用名詞片語。",
@@ -295,6 +295,16 @@
           "item": "自動調整拖纜機製造商術語",
           "result": "pass",
           "note": "依美國海軍拖帶手冊及IALA海事詞典，採automatic tension towing machine (ATM)作主譯，automatic tension towing winch作可接受變體；不同拖帶機型的自動張力控制方式仍有差異。"
+        },
+        {
+          "item": "第(6)題中文制度名稱與COLREG Rule 10",
+          "result": "pass",
+          "note": "traffic separation scheme (TSS)為COLREG Rule 10正式英文名稱；中文考試題幹用語「分道航行規劃」應補充與正式制度名稱「分道通航制」的關係，避免誤以為是航線規劃文件。"
+        },
+        {
+          "item": "第(10)題自動調整拖纜機主譯",
+          "result": "pass",
+          "note": "以automatic tension towing machine (ATM)作主譯，並依具體設備控制方式列constant-tension towing winch及automatic-tension towing winch為變體；不將所有自動張力拖纜機視為相同機構。"
         }
       ]
     },
