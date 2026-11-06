@@ -1,0 +1,97 @@
+[
+  {
+    "id": "102-shiphandling-01-answer-v1",
+    "questionId": "102-shiphandling-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "navigation_calculation",
+    "modelAnswer": "【一、已知條件】\n\n- 汽車船全長：(L=220 \text{m})\n- 船寬：(B=36 \text{m})\n- 港口堤口寬：(W=230 \text{m})\n- 駕駛台至船艏距離：35m\n- 駕駛台至船艉距離：(220-35=185 \text{m})\n- 船舶通過堤口時之偏流角（Drift Angle）：(7^circ)\n- 潮流流向與航道中央線垂直，流速2kn\n- 船舶駕駛台於距堤口2浬處位於航道中央線上。\n\n【二、計算船艉偏離航道中央線之距離】\n\n本題偏流角7°係指船舶縱向中心線與實際航跡（航道中央線）之夾角。為保持船舶沿航道中央線前進，船舶須以船首斜向迎流，形成7°的蟹行角（Crab Angle）。\n\n以駕駛台位置作為船舶在航道中央線上的參考點，駕駛台至船艉距離為：\n\n[\n220-35=185 \text{m}\n]\n\n船艉中心相對於航道中央線的橫向偏移量：\n\n[\nd_s=185sin7^circ\n]\n\n[\nd_s=185\times0.12187\n]\n\n[\n\boxed{d_s=22.55 \text{m}}\n]\n\n因此，船艉中心偏離航道中央線約22.6公尺。\n\n【三、計算船舶距最近堤岸之距離】\n\n堤口寬230公尺，航道中央線至任一側堤岸距離：\n\n[\n\frac{230}{2}=115 \text{m}\n]\n\n船寬36公尺，半船寬18公尺。船體橫向投影之半寬為：\n\n[\nd_b=18cos7^circ\n=18\times0.99255\n=17.87 \text{m}\n]\n\n最靠近堤岸的船艉外側角點距航道中央線：\n\n[\nd_{\text{outer}}=185sin7^circ+18cos7^circ\n]\n\n[\nd_{\text{outer}}=22.55+17.87\n=40.42 \text{m}\n]\n\n因此，船艉外側至最近堤岸的淨距離：\n\n[\nC=115-40.42\n]\n\n[\n\boxed{C=74.58 \text{m}}\n]\n\n【答案】\n\n1. 船艉中心偏離航道中央線：約 **22.6公尺**。\n2. 船艉最外側至最近堤岸：約 **74.6公尺**。\n\n【四、潮流與偏流角之補充說明】\n\n若以2kn橫向潮流及7°偏流角反推船舶對水速度，並假設船舶地面航跡仍沿航道中央線：\n\n[\nV_{\text{water}}sin7^circ=2\n]\n\n[\nV_{\text{water}}=\frac{2}{sin7^circ}\napprox16.41 \text{kn}\n]\n\n沿航道中央線的對地速度約為：\n\n[\nV_{\text{ground}}=16.41cos7^circ\napprox16.29 \text{kn}\n]\n\n自距堤口2浬處航行至堤口，估計時間：\n\n[\nt=\frac{2}{16.29}\times60\napprox7.37 \text{分鐘}\n]\n\n此處2浬距離用於說明接近時間；若船舶已以偏流角迎流，使實際航跡維持在航道中央線，便不應再把2浬乘以(\tan7^circ)當成額外橫向漂移量。\n\n【操船實務提醒】\n\n實際通過堤口時，應確認船舶縱向中心線、駕駛台位置及船艉掃掠範圍，不能只看駕駛台或船首是否在中央線。大型船舶有偏流角時，船艉可能大幅偏離航道中心，應提早修正船首向，並保留足夠堤岸淨距。",
+    "practicalAnalysis": "本題25分，先算駕駛台至船艉=220−35=185m。偏流角7°時，船艉中心偏離中央線=185sin7°=22.55m。堤口半寬=115m；船寬半值18m的橫向投影=18cos7°=17.87m；最近船艉外側角點距中央線=22.55+17.87=40.42m；距堤岸=115−40.42=74.58m。2浬是船舶由預備位置至堤口的距離；若船舶以7°蟹行角迎流而使地面航跡仍沿中央線，不能把2浬乘tan7°當作橫向漂移。可補充反推對水速度約16.4kn、通過時間約7.4分鐘。",
+    "keyPoints": [
+      {
+        "point": "駕駛台至船艉距離=220−35=185m。",
+        "importance": "essential",
+        "explanation": "以駕駛台位於航道中央線作為幾何基準。"
+      },
+      {
+        "point": "船艉中心偏移=185sin7°=22.55m。",
+        "importance": "essential",
+        "explanation": "偏流角為船舶縱向中心線與實際航跡之夾角。"
+      },
+      {
+        "point": "堤口半寬=230/2=115m；船寬半值=18m。",
+        "importance": "essential",
+        "explanation": "須以船艉外側角點計算最近堤岸淨距。"
+      },
+      {
+        "point": "船寬橫向投影=18cos7°=17.87m；最外側角點距中央線=40.42m。",
+        "importance": "essential",
+        "explanation": "加上船艉中心偏移。"
+      },
+      {
+        "point": "最近堤岸淨距=115−40.42=74.58m。",
+        "importance": "essential",
+        "explanation": "答案約74.6m。"
+      },
+      {
+        "point": "若航跡保持中央線，7°是蟹行角而非對地航跡偏角；不可將2浬乘tan7°當成橫向漂移。",
+        "importance": "essential",
+        "explanation": "避免得到超過堤口寬度的不合理結果。"
+      }
+    ],
+    "references": [
+      {
+        "title": "102年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國102年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=102070&q=1&s=0806&t=Q",
+        "pageOrSection": "船舶操縱第一題",
+        "supports": "核對船長220m、船寬36m、堤口230m、駕駛台至船艏35m、距堤口2浬及2kn潮流、7度偏流角。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch), Chapter 6 — Piloting and Dead Reckoning",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/api/publications/download?key=16693975%2FSFH00000%2FBowditch_Vol_1_LoRes_2019.pdf",
+        "pageOrSection": "Chapter 6, Set and Drift; Chapter 7, Ship Handling",
+        "supports": "潮流造成的航向修正、Set and Drift及航跡與船首向之幾何關係。"
+      }
+    ],
+    "assumptions": [
+      "將駕駛台位置視為船舶在距堤口2浬處及通過堤口時沿航道中央線的定位參考點；船舶以7°蟹行角迎流，使地面航跡維持中央線。",
+      "船艉至船側外緣以半船寬18m計算，忽略船體外形曲線、艏艉收尖及堤口形狀差異。"
+    ],
+    "limitations": [
+      "題目未明示駕駛台位置是否在通過堤口時仍保持於中央線；本解採最符合「保持航道中央線航跡」的蟹行角解讀。若將7°解讀為對地航跡偏角，則2浬距離會造成約450m橫向偏移，船舶無法通過230m堤口，與題目情境矛盾。",
+      "最近堤岸距離以船艉外側角點的平面投影估算；實際船體外板形狀及舵、螺槳等突出物未納入。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "原題數據",
+          "result": "pass",
+          "note": "依考選部102年船舶操縱第一題核對所有尺度、潮流及偏流角。"
+        },
+        {
+          "item": "船艉中心偏移",
+          "result": "pass",
+          "note": "185sin7°=22.55m。"
+        },
+        {
+          "item": "最近堤岸距離",
+          "result": "pass",
+          "note": "115−185sin7°−18cos7°=74.58m。"
+        },
+        {
+          "item": "2浬及潮流解讀",
+          "result": "needs_review",
+          "note": "題目未明示偏流角是船首蟹行角或對地航跡偏角；本解採能維持航道中央線的蟹行角解讀，並說明若視為地面航跡偏角則與230m堤口條件不相容。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
