@@ -1,0 +1,81 @@
+[
+  {
+    "id": "answer-114-english-01",
+    "questionId": "114-english-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "（一）船舶交通服務（VTS）在提升交通繁忙水域的航行安全與效率方面，扮演重要角色。VTS透過即時通訊及監控，提供船舶重要的航行資訊與安全指示，因而能降低船舶碰撞風險及對海洋環境造成危害的可能性。\n\n（二）即使引水人已在船上，船舶航行的主要責任仍由船長承擔。然而，引水人具備專業的當地水域知識及航行技能，尤其在具挑戰性或船舶不熟悉的水域中，能對船舶安全操縱作出重大貢獻。",
+    "practicalAnalysis": "翻譯須保留責任關係與原文語氣。VTS譯為「船舶交通服務」；primary responsibility remains with the master 表示船長仍負主要責任，不代表引水人沒有專業義務。safe maneuvering 可譯「安全操縱」。",
+    "keyPoints": [
+      {
+        "point": "Vessel Traffic Services 譯為船舶交通服務（VTS）。",
+        "importance": "essential"
+      },
+      {
+        "point": "real-time communication and monitoring 譯為即時通訊及監控。",
+        "importance": "essential"
+      },
+      {
+        "point": "primary responsibility remains with the master 譯為主要責任仍由船長承擔。",
+        "importance": "essential"
+      },
+      {
+        "point": "pilot's expert local knowledge 譯為引水人的專業當地水域知識。",
+        "importance": "supporting"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "totalPoints": 30,
+      "items": [
+        {
+          "criterion": "第一段語意及術語準確",
+          "points": 15
+        },
+        {
+          "criterion": "第二段語意及責任關係準確",
+          "points": 15
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2003-12-05",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "pageOrSection": "Annex 2, section 2",
+        "accessedAt": "2026-11-07",
+        "supports": "引水人登輪後船長、駕駛臺與引水人的責任及協調關係。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "考選部未提供官方逐句翻譯評分細則；此為建議譯文，合理等值譯法亦可。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題號與題文",
+          "result": "pass",
+          "note": "已對照114年共同科目題庫資料。"
+        },
+        {
+          "item": "術語及責任關係",
+          "result": "pass",
+          "note": "依IMO A.960(23)核對引水與船長責任概念。"
+        },
+        {
+          "item": "官方評分細則",
+          "result": "needs_review",
+          "note": "未取得官方評分細則。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
