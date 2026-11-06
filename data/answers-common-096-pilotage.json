@@ -117,5 +117,117 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "096-pilotage-02-answer-v1",
+    "questionId": "96-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "definitions",
+    "modelAnswer": "【1. Estimated current — 預估海流／估計流】\n\n係指船舶尚未以實際定位差求得流況前，依潮流表、潮流圖、航海指南、海流圖、氣象及當地水文資料，預先估計某一水域海流之流向（set）及流速（drift）。其目的在航行計畫及推算船位時，先估算海流對船舶航跡及速度的影響。\n\n應注意：Estimated current是預先估計的流況；Actual current則通常由實際觀測船位（fix）與未計入流影響的推算船位（DR position）之差，反算當時流向及流速。估計流況應隨實際定位結果持續修正。\n\n【2. Course of advance (COA) — 預定航跡向／計畫航跡方向】\n\n係指船舶預定在地面（over the ground）上所要達成之航跡方向，通常由前一個定位點（last fix）指向下一個預定或估計船位（next estimated position）。它表示航海計畫希望船舶在地面上前進的方向，不等同於船舶實際操舵的航向（course steered）或船首向（heading）。\n\n例如：計畫由A點至B點，預定地面航跡向為090°T，則Course of advance為090°T；若有海流把船舶推向南側，船舶可能必須向北側修正操舵，才能維持預定航跡。\n\n【3. Speed over the ground (SOG) — 對地航速／地速】\n\n係指船舶相對於地球表面（earth／ground）的實際移動速度，通常以節（knots）表示，可由GPS、GNSS或其他導航設備測得。SOG包含海流及風等外力造成的對地運動結果，與船舶相對於水面的速度（speed through the water, STW）不同。\n\n若順流，SOG通常大於STW；若逆流，SOG通常小於STW。若橫流，則除速度大小改變外，對地航跡方向亦可能偏離船舶對水航向。\n\n【4. Course made good (CMG) — 實際航跡向／已達航跡向】\n\n係指船舶自出發點至某一實際抵達位置（例如兩次定位點）之間，依地面航跡所得的合成方向；換言之，是船舶在該段時間內實際對地前進的平均方向，已反映海流、風及操舵等因素的綜合影響。\n\n現代航海術語較精確的用法，常以Track made good（TMG，實際航跡）表示兩個定位點間的實際航跡；Course made good則為傳統常用名稱。它與Course of advance不同：前者是實際結果，後者是預定目標。\n\n【5. Drift — 流速／流漂速度】\n\n在current sailing（流航）及set and drift的用法中，Drift係指海流推動船舶之速度大小，通常以節（knots）表示；海流流向稱為Set，亦即海流流向「往哪裡去」，而非來自哪個方向。\n\n例如：Set 180°T、Drift 2.0 kn，表示海流向真南流動，流速為2節。航行計算時，須以Drift乘以作用時間，求得海流造成的位移距離，再與船舶對水速度向量合成。\n\n注意：Drift不可與Drift angle（漂角）混淆。Drift是流速；Drift angle則通常指船舶首向或對水航向與實際航跡方向間的角度差，兩者意義不同。\n\n【五個名詞之比較】\n\n| 名詞 | 中文 | 核心意義 | 性質 |\n|---|---|---|---|\n| Estimated current | 預估海流 | 依資料預先估計流向與流速 | 預測資料 |\n| Course of advance | 預定航跡向 | 計畫要在地面上達成的方向 | 預定目標 |\n| Speed over the ground | 對地航速 | 船舶相對地球的實際速度 | 實際速度 |\n| Course made good | 實際航跡向 | 出發點至實際位置的合成方向 | 實際結果 |\n| Drift | 流速 | 海流推動船舶的速度大小 | 流速分量 |\n\n【結論】\n\n本題最重要的區別是：Estimated current為預先估計的海流；Course of advance是計畫希望達成的對地航跡方向；Speed over the ground是船舶實際對地速度；Course made good是實際航跡的合成方向；Drift則是海流速度大小，應與表示流向的Set及表示角度差的Drift angle區分。",
+    "practicalAnalysis": "本題20分，五個名詞各4分，建議每題用「定義＋與相近名詞區別＋單位或例子」三句作答。最容易混淆的是Course of advance與Course made good：前者為預定地面航跡方向，後者為實際兩定位點間的合成航跡方向；Drift在current sailing中是流速（knots），不是漂角；Estimated current則是依潮流表、圖及水文資料預估的流況，與由Fix和DR差值反算的Actual current不同。",
+    "keyPoints": [
+      {
+        "point": "Estimated current是依潮流表、潮流圖、航海指南及水文氣象資料預估之流向與流速。",
+        "importance": "essential",
+        "explanation": "與實際由Fix及DR差值反算之Actual current區分。"
+      },
+      {
+        "point": "Course of advance (COA)是預定要在地面上達成的航跡方向。",
+        "importance": "essential",
+        "explanation": "不是船舶首向或當下操舵航向。"
+      },
+      {
+        "point": "Speed over the ground (SOG)是船舶相對地球表面的實際速度。",
+        "importance": "essential",
+        "explanation": "與Speed through the water (STW)不同，會受海流影響。"
+      },
+      {
+        "point": "Course made good (CMG)是出發點至實際抵達位置間的合成航跡方向。",
+        "importance": "essential",
+        "explanation": "實際結果；現代術語常用Track made good (TMG)。"
+      },
+      {
+        "point": "Drift是海流速度大小，通常以節表示；Set是流向。",
+        "importance": "essential",
+        "explanation": "不可與Drift angle（漂角）混淆。"
+      }
+    ],
+    "references": [
+      {
+        "title": "The American Practical Navigator (Bowditch), Volume I",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency (NGA)",
+        "editionOrEffectiveDate": "2019 edition",
+        "url": "https://msi.nga.mil/api/publications/download?key=16693975%2FSFH00000%2FBowditch_Vol_1_LoRes.pdf&type=view",
+        "pageOrSection": "Chapter 8, Dead Reckoning and Estimated Positions; Chapter 23–24, Currents and Current Sailing; Glossary entries for Course of Advance, Course Made Good, Course over Ground and Track Made Good",
+        "supports": "官方航海參考書，說明COA為預定地面航跡方向、CMG為出發點至到達點之合成方向，並說明set與drift及估計船位。"
+      },
+      {
+        "title": "ISO 19018:2004 Ships and marine technology — Terms, abbreviations, graphical symbols and concepts",
+        "sourceType": "other",
+        "issuer": "International Organization for Standardization (ISO)",
+        "editionOrEffectiveDate": "2004 edition",
+        "url": "https://standards.iteh.ai/catalog/standards/iso/33b74b82-a040-42a7-8fd7-efdc8b0622ab/iso-19018-2004",
+        "pageOrSection": "Clause 5.1.10–5.1.12 and 5.3.4–5.3.5",
+        "supports": "2004年版航海術語標準，定義Course of advance、Course over ground、Course made good、Speed over the ground及Speed made good，適合核對2007年考試時代術語。"
+      },
+      {
+        "title": "NAVEDTRA 14308A Operations Specialist, Volume 1",
+        "sourceType": "official_port_or_authority",
+        "issuer": "U.S. Navy",
+        "url": "https://navytribe.com/wp-content/uploads/2015/11/navedtra-14308a.pdf",
+        "pageOrSection": "Chapter 12, Set and Drift; Estimated Position",
+        "supports": "說明Set為流向、Drift為流速，並說明估計流況如何用於修正DR位置以求得EP。"
+      },
+      {
+        "title": "Auxiliary Coastal Navigation Manual",
+        "sourceType": "official_port_or_authority",
+        "issuer": "U.S. Coast Guard Auxiliary",
+        "url": "https://www.uscgauxsoportlandme.com/ppages/pecourse/ACNManual.pdf",
+        "pageOrSection": "Current Sailing Terms",
+        "supports": "明確區分Estimated Current（由預測力、潮流表、圖表及計算估計）與Actual Current（由Fix與未計流影響之DR位置差值反算）。"
+      }
+    ],
+    "assumptions": [
+      "本題的Drift依current sailing及set and drift慣用法解讀為海流流速，而非Drift angle（漂角）。",
+      "Course made good依傳統航海用語解釋為出發點至實際到達點的合成方向，並補充現代較精確的Track made good用語。"
+    ],
+    "limitations": [
+      "Course of advance在不同教材中可能被用作預定航跡方向或Course to make good之近義詞；本答案依ISO 19018:2004及NGA Bowditch之定義整理。",
+      "若考試指定教材將Drift定義為漂角，應依該教材上下文判讀；但在本題與Estimated current並列的流航語境中，Drift應解為流速。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "Estimated current與Actual current區別",
+          "result": "pass",
+          "note": "依USCG Auxiliary Coastal Navigation Manual核對Estimated Current為預測／估計流況，Actual Current由Fix與DR位置差值反算。"
+        },
+        {
+          "item": "Course of advance定義",
+          "result": "pass",
+          "note": "依ISO 19018:2004及NGA Bowditch核對，為預定地面航跡方向，不等同於實際航向或船首向。"
+        },
+        {
+          "item": "Speed over the ground定義",
+          "result": "pass",
+          "note": "依ISO 19018:2004第5.3.4核對，為船舶相對地球之速度。"
+        },
+        {
+          "item": "Course made good定義",
+          "result": "pass",
+          "note": "依ISO 19018:2004第5.1.12及Bowditch核對，為兩定位點間之合成航跡方向；現代用語常採Track made good。"
+        },
+        {
+          "item": "Drift定義",
+          "result": "pass",
+          "note": "依NAVEDTRA 14308A及Bowditch核對，Set為流向、Drift為流速；另註明Drift angle為不同概念。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
