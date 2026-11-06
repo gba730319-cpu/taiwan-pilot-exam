@@ -216,5 +216,221 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "096-shiphandling-03-answer-v1",
+    "questionId": "96-shiphandling-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、MMG模式之定義】\n\nMMG（Maneuvering Modeling Group）模式，是日本造船學界於1970年代由日本造船協會／拖曳水槽研究團體（JTTC）相關MMG小組發展之船舶操縱運動數學模式。其核心概念是將船舶操縱時所受之水動力，依來源分別建立船體（Hull）、螺槳（Propeller）及舵（Rudder）等模組，再考慮各模組之間的交互作用，組合成船舶操縱運動方程式，用以預測船舶轉向、直進、加減速及其他操縱動態。\n\nMMG屬於以物理水動力為基礎的模組化操縱模型（modular hydrodynamic manoeuvring model），不同於只用舵角與偏航角速度關係描述船舶反應的簡化K-T response model。\n\n【二、MMG模式之基本架構】\n\n傳統MMG模式主要描述水平面三個自由度（3-DOF）：\n1. 縱向運動（Surge）：船舶沿船首尾方向前進或後退，速度以u表示。\n2. 橫向運動（Sway）：船舶沿船舷方向橫移，速度以v表示。\n3. 偏航運動（Yaw）：船舶繞垂直軸旋轉，偏航角速度以r表示。\n\n其運動方程式概念如下：\n\n\\[\nm(\\dot u-vr)=X_H+X_P+X_R+X_E\n\\]\n\n\\[\nm(\\dot v+ur)=Y_H+Y_P+Y_R+Y_E\n\\]\n\n\\[\nI_z\\dot r=N_H+N_P+N_R+N_E\n\\]\n\n其中：\n- H：船體水動力（Hull forces and moments）。\n- P：螺槳推力及其作用力（Propeller forces）。\n- R：舵力及舵所產生之偏航力矩（Rudder forces and moments）。\n- E：風、流、波浪、岸壁及其他外力（Environmental and interaction forces）。\n- m：船舶質量；Iz：船舶繞垂直軸之轉動慣量；u、v、r為船體座標系下之縱移、橫移及偏航速度。\n\n實際MMG方程式還會納入附加質量、附加慣性、水動力導數、螺槳推力減額、伴流分數、舵前流速與流向、船體與舵及螺槳間之交互作用係數。\n\n【三、MMG模式之主要特色】\n\n（一）模組化分析\n將船體、螺槳、舵分別建立數學模型，個別分析其水動力特性，再組合為整體操縱運動模型。更換螺槳、舵或船型時，可針對相關模組及交互作用係數調整，不必將全部水動力重新合併建模。\n\n（二）具有物理意義\n各項力與力矩具有明確來源，例如船體橫向水動力、螺槳推力、舵正向力及船體—舵—螺槳交互作用，較容易分析船舶操縱性能變化原因。\n\n（三）可描述非線性操縱運動\n可依水動力係數及非線性項，模擬不同舵角、航速、偏航角速度及橫移速度下的操縱反應，適合分析大舵角及較複雜的操船動態。\n\n（四）需要模型試驗及係數辨識\nMMG通常利用拘束模型試驗（Captive Model Tests），例如平面運動機構試驗（PMM）、斜拖試驗、旋轉臂試驗及螺槳／舵開水試驗，求得船體、螺槳、舵及交互作用係數；再以自由航行模型試驗（Free-running Model Tests）驗證預測結果。\n\n（五）可模擬多種操船性能\n透過數值積分求解，可模擬：\n1. 迴旋試驗（Turning Circle Test）。\n2. Z字操舵試驗（Zig-Zag Test）。\n3. 停船及倒俥性能（Stopping／Crash Astern）。\n4. 航向保持、轉向及航跡控制。\n5. 低速操船、港內進出港及靠離泊（須加入適當低速及環境模型）。\n\n（六）可加入外在環境因素\n可在基本模型外增加風、流、波浪、淺水、岸壁效應、拖船及其他船舶交互作用等模組，使模擬器更接近實際操船環境。\n\n【四、MMG模式之優點】\n\n1. 模組分工明確，便於研究船體、螺槳及舵各自對操縱性能的影響。\n2. 具有物理意義，能分析操縱性能變化的原因。\n3. 可模擬縱移、橫移及偏航的耦合運動，不僅能預測航向改變，也能預測船速及航跡變化。\n4. 可依船舶型態、裝載狀況、螺槳及舵配置調整係數，適合船型設計與操船模擬器。\n5. 能以模型試驗資料校正，並以自由航行試驗驗證，具有較好的預測及工程應用價值。\n\n【五、MMG模式之限制】\n\n1. 建立模型需要大量水動力係數及拘束模型試驗，資料蒐集、辨識及計算工作較繁複。\n2. 模型精度取決於係數品質、模型試驗及實船尺度修正；若船型、吃水、裝載狀態或航速與試驗條件不同，預測誤差可能增加。\n3. 傳統三自由度模型主要描述水平面運動，通常未完整包含橫搖、縱搖、升沉等六自由度運動；特殊船型或高速船須作擴充。\n4. 基本模型常以深水、平靜水域及特定操縱條件為基礎；若要模擬淺水、狹窄水道、岸壁效應、風浪、流及拖船交互作用，必須增加相應係數或子模型。\n5. 模型若未經實船或模型試驗驗證，不宜僅憑模擬結果作為唯一操船依據。\n\n【結論】\n\nMMG模式是將船體、螺槳及舵的水動力分別建模，再考慮彼此交互作用之模組化船舶操縱數學模式。其特色為模組化、物理意義明確、能處理非線性操縱運動，並可透過模型試驗求得係數，模擬迴旋、Z字操舵及停船等性能；但其精度仰賴水動力係數及試驗驗證，且傳統三自由度模型須擴充後才能完整描述淺水、風浪及六自由度操船情況。",
+    "practicalAnalysis": "本題15分，先說MMG是日本JTTC／日本造船學界MMG小組於1970年代發展的模組化操縱數學模型，再說明將船體、螺槳、舵分開建模並考慮交互作用。核心自由度為縱移Surge、橫移Sway、偏航Yaw三自由度。特色需包括物理意義明確、非線性、拘束模型試驗求係數、可模擬迴旋／Z字／停船及可加入環境力；限制則是係數需求高、依賴模型試驗與尺度修正，傳統模型不含完整六自由度及所有淺水／風浪效應。",
+    "keyPoints": [
+      {
+        "point": "MMG是日本造船學界於1970年代發展的模組化船舶操縱運動數學模型。",
+        "importance": "essential",
+        "explanation": "由JTTC相關MMG小組提出，後續形成MMG標準方法。"
+      },
+      {
+        "point": "船舶受力分為船體、螺槳、舵及外在環境力，並考慮各模組交互作用。",
+        "importance": "essential",
+        "explanation": "與把所有水動力合併成單一多項式的模型有所不同。"
+      },
+      {
+        "point": "傳統MMG主要為水平面3自由度：Surge、Sway、Yaw。",
+        "importance": "essential",
+        "explanation": "縱移、橫移及偏航。"
+      },
+      {
+        "point": "利用拘束模型試驗求取水動力係數，並以自由航行模型試驗驗證。",
+        "importance": "essential",
+        "explanation": "例如PMM、斜拖、旋轉臂及舵螺槳試驗。"
+      },
+      {
+        "point": "可模擬迴旋、Z字操舵、停船、航向保持及港內操船。",
+        "importance": "supporting",
+        "explanation": "須視模型是否加入低速及環境子模型。"
+      },
+      {
+        "point": "優點為物理意義明確、模組可調整、可分析船舶速度及航跡；限制為係數資料需求高、試驗與尺度修正繁複。",
+        "importance": "essential",
+        "explanation": "基本3DOF模型需擴充才能描述風浪、淺水、岸壁及六自由度。"
+      }
+    ],
+    "references": [
+      {
+        "title": "On a New Mathematical Model of Manoeuvring Motions of a Ship",
+        "sourceType": "textbook_or_academic",
+        "issuer": "Journal of the Society of Naval Architects of Japan",
+        "editionOrEffectiveDate": "1979, Vol.146, pp.229–236",
+        "url": "https://www.jstage.jst.go.jp/article/jjasnaoe1968/1979/146/1979_146_229/_article",
+        "supports": "MMG早期原始論文，說明模型依拘束模型試驗建立，分別描述船體、螺槳、舵及其交互作用，並以自由航行結果驗證。"
+      },
+      {
+        "title": "Introduction of MMG standard method for ship maneuvering predictions",
+        "sourceType": "textbook_or_academic",
+        "issuer": "Journal of Marine Science and Technology",
+        "editionOrEffectiveDate": "2015",
+        "url": "https://doi.org/10.1007/s00773-014-0293-y",
+        "supports": "介紹MMG標準方法的運動方程式、船體／螺槳／舵水動力模型、拘束模型試驗、係數分析及全尺度預測程序。"
+      },
+      {
+        "title": "港灣操船運動模擬計算系統之研究",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部運輸研究所",
+        "url": "https://www.iot.gov.tw/uploads/asset/data/661a0cd7367376304acd5941/%E6%B8%AF%E7%81%A3%E6%93%8D%E8%88%B9%E9%81%8B%E5%8B%95%E6%A8%A1%E6%93%AC%E8%A8%88%E7%AE%97%E7%B3%BB%E7%B5%B1%E4%B9%8B%E7%A0%94%E7%A9%B6.pdf",
+        "pageOrSection": "第二章 操船模擬數學模式",
+        "supports": "臺灣港灣操船模擬研究，採用MMG相關模組化數學模式，並說明縱移、橫移、偏航及橫搖等自由度與淺水擴充。"
+      },
+      {
+        "title": "船舶引航專論",
+        "sourceType": "textbook_or_academic",
+        "issuer": "方信雄",
+        "supports": "作為引水及操船模擬、操縱性能之中文專業參考。"
+      },
+      {
+        "title": "航行避碰與操船",
+        "sourceType": "textbook_or_academic",
+        "issuer": "方信雄",
+        "supports": "作為操船性能、操船模擬與實務應用之中文專業參考。"
+      }
+    ],
+    "assumptions": [
+      "本題所稱MMG依日本造船學界之Maneuvering Modeling Group／MMG模組化操縱數學模型解釋。",
+      "以傳統水平面三自由度MMG為主要說明；後續四自由度、六自由度或含環境力的擴充模型另行說明。"
+    ],
+    "limitations": [
+      "MMG各版本在自由度、船體水動力項、舵螺槳交互作用及環境力模組上可能不同；本答案說明傳統單槳單舵3DOF基本架構。",
+      "不能將MMG視為單一固定公式；實際模擬需依船型、載況、推進器配置及試驗係數建立。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "MMG起源及模型定義",
+          "result": "pass",
+          "note": "依1979年原始論文核對MMG由JTTC相關小組提出，模型由船體、螺槳、舵及其交互作用組成。"
+        },
+        {
+          "item": "MMG模組及試驗程序",
+          "result": "pass",
+          "note": "依2015年MMG standard method論文核對拘束模型試驗、係數辨識、模組化水動力及全尺度預測。"
+        },
+        {
+          "item": "基本自由度與運動方程",
+          "result": "pass",
+          "note": "依運輸研究所港灣操船模擬研究及學術論文核對傳統水平面Surge、Sway、Yaw三自由度架構。"
+        },
+        {
+          "item": "模型優點與限制",
+          "result": "pass",
+          "note": "依MMG原始研究及後續標準方法核對係數需求、模型試驗、尺度效應及擴充環境力之必要。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "096-shiphandling-04-answer-v1",
+    "questionId": "96-shiphandling-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、AZIPOD操縱系統之定義】\n\nAZIPOD®為ABB發展之電力吊艙式推進系統（Podded Electric Propulsion／Azimuthing Podded Propulsor）。其主要特徵是將電動推進馬達安裝於船底外部的水下吊艙（Pod）內，直接驅動螺槳；整個吊艙可繞垂直軸旋轉360度，使推力方向可朝任意方位輸出，因此兼具推進與操舵功能，通常不需要傳統長軸系、齒輪箱及傳統舵。\n\nAZIPOD是ABB之註冊商標；其他廠商亦有類似的方位推進器或吊艙式推進系統，但產品結構及控制方式未必完全相同。\n\n【二、系統構造與工作原理】\n\n1. 電動馬達（Electric Motor）：裝設於水下吊艙內，直接驅動螺槳，減少傳統長軸及齒輪傳動損失。\n2. 螺槳（Propeller）：由吊艙內電動馬達直接帶動，將馬達輸出轉換為推力；依型式可採拉式（Puller）或推式（Pusher）配置。\n3. 方位旋轉機構（Azimuthing Steering Mechanism）：吊艙可繞垂直軸旋轉360度，藉由改變螺槳推力方向控制船舶前進、後退、轉向及橫向移動。\n4. 變頻及電力控制系統（Variable Speed Drive／Power Management）：由船舶發電機組供電，透過變頻器控制馬達轉速、扭矩及推力，並與船舶電力管理系統整合。\n5. 操縱控制系統（Propulsion Control System）：駕駛台可使用操縱桿、方向控制器或整合式操船系統，控制吊艙角度及推力大小；多具吊艙可協調輸出推力，進行原地迴轉、橫移及精確靠離泊。\n\n【三、AZIPOD系統之主要特色與優點】\n\n（一）推力方向360度可調\n吊艙可旋轉360度，推力不再固定於船尾縱向，能依操船需求朝任意方向輸出；在港內低速操縱時，可提供良好轉向及橫向控制能力。\n\n（二）操縱性能佳\n可直接改變推力方向，減少傳統舵在低速時舵效不足之問題；多具吊艙協同操作，可進行原地迴轉、橫移（Crabbing）、側向靠泊、狹窄水域轉向及精確定位。\n\n（三）省去傳統軸系及舵系\n電動馬達位於船底吊艙，通常不需要長軸、齒輪箱及傳統舵，減少軸系布置及機艙空間限制，並可增加船舶內部空間及設計彈性。\n\n（四）傳動效率與能源管理\n直接驅動可減少齒輪箱及長軸系機械損失；配合電力推進及變速控制，可依航速及負荷調整馬達輸出。ABB資料指出，特定船型與操作條件下，相較傳統軸系可節省燃油，但節能幅度須視船型、船速、航線及操作模式而定，不應視為所有船舶均固定可省20%。\n\n（五）噪音及振動較低\n電動馬達與推進器整合於吊艙，減少傳統長軸系及齒輪傳動所產生的振動與噪音，有利於客船、郵輪及研究船等船型。\n\n（六）適用船型廣泛\n可應用於郵輪、渡輪、客貨船、破冰船、海事工程船、離岸支援船及需要高操縱性能之特殊船舶。\n\n【四、AZIPOD系統之限制與缺點】\n\n1. 初期建造成本高：吊艙、電動馬達、變頻器、電力管理及控制系統成本較高，船舶設計及建造投資較大。\n2. 系統複雜：推進、電力、冷卻、密封、旋轉及控制系統整合度高，需專業人員操作、維護及故障診斷。\n3. 水下維修不便：吊艙位於船底外部，螺槳、軸承、密封及水下電纜等部件發生故障時，通常需要進塢或專用維修設施。\n4. 外部碰撞風險：吊艙及螺槳暴露於船底外部，擱淺、碰撞、冰塊或漂流物可能造成損害。\n5. 電力系統依賴性高：發電機、配電盤、變頻器或控制系統故障可能影響推進能力；須依船舶設計配置冗餘及緊急控制。\n6. 節能效果並非絕對：節能取決於船型、航速、船體線型、螺槳設計及操作模式；某些高速或長時間定速航行船舶未必比傳統軸系更有效率。\n7. 操縱特性不同：推力向量變化快速，若操作者不熟悉吊艙角度、推力大小、轉向速率及多吊艙協調，可能產生非預期橫移或偏航。\n\n【五、引水人操船時之注意事項】\n\n1. 引水人應事先了解吊艙數量、配置、旋轉角度、最大推力、推力建立時間、緊急停止及備援系統。\n2. 與船長確認駕駛台操縱模式、操縱桿方向、推力百分比、吊艙角度顯示及駕駛台與機艙之通訊程序。\n3. 低速靠離泊時應採小幅、漸進之推力指令，避免突然改變吊艙方向及推力造成船首、船尾快速偏轉。\n4. 多具吊艙應協調推力方向與大小，利用推力向量控制船舶轉向、橫移及停止；必要時與艏側推器及拖船協調。\n5. 應考量風、流、淺水、岸壁及船舶交互作用；吊艙雖可提供360度推力，仍無法消除船舶慣性及環境力影響。\n6. 若發生單具吊艙故障或電力系統異常，應立即確認剩餘推進能力、備援電源及船舶可操縱狀態，並與船長、機艙及VTS協調安全措施。\n\n【結論】\n\nAZIPOD是將電動馬達與螺槳整合於船底可360度旋轉之水下吊艙，使推進器同時具備推進與操舵功能。其優點是操縱靈活、低速控制佳、節省軸系空間、降低噪音與振動，並可在適當船型及操作條件下提升能源效率；缺點則是建造成本高、電力及控制系統複雜、水下維修不易且吊艙容易受外部碰撞。引水人應熟悉其推力向量、控制方式及故障備援，才能充分發揮其操縱性能。",
+    "practicalAnalysis": "本題15分，先定義AZIPOD是ABB的電力吊艙式推進系統，馬達與螺槳位於船底水下吊艙，吊艙可360度旋轉，推進與操舵合一。優點要寫低速操縱佳、推力任意方向、可橫移／原地迴轉、省軸系與舵系空間、低噪音振動；缺點寫初期成本、電力控制複雜、水下維修不便、外露吊艙易受碰撞及節能效果依船型而異。最後結合引水實務，提醒確認操縱桿、吊艙角度、推力建立及多吊艙協調。",
+    "keyPoints": [
+      {
+        "point": "AZIPOD是ABB的gearless azimuthing podded electric propulsion，電動馬達位於船底外部水下吊艙，吊艙可360度旋轉。",
+        "importance": "essential",
+        "explanation": "推進與操舵整合，不需傳統長軸系及舵。"
+      },
+      {
+        "point": "推力方向可任意調整，可進行低速轉向、橫移、原地迴轉及精確靠離泊。",
+        "importance": "essential",
+        "explanation": "是港內操縱性能提升的主要原因。"
+      },
+      {
+        "point": "優點包括省軸系空間、減少齒輪傳動損失、低噪音振動及設計彈性。",
+        "importance": "supporting",
+        "explanation": "節能幅度依船型及操作條件而異。"
+      },
+      {
+        "point": "缺點包括初期成本高、電力控制複雜、水下維修不便、吊艙易受擱淺或碰撞損害。",
+        "importance": "essential",
+        "explanation": "須配置備援及專業維護。"
+      },
+      {
+        "point": "引水人應確認吊艙數量、角度、推力、控制模式、推力建立時間及故障備援。",
+        "importance": "essential",
+        "explanation": "推力向量變化快速，操作不熟悉可能造成非預期橫移或偏航。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Azipod® electric propulsion",
+        "sourceType": "official_port_or_authority",
+        "issuer": "ABB Group",
+        "url": "https://global.abb/group/en/technology/did-you-know/azipod-electric-propulsion",
+        "supports": "ABB官方說明AZIPOD為齒輪箱less、360度可轉向的電力推進系統，馬達位於船體外部水下吊艙，推力可向任意方向。"
+      },
+      {
+        "title": "Azipod® propulsion — Marine and Ports",
+        "sourceType": "official_port_or_authority",
+        "issuer": "ABB Marine & Ports",
+        "url": "https://www.abb.com/global/en/industries/marine/solutions/marine-electric-propulsion/azipod",
+        "supports": "說明AZIPOD不需傳統舵、長軸及齒輪箱，並列出操縱性、空間、噪音振動及效率等優點。"
+      },
+      {
+        "title": "AZIPILOT: Intuitive operation and pilot training",
+        "sourceType": "textbook_or_academic",
+        "issuer": "Newcastle University / AZIPILOT project",
+        "url": "https://pilot.ncl.ac.uk/publishable%20summaries/Deliverable%203.5%20PUBLIC.pdf",
+        "pageOrSection": "Section 2, Advantages and Disadvantages of Podded Propulsors",
+        "supports": "研究報告整理吊艙式推進器的操縱優點、低速及倒俥性能、成本、電力效率及船艉設計限制，適合引水人操作訓練。"
+      },
+      {
+        "title": "Azipod® propulsion for ferries",
+        "sourceType": "official_port_or_authority",
+        "issuer": "ABB Marine & Ports",
+        "url": "https://new.abb.com/marine/systems-and-solutions/azipod/azipod-for-ferries",
+        "supports": "說明360度推力向量在轉向、橫移、減速、停船及港內操縱上的應用。"
+      }
+    ],
+    "assumptions": [
+      "AZIPOD為ABB註冊商標，本題以ABB原廠吊艙式電力推進系統為主，並補充一般方位吊艙推進器特性。",
+      "燃油節省數據依ABB原廠資料，僅表示特定船型及操作條件下的可能幅度，不作為所有船舶之保證值。"
+    ],
+    "limitations": [
+      "不同世代及型號的AZIPOD在馬達冷卻、螺槳拉式／推式配置、冰級及控制系統上可能不同；本答案說明共通原理。",
+      "吊艙式推進器不代表船舶可瞬間橫移或消除慣性，實際操船仍須考慮船舶速度、風流、淺水、岸壁及推力建立時間。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "AZIPOD構造與360度旋轉",
+          "result": "pass",
+          "note": "依ABB原廠資料核對馬達位於船體外部水下吊艙，無齒輪箱直接驅動螺槳，吊艙可360度旋轉。"
+        },
+        {
+          "item": "操縱優點",
+          "result": "pass",
+          "note": "依ABB及Newcastle University AZIPILOT研究核對推力向量、低速操縱、橫移及港內定位能力。"
+        },
+        {
+          "item": "限制與維護風險",
+          "result": "pass",
+          "note": "依AZIPILOT研究核對成本、電力系統、吊艙外露及水下維修等限制。"
+        },
+        {
+          "item": "節能幅度",
+          "result": "pass",
+          "note": "已明確限定ABB原廠宣稱之節能數字僅為特定船型及操作條件下的上限，不作普遍保證。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
