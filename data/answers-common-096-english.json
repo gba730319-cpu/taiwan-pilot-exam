@@ -1,0 +1,410 @@
+[
+  {
+    "id": "096-english-01-answer-v1",
+    "questionId": "96-english-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "【第一段：英文翻譯】\n\n事實上，在引水水域發生的海事事故中，幾乎沒有完全不涉及船長某種程度默許或未加干預的情形。許多事故只要船長稍微提醒引水人於霧中降低船速，或要求引水人釐清與接近船舶之間預定的會船安排，原本就可以避免；因為在這種情況下，引水人通常不會拒絕採取較安全的處置方式。在大多數海事事故調查報告中，都可以看出船長不願介入操船，任由引水人單獨處理，直到已經來不及避免事故發生。\n\n【第二段：英文翻譯】\n\n船舶若發生突然偏轉或偏航（sheer），可以使用錨來重新取得船舶控制，防止碰撞或擱淺。不過，在此時使用錨，必須避免錨爪牢牢抓住海底，因此應盡量減少放出的錨鏈長度。當錨以適當方式在海底拖曳時，船首會立即穩定下來，舵效也會增強；船尾會逐漸離開岸壁或河岸，船舶的偏轉情形便能受到抑制。\n\n【重要詞彙與翻譯說明】\n\n| 英文 | 建議中文 | 說明 |\n|---|---|---|\n| casualty | 海事事故／海難事故 | 指船舶事故，不限於人員傷亡 |\n| pilot waters | 引水水域 | 引水人執行領航業務之水域 |\n| acquiescence | 默許、未加干預 | 船長明知風險卻未提出提醒或制止 |\n| clarify | 釐清、確認 | 對會船安排或操船計畫進一步確認 |\n| meeting arrangement | 會船安排 | 與來船的會遇方式及通過位置 |\n| sheer | 突然偏轉、偏航 | 船舶偏離原定航向的橫向偏轉 |\n| anchor dig in | 錨爪抓底、錨抓牢 | 錨牢牢抓住海床，可能造成過大制動或偏轉 |\n| chain slacked | 放出的錨鏈長度 | 本段強調避免放出過長錨鏈 |\n| dragging anchor | 拖錨、錨在海底拖曳 | 錨適度拖行而非牢牢抓底 |\n| bank | 岸壁、河岸 | 指航道或河道側邊，不是銀行 |\n\n【航海專業補充】\n\n第二段描述的是在狹窄水道或受岸壁效應影響時，船舶發生sheer，可藉由適當放錨產生制動及穩定船首的效果。這不是一般航行中任意拋錨的建議；實際使用必須考慮船速、水深、錨鏈長度、錨抓底程度、船舶吃水、航道障礙及船尾是否會被帶向岸壁，並由船長依緊急情況判斷。",
+    "practicalAnalysis": "本題30分，兩段各15分。第一段重點是acquiescence（船長默許／未介入）、pilot waters（引水水域）、meeting arrangement（會船安排）及master allowed the pilot to act alone（船長任由引水人單獨操船）。第二段的sheer是船舶突然偏轉，anchor dig in是錨爪抓底過深，chain slacked是放出的錨鏈長度；bank應譯為岸壁或河岸。翻譯須保留原文因果關係及航海語意。",
+    "keyPoints": [
+      {
+        "point": "acquiescence應譯為默許或未加干預，強調船長對引水人操船有監督責任。",
+        "importance": "essential",
+        "explanation": "不可只翻成同意，需保留消極不介入之語氣。"
+      },
+      {
+        "point": "pilot waters為引水水域；meeting arrangement為與來船之會船安排。",
+        "importance": "essential",
+        "explanation": "均為引水及避碰專業用語。"
+      },
+      {
+        "point": "sheer為船舶突然偏轉或偏航；anchor dig in為錨爪抓底過深。",
+        "importance": "essential",
+        "explanation": "第二段是緊急操船情境。"
+      },
+      {
+        "point": "dragging anchor為錨在海底適度拖曳；bank為岸壁或河岸。",
+        "importance": "essential",
+        "explanation": "不可將bank誤譯為銀行，也不可把dragging anchor譯成錨已牢牢抓底。"
+      },
+      {
+        "point": "譯文需保留錨拖曳後船首穩定、舵效增強、船尾離岸及偏轉受到抑制的因果順序。",
+        "importance": "supporting",
+        "explanation": "保持原文操船機制的邏輯。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Shiphandling for the Mariner",
+        "sourceType": "textbook_or_academic",
+        "issuer": "Daniel H. MacElrevey",
+        "editionOrEffectiveDate": "5th edition",
+        "url": "https://www.scribd.com/document/736517276/Shiphandling-for-the-Mariner",
+        "supports": "船舶sheer、bank effect、錨拖曳及引水人與船長協作之操船語境參考。"
+      },
+      {
+        "title": "引水法（民國91年1月30日修正版本）",
+        "sourceType": "law_or_regulation",
+        "issuer": "交通部法規資訊網",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=H0028005&type=-1",
+        "pageOrSection": "第19、30、32條",
+        "supports": "船長對引水人之監督、引水人拒絕不合理要求及船長指揮權之法律背景。"
+      },
+      {
+        "title": "96年專門職業及技術人員特種考試引水人考試試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國96年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=911&code=096080&q=4&s=c051&t=Q",
+        "pageOrSection": "專業英文第一題",
+        "supports": "確認原始英文翻譯題目。"
+      }
+    ],
+    "assumptions": [
+      "casualty依海事語境譯為海事事故或海難事故，不限於人員傷亡。",
+      "sheer依操船語境譯為突然偏轉或偏航；bank依水道語境譯為岸壁或河岸。",
+      "第二段的錨拖曳為緊急操船技術描述，不代表一般情況下建議任意拋錨。"
+    ],
+    "limitations": [
+      "acquiescence可依語境譯為默許、未加干預或消極放任；本答案選擇能保留船長責任語氣的譯法。",
+      "sheer在不同航海文獻中亦可指船舶偏離原航向或受岸壁／水流影響產生的偏轉，需依上下文判斷。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "第一段航海詞彙及句意",
+          "result": "pass",
+          "note": "逐句核對casualty、pilot waters、acquiescence、meeting arrangement及master-pilot responsibility。"
+        },
+        {
+          "item": "第二段錨與sheer操船用語",
+          "result": "pass",
+          "note": "核對sheer、anchor dig in、chain slacked、dragging anchor及bank之航海語境。"
+        },
+        {
+          "item": "中文譯文因果關係",
+          "result": "pass",
+          "note": "保留船首穩定、舵效增加、船尾離岸及sheer被抑制之順序。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "096-english-02-answer-v1",
+    "questionId": "96-english-02",
+    "version": 1,
+    "language": "en",
+    "answerType": "translation",
+    "modelAnswer": "【Suggested English Translation】\n\n(1) Whether or not pilotage is compulsory, the shipowner shall be liable for any loss or damage caused by negligence in the operation or navigation of the vessel.\n\n(2) Where the master makes an unreasonable request, or where there are other justifiable reasons preventing the pilot from performing his duties, the pilot may refuse to pilot the vessel. The pilot shall, however, report the specific facts to the local navigation authority.\n\n【Alternative wording】\n\n(1) Regardless of whether the vessel is subject to compulsory pilotage, the shipowner shall be responsible for any loss or damage arising from negligence of the vessel or in the navigation of the vessel.\n\n(2) If the master makes an unreasonable request, or if there is any other proper reason why the pilot cannot perform his duties, the pilot may refuse to take the vessel under pilotage, but must report the specific circumstances to the local navigation authority.\n\n【Key terminology】\n\n| 中文 | Recommended English |\n|---|---|\n| 不論是否為強制引水 | Whether or not pilotage is compulsory |\n| 船東 | shipowner |\n| 疏失 | negligence |\n| 損失或損害 | loss or damage |\n| 船舶航行 | navigation of the vessel |\n| 不合理之要求 | unreasonable request |\n| 正當理由 | justifiable reason / proper reason |\n| 拒絕領航 | refuse to pilot the vessel |\n| 具體事實 | specific facts / specific circumstances |\n| 當地航政主管機關 | local navigation authority |\n\n【Translation notes】\n\n1. 「船舶或船舶航行之任何疏失」宜以英文法律及海事語氣表達為“negligence in the operation or navigation of the vessel”，避免直譯成“negligence of the ship”而不自然。\n2. “shall be liable for”比“shall be responsible for”更符合損害賠償責任的法律語境。\n3. “the pilot may refuse to pilot the vessel”直接清楚；“refuse to take the vessel under pilotage”亦可接受。\n4. 「但應將具體事實報告」的主詞仍是引水人，因此應明確寫出“The pilot shall, however, report...” 。",
+    "practicalAnalysis": "本題20分，兩句各10分。第一句需完整表達不論是否強制引水、船東責任、疏失及損失損害。建議使用“Whether or not pilotage is compulsory”及“the shipowner shall be liable for any loss or damage caused by negligence in the operation or navigation of the vessel.” 第二句注意where/if引導條件、unreasonable request、justifiable reasons、may refuse to pilot及local navigation authority。",
+    "keyPoints": [
+      {
+        "point": "「不論是否強制引水」可譯為Whether or not pilotage is compulsory。",
+        "importance": "essential",
+        "explanation": "避免寫成whether pilotage is mandatory or not而造成語序不自然。"
+      },
+      {
+        "point": "「船東應負責」法律語氣宜用the shipowner shall be liable for。",
+        "importance": "essential",
+        "explanation": "liability比一般responsibility更符合賠償責任。"
+      },
+      {
+        "point": "「船舶或船舶航行之任何疏失」自然表達為negligence in the operation or navigation of the vessel。",
+        "importance": "essential",
+        "explanation": "避免直譯negligence of the ship。"
+      },
+      {
+        "point": "「拒絕領航」可用refuse to pilot the vessel或refuse to take the vessel under pilotage。",
+        "importance": "essential",
+        "explanation": "兩種表達均可。"
+      },
+      {
+        "point": "「具體事實報告當地航政主管機關」應明確寫出the pilot shall report the specific facts to the local navigation authority。",
+        "importance": "essential",
+        "explanation": "不可漏掉報告義務主體及受報機關。"
+      }
+    ],
+    "references": [
+      {
+        "title": "引水法（民國91年1月30日修正版本）",
+        "sourceType": "law_or_regulation",
+        "issuer": "交通部法規資訊網",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=H0028005&type=-1",
+        "pageOrSection": "第30條",
+        "supports": "中文原句之法律背景：引水人遇船長不合理要求或其他正當理由得拒絕領航，但應報告具體事實。"
+      },
+      {
+        "title": "IMO Standard Marine Communication Phrases (SMCP)",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/StandardMarineCommunicationPhrases.aspx",
+        "supports": "海事英語標準用語及船舶通訊表達參考。"
+      },
+      {
+        "title": "96年專門職業及技術人員特種考試引水人考試試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國96年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=911&code=096080&q=4&s=c051&t=Q",
+        "pageOrSection": "專業英文第二題",
+        "supports": "確認原始中譯英題目。"
+      }
+    ],
+    "assumptions": [
+      "將「船舶或船舶航行之任何疏失」依海事法律語境整理為negligence in the operation or navigation of the vessel。",
+      "「航政主管機關」譯為local navigation authority，亦可依特定法規正式英譯使用local maritime authority。"
+    ],
+    "limitations": [
+      "題目未指定官方法規英譯版本，因此提供自然且符合海事法律語境的建議譯文，不宣稱為交通部官方英文條文。",
+      "第一句中文可能源自特定法規或教材翻譯，若需逐字對照正式英文法規，應再核對該法規當年官方英譯。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "中譯英句意",
+          "result": "pass",
+          "note": "保留強制引水與否、船東責任、疏失及損害等核心法律意義。"
+        },
+        {
+          "item": "引水人拒絕領航及報告義務",
+          "result": "pass",
+          "note": "依引水法第30條核對中文原意及報告義務主體。"
+        },
+        {
+          "item": "海事英文用語",
+          "result": "pass",
+          "note": "核對shipowner liability、pilotage、local navigation authority等專業詞彙。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "096-english-03-answer-v1",
+    "questionId": "96-english-03",
+    "version": 1,
+    "language": "en",
+    "answerType": "definitions",
+    "modelAnswer": "(1) Vessel Traffic Services (VTS)\n\nVessel Traffic Services (VTS) is a service implemented by a competent authority to improve the safety and efficiency of vessel traffic and to protect the marine environment. It provides information, navigational assistance and, where appropriate, traffic organization services to vessels operating within a designated area.\n\n(2) Risk of Collision\n\nA risk of collision shall be deemed to exist if the compass bearing of an approaching vessel does not appreciably change as the distance between the vessels decreases. All available means, including radar plotting, should be used to assess the risk. If there is any doubt, the risk shall be deemed to exist.\n\n(3) Tactical Diameter\n\nThe tactical diameter is the distance measured perpendicular to the ship's original course from the original track to the ship's position when her heading has changed by 180 degrees during a turning-circle maneuver. It indicates the lateral space required by a ship to complete a 180-degree change of heading.\n\n(4) Safe Speed\n\nSafe speed is a speed at which a vessel can take proper and effective action to avoid collision and can be stopped within an appropriate distance under the prevailing circumstances and conditions. It depends on factors such as visibility, traffic density, maneuverability, background lights, wind, sea, current, proximity of navigational hazards and available water depth.\n\n【Exam note】\n\nKeep each definition concise and precise. For “risk of collision” and “safe speed”, use the wording and principles of COLREG Rules 7 and 6 respectively. For “tactical diameter”, make clear that it is measured perpendicular to the original course after a 180-degree change of heading, not the distance travelled along the curved track.",
+    "practicalAnalysis": "本題20分，四個名詞各5分。VTS要寫主管機關提供資訊、航行協助及交通組織服務；Risk of collision要抓住方位不顯著變化且距離縮短，並寫有疑問即視為存在；Tactical diameter是船首向改變180度時，相對原航向垂直方向的距離；Safe speed須引用COLREG Rule 6的避碰及適當距離內停船能力。",
+    "keyPoints": [
+      {
+        "point": "VTS為主管機關實施之服務，以提升船舶交通安全與效率並保護海洋環境，提供資訊、航行協助及交通組織服務。",
+        "importance": "essential",
+        "explanation": "IMO A.857(20)及SOLAS V/12的核心概念。"
+      },
+      {
+        "point": "Risk of collision：接近船舶羅經方位不顯著變化且距離縮短，即應認定有碰撞危險；有疑問時視為存在。",
+        "importance": "essential",
+        "explanation": "COLREG Rule 7。"
+      },
+      {
+        "point": "Tactical diameter：迴旋試驗中船舶首向改變180度時，船舶位置相對原航向之垂直距離。",
+        "importance": "essential",
+        "explanation": "不是沿曲線航跡行駛的總距離。"
+      },
+      {
+        "point": "Safe speed：能採取適當有效避碰行動，並能在當時環境及情況所適當的距離內停船之速度。",
+        "importance": "essential",
+        "explanation": "COLREG Rule 6。"
+      },
+      {
+        "point": "Safe speed應考慮能見度、交通密度、操縱性能、風浪流、航行危險物及水深等因素。",
+        "importance": "supporting",
+        "explanation": "需列舉影響因素以取得完整分數。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Guidelines for Vessel Traffic Services, Resolution A.857(20)",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "27 November 1997",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.857(20).pdf",
+        "pageOrSection": "Annex 1, Definitions and objectives of VTS",
+        "supports": "VTS定義、資訊服務、航行協助及交通組織服務。"
+      },
+      {
+        "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972 (COLREGs)",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rule 6 Safe Speed; Rule 7 Risk of Collision",
+        "supports": "Safe speed及Risk of Collision之國際規則原文。"
+      },
+      {
+        "title": "Standards for Ship Manoeuvrability, Resolution MSC.137(76)",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "4 December 2002",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137(76).pdf",
+        "pageOrSection": "Annex, Turning Circle Test and Tactical Diameter",
+        "supports": "Tactical diameter及船舶迴旋性能標準定義。"
+      },
+      {
+        "title": "Shiphandling for the Mariner",
+        "sourceType": "textbook_or_academic",
+        "issuer": "Daniel H. MacElrevey",
+        "editionOrEffectiveDate": "5th edition",
+        "url": "https://www.scribd.com/document/736517276/Shiphandling-for-the-Mariner",
+        "supports": "補充操縱性能、tactical diameter及安全航速之操船實務說明。"
+      },
+      {
+        "title": "96年專門職業及技術人員特種考試引水人考試試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國96年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=911&code=096080&q=4&s=c051&t=Q",
+        "pageOrSection": "專業英文第三題",
+        "supports": "確認原始四個英文名詞。"
+      }
+    ],
+    "assumptions": [
+      "Tactical diameter依IMO MSC.137(76)迴旋試驗定義，以首向改變180度時相對原航向之橫向距離說明。",
+      "VTS依IMO A.857(20)及SOLAS V/12之2007年前既有定義作答。"
+    ],
+    "limitations": [
+      "VTS服務內容依各國及各港口VTS等級、設備及服務區域而異，定義採IMO通用表述。",
+      "Risk of collision的羅經方位判斷為Rule 7之重要原則，但仍須使用所有可用資料，不能只依單一方位判斷。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "VTS定義",
+          "result": "pass",
+          "note": "依IMO A.857(20)核對VTS資訊、航行協助及交通組織服務。"
+        },
+        {
+          "item": "Risk of collision",
+          "result": "pass",
+          "note": "依COLREG Rule 7核對羅經方位不顯著變化、距離縮短及有疑問即視為存在。"
+        },
+        {
+          "item": "Tactical diameter",
+          "result": "pass",
+          "note": "依IMO MSC.137(76)迴旋試驗標準核對180度首向改變時之橫向距離。"
+        },
+        {
+          "item": "Safe speed",
+          "result": "pass",
+          "note": "依COLREG Rule 6核對避碰能力及適當距離內停船之定義與考慮因素。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "096-english-04-answer-v1",
+    "questionId": "96-english-04",
+    "version": 1,
+    "language": "en",
+    "answerType": "essay",
+    "modelAnswer": "How to Be a Qualified Pilot\n\nA qualified maritime pilot must possess professional knowledge, practical experience, sound judgment and a strong sense of responsibility. A pilot is not merely a person who knows the local channel; he or she must be able to guide different types of vessels safely through difficult waters and cooperate effectively with the master and the bridge team.\n\nFirst, a pilot needs a solid foundation in navigation and ship handling. He or she should understand charts, tides, currents, weather, under-keel clearance, ship manoeuvring characteristics and the International Regulations for Preventing Collisions at Sea. Knowledge of local port regulations, traffic routes, anchorages, berths, navigation marks and emergency procedures is also essential.\n\nSecond, practical sea experience is important. A pilot should have sufficient command experience and should complete the required examination, training and supervised pilotage practice. Before receiving a licence, the candidate must demonstrate professional competence, good physical and medical fitness, and the ability to make safe decisions under pressure. Local knowledge must be kept up to date because channels, depths, currents and port facilities may change.\n\nThird, communication and teamwork are essential. Before starting a pilotage assignment, the pilot should exchange information with the master about the ship's particulars, manoeuvring limitations, engine response, intended route, tug requirements and emergency plans. The pilot should use clear standard marine communication phrases and maintain effective contact with VTS, tugs and the bridge team. Although the pilot provides local navigational expertise, the master remains in command of the vessel. Both must work together and share safety information.\n\nFinally, a qualified pilot must continue learning throughout his or her career. Regular simulator exercises, emergency drills, medical examinations, incident reviews and updates on new regulations and technology help maintain professional standards. A good pilot should be calm, honest, disciplined and willing to speak up whenever safety is at risk.\n\nIn conclusion, a qualified pilot combines knowledge, experience, local expertise, communication skills and sound judgment. Above all, the pilot must put the safety of life, the vessel, property and the marine environment before convenience or commercial pressure.",
+    "practicalAnalysis": "本題30分，約300字短文。建議分成四段：專業知識、海上經驗與資格、溝通及團隊合作、持續訓練與職業操守。必須寫到COLREG、潮汐潮流、氣象、UKC、船舶操縱、港口地方知識、Master-Pilot Exchange、VTS與拖船協調，以及船長仍保有指揮權。結尾強調人命、船舶、財產及海洋環境安全優先。",
+    "keyPoints": [
+      {
+        "point": "專業知識：navigation、ship handling、COLREG、charts、tides、currents、weather及UKC。",
+        "importance": "essential",
+        "explanation": "展現引水人必要的專業基礎。"
+      },
+      {
+        "point": "實務經驗與資格：command experience、examination、training、supervised pilotage、medical fitness。",
+        "importance": "essential",
+        "explanation": "說明取得執業資格及維持適任的要求。"
+      },
+      {
+        "point": "地方知識：port regulations、traffic routes、anchorages、berths、navigation marks及emergency procedures。",
+        "importance": "essential",
+        "explanation": "引水人的核心價值在熟悉當地水域。"
+      },
+      {
+        "point": "溝通協調：Master-Pilot Information Exchange、VTS、tugs及bridge team。",
+        "importance": "essential",
+        "explanation": "強調引水人與船長合作，船長仍保有指揮權。"
+      },
+      {
+        "point": "持續精進：simulator exercises、emergency drills、incident reviews、medical examinations及更新法規科技。",
+        "importance": "supporting",
+        "explanation": "維持長期專業適任。"
+      },
+      {
+        "point": "職業操守：calm、honest、disciplined，安全優先於便利及商業壓力。",
+        "importance": "supporting",
+        "explanation": "短文需有明確結論與安全價值。"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Resolution A.960(23): Recommendations on Training and Certification and on Operational Procedures for Maritime Pilots other than Deep-Sea Pilots",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "5 December 2003",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.960%2823%29.pdf",
+        "pageOrSection": "Annex 1, Training and certification; Annex 2, Operational procedures and Master-Pilot Information Exchange",
+        "supports": "引水人訓練、認證、持續適任及船長與引水人資訊交換。"
+      },
+      {
+        "title": "International Convention on Standards of Training, Certification and Watchkeeping for Seafarers (STCW)",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/humanelement/pages/stcw-conv-link.aspx",
+        "pageOrSection": "STCW Code, bridge resource management and watchkeeping",
+        "supports": "船橋團隊合作、值班及專業適任之國際標準背景。"
+      },
+      {
+        "title": "引水法（民國91年1月30日修正版本）",
+        "sourceType": "law_or_regulation",
+        "issuer": "交通部法規資訊網",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=H0028005&type=-1",
+        "pageOrSection": "第11、13、21至23、32條",
+        "supports": "引水人資格、執業證書、體格檢查及船長指揮權。"
+      },
+      {
+        "title": "96年專門職業及技術人員特種考試引水人考試試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國96年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=911&code=096080&q=4&s=c051&t=Q",
+        "pageOrSection": "專業英文第四題",
+        "supports": "確認原始作文題目及約300字要求。"
+      }
+    ],
+    "assumptions": [
+      "作文採正式、清楚且適合專業英文考試的語氣，篇幅約300字。",
+      "以臺灣引水制度及IMO A.960(23)作為專業資格與操作程序背景。"
+    ],
+    "limitations": [
+      "作文為參考範文，考場可依個人英文程度調整句型，但應保留專業知識、實務經驗、溝通合作及持續訓練四個核心面向。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "作文篇幅及題意",
+          "result": "pass",
+          "note": "範文約300字，涵蓋如何成為合格引水人的專業、經驗、合作及操守。"
+        },
+        {
+          "item": "IMO引水人訓練及操作程序",
+          "result": "pass",
+          "note": "依IMO A.960(23)核對訓練認證、持續適任及Master-Pilot Information Exchange。"
+        },
+        {
+          "item": "臺灣引水人資格及船長權限",
+          "result": "pass",
+          "note": "依引水法第11、13、21至23、32條核對資格、執業、體檢及船長指揮權。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
