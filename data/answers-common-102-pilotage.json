@@ -231,5 +231,129 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "102-pilotage-03-answer-v1",
+    "questionId": "102-pilotage-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "technical_terms",
+    "modelAnswer": "【一、Oc.(2+3) — Composite Group-Occulting Light（複合群明暗光／複合群掩光）】\n\n1. Oc為Occulting Light，表示明期（Light）總時間長於暗期（Darkness）總時間，亦即燈光大部分時間呈現發光，並以短暫熄滅形成節奏。\n2. (2+3)表示每一完整週期內，先後出現兩組熄滅：第一組有兩次熄滅，第二組有三次熄滅；兩組之間的明期間隔較組內明期間隔長。\n3. 其燈光節奏可理解為「兩次短暫熄滅—較長明期間隔—三次短暫熄滅—週期性較長間隔」，然後重複。\n4. 這是複合群明暗光（Composite Group-Occulting Light），與Fl.(2+3)閃光燈不同；Oc是明期較長，Fl則是暗期較長。\n\n【二、LFl（Long Flashing Light）—長閃光】\n\n1. LFl表示長閃光燈，每一週期中至少有一次長閃光。\n2. 長閃光的發光時間不得少於2秒（not less than 2 seconds）。\n3. 長閃光可單獨出現，例如LFl 10s，表示每10秒出現一次長閃光；亦可接在群快速閃光之後，例如Q(6)+LFl 15s。\n4. 與一般Fl（Flashing Light）相比，LFl的單次發光時間較長，容易辨識。\n\n【三、VQ（Very Quick Flashing Light）—超快速閃光】\n\n1. VQ表示超快速閃光燈，閃光頻率每分鐘至少80次，但少於160次。\n2. 常見頻率為每分鐘100次或120次。\n3. 可為連續超快速閃光，例如VQ；亦可為群超快速閃光，例如VQ(3)或VQ(9)，依括號數字表示每一群的閃光次數。\n4. 與Q（Quick Flashing Light）區別：Q為每分鐘50次以上、少於80次；VQ則為每分鐘80次以上、少於160次。\n\n【四、Mo.(A)（Morse Code A）—摩斯字碼A】\n\n1. Mo表示摩斯碼燈（Morse Code Light），利用不同長度的閃光組合表示摩斯電碼字母或符號。\n2. Mo.(A)表示燈光以摩斯電碼字母A的節奏閃光。\n3. 摩斯碼A為「點、劃」（· —），即先一短閃，接著一長閃，並以週期性間隔重複。\n4. 此種燈質可用於安全水域標誌或其他助航標誌，航海人員可依閃光節奏辨識。\n\n【五、Alt.（Alternating Light）—交替燈】\n\n1. Alt.或Al.表示交替燈，燈光在每一週期或不同發光階段交替顯示兩種或兩種以上顏色。\n2. 例如Al.W.R.表示白光與紅光交替；Al.WR表示白、紅兩色交替。\n3. 交替燈可與其他燈質特性組合，例如交替燈兼具閃光或群閃特性；應依燈表所列完整燈質判讀。\n4. 航海人員應辨識其顏色交替順序及週期，不可只看單一顏色就判斷為固定燈或一般閃光燈。\n\n【六、總整理】\n\n| 燈質縮寫 | 英文全名 | 中文名稱 | 主要特徵 |\n|---|---|---|---|\n| Oc.(2+3) | Composite Group-Occulting Light | 複合群明暗光 | 每週期有兩組熄滅，分別為2次及3次；總明期長於總暗期 |\n| LFl | Long Flashing Light | 長閃光 | 每次長閃發光時間至少2秒 |\n| VQ | Very Quick Flashing Light | 超快速閃光 | 每分鐘80次以上、少於160次 |\n| Mo.(A) | Morse Code A | 摩斯字碼A | 先短閃後長閃（點、劃） |\n| Alt.／Al. | Alternating Light | 交替燈 | 兩種或以上燈色交替顯示 |\n\n【結論】\n\nOc.(2+3)為每週期依序有兩次及三次熄滅的複合群明暗光，明期總時間長於暗期；LFl為至少2秒的長閃光；VQ為每分鐘80至未滿160次的超快速閃光；Mo.(A)為摩斯電碼A，即短閃接長閃；Alt.／Al.則為兩種或以上顏色交替顯示的燈光。",
+    "practicalAnalysis": "本題15分，五項各3分。最容易混淆的是Oc與Fl：Oc明期長於暗期，Fl暗期長於明期；Oc.(2+3)是複合群明暗光，表示兩組熄滅數量為2及3。LFl每次長閃至少2秒；VQ為80至未滿160次／分鐘；Mo(A)是點劃；Alt/Al是不同燈色交替。記得區分VQ與Q，Q為50至未滿80次／分鐘。",
+    "keyPoints": [
+      {
+        "point": "Oc.(2+3)：複合群明暗光，明期總時間長於暗期，兩組熄滅數分別為2及3。",
+        "importance": "essential",
+        "explanation": "與Fl.(2+3)相反，Fl為暗期總時間較長。"
+      },
+      {
+        "point": "LFl：長閃光，每次發光時間至少2秒。",
+        "importance": "essential",
+        "explanation": "可單獨出現或接在Q／VQ群閃之後。"
+      },
+      {
+        "point": "VQ：超快速閃光，每分鐘至少80次、少於160次。",
+        "importance": "essential",
+        "explanation": "常見100或120次／分鐘。"
+      },
+      {
+        "point": "Mo.(A)：摩斯字碼A，點、劃，即先短閃再長閃。",
+        "importance": "essential",
+        "explanation": "依週期重複。"
+      },
+      {
+        "point": "Alt./Al.：交替燈，兩種或以上顏色交替顯示。",
+        "importance": "essential",
+        "explanation": "如白光與紅光交替。"
+      }
+    ],
+    "references": [
+      {
+        "title": "IALA Dictionary — Group-Occulting Light and Composite Group-Occulting Light",
+        "sourceType": "official_port_or_authority",
+        "issuer": "International Organization for Marine Aids to Navigation",
+        "url": "https://www.iala.int/wiki/dictionary/images/8/88/20120520_Dictionary_Alphabetical_F-O.pdf",
+        "pageOrSection": "2-5-180 Group-Occulting Light; 2-5-185 Composite Group-Occulting Light",
+        "supports": "群明暗光及複合群明暗光之定義及組內、組間間隔。"
+      },
+      {
+        "title": "Lights — Glossary of Terms",
+        "sourceType": "official_port_or_authority",
+        "issuer": "International Maritime Organization / COMSAR",
+        "url": "https://www.navcen.uscg.gov/sites/default/files/pdf/imo/comsar/COMSAR_13_14.pdf",
+        "pageOrSection": "Annex 1, page 29",
+        "supports": "Oc(2+3)、LFl、VQ、Mo(A)及Alt等燈質縮寫與定義。"
+      },
+      {
+        "title": "List of Lights — Atlantic Coast",
+        "sourceType": "official_port_or_authority",
+        "issuer": "Canadian Coast Guard",
+        "url": "https://notmar.gc.ca/publications/list-lights/atl/atlfront-en.php",
+        "pageOrSection": "Light characteristics: Long Flash, Very Quick, Morse Code and Alternating Light",
+        "supports": "LFl至少2秒、VQ每分鐘80至未滿160次、Mo(A)點劃及交替燈之實務定義。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch), Chapter 5 — Aids to Navigation",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/api/publications/download?key=16693975%2FSFH00000%2FBowditch_Vol_1_LoRes_2019.pdf",
+        "pageOrSection": "Chapter 5, Light phase characteristics",
+        "supports": "燈光特性縮寫、閃光頻率及摩斯碼燈。"
+      },
+      {
+        "title": "102年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國102年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=802&code=102070&q=1&s=0805&t=Q",
+        "pageOrSection": "引港學第三題",
+        "supports": "核對原題五種燈質縮寫及配分。"
+      }
+    ],
+    "assumptions": [
+      "Oc.(2+3)依IALA及IMO燈質用語解讀為複合群明暗光（Composite Group-Occulting Light），括號表示每週期中兩組熄滅數量。",
+      "Alt.與Al.均指Alternating Light，實際縮寫依各國燈表格式略有差異。"
+    ],
+    "limitations": [
+      "燈質週期、顏色及燈高等完整資訊須以燈表為準；本題僅要求解釋燈質縮寫。",
+      "VQ及Q的頻率範圍依IALA及國際燈表慣例，個別歷史版燈表可能以常見頻率表示，考試作答以正式定義範圍為準。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "Oc.(2+3)",
+          "result": "pass",
+          "note": "依IALA Dictionary及IMO/COMSAR燈質詞彙核對複合群明暗光。"
+        },
+        {
+          "item": "LFl",
+          "result": "pass",
+          "note": "依加拿大海岸防衛隊燈表及IMO燈質詞彙核對至少2秒。"
+        },
+        {
+          "item": "VQ",
+          "result": "pass",
+          "note": "依IMO/COMSAR及IALA燈質定義核對80至未滿160次／分鐘。"
+        },
+        {
+          "item": "Mo.(A)",
+          "result": "pass",
+          "note": "依IMO/COMSAR及加拿大燈表核對摩斯碼A點劃。"
+        },
+        {
+          "item": "Alt.",
+          "result": "pass",
+          "note": "依IMO/COMSAR燈質詞彙核對不同顏色交替顯示。"
+        },
+        {
+          "item": "原題及配分",
+          "result": "pass",
+          "note": "依考選部102年引港學第三題核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
