@@ -85,34 +85,30 @@
   {
     "id": "094-pilotage-02-answer-v1",
     "questionId": "94-pilotage-02",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "chart_or_drawing",
-    "modelAnswer": "本題所稱「導航圖」應理解為 Pilot Chart（航行統計圖／航路規劃圖），不是一般供船舶定位與航行使用的海圖（nautical chart）。Pilot Chart以月份為單位，呈現長期統計的盛行風、海流、氣溫、海溫、波浪、能見度、氣壓、海冰及天氣等資料，供航線規劃與季節性航行風險評估使用；因此本題應以Pilot Chart圖面上的氣象、海象圖示為答題脈絡。下列先列出符號所代表的概念及可辨識畫法，但因尚未取得2005年考試所依據的Pilot Chart原版圖例，不能宣稱示意線型與原版完全一致。\n\n【(1) 蒲福風力表（Beaufort Wind Scale）】\n蒲福風力表不是單一線狀海圖符號，而是以0至12級表示風力，並配合風速、風況及海面狀態的對照表。作圖時可畫成表格：\n級數： 0  1  2  3  4  5  6  7  8  9  10  11  12\n風況： 靜風／微風／輕風／和風／至颶風\n風速（節）：0–1、1–3、4–6、7–10、11–16、17–21、22–27、28–33、34–40、41–47、48–55、56–63、64以上。\n蒲福級數是風力等級，不是風向；風向須另以風向標或風羽表示。考試作圖可列級數與風速區間，並註明風級0至12。\n\n【(2) 迴轉潮流圖（Rotary Tidal Current Diagram）】\n迴轉潮流圖（tidal stream diagram）應畫成中心小圓，周圍放射排列12支箭頭，並依圖例以0至11編號。箭頭表示各時段潮流流往的方向；若題目要求完整潮流資料，另應配合時刻及流速資料判讀。考場示意可畫成：\n\n                 0\n           11 ↖     ↗ 1\n         10  ←   ●   → 2\n            9 ↙     ↘ 3\n             8       4\n               7  6  5\n\n上圖為文字示意，實際作圖應將12支箭頭均勻放射排列，並依指定圖例標示編號；不可把編號直接當成固定鐘點，也不可將箭頭畫成只表示潮汐漲、退的兩個方向。加拿大水道測量局Chart 1的補充國家符號即採中心圓及12支放射箭頭、周圍標示0至11的表示方式；各國圖例仍可能有差異。\n\n【(3) 氣溫線（Isotherm）】\n氣溫相同的各點連接成線，稱等溫線（isotherm）。在天氣圖或氣候圖上，以連續曲線表示，並在曲線旁標註溫度值及單位，例如10°C、20°C。\n示意：\n       ───── 20°C ─────\n     ／                  ＼\n    ───── 15°C ─────────\n不可與等壓線（isobar）混淆；等溫線表示溫度相同，不表示氣壓或水深相同。\n\n【(4) 冰區（Ice Area / Ice Limit）】\n在海冰圖或航海圖上，以界線標示冰區範圍，並以不同線型、陰影或斜線區分固定冰、浮冰／密集海冰及季節性冰界；界線旁應標明日期或冰況資料。\n示意：\n   - - - - - - - - -   冰界\n   ///////// 冰區 /////////\n冰況會隨季節、風、流及氣溫快速變化，作圖時必須註明資料時間；不可把冰區界線當成永久固定的海岸線或航道界線。\n\n【(5) 磁差線（Isogonic Line）】\n磁差相同的各點連接成線，稱等磁差線／磁差線（isogonic line）。線上標註磁差角度及東、西方向，例如5°W、2°E；零磁差線稱無磁差線（agonic line）。\n示意：\n   - - - - 5°W - - - - -\n       - - 2°W - - -\n   - - - - 0° - - - -\n磁差線表示地磁北與真北之間的角度分布；磁差會隨地點及年代改變，應注意海圖或磁差圖的基準年份及年變率。不可與羅經自差（deviation）混淆。\n\n【作圖總結】\n蒲福風力表＝0至12級風力與風速對照表；迴轉潮流圖＝中心放射式潮流箭頭及時間、流速；氣溫線＝等溫線；冰區＝冰界線及冰區範圍；磁差線＝等磁差線，標示E／W角度及年份。",
-    "practicalAnalysis": "本題10分，每小題2分。題幹使用「導航圖（Pilot Chart）」而非一般海圖，應從航行統計圖的圖例理解：風力資料、潮流逐時旋轉資料、氣溫等值線、海冰範圍及磁差等值線。Pilot Chart是按月份彙整長期氣象與海象統計，主要用於航路規劃，不是供船舶直接定位的海圖。考場作圖宜標出英文名稱及圖示核心特徵；線型、顏色與數字格式以該版圖例為準。",
+    "modelAnswer": "本題10分，每小題2分。題幹所稱「導航圖」應依航海教材脈絡理解為 Pilot Chart（航行統計圖／航路規劃圖）。作答時應畫出符號的主要辨識特徵，並標註英文名稱；不可將一般海圖潮流箭頭與 Pilot Chart 的風花圖、氣溫等值線及冰界符號混為一談。\n\n【(1) 蒲福風力表／風花圖（Beaufort Wind Scale / Wind Rose）】\nPilot Chart 上的蒲福風力資料通常不是獨立的0至12級表格，而是整合在風花圖（wind rose）內。每一風花圖通常置於經緯度網格區域中央，以圓圈及八個方位（N、NE、E、SE、S、SW、W、NW）的風向箭線表示長期風向分布：\n1. 箭線由圓圈向外伸展，箭線指向風「來向」（wind from），不是風所吹往的方向。\n2. 箭線長度按圖例比例表示該方向風所占觀測百分率。\n3. 箭羽（feathers）的數目表示該方向的平均蒲福風力級數。\n4. 圓圈中央數字表示靜風（calms）的百分率。\n考場應畫圓圈、八方位箭線及箭羽，並標示中心靜風百分率；若題目只要求「蒲福風力表」，可在旁補列0至12級名稱或風速對照，但不能以風速表取代Pilot Chart上的風花圖符號。\n\n【(2) 迴轉潮流圖（Rotary Tidal Current Diagram / Current Ellipse）】\n迴轉潮流圖表示潮流在一個潮汐週期內，流向與流速隨時間連續改變的情形。作圖時以共同原點為基準，按不同時刻畫出一系列速度向量（radius vectors）：向量方向表示潮流流向（set），向量長度按比例表示流速（drift）；向量端點依序連接後，通常形成近似橢圓的迴轉潮流軌跡（current ellipse）。圖上應標示時間順序或相對高潮、低潮的時刻，並區分流向與流速。不可將它誤畫成只有漲潮、退潮兩支箭頭，也不可把固定12支放射箭頭或0至11編號當成所有版本通用的標準畫法；實際格式依題目所採海圖／潮流資料圖例為準。\n\n【(3) 氣溫線（Air-temperature Isotherms）】\n等溫線（isotherm）是連接氣溫相同各點的曲線。Pilot Chart 的氣溫插圖以等值線表示平均氣溫，線旁標示溫度及單位（°C）。作圖應畫平滑連續曲線，標註例如20°C、22°C等數值。須與海水表面溫度等溫線區別：不同版次可用不同顏色或線型；1995年北太平洋Pilot Chart範例以紅線表示平均氣溫、藍線表示海面溫度，並非所有版次都可直接套用同一顏色。\n\n【(4) 冰區／冰界（Ice Limits）】\nPilot Chart 以不同線型或顏色標示海冰範圍及其季節變化。北太平洋Pilot Chart圖例範例區分：\n1. 最小海冰界（minimum extent）：海冰濃度達1%或以上的最小範圍。\n2. 平均海冰界（mean extent）：海冰濃度達1%或以上的平均範圍。\n3. 最大海冰界（maximum extent）：海冰濃度達1%或以上的最大範圍。\n4. 冰川（glaciers）另有專用符號。\n作圖時須依圖例用不同線型／顏色區分最小、平均、最大冰界，不宜只畫一條未加說明的「冰區界線」。冰界是統計或觀測資料，不代表永久固定的航行禁區。\n\n【(5) 磁差線（Isogonic Lines / Lines of Equal Magnetic Variation）】\n等磁差線是連接磁差相同各點的曲線，通常標示磁差角度及東偏（E）或西偏（W），例如5°W、2°E。磁差為真北與磁北方向之間的角度差；磁差為零的線稱無磁差線（agonic line）。Pilot Chart可在主圖以等磁差線表示特定曆元（epoch）的磁差，另以插圖表示年變率（annual rate of change）。作圖須標註磁差值、E/W及資料年份；不可與羅經自差（deviation）混淆。\n\n【作圖得分重點】\n(1) 風花圖：八方位風向箭線、箭羽表示蒲福風力、箭長表示頻率、中心數字表示靜風百分率。\n(2) 迴轉潮流圖：同一原點出發的逐時速度向量，方向表示流向、長度表示流速，端點連成近似橢圓。\n(3) 氣溫線：連接相同氣溫的等值曲線，標示°C。\n(4) 冰區：依圖例區分最小、平均、最大冰界及冰川。\n(5) 磁差線：連接相同磁差的等值線，標示E/W、曆元及年變率。",
+    "practicalAnalysis": "本題10分，每小題2分，重點在畫出符號的辨識特徵。尤其(1)不是只默寫蒲福0至12級風速表：Pilot Chart風花圖以八方位箭線表示風向分布，箭長表示該方向風的觀測百分率、箭羽數表示平均蒲福風力，中心數字表示靜風百分率；箭線指向風的來向。(2)迴轉潮流圖應以逐時速度向量表示潮流方向與流速，端點形成近似橢圓，不宜畫成通用的12支放射箭頭。(3)氣溫線應和海溫線區別。(4)北太平洋Pilot Chart圖例可區分最小、平均、最大海冰界及冰川。(5)磁差線標示磁差值、E/W及曆元，年變率可另見插圖。因目前取得的是1995年北太平洋Pilot Chart作為圖例實例，並非本題2005年指定版次，答案仍保留草稿狀態，避免宣稱線型與原考題完全相同。",
     "keyPoints": [
       {
-        "point": "Pilot Chart為按月份彙整長期氣象、海象統計的航行規劃圖，與一般定位海圖不同。",
+        "point": "Pilot Chart風花圖：八方位箭線指示風來向，箭長表示該方向風頻率，箭羽數表示平均蒲福風力，中心數字表示靜風百分率。",
         "importance": "essential"
       },
       {
-        "point": "蒲福風力表以0至12級表示風力，並對照風速與海面狀態。",
+        "point": "迴轉潮流圖以逐時速度向量表示潮流方向與流速，向量端點形成近似橢圓；不可誤畫為固定12支放射箭頭。",
         "importance": "essential"
       },
       {
-        "point": "迴轉潮流圖以方向箭頭呈現潮流隨時間改變的流向，並搭配時刻、流速資料。",
+        "point": "氣溫線為連接相同氣溫的等值曲線，須與海面溫度等溫線區分。",
         "importance": "essential"
       },
       {
-        "point": "氣溫線為等溫線（isotherms），連接氣溫相同的各點。",
+        "point": "冰區圖例可區分最小、平均、最大海冰界及冰川符號。",
         "importance": "essential"
       },
       {
-        "point": "冰區應標示海冰範圍或冰界（ice limits），並注意資料日期與季節變化。",
-        "importance": "essential"
-      },
-      {
-        "point": "磁差線為等磁差線（isogonic lines），連接磁差相同的各點，標示E/W及年變率。",
+        "point": "磁差線為等磁差線，標示E/W、曆元及年變率；零磁差線稱無磁差線。",
         "importance": "essential"
       }
     ],
@@ -182,6 +178,21 @@
         "issuer": "U.S. Hydrographic Office / Weather Bureau historical publication",
         "url": "https://www.gutenberg.org/files/65071/65071-h/65071-h.htm",
         "supports": "歷史Pilot Chart圖例說明包含冰山與浮冰、磁差、洋流、盛行風與靜風符號，以及氣壓與氣溫等值線圖。"
+      },
+      {
+        "title": "Pilot Chart of the North Pacific Ocean — May (1995 example)",
+        "sourceType": "official_chart_or_notice",
+        "issuer": "U.S. Defense Mapping Agency / Pilot Chart publication",
+        "url": "https://chieftain.training/wp-content/uploads/2020/04/05nppc1995.pdf",
+        "pageOrSection": "Explanation of Wind Roses; Average Ice Limits; Magnetic Variation; Air Temperature",
+        "supports": "提供可直接核對的北太平洋Pilot Chart圖例實例：風花圖箭長代表風頻率、箭羽代表蒲福風力、中心數字代表靜風百分率；冰界分最小、平均、最大及冰川；磁差線與年變率分別標示；氣溫與海溫以不同等溫線表示。該檔為1995年示例，不能代替2005年考試指定版次。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch), Glossary — Current Ellipse",
+        "sourceType": "textbook_or_academic",
+        "issuer": "U.S. National Geospatial-Intelligence Agency",
+        "url": "https://en.wikisource.org/wiki/The_American_Practical_Navigator/Glossary",
+        "supports": "旋轉潮流以速度向量及角度表示潮流週期內不同時刻的流速與流向，向量端點連線形成近似橢圓的current ellipse。"
       }
     ],
     "verification": {
@@ -189,44 +200,39 @@
       "checkedAt": "2026-11-06",
       "checks": [
         {
-          "item": "蒲福風力級數及風速",
+          "item": "Pilot Chart風花圖及蒲福風力表示",
           "result": "pass",
-          "note": "依美國NWS及英國Met Office風力表核對。"
+          "note": "依1995年北太平洋Pilot Chart圖例逐項核對：八方位風來向、箭長風頻率、箭羽蒲福風力、中心靜風百分率。"
         },
         {
-          "item": "迴轉潮流圖概念",
+          "item": "迴轉潮流圖的向量及橢圓概念",
           "result": "pass",
-          "note": "補以加拿大水道測量局Chart 1的補充國家符號核對：中心圓、12支放射箭頭及0至11編號。各國圖例仍可能有差異。"
+          "note": "依Bowditch current ellipse術語說明核對；修正先前將其簡化為12支放射箭頭的錯誤描述。"
         },
         {
-          "item": "氣溫線及冰區之標準圖面線型",
+          "item": "氣溫線及海溫線區別",
+          "result": "pass",
+          "note": "依1995年北太平洋Pilot Chart插圖說明：平均氣溫與海面溫度各以不同等溫線表示。"
+        },
+        {
+          "item": "冰區圖例",
+          "result": "pass",
+          "note": "依1995年北太平洋Pilot Chart圖例核對最小、平均、最大海冰界及冰川。"
+        },
+        {
+          "item": "磁差線及年變率",
+          "result": "pass",
+          "note": "依1995年北太平洋Pilot Chart圖例核對等磁差線、曆元及年變率插圖。"
+        },
+        {
+          "item": "與2005年原考題指定圖例一致性",
           "result": "needs_review",
-          "note": "尚未取得本題指定導航圖或歷史版圖例；線型、陰影樣式依出版機關可能不同。"
-        },
-        {
-          "item": "等磁差線定義及標示",
-          "result": "pass",
-          "note": "依1997 Chart No.1 B71等磁差線及磁差註記核對。"
-        },
-        {
-          "item": "與原考題指定圖例一致性",
-          "result": "needs_review",
-          "note": "已確認題幹所稱導航圖為Pilot Chart，並補入NGA官方Pilot Charts定義及歷史Pilot Chart圖例作為脈絡；仍未取得2005年考試指定圖版的完整符號頁，故不能宣稱每一線型均與原版一致。"
-        },
-        {
-          "item": "迴轉潮流圖圖示形式",
-          "result": "pass",
-          "note": "已查得加拿大Chart 1官方圖例所示中心圓及12支放射箭頭，修正原先以鐘點文字示意、可能造成誤解的圖形。"
-        },
-        {
-          "item": "Pilot Chart與一般海圖之區別",
-          "result": "pass",
-          "note": "依NGA Atlas of Pilot Charts官方說明，Pilot Chart呈現按月份彙整之長期氣象與海象統計，供航線規劃使用。"
+          "note": "目前可核對到1995年北太平洋Pilot Chart及通用航海參考資料，尚未取得2005年考試指定圖版或教材原始符號頁；顏色、線型及具體標示仍須以原版為準。"
         },
         {
           "item": "2005年原版Pilot Chart符號頁",
           "result": "needs_review",
-          "note": "尚未取得該年考試指定圖版或教材的原始符號頁，保留draft。"
+          "note": "尚未取得該年考試指定圖版或教材的原始符號頁，故維持draft。"
         }
       ]
     },
