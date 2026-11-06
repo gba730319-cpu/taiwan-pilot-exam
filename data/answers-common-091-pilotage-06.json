@@ -47,11 +47,11 @@
       "checks": [
         {
           "item": "羅經改正、航行時間及流移向量",
-          "result": "source_checked"
+          "result": "pass"
         },
         {
           "item": "正橫距離幾何",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依沿航跡投影R cosθ=s，正橫距離d=s tanθ。"
         },
         {
