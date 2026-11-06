@@ -162,7 +162,7 @@ export default function Home() {
                           <p>{answer.practicalAnalysis}</p>
                         </section>
                       ) : null}
-                      {answer.keyPoints?.length ? (
+                      {Array.isArray(answer.keyPoints) && answer.keyPoints.length ? (
                         <section className="answer-section">
                           <h3>得分關鍵</h3>
                           <ol className="answer-keypoints">
@@ -175,19 +175,19 @@ export default function Home() {
                           </ol>
                         </section>
                       ) : null}
-                      {answer.assumptions?.length ? (
+                      {Array.isArray(answer.assumptions) && answer.assumptions.length ? (
                         <section className="answer-section">
                           <h3>計算假設</h3>
                           <ul>{answer.assumptions.map((item, index) => <li key={index}>{item}</li>)}</ul>
                         </section>
                       ) : null}
-                      {answer.limitations?.length ? (
+                      {Array.isArray(answer.limitations) && answer.limitations.length ? (
                         <section className="answer-section">
                           <h3>適用限制與注意事項</h3>
                           <ul>{answer.limitations.map((item, index) => <li key={index}>{item}</li>)}</ul>
                         </section>
                       ) : null}
-                      {answer.references?.length ? (
+                      {Array.isArray(answer.references) && answer.references.length ? (
                         <section className="answer-section">
                           <h3>參考資料</h3>
                           <ol className="answer-references">
