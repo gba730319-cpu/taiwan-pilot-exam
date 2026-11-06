@@ -348,5 +348,129 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "098-shiphandling-04-answer-v1",
+    "questionId": "98-shiphandling-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "technical_essay",
+    "modelAnswer": "【一、PCC船型特徵】\n\nPCC（Pure Car Carrier，自動車專用船）屬Ro-Ro船舶，專門運送汽車及其他可自行行駛車輛，車輛經艉門或舷側坡道自行駛入、駛出。其特徵如下：\n\n1. 多層車輛甲板：內部如多層停車場，具有多層甲板及大型車輛艙空間。\n2. 箱形、高乾舷及大受風面積：上層建築高大，水線以上側面投影面積大，風壓容易造成橫移、偏航及漂移。\n3. 吃水相對較淺：部分PCC船體深而吃水較淺，壓載或空船時水下側向受流面積相對小，風壓影響可能更加明顯。\n4. 船橋位置：部分船型駕駛台設於船首或較前方，有利前方視野，但船尾可能有視線死角，靠離泊須安排船尾瞭望。\n5. 艉門／舷側坡道：設大型Ramp供車輛進出，須注意坡道承載、固定、潮差、船岸高度差及坡道角度。\n6. 載況與穩度：車輛在不同甲板的重量分布、燃油及壓載水變化會影響吃水、縱傾、GM及橫搖，須依實際裝載計畫及穩度資料判斷。\n7. 低速時受風影響顯著：低速舵效及螺槳流減弱，強橫風可能使船舶偏離預定航跡，港池及靠泊階段尤其須注意。\n\n【二、靠泊前準備】\n\n1. 查閱Pilot Card、Wheelhouse Poster及Manoeuvring Booklet，確認船長、船寬、吃水、縱傾、排水量、主機倒車反應、舵效及艏艉側推器能力。\n2. 掌握風向、風速、陣風、流向、流速、潮位、能見度、港池水深及碼頭條件，評估風壓與漂移。\n3. 確認拖船數量、馬力、拖纜位置、可用推力及作業限制；不可假設每艘PCC均裝有艏推器。\n4. 與船長完成Master-Pilot Exchange，確認船舶操縱性能、靠泊計畫、拖船配置、通訊方式、停止點及緊急脫離方案。\n5. 檢查繫纜設備、纜樁、導纜孔及纜繩狀況，預先安排艏纜、艉纜、倒纜及橫纜。\n6. 安排船艏、船艉及兩舷瞭望，特別注意船尾盲區、艉門與碼頭間隙，確保VHF及船內通訊暢通。\n\n【三、靠泊操船注意事項】\n\n（一）風壓與漂移控制\n1. 高大側面受風面積使PCC容易產生橫移及偏航，應及早判斷風壓方向與船舶實際航跡，不可只看船首向。\n2. 保留足夠迴旋水域與修正時間，避免接近碼頭才大幅轉向；必要時調整進港航向，以可控的偏流角接近。\n3. 強橫風下依載況及風壓提早配置拖船，分別控制船首、船尾及橫移；若風流超出船舶及拖船可控能力，應延後靠泊。\n4. 保持最低適當進速以維持舵效，但須控制縱向與橫向動能，避免以過高靠泊速度抵銷風壓。\n\n（二）低速操縱\n1. 低速時舵效減弱，應掌握主機、舵及螺槳流配合，不宜過早失去操縱能力。\n2. 善用短促車舵及拖船控制船首向與橫移，避免頻繁大幅倒車造成船首向及船尾位置難以預測。\n3. 注意倒車時螺槳橫向推力及船尾偏移，依本船操縱資料與實際反應操作，不可套用其他船型固定偏移量。\n\n（三）接觸碼頭與繫纜\n1. 控制縱向及橫向接近速度，避免船艏或船艉先行猛烈碰撞。\n2. 拖船推頂位置、施力方向及推力須明確，避免船殼局部受力過大；使用拖纜時注意拖纜強度、導纜位置及螺槳纏繞風險。\n3. 逐步帶妥及收緊繫纜，避免單一纜繩瞬間承受全部動能；人員應避開纜繩回彈區（Snap-back zone）。\n\n（四）靠泊後及車輛裝卸\n1. 確認船舶穩妥繫泊，持續監控風力、潮位及船舶移動。\n2. 車輛裝卸前確認艉門／舷側坡道與碼頭接合位置、潮差、坡道角度、承載限制及固定情形。\n3. 若需調整壓載水、吃水或縱傾以配合坡道，應依裝載與穩度計畫執行，注意自由液面及船體受力。\n\n【結論】\nPCC主要特性為多層甲板、高乾舷、大受風面積及相對淺吃水，低速及壓載狀態容易受風造成橫移與偏航；船橋位置及大型坡道亦帶來船尾盲區與船岸接合風險。靠泊時須掌握本船操縱資料、風流潮汐及載況，預先安排拖船、繫纜、瞭望與緊急方案，以低速可控方式靠泊，並確保坡道及車輛裝卸安全。",
+    "practicalAnalysis": "本題15分，分成船型特徵及靠泊注意事項。必寫多層車輛甲板、箱形高乾舷、大受風面積、相對淺吃水、低速易受風壓漂移、船橋可能偏前而船尾視線受限、艉門／坡道。靠泊必寫交換船舶資料、掌握風流潮汐與載況、安排拖船、控制橫移與靠泊速度、保持舵效、船艏船尾瞭望、纜繩安全及坡道潮差。不可武斷認定所有PCC均有或沒有艏推器，也不可單憑船型推定GM。",
+    "keyPoints": [
+      {
+        "point": "多層車輛甲板及大型箱形上層結構，乾舷高、側面受風面積大。",
+        "importance": "essential",
+        "explanation": "風壓造成橫移、偏航及漂移。"
+      },
+      {
+        "point": "相對淺吃水，尤其壓載狀態下水下側向受流面積較小，風壓影響可能更顯著。",
+        "importance": "essential",
+        "explanation": "仍須依實際吃水及載況判斷。"
+      },
+      {
+        "point": "部分船橋設於船首或較前方，船尾可能有盲區，須安排船尾瞭望。",
+        "importance": "essential",
+        "explanation": "確保船艏、船艉通訊。"
+      },
+      {
+        "point": "多層甲板裝車改變重量分布、吃水、縱傾及GM，須查裝載及穩度資料。",
+        "importance": "supporting",
+        "explanation": "不可僅憑船型推定穩度。"
+      },
+      {
+        "point": "靠泊前確認風向風速、陣風、潮流、潮位、水深、碼頭、拖船及側推器能力。",
+        "importance": "essential",
+        "explanation": "依本船操縱資料擬定計畫。"
+      },
+      {
+        "point": "低速時舵效減弱，須控制適當進速及縱橫向動能。",
+        "importance": "essential",
+        "explanation": "主機、舵及拖船協同操作。"
+      },
+      {
+        "point": "拖船推頂位置及施力方向須明確，注意船殼局部受力、拖纜與螺槳安全。",
+        "importance": "essential",
+        "explanation": "依風壓及載況配置。"
+      },
+      {
+        "point": "坡道作業前確認坡道角度、潮差、承載及固定。",
+        "importance": "supporting",
+        "explanation": "防止船岸落差及坡道事故。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Car Carrier (1) — Introduction to Japanese Car Carriers and Precautions During Operation",
+        "sourceType": "other",
+        "issuer": "Japan P&I Club",
+        "url": "https://www.piclub.or.jp/en/news/41351",
+        "supports": "PCC箱形側面、淺吃水、受風漂移，以及船橋偏前、船尾視線受限等特徵。"
+      },
+      {
+        "title": "Ship Handling of PCC Type Ship in Harbour under Wind",
+        "sourceType": "academic_paper",
+        "issuer": "Iwai, A.; Kugumiya, H.; Oda, K.; TRID",
+        "editionOrEffectiveDate": "November 1986",
+        "url": "https://trid.trb.org/View/397430",
+        "supports": "PCC低速、風中及港內靠泊操縱特性之模型試驗與實船研究。"
+      },
+      {
+        "title": "Product Transport — Car Carriers",
+        "sourceType": "official_company",
+        "issuer": "Mitsui O.S.K. Lines",
+        "url": "https://www.mol.co.jp/en/various-vessels/product_trasnportation/",
+        "supports": "PCC多層甲板結構及側面受風、風壓漂移等特徵。"
+      },
+      {
+        "title": "Ship Handling of PCC in Wind",
+        "sourceType": "academic_paper",
+        "issuer": "Japan Society of Naval Architects and Ocean Engineers",
+        "editionOrEffectiveDate": "1984",
+        "url": "https://www.jstage.jst.go.jp/article/jjasnaoe1968/1984/155/1984_155_122/_article/-char/en",
+        "supports": "大型上層建築船舶（包括PCC）受風操縱性能之實驗研究。"
+      }
+    ],
+    "assumptions": [
+      "PCC泛指專用汽車運輸船，部分新型船亦稱PCTC；船橋位置、坡道配置、側推器及推進系統依船型而異。",
+      "題目未提供特定船舶Pilot Card、風壓面積、拖船及碼頭資料，因此以通用船型特徵與靠泊程序作答，不設定固定風速限制或拖船馬力。"
+    ],
+    "limitations": [
+      "受風力及風壓中心會隨載況、裝載高度、上層建築形狀及風向改變，不能只用船長或總噸位推估靠泊能力。",
+      "GM及橫搖特性受裝載、壓載、自由液面及貨物垂直分布影響，應以該船穩度資料為準。",
+      "坡道可用角度、承載及船岸高度差應依製造商資料、碼頭條件及潮位核對。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "PCC多層車輛甲板及箱形船體",
+          "result": "pass",
+          "note": "依MOL船型說明及Japan P&I Club專文核對。"
+        },
+        {
+          "item": "高乾舷、淺吃水及風壓漂移",
+          "result": "pass",
+          "note": "Japan P&I Club指出側面箱形、淺吃水及風中易漂移；1986年TRID研究確認PCC港內低速風中操船為專門研究問題。"
+        },
+        {
+          "item": "船橋位置與船尾盲區",
+          "result": "pass",
+          "note": "依Japan P&I Club專文核對部分汽車船船橋偏前及船尾視線受限之作業風險。"
+        },
+        {
+          "item": "靠泊操船建議",
+          "result": "pass",
+          "note": "依PCC風中操船研究及一般引水操船程序整理；具體拖船及風速限制須依本船資料。"
+        },
+        {
+          "item": "穩度及坡道注意事項",
+          "result": "needs_review",
+          "note": "題目未指定船舶裝載計畫、GM、坡道型式及製造商限制，故保留依船舶文件確認原則，不宣稱統一數值。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
