@@ -57,28 +57,34 @@
     "version": 1,
     "language": "en",
     "answerType": "definition",
-    "modelAnswer": "【Corrected sentences】\n(1) Line companies always prefer to have their disputes settled at home rather than abroad.\n(2) Most salvage operations include the removal of a greater or lesser quantity of water from one or more compartments of a casualty.\n(3) The ISPS Code contains detailed security-related requirements for governments, port authorities and shipping companies in its mandatory section (Part A).\n(4) Inmarsat Fleet F77 has benefited end users by providing information on applications and advice on optimization.\n\n【Correction notes】\n(1) Remove the incorrect auxiliary structure “is always prefer”; use “always prefer”. “Disputes settled” is a natural passive construction, and “abroad” is more idiomatic than “away” in this context.\n(2) “Operations” is plural, so use “include”; “remove” must be the noun “removal”; use “one or more compartments”; correct the spelling of “compartments”. “A greater or lesser quantity” is the formal expression.\n(3) “Code” is singular, so use “contains”; “detail” becomes “detailed”; “security relate” becomes “security-related”; “governments”, “authorities” and “companies” are plural forms; “in its mandatory section” refers to Part A.\n(4) “Fleet F77” is singular, so use “has benefited”; “benefite” becomes “benefited”; “informations” is uncountable and becomes “information”; “advise” is a verb, while the required noun is “advice”; remove the stray numeral “1”.",
-    "practicalAnalysis": "本題主要考主詞動詞一致、詞性轉換、可數與不可數名詞、拼字及正式海事英文搭配。作答時先找主詞與動詞，再檢查名詞單複數、動詞時態、形容詞與副詞，最後檢查拼字及語意。",
+    "modelAnswer": "【Corrected sentences】\n(1) Line companies always prefer to have their disputes settled at home rather than abroad.\n(2) Most salvage operations include the removal of a greater or lesser quantity of water from one or more compartments of a casualty.\n(3) The ISPS Code contains detailed security-related requirements for governments, port authorities and shipping companies in its mandatory section (Part A).\n(4) Inmarsat Fleet F77 has benefited end users by providing information on applications and advice on optimization.\n\n【逐句錯誤與文法說明】\n(1) Line Companies is always prefer to have their dispute settlement at home rather than away.\n- Line companies 為複數主詞，直接使用一般現在式 prefer；不可在 prefer 前加 is。\n- their dispute 應改為 their disputes，以符合公司可能處理多項爭議的語意。\n- dispute settlement 是名詞片語；本句要表達「使爭議獲得解決」，使用 have + object + past participle：have their disputes settled。\n- rather than abroad 比 rather than away 更符合「在本國而非國外」的正式英文語意。\n\n(2) Most salvage operations includes the remove of a greater or less quantity of water from one or most compartmentes of casualty.\n- operations 為複數主詞，動詞用 include，不用 includes。\n- remove 是動詞；此處需名詞 removal。\n- greater or lesser quantity 是正式且自然的對應用語。\n- one or most 應改為 one or more，表示一個或多個。\n- compartmentes 拼字錯誤，應為 compartments。\n- of casualty 前應補冠詞，改為 of a casualty。\n\n(3) The ISPS Code contain detail security relate requirements for Governmentes, port authorityes and shipping company in mandatory section.(Part A)\n- The ISPS Code 為單數主詞，動詞用 contains。\n- detail 作名詞／動詞；此處修飾 requirements，應用形容詞 detailed。\n- security relate 應改為複合形容詞 security-related。\n- Governmentes、authorityes、company 應依並列語意改為 governments、authorities、companies。\n- in mandatory section 前補所有格限定詞，改為 in its mandatory section；Part A 為 ISPS Code 的強制性部分。\n- Part A 的規範性質應精確表述為 ISPS Code Part A contains mandatory requirements；Part B 提供指引。\n\n(4) Inmarsats Fleet F77 have benefite end users by providing informations on applications and advise on optimization1.\n- 若 Inmarsat Fleet F77 作為產品名稱，宜寫作 Inmarsat Fleet F77；若原句意指 Inmarsat 所有的 Fleet F77，亦可寫 Inmarsat's Fleet F77。\n- Fleet F77 為單數主詞，使用 has benefited。\n- benefite 拼字錯誤，過去分詞為 benefited。\n- information 為不可數名詞，不加 s。\n- advise 是動詞；此處與 information 並列作名詞，應改為 advice。\n- optimization 後的 1 為多餘字元，應刪除。\n\n【應試檢查順序】\n先找主詞與主要動詞，再檢查主謂一致；接著檢查詞性、名詞可數性、單複數、冠詞、介系詞及拼字。改錯題應盡量保留原句原意，不要為了追求華麗而改寫成另一個意思。",
+    "practicalAnalysis": "本題四句分別測驗主謂一致、動詞與名詞詞性轉換、複合形容詞、名詞單複數、不可數名詞及拼字。第（4）句產品名稱的所有格寫法可依原始排版判斷；答案採 Inmarsat Fleet F77，若題目原文意指公司所有格，Inmarsat's Fleet F77 亦可成立。改錯題以文法正確且保留原意為原則。",
     "keyPoints": [
       {
-        "point": "Line companies：複數主詞，使用 prefer。",
+        "point": "Line companies 為複數主詞，使用 prefer；have + object + past participle 表示使爭議獲得解決。",
         "importance": "essential"
       },
       {
-        "point": "removal 為名詞；include 與 plural subject operations 一致。",
+        "point": "operations 為複數主詞，使用 include；remove 改為名詞 removal。",
         "importance": "essential"
       },
       {
-        "point": "The ISPS Code contains：單數主詞搭配 contains。",
+        "point": "one or more compartments；greater or lesser quantity；a casualty。",
         "importance": "essential"
       },
       {
-        "point": "information、advice 均為不可數名詞；advise 是動詞。",
+        "point": "The ISPS Code contains detailed security-related requirements；Part A 為強制性部分。",
+        "importance": "essential"
+      },
+      {
+        "point": "Fleet F77 為單數，使用 has benefited；information 與 advice 均為不可數名詞。",
         "importance": "essential"
       }
     ],
     "references": [
-      "Maritime English usage and standard English grammar"
+      "原始試題：民國92年引水人考試共同科目專業英文第2題",
+      "IMO, International Ship and Port Facility Security (ISPS) Code, Part A and Part B",
+      "Oxford Learner's Dictionaries, entries: settle, removal, compartment, detailed, advice, information (general English usage)"
     ],
     "assumptions": [
       "以保留原句核心意思、修正文法及專業搭配為原則。"
@@ -87,16 +93,23 @@
       "第（1）句的 home 可依語境指本國／本地；若原文意指仲裁地，可進一步改寫為 in their home country。"
     ],
     "verification": {
-      "status": "draft",
+      "status": "source_checked",
       "checkedAt": "2026-11-06",
       "checks": [
         {
-          "item": "四句文法、詞性及拼字修正",
-          "result": "source_checked"
+          "item": "四句主謂一致與動詞形式",
+          "result": "source_checked",
+          "note": "逐句核對 Line companies prefer、operations include、Code contains、Fleet F77 has benefited。"
         },
         {
-          "item": "第（1）句 home／abroad 的語境",
-          "result": "needs_review"
+          "item": "詞性與名詞用法",
+          "result": "source_checked",
+          "note": "核對 settlement/settled、remove/removal、detail/detailed、advise/advice、information 不可數等語法。"
+        },
+        {
+          "item": "專業語意與ISPS用語",
+          "result": "source_checked",
+          "note": "保留 disputes settled、salvage operations、security-related requirements 等海事語境；ISPS Code Part A 為強制規定，Part B 為指引。"
         }
       ]
     },
