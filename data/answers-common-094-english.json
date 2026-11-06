@@ -63,5 +63,80 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "094-english-02-answer-v1",
+    "questionId": "94-english-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "As a total solar eclipse took place on Friday, a blanket of darkness fell over much of Indonesia and the southern Philippines. Among the thousands of people who witnessed the scene, some prayed, some cheered, and others beat drums.\\n\\nA partial solar eclipse could also be seen in areas extending from India in the west, across Southeast Asia, mainland China and Japan, to New Guinea, as well as parts of Australia and the Pacific islands.",
+    "practicalAnalysis": "本題為中翻英新聞敘述，重點是天文現象與群眾反應的自然表達。全日蝕應譯 total solar eclipse，不可直譯成 all-day eclipse；日偏蝕為 partial solar eclipse。a blanket of darkness fell over 是描述大範圍陷入黑暗的自然新聞用語；much of Indonesia and the southern Philippines 保留「大部分地區」的範圍語意。群眾反應可用 some prayed, some cheered, and others beat drums，呈現排比。最後一句用 extending from...to...表達可見區域的地理延伸，並以 as well as 補充澳洲及太平洋部分島嶼。",
+    "keyPoints": [
+      {
+        "point": "全日蝕＝total solar eclipse；日偏蝕＝partial solar eclipse。",
+        "importance": "essential"
+      },
+      {
+        "point": "「一片黑幕籠罩」可譯 a blanket of darkness fell over，避免逐字直譯。",
+        "importance": "essential"
+      },
+      {
+        "point": "「印尼及南菲律賓大部分地區」＝much of Indonesia and the southern Philippines。",
+        "importance": "essential"
+      },
+      {
+        "point": "「有人祈禱、有人歡呼，也有人擊鼓」用平行結構 some..., some..., and others...。",
+        "importance": "supporting"
+      },
+      {
+        "point": "「遠自西邊的印度……都可見到」可用 areas extending from India in the west ... to...。",
+        "importance": "essential"
+      },
+      {
+        "point": "mainland China用來表達中國大陸，避免與島嶼或其他地區混淆。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      "考選部民國94年引水人考試專業英文第2題原文：請將有關週五全日蝕及日偏蝕可見範圍的中文新聞段落翻譯成英文。",
+      {
+        "title": "NASA – Solar Eclipses",
+        "sourceType": "other",
+        "issuer": "National Aeronautics and Space Administration",
+        "url": "https://science.nasa.gov/eclipses/",
+        "accessedAt": "2026-11-06",
+        "supports": "核對 total solar eclipse 與 partial solar eclipse 等天文現象英文名稱。"
+      }
+    ],
+    "assumptions": [
+      "依考題中文內容忠實翻譯，不另行推定該次日蝕的確切日期或重新判定可見範圍。",
+      "「成千群眾」依語意譯為 thousands of people。"
+    ],
+    "limitations": [
+      "題目未提供新聞原文或事件日期；答案以中文題幹為唯一翻譯依據，不對歷史天文事件另作事實校訂。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "全日蝕與日偏蝕專業英文術語",
+          "result": "pass",
+          "note": "採total solar eclipse及partial solar eclipse。"
+        },
+        {
+          "item": "地名及可見範圍語意",
+          "result": "pass",
+          "note": "保留印尼、南菲律賓、印度、東南亞、中國大陸、日本、新幾內亞、部分澳洲及太平洋島嶼。"
+        },
+        {
+          "item": "新聞英文語法與句型",
+          "result": "pass",
+          "note": "採自然新聞敘述及平行結構，未增加題幹以外的事件資訊。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
