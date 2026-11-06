@@ -472,5 +472,120 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "098-shiphandling-05-answer-v1",
+    "questionId": "98-shiphandling-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "technical_essay",
+    "modelAnswer": "【一、Virtual Mass（虛擬質量）與 Added Mass（附加質量）】\n\n（一）Added Mass之意義\n船舶在水中加速、減速或作橫向運動時，不僅要使船體本身產生加速度，也必須帶動船體周圍一定範圍的水一起加速。這部分因船體運動而產生加速作用的水，其慣性效應可等效為附加質量（Added Mass），亦稱水動力附加質量。\n\n附加質量不是實際裝載在船上的重量，也不是船舶排水量增加，而是流體慣性對船舶運動的等效反作用。其大小與船型、運動方向、吃水、船速、周圍水深、岸壁及水域限制等有關。\n\n（二）Virtual Mass之意義\n虛擬質量（Virtual Mass）通常指船體本身質量與附加質量的合成等效慣性質量：\n\nm_{virtual}=m+m_a\n\n其中m為船舶本身質量（通常以排水質量表示），m_a為該運動方向之附加質量。不同方向的附加質量不同，因此縱向（Surge）、橫向（Sway）及旋迴（Yaw）須分別考慮；旋迴運動通常以附加轉動慣量表示。\n\n（三）簡易表示式\n1. 直線加速之等效慣性力：\nF=(m+m_a)a\n其中F為外力，a為船體加速度。\n2. 縱向運動：\nF_xapprox(m+m_x)dot{u}\n3. 橫向運動：\nF_yapprox(m+m_y)dot{v}\n4. 旋迴運動：\nNapprox(I_z+J_z)dot{r}\n其中m_x、m_y分別為縱向及橫向附加質量，I_z為船舶繞垂直軸之轉動慣量，J_z為附加轉動慣量，u、v為縱向及橫向速度，r為旋迴角速度。以上為簡化表示，完整操船方程式尚須考慮耦合項及科氏／向心項。\n\n【二、Added Mass對操船之影響】\n\n1. **加速及減速反應：**船舶運動時須同時加速周圍水體，故相同外力下實際加速度較僅考慮船體質量時小，主機及舵令的反應較遲緩。\n2. **橫移及側向操縱：**橫向附加質量通常不可忽略，船舶橫移、拖船推頂及靠離泊時，須克服船體與周圍水體的慣性。\n3. **旋迴及改向：**旋迴附加慣量會影響船舶建立或停止旋迴角速度所需時間及力矩；船舶開始轉向後仍可能持續旋迴，必須提早反舵。\n4. **靠離泊與拖船作業：**拖船施力不只使船體移動，也須帶動周圍水體，因此船舶橫移及停止橫移均有慣性延遲；應預留足夠反應時間及水域。\n5. **受限水域效應：**淺水、狹窄航道或靠近岸壁時，流體流動受限制，水動力係數及附加質量可能增加，操縱反應與深水情況不同。\n\n【三、Froude’s Number（傅汝德數）】\n\n（一）定義\n傅汝德數為慣性力與重力效應之無因次比值，用來比較流體運動中慣性效應與重力效應的相對重要性。船舶水面航行常用船長傅汝德數（Length Froude Number）：\n\nFr=\frac{V}{sqrt{gL}}\n\n其中：\n- V：船舶相對水體之速度（m/s）。\n- g：重力加速度，約9.81m/s²。\n- L：特徵長度，船舶常取垂線間長LBP（m）。\n\n若討論淺水航行及航道水深效應，另常用水深傅汝德數：\n\nFr_h=\frac{V}{sqrt{gh}}\n\n其中h為水深（m）。船長傅汝德數與水深傅汝德數使用的特徵長度不同，不可混為一談。\n\n（二）簡易公式及意義\n1. 船長傅汝德數：Fr=V/√(gL)，用於船模相似、波浪興波及船舶阻力分析。\n2. 水深傅汝德數：Fr_h=V/√(gh)，用於判斷淺水航道中船速與長波傳播速度的關係。\n3. 當Fr_h接近1時，船舶速度接近該水深下長波傳播速度，可能出現明顯水位變化、波浪及阻力急增、船體下沉（Squat）與操縱性能惡化；應依水深、船速及航道限制評估安全航速。\n\n【四、Froude’s Number對操船之影響】\n\n1. **興波與阻力：**船長傅汝德數反映船速與重力波效應的關係，影響船舶興波、波浪阻力及船模與實船相似性。\n2. **淺水效應及Squat：**水深傅汝德數提高時，船舶與水體間的流速及壓力變化加劇，可能使船體下沉及縱傾增加，造成龍骨下淨空（UKC）減少。\n3. **操縱性變化：**淺水及受限水域中，船舶阻力、船首船尾流場、舵效及旋迴性能可能改變，通常須降低速度並保留足夠水深及水域。\n4. **船岸及船船交互作用：**在狹窄水道、高水深傅汝德數及近岸航行時，可能加劇岸吸、船間吸引及船艏波等交互作用，須注意船舶間距與岸距。\n5. **引水實務：**進入港池、河道或淺水航道前，應計算水深、船速及UKC，避免在水深傅汝德數接近臨界狀態下高速航行；必要時依港口規定及本船操縱資料減速。\n\n【結論】\nAdded Mass是船體運動時被帶動的周圍水體所形成之等效慣性；Virtual Mass通常為船舶本身質量加上該方向附加質量。它會影響船舶加減速、橫移及旋迴反應。Froude’s Number為速度與重力波效應的無因次比值，船長式Fr=V/√(gL)，淺水分析另用Fr_h=V/√(gh)。對引水操船而言，兩者分別有助於理解船舶慣性、興波、淺水下沉及受限水域操縱性能。",
+    "practicalAnalysis": "本題15分，先把兩個名詞區分清楚：Added Mass是被船體運動帶動的水之等效慣性；Virtual Mass通常是船體質量m與附加質量m_a相加。簡式F=(m+m_a)a；操船模型分縱向m_x、橫向m_y及旋迴附加慣量J_z。Froude數必寫Fr=V/√(gL)，另補淺水水深Froude數Fr_h=V/√(gh)，並說明Fr_h接近1時淺水阻力、波浪及Squat風險增加。切勿把船長Fr與水深Fr混為一談。",
+    "keyPoints": [
+      {
+        "point": "Added Mass為船體運動時被帶動之周圍水體的等效慣性效應，不是船上實際增加的重量。",
+        "importance": "essential",
+        "explanation": "與船體本身質量不同。"
+      },
+      {
+        "point": "Virtual Mass通常為m_virtual=m+m_a，即船舶本身質量加上該方向附加質量。",
+        "importance": "essential",
+        "explanation": "不同運動方向之附加質量不同。"
+      },
+      {
+        "point": "簡化慣性力F=(m+m_a)a；船舶操縱模型分縱向m_x、橫向m_y及旋迴附加慣量J_z。",
+        "importance": "essential",
+        "explanation": "完整方程尚有耦合及科氏項。"
+      },
+      {
+        "point": "附加質量影響加減速、橫移、旋迴及拖船推頂反應，須預留操縱時間與水域。",
+        "importance": "essential",
+        "explanation": "相同外力下等效慣性增加、加速度降低。"
+      },
+      {
+        "point": "船長Froude數Fr=V/√(gL)，V為m/s、L為m。",
+        "importance": "essential",
+        "explanation": "反映慣性與重力波效應的相對關係。"
+      },
+      {
+        "point": "淺水水深Froude數Fr_h=V/√(gh)，h為水深；與船長Fr不可混淆。",
+        "importance": "essential",
+        "explanation": "用於淺水航道流動及臨界速度判斷。"
+      },
+      {
+        "point": "Fr_h接近1時可能出現水位及波浪變化、阻力增大、Squat及UKC減少。",
+        "importance": "essential",
+        "explanation": "需評估水深、速度及安全淨空。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Introduction of MMG standard method for ship maneuvering predictions",
+        "sourceType": "academic_paper",
+        "issuer": "Yasukawa and Yoshimura, Journal of Marine Science and Technology",
+        "editionOrEffectiveDate": "2015",
+        "url": "https://doi.org/10.1007/s00773-014-0293-y",
+        "pageOrSection": "Section 2.2 Motion equations",
+        "supports": "船舶縱向、橫向及旋迴運動方程式中附加質量及附加轉動慣量之角色。"
+      },
+      {
+        "title": "Assessment of CFD-Based Ship Maneuvering Predictions Using Different Propeller Modeling Methods",
+        "sourceType": "academic_paper",
+        "issuer": "Journal of Marine Science and Engineering",
+        "editionOrEffectiveDate": "2022",
+        "url": "https://www.mdpi.com/2077-1312/10/8/1131",
+        "pageOrSection": "Section 2.2 Motion Equations",
+        "supports": "MMG操船模型中m_x、m_y、J_z及船舶質量、轉動慣量的組合。"
+      },
+      {
+        "title": "Calculation of added mass coefficients",
+        "sourceType": "academic_paper",
+        "issuer": "University of Tokyo Repository",
+        "url": "https://repository.dl.itc.u-tokyo.ac.jp/record/2265/files/K-295-4.pdf",
+        "supports": "船舶不同運動方向附加質量係數之計算與意義。"
+      },
+      {
+        "title": "Added mass and virtual mass in ship hydrodynamics",
+        "sourceType": "academic_paper",
+        "issuer": "University of Rijeka repository",
+        "url": "https://hrcak.srce.hr/file/153618",
+        "supports": "說明流體附加質量及虛擬質量之物理意義。"
+      }
+    ],
+    "assumptions": [
+      "Virtual Mass在船舶操縱文獻中常用作船體質量與附加質量合成後的等效慣性質量；個別教材可能將virtual mass及added mass用語交互使用，作答時應先定義本文採用的區別。",
+      "Froude number分船長特徵長度及水深特徵長度兩種應用，題目未限定時一併說明，以免只答一種而漏失淺水操船關聯。"
+    ],
+    "limitations": [
+      "附加質量係數並非固定常數，會受船型、吃水、頻率、速度、水深及岸壁限制影響；本文公式為概念性簡化。",
+      "Fr_h接近1並非單獨即可決定Squat數值；實際下沉量仍須依船型、航道阻塞係數、速度及水深計算或查用專業資料。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "Added Mass及Virtual Mass概念",
+          "result": "pass",
+          "note": "依學術文獻核對附加質量為周圍流體慣性效應，虛擬質量為船體質量與流體附加質量之等效合成。"
+        },
+        {
+          "item": "MMG操船模型",
+          "result": "pass",
+          "note": "依Yasukawa與Yoshimura之MMG標準方法及2022年期刊模型核對m_x、m_y、J_z。"
+        },
+        {
+          "item": "船長Froude數",
+          "result": "needs_review",
+          "note": "本次檢索來源以船舶操縱方程式為主，船長Froude數採標準流體力學定義；後續可補船舶水槽試驗或ITTC正式文件。"
+        },
+        {
+          "item": "水深Froude數及淺水效應",
+          "result": "needs_review",
+          "note": "Fr_h=V/√(gh)為標準淺水流動無因次數；題目未要求特定臨界值或Squat公式，未加入未經本船資料驗證的數值。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
