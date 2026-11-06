@@ -54,27 +54,27 @@
       "checks": [
         {
           "item": "環境、乾絕熱及濕絕熱遞減率定義",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依 NOAA NWS Marine Weather Glossary；確認環境遞減率為實測垂直溫度變化，乾絕熱約9.8°C/km，濕絕熱遞減率非固定常數。"
         },
         {
           "item": "東風波定義及發展條件",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依 NOAA NWS Glossary；東風波為熱帶低層擾動，可發展成熱帶氣旋但非必然。"
         },
         {
           "item": "海霧及平流霧、蒸發混合霧",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依 NOAA NWS Fog Over Water 及官方霧類詞彙；區分暖濕空氣移經冷水與冷空氣移經暖水的形成機制。"
         },
         {
           "item": "焚風形成機制",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依英國氣象局 Met Office 對焚風效應的說明；除迎風坡降水及背風坡下沉增溫外，亦可能有高空空氣下沉與湍流混合。"
         },
         {
           "item": "全球三圈環流",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依 NOAA JetStream 全球大氣環流資料，確認 Hadley、Ferrel、Polar 三胞及其基本位置與環流特徵。"
         }
       ]
@@ -141,27 +141,27 @@
       "checks": [
         {
           "item": "颱風身分及實際路徑",
-          "result": "source_checked",
+          "result": "pass",
           "note": "CWA歷史資料及JMA 2003年年報最佳路徑互相印證；JMA記錄11月2日00 UTC約20.1°N、121°E，12 UTC約21.4°N、121°E，之後向東北移動。"
         },
         {
           "item": "題目時間及位置",
-          "result": "source_checked",
+          "result": "pass",
           "note": "11月2日08時臺灣時間為00 UTC；JMA最佳路徑與HKO同日02時實況均顯示颱風在呂宋北部／巴士海峽附近，定位時次不同。"
         },
         {
           "item": "同期西北及南海方向預報",
-          "result": "source_checked",
+          "result": "pass",
           "note": "香港天文台2003年11月2日02:49 HKT公告預測米勒向西北移動並進入南海北部；TVBS 2003年11月3日報導重建中央氣象局11月1至2日預報多次修正。"
         },
         {
           "item": "JMA當時預報系統及定位方法",
-          "result": "source_checked",
+          "result": "pass",
           "note": "JMA 2003年年報指出路徑預報主要依TYM、GSM，低緯度另採Persistence-Climatology方法；中心定位主要依靜止氣象衛星雲圖。"
         },
         {
           "item": "呂宋地形及秋季環流等個案成因",
-          "result": "source_checked",
+          "result": "pass",
           "note": "引用2003年11月3日同期報導所引述專家分析，明確標示為同期解釋，未宣稱為獨立再分析的定量因果證明。"
         },
         {
@@ -229,22 +229,22 @@
       "checks": [
         {
           "item": "兩次相對方位之幾何關係",
-          "result": "source_checked",
+          "result": "pass",
           "note": "以 tan30°=y/x1、tan60°=y/x2 及 x1−x2=20 NM 推導，得 y=10√3=17.32 NM。"
         },
         {
           "item": "正橫時間與距離",
-          "result": "source_checked",
+          "result": "pass",
           "note": "2100 時前方縱距為10 NM，20 kn航速需30分鐘，故2130正橫；正橫距離為17.32 NM。"
         },
         {
           "item": "航向及相對方位的使用",
-          "result": "source_checked",
+          "result": "pass",
           "note": "題目給的是右舷相對方位，航向210°不需再作絕對方位換算。"
         },
         {
           "item": "航海教材方法",
-          "result": "source_checked",
+          "result": "pass",
           "note": "對照NGA Bowditch《American Practical Navigator》§1021，以兩次物標方位及航程求物標距離的航海幾何方法。"
         }
       ]
@@ -301,7 +301,7 @@
       "checks": [
         {
           "item": "四種基點標誌形狀、頂標、顏色及燈光節奏",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依 IALA R1001 官方資料核對。"
         }
       ]
@@ -365,22 +365,22 @@
       "checks": [
         {
           "item": "北太平洋主要環流方向及流系關係",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依NGA Pub.120第348–355頁核對：北太平洋副熱帶環流整體順時針；北赤道洋流向西，黑潮北上後轉東，親潮南下與黑潮延伸流交會，北太平洋洋流抵達北美後分支為阿拉斯加流及加利福尼亞洋流。"
         },
         {
           "item": "代表性流速",
-          "result": "source_checked",
+          "result": "pass",
           "note": "NGA Pub.120提供特定海域數值：臺灣東岸黑潮約0.5–2.5 kn；北赤道洋流約0.3–1.4 kn；加利福尼亞洋流沿岸約0.5–1 kn；親潮在堪察加附近約0.25–0.5 kn。答案明確限定地理範圍，不再使用無來源的全流系概括數字。"
         },
         {
           "item": "季節變化及近表層資料限制",
-          "result": "source_checked",
+          "result": "pass",
           "note": "NOAA/AOML Global Drifter Program提供年平均與月平均近表層U/V流速氣候場；資料可分析季節變化，但不代表特定航次即時流速或全水深流場。"
         },
         {
           "item": "氣象及航海影響",
-          "result": "source_checked",
+          "result": "pass",
           "note": "以暖寒流熱量輸送、海霧形成、海溫鋒面及流壓對SOG/航跡影響之海洋學與航海原理說明；實務數值仍須查當期海流資料。"
         }
       ]
