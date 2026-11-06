@@ -1,0 +1,111 @@
+[
+  {
+    "id": "102-pilotage-01-answer-v1",
+    "questionId": "102-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "technical_terms",
+    "modelAnswer": "【一、引導標誌（Leading Mark）】\n\n引導標誌係由兩個或兩個以上固定陸標、標桿或人工標誌，設置於同一垂直平面或同一方位線上，供船舶航行時辨認其是否保持在預定安全航線上。\n\n1. 通常由前標（Front Mark）及後標（Rear Mark）組成，兩標前後分置，後標通常較高，以便遠距離觀察。\n2. 船舶航行時，若前、後標重疊成一直線，表示船舶位於該引導線上；若兩標分開，則表示船舶偏離引導線，應依偏差方向修正航向。\n3. 引導線通常設於狹窄航道、港口入口、河道或通航困難水域，用以引導船舶沿安全航路航行。\n4. 引導標誌可以是天然地物或人工標誌；若為不發光的日標，白天可供辨認，夜間則須使用燈光或其他助航設備。\n\n【二、安全標誌（Clearing Mark）】\n\n安全標誌係用來標示船舶與危險物之間安全界線或安全通過方向的固定標誌。船舶依指定方位或標誌相對位置航行，即可保持在危險物以外的安全水域。\n\n1. 通常以兩個標誌形成一條安全界線（Clearing Line）；當兩標重疊成一直線，或依海圖所標示之指定方位觀測時，表示船舶位於安全界線上。\n2. 航行人員可依海圖指示，使標誌保持「開口」（Open）或維持在指定方位的一側，以確保與暗礁、淺灘、沉船或其他危險物保持安全距離。\n3. 安全標誌的主要目的在於確認船舶是否已避開危險區域，或是否仍位於安全水域；它不一定代表船舶應沿該線持續航行。\n4. 安全標誌可由天然陸標或人工標誌構成，海圖上可能以清除線、指定方位或相關符號表示。\n\n【三、導燈（Range Light）】\n\n導燈係設置於同一垂直平面、前後分隔的兩座或兩座以上燈標，當船舶觀察時各燈重疊成一直線，即形成導引線（Leading Line），供船舶夜間沿指定航線航行。\n\n1. 通常由前導燈（Front Light）及後導燈（Rear Light）組成，後導燈通常較高、距離較遠，使兩燈在正確航向上呈上下重疊。\n2. 船舶夜間航行時，保持前後導燈重疊，即表示船舶位於導燈所標示的航線上；若兩燈分離，應依相對位置修正航向。\n3. 導燈常設於狹窄航道、港口入口、河道及轉向困難的水域，協助船舶在夜間保持正確航向。\n4. 導燈可提供特定方位線，通常沿航道中心線或安全航路設置；實際航行仍須依海圖、燈表及導燈標示的進出方向使用。\n\n【四、三者之比較】\n\n| 名詞 | 主要目的 | 形式 | 航行使用方式 |\n|---|---|---|---|\n| 引導標誌 Leading Mark | 引導船舶沿指定安全航線 | 兩個或以上日間可辨識的固定標誌 | 前後標重疊成線，表示船舶在引導線上 |\n| 安全標誌 Clearing Mark | 確認船舶與危險物保持安全距離 | 一個或多個標誌形成安全界線或指定方位 | 依海圖使標誌保持開口或位於指定方位，確保不越過危險界線 |\n| 導燈 Range Light | 夜間引導船舶沿指定航線 | 兩座或以上燈標，前後分置且高度不同 | 前後燈重疊成線，即位於導燈線上 |\n\n【結論】\n\n引導標誌是以兩個或以上陸上標誌重疊成線，引導船舶沿安全航線航行；安全標誌則用來表示安全界線或與危險物的安全距離，船舶依指定方位或保持標誌開口即可確認安全；導燈則是夜間使用的燈光引導設施，通常由前後兩燈組成，兩燈重疊時即表示船舶位於指定導引線上。",
+    "practicalAnalysis": "本題15分，每小題5分。Leading Mark是日間前後標重疊成線以引導航向；Clearing Mark是以標誌或方位建立安全界線，讓船舶保持在危險物外側，常用「open of」判斷；Range Light是夜間兩座或多座燈標重疊成線的導燈。最重要是區分「導引航線」與「安全界線」，不要把Clearing Mark也寫成單純導燈。",
+    "keyPoints": [
+      {
+        "point": "Leading Mark：兩個或以上固定標誌前後排列，重疊成線時表示船舶位於指定安全引導線。",
+        "importance": "essential",
+        "explanation": "常見於狹窄航道及港口入口。"
+      },
+      {
+        "point": "Clearing Mark：標示安全界線或指定方位，使船舶保持在礁石、淺灘等危險物以外。",
+        "importance": "essential",
+        "explanation": "可用標誌保持開口或指定方位判斷安全。"
+      },
+      {
+        "point": "Range Light：兩座或以上前後分置、同一垂直平面的燈標，重疊時形成夜間導引線。",
+        "importance": "essential",
+        "explanation": "後燈通常較高。"
+      },
+      {
+        "point": "Leading Mark與Range Light的共同點是形成引導線；差別在於前者泛指標誌，後者為發光燈標組合。",
+        "importance": "supporting",
+        "explanation": "白天可辨認標誌，夜間使用燈光。"
+      },
+      {
+        "point": "Clearing Mark的目的在於確認安全界線，不一定是船舶應持續航行的中心線。",
+        "importance": "essential",
+        "explanation": "應依海圖上標示的bearing或clearing line使用。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Chart Specifications of the IHO (S-4), Edition 4.9.0",
+        "sourceType": "international_convention",
+        "issuer": "International Hydrographic Organization",
+        "editionOrEffectiveDate": "March 2021",
+        "url": "https://iho.int/uploads/user/pubs/standards/s-4/S4_V4-9-0_March_2021.pdf",
+        "pageOrSection": "B-433.1–B-433.4; B-475.6",
+        "supports": "Leading marks、clearing marks及leading lights的定義與海圖表示方式。"
+      },
+      {
+        "title": "Nautical Chart Manual, Section 5.8 Ranges",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA Office of Coast Survey",
+        "editionOrEffectiveDate": "2003",
+        "url": "https://ocsdata.ncd.noaa.gov/mcs/05_ncm_vol1_pt2.pdf",
+        "pageOrSection": "Section 5.8 Ranges",
+        "supports": "兩個或以上標誌重疊成線形成range；日標稱leading marks，燈光稱range lights或leading lights。"
+      },
+      {
+        "title": "海軍大氣海洋局《海圖圖例》第八版",
+        "sourceType": "official_port_or_authority",
+        "issuer": "中華民國海軍大氣海洋局",
+        "editionOrEffectiveDate": "2010",
+        "url": "https://navy.mnd.gov.tw/Files/Policy/%E6%B5%B7%E8%BB%8D_%E6%B5%B7%E5%9C%96%E5%9C%96%E4%BE%8B.pdf",
+        "pageOrSection": "M 航線、航路；P 燈；E 陸標",
+        "supports": "我國海圖上航路、陸標及燈標符號與圖式。"
+      },
+      {
+        "title": "102年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國102年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=802&code=102070&q=1&s=0805&t=Q",
+        "pageOrSection": "引港學第一題",
+        "supports": "核對原題三個名詞及配分。"
+      }
+    ],
+    "assumptions": [
+      "Leading Mark依IHO「leading marks」解讀為形成leading line的陸標或人工標誌；Range Light依NOAA Chart Manual定義為同一導引線上的燈標。",
+      "Clearing Mark依IHO S-4 B-433定義，係形成clearing line或配合指定方位標示安全界線。"
+    ],
+    "limitations": [
+      "不同海圖及港口可能以特定符號、bearing或文字標示Clearing Mark，實際通過方式應以該張海圖的清除線及註記為準。",
+      "Leading Mark及Range Light在部分教材用語可能交疊；本答案依IHO及NOAA將日標與燈標分別說明。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "Leading Mark定義",
+          "result": "pass",
+          "note": "依IHO S-4 B-433及NOAA Chart Manual 5.8核對。"
+        },
+        {
+          "item": "Clearing Mark定義",
+          "result": "pass",
+          "note": "依IHO S-4 B-433核對清除線、標誌在一線及指定方位的功能。"
+        },
+        {
+          "item": "Range Light定義",
+          "result": "pass",
+          "note": "依NOAA Nautical Chart Manual 5.8核對range lights／leading lights。"
+        },
+        {
+          "item": "原題及配分",
+          "result": "pass",
+          "note": "依考選部102年引港學第一題核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
