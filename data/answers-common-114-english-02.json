@@ -1,0 +1,76 @@
+[
+  {
+    "id": "answer-114-english-02",
+    "questionId": "114-english-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "(1) When a vessel is navigating in a narrow channel or an area with dense traffic, a proper lookout should be maintained at all times, and the main engine should be kept ready for immediate manoeuvre in case of an emergency.\n\n(2) Before commencing pilotage, the master and the pilot should clearly define their respective responsibilities to ensure effective communication and cooperation throughout the operation.",
+    "practicalAnalysis": "本題接受意思等值的譯法。第一句可用 maintain a proper lookout 或 remain highly alert；「主機隨時備妥」可用 keep the main engine ready for immediate manoeuvre。第二句要表達雙方事先確認職責，而不是把船舶安全責任完全移交給引水人。",
+    "keyPoints": [
+      {
+        "point": "narrow channel：狹窄水道。",
+        "importance": "essential"
+      },
+      {
+        "point": "dense traffic：交通密集水域。",
+        "importance": "essential"
+      },
+      {
+        "point": "maintain a proper lookout：保持適當瞭望。",
+        "importance": "essential"
+      },
+      {
+        "point": "main engine kept ready：主機保持備便。",
+        "importance": "supporting"
+      },
+      {
+        "point": "respective responsibilities：各自職責；effective communication and cooperation：有效溝通與合作。",
+        "importance": "supporting"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "totalPoints": null,
+      "items": []
+    },
+    "references": [
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2003-12-05",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "pageOrSection": "Annex 2, sections 2, 5 and 6",
+        "accessedAt": "2026-11-07",
+        "supports": "引水作業責任分工、引水前資訊交換及持續溝通。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "未取得考選部官方逐項評分細則；評分重點為編輯建議，非官方標準答案。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題號與題文",
+          "result": "pass",
+          "note": "對照114年共同科目題庫資料。"
+        },
+        {
+          "item": "專業術語與核心概念",
+          "result": "pass",
+          "note": "依IMO引水作業建議核對相關概念。"
+        },
+        {
+          "item": "官方評分細則",
+          "result": "needs_review",
+          "note": "未取得官方評分細則。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
