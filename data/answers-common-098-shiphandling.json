@@ -224,5 +224,129 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "098-shiphandling-03-answer-v1",
+    "questionId": "98-shiphandling-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "technical_essay",
+    "modelAnswer": "【一、法源及適用對象】\n\nIMO於2002年12月4日通過Resolution MSC.137(76)《船舶操縱性能標準》（Standards for Ship Manoeuvrability），取代原Resolution A.751(18)之臨時標準。該標準旨在建立船舶操縱性能的評估基準，提升航行安全。\n\n依MSC.137(76)第3.1段，標準適用於船長（L，兩垂線間長度）100公尺以上之各種舵及推進系統船舶；化學品船及液化氣船不論船長均適用。第3.2段規定，適用船舶如經修理、改裝或變更，且主管機關認為可能影響操縱性能，應重新確認符合標準。高速船依第3.4段排除。\n\n**日期應特別釐清：**題目提到「自1994年7月1日以後」，這是早期A.751(18)臨時操縱性能標準的歷史背景；MSC.137(76)本身於2002年通過，並邀請各國鼓勵適用於2004年1月1日以後建造之船舶，不能將1994年日期誤寫成MSC.137(76)通過或生效日期。\n\n【二、操縱性能試驗及基本條件】\n\n1. 試驗應以標準操縱試驗評估船舶性能，包括旋回試驗、初始轉向試驗、Z字試驗及全速倒車停止試驗。\n2. 試驗速度至少為船舶在主機最大連續輸出（MCR）85%時所對應船速的90%。\n3. 旋回試驗應在左右舷各進行，舵角採35度或該試驗速度下允許之最大舵角。\n4. 試驗條件原則為深水且不受限制水域、平靜環境、滿載（夏季載重線吃水）、正浮（even keel），並以穩定船速及零偏航角速度進入試驗。\n5. 標準試驗不得使用非日常操作中隨時可用的操縱輔助設備；若試驗條件與規定滿載狀態不同，應依IMO說明文件作必要修正。\n\n【三、操船基準（Criteria）—MSC.137(76)第5.3段】\n\n（一）旋回性能（Turning ability）\n在35度舵角旋回試驗中：\n- 進距（Advance）：不得超過4.5倍船長（4.5L）。\n- 戰術直徑（Tactical diameter）：不得超過5倍船長（5L）。\n\n進距係自下舵令位置起，至船首向改變90度時，船舶中點沿原航向方向前進的距離；戰術直徑係船首向改變180度時，船舶中點相對原航向的橫向距離。\n\n（二）初始轉向性能（Initial turning ability）\n施以左右舷10度舵角後，當船首向較原航向改變10度時，船舶航跡不得已前進超過2.5倍船長（2.5L）。\n\n（三）偏航抑制及航向保持性能（Yaw-checking and course-keeping abilities）\n\n1. 10°/10° Z字試驗第一超越角（First overshoot angle）上限：\n   - L/V小於10秒：10度。\n   - L/V為10秒以上、未滿30秒：5＋0.5(L/V)度。\n   - L/V為30秒以上：20度。\n\n2. 10°/10° Z字試驗第二超越角（Second overshoot angle）上限：\n   - L/V小於10秒：25度。\n   - L/V為10秒以上、未滿30秒：17.5＋0.75(L/V)度。\n   - L/V為30秒以上：40度。\n\n其中L以公尺表示，V以公尺／秒表示，L/V的單位為秒。Z字試驗係舵角與船首向偏轉角交替設定，用以評估船舶改向後的偏航抑制與航向控制能力。\n\n3. 20°/20° Z字試驗第一超越角不得超過25度。\n\n（四）停止性能（Stopping ability）\n全速倒車停止試驗中，從下達全速倒車令至船舶在水中停止的航跡距離（Track reach），不得超過15倍船長（15L）。對大型排水量船舶，主管機關得在認為15L標準不可行時調整，但絕不可超過20倍船長（20L）。\n\n【四、操船實務意義】\n\n1. 旋回性能標準可評估船舶在受限水域轉向、避讓及港內迴旋所需水域。\n2. 初始轉向性能反映舵令下達後船舶開始改變航向的靈敏程度，對狹窄航道及緊急避碰尤其重要。\n3. Z字試驗反映船舶偏航慣性、舵效及航向保持能力；超越角過大，代表改舵後船首仍持續偏轉，操船者須預留較大控制時間與水域。\n4. 停止性能反映船舶緊急停船所需距離，港口進出、靠離泊及避碰時應將船舶實際倒車性能納入安全裕度。\n5. 上述標準是在規定試驗條件下評估設計及操縱性能，不代表船舶在淺水、狹水道、強風流、滿載以外吃水或不同載況下仍可達到相同數值；實際操船仍應參考本船操縱性能圖（Pilot Card、Wheelhouse Poster及Manoeuvring Booklet）。\n\n【結論】\n\nMSC.137(76)對100公尺以上船舶及不論船長之化學品船、液化氣船建立四大操船基準：旋回進距不超過4.5L、戰術直徑不超過5L；10度舵角使船首向改變10度時航程不超過2.5L；10°/10°及20°/20° Z字試驗超越角符合L/V分段上限；全速倒車停止航跡不超過15L，特殊大型船經主管機關調整亦不得超過20L。",
+    "practicalAnalysis": "本題15分，採「適用對象→試驗條件→四項Criteria」作答。必背數字：旋回4.5L／5L；初始轉向2.5L；10/10第一超越角10°、5+0.5(L/V)°、20°；10/10第二超越角25°、17.5+0.75(L/V)°、40°；20/20第一超越角25°；全速倒車Track reach 15L，最大放寬20L。L用公尺、V用m/s。題幹將1994年7月1日與2002年MSC.137(76)並列，作答時應指出歷史版次差異，避免混淆。",
+    "keyPoints": [
+      {
+        "point": "MSC.137(76)於2002年12月4日通過，取代A.751(18)臨時標準；邀請各國鼓勵適用於2004年1月1日以後建造船舶。",
+        "importance": "essential",
+        "explanation": "1994年日期屬早期標準背景，不是MSC.137通過日期。"
+      },
+      {
+        "point": "適用於L≥100m各種舵及推進系統船舶；化學品船及液化氣船不論船長均適用；高速船排除。",
+        "importance": "essential",
+        "explanation": "MSC.137(76)第3段。"
+      },
+      {
+        "point": "旋回：Advance≤4.5L，Tactical diameter≤5L。",
+        "importance": "essential",
+        "explanation": "35度舵角或試驗速度下最大舵角。"
+      },
+      {
+        "point": "初始轉向：10度舵角後船首向改變10度，航程≤2.5L。",
+        "importance": "essential",
+        "explanation": "Initial turning ability。"
+      },
+      {
+        "point": "10°/10°第一超越角：L/V<10s為10°；10至30s為5+0.5(L/V)°；≥30s為20°。",
+        "importance": "essential",
+        "explanation": "L以m、V以m/s。"
+      },
+      {
+        "point": "10°/10°第二超越角：L/V<10s為25°；10至30s為17.5+0.75(L/V)°；≥30s為40°。",
+        "importance": "essential",
+        "explanation": "注意與第一超越角公式不同。"
+      },
+      {
+        "point": "20°/20°第一超越角≤25°。",
+        "importance": "essential",
+        "explanation": "Z字試驗另一項基準。"
+      },
+      {
+        "point": "全速倒車停止航跡≤15L；大型船主管機關可調整但不得超過20L。",
+        "importance": "essential",
+        "explanation": "Track reach不是單純直線距離，而是中點航跡長度。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Resolution MSC.137(76) — Standards for Ship Manoeuvrability",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "Adopted 4 December 2002",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
+        "pageOrSection": "Paragraphs 1–6; especially 3.1, 3.4, 4.2 and 5.2–5.3, Annex pp.1–6",
+        "supports": "適用船舶、建議適用建造日期、試驗條件、四大操船性能及所有數值基準。"
+      },
+      {
+        "title": "IMO MSC 76 Resolutions index",
+        "sourceType": "official_port_or_authority",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/knowledgecentre/indexofimoresolutions/pages/msc-2000-03.aspx",
+        "pageOrSection": "MSC 76, 2002 — MSC.137(76)",
+        "supports": "確認MSC.137(76)取代A.751(18)之決議沿革。"
+      },
+      {
+        "title": "Standards for Ship Manoeuvrability — Resolution MSC.137(76)",
+        "sourceType": "other",
+        "issuer": "IMO Rules",
+        "url": "https://www.imorules.com/MSCRES_137.76.html",
+        "pageOrSection": "Annex, paragraphs 3–5",
+        "supports": "條文逐段檢索及Criteria交叉核對。"
+      }
+    ],
+    "assumptions": [
+      "題目中的「船長超過百公尺以上」依MSC.137(76)正式文字解讀為船長L達100公尺及以上（100 m and over），不是僅限大於100公尺。",
+      "1994年7月1日為題目所述舊版A.751(18)歷史背景；本題要求依2002年MSC.137(76)說明時，以該決議正式條文為準。"
+    ],
+    "limitations": [
+      "MSC.137(76)之L定義為兩垂線間長度（LBP），非船舶總長LOA；計算時不可混用。",
+      "L/V分段公式的L以公尺、V以公尺／秒代入；若使用節，須先換算為m/s。",
+      "標準試驗條件為深水、不受限制、平靜、滿載及正浮；實際港區淺水、狹水道、風流及載況會使操縱性能不同。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "決議日期及A.751(18)沿革",
+          "result": "pass",
+          "note": "IMO官方PDF第1頁確認MSC.137(76)於2002-12-04通過，並明文取代A.751(18)。"
+        },
+        {
+          "item": "適用範圍及建造日期",
+          "result": "pass",
+          "note": "官方PDF第1頁第2、3段確認鼓勵適用2004-01-01後建造船舶；第3.1段為L≥100m及化學品船、液化氣船不論長度。"
+        },
+        {
+          "item": "試驗定義及條件",
+          "result": "pass",
+          "note": "官方PDF第3至4頁核對L、V、Advance、Tactical diameter、Z字試驗及測試條件。"
+        },
+        {
+          "item": "旋回及初始轉向Criteria",
+          "result": "pass",
+          "note": "官方PDF第5頁核對4.5L、5L及2.5L。"
+        },
+        {
+          "item": "Z字試驗超越角Criteria",
+          "result": "pass",
+          "note": "官方PDF第5頁逐項核對10/10第一及第二超越角分段公式，以及20/20第一超越角25度。"
+        },
+        {
+          "item": "停止性能Criteria",
+          "result": "pass",
+          "note": "官方PDF第5頁核對15L及大型船絕不可超過20L。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
