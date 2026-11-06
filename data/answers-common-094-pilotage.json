@@ -1,0 +1,87 @@
+[
+  {
+    "id": "094-pilotage-03-answer-v1",
+    "questionId": "94-pilotage-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、發行機關】\n美國《Sailing Directions》（航行指南）由美國國家地理空間情報局（National Geospatial-Intelligence Agency, NGA）負責編纂及發行，屬官方航海資料出版品。NGA前身相關機關曾使用National Imagery and Mapping Agency（NIMA）等名稱，閱讀舊版資料時應依出版年份辨識發行機關；本題以2005年考試年度而言，應答NGA，不宜答成美國海岸巡防隊或NOAA。NGA另出版海圖、燈表、航海曆書及其他海事安全資訊。\n \n【二、出版品類型與用途】\n1. Sailing Directions (Enroute)：供沿岸航行及港口進出使用，按地理區段（Sector）編排，補充海圖無法充分呈現或不易以圖示表達的文字資訊，尤其是沿岸地形、港口接近、航道、錨地、航行危險及港埠資料。\n2. Sailing Directions (Planning Guide)：供遠洋航線及航次規劃使用，按海洋盆地或大區域編纂，整理沿岸國家的自然、政治、產業、航海及法規等背景資料，協助航海人員在航次前評估區域環境與航路條件。\n兩者相互補充，應搭配適當比例尺之紙海圖或電子海圖、航海通告及其他最新航海資料使用，不能以航行指南取代海圖。\n\n【三、主要內容】\n（一）地理與沿岸概況：海岸地形、海灣、海岬、島嶼、港口位置、顯著地物及重要地名。\n（二）航路與港口接近：推薦航路、航道、港口入口、進港航路、引水區、引水登船位置、交通管制及港口進出注意事項。\n（三）水文與航行危險：水深概況、礁石、淺灘、沉船、暗礁、潮汐、潮流、海流、渦流及其他局部水文現象。\n（四）氣象與海況：季節風、盛行風、能見度、霧、降雨、風暴、熱帶氣旋、浪況及季節性海象。\n（五）助航與通訊設施：燈塔、燈標、浮標、雷達顯著目標、無線電導航設施、船岸通訊及港口聯絡方式。\n（六）港埠設施與服務：錨地、泊位、碼頭、拖船、引水服務、修船、燃油、補給、醫療及其他港口服務。\n（七）法規與行政資訊：港口管制、引水規定、海關、檢疫、移民、危險品、環境保護及沿岸國家相關規定。\n（八）區域背景：Planning Guide另提供沿岸國家之政治、經濟、工業、地理及航海法規背景，供航次風險與作業規劃參考。\n\n【四、使用及更新注意事項】\n航行指南是海圖的重要文字補充資料，應先依航次選擇適用海域及出版品，再核對版本、修正資料及航海通告。航道、港口設施、助航標誌、錨地、引水制度及法規可能變動，使用時須確認資料是否已更新；對於即時性資訊，應再查閱最新航海通告、航行警告及港口公告。指南所述方位、航向、流向及距離等，亦須依該出版品的定義與說明判讀。\n\n【結論】\n美國航行指南由NGA發行，主要分為Enroute及Planning Guide兩類：前者重沿岸航行與港口接近細節，後者重遠洋航次及區域規劃背景。其核心功能是補充海圖無法完整表達的航海文字資訊，協助航海人員掌握航路、港口、水文、氣象、危險、助航設施、服務與法規；實際航行仍須與最新海圖及改正資料併用。",
+    "practicalAnalysis": "本題20分，答題先明確寫出NGA，再區分Enroute與Planning Guide，最後按地理、航路港口、水文危險、氣象海況、助航通訊、港埠服務及法規背景分項。容易失分處是將NGA與NOAA、USCG混淆，或把航行指南誤認為海圖；應強調它是海圖的文字補充，並須配合最新海圖及航海通告。",
+    "keyPoints": [
+      {
+        "point": "發行機關為美國國家地理空間情報局NGA。",
+        "importance": "essential",
+        "explanation": "2005年應使用NGA名稱；舊版出版品可能出現前身NIMA名稱。"
+      },
+      {
+        "point": "區分Enroute與Planning Guide兩類出版品。",
+        "importance": "essential",
+        "explanation": "Enroute重沿岸及港口接近細節；Planning Guide重海洋區域與航次規劃背景。"
+      },
+      {
+        "point": "內容包括地理、航路、港口、錨地、水文、潮流、氣象、航行危險及助航設施。",
+        "importance": "essential"
+      },
+      {
+        "point": "另包括引水、拖船、港埠設施、通訊、港口規定及沿岸國家背景。",
+        "importance": "supporting"
+      },
+      {
+        "point": "航行指南補充海圖，不能取代海圖，且須配合最新改正及航海通告。",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "NGA Maritime Safety Information—Sailing Directions",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/SDPGuides",
+        "supports": "NGA官方出版品目錄及Sailing Directions Enroute、Planning Guides分類。"
+      },
+      {
+        "title": "Sailing Directions (Planning Guide), Pub. 120—Pacific Ocean and Southeast Asia",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "editionOrEffectiveDate": "官方現行出版品頁面及前言",
+        "url": "https://msi.nga.mil/api/publications/download?key=16694492%2FSFH00000%2FPub120bk.pdf&type=view",
+        "pageOrSection": "Preface; Explanatory Remarks",
+        "supports": "確認NGA為發行機關、Planning Guide用途，以及航行指南補充海圖文字資訊之功能。"
+      },
+      {
+        "title": "NGA Maritime Safety Products and Services",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://www.nga.mil/resources/Maritime_Safety_Products_and_Services.html",
+        "supports": "確認NGA海事安全出版品職掌，包括Sailing Directions、航海圖及海事安全資訊。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "NGA發行機關辨識",
+          "result": "pass",
+          "note": "以NGA官方出版品目錄及出版品前言核對。"
+        },
+        {
+          "item": "Enroute與Planning Guide用途區分",
+          "result": "pass",
+          "note": "依NGA官方出版品分類及Pub.120前言核對。"
+        },
+        {
+          "item": "航行指南內容與海圖互補關係",
+          "result": "pass",
+          "note": "依NGA官方說明，航行指南提供海圖無法圖示或不易呈現的資訊。"
+        },
+        {
+          "item": "2005年名稱使用",
+          "result": "needs_review",
+          "note": "本答案採NGA名稱；若取得2005年原始題目指定參考版次，仍應補核當年各冊版權頁及前言。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
