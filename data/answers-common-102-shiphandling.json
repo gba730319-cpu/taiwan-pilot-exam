@@ -446,5 +446,157 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "102-shiphandling-05-answer-v1",
+    "questionId": "102-shiphandling-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "technical_essay",
+    "modelAnswer": "【一、慣性係數（Inertia Factor）之意義】\n\n慣性係數係用來評估船舶在操縱時，對加速、減速及改變運動狀態的抗拒程度之實務指標。船舶質量（排水量）愈大，通常愈不容易加速、減速或改變航向；若可用主機功率相對較小，船舶對操縱命令的反應會更遲緩。\n\n在船舶操縱實務中，常以**排水量與主機功率比（Displacement/Power Ratio, D/P）**作為評估船舶慣性及操縱反應的簡易指標：\n\n[\n\text{Inertia Factor}approx\frac{Delta}{P}\n]\n\n其中：\n- (Delta)：船舶排水量，通常以公噸（t）表示。\n- (P)：主機可用推進功率，通常以馬力（hp）表示。\n- D/P愈大，表示相對於可用推進功率，船舶質量愈大，通常加速及減速較慢、停止距離較長，港內操縱較為遲緩。\n\n**重要說明：**Inertia Factor在操船教材中常作為船舶操縱能力的實務比較指標，並非IMO或國際公約統一規定的法定無因次係數。若討論嚴格的動力學慣性，還須區分平移質量、附加質量及旋轉質量慣性矩。\n\n【二、影響船舶慣性及慣性係數之因素】\n\n（一）排水量及載況\n1. 排水量愈大，船舶平移質量愈大，改變速度所需的外力及時間通常愈多。\n2. 重載船舶通常具有較大的動量及停止距離；輕載船舶排水量較小，但乾舷高、受風面積大，可能較容易受風影響。\n3. 裝載及壓艙狀況會改變吃水、縱傾及重心位置，進而影響船舶操縱及旋迴特性。\n\n（二）船體形狀及尺度\n1. 船長、船寬、吃水及長寬比（L/B）會影響船體水動力阻力、附加質量及旋迴性能。\n2. 方形係數（Block Coefficient, Cb）較大、船體較肥滿的船舶，水下船體形狀較飽滿，通常會帶動較多周圍水體，附加質量及水動力效應較明顯。\n3. 細長型船體通常較容易加速，但在某些船型及操縱狀態下，減速及停止性能仍須視阻力、推進器及倒車能力判斷。\n4. 船體水下線型及船艉形狀會影響螺槳進流、舵效、阻力及船舶轉向反應。\n\n（三）附加質量（Added Mass）及水深\n1. 船舶在水中運動時，會帶動周圍水體一起運動，形成附加質量；因此船舶的有效慣性不只包括船舶本身質量。\n2. 附加質量依船舶運動方向而異，例如縱向平移（Surge）、橫向平移（Sway）及艏搖（Yaw）各有不同的附加質量或附加慣性矩。\n3. 船體形狀、船寬吃水比、水深及龍骨下淨空（UKC）均會影響附加質量；淺水及受限水域中，附加質量及水動力效應通常更為顯著。\n\n（四）主機功率、倒車能力及推進器效率\n1. 在排水量相同的情況下，主機可用功率愈大，D/P比愈小，通常加速及控制速度的能力較佳。\n2. 主機倒車功率、換俥時間、啟動空氣容量及主機反應時間，會影響船舶停止距離及緊急制動能力。\n3. 固定螺距螺槳、可變螺距螺槳、雙螺槳、方位推進器及電力推進系統的推力建立及倒車反應不同，會影響實際操縱反應。\n4. 推進器效率、螺槳滑流及舵效亦會影響船舶能否有效改變速度及航向。\n\n（五）質量分布及旋轉慣性矩\n1. 船舶艏搖時，除排水量外，船上質量相對於旋轉軸的位置亦很重要。\n2. 質量分布愈遠離船舶重心，艏搖慣性矩（Yaw Moment of Inertia）通常愈大，船舶開始旋轉及停止旋轉所需的力矩愈大。\n3. 貨物、壓艙水及燃油配置會改變重心與質量分布，影響旋迴及偏航反應。\n\n【三、船舶艤裝數（Equipment Number, EN）之意義】\n\n艤裝數係依船舶排水量、船寬、乾舷及水線以上受風面積等因素計算的無因次數值，用以選定船舶應配置之錨、錨鏈及相關繫泊／拖帶設備的規格。艤裝數愈大，代表船舶尺度及受風、受流負荷通常愈大，所需錨及錨鏈等設備規格也愈高。\n\n【四、艤裝數之計算公式及各符號意義】\n\n依IMO《MSC.1/Circ.1175/Rev.1》附錄B及IACS錨泊設備規範，常用公式為：\n\n[\nEN=Delta^{2/3}+2.0Bh+\frac{A}{10}\n]\n\n其中：\n- (EN)：艤裝數（Equipment Number），無因次。\n- (Delta)：船舶至夏季載重線（Summer Load Waterline）之型排水量，單位公噸（t）。\n- (B)：船舶型寬（Moulded Breadth），單位公尺（m）。\n- (h)：由夏季載重水線至最上層甲板室頂部的有效高度，單位公尺（m）；通常由乾舷及符合規定寬度的甲板室高度組成。\n- (A)：夏季載重水線以上，於艤裝長度範圍內船體、上層建築及甲板室的側投影面積，單位平方公尺（m²）；計算時依規定排除寬度不符合條件的結構。\n\n艤裝數主要由三部分組成：\n1. (Delta^{2/3})：反映船體水下部分受潮流作用的尺度因素。\n2. (2.0Bh)：反映船舶水線以上迎風投影尺度。\n3. (A/10)：反映船舶水線以上側投影受風面積。\n\n【五、艤裝數之用途及限制】\n\n1. 依艤裝數及船舶服務等級，查閱船級協會或IACS規範表，決定錨的數量及重量、錨鏈直徑及總長度。\n2. 亦可作為選定拖纜、繫泊纜及相關繫泊設備規格的依據；實際適用範圍須依船級規範及IMO相關通函。\n3. 艤裝數不是船舶總噸位、載重噸或排水量本身，而是綜合船舶水下尺度與水線以上受風面積的無因次指標。\n4. 傳統艤裝數所依據的錨泊設備，主要供船舶在港內或遮蔽水域短暫錨泊使用，不是設計來在暴風浪的完全開放海域長時間 удерж住船舶，也不是用來制止高速移動中的大型船舶。\n5. 如船舶型式特殊、風壓面積特別大或作業環境超出規範假設，仍須依風流負荷及設備強度另行評估，不可只看艤裝數。\n\n【結論】\n\n慣性係數是評估船舶排水量相對於主機推進功率，以及船體形狀、附加質量及旋轉慣性對操船反應影響的實務指標；常以排水量／主機功率比（D/P）比較，D/P愈大，船舶通常愈不容易加速、減速及改變運動狀態。艤裝數（EN）則依排水量、型寬、有效高度及水線以上側投影面積計算，作為選定錨、錨鏈及相關繫泊拖帶設備規格之依據。",
+    "practicalAnalysis": "本題15分，建議分兩大題回答。慣性係數先寫實務比較指標D/P=排水量／主機功率，D/P愈大，船舶相對於推進功率愈重，操縱反應較慢；再寫排水量、船體線型／Cb、長寬吃水、附加質量、水深UKC、主機倒車功率及質量分布等因素。要註明Inertia Factor不是IMO統一法定係數，嚴格動力學還須區分平移附加質量及艏搖慣性矩。艤裝數公式必背：EN=Δ^(2/3)+2Bh+A/10；Δ為夏季載重線型排水量、B型寬、h水線至最上層甲板室有效高度、A水線以上側投影面積。用途為決定錨、錨鏈及相關繫泊／拖帶設備規格。",
+    "keyPoints": [
+      {
+        "point": "慣性係數可用排水量／主機功率比D/P作為實務比較指標，D/P愈大，船舶相對推進功率愈重，操縱反應通常較慢。",
+        "importance": "essential",
+        "explanation": "並非IMO統一法定無因次係數。"
+      },
+      {
+        "point": "慣性受排水量、船體形狀、方形係數Cb、長寬比、吃水及附加質量影響。",
+        "importance": "essential",
+        "explanation": "船舶會帶動周圍水體，增加有效質量。"
+      },
+      {
+        "point": "水深及UKC會改變附加質量與水動力效應；淺水及受限水域影響更明顯。",
+        "importance": "essential",
+        "explanation": "需區分縱向、橫向及艏搖慣性。"
+      },
+      {
+        "point": "主機可用功率、倒車功率、換俥時間、螺槳型式及推進效率會影響加減速及停止能力。",
+        "importance": "essential",
+        "explanation": "推進系統特性會改變實際D/P操縱效果。"
+      },
+      {
+        "point": "艏搖慣性矩取決於質量分布，貨物、壓艙水及燃油配置會影響旋迴反應。",
+        "importance": "supporting",
+        "explanation": "質量離旋轉軸愈遠，慣性矩通常愈大。"
+      },
+      {
+        "point": "艤裝數公式EN=Δ^(2/3)+2.0Bh+A/10。",
+        "importance": "essential",
+        "explanation": "Δ為夏季載重線型排水量；B為型寬；h為有效高度；A為水線以上側投影面積。"
+      },
+      {
+        "point": "EN用於選定錨、錨鏈及相關繫泊／拖帶設備規格，不等於總噸位或載重噸。",
+        "importance": "essential",
+        "explanation": "須依船級規範表及服務等級選擇。"
+      },
+      {
+        "point": "標準錨泊設備主要供港內或遮蔽水域暫時錨泊，不是用來在暴風浪中長期 удерж船或停止高速船舶。",
+        "importance": "supporting",
+        "explanation": "依IACS UR A1設計假設。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Ship Handling",
+        "sourceType": "book",
+        "issuer": "Hervé Baudu, DOKMAR Maritime Publishers",
+        "editionOrEffectiveDate": "2014 first edition",
+        "url": "https://pdfcoffee.com/herve-baudu-ship-handling-dokmar-2017-sta-ocr-3-pdf-free.html",
+        "pageOrSection": "Chapter 1, Section 4, Vessel inertia — power/displacement ratio; Chapter 2, Section 1.4, Equipment Number",
+        "supports": "船舶慣性與排水量／主機功率比、船體形狀及方形係數對附加質量的影響；艤裝數章節。"
+      },
+      {
+        "title": "Guide for Vessel Maneuverability",
+        "sourceType": "official_port_or_authority",
+        "issuer": "American Bureau of Shipping",
+        "editionOrEffectiveDate": "2017",
+        "url": "https://ww2.eagle.org/content/dam/eagle/rules-and-guides/current/conventional_ocean_service/145_vesselmaneuverability/Vessel_Maneuverability_Guide_e-Feb17.pdf",
+        "pageOrSection": "Appendix 2, Definitions and Nomenclature for Maneuvering Simulation",
+        "supports": "船舶質量、重心位置、艏搖質量慣性矩及無因次質量參數。"
+      },
+      {
+        "title": "MSC.1/Circ.1175/Rev.1 — Revised Guidance on Shipboard Towing and Mooring Equipment",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "9 December 2020",
+        "url": "https://wwwcdn.imo.org/localresources/en/Documents/MSC.1-Circ.1175-Rev.1.pdf",
+        "pageOrSection": "Appendix B, Equipment Number",
+        "supports": "艤裝數公式、Δ、B、h、A定義及其用途。"
+      },
+      {
+        "title": "Unified Requirement A1 — Anchoring Equipment",
+        "sourceType": "official_port_or_authority",
+        "issuer": "International Association of Classification Societies (IACS)",
+        "editionOrEffectiveDate": "Rev.7, September 2020",
+        "url": "https://iacs.org.uk/resolutions/unified-requirements/ur-a/ur-a1-rev7-cln",
+        "pageOrSection": "A1.1–A1.2, Equipment Number and anchoring equipment table",
+        "supports": "艤裝數之設計假設、公式及錨、錨鏈選擇表。"
+      },
+      {
+        "title": "The Coefficients of Equipment Number Formula of Ships",
+        "sourceType": "academic_paper",
+        "issuer": "Journal of Marine Science and Engineering",
+        "editionOrEffectiveDate": "10 November 2020",
+        "url": "https://doi.org/10.3390/jmse8110898",
+        "supports": "艤裝數各項係數與船體水下受流面積、上層建築迎風面積及側風面積的關係。"
+      },
+      {
+        "title": "102年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國102年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=102070&q=1&s=0806&t=Q",
+        "pageOrSection": "船舶操縱第五題",
+        "supports": "核對原題及15分配分。"
+      }
+    ],
+    "assumptions": [
+      "Inertia Factor依船舶操縱教材常見之排水量／主機功率比（D/P）解讀，並補充嚴格動力學中的附加質量及旋轉慣性矩。",
+      "Equipment Number採IMO MSC.1/Circ.1175/Rev.1 Appendix B及IACS UR A1公式；此公式與2013年考試年度常見錨泊設備規範之基本結構相同。"
+    ],
+    "limitations": [
+      "Inertia Factor並非IMO或SOLAS統一規定的法定單一係數；不同教材可能以D/P、附加質量係數或旋轉慣性矩討論慣性，應依題目語境說明。",
+      "艤裝數對特殊船型及特殊作業環境可能需按船級社規範修正；EN並非直接計算實際錨泊負荷的精確值。",
+      "IMO MSC.1/Circ.1175/Rev.1為2020年修訂版，作為公式及當代設備規範的補充引用；考試歷史背景仍依2013年適用之IACS及載重線規範。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "Inertia Factor的D/P指標",
+          "result": "pass",
+          "note": "依Hervé Baudu《Ship Handling》Chapter 1 Section 4核對排水量／主機功率比及慣性對操船之影響。"
+        },
+        {
+          "item": "慣性影響因素",
+          "result": "pass",
+          "note": "依Baudu及ABS Vessel Maneuverability Guide核對排水量、船體形狀、附加質量、質量分布及艏搖慣性矩。"
+        },
+        {
+          "item": "Equipment Number公式",
+          "result": "pass",
+          "note": "依IMO MSC.1/Circ.1175/Rev.1 Appendix B及IACS UR A1核對EN=Δ^(2/3)+2Bh+A/10。"
+        },
+        {
+          "item": "Equipment Number各參數",
+          "result": "pass",
+          "note": "核對夏季載重線型排水量、型寬、有效高度及水線以上側投影面積。"
+        },
+        {
+          "item": "艤裝數用途及限制",
+          "result": "pass",
+          "note": "依IACS UR A1及DNV安全繫泊說明核對錨、錨鏈及繫泊設備選擇用途。"
+        },
+        {
+          "item": "原題及配分",
+          "result": "pass",
+          "note": "依考選部102年船舶操縱第五題核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
