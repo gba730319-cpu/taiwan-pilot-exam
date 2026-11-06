@@ -1,0 +1,92 @@
+[
+  {
+    "id": "answer-114-english-03",
+    "questionId": "114-english-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "definition",
+    "modelAnswer": "1. **Boarding arrangements**: The equipment and procedures provided to enable a person, particularly a pilot, to embark on or disembark from a ship safely. They include the pilot ladder, any required combination arrangement, securing arrangements and the safe access between the ship and the pilot boat.\n\n2. **Crash-stop**: An emergency stopping manoeuvre in which a ship's propulsion is rapidly reversed, normally by ordering full astern after proceeding ahead, to bring the ship to a stop in the shortest practicable distance. Stopping distance and time depend on the ship's characteristics, speed, loading condition and environmental conditions.\n\n3. **Steerage way**: The motion through the water at which the rudder can generate sufficient hydrodynamic force to maintain effective directional control. It is not a fixed speed and varies with the ship, rudder, propeller flow and sea conditions.\n\n4. **Safe speed**: A speed at which a vessel can take proper and effective action to avoid collision and can be stopped within a distance appropriate to the prevailing circumstances and conditions, as required by Rule 6 of the COLREGs.",
+    "practicalAnalysis": "Boarding arrangements指整套安全登離船設備與程序，不只是引水梯；Crash-stop是緊急停船操縱，實際距離依船舶操縱性能而異；Steerage way不是固定節數；Safe speed須扣合COLREG Rule 6的避碰與停船兩項核心判準。",
+    "keyPoints": [
+      {
+        "point": "Boarding arrangements：安全登離船設備及安排。",
+        "importance": "essential"
+      },
+      {
+        "point": "Crash-stop：由前進狀態迅速反車以緊急停船。",
+        "importance": "essential"
+      },
+      {
+        "point": "Steerage way：足以使舵產生有效水動力的船舶運動狀態。",
+        "importance": "essential"
+      },
+      {
+        "point": "Safe speed：能有效避碰並能在適當距離內停船的速度。",
+        "importance": "supporting"
+      },
+      {
+        "point": "COLREG Rule 6要求考量能見度、交通密度、船舶操縱性能、風浪流及水深等因素。",
+        "importance": "supporting"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "totalPoints": null,
+      "items": []
+    },
+    "references": [
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2003-12-05",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "pageOrSection": "Annex 2, sections 2, 5 and 6",
+        "accessedAt": "2026-11-07",
+        "supports": "引水作業責任分工、引水前資訊交換及持續溝通。"
+      },
+      {
+        "title": "COLREG 1972, Rule 6 — Safe speed",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "accessedAt": "2026-11-07",
+        "supports": "安全航速的定義與應考量因素。"
+      },
+      {
+        "title": "SOLAS Chapter V, Regulation 23 — Pilot transfer arrangements",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "IMO / SOLAS",
+        "url": "https://www.imorules.com/solas/06_chapter_V.html",
+        "accessedAt": "2026-11-07",
+        "supports": "引水員登離船安排的安全設備及程序。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "未取得考選部官方逐項評分細則；評分重點為編輯建議，非官方標準答案。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題號與題文",
+          "result": "pass",
+          "note": "對照114年共同科目題庫資料。"
+        },
+        {
+          "item": "專業術語與核心概念",
+          "result": "pass",
+          "note": "依IMO引水作業建議核對相關概念。"
+        },
+        {
+          "item": "官方評分細則",
+          "result": "needs_review",
+          "note": "未取得官方評分細則。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
