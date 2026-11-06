@@ -214,5 +214,116 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "102-shiphandling-03-answer-v1",
+    "questionId": "102-shiphandling-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "technical_essay",
+    "modelAnswer": "【一、Single Point Failure之定義】\n\nSingle Point Failure（單點失效）係指一個系統、作業程序或安全防護中，僅有單一人員、設備、資訊來源或作業環節負責關鍵功能；當該單一要素發生故障、錯誤、失誤或失去作用時，整個系統即可能失去功能，或直接導致重大事故，且沒有其他獨立備援或交叉檢查機制可防止後果擴大。\n\n在船舶引領及駕駛台資源管理（Bridge Resource Management, BRM）中，單點失效可能來自人員、設備、資訊、通訊或程序。其核心問題是過度依賴單一人員或單一設備，使其他團隊成員無法及時發現、修正或補救錯誤。\n\n【二、引領船舶時常見的單點失效情況】\n\n（一）人員方面\n1. 完全依賴引水人一人判斷航路、船位及操船，不由船長及駕駛台團隊獨立監控。\n2. 船長或值班駕駛員因階級壓力、不熟悉當地水域或過度信任引水人，不敢提出疑問或質疑不安全指令。\n3. 只有一名駕駛台人員負責瞭望、船位監控、通訊及操舵，工作負荷過高，發生錯誤時無人交叉檢查。\n4. 關鍵人員疲勞、疾病或失能時，沒有適當替代人員及接替程序。\n\n（二）設備方面\n1. 航行完全依賴單一GPS、ECDIS或雷達，設備故障或資料錯誤時，沒有其他定位或監控方式。\n2. 舵機、主機、推進器或側推器只有單一可用系統，故障後即失去必要操縱能力。\n3. 駕駛台與拖船僅使用單一VHF頻道，通訊中斷後沒有備用頻道或其他聯絡方式。\n4. 航行警報、感測器或船位輸入來源故障，未能由其他設備或目視資料發現。\n\n（三）資訊及程序方面\n1. 航前未完成Master-Pilot Exchange，船長及引水人對船舶操縱性能、吃水、主機反應及航行計畫認知不同。\n2. 舵令、車令及拖船指令未覆誦確認，錯誤命令直接執行。\n3. 船位及航向只由單一人員或單一設備確認，沒有雷達、ECDIS、目視及測深資料交叉比對。\n4. 未建立拖船失效、主機故障、舵機故障、通訊中斷及能見度惡化等應變計畫。\n\n【三、BRM避免單點失效之方法】\n\n（一）建立團隊合作及共同情境認知\n1. 引水人、船長、值班駕駛員及其他駕駛台人員應共同了解航行計畫、轉向點、速度、航道限制及緊急措施。\n2. 引水人提供當地水域專業，船長仍應監督本船安全；值班駕駛員應持續獨立監控船位、航向及航速。\n3. 任何團隊成員發現疑似危險時，均應立即提出，不得因階級或職位而保持沉默。\n\n（二）交叉檢查及閉環式溝通\n1. 船位應以雷達、ECDIS、目視方位、測深儀及其他可用資訊相互驗證。\n2. 舵令、車令、航向及拖船指令採「發令—覆誦—確認—執行—回報—監控」閉環式溝通。\n3. 對不合理或不安全指令，船長及駕駛台團隊應及時提出疑問並要求確認。\n\n（三）設備及人員備援\n1. 重要航行設備應有備用設備或替代定位方法，並定期測試及熟悉切換程序。\n2. 主機、舵機、電力、推進器及通訊系統應依船舶設計保有適當冗餘及緊急操作程序。\n3. 駕駛台應有足夠人員分工，避免單一人員同時負責過多關鍵工作。\n4. 拖船、引水船及岸上聯絡應建立備用通訊方式及緊急聯絡程序。\n\n（四）風險評估及應變計畫\n1. 航前確認可能失效的關鍵設備、人員及通訊環節，評估其對船舶操縱的影響。\n2. 預先規劃主機、舵機、推進器、雷達、ECDIS或VHF失效時的替代方案。\n3. 在狹窄航道、惡劣天候或高交通密度區域，必要時增加拖船、瞭望人員或安全水域。\n4. 如發生關鍵設備或人員失效，應立即通報船長、引水人、輪機部及VTS，必要時減速、停船、錨泊或中止進港。\n\n【四、引水作業案例說明】\n\n例如引水人帶領大型船舶進港時，若船長完全依賴引水人操船，而駕駛台其他人員沒有監控船位；同時船舶又只依賴單一GPS定位，當GPS訊號錯誤或設備故障時，便可能無人及時發現船舶偏離航道，最終發生擱淺或碰撞。若採取BRM，則由引水人負責領航，船長監督整體安全，值班駕駛員以雷達、ECDIS及目視交叉核對船位，操舵手覆誦舵令，並備妥替代定位及應變措施，即可避免單一錯誤演變成重大事故。\n\n【結論】\n\nSingle Point Failure是指單一人員、設備、資訊來源或程序失效，即可能使整個系統失去功能或導致重大事故，且缺乏獨立備援及交叉檢查。BRM藉由團隊合作、共同情境認知、獨立監控、閉環式溝通、設備冗餘及應變計畫，避免引水作業過度依賴單一引水人、單一設備或單一資訊來源，確保船舶進出港及靠離泊安全。",
+    "practicalAnalysis": "本題15分，先用一句話定義：單一關鍵人員／設備／資訊來源／程序失效，即使整個系統失去功能或造成事故，且沒有獨立備援。再分人員、設備、資訊程序舉例，最後寫BRM防範：團隊合作、共同情境認知、船長監督、交叉檢查、閉環式溝通、設備及人員冗餘、備用通訊及緊急計畫。特別指出「過度依賴引水人」本身就是人員單點失效，船長及駕駛台團隊仍須獨立監控。",
+    "keyPoints": [
+      {
+        "point": "Single Point Failure是單一關鍵要素失效，即可能使整個系統失效或造成重大事故，缺乏獨立備援。",
+        "importance": "essential",
+        "explanation": "可來自人員、設備、資訊或程序。"
+      },
+      {
+        "point": "人員單點失效：過度依賴引水人、船長不監督、駕駛台無人交叉檢查、單一人員負荷過重。",
+        "importance": "essential",
+        "explanation": "船長及駕駛台團隊不能將責任完全交給引水人。"
+      },
+      {
+        "point": "設備單點失效：只依賴單一GPS、ECDIS、雷達、舵機、主機或VHF，故障即失去操縱或定位能力。",
+        "importance": "essential",
+        "explanation": "應有備援或替代方法。"
+      },
+      {
+        "point": "資訊及程序單點失效：未做Master-Pilot Exchange、指令不覆誦、船位不交叉核對、無應變程序。",
+        "importance": "essential",
+        "explanation": "溝通及程序失誤也會形成單點失效。"
+      },
+      {
+        "point": "BRM以團隊合作、共同情境認知、交叉監控及閉環式溝通避免單一錯誤擴大。",
+        "importance": "essential",
+        "explanation": "任何成員均可提出疑問或挑戰不安全決策。"
+      },
+      {
+        "point": "透過設備冗餘、備用通訊、替代定位、足夠人力及緊急應變計畫降低風險。",
+        "importance": "essential",
+        "explanation": "事前辨識關鍵失效點。"
+      }
+    ],
+    "references": [
+      {
+        "title": "STCW Code, Section A-VIII/2 — Watchkeeping Arrangements and Principles to be Observed",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2010 Manila Amendments",
+        "url": "https://www.imo.org/en/OurWork/HumanElement/Pages/STCW-Convention.aspx",
+        "pageOrSection": "Section A-VIII/2, Part 3-1, Principles to be observed in keeping a navigational watch",
+        "supports": "駕駛台值班、團隊監控、船長及值班駕駛員責任與安全瞭望。"
+      },
+      {
+        "title": "IMO Model Course 1.22 — Bridge Resource Management",
+        "sourceType": "official_port_or_authority",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2014 edition",
+        "url": "https://imo-epublications.org/content/books/9789280117592",
+        "supports": "BRM團隊合作、溝通、共同情境認知、資源分配及錯誤攔截。"
+      },
+      {
+        "title": "MSC.1/Circ.1503/Rev.1 — ECDIS Guidance for Good Practice",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2017",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/MSC.1-Circ.1503-Rev.1.pdf",
+        "supports": "ECDIS不可單獨依賴，須維持適當交叉檢查及備援航行方法。"
+      },
+      {
+        "title": "102年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國102年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=102070&q=1&s=0806&t=Q",
+        "pageOrSection": "船舶操縱第三題",
+        "supports": "核對原題及15分配分。"
+      }
+    ],
+    "assumptions": [
+      "Single Point Failure依系統安全工程及BRM語境解讀為單一故障點或單一失效點，不限於硬體設備故障。",
+      "題目引用STCW 2010年馬尼拉修正案，答案以BRM與駕駛台團隊資源管理原則說明。"
+    ],
+    "limitations": [
+      "STCW公約本身不一定以Single Point Failure作為獨立法定定義；本題依BRM課程及系統安全概念解釋，並以STCW值班與BRM要求作為防範依據。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "Single Point Failure概念",
+          "result": "pass",
+          "note": "依系統安全及BRM語境核對單一關鍵要素失效造成系統失效之定義。"
+        },
+        {
+          "item": "STCW 2010及BRM背景",
+          "result": "pass",
+          "note": "依IMO STCW Manila Amendments及Model Course 1.22核對駕駛台團隊管理要求。"
+        },
+        {
+          "item": "交叉檢查及備援",
+          "result": "pass",
+          "note": "依IMO ECDIS Guidance for Good Practice核對設備不應單獨依賴及交叉驗證。"
+        },
+        {
+          "item": "原題及配分",
+          "result": "pass",
+          "note": "依考選部102年船舶操縱第三題核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
