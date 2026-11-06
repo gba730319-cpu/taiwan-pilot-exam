@@ -12,6 +12,8 @@ import common091SideThruster from "../data/answers-common-091-side-thruster.json
 import common091Pilotage01 from "../data/answers-common-091-pilotage-01.json";
 import common091Pilotage from "../data/answers-common-091-pilotage.json";
 import common091Pilotage06 from "../data/answers-common-091-pilotage-06.json";
+import common091Pilotage03 from "../data/answers-common-091-pilotage-03.json";
+import common091Pilotage05 from "../data/answers-common-091-pilotage-05.json";
 import common091PilotLaw from "../data/answers-common-091-pilot-law.json";
 import common091English from "../data/answers-common-091-english.json";
 import common092Shiphandling from "../data/answers-common-092-shiphandling.json";
@@ -86,7 +88,7 @@ export default function Home() {
   const [port, setPort] = useState("高雄港");
   const items = (questions as Question[]).filter((q) => officialYears.has(q.year));
   const sources = sourceData as Source[];
-  const answers = [...(answerData as Answer[]), ...(additionalAnswerData as Answer[]), ...(common091Shiphandling as Answer[]), ...(common091Pivot as Answer[]), ...(common091MassFroude as Answer[]), ...(common091WakeCurrent as Answer[]), ...(common091SideThruster as Answer[]), ...(common091Pilotage01 as Answer[]), ...(common091Pilotage as Answer[]), ...(common091Pilotage06 as Answer[]), ...(common091PilotLaw as Answer[]), ...(common091English as Answer[]), ...(common092Shiphandling as Answer[]), ...(common092PilotLaw as Answer[]), ...(common092Pilotage as Answer[]), ...(common092English as Answer[]), ...(common094PilotLaw as Answer[])];
+  const answers = [...(answerData as Answer[]), ...(additionalAnswerData as Answer[]), ...(common091Shiphandling as Answer[]), ...(common091Pivot as Answer[]), ...(common091MassFroude as Answer[]), ...(common091WakeCurrent as Answer[]), ...(common091SideThruster as Answer[]), ...(common091Pilotage01 as Answer[]), ...(common091Pilotage as Answer[]), ...(common091Pilotage06 as Answer[]), ...(common091Pilotage03 as Answer[]), ...(common091Pilotage05 as Answer[]), ...(common091PilotLaw as Answer[]), ...(common091English as Answer[]), ...(common092Shiphandling as Answer[]), ...(common092PilotLaw as Answer[]), ...(common092Pilotage as Answer[]), ...(common092English as Answer[]), ...(common094PilotLaw as Answer[])];
   const normalizedAnswers = answers.map((answer) => {
     const legacyRefs = [
       ...(Array.isArray(answer.assumptions) ? answer.assumptions : []),
