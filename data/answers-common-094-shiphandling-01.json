@@ -1,0 +1,126 @@
+[
+  {
+    "id": "094-shiphandling-01-answer-v1",
+    "questionId": "94-shiphandling-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "calculation",
+    "modelAnswer": "【一、題目資料與計算假設】\n\n船長 L=280 m；乾舷（題目給定風壓受風高度）=25 m；左舷正橫風 30 kn；船舶正在後退（making sternway）。艏推 10 tf 向左舷，作用點距船艏25 m。拖船資料如下：\n\n| 作用力 | 位置（距船艏） | 力量及方向 |\n|---|---:|---|\n| 艏推 | 25 m | 10 tf，向左舷 |\n| 1號拖船 | 0 m（船艏） | 40 tf，向左舷拉 |\n| 2號拖船 | 55 m | 30 tf，向左舷推 |\n| 3號拖船 | 210 m | 40 tf，向左舷推 |\n| 4號拖船 | 280 m（船艉） | 15 tf，向左舷拉 |\n\n本題採簡化船舶操縱估算法：後退時旋轉支點取船艉向前約四分之一船長；受風面積以船長乘乾舷估算；風力中心假設位於受風面積幾何中心；忽略流力、水阻力及各拖船實際作用角度。\n\n【二、每1,000 m²所受風力】\n\n依 R.W. Rowe《The Sh​​iphandler's Guide》所列簡易估算法：\n\nV（m/s）≈風速（kn）÷2\n\n風力（tf／1,000 m²）=V²÷18\n\n代入30 kn：\n\nV=30÷2=15 m/s\n\n風力=15²÷18=225÷18=12.5 tf／1,000 m²\n\n因此：\n\n**每1,000 m²受風面積約受12.5 tf風力。**\n\n註：此為船舶操縱實務的近似估算法，並非精密風洞係數計算；實際風力還會受船型、風向角、相對風速及陣風影響。\n\n【三、旋轉支點及力臂】\n\n船舶正在後退，支點約位於船艉向前1/4船長：\n\n支點距船艉=280×1/4=70 m\n\n支點距船艏=280−70=210 m\n\n以船艏為座標原點，支點P=210 m。\n\n各力臂：\n\n| 作用力 | 位置 | 與支點距離 |\n|---|---:|---:|\n| 艏推 | 25 m | 185 m（支點前方） |\n| 1號拖船 | 0 m | 210 m（支點前方） |\n| 2號拖船 | 55 m | 155 m（支點前方） |\n| 3號拖船 | 210 m | 0 m（作用於支點） |\n| 4號拖船 | 280 m | 70 m（支點後方） |\n\n【四、風力及風力矩】\n\n受風面積估算：\n\nA=280×25=7,000 m²\n\n總風力：\n\nF=12.5×(7,000÷1,000)=87.5 tf\n\n風從左舷正橫吹來，船體受到向右舷（右舷側）的風壓力。風力中心假設在船中：\n\n風力中心距船艏=280÷2=140 m\n\n風力中心位於支點前方：\n\n210−140=70 m\n\n因此風力造成向右舷轉的力矩：\n\nM風=87.5×70=6,125 tf·m（右舷轉向力矩）\n\n【五、各拖船及艏推之轉向力矩】\n\n以支點P為中心，將船艏方向的左舷橫向力視為左舷轉向力矩；作用在支點後方的左舷橫向力則形成右舷轉向力矩。\n\n（一）左舷轉向力矩\n\n1. 艏推：\n10×(210−25)=10×185=1,850 tf·m\n\n2. 1號拖船：\n40×210=8,400 tf·m\n\n3. 2號拖船：\n30×(210−55)=30×155=4,650 tf·m\n\n4. 3號拖船：\n40×(210−210)=0 tf·m\n\n左舷轉向力矩合計：\n\nM左=1,850+8,400+4,650+0\n\n**M左=14,900 tf·m**\n\n（二）右舷轉向力矩\n\n1. 4號拖船：\n15×(280−210)=15×70=1,050 tf·m\n\n2. 左舷來風：\n87.5×70=6,125 tf·m\n\n右舷轉向力矩合計：\n\nM右=1,050+6,125\n\n**M右=7,175 tf·m**\n\n【六、合成轉向力矩】\n\n以左舷轉向為正：\n\nM合成=M左−M右\n\n=14,900−7,175\n\n**M合成=7,725 tf·m，方向為左舷轉向。**\n\n【七、簡圖（俯視示意，非比例）】\n\n船艏（0 m）                                      船艉（280 m）\n1號拖船 40 tf ←                                 4號拖船 15 tf ←\n艏推 10 tf ←\n       2號拖船 30 tf ←              3號拖船 40 tf ←\n                         P（支點，210 m）\n風：由左舷吹向右舷，合力作用點約在船中（140 m）\n\n支點前方的艏推、1號及2號拖船產生左舷轉向力矩；支點後方的4號拖船及支點前方的橫風合力，依各自作用位置產生右舷轉向力矩。\n\n【答案彙總】\n\n| 計算項目 | 結果 |\n|---|---:|\n| 每1,000 m²風力 | 12.5 tf |\n| 估算總受風面積 | 7,000 m² |\n| 總風力 | 87.5 tf |\n| 左舷轉向力矩 | 14,900 tf·m |\n| 右舷轉向力矩 | 7,175 tf·m |\n| 合成轉向力矩 | 7,725 tf·m，左舷轉向 |\n\n【結語】\n本題重點不是單純將各拖船推力相加，而是依船舶後退時支點向船艉移動的原理，分別計算每個作用力對支點的力矩。尤其第3號拖船位於假設支點位置，故其轉向力矩為零；風力作用中心則在支點前方，會形成與艏推及前部拖船相反的轉向力矩。",
+    "practicalAnalysis": "本題採用R.W. Rowe《The Sh​​iphandler's Guide》的簡易風力估算法，以及後退時支點約在船艉前方1/4船長的實務模型。這是考試計算的近似解，不是完整操縱運動方程。風速若指真風而非相對風，且船舶後退速度未提供，無法另行修正相對風速；風力中心也可能因貨櫃堆疊、駕駛台位置及風向而偏離船中。故計算結果應清楚列明假設，並避免把估算值說成唯一精確答案。",
+    "keyPoints": [
+      {
+        "point": "後退時旋轉支點約在船艉向前1/4船長，280 m船舶取距船艏210 m。",
+        "importance": "essential"
+      },
+      {
+        "point": "風力簡易估算：V(m/s)≈風速(kn)/2；風力(tf/1000m²)=V²/18。30 kn得12.5 tf/1000m²。",
+        "importance": "essential"
+      },
+      {
+        "point": "受風面積以280×25=7,000m²估算，總風力約87.5 tf。",
+        "importance": "essential"
+      },
+      {
+        "point": "風力中心假設在船中，距支點70m；左舷來風造成右舷轉向力矩6,125 tf·m。",
+        "importance": "essential"
+      },
+      {
+        "point": "艏推及1、2號拖船作用於支點前方，形成左舷轉向力矩；3號拖船在支點上，簡化模型力矩為零。",
+        "importance": "essential"
+      },
+      {
+        "point": "4號拖船作用於支點後方，形成右舷轉向力矩1,050 tf·m。",
+        "importance": "essential"
+      },
+      {
+        "point": "左舷力矩14,900 tf·m，右舷力矩7,175 tf·m，合成7,725 tf·m向左舷。",
+        "importance": "essential"
+      },
+      {
+        "point": "力矩大小取決於作用點到支點的垂直力臂；若拖纜非正橫或推力方向不正橫，須乘以相應角度的正弦分量。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "The Sh​​iphandler's Guide for Masters and Navigating Officers, Pilots and Tug Masters",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute, 2nd edition, 2000",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "pageOrSection": "Chapter 1, The Pivot Point and Turning Levers; Chapter 5, Effect of Wind, p.43",
+        "supports": "後退時支點約位於船艉前方1/4船長；轉向力矩等於作用力乘力臂；風力每1000m²估算公式。"
+      },
+      {
+        "title": "A Master's Guide to Berthing, 2nd edition",
+        "sourceType": "textbook_or_academic",
+        "issuer": "The Standard P&I Club, February 2012",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2012/10/mg-ships-berthing.pdf",
+        "pageOrSection": "Sections 04–05",
+        "supports": "靠泊操船時風壓、風向、船舶支點、受風面積與拖船配置之實務考量。"
+      },
+      {
+        "title": "Turning Lever and Turning Moment",
+        "sourceType": "other",
+        "issuer": "ShipHandling for Professionals",
+        "url": "https://www.shiphandlingpro.com/turning-lever-and-turning-moments",
+        "supports": "以支點為旋轉中心，力矩為作用力乘力臂；前後拖船於後退時的轉向效應。"
+      },
+      {
+        "title": "94年專門職業及技術人員特種考試引水人船舶操縱試題",
+        "sourceType": "official_port_or_authority",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=343&code=094080&q=1&s=4001&t=Q",
+        "supports": "本題原始題目及題目所列船舶、風速、艏推與四艘拖船條件。"
+      }
+    ],
+    "assumptions": [
+      "30 kn視為本題計算採用的相對橫風風速；題目未提供船舶後退速度，無法另計相對風修正。",
+      "受風面積以船長乘題目所給乾舷估算，未計貨櫃堆疊高於甲板、艏艉輪廓及局部遮蔽。",
+      "風力中心假設位於船中；真實風壓中心依船型、上層建築及風向而變。",
+      "後退時支點以距船艉1/4船長估算；真實支點會受速度、加速度、船型及水深影響。",
+      "各拖船與艏推的作用力均假設為正橫方向，且數值視為有效橫向力；不計作用角度及動態變化。",
+      "題目所稱風力及拖船推力均以噸力(tf)表示，力矩單位為tf·m。"
+    ],
+    "limitations": [
+      "本答案為依題目資料與實務近似模型建立的計算答案，未取得考選部官方配分或標準解答。",
+      "若採其他風壓係數公式、相對風速或不同風壓中心，風力及風力矩會有差異。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "原始考題數據及條件",
+          "result": "pass",
+          "note": "依考選部官方題目資料核對。"
+        },
+        {
+          "item": "後退時支點位置",
+          "result": "pass",
+          "note": "依Rowe《The Sh​​iphandler's Guide》第一章，後退時支點約在船艉前方1/4船長。"
+        },
+        {
+          "item": "30 kn風力換算",
+          "result": "pass",
+          "note": "依Rowe簡易公式V=knots/2、每1000m²風力=V²/18，得12.5 tf。"
+        },
+        {
+          "item": "受風面積及風壓中心",
+          "result": "needs_review",
+          "note": "受風面積以長×乾舷、風壓中心取船中，為本題必要簡化假設，非實船精確風壓模型。"
+        },
+        {
+          "item": "各作用力力臂及力矩方向",
+          "result": "pass",
+          "note": "以距船艏210m為支點，前方左舷力產生左舷轉向，後方左舷力產生右舷轉向；3號拖船位於支點。"
+        },
+        {
+          "item": "合計及單位",
+          "result": "pass",
+          "note": "左舷14,900 tf·m；右舷7,175 tf·m；淨值7,725 tf·m向左舷。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
