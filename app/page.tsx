@@ -10,6 +10,10 @@ import common091MassFroude from "../data/answers-common-091-mass-froude.json";
 import common091WakeCurrent from "../data/answers-common-091-wake-current.json";
 import common091SideThruster from "../data/answers-common-091-side-thruster.json";
 import common091Pilotage01 from "../data/answers-common-091-pilotage-01.json";
+import common092Shiphandling from "../data/answers-common-092-shiphandling.json";
+import common092PilotLaw from "../data/answers-common-092-pilot-law.json";
+import common092Pilotage from "../data/answers-common-092-pilotage.json";
+import common092English from "../data/answers-common-092-english.json";
 
 type Question = {
   id: string;
@@ -57,7 +61,7 @@ export default function Home() {
   const [port, setPort] = useState("高雄港");
   const items = (questions as Question[]).filter((q) => officialYears.has(q.year));
   const sources = sourceData as Source[];
-  const answers = [...(answerData as Answer[]), ...(additionalAnswerData as Answer[]), ...(common091Shiphandling as Answer[]), ...(common091Pivot as Answer[]), ...(common091MassFroude as Answer[]), ...(common091WakeCurrent as Answer[]), ...(common091SideThruster as Answer[]), ...(common091Pilotage01 as Answer[])];
+  const answers = [...(answerData as Answer[]), ...(additionalAnswerData as Answer[]), ...(common091Shiphandling as Answer[]), ...(common091Pivot as Answer[]), ...(common091MassFroude as Answer[]), ...(common091WakeCurrent as Answer[]), ...(common091SideThruster as Answer[]), ...(common091Pilotage01 as Answer[]), ...(common092Shiphandling as Answer[]), ...(common092PilotLaw as Answer[]), ...(common092Pilotage as Answer[]), ...(common092English as Answer[])];
   const answerByQuestionId = useMemo(() => new Map(answers.map((a) => [a.questionId, a] as const)), [answers]);
   const sourceById = useMemo(() => new Map(sources.map((s) => [s.id, s] as const)), [sources]);
   const years = useMemo(
