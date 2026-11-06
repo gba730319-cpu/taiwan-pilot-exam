@@ -38,24 +38,9 @@
       }
     ],
     "references": [
-      {
-        "title": "方信雄，《航行避碰與操船》",
-        "sourceType": "textbook_or_academic",
-        "supports": "側推器使用、港內操船及船舶低速操縱之重要參考著作。",
-        "url": "https://www.imo.org/"
-      },
-      {
-        "title": "側推器製造廠操作與維護手冊",
-        "sourceType": "manufacturer_manual",
-        "supports": "設備最高有效船速、額定負荷、連續運轉時間、浸水條件及異常處置，應以本船設備手冊為準。",
-        "url": "https://www.imo.org/"
-      },
-      {
-        "title": "船舶操縱性能資料（Pilot Card及Wheelhouse Poster）",
-        "sourceType": "other",
-        "supports": "個別船舶側推器配置、可用推力及操縱限制，應核對本船資料。",
-        "url": "https://www.imo.org/"
-      }
+      "方信雄，《航行避碰與操船》。側推器使用、港內操船及船舶低速操縱之重要參考著作。",
+      "側推器製造廠操作與維護手冊。設備最高有效船速、額定負荷、連續運轉時間、浸水條件及異常處置，應以本船設備手冊為準。",
+      "船舶操縱性能資料（Pilot Card及Wheelhouse Poster）。個別船舶側推器配置、可用推力及操縱限制，應核對本船資料。"
     ],
     "limitations": [
       "不同側推器型式、馬達功率及隧道設計的性能差異很大，本文不提供通用的最大船速或連續運轉時間數值。",
