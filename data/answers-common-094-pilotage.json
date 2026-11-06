@@ -54,6 +54,23 @@
         "issuer": "National Geospatial-Intelligence Agency",
         "url": "https://www.nga.mil/resources/Maritime_Safety_Products_and_Services.html",
         "supports": "確認NGA海事安全出版品職掌，包括Sailing Directions、航海圖及海事安全資訊。"
+      },
+      {
+        "title": "Sailing Directions (Planning Guide): South Atlantic Ocean and Indian Ocean, 2005, 4th Edition",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency (NGA)",
+        "editionOrEffectiveDate": "2005, 4th Edition",
+        "url": "https://books.google.com/books/about/Sailing_Directions_Planning_Guides.html?id=U4qtWw7fak0C",
+        "supports": "可直接確認2005年版Sailing Directions Planning Guide之書目作者為National Geospatial-Intelligence Agency，支持本題考試年度應答NGA，而非NIMA或NOAA。"
+      },
+      {
+        "title": "National Geospatial-Intelligence Agency—Navigation Information statutory authority",
+        "sourceType": "other",
+        "issuer": "United States Congress, Congressional Record / National Geospatial-Intelligence Agency",
+        "editionOrEffectiveDate": "2004-09-07",
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2004-09-07/pdf/CREC-2004-09-07-pt1-PgS8864-3.pdf",
+        "pageOrSection": "SEC. 311(b), Navigation Information",
+        "supports": "2004年國會紀錄明列NGA負責提供海圖、Sailing Directions及航海書籍，與2005年考試年度的發行機關判定相符。"
       }
     ],
     "verification": {
@@ -77,8 +94,8 @@
         },
         {
           "item": "2005年名稱使用",
-          "result": "needs_review",
-          "note": "本答案採NGA名稱；若取得2005年原始題目指定參考版次，仍應補核當年各冊版權頁及前言。"
+          "result": "pass",
+          "note": "已查得2005年版《Sailing Directions (Planning Guide): South Atlantic Ocean and Indian Ocean》書目作者為NGA，另以2004年國會紀錄核對NGA負責航海指南出版之法定職掌，故2005年考試年度答NGA可確認。"
         }
       ]
     },
