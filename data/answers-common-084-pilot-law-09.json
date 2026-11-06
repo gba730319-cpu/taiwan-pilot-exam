@@ -1,58 +1,60 @@
-{
-  "id": "084-pilot-law-09-answer-v1",
-  "questionId": "084-pilot-law-09",
-  "version": 1,
-  "language": "zh-TW",
-  "answerType": "legal_analysis",
-  "modelAnswer": "依《1972年國際海上避碰規則》第17條，直航船（stand-on vessel）應採取下列措施：\n\n（一）保持航向及航速：在兩船互見且適用第17條時，直航船原則上應保持原航向及航速。\n（二）讓路船未適當行動：當直航船發現應讓路船未依本規則採取適當行動時，直航船得以單獨操縱方式採取行動避免碰撞。\n（三）交叉相遇且本船在左舷：如兩船為動力船交叉相遇，直航船在情況許可時，不應向左轉向，以免與位於本船左舷的讓路船形成更不利局面。\n（四）碰撞已不能僅靠讓路船避免：當直航船發現不論何種原因，讓路船的行動已不足以避免碰撞時，直航船應採取最有助於避免碰撞的行動。\n\n應注意，直航船並非無條件僵持航向航速；第17條明定在讓路船未適當行動或碰撞已無法避免時，直航船負有採取避碰行動的責任。",
-  "practicalAnalysis": "答題應區分17(a)(i)維持航向航速、17(a)(ii)讓路船未行動時可單獨操縱、17(a)(iii)交叉相遇時通常不向左轉，以及17(b)碰撞不能單靠讓路船避免時必須採取最佳避碰行動。不可將直航船寫成完全沒有避碰責任。",
-  "keyPoints": [
-    {
-      "point": "原則保持航向及航速。",
-      "importance": "essential"
-    },
-    {
-      "point": "發現讓路船未採取適當行動，得單獨操縱避碰。",
-      "importance": "essential"
-    },
-    {
-      "point": "交叉相遇時，情況許可下不應向左轉向以避開左舷船。",
-      "importance": "essential"
-    },
-    {
-      "point": "碰撞已不能僅由讓路船避免時，應採取最有助於避碰的行動。",
-      "importance": "essential"
-    }
-  ],
-  "scoringGuide": {
-    "status": "editorial_estimate",
-    "totalPoints": 10,
-    "items": [
+[
+  {
+    "id": "084-pilot-law-09-answer-v1",
+    "questionId": "084-pilot-law-09",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "legal_analysis",
+    "modelAnswer": "依《1972年國際海上避碰規則》第17條，直航船（stand-on vessel）應採取下列措施：\n\n（一）保持航向及航速：在兩船互見且適用第17條時，直航船原則上應保持原航向及航速。\n（二）讓路船未適當行動：當直航船發現應讓路船未依本規則採取適當行動時，直航船得以單獨操縱方式採取行動避免碰撞。\n（三）交叉相遇且本船在左舷：如兩船為動力船交叉相遇，直航船在情況許可時，不應向左轉向，以免與位於本船左舷的讓路船形成更不利局面。\n（四）碰撞已不能僅靠讓路船避免：當直航船發現不論何種原因，讓路船的行動已不足以避免碰撞時，直航船應採取最有助於避免碰撞的行動。\n\n應注意，直航船並非無條件僵持航向航速；第17條明定在讓路船未適當行動或碰撞已無法避免時，直航船負有採取避碰行動的責任。",
+    "practicalAnalysis": "答題應區分17(a)(i)維持航向航速、17(a)(ii)讓路船未行動時可單獨操縱、17(a)(iii)交叉相遇時通常不向左轉，以及17(b)碰撞不能單靠讓路船避免時必須採取最佳避碰行動。不可將直航船寫成完全沒有避碰責任。",
+    "keyPoints": [
       {
-        "criterion": "法條依據與規範內容正確",
-        "points": 6,
-        "basis": "編輯建議配分，非官方評分標準"
+        "point": "原則保持航向及航速。",
+        "importance": "essential"
       },
       {
-        "criterion": "說明適用情境、程序及法律效果",
-        "points": 4,
-        "basis": "編輯建議配分，非官方評分標準"
+        "point": "發現讓路船未採取適當行動，得單獨操縱避碰。",
+        "importance": "essential"
+      },
+      {
+        "point": "交叉相遇時，情況許可下不應向左轉向以避開左舷船。",
+        "importance": "essential"
+      },
+      {
+        "point": "碰撞已不能僅由讓路船避免時，應採取最有助於避碰的行動。",
+        "importance": "essential"
       }
-    ]
-  },
-  "references": [
-    {
-      "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972 (COLREGs)",
-      "sourceType": "international_convention",
-      "issuer": "International Maritime Organization",
-      "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
-      "pageOrSection": "Rules 17 and 24",
-      "supports": "直航船措施及拖帶船舶號燈、號標規定。"
-    }
-  ],
-  "assumptions": [
-    "本題依民國84年考試時有效法規作答；現行法條僅作對照，不倒推適用。"
-  ],
-  "limitations": [],
-  "lastUpdated": "2026-11-07"
-}
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "totalPoints": 10,
+      "items": [
+        {
+          "criterion": "法條依據與規範內容正確",
+          "points": 6,
+          "basis": "編輯建議配分，非官方評分標準"
+        },
+        {
+          "criterion": "說明適用情境、程序及法律效果",
+          "points": 4,
+          "basis": "編輯建議配分，非官方評分標準"
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972 (COLREGs)",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rules 17 and 24",
+        "supports": "直航船措施及拖帶船舶號燈、號標規定。"
+      }
+    ],
+    "assumptions": [
+      "本題依民國84年考試時有效法規作答；現行法條僅作對照，不倒推適用。"
+    ],
+    "limitations": [],
+    "lastUpdated": "2026-11-07"
+  }
+]
