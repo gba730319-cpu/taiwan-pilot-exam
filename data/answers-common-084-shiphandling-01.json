@@ -1,67 +1,69 @@
-{
-  "id": "084-shiphandling-01-answer-v1",
-  "questionId": "084-shiphandling-01",
-  "version": 1,
-  "language": "zh-TW",
-  "answerType": "technical_analysis",
-  "modelAnswer": "一、港內操船發生意外之主要原因\n\n（一）人為因素：駕駛台團隊溝通不良、引水人與船長未充分交換船舶資料、未遵守引水計畫、疲勞、注意力不足、誤判船速、距離及風流。\n（二）船舶因素：主機、舵機、側推器或錨機故障；船舶操縱性能不熟悉；載況、吃水、縱傾、風壓面積及慣性未納入考量。\n（三）環境因素：強風、陣風、潮流、橫流、能見度不良、淺水效應、岸壁效應、船吸及狹窄水域限制。\n（四）交通與港區因素：船舶密度高、船席或航道受限、拖船不足或配置不當、VTS資訊不完整、施工或障礙物未及時掌握。\n（五）操船決策因素：進港速度過高、停船距離估計錯誤、靠離泊角度不當、拖纜受力角度不佳、未預留失效或緊急應變空間。\n\n二、防止海事發生之方法\n（一）事前計畫：取得最新海圖、港口通告、潮汐、風流及船席資料；評估船舶吃水、操縱性能、主機及舵機狀況，制定含備用方案的引水計畫。\n（二）充分溝通：引水人登輪後與船長確認船舶操縱特性、主機反應、舵效、側推器、錨及拖船配置；駕駛台團隊採封閉式回覆與交叉監控。\n（三）控制速度：以最低但仍能保持操縱能力的安全速度航行，預留足夠停船距離，避免過早或過晚使用主機、舵及拖船。\n（四）善用資源：依船舶尺度、風流、泊位及操縱特性配置足夠拖船；必要時備妥錨、側推器及緊急拖帶方案。\n（五）持續監控：使用雷達、ECDIS、測深儀、定位系統及目視交叉確認船位、船速、艏向、橫移速度及與周邊船岸距離。\n（六）保留安全餘裕：遇風流超限、設備異常、交通衝突或操船狀況不明時，及早減速、暫停、改錨地或中止靠泊，不可勉強進行。\n\n三、結論\n港內事故多由人為、船舶、環境及港區交通因素交互造成。預防重點是周延計畫、充分溝通、適當速度、足夠拖船與設備備援，以及在條件不利時及早中止操作。",
-  "practicalAnalysis": "港內操船屬高風險、低餘裕作業，不能只列「注意安全」等抽象口號。考試應把事故原因與相對應的預防措施配對，例如速度過高對應停船距離管理，橫流對應橫移量監控與拖船配置，駕駛台溝通失誤則對應引水計畫簡報及封閉式通訊。",
-  "keyPoints": [
-    {
-      "point": "人為、船舶、環境、港區交通及操船決策五類肇因。",
-      "importance": "essential"
-    },
-    {
-      "point": "事前引水計畫及船長—引水人資料交換。",
-      "importance": "essential"
-    },
-    {
-      "point": "安全速度與停船距離管理。",
-      "importance": "essential"
-    },
-    {
-      "point": "適當拖船配置及設備備援。",
-      "importance": "essential"
-    },
-    {
-      "point": "雷達、ECDIS、目視等交叉監控。",
-      "importance": "essential"
-    },
-    {
-      "point": "不利條件下及早暫停或中止靠泊。",
-      "importance": "essential"
-    }
-  ],
-  "scoringGuide": {
-    "status": "editorial_estimate",
-    "totalPoints": 10,
-    "items": [
+[
+  {
+    "id": "084-shiphandling-01-answer-v1",
+    "questionId": "084-shiphandling-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "technical_analysis",
+    "modelAnswer": "一、港內操船發生意外之主要原因\n\n（一）人為因素：駕駛台團隊溝通不良、引水人與船長未充分交換船舶資料、未遵守引水計畫、疲勞、注意力不足、誤判船速、距離及風流。\n（二）船舶因素：主機、舵機、側推器或錨機故障；船舶操縱性能不熟悉；載況、吃水、縱傾、風壓面積及慣性未納入考量。\n（三）環境因素：強風、陣風、潮流、橫流、能見度不良、淺水效應、岸壁效應、船吸及狹窄水域限制。\n（四）交通與港區因素：船舶密度高、船席或航道受限、拖船不足或配置不當、VTS資訊不完整、施工或障礙物未及時掌握。\n（五）操船決策因素：進港速度過高、停船距離估計錯誤、靠離泊角度不當、拖纜受力角度不佳、未預留失效或緊急應變空間。\n\n二、防止海事發生之方法\n（一）事前計畫：取得最新海圖、港口通告、潮汐、風流及船席資料；評估船舶吃水、操縱性能、主機及舵機狀況，制定含備用方案的引水計畫。\n（二）充分溝通：引水人登輪後與船長確認船舶操縱特性、主機反應、舵效、側推器、錨及拖船配置；駕駛台團隊採封閉式回覆與交叉監控。\n（三）控制速度：以最低但仍能保持操縱能力的安全速度航行，預留足夠停船距離，避免過早或過晚使用主機、舵及拖船。\n（四）善用資源：依船舶尺度、風流、泊位及操縱特性配置足夠拖船；必要時備妥錨、側推器及緊急拖帶方案。\n（五）持續監控：使用雷達、ECDIS、測深儀、定位系統及目視交叉確認船位、船速、艏向、橫移速度及與周邊船岸距離。\n（六）保留安全餘裕：遇風流超限、設備異常、交通衝突或操船狀況不明時，及早減速、暫停、改錨地或中止靠泊，不可勉強進行。\n\n三、結論\n港內事故多由人為、船舶、環境及港區交通因素交互造成。預防重點是周延計畫、充分溝通、適當速度、足夠拖船與設備備援，以及在條件不利時及早中止操作。",
+    "practicalAnalysis": "港內操船屬高風險、低餘裕作業，不能只列「注意安全」等抽象口號。考試應把事故原因與相對應的預防措施配對，例如速度過高對應停船距離管理，橫流對應橫移量監控與拖船配置，駕駛台溝通失誤則對應引水計畫簡報及封閉式通訊。",
+    "keyPoints": [
       {
-        "criterion": "原理、操作方法及安全考量完整",
-        "points": 10,
-        "basis": "編輯建議配分，非官方評分標準"
+        "point": "人為、船舶、環境、港區交通及操船決策五類肇因。",
+        "importance": "essential"
+      },
+      {
+        "point": "事前引水計畫及船長—引水人資料交換。",
+        "importance": "essential"
+      },
+      {
+        "point": "安全速度與停船距離管理。",
+        "importance": "essential"
+      },
+      {
+        "point": "適當拖船配置及設備備援。",
+        "importance": "essential"
+      },
+      {
+        "point": "雷達、ECDIS、目視等交叉監控。",
+        "importance": "essential"
+      },
+      {
+        "point": "不利條件下及早暫停或中止靠泊。",
+        "importance": "essential"
       }
-    ]
-  },
-  "references": [
-    {
-      "title": "Towage Guidelines",
-      "sourceType": "technical_reference",
-      "issuer": "Maritime and Port Authority of Singapore",
-      "url": "https://www.mpa.gov.sg/port-marine-ops/marine-services/pilotage-and-towage/towage",
-      "supports": "拖船配置應依船舶操縱特性、泊位環境、風流等因素決定"
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "totalPoints": 10,
+      "items": [
+        {
+          "criterion": "原理、操作方法及安全考量完整",
+          "points": 10,
+          "basis": "編輯建議配分，非官方評分標準"
+        }
+      ]
     },
-    {
-      "title": "Vessel Maneuvering and Handling — OUPV Study Guide",
-      "sourceType": "technical_reference",
-      "issuer": "TowBoatU.S.",
-      "url": "https://towboatussavannah.com/boating/oupv-license/topics/shiphandling/",
-      "supports": "舵效、螺槳流、倒車時舵效降低及倒行操船控制原理"
-    }
-  ],
-  "assumptions": [
-    "以一般單螺槳、單舵大型商船之操船原理說明；實際操作仍須依船型操縱手冊、主機/舵機限制及當時風流條件調整。"
-  ],
-  "limitations": [],
-  "lastUpdated": "2026-11-07"
-}
+    "references": [
+      {
+        "title": "Towage Guidelines",
+        "sourceType": "technical_reference",
+        "issuer": "Maritime and Port Authority of Singapore",
+        "url": "https://www.mpa.gov.sg/port-marine-ops/marine-services/pilotage-and-towage/towage",
+        "supports": "拖船配置應依船舶操縱特性、泊位環境、風流等因素決定"
+      },
+      {
+        "title": "Vessel Maneuvering and Handling — OUPV Study Guide",
+        "sourceType": "technical_reference",
+        "issuer": "TowBoatU.S.",
+        "url": "https://towboatussavannah.com/boating/oupv-license/topics/shiphandling/",
+        "supports": "舵效、螺槳流、倒車時舵效降低及倒行操船控制原理"
+      }
+    ],
+    "assumptions": [
+      "以一般單螺槳、單舵大型商船之操船原理說明；實際操作仍須依船型操縱手冊、主機/舵機限制及當時風流條件調整。"
+    ],
+    "limitations": [],
+    "lastUpdated": "2026-11-07"
+  }
+]
