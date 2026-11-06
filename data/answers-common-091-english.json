@@ -1,0 +1,248 @@
+[
+  {
+    "id": "091-english-01-answer-v1",
+    "questionId": "091-english-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "IMO也持續強調航運業建立普遍安全文化的必要性，事實上，也強調必須在所有船舶上培養安全文化。這將是今年稍後全球各地慶祝「世界海事日」活動的主要焦點。毋庸置疑，引水業務在發展並促進這種安全文化方面，扮演著重要角色。\n\n藉由創造一種環境，使人們採取正確做法比採取錯誤做法更容易，我們便朝正確的方向邁出了重要的一步。\n\nIMO所倡導的理念是：當文化、經濟及社會型態開始顯現其影響時，我們不能只被動地對這些變化作出反應；相反地，我們必須主動介入，影響文化發展的方向，使其能夠持續發展，並在未來帶來正面的效益。",
+    "practicalAnalysis": "本題為IMO秘書長2002年IMPA大會演講節錄，翻譯應維持正式政策演說語氣。Universal safety culture可譯「普遍的安全文化」；cultivate是「培養／建立」；pilotage在此指引水業務，不是單純「引水」動作；pro-actively強調主動介入，與被動回應（respond）形成對比；sustainable及positive dividends應譯為「可持續發展」及「正面效益」，不宜逐字翻成金融股利。",
+    "keyPoints": [
+      {
+        "point": "universal safety culture＝普遍的安全文化；cultivate a safety culture＝培養安全文化。",
+        "importance": "essential"
+      },
+      {
+        "point": "pilotage在本文政策脈絡中指引水業務／引航制度。",
+        "importance": "essential"
+      },
+      {
+        "point": "creating conditions in which...the right way...為創造使正確做法較容易實踐的環境。",
+        "importance": "essential"
+      },
+      {
+        "point": "pro-actively intervene與simply respond形成主動介入與被動回應的對比。",
+        "importance": "essential"
+      },
+      {
+        "point": "sustainable及positive dividends指可持續發展及未來正面效益。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "Speech by IMO Secretary-General Mr. W.A. O’Neil, IMPA Congress, Hamburg, 28 July–2 August 2002",
+        "sourceType": "other",
+        "issuer": "International Maritime Organization",
+        "supports": "題目所引英文演講原文及其演講背景。"
+      },
+      {
+        "title": "IMO Standard Marine Communication Phrases and maritime safety culture resources",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/standardmarinecommunicationphrases.aspx",
+        "accessedAt": "2026-11-06",
+        "supports": "IMO推動航海安全溝通標準化與安全文化的制度背景。"
+      }
+    ],
+    "assumptions": [
+      "依題目提供的演講文稿原文翻譯，採正式繁體中文海事專業語氣。"
+    ],
+    "limitations": [
+      "原文為演講稿節錄，部分代名詞及語境需依上下文理解；本答案以題目提供段落為準。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "英文原文語意與中文譯文對照",
+          "result": "pass",
+          "note": "逐句核對主旨、轉折、主動／被動對比及政策用語。"
+        },
+        {
+          "item": "海事專業詞彙",
+          "result": "pass",
+          "note": "pilotage依引水業務語境翻譯，safety culture採安全文化。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "091-english-02-answer-v1",
+    "questionId": "091-english-02",
+    "version": 1,
+    "language": "en",
+    "answerType": "translation",
+    "modelAnswer": "(1) You must take two tugs according to port regulations.\n\n(2) Boarding arrangements do not comply with SOLAS Regulations.\n\n(3) The pilot ladder spreader is damaged.\n\n(4) Follow the pilot boat inward where the pilot will embark.\n\n(5) Do you accept shore-based navigational assistance from the VTS Centre?\n\n(6) Have a heaving line ready at the pilot ladder.\n\n(7) Stand by on VHF Channel 13 until pilot transfer is completed.\n\n(8) What is your ETA at the pilot station in local time?\n\n(9) No, I do not require a pilot. I am the holder of a Pilotage Exemption Certificate.",
+    "practicalAnalysis": "本題明確要求使用IMO Standard Marine Communication Phrases（SMCP），應優先採用A.918(22)既定句型，而非自由翻譯。第(3)題「防扭桿」宜以pilot ladder spreader表達其梯撐／橫檔構件，若題意特指旋轉防扭裝置，應再核對實物名稱；第(9)題完整SMCP回覆句為“No, I do not require a pilot - I am holder of Pilotage Exemption Certificate (No. ...).”考題未給證書號碼，故不填號碼。",
+    "keyPoints": [
+      {
+        "point": "第(1)、(4)、(5)、(6)、(7)、(8)、(9)題採用IMO SMCP標準句型。",
+        "importance": "essential"
+      },
+      {
+        "point": "tug(s) according to port regulations＝依港口規則規定使用拖船。",
+        "importance": "essential"
+      },
+      {
+        "point": "boarding arrangements do not comply with SOLAS Regulations為引水登輪設備不符合SOLAS規定的標準表達。",
+        "importance": "essential"
+      },
+      {
+        "point": "Have a heaving line ready at the pilot ladder＝在引水梯處備妥撇纜繩。",
+        "importance": "essential"
+      },
+      {
+        "point": "Stand by on VHF Channel 13 until pilot transfer is completed＝在VHF第13頻道守聽，直到引水人接送完成。",
+        "importance": "essential"
+      },
+      {
+        "point": "Pilotage Exemption Certificate＝引水豁免證書；不要誤譯成一般引水執照。",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "Resolution A.918(22) – IMO Standard Marine Communication Phrases",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "Adopted 29 November 2001; issued 25 January 2002",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.918%2822%29.pdf",
+        "pageOrSection": "Annex 1, A1/4.2, A1/4.3及A1/6.4.3 Pilot request",
+        "accessedAt": "2026-11-06",
+        "supports": "引水梯、撇纜繩、SOLAS登輪安排、拖船數量、引水人岸基協助、VHF守聽、ETA及引水豁免證書等標準句型。"
+      },
+      {
+        "title": "IMO Standard Marine Communication Phrases",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/standardmarinecommunicationphrases.aspx",
+        "accessedAt": "2026-11-06",
+        "supports": "SMCP於2001年由IMO大會採納，供船岸、船舶間及船上安全溝通使用。"
+      }
+    ],
+    "assumptions": [
+      "第(3)題將「引水梯防扭桿」按引水梯的spreaders／梯撐構件表達；若原卷所指為特定型式的防扭裝置，英文設備名稱應以該設備製造商術語為準。",
+      "第(8)題未指定引水站名稱，故使用the pilot station作為通用表達。"
+    ],
+    "limitations": [
+      "SMCP部分句型使用可替換欄位，實際通訊時應填入港名、引水站、頻道及證書號碼等必要資訊。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "IMO SMCP引水與拖船標準句型",
+          "result": "pass",
+          "note": "依A.918(22)官方決議核對拖船、引水請求、岸基協助及引水站ETA用語。"
+        },
+        {
+          "item": "引水梯與登輪安全句型",
+          "result": "pass",
+          "note": "依A.918(22) A1/4.2核對登輪安排、SOLAS合規及heaving line用語。"
+        },
+        {
+          "item": "防扭桿專有設備名稱",
+          "result": "needs_review",
+          "note": "原中文名稱可能指特定防扭構件，本文先採spreaders通用表達並保留設備術語核對註記。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "091-english-03-answer-v1",
+    "questionId": "091-english-03",
+    "version": 1,
+    "language": "en",
+    "answerType": "essay",
+    "modelAnswer": "Master-Pilot Relationship\n\nThe relationship between the master and the pilot is essential to the safe and efficient movement of a ship, especially in confined waters and busy ports. Although the pilot has detailed local knowledge and experience of the port, the master retains overall command of the vessel. Safe pilotage therefore depends on mutual respect, clear communication and effective cooperation.\n\nBefore the pilotage begins, the master and the pilot should exchange relevant information during the Master-Pilot Exchange (MPX). The master should provide the ship's particulars, manoeuvring characteristics, draft, defects, engine and steering limitations, and any other information that may affect the passage. The pilot should explain the intended route, expected traffic, environmental conditions, navigational hazards, tug requirements and berthing or unberthing plan.\n\nA passage plan should be discussed and agreed upon. Both parties must understand the intended track, wheel-over positions, speeds, abort points, reporting points and contingency measures. The pilot should give clear and timely orders, while the bridge team should repeat and confirm important orders through closed-loop communication. The master and the officer of the watch must monitor the ship's position, movement and progress independently, and should speak up whenever they have doubts.\n\nThe pilot should not assume that the master knows every local danger, and the master should not blindly rely on the pilot. If the ship's movement differs from the agreed plan, or if an unsafe situation develops, either party should raise the concern immediately. The master must remain fully informed and be ready to intervene when necessary. At the same time, the pilot should be treated as an integral member of the bridge team and should receive the cooperation needed to perform the pilotage safely.\n\nIn conclusion, a good master-pilot relationship is based on professional trust, shared situational awareness, effective teamwork and continuous communication. The pilot contributes local expertise, while the master provides command authority and knowledge of the ship. Their cooperation, supported by a competent bridge team, is the foundation of safe pilotage.",
+    "practicalAnalysis": "題目要求約300字，建議採五段式：重要性、MPX、共同航行計畫、執行監控與異常處置、結論。本文約300字上下，並刻意區分master retains command與pilot provides local expertise，避免誤寫成引水人上船後接管船舶。可加分的專業詞包括MPX、passage plan、closed-loop communication、situational awareness、abort point及bridge team。",
+    "keyPoints": [
+      {
+        "point": "船長保有船舶指揮權（overall command），引水人提供當地水域知識及專業引航建議。",
+        "importance": "essential"
+      },
+      {
+        "point": "引航開始前應完成Master-Pilot Exchange（MPX），交換船舶操縱性能、吃水、設備限制及航行資訊。",
+        "importance": "essential"
+      },
+      {
+        "point": "船長與引水人應共同確認passage plan，包括航線、航速、轉向點、報告點及應變措施。",
+        "importance": "essential"
+      },
+      {
+        "point": "駕駛台團隊應採closed-loop communication，重要指令須覆誦、確認並監控執行。",
+        "importance": "essential"
+      },
+      {
+        "point": "船長及值班駕駛員仍須獨立監控船位、航向、航速及航行進度。",
+        "importance": "essential"
+      },
+      {
+        "point": "任何人發現偏離計畫或不安全情況，均應立即提出疑慮；船長必要時應介入。",
+        "importance": "essential"
+      },
+      {
+        "point": "以mutual respect、teamwork、situational awareness及continuous communication作結。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Standard Marine Communication Phrases",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/standardmarinecommunicationphrases.aspx",
+        "accessedAt": "2026-11-06",
+        "supports": "船長、引水人及駕駛台團隊之標準化安全溝通背景。"
+      },
+      {
+        "title": "IMO Resolution A.960(23) – Recommendations on Training and Certification and on Operational Procedures for Maritime Pilots",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "Adopted 5 December 2003",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.960%2823%29.pdf",
+        "accessedAt": "2026-11-06",
+        "supports": "引水人訓練、引航作業程序、船長與引水人資訊交換及駕駛台協作原則。"
+      },
+      {
+        "title": "SOLAS 1974, Chapter V, Regulation 34 and Regulation 34-1",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "supports": "船舶航行計畫及船長專業判斷與指揮權的國際公約背景。"
+      }
+    ],
+    "assumptions": [
+      "短文以一般商船港內引航作業為情境，採正式海事英文及IMO常用術語。"
+    ],
+    "limitations": [
+      "IMO A.960(23)於2003年12月採納，晚於本題2002年考試；此處僅作為後續明文化的MPX及引航協作參考，不主張其為考試當時已生效的規範。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "船長與引水人職責區分",
+          "result": "pass",
+          "note": "明確區分船長的指揮權與引水人的地方專業知識及引航協助。"
+        },
+        {
+          "item": "MPX及駕駛台團隊合作內容",
+          "result": "pass",
+          "note": "依IMO引水作業建議及SMCP安全溝通原則整理。"
+        },
+        {
+          "item": "英文篇幅與語法",
+          "result": "pass",
+          "note": "採正式海事英文，篇幅符合約300字短文要求。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
