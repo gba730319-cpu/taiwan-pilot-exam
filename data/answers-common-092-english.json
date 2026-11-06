@@ -199,50 +199,72 @@
     "version": 1,
     "language": "en",
     "answerType": "essay",
-    "modelAnswer": "Safe Port and Safe Berth\n\nA safe port is a port that a vessel can reach, use and leave without being exposed to danger that cannot be avoided by good navigation and seamanship. The safety of a port depends on many factors, including weather, tides, currents, water depth, navigational channels, pilotage services, traffic conditions and available port facilities. A port should also provide adequate protection from ordinary seasonal weather conditions and have suitable arrangements for emergencies.\n\nA safe berth is a particular place within a port where a vessel can safely lie alongside, anchor or moor, provided that the vessel is properly handled and operated with reasonable care. The berth must have sufficient depth, adequate under-keel clearance, suitable holding ground or mooring facilities, and enough room for the vessel to approach, turn and depart. The condition of the quay, fenders, bollards and mooring equipment should also be suitable for the vessel's size and condition.\n\nThe distinction between a safe port and a safe berth is important. A port may generally be safe while a particular berth is temporarily unsafe because of insufficient depth, damaged facilities, strong currents or congestion. Likewise, a safe berth does not necessarily make the whole port safe if the approach channel is obstructed or exposed to unacceptable hazards. Before entering a port, the master and pilot should exchange relevant information, check the latest charts and notices, assess weather and tidal conditions, and prepare a suitable passage and berthing plan. Safety must be maintained throughout the vessel's arrival, stay and departure.",
-    "practicalAnalysis": "題目要求至少三段，答案以定義、泊位條件及兩者區別／實務程序三段展開。法律及租船契約語境中 safe port、safe berth 可能涉及保證義務與例外，若考題只要求一般航海英文作文，應以安全航行與泊位條件為主，不宜過度引入特定契約責任。",
+    "modelAnswer": "Safe Port and Safe Berth\n\nA safe port is a port that a particular vessel can safely reach, use and leave during the relevant period. In maritime charterparty law, the classic test in The Eastern City is whether the particular ship can reach the port, use it and return from it without, in the absence of an abnormal occurrence, being exposed to danger that cannot be avoided by good navigation and seamanship. Port safety therefore depends not only on the port itself but also on the vessel's size, draft, condition, cargo and the time of the call. Important factors include the approach channel, available water depth, tides, currents, weather, navigational marks, traffic, tug and pilotage arrangements, and the possibility of safe departure.\n\nA safe berth is a particular place within a port where a vessel can safely approach, lie alongside or remain, and depart during the relevant period. The berth must be suitable for the vessel concerned. The master and pilot should consider the available depth and under-keel clearance, tidal restrictions, seabed conditions, the room required for turning and manoeuvring, and the effects of wind, waves and current. The quay, fenders, bollards and mooring arrangements should also be suitable for the vessel and the expected environmental conditions. A berth may be unsafe even when the port as a whole is safe, for example, because of inadequate depth, damaged mooring facilities or excessive exposure to swell.\n\nA safe port and a safe berth are related but different concepts. A safe port concerns the overall ability of the vessel to enter, use and leave the port safely, while a safe berth concerns the safety of the particular place nominated for the vessel. A safe berth does not automatically make an unsafe approach channel or port safe; similarly, a generally safe port may contain a particular unsafe berth. In practice, the master and pilot should exchange relevant information before arrival, review the latest charts and Notices to Mariners, check port and berth information, assess weather and tidal conditions, confirm the vessel's draft and manoeuvring limitations, and prepare an appropriate passage and berthing plan. Safety must be assessed for the particular vessel and the relevant time, and maintained during arrival, the stay alongside and departure.",
+    "practicalAnalysis": "本題要求至少三段英文說明，答案依序處理 safe port 定義、safe berth 條件，以及兩者區別與實務檢查。補入 The Eastern City 的經典法律測試：特定船舶在相關期間能抵達、使用並離開港口，且除異常事件外，不會遭遇無法藉良好航海技術與船藝避免的危險。此測試不是抽象地判斷港口對所有船舶都安全，而須考量特定船舶、吃水、船況及相關時間。Safe berth 則聚焦港內特定泊位的進入、停留及離開。法律上的 safe port／safe berth warranty 通常涉及租船契約的約定或默示義務；一般航海作文可引用其核心概念，但不應把契約法律責任說成港口對所有船舶的絕對保證。",
     "keyPoints": [
       {
-        "point": "Safe port：船舶能安全抵達、使用及離開的港口。",
+        "point": "Safe port 的核心是特定船舶在相關期間能安全抵達、使用及離開港口。",
         "importance": "essential"
       },
       {
-        "point": "Safe berth：港內特定可安全靠泊、錨泊或繫泊的位置。",
+        "point": "The Eastern City 測試包含 particular ship、relevant period、absence of abnormal occurrence，以及 good navigation and seamanship。",
         "importance": "essential"
       },
       {
-        "point": "港口安全涉及航道、水深、潮流、氣象、交通及港口設施。",
+        "point": "Safe berth 是港內特定泊位，須評估船舶能否安全進入、停留及離開。",
         "importance": "essential"
       },
       {
-        "point": "泊位安全涉及水深、UKC、繫泊設備、護舷材、繫纜樁及靠離泊空間。",
+        "point": "港口整體安全與個別泊位安全不同；安全泊位不能補救不安全的進港航道。",
         "importance": "essential"
       },
       {
-        "point": "港口整體安全與個別泊位安全是不同層次，須分別評估。",
+        "point": "實務檢查包括水深、UKC、潮汐、流況、氣象、迴旋水域、繫泊設施、拖船及引水安排。",
         "importance": "essential"
+      },
+      {
+        "point": "租船契約中的 safe port／safe berth warranty 須依契約文字及適用法律判斷。",
+        "importance": "supporting"
       }
     ],
     "references": [
-      "Maritime English and charterparty terminology: safe port and safe berth"
+      "Leeds Shipping Co Ltd v Société Française Bunge (The Eastern City) [1958] 2 Lloyd's Rep 127, 131 — classic safe port test.",
+      "Gard Marine & Energy Ltd v China National Chartering Co Ltd [2015] EWCA Civ 16 — https://www.bailii.org/ew/cases/EWCA/Civ/2015/16.html",
+      "Steamship Mutual, Safe Port and Safe Berth Warranties — https://www.steamshipmutual.com/publications/articles/safe_port",
+      "AIC Ltd v Marine Pilot Ltd [2007] EWHC 1182 (Comm) — https://www.bailii.org/cgi-bin/markup.cgi?doc=%2Few%2Fcases%2FEWHC%2FComm%2F2007%2F1182.html",
+      "UK Defence Club, The Law Relating to Unsafe Ports — https://www.opdu.com/fileadmin/uploads/uk-defence/Documents/UKDC_UnsafePorts_web.pdf"
     ],
     "assumptions": [
-      "以一般海事英文申論為主，非針對特定租船契約的法律意見。"
+      "以一般海事英文申論及 safe port／safe berth 的常見租船契約概念作答。",
+      "不針對特定租船契約、港口或船舶作法律意見。"
     ],
     "limitations": [
-      "Safe port／safe berth 在租船契約及判例中可能有更精細的法律測試，需依契約文字及適用法域判斷。"
+      "Safe port 與 safe berth 的法律測試及契約責任，須依契約條款、適用法域、特定船舶及相關期間判斷。",
+      "題目為一般英文作文，未要求討論特定判例的全部法律爭點。"
     ],
     "verification": {
-      "status": "draft",
+      "status": "source_checked",
       "checkedAt": "2026-11-06",
       "checks": [
         {
-          "item": "三段英文作文符合題目主旨及段落要求",
-          "result": "source_checked"
+          "item": "Safe port 經典法律定義",
+          "result": "source_checked",
+          "note": "依 The Eastern City 經典測試及 Gard Marine 2015 上訴法院判決核對。"
         },
         {
-          "item": "特定契約法下 safe port／safe berth 的法律定義",
-          "result": "needs_review"
+          "item": "Safe berth 與 safe port 的區別",
+          "result": "source_checked",
+          "note": "依 Steamship Mutual 對 safe port／safe berth warranty 的說明，區分港口整體與特定泊位。"
+        },
+        {
+          "item": "特定船舶及相關期間的評估原則",
+          "result": "source_checked",
+          "note": "答案明確納入 particular vessel、relevant period、異常事件及良好航海技術與船藝。"
+        },
+        {
+          "item": "靠泊前實務檢查項目",
+          "result": "source_checked",
+          "note": "以水深、UKC、潮流、氣象、迴旋水域及繫泊設施等航海操作要素組織例文。"
         }
       ]
     },
