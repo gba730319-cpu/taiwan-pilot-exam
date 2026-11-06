@@ -1,8 +1,8 @@
 [
   {
-    "id": "092-pilotage-01-answer-v1",
+    "id": "092-pilotage-01-answer-v2",
     "questionId": "92-pilotage-01",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
     "modelAnswer": "（一）氣溫垂直遞減率（Lapse Rate）\n指大氣氣溫隨高度增加而降低的速率，通常以 °C/km 表示。須區分：\n1. 環境氣溫垂直遞減率（Environmental Lapse Rate, ELR）：實際大氣某一時刻的溫度垂直分布，由探空等觀測取得，並非固定常數。\n2. 乾絕熱遞減率（Dry Adiabatic Lapse Rate, DALR）：未飽和空氣團絕熱上升時，因氣壓降低膨脹而冷卻，約 9.8°C/km。\n3. 濕絕熱遞減率（Moist Adiabatic Lapse Rate, MALR）：飽和空氣團上升時，水氣凝結釋放潛熱，抵銷部分膨脹冷卻，因此遞減率通常小於乾絕熱遞減率，且隨溫度、氣壓及含水量改變，不能視為固定值。\n判斷大氣穩定度時，應比較環境遞減率與氣塊絕熱遞減率；環境遞減率愈大，通常愈有利於垂直對流發展。逆溫則表示氣溫隨高度增加而上升，常抑制垂直混合。\n\n（二）東風波（Easterly Wave）\n為熱帶東風帶中的低層波狀擾動，通常由東向西移動，常伴隨低層輻合、上升運動、雲雨及雷暴。東風波可能發展成熱帶低壓或熱帶氣旋，但並非每一道東風波都會發展成熱帶氣旋；其發展與海面溫度、環境濕度、低層渦度及垂直風切等條件有關。\n\n（三）海霧（Sea Fog）\n海霧是發生於海面或近海面、使能見度降低的霧。最典型者為平流霧（Advection Fog）：暖濕空氣移經較冷海面，底層空氣被冷卻至露點而達飽和，水氣凝結成霧。另有蒸發／混合霧（Evaporation or Steam Fog）：冷空氣移至較暖水面，水面蒸發增加近地面空氣水氣，與冷空氣混合後達飽和。海霧常出現在暖濕氣流經冷海流或冷暖水團交界處，可能造成能見度突然下降，船舶應依 COLREGs 第 19 條及安全速度、瞭望等規定採取措施。\n\n（四）焚風（Föhn）\n指空氣越過山脈後，在背風側形成的暖而乾燥下坡風。典型機制為濕潤氣流沿迎風坡抬升、膨脹冷卻，達飽和後凝結並可能降水；越過山脊後，空氣沿背風坡下沉、受壓縮而增溫。由於迎風坡可能已失去部分水分，背風側空氣相對較乾，溫度較高。實際焚風也可能涉及高空空氣下沉、湍流混合及地形阻塞等機制，不宜把所有個案都簡化為單一「雨影」過程。\n\n（五）三胞環流（Three-cell Circulation Model）\n若題目所稱「三胞環流」係指全球大氣三圈環流模型，則每一半球由低緯至高緯分為：\n1. 哈德里胞（Hadley Cell）：赤道附近受熱空氣上升，高空向極地方向流動，約在副熱帶下沉，近地面形成信風回流。\n2. 費雷爾胞（Ferrel Cell）：位於副熱帶與副極地之間，近地面盛行西風；此胞主要受中緯度氣旋、反氣旋及渦旋活動所維持，並非單純熱力直接環流。\n3. 極地胞（Polar Cell）：極地冷空氣下沉，近地面向較低緯度流動，形成極地東風，於較低緯度附近上升後在高空返回極區。\n三圈環流與赤道低壓帶、副熱帶高壓帶、副極地低壓帶、極地高壓帶，以及信風、西風、極地東風的全球分布有關。",
@@ -34,19 +34,64 @@
       }
     ],
     "references": [
-      "NOAA National Weather Service, Marine Weather Glossary, entries: Environmental Lapse Rate, Dry Adiabatic Lapse Rate, Moist Adiabatic Lapse Rate; https://marine.weather.gov/glossary.php?word=Lapse+rate",
-      "NOAA National Weather Service, Glossary, Easterly Wave; https://forecast.weather.gov/glossary.php?word=s",
-      "NOAA National Weather Service, Fog Over Water; https://www.weather.gov/safety/fog-water",
-      "NOAA National Weather Service, Glossary, Advection Fog and Evaporation-mixing Fog; https://forecast.weather.gov/glossary.php?word=fog",
-      "Met Office, Understanding the Foehn effect and its impacts; https://www.metoffice.gov.uk/blog/2025/understanding-the-foehn-effect-and-its-impacts",
-      "NOAA JetStream, Global Atmospheric Circulations; https://www.noaa.gov/jetstream/global/global-atmospheric-circulations"
+      {
+        "title": "National Weather Service Marine Weather Glossary: Lapse Rate",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA / National Weather Service",
+        "url": "https://marine.weather.gov/glossary.php?word=Lapse+rate",
+        "supports": "環境遞減率、乾絕熱遞減率及濕絕熱遞減率的定義；乾絕熱遞減率約9.8°C/km，濕絕熱遞減率隨氣塊溫度與氣壓改變。"
+      },
+      {
+        "title": "Weather Glossary: Easterly Wave",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA",
+        "url": "https://www.noaa.gov/jetstream/appendix/weather-glossary-e",
+        "supports": "東風波是熱帶東風中的波狀擾動，通常由東向西移動，可能發展成熱帶低壓。"
+      },
+      {
+        "title": "Fog Over Water",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA / National Weather Service",
+        "url": "https://www.weather.gov/safety/fog-water",
+        "supports": "海霧／水面霧常由暖濕空氣流經較冷水面形成，屬平流霧。"
+      },
+      {
+        "title": "Advection Fog",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA / National Weather Service",
+        "url": "https://www.weather.gov/safety/fog-advection",
+        "supports": "平流霧由暖濕空氣移經冷地表或冷水面，底層空氣冷卻至飽和形成。"
+      },
+      {
+        "title": "Foehn effect",
+        "sourceType": "official_port_or_authority",
+        "issuer": "UK Met Office",
+        "url": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/wind/foehn-effect",
+        "supports": "焚風背風側增溫乾燥的多重機制，包括迎風坡凝結降水、上層空氣下沉、湍流混合及輻射增溫。"
+      },
+      {
+        "title": "Global Atmospheric Circulations",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA JetStream",
+        "url": "https://www.noaa.gov/jetstream/global/global-atmospheric-circulations",
+        "supports": "Hadley、Ferrel、Polar三胞環流的位置、基本運動方向及與全球風帶的關係。"
+      },
+      {
+        "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972 (COLREGs)",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rule 19: Conduct of vessels in restricted visibility",
+        "supports": "能見度受限時船舶應採取安全速度、保持適當瞭望及遵守避碰行動要求。"
+      }
     ],
     "assumptions": [
       "將三胞環流解釋為全球三圈環流；此名詞須核對考試指定中文教材。"
     ],
     "limitations": [
-      "三胞環流中文術語可能有教材差異，需核對原始講義。",
-      "乾、濕絕熱遞減率為典型參考值，濕絕熱遞減率隨溫度及水氣含量變動。"
+      "三胞環流中文術語可能有教材差異，本文按全球三圈環流（Hadley、Ferrel、Polar cells）解釋，仍宜核對考試指定教材。",
+      "乾、濕絕熱遞減率為典型參考值；濕絕熱遞減率隨氣塊溫度、氣壓及水氣含量變動。",
+      "蒸發霧、蒸發混合霧及蒸汽霧的中文譯名在不同教材可能不一致，應以指定氣象教材為準。"
     ],
     "verification": {
       "status": "source_checked",
@@ -55,27 +100,37 @@
         {
           "item": "環境、乾絕熱及濕絕熱遞減率定義",
           "result": "pass",
-          "note": "依 NOAA NWS Marine Weather Glossary；確認環境遞減率為實測垂直溫度變化，乾絕熱約9.8°C/km，濕絕熱遞減率非固定常數。"
+          "note": "依NOAA NWS Marine Weather Glossary；確認環境遞減率為實測垂直溫度變化，乾絕熱約9.8°C/km，濕絕熱遞減率非固定常數。"
         },
         {
           "item": "東風波定義及發展條件",
           "result": "pass",
-          "note": "依 NOAA NWS Glossary；東風波為熱帶低層擾動，可發展成熱帶氣旋但非必然。"
+          "note": "依NOAA JetStream Glossary；東風波通常由東向西移動，可能發展成熱帶低壓，但非必然。"
         },
         {
-          "item": "海霧及平流霧、蒸發混合霧",
+          "item": "海霧及平流霧形成",
           "result": "pass",
-          "note": "依 NOAA NWS Fog Over Water 及官方霧類詞彙；區分暖濕空氣移經冷水與冷空氣移經暖水的形成機制。"
+          "note": "依NOAA NWS Fog Over Water及Advection Fog；暖濕空氣移經冷水面冷卻至飽和形成海霧。"
+        },
+        {
+          "item": "蒸發／混合霧之區分",
+          "result": "needs_review",
+          "note": "本答案採一般氣象學定義；若需精確區分steam fog與evaporation-mixing fog，宜再以指定教材或氣象學教科書核對術語。"
         },
         {
           "item": "焚風形成機制",
           "result": "pass",
-          "note": "依英國氣象局 Met Office 對焚風效應的說明；除迎風坡降水及背風坡下沉增溫外，亦可能有高空空氣下沉與湍流混合。"
+          "note": "依英國氣象局Met Office對焚風效應的說明；包括凝結降水、上層空氣下沉、湍流混合及輻射增溫等機制。"
         },
         {
           "item": "全球三圈環流",
           "result": "pass",
-          "note": "依 NOAA JetStream 全球大氣環流資料，確認 Hadley、Ferrel、Polar 三胞及其基本位置與環流特徵。"
+          "note": "依NOAA JetStream全球大氣環流資料，確認Hadley、Ferrel、Polar三胞及其基本位置與環流特徵。"
+        },
+        {
+          "item": "能見度受限時的航行措施",
+          "result": "pass",
+          "note": "COLREG Rule 19要求能見度受限時採取安全速度、保持有效瞭望並採取適當避碰措施。"
         }
       ]
     },
