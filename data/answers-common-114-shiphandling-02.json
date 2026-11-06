@@ -1,0 +1,88 @@
+[
+  {
+    "id": "answer-114-shiphandling-02",
+    "questionId": "114-shiphandling-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "**一、SCHOTTEL RudderPropeller（SRP）原理與特性**\nSRP為可作360°方位旋轉的舵槳推進器，將推進與轉向整合於同一裝置。主機動力經傳動軸及齒輪傳至下部螺槳，藉整個推進器方位旋轉改變推力方向；部分型式可配置導管螺槳。拖船可將推力指向任意方向，提供拖帶、頂推、橫移及原地迴轉所需的操縱力。\n\n**優點**：推力方向可大角度調整，操縱彈性高；導管型式可在低速及高負荷作業提供良好繫柱拉力；技術成熟、型式選擇多，適用港勤拖船、工作船及DP船舶。若採雙SRP配置，可透過兩具推進器差動控制產生偏航力矩。\n\n**限制**：方位轉向及齒輪傳動系統具有機械複雜度，需定期檢查齒輪、軸封、軸承及轉向機構；推進器的方位變換與推力建立仍受控制系統及機械反應限制。螺槳／導管靠近船底，需注意水深、異物及碰撞風險；自由航行效率與高速性能須視型式、導管、螺距及船體設計而定，不能一概而論。\n\n**二、Voith Schneider Propeller（VSP）原理與特性**\nVSP為垂直軸循環式推進器。圓形轉子上配置多片垂直葉片，轉子旋轉時，各葉片依控制機構改變自身攻角，形成合成推力；藉改變葉片控制角，可連續調整推力大小及方向，推力可在360°範圍內快速改變。VSP將推進與轉向整合，典型配置於拖船底部，能迅速對應船長操縱指令。\n\n**優點**：推力方向可迅速、無段調整，幾乎可立即改變推力方向；在低速、近距離拖帶、頂推及精密定位時操縱性佳；可快速建立橫向或斜向推力，適合狹窄港區及高操縱需求作業。\n\n**限制**：機構及葉片控制系統精密，購置與維修成本可能較高；葉片與轉子位於船底，需注意觸底、異物及水下損傷；操作性能、效率、振動及維護需求仍取決於機型與安裝設計。不能單憑VSP名稱即認定所有工況均比SRP省油或拉力更大。\n\n**三、比較與選用**\n| 比較項目 | SRP | VSP |\n|---|---|---|\n| 推進原理 | 方位舵槳，整具推進器旋轉改變推力方向 | 垂直軸葉片循環改變攻角產生推力 |\n| 推力方向 | 可360°方位調整 | 可360°連續調整，反應迅速 |\n| 低速港勤 | 操縱性佳，導管型式可重視繫柱拉力 | 精細推力控制與快速改向特別突出 |\n| 機械特性 | 齒輪、軸系及方位轉向機構 | 轉子、葉片及葉片控制機構較特殊精密 |\n| 適用考量 | 綜合港勤、拖帶、頂推及多種船型 | 高度重視即時全向推力與精密操縱的拖船 |\n\n**結論**：兩者皆能提供高操縱性，不能簡化成「SRP只能前後、VSP才可橫移」。選型應依拖船工作型態、所需繫柱拉力、航速、吃水、推進器安裝位置、維修能力及全生命週期成本決定。",
+    "practicalAnalysis": "考試應先交代兩種推進器的結構原理，再比較推力方向控制、低速操縱、繫柱拉力、機械複雜度、維護及適用任務。SRP的核心是整具方位舵槳轉向；VSP的核心是垂直軸轉子上的葉片持續變角產生任意方向推力。兩者性能均有型式差異，應避免把單一製造商宣傳資料擴張為普遍定律。",
+    "keyPoints": [
+      {
+        "point": "SRP以整具360°方位旋轉的舵槳改變推力方向。",
+        "importance": "essential"
+      },
+      {
+        "point": "VSP以垂直軸轉子及可變攻角葉片產生全向推力。",
+        "importance": "essential"
+      },
+      {
+        "point": "兩者均整合推進與轉向，適用港勤拖船的低速精密操縱。",
+        "importance": "essential"
+      },
+      {
+        "point": "VSP的推力方向改變迅速、連續，適合精細定位與複雜操船。",
+        "importance": "essential"
+      },
+      {
+        "point": "SRP可依導管與型式配置，重視綜合效率、繫柱拉力及通用性。",
+        "importance": "supporting"
+      },
+      {
+        "point": "比較時須涵蓋機械結構、維修成本、吃水與水下損傷風險，不能武斷判定單一系統全面優勝。",
+        "importance": "supporting"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "totalPoints": null,
+      "items": []
+    },
+    "references": [
+      {
+        "title": "SCHOTTEL RudderPropeller — product information",
+        "sourceType": "manufacturer_manual",
+        "issuer": "SCHOTTEL",
+        "url": "https://www.schottel.de/en/portfolio/products/product-details/srp-schottel-rudderpropeller",
+        "accessedAt": "2026-11-07",
+        "supports": "作答之專業依據；應配合船舶實際操縱資料及當地規定使用。"
+      },
+      {
+        "title": "Voith Schneider Propeller (VSP) — operating principle and applications",
+        "sourceType": "manufacturer_manual",
+        "issuer": "Voith",
+        "url": "https://www.voith.com/corp-en/drives-transmissions/voith-schneider-propeller-vsp.html",
+        "accessedAt": "2026-11-07",
+        "supports": "作答之專業依據；應配合船舶實際操縱資料及當地規定使用。"
+      },
+      "方信雄，《船舶引航專論》；方信雄，《航行避碰與操船》（拖船配置、拖帶與港內操縱相關章節；未引用未核實頁碼）。"
+    ],
+    "assumptions": [],
+    "limitations": [
+      "製造商資料可確認結構原理與產品特點，但不是獨立性能比較試驗；實際效率及拉力須依特定型號試驗資料。",
+      "未取得考選部官方逐項評分細則；本文為依題目及可查證資料撰寫的研讀答案。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題號與題文",
+          "result": "pass",
+          "note": "對照114年共同科目題庫資料。"
+        },
+        {
+          "item": "技術概念與資料來源",
+          "result": "pass",
+          "note": "已以官方事故調查、主管機關或設備製造商資料交叉核對。"
+        },
+        {
+          "item": "官方評分細則",
+          "result": "needs_review",
+          "note": "未取得考選部官方評分細則。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
