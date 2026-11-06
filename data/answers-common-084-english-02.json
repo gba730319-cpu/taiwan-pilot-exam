@@ -1,0 +1,101 @@
+[
+  {
+    "id": "084-english-02-answer-v1",
+    "questionId": "084-english-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "english_composition",
+    "modelAnswer": "【English model answer — more than 200 words】\n\nWhen my vessel is expected to arrive at a port in bad weather, I will make a careful plan before entering the port approaches. First, I will obtain the latest weather forecast, navigational warnings, tide and current information, port regulations and anchorage instructions. I will inform the master, engine room, deck officers and crew of the expected conditions. The main engine, steering gear, windlass, anchor cables, communications equipment and navigation instruments must be tested and kept ready for immediate use. Both anchors should be cleared away, and the crew assigned to the forecastle should wear proper protective equipment and maintain reliable communication with the bridge.\n\nDuring the approach, I will proceed at a safe speed and keep well clear of lee shores, shoals, traffic routes and other navigational dangers. I will maintain a proper lookout by sight, radar and all available means, while continuously monitoring the vessel's position and movement. If the weather or visibility becomes worse than expected, I will reduce speed, postpone the anchoring operation or remain in a safer area until conditions improve. I will also contact the port authority or VTS for the latest traffic and anchorage information.\n\nBefore anchoring, I will select a suitable position with sufficient depth, good holding ground and adequate swinging room. The anchorage must be clear of submarine cables, pipelines, wrecks, prohibited areas and other vessels. I will consider the wind direction, expected wind shift, tidal stream, sea room, the vessel's draft, length, displacement and the forecast duration of the stay. I will allow sufficient room for the vessel to swing and avoid dragging into nearby ships or hazards.\n\nFor a two-anchor mooring, I will normally approach the selected position at a controlled speed, heading into the prevailing wind or current as appropriate. After reducing speed and confirming that the vessel is under control, I will let go the first anchor and pay out the required cable while checking the cable direction and tension. I will then manoeuvre carefully to the planned second-anchor position and let go the other anchor. The two cables should be laid in the intended directions with suitable scope, taking account of the depth, weather and available sea room. The cables must not be allowed to cross or become fouled.\n\nAfter both anchors are secured, I will check the cable leads, windlass brakes and stoppers, and confirm that the vessel is holding position. I will establish anchor bearings and radar ranges, set the anchor watch, keep the engines ready as required, and monitor wind, tide, cable tension and the vessel's position continuously. If dragging is suspected, I will inform the master immediately and take early action, including using the main engine, weighing anchor or proceeding to a safer position when necessary.\n\n【中文作答架構】\n1. 船舶狀態：取得氣象、海況、潮汐及港口資訊；主機、舵機、錨機、錨鏈、通訊及導航設備備便；部署船首錨作業人員並完成安全簡報。\n2. 惡劣天候接近港口：安全航速、加強瞭望、雷達與目視交叉定位，避開下風岸、淺灘、航道及其他危險；必要時延後進港或下錨。\n3. 選擇錨地：水深足夠、底質抓力良好、迴旋空間充足，避開海底電纜、管線、沉船、禁錨區及其他船舶，並考量風向轉變、潮流、吃水及預計停留時間。\n4. 雙錨操作：依風流及錨地計畫控制船速與船位，先下第一錨並適當出鏈，再操船至第二錨預定位置下第二錨；控制兩錨鏈方向、出鏈長度及張力，避免錨鏈交纏。\n5. 下錨後：確認錨鏈受力與制鏈裝置，建立雷達距離及方位參考，設置錨泊值班，持續監控風、流、錨鏈及船位；發現走錨立即通報並及早採取措施。",
+    "practicalAnalysis": "本題要求以英文描述惡劣天候抵港後的雙錨繫泊程序，評分重點應涵蓋船舶備便、惡劣天候接近、錨地選擇、雙錨操作及下錨後監控。範文刻意避免將雙錨操作寫成所有港口均適用的固定方式；實際下錨順序、兩錨夾角、出鏈長度與是否採用雙錨繫泊，必須依船長指示、錨地條件、風流、船舶尺度、港口規定及船舶操作手冊決定。惡劣天候下尤其須避免在船舶仍有過大對地速度時貿然拋錨，以免錨鏈及錨機承受過大衝擊。",
+    "keyPoints": [
+      {
+        "point": "全文英文範文超過200 words，符合題目最低字數要求。",
+        "importance": "essential"
+      },
+      {
+        "point": "船舶備便涵蓋主機、舵機、錨機、錨鏈、通訊及導航設備。",
+        "importance": "essential"
+      },
+      {
+        "point": "惡劣天候接近時須控制安全航速、加強瞭望並避開下風岸及航行危險。",
+        "importance": "essential"
+      },
+      {
+        "point": "錨地須考量水深、底質、迴旋空間、風流、吃水及海底設施。",
+        "importance": "essential"
+      },
+      {
+        "point": "雙錨操作須控制船速、船位、錨鏈方向與出鏈量，避免錨鏈交纏及衝擊負荷。",
+        "importance": "essential"
+      },
+      {
+        "point": "下錨後須設錨泊值班，使用雷達距離、方位及其他方法監控走錨。",
+        "importance": "essential"
+      },
+      {
+        "point": "實際雙錨部署方式及錨鏈長度須依船舶與錨地條件決定，不能套用單一固定數值。",
+        "importance": "important"
+      }
+    ],
+    "references": [
+      {
+        "title": "International Convention for the Safety of Life at Sea (SOLAS), Chapter V",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/international-convention-for-the-safety-of-life-at-sea-(solas),-1974.aspx",
+        "supports": "航行安全、航行計畫及船舶安全操作的一般原則。"
+      },
+      {
+        "title": "International Convention on Standards of Training, Certification and Watchkeeping for Seafarers (STCW)",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/humanelement/pages/stcw-conv-link.aspx",
+        "supports": "航行值班、瞭望及船員職責之基本要求。"
+      },
+      {
+        "title": "《船舶引航專論》",
+        "sourceType": "textbook",
+        "issuer": "方信雄",
+        "supports": "港口接近、錨地選擇與引水作業之專業參考；未標示未核實頁碼。"
+      },
+      {
+        "title": "《航行避碰與操船》",
+        "sourceType": "textbook",
+        "issuer": "方信雄",
+        "supports": "惡劣天候操船、船位控制及錨泊操船之專業參考；未標示未核實頁碼。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "英文範文字數",
+          "result": "pass",
+          "note": "英文範文超過題目要求的200 words。"
+        },
+        {
+          "item": "題目四項要求",
+          "result": "pass",
+          "note": "涵蓋船舶狀態、惡劣天候接近、選擇錨地及雙錨與錨鏈操作。"
+        },
+        {
+          "item": "操船安全原則",
+          "result": "pass",
+          "note": "納入安全航速、下風岸風險、錨地餘裕、錨鏈負荷及走錨監控。"
+        },
+        {
+          "item": "特定雙錨部署細節",
+          "result": "needs_review",
+          "note": "原題未指定船型、錨地水深、風流及錨泊方式，因此範文採通用程序，不設定固定錨鏈長度或兩錨夾角。"
+        }
+      ]
+    },
+    "reviewNotes": [
+      "此題是英文情境申論，範文以船長／駕駛台執行程序為主體，避免寫成過度理想化的標準口令。",
+      "不同船型與錨地可能採用不同雙錨方式；考場若題目或港口規定指定先後錨、錨鏈長度或兩錨配置，應以指定條件為準。",
+      "英文範文可直接作答；實際考試時間有限時，應保留五段核心結構並確保超過200字。"
+    ],
+    "lastUpdated": "2026-11-06"
+  }
+]
