@@ -1,61 +1,110 @@
 [
   {
-    "id": "091-shiphandling-05-answer-v1",
+    "id": "091-shiphandling-05-answer-v2",
     "questionId": "091-shiphandling-05",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "一、Wake Current（船行尾流／船行伴流）的意義\n船舶在水中航行時，船體排開水體並與周圍水流相互作用，使船周圍及船艉附近形成具有速度分布的流場。船舶後方的水流並非靜止，可能包含沿船體方向的伴流、船體邊界層流動、螺槳射流及船舶通過後的回流等。廣義上可稱為船行尾流或船行伴流；不同教材對Wake、Wake Current及Propeller Race的用語範圍可能有所區別，作答時宜說明所指流場。\n\n二、形成船行尾流的三個主要機制\n（一）船體排水及回流（Displacement / Return Flow）\n船舶前進時，船首將水向兩側及下方排開，船體中段及船艉附近的水流需重新填補船舶通過後留下的空間。在受限水域中，船舶排水所造成的回流可能加速，並與岸壁及河床交互作用，形成局部流速及水位變化。\n（二）船體表面摩擦及邊界層（Boundary-layer Wake）\n水流沿船體表面流動時，受黏滯摩擦影響而逐漸減速，船艉後方形成速度低於外部來流的伴流區。船型、船速、吃水、船底粗糙度及船體污損會影響伴流分布。此流場會改變螺槳進流速度及螺槳負荷。\n（三）螺槳及舵的作用（Propeller Race / Rudder-induced Flow）\n螺槳旋轉對水施加推力，使螺槳後方形成具有較高軸向速度及旋轉分量的螺槳射流；舵位於螺槳流中時，亦會改變射流方向及局部流速。螺槳射流對船艉附近船舶、碼頭、岸壁、拖船及水下設施可能造成強烈沖刷或橫向作用。\n\n三、對操船的影響\n1. 船艉流場不均：船艉附近的伴流及螺槳射流不均勻，會影響螺槳進流、推力及舵效；船舶在低速、倒車或大舵角時，流場變化尤其明顯。\n2. 靠離泊時的局部沖擊：螺槳射流可能沖擊碼頭、護舷、岸壁、其他船舶或水下設施，造成沖刷、振動或局部壓力；靠泊前應適當控制主機轉速及螺槳使用時間。\n3. 對鄰近船舶的干擾：大型船舶通過小船、繫泊船或錨泊船附近時，船體排水、回流及尾流可能使小船產生橫移、偏轉、搖盪或繫纜受力增加。\n4. 狹水道及岸壁效應：船舶排水與回流受到岸壁及水深限制，可能造成船旁水流加速、水位下降、岸吸或岸推現象，並使船舶操縱性與阻力改變。\n5. 拖船作業：拖船若處於大型船舶螺槳射流或尾流區，可能遭受突增流速、偏轉或推力效率下降；引水人應清楚交代拖船位置、接近路線及主機／螺槳操作時機。\n6. 錨泊及繫泊安全：尾流及螺槳射流可能造成錨泊船、浮筒繫泊船或碼頭邊船舶擺動，必要時應保持安全間距並避免不必要的高轉速操作。\n\n四、引水操船上的注意事項\n（一）進出狹水道時，應考量船舶排水造成的回流及岸壁限制，避免過高航速，以減少水位變化、岸吸及船間干擾。\n（二）靠離泊時應以最低有效主機轉速及適當舵角控制船舶，避免螺槳射流長時間直接沖擊碼頭、護舷或鄰近船舶；但仍須保留足夠舵效及操縱能力。\n（三）拖船應避開螺槳射流最強區域，尤其在主機倒車、車葉快速換向或大幅變更轉速時，須預先通知拖船並協調動作。\n（四）大型船舶通過小型船舶、繫泊船或施工船附近時，應適當減速、保持距離並提醒對方注意尾流及繫纜負荷。\n（五）應分辨船體尾流、螺槳射流及天然潮流；三者可能同時存在，不能把所有局部水流都當成潮流。\n\n五、結論\n船行尾流是船體運動、黏滯邊界層及推進器作用共同形成的複雜流場。就操船分析，可從船體排水與回流、船體邊界層伴流、螺槳及舵所形成的射流三方面說明。其影響包括船艉舵效與推力、碼頭沖刷、鄰近船舶擺動、狹水道岸壁效應及拖船安全，故引水人須依船速、主機轉速、船舶間距及水域限制綜合判斷。",
-    "practicalAnalysis": "實務上最需留意的是船體排水造成的受限水域回流，以及螺槳射流對拖船、碼頭與鄰近船舶的影響。大型船在狹窄港池或靠泊時，即使對地速度很低，主機短暫加車仍可能形成強烈局部射流；引水人應在維持舵效與避免不必要沖刷之間取得平衡，並將拖船位置與主機操作時機納入協調。",
+    "modelAnswer": "一、Wake Current（船體摩擦伴流）及Wake Field（船後尾流場）的概念\n船舶前進時，船體與水之間的黏滯摩擦會拖帶船體附近的水，使船體周圍形成邊界層；船艉附近的水流速度分布與外部未受擾動水流不同。操船教材常將這種沿船體被拖帶、朝船舶前進方向移動的水流稱為Frictional Wake Current（摩擦伴流）。其沿船長方向通常由艏部較小逐漸向艉部增大，在水線附近較明顯，向龍骨方向則減弱。\n\n須先區分兩個相關但不完全相同的概念：\n1. Frictional Wake Current：狹義操船用語，重點是船體表面摩擦所拖帶的水流。\n2. Propeller-plane Wake Field：螺槳盤面處的非均勻進流場。船舶阻力與推進理論通常將其來源分為Potential Wake、Frictional Wake及Wave Wake三項。本題若問「三個主要原因」，可依此三項說明；螺槳射流（Propeller Race／Screw Current）則是螺槳旋轉後產生的流，不宜與船體尾流的三項來源混為一談。\n\n二、形成船後尾流場的三個主要原因\n（一）Potential Wake（勢流尾流）\n即使先以理想、近似無黏性的流體考慮，水流繞過船體後部時，流線逐漸收縮並受到船艉形狀影響，螺槳平面附近的壓力及流速分布會改變，形成勢流尾流。其結果是螺槳盤面處的平均進流速度可能低於船舶相對水體的航速。\n\n（二）Frictional Wake（摩擦尾流／摩擦伴流）\n水具有黏滯性，沿船體表面流動時產生皮膚摩擦，形成邊界層；邊界層由船艏往船艉逐漸增厚，近船體的水流速度降低，因而在船艉及螺槳平面形成較慢的伴流。一般而言，摩擦尾流是總尾流的重要組成，常是主要分量。船速、船體濕表面積、表面粗糙度、污損、船型及吃水都會影響其大小。\n\n（三）Wave Wake（波浪尾流）\n船舶航行產生的波浪，在水面下亦有軌道運動速度；螺槳若位於波峰或波谷下方，會受到不同方向及大小的水粒子軌道速度影響，改變螺槳盤面的局部進流。此項影響會隨船速、波浪系統、螺槳浸深及螺槳位置而變化；單槳船通常較小，雙槳船因螺槳可能較接近自由液面，影響有時較明顯。\n\n三、簡易數學表示\n以螺槳盤面平均進流速度表示，船舶速度為V_s，螺槳平均進流速度為V_a，Taylor Wake Fraction（尾流分數）可寫為：\nw_T=(V_s−V_a)/V_s\n因此：\nV_a=V_s(1−w_T)\nw_T越大，表示螺槳所遇到的平均進流速度相對船速越低。這是推進性能分析的平均化指標，不能直接當成每一位置的局部流速，也不是港內所有Wake Current的單一固定值。\n\n四、對操船及推進的影響\n1. 螺槳效率及推進性能：螺槳在船艉非均勻尾流中工作，其進流速度及各葉片負荷不均，會影響推力、扭矩、振動及推進效率。摩擦尾流使螺槳進流較慢，設計時須將船體與螺槳的相互作用納入考量。\n2. 舵效及側向力：摩擦伴流使船艉及舵附近的相對水流與外部流場不同，可能降低舵面有效來流及螺槳側向力的作用效果；但在螺槳運轉時，螺槳射流又可能增加舵面局部流速與舵力。因此，不能簡化成「尾流一定使舵效降低」，須看車令、舵角、前進／後退及螺槳射流方向。\n3. 低速及倒車操船：船舶倒車時，船體摩擦伴流分布、螺槳吸入流與排出流均與前進時不同，螺槳及舵的受流條件改變，船舶反應不能直接沿用前進狀態的判斷。\n4. 鄰近船舶及碼頭：船舶尾流、艏艉波及螺槳排出流可能使附近小船、繫泊船或施工船產生搖盪、偏轉及繫纜負荷；螺槳排出流更可能造成碼頭、海床或水下設施沖刷。\n5. 拖船安全：拖船若處於大型船舶螺槳排出流或強烈尾流區，可能遭遇局部流速及方向突變，影響定位、推力及安全；引水人須協調拖船位置、主機車令及變速時機。\n6. 淺水及狹水道：船體與海床、岸壁距離縮小，回流及船體周圍流場受限，船間交互作用、岸吸／岸推、船舶下沉及波浪效應可能加劇。這些現象屬受限水域的船體—水流交互作用，不應全部歸類為摩擦伴流本身。\n\n五、引水操船注意事項\n（一）了解本船螺槳與舵的相對位置、螺槳型式、車葉旋向及前進／倒車時的螺槳射流特性。\n（二）靠離泊時避免不必要的高轉速及長時間定點排出流，以減少對碼頭、海床、鄰船及拖船的沖刷與干擾；但不得為避免沖刷而犧牲必要舵效及操縱安全。\n（三）拖船作業時，避免拖船停留在螺槳排出流的強烈區域，主機換向或大幅變速前應及時通報。\n（四）通過小船、錨泊船及繫泊船附近時，應考量船速、船型、距離及水深，適當減速並留意船艉尾流與螺槳排出流。\n（五）應區分天然潮流、摩擦伴流、螺槳吸入流及螺槳排出流；各流場來源不同，對船舶的作用也不同。\n\n六、結論\n若以船舶推進理論分析螺槳盤面的尾流場，三個主要來源為勢流尾流、摩擦尾流及波浪尾流；狹義的Wake Current則主要指船體表面摩擦拖帶水體形成的摩擦伴流。其影響包括螺槳進流速度及效率、舵與側向力、低速及倒車操縱，以及鄰近船舶、拖船、碼頭與海床安全。螺槳射流屬另一種Screw Current，應另行辨識。",
+    "practicalAnalysis": "本題最重要的技術區分，是不能把船體摩擦伴流、螺槳射流及整體螺槳盤面尾流場視為同一種流。答題時以Potential Wake、Frictional Wake、Wave Wake三項交代尾流場的來源，再補充狹義Frictional Wake Current及Screw Current的差異，較能兼顧船舶推進理論與操船教材用語。實務上應特別注意摩擦伴流改變螺槳及舵的進流條件，以及螺槳排出流對拖船、鄰船、碼頭及海床的影響。",
     "keyPoints": [
       {
-        "point": "Wake Current廣義上是船舶航行造成的船周及船艉非均勻流場",
+        "point": "狹義Frictional Wake Current是船體表面摩擦拖帶水體形成的摩擦伴流，與螺槳排出流不同",
         "importance": "essential"
       },
       {
-        "point": "可從船體排水／回流、船體邊界層伴流、螺槳與舵射流三方面說明",
+        "point": "螺槳盤面尾流場的三個主要來源為Potential Wake、Frictional Wake及Wave Wake",
         "importance": "essential"
       },
       {
-        "point": "船體尾流會影響螺槳進流、推力與舵效",
+        "point": "Potential Wake源於船艉形狀及流線收縮造成的壓力、速度分布變化",
         "importance": "essential"
       },
       {
-        "point": "螺槳射流可能沖擊碼頭、護舷、鄰船及拖船",
+        "point": "Frictional Wake源於船體黏滯摩擦與邊界層增厚，通常是尾流的重要分量",
         "importance": "essential"
       },
       {
-        "point": "狹水道回流與岸壁限制可能加劇岸吸、岸推及船間效應",
+        "point": "Wave Wake源於船舶波浪在水下的軌道運動對螺槳進流的影響",
         "importance": "essential"
       },
       {
-        "point": "應區分天然潮流、船體尾流與螺槳射流，並協調拖船安全位置",
+        "point": "尾流分數wT=(Vs−Va)/Vs，Va=Vs(1−wT)，表示船速與螺槳平均進流速度的差異",
         "importance": "essential"
+      },
+      {
+        "point": "尾流場會影響螺槳推進效率、葉片負荷、振動及舵面進流條件",
+        "importance": "essential"
+      },
+      {
+        "point": "Screw Current包括螺槳吸入流與排出流，須與船體尾流分開說明",
+        "importance": "essential"
+      },
+      {
+        "point": "操船時須注意拖船、鄰近船舶、碼頭及海床受到螺槳排出流與船行尾流的影響",
+        "importance": "supporting"
       }
     ],
     "references": [
-      "方信雄，《航行避碰與操船》。船舶伴流、螺槳流及港內操船實務之重要參考著作。",
-      "船舶操縱流體力學（Ship Manoeuvring Hydrodynamics）。船體邊界層、伴流、螺槳射流及受限水域流場之理論基礎。"
+      {
+        "title": "Ship Resistance and Propulsion, 2nd Edition, Chapter 8: Wake and Thrust Deduction",
+        "sourceType": "textbook_or_academic",
+        "issuer": "Anthony F. Molland, Stephen R. Turnock and Dominic A. Hudson, Cambridge University Press",
+        "editionOrEffectiveDate": "2017",
+        "url": "https://www.cambridge.org/core/books/abs/ship-resistance-and-propulsion/wake-and-thrust-deduction/A98391E8CE40C619AF6C3ADF93EFED43",
+        "pageOrSection": "§8.1.1 Wake Fraction; §8.2 Origins of Wake; §§8.2.1–8.2.3",
+        "supports": "尾流分數定義，以及Potential Wake、Frictional Wake、Wave Wake三項來源及各自物理機制。"
+      },
+      {
+        "title": "Wake-field",
+        "sourceType": "other",
+        "issuer": "Wärtsilä Encyclopedia of Marine and Energy Technology",
+        "url": "https://www.wartsila.com/encyclopedia/term/wake-field",
+        "supports": "船體邊界層由艏向艉增厚、摩擦尾流速度分布，以及船艉螺槳所處非均勻進流場。"
+      },
+      {
+        "title": "Boatswain’s Mate, NAVEDTRA 14343A",
+        "sourceType": "textbook_or_academic",
+        "issuer": "U.S. Navy",
+        "url": "https://navytribe.com/wp-content/uploads/2015/11/navedtra-14343a.pdf",
+        "pageOrSection": "Chapter 6, §6.2.3 Frictional Wake Current and §6.2.4 Screw Current",
+        "supports": "狹義摩擦伴流的形成、由艏向艉增強、水線附近較強且向龍骨方向減弱，以及其對螺槳、舵與側向力的影響；並區分螺槳吸入流與排出流。"
+      },
+      "方信雄，《航行避碰與操船》。作為中文船舶操縱與港內操船實務的重要參考著作。"
     ],
     "limitations": [
-      "Wake Current在不同教材中可能指廣義船行尾流，亦可能專指船舶通過後的局部伴流；本文採操船實務上的廣義流場分解。",
-      "三項機制為便於考試作答的物理分類，不代表所有教材均使用完全相同的三項名稱。"
+      "考題使用Wake Current一詞，但船舶操縱教材與船舶推進學對Wake、Wake Field及Frictional Wake Current的範圍並不完全相同；本文以推進理論的三種尾流來源回答三項原因，並另行說明狹義摩擦伴流。",
+      "Potential、frictional及wave wake是螺槳盤面尾流場的理論分解，不代表每艘船的三項分量相同；實際比例取決於船型、船速、吃水、螺槳位置及波浪狀態。",
+      "螺槳排出流（Propeller Race／Discharge Current）是螺槳作用產生的流場，不應誤列為船體尾流的三個起源之一。"
     ],
     "verification": {
-      "status": "draft",
-      "checkedAt": "2026-11-05",
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
       "checks": [
         {
-          "item": "船體排水回流、邊界層伴流及螺槳射流機制",
-          "result": "pass"
+          "item": "尾流場三個來源：Potential、Frictional及Wave Wake",
+          "result": "pass",
+          "note": "依Molland、Turnock及Hudson《Ship Resistance and Propulsion》第8章核對。"
         },
         {
-          "item": "對舵效、拖船、碼頭及鄰船的操船影響",
-          "result": "pass"
+          "item": "狹義Frictional Wake Current定義與沿船長方向分布",
+          "result": "pass",
+          "note": "依NAVEDTRA 14343A §6.2.3核對。"
         },
         {
-          "item": "不同教材術語範圍差異",
-          "result": "needs_review"
+          "item": "Wake Fraction公式及其物理意義",
+          "result": "pass",
+          "note": "依《Ship Resistance and Propulsion》§8.1.1核對。"
+        },
+        {
+          "item": "Screw Current與船體Wake Current之區分",
+          "result": "pass",
+          "note": "依NAVEDTRA 14343A §6.2.4另行區分吸入流與排出流。"
+        },
+        {
+          "item": "原考題Wake Current一詞是否特指摩擦伴流或廣義尾流場",
+          "result": "needs_review",
+          "note": "尚未取得原命題教材版本；答案同時交代兩種術語範圍，避免將兩者混為一談。"
         }
       ]
     },
