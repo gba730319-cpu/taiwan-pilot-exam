@@ -325,5 +325,126 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "102-shiphandling-04-answer-v1",
+    "questionId": "102-shiphandling-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "technical_essay",
+    "modelAnswer": "【一、大型重載船舶港內操縱之速度特性】\n\n大型重載船舶排水量大、慣性大、動量高，主機及船體反應具有時間延遲，減速、停船及轉向所需距離通常較長。進入港區後，航道狹窄、可用水域有限，且可能受潮流、橫風、淺水及岸壁效應影響，因此速度控制必須採取「提早規劃、逐步減速、保留舵效、隨時可停」的原則。\n\n【二、港內操縱大型重載船舶之速度控制原則】\n\n（一）航前掌握船舶操縱性能\n1. 取得Pilot Card、Wheelhouse Poster及Manoeuvring Booklet，確認船舶排水量、吃水、主機功率、車鐘反應時間、停止距離、倒車性能、旋迴性能及舵效。\n2. 確認不同載況下的停止距離、慣性滑行距離及主機由前進轉倒車所需時間。\n3. 了解主機最低穩定轉速、Dead Slow、Slow、Half及Full等車鐘指令所對應的實際船速，避免只依車鐘位置判斷船舶速度。\n4. 依港口航道寬度、水深、轉向點、船席及交通情況，預先規劃各航段的速度及減速點。\n\n（二）提早減速，避免高速進入港區\n1. 大型重載船舶動量大，應在進港前及早降低速度，不可接近港口入口或碼頭才突然大量倒車。\n2. 依船舶停止距離及預定停船位置，逐步減速並保留足夠時間讓主機及舵機發揮作用。\n3. 減速過程應持續監控船速、對地速度（SOG）、對水速度（STW）及船舶實際減速率。\n4. 港內速度應遵守當地限速，但即使低於法定限速，若能見度、交通、水深或風流條件不佳，仍應進一步減速。\n\n（三）保持足夠舵效，避免速度過低\n1. 安全速度並非愈低愈好；速度過低時，舵葉來流及螺槳滑流不足，可能使舵效下降，船舶難以保持航向。\n2. 應維持足以控制船舶的最低適當速度（Minimum Speed for Steerage），並依主機、舵型及推進器特性調整。\n3. 在強橫風、橫流或狹窄航道中，若速度過低而失去舵效，船舶可能被風流推向航道邊界或碼頭。\n4. 必要時利用拖船、艏艉側推器或短時間主機操作補足操縱力，不可單純依賴降低速度解決所有問題。\n\n（四）考量淺水效應及龍骨下淨空（UKC）\n1. 船舶在淺水或狹窄水道中航行，船底流速增加及壓力分布改變，會產生船體下沉（Squat）及縱傾變化。\n2. Squat通常隨船速平方增加，速度愈高，船體下沉及龍骨下淨空減少愈明顯。\n3. 大型重載船舶吃水深、可用UKC較小，應依潮位、水深、吃水及航道限制控制速度。\n4. 通過淺灘、狹水道及碼頭附近時，應採取較低且足以保持操縱能力的速度，避免擱淺及船底觸碰海床。\n\n（五）考量潮流、風及港內交通\n1. 順流時，船舶對地速度可能增加，即使對水速度不高，仍可能快速接近碼頭或其他船舶；應以SOG及STW共同判斷。\n2. 逆流時，船舶對地速度可能降低，但對水速度及舵效仍須足夠；不可只看GPS速度而誤判操縱能力。\n3. 橫流及橫風可能造成船舶偏移及偏航，應提早修正船首向並預留橫向安全距離。\n4. 接近會船區、航道轉折、港口入口及錨地時，應降低速度並預留避讓空間，避免高速追越或突然減速造成交通危險。\n\n（六）善用主機及推進器控制速度\n1. 主機換俥應依主機操作限制及船舶慣性逐步執行，避免頻繁大幅度前進、倒車造成機械負荷及船舶運動不穩。\n2. 必須考量主機由前進轉倒車的反應時間、螺槳推力建立時間及船舶停止距離。\n3. 若使用可變螺距螺槳、雙主機、雙螺槳或方位推進器，應依該船控制特性調整推力及速度。\n4. 船舶接近碼頭時，應逐步降低縱向速度，避免靠近碼頭才以全速倒俥造成船尾偏移或過大船首向變化。\n\n（七）適時使用拖船及其他輔助設備\n1. 大型重載船舶在港內減速、轉向及靠泊時，應依風流、船舶性能及泊位條件適時安排拖船。\n2. 拖船可協助制動、控制船首向、船尾偏移及橫向速度；應提早建立拖力，不可等船舶已失控才要求拖船緊急拉制。\n3. 艏艉側推器可協助低速操縱，但須確認其功率、可用時間及速度限制。\n4. 錨可作為緊急控制船速或防止漂移的輔助工具，但應先確認水深、底質、錨鏈及周圍船舶安全，不應將錨當作一般正常減速設備。\n\n（八）靠泊前速度控制\n1. 依船舶停止距離及碼頭位置，提早降低船速，使船舶在適當位置保持最低可操縱速度。\n2. 接近碼頭時，應分別控制縱向速度及橫向速度，避免船舶雖然縱向速度很低，但橫向速度仍過大而撞擊防舷材。\n3. 應考量風流及拖船推力造成的加速度，控制船舶平行接近碼頭。\n4. 繫纜未完成前，拖船應持續協助控制船位，直到船舶安全繫妥。\n\n【三、速度控制之核心原則】\n\n1. **安全速度：**能採取有效避碰行動，並能在適當距離內停止。\n2. **最低操縱速度：**必須保留足夠舵效及推進器控制能力。\n3. **提早減速：**依停止距離、慣性及主機反應時間預先減速。\n4. **動態調整：**依水深、UKC、潮流、風、交通及船舶反應隨時修正。\n5. **多種速度資訊交叉判斷：**同時觀察SOG、STW、主機轉速及船舶實際運動。\n6. **必要時使用拖船：**以拖船協助制動、轉向及橫移，不可只依靠主機倒俥。\n\n【結論】\n\n大型重載船舶港內操縱應以提早減速、保持最低適當舵效、預留停止距離及隨環境動態調整為原則。引水人應掌握本船慣性、主機反應、停止距離及旋迴性能，並考量風流、港內交通、淺水效應、Squat及UKC，適時運用主機、舵、側推器及拖船，控制縱向與橫向速度，確保船舶能在安全水域內減速、轉向及靠泊。",
+    "practicalAnalysis": "本題15分，核心是大型重載船「慣性大、動量大、停止距離長、主機反應有延遲」，所以要提早減速；但速度也不能過低而失去舵效。完整答案需寫Pilot Card與操縱手冊、主機換俥反應、STW/SOG、風流、淺水Squat與UKC、拖船制動及靠泊橫向速度。重點句：安全速度不是愈慢愈好，而是能保持操縱並可在適當距離內停止的最低適當速度。",
+    "keyPoints": [
+      {
+        "point": "大型重載船排水量及動量大，慣性高、停止距離長、主機換俥及推力反應有延遲。",
+        "importance": "essential",
+        "explanation": "須航前掌握停止距離及操縱性能。"
+      },
+      {
+        "point": "提早減速，依Pilot Card及Manoeuvring Booklet規劃各航段速度及減速點。",
+        "importance": "essential",
+        "explanation": "不可接近碼頭才突然大量倒俥。"
+      },
+      {
+        "point": "安全速度不是愈慢愈好，須維持最低適當舵效及操縱能力。",
+        "importance": "essential",
+        "explanation": "過低速度可能受風流推移而失控。"
+      },
+      {
+        "point": "淺水航行須考量Squat、吃水及UKC；Squat通常隨船速平方增加。",
+        "importance": "essential",
+        "explanation": "深吃水船舶須控制速度以避免擱淺。"
+      },
+      {
+        "point": "順流、逆流下SOG與STW不同，須同時觀察對地及對水速度。",
+        "importance": "essential",
+        "explanation": "SOG影響對岸及其他船舶的接近速度；STW影響舵效及水動力。"
+      },
+      {
+        "point": "適時使用主機、舵、艏艉側推器及拖船制動、轉向與控制橫移。",
+        "importance": "essential",
+        "explanation": "拖船應提早建立拖力，不能等失控才要求。"
+      },
+      {
+        "point": "靠泊前須同時控制縱向及橫向速度，拖船保持控制至船舶繫妥。",
+        "importance": "supporting",
+        "explanation": "橫向速度過大仍會撞擊防舷材。"
+      }
+    ],
+    "references": [
+      {
+        "title": "The American Practical Navigator (Bowditch), Chapter 7 — Ship Handling",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/api/publications/download?key=16693975%2FSFH00000%2FBowditch_Vol_1_LoRes_2019.pdf",
+        "pageOrSection": "Chapter 7, Stopping distance, ship inertia and shallow-water effects",
+        "supports": "船舶慣性、停止距離、舵效、風流及淺水操船原理。"
+      },
+      {
+        "title": "A Master's Guide to: Berthing",
+        "sourceType": "industry_guideline",
+        "issuer": "Standard Club",
+        "editionOrEffectiveDate": "2021",
+        "url": "https://www.standard-club.com/fileadmin/uploads/standardclub/Documents/Import/publications/masters-guides/3391962-sc-mg-berthing-20210203-final.pdf",
+        "pageOrSection": "Approach speed, stopping distance, tug assistance and shallow water",
+        "supports": "靠泊速度、停止距離、拖船及淺水操縱之實務原則。"
+      },
+      {
+        "title": "The Effect of Ship Speed on Squat in Shallow Water",
+        "sourceType": "academic_paper",
+        "issuer": "The Journal of Navigation",
+        "url": "https://doi.org/10.1017/S0373463300010105",
+        "supports": "船速與船體下沉（Squat）之關係。"
+      },
+      {
+        "title": "102年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國102年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=102070&q=1&s=0806&t=Q",
+        "pageOrSection": "船舶操縱第四題",
+        "supports": "核對原題及15分配分。"
+      }
+    ],
+    "assumptions": [
+      "本題大型重載船依一般深吃水、高排水量貨船或油輪之港內操船特性作答。",
+      "速度控制以港內安全航行與靠泊為範圍，未提供特定船型、主機、航道水深及港口限速，因此不設定固定節數。"
+    ],
+    "limitations": [
+      "不同船型的停止距離、舵效、主機換俥時間及Squat係數差異很大，應以該船操縱手冊及實測資料為準。",
+      "錨具僅列為緊急輔助，不應作為常規港內速度控制工具。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "大型重載船慣性及停止距離",
+          "result": "pass",
+          "note": "依Bowditch及Standard Club靠泊指南核對。"
+        },
+        {
+          "item": "最低操縱速度及舵效",
+          "result": "pass",
+          "note": "依Bowditch船舶操縱章節核對安全速度與舵效平衡。"
+        },
+        {
+          "item": "Squat與UKC",
+          "result": "pass",
+          "note": "依船舶操縱研究及Bowditch淺水章節核對速度增加會加劇Squat。"
+        },
+        {
+          "item": "SOG與STW",
+          "result": "pass",
+          "note": "依航海操船原理核對潮流下對地與對水速度之差異。"
+        },
+        {
+          "item": "拖船及靠泊速度",
+          "result": "pass",
+          "note": "依Standard Club靠泊指南核對拖船制動及縱橫向速度控制。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
