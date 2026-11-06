@@ -1,0 +1,106 @@
+[
+  {
+    "id": "094-pilotage-04-answer-v1",
+    "questionId": "94-pilotage-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "chart_or_drawing",
+    "modelAnswer": "本題20分，考查以岸上固定目標建立安全界線，避免船舶過度接近礁石、淺灘或其他航行危險。三種方法分別利用「單一目標方位」、「兩目標水平夾角」及「單一已知高度目標的垂直夾角」判斷船位是否仍在安全範圍。\n\n【一、危險方位（Danger Bearing）】\n\n（一）定義與原理\n危險方位是以岸上可辨識的固定目標（如燈塔、煙囪、山峰或顯著建築物）為參考，預先在海圖上設定一個方位界限。船舶航行時持續觀測該目標的羅經方位或真方位，若方位達到或越過預定界限，即表示船舶可能已接近或進入危險水域，應立即採取修正航向或減速等措施。\n\n（二）海圖繪製步驟\n1. 在海圖上標出危險物及其危險範圍，例如礁石、淺灘或沉船。\n2. 選擇位置明確、容易辨識且在航行過程中持續可見的岸上固定目標。\n3. 自目標向危險區外緣作切線，或依所需安全距離繪出安全界線。\n4. 由船舶可能通過的位置反向量取至目標的方位，標註最大或最小危險方位，並清楚標出安全側與危險側。\n5. 航行中定時觀測目標方位，與預定界限比較。\n\n（三）判斷及限制\n危險方位可能是最大方位（Maximum bearing）或最小方位（Minimum bearing），不能不分幾何位置一律說方位愈大愈危險。應以海圖上所標示的安全側／危險側及預定最大、最小界限判斷。使用羅經方位時，須注意磁差、自差及羅經誤差，並確認海圖方位基準一致。\n\n示意圖（俯視）：\n             岸上目標 M\n                  ▲\n                  │                  │   危險方位界線\n安全水域  船舶 ●───────────\n                           礁石／淺灘\n                          [危險區]\n實際作圖時，應以海圖上目標至危險區的切線及船舶觀測方位表達，並標明安全側。\n\n【二、水平危險角（Horizontal Danger Angle）】\n\n（一）定義\n水平危險角是船舶在海上觀測兩個岸上固定目標（M、N）時，兩目標視線在船位所形成的水平夾角。利用海圖上的兩個已知目標及危險物，建立一條與危險區相切的圓弧（等角圓），再求出該圓弧上任一船位所見的固定水平角，作為安全通過的角度界限。\n\n（二）海圖繪製步驟\n1. 在海圖上標出兩個顯著固定目標M、N及礁石、淺灘等危險區。\n2. 在危險區外側預留適當安全距離，畫出安全界線。\n3. 作一圓，使圓通過M、N，並與危險區外側的安全界線相切。\n4. 在該圓上選取船舶可能通過的位置X，量取∠MXN，即為最大水平危險角。\n5. 航行時用六分儀或其他適當測角設備觀測M、N的水平夾角，與預定危險角比較。\n\n（三）安全判斷\n若船舶須保持在危險區外側，且使用上述最大水平危險角，則觀測角應小於該界限；角度增大至界限或超過界限，代表船舶可能已進入切線圓所界定的危險側。\n若航路設計為從離岸危險物內側通過，則可依內側安全界線建立最小水平危險角，觀測角須維持大於該最小值。若船舶需通過兩個危險區之間，可能同時存在最大及最小角度界限，必須保持在兩者之間。\n應預留安全裕度，不可將理論切線當成可實際貼邊航行的航線。\n\n示意圖（俯視概念）：\n        M ●                         ● N\n                                  /\n                   ∠MXN          /\n                                /\n                               /\n                      X       /\n                             /\n                 (等角圓弧)\n                    ○ 危險區\n            圓弧與危險區外側安全界線相切\n\n幾何重點：同一圓弧上，弦MN所對的圓周角相等；在圓內側與圓外側，所見角度會分別大於或小於該切線圓上的角度（須依所處圓弧區段判讀）。\n\n【三、垂直危險角（Vertical Danger Angle）】\n\n（一）定義\n垂直危險角是船舶觀測岸上單一固定物已知高度之頂端與底端時，兩視線在垂直平面所形成的夾角。常用目標包括燈塔、煙囪、山峰或其他高度已知且底部位置可辨識的固定物。以預定安全距離計算出對應的垂直角，作為船舶接近危險區時的監控界限。\n\n（二）海圖及計算步驟\n1. 選擇海圖上位置明確、標示高度可靠的固定目標，查明目標底部位置及高度。\n2. 在海圖上標出危險區，並於危險區外側設定所需的最小安全距離。\n3. 以目標底部的海圖位置為參考，計算船舶位於安全距離時，目標頂端與底端所形成的垂直夾角。\n4. 航行時觀測目標頂、底之垂直夾角，與預定危險角比較。\n\n（三）基本計算\n若目標底部至觀測者眼平面的垂直高度差為H，水平距離為D，且目標底部與觀測者眼高差可忽略，則：\ntan θ = H / D\n因此：\nD = H / tan θ\n其中θ為目標頂端與底端的垂直夾角。若已知安全距離D_safe，則安全界限角：\nθ_safe = tan⁻¹(H / D_safe)\n\n當船舶由遠處接近目標時，垂直角會逐漸增大。若要求至少保持D_safe的距離，則觀測角不得大於θ_safe；達到或超過該角度，即應視為接近安全界限。\n\n若目標底端不在海平面、觀測者眼高不可忽略，或目標高度以平均高潮面等基準表示，應將潮位及眼高納入垂直高度差修正；燈塔高度應確認採用燈光焦面高度或建築物頂高，不能混用。\n\n示意圖（垂直剖面）：\n             目標頂端 T\n                  ●\n                 /│\n                / │ H\n               /θ │\n船舶觀測點 O ●────● B 目標底部\n              < D >\n觀測角θ為OT與OB兩視線的夾角。\n\n【四、三種方法比較及引水實務】\n\n1. 危險方位：使用單一固定目標，觀測方位是否超過預定界限；操作簡單，適合持續監控，但需注意羅經誤差及目標辨識。\n2. 水平危險角：使用兩個固定目標，觀測水平夾角；不必依賴船舶航向，可直接判斷與危險區的相對位置，但兩目標須清晰、位置準確，且幾何配置良好。\n3. 垂直危險角：使用一個高度已知的固定目標，觀測頂、底夾角；可作為距離及安全界限判斷，但目標高度、潮位、眼高、折射及底部辨識均會影響精度。\n\n實際引水時，三者均屬傳統目視定位及避險方法，應與雷達測距、電子海圖、GNSS、測深、航道標誌及船舶操縱狀況交互驗證。海圖測量品質不佳、目標位置可能偏移、能見度不足或目標被遮蔽時，不應單獨依賴危險角／方位作為唯一避險依據。\n\n【結論】\n危險方位以固定物方位建立安全界線；水平危險角以兩岸標的水平夾角建立等角圓安全界線；垂直危險角以已知高度目標的頂、底視角建立距離界限。三者的共同目的都是讓航海人員在接近危險物之前，能以可觀測、可比較的數值及時發現船位進入危險範圍。",
+    "practicalAnalysis": "本題20分，建議每小題約6分，最後以2分比較實務用途。必須畫出俯視或剖面圖，並標出危險物、固定目標、觀測船位、切線／安全界線及角度。水平危險角的核心是兩個目標M、N與切於危險區安全邊界的等角圓；垂直危險角的核心是已知高度H與安全距離D的關係 tanθ=H/D。最常見失分是把最大角與最小角的安全判斷混為一談，或忽略磁差、自差、潮位、眼高及海圖測量誤差。",
+    "keyPoints": [
+      {
+        "point": "危險方位以岸上固定目標為參考，預先設定最大或最小方位界限，並在海圖標明安全側與危險側。",
+        "importance": "essential"
+      },
+      {
+        "point": "危險方位不可以一概認定方位增大即危險，必須依海圖幾何位置及最大／最小界限判斷。",
+        "importance": "essential"
+      },
+      {
+        "point": "水平危險角由兩個已知岸標M、N與切於危險區安全界線的等角圓建立。",
+        "importance": "essential"
+      },
+      {
+        "point": "保持在危險區外側時，最大水平危險角通常不得達到或超過界限；通過危險物內側時則可能使用最小危險角。",
+        "importance": "essential"
+      },
+      {
+        "point": "垂直危險角由單一已知高度目標頂端與底端形成，基本關係為tanθ=H/D。",
+        "importance": "essential"
+      },
+      {
+        "point": "垂直角安全界限須考慮目標高度基準、潮位、觀測者眼高及折射。",
+        "importance": "supporting"
+      },
+      {
+        "point": "三種方法均應與雷達、電子海圖、GNSS、測深及目視交互驗證。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "The American Practical Navigator (Bowditch), Pub. No. 9, Part 2—Piloting, §1208 Horizontal and Vertical Danger Angles",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://thenauticalalmanac.com/2024_Bowditch-_American_Practical_Navigator/Volume_1/04_Volume_1_Part_2_Piloting/Part_2_Piloting.pdf",
+        "pageOrSection": "§1208；Figure 1208",
+        "supports": "水平危險角最大／最小值、等角圓與危險區切線關係，以及以單一已知高度目標建立垂直危險角。"
+      },
+      {
+        "title": "The Mariner's Handbook, Chapter 2—Position and Distance",
+        "sourceType": "official_port_or_authority",
+        "issuer": "United Kingdom Hydrographic Office",
+        "url": "https://marinersbase.com/wp-content/uploads/2026/03/Mariner-Handbook.pdf",
+        "pageOrSection": "§2.44–2.45",
+        "supports": "水平六分儀角可作為通過離岸危險物的危險角；垂直角可用於已知高度目標的距離及安全判斷。"
+      },
+      {
+        "title": "Boat Crew Handbook—Navigation and Piloting",
+        "sourceType": "official_port_or_authority",
+        "issuer": "U.S. Coast Guard Auxiliary",
+        "url": "https://rdept.cgaux.org/documents/BoatCrewHandbooks/BoatCrewBCH16114.3.pdf",
+        "pageOrSection": "Chapter 3, F.10 Danger Bearing/Range",
+        "supports": "危險方位為安全通過離岸危險物所設定的最大或最小目標方位，並須標示危險側。"
+      },
+      {
+        "title": "Admiralty Manual of Navigation (1914), Chapter XVIII—The Track of the Ship and the Avoidance of Danger in Pilotage Waters",
+        "sourceType": "textbook_or_academic",
+        "url": "https://www.survivorlibrary.com/library/admiralty_manual_of_navigation_1914.pdf",
+        "pageOrSection": "Articles 175–178",
+        "supports": "傳統引水水域中清除方位、垂直危險角及水平危險角的定義與應用。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "危險方位定義及安全側判斷",
+          "result": "pass",
+          "note": "依美國海岸防衛隊輔助隊航行手冊Danger Bearing/Range章節核對；最大／最小方位須依危險側幾何判斷。"
+        },
+        {
+          "item": "水平危險角等角圓及最大／最小角",
+          "result": "pass",
+          "note": "依Bowditch Pub.9 §1208核對；外側通過使用最大角，內側通過可使用最小角。"
+        },
+        {
+          "item": "垂直危險角與已知高度目標",
+          "result": "pass",
+          "note": "依Bowditch及英國Mariner's Handbook核對。"
+        },
+        {
+          "item": "垂直角公式適用條件",
+          "result": "needs_review",
+          "note": "tanθ=H/D為忽略觀測者眼高、目標底部高程差及折射的簡化幾何式；實務計算須依實際高度基準修正。"
+        },
+        {
+          "item": "原考題預期繪圖形式",
+          "result": "needs_review",
+          "note": "原卷僅列題目，未附指定圖例或參考答案；本答案以標準航海定位幾何圖示表達。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
