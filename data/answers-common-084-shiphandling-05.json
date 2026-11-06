@@ -1,0 +1,67 @@
+{
+  "id": "084-shiphandling-05-answer-v1",
+  "questionId": "084-shiphandling-05",
+  "version": 1,
+  "language": "zh-TW",
+  "answerType": "technical_analysis",
+  "modelAnswer": "一、操船原則\n順風靠泊係風由船艉方向吹來，船舶容易受風推向前方及碼頭，且船速不易降低。若風向將船推向碼頭，應特別注意接近速度與剩餘前進慣性；若風將船吹離碼頭，則應評估是否需拖船或帶纜控制。\n\n二、靠泊方法\n（一）事前評估風力、陣風、風向、潮流、泊位遮蔽程度、船舶受風面積及主機倒車性能，確認拖船數量及纜繩配置。\n（二）在足夠距離外即開始減速，採較長距離、較小幅度的車鐘變化控制速度，不可等到接近碼頭才大幅倒車。\n（三）選擇適當接近角度，通常以小角度、低速接近，並保持船舶仍有足夠舵效；避免以過大角度撞向碼頭。\n（四）利用拖船控制船艏、船艉及橫移速度；順風推向碼頭時，可由拖船在適當位置協助制速或控制船位，並避免拖纜受力角度不當。\n（五）必要時先以艏／艉纜或彈簧纜控制船舶縱向移動，再逐步收緊其他纜繩；各纜繩應依船舶移動趨勢及受力順序安排，避免過早繫緊單一纜繩造成過大負荷。\n（六）接近碼頭時持續監控船艏、船艉與碼頭距離、縱向速度及橫移速度，保持主機、舵及拖船可立即應變。\n\n三、注意要領\n（一）順風會增加船舶對地速度，必須區分對水速度與對地速度，並同時評估潮流。\n（二）大船慣性大，倒車後仍可能繼續前進；不可把車鐘倒車視為立即停止。\n（三）陣風可能使船艏或船艉突然偏移，應保留安全餘裕。\n（四）如風力、流況或拖船能力超出安全範圍，應暫緩靠泊或改至安全錨地等待。\n\n四、結論\n順風靠泊的核心是提早減速、低速小角度接近、妥善運用拖船與纜繩，並預留大船慣性及陣風造成的安全餘裕；不可在近碼頭才試圖以大車倒車急停。",
+  "practicalAnalysis": "「順風」本身不足以決定唯一靠泊舷側或拖船配置，因為還要看風是將船推向碼頭或吹離碼頭、潮流方向、泊位遮蔽與船舶操縱性能。因此答案採通用原則，不假定某一特定港池、船型或風向。實際操作要以港口引水計畫、拖船配置及船長—引水人協調為準。",
+  "keyPoints": [
+    {
+      "point": "風由船艉來，注意船舶對地速度及前進慣性。",
+      "importance": "essential"
+    },
+    {
+      "point": "提早減速、長距離控制，不可近碼頭才急倒車。",
+      "importance": "essential"
+    },
+    {
+      "point": "小角度、低速接近，保持必要舵效。",
+      "importance": "essential"
+    },
+    {
+      "point": "拖船控制艏艉及橫移，纜繩依序受力。",
+      "importance": "essential"
+    },
+    {
+      "point": "持續監控船艏艉岸距、縱向速度及橫移速度。",
+      "importance": "essential"
+    },
+    {
+      "point": "風流超出安全限制時暫緩靠泊。",
+      "importance": "essential"
+    }
+  ],
+  "scoringGuide": {
+    "status": "editorial_estimate",
+    "totalPoints": 15,
+    "items": [
+      {
+        "criterion": "原理、操作方法及安全考量完整",
+        "points": 10,
+        "basis": "編輯建議配分，非官方評分標準"
+      }
+    ]
+  },
+  "references": [
+    {
+      "title": "Towage Guidelines",
+      "sourceType": "technical_reference",
+      "issuer": "Maritime and Port Authority of Singapore",
+      "url": "https://www.mpa.gov.sg/port-marine-ops/marine-services/pilotage-and-towage/towage",
+      "supports": "拖船配置應依船舶操縱特性、泊位環境、風流等因素決定"
+    },
+    {
+      "title": "Vessel Maneuvering and Handling — OUPV Study Guide",
+      "sourceType": "technical_reference",
+      "issuer": "TowBoatU.S.",
+      "url": "https://towboatussavannah.com/boating/oupv-license/topics/shiphandling/",
+      "supports": "舵效、螺槳流、倒車時舵效降低及倒行操船控制原理"
+    }
+  ],
+  "assumptions": [
+    "以一般單螺槳、單舵大型商船之操船原理說明；實際操作仍須依船型操縱手冊、主機/舵機限制及當時風流條件調整。"
+  ],
+  "limitations": [],
+  "lastUpdated": "2026-11-07"
+}
