@@ -137,10 +137,12 @@ export default function Home() {
                   <div className="source-link missing">原卷來源待補登</div>
                 )}
                 {answer ? (
-                  <section className="answer">
-                    <h3>參考答案</h3>
-                    <p>{answer.modelAnswer}</p>
-                  </section>
+                  <details className="answer">
+                    <summary>參考答案（點擊展開／收合）</summary>
+                    <div className="answer-content">
+                      <p>{answer.modelAnswer}</p>
+                    </div>
+                  </details>
                 ) : null}
               </article>
             );
