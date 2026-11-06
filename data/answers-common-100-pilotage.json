@@ -213,5 +213,125 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "100-pilotage-03-answer-v1",
+    "questionId": "100-pilotage-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "technical_essay",
+    "modelAnswer": "【一、地平距離（Distance to the Horizon）】\n\n地平距離係觀測者眼睛或燈光所在高度，沿視線至地球曲面與視線相切之地平線的距離。高度愈高，地平距離愈遠。\n\n在一般海上航海計算中，考慮標準大氣折射後，可用下式估算：\n\n[\nD=2.08sqrt{h}\n]\n\n其中：\n- D：地平距離，單位海浬（NM）。\n- h：眼高或燈高，單位公尺（m）。\n\n若高度以英呎表示，常用近似式：\n\n[\nD=1.17sqrt{h_{mathrm{ft}}}\n]\n\n地平距離是單一高度至地平線的距離，尚未將燈高與觀測者眼高兩者相加。\n\n【二、公稱光程（Nominal Range）】\n\n公稱光程係指助航燈光在均勻大氣中，當氣象能見度（Meteorological Visibility）為10海浬時，依燈光強度及標準觀測條件所能達到的光程。\n\n其重點如下：\n1. 公稱光程是燈光的標準化光學性能數值，通常刊載於燈表（List of Lights）。\n2. 以10海浬氣象能見度作為標準條件，便於不同燈光之間比較。\n3. 公稱光程不代表實際航行時一定能看見該燈光；實際能見距還受當時大氣能見度及地球曲率影響。\n4. 公稱光程與地理見距是不同概念：前者是光學亮度及標準大氣條件，後者是地球曲率及高度所決定。\n\n【三、照射光程／發光見距（Luminous Range）】\n\n照射光程（Luminous Range）係指在當時大氣能見度條件下，依燈光的發光強度、大氣透射率及觀測者眼睛的最低照度閾值，燈光仍可被辨認的最大距離。\n\n其特點如下：\n1. 主要受燈光強度及大氣透明程度影響。\n2. 霧、雨、煙霾、鹽霧及空氣中懸浮微粒會降低大氣透射率，使照射光程縮短。\n3. 天氣及能見度改善時，照射光程可能增加。\n4. 照射光程本身不考慮地球曲率、燈高及觀測者眼高；這些因素須另以地理見距判斷。\n5. 公稱光程可視為在氣象能見度10海浬標準條件下的照射光程。\n\n【四、地理見距（Geographical Range）】\n\n地理見距係由地球曲率、燈光高度及觀測者眼高共同決定的最大幾何可見距離。燈光與觀測者各自具有一段地平距離，兩者相加即為地理見距。\n\n[\nG=2.08(sqrt{H}+sqrt{h})\n]\n\n其中：\n- G：地理見距，單位海浬（NM）。\n- H：燈光焦點高度，單位公尺（m）。\n- h：觀測者眼高，單位公尺（m）。\n\n例如燈高40m、觀測者眼高4m：\n\n[\nG=2.08(sqrt{40}+sqrt{4})\n]\n\n[\nG=2.08(6.325+2)=17.32 \text{NM}\n]\n\n故在大氣能見度足夠且無其他遮蔽時，該燈光的地理見距約17.3海浬。\n\n【五、四者之關係與實際判讀】\n\n1. 地平距離：單一觀測高度至地平線的距離。\n2. 公稱光程：氣象能見度10海浬標準條件下的照射光程。\n3. 照射光程：當時大氣條件及燈光強度所決定的最大可見距離。\n4. 地理見距：燈高及觀測者眼高加上地球曲率後所決定的幾何可見距離。\n\n實際觀測燈光時，能否看見燈光，通常受照射光程與地理見距兩者中較小者限制：\n\n[\n\text{實際可見距}approxmin(\text{照射光程},\text{地理見距})\n]\n\n例如燈光照射光程為20海浬，但地理見距只有15海浬，則受地球曲率限制，通常最遠約15海浬才可見；若地理見距為25海浬，但照射光程僅10海浬，則受大氣能見度及燈光強度限制，最遠約10海浬可見。\n\n【結論】\n\n地平距離是單一高度至地平線的距離；公稱光程是氣象能見度10海浬標準條件下的燈光照射光程；照射光程依燈光強度及當時大氣透射率決定；地理見距則依燈高、觀測者眼高及地球曲率決定。實際燈光能見距須同時考量光學及幾何限制，通常取照射光程與地理見距兩者較小值。",
+    "practicalAnalysis": "本題20分，四個名詞要清楚區分。地平距離是單一高度的地平線距離，公式D=2.08√h（h以m、D以NM）；地理見距是燈高與眼高兩段地平距離相加，G=2.08(√H+√h)；照射光程是燈光強度與大氣能見度決定的Luminous Range；公稱光程是能見度10海浬時的標準Luminous Range。實際看得到的距離通常取照射光程與地理見距較小者。",
+    "keyPoints": [
+      {
+        "point": "地平距離：單一高度至地平線距離，D=2.08√h，h以公尺、D以海浬計。",
+        "importance": "essential",
+        "explanation": "若高度用英呎，近似D=1.17√h_ft。"
+      },
+      {
+        "point": "公稱光程：均勻大氣且氣象能見度10海浬時的標準照射光程。",
+        "importance": "essential",
+        "explanation": "通常刊載於燈表。"
+      },
+      {
+        "point": "照射光程：依燈光強度、大氣透射率及觀測者最低照度閾值決定的最大可見距離。",
+        "importance": "essential",
+        "explanation": "不直接考慮地球曲率及高度。"
+      },
+      {
+        "point": "地理見距：燈高及觀測者眼高兩段地平距離之和，G=2.08(√H+√h)。",
+        "importance": "essential",
+        "explanation": "H與h均以公尺表示。"
+      },
+      {
+        "point": "實際可見距通常受照射光程與地理見距中較小者限制。",
+        "importance": "essential",
+        "explanation": "光學限制與幾何限制需同時滿足。"
+      }
+    ],
+    "references": [
+      {
+        "title": "燈塔簡介—燈光與航路標識",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部航港局",
+        "url": "https://www.motcmpb.gov.tw/Information/Detail/3125d6a4-8313-4065-960f-0574776f60cb?NodeId=495&SiteId=1",
+        "supports": "地理見距由地球曲率、燈高及觀測者眼高決定；水平見距為自地球面位置沿視線至水平線之距離。"
+      },
+      {
+        "title": "中華民國燈表（109年第12版）",
+        "sourceType": "official_port_or_authority",
+        "issuer": "中華民國海軍大氣海洋局",
+        "url": "https://navy.mnd.gov.tw/policyroom/Policy_Info.aspx?CID=30239&ID=7&PID=176",
+        "pageOrSection": "說明、地理見距表、地理見距圖解、燈光射程圖",
+        "supports": "我國燈表所列地理見距表、圖解及燈光射程圖。"
+      },
+      {
+        "title": "Nominal Range",
+        "sourceType": "official_port_or_authority",
+        "issuer": "International Organization for Marine Aids to Navigation (IALA)",
+        "url": "https://www.iala.int/wiki/dictionary/index.php/Nominal_Range",
+        "supports": "公稱光程為氣象能見度10海浬之均勻大氣下的照射光程。"
+      },
+      {
+        "title": "Luminous Range",
+        "sourceType": "official_port_or_authority",
+        "issuer": "International Organization for Marine Aids to Navigation (IALA)",
+        "url": "https://www.iala.int/wiki/dictionary/index.php/Luminous_Range",
+        "supports": "照射光程由燈光強度、大氣透射率及觀測者眼睛照度閾值決定。"
+      },
+      {
+        "title": "Chart Specifications of the IHO (S-4)",
+        "sourceType": "international_convention",
+        "issuer": "International Hydrographic Organization",
+        "editionOrEffectiveDate": "2018",
+        "url": "https://legacy.iho.int/iho_pubs/standard/S-4/S4_V4-8-0_Oct_2018_EN.pdf",
+        "pageOrSection": "B-471.7",
+        "supports": "海圖上燈光見距可由光度決定的Luminous Range及地球曲率決定的Geographical Range計算；公稱光程採能見度10海浬。"
+      },
+      {
+        "title": "100年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國100年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=100090&q=2&s=1205&t=Q",
+        "pageOrSection": "引港學第三題",
+        "supports": "核對原題四個燈光光程與能見距名詞。"
+      }
+    ],
+    "assumptions": [
+      "本題地平距離及地理見距採一般航海計算常用之標準大氣折射近似係數2.08；不同教材依折射係數可能使用2.03或2.12等近似值。",
+      "題目使用「照射光程」一詞，依航標及IALA用語對應Luminous Range（燈光照射見距）。"
+    ],
+    "limitations": [
+      "大氣折射會隨氣象條件變化，公式為標準條件下的近似值。",
+      "實際燈光辨識亦受燈色、閃光週期、背景燈光、海浪遮蔽、觀測者視力及燈光遮蔽角影響。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "地平距離與地理見距定義",
+          "result": "pass",
+          "note": "依航港局燈塔簡介及海軍燈表地理見距表／圖解核對。"
+        },
+        {
+          "item": "公稱光程",
+          "result": "pass",
+          "note": "依IALA Dictionary及IHO S-4 B-471.7核對10海浬氣象能見度定義。"
+        },
+        {
+          "item": "照射光程",
+          "result": "pass",
+          "note": "依IALA Dictionary核對燈光強度、大氣透射率及視覺閾值。"
+        },
+        {
+          "item": "實際可見距判斷",
+          "result": "pass",
+          "note": "依IHO S-4說明光度限制及地球曲率限制兩者均須考量。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
