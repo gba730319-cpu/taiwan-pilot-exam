@@ -140,52 +140,60 @@
     "references": {
       "type": "array",
       "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "title",
-          "sourceType",
-          "url",
-          "supports"
-        ],
-        "properties": {
-          "title": {
-            "type": "string"
-          },
-          "sourceType": {
+        "oneOf": [
+          {
             "type": "string",
-            "enum": [
-              "law_or_regulation",
-              "official_port_or_authority",
-              "official_chart_or_notice",
-              "IMO_or_treaty",
-              "textbook_or_academic",
-              "manufacturer_manual",
-              "incident_report",
-              "other"
-            ]
+            "minLength": 1
           },
-          "issuer": {
-            "type": "string"
-          },
-          "editionOrEffectiveDate": {
-            "type": "string"
-          },
-          "url": {
-            "type": "string",
-            "format": "uri"
-          },
-          "pageOrSection": {
-            "type": "string"
-          },
-          "accessedAt": {
-            "type": "string",
-            "format": "date"
-          },
-          "supports": {
-            "type": "string"
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "title",
+              "sourceType",
+              "url",
+              "supports"
+            ],
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "sourceType": {
+                "type": "string",
+                "enum": [
+                  "law_or_regulation",
+                  "official_port_or_authority",
+                  "official_chart_or_notice",
+                  "IMO_or_treaty",
+                  "textbook_or_academic",
+                  "manufacturer_manual",
+                  "incident_report",
+                  "other"
+                ]
+              },
+              "issuer": {
+                "type": "string"
+              },
+              "editionOrEffectiveDate": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "pageOrSection": {
+                "type": "string"
+              },
+              "accessedAt": {
+                "type": "string",
+                "format": "date"
+              },
+              "supports": {
+                "type": "string"
+              }
+            }
           }
-        }
+        ]
       }
     },
     "assumptions": {
