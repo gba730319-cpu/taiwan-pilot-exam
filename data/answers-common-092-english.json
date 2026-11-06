@@ -45,7 +45,7 @@
       "checks": [
         {
           "item": "原文句意及專業詞彙翻譯",
-          "result": "source_checked"
+          "result": "pass"
         }
       ]
     },
@@ -98,17 +98,17 @@
       "checks": [
         {
           "item": "四句主謂一致與動詞形式",
-          "result": "source_checked",
+          "result": "pass",
           "note": "逐句核對 Line companies prefer、operations include、Code contains、Fleet F77 has benefited。"
         },
         {
           "item": "詞性與名詞用法",
-          "result": "source_checked",
+          "result": "pass",
           "note": "核對 settlement/settled、remove/removal、detail/detailed、advise/advice、information 不可數等語法。"
         },
         {
           "item": "專業語意與ISPS用語",
-          "result": "source_checked",
+          "result": "pass",
           "note": "保留 disputes settled、salvage operations、security-related requirements 等海事語境；ISPS Code Part A 為強制規定，Part B 為指引。"
         }
       ]
@@ -166,27 +166,27 @@
       "checks": [
         {
           "item": "Pilotage 的 IMO 海事用法",
-          "result": "source_checked",
+          "result": "pass",
           "note": "以 IMO 官方 Pilotage 說明核對 pilotage 作為引航服務／制度及 pilot 作為引水人之區別。"
         },
         {
           "item": "Maintenance plan 與 PMS 的用語界線",
-          "result": "source_checked",
+          "result": "pass",
           "note": "保留一般 maintenance plan 用法，另註明 PMS 為較具體的計畫性保養系統，避免過度等同。"
         },
         {
           "item": "Force majeure 的契約依存性",
-          "result": "source_checked",
+          "result": "pass",
           "note": "例句明確保留 contract wording and applicable law，避免宣稱所有不可抗力事件均自動免責。"
         },
         {
           "item": "Intentional grounding 的定義",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依 USCG 對 controlled, intentional maneuver 的說明核對，並與意外擱淺區分。"
         },
         {
           "item": "Perils of the sea 的保險用語",
-          "result": "source_checked",
+          "result": "pass",
           "note": "參考 UNCTAD 海上貨物保險資料及 Spooner 判決，補充偶發／異常海洋危險與一般耗損之區別。"
         }
       ]
@@ -248,22 +248,22 @@
       "checks": [
         {
           "item": "Safe port 經典法律定義",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依 The Eastern City 經典測試及 Gard Marine 2015 上訴法院判決核對。"
         },
         {
           "item": "Safe berth 與 safe port 的區別",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依 Steamship Mutual 對 safe port／safe berth warranty 的說明，區分港口整體與特定泊位。"
         },
         {
           "item": "特定船舶及相關期間的評估原則",
-          "result": "source_checked",
+          "result": "pass",
           "note": "答案明確納入 particular vessel、relevant period、異常事件及良好航海技術與船藝。"
         },
         {
           "item": "靠泊前實務檢查項目",
-          "result": "source_checked",
+          "result": "pass",
           "note": "以水深、UKC、潮流、氣象、迴旋水域及繫泊設施等航海操作要素組織例文。"
         }
       ]
