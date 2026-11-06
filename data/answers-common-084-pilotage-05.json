@@ -1,0 +1,109 @@
+[
+  {
+    "id": "084-pilotage-05-answer-v1",
+    "questionId": "084-pilotage-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "本題15分。海圖上的高度與深度必須先確認各自採用的垂直基準面，才能正確判讀船舶可航水深、潮間帶岩礁及橋梁或架空電纜的淨空。一般而言，水深以深度基準面（Chart Datum, CD）為零面向下量；涸出高度則由CD向上量；陸上地形高程、燈高及架空物垂直間隙則依海圖圖幅註記所指定的高程基準面或高潮基準面表示，不能將所有數值一律視為自平均海水面起算。\n\n【一、各種基準潮面及其相對位置】\n由高至低，常見潮面可概略排列如下（各地潮汐型態與圖幅基準不同，圖上實際採用者以圖名下註記為準）：\n最高天文潮 HAT（Highest Astronomical Tide）\n平均大潮高潮 MHWS（Mean High Water Springs）\n平均小潮高潮 MHWN（Mean High Water Neaps）\n平均海水面 MSL（Mean Sea Level）\n平均小潮低潮 MLWN（Mean Low Water Neaps）\n平均大潮低潮 MLWS（Mean Low Water Springs）\n海圖深度基準面 CD（Chart Datum；臺灣海圖傳統上常採約最低低潮面，現代國際海圖常以LAT作為近似基準，仍須依該圖註記確認）\n最低天文潮 LAT（Lowest Astronomical Tide，若該圖採用此基準）\n\n上述順序是教學示意，並非每一地區的各潮面都必然保持相同間距或完全依此排列；HAT、LAT為天文潮預測範圍的極值基準，MHWS、MHWN、MLWN、MLWS則為平均潮面統計值。\n\n【二、各種高度、深度及岩礁的基準】\n（一）架空電纜垂直間隙（Vertical clearance）：指指定高潮基準面至電纜最低點之垂直距離。航行安全上應以海圖註記的高潮基準面（現代IHO建議通常採HAT或相近高水面）為準，並注意安全淨空值可能已扣除電氣安全裕度。通過前須確認當時潮位、船舶水面以上高度（air draught）、桅杆或天線最高點及電纜下垂變化；不能把電纜淨空與海圖水深基準混用。\n（二）山高、島高：一般地形高程由高程基準面起算；臺灣海軍海圖圖例第八版說明，陸上高度通常以平均海水面（MSL）為基準，亦可能依原始測量資料另採基準，應查圖名下註記。島高同理，並非由海圖深度基準面直接量起。\n（三）燈塔高／燈高（Elevation of light）：指燈光發光中心相對指定潮面基準的高度。臺灣海軍海圖圖例第八版所載燈高係自平均大潮高潮面（MHWS）至光源中心量取；不同國家或新版海圖可能採不同基準，實際使用必須讀取海圖圖例及圖幅註記。燈高不可與燈塔建築物本身的塔高混為一談。\n（四）暗礁（Submerged rock）：位於水面下的岩礁。若深度已知，海圖可標示其最淺水深；若深度不詳但認為對水面航行有危險，會以相應暗礁危險符號標示。航海者不可因其在高潮時看不見便認為無危險。\n（五）適淹岩（Rock awash at chart datum）：岩頂與海圖深度基準面大致同高，基準面水位時恰呈洗浪／適淹狀態；潮高高於CD時可能被淹沒，潮位降低時可能露出或接近水面。圖例定義為「高度平深度基準面」。\n（六）可淹岩（Rock which covers and uncovers）：岩頂高於CD、但低於高潮面，低潮時露出，漲潮後被淹沒；其涸出高度自CD向上量，海圖數字通常以底線標示涸高。\n（七）不淹岩（海圖圖例正式用語為「不滅岩」，Rock which does not cover）：岩頂高於高潮面，正常潮汐下不會被海水淹沒；其高程依高程基準面表示。題目寫「不淹岩」，應理解為此類不被潮水覆蓋的岩石／小島，但正式海圖圖例文字應以「不滅岩」為準。\n（八）深度（Sounding）：海圖上標示的水深，是從深度基準面CD垂直向下至海床的深度，不是從當時海面量起。當時實際水深約為「圖載水深＋相對同一CD的潮高」，仍須考慮測量誤差、淤積、波浪、船舶下沉量（squat）及富餘龍骨下淨空（UKC）政策。\n\n【三、文字示意圖（考場可依此重繪剖面圖）】\n\n       HAT／最高天文潮 ─────── 架空電纜淨空的高水面參考（依圖註）\n       MHWS／平均大潮高潮 ─── 燈高基準（臺灣海軍第八版圖例）\n       MHWN／平均小潮高潮 ────\n       MSL／平均海水面 ─────── 山高、島高的一般高程基準（依圖註）\n       MLWN／平均小潮低潮 ────\n       MLWS／平均大潮低潮 ────\n       CD／海圖深度基準面 ───── 適淹岩頂；可淹岩涸高由此向上量\n             ↑ 可淹岩涸出高度\n             ↓ 圖載水深由此向海床量\n       海床／海底 ─────────── 暗礁在水下，標示最淺水深或危險符號\n\n       不淹／不滅岩：岩頂高於高潮基準面，潮汐通常不會覆蓋。\n       可淹岩：岩頂介於CD與高潮面之間，潮低露出、潮高淹沒。\n       適淹岩：岩頂約在CD面，與基準面齊平。\n       暗礁：岩頂低於CD，常態下淹沒於水下。\n\n【四、引水及航行應用】\n1. 船舶通過淺水區時，應以海圖深度基準、潮汐預報及即時潮位計算預估水深，再扣除吃水、縱傾、橫傾、波浪、船舶下沉量及安全裕度，確認UKC。\n2. 通過橋梁、架空電纜及其他跨水構造物時，應以指定高水基準的圖載垂直間隙，扣除當時潮位高於基準面的水位差，再與船舶air draught比較；並預留安全裕度。\n3. 岩礁判讀應區分暗礁、適淹岩、可淹岩及不淹／不滅岩，特別注意可淹岩在低潮時露出、高潮時被淹，並非安全水域。\n4. 不同海圖、ENC、港口工程圖及陸地測量資料可能使用不同垂直基準。跨資料比對前須確認基準面、單位、基準年代及轉換關係，不可直接相減或相加。\n\n【結論】海圖水深及涸高以CD為重要基準；山高、島高、燈高與架空電纜垂直間隙則依各自指定的高程或高潮基準面表示。暗礁在CD以下，適淹岩約與CD齊平，可淹岩介於CD與高潮面之間，不淹／不滅岩則高於高潮面。考試作圖最重要的是清楚畫出各潮面高低順序、CD零面，以及不同項目各自從哪一基準量起。",
+    "practicalAnalysis": "本題是典型海圖基準面剖面圖題，不能只背名詞，必須把「量測起點」寫清楚。最容易失分的是把山高、燈高、架空電纜淨空都當成同一個基準：臺灣海軍《海圖圖例》第八版指出一般地形高度以MSL為基準，燈高以MHWS至燈光中心量取，圖載深度則以約最低低潮面或該圖註明的深度基準面為準；涸高由CD向上量。岩礁分類則依岩頂相對CD及高潮面的高低區分。考場上畫剖面時，務必在每條基準線旁標英文縮寫，並用箭頭標出高度、涸高、深度及垂直間隙的起算方向。",
+    "keyPoints": [
+      {
+        "point": "海圖深度由CD向下量，潮高由CD向上量；實際水深約等於圖載水深加同一基準面的潮高。",
+        "importance": "essential"
+      },
+      {
+        "point": "臺灣海軍海圖圖例第八版：一般陸上高度通常以MSL為基準；燈高以MHWS至光源中心量取；深度基準面約採最低低潮面或原始資料基準。",
+        "importance": "essential"
+      },
+      {
+        "point": "架空電纜垂直間隙由圖幅指定的高潮基準面量至電纜最低點，應依圖註確認，並考慮當時潮位及船舶air draught。",
+        "importance": "essential"
+      },
+      {
+        "point": "暗礁在CD以下；適淹岩岩頂約與CD齊平；可淹岩在CD與高潮面之間；不淹／不滅岩高於高潮面。",
+        "importance": "essential"
+      },
+      {
+        "point": "可淹岩的涸出高度由CD向上量，海圖數字常以底線表示。",
+        "importance": "essential"
+      },
+      {
+        "point": "不同海圖與港工資料可能採不同垂直基準，使用前必須閱讀圖名下基準註記。",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "海圖圖例第八版（Pub. No.1）",
+        "sourceType": "official_naval_hydrographic_publication",
+        "issuer": "中華民國海軍大氣海洋局",
+        "editionOrEffectiveDate": "2010年12月",
+        "url": "https://navy.mnd.gov.tw/Files/Policy/%E6%B5%B7%E8%BB%8D_%E6%B5%B7%E5%9C%96%E5%9C%96%E4%BE%8B.pdf",
+        "pageOrSection": "說明頁3；C自然地貌；H潮與流；K岩礁、沉船、障礙物",
+        "supports": "臺灣海圖深度基準、一般高程基準、燈高基準、涸出高度及不滅岩、可淹岩、適淹岩、暗礁的正式圖例定義。"
+      },
+      {
+        "title": "海圖圖例第九版",
+        "sourceType": "official_naval_hydrographic_publication",
+        "issuer": "中華民國海軍大氣海洋局",
+        "editionOrEffectiveDate": "2024年公告",
+        "url": "https://navy.mnd.gov.tw/policyroom/Policy_Info.aspx?CID=30246&ID=7&PID=115",
+        "supports": "現行海圖圖例依IHO 2021年海圖規格及2020年國際圖例修訂，可供核對現行符號與術語。"
+      },
+      {
+        "title": "Chart Specifications of the IHO, S-4",
+        "sourceType": "official_international_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/uploads/user/pubs/standards/s-4/S4_V4-9-0_March_2021.pdf",
+        "pageOrSection": "B-302.2",
+        "supports": "高度基準通常採高水面；垂直淨空基準建議採HAT或接近HAT的基準，並說明低潮基準與圖載深度關係。"
+      },
+      {
+        "title": "Chart 1 — Introduction",
+        "sourceType": "official_hydrographic_publication",
+        "issuer": "Canadian Hydrographic Service",
+        "url": "https://charts.gc.ca/publications/chart1-carte1/sections/intro-eng.html",
+        "supports": "海圖深度、涸高、燈高、島高及垂直淨空的基準面概念與圖幅註記原則。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "臺灣海圖一般高程、深度及燈高基準",
+          "result": "pass",
+          "note": "依海軍海圖圖例第八版說明頁核對：深度基準約最低低潮面；一般高度以MSL為基準；燈高以MHWS至光源中心。"
+        },
+        {
+          "item": "岩礁四類定義",
+          "result": "pass",
+          "note": "依海軍海圖圖例第八版K項核對：不滅岩、可淹岩、適淹岩及暗礁之中英文定義與基準面。"
+        },
+        {
+          "item": "架空電纜垂直間隙基準",
+          "result": "pass",
+          "note": "依IHO S-4 B-302.2核對，垂直淨空應採高水面基準，通常為HAT或相近基準；實際仍以該海圖圖幅註記為準。"
+        },
+        {
+          "item": "題目「不淹岩」用語",
+          "result": "needs_review",
+          "note": "海軍海圖圖例正式用語為「不滅岩」（Rock which does not cover）；原題寫「不淹岩」，疑為舊教材慣用詞或題目用字，答案已保留原題語意並註明正式圖例名稱。"
+        },
+        {
+          "item": "1995年考試當時採用之海圖圖例版次",
+          "result": "needs_review",
+          "note": "目前以2010年海軍海圖圖例第八版及IHO標準交叉核對；如要完全重建1995年用語，仍需比對當時第六版或舊版海圖圖例。"
+        }
+      ]
+    },
+    "reviewNotes": [
+      "本答案為考試參考擬答，非考選部公布之官方解答。",
+      "各海圖的基準面並非全球統一；任何實際航行計算均以該圖標題及註記為準。",
+      "原題「不淹岩」與現行海軍海圖圖例「不滅岩」名稱不一致，需以原始題本或當年教材進一步確認。",
+      "圖中潮面上下順序為概念示意，實際潮面數值與相互差值依當地潮汐資料。"
+    ],
+    "lastUpdated": "2026-11-06"
+  }
+]
