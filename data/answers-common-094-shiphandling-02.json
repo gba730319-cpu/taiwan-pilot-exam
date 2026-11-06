@@ -61,7 +61,8 @@
         "sourceType": "textbook_or_academic",
         "issuer": "航運季刊，第十九卷第二期，2010年6月",
         "url": "https://www.mq.org.tw/upload/journal/prog/3a53bec2_20121220.pdf",
-        "supports": "臺灣航海教育及操船模擬中T、K指數意義與不同舵角下縱距、橫距之比較。"
+        "supports": "T為追隨性指數（Yaw Quick Responsibility Index），T愈小代表操舵追隨反應愈佳；K為迴旋性指數（Turning Ability Index），K愈大代表迴旋能力愈佳。另說明縱距（Advance）與橫距（Transfer）的專業定義。該文支持指數意義及距離術語，但沒有提供本題T、K數值的量綱，故不能據此確認本題分鐘制單位假設。",
+        "pageOrSection": "第19卷第2期，2010年6月，pp.30–31：T、K操縱性指數定義與優劣方向；pp.30–32：迴旋試驗、縱距（Advance）與橫距（Transfer）的定義及各舵角模擬結果。"
       },
       {
         "title": "94年專門職業及技術人員特種考試引水人船舶操縱試題",
@@ -126,6 +127,11 @@
           "item": "K與T的量綱",
           "result": "needs_review",
           "note": "在T以分鐘、K以min⁻¹的有因次模型下計算一致；原題未明示量綱，仍需對照考試指定教材或原授課定義。"
+        },
+        {
+          "item": "T、K指數中文定義及大小代表意義",
+          "result": "pass",
+          "note": "依《航運季刊》第19卷第2期（2010）第30頁核對：T為追隨性指數，數值愈小追隨反應愈佳；K為迴旋性指數，數值愈大迴旋能力愈佳。該文未規定本題數值的單位，故量綱仍維持needs_review。"
         }
       ]
     },
