@@ -226,5 +226,150 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "102-pilot-law-03-answer-v1",
+    "questionId": "102-pilot-law-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "legal_essay",
+    "modelAnswer": "【一、港口國管制（Port State Control, PSC）之意義與目的】\n\n港口國管制係指港口國主管機關，對進入其港口之外國船舶實施檢查，以確認船舶是否符合相關國際公約及國內法規要求，包括船舶證書、船體結構、機械設備、救生消防設備、航行安全、船員證書與配額、海洋污染防治及船上工作生活條件等。\n\n港口國管制之目的在於：\n1. 淘汰或改善未符合國際公約標準之次標準船（Substandard Ships）。\n2. 維護船舶航行安全及船上人命安全。\n3. 確保船員適任並維護船員工作與生活環境。\n4. 防止船舶污染海洋環境。\n5. 補充船旗國對船舶監督之不足，促進國際航運安全標準一致。\n\n【二、我國港口國管制之法源依據】\n\n（一）商港法第58條—檢查權限\n航港局依國際海事組織（IMO）或其相關機構頒布之港口國管制程序及其內容規定，對進出商港之外國商船，得實施下列事項之檢查：\n1. 船舶證書及相關文件。\n2. 船舶安全及適航狀況。\n3. 船舶設備及機械。\n4. 船員配額及適任證書。\n5. 其他與國際公約及船舶安全、污染防治有關事項。\n\n（二）商港法第59條—檢查紀錄、限期改善及複檢\n1. 航港局執行外國商船管制檢查時，應作成檢查紀錄，並交由船長簽認。\n2. 如發現違反規定事項，得命船舶限期改善。\n3. 船長完成改善後，應向航港局申請複檢，並繳交複檢費用；費用由航港局擬訂，報請主管機關核定。\n\n（三）商港法第60條—留置（Detention）\n1. 外國商船違反管制檢查規定，情節嚴重，且有影響船舶航行安全、船上人員安全之虞，或足以對海洋環境產生嚴重威脅之虞時，航港局得將船舶留置，直至完成改善後始准航行。\n2. 如我國無修繕設備技術、無配件物料可供更換，或留置違法船舶將影響港口安全或公共利益者，得經入級驗船機構出具證明，並經航港局同意後航行。\n3. 留置是對嚴重缺失船舶所採取的安全措施，並非所有檢查缺失均當然留置；是否留置須依缺失嚴重性及航行、船員與環境風險判斷。\n\n（四）商港法第75條—採用國際規範\n商港安全及管理事項涉及國際事務者，主管機關得參照國際公約或協定及其附約所定規則、辦法、標準、建議或程序，採用施行。此條提供我國採用IMO港口國管制程序及相關國際標準之法源。\n\n（五）船舶法第101條\n其他有關船舶技術與管理規則或辦法，主管機關得參照相關國際公約、協定及其附約所訂標準、建議、辦法或程序，予以採用並發布施行，作為船舶檢查及技術管理之補充依據。\n\n【三、我國港口國管制之執行方式】\n\n（一）實施對象及開始時間\n1. 我國自民國92年1月1日起，於各國際商港正式實施港口國管制，主要對進出我國國際商港之外國籍船舶進行檢查。\n2. 航港局於民國101年3月1日成立後，接續辦理港口國管制業務。\n3. 港口國管制是港口國對外國船舶的檢查，與船旗國對本國籍船舶的船舶檢查不同；兩者互相補充，並非互相取代。\n\n（二）檢查程序\n1. **船舶篩選：**依東京備忘錄（Tokyo MOU）及IMO港口國管制程序，參考船旗國、船級社／認可組織、船齡、船舶管理公司、過往留置及缺失紀錄等風險資訊，選定優先檢查船舶。\n2. **初步檢查（Initial Inspection）：**檢查船舶法定證書、船員證書、最低安全配額文件、船舶整體狀況及主要設備，確認證書有效及船況與證書記載相符。\n3. **較詳細檢查（More Detailed Inspection）：**如發現明確理由（Clear Grounds）懷疑船舶、設備或船員不符合國際公約要求，得擴大檢查範圍，檢查船體結構、機艙、推進及操舵設備、救生消防、航行設備、污染防治及船員操作能力等。\n4. **缺失通知及矯正：**檢查發現缺失時，PSCO應記錄缺失內容及要求改善期限，將檢查結果交船長簽認；必要時通知船旗國及相關認可組織。\n5. **複檢及放行：**船長或船舶管理公司完成矯正後，依規定申請複檢；確認缺失已改善且符合放行條件後，始得離港。\n6. **留置及通報：**若缺失嚴重，足以影響船舶航行、人員安全或海洋環境，航港局得依法留置，並依IMO及Tokyo MOU程序通知船旗國及相關單位。\n\n（三）檢查重點\n1. 船舶法定證書及船員適任證書是否有效。\n2. 船體結構、載重線、水密及風雨密完整性。\n3. 主機、輔機、推進器、舵機及機艙安全。\n4. 救生艇、救生筏、救生衣及消防設備。\n5. 雷達、ECDIS、AIS、羅經、測深儀及其他航行設備。\n6. 無線電通信及遇險安全設備。\n7. 防止油污、散裝有毒液體物質、垃圾及空氣污染之設備與紀錄。\n8. 船員配額、適任證書、值班、休息時間及船上工作生活條件。\n9. ISM安全管理制度及其實際執行情形。\n\n【四、國際合作及東京備忘錄】\n\n我國參採IMO港口國管制程序及亞太地區東京備忘錄（Tokyo MOU）之檢查機制，透過各港口國之檢查資訊交換、船舶風險篩選及重點檢查活動，提高檢查效率並避免次標準船藉由轉換港口規避檢查。2013年考試年度適用之IMO程序為Resolution A.1052(27)《Procedures for Port State Control, 2011》。\n\n【結論】\n\n我國港口國管制主要依《商港法》第58至60條及第75條，並參照《船舶法》第101條及IMO港口國管制程序辦理。航港局對進出商港之外國商船檢查船舶證書、安全、設備、船員配額及其他事項；發現缺失時得命限期改善及複檢，情節嚴重而危及船舶、人員或海洋環境者，得留置至完成改善後始准航行。藉由IMO程序及Tokyo MOU風險篩選與資訊交換，達成淘汰次標準船、保障海上人命安全及防止海洋污染之目的。",
+    "practicalAnalysis": "本題20分，必背商港法第58、59、60、75條及船舶法第101條。第58條檢查權限；第59條檢查紀錄、船長簽認、限期改善、複檢及費用；第60條嚴重缺失得留置，特殊情況經驗船機構證明及航港局同意後得航行；第75條採用國際規範。程序寫船舶篩選→初步檢查→明確理由時較詳細檢查→缺失通知→矯正複檢→放行或留置。2013年應引用IMO A.1052(27) 2011 PSC Procedures，不要套用2025年新程序。",
+    "keyPoints": [
+      {
+        "point": "PSC係港口國對進入其港口之外國船舶檢查，確認符合國際公約及國內法規，補充船旗國監督。",
+        "importance": "essential",
+        "explanation": "主要目的淘汰次標準船、維護人命安全及防止污染。"
+      },
+      {
+        "point": "商港法第58條：航港局依IMO或相關機構PSC程序，檢查外國商船證書、安全、設備、船員配額及其他事項。",
+        "importance": "essential",
+        "explanation": "法定檢查權限。"
+      },
+      {
+        "point": "商港法第59條：檢查紀錄交船長簽認；違規得限期改善；完成後申請複檢並繳費。",
+        "importance": "essential",
+        "explanation": "程序及改善義務。"
+      },
+      {
+        "point": "商港法第60條：嚴重缺失危及船舶、人員或環境時得留置至改善；特殊情況須驗船機構證明並經航港局同意。",
+        "importance": "essential",
+        "explanation": "不是所有缺失都必然留置。"
+      },
+      {
+        "point": "商港法第75條及船舶法第101條：得參照國際公約、協定及其附約規則、標準與程序採用施行。",
+        "importance": "essential",
+        "explanation": "國際規範國內法化的依據。"
+      },
+      {
+        "point": "PSC程序：風險篩選→初步檢查→有明確理由時較詳細檢查→缺失通知→限期改善及複檢→放行或留置。",
+        "importance": "essential",
+        "explanation": "依IMO A.1052(27) 2011程序。"
+      },
+      {
+        "point": "東京備忘錄提供區域合作、資訊交換及風險篩選，協助各港口國共同防止次標準船。",
+        "importance": "supporting",
+        "explanation": "我國自2003年起於國際商港實施PSC。"
+      }
+    ],
+    "references": [
+      {
+        "title": "商港法（2011年12月28日修正公布版本）",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫／交通部",
+        "editionOrEffectiveDate": "2013年考試年度適用",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "pageOrSection": "第58、59、60、75條",
+        "supports": "外國商船港口國管制檢查、檢查紀錄、改善複檢、留置及採用國際規範。"
+      },
+      {
+        "title": "船舶法（2010年12月8日修正公布版本）",
+        "sourceType": "law_or_regulation",
+        "issuer": "交通部",
+        "editionOrEffectiveDate": "2013年考試年度適用",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0070001",
+        "pageOrSection": "第101條",
+        "supports": "參照國際公約、協定及其附約標準、建議、辦法或程序發布施行。"
+      },
+      {
+        "title": "中華民國港口國管制102年度報告",
+        "sourceType": "official_port_or_authority",
+        "issuer": "交通部航港局",
+        "editionOrEffectiveDate": "2014年6月出版，報告年度2013",
+        "url": "https://www.motcmpb.gov.tw/ServerFile/Get/79b4a336-4d41-48d2-902b-98f3e8fc212f?DLCount=1&Odf=True",
+        "pageOrSection": "前言、港口國管制法源依據、102年度檢查重點及執行成效",
+        "supports": "我國自2003年起實施PSC、2011年商港法第58至60及75條、船舶法第101條、航港局組織與2013年度檢查方式。"
+      },
+      {
+        "title": "Resolution A.1052(27) — Procedures for Port State Control, 2011",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "Adopted 30 November 2011",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1052%2827%29.pdf",
+        "pageOrSection": "Chapters 1–3, General, Port State Inspections, Contravention and Detention",
+        "supports": "PSC目的、適用對象、初步及較詳細檢查、缺失矯正與留置程序。"
+      },
+      {
+        "title": "Tokyo Memorandum of Understanding on Port State Control in the Asia-Pacific Region",
+        "sourceType": "international_convention",
+        "issuer": "Tokyo MOU",
+        "url": "https://www.tokyo-mou.org/",
+        "supports": "亞太區域PSC資訊交換、船舶風險篩選及區域合作。"
+      },
+      {
+        "title": "102年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國102年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=813&code=102090&q=1&s=1208&t=Q",
+        "pageOrSection": "航政法規第三題",
+        "supports": "核對原題及20分配分。"
+      }
+    ],
+    "assumptions": [
+      "本題依2013年考試年度適用之商港法2011年12月28日修正公布版本、船舶法2010年12月8日修正公布版本及IMO A.1052(27) 2011程序作答。",
+      "港口國管制主要對外國籍商船執行；本題以國際商港之外籍商船為核心說明。"
+    ],
+    "limitations": [
+      "港口國管制與船旗國管制不同；不能將PSC描述為對我國籍船舶之一般船舶檢查。",
+      "Tokyo MOU及IMO PSC程序會持續修訂；本題為2013年歷史考題，引用A.1052(27) 2011版，不以現行2025程序倒套。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "我國PSC法源",
+          "result": "pass",
+          "note": "依航港局102年度報告前言核對商港法第58、59、60、75條及船舶法第101條。"
+        },
+        {
+          "item": "檢查權限與改善複檢",
+          "result": "pass",
+          "note": "依2011年商港法歷史版本核對第58、59條。"
+        },
+        {
+          "item": "留置及例外航行",
+          "result": "pass",
+          "note": "依商港法第60條核對嚴重缺失留置及經驗船機構證明、航港局同意之例外。"
+        },
+        {
+          "item": "2013年PSC程序版本",
+          "result": "pass",
+          "note": "依IMO A.1052(27)於2011年11月30日通過之Procedures for Port State Control, 2011核對。"
+        },
+        {
+          "item": "我國實施時間及對象",
+          "result": "pass",
+          "note": "依航港局102年度報告核對2003年1月1日起於國際商港對外籍船舶實施PSC。"
+        },
+        {
+          "item": "原題及配分",
+          "result": "pass",
+          "note": "依考選部102年航政法規第三題核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
