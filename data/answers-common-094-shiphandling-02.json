@@ -1,0 +1,124 @@
+[
+  {
+    "id": "094-shiphandling-02-answer-v1",
+    "questionId": "94-shiphandling-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "calculation",
+    "modelAnswer": "【一、題目資料】\n\n船長 L=280 m，船寬45 m，滿載吃水17 m，初速 V=17 kn，分別使用10°、20°、35°舵角轉向70°。\n\n| 舵角 | 轉舵至指定舵角時間 | T追隨性指數 | K迴轉性指數 |\n|---:|---:|---:|---:|\n| 10° | 3 s | 6.2 | 3.2 |\n| 20° | 8 s | 1.9 | 1.3 |\n| 35° | 15 s | 1.0 | 1.0 |\n\n本題提供的T、K數值依操船教材常見的有因次Nomoto K-T模型解讀：T以分鐘計，K以min⁻¹計（舵角以度代入，所得偏航角速度為度／分鐘）。初速17 kn換算：\n\nV=17÷60=0.283333 NM/min\n\n【二、K-T指數的意義】\n\n船舶操舵後的偏航角速度可用一階Nomoto模型近似：\n\nT(dr/dt)+r=Kδ\n\n其中：\n- r：偏航角速度（°/min）\n- δ：實際舵角（°）\n- T：追隨性時間常數\n- K：迴轉性指數\n\n若舵角瞬間到達固定值δ₀並保持不變，則：\n\nr(t)=Kδ₀(1−e^(−t/T))\n\n航向改變角：\n\nψ(t)=Kδ₀[t−T(1−e^(−t/T))]\n\n可見：\n1. K愈大，穩態偏航角速度Kδ愈大，迴轉能力愈強。\n2. T愈小，偏航角速度建立得愈快，對舵反應較迅速，追隨性較佳。\n3. K、T都不是單獨代表迴旋半徑；兩者須與舵角、船速及實際船舶操縱狀態合併判斷。\n\n【三、將舵機轉舵時間納入計算】\n\n題目特別提供轉舵時間，因此不宜完全當成舵角瞬間跳到指定值。採舵角由0°均勻線性增加至指定舵角的簡化假設：\n\nδ(t)=δ₀t/tᵣ（0≤t≤tᵣ）\n\ntᵣ為轉舵時間，轉至指定角後保持舵角不變。\n\n在轉舵期間，偏航角速度由K-T方程逐步建立；轉舵完成後，偏航角速度繼續依時間常數T趨近穩態值。以此分段方程積分，求航向改變達70°的時間。\n\n計算結果：\n\n| 舵角 | 轉舵時間 | 航向改變70°所需時間 |\n|---:|---:|---:|\n| 10° | 3 s | 約6.076 min |\n| 20° | 8 s | 約4.472 min |\n| 35° | 15 s | 約3.072 min |\n\n【四、新航向距離計算】\n\n本題「新航向距離」是從施舵點到完成70°轉向位置的距離。須注意三種不同量法：\n\n（一）沿船舶實際航跡的航程\n\n假設船速在轉向期間維持17 kn，則：\n\nS=V×t\n\n10°舵：\nS=0.283333×6.076=1.722 NM\n\n20°舵：\nS=0.283333×4.472=1.267 NM\n\n35°舵：\nS=0.283333×3.072=0.871 NM\n\n（二）沿原航向的縱向投影距離（advance）\n\n船舶在轉向過程中，航向不斷改變，故沿原航向的投影距離應為：\n\nX=∫V cosψ(t)dt\n\n以分段K-T模型數值積分，得：\n\n| 舵角 | 沿原航向縱向投影X |\n|---:|---:|\n| 10° | 約1.459 NM |\n| 20° | 約1.055 NM |\n| 35° | 約0.724 NM |\n\n（三）施舵點至轉向位置的直線位移\n\n若題目所稱「距離」是施舵點至船舶轉向位置的直線距離，還須合併橫向位移Y：\n\nD=√(X²+Y²)\n\n數值積分結果：\n\n| 舵角 | X | Y | 直線位移D |\n|---:|---:|---:|---:|\n| 10° | 1.459 NM | 0.672 NM | 1.606 NM |\n| 20° | 1.055 NM | 0.525 NM | 1.179 NM |\n| 35° | 0.724 NM | 0.361 NM | 0.809 NM |\n\n因此，若將「新航向距離」理解為實際航跡長度，答案分別為1.72、1.27、0.87 NM；若採航海操縱中沿原航向量測的縱距（advance），則分別約為1.46、1.06、0.72 NM。考試作答應先交代所採定義，避免將航程、縱距及直線位移混為一談。\n\n【五、三種舵角之比較】\n\n（一）10°舵角\nT=6.2，追隨性指數最大，代表偏航反應建立較慢；雖K=3.2較大，但小舵角的穩態偏航率為Kδ=32°/min。因反應時間較長，完成70°轉向所需時間及距離均最大。適合需要較平順、較緩和改變航向的情況，但須提早施舵。\n\n（二）20°舵角\nT=1.9，追隨性較10°舵角明顯改善；K=1.3，穩態偏航率Kδ=26°/min。完成70°轉向的時間及距離均較10°舵角短，操縱反應與轉向強度較為折衷。\n\n（三）35°舵角\nT=1.0，追隨性反應最快；K=1.0，穩態偏航率Kδ=35°/min，三種舵角中最大。完成70°轉向所需時間及距離最短。但大舵角可能造成較大的橫向加速度、船速損失、傾斜及操縱負荷，且本題假設船速固定，實船上不一定成立。\n\n【六、答案彙總】\n\n| 比較項目 | 10°舵 | 20°舵 | 35°舵 |\n|---|---:|---:|---:|\n| T追隨性指數 | 6.2 | 1.9 | 1.0 |\n| K迴轉性指數 | 3.2 | 1.3 | 1.0 |\n| 穩態偏航率Kδ | 32°/min | 26°/min | 35°/min |\n| 達70°所需時間 | 6.076 min | 4.472 min | 3.072 min |\n| 實際航跡航程 | 1.722 NM | 1.267 NM | 0.871 NM |\n| 原航向縱距X | 1.459 NM | 1.055 NM | 0.724 NM |\n| 直線位移 | 1.606 NM | 1.179 NM | 0.809 NM |\n\n【結論】\n三種舵角中，35°舵角的追隨性反應最快、穩態偏航率最高，完成70°轉向所需時間及距離最短；10°舵角則因T值最大，反應最慢，所需時間及距離最長。20°舵角介於兩者之間。惟大舵角並非任何情況下都較安全，實際操船須考慮船速變化、船舶慣性、舵效、橫向漂移、可用水域及船舶操縱手冊資料。",
+    "practicalAnalysis": "這題最重要的陷阱是T、K的物理意義，以及「新航向距離」的定義。採一階Nomoto K-T模型，並把題目給的轉舵時間視為舵角線性增加時間。題目沒有明確交代T、K的單位慣例，也沒有明確說距離是沿航跡、沿原航向投影或施舵點至轉向點直線距離，因此答案同時列出三種量法，並把採用的有因次單位與固定船速假設寫清楚。若原始授課教材採另一套K、T無因次化定義，必須先換算後才能代入，不能混用。",
+    "keyPoints": [
+      {
+        "point": "一階Nomoto方程：T(dr/dt)+r=Kδ；K代表迴轉能力，T代表偏航反應時間常數。",
+        "importance": "essential"
+      },
+      {
+        "point": "T較小表示偏航反應建立較快；Kδ代表固定舵角下的穩態偏航角速度。",
+        "importance": "essential"
+      },
+      {
+        "point": "題目提供轉舵時間，計算時應說明舵角採瞬間施加或線性轉舵假設。",
+        "importance": "essential"
+      },
+      {
+        "point": "17 kn=0.28333 NM/min；達70°轉向時間由K-T方程積分求得。",
+        "importance": "essential"
+      },
+      {
+        "point": "新航向距離須區分實際航跡航程、沿原航向縱距（advance）及施舵點至轉向點直線位移。",
+        "importance": "essential"
+      },
+      {
+        "point": "35°舵角本題計算距離最短，但大舵角實船會有減速、橫向漂移、傾斜及操縱負荷。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "Principles of Naval Architecture, Second Revision, Volume III: Motions in Waves and Controllability",
+        "sourceType": "textbook_or_academic",
+        "issuer": "SNAME",
+        "url": "https://ftp.idu.ac.id/wp-content/uploads/ebook/tdg/ADNVANCED%20MILITARY%20PLATFORM%20DESIGN/Principles%20of%20Naval%20Architecture%20%28Second%20Revision%29%2C%20Volume%20III.pdf",
+        "pageOrSection": "Chapter 10, Controllability, Nomoto K-T model",
+        "supports": "一階Nomoto方程、K與T的物理意義、偏航角速度及航向響應。"
+      },
+      {
+        "title": "On Steering Qualities of Ships (2)",
+        "sourceType": "textbook_or_academic",
+        "issuer": "Kensaku Nomoto and Kenshi Taguchi, 1957",
+        "url": "https://doi.org/10.2534/jjasnaoe1952.1957.101_57",
+        "supports": "Nomoto操舵品質指數之原始理論基礎。"
+      },
+      {
+        "title": "Ship Manoeuvrability-Based Simulation for Ship Navigation in Collision Situations",
+        "sourceType": "textbook_or_academic",
+        "issuer": "Journal of Marine Science and Engineering, 2019, 7(4), 90",
+        "url": "https://doi.org/10.3390/jmse7040090",
+        "supports": "一階Nomoto模型與航向角、偏航角速度之關係及模型限制。"
+      },
+      {
+        "title": "運用操船模擬機探討各舵角對船舶操縱性能之影響",
+        "sourceType": "textbook_or_academic",
+        "issuer": "航運季刊，第十九卷第二期，2010年6月",
+        "url": "https://www.mq.org.tw/upload/journal/prog/3a53bec2_20121220.pdf",
+        "supports": "臺灣航海教育及操船模擬中T、K指數意義與不同舵角下縱距、橫距之比較。"
+      },
+      {
+        "title": "94年專門職業及技術人員特種考試引水人船舶操縱試題",
+        "sourceType": "official_port_or_authority",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=343&code=094080&q=1&s=4001&t=Q",
+        "supports": "本題原始題目及船舶、航速、舵角、T與K數據。"
+      }
+    ],
+    "assumptions": [
+      "T指數以分鐘計，K指數以min⁻¹計，舵角以度代入；若原教材採無因次指數，須依船長及船速換算。",
+      "舵角自0°到指定角度採線性變化，轉舵完成後保持該舵角。",
+      "轉向期間船速固定17 kn，不計轉向減速、風流、漂角及舵效非線性。",
+      "偏航角速度以一階Nomoto模型表示，初始偏航角速度為零。",
+      "本答案以數值積分求達70°的時間、縱距及橫距；結果為理論模型估算值。"
+    ],
+    "limitations": [
+      "題目未明示T、K數值的量綱或是否為無因次指數，答案採有因次K-T模型的常見解讀；正式定稿前仍應比對考試指定教材的指數定義。",
+      "題目未明確界定新航向距離的量測方向，因此同時列出航跡航程、縱距及直線位移。",
+      "實際船舶的大舵角轉向會伴隨減速、漂角及非線性，固定速度的一階模型無法完整呈現。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "原始題目及輸入數值",
+          "result": "pass",
+          "note": "依考選部94年船舶操縱題目核對。"
+        },
+        {
+          "item": "Nomoto K-T方程與指數意義",
+          "result": "pass",
+          "note": "依Principles of Naval Architecture及Nomoto原始研究核對。"
+        },
+        {
+          "item": "T、K量綱解讀",
+          "result": "needs_review",
+          "note": "題目未明示有因次或無因次定義；本答案明確採T分鐘、K每分鐘的解讀，仍須對照指定教材。"
+        },
+        {
+          "item": "轉舵時間處理",
+          "result": "needs_review",
+          "note": "採線性舵角變化模型；題目只給轉舵時間，未提供實際舵機速度曲線。"
+        },
+        {
+          "item": "70度轉向時間及距離積分",
+          "result": "pass",
+          "note": "依分段一階Nomoto方程數值積分，固定17 kn，列出航跡長、縱距及直線位移三種定義。"
+        },
+        {
+          "item": "實船操縱外推",
+          "result": "needs_review",
+          "note": "未納入大舵角減速、漂角、橫向速度與非線性。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
