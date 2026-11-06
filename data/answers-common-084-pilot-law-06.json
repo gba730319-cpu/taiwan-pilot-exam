@@ -1,63 +1,65 @@
-{
-  "id": "084-pilot-law-06-answer-v1",
-  "questionId": "084-pilot-law-06",
-  "version": 1,
-  "language": "zh-TW",
-  "answerType": "legal_analysis",
-  "modelAnswer": "依民國69年制定公布之《商港法》第21條，商港區域內滯留之船舶經依法查封者，商港管理機關得採下列貨物管理措施：\n\n（一）限期通知：通知運送人或貨物所有人，限期將貨物轉船裝運或卸貨進倉。\n（二）逾期代為處理：期限屆滿仍未辦理者，由商港管理機關逕行卸貨進倉。\n（三）通知領貨及費用：卸貨進倉後，限期通知運送人或貨物所有人繳清各項費用後領取貨物。\n（四）逾期未領拍賣：逾期仍未領取者，商港管理機關得會同海關拍賣。\n（五）價金處理：拍賣所得先抵繳各項費用，剩餘價金通知運送人或貨物所有人領回；或依法提存。\n\n本條目的在避免遭查封船舶長期滯留，造成貨物、船席及港區作業受阻，同時保留貨物權利人領回剩餘價金之權益。",
-  "practicalAnalysis": "此題要按條文順序作答，尤其不可漏掉「會同海關拍賣」及「拍賣價金扣除費用後返還或提存」兩個末段。條文中的權限主體是商港管理機關，通知對象為運送人或貨物所有人。",
-  "keyPoints": [
-    {
-      "point": "限期通知轉船裝運或卸貨進倉。",
-      "importance": "essential"
-    },
-    {
-      "point": "逾期由商港管理機關逕行卸貨進倉。",
-      "importance": "essential"
-    },
-    {
-      "point": "通知繳清費用後領貨。",
-      "importance": "essential"
-    },
-    {
-      "point": "逾期未領得會同海關拍賣。",
-      "importance": "essential"
-    },
-    {
-      "point": "價金先抵費用，餘額返還或依法提存。",
-      "importance": "essential"
-    }
-  ],
-  "scoringGuide": {
-    "status": "editorial_estimate",
-    "totalPoints": 10,
-    "items": [
+[
+  {
+    "id": "084-pilot-law-06-answer-v1",
+    "questionId": "084-pilot-law-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "legal_analysis",
+    "modelAnswer": "依民國69年制定公布之《商港法》第21條，商港區域內滯留之船舶經依法查封者，商港管理機關得採下列貨物管理措施：\n\n（一）限期通知：通知運送人或貨物所有人，限期將貨物轉船裝運或卸貨進倉。\n（二）逾期代為處理：期限屆滿仍未辦理者，由商港管理機關逕行卸貨進倉。\n（三）通知領貨及費用：卸貨進倉後，限期通知運送人或貨物所有人繳清各項費用後領取貨物。\n（四）逾期未領拍賣：逾期仍未領取者，商港管理機關得會同海關拍賣。\n（五）價金處理：拍賣所得先抵繳各項費用，剩餘價金通知運送人或貨物所有人領回；或依法提存。\n\n本條目的在避免遭查封船舶長期滯留，造成貨物、船席及港區作業受阻，同時保留貨物權利人領回剩餘價金之權益。",
+    "practicalAnalysis": "此題要按條文順序作答，尤其不可漏掉「會同海關拍賣」及「拍賣價金扣除費用後返還或提存」兩個末段。條文中的權限主體是商港管理機關，通知對象為運送人或貨物所有人。",
+    "keyPoints": [
       {
-        "criterion": "法條依據與規範內容正確",
-        "points": 6,
-        "basis": "編輯建議配分，非官方評分標準"
+        "point": "限期通知轉船裝運或卸貨進倉。",
+        "importance": "essential"
       },
       {
-        "criterion": "說明適用情境、程序及法律效果",
-        "points": 4,
-        "basis": "編輯建議配分，非官方評分標準"
+        "point": "逾期由商港管理機關逕行卸貨進倉。",
+        "importance": "essential"
+      },
+      {
+        "point": "通知繳清費用後領貨。",
+        "importance": "essential"
+      },
+      {
+        "point": "逾期未領得會同海關拍賣。",
+        "importance": "essential"
+      },
+      {
+        "point": "價金先抵費用，餘額返還或依法提存。",
+        "importance": "essential"
       }
-    ]
-  },
-  "references": [
-    {
-      "title": "制定商港法；廢止商港條例",
-      "sourceType": "official_law_gazette",
-      "issuer": "總統府公報",
-      "editionOrEffectiveDate": "1980-05-02",
-      "url": "https://www.president.gov.tw/Page/294/37932",
-      "pageOrSection": "第21、28條",
-      "supports": "民國69年制定商港法之原始條文；第21條及第28條於民國84年考試時適用。"
-    }
-  ],
-  "assumptions": [
-    "本題依民國84年考試時有效法規作答；現行法條僅作對照，不倒推適用。"
-  ],
-  "limitations": [],
-  "lastUpdated": "2026-11-07"
-}
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "totalPoints": 10,
+      "items": [
+        {
+          "criterion": "法條依據與規範內容正確",
+          "points": 6,
+          "basis": "編輯建議配分，非官方評分標準"
+        },
+        {
+          "criterion": "說明適用情境、程序及法律效果",
+          "points": 4,
+          "basis": "編輯建議配分，非官方評分標準"
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "制定商港法；廢止商港條例",
+        "sourceType": "official_law_gazette",
+        "issuer": "總統府公報",
+        "editionOrEffectiveDate": "1980-05-02",
+        "url": "https://www.president.gov.tw/Page/294/37932",
+        "pageOrSection": "第21、28條",
+        "supports": "民國69年制定商港法之原始條文；第21條及第28條於民國84年考試時適用。"
+      }
+    ],
+    "assumptions": [
+      "本題依民國84年考試時有效法規作答；現行法條僅作對照，不倒推適用。"
+    ],
+    "limitations": [],
+    "lastUpdated": "2026-11-07"
+  }
+]
