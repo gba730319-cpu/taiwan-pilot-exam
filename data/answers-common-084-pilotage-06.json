@@ -1,0 +1,79 @@
+[
+  {
+    "id": "084-pilotage-06-answer-v1",
+    "questionId": "084-pilotage-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "calculation",
+    "modelAnswer": "本題10分。題設河道寬500 m，兩船均位於河道中線，初始相距2,000 m，船速相等，迎面相對航行。若兩船各向本船右舷（避讓方向）偏轉相同角度θ，則兩船橫向分離速度為兩船橫向速度之和；兩船縱向接近速度則為兩船縱向速度之和。\n\n設每船對水速度為V，偏轉角為θ：\n縱向接近速度 = 2V cosθ\n橫向分離速度 = 2V sinθ\n\n兩船相遇通過時的時間：\nt = 2,000 ÷ (2V cosθ)\n\n通過時的橫向間隔：\nD = (2V sinθ) × t\n  = (2V sinθ) × [2,000 ÷ (2V cosθ)]\n  = 2,000 tanθ\n\n題目要求兩船通過時中心線間隔100 m，因此：\n100 = 2,000 tanθ\n tanθ = 0.05\n θ = tan⁻¹(0.05) ≈ 2.862°\n\n所以，兩船各自應由原來沿河道方向向右舷偏轉約2.86°（約2°52′），使兩船在相互通過時的橫向間隔約100 m。\n\n【檢核】兩船原本均在河道中線，各自向右舷偏轉後，兩船在通過點分別向各自右舷側移約50 m，兩船中心線相距約100 m。河道半寬250 m，距離河道邊界仍有充分餘裕；但實際船舶操縱仍須考慮船寬、航跡寬度、岸距、流壓、風壓及舵效，題目幾何計算未包含這些因素。",
+    "practicalAnalysis": "本題關鍵是相對運動幾何。兩船等速、對遇且採對稱偏轉時，縱向相對速度與橫向相對速度分別為2Vcosθ及2Vsinθ。初始縱向距離2,000m除以縱向接近速度，得到通過時間；再乘橫向分離速度，速度V會消去，故D=2,000tanθ。令D=100m，得θ約2.862°。這是每艘船相對原航向的偏轉角，不是兩船合計角度。若題意指定單船操舵或指定左／右舷偏轉，則須依原題完整圖示及航行規則重新解讀；本解依兩船各自對稱向右舷讓路。",
+    "keyPoints": [
+      {
+        "point": "兩船等速、對遇、初始縱向距離2,000 m，對稱向各自右舷偏轉。",
+        "importance": "essential"
+      },
+      {
+        "point": "縱向接近速度為2Vcosθ，橫向分離速度為2Vsinθ。",
+        "importance": "essential"
+      },
+      {
+        "point": "通過時橫向間隔D=2,000tanθ。",
+        "importance": "essential"
+      },
+      {
+        "point": "令D=100 m，θ=tan⁻¹(0.05)=2.862°，每船約偏轉2°52′。",
+        "importance": "essential"
+      },
+      {
+        "point": "此為理想幾何解，實際航行須另外考慮船寬、岸距、流、風、操縱延遲及COLREGs適用規定。",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972 (COLREGs)",
+        "sourceType": "international_regulation",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "狹水道中船舶應盡可能靠近本船右舷外側界限航行的規則9；本題幾何計算不取代避碰規則及安全航行判斷。"
+      },
+      {
+        "title": "海圖應用及船舶避碰教材",
+        "sourceType": "textbook_or_academic",
+        "issuer": "航海操船學基本相對運動幾何",
+        "supports": "等速對遇船舶以相對速度分解為縱向接近與橫向分離，求解通過間距。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "兩船相對運動幾何",
+          "result": "pass",
+          "note": "由對稱向右舷偏轉建立縱向與橫向速度分量，推得D=2,000tanθ。"
+        },
+        {
+          "item": "偏轉角數值",
+          "result": "pass",
+          "note": "tanθ=100/2000=0.05，θ=2.862°，約2°52′。"
+        },
+        {
+          "item": "河道寬度及安全餘裕",
+          "result": "needs_review",
+          "note": "題設河道寬500m，理想對稱側移每船約50m，未接近岸界；但實際安全需納入船寬及操縱因素，題目未提供船舶尺度。"
+        },
+        {
+          "item": "COLREGs適用",
+          "result": "needs_review",
+          "note": "題目未交代船舶種類、河道法律性質、是否屬狹水道及交通規則；答案將計算與實際避碰規則分開，不宣稱單靠角度即可確保安全。"
+        }
+      ]
+    },
+    "reviewNotes": [
+      "本題採理想幾何模型，假設兩船同速、同時以相同角度對稱轉向，忽略操縱慣性及風流。",
+      "計算所得為每船相對原航向的偏轉角。實務航行仍須遵守適用的避碰規則、港章及VTS指示。"
+    ],
+    "lastUpdated": "2026-11-06"
+  }
+]
