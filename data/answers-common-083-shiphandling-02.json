@@ -1,0 +1,102 @@
+[
+  {
+    "id": "083-shiphandling-02-answer-v1",
+    "questionId": "083-shiphandling-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "technical_analysis",
+    "modelAnswer": "一、橫反拖（girting／girding／tripping）的意義\n拖船以拖纜協助大船操船時，若拖纜受力方向逐漸轉至拖船正橫或接近正橫，拖船又無法及時改變航向、解除拖力或釋放拖纜，拖船便可能被拖帶船橫向拉曳。此時拖纜拉力作用點與拖船的水阻力、推力及船體阻力形成傾覆力矩，使拖船迅速橫傾、甲板邊緣入水，嚴重時翻覆或沉沒。此事故稱為橫反拖或girting。\n\n二、容易發生橫反拖的情況\n（一）拖纜方向轉至拖船正橫：拖船與大船相對位置改變，拖纜由船艉方向逐漸移向舷側，拖船卻未能及時跟隨轉向，拖纜張力便產生很大的橫向分力及傾覆力矩。\n（二）拖船失去推進或操舵能力：主機故障、舵機失效、螺旋槳失去推力或拖船遭突發浪流影響，不能保持船首對準拖帶方向，拖纜因而被拉至橫向。\n（三）大船突然加速、倒車或急轉向：大船主機或舵令變化過快，使拖船與大船相對運動突然改變，拖纜瞬間繃緊或受力方向快速改變。\n（四）拖船位置及拖纜配置不當：拖船在大船舷側或船首附近作業，拖纜過短、導纜點位置不利，或拖船未能保持安全角度，均可能增加橫向受力。\n（五）拖帶船動量過大：大型船舶排水量及慣性大，若拖船推力不足或拖船在大船速度較高時仍以不利角度繫拖，拖船可能被大船帶動而無法脫離。\n（六）環境及船況不利：強風、橫流、湧浪、狹窄水域、淺水效應及船吸等因素，可能使拖船突然偏轉或拖纜張力增加。\n（七）拖纜無法迅速釋放：拖鈎或拖纜絞機緊急釋放裝置失效、操作人員不熟悉，或拖纜受力時無法即時釋放，會使危險迅速惡化。\n\n三、情境舉例\n例一：拖船在大船右舷正橫位置以拖纜向外拉引大船，大船突然向前增加車速，拖船船首仍朝向原拉引方向，拖纜逐漸轉至拖船正橫並急速繃緊。若拖船未及時轉向或釋放拖纜，橫向拉力與水阻力形成傾覆力矩，可能造成拖船橫傾翻覆。\n例二：拖船在大船船尾以拖纜拖帶，大船突然轉向，使拖纜由拖船艉後方轉到舷側；同時拖船主機故障，無法保持船首對準拖纜方向，拖船遂被大船橫向拖曳而發生橫反拖。\n例三：拖船以舷側拖帶方式協助大船靠泊，拖船與大船間距過小，拖纜角度不斷改變；若大船突然倒車或受風流推移，拖纜張力驟增，拖船可能被拉向大船舷側，發生傾覆或擠壓事故。\n\n四、預防及應變\n（一）作業前由引水人、船長及拖船船長確認拖帶方式、拖纜位置、預定受力方向、通訊口令及緊急釋放程序。\n（二）拖船應保持適當位置及航向，避免拖纜長時間處於正橫方向；注意大船主機、舵令及相對運動，預判拖纜角度變化。\n（三）避免拖纜突然受力；大船應平順下達車舵命令，拖船亦應避免在不利速度及角度下承受大負荷。\n（四）拖鈎或拖纜絞機應具備可靠、可在負荷下操作的緊急釋放功能，並確保駕駛台與甲板均熟悉操作。\n（五）依拖船設計及作業需要使用適當的導纜配置、拖纜長度及必要的防橫反拖裝置（如gob／gog wire）；不得任意改變拖船原設計的拖帶方式。\n（六）保持水密門窗關閉，避免甲板及通風開口進水；發現拖纜角度快速轉至正橫、拖船橫傾增加或拖纜張力異常時，立即採取轉向、減載或緊急釋放等措施。\n\n五、結論\n橫反拖的核心危險是拖纜受力方向轉至拖船正橫，拖纜拉力與拖船水阻力或推力形成傾覆力矩。拖船失去推進操縱能力、大船突然變速或轉向、拖纜配置不當及緊急釋放失效，均會提高事故風險。",
+    "practicalAnalysis": "本題應明確定義girting，並指出「拖纜轉至拖船正橫＋拖纜張力＋拖船無法及時轉向或釋放」是典型事故鏈。舉例時交代大船車舵變化、拖船相對位置、拖纜角度與傾覆結果。不可只寫「拖船被大船拖翻」，必須說明力矩形成機理。",
+    "keyPoints": [
+      {
+        "point": "拖纜轉至拖船正橫或接近正橫，是橫反拖的典型危險狀態。",
+        "importance": "essential"
+      },
+      {
+        "point": "拖纜拉力與拖船水阻力／推力形成傾覆力矩，可能造成橫傾、甲板邊緣入水及翻覆。",
+        "importance": "essential"
+      },
+      {
+        "point": "主機或舵機故障、大船突然變速轉向、強風流及拖纜配置不當會增加風險。",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船必須具備可靠的緊急釋放裝置，並預先演練在負荷下釋放程序。",
+        "importance": "essential"
+      },
+      {
+        "point": "可依拖船設計使用適當導纜配置及gob／gog wire，並保持水密完整。",
+        "importance": "important"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "totalPoints": 10,
+      "items": [
+        {
+          "criterion": "橫反拖定義及傾覆原理",
+          "points": 3,
+          "basis": "編輯建議配分，非官方評分標準"
+        },
+        {
+          "criterion": "易發生情況與事故鏈",
+          "points": 4,
+          "basis": "編輯建議配分，非官方評分標準"
+        },
+        {
+          "criterion": "具體例子及預防措施",
+          "points": 3,
+          "basis": "編輯建議配分，非官方評分標準"
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Hazards and Risks of Girding During Towing Operations — Ship Safety Bulletin No. 16/2020",
+        "sourceType": "official_maritime_safety_bulletin",
+        "issuer": "Transport Canada",
+        "url": "https://tc.canada.ca/en/marine-transportation/marine-safety/ship-safety-bulletins/hazards-risks-girding-during-towing-operations-ssb-no-16-2020",
+        "supports": "橫反拖成因、拖纜角度、拖船被橫向拉曳、快速釋放及預防措施。"
+      },
+      {
+        "title": "Rules for the Survey and Construction of Steel Ships, Part O, Annex 4.4.2-3",
+        "sourceType": "classification_society_standard",
+        "issuer": "ClassNK",
+        "url": "https://www.classnk.or.jp/hp/pdf/rules/450_part_o_e_202412.pdf",
+        "supports": "拖纜橫向作用、推力與船體阻力形成傾覆力矩，以及拖船拖纜緊急釋放系統的安全目的。"
+      },
+      {
+        "title": "Tugs and Tows — A Practical Safety and Operational Guide",
+        "sourceType": "technical_reference",
+        "issuer": "The Shipowners' Club",
+        "url": "https://shp-13383-s3.s3.eu-west-2.amazonaws.com/media/5416/8667/7299/PUBS-Loss-Prevention-Tug-and-Tow-Safety-and-Operational-Guide_A5_0715.pdf",
+        "supports": "拖船girting風險、拖鈎快速釋放、gob wire及水密完整等操作建議。"
+      },
+      {
+        "title": "《船舶引航專論》",
+        "sourceType": "textbook",
+        "issuer": "方信雄",
+        "supports": "引水作業中拖船配置與拖帶安全之專業延伸參考；未標示未核實頁碼。"
+      }
+    ],
+    "assumptions": [
+      "題目「橫反拖」依拖船作業常用術語解讀為girting／girding／tripping。",
+      "以一般港勤拖船及傳統拖纜作業說明；實際安全角度、拖力及裝備依拖船型式與製造商操作手冊為準。"
+    ],
+    "limitations": [
+      "題目未附事故圖及拖船型式，故以典型事故機理及通用操作原則說明，不設定固定拖纜角度或傾覆臨界值。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "girting事故機理",
+          "result": "pass",
+          "note": "參考Transport Canada官方安全通告及ClassNK拖纜緊急釋放標準。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
