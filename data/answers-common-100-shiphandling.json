@@ -360,5 +360,137 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "100-shiphandling-04-answer-v1",
+    "questionId": "100-shiphandling-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "technical_essay",
+    "modelAnswer": "【一、拖帶前之準備與風險評估】\n\n港內拖帶一萬噸級無動力船舶靠泊碼頭，因被拖船無法自行提供主機推力，可能缺乏有效舵效，船舶慣性大且受風流影響明顯，必須由拖船提供拖曳、轉向、制動及橫移控制。作業前應完成下列準備：\n\n1. **確認被拖船狀態：**查明船舶排水量、船長、船寬、吃水、縱傾、乾舷、受風面積、重心、穩度、舵及螺槳狀態、錨機、繫纜設備及船體結構強度。\n2. **確認拖帶設備：**檢查拖纜、拖纜眼環、卸扣、拖帶弓架、導纜孔、拖帶樁及拖船拖鉤；確認拖帶設備及船體支撐結構之安全工作負荷（SWL）或安全拖帶負荷（TOW）足夠。\n3. **檢查拖纜強度及備品：**確認拖纜材質、長度、直徑、破斷強度、磨耗、接頭及防磨保護；準備備用拖纜、卸扣及緊急切斷工具。\n4. **環境評估：**確認風向、風速、陣風、潮流、潮位、能見度、浪高、港池水深、航道寬度、轉向水域及碼頭條件；評估被拖船高乾舷、大受風面積及風壓中心。\n5. **拖船配置及能力：**依被拖船尺度、排水量、風壓、流壓、港池空間及靠泊方向決定拖船數量、馬力及位置；確認拖船總有效拖力及單艘拖船的操縱能力足夠。\n6. **作業計畫及通訊：**擬定拖帶航線、速度、轉向點、拖纜長度、拖船配置、靠泊順序、解纜程序、緊急停拖及備援方案；建立引水人、被拖船船長、各拖船船長及VTS間的VHF通訊與備用通訊方式。\n7. **人員及安全管理：**安排艏艉瞭望及拖纜監視人員，確認甲板人員熟悉拖帶程序、個人防護裝備及Snap-back zone；拖纜受力區及拖船作業區不得有無關人員。\n\n【二、拖船配置及拖帶方式】\n\n1. **艏拖船（Leading Tug）：**通常配置於被拖船船首前方，以拖纜拖曳被拖船前進，控制航向及前進速度。\n2. **艉拖船（Stern Tug）：**配置於船艉，視需要以拖帶或頂推方式控制船尾偏移、減速及轉向，防止被拖船擺尾或偏離航道。\n3. **側拖船（Breast / Side Tug）：**在靠近碼頭或需要橫移時，配置於適當舷側，提供橫向推力或拉力，控制靠泊角度及橫向速度。\n4. **拖船數量：**不可只依排水量固定決定；須考量風壓、流壓、拖船靜態拖力（Bollard Pull）、拖纜角度、被拖船水下側面積、航道及轉向能力。必要時使用兩艘以上拖船，並預留故障備援。\n5. **拖纜長度：**外海或較寬水域可視情況使用較長拖纜，以增加拖帶穩定性；進入港池及靠近碼頭時，應依操船計畫逐步縮短或改用短拖、頂推及側向控制，避免拖纜纏繞螺槳或與其他船舶、設施接觸。\n6. **拖纜方向及受力：**拖纜應保持適當角度及張力，避免突然急拉、鬆弛後瞬間受力及過大衝擊；拖船不得超過拖帶設備及拖纜之安全負荷。\n\n【三、港內拖帶航行及操船注意事項】\n\n1. **控制拖帶速度：**港內應以低速、穩定且可控制的速度航行，避免過高速度造成被拖船動能過大、轉向遲緩及拖纜張力增加。\n2. **預留轉向水域：**被拖船船長、船寬及慣性大，轉向半徑通常較大，且拖船推拉會產生延遲；應提早下令，避免在狹窄航道內突然大角度轉向。\n3. **考慮風壓與流壓：**無動力船舶可能因高乾舷或受風面積大而產生明顯橫移及偏航；應依風流方向調整拖船位置及推力，必要時採頂風、頂流方式進入港池。\n4. **控制船首及船尾：**艏拖船負責主要拖曳與船首方向，艉拖船協助控制船尾擺動及旋迴；兩者須協調施力，避免一艘拖船拉、另一艘拖船推而造成不預期旋迴。\n5. **注意拖船與被拖船交互作用：**拖船接近被拖船船首、船艉或舷側時，須注意船體吸引、船首波、螺槳流及拖船自身操縱限制，避免拖船被吸向船體或拖纜進入螺槳。\n6. **保持航道及交通安全：**拖帶組合長度增加、操縱能力下降，應事先通知VTS，依港口規定安排進出港順序，避免與其他船舶狹水道會遇、追越或交叉。\n7. **必要時拋錨備援：**被拖船錨機及錨具若可用，應確認可立即操作；在拖船失效、拖纜斷裂或船舶漂移時，可依引水人與船長判斷使用錨具控制漂移，但須確認水深、底質、錨鏈及周圍水域安全。\n8. **持續監控拖纜張力：**觀察拖纜弛緊、磨損、導纜角度及拖船位置，避免拖纜突然斷裂、拖船被拖入船艉或拖纜掃過人員。\n\n【四、靠泊碼頭之操船程序】\n\n1. **靠泊前確認：**確認泊位長度、水深、潮位、碼頭防舷材、繫纜樁、繫纜設備及岸上人員均已準備；確認靠泊舷側、船艏方向及風流條件。\n2. **降低速度及調整船位：**在距碼頭足夠距離前逐步減速，控制船舶縱向及橫向動能；靠近碼頭時應保持低速，避免被拖船直接高速推撞。\n3. **控制靠泊角度：**視風流及碼頭條件，以適當小角度接近，逐步調整船首及船尾，使船體與碼頭平行；必要時艏艉拖船分別拉、推，側拖船控制橫移。\n4. **使用防舷材：**確認防舷材位置及承受能力足夠，避免船艏或船艉先行猛烈接觸碼頭；船體接近時應控制橫向速度，避免撞擊造成船體及碼頭損害。\n5. **繫纜作業：**依序帶妥艏纜、艉纜、倒纜及橫纜，逐步收緊並平均分配負荷；拖船應持續保持控制，直到被拖船繫泊穩固。\n6. **拖船解除：**確認被拖船繫纜已穩固、船舶不再漂移後，依序解除拖纜；注意拖纜回收、拖船離開路線及螺槳安全。\n\n【五、緊急應變及特殊注意事項】\n\n1. 拖纜斷裂或拖船故障時，應立即通報所有拖船及VTS，確認被拖船漂移方向，必要時由備援拖船接替或使用錨具。\n2. 若風流突然增強、能見度惡化、拖纜張力超限或被拖船失去控制，應停止靠泊程序，先將船舶移至安全水域或錨地。\n3. 被拖船若有船體破損、進水、穩度不足或貨物移動，應先評估是否適合繼續拖帶，必要時請求海事及救難支援。\n4. 拖帶期間不得讓人員站在拖纜回彈區或跨越受力拖纜；拖纜斷裂時可能高速回彈，造成人員重大傷亡。\n5. 應預先確認緊急解纜方式，確保拖船及被拖船在緊急狀況下可迅速解除拖帶，避免拖船被拖船帶入碼頭或其他船舶。\n\n【結論】\n\n港內拖帶一萬噸級無動力船舶靠泊，應先確認被拖船狀態、拖帶設備、拖纜強度、風流潮汐及碼頭條件，再依實際環境安排艏拖、艉拖及側拖船。拖帶航行須控制低速、預留轉向水域、監控拖纜張力及船舶漂移；靠泊時則以艏艉拖船協調控制船首、船尾及橫移，逐步降低動能、平行靠近碼頭並安全繫纜。全程須維持有效通訊、瞭望、緊急解纜及備援拖帶能力，確保人員、船舶及港口設施安全。",
+    "practicalAnalysis": "本題15分，建議按「拖帶前準備→拖船配置→港內拖航→靠泊→緊急應變」作答。艏拖控制前進與船首，艉拖控制船尾與偏航，側拖協助橫移；拖船數量不可只看一萬噸，還要看風壓面積、流壓、拖船Bollard Pull、拖帶設備TOW及港池空間。必寫低速、預留大轉向半徑、拖纜張力與Snap-back zone、拖船及被拖船VHF、靠泊前降低縱橫向動能、拖船持續控制至繫纜穩固、備援及緊急解纜。",
+    "keyPoints": [
+      {
+        "point": "拖帶前查明被拖船排水量、尺度、吃水、乾舷、風壓面積、舵機、錨機及穩度。",
+        "importance": "essential",
+        "explanation": "確認無動力狀態及剩餘操縱能力。"
+      },
+      {
+        "point": "確認拖纜、卸扣、拖帶樁、導纜孔及船體結構之SWL／TOW，備妥備用拖纜及緊急解纜。",
+        "importance": "essential",
+        "explanation": "設備強度須與拖船拖力及拖帶負荷相配。"
+      },
+      {
+        "point": "依風流及港池條件安排艏拖、艉拖及側拖；艏拖主控拖航，艉拖控制船尾及偏航，側拖控制橫移。",
+        "importance": "essential",
+        "explanation": "拖船數量不宜固定，應依Bollard Pull及環境負荷評估。"
+      },
+      {
+        "point": "港內低速拖帶，提早轉向，預留較大迴旋水域，監控風壓、流壓及拖纜張力。",
+        "importance": "essential",
+        "explanation": "無動力船舶慣性大且操縱反應較慢。"
+      },
+      {
+        "point": "拖纜須避免急拉、鬆弛後衝擊及螺槳纏繞；人員避開Snap-back zone。",
+        "importance": "essential",
+        "explanation": "防止拖纜斷裂及人員傷亡。"
+      },
+      {
+        "point": "靠泊前先降低縱向及橫向速度，控制靠泊角度，使用防舷材，艏艉拖船協調使船體平行靠泊。",
+        "importance": "essential",
+        "explanation": "不得高速推撞碼頭。"
+      },
+      {
+        "point": "拖船應維持控制至被拖船繫纜穩固，之後按程序解除拖纜。",
+        "importance": "essential",
+        "explanation": "防止尚未繫妥即失去控制。"
+      },
+      {
+        "point": "拖纜斷裂、拖船失效、風流惡化或被拖船失控時，通報VTS、啟用備援拖船或錨具，必要時中止靠泊。",
+        "importance": "supporting",
+        "explanation": "事前規劃緊急脫離及安全錨地。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Resolution A.765(18) — Guidelines on the Safety of Towed Ships and Other Floating Objects",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "Adopted 4 November 1993",
+        "url": "https://www.imo.org/en/KnowledgeCentre/IndexofIMOResolutions/Assembly/Documents/A.765(18).pdf",
+        "pageOrSection": "Annex, paragraphs 15–19, Towing Arrangements",
+        "supports": "拖帶設備適合特定拖帶、強度足夠、考量正常與緊急情況、備用及緊急拖帶設備。"
+      },
+      {
+        "title": "MSC.1/Circ.1175/Rev.1 — Revised Guidance on Shipboard Towing and Mooring Equipment",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "9 December 2020",
+        "url": "https://wwwcdn.imo.org/localresources/en/Documents/MSC.1-Circ.1175-Rev.1.pdf",
+        "pageOrSection": "Annex, paragraphs 2–5; towing fittings, TOW and arrangements plan",
+        "supports": "拖帶設備、TOW、船體支撐結構、拖纜導向及拖帶布置計畫。"
+      },
+      {
+        "title": "A Guide to Good Practice on Port and Marine Facilities",
+        "sourceType": "official_port_or_authority",
+        "issuer": "Maritime and Coastguard Agency, UK",
+        "url": "https://www.gov.uk/government/publications/a-guide-to-good-practice-on-port-marine-operations/a-guide-to-good-practice-on-port-and-marine-facilities",
+        "pageOrSection": "4.6 Ship assist towage and general towage",
+        "supports": "引水人、船長及拖船船長資訊交換、拖船能力、拖帶裝備、速度協調及港內拖帶安全。"
+      },
+      {
+        "title": "Code of Safe Working Practices for Merchant Seafarers",
+        "sourceType": "official_port_or_authority",
+        "issuer": "Maritime and Coastguard Agency, UK",
+        "editionOrEffectiveDate": "2024 edition",
+        "url": "https://assets.publishing.service.gov.uk/media/64ddf3ef3fde6100134a5413/12464_MCA_COSWP_v0_3.pdf",
+        "pageOrSection": "Chapter 30, Port towage industry, sections 30.6–30.8",
+        "supports": "拖帶裝備及人員持續監控、緊急釋放、拖船通訊、船舶交互作用及舷側作業風險。"
+      },
+      {
+        "title": "100年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國100年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=808&code=100090&q=1&s=1207&t=Q",
+        "pageOrSection": "船舶操縱第四題",
+        "supports": "核對原題及15分配分。"
+      }
+    ],
+    "assumptions": [
+      "本題將一萬噸級無動力船舶視為無法自行提供主推進力之被拖船；若其舵機、錨機或輔助發電機仍可用，應依實際狀態納入拖帶計畫。",
+      "拖船配置僅說明常見功能分工，不設定固定拖船數量及馬力，實際須依船舶風壓、流壓、拖船Bollard Pull及港池條件計算。"
+    ],
+    "limitations": [
+      "IMO MSC.1/Circ.1175/Rev.1主要規範船上拖帶設備、繫固件及支撐結構，不直接規定所有港內拖帶作業的拖船數量或固定拖航速度。",
+      "拖帶及靠泊作業須依當地港口規章、拖船作業程序、拖纜與船上繫固件TOW／SWL及現場風流條件執行。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "拖帶設備及人員安全",
+          "result": "pass",
+          "note": "依IMO A.765(18)及MSC.1/Circ.1175/Rev.1核對拖帶設備強度、緊急安排及TOW。"
+        },
+        {
+          "item": "港內拖船協助及資訊交換",
+          "result": "pass",
+          "note": "依英國MCA港口作業指引核對拖船能力、速度、通訊及引水人協調。"
+        },
+        {
+          "item": "拖纜、Snap-back及交互作用",
+          "result": "pass",
+          "note": "依MCA COSWP 2024 Chapter 30核對拖纜監控、緊急釋放、拖船交互作用及人員風險。"
+        },
+        {
+          "item": "靠泊程序",
+          "result": "pass",
+          "note": "依一般港內拖帶及靠泊作業程序整理，未設定缺乏依據的固定拖船數量或馬力。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
