@@ -1,0 +1,80 @@
+[
+  {
+    "id": "answer-114-english-04",
+    "questionId": "114-english-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "**Importance of Communication between Pilots and the Ship’s Bridge Team**\n\nEffective communication between a pilot and the ship’s bridge team is essential for safe navigation, particularly in confined waters, ports and areas with heavy traffic. A pilot provides local knowledge of channels, tides, currents, traffic patterns and port regulations. However, the pilot’s presence on board does not relieve the master or the officer in charge of the navigational watch of their responsibility for the safety of the ship.\n\nBefore pilotage begins, the master and the pilot should conduct a proper master-pilot information exchange. They should discuss the ship’s manoeuvring characteristics, draught, engine and steering conditions, stopping distance, turning data, intended route, speed, berth, tug requirements and operational limitations. Weather, visibility, tidal conditions, under-keel clearance and traffic should also be considered. A passage plan and contingency plans should be agreed upon.\n\nCommunication must continue throughout the pilotage. The pilot should explain intended manoeuvres and give clear, timely orders. The officer of the watch should repeat helm and engine orders, monitor the ship’s position and movement, and report any deviation. The bridge team must not hesitate to question an order or warn the pilot if they identify a risk. Closed-loop communication helps prevent misunderstanding, especially when VTS, tug masters and mooring teams are involved.\n\nA shared understanding is particularly important during emergencies, including steering failure, engine failure, poor visibility or unexpected set and drift. All bridge team members should know their duties and the actions to be taken.\n\nIn conclusion, safe pilotage is a team effort. Mutual respect, clear language, continuous information exchange and active monitoring combine the pilot’s local expertise with the crew’s knowledge of the ship. Good communication reduces human error and improves the safety and efficiency of port operations.",
+    "practicalAnalysis": "文章採重要性、引水前資訊交換、引航中閉環溝通、緊急應變及結論的架構。核心必須寫出引水人提供地方知識，但船長及值班駕駛員的安全責任不因引水人在船而解除；駕駛臺團隊亦須監控引水人的操船行動。",
+    "keyPoints": [
+      {
+        "point": "引水前進行 master-pilot information exchange。",
+        "importance": "essential"
+      },
+      {
+        "point": "交換船舶操縱資料、航路、速度、潮流、氣象、吃水、UKC、拖輪及應變方案。",
+        "importance": "essential"
+      },
+      {
+        "point": "船長與值班駕駛員責任不因引水人在船而解除。",
+        "importance": "essential"
+      },
+      {
+        "point": "引航期間持續溝通，監控船位、航向、速度及引水人行動。",
+        "importance": "supporting"
+      },
+      {
+        "point": "採用清楚共同語言與閉環溝通，及時指出偏差或風險。",
+        "importance": "supporting"
+      },
+      {
+        "point": "緊急情況應有共同應變認知與明確分工。",
+        "importance": "supporting"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "totalPoints": null,
+      "items": []
+    },
+    "references": [
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_or_treaty",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2003-12-05",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "pageOrSection": "Annex 2, sections 2, 5 and 6",
+        "accessedAt": "2026-11-07",
+        "supports": "引水作業責任分工、引水前資訊交換及持續溝通。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "未取得考選部官方逐項評分細則；評分重點為編輯建議，非官方標準答案。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題號與題文",
+          "result": "pass",
+          "note": "對照114年共同科目題庫資料。"
+        },
+        {
+          "item": "專業術語與核心概念",
+          "result": "pass",
+          "note": "依IMO引水作業建議核對相關概念。"
+        },
+        {
+          "item": "官方評分細則",
+          "result": "needs_review",
+          "note": "未取得官方評分細則。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
