@@ -1,0 +1,124 @@
+[
+  {
+    "id": "084-pilotage-01-answer-v1",
+    "questionId": "084-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "本題15分。海流（ocean current）是海水具有一定方向及速度的持續性或週期性流動。其形成原因主要包括風力、海水密度差及潮汐，並受地球自轉、海面壓力梯度、海岸線與海底地形等因素影響。\n\n【一、海流形成原因】\n（一）風力作用：盛行風、信風、西風帶及季風透過風應力將動量傳給海面，形成風生流。海水受地球自轉造成的科氏力偏轉，北半球向運動方向右側偏、南半球向左側偏；風應力、科氏力及混合作用形成埃克曼層與埃克曼輸送。風場與大陸邊界共同形成大洋環流，季風則造成區域海流季節變化。\n（二）海水密度差：海水密度主要受溫度與鹽度影響。一般低溫、高鹽度海水密度較大而下沉；高溫、低鹽度海水密度較小。海水因冷卻、蒸發、降雨、結冰及融冰產生溫鹽差，形成密度梯度及水平、垂直流動，稱熱鹽環流（thermohaline circulation），是深層海洋環流的重要動力。\n（三）潮汐作用：月球及太陽引潮力造成潮汐漲落，水位差促使海水水平流動，形成潮流（tidal current），可分漲潮流及退潮流。潮流在海峽、海灣、河口及近岸地區較明顯，方向及流速受潮汐、海岸線、水深及地形影響。\n（四）海面高度及壓力梯度：風場、密度分布及海面高度差形成水平壓力梯度，驅動海水流動；壓力梯度力與科氏力近似平衡時，可形成地轉流（geostrophic current）。\n（五）地形及其他因素：海岸、大陸、海底山脈、海峽及水深會限制流路，使海流轉向、分流、加速或形成渦旋。河川逕流、波浪、颱風、風暴、地震及海底沉積物崩移，也可能造成局部或短期水流，如沿岸流、離岸流及濁流。\n\n【二、海流種類】\n（一）依動力來源：1.風生流：由風應力驅動，主要影響海洋上層。2.密度流／熱鹽流：由溫度、鹽度造成的密度差驅動。3.潮流：由潮汐引起，分漲潮流及退潮流，型態可為往復型或迴轉型。4.地轉流：由水平壓力梯度力與科氏力近似平衡形成。5.河川流、沿岸流及事件性流：由河川出流、波浪、風暴或地震等造成。\n（二）依深度：1.表層海流：主要受盛行風及季風驅動。2.次表層海流：位於表層以下，受密度結構及壓力梯度影響。3.深層／底層海流：主要與密度差、深層水團及海底地形有關。\n（三）依水溫：1.暖流：水溫通常高於流經海域同緯度周圍海水，例如黑潮、灣流。2.寒流：水溫通常低於周圍海水，例如親潮、加利福尼亞海流。暖、寒流是相對水溫分類，不代表固定流向或流速。\n（四）依時間特性：1.常年流：全年大致維持主要流向。2.季節流：受季風及季節風場影響而改變。3.週期流：隨潮汐等週期性作用規律變化。4.暫時性流：由颱風、強風、暴雨或地震等短期事件造成。\n（五）依海域尺度：可分大洋流、沿岸流、海峽流及局部渦流等。\n\n【三、對航海及引水之影響】\n1.海流改變船舶對地航向及對地航速，應區分對水航速（STW）與對地航速（SOG）。2.橫流會造成側向漂移，影響航道保持、轉向、靠離泊及狹水道航行。3.順流、逆流會改變對地速度及操船時間。4.背景海流與潮流可能同向增強或反向抵銷，方向不共線時須以向量合成，不可直接將流速相加減。5.引水人應查閱潮流表、潮流圖、海圖及即時海象資料，並以雷達、GNSS、岸標及船舶操縱反應確認實際流壓。\n\n【結論】海流主要由風力、海水密度差及潮汐等因素驅動，並受科氏力、壓力梯度及海底地形修正。依動力來源可分風生流、密度流、潮流及地轉流；亦可依深度分表層、次表層及深層流，依水溫分暖流與寒流，依時間分常年、季節、週期及暫時性流。實際海流通常是多種動力共同作用的結果，對船舶航跡、航速及操縱均有直接影響。",
+    "practicalAnalysis": "本題15分，建議採「形成原因＋分類＋航海實務」架構。主要成因至少答出風力、溫鹽密度差及潮汐，再補充科氏力、壓力梯度與地形。分類不要只列暖流、寒流，應分別依動力來源、深度、水溫及時間特性說明。科氏力主要改變海流方向，並非海流能量的主要來源；熱鹽環流由密度差驅動，潮流由潮汐引起，風生流主要影響海洋上層。",
+    "keyPoints": [
+      {
+        "point": "主要成因包括風應力、溫度與鹽度造成的密度差，以及月球、太陽引潮力造成的潮汐。",
+        "importance": "essential"
+      },
+      {
+        "point": "風生流受盛行風驅動，並受科氏力、海岸線及海底地形影響；北半球向右偏、南半球向左偏。",
+        "importance": "essential"
+      },
+      {
+        "point": "熱鹽環流由溫鹽差造成密度梯度，與深層水團形成及全球深層輸送有關。",
+        "importance": "essential"
+      },
+      {
+        "point": "潮流由潮汐水位變化造成水平流動，可分漲潮流、退潮流，並有往復型及迴轉型。",
+        "importance": "essential"
+      },
+      {
+        "point": "依深度可分表層、次表層及深層流；依水溫可分暖流與寒流；依時間可分常年、季節、週期及暫時性流。",
+        "importance": "essential"
+      },
+      {
+        "point": "海流影響對地航跡、對地航速及側向漂移；引水作業須將背景流與潮流向量合成。",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "What causes ocean currents?",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA Ocean Exploration",
+        "url": "https://oceanexplorer.noaa.gov/ocean-fact/currents/",
+        "supports": "風力、溫鹽密度差、潮汐、科氏力、地形及風暴等海流成因。"
+      },
+      {
+        "title": "What is a current?",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA National Ocean Service",
+        "url": "https://oceanservice.noaa.gov/facts/current.html",
+        "supports": "海流三項主要驅動因素：潮汐、風及熱鹽環流。"
+      },
+      {
+        "title": "Currents Tutorial",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA National Ocean Service Education",
+        "url": "https://oceanservice.noaa.gov/education/tutorial_currents/welcome.html",
+        "supports": "潮流、風生流、熱鹽環流、沿岸流及全球輸送帶等概念。"
+      },
+      {
+        "title": "Ocean currents",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA Education",
+        "url": "https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-currents",
+        "supports": "科氏力、海岸與海底地形對海流方向與流速的影響；表層風生流及深層熱鹽環流。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch), Chapter 31 — Ocean Currents",
+        "sourceType": "textbook_or_academic",
+        "issuer": "U.S. National Geospatial-Intelligence Agency",
+        "url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/23/69/30/50/2023693050/2023693050.pdf",
+        "pageOrSection": "Chapter 31, §§3101–3102",
+        "supports": "海流主要生成力為風及溫鹽差造成的密度差，並說明水深、海底地形、大陸分布及地球自轉的修正；風生流與埃克曼層。"
+      },
+      {
+        "title": "Real-Time Observations — Water Currents",
+        "sourceType": "official_port_or_authority",
+        "issuer": "NOAA Office of Coast Survey",
+        "url": "https://marinenavigation.noaa.gov/observations.html",
+        "supports": "海流對船舶速度與航跡的影響、海流速度與方向的航海表示。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "海流主要生成原因",
+          "result": "pass",
+          "note": "依NOAA Ocean Exploration及NOAA National Ocean Service核對風、溫鹽密度差、潮汐三大驅動因素。"
+        },
+        {
+          "item": "科氏力與地形修正作用",
+          "result": "pass",
+          "note": "依NOAA Education及Bowditch Chapter 31核對科氏偏轉及海岸、海底地形影響。"
+        },
+        {
+          "item": "埃克曼層及輸送概念",
+          "result": "pass",
+          "note": "依Bowditch Chapter 31 §3102核對風應力、科氏力及埃克曼輸送。"
+        },
+        {
+          "item": "海流分類",
+          "result": "pass",
+          "note": "依NOAA海流教學資料整理動力來源、深度、水溫及時間特性，並區分不同分類軸。"
+        },
+        {
+          "item": "航海及引水實務",
+          "result": "pass",
+          "note": "依NOAA Office of Coast Survey對海流速度、方向及船舶航跡影響之說明補充。"
+        },
+        {
+          "item": "方信雄引水專業著作具體頁碼",
+          "result": "needs_review",
+          "note": "尚未取得可核對的具體頁碼；本題以官方海洋學資料及Bowditch為主要理論依據。"
+        }
+      ]
+    },
+    "reviewNotes": [
+      "本答案為考試參考擬答，非考選部公布之官方解答。",
+      "分類方式有多種學理角度，考場宜先寫動力來源分類，再補充深度、水溫及時間特性分類。",
+      "科氏力主要改變海流方向，不應寫成海流能量的主要來源；實際海流是多種作用力與邊界條件共同作用的結果。"
+    ],
+    "lastUpdated": "2026-11-06"
+  }
+]
