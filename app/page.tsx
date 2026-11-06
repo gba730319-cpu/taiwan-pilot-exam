@@ -25,7 +25,18 @@ type Question = {
   status: string;
   questionNo: number;
 };
-type Answer = { questionId: string; modelAnswer: string; };
+type AnswerKeyPoint = { point: string; importance?: string; explanation?: string; };
+type AnswerReference = string | { title?: string; url?: string; pageOrSection?: string; supports?: string; };
+type Answer = {
+  questionId: string;
+  modelAnswer: string;
+  practicalAnalysis?: string;
+  keyPoints?: AnswerKeyPoint[];
+  references?: AnswerReference[];
+  assumptions?: string[];
+  limitations?: string[];
+  verification?: { status?: string };
+};
 type Source = {
   id: string;
   exam: string;
@@ -140,7 +151,62 @@ export default function Home() {
                   <details className="answer">
                     <summary>參考答案（點擊展開／收合）</summary>
                     <div className="answer-content">
-                      <p>{answer.modelAnswer}</p>
+                      <section className="answer-section">
+                        <h3>參考擬答</h3>
+                        <p>{answer.modelAnswer}</p>
+                      </section>
+                      {answer.practicalAnalysis ? (
+                        <section className="answer-section">
+                          <h3>解題分析與作答策略</h3>
+                          <p>{answer.practicalAnalysis}</p>
+                        </section>
+                      ) : null}
+                      {answer.keyPoints?.length ? (
+                        <section className="answer-section">
+                          <h3>得分關鍵</h3>
+                          <ol className="answer-keypoints">
+                            {answer.keyPoints.map((item, index) => (
+                              <li key={index}>
+                                <b>{item.point}</b>
+                                {item.explanation ? <p>{item.explanation}</p> : null}
+                              </li>
+                            ))}
+                          </ol>
+                        </section>
+                      ) : null}
+                      {answer.assumptions?.length ? (
+                        <section className="answer-section">
+                          <h3>計算假設</h3>
+                          <ul>{answer.assumptions.map((item, index) => <li key={index}>{item}</li>)}</ul>
+                        </section>
+                      ) : null}
+                      {answer.limitations?.length ? (
+                        <section className="answer-section">
+                          <h3>適用限制與注意事項</h3>
+                          <ul>{answer.limitations.map((item, index) => <li key={index}>{item}</li>)}</ul>
+                        </section>
+                      ) : null}
+                      {answer.references?.length ? (
+                        <section className="answer-section">
+                          <h3>參考資料</h3>
+                          <ol className="answer-references">
+                            {answer.references.map((item, index) => (
+                              <li key={index}>
+                                {typeof item === "string" ? item : (
+                                  <>
+                                    {item.url ? <a href={item.url} target="_blank" rel="noreferrer">{item.title || item.url}</a> : item.title}
+                                    {item.pageOrSection ? `（${item.pageOrSection}）` : ""}
+                                    {item.supports ? <span> — {item.supports}</span> : null}
+                                  </>
+                                )}
+                              </li>
+                            ))}
+                          </ol>
+                        </section>
+                      ) : null}
+                      {answer.verification?.status ? (
+                        <div className="answer-status">資料查核狀態：{answer.verification.status === "source_checked" ? "已完成來源核對" : answer.verification.status}</div>
+                      ) : null}
                     </div>
                   </details>
                 ) : null}
