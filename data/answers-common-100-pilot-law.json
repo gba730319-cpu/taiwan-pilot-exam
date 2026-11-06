@@ -218,5 +218,122 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "100-pilot-law-03-answer-v1",
+    "questionId": "100-pilot-law-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "technical_essay",
+    "modelAnswer": "【一、安全速度之定義及法源】\n\n安全速度（Safe Speed）並非固定數值，也不等同於港口公告的最高限速。依《1972年國際海上避碰規則》（COLREG）第6條，所有船舶在任何時候均應以安全速度航行，使其能採取適當且有效的避碰行動，並能在當時情況及環境所適合的距離內停止。\n\n因此，被引領船舶之安全速度，應由引水人與船長依船舶操縱性能、能見度、交通密度、風浪流、水深、航道寬度及附近危險物等條件綜合判斷，並隨環境變化隨時調整。\n\n【二、決定安全速度應考量之因素】\n\n（一）依COLREG第6(a)條，所有船舶均應考量：\n\n1. **能見度（Visibility）：**霧、雨、雪、煙霧、夜間及背景燈光等會影響目視瞭望及發現他船的距離；能見度降低時，應降低速度，並依第19條採取受限能見度下之航行措施。\n2. **交通密度（Traffic Density）：**附近船舶數量、漁船群、渡輪、遊艇、工作船、錨泊船及交叉航路等。交通愈繁忙，發生碰撞危險的可能性愈高，應預留更多反應時間與操船水域。\n3. **船舶操縱性能（Manoeuvrability）：**包括停止距離、旋回性能、舵效、主機倒車反應時間、螺槳效應、側推器性能及拖船協助能力。大型船舶、載況不利或停止距離較長者，須採較保守速度。\n4. **夜間背景燈光：**岸上燈光、碼頭照明、城市燈光及本船燈光反射，可能使他船燈號或航行標誌不易辨識，應適度降低速度並加強瞭望。\n5. **風、浪、流及航行危險物：**強風、橫流、湧浪、潮流、淺灘、礁石、沉船、施工區、浮標及航道轉折等，均會影響船舶控制能力及安全距離。\n6. **吃水與可用水深之關係：**應考量船舶吃水、潮位、海圖水深、潮汐、龍骨下淨空（UKC）及淺水效應；船速增加可能使船體下沉（Squat）及縱傾增加，降低UKC，故水深不足或航道受限時應減速。\n\n（二）裝有且正在使用雷達之船舶，依COLREG第6(b)條，另應考量：\n\n1. 雷達設備的性能、效率及限制。\n2. 所使用雷達距離量程所造成的限制。\n3. 海況、天候及其他干擾對雷達偵測能力的影響。\n4. 小型船舶、冰塊及其他漂浮物可能無法在足夠距離被雷達偵測。\n5. 雷達所測得船舶的數量、位置及運動情形。\n6. 利用雷達測量附近船舶或物標距離，對能見度及碰撞危險所能提供的較精確判斷。\n\n【三、引水人在港內決定安全速度之實務程序】\n\n1. **航前資料交換：**依引水法第20條，船長應提供船舶操縱性能、噸位、船長、吃水及速率等資料；引水人應確認Pilot Card、Wheelhouse Poster及Manoeuvring Booklet，掌握本船停止距離、旋回性能、倒車反應及側推器能力。\n2. **評估環境條件：**確認港口及航道水深、潮位、潮流、風速風向、能見度、交通密度、航道寬度、彎道、碼頭、錨地及障礙物。\n3. **規劃安全速度及減速點：**依船舶停止距離、航道限制、轉向點、會船位置及預定靠泊位置，預先設定各航段速度及減速點，避免臨近危險區才急遽減速。\n4. **考量淺水及受限水域效應：**航道狹窄或水深與吃水比值較小時，船舶可能發生Squat、岸吸、船間吸引、船首波及舵效改變；應降低速度並保持足夠UKC及岸距。\n5. **考量船舶尾流及波浪影響：**通過小船、漁船、浮筒、碼頭或其他停泊船舶附近時，應降低速度，避免船艏波及尾流造成他船搖晃、纜繩斷裂、碼頭設施損害或人員危險。\n6. **持續監控與調整：**利用目視、雷達／ARPA、ECDIS、AIS、測深儀及VTS資訊監控船位、航速、CPA、TCPA及UKC；若交通、能見度、風流或船舶操縱反應改變，立即重新評估速度。\n7. **與船長保持協調：**引水人應說明速度計畫及減速時機，船長與駕駛台團隊應確認主機、舵令及拖船指令，並保持必要的安全瞭望。\n\n【四、安全速度之判斷原則】\n\n1. 安全速度不是愈慢愈好：速度過低可能使舵效不足、失去操縱能力，尤其在強風流或狹窄航道中，應保持足以控制船舶的最低適當速度。\n2. 安全速度也不是港口限速：港口公告限速是不得逾越的規定；即使未超過限速，如當時能見度、交通或風流條件不佳，仍可能必須進一步減速。\n3. 應同時考量對地速度（SOG）及對水速度（STW）：SOG影響船舶相對岸上物標、碼頭及他船的移動；STW則與舵效、船體水動力、淺水下沉及水流作用有關，不能只看單一速度數值。\n4. 應能在適當距離內停止或採取有效避碰行動：如船舶停止距離長、交通密集或可用水域有限，應提早降低速度。\n5. 遇有立即危險時，應依COLREG及船員常規採取必要措施，安全速度必須隨實際情況動態調整。\n\n【結論】\n\n決定被引領船舶安全速度，應依COLREG第6條，綜合能見度、交通密度、船舶操縱性能、夜間背景燈光、風浪流、航行危險物、吃水與水深，以及雷達設備與偵測限制等因素。引水人並應依本船操縱資料及港口實際環境，規劃各航段速度、減速點及停止距離，持續監控船位、交通及UKC，並與船長協調。安全速度須能兼顧避碰、停船、舵效及防止尾流損害，且應隨環境變化即時調整。",
+    "practicalAnalysis": "本題20分，核心直接引用COLREG Rule 6。先寫安全速度定義，再分(a)所有船舶六項因素、(b)有操作雷達船舶六項附加因素，最後補充港內引水實務：Pilot Card、停止距離、潮位與UKC、Squat、岸吸／船間吸引、交通密度、VTS、尾流及船長協調。特別提醒：港口最高限速不等於當下安全速度；安全速度也不是一味愈慢愈好，必須保留舵效及操縱能力。",
+    "keyPoints": [
+      {
+        "point": "COLREG Rule 6：船舶須以能採取適當有效避碰行動，並能在適當距離內停止的速度航行。",
+        "importance": "essential",
+        "explanation": "安全速度不是固定數字。"
+      },
+      {
+        "point": "所有船舶六因素：能見度、交通密度、操縱性能、夜間背景燈光、風浪流及航行危險物、吃水與可用水深。",
+        "importance": "essential",
+        "explanation": "依Rule 6(a)(i)至(vi)完整列舉。"
+      },
+      {
+        "point": "操作雷達船舶六項附加因素：雷達性能限制、量程限制、海況天候干擾、小船及漂浮物漏測、目標數量位置運動、雷達測距對能見度評估之幫助。",
+        "importance": "essential",
+        "explanation": "依Rule 6(b)(i)至(vi)。"
+      },
+      {
+        "point": "港內須依本船停止距離、旋回性能、倒車反應及舵效預先設定減速點。",
+        "importance": "essential",
+        "explanation": "參考Pilot Card及Manoeuvring Booklet。"
+      },
+      {
+        "point": "淺水、狹水道及近岸須考量Squat、UKC、岸吸、船間吸引及船首波。",
+        "importance": "essential",
+        "explanation": "必要時減速並保留操縱水域。"
+      },
+      {
+        "point": "安全速度不等於港口最高限速，也不是愈慢愈好；須保持足夠舵效並能及時停船。",
+        "importance": "essential",
+        "explanation": "依當時環境動態調整。"
+      },
+      {
+        "point": "同時考量SOG及STW，並注意尾流對小船、碼頭、繫纜及人員的影響。",
+        "importance": "supporting",
+        "explanation": "速度判斷須與船舶運動及水動力狀態相結合。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972 (COLREGs)",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "pageOrSection": "Rule 6 Safe Speed; Rule 5 Look-out; Rule 7 Risk of Collision",
+        "supports": "安全速度之定義及所有船舶、操作雷達船舶應考量之因素。"
+      },
+      {
+        "title": "Rule 6 — Safe Speed",
+        "sourceType": "other",
+        "issuer": "IMO Rules",
+        "url": "https://www.imorules.com/GUID-D59F6106-00A8-43E6-B7AA-3E07F13CC424.html",
+        "pageOrSection": "Rule 6(a) and 6(b)",
+        "supports": "Rule 6完整條文逐項核對。"
+      },
+      {
+        "title": "引水法（民國91年1月30日修正版本）",
+        "sourceType": "law_or_regulation",
+        "issuer": "交通部法規資訊網",
+        "editionOrEffectiveDate": "2011年考試年度適用",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=H0028005&type=-1",
+        "pageOrSection": "第20條",
+        "supports": "船長提供船舶運轉性能、噸位、長度、吃水及速率等資料供引水人評估。"
+      },
+      {
+        "title": "100年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國100年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=100090&q=1&s=1205&t=Q",
+        "pageOrSection": "航政法規第三題",
+        "supports": "核對原題及20分配分。"
+      }
+    ],
+    "assumptions": [
+      "本題以2011年考試年度適用之1972年COLREG及其當時已生效修正作答。",
+      "SOG與STW、Squat及尾流等為引水操船實務補充，非COLREG Rule 6明列的獨立條款。"
+    ],
+    "limitations": [
+      "COLREG Rule 6列舉因素為最低考量項目，並非封閉清單；實際安全速度仍須依港口地方規章、船型及當時環境判斷。",
+      "題目未指定船型、吃水、航道水深及港口限速，因此不提供固定節數或通用減速比例。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "COLREG Rule 6總則",
+          "result": "pass",
+          "note": "依IMO官方COLREG資料及完整Rule 6條文核對。"
+        },
+        {
+          "item": "Rule 6(a)六項因素",
+          "result": "pass",
+          "note": "逐項核對能見度、交通密度、操縱性能、背景燈光、風浪流與危險物、吃水及水深。"
+        },
+        {
+          "item": "Rule 6(b)雷達附加因素",
+          "result": "pass",
+          "note": "逐項核對雷達性能、量程、海況干擾、小物標漏測、目標分布及測距資訊。"
+        },
+        {
+          "item": "港內引水實務補充",
+          "result": "pass",
+          "note": "依引水法第20條及船舶操縱原理整理，未加入無依據的固定速度數值。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
