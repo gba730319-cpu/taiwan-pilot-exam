@@ -49,17 +49,17 @@
       "checks": [
         {
           "item": "SOLAS XI-2／ISPS Code 生效日期及架構",
-          "result": "source_checked",
+          "result": "pass",
           "note": "2002 年 12 月外交會議通過，2004 年 7 月 1 日生效；Part A 強制、Part B 指引。"
         },
         {
           "item": "民國 92 年商港法歷史版本及港區管理法源",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依民國 92 年 1 月 2 日公布版本核對第 5、18、20、23 至 26、28 至 33、37、43-1、47 條。"
         },
         {
           "item": "既有商港法與 ISPS 制度差異",
-          "result": "source_checked",
+          "result": "pass",
           "note": "歷史條文提供港務警察、港區安全、船舶管理、通報及港務管理規則授權，並非完整 ISPS 保安計畫及保安等級制度。"
         }
       ]
@@ -127,17 +127,17 @@
       "checks": [
         {
           "item": "民國 92 年引水法歷史版本",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依民國 91 年 1 月 30 日修正版本核對第 31、32、34 至 38 條。"
         },
         {
           "item": "民國 92 年商港法歷史版本",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依民國 92 年 1 月 2 日公布版本核對第 32 條事故通報、第 40 條緩輪慢行及第 47 條罰鍰。"
         },
         {
           "item": "民國 92 年海商法碰撞及救助規定",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依民國 88 年 7 月 14 日公布版本核對第 21、96 至 98、102、109 條。"
         },
         {
@@ -202,17 +202,17 @@
       "checks": [
         {
           "item": "《引水法》修正沿革截至民國 92 年",
-          "result": "source_checked",
+          "result": "pass",
           "note": "運安會 113 年研究報告記載最近修正日為民國 91 年 1 月 30 日。"
         },
         {
           "item": "《引水人管理規則》民國 92 年適用版本及學習引水人條文",
-          "result": "source_checked",
+          "result": "pass",
           "note": "以民國 88 年 8 月 31 日修正版本核對第 26 至 32 條；民國 93 年 12 月 2 日才再次修正。"
         },
         {
           "item": "引水人、學習引水人與船長之指揮關係",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依《引水法》第 28、32 條及舊版管理規則第 30 條。"
         }
       ]
@@ -265,17 +265,17 @@
       "checks": [
         {
           "item": "COLREGs規則架構與適用範圍",
-          "result": "source_checked",
+          "result": "pass",
           "note": "IMO官方說明確認第5至8條適用各種能見度狀況；第11至18條適用互見船舶；第19條處理能見度受限制情況。"
         },
         {
           "item": "對遇、交叉、追越規則",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依COLREGs第13、14、15、16、17條核對追越、對遇、交叉及讓路船／直航船責任。"
         },
         {
           "item": "瞭望、安全速度、碰撞危險及避讓行動",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依第5至8條核對；羅經方位不變且距離接近是碰撞危險的重要判斷訊號，但仍須綜合所有可用資料。"
         }
       ]
@@ -340,32 +340,32 @@
       "checks": [
         {
           "item": "2003年適用PSC程序版本",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依 IMO A.787(19)（1995）及 A.882(21)（1999）修正；未倒用後續程序版本。"
         },
         {
           "item": "PSC目的與初步檢查",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依 A.787(19) 第1.1、1.2、1.3及2.2節；適用範圍限於當時已生效且港口國接受的公約規定。"
         },
         {
           "item": "PSC檢查證書及文件",
-          "result": "source_checked",
+          "result": "pass",
           "note": "逐項對照 A.787(19) 附錄4第1至17項，並區分 SOLAS II-2/54 文件與 ISM Code 公司 DOC／船舶 SMC。"
         },
         {
           "item": "詳細檢查 clear grounds",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依 A.787(19) 第2.3及3.1節核對設備、證書、紀錄、結構、操作程序、溝通、集合部署表及消防控制圖等理由。"
         },
         {
           "item": "缺失改正及滯留",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依 A.787(19) 第2.6及第4章，以及 A.882(21) 新增第4.6、4.7節核對；重大危險須排除，必要時滯留或禁止作業。"
         },
         {
           "item": "2003年制度時間界線",
-          "result": "source_checked",
+          "result": "pass",
           "note": "不把 ISPS／ISSC、MLC 2006 或 MARPOL Annex VI（2005年生效）當作2003年所有船舶普遍適用證書。"
         }
       ]
