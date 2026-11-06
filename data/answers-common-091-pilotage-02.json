@@ -1,0 +1,83 @@
+[
+  {
+    "id": "091-pilotage-02-answer-v1",
+    "questionId": "091-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "definition",
+    "modelAnswer": "【一、三類航安資訊之發布／傳送機關】\n1. Notice to Mariners（航船布告）：由海軍海測機關發布；2002年前後機關名稱為海軍大氣海洋局（其前身及歷史資料亦見海軍海測局）。其內容主要是海圖及航海刊物須更新的永久性或較長期航安資料。\n2. Navigational Warning（航行警告）：屬海上安全資訊（MSI），由海事主管及相關資料提供機關提出，透過海岸電臺等通信服務向船舶播送；應注意區分「資訊來源／核發機關」與「無線電播送機關」。\n3. NAVTEX：由基隆海岸電臺執行NAVTEX航行警告電傳播送，依GMDSS於518 kHz傳送海上安全資訊，包括航行警告、氣象警報及搜救資訊。\n\n【二、高雄港自民國86年7月1日起電子發布之部分】\n目前已查得高雄港務局歷史網域曾使用 khb.gov.tw，但尚未找到能直接證明1997年7月1日當時「航行障礙通告」電子發布的完整管道清單及指定網址的官方歷史頁面。因此，本題的發布方式與網址暫列待查，不以現行港務公司網站取代歷史網址，也不臆測為電子郵件、傳真或BBS等特定方式。\n\n【應試提醒】本題問的是1997年制度，作答時必須依當年高雄港務局公告或當時港務局網站存檔，不能把現行海軍航船布告網站、航港局Notice to Mariners頁面或現行高雄港港灣通報頁面倒填為1997年網址。",
+    "practicalAnalysis": "本題容易混淆三個層次：航船布告是海測／海圖資訊發布；航行警告是海上安全資訊的內容類別；NAVTEX則是GMDSS的特定自動電傳播送系統。現行制度由航港局管理海岸電臺服務，並不代表1997年組織權責完全相同。交通部運輸研究所2008年研究可證實當時我國航船布告資料由海軍大氣海洋局來源發布，並已發展網路通報與查詢系統；但它不能直接證明高雄港1997年指定網址與所有發布方式。",
+    "keyPoints": [
+      {
+        "point": "Notice to Mariners由海軍海測／大氣海洋機關負責，注意1997至2002間機關名稱沿革。",
+        "importance": "essential"
+      },
+      {
+        "point": "Navigational Warning是航安資訊類別，發布來源與海岸電臺播送服務應分開說明。",
+        "importance": "essential"
+      },
+      {
+        "point": "NAVTEX由海岸電臺播送，518 kHz為國際NAVTEX頻率。",
+        "importance": "essential"
+      },
+      {
+        "point": "高雄港1997年7月1日電子通訊方式及網址尚缺直接歷史證據，不能以現行網址冒充。",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "電子海圖服務與資料安全系統建立研究（三）",
+        "sourceType": "official_port_or_authority",
+        "url": "https://www.iot.gov.tw/uploads/asset/data/6619d550367376304acd5355/B0972350.pdf",
+        "supports": "交通部運輸研究所2008年研究，說明海軍大氣海洋局航船布告資料來源，以及航船布告網路通報、管理與查詢系統。"
+      },
+      {
+        "title": "基隆海岸電臺完成設備搬遷持續提供海上遇險通信服務",
+        "sourceType": "official_port_or_authority",
+        "url": "https://www.motcmpb.gov.tw/Information/Detail/3855338d-a52b-4cfc-8fa9-49c333e886f9?NodeId=15&SiteId=1",
+        "supports": "航港局說明基隆海岸電臺提供GMDSS海上遇險救難通信及海事安全資訊廣播服務；屬現行制度佐證。"
+      },
+      {
+        "title": "NAVTEX海上安全資訊播送規定",
+        "sourceType": "law_or_regulation",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0240000&type=-1",
+        "supports": "說明NAVTEX於518 kHz播送MSI，包括航行警告、氣象警報及搜救訊息；屬現行規範，不直接作為1997歷史權責證據。"
+      },
+      {
+        "title": "海軍大氣海洋局網站整併公告",
+        "sourceType": "official_port_or_authority",
+        "url": "https://navy.mnd.gov.tw/NewsRoom/News_Info.aspx?ID=1&NID=21377",
+        "supports": "證明現行航船布告網站路徑已於2022年整併，提醒不可將現行網址當成1997網址。"
+      }
+    ],
+    "assumptions": [
+      "將題目所稱NAVTEX視為播送服務，而非單純的航行警告內容。"
+    ],
+    "limitations": [
+      "高雄港務局自1997年7月1日起電子通訊發布之具體方式及網址尚未取得可驗證的官方歷史來源；本答案暫為部分完成。"
+    ],
+    "verification": {
+      "status": "partial",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "航船布告發布機關",
+          "result": "source_checked",
+          "note": "交通部運輸研究所研究確認海軍大氣海洋局為航船布告來源。"
+        },
+        {
+          "item": "NAVTEX功能及海岸電臺播送",
+          "result": "source_checked",
+          "note": "依現行航港局海岸電臺服務說明及交通部法規資料核對；歷史名稱需另核。"
+        },
+        {
+          "item": "高雄港1997年電子發布方式與網址",
+          "result": "needs_review",
+          "note": "尚未找到直接歷史公告或網站存檔。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
