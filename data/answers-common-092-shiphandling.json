@@ -434,33 +434,42 @@
       }
     ],
     "references": [
-      "Russell Sydnor Crenshaw, Naval Shiphandling, 3rd ed. (1972), discussion of passing through a restriction under cross-channel wind/current (Cross-Channel Angle)",
-      "方信雄，《航行避碰與操船》（應再比對本書對 Cross Channel Angle 的中文術語及圖示）"
+      {
+        "title": "Naval Shiphandling, 3rd Edition",
+        "sourceType": "textbook_or_academic",
+        "issuer": "Russell Sydnor Crenshaw",
+        "editionOrEffectiveDate": "1972",
+        "url": "https://www.scribd.com/document/1040014883/CRENSHAW-Russell-Sydnor-Naval-Shiphandling-3-Ed-1972",
+        "pageOrSection": "Chapter XI, Restricted Waters, “Passing Through Restrictions in the Channel”, pp.163–166, Figures 72–73",
+        "supports": "Cross-Channel Angle定義：以定方位接近開口時，開口中心方位與船首向之差；角度過大時增加速度、通過開口時轉船，或等待有利條件的處置及風險。"
+      },
+      "方信雄，《航行避碰與操船》。本題中文術語及圖示仍待與指定版本原書逐頁核對。"
     ],
     "assumptions": [
       "依狹水道操船語境，將角度定義為船舶縱向軸線與航道軸線的夾角。"
     ],
     "limitations": [
-      "Cross Channel Angle 可能依教材或特定操船情境有不同定義；原題未附圖，須核對指定教材角度的兩條基準線。若原意為船舶橫越航道時的交叉角，答案應據圖修訂。"
+      "Crenshaw原著以船首向與開口中心定方位線的夾角定義Cross-Channel Angle；方信雄中文教材是否採完全相同術語與圖示，仍待原書頁面核對。",
+      "加速與轉船方案均有前提；須核算船體掃掠範圍、開口長度及下風／下流側可用水域，不可將加速視為無條件安全措施。"
     ],
     "verification": {
       "status": "source_checked",
       "checkedAt": "2026-11-06",
       "checks": [
         {
-          "item": "Cross-Channel Angle 定義及定方位接近開口的概念",
+          "item": "Cross-Channel Angle的定義與定方位接近狹窄開口",
           "result": "pass",
-          "note": "依 Crenshaw, Naval Shiphandling 有關狹窄開口及橫風／橫流操船章節核對。"
+          "note": "Crenshaw, Naval Shiphandling, 3rd ed., Chapter XI, pp.163–166明確說明角度為定方位時開口中心方位與船首向之差。"
         },
         {
-          "item": "角度過大時增加速度或在開口處轉船的處置",
+          "item": "角度過大時增加速度、開口處轉船或等待有利條件",
           "result": "pass",
-          "note": "原著同時警告速度加倍會使動能約增為四倍，且轉船方案須有足夠下風側水域。"
+          "note": "Crenshaw同節列出增加速度及通過時轉船兩種處置，並明確提醒速度加倍使動能增為四倍。"
         },
         {
           "item": "方信雄指定教材的中文術語及圖示",
           "result": "needs_review",
-          "note": "尚未取得該書原頁，待有原書頁面後確認翻譯與命題者採用定義。"
+          "note": "尚未取得該書原頁，待以原書確認中文譯名及圖示角度基準。"
         }
       ]
     },
