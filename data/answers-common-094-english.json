@@ -1,0 +1,67 @@
+[
+  {
+    "id": "094-english-01-answer-v1",
+    "questionId": "94-english-01",
+    "version": 1,
+    "language": "en",
+    "answerType": "essay",
+    "modelAnswer": "[Date]\n\nTo: The Owner\n[Company Name]\n\nSubject: Resignation from My Present Position and Application for Approval to Join the Pilot Service\n\nDear Sir/Madam,\n\nI am writing to tender my resignation from my present position with [Company Name], as I have decided to pursue a new career as a maritime pilot. After careful consideration, I believe that this new appointment will allow me to make better use of my seafaring experience, navigational knowledge and ship-handling skills, while also providing an opportunity for professional development and service to the maritime community.\n\nDuring my employment with the Company, I have gained valuable experience and received considerable support from the management and my colleagues. I am sincerely grateful for the opportunities and guidance that have contributed to my professional growth. My decision is not the result of any dissatisfaction with the Company, but rather a carefully considered career choice.\n\nI therefore respectfully request your kind approval for my resignation and for my acceptance of the new post as a pilot. I will do my best to complete all necessary handover arrangements and outstanding duties in an orderly manner, and to cooperate fully in accordance with the Company's requirements and applicable notice period.\n\nThank you very much for your understanding and kind consideration. I wish the Company continued success in the future.\n\nYours faithfully,\n\n[Your Name]\n[Your Position]",
+    "practicalAnalysis": "本題要求寫給船東（owner）的辭職信，核心不是一般求職信，而是正式提出離職、交代轉任引水人的原因，並請求船東批准。建議採正式商務書信格式：日期、收件人、主旨、稱謂、辭職與轉職原因、感謝任職期間的支持、明確請求批准、交接承諾及結尾敬語。理由可寫成職涯發展、運用航海資歷與操船經驗、服務港口航運安全；避免批評原公司或暗示未經批准已逕行離職。英文用語以 tender my resignation、pursue a new career、maritime pilot、request your kind approval、handover arrangements 為主。",
+    "keyPoints": [
+      {
+        "point": "明確向船東提出辭去現職（tender my resignation）。",
+        "importance": "essential"
+      },
+      {
+        "point": "清楚說明決定轉任引水人（to take up / join a new post as a maritime pilot）。",
+        "importance": "essential"
+      },
+      {
+        "point": "交代正面且合理的轉職原因，例如職涯發展、運用航海與操船經驗、貢獻港口航行安全。",
+        "importance": "essential"
+      },
+      {
+        "point": "明確請求船東核准（request your kind approval），不可只寫通知對方。",
+        "importance": "essential"
+      },
+      {
+        "point": "感謝公司與同事過去的支持，維持專業、尊重的語氣。",
+        "importance": "supporting"
+      },
+      {
+        "point": "承諾依契約及公司規定完成預告、職務交接與未了事項。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      "考選部民國94年引水人考試專業英文第1題原文：Please write a letter of resignation to your owner stating the reason why you decided to quit the job and to join a new post as pilot and request his kind approval.（30分）。",
+      "商務英文正式書信慣例：辭職信應明確表達辭職意旨、理由、感謝及交接安排；本題未提供特定公司名稱、日期、職位或離職日，故以方括號作為可替換欄位。"
+    ],
+    "assumptions": [
+      "以船員寫給船東／船公司負責人的正式英文書信為情境。",
+      "題目未提供具體離職日期、船名、公司名稱及收件人姓名，故不虛構資料。"
+    ],
+    "limitations": [
+      "此為符合題意的示範書信，非考選部公布的標準答案；實際離職仍應依僱傭契約及適用法令辦理。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "題目要求完整涵蓋辭職、轉任引水人、說明理由及請求批准",
+          "result": "pass"
+        },
+        {
+          "item": "正式書信格式與語氣",
+          "result": "pass"
+        },
+        {
+          "item": "未虛構考生個人資料或公司資訊",
+          "result": "pass"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
