@@ -34,12 +34,7 @@
       }
     ],
     "references": [
-      {
-        "title": "方信雄，《航行避碰與操船》",
-        "sourceType": "textbook_or_academic",
-        "supports": "船舶操縱、緊急停船及操船實務之重要參考著作。",
-        "url": "https://www.imo.org/"
-      },
+      "方信雄，《航行避碰與操船》。船舶操縱、緊急停船及操船實務之重要參考著作。",
       {
         "title": "IMO Resolution A.751(18), Interim Standards for Ship Manoeuvrability (1993), Annex, section 3.10",
         "sourceType": "IMO_or_treaty",
@@ -61,12 +56,7 @@
         "url": "https://ittc.info/media/11976/75-04-02-01.pdf",
         "supports": "全尺度停船試驗、Head Reach、Track Reach、Lateral Deviation及試驗量測說明。"
       },
-      {
-        "title": "船舶操縱性能資料（Pilot Card、Wheelhouse Poster及操縱手冊）",
-        "sourceType": "other",
-        "supports": "個別船舶實際停船時間、距離及不同載況下之操縱性能，應以本船資料為準。",
-        "url": "https://www.imo.org/"
-      }
+      "船舶操縱性能資料（Pilot Card、Wheelhouse Poster及操縱手冊）。個別船舶實際停船時間、距離及不同載況下之操縱性能，應以本船資料為準。"
     ],
     "limitations": [
       "題目未提供特定船舶的主機型式、排水量、初速及實測資料，因此只能說明典型趨勢，不能給出固定停船時間或距離。",
