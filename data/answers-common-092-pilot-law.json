@@ -367,9 +367,9 @@
         "sourceType": "law_or_regulation",
         "issuer": "總統府公報／全國法規資料庫歷史法規",
         "editionOrEffectiveDate": "2003-01-02",
-        "url": "https://www.president.gov.tw/Page/294/34863",
+        "url": "https://zh.wikisource.org/zh-hant/商港法_(民國91年立法92年公布)",
         "pageOrSection": "第32、40、47條",
-        "supports": "港區事故通報、緩輪慢行及違反相關義務之行政罰。"
+        "supports": "民國92年1月2日修正公布後之商港法條文整理；第32、40、47條並以總統府公報之原始條文及民國90年修正公報交叉核對。"
       },
       {
         "title": "United Nations Convention on the Law of the Sea",
@@ -452,6 +452,11 @@
           "item": "歷史法規來源連結與法規名稱對應",
           "result": "pass",
           "note": "重新以交通部法規系統核對LawID：H0028005為民國91年1月30日修正之引水法；原先引水法與商港法參考網址曾對調，已更正並補入商港法官方公報。"
+        },
+        {
+          "item": "商港法第32、40、47條歷史條文交叉核對",
+          "result": "pass",
+          "note": "第40條緩輪慢行條文依商港法原始公布條文及92年版本核對；第47條罰鍰及適用條項依民國90年11月21日修正公報核對。"
         }
       ]
     },
