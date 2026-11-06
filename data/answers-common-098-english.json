@@ -1,0 +1,368 @@
+[
+  {
+    "id": "098-english-01-answer-v1",
+    "questionId": "98-english-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "【第一段英翻中】\n\n任何負責特定區域內交通安全且有效率運作，同時肩負保護民眾及環境責任的主管機關，均有許多可運用的管理工具，以達成上述目標。每一種工具各有其特定的適用範圍，但同時也可能在其他領域發揮輔助功能，因而在彼此互動的過程中產生附加價值。\n\n【第二段英翻中】\n\n引水人在船上執行領航期間，負責船舶的航行；船舶船員應遵從強制引水人所下達、與航行有關的命令，除非船長基於下文將討論的理由，認為有必要介入。在強制引水人於船上的情況下，船長的責任並非因此完全且永久地解除。船長與引水人不僅對船舶、貨物及船員負有高度責任，對社會大眾亦負有相當重大的責任。\n\n【重要字詞與翻譯說明】\n1. authority：主管機關／主管當局，依上下文不宜一律譯為「權威」。\n2. safe and efficient flow of traffic：安全且有效率的交通流；海事語境可譯為船舶交通流。\n3. instruments：政策工具、管理工具或管制措施，不是字面上的「儀器」。\n4. subsidiary function：輔助功能。\n5. compulsory pilot：強制引水人／依法強制領航之引水人。\n6. intercede：介入、出面干預；本句指船長因安全或其他正當理由介入操船。\n7. bear responsibility：承擔責任。\n8. the public：社會大眾／公眾。\n\n原文第二段的 “a master's responsibility is not total and forever” 英文表達較不自然，譯文採忠於上下文的方式，表達「引水人在船不代表船長責任完全且永久解除」；不宜誤譯為船長完全沒有責任。",
+    "practicalAnalysis": "本題30分，兩段各自掌握句構。第一段主詞是Any authority，核心動詞has；responsible for後接兩項責任，available to pursue為「可用以達成」。第二段注意while aboard修飾引水人在船期間；is in charge of為負責；is required to obey為應遵從；unless為除非；intercede為介入；not total and forever應依語境理解為船長責任不因強制引水而完全、永久解除。最後public是公眾，不是「公共設施」。",
+    "keyPoints": [
+      {
+        "point": "authority在本段譯為主管機關，instruments譯為管理工具或管制措施。",
+        "importance": "essential",
+        "explanation": "須依交通管理語境翻譯。"
+      },
+      {
+        "point": "safe and efficient flow of traffic應譯為交通安全且有效率的流動。",
+        "importance": "essential",
+        "explanation": "可使用「船舶交通流」使海事語境更明確。"
+      },
+      {
+        "point": "compulsory pilot為強制引水人，is required to obey為應遵從。",
+        "importance": "essential",
+        "explanation": "避免把compulsory誤解為自願引水。"
+      },
+      {
+        "point": "船長在引水人船上時仍保有責任，不因強制引水而完全解除。",
+        "importance": "essential",
+        "explanation": "原文not total and forever不自然，須依上下文翻譯。"
+      },
+      {
+        "point": "船長與引水人對船舶、貨物、船員及公眾均負有高度責任。",
+        "importance": "essential",
+        "explanation": "the public指社會大眾。"
+      }
+    ],
+    "references": [
+      {
+        "title": "98年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國98年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=703&code=098090&q=4&s=c721&t=Q",
+        "pageOrSection": "專業英文第一題",
+        "supports": "核對原文及題目段落。"
+      },
+      {
+        "title": "Resolution A.960(23): Recommendations on Training and Certification and on Operational Procedures for Maritime Pilots other than Deep-Sea Pilots",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "5 December 2003",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.960%2823%29.pdf",
+        "pageOrSection": "Annex 2, Master-Pilot Information Exchange",
+        "supports": "補充船長與引水人資訊交換及共同安全責任之海事語境。"
+      }
+    ],
+    "assumptions": [
+      "英翻中以保留原文語意及海事專業用語為原則；原文第二段最後一句的責任描述不夠自然，故依上下文翻譯並加註。"
+    ],
+    "limitations": [
+      "本題為翻譯題，不將譯文當作我國引水法條文之逐字翻譯；如引用法律，仍應以正式中文法規為準。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "原文核對",
+          "result": "pass",
+          "note": "依考選部98年試題核對兩段英文原文。"
+        },
+        {
+          "item": "海事專業用語",
+          "result": "pass",
+          "note": "依IMO引水人作業程序及船長—引水人資訊交換用語核對。"
+        },
+        {
+          "item": "第二段英文語意",
+          "result": "needs_review",
+          "note": "原文a master's responsibility is not total and forever本身不自然，翻譯依上下文表達責任不因引水人登輪而完全解除。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "098-english-02-answer-v1",
+    "questionId": "98-english-02",
+    "version": 1,
+    "language": "en",
+    "answerType": "translation",
+    "modelAnswer": "【(1) 中文英譯】\n\nWhen a pilot is performing pilotage duties, he or she shall carry the pilot's licence and relevant documents. If the master requests to inspect them, the pilot shall not refuse.\n\n【(2) 中文英譯】\n\nThe purpose of establishing a Vessel Traffic Service (VTS) in a port is to enhance the safety of vessel navigation and anchoring within the area, protect the marine environment, and maintain an orderly flow of vessel traffic.\n\n【Alternative, more formal version of (2)】\n\nA Vessel Traffic Service (VTS) is established in a port to improve the safety of navigation and anchoring in the area, safeguard the marine environment, and ensure an orderly flow of maritime traffic.\n\n【用語提示】\n- 執行領航業務：perform pilotage duties\n- 執業證書：pilot's licence / certificate of competency (依證件正式名稱選用)\n- 有關證件：relevant documents\n- 索閱：request to inspect / ask to see\n- 不得拒絕：shall not refuse\n- 船舶交通服務：Vessel Traffic Service (VTS)\n- 錨泊：anchoring\n- 海洋環境：marine environment\n- 有秩序之交通流：an orderly flow of vessel traffic",
+    "practicalAnalysis": "本題20分，第一句用When引導時間副詞子句，主句shall carry；「如遇船長索閱時」可用If the master requests to inspect them；「不得拒絕」用shall not refuse。第二句VTS是正式名稱Vessel Traffic Service；「船舶航行及錨泊之安全」譯為safety of vessel navigation and anchoring；「維持有秩序之交通流」譯為maintain an orderly flow of vessel traffic。法律義務句使用shall較符合規範語氣。",
+    "keyPoints": [
+      {
+        "point": "引水人執行領航業務：When a pilot is performing pilotage duties。",
+        "importance": "essential",
+        "explanation": "pilotage duties是領航業務。"
+      },
+      {
+        "point": "應攜帶執業證書及有關證件：shall carry the pilot's licence and relevant documents。",
+        "importance": "essential",
+        "explanation": "shall表法定義務。"
+      },
+      {
+        "point": "船長索閱：If the master requests to inspect them；不得拒絕：shall not refuse。",
+        "importance": "essential",
+        "explanation": "them指前述證書及相關證件。"
+      },
+      {
+        "point": "船舶交通服務：Vessel Traffic Service (VTS)。",
+        "importance": "essential",
+        "explanation": "使用IMO正式術語。"
+      },
+      {
+        "point": "維持有秩序之交通流：maintain an orderly flow of vessel traffic。",
+        "importance": "essential",
+        "explanation": "避免直譯成orderly traffic current。"
+      }
+    ],
+    "references": [
+      {
+        "title": "引水法",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+        "pageOrSection": "第24條",
+        "supports": "引水人執行領航業務應攜帶執業證書及相關證件之中文法源。"
+      },
+      {
+        "title": "Guidelines for Vessel Traffic Services",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/VesselTrafficServices.aspx",
+        "supports": "Vessel Traffic Service正式名稱及船舶交通服務之目的。"
+      },
+      {
+        "title": "98年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國98年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=703&code=098090&q=4&s=c721&t=Q",
+        "pageOrSection": "專業英文第二題",
+        "supports": "核對原中文題目。"
+      }
+    ],
+    "assumptions": [
+      "第一句依引水法中文語意翻譯；pilot's licence用於一般表達執業證書，正式法律文件名稱應以主管機關英文版為準。"
+    ],
+    "limitations": [
+      "VTS相關英文句採自然且符合IMO用語之翻譯，不是特定港口VTS規章的官方英文逐字版本。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "中文原題",
+          "result": "pass",
+          "note": "依考選部98年專業英文第二題核對。"
+        },
+        {
+          "item": "引水人攜帶證件義務",
+          "result": "pass",
+          "note": "以引水法第24條中文法義核對。"
+        },
+        {
+          "item": "VTS正式名稱",
+          "result": "pass",
+          "note": "依IMO Vessel Traffic Services官方用語核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "098-english-03-answer-v1",
+    "questionId": "98-english-03",
+    "version": 1,
+    "language": "en",
+    "answerType": "vocabulary_and_sentences",
+    "modelAnswer": "**(1) 助航設施 — Aids to Navigation (AtoN)**\n\nSentence: All vessels should keep a proper lookout for aids to navigation when approaching the port.\n\n**(2) 搜索與救助 — Search and Rescue (SAR)**\n\nSentence: The coast guard coordinated a search and rescue operation for the crew of the disabled vessel.\n\n**(3) 海事報告 — Marine Report / Maritime Accident Report**\n\nSentence: The master submitted a marine report to the competent authority after the vessel was involved in a collision.\n\n**(4) 人為過失 — Human Error**\n\nSentence: Human error is one of the factors that may contribute to a marine accident.\n\n【用語補充】\n- Aids to Navigation (AtoN)：航標、燈塔、浮標及其他助航設施的統稱。\n- Search and Rescue (SAR)：國際通用縮寫。\n- Marine report：一般海事報告；若明確指海難或事故調查報告，可依文件性質使用 maritime accident report 或 marine casualty report。\n- Human error：人為錯誤／人為過失；若法律上強調過失責任，可依句意使用 negligence，但不可將兩者在所有情況下視為完全同義。",
+    "practicalAnalysis": "本題20分，每一小題先寫標準英文術語，再造一個完整句子。助航設施建議用IMO常見的Aids to Navigation；搜索與救助用Search and Rescue (SAR)；海事報告可用Marine Report，但若題目指正式事故報告，Marine Casualty Report或Maritime Accident Report更精確；人為過失一般用Human Error，法律責任語境才考慮Negligence。句子須有完整主詞、動詞及語意，不要只寫片語。",
+    "keyPoints": [
+      {
+        "point": "助航設施：Aids to Navigation (AtoN)。",
+        "importance": "essential",
+        "explanation": "複數形式常用於助航設施總稱。"
+      },
+      {
+        "point": "搜索與救助：Search and Rescue (SAR)。",
+        "importance": "essential",
+        "explanation": "國際通用縮寫。"
+      },
+      {
+        "point": "海事報告：Marine Report；事故調查語境可用Marine Casualty Report。",
+        "importance": "essential",
+        "explanation": "依報告類型選用，不宜所有情況只用一個詞。"
+      },
+      {
+        "point": "人為過失：Human Error；法律過失可視語境用Negligence。",
+        "importance": "essential",
+        "explanation": "兩者語意範圍不完全相同。"
+      },
+      {
+        "point": "每個術語須搭配完整英文句子。",
+        "importance": "essential",
+        "explanation": "至少有主詞及完整謂語。"
+      }
+    ],
+    "references": [
+      {
+        "title": "IALA Dictionary — Aids to Navigation",
+        "sourceType": "official_port_or_authority",
+        "issuer": "International Organization for Marine Aids to Navigation (IALA)",
+        "url": "https://www.iala-aism.org/",
+        "supports": "Aids to Navigation專業術語。"
+      },
+      {
+        "title": "International Convention on Maritime Search and Rescue (SAR)",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/international-convention-on-maritime-search-and-rescue-(sar).aspx",
+        "supports": "Search and Rescue及SAR正式名稱。"
+      },
+      {
+        "title": "Casualty Investigation Code",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/msas/pages/casualties.aspx",
+        "supports": "Marine casualty及海事事故報告相關術語。"
+      },
+      {
+        "title": "98年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國98年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=703&code=098090&q=4&s=c721&t=Q",
+        "pageOrSection": "專業英文第三題",
+        "supports": "核對原題四個中文術語。"
+      }
+    ],
+    "assumptions": [
+      "助航設施採IMO及IALA常見英文Aids to Navigation；題目未指定特定海事報告格式，因此提供一般及事故報告兩種用語。"
+    ],
+    "limitations": [
+      "Marine Report並非所有司法管轄區正式事故報告的統一名稱；實際文件應依主管機關表單名稱使用。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "助航設施英文",
+          "result": "pass",
+          "note": "採IALA通用術語Aids to Navigation。"
+        },
+        {
+          "item": "搜索與救助英文",
+          "result": "pass",
+          "note": "依IMO SAR公約名稱核對。"
+        },
+        {
+          "item": "海事報告英文",
+          "result": "needs_review",
+          "note": "中文海事報告可能指一般報告或海事事故報告，依文件性質選用Marine Report或Marine Casualty Report。"
+        },
+        {
+          "item": "人為過失英文",
+          "result": "pass",
+          "note": "Human Error為通用術語，Negligence僅作法律語境補充。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "098-english-04-answer-v1",
+    "questionId": "98-english-04",
+    "version": 1,
+    "language": "en",
+    "answerType": "composition",
+    "modelAnswer": "**The Training of a Pilot**\n\nA ship pilot plays an important role in ensuring the safe and efficient movement of vessels in ports and confined waters. A pilot must have professional knowledge, practical experience, good communication skills and sound judgment. Therefore, the training of a pilot should include both theoretical study and practical experience.\n\nFirst, a pilot trainee must develop a strong foundation in navigation. Important subjects include ship handling, collision regulations, meteorology, tides, currents, chart work and maritime law. A pilot must understand how different types of ships respond to engines, rudders, thrusters and external forces. Knowledge of local waters is also essential, including channels, depths, traffic patterns, anchorages, port facilities and navigational aids.\n\nSecond, practical training is necessary. Trainees should observe experienced pilots and gradually participate in pilotage under proper supervision. They need to learn how to plan an approach, control a vessel at low speed, use tug assistance, communicate with the master and the vessel's bridge team, and conduct berthing and unberthing operations. Training should cover different ship sizes, loading conditions, weather conditions and emergency situations.\n\nThird, communication and teamwork are vital. A pilot must exchange important information with the master before pilotage begins. The pilot should explain the passage plan, discuss the ship's manoeuvring characteristics and confirm the use of tugs and communication procedures. Good teamwork helps prevent misunderstandings and reduces the risk of accidents.\n\nFinally, pilot training should never stop after certification. Pilots should attend refresher courses, practise emergency procedures and keep up to date with changes in regulations, port facilities and navigational technology. Simulator training can also help pilots practise difficult manoeuvres in a safe environment.\n\nIn conclusion, a competent pilot is developed through continuous learning, supervised practical training, local knowledge and effective communication. The ultimate purpose of pilot training is to protect human life, ships, cargo, port facilities and the marine environment.",
+    "practicalAnalysis": "本題30分，約300字短文，採五段式：引言、理論訓練、實務訓練、溝通團隊、持續訓練與結論。文章約300字，涵蓋航海知識、當地水域、拖船、靠離泊、Master-Pilot Exchange、模擬器、緊急應變及持續專業發展。考場可背熟段落結構，再依題目字數調整。",
+    "keyPoints": [
+      {
+        "point": "引言說明引水人對港口及受限水域航行安全的重要性。",
+        "importance": "essential",
+        "explanation": "點出安全、效率及保護環境。"
+      },
+      {
+        "point": "理論訓練包括航海、操船、避碰、氣象、潮汐、海圖及海事法規。",
+        "importance": "essential",
+        "explanation": "並須具備當地水域知識。"
+      },
+      {
+        "point": "實務訓練包括跟隨資深引水人、低速操船、拖船協助、靠離泊及緊急情況。",
+        "importance": "essential",
+        "explanation": "應在監督下逐步增加實務責任。"
+      },
+      {
+        "point": "引水人須與船長及駕駛台團隊交換資訊、確認航行計畫及通訊程序。",
+        "importance": "essential",
+        "explanation": "強調Master-Pilot Exchange與團隊合作。"
+      },
+      {
+        "point": "取得資格後仍須持續進修、複訓及使用模擬器。",
+        "importance": "essential",
+        "explanation": "法規、港口設施及導航科技持續改變。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Resolution A.960(23): Recommendations on Training and Certification and on Operational Procedures for Maritime Pilots other than Deep-Sea Pilots",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "5 December 2003",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.960%2823%29.pdf",
+        "pageOrSection": "Annex 1 Training and certification; Annex 2 Operational procedures",
+        "supports": "引水人訓練、資格、船長與引水人資訊交換及領航程序。"
+      },
+      {
+        "title": "Pilotage",
+        "sourceType": "official_port_or_authority",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/pilotage.aspx",
+        "supports": "引水人專業訓練及領航安全之國際背景。"
+      },
+      {
+        "title": "98年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國98年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=703&code=098090&q=4&s=c721&t=Q",
+        "pageOrSection": "專業英文第四題",
+        "supports": "確認作文題目及約300字要求。"
+      }
+    ],
+    "assumptions": [
+      "作文採一般正式海事英文，字數約300字，內容以引水人訓練的理論、實務、溝通及持續進修為主。"
+    ],
+    "limitations": [
+      "作文為考試練習範文，並非IMO文件逐字內容；實際訓練要求仍依各國引水法規及主管機關規定。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "作文題目及字數要求",
+          "result": "pass",
+          "note": "依考選部98年專業英文第四題核對around 300 words。"
+        },
+        {
+          "item": "引水人訓練內容",
+          "result": "pass",
+          "note": "依IMO A.960(23) Annex 1及Annex 2核對訓練、資格與作業程序。"
+        },
+        {
+          "item": "作文完整性",
+          "result": "pass",
+          "note": "涵蓋理論、實務、團隊溝通、模擬訓練及持續進修。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
