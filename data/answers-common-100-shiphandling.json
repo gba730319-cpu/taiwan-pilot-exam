@@ -114,5 +114,132 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "100-shiphandling-02-answer-v1",
+    "questionId": "100-shiphandling-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "technical_essay",
+    "modelAnswer": "【一、AZIPOD系統之構造與操縱原理】\n\nAZIPOD（Azimuthing Podded Propulsion，方位推進艙／全方位螺旋槳體）是一種將電動馬達及螺旋槳整合於船底外部吊艙（Pod）內的推進系統。Pod可繞垂直軸旋轉，改變推力方向，使推進器同時具有推進及操舵功能；一般不需傳統舵及長軸系。\n\n其基本原理為將螺旋槳推力向量直接轉向，藉由單具或多具Pod不同方向及大小的推力，產生縱向、橫向及旋迴力矩，達成船舶前進、倒退、橫移、原地迴轉及低速定位等操縱。\n\n【二、AZIPOD操縱系統之優點】\n\n1. **操縱靈活、推力方向可變：**Pod可轉向不同方位，推力可直接作用於船舶縱向或橫向，低速時仍具有較佳操縱能力。\n2. **可提供強大橫向推力：**不必依賴傳統舵在螺槳流中的舵效，可直接向船舶側面施力，有利港內橫移、靠泊及離泊。\n3. **迴轉能力佳：**雙Pod可使用不同方向及大小的推力形成旋迴力矩，部分船型可在有限水域內原地迴轉或大幅縮小迴轉半徑。\n4. **倒車及制動反應佳：**可將Pod轉向船尾方向產生倒退推力，減少傳統固定螺槳配合倒車時的操縱限制；亦可依推力向量控制船舶減速及停止。\n5. **低速操縱及定位能力佳：**可利用多具Pod合成不同方向推力，部分系統可進行精確位置控制及動態定位（DP）。\n6. **省去傳統長軸系及舵機：**電動馬達位於Pod內，減少長軸、齒輪箱、舵及舵機等設備，機艙配置較具彈性，可增加貨艙或其他設備空間。\n7. **推進效率及船體設計可能改善：**拉式（Puller）Pod螺槳可在較均勻的來流中工作，並可減少傳統軸架、支架及舵的阻力；實際效率仍取決於船型、Pod配置及操作工況。\n8. **噪音及振動較低：**電力推進及整合式推進單元可降低部分機械傳動噪音及振動，提升乘客舒適性。\n\n【三、AZIPOD操縱系統之缺點及限制】\n\n1. **建造及維修成本高：**Pod、電動馬達、密封、軸承、旋轉機構及控制系統精密，初期投資與專業維修成本較高。\n2. **水下設備易受損：**Pod及螺槳位於船底外部，擱淺、碰撞水下障礙物、漂浮物或漁網纏繞，可能造成螺槳、Pod外殼、密封及軸承損害。\n3. **維修需特殊設備：**大型Pod損壞時，通常須進塢或使用專用維修設備，停航時間及維修成本可能較高。\n4. **電力系統複雜：**依賴發電機、配電、變頻器及控制系統；若供電、變頻器或控制系統故障，可能造成推力下降或失去部分推進能力。\n5. **功率及推力限制：**單具Pod之功率、轉速、可用推力及持續橫向推力均有額定限制；不能因可360度轉向就認為任何方向均可無限制使用最大推力。\n6. **操作邏輯與傳統舵車不同：**Pod方向、螺槳轉速及推力向量彼此關聯，操作者若不熟悉控制模式，可能誤判船首、船尾及船體運動方向。\n7. **水流及噴流影響：**Pod可將強大螺槳噴流直接指向碼頭、岸壁、海床、其他船舶或小艇，可能造成沖刷、損壞及人員危險。\n8. **部分系統倒車及轉向有特定限制：**不同製造商、螺槳型式及控制模式可能採不同的倒車、轉向與功率限制，須依該船操作手冊確認。\n\n【四、引水人引領AZIPOD船舶應注意事項】\n\n（一）航前資料交換及熟悉設備\n1. 登輪後應與船長完成Master-Pilot Exchange，索取Pilot Card、Wheelhouse Poster、Manoeuvring Booklet及AZIPOD操作手冊。\n2. 確認Pod數量、配置、拉式或推式、旋轉範圍、最大轉向速度、額定功率、最大推力、螺槳型式及各Pod是否能獨立操作。\n3. 確認控制模式，例如Joystick、Lever、Follow-up、Non-follow-up、Independent或DP模式；確認各模式切換程序及切換時可能出現的推力中斷。\n4. 確認主配電板、發電機、變頻器、冷卻、密封、警報及備援系統狀態，了解單一Pod故障或電力故障時的剩餘操縱能力。\n5. 與船長及輪機部確認Ahead、Astern、Sideways及Turning等測試或操作程序，並確認駕駛台與輪機控制室的通訊。\n\n（二）靠離泊操船\n1. 不可將AZIPOD當作傳統「車舵」操作；應先確認推力方向、Pod角度與船舶實際運動方向的關係，並觀察實際反應。\n2. 低速靠離泊時，宜使用小幅度、逐步增加的推力，避免突然大角度轉Pod或瞬間加大轉速，造成船舶急速橫移或產生過大旋迴力矩。\n3. 雙Pod船舶應注意兩具Pod推力向量的合成效果；同向推力可產生平移，不同方向推力可能產生船首或船尾旋轉，須事先規劃。\n4. 利用Pod橫向推力靠泊時，應確認推力作用位置與船舶重心的關係，避免船舶只產生偏航而未有效橫移。\n5. 避免將強大噴流直接對準碼頭、岸壁、防舷材、海床、繫泊船舶或小艇；必要時調整Pod角度、降低轉速或改由拖船協助。\n6. 應注意船舶慣性及推力建立／解除的延遲，預留足夠停止距離；不能因Pod可快速轉向而忽略船舶本身的動能。\n7. 若風流較強、船席狹窄或推進器性能不足，仍應安排適當拖船，不能假設AZIPOD船舶完全不需拖船。\n8. 靠泊完成後，應確認Pod方向、轉速及推力均已依程序歸零或待命，避免推力誤向造成船體、碼頭及纜繩受力。\n\n（三）特殊風險及緊急應變\n1. 進入淺水、淺灘或水下障礙物較多水域時，注意Pod及螺槳最低點與海床距離，避免觸底或吸入異物。\n2. 如發生Pod角度回授異常、轉向失靈、推力不對稱、變頻器故障或電力故障，應立即與船長及輪機部確認剩餘推進能力，必要時請求拖船協助。\n3. 發生單具Pod失效時，剩餘Pod可能造成不對稱推力及偏航力矩，應重新評估船舶操縱性能及靠離泊可行性。\n4. 引水人應要求駕駛台團隊明確回報Pod角度、轉速及推力狀態，並使用覆誦確認，避免把操縱桿位置誤當成實際推力方向。\n5. 進出港前應確認VTS、拖船及碼頭作業人員了解船舶推進器噴流及橫移特性，保持足夠安全距離。\n\n【結論】\n\nAZIPOD系統將推進與操舵整合，具有360度推力方向控制、低速操縱靈活、橫移及迴轉能力佳、倒車與定位性能好、節省軸系空間等優點；缺點則包括設備及維修成本高、水下Pod易受損、電力與控制系統複雜，以及強大噴流可能危及岸壁、海床及附近船舶。引水人應在航前熟悉該船Pod配置、控制模式、推力限制及緊急程序，靠離泊時小量、漸進地控制推力向量，密切監控船舶實際反應，並視風流及水域條件安排拖船。",
+    "practicalAnalysis": "本題20分，答案分三段：系統原理、優缺點、引水注意事項。必寫Pod可繞垂直軸轉向，推力向量直接控制船舶，不依賴傳統舵；優點有低速橫移、原地迴轉、倒車制動、DP及省軸系空間；缺點有建造維修成本、水下設備損壞風險、電力與控制系統複雜、噴流可能沖刷碼頭或海床。引水重點：航前確認Pod配置及模式、操作桿與實際推力方向、雙Pod向量合成、推力建立延遲、噴流方向、故障備援及拖船安排。",
+    "keyPoints": [
+      {
+        "point": "AZIPOD將電動馬達與螺槳整合於水下Pod，Pod可繞垂直軸旋轉，以推力向量兼具推進及操舵功能。",
+        "importance": "essential",
+        "explanation": "與傳統軸系、舵及舵機不同。"
+      },
+      {
+        "point": "優點：360度推力方向、低速橫移、原地迴轉、倒車制動及動態定位能力較佳。",
+        "importance": "essential",
+        "explanation": "視Pod數量、功率及控制系統配置而定。"
+      },
+      {
+        "point": "優點：省去長軸系及傳統舵機，可增加機艙配置彈性，部分船型噪音及振動較低。",
+        "importance": "supporting",
+        "explanation": "實際效率取決於船型與工況。"
+      },
+      {
+        "point": "缺點：初期成本及維修成本高，水下Pod及螺槳易受擱淺、漂浮物及漁網損害。",
+        "importance": "essential",
+        "explanation": "重大故障可能需進塢維修。"
+      },
+      {
+        "point": "缺點：電力、變頻器、密封、軸承及控制系統複雜；各型號操作模式及限制不同。",
+        "importance": "essential",
+        "explanation": "須依該船操作手冊。"
+      },
+      {
+        "point": "引水前須確認Pod配置、控制模式、轉向範圍、額定功率、推力限制、故障備援及操作手冊。",
+        "importance": "essential",
+        "explanation": "完成Master-Pilot Exchange。"
+      },
+      {
+        "point": "靠離泊時漸進調整推力向量，注意雙Pod推力合成、偏航力矩、推力延遲及船舶慣性。",
+        "importance": "essential",
+        "explanation": "不可把傳統車舵操作方式直接套用。"
+      },
+      {
+        "point": "避免強大螺槳噴流直接指向碼頭、岸壁、海床、其他船舶及小艇；必要時安排拖船。",
+        "importance": "essential",
+        "explanation": "防止沖刷及設備、人員受損。"
+      }
+    ],
+    "references": [
+      {
+        "title": "AZIPOD Propulsion — Detailed Description",
+        "sourceType": "official_company",
+        "issuer": "ABB Marine & Ports",
+        "url": "https://library.e.abb.com/public/bb845dbaca5b483a984410e623534fa2/Detailed%20Description%20_%20AzipodPropulsion.pdf",
+        "pageOrSection": "Advanced Performance of Azipod Propulsion; system description",
+        "supports": "Azipod推力方向、側推能力、惡劣天候操縱及系統設計特性。"
+      },
+      {
+        "title": "Intuitive operation and pilot training when using marine azimuthing control devices",
+        "sourceType": "official_port_or_authority",
+        "issuer": "European Commission CORDIS, FP7 project",
+        "url": "https://cordis.europa.eu/project/id/217818/reporting/fr",
+        "supports": "方位推進系統的操縱優勢、控制複雜性、噴流對岸壁與環境的危害，以及引水人專業訓練需求。"
+      },
+      {
+        "title": "AZIPILOT — Intuitive operation and pilot training",
+        "sourceType": "academic_paper",
+        "issuer": "European Commission FP7 Project",
+        "url": "https://pilot.ncl.ac.uk/publishable%20summaries/Deliverable%203.5%20PUBLIC.pdf",
+        "pageOrSection": "Advantages, disadvantages of podded propulsors and design consequences",
+        "supports": "Pod推進系統優缺點、機艙空間、低速操縱及船體設計影響。"
+      },
+      {
+        "title": "Azimuth Thruster Propulsion Systems",
+        "sourceType": "other",
+        "issuer": "Naval Historical Society of Australia",
+        "url": "https://navyhistory.au/azimuth-thruster-propulsion-systems/",
+        "supports": "方位推進器優缺點、低速操縱能力及水下Pod維修風險。"
+      },
+      {
+        "title": "100年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國100年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=808&code=100090&q=1&s=1207&t=Q",
+        "pageOrSection": "船舶操縱第二題",
+        "supports": "核對原題及20分配分。"
+      }
+    ],
+    "assumptions": [
+      "題目所稱AZIPODS依一般方位吊艙式電力推進系統解讀；實際Puller／Pusher、固定螺距／可調螺距、Pod數量及控制模式因船型而異。",
+      "答案不假設所有AZIPOD船均可無限制360度連續旋轉、所有方向可長時間使用最大推力，實際操作以該船操作手冊及製造商限制為準。"
+    ],
+    "limitations": [
+      "不同製造商的Pod及控制系統差異很大，不能把某一船型的操作手柄、轉向速度或最大推力直接套用到其他船舶。",
+      "實際靠離泊仍須考量風流、港池水深、岸壁噴流風險、船舶慣性及拖船可用性。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "AZIPOD系統原理",
+          "result": "pass",
+          "note": "依ABB系統文件及歐盟AZIPILOT計畫核對Pod推力向量控制原理。"
+        },
+        {
+          "item": "優點",
+          "result": "pass",
+          "note": "依ABB及CORDIS資料核對低速操縱、側推、迴轉、倒車及空間配置優勢。"
+        },
+        {
+          "item": "缺點及維修風險",
+          "result": "pass",
+          "note": "依CORDIS及海事工程資料核對系統複雜、成本、Pod水下損壞及維修限制。"
+        },
+        {
+          "item": "引水操作注意事項",
+          "result": "pass",
+          "note": "依AZIPILOT專案指出的控制複雜性、噴流危害及專業訓練需求整理。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
