@@ -62,12 +62,7 @@
       }
     ],
     "references": [
-      {
-        "title": "The Shiphandler's Guide",
-        "sourceType": "textbook_or_academic",
-        "issuer": "The Nautical Institute",
-        "supports": "迴旋支點、船舶操縱及港內操船概念。"
-      },
+      "The Shiphandler's Guide, The Nautical Institute (pivot point and shiphandling chapters; no unverified page numbers cited).",
       {
         "title": "Notes on Ship Handling",
         "sourceType": "textbook_or_academic",
