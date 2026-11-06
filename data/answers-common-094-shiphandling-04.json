@@ -1,0 +1,133 @@
+[
+  {
+    "id": "094-shiphandling-04-answer-v1",
+    "questionId": "94-shiphandling-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、船舶推進功率的傳遞概念】\n\n主機燃燒燃油產生熱能，經汽缸內膨脹作功轉為機械功，再經曲軸、減速齒輪、軸系及軸承傳至螺槳；螺槳將旋轉功率轉換為水流動能及推力，最後克服船體阻力，使船舶前進。\n\n常見功率依能量傳遞順序包括：\nIHP（Indicated Horse Power）→ BHP（Brake Horse Power）→ SHP（Shaft Horse Power）→ DHP（Delivered Horse Power）→ THP（Thrust Horse Power）→ EHP（Effective Horse Power）。\n\n但須注意：EHP與THP之間涉及船體—螺槳交互作用，船體效率在某些船型及工況下可大於1，因此不能在所有情況下將上述功率視為每一階段必然單調遞減。\n\n【二、主機各種輸出及其關係】\n\n（一）指示馬力 IHP（Indicated Horse Power）\n指汽缸內燃燒氣體對活塞所作的指示功率，依汽缸指示圖（indicator diagram）之平均指示壓力、汽缸尺寸、行程、轉速及汽缸數計算。它反映汽缸內燃氣所產生的理論機械功率，尚未扣除引擎內部摩擦及輔助機械消耗。\n\n（二）制動馬力 BHP（Brake Horse Power）\n指主機曲軸輸出端可提供的機械功率，傳統上可由制動測功器測得，現代亦可由扭矩及轉速計算：\n\nBHP=2πnQ\n\n其中n為每秒轉數，Q為扭矩。\n\nBHP=IHP−FP\n\nFP為引擎內部摩擦及機械損失功率。機械效率：\n\nηm=BHP/IHP\n\n大型船用柴油機的機械效率會隨負荷、轉速及機型而變，滿負荷常見約85%至92%，不可視為所有主機固定比例。\n\n（三）軸馬力 SHP（Shaft Horse Power）\n指經減速齒輪或傳動裝置後，傳至推進軸系的功率。若有減速齒輪、軸帶發電機或其他取力設備，須扣除相關損失或取用功率。\n\n有齒輪傳動時：\n\nSHP=BHP×ηg\n\nηg為齒輪效率，常見約95%至99%。若主機直接驅動螺槳，沒有減速齒輪，則BHP與SHP較接近，但仍須注意推力軸承及取力設備等損失。\n\n【三、推進器及船舶各種馬力】\n\n（一）傳達馬力 DHP（Delivered Horse Power）\n又稱螺槳傳達功率，指真正傳到螺槳軸／螺槳的功率，通常以螺槳扭矩Q及轉速n表示：\n\nDHP=2πnQ\n\n軸承、艉管及軸封等摩擦損失會使DHP略低於SHP：\n\nDHP=SHP×ηs\n\nηs為軸系效率，常見約97%至99%。\n\n（二）推力馬力 THP（Thrust Horse Power）\n指螺槳產生的推力T對進速VA所作的功率：\n\nTHP=T×VA\n\nT為螺槳推力，VA為螺槳進速（速度進流，通常不同於船舶對地速度，也不必然等於船舶對水速度）。\n\n推力馬力與傳達馬力之比為螺槳效率（在船後工況可稱behind-hull propeller efficiency）：\n\nηB=THP/DHP\n\n螺槳效率會隨螺槳設計、轉速、進速、負荷及船尾伴流改變。以一般商船作概略說明，螺槳開水效率常見約65%至75%，但船後效率須依實際船體伴流及螺槳負荷判斷。\n\n（三）有效馬力 EHP（Effective Horse Power）\n指船舶以速度V航行時，克服船體總阻力RT所需的有效功率：\n\nEHP=RT×V\n\nRT為船舶總阻力，V為船舶對水航速。EHP可理解為以拖船拖曳裸船體、使其達到同一航速所需的功率，不包含推進系統本身的機械損失。\n\n【四、推進效率及功率比】\n\n（一）齒輪效率：\n\nηg=SHP/BHP≈0.95～0.99\n\n（二）軸系效率：\n\nηs=DHP/SHP≈0.97～0.99\n\n（三）螺槳效率：\n\nηB=THP/DHP\n\n一般螺槳開水效率常見約0.65～0.75；船後效率須依船體及螺槳交互作用計算。\n\n（四）船體效率（Hull Efficiency）：\n\nηH=EHP/THP=(1−t)/(1−w)\n\nt為推力減額係數（thrust deduction fraction）；w為伴流分數（wake fraction）。船體效率反映螺槳與船體交互作用，可能大於1，不能將其一律當成小於1的機械損失率。\n\n（五）相對旋轉效率（Relative Rotative Efficiency）：\n\nηR=PO/DHP\n\nPO為螺槳在均勻開水中吸收的功率；DHP為螺槳在船後工況實際吸收的功率。此效率反映船尾非均勻伴流及旋轉流對螺槳扭矩的影響。\n\n（六）準推進係數（Quasi-Propulsive Coefficient, QPC）：\n\nQPC=EHP/DHP=ηH×ηO×ηR\n\n其中ηO為螺槳開水效率。一般商船常見QPC約0.65至0.75，仍會因船型、螺槳及航速而變。\n\n若由SHP計算到EHP，還須納入軸系效率：\n\nEHP/SHP=ηs×QPC\n\n若由BHP計算，並有齒輪傳動：\n\nEHP/BHP=ηg×ηs×QPC\n\n【五、功率關係示意】\n\n燃氣在汽缸內作功\n↓\nIHP（指示馬力）\n－引擎內部摩擦與機械損失\n↓\nBHP（制動馬力）\n－齒輪、傳動及取力損失\n↓\nSHP（軸馬力）\n－軸承、艉管及軸封損失\n↓\nDHP（傳達馬力）\n－螺槳轉換損失\n↓\nTHP（推力馬力）\n－船體與螺槳交互作用\n↓\nEHP（有效馬力，克服船體阻力）\n\n【六、總結】\n\nIHP是汽缸內產生的指示功率；BHP是主機曲軸輸出的制動功率；SHP是傳至軸系的功率；DHP是實際傳至螺槳的功率；THP是螺槳推力對進流所作的功率；EHP則是船舶克服總阻力所需的有效功率。\n\n功率比應以效率表示，齒輪效率約95%至99%、軸系效率約97%至99%、螺槳開水效率約65%至75%；船體效率依伴流及推力減額而定，可能大於1；準推進係數常見約65%至75%。這些比例均為典型工程範圍，並非所有船舶固定不變的標準比例。",
+    "practicalAnalysis": "本題15分，建議先畫出IHP→BHP→SHP→DHP→THP→EHP功率流程，再分別定義各種馬力，最後列出效率公式及常見範圍。最重要的觀念是EHP/THP為船體效率，因伴流與推力減額的交互作用，船體效率可能大於1；因此不能把每一種馬力都當作前一級扣除損失後必然更小。齒輪、軸系、螺槳效率與準推進係數也不可混為一談。",
+    "keyPoints": [
+      {
+        "point": "IHP為汽缸指示功率；BHP為曲軸輸出功率，BHP=IHP−摩擦功率。",
+        "importance": "essential"
+      },
+      {
+        "point": "SHP為傳至推進軸系的功率；DHP為實際傳至螺槳的功率。",
+        "importance": "essential"
+      },
+      {
+        "point": "THP=T×VA，為螺槳推力對進速所作的功；EHP=RT×V，為克服船體總阻力的有效功率。",
+        "importance": "essential"
+      },
+      {
+        "point": "齒輪效率SHP/BHP約95–99%；軸系效率DHP/SHP約97–99%。",
+        "importance": "essential"
+      },
+      {
+        "point": "螺槳效率THP/DHP；一般開水效率常見約65–75%，船後效率需依工況判斷。",
+        "importance": "essential"
+      },
+      {
+        "point": "船體效率EHP/THP=(1−t)/(1−w)，可能大於1，不能視為單純機械損失率。",
+        "importance": "essential"
+      },
+      {
+        "point": "準推進係數QPC=EHP/DHP=ηHηOηR，一般商船常見約65–75%。",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "ITTC Dictionary of Hydromechanics, Version 2024",
+        "sourceType": "other",
+        "issuer": "International Towing Tank Conference",
+        "editionOrEffectiveDate": "2024",
+        "url": "https://ittc.info/downloads/quality-systems-manual/ittc-dictionary-structured/",
+        "supports": "齒輪效率、船體效率、機械效率及推進功率相關術語與公式。"
+      },
+      {
+        "title": "Principles of Naval Architecture: Resistance, Propulsion and Ship Maneuverability",
+        "sourceType": "textbook_or_academic",
+        "issuer": "Society of Naval Architects and Marine Engineers",
+        "supports": "船舶阻力、螺槳推進、推力減額、伴流及推進效率之基本理論。"
+      },
+      {
+        "title": "USNA EN400: Chapter 7 Resistance and Powering of Ships",
+        "sourceType": "textbook_or_academic",
+        "issuer": "United States Naval Academy",
+        "url": "https://www.usna.edu/NAOE/_files/documents/Courses/EN400/02.07_Chapter_7-May20.pdf",
+        "pageOrSection": "Section 7.3 Propulsive Efficiency",
+        "supports": "BHP、SHP、DHP、THP、EHP功率流程；齒輪、軸系、螺槳效率典型範圍及總推進效率。"
+      },
+      {
+        "title": "Pounder's Marine Diesel Engines and Gas Turbines",
+        "sourceType": "textbook_or_academic",
+        "issuer": "D.A. Taylor, Elsevier",
+        "url": "https://api.pageplace.de/preview/DT0400.9780080514215_A23526439/preview-9780080514215_A23526439.pdf",
+        "pageOrSection": "Mechanical efficiency",
+        "supports": "指示馬力、制動馬力及機械效率之定義。"
+      },
+      {
+        "title": "Ship Design and Performance for Masters and Mates",
+        "sourceType": "textbook_or_academic",
+        "url": "https://www.rexresearch1.com/BoatShipBuildingLibrary/ShipDesignPerformance.pdf",
+        "pageOrSection": "Chapter 7, Types of Power in Ships",
+        "supports": "IHP、BHP、SHP、DHP、THP及EHP的功率鏈及定義。"
+      },
+      {
+        "title": "94年專門職業及技術人員特種考試引水人船舶操縱試題",
+        "sourceType": "official_port_or_authority",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=343&code=094080&q=1&s=4001&t=Q",
+        "supports": "本題原始題目。"
+      }
+    ],
+    "assumptions": [
+      "效率範圍為一般商船推進系統的典型工程參考值，實際數值依機型、齒輪、軸系、螺槳及船體設計而異。",
+      "螺槳效率65%至75%主要作為開水效率的概略值，不代表所有船後工況。",
+      "功率符號採常見船舶推進工程定義；不同教材可能將Delivered Power與Shaft Power的測量位置略作不同約定，答題時應清楚說明測量位置。"
+    ],
+    "limitations": [
+      "題目未指定船型、主機型式、傳動配置及螺槳設計，故無法提供唯一固定的各階段功率百分比。",
+      "船體效率可能大於1，故IHP至EHP的簡化箭頭只代表功率分析順序，不能解讀為每一項效率皆小於1。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "IHP與BHP定義及機械效率",
+          "result": "pass",
+          "note": "依Pounder's Marine Diesel Engines and Gas Turbines核對。"
+        },
+        {
+          "item": "SHP、DHP、THP、EHP定義",
+          "result": "pass",
+          "note": "依ITTC Dictionary及USNA船舶推進教材核對。"
+        },
+        {
+          "item": "齒輪與軸系效率範圍",
+          "result": "pass",
+          "note": "依USNA EN400教材核對齒輪約95–99%、軸系約97–99%。"
+        },
+        {
+          "item": "螺槳效率與QPC",
+          "result": "pass",
+          "note": "依USNA EN400及ITTC術語核對，並區分開水效率與船後效率。"
+        },
+        {
+          "item": "船體效率可大於1",
+          "result": "pass",
+          "note": "依ITTC對船體效率公式及推力減額、伴流定義核對。"
+        },
+        {
+          "item": "各種效率是否可視為固定功率百分比",
+          "result": "needs_review",
+          "note": "題目未指定船型與推進配置，答案列典型範圍，不宣稱為通用固定比率。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
+  }
+]
