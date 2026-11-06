@@ -384,7 +384,8 @@
         "sourceType": "IMO_or_treaty",
         "issuer": "International Maritime Organization",
         "pageOrSection": "Chapter V, Regulation 33",
-        "supports": "船長收到海上遇險人員求救資訊後，在不嚴重危及本船及船上人員前提下，應以全速前往協助。"
+        "supports": "SOLAS 1974 Chapter V Regulation 33（由2000年MSC.99(73)修正案修訂並重新編排）對接獲海上人員遇險資訊之船長救助義務及例外程序。",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.99%2873%29.pdf"
       },
       {
         "title": "商港法（民國69年制定公布）",
@@ -457,6 +458,11 @@
           "item": "商港法第32、40、47條歷史條文交叉核對",
           "result": "pass",
           "note": "第40條緩輪慢行條文依商港法原始公布條文及92年版本核對；第47條罰鍰及適用條項依民國90年11月21日修正公報核對。"
+        },
+        {
+          "item": "SOLAS V/33歷史條文與版本",
+          "result": "pass",
+          "note": "以IMO MSC.99(73)官方決議核對2000年修正後之Regulation 33；其明文以遇險人員為救助義務對象，並非一般財物救助義務。"
         }
       ]
     },
