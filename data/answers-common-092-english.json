@@ -121,50 +121,73 @@
     "version": 1,
     "language": "en",
     "answerType": "translation",
-    "modelAnswer": "(1) 引航 — Pilotage\nSentence: Pilotage is required for certain vessels entering or leaving the port.\n中文：特定船舶進出港時必須接受引航。\n\n(2) 保養計畫 — Maintenance plan\nSentence: The chief engineer prepared a maintenance plan for the main engine and auxiliary machinery.\n中文：輪機長為主機及輔機擬定保養計畫。\n\n(3) 不可抗力 — Force majeure\nSentence: The shipowner shall not be liable for delay caused by force majeure, subject to the terms of the contract and applicable law.\n中文：船東對因不可抗力所造成的延誤，應依契約條款及適用法律判斷是否免責。\n\n(4) 故意擱淺 — Intentional grounding / Deliberate grounding\nSentence: The master ordered the intentional grounding of the vessel to prevent it from sinking in deep water.\n中文：船長下令故意將船舶擱淺，以避免船舶在深水中沉沒。\n\n(5) 海的危難 — Perils of the sea\nSentence: The vessel sustained damage due to perils of the sea during the voyage.\n中文：船舶在航程中因海上危難而受損。\n\n【用語提醒】\nPilotage 指引航業務或引航制度；pilot 是引水人。Force majeure 是法律及契約常用語。Intentional grounding 與 deliberate grounding 均可表達故意擱淺；在海事法律及保險語境中，perils of the sea 是常見固定用語。",
-    "practicalAnalysis": "中翻英時應選擇海事法律及航運文件常用搭配，而非逐字翻譯。每個詞彙造句要展示其正確詞性及海事情境；涉及免責或保險時，句子應保留 subject to applicable law 等限制，避免把法律效果說成絕對。",
+    "modelAnswer": "【標準詞彙、例句與中譯】\n\n(1) 引航 — Pilotage\nSentence: Pilotage is required for certain vessels navigating in designated areas where local knowledge is essential.\n中文：船舶在需要熟悉當地航情的指定水域航行時，可能依法必須接受引航。\n補充：pilotage 是「引航／引水服務或制度」；pilot 是「引水人」，兩者不可混用。\n\n(2) 保養計畫 — Maintenance plan\nSentence: The chief engineer established a maintenance plan to ensure that the main engine and auxiliary machinery are inspected and serviced at appropriate intervals.\n中文：輪機長訂定保養計畫，以確保主機及輔機依適當週期接受檢查與保養。\n補充：若特指船舶安全管理制度下的計畫性保養系統，可使用 planned maintenance system (PMS)；但原詞 maintenance plan 不必然等同完整的 PMS。\n\n(3) 不可抗力 — Force majeure\nSentence: The charterer may be excused from performing the affected obligation if a force majeure event prevents performance, subject to the wording of the contract and applicable law.\n中文：若不可抗力事件使承租人無法履行受影響的義務，得否免除該項履行責任，仍須依契約文字及適用法律判斷。\n補充：force majeure 的事件範圍、通知義務、因果關係及法律效果，通常須依契約條款與準據法認定；不能僅因發生惡劣天候或機械故障，就一概認定構成不可抗力。\n\n(4) 故意擱淺 — Intentional grounding / Deliberate grounding\nSentence: The master ordered the intentional grounding of the vessel in a controlled manner to prevent it from drifting into deeper water after serious flooding.\n中文：船長下令以受控方式使船舶故意擱淺，以防船舶在嚴重進水後漂向較深水域。\n補充：intentional grounding 強調有意且受控制地使船舶接觸海床；deliberate grounding 亦可表達此意。Beaching 常指將船舶駛上岸灘，語意較具體，不宜在所有情況下直接取代 grounding。\n\n(5) 海的危難 — Perils of the sea\nSentence: The vessel sustained damage from an extraordinary sea condition during the voyage, which may constitute a peril of the sea under the applicable marine insurance policy.\n中文：船舶在航程中因異常海況而受損；該情形是否構成適用海上保險保單所稱的海上危險，仍須依保單條款判斷。\n補充：perils of the sea 是海上保險常見固定用語，通常著重海洋作用所造成的偶發或異常危險；並非所有「在海上發生」的損失都當然屬於 perils of the sea，也須與一般耗損、貨物固有瑕疵及契約所約定的承保範圍區分。\n\n【應試記憶】\n- 引航：pilotage；引水人：pilot。\n- 保養計畫：maintenance plan；計畫性保養系統：planned maintenance system (PMS)。\n- 不可抗力：force majeure。\n- 故意擱淺：intentional grounding / deliberate grounding。\n- 海的危難：perils of the sea（注意固定複數形式 perils）。",
+    "practicalAnalysis": "本題要求五個中文海事詞彙翻譯成英文並各自造句。作答時應以海事實務中自然、精確的搭配為主，並讓句子呈現詞彙的實際用法。Pilotage 是引航服務／制度，pilot 才是引水人；maintenance plan 是一般保養計畫，planned maintenance system (PMS) 則是較具體的計畫性保養系統。Force majeure 與 perils of the sea 都可能出現在海事契約或保險文件，但法律效果不相同：force majeure 主要依契約及準據法判斷，perils of the sea 則常見於海上保險承保危險的描述。Intentional grounding 指有意、受控制地使船舶接觸海床，不等於意外擱淺。",
     "keyPoints": [
       {
-        "point": "引航：pilotage；引水人：pilot。",
+        "point": "Pilotage 是引航服務／制度；pilot 是引水人，兩者詞性與意義不同。",
         "importance": "essential"
       },
       {
-        "point": "保養計畫：maintenance plan。",
+        "point": "Maintenance plan 是保養計畫；planned maintenance system (PMS) 是計畫性保養系統，不應不加區別地視為完全同義。",
         "importance": "essential"
       },
       {
-        "point": "不可抗力：force majeure。",
+        "point": "Force majeure 的構成要件與免責效果須依契約條款及準據法判斷，不能一概而論。",
         "importance": "essential"
       },
       {
-        "point": "故意擱淺：intentional grounding 或 deliberate grounding。",
+        "point": "Intentional grounding 或 deliberate grounding 指有意且受控制地使船舶擱淺；beaching 通常帶有駛上岸灘的較具體意涵。",
         "importance": "essential"
       },
       {
-        "point": "海的危難：perils of the sea。",
+        "point": "Perils of the sea 是海上保險固定用語，通常指海洋作用所造成的偶發或異常危險，並非所有海上損失。",
         "importance": "essential"
       }
     ],
     "references": [
-      "IMO／海事法律與航運契約常用英文術語"
+      "International Maritime Organization (IMO), Pilotage — https://www.imo.org/en/ourwork/safety/pages/pilotage.aspx",
+      "U.S. Coast Guard, Proceedings (Winter 2015–2016), When Things Go Bump — Intended Groundings — https://www.dco.uscg.mil/Portals/9/DCO%20Documents/Proceedings%20Magazine/Archive/2015/Vol72_No4_Wint2015-16.pdf",
+      "U.S. Coast Guard, ACN 073/20, Revised Standards for Vessel Groundings and Associated Required Investigations — https://content.govdelivery.com/accounts/USDHSCG/bulletins/291757e",
+      "UNCTAD, Marine Cargo Insurance, discussion of maritime risks and perils — https://unctad.org/system/files/official-document/tdbc3d120_en.pdf",
+      "Spooner v. Connecticut Fire Insurance Co., 314 F.2d 753 (2d Cir. 1963), discussion of perils of the sea — https://law.justia.com/cases/federal/appellate-courts/F2/314/753/263305/"
     ],
     "assumptions": [
-      "採用海事英文及法律文件中常見的標準用語。"
+      "依原題五個中文詞彙作一般海事英文翻譯與造句，未假設特定租船契約或保險條款。",
+      "Force majeure 與 perils of the sea 的法律效果依個別契約及適用法域而異。"
     ],
     "limitations": [
-      "特定契約、保險條款或司法管轄區可能對 force majeure、perils of the sea 有專門定義，須依文件脈絡判斷。"
+      "本題是英文詞彙與造句，不構成對特定契約、保單或事故的法律意見。",
+      "Maintenance plan 與 planned maintenance system (PMS) 相關但不必然完全同義。"
     ],
     "verification": {
-      "status": "draft",
+      "status": "source_checked",
       "checkedAt": "2026-11-06",
       "checks": [
         {
-          "item": "五組海事英文詞彙及例句",
-          "result": "source_checked"
+          "item": "Pilotage 的 IMO 海事用法",
+          "result": "source_checked",
+          "note": "以 IMO 官方 Pilotage 說明核對 pilotage 作為引航服務／制度及 pilot 作為引水人之區別。"
         },
         {
-          "item": "perils of the sea 與 force majeure 在特定契約中的法律效果",
-          "result": "needs_review"
+          "item": "Maintenance plan 與 PMS 的用語界線",
+          "result": "source_checked",
+          "note": "保留一般 maintenance plan 用法，另註明 PMS 為較具體的計畫性保養系統，避免過度等同。"
+        },
+        {
+          "item": "Force majeure 的契約依存性",
+          "result": "source_checked",
+          "note": "例句明確保留 contract wording and applicable law，避免宣稱所有不可抗力事件均自動免責。"
+        },
+        {
+          "item": "Intentional grounding 的定義",
+          "result": "source_checked",
+          "note": "依 USCG 對 controlled, intentional maneuver 的說明核對，並與意外擱淺區分。"
+        },
+        {
+          "item": "Perils of the sea 的保險用語",
+          "result": "source_checked",
+          "note": "參考 UNCTAD 海上貨物保險資料及 Spooner 判決，補充偶發／異常海洋危險與一般耗損之區別。"
         }
       ]
     },
