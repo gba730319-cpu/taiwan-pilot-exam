@@ -1,0 +1,66 @@
+{
+  "id": "084-pilot-law-07-answer-v1",
+  "questionId": "084-pilot-law-07",
+  "version": 1,
+  "language": "zh-TW",
+  "answerType": "legal_analysis",
+  "modelAnswer": "本題所問事項見當時《海難救護委員會設置辦法》第13條「災害處理中心」之規定。災害處理中心由各商港管理機關分別設置，按其商港管轄地區辦理：\n\n（一）商港區域內火災之撲滅。\n（二）船舶危險品發生事故之處理。\n（三）商港區域內及其附近水域海水污染之偵查、環境測試。\n（四）海水污染之處理。\n（五）器材設備之保管、維護及災害處理訓練。\n（六）其他臨時交辦事項。\n\n另商港管理機關辦理前述事務，除應立即採取緊急措施外，必要時得迅速報請海難救護委員會協調相關單位或其他民間海難救護業支援，並得組成專案小組處理。",
+  "practicalAnalysis": "本題關鍵在於辨認法源不是單純的《商港法》，而是《海難救護委員會設置辦法》第13條。六項工作內容須完整列出，並補充必要時可請求跨機關或民間救難支援。",
+  "keyPoints": [
+    {
+      "point": "設置災害處理中心。",
+      "importance": "essential"
+    },
+    {
+      "point": "撲滅商港區域內火災。",
+      "importance": "essential"
+    },
+    {
+      "point": "處理船舶危險品事故。",
+      "importance": "essential"
+    },
+    {
+      "point": "偵查港區及附近水域海水污染、進行環境測試並處理污染。",
+      "importance": "essential"
+    },
+    {
+      "point": "保管維護器材設備及辦理災害處理訓練。",
+      "importance": "essential"
+    },
+    {
+      "point": "其他臨時交辦事項；必要時協調支援及組成專案小組。",
+      "importance": "essential"
+    }
+  ],
+  "scoringGuide": {
+    "status": "editorial_estimate",
+    "totalPoints": 10,
+    "items": [
+      {
+        "criterion": "法條依據與規範內容正確",
+        "points": 6,
+        "basis": "編輯建議配分，非官方評分標準"
+      },
+      {
+        "criterion": "說明適用情境、程序及法律效果",
+        "points": 4,
+        "basis": "編輯建議配分，非官方評分標準"
+      }
+    ]
+  },
+  "references": [
+    {
+      "title": "海難救護委員會設置辦法",
+      "sourceType": "law_or_regulation",
+      "issuer": "交通部法規資料",
+      "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/Print?LawID=I0009006",
+      "pageOrSection": "第13條",
+      "supports": "災害處理中心設置及六項任務、請求支援程序。"
+    }
+  ],
+  "assumptions": [
+    "本題依民國84年考試時有效法規作答；現行法條僅作對照，不倒推適用。"
+  ],
+  "limitations": [],
+  "lastUpdated": "2026-11-07"
+}
