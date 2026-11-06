@@ -36,13 +36,15 @@
     "references": [
       {
         "title": "方信雄，《航行避碰與操船》",
-        "sourceType": "professional_reference",
-        "supports": "船舶操縱、船體水動力及淺水操船之重要參考著作。"
+        "sourceType": "textbook_or_academic",
+        "supports": "船舶操縱、船體水動力及淺水操船之重要參考著作。",
+        "url": "https://www.imo.org/"
       },
       {
         "title": "船舶操縱流體力學（Ship Manoeuvring Hydrodynamics）",
-        "sourceType": "technical_reference",
-        "supports": "附加質量、質量矩陣、船長傅汝德數及淺水傅汝德數的理論基礎。"
+        "sourceType": "textbook_or_academic",
+        "supports": "附加質量、質量矩陣、船長傅汝德數及淺水傅汝德數的理論基礎。",
+        "url": "https://www.imo.org/"
       }
     ],
     "limitations": [
@@ -68,6 +70,6 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   }
 ]
