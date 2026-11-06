@@ -118,5 +118,100 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "100-pilotage-02-answer-v1",
+    "questionId": "100-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "navigation_calculation",
+    "modelAnswer": "【一、已知條件】\n\n- 本船航向：030°。\n- 本船航速：20 kn。\n- ZT 0800：目標真方位000°。\n- ZT 1000：同一目標真方位330°。\n- 假設目標固定不動，本船保持航向030°、航速20 kn，且不考慮風流壓差。\n\n【二、求0800至1000本船航行距離】\n\n兩次觀測相隔2小時，本船航速20 kn：\n\n[\nAB=20\times2=40 \text{NM}\n]\n\n令A為0800本船位置，B為1000本船位置，T為固定目標位置。\n\n【三、利用三角形求目標相對本船航跡的位置】\n\n1. A點本船航向030°，目標方位000°，故航跡AB與AT之夾角為30°。\n2. B點本船反向航跡方位為210°，目標方位330°，故角ABT為120°。\n3. 三角形內角總和180°，所以角ATB=30°。\n\n因此，三角形ABT三角為30°、120°、30°，且AB=40 NM。\n\n依正弦定理：\n\n[\n\frac{AT}{sin120^circ}=\frac{40}{sin30^circ}\n]\n\n[\nAT=\frac{40\timessin120^circ}{sin30^circ}\n=69.28 \text{NM}\n]\n\n目標位於本船航跡左側，其垂直距離（即目標通過左正橫時的距離）為：\n\n[\nd=ATsin30^circ\n=69.28\times0.5\n=34.64 \text{NM}\n]\n\n【四、求目標到達左正橫之時間】\n\n目標在本船航跡方向上的投影距離：\n\n[\nx=ATcos30^circ\n=69.28\times0.8660\n=60.00 \text{NM}\n]\n\n本船自0800起以20 kn航行，抵達目標左正橫位置所需時間：\n\n[\nt=\frac{60}{20}=3 \text{hours}\n]\n\n因此：\n\n[\n0800+3 \text{hours}=\boxed{ZT 1100}\n]\n\n也可由1000時位置B計算：B至左正橫位置尚有20 NM，20 kn航行需1小時，因此亦為ZT 1100。\n\n【答案】\n\n1. 目標到達本船左正橫之時間：**ZT 1100**。\n2. 目標到達左正橫時，本船與目標距離：**34.64 NM（約34.6海浬）**。\n\n【注意】\n不能把方位變化30°除以2小時後，假設方位變化率固定，再推算到左正橫。目標方位角的變化率並非線性；應以兩次觀測位置建立三角形，求目標相對航跡的垂直距離及沿航跡投影。若目標本身也在移動，僅憑兩次方位及本船航向、航速，資料不足以唯一求解，必須另有目標運動資訊。",
+    "practicalAnalysis": "本題20分，最關鍵是不能把方位角變化率當成固定值。0800到1000本船走40 NM；三角形ABT角度為30°、120°、30°。正弦定理得AT=69.28 NM；沿航跡投影為60 NM，因此0800後3小時到左正橫，即ZT1100；垂直航跡距離為34.64 NM。答案假設目標固定、本船航向航速不變且無風流壓差。",
+    "keyPoints": [
+      {
+        "point": "0800至1000本船航行距離AB=20×2=40 NM。",
+        "importance": "essential",
+        "explanation": "先建立兩次觀測位置間距。"
+      },
+      {
+        "point": "三角形ABT角度為30°、120°、30°。",
+        "importance": "essential",
+        "explanation": "A點為航向030°與方位000°之夾角；B點為反向航跡210°與方位330°之夾角。"
+      },
+      {
+        "point": "正弦定理求AT=40×sin120°/sin30°=69.28 NM。",
+        "importance": "essential",
+        "explanation": "AT為0800時本船至目標距離。"
+      },
+      {
+        "point": "沿航跡投影AT cos30°=60 NM，20 kn航行需3小時。",
+        "importance": "essential",
+        "explanation": "目標到達左正橫時間為ZT1100。"
+      },
+      {
+        "point": "左正橫距離為AT sin30°=34.64 NM。",
+        "importance": "essential",
+        "explanation": "即目標至本船航跡的垂直距離。"
+      },
+      {
+        "point": "不得假設方位角變化率固定；若目標移動，現有資料不足以唯一解。",
+        "importance": "essential",
+        "explanation": "解題前須說明固定目標及本船航速航向不變的假設。"
+      }
+    ],
+    "references": [
+      {
+        "title": "100年專門職業及技術人員高等考試引水人試題",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國100年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=100090&q=2&s=1205&t=Q",
+        "pageOrSection": "引港學第二題",
+        "supports": "核對原題、觀測時間、航向、航速及方位資料。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch), Chapter 7 — Piloting",
+        "sourceType": "official_port_or_authority",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/api/publications/download?key=16693975%2FSFH00000%2FBowditch_Vol_1_LoRes_2019.pdf",
+        "pageOrSection": "Chapter 7, bearings, relative motion and plotting",
+        "supports": "方位線交會、航跡繪算及相對運動之基本航海計算方法。"
+      }
+    ],
+    "assumptions": [
+      "目標固定不動；本船在0800至左正橫期間保持航向030°及航速20 kn。",
+      "題目未提供風流及航速計量基準，依標準平面航海計算假設無風流壓差，且方位為真方位。"
+    ],
+    "limitations": [
+      "若目標具有自身航速與航向，兩次方位觀測不足以求得唯一目標運動及左正橫時間，須補充目標運動資料。",
+      "本題為平面幾何近似，未考慮地球曲率、風流及航向偏差；在此距離及題目條件下依一般航海作圖法處理。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "題目數據及條件",
+          "result": "pass",
+          "note": "依考選部100年引港學第二題核對航向030°、20kn、0800方位000°、1000方位330°。"
+        },
+        {
+          "item": "三角形幾何及正弦定理",
+          "result": "pass",
+          "note": "角度30°、120°、30°；AB=40NM，AT=69.28NM。"
+        },
+        {
+          "item": "左正橫時間",
+          "result": "pass",
+          "note": "沿航跡投影60NM，20kn航行3小時，ZT1100。"
+        },
+        {
+          "item": "左正橫距離",
+          "result": "pass",
+          "note": "垂直航跡距離34.64NM。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
