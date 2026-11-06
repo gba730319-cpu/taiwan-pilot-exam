@@ -1,0 +1,148 @@
+[
+  {
+    "id": "084-pilotage-03-answer-v1",
+    "questionId": "084-pilotage-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "本題15分。霧是近地面空氣中的水氣凝結成微細水滴（低溫環境亦可能含冰晶）並懸浮於空氣中，使水平能見度降低的現象。依世界氣象組織通用定義，霧通常指能見度低於1公里。霧的形成核心條件是空氣達到飽和（相對濕度接近100%），並有凝結核供水氣凝結；常見途徑包括空氣冷卻至露點，或蒸發使空氣增加水氣而達飽和。\n\n【一、霧形成的基本條件與成因】\n（一）水氣充足：空氣中須有足夠水蒸氣，海面蒸發、降雨蒸發及潮濕地表均可提供水氣。\n（二）降溫或增濕：空氣冷卻至露點，或水氣增加至飽和，水蒸氣便凝結成微細水滴。\n（三）凝結核：海鹽、塵埃及其他微粒可作為凝結核，促進水滴形成。\n（四）大氣穩定及風速：穩定層結有利於霧維持；風太強會使霧層混合、抬升或消散，但完全無風亦未必最有利，適度微風常有助於霧的形成與擴展。\n\n【二、四種主要成霧類型】\n（一）輻射霧（Radiation Fog）：夜間地面或海面向外放射長波輻射而冷卻，近地面空氣隨之降溫至露點形成。常見於晴朗、風弱、夜間輻射冷卻明顯的陸地低窪地區，清晨較顯著，日出後受地面加熱通常逐漸消散。海上也可能出現淺薄的輻射霧，但典型發生環境以陸地為主。\n（二）平流霧（Advection Fog）：暖而潮濕的空氣水平移動，流經較冷的海面或地面，下層空氣因接觸冷表面而降至露點形成。海上常見於暖濕空氣流經寒流海域或冷海面，亦可能沿岸擴展；可在有持續風力時形成，範圍廣、持續時間較長，對船舶航行及港口作業影響甚大。\n（三）蒸發霧／蒸氣霧（Evaporation Fog／Steam Fog）：冷而穩定的空氣移至較暖水面上方，暖水蒸發出的水氣進入冷空氣，使其迅速達到飽和而凝結，常呈水面上冒煙般的蒸氣霧（sea smoke）。其典型條件是水面較暖、上方空氣較冷，與平流霧「暖濕空氣經過冷表面而冷卻」的機制相反。\n（四）鋒面霧（Frontal Fog）：常發生於鋒面附近，暖空氣中的降雨落入下方較冷、穩定的空氣層，雨滴蒸發增加低層水氣，使空氣達到飽和而成霧。常與鋒面降雨、低雲及能見度惡化同時出現。\n\n上述四種是依主要形成機制所作的常用分類；實際霧況可能由兩種以上機制共同造成。不同教材另有海霧、陸霧、沿岸霧、混合霧、冰霧等名稱，部分是依發生地點、環境或形態命名，並非與上述四種完全平行的另一套成因分類。原題括號「四種十霧」文字疑有版本或排印歧義，現有可查的氣象權威資料支持以四種主要成霧機制作答；不宜未經原始試題影像核對，就自行把「十霧」解讀為十種獨立成因。\n\n【三、颱風來臨前的雲系變化】\n（一）外圍高雲先出現：颱風外圍環流所帶來的高空冰晶雲，常先見卷雲（Ci），呈羽毛狀、絲縷狀或馬尾狀；雲量可能逐漸增加，雲帶由遠方向颱風所在方向延伸。\n（二）高雲逐漸增厚、擴展：卷雲可能逐漸增多並發展為卷層雲（Cs），天空呈乳白色或薄幕狀，日月周圍有時可見暈；雲幕範圍擴大，天空透明度逐漸下降。\n（三）中低雲增多、雲底降低：隨颱風外圍雲系接近，雲層可能加厚並向中、低層發展，可見高層雲（As）、層雲或碎層雲等，天空逐漸陰暗；間歇性陣雨開始增加，能見度可能轉差。\n（四）螺旋雨帶及積雨雲影響增強：接近颱風外圍雨帶時，常有積雨雲（Cb）發展，出現驟雨、雷雨、陣風及短時間能見度急遽下降；雨帶之間亦可能暫時較少降雨。颱風核心附近的眼牆由強烈對流雲構成，但船舶通常先受到外圍螺旋雨帶及風浪影響。\n（五）觀察上的限制：上述「卷雲—卷層雲—中低雲增厚—雨帶積雨雲」是常見的接近徵兆與概括性描述，不是每一個颱風都必然依固定順序、固定時間出現。雲系受颱風路徑、強度、環境水氣、季風及地形影響；不可單憑雲形判斷颱風中心距離或是否必然登陸，應配合中央氣象署颱風警報、衛星雲圖、雷達回波、氣壓及風向風速變化綜合研判。\n\n【四、對船舶航行及引水作業的意義】\n1. 霧會降低能見度，使目視瞭望、目標辨識及相對運動判斷困難；船舶應依《國際海上避碰規則》第五條保持正確瞭望，並依第六條以安全航速航行，必要時依第十九條採取能見度受限水域的航行措施及鳴放號笛。\n2. 能見度受限時應加強雷達標繪、AIS輔助辨識、聲號及船位監控；AIS不得取代雷達與目視／聽覺瞭望，也不可僅依AIS目標作避碰判斷。\n3. 港口引水作業須注意霧對航道、港池、拖船協助、靠離泊及交通管制的影響；應依港口能見度限制、VTS指示及船長／引水人協議決定是否延後或停止作業。\n4. 颱風雲系出現時，除觀察雲形外，應同步監測氣壓下降、風向轉變、風速增強、長浪及外圍雨帶；及早評估避風、航線、船速、貨物與甲板作業安全，並遵守港口及主管機關發布的警報與管制。\n\n【結論】霧的四種主要成因為輻射冷卻、暖濕空氣平流至冷表面、冷空氣移至暖水面而蒸發增濕，以及鋒面降雨蒸發增濕。颱風接近時常先見外圍卷雲，逐漸增厚為卷層雲，再有中低雲及螺旋雨帶積雨雲，伴隨陣雨、雷雨、陣風與能見度惡化；但雲系演變並非固定公式，船舶應以官方警報及即時氣象觀測作航行決策。",
+    "practicalAnalysis": "本題15分可分兩大部分作答。霧的部分先交代「水氣達飽和、凝結成微滴、能見度降低」，再分別說明四種成因，尤其要分清平流霧與蒸發霧：前者是暖濕空氣流經冷海面而冷卻；後者是冷空氣流經暖水面而被蒸發水氣增濕。颱風雲系部分可依高雲先行、雲層增厚擴展、中低雲增加、螺旋雨帶積雨雲與陣雨雷雨增強的次序敘述，並註明這是常見徵兆而非固定預報規則。最後連結能見度受限航行、COLREGs第5、6、19條及港口引水作業風險，能使答案更符合引水專業。",
+    "keyPoints": [
+      {
+        "point": "霧是近地面水氣凝結成微細水滴或冰晶，通常使水平能見度低於1公里；形成需水氣、飽和條件及凝結核。",
+        "importance": "essential"
+      },
+      {
+        "point": "輻射霧：夜間地表輻射冷卻，使近地面空氣降至露點。",
+        "importance": "essential"
+      },
+      {
+        "point": "平流霧：暖濕空氣流經冷海面或地面而冷卻至露點；海上常見且可在有風時維持。",
+        "importance": "essential"
+      },
+      {
+        "point": "蒸發霧：冷穩定空氣流經暖水面，蒸發水氣使空氣飽和，常呈海面冒煙狀。",
+        "importance": "essential"
+      },
+      {
+        "point": "鋒面霧：暖區降雨落入下方冷空氣，雨滴蒸發增加水氣而成霧。",
+        "importance": "essential"
+      },
+      {
+        "point": "颱風接近常見卷雲、卷層雲先行，之後雲層增厚、中低雲增加，外圍螺旋雨帶及積雨雲帶來陣雨、雷雨與陣風。",
+        "importance": "essential"
+      },
+      {
+        "point": "雲系演變不是固定順序或可靠的單一預報依據，須配合官方警報、衛星雲圖、雷達、氣壓及風場。",
+        "importance": "essential"
+      },
+      {
+        "point": "霧中航行應遵守COLREGs第5條瞭望、第6條安全航速及第19條能見度受限水域航行規定。",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "International Cloud Atlas — Radiation Fog",
+        "sourceType": "official_international_standard",
+        "issuer": "World Meteorological Organization",
+        "url": "https://cloudatlas.wmo.int/en/radiation-fog.html",
+        "supports": "輻射霧的定義及夜間地表輻射冷卻、近地面空氣降至飽和溫度的成因。"
+      },
+      {
+        "title": "International Cloud Atlas — Advection Fog",
+        "sourceType": "official_international_standard",
+        "issuer": "World Meteorological Organization",
+        "url": "https://cloudatlas.wmo.int/en/advection-fog.html",
+        "supports": "暖濕空氣移經較冷海面或地面，接觸冷表面後降至飽和而形成平流霧。"
+      },
+      {
+        "title": "International Cloud Atlas — Evaporation Fog",
+        "sourceType": "official_international_standard",
+        "issuer": "World Meteorological Organization",
+        "url": "https://cloudatlas.wmo.int/en/evaporation-fog.html",
+        "supports": "冷穩定空氣移至較暖水體上方，蒸發水氣使空氣飽和，形成蒸氣霧或海煙。"
+      },
+      {
+        "title": "International Cloud Atlas — Frontal Fog",
+        "sourceType": "official_international_standard",
+        "issuer": "World Meteorological Organization",
+        "url": "https://cloudatlas.wmo.int/en/frontal-fog.html",
+        "supports": "暖空氣降雨落入下方冷穩定空氣，雨滴蒸發使近地面空氣飽和而形成鋒面霧。"
+      },
+      {
+        "title": "霧之解說",
+        "sourceType": "official_meteorological_authority",
+        "issuer": "香港天文台",
+        "url": "https://www.weather.gov.hk/tc/education/weather/meteorology-basics/00090-fog-explained.html",
+        "supports": "霧的基本定義、能見度界定、水氣凝結及大氣穩定對霧形成的影響。"
+      },
+      {
+        "title": "霧の種類（四種類型）",
+        "sourceType": "official_meteorological_authority",
+        "issuer": "日本氣象廳",
+        "url": "https://www.jma.go.jp/jma/kishou/nougyou/document/shikoku/shikoku.pdf",
+        "supports": "輻射霧、蒸氣霧、平流霧及鋒面霧四種主要成霧機制及示意。"
+      },
+      {
+        "title": "淺談颱風：颱風來臨前的徵兆",
+        "sourceType": "educational_reference",
+        "issuer": "颱風部屋",
+        "url": "https://tyroom.tw/enlightenment/",
+        "supports": "颱風來臨前可能先見外圍卷雲、逐漸增厚為卷層雲，之後雲層漸密漸低及驟雨等傳統觀察徵兆；僅作補充，不作唯一預報依據。"
+      },
+      {
+        "title": "颱風與降雨帶",
+        "sourceType": "official_meteorological_authority",
+        "issuer": "日本氣象廳",
+        "url": "https://www.jma.go.jp/jma/kishou/know/typhoon/3-1.html",
+        "supports": "颱風的積雨雲群、螺旋雨帶及眼牆等結構，支持颱風接近時外圍雨帶與強對流雲的說明。"
+      },
+      {
+        "title": "海上避碰規則（COLREGs）",
+        "sourceType": "international_regulation",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "霧中航行相關規則之法源入口；本題應特別援引第5條、第6條及第19條。"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "四種主要成霧機制",
+          "result": "pass",
+          "note": "依WMO International Cloud Atlas及日本氣象廳四類霧說明交叉核對；並區分平流霧與蒸發霧的空氣、水面溫度關係。"
+        },
+        {
+          "item": "霧的定義與能見度",
+          "result": "pass",
+          "note": "依香港天文台霧之解說及氣象機關通用定義，採能見度低於1公里作霧的常用界定。"
+        },
+        {
+          "item": "颱風外圍雲系與雨帶結構",
+          "result": "pass",
+          "note": "以日本氣象廳颱風結構資料核對積雨雲群、螺旋雨帶及眼牆；颱風前雲序僅表述為常見徵兆，不宣稱固定規律。"
+        },
+        {
+          "item": "原題括號「四種十霧」文字",
+          "result": "needs_review",
+          "note": "目前未取得1995年原始試題影像以確認「十」字是否為排印、OCR或原題用語；答案依權威氣象資料可確認的四種主要成霧機制撰寫，未將十霧臆解為十種成因。"
+        },
+        {
+          "item": "方信雄船舶氣象／引航著作之頁碼",
+          "result": "needs_review",
+          "note": "尚未取得可核對的原書頁面；答案以WMO及氣象機關資料為主，後續取得原書後可補充頁碼與術語對照。"
+        }
+      ]
+    },
+    "reviewNotes": [
+      "本答案為考試參考擬答，非考選部公布之官方解答。",
+      "原題「四種十霧」需以原始試題影像確認；目前不將「十霧」自行擴張成十種獨立霧型。",
+      "颱風前雲系變化屬經驗性天氣徵兆，不能取代中央氣象署正式預報、警報及衛星／雷達監測。",
+      "COLREGs條文實際適用仍須依船舶當時能見度、航行水域及主管機關規定判斷。"
+    ],
+    "lastUpdated": "2026-11-06"
+  }
+]
