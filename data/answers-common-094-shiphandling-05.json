@@ -47,8 +47,9 @@
         "sourceType": "IMO_or_treaty",
         "issuer": "International Maritime Organization",
         "editionOrEffectiveDate": "2003-12-05",
-        "url": "https://www.imo.org/en/ourwork/safety/pages/pilotage.aspx",
-        "supports": "船長—領港資訊交換應涵蓋船舶操縱特性、轉向與停止資料、天候、水深、潮流、交通、拖船及繫泊安排；並應持續溝通及依情況修正計畫。"
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.960%2823%29.pdf",
+        "supports": "第2節確認船長、駕駛臺及引水人的角色、共同安全責任與監控；第5節要求持續交換航行程序、當地條件、船舶特性、風險、拖船與繫泊資訊。",
+        "pageOrSection": "Annex 2, §§2.1–2.3、5.1–5.6"
       },
       {
         "title": "Good Practice Guide to Pilotage Planning",
@@ -70,13 +71,6 @@
         "issuer": "Transport Canada",
         "url": "https://tc.canada.ca/en/marine-transportation/publications/tp-743-termpol-review-process-2019-edition",
         "supports": "靠離泊風速上限、潮流特性、泊位受力、潮差、水深、淺水與岸壁效應、繫泊方法、拖船數量及其他作業限制。"
-      },
-      {
-        "title": "IMO Resolution A.960(23) – Master-pilot information exchange, Annex 2, section 5",
-        "sourceType": "IMO_or_treaty",
-        "issuer": "International Maritime Organization",
-        "url": "https://www.rise.odessa.ua/texts/A960_23e.php3",
-        "supports": "Pilot Card、迴旋圈、停止距離、特殊天候、水深、潮流、交通、設備故障、拖船及繫泊安排等最低資訊交換項目。"
       },
       "方信雄，《船舶引航專論》。作為領港操船、靠離泊計畫及港區實務之專業參考，與IMO及港口官方指引交叉使用。",
       "方信雄，《航行避碰與操船》。作為船舶操縱性能、環境外力與操船決策之專業參考。",
@@ -124,6 +118,11 @@
           "item": "方信雄兩本著作之具體頁碼",
           "result": "needs_review",
           "note": "列為專業參考書目，但尚未取得可核對的指定版本頁碼，未虛列頁數。"
+        },
+        {
+          "item": "IMO A.960(23)官方決議全文與MPX條文定位",
+          "result": "pass",
+          "note": "改用IMO官方PDF，核對2003-12-05通過；Annex 2 §§2.1–2.3、5.1–5.6支持船長與引水人角色分工、共同責任、持續資訊交換與監控。"
         }
       ]
     },
