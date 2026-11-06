@@ -255,6 +255,14 @@
         "issuer": "Government of Canada, Translation Bureau",
         "url": "https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?i=&index=frr&lang=eng&srchtxt=STABILISATEUR+GYROSCOPIQUE",
         "supports": "核對船舶陀螺減搖設備的標準英文名稱gyro stabilizer及gyroscopic stabilizer。"
+      },
+      {
+        "title": "1972年國際海上避碰規則公約暨避碰規則（中英對照節錄／1989修正）",
+        "sourceType": "other",
+        "issuer": "雙語參考譯本（非官方網站鏡像）",
+        "url": "https://merchantmarinelaw.com/wp-content/uploads/2024/07/1972%E5%B9%B4%E9%81%BF%E7%A2%B0%E8%A6%8F%E5%89%87%E4%BF%AE%E6%AD%A3.pdf",
+        "pageOrSection": "Rule 10 — Traffic Separation Schemes / 第10條 分道通航制",
+        "supports": "供核對COLREG英文Rule 10與中文「分道通航制」對照；英文法規仍以IMO官方COLREG頁面及正式公約文本為準，此雙語檔僅作學習比對。"
       }
     ],
     "assumptions": [
