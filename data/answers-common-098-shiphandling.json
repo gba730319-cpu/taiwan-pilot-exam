@@ -587,5 +587,133 @@
       ]
     },
     "lastUpdated": "2026-11-06"
+  },
+  {
+    "id": "098-shiphandling-06-answer-v1",
+    "questionId": "98-shiphandling-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "technical_essay",
+    "modelAnswer": "【一、Double Banking之意義】\n\nDouble Banking（併靠外檔、雙層靠泊）係指一艘船舶已靠泊於碼頭、浮筒或內檔船舶之外，另一艘船再靠泊於其外舷，形成兩船並列之狀態。內檔船（Inner Vessel）通常直接繫泊於碼頭，外檔船（Outer Vessel）則靠於內檔船外側，可能以繫纜繫於內檔船或依核准方案繫至岸上繫纜設備。\n\n此種作業可增加泊位使用效率，但兩船之間會產生相對運動、碰撞、擠壓、繫纜負荷及人員通行等風險，故須事前評估及共同規劃。\n\n【二、併靠前之準備與評估】\n\n1. **取得許可及共同協調：**確認港口管理機關、碼頭經營者及內檔船船長同意；確認泊位是否允許併靠，並明確指定兩船船長、引水人及作業負責人之職責。\n2. **船舶相容性：**比較兩船船長、船寬、乾舷、吃水、船體外形、平行中體長度、繫纜設備位置、舷側突出物及甲板設備，避免船體、舷梯、吊臂或其他突出物互相干涉。\n3. **環境條件：**評估風向風速、陣風、潮流、潮差、浪高、港池遮蔽、船舶尾流及港內交通；確認靠泊及離泊時有足夠水域。\n4. **泊位與繫纜強度：**檢查碼頭、繫纜樁、繫纜機、導纜孔及內檔船繫纜設備之安全工作負荷（SWL）；進行必要的繫泊分析，確認內檔船不會在未經評估下承受兩艘船的全部外力。\n5. **風險評估及作業計畫：**制定靠泊、繫纜、併靠期間監控、貨物作業、緊急解纜及離泊程序，列明停止作業條件、拖船待命、通訊頻道及緊急聯絡方式。\n6. **機械及航行設備：**兩船主機、舵機、發電機、錨機、繫纜設備及通訊設備應保持良好；併靠期間主機應依作業風險及港口規定保持可在短時間內使用。\n\n【三、靠泊及繫纜注意事項】\n\n（一）靠泊接近\n1. 外檔船應在引水人及兩船船長協調下，以適當低速及小角度接近，控制縱向及橫向速度，避免撞擊內檔船。\n2. 依船舶大小、風流及操縱能力安排拖船，必要時以拖船控制船首、船尾及橫移；不得只依靠主機或舵效不足的低速操船。\n3. 接近前確認內檔船已準備足夠防舷材，雙方確認接觸位置及靠泊口令；外檔船不得以船體直接碰撞內檔船。\n4. 避免船首、船尾或突出物先行接觸，並注意兩船平行中體長度是否足以安排防舷材及繫纜。\n\n（二）防舷材（Fenders）\n1. 在兩船舷側之間布設足夠數量、尺寸及吸能能力適當的主防舷材，通常應配置於平行中體主要接觸區。\n2. 船艏肩部及船艉肩部等容易因相對角度或船體錯位而接觸之處，應視風險加設次級防舷材。\n3. 防舷材須確認額定吸能、反力、尺寸、繫掛點及固定繩索；靠泊前檢查有無破損、脫落或移位。\n4. 併靠期間持續監控防舷材位置及壓縮狀態，避免因潮差、船舶橫搖或風浪使防舷材滑脫，導致兩船直接接觸。\n5. 兩船外板、舷梯、舷側突出物、排水口及繫纜設備應避免互相碰撞或受壓。\n\n（三）繫纜配置\n1. 依兩船尺度及相對位置安排艏纜、艉纜、前後倒纜及橫纜，使兩船縱向及橫向均有足夠約束。\n2. 繫纜應盡可能保持合理導向及角度，避免纜繩過短、過陡或集中於少數繫纜點，並確認繫纜樁及繫纜機SWL足夠。\n3. 外檔船繫纜究竟繫於內檔船或岸上，應依核准繫泊方案及繫纜分析決定；不得未經計算便將外檔船的全部負荷交由內檔船承擔。\n4. 兩船繫纜應有適當彈性及調整餘度，以因應潮汐、吃水變化、裝卸貨、風浪及船舶相對升沉；須定時巡查及調整張力。\n5. 繫纜材質、長度及伸長特性應配合使用，避免不同伸長特性的纜繩不當混用而造成負荷分配不均。\n6. 作業人員應穿著適當個人防護裝備，熟悉絞纜機操作及回彈危險區（Snap-back zone）；禁止站在受力纜繩內側或纜繩回彈路徑。\n\n【四、併靠期間之安全管理】\n\n1. **持續監控相對運動：**注意風、流、浪、船舶尾流及潮位變化，觀察兩船間距、防舷材壓縮、船體相對升沉及繫纜張力，必要時重新調整纜繩或停止作業。\n2. **兩船各自保持值班：**兩船駕駛台均應保持適當瞭望及通訊值班，主機與舵機依風險評估保持可用；不得因併靠而放棄各自船長的安全責任。\n3. **貨物裝卸及同步作業：**如同時進行貨物裝卸、加油或其他作業，須評估吊臂、貨物、軟管及設備跨越兩船的干涉，並監控吃水、縱傾、穩度及繫纜負荷變化。\n4. **人員通行：**兩船間人員通行應使用經核准且固定妥當的舷梯或通道，設置安全網、照明及防滑措施；若兩船相對運動過大，應停止通行。不得任意跨越舷牆或跳船。\n5. **防火、防污染及緊急應變：**確認消防設備、救生設備、油污應變器材及緊急通道可用；若有危險貨物、燃油或貨物轉運，應另訂作業隔離及停止作業程序。\n6. **避免船體損害：**注意舷側排水孔、海底閥、舷梯、救生艇、吊臂及其他突出物，避免防舷材壓住或碰撞設備。\n\n【五、離泊及緊急脫離】\n\n1. 離泊前應先確認風流、潮位、港池交通、拖船及可用水域，制定解纜順序及外檔船離開後內檔船的安全措施。\n2. 雙方船長及引水人應確認主機、舵機、拖船及通訊均已備妥，依計畫逐步卸除繫纜張力，避免突然解纜造成船舶失控。\n3. 外檔船離開時應控制船首及船尾，避免船體或螺槳、舵與內檔船及其繫纜接觸；必要時使用拖船協助。\n4. 如風浪、潮流、繫纜或防舷材狀況惡化，或兩船發生異常相對移動，應停止貨物及人員作業，依緊急程序解纜、拖離或移至安全水域。\n\n【結論】\n\nDouble Banking之核心在於兩船船體保護、繫泊負荷分配及相對運動控制。併靠前須取得許可並完成風險評估、船舶相容性及繫泊分析；靠泊時控制低速與接近角度，配置足夠主、次防舷材及合理繫纜；併靠期間持續監控風流潮汐、纜繩張力、防舷材及人員通行安全；離泊時則須預先規劃解纜順序、拖船及緊急脫離方案。兩船船長仍各自負責本船安全，不得因共同作業而混淆責任。",
+    "practicalAnalysis": "本題15分，建議依「定義→靠泊前評估→防舷材→繫纜→併靠期間→離泊」作答。最重要是主防舷材設於平行中體、肩部及艏艉易接觸處加次級防舷材；繫泊分析須確認內檔船及岸上繫纜設備能承受實際負荷，不能未經評估就讓內檔船承擔兩船負荷；兩船各自保持駕駛台值班及主機可用；監控潮差、風流、船舶尾流、繫纜張力與防舷材位置；人員通行及Snap-back zone須特別注意。",
+    "keyPoints": [
+      {
+        "point": "Double Banking係外檔船併靠內檔船外舷，兩船並列停泊。",
+        "importance": "essential",
+        "explanation": "須共同規劃靠泊、繫纜及離泊。"
+      },
+      {
+        "point": "靠泊前須取得港口及內檔船同意，評估船舶相容性、泊位強度、風流潮汐及足夠水域。",
+        "importance": "essential",
+        "explanation": "完成風險評估與繫泊分析。"
+      },
+      {
+        "point": "主防舷材配置於兩船平行中體，肩部及艏艉容易接觸處加設次級防舷材。",
+        "importance": "essential",
+        "explanation": "防止船體直接碰撞並控制接觸能量。"
+      },
+      {
+        "point": "繫纜須兼顧縱向與橫向約束，檢查纜繩、繫纜樁、繫纜機及岸上繫纜點SWL。",
+        "importance": "essential",
+        "explanation": "外檔船負荷不可未經分析全由內檔船承擔。"
+      },
+      {
+        "point": "併靠期間定時監控潮差、風浪、船舶尾流、相對運動、防舷材及纜繩張力。",
+        "importance": "essential",
+        "explanation": "必要時調整纜繩或停止作業。"
+      },
+      {
+        "point": "兩船各自保持瞭望、通訊及主機可用，船長各自負責本船安全。",
+        "importance": "essential",
+        "explanation": "共同作業不取代各船長責任。"
+      },
+      {
+        "point": "人員通行須使用安全固定的舷梯或通道，並設安全網及防滑措施；注意Snap-back zone。",
+        "importance": "supporting",
+        "explanation": "相對運動過大時停止通行。"
+      },
+      {
+        "point": "離泊前制定解纜順序、拖船配置及緊急脫離方案。",
+        "importance": "essential",
+        "explanation": "避免解纜後船舶失控或碰撞。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Guidelines for the Marine Assessment of FPSOs — Fendering",
+        "sourceType": "industry_guideline",
+        "issuer": "OCIMF",
+        "url": "https://www.ocimf.org/document-libary/54-guidelines-for-the-marine-assessment-of-fpsos",
+        "supports": "防舷材設計須配合船型、平行中體位置、接近速度、操作限制及維護。"
+      },
+      {
+        "title": "Guidelines for Completing the Ship to Ship Transfer Checklist",
+        "sourceType": "official_port_or_authority",
+        "issuer": "Transportation Safety Board of Canada / Canadian authorities",
+        "url": "https://iaac-aeic.gc.ca/050/documents/57633/57633E.pdf",
+        "supports": "船舶相容性、繫纜設備、作業位置、環境條件、通訊、靠泊程序、主次防舷材及值班要求。"
+      },
+      {
+        "title": "Ship-to-Ship Transfer Clause for Time Charter Parties 2008",
+        "sourceType": "industry_guideline",
+        "issuer": "BIMCO",
+        "url": "https://www.bimco.org/contractual-affairs/bimco-clauses/current-clauses/ship_to_ship_transfer_clause_for_time_charter_parties_2008/",
+        "supports": "安全作業水域、船長核准、適當防舷材與繫纜設備、主管機關許可及不安全時停止作業。"
+      },
+      {
+        "title": "Safe Mooring",
+        "sourceType": "official_port_or_authority",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/safemooring.aspx",
+        "supports": "SOLAS繫泊設備與安全繫泊作業指引、繫泊設備設計、檢查及維護。"
+      },
+      {
+        "title": "Mooring Operations — Loss Prevention Briefing (Ships)",
+        "sourceType": "industry_guideline",
+        "issuer": "NorthStandard",
+        "url": "https://d3cpegos94401u.cloudfront.net/publications/documents/ns---mooring-operations---loss-prevention-briefing-%28ships%29.pdf",
+        "supports": "併靠情境應納入繫泊計畫、作業前會議、人員配置、繫纜導向及風險管理。"
+      }
+    ],
+    "assumptions": [
+      "本題Double Banking依一般港內船舶併靠作業解讀，外檔船靠泊於內檔船外舷；實際繫纜可繫於內檔船或岸上，須依港口核准方案及繫泊分析決定。",
+      "題目未指定船型、船長、泊位、風速、潮流及繫纜配置，因此不設定通用的風速、浪高或纜繩數值門檻。"
+    ],
+    "limitations": [
+      "油輪STS貨物轉運的專用要求不一定適用所有一般併靠；若涉及油品、化學品或散裝貨物轉運，另須遵守相應STS指南及港口規定。",
+      "實際可否併靠及繫纜負荷，須由泊位工程資料、繫纜分析、船舶繫泊設備SWL及港口規定確認。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-06",
+      "checks": [
+        {
+          "item": "併靠風險及事前計畫",
+          "result": "pass",
+          "note": "依加拿大STS checklist、BIMCO及NorthStandard資料核對船舶相容性、風險評估、作業計畫及內外檔分工。"
+        },
+        {
+          "item": "主次防舷材配置",
+          "result": "pass",
+          "note": "依加拿大STS checklist及West of England P&I資料核對平行中體主防舷材及肩部、艏艉次級防舷材。"
+        },
+        {
+          "item": "繫纜及負荷分配",
+          "result": "pass",
+          "note": "依BIMCO及加拿大STS checklist核對適當繫纜設備、SWL、繫泊計畫及兩船安全約束原則。"
+        },
+        {
+          "item": "值班、通訊及人員安全",
+          "result": "pass",
+          "note": "依IMO Safe Mooring、NorthStandard及STS指引核對通訊、作業人員、繫纜危險區及各船安全責任。"
+        },
+        {
+          "item": "離泊及緊急應變",
+          "result": "pass",
+          "note": "依BIMCO及Britannia P&I STS guidance核對不安全時停止作業及預先準備脫離方案。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-06"
   }
 ]
