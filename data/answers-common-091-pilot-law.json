@@ -59,17 +59,17 @@
       "checks": [
         {
           "item": "特定船舶種類及艘數限制",
-          "result": "source_checked",
+          "result": "pass",
           "note": "歷史舊版第22條列公務船、作業船、交通船及觀光客船；艘數依各港實際需要限制。"
         },
         {
           "item": "遇難或避難船舶拒絕進港條件",
-          "result": "source_checked",
+          "result": "pass",
           "note": "歷史舊版第43條列危險品安全顧慮、國際檢疫傳染病或可疑症狀、船體嚴重受損有沉沒之虞、違反港口禁令或無進港必要四類。"
         },
         {
           "item": "歷史版本辨識",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依交通部法規資料庫歷史沿革確認規則在2002年仍為舊版名稱及76條架構；後續更名與修正不得倒用。"
         }
       ]
@@ -135,17 +135,17 @@
       "checks": [
         {
           "item": "舊版第9條緩輪及並列／追越限制",
-          "result": "source_checked",
+          "result": "pass",
           "note": "歷史版本明文規定緩輪航行，不得與他船並列、超越或妨礙他船航行。"
         },
         {
           "item": "500總噸以上船舶五節上限",
-          "result": "source_checked",
+          "result": "pass",
           "note": "2011年1月26日修正前條文另列五百總噸以上船舶港內航行時速不得超過五節；2011年修正後刪除該句。"
         },
         {
           "item": "歷史沿革",
-          "result": "source_checked",
+          "result": "pass",
           "note": "交通部法規資料庫記載第9條於2011年1月26日修正，故本題2002年應採修正前條文。"
         }
       ]
@@ -214,17 +214,17 @@
       "checks": [
         {
           "item": "引水法第21至33條",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依交通部法規資料庫民國91年1月30日修正版本逐條核對執業資格、區域、健康檢查、證件、信號、領航艘數、拖船、學習引水人、費用、拒絕領航、通報、船長指揮權及安全上下船。"
         },
         {
           "item": "刑事及行政責任",
-          "result": "source_checked",
+          "result": "pass",
           "note": "核對第34至39條，涵蓋業務過失致死傷、船舶沉沒或破壞、警告、收回執業證書及罰鍰。"
         },
         {
           "item": "歷史修法",
-          "result": "source_checked",
+          "result": "pass",
           "note": "91年1月30日修正第13、39、42條並刪除第14、15條；答案未引用已刪除條文。"
         }
       ]
@@ -285,17 +285,17 @@
       "checks": [
         {
           "item": "商港法歷史版本",
-          "result": "source_checked",
+          "result": "pass",
           "note": "採民國90年11月21日修正公布版本；91年12月修正及92年1月公布的條文尚未於2002年考試時生效。"
         },
         {
           "item": "港區安全相關條文",
-          "result": "source_checked",
+          "result": "pass",
           "note": "逐項核對第5、18至20、23至24、28至33、37至43條。"
         },
         {
           "item": "現行法條次差異",
-          "result": "source_checked",
+          "result": "pass",
           "note": "未將2011年全文修正後條次倒套至2002年。"
         }
       ]
@@ -375,22 +375,22 @@
       "checks": [
         {
           "item": "COLREG第7條碰撞危機",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依IMO對1972 COLREG的官方說明及事故調查報告所附中文規則核對。"
         },
         {
           "item": "COLREG第8條避碰措施",
-          "result": "source_checked",
+          "result": "pass",
           "note": "核對積極及早、明顯變更、安全通過及持續確認效果等要求。"
         },
         {
           "item": "商港設施定義",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依2002年有效《商港法》第2條核對。"
         },
         {
           "item": "港區安全概念及法源",
-          "result": "source_checked",
+          "result": "pass",
           "note": "依當時《商港法》第5、18至20、24、28至33、37至43條整理，並明確註明非獨立法定定義。"
         }
       ]
