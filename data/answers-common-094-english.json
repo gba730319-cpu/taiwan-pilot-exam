@@ -146,7 +146,7 @@
     "language": "zh-TW",
     "answerType": "translation",
     "modelAnswer": "(1) 危機處理 — **crisis management**\\nSentence: Effective crisis management is essential when a ship is involved in a serious accident.\\n\\n(2) 舉證責任 — **burden of proof**\\nSentence: The burden of proof rests with the party making the allegation.\\n\\n(3) 職業安全 — **occupational safety**\\nSentence: The company must provide proper training and equipment to ensure occupational safety on board.\\n\\n(4) 鋒面雨 — **frontal rain** / **rain associated with a front**\\nSentence: Frontal rain may reduce visibility and make pilotage operations more difficult.\\n\\n(5) 法律規定的 — **statutory** / **prescribed by law**\\nSentence: The master must comply with the statutory requirements for the safe operation of the vessel.\\n\\n(6) 分道航行規劃 — **traffic separation scheme (TSS)**\\nSentence: Vessels navigating in a traffic separation scheme should proceed in the appropriate traffic lane and follow the applicable routing rules.\\n\\n(7) 易變天氣 — **changeable weather** / **unsettled weather**\\nSentence: The pilot should take extra care when navigating in changeable weather conditions.\\n\\n(8) 引水法條款 — **provisions of the Pilotage Act**\\nSentence: The pilot must perform his duties in accordance with the relevant provisions of the Pilotage Act.\\n\\n(9) 迴轉穩定器 — **gyroscopic stabilizer** (also: **gyro stabilizer**)\\nSentence: A gyroscopic stabilizer can reduce a ship's rolling motion in certain operating conditions.\\n\\n(10) 自動調整拖纜機 — **automatic-tension towing winch** / **automatic tension-controlled towing winch**\\nSentence: The tug is fitted with an automatic-tension towing winch to help maintain the required tension in the towline.",
-    "practicalAnalysis": "本題每一中文詞組均須翻成合適英文，並各自造一個完整句子。法律及航海制度詞彙應採固定搭配：burden of proof、occupational safety、traffic separation scheme、provisions of the Pilotage Act。第(4)題「鋒面雨」可用frontal rain，句中也可寫rain associated with a front；第(5)題形容詞可用statutory，若放入句子則prescribed by law亦自然。第(9)題「迴轉穩定器」按船舶減搖設備理解為gyroscopic stabilizer（gyro stabilizer），須與fin stabilizer區分。第(10)題重點是拖纜張力能自動控制，故以automatic-tension towing winch表達，比單純automatic towing winch更能呈現「自動調整」功能。",
+    "practicalAnalysis": "本題每一中文詞組均須翻成合適英文，並各自造一個完整句子。法律及航海制度詞彙應採固定搭配：burden of proof、occupational safety、traffic separation scheme、provisions of the Pilotage Act。第(4)題「鋒面雨」可用frontal rain，句中也可寫rain associated with a front；第(5)題形容詞可用statutory，若放入句子則prescribed by law亦自然。第(9)題「迴轉穩定器」按船舶減搖設備理解為gyroscopic stabilizer（gyro stabilizer），須與fin stabilizer區分。第(10)題重點是拖纜張力能自動控制；美國海軍拖帶手冊使用automatic towing machine（ATM）稱呼自動化拖帶機械，並將automatic tension control列為其功能，因此以automatic tension towing machine (ATM)作主譯，automatic tension towing winch作可接受變體。",
     "keyPoints": [
       {
         "point": "危機處理＝crisis management；須用名詞片語。",
@@ -190,7 +190,12 @@
       }
     ],
     "references": [
-      "考選部民國94年引水人考試專業英文第3題原文：翻譯十個中文海事／法律詞彙並各造完整英文句子。",
+      {
+        "title": "考選部民國94年引水人考試專業英文第3題原文",
+        "sourceType": "other",
+        "issuer": "考選部",
+        "supports": "原題要求翻譯十個中文海事／法律詞彙並各造完整英文句子。"
+      },
       {
         "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972 – Rule 10",
         "sourceType": "IMO_or_treaty",
@@ -206,6 +211,36 @@
         "url": "https://www.imo.org/",
         "accessedAt": "2026-11-06",
         "supports": "職業安全相關海事語境；詞彙本身採通用專業英文。"
+      },
+      {
+        "title": "U.S. Navy Towing Manual",
+        "sourceType": "official_port_or_authority",
+        "issuer": "U.S. Navy",
+        "url": "https://maritime.org/doc/pdf/towman.pdf",
+        "pageOrSection": "Appendix L, §§L-2.1–L-2.2",
+        "supports": "說明automatic towing machinery、towing winch與traction machine等術語，並列出拖帶機械的收放拖纜、調整拖纜長度及緊急釋放功能。"
+      },
+      {
+        "title": "Ship Handling in Unprotected Waters: A Review of New Technologies in Escort Tugs to Improve Safety",
+        "sourceType": "textbook_or_academic",
+        "issuer": "Journal of Marine Science and Engineering",
+        "url": "https://www.mdpi.com/2673-3161/2/1/46",
+        "pageOrSection": "Section 3, Constant Tension Winch and Render-Recovery Winch",
+        "supports": "說明constant-tension winch可自動收放拖纜以維持預設張力，並比較傳統拖纜機與自動張力控制機械。"
+      },
+      {
+        "title": "Towing winch",
+        "sourceType": "other",
+        "issuer": "International Association of Marine Aids to Navigation and Lighthouse Authorities (IALA)",
+        "url": "https://www.iala.int/wiki/dictionary/index.php/Towing_winch",
+        "supports": "提供towing winch的海事術語定義，說明其捲收拖纜，並通常配有依拖帶天候與負荷自動放纜或收纜的控制系統。"
+      },
+      {
+        "title": "TERMIUM Plus – Gyro stabilizer / Gyroscopic stabilizer",
+        "sourceType": "other",
+        "issuer": "Government of Canada, Translation Bureau",
+        "url": "https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?i=&index=frr&lang=eng&srchtxt=STABILISATEUR+GYROSCOPIQUE",
+        "supports": "核對船舶陀螺減搖設備的標準英文名稱gyro stabilizer及gyroscopic stabilizer。"
       }
     ],
     "assumptions": [
@@ -231,13 +266,13 @@
         },
         {
           "item": "迴轉穩定器設備型式",
-          "result": "needs_review",
-          "note": "依陀螺減搖設備解讀為gyroscopic stabilizer，原題缺乏設備圖示或上下文。"
+          "result": "pass",
+          "note": "政府加拿大TERMIUM Plus確認gyro stabilizer及gyroscopic stabilizer均為船舶陀螺減搖設備正確術語；與fin stabilizer區分。"
         },
         {
           "item": "自動調整拖纜機製造商術語",
-          "result": "needs_review",
-          "note": "依自動控制拖纜張力功能翻譯，實際名稱可能因絞纜機型式而異。"
+          "result": "pass",
+          "note": "依美國海軍拖帶手冊及IALA海事詞典，採automatic tension towing machine (ATM)作主譯，automatic tension towing winch作可接受變體；不同拖帶機型的自動張力控制方式仍有差異。"
         }
       ]
     },
