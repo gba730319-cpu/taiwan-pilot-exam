@@ -1,0 +1,1719 @@
+[
+  {
+    "id": "answer-110-kaohsiung-waterway-01",
+    "questionId": "110-kaohsiung-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、作圖基準：先確認考題所指定的海圖或港區圖版次、測量基準面、比例尺及資料日期。以1:30,000圖幅繪出高雄港外海、第一港口、第二港口、港內主航道、各船渠、港池、迴船池、錨地及港界；圖面須有北向、比例尺、圖例與資料來源。二、港區設施：依原圖逐一標示碼頭編號、岸線長度、公布水深及用途；浮筒應標示編號、位置及相鄰間距；迴船池標註直徑或可用迴旋水域尺寸；航道與船渠標註寬度、轉向點及限制水域。三、助導航設施：標出港口燈塔、導標、燈杆、燈浮、雷達標、信號台及其他航標，並以圖例說明名稱、燈色、燈質、週期及能見距（僅在原始燈表有資料時填列）。四、航行安全：在圖上區分進出港航道、交會／待避水域、迴旋水域、錨地、禁錨區、淺點及障礙物。五、圖資時點：本題為110年度考試，必須採2021年考試時有效的港區圖、海圖及港務公告；現行港區圖只能協助辨識，不能直接取代當年水深、碼頭長度、浮筒間距或航標位置。",
+    "practicalAnalysis": "本題30分的核心是圖面完整、比例正確、資料有日期與基準。作答時可先畫港區骨架，再按碼頭／水深、浮筒、迴船池、航道船渠、航標五層疊加。圖面若沒有可追溯的歷史圖資，應明確註記待核，不應把今日資料冒充2021年數值。",
+    "keyPoints": [
+      {
+        "point": "1:30,000比例尺及圖面方向、圖例、資料基準",
+        "importance": "essential"
+      },
+      {
+        "point": "全港港池、港口、航道、船渠及迴船池位置",
+        "importance": "essential"
+      },
+      {
+        "point": "各碼頭編號、岸線長度及水深",
+        "importance": "essential"
+      },
+      {
+        "point": "浮筒位置與間距、迴船池直徑、航道及船渠寬度",
+        "importance": "essential"
+      },
+      {
+        "point": "助導航設施位置與燈質資料",
+        "importance": "essential"
+      },
+      {
+        "point": "註明2021年有效圖資版次與測深基準",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "110年引水人考試高雄港當地水道港灣詳情原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0903&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目要求及原始考題。"
+      },
+      {
+        "title": "高雄港港埠營運設施資料",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=919",
+        "sourceType": "official_port_data",
+        "issuer": "臺灣港務公司高雄港務分公司",
+        "supports": "現行碼頭、港區設施資料，僅供辨識，不可代替2021歷史值。"
+      },
+      {
+        "title": "NOAA Nautical Chart Soundings",
+        "url": "https://oceanservice.noaa.gov/facts/sounding.html",
+        "sourceType": "official_hydrographic_guidance",
+        "issuer": "NOAA",
+        "supports": "海圖水深、危險物、助航設施及錨地等資訊類型。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "尚未取得可逐項核對的2021年高雄港全港1:30,000歷史圖幅與同期燈表；因此不填入未經核實的碼頭長度、水深、浮筒間距、迴船池直徑及航標座標。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-kaohsiung-waterway-02",
+    "questionId": "110-kaohsiung-waterway-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、離泊前確認：與船長確認主機、舵機、艏推器、錨機、繫纜及拖船通訊正常；確認船舶吃水、潮流、風向風力、離泊後航路及VTS許可。西南風6級對船體產生向東北側的風壓效果，應先判斷碼頭方位及船舶受風面，不能只憑風向名稱決定艏艉動作。二、鄰船與浮筒：25號浮筒已有大型貨櫃船繫泊，須把其船體、繫纜及浮筒迴旋空間視為固定障礙，確認RO-RO船離泊後不會被風壓推向該船或其纜繩。三、操船分工：2400HP拖船依港方調派及現場拖力配置，先約定拖點、拖纜、口令、緊急脫纜及失聯程序；艏推器提供艏部橫向力，拖船則可控制艏艉位置及船體轉向。四、離泊程序：先確認纜繩依序受控，利用拖船與艏推器建立安全離岸間隙，避免以主機大車直接拉開造成艉部掃向鄰船；船體離開碼頭後先穩定艏向與橫移速度，再逐步建立出港航向及舵效。五、出港：依VTS指示及港內交通排序航行，持續監控25號浮筒繫泊船、碼頭突出物、航道邊界及風流壓差；若風壓或船舶反應超出預期，暫停動作並重新配置拖船。",
+    "practicalAnalysis": "本題給定艏推器800HP及一艘2400HP拖船，但馬力不是可直接相加的橫向推力。拖船實際可用力取決於拖輪型式、拖纜角度、推進器方向、拖點力臂及是否受船體遮蔽。未提供碼頭朝向、船舶精確艏艉向與25號浮筒相對方位，因此應以條件式操船方案表達，不可捏造唯一的拖帶方向。",
+    "keyPoints": [
+      {
+        "point": "確認風壓方向與碼頭／鄰船相對位置",
+        "importance": "essential"
+      },
+      {
+        "point": "25號浮筒繫泊船及纜繩須列為主要障礙",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船拖點、拖纜角度、口令及緊急脫纜",
+        "importance": "essential"
+      },
+      {
+        "point": "艏推器與拖船協同控制橫移及艏向",
+        "importance": "essential"
+      },
+      {
+        "point": "先建立離岸間隙，再控制船速與出港航向",
+        "importance": "essential"
+      },
+      {
+        "point": "遵守VTS交通排序及必要時中止操作",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "110年引水人考試高雄港當地水道港灣詳情原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0903&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目船舶尺度、風力、拖船與鄰近浮筒條件。"
+      },
+      {
+        "title": "IMO A.960(23) Pilotage Recommendations",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960(23).pdf",
+        "sourceType": "IMO_resolution",
+        "issuer": "IMO",
+        "supports": "引水人與船長協調、船舶操縱及安全引航作業。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "原卷文字未附碼頭平面配置圖及船舶靠泊艏向圖；實際拖帶方向與拖點須依現場配置確認。",
+      "風向與碼頭相對方位未完整提供，不能假設風壓必然將船推向某一固定方向。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-kaohsiung-waterway-03",
+    "questionId": "110-kaohsiung-waterway-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "（一）登輪至離船的引航流程：1. 出發前確認引航任務、船舶資料、ETA、船長聯絡方式、船舶吃水、操縱特性、主機／舵機狀態、危險品及特殊限制；檢查引水裝備、救生衣及通訊設備。2. 引水艇出發前與VTS／引水站確認登輪安排、天候海況、登輪位置及交通狀況。3. 接近目標船時評估相對航向、航速、風浪、船側遮蔽及引水梯位置；確認船舶依SOLAS要求備妥安全引水梯、照明及人員協助。4. 登輪時保持引水艇與母船安全相對位置，避免在船艏、艉流或船側吸流區冒險接近；登輪後立即確認船長、駕駛臺團隊、航行計畫及主機操縱指令方式。5. 執行master-pilot information exchange，交換船舶操縱資料、航路、潮汐、風流、拖船、VTS頻道、緊急計畫及中止點；確認引水人與船長對計畫有共同理解。6. 航行中保持連續定位與交叉檢查，使用雷達、ECDIS、目視方位、測深及平行指標等，不以單一電子設備作唯一依據；及時通報VTS並監控交通。7. 抵達靠泊區前確認船席、拖船及纜繩人員準備；本小題不要求碼頭靠泊操作，但應完成靠泊前安全交接。8. 靠妥後確認船舶繫固、主機／拖船狀態、引水梯安全及離船許可，選擇安全位置離船並回報引水站。（二）靠泊方案：先核對122號碼頭北側船席實際長度、水深、岸線與鄰船狀況；61／62號浮筒已繫泊大型船舶，應視為禁入障礙，避免拖船或本船掃入其纜繩及迴旋範圍。由於未指定左舷或右舷靠泊，應依當時風流、船舶旋迴特性、碼頭配置及拖船可用位置選擇較安全舷側，不可預先武斷指定。先以低速接近，保留足夠水域完成轉向；3200HP拖船在確認拖點與拖纜後，負責控制艏部或艉部橫移及旋轉力矩，船舶主機、舵與拖船協同控制縱向速度。接近碼頭時降低橫向速度與接觸角，先控制艏艉位置，再平行貼靠；必要時等待大型船舶或交通流通過。",
+    "practicalAnalysis": "本題兩小題分別測試引航全流程與靠泊規劃。流程題應有「勤前準備—引水艇接近—安全登輪—MPX—航行監控—VTS通聯—靠泊前交接—安全離船」完整鏈條。靠泊題缺少碼頭圖、船舶艏向及風流資料，答案只能提出安全決策架構；不可臆測最佳靠泊舷側或拖船拖點。",
+    "keyPoints": [
+      {
+        "point": "引水艇出發前任務與船舶資料確認",
+        "importance": "essential"
+      },
+      {
+        "point": "引水梯、登輪位置、海況及安全接近",
+        "importance": "essential"
+      },
+      {
+        "point": "Master-Pilot Exchange及共同航行計畫",
+        "importance": "essential"
+      },
+      {
+        "point": "定位、雷達／ECDIS交叉核對與VTS通聯",
+        "importance": "essential"
+      },
+      {
+        "point": "靠妥後安全離船及回報",
+        "importance": "essential"
+      },
+      {
+        "point": "61／62號浮筒繫泊大型船及其纜繩列為障礙",
+        "importance": "essential"
+      },
+      {
+        "point": "靠泊舷側依風流、碼頭幾何與拖船位置決定",
+        "importance": "essential"
+      },
+      {
+        "point": "低速接近、控制橫移與旋轉力矩",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "110年引水人考試高雄港當地水道港灣詳情原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0903&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目兩部分及船舶條件。"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960(23).pdf",
+        "sourceType": "IMO_resolution",
+        "issuer": "IMO",
+        "supports": "引水人登輪、master-pilot information exchange及引航作業程序。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "題目未附122號碼頭及61／62號浮筒當年配置圖；船席水深、實際障礙物位置及拖船拖點需依2021年港圖核實。",
+      "未指定靠泊舷側且不計風流，仍不足以單獨決定艏向與拖船位置。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-kaohsiung-waterway-04",
+    "questionId": "110-kaohsiung-waterway-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "（一）移泊：先確認化學品船貨物種類、殘液／蒸氣狀態、危險區域、加油作業安全要求及移泊許可；確認60號至8號碼頭航路、水深、潮位、轉向空間、船席及二線浮筒五艘商船的位置與纜繩範圍。移泊前完成船長—引水人簡報，確認主機、舵機、錨機、艏艉纜及拖船通訊；2400HP拖船的拖點、拖纜、拖力方向與緊急脫纜方式先行約定。因船舶無艏推器且艏艉吃水差1.0m，須考慮縱傾對舵效、淺水效應及迴旋性能的影響。先控制船舶離開60號碼頭，避免艉部或船艏掃向鄰近船席；沿核准航路低速移泊，接近二線浮筒時預留與五艘商船及其纜繩的安全距離。抵達8號碼頭後，以拖船控制橫移及艏向，減低接觸速度，確認繫纜安全後再進行加油前檢查。（二）前鎮河口免引水船舶：免引水資格並非由船舶自行認定，須依考試當時有效《引水法》強制引水規定、交通部公告之強制引水區域／例外及高雄港地方公告判斷；應核對船籍、總噸位、用途、航線及是否屬港區工程或核准國內航線船舶。回答時應列出當時公告所列免引水船種及條件，並區分「免強制引水」與「仍須遵守港區交通管制、VTS及船席許可」。",
+    "practicalAnalysis": "法規部分應以2021年有效的《引水法》及高雄港當時公告為準。現行法條例外內容曾修正，不宜直接照現行版本倒推。對前鎮河口的具體船種清單，未取得2021年地方公告原文前，不能自行列出船種。",
+    "keyPoints": [
+      {
+        "point": "危險品／化學品船移泊前風險評估及加油作業隔離",
+        "importance": "essential"
+      },
+      {
+        "point": "核對60號至8號航路、水深、潮位及船席可用性",
+        "importance": "essential"
+      },
+      {
+        "point": "二線浮筒五艘船及纜繩迴旋範圍",
+        "importance": "essential"
+      },
+      {
+        "point": "無艏推器、縱傾及拖船協同操縱",
+        "importance": "essential"
+      },
+      {
+        "point": "低速移泊、控制橫移及靠泊接觸能量",
+        "importance": "essential"
+      },
+      {
+        "point": "免引水資格須依當時法規與地方公告逐項判定",
+        "importance": "essential"
+      },
+      {
+        "point": "免強制引水不等於免除VTS與港區安全規定",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "110年引水人考試高雄港當地水道港灣詳情原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0903&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目移泊及前鎮河口免引水問題。"
+      },
+      {
+        "title": "引水法（2021年考試時有效版本）",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=H0028005&type=-1",
+        "sourceType": "law_or_regulation",
+        "issuer": "交通部",
+        "supports": "強制引水制度及例外條文；應以歷史版本核對。"
+      },
+      {
+        "title": "高雄港務分公司",
+        "url": "https://kh.twport.com.tw/",
+        "sourceType": "official_port_authority",
+        "issuer": "臺灣港務公司高雄港務分公司",
+        "supports": "地方港區公告查核入口。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "尚未取得2021年高雄港前鎮河口免引水船舶公告全文；具體船種及總噸位門檻保留needs_review。",
+      "題目未提供二線浮筒五艘船的相對位置與當時潮流，拖船配置須現場決定。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-kaohsiung-waterway-05",
+    "questionId": "110-kaohsiung-waterway-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "（一）離泊：先評估北風4級對船舶側向風壓、95號碼頭方向、船舶艏艉向及左錨出鏈狀況。船舶右舷靠泊且左錨已拋一節水面，離泊前應確認錨鏈方向、張力、錨是否已抓底及是否會妨礙拖船或其他船舶；不可在未確認錨鏈受力下盲目倒車或轉向。與船長確認主機、舵機、錨機及纜繩狀況，2400HP拖船先建立控制力，依風壓方向選擇拖帶或頂推位置。逐步鬆解繫纜，利用拖船、錨鏈及主機舵效控制船舶離岸與旋轉，避免船艉掃向碼頭或鄰船；若錨鏈可能妨礙離泊，應按計畫起錨或調整出鏈，不可將錨當作未經計算的制動器。離岸後先穩定船速與艏向，再進入航道。（二）與進港海岬型船交會：出港船在等待進港船通過時，應先與VTS確認交通排序及指定待避位置，選擇不妨礙航道、不侵入迴旋水域且有足夠水深的安全水域待命。進港海岬型船尺度、吃水、慣性及操縱限制較大，出港船應避免在航道狹窄處、轉向點、港口口門或浮筒附近與其交會。待進港船通過並確認尾流、拖船及航道清空後，經VTS許可再出港；若必須交會，應依港方規定及引水人協調選擇可控水域，保持安全橫距及可用避讓水域，不可自行假設大型船必然享有法定優先權。",
+    "practicalAnalysis": "交會避讓的實務原則是先消除狹窄水道內同時操船的複雜性：既然題目已設定可等待，優先在安全水域等待進港海岬型船通過，是風險最低的方案。港內交通優先順序以當時港方管制與VTS指示為準，不能把「船大／吃水深」直接等同於COLREG中的特定優先權。",
+    "keyPoints": [
+      {
+        "point": "錨鏈位置、出鏈方向與抓底狀況先確認",
+        "importance": "essential"
+      },
+      {
+        "point": "2400HP拖船與主機舵機共同控制離岸及旋轉",
+        "importance": "essential"
+      },
+      {
+        "point": "避免船艉掃碼頭、鄰船或拖船纜繩",
+        "importance": "essential"
+      },
+      {
+        "point": "選擇安全待避水域並向VTS確認交通排序",
+        "importance": "essential"
+      },
+      {
+        "point": "避免於口門、轉向點及狹窄航道交會",
+        "importance": "essential"
+      },
+      {
+        "point": "進港船通過且航道清空後再獲准出港",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "110年引水人考試高雄港當地水道港灣詳情原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0903&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "船舶尺度、錨泊、風力及進港船交會條件。"
+      },
+      {
+        "title": "IMO COLREG 1972",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "supports": "避碰規則的一般適用及狹水道航行原則。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "未提供95號碼頭方向、船舶艏向、錨鏈方位及港內待避區圖，不能指定固定拖帶方向或錨鏈操作順序。",
+      "港內進出港優先序須依2021年高雄港當時有效作業規定確認。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-kaohsiung-waterway-06",
+    "questionId": "110-kaohsiung-waterway-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、設置目的：二港口北側遮蔽堤主要目的應從港口波浪傳遞、港池靜穩度、港口口門流況及船舶進出港操縱安全分析；其功能可能包括削弱特定方向外海波浪、改善港內泊穩及降低波浪直接進入港池，但實際設計目的須以工程計畫書為準。二、位置與構造：答題應在高雄港二港口平面圖上標示北側遮蔽堤相對於二港口北防波堤、口門中心線、航道及外海方向的位置；再依竣工圖說明堤軸線、堤頭、堤身、堤頂高程、堤身斷面及消波構造。若為斜坡式消波堤，應說明堤心、反濾層及消波塊／護面層；若為直立式，則應依實際結構圖描述，不能混用兩種型式。三、對進出港船舶的影響：正面效果可能是降低港內波浪、改善靠離泊與繫泊安全；但堤體也可能改變口門波浪折射、反射、繞射及局部流場，形成波浪集中、回流、橫流或遮蔽區邊界效應。船舶接近堤頭時應注意可航水域變窄、視線遮蔽、雷達回波及船舶與堤體的安全距離；大型船舶受風面積、慣性與側向漂移較大，應保留轉向與失控餘裕，依港方航道及VTS指示航行。",
+    "practicalAnalysis": "本題問的是特定工程設施，最重要是將工程位置、斷面與實際流場效應分開論述。未取得2021年工程竣工圖及水工模型／港灣水理報告前，不可自行指定堤長、方位角、堤頂高程、消波塊型式或斷面尺寸；也不可只寫「防浪」而忽略對口門流況及船舶操縱的副作用。",
+    "keyPoints": [
+      {
+        "point": "遮蔽堤工程目的須依原始設計／竣工文件確認",
+        "importance": "essential"
+      },
+      {
+        "point": "以港區平面圖標示其相對二港口及航道的位置",
+        "importance": "essential"
+      },
+      {
+        "point": "以竣工圖說明堤身型式、堤頭及護面構造",
+        "importance": "essential"
+      },
+      {
+        "point": "分析波浪遮蔽、反射、繞射及局部流場改變",
+        "importance": "essential"
+      },
+      {
+        "point": "說明堤頭附近可航寬度、視線、雷達與橫流風險",
+        "importance": "essential"
+      },
+      {
+        "point": "操船時保留離堤距離、轉向餘裕並服從VTS",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "110年引水人考試高雄港當地水道港灣詳情原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0903&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目指定二港口北側遮蔽堤。"
+      },
+      {
+        "title": "高雄港港埠工程與港區資料",
+        "url": "https://kh.twport.com.tw/",
+        "sourceType": "official_port_authority",
+        "issuer": "臺灣港務公司高雄港務分公司",
+        "supports": "工程計畫、港區設施及港務公告查核入口。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "尚未取得與2021年考試時點一致的二港口北側遮蔽堤工程設計圖、竣工圖及水理分析報告；位置、構造尺寸及定量影響均維持needs_review。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-pilot-law-01",
+    "questionId": "110-pilot-law-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、制度基本架構：我國依《引水法》建立中央與地方分層管理的引水制度。交通部為中央主管機關，地方由當地航政主管機關管理；引水區域由交通部劃分或變更。引水制度分強制引水與自由引水，強制引水的適用區域、船舶及例外依法律與公告辦理。引水人須經考試及格、取得執業證書並完成指定區域登記，始得執行領航；各引水區域設引水人辦事處辦理招請領航、輪值及服務安排，並受航政機關監督。二、執業及責任：引水人提供港區地理、水文、交通與操船專業知識，與船長交換船舶操縱資料及航行計畫；船長仍負船舶安全航行的最終責任，引水人則須依法及依專業注意義務執行業務，遇不適航、天候海況或安全條件不足時應提出警告、拒絕或停止不安全作業並通報。三、可改善方向：1. 強化以能力為本的訓練與定期複訓，包括大型船、特殊推進器、拖船協同、低能見度、事故案例及BRM。2. 建立一致的引航風險評估、MPX、航行計畫與標準通訊程序。3. 強化引水人疲勞管理、輪值與休息制度，並檢視人力供需及尖峰調度。4. 引水艇、登輪設施、個人防護裝備及夜間登輪安全持續改善。5. 建立事故與近失事件匿名通報、資料分析及回饋機制。6. 提升VTS、港務、引水人辦事處、拖船業者及船公司之協作。7. 釐清引水服務品質、責任保險、申訴及事故調查程序，兼顧公共安全與專業獨立性。四、改革原則：改善制度不能只追求縮短船舶等候時間或降低成本，必須以航行安全、專業能力、可問責性及港口服務韌性為核心。",
+    "practicalAnalysis": "答題須先陳述現行法制，再提出可行改善，避免把個人偏好當作制度現況。強制／自由引水、引水區域、資格、證照、登記、辦事處及監督是制度骨架；改善建議則以訓練、疲勞、風險管理、裝備、通報與跨單位協作展開。",
+    "keyPoints": [
+      {
+        "point": "引水法第3至5條：主管機關、引水區域及強制／自由引水制度",
+        "importance": "essential"
+      },
+      {
+        "point": "考試、執業證書與區域登記制度",
+        "importance": "essential"
+      },
+      {
+        "point": "引水人辦事處及輪值管理",
+        "importance": "essential"
+      },
+      {
+        "point": "船長與引水人職責區分",
+        "importance": "essential"
+      },
+      {
+        "point": "能力本位訓練、複訓與事故案例",
+        "importance": "essential"
+      },
+      {
+        "point": "BRM、MPX、疲勞管理及安全通報",
+        "importance": "essential"
+      },
+      {
+        "point": "引水艇與登輪設施安全、VTS及拖船協作",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "引水法（110年度考試適用歷史版本）",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=H0028005&type=-1",
+        "sourceType": "law_or_regulation",
+        "issuer": "交通部",
+        "supports": "引水制度、主管機關、強制與自由引水、執業資格等法制骨架。"
+      },
+      {
+        "title": "引水人管理規則歷史版本",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=H0029004&type=-1",
+        "sourceType": "law_or_regulation",
+        "issuer": "交通部",
+        "supports": "引水人辦事處、輪值、執業證書、登記及學習制度；應選110年當時版本。"
+      },
+      {
+        "title": "IMO A.960(23)",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960(23).pdf",
+        "sourceType": "IMO_resolution",
+        "issuer": "IMO",
+        "supports": "引水人訓練、資格與作業程序建議。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "本題屬制度評論題，改善建議為專業分析，不代表現行法定義務。引用管理規則時須以2021年有效歷史版本，不得套用113年全文修正後條文。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-pilot-law-02",
+    "questionId": "110-pilot-law-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "《商港法》涉及公權力的港埠管理事項，可按管理目的分述：一、港區秩序與進出港管制：主管機關及商港經營事業機構依法管理船舶進出港、停泊、移泊、船席及錨地，必要時發布航行限制、交通管制或命令。二、航行安全及交通管理：規範船舶航行速度、航道使用、避讓、拖船、引水、VTS及港區安全措施；對危險狀況得要求採取必要措施。三、港區設施及水域管理：管理碼頭、堤防、航道、錨地、助導航設施及港區水域使用，對妨害港埠設施或航行安全的行為依法處理。四、危險物品與污染防制：對危險物品裝卸、儲存、運送及船舶污染防制訂定管理要求，並得進行檢查、要求改善或採取緊急措施。五、港區安全與保全：對港區進出、作業秩序、設施安全及必要之管制措施依法執行。六、事故及緊急應變：發生海難、火災、污染或其他緊急事件時，主管機關得指揮、協調救助、移泊、疏散及必要的安全措施。七、行政監督與裁罰：依法實施檢查、命令改善、停止作業、撤銷或限制許可，以及裁處罰鍰等行政措施。八、公共設施及港埠建設管理：依法規劃、建設、維護港埠設施，並以許可、使用管理及收費制度維持公共港埠秩序。結語：公權力核心在於主管機關基於法律授權，對不特定或特定對象作成具有拘束力的管制、命令、許可、檢查及裁罰；港務公司提供營運服務或執行受委託事項時，仍須區分其民營／公營事業管理行為與依法行使公權力的行政行為。",
+    "practicalAnalysis": "本題不能把港務公司所有商業營運活動都概括稱為公權力。答題應指出法律授權來源、行政目的及對外拘束效果，並區分行政機關依法作成的管制處分、港務公司營運契約與一般民事服務。",
+    "keyPoints": [
+      {
+        "point": "船舶進出港、停泊、移泊、船席與錨地管理",
+        "importance": "essential"
+      },
+      {
+        "point": "航道、VTS、引水及拖船相關航行安全管理",
+        "importance": "essential"
+      },
+      {
+        "point": "港區設施、水域及公共資源使用管理",
+        "importance": "essential"
+      },
+      {
+        "point": "危險物品、污染防制及緊急事故應變",
+        "importance": "essential"
+      },
+      {
+        "point": "檢查、命令改善、停止作業及行政裁罰",
+        "importance": "essential"
+      },
+      {
+        "point": "辨別行政公權力與港務公司一般營運／契約行為",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "商港法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0020001",
+        "sourceType": "law_or_regulation",
+        "issuer": "法務部全國法規資料庫",
+        "supports": "商港主管機關、港埠管理、船舶管制、危險物品、污染與裁罰等法定權限。"
+      },
+      {
+        "title": "110年引水人考試航政法規原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0909&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目原文。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "本題應依2021年考試時有效《商港法》條文作答；法條條號與後續修法須另按歷史沿革核對，本文以權限類型整理，不以現行條號倒推。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-pilot-law-03",
+    "questionId": "110-pilot-law-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、依法執業：引水人應具備法定資格、執業證書及區域登記，僅在核准引水區域內執行業務，不得超越執業範圍或借用他人證照。二、遵守航行安全規定：執業時應遵守《引水法》及相關命令、商港法規、國際海上避碰規則、港區交通管制及VTS指示，並持續掌握航道、水深、潮汐、風流、航標、施工及交通狀況。三、善盡專業注意義務：登輪前確認船舶資料及操縱能力；登輪後與船長及駕駛臺團隊交換資訊，說明航路、拖船配置、風流、限制水域及緊急應變計畫；操船指令應明確、及時並確認回覆。四、維護船舶與人命安全：引水人應依專業判斷提出安全建議，遇有不安全情況應警告、要求改善；必要時拒絕或停止領航並立即通報。五、誠信與紀律：不得怠忽業務、違反職務義務、酒後執業或有其他法定禁止行為；應遵守輪值及辦事處規約，維持執業能力與裝備。六、事故通報及配合調查：發生碰撞、擱淺、污染、設備故障或其他異常時，應立即通報船長、VTS及主管機關，保存航行資料並配合調查，不得隱匿或擅自更改紀錄。七、責任認知：引水人在船上提供專業領航，不解除船長及值班駕駛員依法應負的責任；但引水人仍須對自身故意或過失及違法執業行為負相應責任。",
+    "practicalAnalysis": "申論可按「資格與範圍—安全與專業—溝通與協作—拒絕／通報—紀律與責任」作答。要特別避免寫成引水人上船後取代船長指揮全船；船長仍保有船舶整體指揮權，引水人須以專業知識協助安全航行。",
+    "keyPoints": [
+      {
+        "point": "執業資格、證照及區域登記",
+        "importance": "essential"
+      },
+      {
+        "point": "遵守引水法規、COLREG、商港法規及VTS指示",
+        "importance": "essential"
+      },
+      {
+        "point": "登輪前準備及Master-Pilot Exchange",
+        "importance": "essential"
+      },
+      {
+        "point": "專業注意義務與安全航行計畫",
+        "importance": "essential"
+      },
+      {
+        "point": "遇不安全條件時警告、拒絕或停止並通報",
+        "importance": "essential"
+      },
+      {
+        "point": "事故即時通報、紀錄保存及配合調查",
+        "importance": "essential"
+      },
+      {
+        "point": "船長責任不因引水人在船而解除",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "引水法（110年度考試適用版本）",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=H0028005&type=-1",
+        "sourceType": "law_or_regulation",
+        "issuer": "交通部",
+        "supports": "引水人執業、義務及監督處分法制。"
+      },
+      {
+        "title": "引水人管理規則歷史版本",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=H0029004&type=-1",
+        "sourceType": "law_or_regulation",
+        "issuer": "交通部",
+        "supports": "執業證書、區域登記、輪值與執業監督規定。"
+      },
+      {
+        "title": "IMO A.960(23)",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960(23).pdf",
+        "sourceType": "IMO_resolution",
+        "issuer": "IMO",
+        "supports": "船長、駕駛臺團隊與引水人職責及作業程序。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "條文逐款引用須再以2021年歷史版本核對；現行引水人管理規則於113年12月18日全文修正，不應套用新條號或新義務。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-pilot-law-04",
+    "questionId": "110-pilot-law-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "依《國際海上避碰規則》第10條，分道航行制（Traffic Separation Scheme, TSS）旨在分隔相反方向或交叉方向的船舶交通流，降低碰撞風險。主要內容如下：一、船舶在適用TSS內航行時，應沿適當交通流方向航行，使用相應交通航道；船舶應盡可能遠離分隔線或分隔區。二、船舶通常應由交通流方向的端部進出航道；由側面進出時，應以儘可能小的角度進出。三、船舶如須橫越交通航道，應儘可能以接近直角的方向橫越，以縮短在交通流中的時間並使其他船舶易於判斷其意圖。四、船舶不得通常進入分隔線或分隔區，除非緊急避險、避免立即危險或從事分道航行制允許的特殊作業。五、船舶應避免在交通分道端部附近錨泊；如非必要，亦應避免在TSS內錨泊。六、非使用相關交通航道的船舶，原則上應遠離TSS；小型船、帆船及漁船不得妨礙依交通航道航行船舶的安全通行。七、船舶在TSS附近航行仍須遵守其他避碰規則，包括瞭望、安全速度、碰撞危險判斷及及早採取有效避讓行動。八、分道航行制不免除任何船舶遵守其他COLREG規則的義務；受限操縱船舶、從事航道維護或其他符合條文條件的船舶，依第10條特定例外處理。",
+    "practicalAnalysis": "作答須將「交通航道、分隔線／區、進出航道、橫越、不得妨礙、端部錨泊及不免除其他規則」完整列出。TSS不是絕對單向封閉航道，也不是船舶可以不瞭望、不避碰的安全走廊。",
+    "keyPoints": [
+      {
+        "point": "TSS的目的為分隔交通流及降低碰撞風險",
+        "importance": "essential"
+      },
+      {
+        "point": "沿交通流方向使用適當航道並遠離分隔線／區",
+        "importance": "essential"
+      },
+      {
+        "point": "由端部進出；側向進出角度盡可能小",
+        "importance": "essential"
+      },
+      {
+        "point": "橫越航道盡可能接近直角",
+        "importance": "essential"
+      },
+      {
+        "point": "非必要不進入分隔區、不在TSS錨泊",
+        "importance": "essential"
+      },
+      {
+        "point": "漁船、小型船及帆船不得妨礙交通流船舶",
+        "importance": "essential"
+      },
+      {
+        "point": "第10條不免除其他COLREG規則",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "COLREG 1972 — Rule 10",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "supports": "分道航行制的法定航行規則。"
+      },
+      {
+        "title": "IMO Ships' Routeing",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/shipsrouteing.aspx",
+        "sourceType": "official_guidance",
+        "issuer": "IMO",
+        "supports": "IMO航路制度及TSS設置目的。"
+      },
+      {
+        "title": "110年引水人考試航政法規原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0909&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目原文。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "考試答案宜依COLREG第10條正式條文逐款核對；本文為條文架構摘要，未列出所有特殊作業例外的完整法定文字。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-pilotage-01",
+    "questionId": "110-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "海圖是供航海定位、航路規劃及危險避讓使用的官方水道測量成果。常見資料至少可舉十項：1. 海岸線、島嶼、礁岩及港口岸形。2. 水深測量數值（Soundings）及深度等深線。3. 海底底質，例如泥、沙、岩、貝殼等。4. 明礁、暗礁、淺灘、沉船及其他航行障礙物。5. 助導航標誌，包括燈塔、燈浮、導標、霧號及雷達標。6. 航道、分道航行制、推薦航路及航行限制區。7. 錨地、禁錨區、禁航區及軍事／危險作業區。8. 潮汐資料、潮流箭矢及流速資訊（依海圖種類及圖載資料而定）。9. 港口、碼頭、繫泊浮筒、船閘及港務設施。10. 電纜、管線、架空電纜及其他海底設施。11. 海底地形、海溝、陡坡及底質變化。12. 磁差資料、羅經玫瑰及方位基準。13. 測深基準面、比例尺、投影、圖號、版次及改正資訊。14. 引水登輪區、VTS報告點及其他地方航行資訊（如該海圖或附載資料有標示）。",
+    "practicalAnalysis": "題目只要求舉十項，考試可列12項並以水深、障礙物、航標、航道、錨地等核心資訊優先。要注意並非每張海圖都包含全部潮汐或氣象資訊，潮汐表、航路指南及燈表常是配套出版品。",
+    "keyPoints": [
+      {
+        "point": "海岸線與地形",
+        "importance": "essential"
+      },
+      {
+        "point": "水深點及等深線",
+        "importance": "essential"
+      },
+      {
+        "point": "底質",
+        "importance": "essential"
+      },
+      {
+        "point": "礁石、淺灘、沉船及障礙物",
+        "importance": "essential"
+      },
+      {
+        "point": "燈塔、燈浮、導標及雷達標",
+        "importance": "essential"
+      },
+      {
+        "point": "航道與分道航行制",
+        "importance": "essential"
+      },
+      {
+        "point": "錨地、禁航區及禁錨區",
+        "importance": "essential"
+      },
+      {
+        "point": "潮流及潮汐相關資訊",
+        "importance": "essential"
+      },
+      {
+        "point": "港口、碼頭與繫泊設施",
+        "importance": "essential"
+      },
+      {
+        "point": "海底電纜及管線",
+        "importance": "essential"
+      },
+      {
+        "point": "磁差、方位基準、比例尺與測深基準面",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "NOAA — What do the numbers mean on a nautical chart?",
+        "url": "https://oceanservice.noaa.gov/facts/sounding.html",
+        "sourceType": "official_hydrographic_guidance",
+        "issuer": "NOAA",
+        "supports": "海圖水深、危險物、助航設施及錨地等主要資料類型。"
+      },
+      {
+        "title": "110年引水人考試引港學原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0910&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目原文。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "不同國家、比例尺及用途的海圖內容會有差異；答題不應宣稱每張海圖必然載有所有潮汐、氣象或VTS資訊。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-pilotage-02",
+    "questionId": "110-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "太平洋洋流可依緯度與環流系統概分為北太平洋環流、南太平洋環流及赤道流系。北太平洋主要洋流：北赤道洋流（North Equatorial Current）向西流；黑潮（Kuroshio Current）沿菲律賓、臺灣及日本南下／北上路徑中的西邊界暖流向北流；黑潮延伸流（Kuroshio Extension）向東流；北太平洋洋流（North Pacific Current）向東流；加利福尼亞洋流（California Current）沿北美西岸向南流；阿拉斯加洋流／阿拉斯加環流（Alaska Current/Gyre）沿北美西北岸流動；親潮（Oyashio Current）為西北太平洋寒流，沿堪察加、千島及日本東北側南下。赤道區域包括北赤道洋流、南赤道洋流（South Equatorial Current，向西）及赤道逆流（Equatorial Countercurrent，主要向東）。南太平洋主要洋流：南赤道洋流向西；東澳洲洋流（East Australian Current）沿澳洲東岸向南；南太平洋洋流（South Pacific Current）向東；秘魯／洪堡洋流（Peru or Humboldt Current）沿南美洲西岸向北；另有西風漂流／南極環流（Antarctic Circumpolar Current）在南緯高緯度環繞南極向東流。",
+    "practicalAnalysis": "可用「北太平洋順時針副熱帶環流、南太平洋逆時針副熱帶環流、赤道流系、北太平洋副極地環流」組織答案。暖流／寒流名稱與方向須配合地理位置；黑潮對臺灣東部航行、潮流以外的海流估算及漂移修正特別重要。",
+    "keyPoints": [
+      {
+        "point": "北赤道洋流、南赤道洋流及赤道逆流",
+        "importance": "essential"
+      },
+      {
+        "point": "黑潮與黑潮延伸流",
+        "importance": "essential"
+      },
+      {
+        "point": "親潮",
+        "importance": "essential"
+      },
+      {
+        "point": "北太平洋洋流",
+        "importance": "essential"
+      },
+      {
+        "point": "加利福尼亞洋流",
+        "importance": "essential"
+      },
+      {
+        "point": "阿拉斯加洋流／環流",
+        "importance": "essential"
+      },
+      {
+        "point": "東澳洲洋流",
+        "importance": "essential"
+      },
+      {
+        "point": "南太平洋洋流",
+        "importance": "essential"
+      },
+      {
+        "point": "秘魯／洪堡洋流",
+        "importance": "essential"
+      },
+      {
+        "point": "南極環流／西風漂流",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "110年引水人考試引港學原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0910&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目原文。"
+      },
+      {
+        "title": "UNESCO-IOC Ocean Observations",
+        "url": "https://ioc.unesco.org/",
+        "sourceType": "intergovernmental_oceanography",
+        "issuer": "UNESCO-IOC",
+        "supports": "海洋觀測及海洋環流背景資料入口。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "洋流名稱及範圍在不同教材可能採不同分區方式；考試時以海洋學教材的標準流系圖配合方向作答。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-pilotage-03",
+    "questionId": "110-pilotage-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "空氣濕度常見表示法如下：一、絕對濕度（Absolute Humidity）：單位體積濕空氣中所含水蒸氣質量，常用g/m³表示。二、相對濕度（Relative Humidity, RH）：實際水蒸氣分壓與同溫度下飽和水蒸氣分壓之比值，以百分比表示；反映空氣距離飽和的程度。三、比濕（Specific Humidity）：濕空氣中水蒸氣質量與濕空氣總質量之比，常用g/kg或kg/kg表示。四、混合比（Mixing Ratio）：水蒸氣質量與乾空氣質量之比，常用g/kg表示。五、水蒸氣分壓（Vapour Pressure）：水蒸氣在總氣壓中所貢獻的分壓。六、露點（Dew Point）：在氣壓及水蒸氣含量近似不變下，空氣冷卻至飽和時的溫度；露點越接近氣溫，通常表示相對濕度越高。七、濕球溫度及乾濕球差：以乾球、濕球溫度差估算空氣濕度，常用於氣象觀測。",
+    "practicalAnalysis": "題目問「有那幾種表示法」，可列絕對濕度、相對濕度、比濕、混合比、水蒸氣分壓、露點及濕球法。需分清楚濕度的物理量與測量／推估方法：露點是溫度指標，乾濕球是測量方法，不宜全部當成同一類定義。",
+    "keyPoints": [
+      {
+        "point": "絕對濕度：g/m³",
+        "importance": "essential"
+      },
+      {
+        "point": "相對濕度：實際水氣壓／飽和水氣壓×100%",
+        "importance": "essential"
+      },
+      {
+        "point": "比濕：水蒸氣質量／濕空氣總質量",
+        "importance": "essential"
+      },
+      {
+        "point": "混合比：水蒸氣質量／乾空氣質量",
+        "importance": "essential"
+      },
+      {
+        "point": "水蒸氣分壓",
+        "importance": "essential"
+      },
+      {
+        "point": "露點溫度",
+        "importance": "essential"
+      },
+      {
+        "point": "乾濕球溫度及濕球差",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "110年引水人考試引港學原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0910&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目原文。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "不同氣象學教材對「濕度表示法」列舉項目略有差異；作答應優先掌握相對濕度、絕對濕度、比濕、混合比與露點。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-pilotage-04",
+    "questionId": "110-pilotage-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "潮汐依一個太陰日（約24小時50分）內高潮、低潮的次數及高度特徵，通常分為三類：一、半日潮（Semi-diurnal Tide）：一天約有兩次高潮與兩次低潮，兩次高潮高度及兩次低潮高度大致相近，潮時也較接近；臺灣西部沿岸多呈半日潮特徵。二、全日潮（Diurnal Tide）：一天約只有一次高潮及一次低潮。三、混合潮（Mixed Tide）：一天有兩次高潮與兩次低潮，但相鄰高潮或低潮的高度差明顯，潮時也可能不等；可再依日不等程度描述。潮型主要受月球、太陽引潮力、海盆形狀、海底地形、共振及地球自轉等影響。同一海岸不同港口可能因地形及潮波傳播而有不同潮型。",
+    "practicalAnalysis": "考試可先用「一天兩高兩低且近似相等／一天一高一低／一天兩高兩低但不等」作區別，再補充潮型受海盆與地形影響。不要把大小潮（朔望潮與小潮）誤當成三種基本潮型；大小潮描述潮差週期，與半日、全日、混合潮分類不同。",
+    "keyPoints": [
+      {
+        "point": "半日潮：每日兩次高潮、兩次低潮，日不等小",
+        "importance": "essential"
+      },
+      {
+        "point": "全日潮：每日一次高潮、一次低潮",
+        "importance": "essential"
+      },
+      {
+        "point": "混合潮：每日通常兩次高潮、兩次低潮，但高度或潮時不等",
+        "importance": "essential"
+      },
+      {
+        "point": "潮型受天文引潮力及海盆地形影響",
+        "importance": "essential"
+      },
+      {
+        "point": "潮型分類與大小潮分類不同",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "110年引水人考試引港學原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0910&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目原文。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "潮型應以當地潮汐資料及潮汐表判定，不能只依海域名稱推定所有港口皆屬相同潮型。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-pilotage-05",
+    "questionId": "110-pilotage-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、紅黑相間橫條紋：依IALA浮標系統，黑色與紅色橫帶相間的孤立危險物標（Isolated Danger Mark），表示其所在位置或附近有孤立危險物，周圍水域仍可通航但須保持安全距離；頂標通常為兩個黑色球形。二、紅黑相間直條紋：本題所指若為紅白垂直條紋，則為安全水域標（Safe Water Mark），表示標誌周圍均為可航水域，常用於航道中線、航道入口或 landfall；其燈色為白色，可採不同燈質。惟題幹明確寫「紅黑」，與標準IALA安全水域標的紅白配色不符，必須回看原卷圖示／題文是否有辨識或轉錄差異。三、紅黑相間方格：標準IALA浮標系統並無以紅黑方格作為通用側面標誌的標準型式；須依原題圖示、地方航標制度或特殊標誌圖例核對，不宜直接指定其意義。四、綠色浮標：在IALA A區域，進港時綠色側面標誌通常置於右舷（starboard-hand），紅色置於左舷（port-hand）；但航行方向及地方特殊規則仍須依海圖及航標表確認。",
+    "practicalAnalysis": "本題三個紅黑圖樣的顏色組合值得特別複核。IALA常見標誌為孤立危險物標黑紅橫帶、安全水域標紅白直帶、側面標誌紅／綠；「紅黑直條紋」與「紅黑方格」不能憑印象硬套。網站答案已將可確認的孤立危險物及綠色側面標誌說明，另外兩項保留圖例核對。",
+    "keyPoints": [
+      {
+        "point": "孤立危險物標：黑色主體、紅色橫帶、兩黑球頂標",
+        "importance": "essential"
+      },
+      {
+        "point": "安全水域標標準配色為紅白垂直條紋，題目紅黑文字需核原卷",
+        "importance": "essential"
+      },
+      {
+        "point": "IALA A區域進港：綠標通常為右舷側標",
+        "importance": "essential"
+      },
+      {
+        "point": "特殊標誌及地方標誌須依海圖、航標表與原圖判讀",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "110年引水人考試引港學原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0910&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目原始圖樣及用字須回看。"
+      },
+      {
+        "title": "IALA Maritime Buoyage System",
+        "url": "https://www.iala-aism.org/product/iala-maritime-buoyage-system/",
+        "sourceType": "international_standard",
+        "issuer": "IALA",
+        "supports": "側面標誌、孤立危險物標、安全水域標及特殊標誌的標準色彩與頂標。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "題幹的「紅黑相間直條紋」及「紅黑相間方格」未能僅依標準IALA浮標類別確認；須檢視考選部原卷圖示或當時臺灣航標圖例，未核實前不作確定判讀。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-shiphandling-01",
+    "questionId": "110-shiphandling-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、基本原理：艏推器與拖船均可提供橫向力，但不能直接以裝置功率（kW）或主機馬力換算拖船繫纜樁拉力（bollard pull）。艏推器的實際推力取決於螺槳直徑、轉速、導管、船體開口、吃水、流場及電機／液壓系統效率；拖船BP則是拖船在靜水、零航速、指定試驗條件下可提供的靜態拉力。二、單位換算：3,730kW約等於5,000公制馬力（1kW≈1.3596PS），但這只是功率換算，並非推力換算。三、平衡方法：若要使船艏與船艉橫向力平衡，應比較兩者在實際拖帶角度下的有效橫向分力，並考慮作用點到船舶旋迴支點的力臂。力平衡需滿足ΣFy≈0；若要避免船舶產生艏搖，還需考慮ΣN≈0，即橫向力與其力臂所形成的力矩平衡。四、拖船施力不如艏推器的可能原因：拖纜角度使有效橫向分力下降；拖船推進器效率或拖力不足；拖船受本船船體遮蔽、吸流或排流干擾；拖船位置與力臂不利；拖纜鬆弛、受力方向不正或拖船尚未建立拖力；艏推器在零速附近可迅速提供橫向力，而拖船受操縱反應、纜繩及水域限制；船舶前進速度、吃水及船體流場亦會影響艏推器效能。",
+    "practicalAnalysis": "題目未提供艏推器製造商推力曲線或拖船BP資料，因此不能可靠算出唯一噸數。答題應明確指出功率相等不代表推力相等，並以有效橫向力及力矩平衡解釋。若題目要求數值，須取得艏推器額定推力（kN或tf）後再換算為拖船BP。",
+    "keyPoints": [
+      {
+        "point": "3,730kW約為5,000PS，但不可直接視為5,000HP拖船BP",
+        "importance": "essential"
+      },
+      {
+        "point": "功率與推力是不同物理量",
+        "importance": "essential"
+      },
+      {
+        "point": "比較有效橫向分力及旋迴力矩，而非只比馬力",
+        "importance": "essential"
+      },
+      {
+        "point": "拖纜角度、拖點、力臂、遮蔽及拖船反應影響拖力",
+        "importance": "essential"
+      },
+      {
+        "point": "須取得艏推器推力曲線與拖船BP證明才可定量配對",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "110年引水人考試船舶操縱原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0911&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目給定艏推器功率與拖船BP問題。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "題目未提供艏推器實際推力及拖船BP資料；不以馬力對馬力換算噸數，避免虛構精確數值。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-shiphandling-02",
+    "questionId": "110-shiphandling-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、先辨明Steady指令：在操舵口令中，Steady通常是要求停止船首偏轉並穩住當前航向／舵角狀態，並非保證船舶對地航跡已與港口中心線重合。應依船上既定舵令用語及舵手回覆確認。二、橫流影響：入口橫流3節相當強，船舶對地運動會產生顯著漂移；船艏朝向、船舶航跡及船體對水航速是不同概念。接近防波堤時若只以船首指向入口而未預留流壓修正，船體可能被推向堤頭或航道邊界。三、Steady時機：引水人應預先估算橫流方向、流速、船舶對水速度、漂角、船長及操舵反應，設定足夠提前量；在船首轉至預定修正航向後，於船舶偏轉率降至可控時下達Steady，並確認舵角回中或維持舵角的實際口令含義。四、操船注意：保持足夠但不過大的對水舵效，避免低速失舵；不以大角度急轉造成艏搖及艉部掃堤；使用雷達平行指標、岸標方位、GPS SOG/COG與艏向資料交叉監控；必要時調整進場速度與航向，及早中止進場。五、團隊協作：與船長、舵手及VTS確認口令、橫流資料、主機備便及中止點；如船舶偏移超出可修正範圍，應及早採取安全措施，而非等到堤頭近距離才急轉。",
+    "practicalAnalysis": "核心是不要把船首航向當成地面航跡。Steady的下令時機應考慮偏轉率與流壓修正後的預定艏向，並以實際對地航跡是否落在安全通道內作持續判斷。",
+    "keyPoints": [
+      {
+        "point": "區分heading、course over ground及船舶漂角",
+        "importance": "essential"
+      },
+      {
+        "point": "3節橫流會造成顯著對地漂移",
+        "importance": "essential"
+      },
+      {
+        "point": "Steady是控制船首偏轉／穩住航向，不等於航跡安全",
+        "importance": "essential"
+      },
+      {
+        "point": "提前估算流壓與轉向提前量",
+        "importance": "essential"
+      },
+      {
+        "point": "使用岸標、雷達、ECDIS及GPS交叉監控",
+        "importance": "essential"
+      },
+      {
+        "point": "保留中止進場與主機備便能力",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "110年引水人考試船舶操縱原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0911&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目條件與Steady口令。"
+      },
+      {
+        "title": "IMO A.960(23)",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960(23).pdf",
+        "sourceType": "IMO_resolution",
+        "issuer": "IMO",
+        "supports": "引水人與船長／駕駛臺團隊溝通及引航作業。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "Steady的具體舵令執行方式須依船舶採用的舵令體系、船長及舵手理解確認；題目未提供入口流向及船舶速度，不能指定唯一艏向修正角。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-shiphandling-03",
+    "questionId": "110-shiphandling-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、消極護航（Passive escorting）：拖船在被護航船附近保持待命或伴航位置，通常不持續施加拖力；當船舶航行正常時，拖船以可迅速接近、接拖及協助操縱的狀態跟隨。其目的在於提供緊急支援及縮短反應時間。二、積極護航（Active escorting）：拖船以拖纜或推頂方式與被護航船建立實際作用，持續或按需要施加控制力，協助控制航向、速度、偏移或緊急減速。三、差異：被動護航重在備援與快速介入，船舶正常時拖船不一定承受拖力；主動護航則已建立物理連接或持續施力，拖船可即時提供方向控制或制動力，但拖纜張力、拖點與相對運動風險較高。四、注意事項：護航前須評估船舶尺度、吃水、速度、操縱性能、風流、航道寬度及拖船性能；確認拖點、拖纜強度、拖纜長度、快速脫纜、通訊口令及緊急應變。拖船不得進入本船艉流、螺槳危險區或船體吸流區；拖纜角度與張力須持續監控，避免拖船被拖翻、纜繩斷裂或船體碰撞。主動護航須確認施力不造成被護航船失控或過度偏航；被動護航亦須保持足夠距離與速度差，以確保緊急介入有效。",
+    "practicalAnalysis": "可用「有無實際施力／是否建立拖纜連接」區分兩者，但各港及拖船公司操作程序可能有不同定義。考試答案應先下定義，再比較控制能力、反應時間、風險及適用場景。",
+    "keyPoints": [
+      {
+        "point": "Passive：伴航待命，不持續施力，保留快速介入能力",
+        "importance": "essential"
+      },
+      {
+        "point": "Active：拖纜連接或推頂，實際施加控制力",
+        "importance": "essential"
+      },
+      {
+        "point": "主動護航可控制航向／速度，但纜繩張力及拖船安全風險較高",
+        "importance": "essential"
+      },
+      {
+        "point": "評估拖點、拖纜、速度、風流、航道及拖船性能",
+        "importance": "essential"
+      },
+      {
+        "point": "約定通訊、緊急脫纜及失控處置",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "110年引水人考試船舶操縱原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0911&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目原文。"
+      },
+      {
+        "title": "IMO A.960(23)",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960(23).pdf",
+        "sourceType": "IMO_resolution",
+        "issuer": "IMO",
+        "supports": "引水人、拖船及船舶操縱安全協調的一般原則。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "Passive/active escorting在不同港口與拖船操作手冊可能有特定定義；本文採一般操船概念，應再對照原題所依教材或港方拖船規範。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-shiphandling-04",
+    "questionId": "110-shiphandling-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "劍型船艏（Seaworthy Bow／Sea Sword Bow）是一種較細長、向前延伸或具有特殊入水線形的船艏設計，設計理念通常著重降低波浪衝擊、改善迎浪航行性能、減少砰擊（slamming）及降低阻力，並可能改善艏部波浪穿越與甲板上浪情形。其實際幾何形式依船廠與船型而異，不能把所有稱為Sword Bow的設計視為同一標準船型。一、對縱向運動：較尖細的艏部可能改變浮力分布與縱搖反應，降低部分迎浪砰擊，但也可能影響艏部升沉及波浪中縱搖幅度。二、對阻力與航速：在特定航速、載況及波浪條件下可能減少興波阻力或波浪附加阻力，但不代表所有航速與海況都更省油。三、對耐波性：可改善某些迎浪條件下的入浪與甲板上浪，但橫浪、斜浪、追浪及低速操縱時的效果須依模型試驗及實船資料評估。四、對操縱性：艏部水線形狀、浸水長度及側向投影面積改變，可能影響風壓中心、側向力、艏搖慣性與轉向反應；在港內低速時不可只依遠洋耐波性推定其操縱性能。五、限制：艏部結構強度、貨艙容積、錨設備、視線、建造成本及不同載況下的浮態均須整體設計。",
+    "practicalAnalysis": "本題要避免把行銷名稱當成單一船型標準。應先說明設計目標，再分別討論阻力、耐波、砰擊、縱搖、上浪及操縱性，並強調效益依船型、航速、載況與波浪方向而異。",
+    "keyPoints": [
+      {
+        "point": "劍型艏為特殊艏部線型，非單一國際標準船型",
+        "importance": "essential"
+      },
+      {
+        "point": "設計可能著重降低波浪阻力、砰擊及上浪",
+        "importance": "essential"
+      },
+      {
+        "point": "影響縱搖、升沉及艏部浮力分布",
+        "importance": "essential"
+      },
+      {
+        "point": "阻力改善具航速、載況及海況條件性",
+        "importance": "essential"
+      },
+      {
+        "point": "風壓中心、側向力及低速操縱反應亦可能改變",
+        "importance": "essential"
+      },
+      {
+        "point": "需以船廠線型、模型試驗及實船數據支持",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "110年引水人考試船舶操縱原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0911&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目原文。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "未取得本題指定的劍型船艏設計圖或特定船廠技術論文；對其幾何特徵及性能增益採一般性分析，不提供未經證實的百分比或單一性能結論。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-shiphandling-05",
+    "questionId": "110-shiphandling-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "由牛頓第二運動定律及功—能定理推導。船舶質量為m，初速為v，受到大小近似固定、方向與運動相反的制動力F，停止距離為S。初始動能為(1/2)mv²，停止時動能為0；制動力所作負功大小為F×S，因此F S=(1/2)mv²，得S=mv²/(2F)。若m以公噸（tonne）表示，v以節（kn）表示，F以公噸力（tf）表示，S以公尺表示，則1kn=0.514444m/s，1tf=9.80665kN=9806.65N，1tonne=1000kg。代入SI單位：S=[1000m×(0.514444v)²]/[2×9806.65F]，整理得S≈0.01349×(mv²/F)，四捨五入即S=0.0135×(mv²/F)。因此係數0.0135來自節、公噸及公噸力轉換。實際船舶倒俥停止距離不會完全符合此簡化式，因制動力隨主機倒俥建立時間、螺槳反轉效率、船速、船體阻力、風流、淺水效應及船舶載況改變；若F不是恆定平均制動力，應使用積分或實船試驗資料。",
+    "practicalAnalysis": "本題的得分重點是先用能量守恆推得S=mv²/2F，再代入單位換算說明0.0135。需明確寫出m=公噸、v=節、F=公噸力、S=公尺；若題目未交代單位，應指出此係數只在上述單位制下成立。",
+    "keyPoints": [
+      {
+        "point": "功—能定理：FS=½mv²",
+        "importance": "essential"
+      },
+      {
+        "point": "S=mv²/(2F)",
+        "importance": "essential"
+      },
+      {
+        "point": "1kn=0.514444m/s",
+        "importance": "essential"
+      },
+      {
+        "point": "1tonne=1000kg；1tf=9806.65N",
+        "importance": "essential"
+      },
+      {
+        "point": "代入得係數約0.01349，四捨五入0.0135",
+        "importance": "essential"
+      },
+      {
+        "point": "實際倒俥制動力並非常數，公式僅為理想化估算",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "110年引水人考試船舶操縱原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0911&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "公式及題目符號定義。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "推導假設制動力為常數，忽略倒俥建立時間、船體阻力變化、風流與淺水效應；實務上應以船舶操縱手冊及試航資料為準。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-shiphandling-06",
+    "questionId": "110-shiphandling-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、可能肇事原因：1. 進港前對吹攏風與漲潮流的合成效果估計不足，船舶可能被推向碼頭，且風力變化4至14節使風壓並非穩定。2. 13,900TEU貨櫃船受風面積大，駕駛臺位於船舯，視線盲區與船體長度造成艏艉位置判斷及碼頭間隙估計困難。3. 船舶前進速度過高或進場角度不當，造成接近碼頭後仍有較大縱向動能，拖船與艏推器不足以及時修正。4. 兩艘5,000HP拖船雖配置在艏艉，但若拖點、拖纜角度、拖船相對位置或施力時機不佳，可能無法產生所需橫向力矩；拖船馬力不等於實際BP。5. 艏推器2,800HP在船舶有前進速度時可能受流場影響，且艏推器作用位置與駕駛臺／旋迴支點的力臂不同，無法單獨控制全船側移。6. 船長、引水人、舵手及拖船間可能存在指令回讀、語言、BRM或VTS協調不足；題目未提供VDR、ECDIS、拖船紀錄，不能將任何一項直接認定為事故事實。二、避免方法：進港前完成MPX及風流風險評估，確認船舶風壓中心、艏艉受力、主機舵機及艏推器限制；預先設定進場航向、速度、轉向點、拖船工作位置及中止點。以低速、可控的對水速度接近，提前利用拖船建立側向控制，避免最後階段才大幅施力；保持船舶與碼頭平行或採小角度接近，持續監控橫移速度、艏艉間隙與船尾掃掠範圍。若風流變化或定位誤差超出預設門檻，應中止靠泊、退出或重新定位。三、改善：使用岸基雷達／雷射靠泊監測、即時風流資料、拖船推力與纜繩張力回報、駕駛臺翼樓觀測員及明確口令；事故後檢討VDR、AIS、ECDIS、VTS通話、拖船作業紀錄及氣象資料，建立近失事件回饋。",
+    "practicalAnalysis": "本題附圖是判斷船舶相對碼頭角度、靠泊位置及拖船配置的重要資料；目前題文未包含原卷圖面，故答案採通用事故分析架構，不臆測船舶當時的艏向、進場速度或碰撞點。事故原因應以證據分級：已知條件、合理假設、仍待VDR驗證。",
+    "keyPoints": [
+      {
+        "point": "大型貨櫃船風壓面積及風流合成效應",
+        "importance": "essential"
+      },
+      {
+        "point": "進場速度、角度與剩餘動能",
+        "importance": "essential"
+      },
+      {
+        "point": "駕駛臺位於船舯的視線及艏艉間隙判斷",
+        "importance": "essential"
+      },
+      {
+        "point": "艏推器推力與拖船實際BP、拖點力臂及施力時機",
+        "importance": "essential"
+      },
+      {
+        "point": "BRM、MPX、拖船通訊及VTS協調",
+        "importance": "essential"
+      },
+      {
+        "point": "設定中止點，低速接近並監控橫移速度",
+        "importance": "essential"
+      },
+      {
+        "point": "使用VDR、AIS、ECDIS及拖船紀錄驗證事故原因",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "110年引水人考試船舶操縱原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0911&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "船舶尺度、風流、艏推器、拖船及碰撞情境。"
+      },
+      {
+        "title": "IMO A.960(23)",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960(23).pdf",
+        "sourceType": "IMO_resolution",
+        "issuer": "IMO",
+        "supports": "引水人與船長、駕駛臺團隊之協作及安全引航程序。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "原題附圖未在目前可讀題文中取得；船舶與碼頭相對位置、接觸點及進場方向需回看官方原卷圖示。",
+      "未取得事故VDR、AIS、氣象、VTS及拖船紀錄，因此原因屬可能因素分析，不是對實際事故的確定歸因。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-english-01",
+    "questionId": "110-english-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "（一）船舶在狹窄水域航行時，碰撞或擱淺的風險會隨之增加。因此，在開始於此類水域航行之前，應依安全管理系統（SMS）執行風險分析，以確保備援系統隨時可供使用。\n（二）船舶在受限制水域航行時，必須保持高度警覺的目視瞭望，並經常前往船舶兩側的駕駛臺翼樓查看。狹窄及受限制水域，以及所有警戒區內，均禁止追越。當船長或引水人對附近其他船舶的航行意圖存有疑慮時，基於航行安全考量，應鳴放五短聲警告號。",
+    "practicalAnalysis": "翻譯重點：narrow waters可譯狹窄水域；confined waters可譯受限制水域；back-up systems為備援系統；bridge wings為駕駛臺翼樓；precautionary areas為警戒區；five short blasts為五短聲警告號。原文中「It is forbidden to overtake...all precautionary areas」是題目提供的敘述，實務與法規解讀仍應以COLREG及當地航道規定為準。",
+    "keyPoints": [
+      {
+        "point": "狹窄水域、碰撞或擱淺風險",
+        "importance": "essential"
+      },
+      {
+        "point": "SMS風險分析與備援系統",
+        "importance": "essential"
+      },
+      {
+        "point": "駕駛臺翼樓目視瞭望",
+        "importance": "essential"
+      },
+      {
+        "point": "狹窄／受限水域與警戒區追越限制之原文翻譯",
+        "importance": "essential"
+      },
+      {
+        "point": "五短聲為警告／疑問信號",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "110年引水人考試專業英文原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0912&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "英文原文及配分。"
+      },
+      {
+        "title": "COLREG 1972",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "supports": "聲號及避碰規則背景。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "此題為忠實翻譯練習；原文對警戒區追越的絕對敘述應與適用海域的法規及地方規定分別理解，不宜由翻譯直接推論所有水域一律禁止。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-english-02",
+    "questionId": "110-english-02",
+    "version": 1,
+    "language": "en",
+    "answerType": "essay",
+    "modelAnswer": "All vessels shall proceed at a safe speed appropriate to the prevailing circumstances and conditions of restricted visibility, and shall maintain a proper lookout. A power-driven vessel shall have her engines ready for immediate manoeuvre. When a vessel detects another vessel by radar alone, she shall determine whether a close-quarters situation and/or risk of collision is developing. If so, she shall take avoiding action in ample time. Where such action consists of an alteration of course, the following manoeuvres should, so far as possible, be avoided: (1) an alteration of course to port for a vessel forward of the beam, other than a vessel being overtaken; and (2) an alteration of course towards a vessel abeam or abaft the beam.",
+    "practicalAnalysis": "翻譯與法規用語對照：safe speed＝安全速度；restricted visibility＝能見度受限制；proper lookout＝適當瞭望；close-quarters situation＝逼近情勢；risk of collision＝碰撞危險；avoiding action＝避碰行動；forward of the beam＝正橫前方；abeam＝正橫；abaft the beam＝正橫後方。此段內容主要對應COLREG第6、7、8及19條的精神，應保留shall等義務語氣。",
+    "keyPoints": [
+      {
+        "point": "使用shall保留法規義務語氣",
+        "importance": "essential"
+      },
+      {
+        "point": "restricted visibility不可誤譯為完全無能見度",
+        "importance": "essential"
+      },
+      {
+        "point": "radar alone要保留僅由雷達發現他船的情境",
+        "importance": "essential"
+      },
+      {
+        "point": "close-quarters situation與risk of collision分開翻譯",
+        "importance": "essential"
+      },
+      {
+        "point": "port alteration的兩項限制要完整保留",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "110年引水人考試專業英文原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0912&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "中文原文及配分。"
+      },
+      {
+        "title": "COLREG 1972",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "supports": "安全速度、瞭望、雷達及能見度受限制時避碰規則。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "此為考題中譯英參考版本；不同教材對部分COLREG固定用語可能採略有差異的譯法。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-english-03",
+    "questionId": "110-english-03",
+    "version": 1,
+    "language": "en",
+    "answerType": "essay",
+    "modelAnswer": "(1) Anchorage: A designated area of water where a vessel may anchor, usually to wait for a berth, orders, favourable conditions or further instructions.\n\n(2) Approaches: The waters leading to a port, harbour, channel or terminal, through which vessels proceed when arriving at or departing from that place.\n\n(3) Breakwater: A structure built in the sea or at the entrance of a harbour to reduce wave energy and provide shelter for the harbour or its entrance.\n\n(4) Deadweight (DWT): The total weight a ship can safely carry, including cargo, fuel, fresh water, stores, crew and passengers, measured in tonnes. It is the difference between the ship's displacement at the loaded condition and at the lightship condition.",
+    "practicalAnalysis": "用語注意：Anchorage是錨地，不是錨本身；Approaches通常指港口外側進出航道／接近水域；Breakwater是防波堤；Deadweight是載重噸，與Gross Tonnage（總噸）不同，DWT是重量單位，GT是按船舶容積計算的無因次指標。",
+    "keyPoints": [
+      {
+        "point": "Anchorage：designated anchoring area",
+        "importance": "essential"
+      },
+      {
+        "point": "Approaches：waters leading to a port or harbour",
+        "importance": "essential"
+      },
+      {
+        "point": "Breakwater：structure reducing wave energy and sheltering a harbour",
+        "importance": "essential"
+      },
+      {
+        "point": "Deadweight：cargo、fuel、stores、water、crew等總可載重量",
+        "importance": "essential"
+      },
+      {
+        "point": "DWT與GT不得混淆",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "110年引水人考試專業英文原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0912&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "四個術語及配分。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "定義採一般航海英文用法；Approaches在不同海圖及港務語境中可指港口接近水域或進港航道。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-110-english-04",
+    "questionId": "110-english-04",
+    "version": 1,
+    "language": "en",
+    "answerType": "essay",
+    "modelAnswer": "Bridge Resource Management (BRM) training for pilots should develop the ability to use all available human, technical and informational resources to conduct pilotage safely and efficiently. The course should begin with the pilot's role and the relationship between the pilot, master and bridge team. It should emphasize that the master retains overall responsibility for the ship, while the pilot contributes local knowledge and professional advice. Participants should practise a structured Master-Pilot Exchange, including the passage plan, ship manoeuvring characteristics, engine and steering limitations, under-keel clearance, weather, tide, current, traffic, tug allocation, VTS procedures, abort points and emergency arrangements.\n\nThe course should include closed-loop communication, standard marine phraseology, challenge-and-response techniques, shared situational awareness, leadership, teamwork, workload management and decision-making under pressure. Pilots should learn to recognize fatigue, stress, authority gradients, language barriers and cultural differences that may prevent a bridge team member from speaking up. Simulator exercises should cover confined waters, strong cross-currents, restricted visibility, equipment failure, loss of propulsion or steering, tug coordination, aborted berthing and emergency departure. Case studies of collisions, groundings and near misses should be analysed to identify human-factor contributions and practical lessons.\n\nThe objectives are to ensure that pilots can: (1) establish a common mental model with the master and bridge team; (2) communicate intentions clearly and verify that orders are understood; (3) detect errors and intervene constructively; (4) maintain situational awareness and continuously reassess risk; (5) coordinate tugs, VTS and other port services; (6) manage workload and fatigue; and (7) make timely decisions, including aborting an operation when safety margins are inadequate. Assessment should combine simulator performance, scenario debriefing and demonstrated communication skills. BRM should be recurrent and adapted to local port risks, ship types and operational experience.",
+    "practicalAnalysis": "作文約300字，採「課程內容—訓練方法—課程目標—評量」結構。要凸顯引水人不是船員指揮鏈中的船長，但必須與船長及駕駛臺團隊建立共同情境認知；BRM重點不只是溝通口號，而是可觀察的回讀、交叉檢查、決策與中止作業能力。",
+    "keyPoints": [
+      {
+        "point": "Master-Pilot Exchange與共同航行計畫",
+        "importance": "essential"
+      },
+      {
+        "point": "船長最終責任及引水人專業角色",
+        "importance": "essential"
+      },
+      {
+        "point": "Closed-loop communication及standard phraseology",
+        "importance": "essential"
+      },
+      {
+        "point": "Shared situational awareness、teamwork與leadership",
+        "importance": "essential"
+      },
+      {
+        "point": "人因、疲勞、壓力、語言及權威梯度",
+        "importance": "essential"
+      },
+      {
+        "point": "模擬器情境：狹水道、強流、失機、拖船及中止靠泊",
+        "importance": "essential"
+      },
+      {
+        "point": "目標：溝通、風險辨識、決策、協調及安全中止",
+        "importance": "essential"
+      },
+      {
+        "point": "以模擬器、情境檢討及溝通表現評量，定期複訓",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "110年引水人考試專業英文原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0912&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "作文題目及字數要求。"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960(23).pdf",
+        "sourceType": "IMO_resolution",
+        "issuer": "IMO",
+        "supports": "引水人訓練、引航程序及船長／駕駛臺團隊協作。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "此為英文作文參考稿，非官方標準答案；實際字數及評分依考選部閱卷標準（未取得）為準。"
+    ],
+    "verification": {
+      "status": "draft",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目文字與題號",
+          "result": "pass",
+          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
