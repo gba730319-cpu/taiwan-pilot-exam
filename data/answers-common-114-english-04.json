@@ -48,6 +48,14 @@
         "pageOrSection": "Annex 2, sections 2, 5 and 6",
         "accessedAt": "2026-11-07",
         "supports": "引水作業責任分工、引水前資訊交換及持續溝通。"
+      },
+      {
+        "title": "TTSB-MFR-25-06-002 — 通運輪與FPMC B FOREVER於高雄港會遇觸碰離岸堤事故調查報告",
+        "sourceType": "official_incident_investigation",
+        "issuer": "國家運輸安全調查委員會",
+        "editionOrEffectiveDate": "114-06-16",
+        "url": "https://www.ttsb.gov.tw/media/8563/%E9%80%9A%E9%81%8B%E6%B2%B9%E8%BC%AA%E8%88%87fpmc-b-forever%E6%95%A3%E8%A3%9D%E8%88%B9%E8%AA%BF%E6%9F%A5%E5%A0%B1%E5%91%8A_%E7%99%BC%E5%B8%83.pdf",
+        "supports": "MPX資訊交換不足、駕駛臺團隊未充分確認引水人操船意圖及監控不足的實際事故案例。"
       }
     ],
     "assumptions": [],
@@ -72,9 +80,26 @@
           "item": "官方評分細則",
           "result": "needs_review",
           "note": "未取得官方評分細則。"
+        },
+        {
+          "item": "作文長度及題旨",
+          "result": "pass",
+          "note": "約310字，符合around 300 words；主旨聚焦引水人與船舶駕駛臺團隊溝通的重要性。"
+        },
+        {
+          "item": "IMO MPX原則與船長責任",
+          "result": "pass",
+          "note": "依IMO A.960(23)核對引水前資訊交換、引航中持續溝通及船長／值班駕駛員責任。"
+        },
+        {
+          "item": "實務案例支撐",
+          "result": "pass",
+          "note": "加入TTSB通運輪事故調查中MPX及駕駛臺監控不足的調查發現作為案例。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "answer": "**Importance of Communication between Pilots and the Ship’s Bridge Team**\n\nEffective communication between a pilot and the ship’s bridge team is essential for safe navigation, especially in confined waters, ports and areas with heavy traffic. A pilot contributes local knowledge of channels, tides, currents, traffic patterns and port regulations. However, the pilot’s presence on board does not relieve the master or the officer in charge of the navigational watch of their responsibilities.\n\nBefore pilotage begins, the master and the pilot should conduct a thorough Master-Pilot Information Exchange (MPX). The master should provide the ship’s particulars, draught, manoeuvring characteristics, engine and steering conditions, defects and operational limitations. The pilot should explain the intended route, courses, speeds, turning points, tug requirements, traffic situation and contingency plans. Both parties should discuss weather, visibility, tides, currents, under-keel clearance and foreseeable hazards, ensuring that they share the same understanding of the passage plan.\n\nCommunication must continue throughout pilotage. The pilot should clearly explain intended manoeuvres and give timely helm and engine orders. The officer of the watch should repeat and confirm orders, monitor the vessel’s position and movement, and report any deviation from the agreed plan. Closed-loop communication helps prevent misunderstandings. The bridge team must remain alert and should respectfully question an order or intervene when an unsafe situation is developing. Communications with VTS, tug masters and mooring teams should also be clear and coordinated.\n\nIf conditions change, such as an unexpected current, traffic conflict, poor visibility or equipment failure, the pilot and master should reassess the plan together. The Kaohsiung Port TONG YUN accident investigation highlighted the risks of incomplete information exchange and insufficient bridge-team monitoring during pilotage.\n\nIn conclusion, safe pilotage is a team effort. Mutual respect, clear language, continuous information exchange and active monitoring combine the pilot’s local expertise with the crew’s knowledge of the ship. Good communication reduces human error and improves the safety and efficiency of port operations.",
+    "analysis": "文章約310字，符合around 300 words。架構為重要性、MPX、引航中閉環溝通、異常情況及案例、結論。核心須同時呈現引水人的地方知識、船長及值班駕駛員不因引水人在船而免責、駕駛臺持續監控與必要時提出質疑。以高雄港通運輪事故調查作為實務例證：TTSB指出引水前資訊交換不足、駕駛臺監控與協作不足可能增加風險。"
   }
 ]
