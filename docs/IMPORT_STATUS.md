@@ -222,3 +222,11 @@
 - PMA報告記載風向在通過期間明顯變化，船舶受風面積大；靠近左岸且航速高時，squat與bank effect加劇。引水人未依惡劣天候請求拖輪、以大幅hard port／hard starboard舵令修正、未持續核對航跡；駕駛臺溝通不足亦使團隊難以及時理解風險。
 - 報告未發現導航或機械缺陷，舵角指示器及舵機未見操作故障；答案已避免把事故歸因於未證實的機械故障。
 - 官方摘要：https://www.mof.go.kr/doc/ko/selectDoc.do?bbsSeq=10&docSeq=54655&menuSeq=971；PMA原始報告：https://marineindustrynews.co.uk/wp-content/uploads/2023/07/Final-Investigation-Report-Ever-Given-23-March-2021.pdf
+
+
+### 114 年船舶操縱第 2 題：SRP 與 VSP 拖船原理及優缺點核對（2026-11-07）
+- 依SCHOTTEL原廠資料確認SRP為360°方位舵槳，推進與轉向整合，可有L-drive／Z-drive、FPP／CPP及不同導管配置；不能把單一型號性能套用全部SRP。
+- 依Voith原廠資料確認VSP為垂直軸轉子搭配4、5或6片垂直葉片，葉片在轉子旋轉時週期變角；轉子轉速／葉片擺幅影響推力大小，控制角決定推力方向，可360°無段調整。
+- 修正原答案對VSP維護成本的過度概括：Voith原廠稱其可靠且維護需求低，因此不應籠統寫成VSP必然維修昂貴；改以專業維修、備件及船底設備損傷風險描述。
+- 強調SRP同樣能360°轉向及提供橫向推力，不能寫成SRP只能前後推、VSP才可橫移；兩者繫柱拉力、效率及油耗須依同條件型號數據比較。
+- 原廠來源：SCHOTTEL https://www.schottel.de/en/portfolio/products/product-details/srp-schottel-rudderpropeller；Voith https://www.voith.com/corp-en/drives-transmissions/voith-schneider-propeller-vsp.html；Voith VSP原理 https://www.voith.com/corp-en/ernst-schneider.html
