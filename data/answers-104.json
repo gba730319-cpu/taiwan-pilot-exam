@@ -981,8 +981,8 @@
   },
   {
     "questionId": "104-pilotage-01",
-    "modelAnswer": "【2027年考試主答｜季風的定義、成因及主要分布區】\n\n一、**定義**\n季風（Monsoon）是大尺度、具有季節性的盛行風系，其風向在一年不同季節發生顯著轉變，典型情形為夏、冬季風向近乎反轉。季風通常伴隨降雨、濕度及海氣環流的季節變化，但「季風」不等於單純的海陸風，也不要求每一地區風向都完全反轉。\n\n二、**形成原因**\n1. **海陸熱容量差異：**陸地升溫、降溫通常比海洋快，造成季節性熱力差異及氣壓分布改變。\n2. **季節性氣壓系統：**夏季大陸較暖，容易形成熱低壓，海洋相對較高壓，低層氣流常由海洋吹向大陸；冬季大陸冷卻較快，形成相對高壓，氣流常由大陸吹向海洋。\n3. **地球自轉偏向力：**使氣流偏轉，影響季風風向及環流結構。\n4. **季節性ITCZ移動及海氣耦合：**熱帶輻合帶、海溫、季風槽及副熱帶高壓位置變化，會影響季風建立、強度及降雨。\n5. **地形作用：**喜馬拉雅山、青藏高原及其他山脈會改變氣流、降雨分布及季風環流。\n\n三、**著名季風區**\n1. **南亞季風區：**印度、孟加拉、巴基斯坦及周邊印度洋沿岸，夏季西南季風帶來大量降雨，冬季多吹東北季風。\n2. **東亞季風區：**中國東部、韓國、日本及臺灣，冬季常受東北季風影響，夏季受西南季風、季風槽及西北太平洋副熱帶高壓影響。\n3. **東南亞季風區：**中南半島、馬來半島及印尼群島，季節性風向及降雨型態明顯。\n4. **北澳洲季風區：**夏季西北季風帶來熱帶降雨，冬季較乾燥。\n5. **西非季風區：**幾內亞灣暖濕氣流向薩赫勒及西非內陸推進，造成雨季變化。\n\n四、**臺灣航行相關**\n臺灣冬季以東北季風較具代表性，夏季常受西南氣流、季風槽、颱風及副熱帶高壓影響。港口引水與航行不能只依季節推定當日風向，仍須查即時預報、實測風、海象及局地地形效應。\n\n結論：季風是受海陸季節性差異加熱、氣壓場、地球自轉、ITCZ及地形共同影響的大尺度季節風系；著名分布區包括南亞、東亞、東南亞、北澳洲及西非。",
-    "practicalAnalysis": "本題需把季風視為大尺度季節風系，不能只用海陸溫差解釋全部機制，也不能把臺灣夏季簡化為全年固定西南風。",
+    "modelAnswer": "【2027年考試主答｜季風的定義、成因及主要分布區】\n\n一、定義\n季風（Monsoon）是大尺度季節性風系，其盛行風向在不同季節有明顯轉換，常伴隨降雨、溫度及海氣環流的季節差異。其典型特徵為季節性風向反轉，但各地風向轉換幅度及時間並不完全相同。\n\n二、成因\n1. **海陸熱力差異：**陸地熱容量較小，季節升溫、降溫通常比海洋快。夏季大陸較暖，近地面相對低壓，海洋相對高壓，氣流較易由海洋吹向陸地；冬季大陸較冷，近地面相對高壓，氣流較易由陸地吹向海洋。\n2. **地球自轉偏向力：**改變氣流方向，使季風呈現區域性風向特徵。\n3. **大尺度氣壓系統及季節性ITCZ移動：**例如西伯利亞高壓、印度洋與西北太平洋季風環流、熱帶輻合帶季節移動等。\n4. **地形及海陸分布：**喜馬拉雅山、青藏高原及周邊海陸配置會改變季風環流的強度、路徑與降雨分布。\n\n三、著名季風區\n1. 南亞／印度季風區：印度次大陸及印度洋北部。\n2. 東亞季風區：中國東部、朝鮮半島、日本及臺灣。\n3. 東南亞季風區：中南半島、馬來群島及南海周邊。\n4. 北澳洲季風區：澳洲北部及周邊海域。\n5. 西非季風區：幾內亞灣沿岸及西非內陸。\n\n四、臺灣季風及航海影響\n臺灣冬季主要受東北季風影響，夏季常受西南季風及西南氣流影響；但實際天氣仍受太平洋副熱帶高壓、颱風、鋒面及局部海陸風調節。引水人應把季風氣候平均與當日實際風場分開，航前查閱氣象預報、海象及港口即時風流，不可僅憑季節名稱推定當日風向。\n\n結論：季風是由季節性大尺度環流及海陸差異加熱所形成的季節性盛行風系，受地球自轉、ITCZ、地形及大尺度氣壓系統共同影響，主要分布於南亞、東亞、東南亞、北澳洲及西非等區域。",
+    "practicalAnalysis": "原答案的海陸熱力差異說明正確；本輪補入NOAA對季風季節性風向轉變的定義，並避免把季風簡化為純粹海陸風。補強臺灣夏季風場不必然每日固定為西南風的航海應用。",
     "keyPoints": [
       "季風定義：盛行風向具有季節性轉換或反轉的大尺度風系。",
       "主要成因：海陸熱容量差異造成季節性氣壓梯度。",
@@ -1017,34 +1017,58 @@
         "url": "https://www.climate.gov/news-features/blogs/enso/what-monsoon",
         "supports": "季風成因、季節風向與降雨特徵。",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "NOAA National Weather Service — Monsoon Glossary",
+        "url": "https://forecast.weather.gov/glossary.php?word=monsoon",
+        "issuer": "Official / technical source",
+        "sourceType": "official_or_technical_reference",
+        "supports": "季風為海陸差異加熱造成、具有季節性風向反轉的風系。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "中央氣象署季節氣候—冬季環流",
+        "url": "https://climate.cwa.gov.tw/SeasonalClimate?subpage=Winter",
+        "issuer": "Official / technical source",
+        "sourceType": "official_or_technical_reference",
+        "supports": "東亞冬季季風及西伯利亞高壓、東北季風背景。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部104年引港學試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "季風區邊界及季節起訖會因氣候分類與年份而異；本答案採一般氣候學概念，非特定年度氣象統計。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
           "item": "季風定義",
           "result": "pass",
-          "note": "以大尺度季節性盛行風向轉變定義。"
+          "note": "使用季節性盛行風向轉換的大尺度風系定義。"
         },
         {
-          "item": "形成機制",
+          "item": "海陸熱力差異與地轉偏向",
           "result": "pass",
-          "note": "納入海陸差異加熱、氣壓、地球自轉、ITCZ及地形。"
+          "note": "補入地球自轉、ITCZ、地形及大尺度氣壓系統。"
         },
         {
-          "item": "主要季風區",
+          "item": "主要季風分布區",
           "result": "pass",
           "note": "列出南亞、東亞、東南亞、北澳洲及西非。"
         },
         {
-          "item": "臺灣季節風與航行應用",
-          "result": "verified_with_scope",
-          "note": "季節性概括不取代當日氣象與海象資料。"
+          "item": "臺灣實際風場應用",
+          "result": "pass",
+          "note": "區分季節氣候平均與航次當日風場。"
         }
       ]
     },
@@ -1053,8 +1077,8 @@
   },
   {
     "questionId": "104-pilotage-02",
-    "modelAnswer": "【2027年考試主答｜平流霧的形成條件及特性】\n\n一、**定義及形成機制**\n平流霧（Advection Fog）是暖濕空氣在水平風場作用下，移流至較冷的海面或地表上方，近地層空氣因與冷面接觸而冷卻至飽和，水汽凝結形成的霧。海上常見於暖濕空氣流經寒流、冷水團或沿岸上升流海域。\n\n二、**形成條件**\n1. 空氣具有足夠水汽，通常露點較高或相對濕度較大。\n2. 空氣溫度高於下方海面／地表，暖濕空氣移流至較冷表面。\n3. 下方冷面使空氣逐漸冷卻至露點，達到飽和並形成微小水滴。\n4. 需有適當水平風將暖濕空氣持續輸送；風太弱時冷卻與輸送可能不足，風太強時湍流混合可能使霧層抬升、變薄或轉為低雲。沒有一個適用所有海域的固定風速門檻。\n\n三、**主要特性**\n1. 可在白天或夜間形成，不必具備晴朗、無風的夜間條件。\n2. 可覆蓋廣大海域，持續時間可能較長，並隨低層風場移動。\n3. 能見度可能快速下降，對沿岸航行、港口進出、引水登離輪及小艇作業構成風險。\n4. 當風向改變、空氣不再流經冷水面，或海面／空氣溫差減小時，平流霧可能減弱或消散。\n5. 與輻射霧不同，平流霧主要由暖濕空氣水平移流至冷面而形成；輻射霧主要由地表夜間輻射冷卻造成。\n\n四、**航海及引水注意事項**\n遇平流霧時，應依COLREG Rule 5維持適當瞭望，依Rule 6採取安全速度，使用雷達、AIS、ECDIS及目視／聽覺資料交叉判斷；但AIS不能取代瞭望及碰撞危險評估。若能見度不足以安全登輪或操船，應與VTS及船長協調延後或中止作業。\n\n結論：平流霧由暖濕空氣水平移流至較冷海面或地表，冷卻至飽和而形成；可在白天或夜間出現，範圍廣、持續時間可能較長，並隨風移動，對港口及沿岸航行能見度影響顯著。",
-    "practicalAnalysis": "原答案提到風太強可能破壞霧層，應保留為條件性描述；不給固定風速或固定霧厚，因實際取決於穩定度、混合及海氣溫差。",
+    "modelAnswer": "【2027年考試主答｜平流霧的形成條件及特性】\n\n一、定義\n平流霧（Advection Fog）是暖濕空氣在水平風場作用下移流至較冷的海面或地面上方，空氣因接觸冷面而冷卻至飽和，水汽凝結形成的霧。\n\n二、形成條件\n1. **空氣濕潤：**近地面空氣須有足夠水汽，露點與氣溫差距不宜過大。\n2. **水平移流：**暖濕空氣由較暖區域移動至較冷海面或地面。\n3. **冷卻至飽和：**空氣與冷面接觸後降溫至露點，水汽凝結形成霧滴。\n4. **適當風速：**須有足夠風力持續輸送暖濕空氣；風太弱可能無法維持移流，風太強則可能增加湍流混合，使霧層變厚、抬升或轉為低層層雲。實際最適風速依區域及大氣穩定度而異，不能訂為全球固定節數。\n\n三、常見海域及特性\n1. 暖濕海洋氣流流經寒流海域或沿岸上升流區時，容易形成平流霧。\n2. 可在海上形成範圍廣、持續時間長的霧區，有時可維持數日。\n3. 不一定需要晴朗、無風的夜間條件，白天或多雲天氣亦可形成，與典型輻射霧不同。\n4. 霧區可隨低層風場移動；空氣移至較暖海面時，霧可能逐漸消散或抬升為低雲。\n\n四、航海及引水作業注意\n1. 能見度降低時，立即依COLREG Rule 5加強瞭望、Rule 6採安全速度、Rule 7使用一切可用方法判斷碰撞危險。\n2. 在能見度不良情況下，依Rule 19適用規定操縱，備妥主機並使用適當聲號；不得僅依雷達自動標繪或單一設備判斷安全。\n3. 引水登輪及離輪須考量引水船與大船間相對運動、波浪、風向、照明及港方能見度管制；若登輪條件不安全，應依程序暫緩或改採安全安排。\n\n結論：平流霧由暖濕空氣水平移流至較冷表面並冷卻至飽和而形成；其範圍可廣、持續時間長、白天亦可發生，航行時應加強瞭望、採安全速度並依COLREG能見度不良規則處置。",
+    "practicalAnalysis": "依美國NWS平流霧說明補入暖濕空氣移流至冷面、可在多雲及中等至較強風下形成、可持續數日並隨風移動。修正「風速須弱」的過度概括；風速影響霧層混合與抬升，並無單一全球固定節數。",
     "keyPoints": [
       "暖濕空氣水平移流至較冷海面／地面。",
       "空氣因接觸冷面冷卻至露點以下，水汽凝結。",
@@ -1097,34 +1121,58 @@
         "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
         "supports": "Rule 5瞭望及Rule 6安全速度。",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "NOAA National Weather Service — Advection Fog",
+        "url": "https://www.weather.gov/safety/fog-advection",
+        "issuer": "Official / technical source",
+        "sourceType": "official_or_technical_reference",
+        "supports": "平流霧形成條件、可於多雲天氣及中等至較強風下形成、可隨風移動。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO COLREG 1972",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "Rule 5、6、7及19能見度不良時的航行安全規定。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部104年引港學試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "霧形成的臨界風速與霧厚受海溫、氣團穩定度及湍流影響，並無適用所有海域的單一固定數值。"
     ],
     "verification": {
-      "status": "source_checked",
+      "status": "verified_with_scope",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "形成機制及條件",
+          "item": "平流霧形成機制",
           "result": "pass",
-          "note": "依NOAA說明暖濕空氣移流至冷面並冷卻飽和。"
+          "note": "暖濕空氣移流至較冷表面並冷卻至飽和。"
         },
         {
-          "item": "與輻射霧區別",
-          "result": "pass",
-          "note": "明確區分水平移流冷卻與地表夜間輻射冷卻。"
+          "item": "風速與霧層變化",
+          "result": "verified_with_scope",
+          "note": "適當風速與湍流效應依區域而異，不設定全球固定節數。"
         },
         {
-          "item": "特性與風速限制",
+          "item": "平流霧特性",
           "result": "pass",
-          "note": "不給通用風速或霧厚數值，說明風與混合作用。"
+          "note": "廣泛、持久、白天可形成並隨風移動。"
         },
         {
-          "item": "航行安全措施",
+          "item": "能見度不良航行",
           "result": "pass",
-          "note": "補入COLREG瞭望、安全速度及登輪風險評估。"
+          "note": "連結COLREG Rule 5、6、7及19。"
         }
       ]
     },
@@ -1133,8 +1181,8 @@
   },
   {
     "questionId": "104-pilotage-03",
-    "modelAnswer": "【2027年考試主答｜臺灣海峽及臺灣東岸洋流】\n\n一、**臺灣海峽**\n臺灣海峽連接東海與南海，屬淺海陸棚水域，流況受東北／西南季風、潮汐、地形、海水密度及黑潮支流共同影響，不能視為全年固定單向流。\n1. 冬季東北季風強盛時，福建沿岸的中國沿岸流常向南流，將較冷、較淡的沿岸水帶入海峽北部；東北季風亦會抑制部分北向水體入侵。\n2. 春夏季東北季風減弱，南海暖水及黑潮支流較容易沿海峽東側向北輸送；夏季海峽整體輸運常較強，但東、西側及表層、底層流向可能不同。\n3. 海峽西側常見中國沿岸流南下，東側則可能有北向流；強烈東北季風或颱風期間，局部流向可能改變，不能以季節平均流向取代航次即時資料。\n4. 澎湖水道、臺灣淺灘、海底地形及潮汐會使流場產生局部加速、轉向及渦旋。\n\n二、**臺灣東岸**\n1. 臺灣東岸主要受黑潮（Kuroshio）影響。黑潮源自北赤道流，經菲律賓東側及呂宋島附近向北，沿臺灣東岸北上，至臺灣東北方後轉向東北，進入東海陸棚邊緣並延伸至日本南方。\n2. 黑潮主流流速通常較強，核心流軸及近岸距離會隨季節、渦旋及地形改變；臺灣東北部與東南部的季節變化亦不完全相同。\n3. 黑潮以外，東岸近岸仍可能受到潮流、沿岸風生流、地形渦旋及黑潮支流影響；不能假設沿岸任何位置、任何深度均與黑潮主流同向同速。\n\n三、**引水及航行應用**\n1. 臺灣海峽應特別注意冬季東北季風與沿岸流、潮流疊加，並觀察SOG與STW差異。\n2. 臺灣東岸航行須評估黑潮橫向流壓對航跡、航速、轉向點及靠離岸作業的影響。\n3. 航行計畫應使用最新海流預報、潮流資料、海圖及實際船位觀測；潮流與洋流不可混為一談，亦不可用季節平均值取代當日流況。\n\n結論：臺灣海峽冬季受東北季風影響，西側中國沿岸流南下較明顯；春夏季北向暖水輸送較易增強，但流場具東西側與垂直分層差異。臺灣東岸主要受黑潮北上影響，流軸與流速會變動，航行須依即時海流資料修正航跡。",
-    "practicalAnalysis": "本題最重要的修正是不能把臺灣海峽描述成冬季全海峽必定南流、夏季全海峽必定北流；研究顯示常有東側北向流與西側南向沿岸流並存，且受風場、地形及垂直分層影響。",
+    "modelAnswer": "【2027年考試主答｜臺灣海峽及臺灣東岸洋流】\n\n一、臺灣海峽\n臺灣海峽是淺海陸棚海域，洋流受東北／西南季風、潮汐、地形及外海水團共同影響，具有明顯季節變化。\n1. **冬季：**東北季風強盛，中國沿岸流較易沿福建沿岸南下進入海峽，海峽北部及中部常見南向流較為明顯；流況仍會受到潮汐及局部風場影響。\n2. **夏季：**西南季風盛行，南海暖流及黑潮支流（臺灣暖流）較易由南向北進入臺灣海峽，北向流較常見。\n3. 春、秋季為季風轉換期，海流方向與強度較不穩定；海峽內潮流亦可能在短時間內改變表層航跡及對地速度。\n\n二、臺灣東岸\n1. 臺灣東岸主要受黑潮（Kuroshio）影響。黑潮源自北赤道流分支，經菲律賓東側及呂宋附近海域北上，沿臺灣東岸流動，續向東北進入東海及日本南方海域。\n2. 長期平均而言，臺灣東側黑潮主流以北向為主；但流軸位置、寬度及流速會隨季節、渦旋、地形及風場改變。\n3. 臺灣東岸近岸及島嶼尾流區可能出現南向反流、渦旋或局部回流；不可將「黑潮北上」解讀為任何位置、任何時間均只有北向流。\n4. 東北季風時，黑潮流軸可能較靠近臺灣東岸；西南季風時，流軸可能向外海偏移，但不同年份與調查區域會有差異。\n\n三、引水與航行應用\n1. 臺灣海峽應依季節海流、潮流及實際風場調整航向、ETA與航速。\n2. 臺灣東岸航行應注意黑潮主流及近岸反流可能造成SOG與STW差異、航跡偏移及轉向點誤差。\n3. 氣候平均流向只能作航次初步規劃；實際操船須參考當期海流預報、海洋觀測、雷達／GNSS船位及實測資料修正。\n\n結論：臺灣海峽冬季常受南下中國沿岸流影響，夏季則較常受北上的南海暖流及黑潮支流影響；臺灣東岸長期平均以黑潮北流為主，但會受到季節、渦旋及地形影響，並可能出現近岸反流。",
+    "practicalAnalysis": "修正原答案對臺灣東岸黑潮的過度簡化：國海院115年資料指出東部流場並非單一北流，長期平均北向為主但有多尺度變動；112–113年國海院研究說明黑潮主流與近岸反流、渦旋及地形互動。臺灣海峽季節性沿岸流與暖流的方向則以季風氣候型態說明，不作為即時航次流況。",
     "keyPoints": [
       "臺灣海峽：淺海陸棚，季風驅動明顯，冬季東北季風常伴隨較強南向沿岸流。",
       "夏季海峽流況可能轉變，受西南季風、潮汐及地形共同控制。",
@@ -1176,34 +1224,66 @@
         "url": "https://tos.org/oceanography/assets/docs/24-4_rudnick.pdf",
         "supports": "黑潮由呂宋海峽向北，沿臺灣東岸流動並於東北部轉向。",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "國家海洋研究院：科學證據下的臺灣東部海流特性與搜救規劃思維（115-01-16）",
+        "url": "https://www.namr.gov.tw/ch/home.jsp?dataserno=202601160001&id=36&mcustomize=news_view.jsp&parentpath=0%2C6",
+        "issuer": "Official / technical source",
+        "sourceType": "official_or_technical_reference",
+        "supports": "東部海域流場並非單一北向；黑潮長期平均北流，但多尺度流動及局部反流存在。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "國家海洋研究院：基於遙測資訊評估臺東海域黑潮變動短時預測及洋流發電潛勢之研究（112–113）",
+        "url": "https://www.namr.gov.tw/ch/home.jsp?dataserno=202303310002&id=50&mcustomize=research_view.jsp&parentpath=0%2C7",
+        "issuer": "Official / technical source",
+        "sourceType": "official_or_technical_reference",
+        "supports": "黑潮沿臺灣東岸北上、近岸反流、渦旋、地形及短時變動。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "臺灣海洋相關研究：臺灣海峽內水文與季節變動",
+        "url": "https://www.etdic.org.tw/zh-tw/Research/ResearchDetail/644?name=%E5%8F%B0%E7%81%A3%E6%B5%B7%E5%B3%BD%E5%85%A7%E6%A9%88%E8%85%B3%E9%A1%9E%E7%B5%84%E6%88%90%E8%88%87%E6%B0%B4%E6%96%87%E5%AD%A3%E7%AF%80%E8%AE%8A%E5%8B%95%E4%B9%8B%E9%97%9C%E4%BF%82",
+        "issuer": "Official / technical source",
+        "sourceType": "official_or_technical_reference",
+        "supports": "冬季中國沿岸流南下、夏季黑潮支流及南海海流北上等季節性水團背景。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部104年引港學試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "臺灣海峽流場具高度季節與區域差異；未提供考題指定季節或當年海流圖，因此不提供固定流速、流向界線或航行時的預設修正量。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "臺灣海峽季節流況",
+          "item": "臺灣海峽季節性海流",
           "result": "pass",
-          "note": "避免全海峽單向流簡化，補入東西側及垂直分層差異。"
+          "note": "區分冬季中國沿岸流南下與夏季暖流／黑潮支流北上。"
         },
         {
-          "item": "冬季東北季風與中國沿岸流",
+          "item": "臺灣東岸黑潮主流",
           "result": "pass",
-          "note": "依同儕審查研究說明沿岸冷水南下及季風影響。"
+          "note": "長期平均北流，但不宣稱全域全時均為北流。"
         },
         {
-          "item": "臺灣東岸黑潮路徑",
+          "item": "近岸反流及渦旋",
           "result": "pass",
-          "note": "依海洋學研究確認黑潮沿東岸北上及東北轉向。"
+          "note": "依國海院研究補入多尺度流場與局部反流。"
         },
         {
-          "item": "引水航行應用",
-          "result": "verified_with_scope",
-          "note": "流軸及即時流速具變動，航次仍須查即時資料。"
+          "item": "航行實務",
+          "result": "pass",
+          "note": "區分氣候平均與當期實測海流。"
         }
       ]
     },
@@ -1212,8 +1292,8 @@
   },
   {
     "questionId": "104-pilotage-04",
-    "modelAnswer": "【2027年考試主答｜海圖相關圖刊名稱及用途】\n\n一、**海圖目錄（Catalogue of Charts）**\n列出紙海圖及電子航海圖（ENC）的圖號、比例尺、涵蓋範圍、版次及供應資訊，供航次規劃選擇適當海圖與比例尺。\n\n二、**航船布告（Notices to Mariners, NTM）**\n公布海圖及航海出版品的永久、暫時及初步改正，並發布航行安全相關資訊；供海圖改正、航標異動及危險物更新。應確認布告編號、發布日期及適用圖號。\n\n三、**航路指南／航路誌（Sailing Directions）**\n以文字說明沿岸地形、港口進出、航道、錨地、潮流、氣象、通訊、港口服務及航行注意事項，補充海圖不易完整表達的資訊。\n\n四、**燈塔表／燈標表（List of Lights and Fog Signals）**\n列出燈塔、燈浮、燈船及霧號等助導航設施的位置、燈質、週期、名義光程、焦面高度及霧號特性，供辨識及航行定位。\n\n五、**無線電信號表（List of Radio Signals）**\n提供海岸電台、VTS、無線電通訊、航行警告、氣象資訊、搜救及其他海事通信服務資料；實際頻道與服務時間應以最新版資料及港方公告為準。\n\n六、**潮汐表（Tide Tables）**\n提供指定港口或基準港的高潮、低潮時間及潮高，供計算潮位、進出港時間及UKC；使用時須確認潮高基準、預報日期及適用地點。\n\n七、**潮流圖集／潮流表（Tidal Stream Atlas）**\n以圖表或資料表呈現特定海域潮流方向及流速隨潮汐時相變化，供航次規劃及流壓修正；不能將潮流資料當成大尺度洋流資料。\n\n八、**航海年曆（Nautical Almanac）**\n提供太陽、月球、行星及恆星的天文位置與相關資料，供天文定位及天文航海計算。\n\n九、**航海距離表（Distance Tables）**\n列出港口或航路點間的航海距離，供估算航程、燃油、時間及航線規劃；實際航程仍須考量航路限制及安全航線。\n\n十、**海圖圖例及符號縮寫表（INT 1／Chart 1／Chart 5011）**\n說明紙海圖使用的符號、縮寫、燈質、浮標、底質、水深、礁石、沉船及其他危險物；不同國家海圖可能有補充國家符號，應使用與海圖來源及版次相符的圖例。\n\n十一、**現代電子航海資料補充**\n現代船舶除紙本圖刊外，亦使用ENC及其更新資料；IHO S-100系列逐步建立互通的海洋地理資料標準，例如S-101電子航海圖、S-102水深表面、S-104水位及S-111海表流。實際船載系統及資料服務須依設備認證、旗國要求與港口資料供應狀況使用。\n\n結論：海圖圖刊包括海圖目錄、航船布告、航路指南、燈塔表、無線電信號表、潮汐表、潮流圖集、航海年曆、航海距離表及海圖圖例；各刊物用途不同，應搭配最新版本及改正資料使用。",
-    "practicalAnalysis": "將傳統圖刊名稱及用途完整保留，並補充2027年S-100數位資料發展；S-100不是取代所有傳統圖刊的單一出版品，紙本及各類航海出版物仍須依航次需求更新。",
+    "modelAnswer": "【2027年考試主答｜海圖相關圖刊名稱及用途】\n\n一、海圖目錄（Catalogue of Charts and Publications）\n列出紙海圖、ENC及航海出版品的圖號、比例尺、涵蓋範圍、版次與供應資訊，供航次規劃選擇適當海圖及圖刊。\n\n二、航船布告（Notices to Mariners, NM）\n發布海圖及航海出版品的永久改正、暫時改正（T）及初步改正（P），用於保持紙海圖、ENC及相關圖刊資料更新。使用時須核對改正截止日期及尚未處理的布告。\n\n三、航路指南／航路誌（Sailing Directions）\n提供沿岸地形、港口、航道、錨地、潮流、氣象、通訊、港口設施及進出港注意事項等文字資訊，補充海圖未能完整表達的航行細節。\n\n四、燈塔表／燈標表（List of Lights and Fog Signals）\n列出燈塔、燈浮及其他燈光助航設施的位置、燈質、週期、射程、高度及霧號資料，供辨識助航設備及夜間航行使用。\n\n五、無線電信號表（List of Radio Signals）\n提供海岸電臺、VTS、無線電通訊、氣象廣播、航行警告、搜救及港口通信程序等資料。\n\n六、潮汐表（Tide Tables）\n提供主要港口及潮汐站的潮時、潮高預報，供進出港、UKC及靠泊時間規劃使用。\n\n七、潮流圖／潮流表（Tidal Stream Atlas）\n以圖表或表格表示特定海域潮流方向及流速隨時間的變化，供航線、轉向點及流壓修正使用。\n\n八、航海年曆（Nautical Almanac）\n提供太陽、月球、行星及恆星的天文資料，供天文定位及天文航海計算使用。\n\n九、航海距離表（Distance Tables）\n列出港口間或指定航路點間距離，供航程、燃油及ETA初步估算；實際航線仍須依海圖、航行警告及航行限制規劃。\n\n十、海圖圖例及符號縮寫表（INT 1／Chart 1／Chart 5011）\n解釋海圖上的水深、底質、礁石、沉船、助航標誌、燈質、區域界線及各種縮寫。紙海圖與ENC符號顯示可能不同，應使用適用於該海圖產品及版本的圖例。\n\n十一、2027數位航海資料\n除傳統紙本圖刊外，現代船舶須維持ENC及其更新資料，並依ECDIS操作程序、官方海圖改正及航海出版品更新制度管理。IHO現行INT 1已更新至2026 Edition 9；不可把舊版Chart 5011或早期圖例當成所有現行ENC顯示方式。\n\n結論：海圖目錄用於選圖，航船布告用於改正，航路指南提供文字航行資訊，燈塔表及無線電信號表提供助航與通訊資料，潮汐表及潮流圖支援水文規劃，航海年曆與距離表支援定位及航程計算，INT 1／Chart 1解釋符號縮寫。",
+    "practicalAnalysis": "本題原答案列舉的出版品大致完整；本輪補入紙海圖、ENC及數位出版品更新管理，並依IHO官方出版目錄確認INT 1目前已更新至2026 Edition 9。舊版Chart 5011只作歷史題目及符號解讀參考，不取代現行圖例。",
     "keyPoints": [
       "海圖目錄：選擇適當比例尺海圖及ENC。",
       "航船布告：海圖及圖刊改正、臨時與初步航安資訊。",
@@ -1261,29 +1341,66 @@
         "url": "https://iho.int/en/standards-and-specifications",
         "supports": "S-100系列海洋地理資料標準及現行版次資訊。",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IHO Standards and Specifications — INT 1 Edition 9 (2026)",
+        "url": "https://iho.int/en/standards-and-specifications",
+        "issuer": "International Hydrographic Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "IHO公布現行INT 1紙海圖符號與縮寫版本為Edition 9 (2026)。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "UKHO Admiralty — General Publications and Reference Guides",
+        "url": "https://www.admiralty.co.uk/publications/publications-and-reference-guides/general-publications-and-reference-guides",
+        "issuer": "UK Hydrographic Office",
+        "sourceType": "official_or_technical_reference",
+        "supports": "Admiralty航海出版品及NP5011用途、海圖與圖刊更新資訊。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Chart 5011 Edition 4 (October 2008)",
+        "url": "https://maredu.hcg.gr/modules/document/index.php?course=ASP594&download=%2F6385379e63vj.pdf",
+        "issuer": "Official / technical source",
+        "sourceType": "official_or_technical_reference",
+        "supports": "歷史版本圖例，供辨識舊題及過去海圖縮寫使用，不作現行版本替代。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部104年引港學試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "不同國家海道測量機關的出版品名稱及編號略有差異；答題時應以我國海軍大氣海洋局及考試時指定圖刊為準。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "傳統圖刊名稱與用途",
+          "item": "傳統圖刊種類與用途",
           "result": "pass",
-          "note": "列出十類主要圖刊及用途。"
+          "note": "涵蓋海圖目錄、NM、航路指南、燈塔表、無線電信號表、潮汐表及潮流圖。"
         },
         {
-          "item": "圖刊更新與版本意識",
+          "item": "航海年曆及距離表",
           "result": "pass",
-          "note": "強調NTM改正、潮高基準及國家圖例差異。"
+          "note": "區分天文定位與航程估算用途。"
         },
         {
-          "item": "S-100現代資料補充",
-          "result": "verified_with_scope",
-          "note": "作為現代延伸知識，不取代傳統圖刊分類。"
+          "item": "INT 1及Chart 5011版本",
+          "result": "pass",
+          "note": "確認IHO現行INT 1為2026 Edition 9，舊版僅作歷史參考。"
+        },
+        {
+          "item": "ENC與數位更新",
+          "result": "pass",
+          "note": "補入ENC及ECDIS資料更新與版本管理。"
         }
       ]
     },
@@ -1292,8 +1409,8 @@
   },
   {
     "questionId": "104-pilotage-05",
-    "modelAnswer": "【2027年考試主答｜海圖海底特性縮寫】\n\n本題依國際海圖圖例（IHO INT 1／英國海軍部Chart 5011）常用海底底質縮寫作答：\n\n| 縮寫 | 英文 | 中文意義 |\n|---|---|---|\n| Cl. | Clay | 黏土 |\n| G. | Gravel | 礫石 |\n| Oz. | Ooze | 軟泥／生物軟泥 |\n| S. | Sand | 砂 |\n| Sn. | Shingle | 卵石、粗礫或礫石灘 |\n| Co. | Coral | 珊瑚 |\n| M. | Mud | 泥 |\n| P. | Pebbles | 圓礫／卵石 |\n| Sh. | Shells | 貝殼 |\n| St. | Stones | 石塊 |\n\n**判讀注意：**\n1. 海圖常將兩種以上底質並列或組合標示，例如S.M.表示砂泥混合底質；先後順序及字體格式須依該海圖圖例判讀。\n2. Sn.（Shingle）與P.（Pebbles）都涉及卵石／礫石類，但在圖例分類中不可任意互換；應保留英文原詞以免中文翻譯過度合併。\n3. 海底底質縮寫是海圖所標示的底質類別，不代表整個錨地或航道底質均完全一致；實際錨泊適宜性還須考量水深、底質抓力、風流及錨泊限制。\n4. 作答以題目指定或海圖來源所使用的INT 1／Chart 5011版本為準。IHO於2026年公布INT 1 Edition 9，2027備考應使用現行版圖例；若要還原104年原卷當時版本，則另核對2015年有效版次。\n\n結論：Cl黏土、G礫石、Oz軟泥、S砂、Sn卵石／粗礫、Co珊瑚、M泥、P圓礫、Sh貝殼、St石塊。",
-    "practicalAnalysis": "本題必須保留Sn（Shingle）與P（Pebbles）的原文差異，不要只翻成同一個「卵石」。使用圖例版次時需區分2015年考試歷史與2027年現行INT 1 Edition 9。",
+    "modelAnswer": "【2027年考試主答｜海圖底質縮寫及新舊圖例差異】\n\n本題是辨識海圖底質（Nature of the Seabed）縮寫。依題目所採舊版海圖圖例／Chart 5011 Edition 4（2008）可解讀如下：\n\n| 題目縮寫 | 英文全名 | 中文意義 | 備註 |\n|---|---|---|---|\n| Cl. | Clay | 黏土 | 舊式縮寫；Chart 5011 Ed.4列為obsolete form cl，現行常見形式為Cy |\n| G. | Gravel | 礫石 | 礫石底 |\n| Oz. | Ooze | 軟泥／生物性軟泥 | 舊式縮寫；Chart 5011 Ed.4標示為obsolete |\n| S. | Sand | 砂 | 砂底 |\n| Sn. | Shingle | 卵石／小礫石層 | 舊式縮寫；Chart 5011 Ed.4標示為obsolete |\n| Co. | Coral | 珊瑚 | 珊瑚底 |\n| M. | Mud | 泥 | 泥底 |\n| P. | Pebbles | 圓礫／卵石 | 卵石底 |\n| Sh. | Shells | 貝殼 | 貝殼底 |\n| St. | Stones | 石塊 | 石質底 |\n\n一、辨識時應注意\n1. Cl.與Cy：題目所列Cl.可按舊式cl解讀為Clay；Chart 5011 Edition 4已將cl列為過時寫法，當時現行形式為Cy。\n2. Oz.與M.：Ooze是軟泥／生物性軟泥，Mud是泥，兩者不是完全相同的底質類別。\n3. Sn.與St.：Shingle是卵石或小礫石層；Stones是石塊，不可混淆。\n4. Co.與Sh.：Coral為珊瑚；Shells為貝殼或殼體碎屑。\n5. 海圖底質可用兩種或多種材料組合表示；組合次序、主要與次要成分及形容詞須依該張海圖所附圖例解讀。\n\n二、2027考試與實務提醒\n本題應依原題所用歷史圖例回答，不能把2015年的舊式縮寫直接當成2027所有紙海圖或ENC的現行標準。IHO已於2026年發布INT 1 Edition 9；實際航行時應使用該海圖產品所適用的最新版INT 1／Chart 1／官方圖例。底質資訊亦會影響錨泊抓力與錨泊風險評估，但不能單憑縮寫推定某處必然適合或不適合錨泊，仍須考量錨型、底質狀態、水深、風流及海床障礙。\n\n結論：本題十項縮寫依歷史Chart 5011可解讀為黏土、礫石、軟泥、砂、卵石層、珊瑚、泥、圓礫、貝殼及石塊；其中Cl.、Oz.、Sn.須特別標示為舊式或過時縮寫，實際航行以該張海圖及最新版IHO圖例為準。",
+    "practicalAnalysis": "本題核心答案仍按歷史Chart 5011 Edition 4辨識，但修正原答案未區分舊式縮寫與現行圖例的問題。Chart 5011 Ed.4表列Clay現行形式Cy、舊式cl；Ooze為舊式Oz；Shingle為舊式Sn。IHO官方現行INT 1已到2026 Edition 9，受使用條款限制無法直接下載核對每個現行條目，因此不臆測Edition 9各項縮寫，只明確提示現行航行應以最新版圖例為準。",
     "keyPoints": [
       "Cl. — Clay，黏土。",
       "G. — Gravel，礫石。",
@@ -1345,29 +1462,66 @@
         "url": "https://www.admiralty.co.uk/publications/publications-and-reference-guides/chart-5011",
         "supports": "Chart 5011為英國海軍部及國際紙海圖符號與縮寫索引。",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Chart 5011 Edition 4 (October 2008), Section J — Nature of the Seabed",
+        "url": "https://maredu.hcg.gr/modules/document/index.php?course=ASP594&download=%2F6385379e63vj.pdf",
+        "issuer": "Official / technical source",
+        "sourceType": "official_or_technical_reference",
+        "supports": "歷史海圖圖例列出底質名稱及過時縮寫：Clay/cl、Ooze/Oz、Shingle/Sn等。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IHO Standards and Specifications — INT 1 Edition 9 (2026)",
+        "url": "https://iho.int/en/standards-and-specifications",
+        "issuer": "International Hydrographic Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "確認現行國際紙海圖符號與縮寫圖例版本為INT 1 Edition 9 (2026)。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "UKHO Admiralty — NP5011",
+        "url": "https://www.admiralty.co.uk/publications/publications-and-reference-guides/general-publications-and-reference-guides",
+        "issuer": "UK Hydrographic Office",
+        "sourceType": "official_or_technical_reference",
+        "supports": "NP5011為Admiralty海圖符號與縮寫參考出版品。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部104年引港學試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "縮寫依Chart 5011／INT 1常見用法整理；不同海圖版次可能存在字體、標點或詞義細節差異，正式解讀應以海圖所附圖例及該版官方圖刊為準。"
     ],
     "verification": {
-      "status": "source_checked",
+      "status": "verified_with_scope",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "十個底質縮寫對應",
+          "item": "十項底質縮寫對照",
           "result": "pass",
-          "note": "依INT 1／Chart 5011分類逐項列出。"
+          "note": "依題目歷史圖例逐項核對。"
         },
         {
-          "item": "Sn與P的差異",
-          "result": "pass",
-          "note": "分別保留Shingle與Pebbles，不合併成同一英文類別。"
+          "item": "Cl.／Cy及Oz／M區別",
+          "result": "verified_with_scope",
+          "note": "標明舊式形式與現行版本限制，不臆測2026版每項寫法。"
         },
         {
-          "item": "現行圖例版次",
+          "item": "Sn.／St及Co.／Sh區別",
           "result": "pass",
-          "note": "補入2026年INT 1 Edition 9及2015歷史版次提醒。"
+          "note": "區分Shingle、Stones、Coral與Shells。"
+        },
+        {
+          "item": "歷史題與2027圖例時點",
+          "result": "pass",
+          "note": "保留舊題正解，提醒實際航行使用最新版圖例。"
         }
       ]
     },
