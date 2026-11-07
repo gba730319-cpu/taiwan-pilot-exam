@@ -2,10 +2,10 @@
   {
     "id": "answer-114-english-04",
     "questionId": "114-english-04",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "**Importance of Communication between Pilots and the Ship’s Bridge Team**\n\nEffective communication between a pilot and the ship’s bridge team is essential for safe navigation, particularly in confined waters, ports and areas with heavy traffic. A pilot provides local knowledge of channels, tides, currents, traffic patterns and port regulations. However, the pilot’s presence on board does not relieve the master or the officer in charge of the navigational watch of their responsibility for the safety of the ship.\n\nBefore pilotage begins, the master and the pilot should conduct a proper master-pilot information exchange. They should discuss the ship’s manoeuvring characteristics, draught, engine and steering conditions, stopping distance, turning data, intended route, speed, berth, tug requirements and operational limitations. Weather, visibility, tidal conditions, under-keel clearance and traffic should also be considered. A passage plan and contingency plans should be agreed upon.\n\nCommunication must continue throughout the pilotage. The pilot should explain intended manoeuvres and give clear, timely orders. The officer of the watch should repeat helm and engine orders, monitor the ship’s position and movement, and report any deviation. The bridge team must not hesitate to question an order or warn the pilot if they identify a risk. Closed-loop communication helps prevent misunderstanding, especially when VTS, tug masters and mooring teams are involved.\n\nA shared understanding is particularly important during emergencies, including steering failure, engine failure, poor visibility or unexpected set and drift. All bridge team members should know their duties and the actions to be taken.\n\nIn conclusion, safe pilotage is a team effort. Mutual respect, clear language, continuous information exchange and active monitoring combine the pilot’s local expertise with the crew’s knowledge of the ship. Good communication reduces human error and improves the safety and efficiency of port operations.",
+    "modelAnswer": "**Importance of Communication between Pilots and the Ship’s Bridge Team**\n\nEffective communication between a pilot and the ship’s bridge team is essential for safe navigation, particularly in confined waters, ports and areas with heavy traffic. A pilot provides local knowledge of channels, tides, currents, traffic patterns and port regulations. However, the pilot’s presence on board does not relieve the master or the officer in charge of the navigational watch of their responsibility for the safety of the ship.\n\nBefore pilotage begins, the master and the pilot should conduct a proper master-pilot information exchange. They should discuss the ship’s manoeuvring characteristics, draught, engine and steering conditions, stopping distance, turning data, intended route, speed, berth, tug requirements and operational limitations. Weather, visibility, tidal conditions, under-keel clearance and traffic should also be considered. A passage plan and contingency plans should be agreed upon.\n\nCommunication must continue throughout the pilotage. The pilot should explain intended manoeuvres and give clear, timely orders. The officer of the watch should repeat helm and engine orders, monitor the ship’s position and movement, and report any deviation. The bridge team must not hesitate to question an order or warn the pilot if they identify a risk. Closed-loop communication helps prevent misunderstanding, especially when VTS, tug masters and mooring teams are involved.\n\nA shared understanding is particularly important during emergencies, including steering failure, engine failure, poor visibility or unexpected set and drift. All bridge team members should know their duties and the actions to be taken.\n\nIn conclusion, safe pilotage is a team effort. Mutual respect, clear language, continuous information exchange and active monitoring combine the pilot’s local expertise with the crew’s knowledge of the ship. Good communication reduces human error and improves the safety and efficiency of port operations.\n\n【現行國際專業基準補充｜查核截至2026-11-07】\n依IMO A.960(23)，引水安全有賴引水人、船長及駕駛臺團隊間有效溝通與資訊交換；引水人在船不解除船長及值班駕駛員的安全責任，駕駛臺人員並有責任支援引水人及持續監控其行動。引水前應完成Master-Pilot Information Exchange，確認船舶操縱特性、航路計畫、拖輪、風流、UKC、交通及應變方案。若使用VTS，應依IMO A.1158(32)及港口地方指南理解其資訊、航行協助及交通組織職能，不把所有VTS建議一概寫成具有命令性的操船指令。",
     "practicalAnalysis": "文章採重要性、引水前資訊交換、引航中閉環溝通、緊急應變及結論的架構。核心必須寫出引水人提供地方知識，但船長及值班駕駛員的安全責任不因引水人在船而解除；駕駛臺團隊亦須監控引水人的操船行動。",
     "keyPoints": [
       {
@@ -56,6 +56,24 @@
         "editionOrEffectiveDate": "114-06-16",
         "url": "https://www.ttsb.gov.tw/media/8563/%E9%80%9A%E9%81%8B%E6%B2%B9%E8%BC%AA%E8%88%87fpmc-b-forever%E6%95%A3%E8%A3%9D%E8%88%B9%E8%AA%BF%E6%9F%A5%E5%A0%B1%E5%91%8A_%E7%99%BC%E5%B8%83.pdf",
         "supports": "MPX資訊交換不足、駕駛臺團隊未充分確認引水人操船意圖及監控不足的實際事故案例。"
+      },
+      {
+        "title": "IMO Resolution A.960(23) — Operational Procedures for Maritime Pilots",
+        "sourceType": "official_international_standard",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2003-12-05採納",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "accessedAt": "2026-11-07",
+        "supports": "引水前資訊交換、船長與駕駛臺團隊安全責任、引水人行動監控及協作。"
+      },
+      {
+        "title": "IMO Resolution A.1158(32) — Guidelines for Vessel Traffic Services",
+        "sourceType": "official_international_standard",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2021-12-15採納",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1158%2832%29.pdf",
+        "accessedAt": "2026-11-07",
+        "supports": "VTS服務目的及資訊、航行協助、交通組織職能。"
       }
     ],
     "assumptions": [],
@@ -95,6 +113,11 @@
           "item": "實務案例支撐",
           "result": "pass",
           "note": "加入TTSB通運輪事故調查中MPX及駕駛臺監控不足的調查發現作為案例。"
+        },
+        {
+          "item": "引水人與駕駛臺團隊溝通文章之現行國際基準",
+          "result": "pass",
+          "note": "依IMO A.960(23)與A.1158(32)核對引水前資訊交換、責任界線及VTS角色，避免將引水人或VTS描述成取代船長的操船者。"
         }
       ]
     },
