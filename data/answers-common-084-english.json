@@ -1,0 +1,186 @@
+[
+  {
+    "id": "084-english-01-answer-v1",
+    "questionId": "084-english-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【中文翻譯】\\n\\n（1）當主機以慢速前進或全速倒俥運轉時，螺槳所產生的轉向作用最大；而船舶在水中的航速愈高，其迴轉圈半徑也愈大。\\n\\n（2）主機從停止狀態開始運轉時，螺槳攪動水流的現象最為劇烈，尤其是在倒俥時更是如此；若由全速前進突然轉為全速倒俥，情況尤其明顯。此時船舶各處所感受到的劇烈振動，是由空蝕現象所造成：螺槳葉片接連快速地進入同一個低壓空穴，而水流尚來不及重新填滿該空穴。\\n\\n【術語】\\n- screw：螺槳／螺旋槳。\\n- turning effect：橫向推力造成的轉向效應，與螺槳旋向及車鐘狀態有關。\\n- turning circle：迴轉圈／迴轉軌跡。\\n- churning：劇烈攪動水流。\\n- cavitation：空蝕，因局部壓力降低形成汽泡，汽泡潰滅時造成振動及侵蝕。\\n- cavity：空穴／汽穴。",
+    "practicalAnalysis": "本題40分，翻譯時需保留螺槳橫向推力、迴轉圈半徑及空蝕機制的因果關係。",
+    "keyPoints": [
+      {
+        "point": "slow ahead及full astern要正確翻譯為慢速前進及全速倒俥。",
+        "importance": "essential"
+      },
+      {
+        "point": "turning circle radius隨航速增加的關係要表達清楚。",
+        "importance": "essential"
+      },
+      {
+        "point": "cavitation譯為空蝕，不是一般氣泡。",
+        "importance": "essential"
+      },
+      {
+        "point": "第二段說明螺槳葉片快速進入低壓空穴造成振動。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "84年甲種引水人實用英文官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國84年（1995）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=3001&t=Q",
+        "supports": "實用英文三題原卷。"
+      }
+    ],
+    "assumptions": [
+      "依考選部題目原文及海事英文語境作答。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部84年實用英文原卷",
+          "result": "pass",
+          "note": "三題題文核對。"
+        },
+        {
+          "item": "機械及航標專業術語",
+          "result": "partial",
+          "note": "球形舵柱及雷達導燈仍需原教材確認。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "084-english-02-answer-v1",
+    "questionId": "084-english-02",
+    "version": 1,
+    "language": "en",
+    "answerType": "essay",
+    "modelAnswer": "**Mooring with Both Anchors in a Roadstead During Bad Weather**\\n\\nBefore approaching the anchorage, I would check the weather forecast, wind direction, sea state, current, tide and available depth. The main engine, steering gear, windlass, brakes and communication equipment must be tested and kept ready. The crew should be briefed, the anchor parties should wear proper protective equipment, and both anchors and cables should be prepared. The ship should have a suitable draft and trim, with all openings secured and cargo properly lashed.\\n\\nWhen approaching in bad weather, I would proceed at a safe speed with the bow kept as nearly into the wind and sea as practicable. I would avoid turning broadside to the waves and maintain enough speed for steerage. The vessel's position should be checked continuously by radar, GNSS and visual bearings. If necessary, I would request tug assistance and keep the master, VTS and anchor parties informed.\\n\\nA suitable anchorage should provide good shelter, adequate depth, a safe holding ground and enough swinging room. I would also check the proximity of other vessels, traffic routes, submarine cables, pipelines and prohibited anchoring areas. The expected wind shift and the vessel's swinging circle must be considered.\\n\\nFor two-anchor mooring, I would approach the selected position heading into the prevailing wind or current. I would let go the first anchor on the appropriate weather side, pay out the cable under control and allow the ship to fall back. When the vessel reaches the planned position and heading, I would let go the second anchor and pay out its cable. The cables should be adjusted to obtain a suitable spread and prevent them from crossing or fouling each other. Finally, I would check the cable leads, apply the brakes, take bearings and record the position. An anchor watch must be maintained continuously, especially while the weather is deteriorating.",
+    "practicalAnalysis": "英文短文約250字，依船舶狀態、惡劣天候接近、選擇錨地及雙錨操作四段組織，符合題目step by step要求。",
+    "keyPoints": [
+      {
+        "point": "船舶狀態：主機舵機錨機備便、船員部署、船體及貨物安全。",
+        "importance": "essential"
+      },
+      {
+        "point": "惡劣天候接近：船艏迎風浪、保持舵效、連續定位及必要時拖船協助。",
+        "importance": "essential"
+      },
+      {
+        "point": "錨地選擇：遮蔽、底質、水深、迴旋空間、交通及海底設施。",
+        "importance": "essential"
+      },
+      {
+        "point": "雙錨操作：先放適當迎風側錨、控制出鏈、船舶後退後放第二錨。",
+        "importance": "supporting"
+      },
+      {
+        "point": "檢查錨鏈方向、避免交鏈、記錄船位並維持anchor watch。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "84年甲種引水人實用英文官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國84年（1995）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=3001&t=Q",
+        "supports": "實用英文三題原卷。"
+      }
+    ],
+    "assumptions": [
+      "依考選部題目原文及海事英文語境作答。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部84年實用英文原卷",
+          "result": "pass",
+          "note": "三題題文核對。"
+        },
+        {
+          "item": "機械及航標專業術語",
+          "result": "partial",
+          "note": "球形舵柱及雷達導燈仍需原教材確認。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "084-english-03-answer-v1",
+    "questionId": "084-english-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "| 中文詞語 | 建議英文 | 英文例句 |\\n|---|---|---|\\n| 暴風軌跡 | Storm track | The vessel altered her route to keep clear of the forecast storm track. |\\n| 氣壓梯度 | Pressure gradient | A steep pressure gradient may produce strong winds. |\\n| 東北季風 | Northeast monsoon | The northeast monsoon often brings rough seas to the northern coast of Taiwan. |\\n| 應急舵 | Emergency steering gear | The crew tested the emergency steering gear before entering the port. |\\n| 雷達導燈 | Radar beacon / Racon | The radar beacon helped the pilot identify the harbour entrance. |\\n| 危險暗礁 | Dangerous submerged reef | The chart indicates a dangerous submerged reef close to the channel. |\\n| 橫向推進器 | Bow thruster / transverse thruster | The bow thruster assisted the vessel during berthing. |\\n| 球形舵柱 | Spherical rudder stock / spherical rudder head | The spherical rudder component was inspected during dry docking. |\\n| 傾斜角 | Angle of heel | The officer monitored the angle of heel during cargo operations. |\\n| 自脫鉤 | Automatic release hook / quick-release hook | The tug's automatic release hook was tested before the towing operation. |\\n\\n【術語注意】\\n1. 雷達導燈在海圖及航標語境通常應先確認是radar beacon或RACON，不宜直接譯作普通燈標。\\n2. 球形舵柱的精確英文需依原教材所指舵系構件確認；若指球形舵頭／球面接頭，可能需採更精確的機械名稱。\\n3. 自脫鉤可依設備型式稱automatic release hook或quick-release hook。",
+    "practicalAnalysis": "本題20分，每一詞組都要翻譯並造完整句。部分機械名詞須依教材圖示確認具體構件，答案先提供可用術語及語境。",
+    "keyPoints": [
+      {
+        "point": "storm track、pressure gradient、northeast monsoon。",
+        "importance": "essential"
+      },
+      {
+        "point": "emergency steering gear、radar beacon／RACON。",
+        "importance": "essential"
+      },
+      {
+        "point": "dangerous submerged reef、bow thruster。",
+        "importance": "essential"
+      },
+      {
+        "point": "angle of heel、automatic／quick-release hook。",
+        "importance": "supporting"
+      },
+      {
+        "point": "球形舵柱須依原圖確認具體舵系構件。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "84年甲種引水人實用英文官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國84年（1995）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=3001&t=Q",
+        "supports": "實用英文三題原卷。"
+      }
+    ],
+    "assumptions": [
+      "依考選部題目原文及海事英文語境作答。"
+    ],
+    "limitations": [
+      "「球形舵柱」及「雷達導燈」可能有特定舊教材術語，需依原教材圖例或上下文確認。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部84年實用英文原卷",
+          "result": "pass",
+          "note": "三題題文核對。"
+        },
+        {
+          "item": "機械及航標專業術語",
+          "result": "partial",
+          "note": "球形舵柱及雷達導燈仍需原教材確認。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
