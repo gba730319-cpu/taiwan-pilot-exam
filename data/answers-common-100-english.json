@@ -2,11 +2,11 @@
   {
     "id": "100-english-01",
     "questionId": "100-english-01",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "translation",
     "modelAnswer": "【第一段英翻中】\n\n引水通常被認為是由熟悉當地水域、且並非經常固定派任於該船舶的專業人員，在港口、港灣及河川中引導單一船舶航行的工作。依照一種便於理解的法律擬制，船舶仍由船長負責，船長在任何時候只要有正當理由，均可推翻引水人的決定。然而，事實上，引水人在不同程度上也分擔了確保船舶作為獨立個體安全航行的責任。\n\n【第二段英翻中】\n\n港區內要達成安全、有效率且無污染的作業，顯然有賴於所有相關要素之間的有效協調。引水人對達成此一目標固然扮演不可或缺的角色，但並非唯一的角色。港口協調必須透過某種具權威性的合作方式，在港區內運作的所有團體之間共同完成。\n\n【重要字詞與翻譯說明】\n1. pilotage：引水、領航業務。\n2. local specialist：熟悉當地水域的專業人員／引水人。\n3. not regularly assigned to the ship：並非固定派任於該船舶。\n4. legal fiction：法律擬制，指法律上為方便適用而採取的假定，不是單純的虛構。\n5. override the pilot：推翻、否決或不採納引水人的建議／指令；應依上下文理解。\n6. for cause：基於正當理由。\n7. in varying degrees：在不同程度上。\n8. safe navigation of the ship as an individual unit：該船舶作為獨立航行單位之安全航行。\n9. effective co-ordination：有效協調。\n10. authoritative form of co-operative effort：具權威性或正式組織性的合作方式。\n11. all the groups which operate within the port area：所有在港區內運作的相關團體，包括港務、VTS、引水、拖船、碼頭及船舶等單位。",
-    "practicalAnalysis": "本題30分，兩段都要注意長句結構。第一段主句是Pilotage is usually thought of as...；not regularly assigned修飾local specialist；according to a convenient legal fiction是法律擬制；for cause為有正當理由；in varying degrees表示引水人分擔責任的程度不同。第二段主詞是The achievement，動詞depends upon；not the only role強調引水人不是港口協調的唯一角色；authoritative form of co-operative effort要翻成具權威性／正式組織性的合作方式。",
+    "practicalAnalysis": "本題30分，兩段都要注意長句結構。第一段主句是Pilotage is usually thought of as...；not regularly assigned修飾local specialist；according to a convenient legal fiction是法律擬制；for cause為有正當理由；in varying degrees表示引水人分擔責任的程度不同。第二段主詞是The achievement，動詞depends upon；not the only role強調引水人不是港口協調的唯一角色；authoritative form of co-operative effort要翻成具權威性／正式組織性的合作方式。 本輪再以IMO A.960(23)核對船長與引水人責任界線；翻譯忠實呈現原文的legal fiction語氣，不將舊文中的法律擬制誤當作現行法條文。",
     "keyPoints": [
       {
         "point": "legal fiction譯為法律擬制，不是法律虛構。",
@@ -61,6 +61,14 @@
         "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.857%2820%29.pdf",
         "pageOrSection": "Paragraph 2.1 Objectives and 2.3 VTS Services",
         "supports": "港區安全、效率、環境保護及各單位協調之背景。"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "imo_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "supports": "引水人與船長責任、Master-Pilot Exchange及引水作業程序。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [
@@ -88,19 +96,24 @@
           "item": "法律責任語意",
           "result": "pass",
           "note": "保留原文對船長及引水人責任分擔的描述，並註明法律擬制語意。"
+        },
+        {
+          "item": "2027備考責任界線",
+          "result": "pass",
+          "note": "區分英文原文中的歷史法律擬制與現行引水人、船長共同安全責任。"
         }
       ]
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   },
   {
     "id": "100-english-02",
     "questionId": "100-english-02",
-    "version": 1,
+    "version": 2,
     "language": "en",
     "answerType": "translation",
-    "modelAnswer": "**(1) 中文英譯**\n\nA vessel should, as far as practicable, avoid crossing traffic lanes. If it is obliged to cross a traffic lane, it should do so on a heading as nearly as practicable at right angles to the general direction of traffic flow.\n\n**(2) 中文英譯**\n\nWhen a vessel enters shallow water, changes in pressure occur, causing the vessel to squat and change its trim. This phenomenon becomes more pronounced, especially when the vessel is proceeding at high speed.\n\n**Alternative version of (2), more technical**\n\nWhen a ship enters shallow water, the pressure distribution around the hull changes, resulting in increased sinkage and a change in trim. This effect is particularly significant at high speed.\n\n【用語提示】\n- 儘可能：as far as practicable / as nearly as practicable\n- 橫越航行巷道：cross a traffic lane\n- 一般通行方向：the general direction of traffic flow\n- 成直角：at right angles\n- 淺水區：shallow water\n- 壓力之改變：changes in pressure / changes in pressure distribution\n- 船體下沉：squat / sinkage\n- 俯仰差／縱傾：trim\n- 高速航行：proceeding at high speed",
-    "practicalAnalysis": "本題20分。第一句可直接採COLREG Rule 10(c)的標準英文：avoid crossing traffic lanes；如不得已，heading as nearly as practicable at right angles to the general direction of traffic flow。第二句的「船體下沉」專業上可用Squat；「俯仰差」在此指船舶縱傾（Trim）的改變，不宜譯成pitching（波浪中的縱搖運動）。",
+    "modelAnswer": "**(1) 中文英譯**\n\nA vessel shall, so far as practicable, avoid crossing traffic lanes. If a vessel is obliged to cross a traffic lane, it shall cross on a heading as nearly as practicable at right angles to the general direction of traffic flow.\n\n**(2) 中文英譯**\n\nWhen a vessel enters shallow water, changes in pressure occur, causing the vessel to squat and change its trim. This phenomenon becomes more pronounced, especially when the vessel is proceeding at high speed.\n\n**Alternative version of (2), more technical**\n\nWhen a ship enters shallow water, the pressure distribution around the hull changes, resulting in increased sinkage and a change in trim. This effect is particularly significant at high speed.\n\n【用語提示】\n- 儘可能：as far as practicable / as nearly as practicable\n- 橫越航行巷道：cross a traffic lane\n- 一般通行方向：the general direction of traffic flow\n- 成直角：at right angles\n- 淺水區：shallow water\n- 壓力之改變：changes in pressure / changes in pressure distribution\n- 船體下沉：squat / sinkage\n- 俯仰差／縱傾：trim\n- 高速航行：proceeding at high speed",
+    "practicalAnalysis": "本題20分。第一句可直接採COLREG Rule 10(c)的標準英文：avoid crossing traffic lanes；如不得已，heading as nearly as practicable at right angles to the general direction of traffic flow。第二句的「船體下沉」專業上可用Squat；「俯仰差」在此指船舶縱傾（Trim）的改變，不宜譯成pitching（波浪中的縱搖運動）。 Rule 10(c)原文使用shall，英譯應保留強制語氣，不宜弱化成should。",
     "keyPoints": [
       {
         "point": "航行巷道：traffic lane；橫越：cross；儘可能避免：as far as practicable, avoid。",
@@ -180,19 +193,24 @@
           "item": "原題核對",
           "result": "pass",
           "note": "依考選部100年專業英文第二題核對。"
+        },
+        {
+          "item": "COLREG Rule 10(c)強制語氣",
+          "result": "pass",
+          "note": "將should修正為shall，忠實反映規則原文的義務語氣。"
         }
       ]
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   },
   {
     "id": "100-english-03",
     "questionId": "100-english-03",
-    "version": 1,
+    "version": 2,
     "language": "en",
     "answerType": "definition",
     "modelAnswer": "**(1) 走錨 — Dragging Anchor**\n\nSentence: The vessel began dragging anchor because of the strong wind and current.\n\n**(2) 自動識別系統 — Automatic Identification System (AIS)**\n\nSentence: The officer of the watch used the Automatic Identification System (AIS), together with radar and visual observations, to monitor nearby traffic.\n\n**(3) 分道通航制 — Traffic Separation Scheme (TSS)**\n\nSentence: Vessels navigating in a traffic separation scheme should proceed in the appropriate traffic lane in the direction of traffic flow.\n\n**(4) 迎艏正遇 — Head-on Situation**\n\nSentence: When two power-driven vessels meet on reciprocal or nearly reciprocal courses and there is a risk of collision, both vessels should alter course to starboard.\n\n【用語補充】\n- Dragging anchor：錨抓力不足，船舶受風流影響而拖錨漂移。\n- Automatic Identification System (AIS)：自動識別系統；第一次出現應先寫全名再加縮寫。\n- Traffic Separation Scheme (TSS)：交通分道制度。\n- Head-on situation：迎艏正遇；COLREG Rule 14使用的正式用語為head-on situation。",
-    "practicalAnalysis": "本題20分，每小題要寫正確英文術語並造完整句子。走錨用Dragging Anchor，不要用anchor dragging作為名詞答案；AIS首次出現寫全名及縮寫；分道通航制用Traffic Separation Scheme；迎艏正遇用Head-on Situation。句子內容最好結合航行安全或COLREG規則，避免只有單字片語。",
+    "practicalAnalysis": "本題20分，每小題要寫正確英文術語並造完整句子。走錨用Dragging Anchor，不要用anchor dragging作為名詞答案；AIS首次出現寫全名及縮寫；分道通航制用Traffic Separation Scheme；迎艏正遇用Head-on Situation。句子內容最好結合航行安全或COLREG規則，避免只有單字片語。 2027備考時，TSS與Head-on Situation應使用COLREG正式術語；AIS第一次出現寫全名及縮寫，Dragging Anchor用於描述錨泊抓力不足造成的走錨狀態。",
     "keyPoints": [
       {
         "point": "走錨：Dragging Anchor。",
@@ -283,10 +301,15 @@
           "item": "原題核對",
           "result": "pass",
           "note": "依考選部100年專業英文第三題核對。"
+        },
+        {
+          "item": "2027專業術語用法",
+          "result": "pass",
+          "note": "依現行COLREG Rule 10及Rule 14確認TSS、Head-on Situation；AIS保留正式全名。"
         }
       ]
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   },
   {
     "id": "100-english-04",
