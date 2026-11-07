@@ -60,6 +60,22 @@
         "url": "https://www.imorules.com/solas/06_chapter_V.html",
         "accessedAt": "2026-11-07",
         "supports": "引水員登離船安排的安全設備及程序。"
+      },
+      {
+        "title": "IMO Resolution MSC.137(76) — Standards for Ship Manoeuvrability",
+        "sourceType": "imo_resolution",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2002-12-04",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
+        "supports": "Full astern stopping test及track reach定義。"
+      },
+      {
+        "title": "IMO Resolution A.1045(27) — Pilot Transfer Arrangements",
+        "sourceType": "imo_resolution",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2011-11-30",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1045%2827%29.pdf",
+        "supports": "引水梯、組合登船裝置、扶手及登離船安全配置。"
       }
     ],
     "assumptions": [],
@@ -84,9 +100,31 @@
           "item": "官方評分細則",
           "result": "needs_review",
           "note": "未取得官方評分細則。"
+        },
+        {
+          "item": "Boarding arrangements與SOLAS V/23",
+          "result": "pass",
+          "note": "依SOLAS V/23及IMO A.1045(27)補入整套設備、裝置、登離船通道與監督程序。"
+        },
+        {
+          "item": "Crash-stop及track reach",
+          "result": "pass",
+          "note": "依IMO MSC.137(76) full astern stopping test定義補強。"
+        },
+        {
+          "item": "Steerage way與螺槳流",
+          "result": "pass",
+          "note": "釐清舵效取決於流經舵面的水流，可由船舶前進或propeller wash提供，非固定節數。"
+        },
+        {
+          "item": "Safe speed與COLREG Rule 6",
+          "result": "pass",
+          "note": "補入避碰及適當距離內停船兩項核心判準與相關因素。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "answer": "1. **Boarding arrangements**: The equipment, fittings and procedures provided to enable a pilot to embark on and disembark from a ship safely. They include a pilot ladder, an accommodation ladder or combination arrangement where required, proper securing and access arrangements, and the supervision and safety measures for the transfer operation.\n\n2. **Crash-stop**: An emergency stopping manoeuvre in which a ship proceeding ahead is ordered to go full astern in order to stop as quickly as practicable. The stopping performance is measured by the time and distance travelled until the ship stops in the water; the actual track reach depends on the ship's speed, displacement, propulsion system, loading condition and environmental factors.\n\n3. **Steerage way**: The minimum motion through the water, or water flow over the rudder, sufficient for the rudder to generate the hydrodynamic force needed to control the ship's direction. This flow may result from the ship's forward motion or from propeller wash; therefore, steerage way is not a fixed speed and varies with the ship and its propulsion and steering arrangements.\n\n4. **Safe speed**: A speed at which a vessel can take proper and effective action to avoid collision and can be stopped within a distance appropriate to the prevailing circumstances and conditions, as required by Rule 6 of the COLREGs. It must be determined with regard to visibility, traffic density, manoeuvrability, wind, sea, current, background lights, navigational hazards and, where relevant, the vessel's draught in relation to the available water depth.",
+    "analysis": "Boarding arrangements指整套安全登離船設備、裝置及程序，不只是引水梯；SOLAS V/23要求安全登離船、設備維護及負責人監督。Crash-stop對應IMO船舶操縱試驗中的full astern stopping test，須分清track reach是沿船舶航跡量測的距離。Steerage way是足以讓舵產生有效水動力的水流／相對運動，可由船舶前進或螺槳流提供，不是固定節數。Safe speed須依COLREG Rule 6的避碰與停船兩項標準及環境因素決定。"
   }
 ]
