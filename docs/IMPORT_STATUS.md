@@ -144,3 +144,13 @@
 - 高雄港船舶進出港管制基準另有112年4月14日訂定、113年4月19日及113年11月11日修訂版本，可作114年考試時的港口天候管制例證。
 - 嚴格限定：以上均屬高雄港地方作業依據，不外推至其他商港；跨港VTS授權及作業細節子項仍維持 `needs_review`。
 - 官方來源：https://kh.twport.com.tw/fapi/AttFile?id=3884&type=AttFile；https://kh.twport.com.tw/zh-TW/service/Articles?a=1052；https://kh.twport.com.tw/fapi/AttFile?id=3731&type=AttFile
+
+
+### 114 年航政法規第 2 題：進出港船舶航行安全措施複核（2026-11-07）
+- 已依114年考試時有效法規補強答案，並明確採用交通部112年4月26日修正之《商港港務管理規則》及《商港法》112年6月28日修正、112年11月1日施行版本。
+- 補入《商港港務管理規則》第3條預報資料、第6條進港前聯絡港口信號台及指定船席通知、第9條港內緩速、不得並列或超越及水上／水下作業避讓、第10條自行移泊須先申請同意。
+- 補強《商港法》第22條颱風防颱及依指示移泊／出港、第23條指定船席或錨地、第25條危險物品船停泊與裝卸、第26條新障礙通報、第27條海難事故緊急措施、第31條緩輪慢行及第33條港方指揮。
+- COLREG第5至10條仍作為瞭望、安全速度、碰撞危險判斷、避碰行動、狹水道及分道航行的國際共同依據；船長責任不因引水人在船而解除。
+- 已特別標示VTS報到點、VHF頻道及放行細節依各港當年度公告，不能將高雄港規定外推全臺。
+- 官方來源：交通部112年版《商港港務管理規則》https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0008018&type=-1；交通部112年版《商港法》https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0002009&type=-1；IMO COLREG https://www.imo.org/en/about/conventions/pages/colreg.aspx
+- 本題答案已更新；未取得考選部官方評分細則，建議配分仍明確標示為編輯估計。
