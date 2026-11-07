@@ -453,5 +453,239 @@
       ]
     },
     "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "086-kaohsiung-waterway-05-answer-v1",
+    "questionId": "086-kaohsiung-waterway-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【靠泊前資料交換】1,000 GT重載化學品船靠27號碼頭前，確認貨物種類、危險性、吃水及縱傾、泊位水深、護舷、繫纜設備、岸上裝卸臂／管線、消防及污染應變條件；並確認潮位、風流、能見度及泊位是否清空。\n\n【操船】船長與引水人交換主機、舵機、螺槳旋向、倒俥性能、側推器及錨資料，依風流與船舶性能決定接近方向、角度及拖船需求。以低速接近，保持足夠舵效，控制縱向及橫向接觸速度，避免碰撞碼頭、護舷及岸上管線設備。拖船依預定口令推拉，首尾纜及spring line先控制縱向位置，再收妥橫纜。\n\n【化學品船特殊措施】完成危險品申報、船岸安全會議及安全檢查表；確認消防、溢漏應變、禁火區、裝卸臂連接、緊急切斷及船岸通信。船岸安全條件未確認前不得開始裝卸。",
+    "practicalAnalysis": "本題需同時回答靠泊操船與化學品船岸界面安全；歷史27號碼頭配置未取得，不假設岸上設備的精確位置。",
+    "keyPoints": [
+      {
+        "point": "確認吃水、泊位水深、護舷、繫纜及岸上裝卸設備。",
+        "importance": "essential"
+      },
+      {
+        "point": "依風流與船舶操縱性能制定低速靠泊及拖船計畫。",
+        "importance": "essential"
+      },
+      {
+        "point": "控制縱向、橫向接觸速度，防止碰撞岸上設備。",
+        "importance": "essential"
+      },
+      {
+        "point": "完成危險品申報、船岸安全會議、消防及溢漏應變措施。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "86年甲種引水人高雄港地方題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=086120&q=1&s=5001&t=Q",
+        "supports": "地方題第5至8題原卷。"
+      }
+    ],
+    "assumptions": [
+      "依1997年高雄港考區背景作答；特定船舶操縱須以實船資料確認。"
+    ],
+    "limitations": [
+      "未取得1997年27號碼頭泊位圖及危險品作業規定，不能指定精確水深、拖點或岸上設備配置。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部86年高雄港地方題",
+          "result": "pass",
+          "note": "原卷題文及題號核對。"
+        },
+        {
+          "item": "1997年泊位、浮筒及港圖",
+          "result": "partial",
+          "note": "未取得完整歷史港圖及泊位圖，精確數值待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "086-kaohsiung-waterway-06-answer-v1",
+    "questionId": "086-kaohsiung-waterway-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【離泊前】5,000 GT空船以雙錨繫泊於25號浮筒，吹西北風4級，拖船在船艏協助。先確認風向相對船艏、潮流、艏艉吃水、兩錨鏈受力方向及是否交叉、浮筒繫纜、拖船bollard pull與可用水域。通知VTS並與拖船長約定口令。\n\n【離泊程序】空船受風面積大，先由拖船建立船艏控制，避免解除浮筒繫纜後被風吹向浮筒或鄰船。確認拖船控制力已建立，再依計畫解除浮筒繫纜；雙錨逐步回收，防止錨鏈交叉、突然受力或拖船進入錨鏈危險區。必要時先收一錨、確認船舶受控後再收另一錨，實際順序依錨鏈方向及風流決定。錨離底收妥後，由拖船協助船艏轉向及離開浮筒。\n\n【安全要點】空船舵槳浸水可能不足，拖船控制尤為重要；若風力、拖力或錨鏈狀態不利，暫停作業並重新配置拖船，不可勉強解纜。",
+    "practicalAnalysis": "未提供25號浮筒錨鏈布置、螺槳旋向及拖船推力，故以先建立拖船控制、再解纜收錨的原則作答，不指定固定收錨順序。",
+    "keyPoints": [
+      {
+        "point": "空船風壓影響大，先確認風流及錨鏈受力。",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船先建立船艏控制，再依計畫解浮筒纜。",
+        "importance": "essential"
+      },
+      {
+        "point": "雙錨逐步回收，防止錨鏈交叉、突然受力及拖船受危害。",
+        "importance": "essential"
+      },
+      {
+        "point": "錨離底收妥後，拖船協助轉向及離開浮筒。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "86年甲種引水人高雄港地方題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=086120&q=1&s=5001&t=Q",
+        "supports": "地方題第5至8題原卷。"
+      }
+    ],
+    "assumptions": [
+      "依1997年高雄港考區背景作答；特定船舶操縱須以實船資料確認。"
+    ],
+    "limitations": [
+      "未取得25號浮筒錨鏈方向、繫泊圖及拖船能力資料，無法指定固定收錨順序及拖點。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部86年高雄港地方題",
+          "result": "pass",
+          "note": "原卷題文及題號核對。"
+        },
+        {
+          "item": "1997年泊位、浮筒及港圖",
+          "result": "partial",
+          "note": "未取得完整歷史港圖及泊位圖，精確數值待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "086-kaohsiung-waterway-07-answer-v1",
+    "questionId": "086-kaohsiung-waterway-07",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【操船前】150m重載船由第一港口進港欲右靠52號碼頭，先確認吃水、縱傾、主機舵機、螺槳旋向、迴轉試驗資料、風流、潮位、航道寬度、迴船水域及泊位軸向；與船長交換資料、通知VTS並安排適當拖船。\n\n【調頭水域】選擇港務機關指定且水深、寬度足夠的迴船池或開闊水域，避免在狹窄航道、碼頭前沿或交會區勉強調頭。重載船慣性大，須預留迴轉直徑及艏艉掃掠空間。\n\n【右轉及靠泊】以安全低速進入迴船水域，保持足夠舵效，依船舶右轉性能施舵並配合主機控制轉向率；拖船依預定位置控制艏艉，必要時在艏或艉施力形成轉向力矩。接近新航向前提早反舵降低角速度。調頭完成後重新確認船位及風流，再依泊位軸向低速接近，控制橫向接觸速度，必要時中止靠泊。",
+    "practicalAnalysis": "具體調頭方向及拖船分配取決於1997年迴船池配置、風流及螺槳旋向；不指定未經核實的固定車舵時序。",
+    "keyPoints": [
+      {
+        "point": "先確認迴船池水深、寬度、風流及船舶迴轉資料。",
+        "importance": "essential"
+      },
+      {
+        "point": "選指定開闊水域調頭，避免狹窄航道及碼頭前沿。",
+        "importance": "essential"
+      },
+      {
+        "point": "重載船低速操縱，拖船控制艏艉並協助轉向。",
+        "importance": "essential"
+      },
+      {
+        "point": "接近新航向時提早反舵，靠泊時控制橫向接觸速度。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "86年甲種引水人高雄港地方題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=086120&q=1&s=5001&t=Q",
+        "supports": "地方題第5至8題原卷。"
+      }
+    ],
+    "assumptions": [
+      "依1997年高雄港考區背景作答；特定船舶操縱須以實船資料確認。"
+    ],
+    "limitations": [
+      "未取得1997年港池圖及該船操縱資料，無法提供固定調頭座標、拖點或車舵時序。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部86年高雄港地方題",
+          "result": "pass",
+          "note": "原卷題文及題號核對。"
+        },
+        {
+          "item": "1997年泊位、浮筒及港圖",
+          "result": "partial",
+          "note": "未取得完整歷史港圖及泊位圖，精確數值待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "086-kaohsiung-waterway-08-answer-v1",
+    "questionId": "086-kaohsiung-waterway-08",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "船艉在水面上的大概位置，可由下列方法交叉判斷：\n1. **船長投影法：**以GNSS／ECDIS船位及艏向為基準，依定位天線至船艉的已知偏移量，沿船體中心線反向投影；若定位點不是船中，須先修正天線位置。\n2. **雷達固定物法：**選岸上固定目標，以雷達距離、方位及平行指標監控船體相對岸壁的位置，再依船長及艏向推算船艉。\n3. **艉部瞭望：**安排艉部瞭望員觀察碼頭角點、浮筒及他船，透過VHF回報駕駛台。\n4. **動態外掃：**船舶轉向時船艉會向轉向外側掃掠（stern swing），須觀察艏向變化率、迴轉半徑及船艉與障礙物的相對距離；不能只用靜態船長投影。\n5. 若ECDIS／雷達已設定船舶尺寸及GNSS天線偏移，可顯示船體輪廓，但仍須核對設定正確。",
+    "practicalAnalysis": "本題考點是船位點不等於船艉位置。應結合船長、艏向、天線偏移、雷達固定物及艉部瞭望，並考慮轉向時的艉外掃。",
+    "keyPoints": [
+      {
+        "point": "依船位、艏向及定位天線偏移投影船艉。",
+        "importance": "essential"
+      },
+      {
+        "point": "用雷達PI及岸標距離／方位交叉確認。",
+        "importance": "essential"
+      },
+      {
+        "point": "艉部瞭望員持續觀察並回報。",
+        "importance": "essential"
+      },
+      {
+        "point": "轉向時注意stern swing及艉部外掃。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "86年甲種引水人高雄港地方題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=086120&q=1&s=5001&t=Q",
+        "supports": "地方題第5至8題原卷。"
+      }
+    ],
+    "assumptions": [
+      "依1997年高雄港考區背景作答；特定船舶操縱須以實船資料確認。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部86年高雄港地方題",
+          "result": "pass",
+          "note": "原卷題文及題號核對。"
+        },
+        {
+          "item": "1997年泊位、浮筒及港圖",
+          "result": "partial",
+          "note": "未取得完整歷史港圖及泊位圖，精確數值待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
   }
 ]
