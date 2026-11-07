@@ -7,6 +7,7 @@ import questionData from "../../data/questions.json";
 type Question = { id:string; year:number; subject:string; port:string; question:string; questionNo:number; status?:string };
 type ExamQuestion = Question & { examSubject:string };
 const years = new Set([1994,1995,1996,1997,1998,2000,2001,2002,2003,2005,2007,2009,2011,2013,2015,2017,2019,2021,2023,2025]);
+function isKaohsiungPort(port:string){return port.split("、").includes("高雄港");}
 const plan = [
   { subject:"航海英文", aliases:["專業英文","實用英文"], count:4 },
   { subject:"航政法規", aliases:["航政法規"], count:4 },
@@ -24,7 +25,7 @@ function formatTime(seconds:number) {
   return [h,m,s].map(v=>String(v).padStart(2,"0")).join(":");
 }
 export default function MockExamPage(){
-  const pool=(questionData as Question[]).filter(q=>years.has(q.year)&&(q.port==="共通科目"||q.port==="全港共通"||q.port==="高雄港"));
+  const pool=(questionData as Question[]).filter(q=>years.has(q.year)&&(q.port==="共通科目"||q.port==="全港共通"||isKaohsiungPort(q.port)));
   const [exam,setExam]=useState<ExamQuestion[]>([]);
   const [answers,setAnswers]=useState<Record<string,string>>({});
   const [started,setStarted]=useState(false);
@@ -39,7 +40,7 @@ export default function MockExamPage(){
   function makeExam(){
     const selected:ExamQuestion[]=[];
     for(const p of plan){
-      const candidates=pool.filter(q=>p.aliases.includes(q.subject)&&(p.subject!=="高雄港單港"||q.port==="高雄港"));
+      const candidates=pool.filter(q=>p.aliases.includes(q.subject)&&(p.subject!=="高雄港單港"||isKaohsiungPort(q.port)));
       const chosen=shuffle(candidates).slice(0,p.count).map(q=>({...q,examSubject:p.subject}));
       selected.push(...chosen);
     }
