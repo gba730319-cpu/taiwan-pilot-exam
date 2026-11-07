@@ -1,0 +1,818 @@
+[
+  {
+    "id": "089-pilot-law-01-answer-v1",
+    "questionId": "089-pilot-law-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、引水人發現海難時的立即措施】\n引水人剛由引水船登上正在走錨的商船，發現附近海域有海難求救信號，應同時處理「本船走錨危險」及「他船海難救助」兩件事，並依海上人命救助優先原則採取行動。\n\n1. **立即通報船長**：將所見遇險信號、方位、距離、遇險船舶位置及可能危險告知船長，確認本船主機、舵機、錨機及船位狀態。\n2. **辨識遇險及定位**：確認信號種類、遇險船舶名稱、位置、人數、危險性及所需協助；使用雷達、GNSS、目視及VHF交叉定位，避免誤認信號。\n3. **通知岸台／VTS／RCC**：立即以VHF向海岸電臺、VTS或救援協調中心報告遇險事件，必要時代為轉發Mayday／DSC資訊，提供本船位置及可提供的協助。\n4. **評估本船走錨風險**：先判斷本船是否可能危及附近船舶、岸線或航道；若走錨情況可控制，與船長協調保持安全船位並準備救助；若本船本身有立即危險，須先採取必要操船措施避免造成第二起海難。\n5. **在安全可行範圍內救助**：若船長及本船安全條件允許，協助調整航向及航速前往救助區，派出救生艇或救援設備須符合海況與船舶安全要求；若不宜直接接近，則在安全距離待命、提供通信中繼或照明定位。\n6. **遵守船長指揮權**：引水人提供港口及操船專業建議，但船長仍負船舶安全與救助決策責任；必要時應將救助建議、風險及可行方案清楚說明並記錄。\n\n【二、商港管理機關海難救助作業】\n1. 接獲海難通報後，立即確認事故位置、船舶資料、遇險人數、貨物危險性及海況，啟動港區應變／救援機制。\n2. 通知海巡、消防、海岸電臺、航港主管機關、港務警察、醫療及污染防治單位，依權責協調搜救。\n3. 指派拖船、工作船、交通船、消防船及其他救難設備，並劃定警戒區及救援航道，管制其他船舶避讓。\n4. 對沉船、擱淺、漂流船舶及危險貨物，採取防止碰撞、火災、爆炸、污染及航道阻塞的措施。\n5. 必要時發布港口交通管制、停止裝卸、疏散人員、移泊船舶或封鎖危險水域。\n6. 救助完成後，保存VTS錄音、雷達影像、船舶通報及作業紀錄，調查事故原因並檢討應變程序。\n\n【結論】\n引水人應立即告知船長、定位遇險船、通報VTS／RCC，兼顧本船走錨安全並在可行範圍內協助救助；商港管理機關則負責啟動港區救援協調、調派資源、交通管制及防止二次災害。",
+    "practicalAnalysis": "本題15分，重點是海難救助義務與引水人角色分際。引水人不應忽略正在走錨的本船，也不能因自己是引水人就取代船長；正確做法是立即通報、協助船長評估、協調岸上救援並在安全範圍提供協助。",
+    "keyPoints": [
+      {
+        "point": "先告知船長並確認本船走錨風險。",
+        "importance": "essential"
+      },
+      {
+        "point": "辨識遇險信號、位置、人數及危險性。",
+        "importance": "essential"
+      },
+      {
+        "point": "立即通報VTS、海岸電臺及RCC。",
+        "importance": "essential"
+      },
+      {
+        "point": "本船安全可行時協助前往救助或提供通信中繼。",
+        "importance": "supporting"
+      },
+      {
+        "point": "港務機關協調海巡、消防、拖船、救難及醫療資源。",
+        "importance": "supporting"
+      },
+      {
+        "point": "實施交通管制、警戒區、污染防治及事故紀錄。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "89年甲種引水人航政法規官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國89年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=c111&t=Q",
+        "supports": "第1至9題原文。"
+      },
+      {
+        "title": "商港法（歷史及現行條文）",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "supports": "海難救助、沉船清除、強制移泊及商港法授權規範。"
+      },
+      {
+        "title": "引水法（民國87年修正版）",
+        "sourceType": "law_or_regulation",
+        "issuer": "總統府公報／全國法規資料庫",
+        "url": "https://www.president.gov.tw/Page/294/36946",
+        "supports": "引水人執業資格、業務過失刑責及引水法第38條行政懲戒。"
+      },
+      {
+        "title": "國際海上避碰規則（COLREG）",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "燈號、疏浚船及受限操縱能力船舶號燈號標。"
+      },
+      {
+        "title": "海水污染管理規則",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080007",
+        "supports": "油類瞬間排洩率及清潔壓艙水定義。"
+      }
+    ],
+    "assumptions": [
+      "依民國89年考試時適用法規整理；現行條文用於確認定義及沿革，不直接替代歷史版本。"
+    ],
+    "limitations": [
+      "題目未給遇險船位置、海況及本船走錨程度，故不指定必須離錨救助或固定接近航向。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部89年航政法規題目",
+          "result": "pass",
+          "note": "已核對官方題庫原文。"
+        },
+        {
+          "item": "2000年適用法規條文",
+          "result": "partial",
+          "note": "部分歷史條文尚待逐字核對，已標示版本限制。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "089-pilot-law-02-answer-v1",
+    "questionId": "089-pilot-law-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、商港區內不影響航行安全的沉船】\n1. 商港管理機關應先確認沉船位置、深度、船體狀態、污染風險及是否妨礙船席或港區作業。\n2. 通知或公告沉船所有人於指定期限內打撈、清除或採取必要標示及防污染措施。\n3. 所有人逾期不處理、所有人不明或無法通知時，商港管理機關得依商港法規定自行打撈、清除。\n4. 沉船打撈及清除費用由所有人負擔；未於期限內繳納費用領回者，管理機關得依法公告拍賣沉船或殘餘物，拍賣所得先抵費用，餘款依規定返還或保管。\n5. 未經商港管理機關核准，不得擅自打撈沉船或物資，以免影響港區安全及證據保存。\n\n【二、港口附近狹窄航道中妨礙船舶進出的沉船】\n1. 若沉船位於港口、船席或狹窄航道，已阻礙船舶進出、航行或停泊，且必須緊急處理，商港管理機關得不等待所有人期限屆滿，立即安排打撈、清除或移除。\n2. 立即設置警戒區、浮標、燈標或其他警告，通知VTS及航行船舶，必要時暫停航道通行或改道。\n3. 依沉船位置、吃水、航道寬度及船舶交通，選擇拖移、浮揚、切割或其他安全打撈方法；須防止油污、危險貨物及水下障礙造成二次事故。\n4. 打撈費用及因此所生必要費用原則上由沉船所有人負擔；管理機關可依法追償。\n\n【三、兩者差異】\n- 不影響航安者：以通知／公告所有人限期處理為原則，逾期或無法通知時由管理機關代為清除。\n- 阻塞港口、船席或狹窄航道者：因具有立即危險，管理機關得逕行緊急打撈清除，並同步管制航道及警戒。\n\n【結論】\n差別在於是否妨礙港口、船席或航道航行停泊；一般沉船先限期通知所有人，阻塞航道且須緊急處理者得立即清除，費用原則上由所有人負擔。",
+    "practicalAnalysis": "本題10分，關鍵是「是否阻塞港口、船席或航道」。商港法歷史第16條已明確區分一般沉船限期打撈與阻塞航道時得立即打撈；答題應加上警戒、航道管制、污染防治及費用追償。",
+    "keyPoints": [
+      {
+        "point": "一般沉船先通知／公告所有人限期打撈清除。",
+        "importance": "essential"
+      },
+      {
+        "point": "所有人不明、無法通知或逾期不處理，管理機關得代為清除。",
+        "importance": "essential"
+      },
+      {
+        "point": "阻塞港口、船席或航道且需緊急處理，管理機關得立即打撈清除。",
+        "importance": "essential"
+      },
+      {
+        "point": "緊急處理時設警戒、標示、VTS通報及航道管制。",
+        "importance": "supporting"
+      },
+      {
+        "point": "費用原則上由沉船所有人負擔；未經核准不得擅自打撈。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "89年甲種引水人航政法規官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國89年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=c111&t=Q",
+        "supports": "第1至9題原文。"
+      },
+      {
+        "title": "商港法（歷史及現行條文）",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "supports": "海難救助、沉船清除、強制移泊及商港法授權規範。"
+      },
+      {
+        "title": "引水法（民國87年修正版）",
+        "sourceType": "law_or_regulation",
+        "issuer": "總統府公報／全國法規資料庫",
+        "url": "https://www.president.gov.tw/Page/294/36946",
+        "supports": "引水人執業資格、業務過失刑責及引水法第38條行政懲戒。"
+      },
+      {
+        "title": "國際海上避碰規則（COLREG）",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "燈號、疏浚船及受限操縱能力船舶號燈號標。"
+      },
+      {
+        "title": "海水污染管理規則",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080007",
+        "supports": "油類瞬間排洩率及清潔壓艙水定義。"
+      }
+    ],
+    "assumptions": [
+      "依民國89年考試時適用法規整理；現行條文用於確認定義及沿革，不直接替代歷史版本。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部89年航政法規題目",
+          "result": "pass",
+          "note": "已核對官方題庫原文。"
+        },
+        {
+          "item": "2000年適用法規條文",
+          "result": "pass",
+          "note": "部分歷史條文尚待逐字核對，已標示版本限制。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "089-pilot-law-03-answer-v1",
+    "questionId": "089-pilot-law-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、得採取強制移泊的船舶情形】\n依商港法及商港港務管理規則，商港管理機關為維護船席調度及港區安全，對下列船舶得指定地點令其移泊或疏散：\n1. 停泊船舶已妨礙船席調度、港區安全或港區作業者。\n2. 非作業船舶停泊於非指定船席，或超過核准停泊期限者。\n3. 船舶因故停止裝卸作業、裝卸完畢後未依期限離開船席，致妨礙其他船舶使用船席者。\n4. 船舶發生故障、走錨、繫泊不安全、船體破損或其他可能危及港區及其他船舶安全者。\n5. 遇颱風、惡劣天氣、火災、爆炸、危險品事故或港區施工，管理機關認有移泊、疏散或避難必要者。\n6. 經通知移泊仍拒絕或未依期限辦理者，管理機關得依法逕行移泊。\n\n【二、執行強制移泊的程序及權益保障】\n1. 原則上應告知船舶所有人、船長或代理人移泊原因、指定地點、期限及不遵辦的法律效果；緊急危險情況得先採取必要措施，再依規定補辦程序。\n2. 移泊作業應由具備適當能力的拖船、引水人及港勤人員執行，確認拖點、拖纜、船舶適航狀態及新泊位水深。\n3. 移泊費用及因船方違規或拒絕移泊所生費用，依法律及港務規定由船舶所有人負擔。\n4. 管理機關執行公權力時應遵守法定程序、比例原則及必要性原則；不得超過維護船席及港區安全所需範圍。\n5. 船方對移泊命令或費用有異議，可依行政救濟程序提出訴願或行政訴訟；但不得以爭議為由妨礙緊急安全處置。\n\n【三、管理機關的保障】\n管理機關依法發布移泊命令、依規定執行逕行移泊，並保留通知、現場紀錄、拖船及費用單據，可證明其執行目的、程序與必要性；如因船方拒絕而需額外拖船或救援，相關費用得依法求償。若管理機關執行有違法或過失，仍須依國家賠償及相關法律負責。\n\n【結論】\n強制移泊主要為排除妨礙船席調度、港區作業或公共安全的船舶；程序上須有法定依據、通知及指定地點，緊急情況得逕行處理，費用依規定由船方負擔，並保留行政救濟及國家賠償機制。",
+    "practicalAnalysis": "本題10分，應分成「何種船會被移泊」與「執行時管理機關的法律保障」。不要把所有滯港船一概列入，須有妨礙船席、港區安全、超期停泊、危險或緊急避難等理由。",
+    "keyPoints": [
+      {
+        "point": "妨礙船席調度、港區安全或作業的船舶。",
+        "importance": "essential"
+      },
+      {
+        "point": "超過核准停泊期限或未依規定停泊者。",
+        "importance": "essential"
+      },
+      {
+        "point": "故障、走錨、繫泊不安全或遇災害需疏散者。",
+        "importance": "essential"
+      },
+      {
+        "point": "管理機關先通知指定移泊地點及期限，緊急情況得逕行處理。",
+        "importance": "supporting"
+      },
+      {
+        "point": "移泊費用依法由船舶所有人負擔，船方仍有行政救濟權利。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "89年甲種引水人航政法規官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國89年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=c111&t=Q",
+        "supports": "第1至9題原文。"
+      },
+      {
+        "title": "商港法（歷史及現行條文）",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "supports": "海難救助、沉船清除、強制移泊及商港法授權規範。"
+      },
+      {
+        "title": "引水法（民國87年修正版）",
+        "sourceType": "law_or_regulation",
+        "issuer": "總統府公報／全國法規資料庫",
+        "url": "https://www.president.gov.tw/Page/294/36946",
+        "supports": "引水人執業資格、業務過失刑責及引水法第38條行政懲戒。"
+      },
+      {
+        "title": "國際海上避碰規則（COLREG）",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "燈號、疏浚船及受限操縱能力船舶號燈號標。"
+      },
+      {
+        "title": "海水污染管理規則",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080007",
+        "supports": "油類瞬間排洩率及清潔壓艙水定義。"
+      }
+    ],
+    "assumptions": [
+      "依民國89年考試時適用法規整理；現行條文用於確認定義及沿革，不直接替代歷史版本。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部89年航政法規題目",
+          "result": "pass",
+          "note": "已核對官方題庫原文。"
+        },
+        {
+          "item": "2000年適用法規條文",
+          "result": "partial",
+          "note": "部分歷史條文尚待逐字核對，已標示版本限制。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "089-pilot-law-04-answer-v1",
+    "questionId": "089-pilot-law-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、收回執業證書三個月的可能原因】\n依引水法第38條及引水人管理相關規定，當地航政主管機關得對引水人違反執業義務的情形予以警告；情節重大或符合法定累積處分要件時，得報請交通部收回執業證書。可能情形包括：\n1. **怠忽業務或違反業務義務**：未依規定執行領航、未盡合理注意、未依程序完成船舶資料交換或未採取必要安全措施。\n2. **隱匿應通報事項**：發現水道變遷、新障礙、航標位置變更、燈號／信號異常、船舶遇險或船舶違反航行法令，未依規定通報。\n3. **違反航行安全規章造成災害損失**：例如違反港口航行規定、航道管制或避碰規則，造成船舶、貨物、碼頭或其他設施損害。\n4. **因職務過失造成海難**：執行領航時因疏忽、判斷錯誤或未盡注意義務，導致碰撞、擱淺、沉沒或其他海難。\n5. **因引水人原因造成損害、延誤或傷亡**：船舶、貨物受損、延誤船期或人員傷亡，且與引水人執業過失有因果關係。\n6. **其他違反引水法或依該法發布命令**：例如違反執業範圍、引水區域、執業證書或學習引水人管理規定。\n7. **二年內警告達三次**：依引水法相關規定，二年內警告達三次者，得收回執業證書三個月。\n\n【二、行政處分與刑事責任區分】\n引水人若因業務過失致人死亡、傷害或船舶沉沒／破壞，可能另涉及刑事責任；行政機關收回執業證書是維護專業資格及航行安全的行政處分，兩者法律性質不同，可分別進行。\n\n【結論】\n三個月收回執業證書可能來自重大違反執業義務、隱匿應通報事項、違反航安規章造成損害、職務過失致海難，或二年內警告達三次等法定情形。",
+    "practicalAnalysis": "本題10分，應把引水法第38條列舉的警告事由與收回執業證書的法定處分分開。題目特別問「收回三個月」，應明確列出二年內警告三次的情形；重大事故則依情節可能收回三個月至二年。",
+    "keyPoints": [
+      {
+        "point": "怠忽業務或違反執業義務。",
+        "importance": "essential"
+      },
+      {
+        "point": "隱匿水道、航標、障礙、遇險及違法航行等應通報事項。",
+        "importance": "essential"
+      },
+      {
+        "point": "違反航安規章造成損失或職務過失致海難。",
+        "importance": "essential"
+      },
+      {
+        "point": "引水人原因造成船舶、貨物損害、延誤或人員傷亡。",
+        "importance": "supporting"
+      },
+      {
+        "point": "其他違反引水法及授權命令。",
+        "importance": "supporting"
+      },
+      {
+        "point": "二年內警告達三次者收回執業證書三個月。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "89年甲種引水人航政法規官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國89年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=c111&t=Q",
+        "supports": "第1至9題原文。"
+      },
+      {
+        "title": "商港法（歷史及現行條文）",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "supports": "海難救助、沉船清除、強制移泊及商港法授權規範。"
+      },
+      {
+        "title": "引水法（民國87年修正版）",
+        "sourceType": "law_or_regulation",
+        "issuer": "總統府公報／全國法規資料庫",
+        "url": "https://www.president.gov.tw/Page/294/36946",
+        "supports": "引水人執業資格、業務過失刑責及引水法第38條行政懲戒。"
+      },
+      {
+        "title": "國際海上避碰規則（COLREG）",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "燈號、疏浚船及受限操縱能力船舶號燈號標。"
+      },
+      {
+        "title": "海水污染管理規則",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080007",
+        "supports": "油類瞬間排洩率及清潔壓艙水定義。"
+      }
+    ],
+    "assumptions": [
+      "依民國89年考試時適用法規整理；現行條文用於確認定義及沿革，不直接替代歷史版本。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部89年航政法規題目",
+          "result": "pass",
+          "note": "已核對官方題庫原文。"
+        },
+        {
+          "item": "2000年適用法規條文",
+          "result": "partial",
+          "note": "部分歷史條文尚待逐字核對，已標示版本限制。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "089-pilot-law-05-answer-v1",
+    "questionId": "089-pilot-law-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、民國87年6月17日修法前的第34至36條】\n1. **第34條：業務過失致人於死罪**。引水人因業務上過失致人死亡，處五年以下有期徒刑。\n2. **第35條：業務過失傷害罪**。引水人因業務上過失傷害人，處一年以下有期徒刑、拘役或科罰金；致重傷者處三年以下有期徒刑。此罪依當時規定須告訴乃論。\n3. **第36條：業務過失致船舶沉沒或破壞罪**。引水人因業務上過失致其領航船舶沉沒，處三年以下有期徒刑、拘役或科罰金；致船舶破壞者亦有相應刑責。此罪依當時規定須告訴乃論。\n\n【二、87年修正第13條的內容】\n修法前，引水法第13條將「犯第34、35或36條之罪，經判處徒刑三年以上確定者」列為不得為引水人的消極資格。民國87年6月17日修法刪除該款文字，因此不再以該三類業務過失犯罪及徒刑三年以上確定，作為一律不得任引水人的法定消極資格。\n\n【三、修法意旨】\n1. **刑事責任與專業資格分流**：業務過失犯罪是否成立，應由刑事法院依個案證據判斷；是否適任引水人，則由航政主管機關依執業能力、過失情節、事故原因及行政懲戒規定個別判斷。\n2. **避免過度剝奪執業資格**：過失致死、傷害或船舶損害雖可能涉及刑責，但不應僅因判決刑度達門檻即自動終身或永久排除引水執業，須回到專業資格及行政懲戒制度審查。\n3. **保留航安監督**：刪除消極資格款並非免除刑責或行政責任；引水人仍可能受警告、停止領航或收回執業證書等行政處分。\n\n【結論】\n第34條是業務過失致死，第35條是業務過失傷害，第36條是業務過失致領航船舶沉沒或破壞。87年修法刪除其作為第13條消極資格的文字，重點是區分刑事責任與引水人專業資格審查，並非免除引水人刑責。",
+    "practicalAnalysis": "本題10分，已找到總統府公報原始修法資料，條文及修法沿革可直接核對。作答須說明三條罪名及刑責，再說明87年修法只刪除第13條消極資格款，並未刪除第34至36條刑事責任。",
+    "keyPoints": [
+      {
+        "point": "第34條：業務過失致死。",
+        "importance": "essential"
+      },
+      {
+        "point": "第35條：業務過失傷害，致重傷加重，當時須告訴乃論。",
+        "importance": "essential"
+      },
+      {
+        "point": "第36條：業務過失致領航船舶沉沒或破壞。",
+        "importance": "essential"
+      },
+      {
+        "point": "87年6月17日修法刪除第13條以該三罪判刑作為不得任引水人的資格限制。",
+        "importance": "supporting"
+      },
+      {
+        "point": "修法區分刑事責任與行政資格審查，未免除刑責或行政懲戒。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "89年甲種引水人航政法規官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國89年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=c111&t=Q",
+        "supports": "第1至9題原文。"
+      },
+      {
+        "title": "商港法（歷史及現行條文）",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "supports": "海難救助、沉船清除、強制移泊及商港法授權規範。"
+      },
+      {
+        "title": "引水法（民國87年修正版）",
+        "sourceType": "law_or_regulation",
+        "issuer": "總統府公報／全國法規資料庫",
+        "url": "https://www.president.gov.tw/Page/294/36946",
+        "supports": "引水人執業資格、業務過失刑責及引水法第38條行政懲戒。"
+      },
+      {
+        "title": "國際海上避碰規則（COLREG）",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "燈號、疏浚船及受限操縱能力船舶號燈號標。"
+      },
+      {
+        "title": "海水污染管理規則",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080007",
+        "supports": "油類瞬間排洩率及清潔壓艙水定義。"
+      }
+    ],
+    "assumptions": [
+      "依民國89年考試時適用法規整理；現行條文用於確認定義及沿革，不直接替代歷史版本。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部89年航政法規題目",
+          "result": "pass",
+          "note": "已核對官方題庫原文。"
+        },
+        {
+          "item": "2000年適用法規條文",
+          "result": "pass",
+          "note": "部分歷史條文尚待逐字核對，已標示版本限制。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "089-pilot-law-06-answer-v1",
+    "questionId": "089-pilot-law-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、CIE色度座標原理】\nCOLREG附錄規定號燈顏色須符合國際照明委員會（CIE）1931色度座標系統。紅色及綠色各由四個邊界座標點（x、y）構成一個多邊形；燈光實測色度點落在該顏色多邊形邊界內，才視為符合規定。\n\n【二、紅色邊界四點】\n| 點 | x | y |\n|---|---:|---:|\n| 1 | 0.680 | 0.320 |\n| 2 | 0.735 | 0.265 |\n| 3 | 0.721 | 0.259 |\n| 4 | 0.665 | 0.335 |\n\n【三、綠色邊界四點】\n| 點 | x | y |\n|---|---:|---:|\n| 1 | 0.028 | 0.385 |\n| 2 | 0.009 | 0.723 |\n| 3 | 0.300 | 0.511 |\n| 4 | 0.203 | 0.356 |\n\n【四、如何表示合乎規定】\n1. 將四組（x,y）座標依序連接，形成紅色及綠色的色度範圍多邊形。\n2. 使用標準色度測量設備測量燈光的色度座標。\n3. 實測點若位於相應顏色四邊界所圍成的區域內，即符合該顏色標準；若落在區域外，即不符合。\n4. x、y為色度座標，非燈光亮度或光強；燈光能見距及光強另依COLREG Annex I規定檢查。\n\n【結論】\n紅、綠色均以CIE 1931的四個（x,y）邊界座標構成色度多邊形，實測色度點落於多邊形內才算合格。",
+    "practicalAnalysis": "本題10分，核心是四組X、Y座標形成色度範圍，而不是將四個數字當作燈光亮度。表格要把紅色及綠色的四個頂點完整列出，並說明測量點在多邊形內即符合標準。",
+    "keyPoints": [
+      {
+        "point": "色度依CIE 1931 x-y座標表示。",
+        "importance": "essential"
+      },
+      {
+        "point": "紅色四點：(0.680,0.320)、(0.735,0.265)、(0.721,0.259)、(0.665,0.335)。",
+        "importance": "essential"
+      },
+      {
+        "point": "綠色四點：(0.028,0.385)、(0.009,0.723)、(0.300,0.511)、(0.203,0.356)。",
+        "importance": "essential"
+      },
+      {
+        "point": "四點連線形成多邊形，實測點位於區域內即合格。",
+        "importance": "supporting"
+      },
+      {
+        "point": "色度座標不同於光強及能見距。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "89年甲種引水人航政法規官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國89年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=c111&t=Q",
+        "supports": "第1至9題原文。"
+      },
+      {
+        "title": "商港法（歷史及現行條文）",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "supports": "海難救助、沉船清除、強制移泊及商港法授權規範。"
+      },
+      {
+        "title": "引水法（民國87年修正版）",
+        "sourceType": "law_or_regulation",
+        "issuer": "總統府公報／全國法規資料庫",
+        "url": "https://www.president.gov.tw/Page/294/36946",
+        "supports": "引水人執業資格、業務過失刑責及引水法第38條行政懲戒。"
+      },
+      {
+        "title": "國際海上避碰規則（COLREG）",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "燈號、疏浚船及受限操縱能力船舶號燈號標。"
+      },
+      {
+        "title": "海水污染管理規則",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080007",
+        "supports": "油類瞬間排洩率及清潔壓艙水定義。"
+      }
+    ],
+    "assumptions": [
+      "依民國89年考試時適用法規整理；現行條文用於確認定義及沿革，不直接替代歷史版本。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部89年航政法規題目",
+          "result": "pass",
+          "note": "已核對官方題庫原文。"
+        },
+        {
+          "item": "2000年適用法規條文",
+          "result": "partial",
+          "note": "部分歷史條文尚待逐字核對，已標示版本限制。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "089-pilot-law-07-answer-v1",
+    "questionId": "089-pilot-law-07",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、B船首先發現A船的燈號】\nA船長49m，小於50m，為動力挖泥船，依COLREG Rule 23，動力船長12m以上未滿50m，桅燈公稱能見距為5浬；舷燈及艉燈為2浬。故B船最先在約5浬處看到A船的白色桅燈（masthead light）。此時尚未必能看清A船的舷燈及挖泥船特殊號燈。\n\n【二、兩船號燈互見的距離】\nA船舷燈最低標準能見距為2浬；B船長101m，舷燈最低標準能見距為3浬。兩船迎面相對時，當距離進入較短的2浬範圍，A船舷燈及B船舷燈均可互見，因此兩船互見時距離約2浬。\n\n【三、B船辨識A船為受限操縱能力的挖泥船】\nA船從事疏浚作業，且右舷泥耙伸入阻礙區，依Rule 27(d)應在阻礙側顯示兩盞垂直排列環照紅燈，在可通過側顯示兩盞垂直排列環照綠燈。A船長49m，這些環照燈的最低能見距為2浬；因此B船在約2浬處可辨識其疏浚／水下作業及受限操縱狀態。\n\n【四、B船所見A船燈號及通過側】\nA船右舷為阻礙區，因此：\n- A船右舷（阻礙側）：垂直兩盞環照紅燈。\n- A船左舷（可通過側）：垂直兩盞環照綠燈。\n- A船作為49m動力船且正在航行，另顯示一盞桅燈、左右舷燈及艉燈；如依Rule 27(b)顯示受限操縱能力號燈，亦須依規定顯示紅白紅垂直排列燈號及球菱球號型（白晝）。\n\n示意（由B船迎面觀察A船，僅表示相對位置）：\n\n```text\n             A船船艏朝向B船\n\n     A船右舷（阻礙側）     A船左舷（可通過側）\n          🔴 🔴                 🟢 🟢\n       垂直兩紅燈           垂直兩綠燈\n\n                 ⚪\n              桅燈\n            🔴   🟢\n          舷燈（紅／綠）\n                 ⚪\n              艉燈\n```\n\nB船應依綠燈所示的可通過側航行，避開A船右舷的紅燈阻礙側；在迎面情境下，B船應依避碰規則採取及早、明確的向右轉向，從A船左舷（綠燈側）通過，並保持安全距離。\n\n【結論】\nB船最先約5浬看到A船桅燈；約2浬兩船舷燈互見，並可藉挖泥船特殊紅綠燈辨識其受限操縱及阻礙側。紅燈標示A船右舷阻礙側，綠燈標示A船左舷可通過側，B船應從綠燈側通過。",
+    "practicalAnalysis": "本題15分，距離取自COLREG Rule 22最低燈光能見距：49m動力船桅燈5浬、舷燈2浬；101m船舷燈3浬。挖泥船Rule 27(d)額外以紅燈標示阻礙側、綠燈標示可通過側。B船迎面時須辨識A船左右舷，避免把「右舷紅燈」畫成B船視角的右側。",
+    "keyPoints": [
+      {
+        "point": "49m動力船桅燈5浬，舷燈／艉燈2浬。",
+        "importance": "essential"
+      },
+      {
+        "point": "101m船舷燈3浬；互見距離由A船2浬舷燈限制。",
+        "importance": "essential"
+      },
+      {
+        "point": "A船右舷阻礙側顯示兩盞垂直環照紅燈。",
+        "importance": "essential"
+      },
+      {
+        "point": "A船左舷可通過側顯示兩盞垂直環照綠燈。",
+        "importance": "supporting"
+      },
+      {
+        "point": "B船從綠燈側通過，迎面時及早向右轉向並保持安全距離。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "89年甲種引水人航政法規官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國89年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=c111&t=Q",
+        "supports": "第1至9題原文。"
+      },
+      {
+        "title": "商港法（歷史及現行條文）",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "supports": "海難救助、沉船清除、強制移泊及商港法授權規範。"
+      },
+      {
+        "title": "引水法（民國87年修正版）",
+        "sourceType": "law_or_regulation",
+        "issuer": "總統府公報／全國法規資料庫",
+        "url": "https://www.president.gov.tw/Page/294/36946",
+        "supports": "引水人執業資格、業務過失刑責及引水法第38條行政懲戒。"
+      },
+      {
+        "title": "國際海上避碰規則（COLREG）",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "燈號、疏浚船及受限操縱能力船舶號燈號標。"
+      },
+      {
+        "title": "海水污染管理規則",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080007",
+        "supports": "油類瞬間排洩率及清潔壓艙水定義。"
+      }
+    ],
+    "assumptions": [
+      "依民國89年考試時適用法規整理；現行條文用於確認定義及沿革，不直接替代歷史版本。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部89年航政法規題目",
+          "result": "pass",
+          "note": "已核對官方題庫原文。"
+        },
+        {
+          "item": "2000年適用法規條文",
+          "result": "partial",
+          "note": "部分歷史條文尚待逐字核對，已標示版本限制。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "089-pilot-law-08-answer-v1",
+    "questionId": "089-pilot-law-08",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【1. 受吃水限制之船舶（Vessel constrained by her draught）】\n指因船舶吃水相對於可用水深及航道寬度的關係，嚴重限制其偏離所航行航向能力的動力船。依COLREG Rule 3(h)，此類船舶須符合規則所定條件，並非只要吃水深就自動屬於受吃水限制船舶；船舶應依Rule 28顯示三盞環照紅燈垂直排列，白晝顯示圓柱形號型。\n\n【2. 受限制之能見度（Restricted Visibility）】\n指因霧、霾、降雪、暴雨、沙暴或其他類似原因，能見度受到限制的任何情況。依COLREG Rule 3(l)，受限制能見度不以固定距離作唯一判準，須依當時氣象及視距判斷。\n\n【3. 油類瞬間排洩率（題庫文字疑似誤植為「潮流瞬間排洩率」）】\n依海水污染管理規則，油類瞬間排洩率係指任一瞬間以公升計算之每小時油類排洩量，除以該瞬間船舶以節計算的航速，通常表示為公升／浬（L/nm）。其用途為監控油輪排油量與排油速率是否符合MARPOL及國內污染防治規定。\n\n【4. 清潔壓艙水（Clean Ballast）】\n指油輪或相關船舶之壓艙水艙，自前次載運油類後已徹底清洗，使其排出物在船舶靜止、清潔平靜水域及晴朗天候下排放時，不會在水面或鄰近岸線產生可見油痕，也不會在水下或岸邊形成油泥或乳化物；若經主管機關核准的油類排洩監控系統證明含油量不超過15 ppm，得依MARPOL規定認定為清潔壓艙水。\n\n【結論】\n四項定義分別為受吃水限制船、受限制能見度、油類瞬間排洩率及清潔壓艙水。題庫第3項「潮流瞬間排洩率」與正式法規名詞「油類瞬間排洩率」不符，應回看原卷影像確認是否轉錄誤字。",
+    "practicalAnalysis": "本題10分，前三項為COLREG及污染防治法規定義，第四項是MARPOL clean ballast。題庫轉錄的「潮流瞬間排洩率」疑似應為「油類瞬間排洩率」，因海水污染管理規則正式定義即為油類瞬間排洩率，答案已保留轉錄疑義，不默默改題。",
+    "keyPoints": [
+      {
+        "point": "受吃水限制船依COLREG Rule 3(h)，須因吃水／可用水深限制其偏離航向能力。",
+        "importance": "essential"
+      },
+      {
+        "point": "受限制能見度包括霧、霾、降雪、暴雨、沙暴等。",
+        "importance": "essential"
+      },
+      {
+        "point": "油類瞬間排洩率=每小時油排量(L/h)÷船速(kn)，單位L/nm。",
+        "importance": "essential"
+      },
+      {
+        "point": "清潔壓艙水須經徹底清洗，排放不得產生可見油痕或油泥；監測含油量≤15ppm可作認定依據。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "89年甲種引水人航政法規官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國89年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=c111&t=Q",
+        "supports": "第1至9題原文。"
+      },
+      {
+        "title": "商港法（歷史及現行條文）",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "supports": "海難救助、沉船清除、強制移泊及商港法授權規範。"
+      },
+      {
+        "title": "引水法（民國87年修正版）",
+        "sourceType": "law_or_regulation",
+        "issuer": "總統府公報／全國法規資料庫",
+        "url": "https://www.president.gov.tw/Page/294/36946",
+        "supports": "引水人執業資格、業務過失刑責及引水法第38條行政懲戒。"
+      },
+      {
+        "title": "國際海上避碰規則（COLREG）",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "燈號、疏浚船及受限操縱能力船舶號燈號標。"
+      },
+      {
+        "title": "海水污染管理規則",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080007",
+        "supports": "油類瞬間排洩率及清潔壓艙水定義。"
+      }
+    ],
+    "assumptions": [
+      "依民國89年考試時適用法規整理；現行條文用於確認定義及沿革，不直接替代歷史版本。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部89年航政法規題目",
+          "result": "pass",
+          "note": "已核對官方題庫原文。"
+        },
+        {
+          "item": "2000年適用法規條文",
+          "result": "partial",
+          "note": "部分歷史條文尚待逐字核對，已標示版本限制。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "089-pilot-law-09-answer-v1",
+    "questionId": "089-pilot-law-09",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "以民國89年適用的商港法授權體系，可列舉下列五項商港相關子法／授權命令，並指出訂定機關：\n\n| 法規名稱 | 訂定機關 | 規範內容 |\n|---|---|---|\n| 商港港務管理規則 | 交通部 | 船舶入出港、停泊、港區安全、污染防治及港務管理。 |\n| 商港棧埠管理規則 | 交通部 | 貨物裝卸、倉儲、危險物品裝卸及棧埠作業管理。 |\n| 打撈業管理規則 | 交通部 | 商港區域內沉船、物資打撈業之設立、設備及作業管理。 |\n| 海水污染管理規則 | 行政院環境保護署（依當時權責與交通部相關規範協調） | 船舶油污、污染物排放、油類排洩監控及防污染管理。 |\n| 臺灣地區商港戰時船舶及港勤車船機具油料用水供應辦法 | 行政院／交通部依授權訂定 | 戰時商港船舶及港勤機具油料、用水供應。 |\n\n【補充】\n考試答題應以「商港法授權子法」及當年有效名稱為準；部分法規後續曾廢止、整併或更名，例如商港棧埠管理規則已於2012年廢止並將部分規定納入商港港務管理規則。若以現行法規名稱回答2000年題目，應註明當年版本，避免把後來整併後的法規名稱回填。\n\n【結論】\n列出五項法規並標明交通部或環保主管機關；其中授權及訂定機關應以民國89年法規沿革為準。",
+    "practicalAnalysis": "本題10分，需列出法規名稱及訂定機關。已列商港港務、棧埠、打撈及海水污染管理等常見子法，另列戰時船舶及港勤供應辦法；但第五項的授權依據與當年訂定機關須回查89年法規沿革，不能以現行機關組織名稱直接代替。",
+    "keyPoints": [
+      {
+        "point": "商港港務管理規則—交通部。",
+        "importance": "essential"
+      },
+      {
+        "point": "商港棧埠管理規則—交通部。",
+        "importance": "essential"
+      },
+      {
+        "point": "打撈業管理規則—交通部。",
+        "importance": "essential"
+      },
+      {
+        "point": "海水污染管理規則—環保主管機關依當時權責訂定。",
+        "importance": "supporting"
+      },
+      {
+        "point": "列法規時須以2000年當年有效名稱及主管機關為準。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "89年甲種引水人航政法規官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國89年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=c111&t=Q",
+        "supports": "第1至9題原文。"
+      },
+      {
+        "title": "商港法（歷史及現行條文）",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "supports": "海難救助、沉船清除、強制移泊及商港法授權規範。"
+      },
+      {
+        "title": "引水法（民國87年修正版）",
+        "sourceType": "law_or_regulation",
+        "issuer": "總統府公報／全國法規資料庫",
+        "url": "https://www.president.gov.tw/Page/294/36946",
+        "supports": "引水人執業資格、業務過失刑責及引水法第38條行政懲戒。"
+      },
+      {
+        "title": "國際海上避碰規則（COLREG）",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "燈號、疏浚船及受限操縱能力船舶號燈號標。"
+      },
+      {
+        "title": "海水污染管理規則",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080007",
+        "supports": "油類瞬間排洩率及清潔壓艙水定義。"
+      }
+    ],
+    "assumptions": [
+      "依民國89年考試時適用法規整理；現行條文用於確認定義及沿革，不直接替代歷史版本。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部89年航政法規題目",
+          "result": "pass",
+          "note": "已核對官方題庫原文。"
+        },
+        {
+          "item": "2000年適用法規條文",
+          "result": "partial",
+          "note": "部分歷史條文尚待逐字核對，已標示版本限制。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
