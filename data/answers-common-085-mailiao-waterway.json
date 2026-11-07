@@ -1,402 +1,395 @@
 [
   {
+    "id": "085-mailiao-waterway-01-answer-v1",
     "questionId": "085-kaohsiung-waterway-01",
-    "modelAnswer": "【2027年備考主答｜麥寮工業專用港設計簡圖】\n\n本題原始時點為民國85年，麥寮港尚在規劃／興建階段；目前港口公司公布的營運港況不能直接視為當年設計圖。2027年作答可依現行港口指南重繪概念配置，並註明圖資年份。\n\n簡圖應標示：\n1. 西防波堤及南防波堤，標出堤頭、堤根與港口口門。\n2. 港口入口、主航道、內航道、外航道及迴船池。\n3. 西碼頭、北碼頭、東碼頭各區及碼頭編號。\n4. 船渠／港勤船渠位置。\n5. 工業區取水口（吸水口）位置與取水方向；須依原始工程圖或現行港區圖標示，不可猜測。\n6. 引水登輪區、外海錨區、前後疊標、防波堤燈塔、內堤導航燈及VTS信號台。\n\n現行營運資料可作為2027備考參考：港口入口寬約380m、進港方向055°T；西防波堤約3,243m、南防波堤約2,227m；迴船池直徑約900m。現行港口指南並列有20席專用碼頭及外、主、內航道分段。\n\n圖面請加註「現行營運配置示意，非民國85年原始設計圖」，並標示比例尺、指北箭頭、測深基準及資料日期。\n\n【結論】本題得分重點為防波堤、碼頭、船渠、吸水口與航道之相對位置；吸水口及原始設計尺度必須由工程圖核實。",
-    "practicalAnalysis": "港口於2001年正式營運，民國85年題目是在建港前後的設計資料背景。現行2025港口指南可用於2027備考，但不能冒充1996年的原始設計圖。",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【2027備考主答｜麥寮港配置圖】\n\n民國85年仍屬建港階段；2001年才正式營運。圖面應標西、南防波堤、港口、外航道、港池、西／北／東碼頭區、港勤船渠、信號台、助導航設備及吸水口。功能示意：西側外海→口門／航道→港池；西碼頭油品、北碼頭化學品、東碼頭散雜貨與煤。吸水口及管線精確位置必須查民國85年核定設計總圖，現有公開資料不足，不能猜測。",
+    "practicalAnalysis": "25分圖題先畫港池與防波堤，再分區標碼頭、港勤船渠及吸水口；此為功能骨架，非比例圖。",
     "keyPoints": [
       {
-        "point": "西、南防波堤與口門",
+        "point": "防波堤、港口、航道與港池",
         "importance": "essential"
       },
       {
-        "point": "外航道、主航道、內航道及迴船池",
+        "point": "西／北／東碼頭區及用途",
         "importance": "essential"
       },
       {
-        "point": "西、北、東碼頭區及編號",
+        "point": "港勤船渠、信號台及助導航設施",
         "importance": "essential"
       },
       {
-        "point": "港勤船渠與工業區吸水口",
+        "point": "吸水口位置待原始設計圖核實",
         "importance": "essential"
       },
       {
-        "point": "助航標誌、VTS、錨區及引水登輪區",
+        "point": "85年施工階段不可套用2001年營運現況",
         "importance": "essential"
       }
     ],
     "assumptions": [
-      "本年度題目屬民國85年麥寮港規劃／設計時期；2027作答以現行港口資料作實務補充，並明確區分歷史設計值。"
+      "現況資料僅供2027備考參考，不可直接視為民國85年歷史設計資料。"
     ],
     "limitations": [
-      "未取得民國85年麥寮港原始設計總圖及吸水口工程位置圖。"
+      "未取得民國85年核定設計總圖、吸水口工程圖及分期施工圖。"
     ],
     "references": [
       {
-        "title": "船舶進出麥寮港指南（2025年6月修訂）",
-        "sourceType": "official_port_guide",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
-        "url": "https://crm3.fpg.com.tw/j2tj_ext/Guide_to_Mai-Liao_Port_Entry_Chinese_2025June.pdf",
-        "supports": "現行VTS、航道、助航標誌、進出港管制與操船安全程序。"
-      },
-      {
-        "title": "麥寮港口簡介",
-        "sourceType": "official_port_information",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
         "url": "https://www.mlharbor.com.tw/j2mlh/zhtw/about.do",
-        "supports": "港口現況、港域、航道及碼頭概況。"
+        "title": "麥寮港口簡介及沿革",
+        "sourceType": "official_port_information",
+        "issuer": "麥寮工業區專用港",
+        "supports": "設置沿革、港區現況與設施。"
       },
       {
-        "title": "麥寮港西碼頭規範",
-        "sourceType": "official_terminal_data",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
-        "url": "https://www.mlharbor.com.tw/j2mlh/zhtw/specification/west.do",
-        "supports": "現行西1至西3碼頭用途、長度、水深及最大靠泊船型。"
-      },
-      {
-        "title": "麥寮港北碼頭規範",
-        "sourceType": "official_terminal_data",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
-        "url": "https://www.mlharbor.com.tw/j2mlh/zhtw/specification/north.do",
-        "supports": "現行北1等碼頭用途、長度、水深及最大靠泊船型。"
+        "url": "https://www.bip.gov.tw/iphw/mlharb/information/94.pdf",
+        "title": "94年麥寮工業專用港統計要覽",
+        "sourceType": "official_port_report",
+        "issuer": "經濟部工業局",
+        "supports": "後續營運設施與營運時間。"
       }
     ],
     "verification": {
-      "status": "partially_verified"
+      "status": "partially_verified",
+      "checkedAt": "2026-11-08",
+      "checks": [
+        {
+          "item": "官方現況／歷史背景資料",
+          "result": "pass",
+          "note": "已核對公開官方資料。"
+        },
+        {
+          "item": "民國85年原始設計數值及圖資",
+          "result": "needs_review",
+          "note": "仍缺原始設計圖說或水文報告。"
+        }
+      ]
     }
   },
   {
+    "id": "085-mailiao-waterway-02-answer-v1",
     "questionId": "085-kaohsiung-waterway-02",
-    "modelAnswer": "【2027年備考主答｜西碼頭三座碼頭用途、長度、水深及靠泊船型】\n\n依麥寮港官方現行西碼頭規範，西碼頭有西1、西2、西3三席：\n\n| 碼頭 | 現行設計／營運用途 | 長度 | 水深 | 最大靠泊船型 |\n|---|---|---:|---:|---:|\n| 西1（W01） | 成品油、Duri原油 | 270m | 14.7m | 65,000 DWT |\n| 西2（W02） | 成品油、原油 | 410m | 22.2m | 300,000 DWT |\n| 西3（W03） | 成品油、原油 | 410m | 22.2m | 300,000 DWT |\n\n注意：\n1. 港口公司註明水深以海圖基準面起算；不可與碼頭設施高程的中潮面基準混用。\n2. 表列是目前官方公布的碼頭規範，不等於民國85年原始設計圖的版本。\n3. 靠泊限制仍須確認船舶LOA、DWT、吃水、船寬、繫纜及護舷規格、潮位、UKC及當日港方公告。\n\n【結論】2027備考可記憶上述現行三席西碼頭資料；若題目要求1996年設計數據，須另查當年工程設計文件。",
-    "practicalAnalysis": "本題表格作答最清楚。現行數據已由港口公司官方碼頭規範核對；原題時點早於2001年正式營運，不能宣稱這就是1996年的原始設計值。",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【2027備考主答｜西碼頭三座碼頭規格】\n\n依港口公司現行規範：西1（W01）供成品油、Duri原油，長270m、水深14.7m、最大靠泊65,000 DWT；西2（W02）供成品油、原油，長410m、水深22.2m、最大靠泊300,000 DWT；西3（W03）供成品油、原油，長410m、水深22.2m、最大靠泊300,000 DWT。水深以海圖基準面起算，設施高程以中潮面起算。DWT不等於GT。這是現行公開規格，不能直接當作民國85年核定設計值。",
+    "practicalAnalysis": "10分題用表格呈現用途、長度、水深及最大靠泊船型；歷史數字仍須核對85年設計書。",
     "keyPoints": [
       {
-        "point": "西1：270m、14.7m、65,000DWT",
+        "point": "西1：270m／14.7m／65,000 DWT",
         "importance": "essential"
       },
       {
-        "point": "西2：410m、22.2m、300,000DWT",
+        "point": "西2、西3：各410m／22.2m／300,000 DWT",
         "importance": "essential"
       },
       {
-        "point": "西3：410m、22.2m、300,000DWT",
+        "point": "水深與設施高程基準面不同",
         "importance": "essential"
       },
       {
-        "point": "用途均為成品油／原油，依各席略有差異",
+        "point": "DWT不等於GT",
         "importance": "essential"
       },
       {
-        "point": "水深基準面為海圖基準面",
+        "point": "現行規格不可冒充85年設計值",
         "importance": "essential"
       }
     ],
     "assumptions": [
-      "本年度題目屬民國85年麥寮港規劃／設計時期；2027作答以現行港口資料作實務補充，並明確區分歷史設計值。"
+      "現況資料僅供2027備考參考，不可直接視為民國85年歷史設計資料。"
     ],
     "limitations": [
-      "未取得民國85年西碼頭三席原始設計圖與設計變更紀錄。"
+      "未取得民國85年西1至西3核定設計圖。"
     ],
     "references": [
       {
-        "title": "船舶進出麥寮港指南（2025年6月修訂）",
-        "sourceType": "official_port_guide",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
-        "url": "https://crm3.fpg.com.tw/j2tj_ext/Guide_to_Mai-Liao_Port_Entry_Chinese_2025June.pdf",
-        "supports": "現行VTS、航道、助航標誌、進出港管制與操船安全程序。"
-      },
-      {
-        "title": "麥寮港口簡介",
-        "sourceType": "official_port_information",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
-        "url": "https://www.mlharbor.com.tw/j2mlh/zhtw/about.do",
-        "supports": "港口現況、港域、航道及碼頭概況。"
-      },
-      {
-        "title": "麥寮港西碼頭規範",
-        "sourceType": "official_terminal_data",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
         "url": "https://www.mlharbor.com.tw/j2mlh/zhtw/specification/west.do",
-        "supports": "現行西1至西3碼頭用途、長度、水深及最大靠泊船型。"
-      },
-      {
-        "title": "麥寮港北碼頭規範",
-        "sourceType": "official_terminal_data",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
-        "url": "https://www.mlharbor.com.tw/j2mlh/zhtw/specification/north.do",
-        "supports": "現行北1等碼頭用途、長度、水深及最大靠泊船型。"
+        "title": "麥寮港西碼頭規範",
+        "sourceType": "official_port_data",
+        "issuer": "麥寮工業區專用港",
+        "supports": "西碼頭現行用途及尺度。"
       }
     ],
     "verification": {
-      "status": "partially_verified"
+      "status": "partially_verified",
+      "checkedAt": "2026-11-08",
+      "checks": [
+        {
+          "item": "官方現況／歷史背景資料",
+          "result": "pass",
+          "note": "已核對公開官方資料。"
+        },
+        {
+          "item": "民國85年原始設計數值及圖資",
+          "result": "needs_review",
+          "note": "仍缺原始設計圖說或水文報告。"
+        }
+      ]
     }
   },
   {
+    "id": "085-mailiao-waterway-03-answer-v1",
     "questionId": "085-kaohsiung-waterway-03",
-    "modelAnswer": "【2027年備考主答｜麥寮港導航設備種類、數量及位置】\n\n依麥寮港2025年6月修訂《船舶進出麥寮港指南》，現行公開列示主要導航助航標誌如下：\n\n| 設施 | 位置／配置 | 燈質或識別 |\n|---|---|---|\n| 西防波堤燈塔 | 西防波堤端點 23°46.80’N 120°09.06’E | Fl G 3s；24.7m；16.3M；Racon X |\n| 南防波堤燈塔 | 南防波堤端點 23°46.79’N 120°09.66’E | Fl R 3s；24.5m；13.1M；Racon N |\n| 西防波堤內堤導航燈桿 | 內堤端點 23°47.16’N 120°09.64’E | Oc.G 5s；16m；12M |\n| 南防波堤內堤導航燈桿 | 內堤端點 23°46.95’N 120°09.77’E | Oc.R 5s；13m；8M |\n| 南防波堤定光燈桿 | 南防波堤中點 23°46.35’N 120°09.79’E | F.R；13m；10M |\n| 前疊標 | 23°47.97’N 120°11.14’E | F.G；37.5m；12M |\n| 後疊標 | 23°48.02’N 120°11.22’E | F.G；43m；12M |\n\n另有VTS、雷達、電子海圖、AIS及海象氣象設備，協助監控港域與引導船舶。\n\n注意：以上為2025年現行指南列示資料，非民國85年原始設計設備清單。現場航行仍以最新海圖、航船佈告及燈表為準。\n\n【結論】作答應將防波堤燈塔、內堤燈桿、定光燈桿、前後疊標及VTS分層說明，並標示位置與燈質。",
-    "practicalAnalysis": "現行指南提供了設備名稱、座標、燈質、燈高及光程，足以支援2027備考。原題問「設計」種類、數目及預設位置，1996年設計版本仍需原始圖說核對。",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【2027備考主答｜助導航設備種類、數目及位置】\n\n後續官方資料確認麥寮港設有進港疊標、堤頭燈塔、航道浮燈標、信號台及VTMS。疊標提供航道對準線；堤頭燈塔標示防波堤端點；浮燈標標示航道邊界；信號台與VTMS監控交通。本題問民國85年設計的種類、數目、預設位置，現有資料不足以確認歷史數量、座標及燈質，不應把後來設備數倒填。",
+    "practicalAnalysis": "15分題應列設備名稱、數量、座標／位置、燈質及功能。現階段只確認設備類別與功能，數量及座標標示待查。",
     "keyPoints": [
       {
-        "point": "西防波堤綠燈塔及Racon X",
+        "point": "進港疊標提供航道對準線",
         "importance": "essential"
       },
       {
-        "point": "南防波堤紅燈塔及Racon N",
+        "point": "堤頭燈塔標示防波堤端點",
         "importance": "essential"
       },
       {
-        "point": "西、南內堤導航燈桿及南堤定光燈",
+        "point": "航道浮燈標標示可航水域",
         "importance": "essential"
       },
       {
-        "point": "前後綠色疊標構成進港導引線",
+        "point": "信號台／VTMS監控交通",
         "importance": "essential"
       },
       {
-        "point": "VTS、雷達、電子海圖、AIS及海象氣象設備",
+        "point": "85年設備數量、座標及燈質待原始設計圖表",
         "importance": "essential"
       }
     ],
     "assumptions": [
-      "本年度題目屬民國85年麥寮港規劃／設計時期；2027作答以現行港口資料作實務補充，並明確區分歷史設計值。"
+      "現況資料僅供2027備考參考，不可直接視為民國85年歷史設計資料。"
     ],
     "limitations": [
-      "未取得民國85年導航設備設計圖、原始燈表及設計變更紀錄。"
+      "未取得民國85年助導航配置圖、航標表及燈光規格表。"
     ],
     "references": [
       {
-        "title": "船舶進出麥寮港指南（2025年6月修訂）",
-        "sourceType": "official_port_guide",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
-        "url": "https://crm3.fpg.com.tw/j2tj_ext/Guide_to_Mai-Liao_Port_Entry_Chinese_2025June.pdf",
-        "supports": "現行VTS、航道、助航標誌、進出港管制與操船安全程序。"
-      },
-      {
-        "title": "麥寮港口簡介",
-        "sourceType": "official_port_information",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
-        "url": "https://www.mlharbor.com.tw/j2mlh/zhtw/about.do",
-        "supports": "港口現況、港域、航道及碼頭概況。"
-      },
-      {
-        "title": "麥寮港西碼頭規範",
-        "sourceType": "official_terminal_data",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
-        "url": "https://www.mlharbor.com.tw/j2mlh/zhtw/specification/west.do",
-        "supports": "現行西1至西3碼頭用途、長度、水深及最大靠泊船型。"
-      },
-      {
-        "title": "麥寮港北碼頭規範",
-        "sourceType": "official_terminal_data",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
-        "url": "https://www.mlharbor.com.tw/j2mlh/zhtw/specification/north.do",
-        "supports": "現行北1等碼頭用途、長度、水深及最大靠泊船型。"
+        "url": "https://www.bip.gov.tw/iphw/mlharb/information/94.pdf",
+        "title": "94年麥寮工業專用港統計要覽",
+        "sourceType": "official_port_report",
+        "issuer": "經濟部工業局",
+        "supports": "後續營運設施與營運時間。"
       }
     ],
     "verification": {
-      "status": "partially_verified"
+      "status": "partially_verified",
+      "checkedAt": "2026-11-08",
+      "checks": [
+        {
+          "item": "官方現況／歷史背景資料",
+          "result": "pass",
+          "note": "已核對公開官方資料。"
+        },
+        {
+          "item": "民國85年原始設計數值及圖資",
+          "result": "needs_review",
+          "note": "仍缺原始設計圖說或水文報告。"
+        }
+      ]
     }
   },
   {
+    "id": "085-mailiao-waterway-04-answer-v1",
     "questionId": "085-kaohsiung-waterway-04",
-    "modelAnswer": "【2027年備考主答｜MHWL、SP. RISE、NP. RISE、MSL及潮流】\n\n本題列出的MHWL、SP. RISE、NP. RISE、MSL與潮流方向／速率，屬特定測站、基準面及觀測期間的潮汐水文資料。必須先確認原題引用的麥寮港潮汐表、測站與基準，不能把不同港口或不同年度的潮位資料混用。\n\n一、名詞與基準\n- MHWL：平均高潮面（Mean High Water Level）。\n- MSL：平均海面（Mean Sea Level）。\n- SP. RISE、NP. RISE：須依原題所採水文／潮汐資料的原始縮寫定義確認；不可未核對便自行展開或當成通用潮汐術語。\n- 各潮位數值必須標明基準面、測站、統計期間及單位。\n\n二、潮流方向與速率\n1. 漲潮流與落潮流方向不可僅由港口位置推定，應查港外及港內潮流觀測或潮流圖。\n2. 速率需註明大潮／小潮、潮時、測站位置及深度；潮流在港口口門、航道及迴船池可能不同。\n3. 引水作業須以當日潮流預報與實測、船舶吃水、航道寬度及操縱性能評估橫流與偏航。\n\n【結論】本題數值表目前列為歷史資料待查；2027實務應使用現行港口水文資料及當日潮流資訊，不得自行補寫方向與節數。",
-    "practicalAnalysis": "SP. RISE及NP. RISE並非可在未確認來源時安全解讀的標準縮寫，應回查題目原始資料或當年潮汐表。MHWL、MSL也不能直接代替港口採用的海圖基準面。",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【2027備考主答｜潮汐基準及潮流】\n\nMHWL（Mean High Water Level）為平均高潮面／平均高潮位；MSL（Mean Sea Level）為平均海面，均須附觀測期間及基準面。SP.RISE一般指大潮升，NP.RISE一般指小潮升，但精確定義須以原設計規範的基準面及計算方式為準。漲、落潮流方向與速率須依麥寮當地實測潮流資料或設計水文報告判斷，並區分表層與底層流，不能只憑沿岸方位推定。民國85年各數值及流速目前未取得原始觀測資料，故不填未核實數字。",
+    "practicalAnalysis": "10分題先解釋名詞，再列數值、單位、基準面及潮流方向／速率；沒有85年水文報告不可用後來潮位站資料倒推。",
     "keyPoints": [
       {
-        "point": "先確認測站、基準面、統計期間及縮寫定義",
+        "point": "MHWL平均高潮面",
         "importance": "essential"
       },
       {
-        "point": "MHWL與MSL分別代表平均高潮面與平均海面",
+        "point": "MSL平均海面",
         "importance": "essential"
       },
       {
-        "point": "SP. RISE、NP. RISE需依原始來源釋義",
+        "point": "SP.RISE大潮升、NP.RISE小潮升，原設計定義優先",
         "importance": "essential"
       },
       {
-        "point": "漲落潮流方向與速率須依觀測點、潮時及大小潮區分",
+        "point": "潮流方向與速率須依當地觀測",
         "importance": "essential"
       },
       {
-        "point": "不可用其他港口或當年度資料冒充麥寮歷史潮流",
+        "point": "不得以後來潮位站數據回推85年設計值",
         "importance": "essential"
       }
     ],
     "assumptions": [
-      "本年度題目屬民國85年麥寮港規劃／設計時期；2027作答以現行港口資料作實務補充，並明確區分歷史設計值。"
+      "現況資料僅供2027備考參考，不可直接視為民國85年歷史設計資料。"
     ],
     "limitations": [
-      "未取得民國85年麥寮港水文調查報告、潮汐表及潮流觀測資料。"
+      "未取得民國85年設計水文報告、潮位基準表及潮流觀測資料；SP.RISE、NP.RISE定義仍待原規範核對。"
     ],
     "references": [
       {
-        "title": "船舶進出麥寮港指南（2025年6月修訂）",
-        "sourceType": "official_port_guide",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
-        "url": "https://crm3.fpg.com.tw/j2tj_ext/Guide_to_Mai-Liao_Port_Entry_Chinese_2025June.pdf",
-        "supports": "現行VTS、航道、助航標誌、進出港管制與操船安全程序。"
-      },
-      {
-        "title": "麥寮港口簡介",
-        "sourceType": "official_port_information",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
-        "url": "https://www.mlharbor.com.tw/j2mlh/zhtw/about.do",
-        "supports": "港口現況、港域、航道及碼頭概況。"
-      },
-      {
-        "title": "麥寮港西碼頭規範",
-        "sourceType": "official_terminal_data",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
-        "url": "https://www.mlharbor.com.tw/j2mlh/zhtw/specification/west.do",
-        "supports": "現行西1至西3碼頭用途、長度、水深及最大靠泊船型。"
-      },
-      {
-        "title": "麥寮港北碼頭規範",
-        "sourceType": "official_terminal_data",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
-        "url": "https://www.mlharbor.com.tw/j2mlh/zhtw/specification/north.do",
-        "supports": "現行北1等碼頭用途、長度、水深及最大靠泊船型。"
+        "url": "https://www.cwa.gov.tw/Data/service/notice/download/publish_20080731142100.pdf",
+        "title": "麥寮潮位站潮汐統計資料",
+        "sourceType": "official_tide_data",
+        "issuer": "中央氣象署／經濟部水利署",
+        "supports": "後續潮位站統計格式示例，非85年設計值。"
       }
     ],
     "verification": {
-      "status": "partially_verified"
+      "status": "partially_verified",
+      "checkedAt": "2026-11-08",
+      "checks": [
+        {
+          "item": "官方現況／歷史背景資料",
+          "result": "pass",
+          "note": "已核對公開官方資料。"
+        },
+        {
+          "item": "民國85年原始設計數值及圖資",
+          "result": "needs_review",
+          "note": "仍缺原始設計圖說或水文報告。"
+        }
+      ]
     }
   },
   {
+    "id": "085-mailiao-waterway-05-answer-v1",
     "questionId": "085-kaohsiung-waterway-05",
-    "modelAnswer": "【2027年備考主答｜3,000 GT化學品船、吃水5m、西風5級、單艘2,400HP拖船靠北護岸】\n\n一、先核對泊位與船舶適配\n題目未指定北護岸的確切泊位編號，不能直接把北1碼頭資料套用。現行北碼頭中，北1／北2為化學品、液化石油氣等用途，碼頭長度280m、水深14.2m、最大靠泊船型50,000DWT；北5至北7的水深與最大船型不同。須先確認題目所稱北護岸究竟是哪一席。\n\n二、作業前資料\n確認船舶LOA、船寬、實際吃水、排水量、風壓面積、載況、主機舵效、拖帶點及繫纜設備；確認碼頭前沿水深、潮位、UKC、護舷、管線及危險品作業條件。3,000 GT不能直接換算DWT或船舶排水量。\n\n三、操船計畫\n1. 與VTS、碼頭及拖船完成MPX，確認進港許可、泊位淨空、拖船可用BP與拖纜SWL。\n2. 西風5級須依實際風向與碼頭走向分解橫風、縱風；不可只看蒲福級。\n3. 僅有一艘2,400HP拖船時，先核對其BP是否足以控制船舶艏向、橫移與縱向速度；HP不等於BP。\n4. 以低速接近，利用拖船控制船首向及橫向移動；靠泊前將船身調整至與碼頭平行，再以拖船協助平移平靠。\n5. 如風壓、潮流或拖力不足以維持可控接近速度，應停止靠泊、等待較佳窗口或增派拖船，不得勉強作業。\n6. 化學品船靠泊前確認貨種、管線、靜電／防火、溢漏應變、繫纜及岸方安全作業許可。\n\n【結論】先確認北護岸具體泊位與船舶適配，再以BP而非HP評估單艘拖船能否安全控制；資料不足時應要求增派拖船或延後靠泊。",
-    "practicalAnalysis": "題幹的GT、吃水與拖船HP不足以決定拖船是否足夠。2027備考要以現行泊位規格、BP、風流及危險品作業要求建立決策流程。",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【2027備考主答｜化學危險品船靠泊北護岸】\n\n題幹給西風五級、單艘2,400HP拖船、船舶GT 3,000、吃水5m，仍不足以判斷能否靠泊；尚須船長、船寬、排水量、風壓面積、載況、拖船BP、拖帶點、護舷繫纜及前沿水深。先確認北護岸當時施工／可用狀態、測深與UKC；核對化學品IMDG分類、MSDS、毒性／可燃性、消防、溢漏與緊急切斷。完成MPX，確認靠泊舷、航跡、拖船位置、通訊及中止條件。依港方指示低速進港，拖船依實際BP提供制動、艏艉或橫向控制；小角度低速接近，先消除縱向速度再控制橫移。若單拖船BP不足、UKC不足或危險品應變條件未備妥，延後靠泊。",
+    "practicalAnalysis": "GT不能推導排水量或受風面積；2,400HP不等於BP。北護岸不可逕自等同今日北1碼頭，不能在資料不足時保證單拖船足夠。",
     "keyPoints": [
       {
-        "point": "確認北護岸確切泊位，不可把北1規格套用所有北護岸",
+        "point": "確認北護岸施工狀態、水深與UKC",
         "importance": "essential"
       },
       {
-        "point": "3,000 GT不等於DWT，吃水須配合UKC核算",
+        "point": "確認化學品及消防／溢漏應變",
         "importance": "essential"
       },
       {
-        "point": "2,400HP不等於BP，應查繫柱拖力",
+        "point": "2,400HP不等於BP",
         "importance": "essential"
       },
       {
-        "point": "西風對泊位的作用取決於碼頭方位及現場陣風",
+        "point": "單拖船能力依完整船舶資料及風流評估",
         "importance": "essential"
       },
       {
-        "point": "化學品船須完成危險品作業與防污染協調",
+        "point": "低速小角度靠泊，條件不足即中止",
         "importance": "essential"
       }
     ],
     "assumptions": [
-      "本年度題目屬民國85年麥寮港規劃／設計時期；2027作答以現行港口資料作實務補充，並明確區分歷史設計值。"
+      "現況資料僅供2027備考參考，不可直接視為民國85年歷史設計資料。"
     ],
     "limitations": [
-      "未取得民國85年北護岸泊位圖、當年拖船規格及船舶完整尺度。"
+      "未取得85年北護岸施工、水深及繫纜資料；缺船舶尺度、排水量、風壓面積、拖船BP及潮流。"
     ],
     "references": [
       {
-        "title": "船舶進出麥寮港指南（2025年6月修訂）",
-        "sourceType": "official_port_guide",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
-        "url": "https://crm3.fpg.com.tw/j2tj_ext/Guide_to_Mai-Liao_Port_Entry_Chinese_2025June.pdf",
-        "supports": "現行VTS、航道、助航標誌、進出港管制與操船安全程序。"
-      },
-      {
-        "title": "麥寮港口簡介",
-        "sourceType": "official_port_information",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
         "url": "https://www.mlharbor.com.tw/j2mlh/zhtw/about.do",
-        "supports": "港口現況、港域、航道及碼頭概況。"
+        "title": "麥寮港口簡介及沿革",
+        "sourceType": "official_port_information",
+        "issuer": "麥寮工業區專用港",
+        "supports": "設置沿革、港區現況與設施。"
       },
       {
-        "title": "麥寮港西碼頭規範",
-        "sourceType": "official_terminal_data",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
-        "url": "https://www.mlharbor.com.tw/j2mlh/zhtw/specification/west.do",
-        "supports": "現行西1至西3碼頭用途、長度、水深及最大靠泊船型。"
-      },
-      {
-        "title": "麥寮港北碼頭規範",
-        "sourceType": "official_terminal_data",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
         "url": "https://www.mlharbor.com.tw/j2mlh/zhtw/specification/north.do",
-        "supports": "現行北1等碼頭用途、長度、水深及最大靠泊船型。"
+        "title": "麥寮港北碼頭規範",
+        "sourceType": "official_port_data",
+        "issuer": "麥寮工業區專用港",
+        "supports": "北碼頭現行用途及尺度。"
       }
     ],
     "verification": {
-      "status": "partially_verified"
+      "status": "partially_verified",
+      "checkedAt": "2026-11-08",
+      "checks": [
+        {
+          "item": "官方現況／歷史背景資料",
+          "result": "pass",
+          "note": "已核對公開官方資料。"
+        },
+        {
+          "item": "民國85年原始設計數值及圖資",
+          "result": "needs_review",
+          "note": "仍缺原始設計圖說或水文報告。"
+        }
+      ]
     }
   },
   {
+    "id": "085-mailiao-waterway-06-answer-v1",
     "questionId": "085-kaohsiung-waterway-06",
-    "modelAnswer": "【2027年備考主答｜15,000 GT、吃水10m化學品船靠北1，兩艘3,200HP拖船備便】\n\n一、泊位與水深核對\n依麥寮港現行北碼頭規範，北1（N01）用途包含化學品及液化石油氣，碼頭長度280m、水深14.2m、最大靠泊船型50,000DWT。題目船舶15,000 GT、吃水10m，不能只用GT與DWT比較；須取得船舶DWT、LOA、船寬、實際到港吃水及載況，並按海圖基準面、潮位、squat、波浪運動及測深誤差計算UKC。\n\n二、拖船及靠泊計畫\n1. 兩艘3,200HP拖船應確認各自BP、推進器型式、拖帶點、拖纜SWL及當日可用狀態；不可把6,400HP直接換算為總拖力。\n2. 依船舶風壓面積、風向、潮流及泊位方向，安排艏艉拖船分工；一艘控制艏向與艏部橫移，另一艘控制艉部及縱向速度，實際位置依操縱試算與現場條件調整。\n3. 進港前完成引水人、船長、拖船長及碼頭端MPX，確認VTS交通窗口、泊位淨空、危險品管線與繫纜人員。\n4. 麥寮港現行指南規定進港船舶須與VTS聯繫，並依核准次序進出；船長度LOA達220m以上時，進港等候及主航道會船限制更嚴格。\n5. 依現行指南平移平靠原則，接近泊位前先將船身調整至與碼頭平行，再由拖船協助橫向移動；保持低速、低動能，避免過大接觸速度。\n6. 化學品船依貨種確認裝卸管線、緊急切斷、消防、靜電接地、污染防治及危險區管制。\n\n三、停止靠泊條件\n若UKC不足、拖船BP不足、陣風／潮流超出可控制範圍、泊位或管線未準備完成，應停止進港或中止靠泊，依VTS指示待命。\n\n【結論】現行北1公布水深14.2m、長度280m、最大靠泊50,000DWT；但15,000GT及吃水10m仍須以船舶實際DWT、LOA、潮位與UKC核定。兩艘3,200HP拖船的安全能力要看BP與拖帶配置，不能只看馬力。",
-    "practicalAnalysis": "現行港口指南要求船舶依VTS許可與航道會船規則進出，並採平移平靠原則。北1現行規格有官方資料，但原題的1996年設計值及當年拖船資料仍須分開處理。",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【2027備考主答｜15,000GT化學品船靠北1】\n\n現行北1（N01）為化學品、液化石油氣碼頭，長280m、水深14.2m、最大靠泊50,000DWT；水深以海圖基準面起算。題幹15,000GT、吃水10m，不能直接與50,000DWT比較，須取得實際DWT、船長、船寬、排水量及載況，依最新測深、潮位、squat、波浪運動及安全裕度計算UKC。靠泊前核對化學品IMDG分類、MSDS、裝卸臂、緊急脫離、消防及溢漏應變；確認泊位可用長度、靠泊舷、護舷及繫纜配置。兩艘3,200HP拖船須確認各自BP、拖帶點、拖纜SWL及可用狀態。完成MPX後依港方／VTS程序進港，兩拖船按風流、靠泊舷與BP分配艏艉控制、制動及橫移；以小角度低速接觸護舷，繫纜妥善、船舶穩定後解除拖船。",
+    "practicalAnalysis": "先列北1現行規格，再說明GT與DWT差異、UKC、危險品風險、MPX、拖船分工及低速靠泊。現況規格不能回填成85年已完工碼頭。",
     "keyPoints": [
       {
-        "point": "北1現行用途含化學品、LPG，長280m、水深14.2m、最大50,000DWT",
+        "point": "現行北1：280m、14.2m、最大50,000DWT",
         "importance": "essential"
       },
       {
-        "point": "GT不可當作DWT，必須取得完整船舶尺度及實際吃水",
+        "point": "15,000GT不等於15,000DWT",
         "importance": "essential"
       },
       {
-        "point": "兩艘3,200HP不等於可用BP，須查拖船證書",
+        "point": "依最新測深及潮位計算UKC",
         "importance": "essential"
       },
       {
-        "point": "依風流與船型安排艏艉拖船，完成MPX",
+        "point": "兩艘3,200HP須確認BP及拖纜SWL",
         "importance": "essential"
       },
       {
-        "point": "遵守VTS、交通管制、UKC及化學品作業安全",
-        "importance": "essential"
-      },
-      {
-        "point": "船身先與碼頭平行，再以拖船協助平移平靠",
+        "point": "危險品評估、MPX、拖船分工及低速靠泊",
         "importance": "essential"
       }
     ],
     "assumptions": [
-      "本年度題目屬民國85年麥寮港規劃／設計時期；2027作答以現行港口資料作實務補充，並明確區分歷史設計值。"
+      "現況資料僅供2027備考參考，不可直接視為民國85年歷史設計資料。"
     ],
     "limitations": [
-      "未取得民國85年北1原始設計規格、拖船BP及題目所指船舶完整資料。"
+      "未取得85年北1核定設計圖及當時施工狀態；缺船舶DWT、尺度、風流及拖船BP。"
     ],
     "references": [
       {
-        "title": "船舶進出麥寮港指南（2025年6月修訂）",
-        "sourceType": "official_port_guide",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
-        "url": "https://crm3.fpg.com.tw/j2tj_ext/Guide_to_Mai-Liao_Port_Entry_Chinese_2025June.pdf",
-        "supports": "現行VTS、航道、助航標誌、進出港管制與操船安全程序。"
-      },
-      {
-        "title": "麥寮港口簡介",
-        "sourceType": "official_port_information",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
-        "url": "https://www.mlharbor.com.tw/j2mlh/zhtw/about.do",
-        "supports": "港口現況、港域、航道及碼頭概況。"
-      },
-      {
-        "title": "麥寮港西碼頭規範",
-        "sourceType": "official_terminal_data",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
-        "url": "https://www.mlharbor.com.tw/j2mlh/zhtw/specification/west.do",
-        "supports": "現行西1至西3碼頭用途、長度、水深及最大靠泊船型。"
-      },
-      {
-        "title": "麥寮港北碼頭規範",
-        "sourceType": "official_terminal_data",
-        "issuer": "麥寮工業區專用港管理股份有限公司",
         "url": "https://www.mlharbor.com.tw/j2mlh/zhtw/specification/north.do",
-        "supports": "現行北1等碼頭用途、長度、水深及最大靠泊船型。"
+        "title": "麥寮港北碼頭規範",
+        "sourceType": "official_port_data",
+        "issuer": "麥寮工業區專用港",
+        "supports": "北碼頭現行用途及尺度。"
+      },
+      {
+        "url": "https://www.mlharbor.com.tw/j2mlh/zhtw/about.do",
+        "title": "麥寮港口簡介及沿革",
+        "sourceType": "official_port_information",
+        "issuer": "麥寮工業區專用港",
+        "supports": "設置沿革、港區現況與設施。"
       }
     ],
     "verification": {
-      "status": "partially_verified"
+      "status": "partially_verified",
+      "checkedAt": "2026-11-08",
+      "checks": [
+        {
+          "item": "官方現況／歷史背景資料",
+          "result": "pass",
+          "note": "已核對公開官方資料。"
+        },
+        {
+          "item": "民國85年原始設計數值及圖資",
+          "result": "needs_review",
+          "note": "仍缺原始設計圖說或水文報告。"
+        }
+      ]
     }
   }
 ]
