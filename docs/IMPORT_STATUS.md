@@ -1416,3 +1416,9 @@
 - **本輪主要來源：**IHO INT 1第9版（2026）官方索引、加拿大官方Chart 1章節頁面（T/F/K/H/N）、David J. House《Ship Handling: Theory and Practice》、Marine Teacher Anchor Work、The Journal of Navigation之Port Helm Rule歷史研究。
 - **本輪提交：**船舶操縱答案檔commit `adc0e35ed302714fd179f58526a486c449c4f0a8`；引港學圖例commit `86f4a46c8988442f9ac8b82db6952b0aa02d38b5`；引港學氣壓及判位commit `5c1699d5dae80902f3f4cb8a8ed39f4e5c886e3b`；實用英文Port Helm Rule修正commit `506b5f463daea6efde7d3e7a3582f4e5e90f5f53`。
 - **進度界線：**87年度共同科目21題仍須作最後全欄位與內容品質總檢；尤其船舶操縱Q1–Q4、實用英文Q1與Q3仍要逐項終檢。尚未進入86年度共同科目。
+
+
+- **87年度共同科目第一輪完整內容檢視收尾：**再檢查船舶操縱Q1–Q4的受限水域突然擺頭、重／輕載操船、向岸風下FPP單車船靠離泊、拖船配合前進中大船側移；未發現需立即重寫的核心錯誤，保留船型／風流／螺槳旋向等操作條件。實用英文Q1譯文及Q3約200–300字作文亦完成語意與專業責任概念檢查。
+- **87年度共同科目第一輪驗收：**21題／21筆答案；缺答0、孤兒答案0、重複ID0；21筆均具modelAnswer、practicalAnalysis、keyPoints、references及verification欄位。現有verification狀態為source_checked 6題、partially_verified 15題。14題已升級version 2；其餘題目保留既有版本，並非表示已完全查證。
+- **部署狀態：**本輪資料已提交GitHub main，但Vercel最新READY部署仍停留在較早commit 0e2ff27195be3bc717bf15de36be079e4cbe33d9。嘗試建立最新preview deployment時，Vercel回覆每日deployment API額度已超過（需等待24小時）；未成功部署，故網站線上畫面尚未包含本輪答案更新。未進行production promotion。
+- **下一步：**開始民國86年度共同科目內容複核，仍以2027考試現行規範／未來實務作主答，歷史資料缺口明確標示，不被舊規範誤導。
