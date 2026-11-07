@@ -75,27 +75,39 @@
   {
     "id": "086-shiphandling-02-answer-v1",
     "questionId": "086-shiphandling-02",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、被追越船受到的水動力影響】狹窄水道中兩船接近時，船體周圍流場互相干擾，可能發生：\n1. **船首排斥（Bow cushion）：**兩船船首接近時，船間水流受擠壓、壓力上升，船首可能互相排斥。\n2. **船艉吸引（Stern suction）：**兩船船艉附近流速及壓力分布改變，船艉可能互相吸引，造成被追越船突然偏轉。\n3. **船體下沉及縱傾（Squat）：**狹水道流速增加、回流受限，兩船通過時可能增加下沉及縱傾，降低UKC。\n4. **船速變化：**追越船造成的壓力波及流場可能使被追越船短暫加速、減速或產生縱向吸引／排斥。\n5. **偏航及艉外掃：**船首排斥與船艉吸引形成偏航力矩，被追越船可能突然向追越船或岸壁偏轉。\n6. **岸壁效應加劇：**若被追越船被推向岸壁，岸壁吸引及船體間交互作用可能疊加。\n\n【二、被追越船的應對】保持航向及安全速度，勿突然大幅操舵；監控船間距、岸距及艏向變化，必要時依COLREG Rule 9及當地規定協調追越。若水域寬度不足、船舶尺度過大或風流不利，應拒絕／延後追越，或先減速、拉開間距並以VHF確認雙方意圖。",
-    "practicalAnalysis": "本題要求說明被追越船的影響，核心是船首排斥、船艉吸引、偏航、squat及岸壁效應。",
+    "modelAnswer": "## 一、狹窄水道追越時，被追越船的水動力影響\n\n兩船在狹窄水道接近並平行通過時，船體周圍流場互相干擾；水深較淺、航道較窄、船速較高、兩船間距較小時，作用通常更明顯。\n\n### 1. 追越船船首接近被追越船船艉\n追越船船首前方的壓力場及船首波，會改變被追越船船艉附近的壓力分布，可能使被追越船船艉向外偏移，形成偏航力矩；此時若船舶靠近岸壁，岸壁效應可能同時作用。\n\n### 2. 兩船並航、船體最近接近\n兩船之間的水流通道變窄，水流加速、壓力下降，可能產生船體相互吸引的作用。被追越船可能向追越船靠近，造成橫移、偏航或碰撞風險；船間流場也可能使舵效及船速發生變化。\n\n### 3. 追越船船艉通過被追越船船艏\n兩船船艉附近的尾流與壓力場互相作用，可能造成船艉吸引及突然偏轉。追越船通過後，尾流與水流恢復過程也可能使被追越船產生短暫橫移或艏向變化。\n\n### 4. Squat及縱傾增加\n狹窄水道的阻塞效應使船底與岸壁間水流加速，船舶可能增加下沉及縱傾；兩船同時通過時，局部流速及水位變化可能加劇UKC減少。\n\n### 5. 岸壁效應及船間交互作用疊加\n若被追越船被迫接近岸壁，船艏排斥、船艉吸引、岸壁吸引及回流效應可能同時存在，使船舶突然sheer、艉部外掃或偏離航道。\n\n**注意：**實際偏轉方向會受兩船相對位置、航速、船型、吃水、水深及岸距影響，不宜背成所有追越情況都固定向同一側偏轉。\n\n## 二、被追越船的安全應對\n\n1. 追越前依COLREG Rule 9及當地港規確認水域寬度、交通及追越是否安全，必要時與追越船及VTS協調。\n2. 保持穩定航向與適當安全速度，避免突然大幅操舵或突然加速。\n3. 監控兩船最近距離、岸距、船位、ROT及艏艉偏移；必要時減速以降低交互作用。\n4. 若水域寬度不足、船舶尺度過大、UKC不足或風流不利，應延後或拒絕追越，待安全水域再進行。",
+    "practicalAnalysis": "原答案雖列出船首排斥、船艉吸引及squat，但未按追越過程說明被追越船在接近、並航及船艉通過各階段的反應。現已按相對位置分階段說明，並提醒偏轉方向受船型、速度、岸距及水深影響，不應套用單一固定方向。",
     "keyPoints": [
       {
-        "point": "船首排斥、船艉吸引造成偏航力矩。",
+        "point": "追越船船首接近被追越船船艉時，船首壓力場及船首波改變被追越船艉部受力，可能產生偏航。",
         "importance": "essential"
       },
       {
-        "point": "狹水道流速增加，squat及UKC風險加大。",
+        "point": "兩船並航時，船間水流加速、壓力降低，可能造成船體相互吸引。",
         "importance": "essential"
       },
       {
-        "point": "被追越船可能加速、減速、偏航或艉部外掃。",
+        "point": "追越船船艉通過時，尾流及船艉吸引可能造成被追越船突然偏轉。",
         "importance": "essential"
       },
       {
-        "point": "保持航向、監控岸距，必要時協調或拒絕不安全追越。",
+        "point": "狹水道阻塞效應可能增加squat、縱傾並降低UKC。",
+        "importance": "essential"
+      },
+      {
+        "point": "岸壁效應與船間交互作用可能疊加，造成sheer及艉部外掃。",
+        "importance": "essential"
+      },
+      {
+        "point": "偏轉方向依兩船相對位置、航速、船型、水深及岸距而變，不可背固定方向。",
         "importance": "supporting"
+      },
+      {
+        "point": "保持航向、監控ROT及間距，必要時減速或延後追越。",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -103,39 +115,40 @@
         "title": "86年甲種引水人船舶操縱官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國86年（1997）",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=086120&q=1&s=c211&t=Q",
-        "supports": "船舶操縱六題原卷。"
+        "editionOrEffectiveDate": "民國86年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=086120&q=1&s=c181&t=Q",
+        "supports": "狹窄水道追越題意及配分。"
       },
       {
-        "title": "IMO Resolution MSC.137(76) — Standards for Ship Manoeuvrability",
-        "sourceType": "imo_resolution",
-        "issuer": "IMO",
-        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
-        "supports": "船舶操縱性能及試驗背景。"
+        "title": "Behavior and Handling of Ships",
+        "sourceType": "textbook_or_academic",
+        "issuer": "Henry H. Hooyer, Cornell Maritime Press",
+        "supports": "船首排斥、船艉吸引、岸壁效應及狹水道交會追越的操船原理。"
       }
     ],
     "assumptions": [
-      "計算題已明列採用的阻力係數、投影面積及單位換算假設。"
+      "以兩船同向追越且航道狹窄為前提；偏航方向依實際幾何條件而變。"
     ],
-    "limitations": [],
+    "limitations": [
+      "題目未提供兩船尺度、間距、水深及相對速度，故不指定固定偏轉角或橫向力數值。"
+    ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部86年船舶操縱原卷",
+          "item": "狹水道船間交互作用原理",
           "result": "pass",
-          "note": "六題題文核對。"
+          "note": "依Hooyer船舶操縱專書核對船首排斥、船艉吸引、岸壁效應及追越風險。"
         },
         {
-          "item": "船舶特定操縱資料及題目指定阻力係數",
-          "result": "partial",
-          "note": "未提供特定船舶手冊或橫流阻力係數，依明列假設估算。"
+          "item": "特定船型偏轉方向及力值",
+          "result": "needs_review",
+          "note": "缺少題目船型、速度、水深及間距，未提供固定方向或數值。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "086-shiphandling-03-answer-v1",
