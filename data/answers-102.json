@@ -1557,5 +1557,331 @@
       ]
     },
     "lastUpdated": "2026-11-07"
+  },
+  {
+    "questionId": "102-english-01",
+    "year": 2013,
+    "subject": "專業英文",
+    "version": 2,
+    "modelAnswer": "裝設可變螺距螺槳的船舶，其操縱特性與裝設固定螺距螺槳的船舶有顯著不同。可變螺距推進系統具有若干優點，因為裝設此系統的柴油主機不必為了倒俥而停車再重新起動，而且幾乎可以選擇無限多種航速。此外，船舶可以持續使用倒俥運轉；這是汽輪機推進船舶無法做到的。與傳統動力船舶不同，可變螺距推進船舶還可以反覆改變推進方向，而不必擔心耗盡起動空氣的供應。\n\n**翻譯註記：**原文的fixed blade propeller依上下文指固定螺距螺槳（FPP）；variable pitch propeller指可變螺距螺槳（CPP）。原文對汽輪機倒俥及起動空氣的敘述屬傳統推進系統背景，翻譯時忠實保留，不應把它擴大成所有現代汽輪機或電力推進船的通則。",
+    "practicalAnalysis": "本題為技術英文翻譯。固定螺距螺槳與可變螺距螺槳的差異應用標準輪機術語；原文的技術概括有其傳統柴油機／汽輪機背景，翻譯忠實保留，但2027實務需依個船推進系統手冊判斷。",
+    "keyPoints": [
+      {
+        "point": "Variable Pitch Propeller",
+        "explanation": "譯為可變螺距螺槳（CPP）。",
+        "result": "pass"
+      },
+      {
+        "point": "Fixed Blade Propeller",
+        "explanation": "依上下文譯為固定螺距螺槳（FPP）。",
+        "result": "pass"
+      },
+      {
+        "point": "Go astern／direction of propulsion",
+        "explanation": "分別譯為倒俥運轉及改變推進方向。",
+        "result": "pass"
+      },
+      {
+        "point": "Starting air",
+        "explanation": "譯為起動空氣，保留柴油主機輪機術語。",
+        "result": "pass"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Standard Marine Communication Phrases",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/StandardMarineCommunicationPhrases.aspx",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "海事專業英文用語背景。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部102年專業英文試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=102070&q=1&s=0807&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題及翻譯原文。",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "Variable Pitch Propeller",
+          "result": "pass",
+          "note": "譯為可變螺距螺槳（CPP）。"
+        },
+        {
+          "item": "Fixed Blade Propeller",
+          "result": "pass",
+          "note": "依上下文譯為固定螺距螺槳（FPP）。"
+        },
+        {
+          "item": "Go astern／direction of propulsion",
+          "result": "pass",
+          "note": "分別譯為倒俥運轉及改變推進方向。"
+        },
+        {
+          "item": "Starting air",
+          "result": "pass",
+          "note": "譯為起動空氣，保留柴油主機輪機術語。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "questionId": "102-english-02",
+    "year": 2013,
+    "subject": "專業英文",
+    "version": 2,
+    "modelAnswer": "(1) Every vessel shall use all available means appropriate to the prevailing circumstances and conditions to determine if risk of collision exists. If there is any doubt, such risk shall be deemed to exist.\n\n(2) Proper use shall be made of radar equipment, if fitted and operational, including long-range scanning to obtain early warning of risk of collision and radar plotting or equivalent systematic observation of detected objects.\n\n(3) Assumptions shall not be made on the basis of scanty information, especially scanty radar information.",
+    "practicalAnalysis": "本題直接對應COLREG Rule 7(a)、(b)、(c)。保留shall的法規義務語氣；「碰撞危機」採標準用語risk of collision；「雷達測繪圖」可譯為radar plotting；「不充分資料」為scanty information。",
+    "keyPoints": [
+      {
+        "point": "Risk of collision",
+        "explanation": "使用COLREG標準用語。",
+        "result": "pass"
+      },
+      {
+        "point": "All available means",
+        "explanation": "完整保留適當情況下利用一切可用方法。",
+        "result": "pass"
+      },
+      {
+        "point": "Radar plotting／systematic observation",
+        "explanation": "正確表達雷達測繪及系統性觀測。",
+        "result": "pass"
+      },
+      {
+        "point": "Scanty information",
+        "explanation": "保留不得依不充分資料作假設的語意。",
+        "result": "pass"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO COLREG 1972 — Rule 7 Risk of Collision",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "Rule 7(a)至(c)正式英文條文。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部102年專業英文試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=102070&q=1&s=0807&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題中文。",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "Risk of collision",
+          "result": "pass",
+          "note": "使用COLREG標準用語。"
+        },
+        {
+          "item": "All available means",
+          "result": "pass",
+          "note": "完整保留適當情況下利用一切可用方法。"
+        },
+        {
+          "item": "Radar plotting／systematic observation",
+          "result": "pass",
+          "note": "正確表達雷達測繪及系統性觀測。"
+        },
+        {
+          "item": "Scanty information",
+          "result": "pass",
+          "note": "保留不得依不充分資料作假設的語意。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "questionId": "102-english-03",
+    "year": 2013,
+    "subject": "專業英文",
+    "version": 2,
+    "modelAnswer": "(1) **Rhumb line:** A line on the Earth's surface that crosses every meridian at the same angle. It appears as a straight line on a Mercator chart. Except for a meridian or the Equator, it is generally not the shortest distance between two positions.\n\n(2) **List:** A vessel's steady inclination to port or starboard, usually caused by an internal transverse shift of weight, such as improperly distributed cargo or ballast. It should be distinguished from a temporary heel caused by wind, turning or waves.\n\n(3) **Beam sea:** A sea condition in which waves approach the vessel from approximately abeam, at about 90 degrees to the vessel's heading.\n\n(4) **Leeway:** The sideways movement of a vessel caused mainly by wind, resulting in a difference between the vessel's heading and the direction of her actual track over the ground. It should be distinguished from set caused by current.\n\n(5) **Magnetic north:** The direction indicated by the Earth's magnetic field and followed by a freely suspended magnetic compass. It differs from true north by magnetic variation (declination), and the ship's compass may also be affected by deviation caused by the vessel's own magnetism.",
+    "practicalAnalysis": "五個術語均依現代航海用語整理。List與Heel分開：List通常是持續的橫傾，常由內部重量分布造成；Heel可由風、轉向或波浪等外力造成。Leeway主要指風致側移，與current set分開。",
+    "keyPoints": [
+      {
+        "point": "Rhumb line",
+        "explanation": "同角度交叉子午線，Mercator圖上為直線。",
+        "result": "pass"
+      },
+      {
+        "point": "List",
+        "explanation": "區分持續橫傾與外力造成的暫時Heel。",
+        "result": "pass"
+      },
+      {
+        "point": "Beam sea",
+        "explanation": "波浪約由正橫方向來襲。",
+        "result": "pass"
+      },
+      {
+        "point": "Leeway",
+        "explanation": "風致側移，與潮流造成的set區分。",
+        "result": "pass"
+      },
+      {
+        "point": "Magnetic north",
+        "explanation": "說明磁北、磁差及船磁羅經偏差。",
+        "result": "pass"
+      }
+    ],
+    "references": [
+      {
+        "title": "The American Practical Navigator (Bowditch), Vol. 1",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "sourceType": "official_or_technical_reference",
+        "supports": "Rhumb line、磁北、磁差及羅經偏差等航海術語。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO COLREG 1972",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "航向、航跡及海況操船的規則背景。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部102年專業英文試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=102070&q=1&s=0807&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題。",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "Rhumb line",
+          "result": "pass",
+          "note": "同角度交叉子午線，Mercator圖上為直線。"
+        },
+        {
+          "item": "List",
+          "result": "pass",
+          "note": "區分持續橫傾與外力造成的暫時Heel。"
+        },
+        {
+          "item": "Beam sea",
+          "result": "pass",
+          "note": "波浪約由正橫方向來襲。"
+        },
+        {
+          "item": "Leeway",
+          "result": "pass",
+          "note": "風致側移，與潮流造成的set區分。"
+        },
+        {
+          "item": "Magnetic north",
+          "result": "pass",
+          "note": "說明磁北、磁差及船磁羅經偏差。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "questionId": "102-english-04",
+    "year": 2013,
+    "subject": "專業英文",
+    "version": 2,
+    "modelAnswer": "The relationship between a master and a compulsory pilot is based on cooperation, mutual respect and a shared commitment to the safety of the ship. Although the pilot is required by law to conduct pilotage in a compulsory pilotage area, the pilot's presence on board does not relieve the master or the officer of the watch of their responsibilities for the safety of the vessel.\n\nThe master is responsible for the overall safety of the ship, crew, passengers, cargo and the marine environment. The master knows the vessel's propulsion system, steering gear, manoeuvring characteristics, draught, stability, defects and operational limitations. This information must be shared with the pilot before pilotage begins.\n\nThe compulsory pilot contributes detailed local knowledge of the port and its approaches, including channels, depths, tides, currents, navigational marks, traffic patterns, port regulations, tug arrangements and berth conditions. The pilot uses this knowledge to prepare and conduct a safe passage plan. Before the operation, the master and pilot should complete a Master-Pilot Exchange (MPX), discussing the passage plan, ship's characteristics, environmental conditions, communications, tug assistance and emergency procedures.\n\nDuring pilotage, the pilot should give clear and unambiguous orders and keep the bridge team informed of the intended manoeuvres. The master and officer of the watch should monitor the vessel's position, heading, speed, engine and rudder response, and the pilot's actions. They should speak up immediately if they observe a deviation from the agreed plan or any unsafe condition. Effective closed-loop communication and mutual cross-checking help prevent misunderstandings and human error.\n\nIf the master considers that the pilot's actions may endanger the ship, the master must take appropriate action to protect the vessel and should communicate the concern without delay. Likewise, the pilot should advise the master when a requested action is unsafe or contrary to applicable regulations.\n\nIn conclusion, the master retains command and overall responsibility, while the compulsory pilot provides local expertise and conducts the agreed pilotage. Safe pilotage depends on MPX, clear communication, mutual monitoring and effective bridge resource management.",
+    "practicalAnalysis": "作文約300字，依IMO A.960(23)及引水法第32條精神整理船長與強制引水人關係。核心是船長保有指揮及安全責任，引水人提供地方知識並執行領航；雙方透過MPX、閉環溝通及駕駛台團隊監控合作。",
+    "keyPoints": [
+      {
+        "point": "船長權責",
+        "explanation": "保留船長整體指揮及船舶安全責任。",
+        "result": "pass"
+      },
+      {
+        "point": "強制引水人角色",
+        "explanation": "地方知識、航路、風流、港規及拖船安排。",
+        "result": "pass"
+      },
+      {
+        "point": "MPX",
+        "explanation": "補入航路計畫、船舶特性、通訊及緊急程序。",
+        "result": "pass"
+      },
+      {
+        "point": "BRM及閉環溝通",
+        "explanation": "強調OOW獨立監控、交叉核對及安全質疑。",
+        "result": "pass"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Resolution A.960(23)",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "引水人、船長及駕駛台團隊責任、MPX及BRM。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "引水法（現行全文）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0070028",
+        "issuer": "法務部全國法規資料庫",
+        "sourceType": "official_or_technical_reference",
+        "supports": "第32條引水人執行領航業務時應尊重船長指揮權。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部102年專業英文試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=102070&q=1&s=0807&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題。",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "船長權責",
+          "result": "pass",
+          "note": "保留船長整體指揮及船舶安全責任。"
+        },
+        {
+          "item": "強制引水人角色",
+          "result": "pass",
+          "note": "地方知識、航路、風流、港規及拖船安排。"
+        },
+        {
+          "item": "MPX",
+          "result": "pass",
+          "note": "補入航路計畫、船舶特性、通訊及緊急程序。"
+        },
+        {
+          "item": "BRM及閉環溝通",
+          "result": "pass",
+          "note": "強調OOW獨立監控、交叉核對及安全質疑。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
   }
 ]
