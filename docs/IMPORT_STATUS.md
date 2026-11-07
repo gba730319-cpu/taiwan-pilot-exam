@@ -137,3 +137,10 @@
 - 已取得交通部112年4月26日修正條文內容頁，與官方歷史沿革交叉核對。答案中「114年商港港務管理規則歷史版本」子項由 `needs_review` 更新為 `pass`。
 - 仍保留 `needs_review`：各港VTS實際授權、交通放行程序及操作門檻因港別而異，需逐港取得當時有效公告／作業指南；不可將高雄港作業原則概括套用所有港口。
 - 官方來源：交通部歷史沿革 https://motclaw.motc.gov.tw/webMotcLaw2018/Law/History?LawID=I0008017&type=-1；112年版本條文 https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0008018&type=-1
+
+#### 114 年航政法規第 4 題：高雄港VTS地方作業規範補充
+- 已取得高雄港務分公司《高雄港水域船舶交通服務作業指南》全文索引，明列114年6月3日修正；補入答案的高雄港VTS服務／資訊服務區域、北區14頻道、南區12頻道、資訊服務區域11頻道及船舶動態報告要求。
+- 已交叉補入高雄港船舶進出港及移泊交通管制作業原則（112年2月15日修正），說明VTS依引水申請、ETA及拖船調度能量排序，並依規定執行進港同意及必要流量管控。
+- 高雄港船舶進出港管制基準另有112年4月14日訂定、113年4月19日及113年11月11日修訂版本，可作114年考試時的港口天候管制例證。
+- 嚴格限定：以上均屬高雄港地方作業依據，不外推至其他商港；跨港VTS授權及作業細節子項仍維持 `needs_review`。
+- 官方來源：https://kh.twport.com.tw/fapi/AttFile?id=3884&type=AttFile；https://kh.twport.com.tw/zh-TW/service/Articles?a=1052；https://kh.twport.com.tw/fapi/AttFile?id=3731&type=AttFile
