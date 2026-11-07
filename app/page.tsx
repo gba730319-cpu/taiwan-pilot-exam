@@ -366,8 +366,8 @@ export default function Home() {
                         </section>
                       ) : null}
                       {Array.isArray(answer.references) && answer.references.length ? (
-                        <section className="answer-section">
-                          <h3>參考資料</h3>
+                        <details className="reference-fold">
+                          <summary>參考資料（點擊展開／收合）</summary>
                           <ol className="answer-references">
                             {answer.references.map((item, index) => (
                               <li key={index}>
@@ -382,7 +382,7 @@ export default function Home() {
                               </li>
                             ))}
                           </ol>
-                        </section>
+                        </details>
                       ) : null}
                       {answer.verification?.status ? (
                         <div className="answer-status">資料查核狀態：{answer.verification.status === "source_checked" ? "已完成來源核對" : answer.verification.status}</div>
