@@ -238,3 +238,12 @@
 - 補入水深／吃水比、航道寬度與阻塞比、船型方形係數及深度Froude數等影響因素；提醒不同經驗公式的適用條件不同，不可將開放水域公式直接套用狹窄運河。
 - 區分Squat與bank suction／bank cushion：兩者不同，但在淺窄航道可能同時發生並影響操縱。
 - 官方來源：MCA MGN 199 https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction；加拿大TSB https://tsb.gc.ca/eng/rapports-reports/marine/1999/m99c0005/m99c0005.html；USACE https://erdc-library.erdc.dren.mil/bitstream/11681/1895/1/CHL-CHETN-I-72.pdf
+
+
+### 114 年船舶操縱第 4 題：迴旋支點與艏推器配合方式重大修正（2026-11-07）
+- 重新核對The Nautical Institute《Notes on Shiphandling》Chapter 1及Chapter 8，發現原答案「微量艉退使支點後移、艏推器力臂變長」的概括說法不正確，已修正。
+- 正確操作重點：船舶停止時，艏推器作用下的有效迴旋支點可因船底線型及水動力位於較靠艉位置，艏推器轉艏力矩通常最佳；任何前進或後退速度都可能使支點位置不利而縮短力臂。
+- 前進時支點前移至船首附近，艏推器接近支點、轉艏力矩小；多數一般艏推器在約2節以上可能因隧道紊流及水流偏折而顯著降低效能，實際速度限制依原廠資料。
+- 後退時支點移向船艉，艏推器仍可有效控制倒俥船艏向，但反應較慢，須留意偏航率、螺槳側推及船艉掃掠。
+- 已區分「無外力時基準支點約在重心附近」與「艏推器施力時的有效迴旋支點」兩種情況，避免概念混淆。
+- 參考來源：《Notes on Shiphandling》https://library.bsma.edu.ge/BOOKS/Notes_%20on_shiphandling.pdf；《The Shiphandler's Guide》https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf
