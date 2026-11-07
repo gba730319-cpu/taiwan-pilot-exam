@@ -272,3 +272,9 @@
 - 補充VTS的資訊服務、航行協助服務及交通組織服務三類功能；原文safety instructions可譯「安全指示」，但不得將其擴張成VTS全面取代船長操船決策。
 - 補充primary responsibility remains with the master的法律語意：船長仍負主要航行責任，不代表引水人沒有專業義務；引水人登輪不解除船長及值班駕駛員原有責任。
 - 官方來源：IMO SOLAS V/12與VTS說明 https://www.imo.org/en/ourwork/safety/pages/vesseltrafficservices.aspx；IMO A.1158(32) https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1158%2832%29.pdf；IMO A.960(23) https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf
+
+
+### 114 年專業英文第 2、3 題：翻譯及術語定義複核（2026-11-07）
+- 第2題修正「高度警戒」主譯為high state of alertness，避免未經原文授權直接加成proper lookout；主機備妥譯為ready for immediate manoeuvring；引水前職責界定使用respective roles and responsibilities。
+- 第3題Boarding arrangements依SOLAS V/23及IMO A.1045(27)擴充為整套設備、裝置、通道與監督程序；Crash-stop依IMO MSC.137(76)連結full astern stopping test及track reach；Steerage way補充propeller wash亦可提供舵效水流，並非固定節數；Safe speed依COLREG Rule 6列出核心判準及影響因素。
+- 官方來源：SOLAS V/23及IMO A.1045(27) https://www.imo.org/en/ourwork/safety/pages/pilotage.aspx；IMO A.1045(27) https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1045%2827%29.pdf；IMO MSC.137(76) https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf；COLREG https://www.imo.org/en/about/conventions/pages/colreg.aspx
