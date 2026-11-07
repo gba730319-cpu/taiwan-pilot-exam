@@ -2,62 +2,90 @@
   {
     "id": "085-pilotage-01-answer-v1",
     "questionId": "085-pilotage-01",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "| 圖例 | 英文／符號意義 | 說明 |\n|---|---|---|\n| 防波堤 | Breakwater | 港口外側防浪構造，圖上依比例尺畫出岸線及堤頭。 |\n| 海關 | Customs | 海關機關／查驗設施位置。 |\n| 暗渠 | Submarine outfall / culvert | 海底或水下暗渠／排水通道；須依圖例區分涵洞、排水口。 |\n| 高架電線 | Overhead cable | 跨越水域的架空電纜，須注意安全淨空。 |\n| 漁港 | Fishing harbour | 漁船停泊、漁業作業港區。 |\n| 雷達標 | Radar reflector / radar beacon | 雷達反射器或雷達信標；須按指定圖式辨識。 |\n| 海底管線區 | Submarine pipeline area | 海底管線路線／區域，應避免拋錨及拖網。 |\n| 拖底掃測 | Swept area / swept channel | 經拖底掃測確認無障礙物的區域；不等同保證全水域任何時候均無危險。 |\n| 089°30′ Mds | 089°30′ magnetic direction / chart notation | 表示圖上方位註記；Mds縮寫須依該版海圖圖例確認，不可擅自解作真方位。 |\n\n正式作答應依考試指定版次海圖圖式臨摹，尤其暗渠、雷達標、拖底掃測及Mds縮寫須按原圖例辨認。",
-    "practicalAnalysis": "本題20分，逐項畫出九種海圖圖例及一個方位註記。文字解釋可協助記憶，但正式作答仍須按當年Chart 1圖式繪製。",
+    "modelAnswer": "本題為九種海圖圖式／註記繪圖題。依臺灣海軍大氣海洋局《海圖圖例》第9版（依2021年版IHO海圖規格編製）核對如下。正式作答須照圖例原符號描繪，不能以文字或Emoji替代。\n\n| 項目 | 圖例代碼／英文 | 作圖及辨識重點 |\n|---|---|---|\n| 防波堤 | F4.1 – Breakwater (in general) | 一般防波堤；另有卵石／四腳塊及混凝土坡壁等不同圖式，須依題目結構選用。 |\n| 海關 | D61 – Custom Office（圖例縮寫Cus Ho） | 海關辦公處所的地物符號，不是海關界線（Customs limit）。 |\n| 暗渠 | Culvert／暗渠 | 第9版圖例未查得與「暗渠」完全對應的獨立標準符號；須回查原題指定版次或國家補充符號，不能逕以海底放流管（Outfall）替代。 |\n| 高架電線 | D27 – Overhead cable with vertical clearance | 高架電纜並附安全垂直淨空；依題目原圖畫出電線及淨空註記。 |\n| 漁港 | F10 – Fishery harbor | 漁港圖式，依港埠設施圖例表示。 |\n| 雷達標 | E2 – Ramark；E3 – Racon | Ramark為連續發射信號的雷達標；Racon為雷達回訊標。題目只寫「雷達標」時，須依原圖或題目資料確認是哪一種，不能混畫。 |\n| 海底管線區 | L40.2 – Supply pipeline area | 以管線區域圖式標示；依註記區分油、瓦斯、化學品或水等輸送內容。不可與海底電力電纜區混淆。 |\n| 拖底掃測 | I24 – Area swept by wire drag | 表示經拖底掃測之水域，圖上可標掃測深度及最新掃測年份；掃測深度以Chart Datum為基準。 |\n| 089°30′ Mds | Bearing／direction annotation + Mds | 089°30′為角度／方位註記；Mds在第9版圖例明確代表Madrepore（石珊瑚，海底底質）。Mds不是Magnetic direction。方位究竟為真方位或磁方位，須依原圖的T／M標示或羅經註記判定。 |\n\n## 重要辨識與作圖提醒\n\n1. 海關辦公室（Custom Office）與海關界線（Customs limit）是不同圖式。\n2. 雷達標至少要分清Ramark與Racon：前者連續發射，後者接收雷達波後回傳識別訊號。\n3. 海底管線區（Pipeline area）與海底電力電纜區（Submarine power cable area）圖式不同。\n4. 拖底掃測區的掃測深度以Chart Datum為基準，且可能附最新掃測年份；不能解讀成永久保證無障礙。\n5. Mds是石珊瑚底質縮寫，不是磁方位縮寫；089°30′的真／磁性質需看原圖標示。\n6. 暗渠在目前可查第9版圖例中未找到完全相同的獨立項目，保留原卷版次待查，不自行畫成海底排水口。",
+    "practicalAnalysis": "本題原答案對多項圖式僅作泛稱，且把Mds誤解為magnetic direction。臺灣官方《海圖圖例》第9版（依2021年IHO規格）可核對：防波堤F4.1、海關D61、電線D27、漁港F10、Ramark／Racon、海底管線區L40.2、拖底掃測I24；Mds明確是Madrepore石珊瑚底質。暗渠與089°30′方位註記的真／磁性質仍須原卷指定版次或圖面確認。",
     "keyPoints": [
       {
-        "point": "防波堤、海關、暗渠及高架電線需使用對應圖式。",
+        "point": "防波堤一般圖式F4.1。",
         "importance": "essential"
       },
       {
-        "point": "雷達標須區分雷達反射器與雷達信標。",
+        "point": "海關辦公室D61（Cus Ho），不可與海關界線混淆。",
         "importance": "essential"
       },
       {
-        "point": "海底管線區及拖底掃測區應說明航行／拋錨限制。",
+        "point": "高架電線D27，須附安全垂直淨空。",
         "importance": "essential"
       },
       {
-        "point": "089°30′ Mds縮寫須依題目指定圖例核實。",
+        "point": "漁港F10。",
+        "importance": "essential"
+      },
+      {
+        "point": "雷達標須區分Ramark連續發射與Racon雷達回訊。",
+        "importance": "essential"
+      },
+      {
+        "point": "海底管線區L40.2，不能與海底電力電纜區混淆。",
+        "importance": "essential"
+      },
+      {
+        "point": "拖底掃測區I24，掃測深度以Chart Datum為基準，可能附掃測年份。",
+        "importance": "essential"
+      },
+      {
+        "point": "Mds＝Madrepore石珊瑚底質，不是Magnetic direction。",
+        "importance": "essential"
+      },
+      {
+        "point": "暗渠圖式及089°30′方位真／磁性質仍須原卷指定版次核對。",
         "importance": "supporting"
       }
     ],
     "references": [
       {
+        "title": "中華民國海軍水道圖刊物第一種：海圖圖例（第9版）",
+        "sourceType": "official_chart_reference",
+        "issuer": "海軍大氣海洋局",
+        "editionOrEffectiveDate": "第9版，依2021年IHO海圖規格",
+        "url": "https://navy.mnd.gov.tw/Files/Policy/%E6%B5%B7%E8%BB%8D_%E6%B5%B7%E5%9C%96%E5%9C%96%E4%BE%8B.pdf",
+        "supports": "防波堤F4.1、海關D61、高架電線D27、漁港F10、Ramark/Racon、海底管線區L40.2、拖底掃測I24及Mds底質縮寫。"
+      },
+      {
         "title": "85年甲種引水人引港學官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國85年（1996）",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=023&code=085150&q=1&s=2001&t=Q",
-        "supports": "引港學五題原卷。"
+        "editionOrEffectiveDate": "民國85年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=085120&q=1&s=c181&t=Q",
+        "supports": "原題九項海圖圖例及配分。"
       }
     ],
     "assumptions": [
-      "計算題明列方位解讀及潮流內插模型。"
+      "依臺灣官方海圖圖例第9版核對現行圖式；對原題只給文字、未提供符號原圖的項目，保留版次差異。"
     ],
     "limitations": [
-      "未取得1996年考試指定版次Chart 1完整圖例，Mds縮寫及個別符號形式待原圖核對。"
+      "目前未取得民國85年考試指定海圖圖例原頁；暗渠圖式及089°30′方位的真／磁性質仍待原卷附圖確認。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部85年引港學原卷",
+          "item": "官方第9版圖例項目",
           "result": "pass",
-          "note": "五題題文核對。"
+          "note": "已核對F4.1、D61、D27、F10、E2/E3、L40.2、I24及Mds＝Madrepore。"
         },
         {
-          "item": "1996年海圖圖例／潮流曲線",
-          "result": "partial",
-          "note": "歷史圖例版次及指定潮流內插曲線待查。"
+          "item": "暗渠及089°30′方位標示",
+          "result": "needs_review",
+          "note": "未取得原卷附圖，不能確定暗渠專用符號及該方位的真／磁性質。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "085-pilotage-02-answer-v1",
