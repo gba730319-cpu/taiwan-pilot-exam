@@ -2,22 +2,30 @@
   {
     "id": "084-pilot-law-01-answer-v1",
     "questionId": "084-pilot-law-01",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、行政責任】引水人因業務過失使領航船舶發生無人員傷亡的一般海難，仍須調查是否違反專業注意義務及法定職務。航政主管機關可依引水法及其罰則，按過失情節採取警告、停止領航業務或其他法定行政處分。若事故另涉及民事損害賠償或刑事犯罪，須分別依各自構成要件處理，不能僅因發生海難便推定引水人當然有罪或必然停業。\\n\\n【二、判斷因素】包括是否違反港規及主管機關命令、是否充分掌握船舶性能與風流水深、是否與船長完成資料交換、是否及早採取避險措施、事故是否可預見可避免，以及是否造成港灣設施或財產損害。\\n\\n【三、歷史法規】題目指定1995年引水法罰則，具體處分種類、條號及期間須依當年有效版本核對，不宜套用現行罰額。",
-    "practicalAnalysis": "依題目所問之法規／COLREG原則整理，歷史條文未取得者明確保留待查，不以現行條文冒充1995年版本。",
+    "modelAnswer": "## 一、未造成人員傷亡的一般海難\n\n依現行《引水法》第38條第三款，引水人因職務上過失而致海難者，當地航政主管機關得予警告；情節重大者，得報請交通部收回執業證書三個月至二年。若二年內警告達三次，依法收回執業證書三個月。\n\n若引水人因業務過失致其領航船舶**沉沒**，或致船舶**破壞**，則另依《引水法》第36條負刑事責任：\n- 致船舶沉沒：三年以下有期徒刑、拘役或新臺幣三萬元以下罰金。\n- 致船舶破壞：一年以下有期徒刑、拘役或新臺幣三萬元以下罰金。\n\n## 二、本題作答界線\n\n題目只說「發生海難，尚未造成人員傷亡」，未明示船舶沉沒或破壞，因此不能直接套用第36條刑事責任。應以第38條第三款的行政警告／情節重大收回執業證書為主；若另有船舶沉沒或破壞事實，再依第36條判斷刑責。",
+    "practicalAnalysis": "原答案把未造成人員傷亡與船舶是否沉沒／破壞混為一談。現行《引水法》第36條的刑事處罰以船舶沉沒或破壞為要件；單純因職務過失致海難，應先依第38條第三款處理。已明確區分行政處分與刑事責任。",
     "keyPoints": [
       {
-        "point": "依1995年引水法調查業務過失，處分須符合條文要件。",
+        "point": "一般職務過失致海難，依現行第38條第三款得警告。",
         "importance": "essential"
       },
       {
-        "point": "行政、民事及刑事責任分別判斷。",
+        "point": "情節重大者，得收回執業證書三個月至二年；二年內警告三次者收回三個月。",
         "importance": "essential"
       },
       {
-        "point": "處分種類及期間依歷史罰則核對。",
+        "point": "致船舶沉沒，另依第36條處三年以下有期徒刑、拘役或3萬元以下罰金。",
+        "importance": "essential"
+      },
+      {
+        "point": "致船舶破壞，另依第36條處一年以下有期徒刑、拘役或3萬元以下罰金。",
+        "importance": "essential"
+      },
+      {
+        "point": "未明示船舶沉沒／破壞時，不可直接套用第36條刑責。",
         "importance": "essential"
       }
     ],
@@ -26,57 +34,70 @@
         "title": "84年甲種引水人航政法規官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國84年（1995）",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=6001&t=Q",
-        "supports": "航政法規十題原卷。"
+        "editionOrEffectiveDate": "民國84年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=084120&q=1&s=c181&t=Q",
+        "supports": "原題題意及配分。"
       },
       {
-        "title": "International Regulations for Preventing Collisions at Sea 1972 (COLREG)",
-        "sourceType": "imo_convention",
-        "issuer": "IMO",
-        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
-        "supports": "第9題Rule 17；第10題Rule 23、24。"
+        "title": "引水法（現行法）",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "editionOrEffectiveDate": "2002-01-30",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0070028",
+        "supports": "引水人資格、國籍、執業區域、船長權責及罰則。"
       }
     ],
     "assumptions": [
-      "歷史引水法、商港法及港務規則依1995年有效版本。"
+      "以現行《引水法》第36、38條作為2027備考主答。"
     ],
     "limitations": [
-      "1995年引水法罰則歷史版本待查。"
+      "個案是否構成船舶破壞及刑事過失，仍由司法機關依具體事實認定。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部84年航政法規原卷",
+          "item": "現行法規／COLREG",
           "result": "pass",
-          "note": "十題題文核對。"
+          "note": "現行主答已依最新可查條文及港口公告核對。"
         },
         {
-          "item": "1995年法規歷史版本",
-          "result": "partial",
-          "note": "指定法條及罰則仍待歷史法規原文核對。"
+          "item": "歷史題條次",
+          "result": "needs_review",
+          "note": "歷史題條次與現行規範分開呈現，不將現行條文冒充舊法。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "084-pilot-law-02-answer-v1",
     "questionId": "084-pilot-law-02",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、國籍要求理由】\\n1. 國家主權及港口管制：引水工作涉及港口交通、航道安全及重要基礎設施。\\n2. 公共安全及國家安全：引水人可能接觸港口配置、管制水域及船舶動態等敏感資訊。\\n3. 法律責任及執業監督：主管機關須能依法管理、懲戒及追訴執業者。\\n4. 語言及在地知識：須與船長、VTS、拖船及港務單位迅速溝通，熟悉本地法規及港口運作。\\n\\n【二、雙重國籍】引水法第11條要求引水人為中華民國國民。若兼有他國國籍，應依1995年有效國籍法及引水法判斷其是否仍具中華民國國籍，以及當年是否另有禁止兼具外國國籍的明文限制。不得僅因具有雙重國籍便自行推論其當然喪失中華民國國籍；主管機關應依法審查國籍證明及相關法規。",
-    "practicalAnalysis": "依題目所問之法規／COLREG原則整理，歷史條文未取得者明確保留待查，不以現行條文冒充1995年版本。",
+    "modelAnswer": "## 一、現行資格規定\n\n依現行《引水法》第11條，須為中華民國國民並經引水人考試及格，始得任引水人；依第13條，喪失中華民國國籍者不得為引水人。\n\n現行法要求的是**具有中華民國國籍**，並未明文規定引水人必須只有中華民國單一國籍。因此，雙重國籍本身不當然使其喪失引水人資格；但若依法已喪失中華民國國籍，即不符合資格。\n\n## 二、限制國籍的政策考量\n\n引水人長期接觸港口航道、水深、助航設施、船舶交通、軍事管制水域及港口應變資訊，國籍要求可能涉及：\n1. **國家安全與港口防衛：**避免敏感港區及航道資訊遭不當利用或外洩。\n2. **機密資訊保護：**引水人須遵守《引水人管理規則》第48條，對引水區域內國防軍事秘密負保密義務。\n3. **法律責任及管轄：**確保執業資格、行政監督、紀律處分及司法責任能有效執行。\n4. **公共安全與忠誠義務：**引水工作涉及船舶安全、港區秩序及緊急應變，須有明確的法律責任歸屬。\n\n## 三、對雙重國籍的看法\n\n我認為應區分「雙重國籍」與「喪失中華民國國籍」：\n- 依現行引水法文字，只要仍具中華民國國籍並符合其他資格，雙重國籍本身並非明文排除事由。\n- 若當事人依《國籍法》程序喪失中華民國國籍，即依引水法第13條不得任引水人。\n- 若涉及特定港區軍事機密、國安敏感職務或其他特別法規，仍應另行檢視適用的安全審查及保密限制，不能只憑一般雙重國籍規定推論。\n\n**結論：**法律明文要求中華民國國籍，不等於明文禁止雙重國籍；政策上則應以國安風險、機密接觸範圍及具體保密制度評估。",
+    "practicalAnalysis": "原答案將政策上的國籍考量直接寫成法律禁止雙重國籍，缺乏條文依據。現行《引水法》第11條要求中華民國國民，第13條只將喪失中華民國國籍列為不得任引水人的事由，沒有明文排除雙重國籍。已補上國安與保密政策理由，並與法律明文分開。",
     "keyPoints": [
       {
-        "point": "國籍要求涉及主權、港安、法律監督及在地溝通。",
+        "point": "現行引水法第11條要求中華民國國民及考試及格。",
         "importance": "essential"
       },
       {
-        "point": "雙重國籍須依當年引水法及國籍法判斷。",
+        "point": "第13條規定喪失中華民國國籍者不得任引水人。",
+        "importance": "essential"
+      },
+      {
+        "point": "現行法未明文規定引水人必須只有單一國籍，雙重國籍本身不當然失格。",
+        "importance": "essential"
+      },
+      {
+        "point": "國籍要求的政策考量包括國安、軍事機密、港口安全及法律責任管轄。",
+        "importance": "essential"
+      },
+      {
+        "point": "涉及特定機密或安全審查時，須另依特別法規檢視。",
         "importance": "essential"
       }
     ],
@@ -85,57 +106,85 @@
         "title": "84年甲種引水人航政法規官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國84年（1995）",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=6001&t=Q",
-        "supports": "航政法規十題原卷。"
+        "editionOrEffectiveDate": "民國84年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=084120&q=1&s=c181&t=Q",
+        "supports": "原題題意及配分。"
       },
       {
-        "title": "International Regulations for Preventing Collisions at Sea 1972 (COLREG)",
-        "sourceType": "imo_convention",
-        "issuer": "IMO",
-        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
-        "supports": "第9題Rule 17；第10題Rule 23、24。"
+        "title": "引水法（現行法）",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "editionOrEffectiveDate": "2002-01-30",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0070028",
+        "supports": "引水人資格、國籍、執業區域、船長權責及罰則。"
+      },
+      {
+        "title": "國籍法（現行法）",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0030001",
+        "supports": "喪失中華民國國籍之法定程序；國籍取得外國籍不當然等同自動喪失我國籍。"
+      },
+      {
+        "title": "引水人管理規則（現行法）",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "editionOrEffectiveDate": "2024-12-18",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0070029",
+        "supports": "第11、13、38條引水人種類、噸位限制及多名引水人規定。"
       }
     ],
     "assumptions": [
-      "歷史引水法、商港法及港務規則依1995年有效版本。"
+      "以現行《引水法》第11、13條及《引水人管理規則》第48條作答。"
     ],
     "limitations": [
-      "1995年引水法第11條及國籍法沿革待查。"
+      "個別國安職務或機密接觸限制可能另有規範；本答案不推論一般公務人員雙重國籍限制自動適用於引水人。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部84年航政法規原卷",
+          "item": "現行法規／COLREG",
           "result": "pass",
-          "note": "十題題文核對。"
+          "note": "現行主答已依最新可查條文及港口公告核對。"
         },
         {
-          "item": "1995年法規歷史版本",
-          "result": "partial",
-          "note": "指定法條及罰則仍待歷史法規原文核對。"
+          "item": "歷史題條次",
+          "result": "needs_review",
+          "note": "歷史題條次與現行規範分開呈現，不將現行條文冒充舊法。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "084-pilot-law-03-answer-v1",
     "questionId": "084-pilot-law-03",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、兩名以上引水人的目的】大型船舶、超長船、超寬船、超深吃水船或操船複雜的船舶，可能因工作量、疲勞及港區風險，需要兩名以上引水人共同領航。一人負責主要操船，另一人協助監控船位、航道、交通、潮流及通信，並提供交叉檢查。\\n\\n【二、高雄港規定】本題指定1995年《引水人管理規則》第38條。正式答案應依當年高雄港規定列出須僱用兩名以上引水人的船舶條件，例如尺度、總噸位、吃水或特定航道作業限制。\\n\\n【三、實務意義】雙引水可分擔監控工作、降低單一引水人負荷，並使操船計畫、船位監控及緊急應變有第二人交叉確認。",
-    "practicalAnalysis": "依題目所問之法規／COLREG原則整理，歷史條文未取得者明確保留待查，不以現行條文冒充1995年版本。",
+    "modelAnswer": "## 一、法規授權原則\n\n依現行《引水人管理規則》第38條，航政機關得視當地水域情況，規定特種船舶或超過一定總噸位、船長之船舶應僱用兩名以上引水人；多名引水人應會合後協同領航，不得分次登船。\n\n## 二、高雄港現行作業參考\n\n高雄港引水作業以一名引水人為原則。依航港局現行高雄港引水費率表，為安全考量，引水人得徵求航商同意增僱第二名或以上引水人，適用船型包括：\n\n1. 泊靠中鋼及台電碼頭的海岬型散裝輪。\n2. 五萬總噸以上海岬型散裝船。\n3. 四萬總噸以上LPG船、油輪及化學船。\n4. 港內長度150公尺以上、港外長度130公尺以上的無動力船舶。\n5. 十萬總噸以上貨櫃船；但單島型設計、進出洲際二期碼頭者，於符合安全條件時有例外。\n6. 船長超過100公尺的超大型風電船。\n\n## 三、重要區分\n\n上述高雄港費率表用語是「得基於安全考量，徵求航商同意增僱」，不是所有列舉船舶一律法定強制僱用兩名引水人。真正的法定授權依據是管理規則第38條，由當地航政機關視水域情況規定；作答時應分清法規授權、港口作業要求及費率表的增僱機制。",
+    "practicalAnalysis": "原答案將規則第38條的授權與港口實際船型條件混為一談，且可能把「得徵求航商同意增僱」誤寫成強制雙引水。已依現行管理規則第38條及高雄港113年7月12日生效費率表整理，並明確標示一名為原則、特定船型得徵求同意增僱。",
     "keyPoints": [
       {
-        "point": "雙引水分擔大型船舶操船及監控工作。",
+        "point": "管理規則第38條授權航政機關依當地水域情況指定特種或超尺度船舶須僱用兩名以上引水人。",
         "importance": "essential"
       },
       {
-        "point": "高雄港兩名以上引水人門檻依1995年第38條核對。",
+        "point": "多名引水人應會合後協同領航，不得分次登船。",
+        "importance": "essential"
+      },
+      {
+        "point": "高雄港以一名引水人為原則；費率表列出可徵求同意增僱的六類船舶。",
+        "importance": "essential"
+      },
+      {
+        "point": "高雄港增僱條件包含5萬GT以上海岬型散裝船、4萬GT以上LPG／油輪／化學船、10萬GT以上貨櫃船及超過100m風電船等。",
+        "importance": "essential"
+      },
+      {
+        "point": "費率表的增僱是徵求航商同意，不等於所有列舉船型一律強制雙引水。",
         "importance": "essential"
       }
     ],
@@ -144,57 +193,74 @@
         "title": "84年甲種引水人航政法規官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國84年（1995）",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=6001&t=Q",
-        "supports": "航政法規十題原卷。"
+        "editionOrEffectiveDate": "民國84年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=084120&q=1&s=c181&t=Q",
+        "supports": "原題題意及配分。"
       },
       {
-        "title": "International Regulations for Preventing Collisions at Sea 1972 (COLREG)",
-        "sourceType": "imo_convention",
-        "issuer": "IMO",
-        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
-        "supports": "第9題Rule 17；第10題Rule 23、24。"
+        "title": "引水人管理規則（現行法）",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "editionOrEffectiveDate": "2024-12-18",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0070029",
+        "supports": "第11、13、38條引水人種類、噸位限制及多名引水人規定。"
+      },
+      {
+        "title": "高雄港引水費率表（113年7月12日起實施）",
+        "sourceType": "official_guidance",
+        "issuer": "交通部航港局",
+        "editionOrEffectiveDate": "2024-07-12",
+        "url": "https://www.motcmpb.gov.tw/ServerFile/Get/ccaf2656-c7e4-4e9f-9f60-101ce1f49921?DLCount=1&attachTable=4",
+        "supports": "高雄港增僱第2名以上引水人的船型、噸位及長度條件。"
       }
     ],
     "assumptions": [
-      "歷史引水法、商港法及港務規則依1995年有效版本。"
+      "以現行《引水人管理規則》第38條及高雄港現行費率表作為高雄港考區主答。"
     ],
     "limitations": [
-      "1995年管理規則第38條及高雄港當年港規未取得。"
+      "港口作業條件可能因主管機關公告修正；考試前應重新核對最新費率表與港口公告。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部84年航政法規原卷",
+          "item": "現行法規／COLREG",
           "result": "pass",
-          "note": "十題題文核對。"
+          "note": "現行主答已依最新可查條文及港口公告核對。"
         },
         {
-          "item": "1995年法規歷史版本",
-          "result": "partial",
-          "note": "指定法條及罰則仍待歷史法規原文核對。"
+          "item": "歷史題條次",
+          "result": "needs_review",
+          "note": "歷史題條次與現行規範分開呈現，不將現行條文冒充舊法。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "084-pilot-law-04-answer-v1",
     "questionId": "084-pilot-law-04",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、修法背景】1995年4月修正發布《引水人管理規則》，甲種引水人不再區分一等、二等，但不代表所有甲種引水人自動取得完全相同的執業範圍。\\n\\n【二、仍有的執業限制】執業仍可能依引水區域、船舶總噸位、尺度、吃水、特定港區或特殊作業條件設限；主管機關可依考試資格、實習經歷、執業證書加註及核准範圍，決定可領航的船舶類別及區域。\\n\\n【三、作答】應引用1995年修正後管理規則中關於執業證書、執業區域及船舶限制的具體條文，逐項列出一等／二等制度取消後仍保留的限制。",
-    "practicalAnalysis": "依題目所問之法規／COLREG原則整理，歷史條文未取得者明確保留待查，不以現行條文冒充1995年版本。",
+    "modelAnswer": "## 一、歷史制度與現行制度差異\n\n民國84年題目所稱甲種引水人分一等、二等，是當時舊制分類；現行《引水人管理規則》已不再採一等、二等甲種引水人的分級方式。\n\n## 二、2027備考現行限制\n\n依現行《引水人管理規則》第11、13條：\n1. 引水人分為甲種及乙種：甲種得在港埠、沿海領航；乙種得在內河、湖泊領航。\n2. 取得甲種引水人執業證書者，原則上限制領航**未滿15,000總噸**船舶；經航政機關核准者不在此限。\n3. 甲種引水人服務滿二年，且未受《引水法》停止執業處分者，得領航15,000總噸以上船舶。\n4. 曾受停止執業處分者，服務年資應扣除停止執業期間。\n\n**結論：**現行不是一等、二等甲種引水人的舊式分類，而是甲種引水人初取得執業證書後的15,000總噸限制及服務滿二年的升限制度。",
+    "practicalAnalysis": "原答案仍沿用一等、二等甲種引水人舊制，會讓2027考生誤記已廢止的分類。現行管理規則第11、13條改為甲種／乙種分類，並對新取得甲種執業證書者設15,000總噸及服務滿二年的限制。",
     "keyPoints": [
       {
-        "point": "一等／二等名稱取消不等於執業限制取消。",
+        "point": "現行引水人分甲種與乙種，不再分一等、二等甲種。",
         "importance": "essential"
       },
       {
-        "point": "執業仍受區域、船舶尺度及證書加註限制。",
+        "point": "甲種執業證書初取得者，原則領航未滿15,000總噸船舶。",
+        "importance": "essential"
+      },
+      {
+        "point": "服務滿二年且未受停止執業處分者，得領航15,000總噸以上船舶。",
+        "importance": "essential"
+      },
+      {
+        "point": "經航政機關核准者得有例外；停止執業期間不計入服務年資。",
         "importance": "essential"
       }
     ],
@@ -203,57 +269,66 @@
         "title": "84年甲種引水人航政法規官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國84年（1995）",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=6001&t=Q",
-        "supports": "航政法規十題原卷。"
+        "editionOrEffectiveDate": "民國84年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=084120&q=1&s=c181&t=Q",
+        "supports": "原題題意及配分。"
       },
       {
-        "title": "International Regulations for Preventing Collisions at Sea 1972 (COLREG)",
-        "sourceType": "imo_convention",
-        "issuer": "IMO",
-        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
-        "supports": "第9題Rule 17；第10題Rule 23、24。"
+        "title": "引水人管理規則（現行法）",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "editionOrEffectiveDate": "2024-12-18",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0070029",
+        "supports": "第11、13、38條引水人種類、噸位限制及多名引水人規定。"
       }
     ],
     "assumptions": [
-      "歷史引水法、商港法及港務規則依1995年有效版本。"
+      "依現行《引水人管理規則》第11、13條作為2027備考主答。"
     ],
     "limitations": [
-      "1995年4月修正規則及附表未取得。"
+      "題目所述舊制分級僅作歷史背景；若需逐字列出民國84年一等／二等限制，仍須取得當年版本條文。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部84年航政法規原卷",
+          "item": "現行法規／COLREG",
           "result": "pass",
-          "note": "十題題文核對。"
+          "note": "現行主答已依最新可查條文及港口公告核對。"
         },
         {
-          "item": "1995年法規歷史版本",
-          "result": "partial",
-          "note": "指定法條及罰則仍待歷史法規原文核對。"
+          "item": "歷史題條次",
+          "result": "needs_review",
+          "note": "歷史題條次與現行規範分開呈現，不將現行條文冒充舊法。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "084-pilot-law-05-answer-v1",
     "questionId": "084-pilot-law-05",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、入港停泊原則】依題目指定商港法第28條，船舶進入商港後，應依商港管理機關指定的港區、錨地、泊位及停泊方式停泊，不得擅自占用碼頭、變更泊位、妨礙航道或阻礙其他船舶作業。\\n\\n【二、船舶義務】依港務機關或VTS指示進入指定水域及船席；維持足夠值班船員及必要設備備便；依規定使用錨、繫纜及防碰設備；未經許可不得任意移泊或離港；並遵守危險物品、污染防治、檢疫及港區管理規定。\\n\\n【三、版本】具體停泊程序、特殊許可及違規處罰應依1995年商港法第28條原文核對。",
-    "practicalAnalysis": "依題目所問之法規／COLREG原則整理，歷史條文未取得者明確保留待查，不以現行條文冒充1995年版本。",
+    "modelAnswer": "## 一、現行規定\n\n依現行《商港法》第23條，船舶入港應依商港經營事業機構、航港局或指定機關指定的船席或錨地停泊。\n\n但遇有危急情況，必須緊急停泊時，得在**不妨害商港安全**的情形下停泊；事後應以書面向商港經營事業機構、航港局或指定機關申述理由並報備。\n\n## 二、操作程序\n\n1. 如時間允許，先以VHF聯絡港口信號台／VTS及港務機關，說明緊急原因、船位、吃水、船況、所需船席或錨地。\n2. 若情況急迫而無法事前取得指定，應選擇不妨害航道、船席、港區設施及其他船舶安全的地點緊急停泊。\n3. 停妥後儘速以書面詳述緊急原因、停泊位置、時間、船況及已採取的安全措施，向主管機關報備。\n\n**答題關鍵：**緊急停泊不是任意選擇任何位置；法定前提是危急情況且不得妨害商港安全，事後須書面申述理由。",
+    "practicalAnalysis": "原答案已提及緊急停泊，但需精確引用現行《商港法》第23條，並補上不妨害商港安全及事後書面申述報備的要件。",
     "keyPoints": [
       {
-        "point": "依港務機關指定水域及泊位停泊。",
+        "point": "原則依主管機關指定船席或錨地停泊。",
         "importance": "essential"
       },
       {
-        "point": "不得擅自移泊或妨礙航道及他船。",
+        "point": "危急情況須緊急停泊時，可在不妨害商港安全下停泊。",
+        "importance": "essential"
+      },
+      {
+        "point": "事後以書面申述理由並向主管機關報備。",
+        "importance": "essential"
+      },
+      {
+        "point": "可行時先聯絡VTS／信號台，說明船位、吃水、船況及所需協助。",
         "importance": "essential"
       }
     ],
@@ -262,57 +337,66 @@
         "title": "84年甲種引水人航政法規官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國84年（1995）",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=6001&t=Q",
-        "supports": "航政法規十題原卷。"
+        "editionOrEffectiveDate": "民國84年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=084120&q=1&s=c181&t=Q",
+        "supports": "原題題意及配分。"
       },
       {
-        "title": "International Regulations for Preventing Collisions at Sea 1972 (COLREG)",
-        "sourceType": "imo_convention",
-        "issuer": "IMO",
-        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
-        "supports": "第9題Rule 17；第10題Rule 23、24。"
+        "title": "商港法（現行法）",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "editionOrEffectiveDate": "2026-02-04",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "supports": "第16、23、41條查封船貨物、緊急停泊及災害防救。"
       }
     ],
     "assumptions": [
-      "歷史引水法、商港法及港務規則依1995年有效版本。"
+      "以現行《商港法》第23條作為2027備考主答。"
     ],
     "limitations": [
-      "1995年商港法第28條歷史版本待查。"
+      "緊急停泊地點是否妨害安全須依現場航道、交通及港區設施判斷。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部84年航政法規原卷",
+          "item": "現行法規／COLREG",
           "result": "pass",
-          "note": "十題題文核對。"
+          "note": "現行主答已依最新可查條文及港口公告核對。"
         },
         {
-          "item": "1995年法規歷史版本",
-          "result": "partial",
-          "note": "指定法條及罰則仍待歷史法規原文核對。"
+          "item": "歷史題條次",
+          "result": "needs_review",
+          "note": "歷史題條次與現行規範分開呈現，不將現行條文冒充舊法。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "084-pilot-law-06-answer-v1",
     "questionId": "084-pilot-law-06",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、查封船舶貨物】船舶滯留商港區域內經依法查封時，其所載貨物的卸載、移動、轉運、保管或處分，應依商港法及執行查封機關命令辦理，不得由船舶所有人、代理人或貨主自行處理，以免妨害查封效力。\\n\\n【二、商港管理機關】配合執行機關維持船舶及貨物現況，管制裝卸及移動；如因安全、腐敗、危險品或港區作業需要移動貨物，應先報請有權機關核准並留存紀錄；安排貨物保管及港區安全，避免污染、火災或阻礙航道。\\n\\n【三、版本】本題指定商港法第21條，具體貨物管理方式須依1995年條文核對。",
-    "practicalAnalysis": "依題目所問之法規／COLREG原則整理，歷史條文未取得者明確保留待查，不以現行條文冒充1995年版本。",
+    "modelAnswer": "依現行《商港法》第16條，商港區域內滯留船舶經依法查封者，商港經營事業機構、航港局或指定機關得限期通知運送人或貨物所有人，將船上貨物：\n\n1. **轉船裝運**；或\n2. **卸貨進倉**。\n\n通知期限屆滿仍未辦理者，主管機關得逕行卸貨進倉，並限期通知運送人或貨物所有人繳清各項費用後領取。屆期未領取者，得會同海關拍賣；拍賣所得扣除各項費用後，餘款通知運送人或貨物所有人領回，或依法提存。\n\n**重要：**法院查封船舶不代表港務機關可任意處分貨物；須依第16條通知、限期、卸貨進倉、收費及必要時會同海關拍賣的法定程序辦理。",
+    "practicalAnalysis": "原答案過度強調港務機關不得處理貨物，漏掉現行《商港法》第16條明確授權限期轉船或卸貨進倉，逾期可逕行卸貨及會同海關拍賣。已補上完整程序與費用清償順序。",
     "keyPoints": [
       {
-        "point": "查封貨物不得任意卸載、移動或處分。",
+        "point": "法院查封滯留港內船舶，主管機關得限期通知運送人或貨物所有人轉船裝運或卸貨進倉。",
         "importance": "essential"
       },
       {
-        "point": "必要移動須經有權機關核准。",
+        "point": "逾期未辦，得逕行卸貨進倉。",
+        "importance": "essential"
+      },
+      {
+        "point": "限期繳清費用後領貨；逾期未領得會同海關拍賣。",
+        "importance": "essential"
+      },
+      {
+        "point": "拍賣價金扣除費用後餘款通知領回或依法提存。",
         "importance": "essential"
       }
     ],
@@ -321,57 +405,74 @@
         "title": "84年甲種引水人航政法規官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國84年（1995）",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=6001&t=Q",
-        "supports": "航政法規十題原卷。"
+        "editionOrEffectiveDate": "民國84年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=084120&q=1&s=c181&t=Q",
+        "supports": "原題題意及配分。"
       },
       {
-        "title": "International Regulations for Preventing Collisions at Sea 1972 (COLREG)",
-        "sourceType": "imo_convention",
-        "issuer": "IMO",
-        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
-        "supports": "第9題Rule 17；第10題Rule 23、24。"
+        "title": "商港法（現行法）",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "editionOrEffectiveDate": "2026-02-04",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "supports": "第16、23、41條查封船貨物、緊急停泊及災害防救。"
       }
     ],
     "assumptions": [
-      "歷史引水法、商港法及港務規則依1995年有效版本。"
+      "依現行《商港法》第16條作為2027備考主答。"
     ],
     "limitations": [
-      "1995年商港法第21條歷史版本待查。"
+      "實際拍賣、提存及司法查封的權利衝突仍須依個案法院命令與相關程序處理。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部84年航政法規原卷",
+          "item": "現行法規／COLREG",
           "result": "pass",
-          "note": "十題題文核對。"
+          "note": "現行主答已依最新可查條文及港口公告核對。"
         },
         {
-          "item": "1995年法規歷史版本",
-          "result": "partial",
-          "note": "指定法條及罰則仍待歷史法規原文核對。"
+          "item": "歷史題條次",
+          "result": "needs_review",
+          "note": "歷史題條次與現行規範分開呈現，不將現行條文冒充舊法。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "084-pilot-law-07-answer-v1",
     "questionId": "084-pilot-law-07",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "商港管理機關應依管轄區域建立災害預防、通報、應變及復原制度，處理：\\n1. 颱風、暴雨、洪水、暴潮、地震及海嘯等天然災害。\\n2. 船舶碰撞、擱淺、沉沒、火災、爆炸及危險品事故。\\n3. 油污、化學品洩漏及其他海洋污染。\\n4. 碼頭、倉庫、起重設備、港區道路及電力通信設施事故。\\n5. 港區重大交通事故、公共安全及其他緊急事件。\\n\\n管理機關應制定應變計畫、建立指揮聯繫機制、調度港勤船艇及消防救難資源、管制船舶進出港、疏散人員、維持航道安全，並與航政、海巡、消防、警察、環保及地方政府合作。",
-    "practicalAnalysis": "依題目所問之法規／COLREG原則整理，歷史條文未取得者明確保留待查，不以現行條文冒充1995年版本。",
+    "modelAnswer": "## 一、現行法定工作\n\n依現行《商港法》第41條，商港經營事業機構、航港局或指定機關應：\n1. 擬訂商港災害防救業務計畫，報請主管機關核定。\n2. 定期檢討計畫，必要時隨時修正。\n3. 商港區域內發生災害或緊急事故時，得動員港區內各公民營事業機構的人員及裝備。\n4. 配合有關機關的指揮及處理。\n5. 要求港區公民營事業機構配合災害防救演習及訓練。\n\n## 二、實際應涵蓋的災害類型\n\n依港口風險及災害防救計畫，實務上應準備颱風、強風豪雨、地震、海嘯、船舶碰撞／擱淺／火災、危險物品洩漏或爆炸、油污染、碼頭及裝卸設施事故、停電與港區交通中斷等情境。\n\n## 三、執行重點\n\n建立通報、指揮、資源調度、船艇與拖船支援、消防救護、污染應變、疏散及復原程序，並透過定期演練驗證。上述災害類型是港口風險規劃範例，不是第41條逐項列舉的法定清單。",
+    "practicalAnalysis": "原答案將災害種類列得很多，但沒有先回答第41條法定義務。現已先列計畫、動員、跨機關配合及演習訓練，再把颱風、地震、海難、危險品事故等列為風險規劃實例，避免誤稱法條逐項列舉。",
     "keyPoints": [
       {
-        "point": "天然災害、海難、火災危險品、污染及設施事故。",
+        "point": "擬訂商港災害防救業務計畫並報主管機關核定。",
         "importance": "essential"
       },
       {
-        "point": "建立通報、指揮、資源調度及復原機制。",
+        "point": "定期檢討計畫，必要時隨時修正。",
+        "importance": "essential"
+      },
+      {
+        "point": "港區發生災害或緊急事故時，得動員港區公民營機構人員及裝備。",
+        "importance": "essential"
+      },
+      {
+        "point": "配合相關機關指揮及處理。",
+        "importance": "essential"
+      },
+      {
+        "point": "港區公民營機構須配合防救演習及訓練。",
+        "importance": "essential"
+      },
+      {
+        "point": "實務計畫應涵蓋颱風、地震、海嘯、海難、火災、危險品、污染及設施事故等風險。",
         "importance": "essential"
       }
     ],
@@ -380,57 +481,74 @@
         "title": "84年甲種引水人航政法規官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國84年（1995）",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=6001&t=Q",
-        "supports": "航政法規十題原卷。"
+        "editionOrEffectiveDate": "民國84年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=084120&q=1&s=c181&t=Q",
+        "supports": "原題題意及配分。"
       },
       {
-        "title": "International Regulations for Preventing Collisions at Sea 1972 (COLREG)",
-        "sourceType": "imo_convention",
-        "issuer": "IMO",
-        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
-        "supports": "第9題Rule 17；第10題Rule 23、24。"
+        "title": "商港法（現行法）",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "editionOrEffectiveDate": "2026-02-04",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "supports": "第16、23、41條查封船貨物、緊急停泊及災害防救。"
+      },
+      {
+        "title": "海難災害防救業務計畫",
+        "sourceType": "official_guidance",
+        "issuer": "交通部",
+        "editionOrEffectiveDate": "2024-01",
+        "url": "https://www.motc.gov.tw/201506260001/uploaddowndoc?file=datagov%2F1417087750930173952.pdf&filedisplay=%E6%B5%B7%E9%9B%A3%E7%81%BD%E5%AE%B3%E9%98%B2%E6%95%91%E6%A5%AD%E5%8B%99%E8%A8%88%E7%95%AB%28113%E5%B9%B41%E6%9C%88%E6%A0%B8%E5%AE%9A%E7%89%88%29+%282%29.pdf&flag=doc",
+        "supports": "海難與港區災害應變計畫及跨機關協調。"
       }
     ],
     "assumptions": [
-      "歷史引水法、商港法及港務規則依1995年有效版本。"
+      "依現行《商港法》第41條作答，災害種類另依各港風險計畫規劃。"
     ],
     "limitations": [
-      "1995年災害應變辦法完整歷史條文未取得。"
+      "具體災害分類、應變分工及演練頻率依各港核定計畫與最新公告。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部84年航政法規原卷",
+          "item": "現行法規／COLREG",
           "result": "pass",
-          "note": "十題題文核對。"
+          "note": "現行主答已依最新可查條文及港口公告核對。"
         },
         {
-          "item": "1995年法規歷史版本",
-          "result": "partial",
-          "note": "指定法條及罰則仍待歷史法規原文核對。"
+          "item": "歷史題條次",
+          "result": "needs_review",
+          "note": "歷史題條次與現行規範分開呈現，不將現行條文冒充舊法。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "084-pilot-law-08-answer-v1",
     "questionId": "084-pilot-law-08",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、資訊系統用途】題目所指《國際商港港務管理規則》第4條，係將資訊系統及電腦連線應用於船舶管理，透過電子資料傳輸集中處理船舶進出港、船席安排、船舶資料、貨物及港務申報。\\n\\n【二、管理事項】船舶預報到港、ETA、離港及移泊申請；船舶國籍、總噸位、吃水、船長及代理人資料；船席、錨地及港勤作業安排；貨物、危險品、旅客及船員申報；港務費用、檢疫、海關等機關資訊交換；船舶動態、進出港紀錄及統計。\\n\\n【三、效益】減少紙本重複申報、加快船舶進出港、提升港口交通管理效率及資料正確性；但資訊系統不能取代船長依法通報及VTS即時通信義務。",
-    "practicalAnalysis": "依題目所問之法規／COLREG原則整理，歷史條文未取得者明確保留待查，不以現行條文冒充1995年版本。",
+    "modelAnswer": "依現行《商港港務管理規則》第4條，船舶所有人或其代理人的電腦設備與下列機關（構）連線者，船舶入、出港預報及相關資料得以電子資料傳送：\n\n1. 航港局。\n2. 商港經營事業機構。\n3. 指定機關。\n4. 關港貿單一窗口。\n\n電子資料經相關機關（構）電腦記錄後，視為資料已送達；自記錄翌日起五年內，船舶所有人或代理人得查閱已傳輸資料，並得申請電子資料傳輸時間及內容證明文件。\n\n**實務意義：**以電子申報取代紙本往返，縮短船舶入出港預報及相關文件傳遞時間，並保留可查證的電子送達紀錄。",
+    "practicalAnalysis": "原答案概述電腦連線申報，但未補充現行第4條所列連線對象、電子資料視為送達及五年查閱／證明機制。已依現行條文補齊。",
     "keyPoints": [
       {
-        "point": "資訊系統處理預報到港、船舶資料、泊位、貨物及港務申報。",
+        "point": "船舶所有人或代理人電腦設備可與航港局、商港經營事業機構、指定機關或關港貿單一窗口連線。",
         "importance": "essential"
       },
       {
-        "point": "支援港務機關與海關、檢疫等資訊交換。",
+        "point": "船舶入出港預報及相關資料得以電子資料傳送。",
+        "importance": "essential"
+      },
+      {
+        "point": "資料經電腦記錄即視為送達。",
+        "importance": "essential"
+      },
+      {
+        "point": "翌日起五年內可查閱，並得申請傳輸時間及內容證明。",
         "importance": "essential"
       }
     ],
@@ -439,57 +557,70 @@
         "title": "84年甲種引水人航政法規官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國84年（1995）",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=6001&t=Q",
-        "supports": "航政法規十題原卷。"
+        "editionOrEffectiveDate": "民國84年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=084120&q=1&s=c181&t=Q",
+        "supports": "原題題意及配分。"
       },
       {
-        "title": "International Regulations for Preventing Collisions at Sea 1972 (COLREG)",
-        "sourceType": "imo_convention",
-        "issuer": "IMO",
-        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
-        "supports": "第9題Rule 17；第10題Rule 23、24。"
+        "title": "商港港務管理規則（現行法）",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "editionOrEffectiveDate": "2023-04-26",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080009",
+        "supports": "第4條入出港預報及相關資料電子傳送。"
       }
     ],
     "assumptions": [
-      "歷史引水法、商港法及港務規則依1995年有效版本。"
+      "依現行《商港港務管理規則》第4條作答。"
     ],
     "limitations": [
-      "1995年港務管理規則第4條歷史版本未取得。"
+      "電子申報欄位及系統操作依航港局及關港貿單一窗口最新公告。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部84年航政法規原卷",
+          "item": "現行法規／COLREG",
           "result": "pass",
-          "note": "十題題文核對。"
+          "note": "現行主答已依最新可查條文及港口公告核對。"
         },
         {
-          "item": "1995年法規歷史版本",
-          "result": "partial",
-          "note": "指定法條及罰則仍待歷史法規原文核對。"
+          "item": "歷史題條次",
+          "result": "needs_review",
+          "note": "歷史題條次與現行規範分開呈現，不將現行條文冒充舊法。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "084-pilot-law-09-answer-v1",
     "questionId": "084-pilot-law-09",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【COLREG Rule 17直航船措施】\\n1. 一般原則：直航船應保持原航向及航速。\\n2. 讓路船未行動：當直航船發現讓路船未依規則採取適當行動時，直航船可以單獨操船採取避碰行動；交叉相遇時，若情況許可，不應對位於本船左舷的船舶向左轉向。\\n3. 近迫情況：當兩船已接近至僅靠讓路船行動不足以避免碰撞時，直航船應採取最有助於避免碰撞的行動。\\n4. 直航船並非絕對不得操船，仍須依當時情況及其他適用規則採取安全措施。",
-    "practicalAnalysis": "依題目所問之法規／COLREG原則整理，歷史條文未取得者明確保留待查，不以現行條文冒充1995年版本。",
+    "modelAnswer": "依COLREG Rule 17（Stand-on vessel action），直航船在不同階段的責任如下：\n\n1. **Rule 17(a)(i)：**在交叉相遇情況，直航船原則上應保持航向及航速。\n2. **Rule 17(a)(ii)：**直航船在任何時候均得採取行動，單獨操縱即可避免碰撞。\n3. **Rule 17(b)：**當直航船發現讓路船未依規則採取適當行動時，直航船得立即採取操縱行動避免碰撞。\n4. **Rule 17(c)：**當兩船已接近至僅靠讓路船單獨行動已不能避免碰撞時，直航船應採取最有助於避免碰撞的行動。\n5. **Rule 17(d)：**在交叉相遇中，動力船依Rule 17(a)(ii)採取行動以避免與本船左舷船舶碰撞時，如情況許可，不應向左轉向。\n\n**重點：**直航船並非任何時候都必須維持航向航速；一旦讓路船未採取適當行動，或局面已近迫至讓路船單獨行動不足以避免碰撞，直航船即須依Rule 17採取適當行動。",
+    "practicalAnalysis": "原答案未完整呈現直航船行動的分階段條件。已依Rule17(a)至(d)逐項整理，特別補上直航船在任何時候可採取行動，以及讓路船未行動、局面近迫時的責任變化。",
     "keyPoints": [
       {
-        "point": "直航船先保持航向航速。",
+        "point": "直航船原則保持航向及航速。",
         "importance": "essential"
       },
       {
-        "point": "讓路船未適當行動時可採取行動；近迫時必須採取最有助避碰措施。",
+        "point": "直航船任何時候均得採取單獨操縱即可避免碰撞的行動。",
+        "importance": "essential"
+      },
+      {
+        "point": "發現讓路船未採取適當行動時，直航船得立即行動。",
+        "importance": "essential"
+      },
+      {
+        "point": "僅靠讓路船已不能避免碰撞時，直航船應採取最有助於避免碰撞的行動。",
+        "importance": "essential"
+      },
+      {
+        "point": "交叉相遇中，對左舷船舶採取行動時，如情況許可不應向左轉。",
         "importance": "essential"
       }
     ],
@@ -498,64 +629,74 @@
         "title": "84年甲種引水人航政法規官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國84年（1995）",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=6001&t=Q",
-        "supports": "航政法規十題原卷。"
+        "editionOrEffectiveDate": "民國84年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=084120&q=1&s=c181&t=Q",
+        "supports": "原題題意及配分。"
       },
       {
-        "title": "International Regulations for Preventing Collisions at Sea 1972 (COLREG)",
-        "sourceType": "imo_convention",
-        "issuer": "IMO",
+        "title": "COLREG 1972（IMO官方）",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
         "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
-        "supports": "第9題Rule 17；第10題Rule 23、24。"
+        "supports": "Rule 17 stand-on vessel及Rule 24 towing and pushing燈號與號標。"
       }
     ],
     "assumptions": [
-      "歷史引水法、商港法及港務規則依1995年有效版本。"
+      "依現行COLREG Rule 17(a)至(d)作答。"
     ],
-    "limitations": [],
+    "limitations": [
+      "仍須依Rule 15、16、18及實際態勢判斷讓路與直航責任。"
+    ],
     "verification": {
-      "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "status": "source_checked",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部84年航政法規原卷",
+          "item": "現行法規／COLREG",
           "result": "pass",
-          "note": "十題題文核對。"
+          "note": "現行主答已依最新可查條文及港口公告核對。"
         },
         {
-          "item": "1995年法規歷史版本",
-          "result": "partial",
-          "note": "指定法條及罰則仍待歷史法規原文核對。"
+          "item": "歷史題條次",
+          "result": "pass",
+          "note": "COLREG規則現行仍適用。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "084-pilot-law-10-answer-v1",
     "questionId": "084-pilot-law-10",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、拖帶長度】拖船A長99m，拖纜201m，被拖船B長101m。Rule 24(a)所稱拖帶長度，從拖船艉端量至被拖物最後端：201+101=302m，大於200m。\\n\\n【二、A船號燈號標】依Rule 24(a)，顯示三盞白色桅燈垂直排列；顯示左右舷燈、艉燈，並在艉燈上方垂直顯示黃色拖帶燈；拖帶長度超過200m，另顯示菱形號標。拖船長99m，亦須符合Rule 23對50m以上動力船第二桅燈的要求。\\n\\n【三、B船號燈號標】依Rule 24(e)，被拖船顯示左右舷燈及艉燈；拖帶長度超過200m，另顯示菱形號標。\\n\\n【四、暗夜互見】A船從後方看B船，正後方主要見B船白色艉燈；偏離正後方時可見相應舷燈。B船從前方看A船，主要見A船白色艉燈及其上方黃色拖帶燈；偏向一舷時亦可能見相應舷燈。\\n\\n【五、B船無法顯示燈號】依Rule 24(h)，應採取一切可能措施照明被拖船或至少標示其存在及位置，例如可行的白色環照燈、拖船探照燈照亮拖帶物／拖纜，並以其他警示方式提醒附近船舶，不得完全不作標示。",
-    "practicalAnalysis": "依題目所問之法規／COLREG原則整理，歷史條文未取得者明確保留待查，不以現行條文冒充1995年版本。",
+    "modelAnswer": "## 一、先計算拖帶長度\n\nCOLREG Rule 24(a)(i)所稱拖帶長度，是由拖船船艉量至最後被拖物船艉，不是單指拖纜長度。\n\n[\n201\\text{ m（拖纜）}+101\\text{ m（被拖船B）}=302\\text{ m}\n]\n\n因此拖帶長度超過200m，須顯示三盞垂直排列的拖帶桅燈，並在最易見處顯示菱形號標。\n\n## 二、A船（99m拖船）應顯示\n\n依COLREG Rule 24(a)、24(d)及Rule 23(a)(ii)：\n1. 三盞垂直排列的白色桅燈（拖帶長度超過200m）。\n2. 因A船長99m，另須符合Rule 23(a)(ii)的第二桅燈配置，位於前桅燈後方且較高；燈具位置依附錄I的拖帶桅燈配置規定安排。\n3. 左右舷燈。\n4. 艉燈。\n5. 艉燈上方垂直排列的黃色拖帶燈。\n6. 最易見處顯示菱形號標。\n\n## 三、B船（101m無人被拖船）應顯示\n\n依Rule 24(e)：\n1. 左右舷燈。\n2. 艉燈。\n3. 因拖帶長度超過200m，最易見處顯示菱形號標。\n\n但B船無人值守，若因實際原因無法顯示Rule 24(e)所定燈號或號標，依Rule 24(h)應採取一切可能措施照明被拖船，或至少清楚標示其存在，例如由A船以探照燈照明拖帶物及拖纜、採取其他可行警示措施；不得因無人而完全不作警示。\n\n## 四、兩船彼此可見的燈號\n\n- **A船看向B船：**主要可見B船艉燈；若視線落在B船側面，也可能看見相應舷燈。B船菱形號標是日間號標，夜間不能以它取代燈號。\n- **B船看向A船：**主要可見A船艉燈及其上方黃色拖帶燈。A船桅燈的可見扇區主要朝前，正後方通常不在其可見弧內。\n\n**結論：**本題關鍵是拖帶長度應計至B船最後端，總長302m；A船須顯示三盞拖帶桅燈、舷燈、艉燈、拖帶燈及菱形號標，B船依Rule24(e)顯示舷燈、艉燈及菱形號標，無人船無法顯示時依Rule24(h)採取可行照明／示警措施。",
+    "practicalAnalysis": "原答案對拖帶長度計算正確，但必須確認201m是拖纜長度，Rule24量測應由拖船艉至被拖船最後端，因此總長302m。另補上Rule24(d)對99m拖船的第二桅燈要求、B船無人時Rule24(h)的替代措施，以及兩船從不同方向可見的燈號扇區差異。",
     "keyPoints": [
       {
-        "point": "拖帶長度302m，大於200m。",
+        "point": "拖帶長度由A船艉至B船最後端，201+101=302m，超過200m。",
         "importance": "essential"
       },
       {
-        "point": "A船三盞垂直桅燈、舷燈、艉燈、黃色拖帶燈及菱形號標。",
+        "point": "A船依Rule24(a)(i)顯示三盞垂直排列拖帶桅燈，另依Rule24(d)符合Rule23(a)(ii)第二桅燈要求。",
         "importance": "essential"
       },
       {
-        "point": "B船舷燈、艉燈及菱形號標。",
+        "point": "A船另顯示舷燈、艉燈、艉燈上方黃色拖帶燈及菱形號標。",
         "importance": "essential"
       },
       {
-        "point": "B船無法顯示時依Rule24(h)採取一切可能措施照明或標示。",
-        "importance": "supporting"
+        "point": "B船依Rule24(e)顯示舷燈、艉燈及菱形號標。",
+        "importance": "essential"
+      },
+      {
+        "point": "B船無人且無法顯示時，依Rule24(h)採取照明或其他足以表明存在的措施。",
+        "importance": "essential"
+      },
+      {
+        "point": "A看向B主要見B艉燈；B看向A主要見A艉燈及黃色拖帶燈。",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -563,40 +704,50 @@
         "title": "84年甲種引水人航政法規官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國84年（1995）",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=6001&t=Q",
-        "supports": "航政法規十題原卷。"
+        "editionOrEffectiveDate": "民國84年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=084120&q=1&s=c181&t=Q",
+        "supports": "原題題意及配分。"
       },
       {
-        "title": "International Regulations for Preventing Collisions at Sea 1972 (COLREG)",
-        "sourceType": "imo_convention",
-        "issuer": "IMO",
+        "title": "COLREG 1972（IMO官方）",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
         "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
-        "supports": "第9題Rule 17；第10題Rule 23、24。"
+        "supports": "Rule 17 stand-on vessel及Rule 24 towing and pushing燈號與號標。"
+      },
+      {
+        "title": "U.S. Coast Guard Navigation Rules Handbook – Rule 24 and Annex I",
+        "sourceType": "official_navigation_reference",
+        "issuer": "United States Coast Guard",
+        "editionOrEffectiveDate": "2024-08-08",
+        "url": "https://www.navcen.uscg.gov/sites/default/files/pdf/navRules/Handbook/NavRules_Handbook_Corrected_08_08_2024.pdf",
+        "supports": "拖帶長度、三盞拖帶桅燈、Rule23(a)(ii)第二桅燈、B船燈號與Rule24(h)無法顯示時的照明措施。"
       }
     ],
     "assumptions": [
-      "歷史引水法、商港法及港務規則依1995年有效版本。"
+      "假設201m為拖纜長度，B船長101m，拖帶總長為302m。",
+      "A船99m，超過50m，適用Rule23(a)(ii)第二桅燈要求。",
+      "B船無人值守且因設備／操作限制無法顯示全部燈號時，依Rule24(h)採取一切可行示警措施。"
     ],
     "limitations": [
-      "燈號示意依正後及正前方觀察描述；偏離中線時須依實際方位辨識舷燈。"
+      "若201m已是由A船艉量至B船最後端的總拖帶長度，則不可再加B船長；本答案依題目原意將201m視為拖纜長度。"
     ],
     "verification": {
-      "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "status": "source_checked",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部84年航政法規原卷",
+          "item": "現行法規／COLREG",
           "result": "pass",
-          "note": "十題題文核對。"
+          "note": "現行主答已依最新可查條文及港口公告核對。"
         },
         {
-          "item": "1995年法規歷史版本",
-          "result": "partial",
-          "note": "指定法條及罰則仍待歷史法規原文核對。"
+          "item": "歷史題條次",
+          "result": "pass",
+          "note": "COLREG規則現行仍適用。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   }
 ]
