@@ -32,21 +32,21 @@
         "issuer": "考選部",
         "editionOrEffectiveDate": "民國83年（1994）",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=7001&t=Q",
-        "supports": "船舶操縱七題原卷。"
+        "supports": "船舶操縱原卷。"
       },
       {
-        "title": "UK MCA MGN 199(M) Amendment 1: Danger of Interaction",
+        "title": "MCA MGN 199(M) Amendment 1: Danger of Interaction",
         "sourceType": "official_maritime_safety_guidance",
         "issuer": "UK Maritime and Coastguard Agency",
         "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
-        "supports": "船舶交互作用、狹水道通過速度、squat及舵效風險。"
+        "supports": "船首／船艉壓力場、船舶交互作用、淺水與狹水道風險及安全通過。"
       },
       {
         "title": "The Influence of a Free Surface on Passing Ship Effects",
         "sourceType": "peer_reviewed_research",
         "issuer": "Journal of Ship Research",
         "url": "https://journals.sagepub.com/doi/10.3233/SHP-2004-51.4_1",
-        "supports": "繫泊船受通過船舶壓力場與吸引力影響，需區分低頻吸引力與高頻尾流波浪。"
+        "supports": "通過船舶對繫泊船造成的水動力作用及壓力場影響。"
       }
     ],
     "assumptions": [
@@ -55,18 +55,23 @@
     ],
     "limitations": [],
     "verification": {
-      "status": "partially_verified",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "考選部83年船舶操縱原卷",
+          "item": "考選部83年原卷",
           "result": "pass",
-          "note": "近距離通過錨泊／繫泊船題意已核對。"
+          "note": "題目內容已核對。"
         },
         {
-          "item": "船舶交互作用及MCA指引",
+          "item": "MCA官方船舶交互作用指引",
           "result": "pass",
-          "note": "補充壓力場、低頻吸引力、尾流波浪的區別。"
+          "note": "核對船首、船艉及船中壓力場與船速、狹水道的影響。"
+        },
+        {
+          "item": "同儕審查研究",
+          "result": "pass",
+          "note": "補充繫泊船的低頻吸引力與高頻尾流波浪區別。"
         }
       ]
     },
@@ -151,7 +156,7 @@
     "version": 1,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、Trim定義】俯仰差（Trim）是船舶艏吃水與艉吃水的差值。艉吃水大於艏吃水稱艉傾（trim by stern）；艏吃水大於艉吃水稱艏傾（trim by head）。\\n\\n【二、對操船的影響】\\n1. 螺槳及舵葉浸水：艉傾通常增加螺槳及舵葉浸水，有利於推進及舵效；艏傾可能使艉部舵槳浸水不足，降低操縱能力。\\n2. 船體阻力及速度：不適當俯仰差會增加阻力、改變船體伴流及推進效率。\\n3. 迴轉性能：艏艉水下側向面積及阻力分布改變，影響旋轉支點、迴轉半徑及艏艉掃掠。\\n4. 倒俥性能：艉部吃水不足可能使螺槳通氣或舵效降低，倒俥時船艉偏轉更難控制。\\n5. 淺水及squat：船舶在淺水航行時，俯仰差會影響艏艉下沉量及最小UKC位置。\\n6. 靠離泊：船艏或船艉吃水差會改變風壓中心、水下側向阻力及靠泊接觸部位。\\n\\n【三、實務】引水前確認艏艉吃水及trim，依船型操縱資料評估舵槳浸水、淺水效應及靠離泊性能。",
+    "modelAnswer": "【一、Trim定義】\n俯仰差（Trim）是船舶艏吃水與艉吃水的差值。艉吃水大於艏吃水稱艉傾（trim by stern）；艏吃水大於艉吃水稱艏傾（trim by head）。\n\n【二、對操船的影響】\n1. **螺槳及舵葉浸水：**艉傾通常增加螺槳及舵葉浸水，有利於保持推進器及舵的正常工作；艏傾可能使艉部舵槳浸水不足，尤其在波浪中可能發生螺槳通氣或舵效下降。\n2. **航向穩定性：**適度艉傾對許多傳統單槳船可增加航向穩定性，但穩定性提高通常伴隨轉向較不靈敏。\n3. **迴轉性能：**艉傾可能增加迴轉直徑；艏傾在部分船型／裝載條件下可能縮小迴轉圈，但不能把此趨勢當成所有船型的固定定律。\n4. **阻力及推進效率：**Trim改變船體浸水形狀、伴流及螺槳入流，可能改變阻力及推進效率；最佳trim取決於船型、航速及裝載狀態。\n5. **倒俥性能：**艉部浸水及螺槳／舵的工作狀態會影響倒俥時的推力及偏轉；單槳船還須考慮螺槳橫推力。\n6. **淺水及squat：**船舶在淺水航行時，squat可能造成艏艉不同程度下沉；原有trim會影響最小UKC出現在船艏或船艉。\n7. **靠離泊：**Trim改變水下側向面積及風壓中心相對位置，影響船舶偏航、橫移、艏艉掃掠及拖船施力效果。\n\n【三、實務原則】\n引水前確認艏艉吃水及trim，參照船舶操縱手冊及pilot card，不應只用「艉傾一定比較好操縱」作為結論。應按船型、推進器、舵型、吃水及水深判斷。\n\n【考試結論】\nTrim會影響舵槳浸水、航向穩定性、迴轉性能、推進效率、倒俥及淺水UKC；適度艉傾常可增加航向穩定性，但可能增加迴轉直徑，實際效果仍依船型及裝載狀態而異。",
     "practicalAnalysis": "本題須從舵槳浸水、阻力、迴轉、倒俥、squat及靠離泊等方面說明俯仰差的影響。",
     "keyPoints": [
       {
@@ -178,14 +183,28 @@
         "issuer": "考選部",
         "editionOrEffectiveDate": "民國83年（1994）",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=7001&t=Q",
-        "supports": "船舶操縱七題原卷。"
+        "supports": "船舶操縱原卷。"
       },
       {
-        "title": "IMO Resolution MSC.137(76) — Standards for Ship Manoeuvrability",
-        "sourceType": "imo_resolution",
-        "issuer": "IMO",
-        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
-        "supports": "船舶操縱及安全操船原則。"
+        "title": "IMO MSC/Circ.1053: Explanatory Notes to the Standards for Ship Manoeuvrability",
+        "sourceType": "imo_circular",
+        "issuer": "International Maritime Organization",
+        "url": "https://rise.odessa.ua/texts/MSC_Circ1053e.php3",
+        "supports": "船舶操縱穩定性與艉傾對航向穩定性的影響。"
+      },
+      {
+        "title": "Introduction to Naval Architecture, D. J. Eyres／Tupper, Manoeuvring",
+        "sourceType": "naval_architecture_textbook",
+        "issuer": "Elsevier",
+        "url": "https://home.hvl.no/ansatte/gste/ftp/MarinLab_files/Litteratur/IntroductionToNavalArchitecture_Tupper1996.pdf",
+        "supports": "艉傾通常改善航向穩定性並增加迴轉直徑；船型與設計因素會影響操縱性能。"
+      },
+      {
+        "title": "日本海上技術安全研究所：最適トリム運航",
+        "sourceType": "government_research_reference",
+        "issuer": "National Maritime Research Institute, Japan",
+        "url": "https://www.nmri.go.jp/study/research_organization/fluid/actual_sea_performance/research/trim.html",
+        "supports": "不同船型在艏傾、艉傾下的推進效率差異，強調最佳trim依船型而異。"
       }
     ],
     "assumptions": [
@@ -194,18 +213,23 @@
     ],
     "limitations": [],
     "verification": {
-      "status": "partially_verified",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
           "item": "考選部83年船舶操縱原卷",
           "result": "pass",
-          "note": "七題題文核對。"
+          "note": "Trim題意已核對。"
         },
         {
-          "item": "原卷圖示及拖船性能資料",
-          "result": "partial",
-          "note": "第4題附圖及第6題拖力馬力係數待查。"
+          "item": "IMO操縱性說明及船舶設計教材",
+          "result": "pass",
+          "note": "核對艉傾與航向穩定性、迴轉直徑的關係。"
+        },
+        {
+          "item": "日本海上技術安全研究所",
+          "result": "pass",
+          "note": "補充不同船型最佳trim不同，避免過度概括。"
         }
       ]
     },
@@ -312,28 +336,28 @@
         "issuer": "考選部",
         "editionOrEffectiveDate": "民國83年（1994）",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=7001&t=Q",
-        "supports": "船舶操縱七題原卷。"
+        "supports": "船舶操縱原卷。"
       },
       {
-        "title": "UK MCA MGN 199(M) Amendment 1: Danger of Interaction",
+        "title": "MCA MGN 199(M) Amendment 1: Danger of Interaction",
         "sourceType": "official_maritime_safety_guidance",
         "issuer": "UK Maritime and Coastguard Agency",
         "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
-        "supports": "squat定義、狹水道交互作用及低速通過原則。"
+        "supports": "squat、狹水道交互作用及舵效變化。"
       },
       {
-        "title": "NGA Notice to Mariners 2026: Vessel Squat in Shallow Water",
+        "title": "NGA Notice to Mariners: Vessel Squat in Shallow Water",
         "sourceType": "official_navigation_safety_notice",
         "issuer": "National Geospatial-Intelligence Agency",
         "url": "https://msi.nga.mil/api/publications/download?key=16920954%2FSFH00000%2FUNTM%2FSpecial_Notice.pdf&type=view",
-        "supports": "淺水squat、UKC、波浪運動、測深不確定性及受限水域效應。"
+        "supports": "squat、UKC、速度、水深比及受限水域效應。"
       },
       {
-        "title": "IMO Resolution A.601(15): Manoeuvring information",
+        "title": "IMO Resolution A.601(15): Manoeuvring Information",
         "sourceType": "imo_resolution",
         "issuer": "International Maritime Organization",
         "url": "https://www.imorules.com/GUID-8136F32E-2249-4D23-9306-8D32B926AE0F.html",
-        "supports": "操縱手冊應提供淺水迴轉及squat估算資訊。"
+        "supports": "操縱手冊中的淺水迴轉與squat資訊。"
       }
     ],
     "assumptions": [
@@ -342,18 +366,28 @@
     ],
     "limitations": [],
     "verification": {
-      "status": "partially_verified",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "考選部83年船舶操縱原卷",
+          "item": "考選部83年原卷",
           "result": "pass",
-          "note": "深水轉淺水及靠泊題意已核對。"
+          "note": "題目內容已核對。"
         },
         {
-          "item": "MCA、NGA及IMO資料",
+          "item": "MCA官方交互作用指引",
           "result": "pass",
-          "note": "補強squat、UKC、淺水操縱性及安全措施。"
+          "note": "確認淺水、狹水道、岸壁與船舶交互作用風險。"
+        },
+        {
+          "item": "NGA淺水squat資料",
+          "result": "pass",
+          "note": "確認squat與船速平方、水深及UKC的關係。"
+        },
+        {
+          "item": "IMO A.601(15)",
+          "result": "pass",
+          "note": "確認船舶操縱資料應包括淺水迴轉與squat估算。"
         }
       ]
     },
