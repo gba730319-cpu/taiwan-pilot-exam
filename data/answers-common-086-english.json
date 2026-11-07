@@ -60,27 +60,31 @@
   {
     "id": "086-english-02-answer-v1",
     "questionId": "086-english-02",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【中文翻譯】\n（1）接下來的三個小時，他的工作與此前每一位海灣及港口引水人的工作並無二致；這項職業的歷史甚至可追溯至聖經時代。他必須運用自己對海洋以及海灣複雜水域的深入了解，引導船舶安全進港或出港。\n（2）引水人並不接管船舶，也不直接操作船上的任何操縱設備。依海事法律的說法，他是「船舶所借用的受僱人」（the borrowed servant of the vessel）。船長仍然掌握船舶指揮權，甚至可以解僱引水人或不採納其指令；然而，船舶航行及操縱的實際引領工作，則是由引水人負責。\n\n【重要語意】\n- bay and harbor pilot：海灣及港口引水人，指熟悉特定水域的專業引水人。\n- intimate knowledge：深入、熟悉的知識，不是「親密的知識」。\n- borrowed servant of the vessel：船舶借用的受僱人／專業服務者；不是船長身分。\n- the conduct of the vessel：船舶航行及操縱的引領，不代表船長指揮權移轉。\n引水人提供專業領航，船長仍負船舶安全及指揮監督責任，雙方須合作。",
-    "practicalAnalysis": "本題40分，應保留原文歷史性修辭，同時正確翻譯borrowed servant及conduct of the vessel，避免誤解為引水人接管船舶。",
+    "modelAnswer": "【中文翻譯】\n\n（1）接下來的三個小時，他的工作與此前每一位海灣及港口引水人的工作並無二致；這項職業的歷史甚至可追溯至聖經時代。他必須運用自己對海洋以及海灣複雜水域的深入了解，引導船舶安全進港或出港。\n\n（2）引水人並不接管船舶，也不直接操作船上的任何操縱設備。依某些海事法制中的傳統法律用語，他是船舶所「借用的受僱人」（the borrowed servant of the vessel）。船長仍然掌握船舶指揮權，甚至可以解僱引水人或不採納其指令；然而，船舶航行及操縱的實際引領工作，則由引水人提供專業協助。\n\n【重要語意】\n\n- bay and harbor pilot：海灣及港口引水人，指熟悉特定水域的專業引水人。\n- intimate knowledge：深入、熟悉的知識，不是「親密的知識」。\n- borrowed servant of the vessel：船舶借用的受僱人／專業服務者，是部分法域的傳統法律概念，不是船長身分，也不是所有國家現行法的統一法律定位。\n- the conduct of the vessel：船舶航行及操縱的引領，不代表船長指揮權移轉。\n\n【2027備考補充】\n\n原文的borrowed servant屬歷史法律用語，翻譯時應忠實呈現，但不可把它直接當成臺灣現行法的法律定義。依現行《引水法》第32條，引水人應招登船執行領航業務時，仍須尊重船長指揮權；引水人負專業領航工作，船長仍保有指揮權。",
+    "practicalAnalysis": "原答案翻譯基本正確，但把borrowed servant寫得像普遍且現行的海事法律定義，可能讓考生混淆不同法域。現已保留原文歷史性法律用語，同時註明其非所有國家的統一法律定位，並以臺灣現行《引水法》第32條作為2027備考依據。",
     "keyPoints": [
       {
-        "point": "第一段說明引水人運用當地水域知識安全進出港。",
+        "point": "bay and harbor pilot為熟悉特定水域的海灣及港口引水人。",
         "importance": "essential"
       },
       {
-        "point": "intimate knowledge譯為深入熟悉的知識。",
-        "importance": "essential"
-      },
-      {
-        "point": "borrowed servant為船舶借用的受僱人／專業服務者。",
-        "importance": "essential"
-      },
-      {
-        "point": "船長仍掌指揮權；引水人負責專業引領。",
+        "point": "intimate knowledge是深入熟悉，不是親密。",
         "importance": "supporting"
+      },
+      {
+        "point": "borrowed servant of the vessel是部分法域的傳統法律概念，不可當成普遍現行定義。",
+        "importance": "essential"
+      },
+      {
+        "point": "引水人提供專業領航，船長仍保有船舶指揮權。",
+        "importance": "essential"
+      },
+      {
+        "point": "臺灣現行法依《引水法》第32條明定引水人仍須尊重船長指揮權。",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -88,32 +92,42 @@
         "title": "86年甲種引水人實用英文官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國86年（1997）",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=086120&q=1&s=c191&t=Q",
-        "supports": "實用英文三題原卷。"
+        "editionOrEffectiveDate": "民國86年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=086120&q=1&s=c201&t=Q",
+        "supports": "原文及翻譯題意。"
+      },
+      {
+        "title": "引水法（現行法）",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "editionOrEffectiveDate": "2002-01-30",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0070028",
+        "supports": "第32條船長指揮權及引水人領航權責。"
       }
     ],
     "assumptions": [
-      "依題目原文保留人物、日期、公司及金額；詞彙採海事商務語境。"
+      "翻譯忠實保留原文借用受僱人概念，但以臺灣現行法律作為備考補充。"
     ],
-    "limitations": [],
+    "limitations": [
+      "原文未標示所依據的法域，故不將borrowed servant doctrine擴張為臺灣或國際統一法則。"
+    ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部86年實用英文原卷",
+          "item": "英文原文語意",
           "result": "pass",
-          "note": "三題題文核對。"
+          "note": "保留原文borrowed servant及船長指揮權的語意。"
         },
         {
-          "item": "專業術語語境",
-          "result": "partial",
-          "note": "迴轉穩定器需依原題所指設備型式確認。"
+          "item": "臺灣現行法律定位",
+          "result": "pass",
+          "note": "依《引水法》第32條補充，不將外國法域傳統概念視為臺灣法定定義。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "086-english-03-answer-v1",
