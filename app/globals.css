@@ -195,3 +195,5 @@ footer{border-color:#ded8cc}
 .mock-own-answer{background:#f0ede5;border-radius:3px}
 .mock-review-group a{color:#315b70}
 @media(max-width:700px){.mock-shell{padding:0 15px 110px}.mock-intro{margin:24px auto 34px;padding:24px 18px}.mock-metrics div{padding:12px 8px}.mock-top{height:74px}.mock-brand b{font-size:15px}.mock-back{font-size:12px}}
+
+.answer-pending{display:flex;flex-direction:column;gap:7px;margin-top:18px;padding:16px 18px;border:1px dashed #c8b58d;border-left:4px solid #b99a61;border-radius:8px;background:#fbf8f0;color:#5d513b}.answer-pending strong{font-size:15px;color:#80683b}.answer-pending span{font-size:14px;line-height:1.8;color:#746b5a}
