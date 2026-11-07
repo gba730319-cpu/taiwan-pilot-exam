@@ -2022,8 +2022,8 @@
   },
   {
     "questionId": "106-english-01",
-    "modelAnswer": "(1) 儘管引水人負有其職責與義務，引水人在船上並不會免除船長或負責航行值班之航行員對船舶安全所負的職責與義務。重要的是，在引水人登船後、引水作業開始之前，引水人、船長及駕駛台人員應了解彼此在確保船舶安全航行方面各自的角色。(2) 引水人應熟悉IMO《標準海事通信用語》，並在無線電通訊及駕駛台口頭交流等適當情況下使用。如此可使船長及負責航行值班之航行員更清楚理解相關通訊內容及其意圖。",
-    "practicalAnalysis": "保留原文的責任界線及shall／should語氣；officer in charge of the navigational watch可譯為「負責航行值班之航行員」。此題翻譯與IMO A.960(23)第2.1段文字相符。",
+    "modelAnswer": "(1) 儘管引水人本身負有職責與義務，引水人在船上並不會免除船長或負責航行值班之駕駛員對船舶安全所負的職責與義務。重要的是，引水人登船後、引水作業開始之前，引水人、船長及駕駛臺人員應了解彼此在確保船舶安全航行方面各自的角色。\n\n(2) 引水人應熟悉IMO《標準海事通信用語》（Standard Marine Communication Phrases, SMCP），並在無線電通訊及駕駛臺口頭交流等適當情況下使用。如此可使船長及負責航行值班之駕駛員更清楚理解通訊內容及其意圖。",
+    "practicalAnalysis": "本題為英譯中，應忠實保留原文語氣及責任分際。Officer in charge of the navigational watch宜譯為「負責航行值班之駕駛員」；pilot's presence on board does not relieve...表示引水人登輪不解除船長及值班駕駛員責任；SMCP為IMO標準海事通信用語。",
     "keyPoints": [
       {
         "point": "duties and obligations",
@@ -2084,6 +2084,14 @@
         "sourceType": "official_or_technical_reference",
         "supports": "原題。",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.960(23) — Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960(23).pdf",
+        "supports": "引水人登輪不解除船長與值班駕駛員責任、MPX及引水人與駕駛臺團隊角色。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
@@ -2094,24 +2102,14 @@
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "duties and obligations",
+          "item": "英譯中內容及責任分際",
           "result": "pass",
-          "note": "譯為職責與義務，保留原文並列語氣。"
+          "note": "依原文逐句翻譯，保留master與officer in charge of the navigational watch之責任。"
         },
         {
-          "item": "does not relieve",
+          "item": "SMCP術語",
           "result": "pass",
-          "note": "明確譯為並不免除。"
-        },
-        {
-          "item": "officer in charge of the navigational watch",
-          "result": "pass",
-          "note": "譯為負責航行值班之航行員。"
-        },
-        {
-          "item": "respective roles及intent",
-          "result": "pass",
-          "note": "分別譯為各自角色及通訊意圖。"
+          "note": "依IMO官方SMCP說明核對標準名稱及用途。"
         }
       ]
     },
