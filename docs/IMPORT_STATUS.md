@@ -1302,3 +1302,13 @@
 - **前台資料：**app/page.tsx已匯入112年度全部24份答案；ReactMarkdown／remark-gfm／remark-math／rehype-katex支援表格及數學公式。最新main程式及答案資料在Sandbox執行Next.js 15.5.28 production build成功，型別檢查通過，5/5靜態頁產生完成；暫時預覽首頁及/mock-exam均回應HTTP 200。此為Sandbox驗收，不是Production部署。
 - **終檢結論：**112年度題目—答案對應、來源索引、必要欄位、得分關鍵格式、前台匯入及build均通過。11題保留部分查證係遵照「舊資料無法核實就標示、不以歷史缺件誤導未來考生」原則，並不阻止進入下一年度。
 - **下一步：進入民國110年度**，先清點原題與答案，再按2027考試角度逐科複核；Production尚未部署本輪112年度更新。
+
+
+### 民國108年度全科靜態終檢追加紀錄（2026-11-07）
+- 重新盤點 `data/questions.json` 與 `data/answers-108.json`：26題原題、26筆答案，五科分布正確；questionId/sourceId一對一對應，缺題0、孤兒答案0、重複ID0。
+- 26筆答案均為version 2，主答、實務分析、得分關鍵及參考來源欄位完整；keyPoints均為point／importance物件，參考來源重複項已清理。驗證狀態為source_checked 13題、partially_verified 13題；所有部分查證題均有limitations及具體檢核備註。
+- 108年高雄港地方第1題已嵌入港務公司官方「高雄港現況圖」作為港區簡圖基圖（圖面標示110年版，官方頁面更新2026-09-29）；明確提醒這不是完整航海海圖／測深圖，2019年歷史圖資仍待查。
+- 船舶操縱6題第二版補強已保留：ROTI計算明確區分對地航跡ROT與船首ROT；Azipod、鰭狀穩定器、BRM-P、Steerage Way及Washing Damage依現行技術與操作原則整理，未核實範圍均標示。
+- 前台靜態檢查：app/page.tsx載入108年度總檔；Next.js 15.5.28在main commit `aea877dbed15eff9064a4a2e02f9f51aed1e640b`乾淨更新後build成功、型別檢查通過、5/5靜態頁產生；Sandbox首頁及`/mock-exam`均HTTP 200，SSR HTML抽查60個表格標籤及481個KaTeX標記。這是Sandbox驗收，不是Production部署。
+- 終檢結論：108年度題目—答案對應、來源索引、資料結構、得分關鍵、前台匯入及build均通過；13題保留的部分查證為歷史港圖、泊位分段、浮筒歷史繫纜、船型性能及地方歷史規定等，依專案原則標示，不阻擋年度推進。
+- **下一步：進入民國106年度**，先清點原題與答案，再以2027考試角度逐科複核；本輪未執行Production部署。
