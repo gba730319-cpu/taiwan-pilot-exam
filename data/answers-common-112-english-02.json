@@ -2,10 +2,10 @@
   {
     "id": "answer-112-english-02",
     "questionId": "112-english-02",
-    "version": 1,
+    "version": 2,
     "language": "en",
     "answerType": "essay",
-    "modelAnswer": "(1) INSTRUCTION\nIndicate: The sender intends to influence the recipient by means of a regulation or an order.\nComment: This is the strongest of the four markers. The sender must have the proper legal or operational authority to issue the instruction. The recipient is required to comply with a legally binding instruction, unless there is a conflicting safety reason; in that case, the recipient should immediately report the reason to the sender. Example: “INSTRUCTION. Do not cross the fairway.”\n\n(2) ADVICE\nIndicate: The sender intends to influence the recipient by means of a recommendation.\nComment: Advice is not legally binding in itself. The recipient retains the decision whether to follow it, but should consider it carefully because it is given for navigational or operational safety. Example: “ADVICE. Stand by on VHF channel six nine.”\n\n(3) WARNING\nIndicate: The sender intends to inform the recipient about a danger.\nComment: A warning is an urgent safety alert and requires immediate attention to the danger. It does not, by itself, specify a compulsory action; the recipient must assess the danger and take appropriate action. Example: “WARNING. Obstruction in the fairway.”\n\n(4) INFORMATION\nIndicate: The message is restricted to observed facts, situations or navigational/traffic information.\nComment: Information is factual and does not direct the recipient to take a particular action. The consequences and any action required are left to the recipient's judgement. Example: “INFORMATION. A vessel is approaching from the west.”\n\nComparison of strength: INSTRUCTION carries the strongest mandatory force when issued by an authorized sender; ADVICE is a recommendation; WARNING is an urgent notification of danger requiring immediate attention but leaving the response to the recipient; INFORMATION is factual notification without a prescribed action. A WARNING may be more urgent than ADVICE or INFORMATION, but urgency should not be confused with legal command authority.",
+    "modelAnswer": "【Suggested English Answer】\n\n(1) INSTRUCTION\n\nIndicate: The sender intends to influence the recipient by means of a regulation or an order.\n\nComment: An instruction is the strongest of the four Message Markers when it is issued by a sender who has the proper legal or operational authority. The recipient is expected to comply with the instruction. If compliance would create an immediate safety risk or conflict with a higher applicable requirement, the recipient should promptly explain the situation to the sender and take the necessary safe action.\n\nExample: “INSTRUCTION. Do not cross the fairway.”\n\n(2) ADVICE\n\nIndicate: The sender intends to influence the recipient by means of a recommendation.\n\nComment: Advice is a recommendation rather than a compulsory order in itself. The recipient should consider it carefully but retains professional judgement, subject to applicable rules and the circumstances.\n\nExample: “ADVICE. Stand by on VHF channel six nine.”\n\n(3) WARNING\n\nIndicate: The sender intends to inform the recipient about a danger.\n\nComment: A warning alerts the recipient to a danger requiring immediate attention. It does not, by itself, prescribe a compulsory action. The recipient must assess the danger and take appropriate action.\n\nExample: “WARNING. Obstruction in the fairway.”\n\n(4) INFORMATION\n\nIndicate: The message is restricted to observed facts, situations or navigational/traffic information.\n\nComment: Information is factual and does not direct the recipient to take a particular action. Any action required is left to the recipient’s judgement.\n\nExample: “INFORMATION. A vessel is approaching from the west.”\n\n【Comparison of Strength】\nINSTRUCTION carries the strongest mandatory force when issued by an authorized sender; ADVICE is a recommendation; WARNING is an urgent notification of danger requiring immediate attention but does not itself specify a compulsory response; INFORMATION is factual notification without a prescribed action. The urgency of a WARNING must not be confused with the legal authority of an INSTRUCTION.\n\n【Exam Reminder】\nThe question asks for both “Indicate” (the sender’s intended purpose) and “Comment” (the practical force and effect of the marker). Do not merely translate the four words. Message Markers are communication conventions; whether a particular instruction is legally binding depends on the sender’s authority and the applicable port/VTS rules.",
     "practicalAnalysis": "The four message markers describe the sender's communicative intention, not merely the dictionary meaning of the words. The key contrast is: INSTRUCTION = regulation/command and requires an authorized sender; ADVICE = recommendation and the recipient retains discretion; WARNING = informs of danger and requires immediate attention; INFORMATION = observed facts/situation only. Avoid saying that WARNING is legally stronger than INSTRUCTION: warning urgency and instruction's binding authority are different dimensions.",
     "keyPoints": [
       {
@@ -54,6 +54,30 @@
         "issuer": "International Maritime Organization",
         "url": "https://www.imo.org/en/ourwork/safety/pages/standardmarinecommunicationphrases.aspx",
         "supports": "Purpose and use of SMCP in safety-related maritime communications."
+      },
+      {
+        "title": "IMO Resolution A.918(22) — IMO Standard Marine Communication Phrases",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.classnk.or.jp/hp/pdf/activities/statutory/ism/imo/A.918%2822%29.pdf",
+        "supports": "Message Markers及VTS Standard Phrases中Instruction、Advice、Warning、Information的定義。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.1158(32) — Vessel Traffic Services",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1158%2832%29.pdf",
+        "supports": "VTS服務、交通資訊及安全通訊背景；訊息性質與地方授權須區分。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Standard Marine Communication Phrases",
+        "sourceType": "official_guidance",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/standardmarinecommunicationphrases.aspx",
+        "supports": "SMCP標準海事通訊語句的目的及使用方式。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -61,18 +85,18 @@
       "The message marker does not itself create authority; an INSTRUCTION must be issued by a sender who is legally or operationally authorized."
     ],
     "verification": {
-      "status": "verified",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "Original question",
+          "item": "四種Message Marker之Indicate",
           "result": "pass",
-          "note": "Checked against the 112 examination question bank."
+          "note": "依IMO A.918(22)核對發訊者企圖。"
         },
         {
-          "item": "English terminology",
+          "item": "四種Message Marker之Comment及強制度",
           "result": "pass",
-          "note": "Cross-checked with IMO SMCP and standard maritime usage."
+          "note": "明確區分命令、建議、危險警告及事實資訊，並提醒WARNING急迫性不等於命令權。"
         }
       ]
     },
