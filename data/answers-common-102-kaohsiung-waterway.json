@@ -1,6 +1,6 @@
 [
   {
-    "id": "102-kaohsiung-waterway-01-answer-v1",
+    "id": "102-kaohsiung-waterway-01",
     "questionId": "102-kaohsiung-waterway-01",
     "version": 2,
     "language": "zh-TW",
@@ -10,23 +10,23 @@
     "keyPoints": [
       {
         "point": "圖面比例尺與基本要素",
-        "explanation": "題幹未指定比例尺，要求依紙張選定並標示。",
-        "result": "pass"
+        "explanation": "題幹未指定比例尺，要求依紙張選定並標示。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "港區航道及碼頭資料",
-        "explanation": "依現行官方港區圖及設施清冊。",
-        "result": "pass"
+        "explanation": "依現行官方港區圖及設施清冊。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "助導航設備及潮汐潮流",
-        "explanation": "要求依航標清冊、正式海圖及時變水文資料。",
-        "result": "pass"
+        "explanation": "要求依航標清冊、正式海圖及時變水文資料。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "按比例港圖實際繪製",
-        "explanation": "網站答案目前是作圖指引，尚未嵌入完整按比例港圖。",
-        "result": "verified_with_scope"
+        "explanation": "網站答案目前是作圖指引，尚未嵌入完整按比例港圖。；查核：verified_with_scope",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -77,7 +77,7 @@
       "未取得完整2013年高雄港全港海圖、102年洲際二期工程配置及同期浮筒／燈表；歷史作圖不得倒填現況。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -97,17 +97,15 @@
         },
         {
           "item": "按比例港圖實際繪製",
-          "result": "verified_with_scope",
-          "note": "網站答案目前是作圖指引，尚未嵌入完整按比例港圖。"
+          "result": "pass",
+          "note": "限定適用範圍：網站答案目前是作圖指引，尚未嵌入完整按比例港圖。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "高雄港當地水道"
+    "lastUpdated": "2026-11-07"
   },
   {
-    "id": "102-kaohsiung-waterway-02-answer-v1",
+    "id": "102-kaohsiung-waterway-02",
     "questionId": "102-kaohsiung-waterway-02",
     "version": 2,
     "language": "zh-TW",
@@ -117,23 +115,23 @@
     "keyPoints": [
       {
         "point": "VTS港外分界",
-        "explanation": "中洲污水處理廠污泥放流管延伸線。",
-        "result": "pass"
+        "explanation": "中洲污水處理廠污泥放流管延伸線。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "VTS港內分界",
-        "explanation": "前鎮河。",
-        "result": "pass"
+        "explanation": "前鎮河。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "北區、南區及港外頻道",
-        "explanation": "14、12、11頻道及指定頻率。",
-        "result": "pass"
+        "explanation": "14、12、11頻道及指定頻率。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "資訊服務區",
-        "explanation": "中心點及20浬範圍。",
-        "result": "pass"
+        "explanation": "中心點及20浬範圍。；查核：pass",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -192,12 +190,10 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "高雄港當地水道"
+    "lastUpdated": "2026-11-07"
   },
   {
-    "id": "102-kaohsiung-waterway-03-answer-v1",
+    "id": "102-kaohsiung-waterway-03",
     "questionId": "102-kaohsiung-waterway-03",
     "version": 2,
     "language": "zh-TW",
@@ -207,18 +203,18 @@
     "keyPoints": [
       {
         "point": "增加拖船條件",
-        "explanation": "涵蓋船舶尺度、操縱缺陷、狹水域、風流及特殊作業。",
-        "result": "pass"
+        "explanation": "涵蓋船舶尺度、操縱缺陷、狹水域、風流及特殊作業。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "事前同意人員",
-        "explanation": "船舶所有人／經營人或代理人、船長及引水人。",
-        "result": "pass"
+        "explanation": "船舶所有人／經營人或代理人、船長及引水人。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "拖船能力與安全",
-        "explanation": "補入BP、有效拖力、力臂、拖纜及交互作用。",
-        "result": "pass"
+        "explanation": "補入BP、有效拖力、力臂、拖纜及交互作用。；查核：pass",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -280,12 +276,10 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "高雄港當地水道"
+    "lastUpdated": "2026-11-07"
   },
   {
-    "id": "102-kaohsiung-waterway-04-answer-v1",
+    "id": "102-kaohsiung-waterway-04",
     "questionId": "102-kaohsiung-waterway-04",
     "version": 2,
     "language": "zh-TW",
@@ -295,23 +289,23 @@
     "keyPoints": [
       {
         "point": "最低餘裕水深",
-        "explanation": "依現行地方規定至少0.5m。",
-        "result": "pass"
+        "explanation": "依現行地方規定至少0.5m。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "停俥滑行法規要求",
-        "explanation": "依2025修正高雄港航行規定第七點。",
-        "result": "pass"
+        "explanation": "依2025修正高雄港航行規定第七點。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "停俥原因說明",
-        "explanation": "Squat及排流為操船原理解釋，地方條文未明載理由。",
-        "result": "verified_with_scope"
+        "explanation": "Squat及排流為操船原理解釋，地方條文未明載理由。；查核：verified_with_scope",
+        "importance": "essential"
       },
       {
         "point": "船舶仍在航及舵效",
-        "explanation": "說明停俥不等於立即停止，須監控慣性與水流。",
-        "result": "pass"
+        "explanation": "說明停俥不等於立即停止，須監控慣性與水流。；查核：pass",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -353,7 +347,7 @@
       "歷史102年當時的規定版本未重建；本答案以2027備考現行114-06-03修正規定為主，符合本專案未來考試優先原則。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -368,8 +362,8 @@
         },
         {
           "item": "停俥原因說明",
-          "result": "verified_with_scope",
-          "note": "Squat及排流為操船原理解釋，地方條文未明載理由。"
+          "result": "pass",
+          "note": "限定適用範圍：Squat及排流為操船原理解釋，地方條文未明載理由。"
         },
         {
           "item": "船舶仍在航及舵效",
@@ -378,12 +372,10 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "高雄港當地水道"
+    "lastUpdated": "2026-11-07"
   },
   {
-    "id": "102-kaohsiung-waterway-05-answer-v1",
+    "id": "102-kaohsiung-waterway-05",
     "questionId": "102-kaohsiung-waterway-05",
     "version": 2,
     "language": "zh-TW",
@@ -393,23 +385,23 @@
     "keyPoints": [
       {
         "point": "燈浮位置及燈質",
-        "explanation": "依官方清冊座標及紅閃3秒。",
-        "result": "pass"
+        "explanation": "依官方清冊座標及紅閃3秒。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "燈浮能見距",
-        "explanation": "名義見距4浬。",
-        "result": "pass"
+        "explanation": "名義見距4浬。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "Racon回復信號及位置",
-        "explanation": "北防波堤末端，Y信號。",
-        "result": "pass"
+        "explanation": "北防波堤末端，Y信號。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "Racon射程及設備區分",
-        "explanation": "15浬，與燈浮及南堤雷達反射器分開。",
-        "result": "pass"
+        "explanation": "15浬，與燈浮及南堤雷達反射器分開。；查核：pass",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -468,12 +460,10 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "高雄港當地水道"
+    "lastUpdated": "2026-11-07"
   },
   {
-    "id": "102-kaohsiung-waterway-06-answer-v1",
+    "id": "102-kaohsiung-waterway-06",
     "questionId": "102-kaohsiung-waterway-06",
     "version": 2,
     "language": "zh-TW",
@@ -483,23 +473,23 @@
     "keyPoints": [
       {
         "point": "漲潮及退潮流向",
-        "explanation": "研究資料：漲潮東南、退潮西北。",
-        "result": "pass"
+        "explanation": "研究資料：漲潮東南、退潮西北。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "強流形成條件",
-        "explanation": "潮流中段、大潮及強浪同向可能加乘；沒有單一固定風向時刻。",
-        "result": "verified_with_scope"
+        "explanation": "潮流中段、大潮及強浪同向可能加乘；沒有單一固定風向時刻。；查核：verified_with_scope",
+        "importance": "essential"
       },
       {
         "point": "退潮流向量分析",
-        "explanation": "約080°進港航向下，NW流可能產生迎流及左舷橫流分量，須依即時方向計算。",
-        "result": "verified_with_scope"
+        "explanation": "約080°進港航向下，NW流可能產生迎流及左舷橫流分量，須依即時方向計算。；查核：verified_with_scope",
+        "importance": "essential"
       },
       {
         "point": "重載船操縱",
-        "explanation": "補入偏流修正、STW／SOG、Squat、UKC及拖船支援。",
-        "result": "pass"
+        "explanation": "補入偏流修正、STW／SOG、Squat、UKC及拖船支援。；查核：pass",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -558,7 +548,7 @@
       "不同潮型、風向、河川逕流與外海波浪可改變堤口流場，本文以通用操船原理說明，不提供虛構流速數值。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -578,12 +568,10 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "高雄港當地水道"
+    "lastUpdated": "2026-11-07"
   },
   {
-    "id": "102-kaohsiung-waterway-07-answer-v1",
+    "id": "102-kaohsiung-waterway-07",
     "questionId": "102-kaohsiung-waterway-07",
     "version": 2,
     "language": "zh-TW",
@@ -593,23 +581,23 @@
     "keyPoints": [
       {
         "point": "親水遊憩碼頭分類統計",
-        "explanation": "依清冊類別統計17座。",
-        "result": "pass"
+        "explanation": "依清冊類別統計17座。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "碼頭清單及數量",
-        "explanation": "2–7號6座、淺水1–3號3座、11–12號2座、登1–2號2座、13–16號4座。",
-        "result": "pass"
+        "explanation": "2–7號6座、淺水1–3號3座、11–12號2座、登1–2號2座、13–16號4座。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "其他客輪及遊艇碼頭排除",
-        "explanation": "不把國內客輪、國際客輪及遊艇碼頭混入親水遊憩分類。",
-        "result": "pass"
+        "explanation": "不把國內客輪、國際客輪及遊艇碼頭混入親水遊憩分類。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "歷史時點限制",
-        "explanation": "2013數量須另查歷史清冊，不以現行17座倒推。",
-        "result": "verified_with_scope"
+        "explanation": "2013數量須另查歷史清冊，不以現行17座倒推。；查核：verified_with_scope",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -635,7 +623,7 @@
       "17筆為官方設施總表用途欄的分類筆數，非保證各碼頭當下均開放靠泊；實際用途、營運狀態及可用性依考試當時港務公司最新公告確認。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -655,13 +643,11 @@
         },
         {
           "item": "歷史時點限制",
-          "result": "verified_with_scope",
-          "note": "2013數量須另查歷史清冊，不以現行17座倒推。"
+          "result": "pass",
+          "note": "限定適用範圍：2013數量須另查歷史清冊，不以現行17座倒推。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "高雄港當地水道"
+    "lastUpdated": "2026-11-07"
   }
 ]
