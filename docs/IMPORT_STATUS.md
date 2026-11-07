@@ -1039,3 +1039,14 @@
 - 前台匯入：`app/page.tsx`已載入`data/answers-106.json`；前台使用ReactMarkdown、remark-gfm、remark-math及rehype-katex，具備表格與數學公式渲染能力。
 - 106年地方題的其他歷史缺口（2017年1:30,000港圖、洲際二期工程泊位圖、當年浮筒／燈表、拖船調派歷史附件）均保留於答案limitations／verification；2027主答採現行港務規定及現況資料，未倒填為2017歷史數值。
 - 此次完成的是全科資料靜態終檢，並非官方標準答案認證；考選部逐題評分細則未取得。前台渲染器已有乾淨建置驗證，但本次未做逐題瀏覽器人工視覺驗收，也未觸發Production部署。
+
+
+### 民國106年度答案與前台資料結構終檢（2026-11-07）
+- 重新解析questions.json、answers-106.json、sources.json及app/page.tsx。
+- 106年度原題26題、答案26筆；科目分布：高雄港當地水道6、航政法規5、引港學5、船舶操縱6、專業英文4。
+- questionId缺漏0、額外答案0、重複答案ID 0；26題全部version 2，modelAnswer、practicalAnalysis、keyPoints、references均非空。
+- 26題原題sourceId均能對應sources.json來源索引；答案references中未發現缺少URL的來源物件。
+- 前台確認app/page.tsx匯入answers-106.json，答案元件讀取modelAnswer、practicalAnalysis、keyPoints及references；資料正規化後欄位與前台一致。
+- 驗證狀態：source_checked 15題、verified_with_scope 10題、partially_verified 1題。部分查證項目仍須保留限制，例如高雄港第4題歷史泊位／水深與現行碼頭改建資訊、港勤拖船表2017歷史版、早期工程圖及同期港區設施；不得把現行資料倒填為2017歷史答案。
+- 終檢結論：106年度26題答案資料及前台匯入結構通過靜態終檢，沒有缺題、錯配、空白答案或缺少來源索引。此結論只代表題庫資料結構及現行主答完成度，不代表所有歷史港況與地方資料缺口已解決；未取得資料均已明確標示。
+- 下一年度：依年度順序進入民國104年度答案面向2027考試的逐題檢查；先盤點26題原題、答案、法規時點及前台匯入欄位，再逐科更新。尚未進行Vercel Production部署或線上視覺驗收。
