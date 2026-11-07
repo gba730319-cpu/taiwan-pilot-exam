@@ -422,3 +422,8 @@
 - 船舶操縱第6題以錨泊、制動、控制船首、輔助迴旋、緊急避險及安全限制建立完整申論架構；英文4題包含CPP/FPP翻譯、COLREG Rule 7翻譯、五個術語英文定義及master-compulsory pilot作文。
 - 本年度答案均為研讀用參考擬答，並非考選部官方標準答案；官方逐題評分細則未取得。
 - GitHub答案檔與網站程式連結完成，不代表Vercel Production已部署；須以最新READY部署的commit SHA確認正式網站更新。
+
+#### 102年度建置與部署驗證補記（2026-11-07）
+- 使用Vercel Sandbox從GitHub main最新程式碼執行 `npm install --no-audit --no-fund` 及 `npm run build`；Next.js production build、型別檢查及靜態頁面產生均成功。僅有既有Next.js lockfile root推斷警告，未阻擋建置。
+- 最新GitHub main commit：`921eb87385a852b9396f5275dc68adcea8da0a8d`。
+- 已嘗試Vercel Production部署，但API回應402：`api-deployments-free-per-day` 每日部署額度已用完，需等待24小時；Vercel CLI fallback檢查顯示Sandbox未登入Vercel，無法繞過。故正式Production仍未更新，不可宣稱102年度已在正式網站上線。
