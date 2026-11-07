@@ -71,75 +71,93 @@
   {
     "id": "087-english-02-answer-v1",
     "questionId": "087-english-02",
-    "version": 1,
+    "version": 2,
     "language": "en",
     "answerType": "translation",
-    "modelAnswer": "**1. Port State Control (PSC)**\nPort State Control is the inspection of foreign ships in a national port by the port State to verify that the ships, their equipment, crew and documents comply with applicable international conventions and safety requirements. It helps prevent substandard ships from operating and protects life, property and the marine environment.\n**2. Crash Stops**\nA crash stop is an emergency stopping manoeuvre in which a ship's propulsion is rapidly changed, usually from full ahead to full astern, in order to stop the ship as quickly as practicable. The stopping distance and time depend on the ship's displacement, speed, engine response and manoeuvring characteristics.\n**3. Port Helm Rule**\nThe port helm rule is a traditional single-screw shiphandling principle describing the use of port rudder in conjunction with ahead engine movements to control the vessel's heading or stern movement. Its actual effect depends on propeller rotation, propeller race and the vessel's design, so it must not be applied without considering the ship's characteristics.\n**4. Radar Surveillance**\nRadar surveillance is the continuous observation and plotting of surrounding targets by radar in order to monitor their positions, courses, speeds and relative movements. It assists the bridge team in detecting collision risks, monitoring navigation hazards and maintaining safe distances.\n**5. Transverse Thrust of Propeller**\nTransverse thrust of a propeller, also known as propeller walk, is the sideways force produced by a rotating propeller. It may cause the stern to move sideways, particularly when the propeller is operating astern, and is an important factor in low-speed manoeuvring.\n**6. Righting Moment**\nRighting moment is the moment produced by the separation between a ship's centre of gravity and the line of action of buoyancy when the ship is heeled. It tends to return the ship to the upright position and is commonly expressed as displacement multiplied by the righting lever (GZ).",
-    "practicalAnalysis": "本題30分，英文定義應包含關鍵要素，不只逐字翻譯。Port State Control需提到外國船舶在港口國檢查；Crash stop是緊急倒俥停船；Radar surveillance是連續監視目標；Transverse thrust即propeller walk；Righting moment為排水量乘GZ。",
+    "modelAnswer": "**1. Port State Control (PSC)**\n\nPort State Control is the inspection of foreign ships in a national port by the port State to verify that the ships, their equipment, crew and documents comply with applicable international conventions and safety requirements. It helps prevent substandard ships from operating and protects life, property and the marine environment.\n\n**2. Crash Stops**\n\nA crash stop is an emergency stopping manoeuvre in which a ship's propulsion is rapidly changed, usually from full ahead to full astern, in order to stop the ship as quickly as practicable. The stopping distance and time depend on the ship's displacement, speed, engine response and manoeuvring characteristics.\n\n**3. Port Helm Rule**\n\nThe Port Helm Rule was a historical rule for steam-powered vessels in the nineteenth century. Under the 1840 passing rule, when steam vessels on different courses were so close that collision risk existed, each vessel was instructed to put her helm to port so that they would pass on the other vessel's port side. The rule was later adapted in the 1863 meeting rule for steamships approaching end-on or nearly end-on.\n\nThe expression referred to the old tiller/helm movement, which caused the ship's head to move in the opposite direction. This created international confusion because some countries interpreted helm orders as the direction in which the ship's bow should turn. The historical confusion was resolved through later international standardisation of helm orders; modern helm orders specify the direction in which the rudder is to be put.\n\nThe Port Helm Rule is obsolete and must not be treated as a current collision-avoidance rule. Modern vessels apply the current COLREGs, including Rule 14 for head-on situations, which requires each power-driven vessel to alter course to starboard.\n\n**4. Radar Surveillance**\n\nRadar surveillance is the continuous observation and plotting of surrounding targets by radar in order to monitor their positions, courses, speeds and relative movements. It assists the bridge team in detecting collision risks, monitoring navigation hazards and maintaining safe distances.\n\n**5. Transverse Thrust of Propeller**\n\nTransverse thrust of a propeller, also known as propeller walk, is the sideways force produced by a rotating propeller. It may cause the stern to move sideways, particularly when the propeller is operating astern, and is an important factor in low-speed manoeuvring.\n\n**6. Righting Moment**\n\nRighting moment is the moment produced by the separation between a ship's centre of gravity and the line of action of buoyancy when the ship is heeled. It tends to return the ship to the upright position and is commonly expressed as displacement multiplied by the righting lever (GZ).",
+    "practicalAnalysis": "原答案對Port Helm Rule的解釋錯誤。該詞不是現代單螺槳船使用左舵的操船原則，而是19世紀蒸汽船避碰史上的歷史規則：1840年passing rule要求有碰撞危險時雙方put helm to port；1863年擴充為蒸汽船對遇規則。舊式helm指tiller移動方向，造成船首反向轉動，曾引發國際指令混淆。現代已廢止，現行對遇依COLREG Rule 14各船向右轉。",
     "keyPoints": [
       {
-        "point": "PSC為港口國對外國船舶進行法規遵循檢查。",
+        "point": "PSC為港口國對外國船舶的檢查，確認符合國際公約及安全要求。",
         "importance": "essential"
       },
       {
-        "point": "Crash stop為緊急倒俥停船操作。",
+        "point": "Crash stop通常由全速前進迅速轉為全速倒俥，測量停船時間與距離。",
         "importance": "essential"
       },
       {
-        "point": "Port helm rule的效果須依螺槳旋向與船型判斷。",
+        "point": "Port Helm Rule是19世紀蒸汽船歷史避碰規則，不是現代單螺槳操船原則。",
         "importance": "essential"
       },
       {
-        "point": "Radar surveillance監控目標位置、航向、航速及相對運動。",
+        "point": "1840 passing rule及1863 end-on meeting rule曾要求雙方put helm to port；舊式helm/tiller方向與船首轉向相反。",
+        "importance": "essential"
+      },
+      {
+        "point": "Port Helm Rule已廢止；現代對遇依COLREG Rule 14，雙方均應向右轉。",
+        "importance": "essential"
+      },
+      {
+        "point": "Radar surveillance為持續觀察及標繪雷達目標，掌握相對運動及碰撞風險。",
         "importance": "supporting"
       },
       {
-        "point": "Transverse thrust又稱propeller walk，造成船艉橫向偏移。",
+        "point": "Transverse thrust／propeller walk為螺槳造成的橫向推力，低速及倒俥時尤其重要。",
         "importance": "supporting"
       },
       {
-        "point": "Righting moment=displacement×GZ。",
+        "point": "Righting moment為排水量乘以扶正力臂GZ。",
         "importance": "supporting"
       }
     ],
     "references": [
       {
-        "title": "87年甲種引水人專業英文官方試題",
+        "title": "87年甲種引水人實用英文官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
         "editionOrEffectiveDate": "民國87年",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2004&t=Q",
-        "supports": "專業英文三題原卷。"
+        "supports": "原題英文術語及配分。"
       },
       {
-        "title": "IMO Pilotage and STCW",
+        "title": "A Note on Helm Orders After the Coming of Steam",
+        "sourceType": "academic_article",
+        "issuer": "John Wilde Crosbie, The Journal of Navigation",
+        "editionOrEffectiveDate": "2013",
+        "url": "https://www.cambridge.org/core/journals/journal-of-navigation/article/note-on-helm-orders-after-the-coming-of-steam/95ADBFAF035D8BD5400D601A44E7FA66",
+        "supports": "Port Helm Rule歷史、1840及1863規則、舊式helm指令混淆及1929年國際標準化背景。"
+      },
+      {
+        "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972 – Rule 14",
         "sourceType": "international_convention",
-        "issuer": "IMO",
-        "url": "https://www.imo.org/en/ourwork/humanelement/pages/stcw-conv-link.aspx",
-        "supports": "引水人職責及海事專業英文術語。"
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "現行對遇規則要求雙方船舶向右轉。"
       }
     ],
     "assumptions": [
-      "英文依海事專業語境及一般英語用法校訂。"
+      "Port Helm Rule依原題歷史航海術語解釋；現代避碰要求另依COLREG，不把歷史規則當成現行法。"
     ],
-    "limitations": [],
+    "limitations": [
+      "本題只要求英文術語解釋；未延伸討論各國19世紀規則細節差異，避免超出考試作答需要。"
+    ],
     "verification": {
       "status": "source_checked",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部87年專業英文原卷",
+          "item": "Port Helm Rule歷史定義",
           "result": "pass",
-          "note": "題文核對。"
+          "note": "依The Journal of Navigation歷史研究核對1840、1863規則及helm/tiller方向問題。"
         },
         {
-          "item": "翻譯及術語",
+          "item": "現行避碰規則",
           "result": "pass",
-          "note": "依海事英文慣用語校訂。"
+          "note": "已與COLREG Rule 14的對遇船舶向右轉要求區分。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "087-english-03-answer-v1",
