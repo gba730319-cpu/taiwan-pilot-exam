@@ -545,11 +545,11 @@
     ],
     "references": [
       {
-        "title": "商港法",
-        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0020001",
+        "title": "商港法（100年12月28日修正、101年3月1日施行版本；110年考試時適用）",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0002007&type=-1",
         "sourceType": "law_or_regulation",
         "issuer": "法務部全國法規資料庫",
-        "supports": "商港主管機關、港埠管理、船舶管制、危險物品、污染與裁罰等法定權限。"
+        "supports": "110年6月考試時有效的港埠公權力管理、船舶移泊及港區秩序等條文；110年4月28日修正版本至110年11月15日才施行，不倒用。"
       },
       {
         "title": "110年引水人考試航政法規原卷",
