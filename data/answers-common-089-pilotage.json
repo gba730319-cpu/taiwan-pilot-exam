@@ -490,7 +490,7 @@
         },
         {
           "item": "海圖圖例、IALA、潮汐及定位資料",
-          "result": "partial",
+          "result": "needs_review",
           "note": "原卷缺少圖示或歷史圖書資料時已明確標示。"
         }
       ]
