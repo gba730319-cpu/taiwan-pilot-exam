@@ -62,31 +62,39 @@
   {
     "id": "085-pilotage-02-answer-v1",
     "questionId": "085-pilotage-02",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、Rise與Range定義】\n- Rise：某次潮汐由低潮至隨後高潮的潮高上升量；在同一基準面下可由高潮潮高減去前一低潮潮高求得。\n- Range：潮差，為高潮與相鄰低潮之潮高差，即HW−LW。\n【二、春潮與小潮】\n- Spring tide：朔、望附近，日月引潮力大致同向，潮差較大。\n- Neap tide：上弦、下弦附近，日月引潮力部分抵銷，潮差較小。\n- Spring Rise：春潮時低潮至高潮的上升量。\n- Mean Spring Rise：多次春潮上升量的平均值。\n- Neap Rise：小潮時低潮至高潮的上升量。\n- Mean Neap Rise：多次小潮上升量的平均值。\n- Spring Range：春潮高潮與相鄰低潮的潮差。\n- Neap Range：小潮高潮與相鄰低潮的潮差。\n- Mean Range：指定觀測期間高潮與低潮潮差的平均值；應說明採用的潮型及統計期間。\n- Diurnal Range：日潮不等現象下，一個太陰日內相關高潮與低潮的潮高差；若教材採特定定義，須按其定義標示。\n\n【三、示意圖】\n潮高 ↑\n高潮 HW ───────────────\n          ↑ Rise（低潮至高潮）\n低潮 LW ───────────────\n          ↕ Range = HW − LW（相鄰高、低潮之差）\n\n春潮的Rise／Range通常較大；小潮的Rise／Range通常較小。Mean數值是多個潮汐週期的平均，不是單一潮次。",
-    "practicalAnalysis": "本題要求名詞及圖示。Rise是低潮到高潮的上升量；Range是高潮與低潮的潮差。春潮與小潮的大小差異來自日月引潮力配置。",
+    "modelAnswer": "## 一、Rise（潮升）與Range（潮差）的差別\n\n**Rise不是低潮到高潮的差值。**在海圖潮汐基準用語中，Rise是某一高潮面高於海圖基準面（Chart Datum）的高度；Range才是高潮面與低潮面之間的垂直差。\n\n- **Rise：**高潮面相對Chart Datum的高度。\n- **Range：**高潮與低潮之間的高度差。\n\n## 二、各項名詞\n\n| 名詞 | 定義 |\n|---|---|\n| Spring Rise | 大潮高潮面高於Chart Datum的高度。 |\n| Mean Spring Rise | 平均大潮高潮面（MHWS）高於Chart Datum的高度。 |\n| Neap Rise | 小潮高潮面高於Chart Datum的高度。 |\n| Mean Neap Rise | 平均小潮高潮面（MHWN）高於Chart Datum的高度。 |\n| Spring Range | 大潮潮差，平均大潮高潮面MHWS減平均大潮低潮面MLWS。 |\n| Neap Range | 小潮潮差，平均小潮高潮面MHWN減平均小潮低潮面MLWN。 |\n| Mean Range | 平均潮差，平均高潮面MHW減平均低潮面MLW。 |\n| Diurnal Range | 日潮區的日潮差，通常指平均較高潮面MHHW減平均較低潮面MLLW。 |\n\n## 三、圖示\n\n以下為概念示意，垂直高度不按比例：\n\n```\n潮高 ↑\n             MHWS ───────── 平均大潮高潮面\n              ↑ Mean Spring Rise（至Chart Datum）\n             MHWN ───────── 平均小潮高潮面\n              ↑ Mean Neap Rise（至Chart Datum）\n             MHW  ───────── 平均高潮面\n              ↑ Mean Rise（至Chart Datum）\n\n             MLW  ───────── 平均低潮面\n             MLWS ───────── 平均大潮低潮面\n             MLWN ───────── 平均小潮低潮面\n\nChart Datum ───────────────── 海圖基準面\n```\n\n- **Spring Range：**MHWS − MLWS。\n- **Neap Range：**MHWN − MLWN。\n- **Mean Range：**MHW − MLW。\n- **Diurnal Range：**MHHW − MLLW（適用日潮型水域）。\n\n## 四、考試易錯點\n\n1. Rise是從Chart Datum量到指定高潮面的高度。\n2. Range是高、低潮面之間的差值。\n3. Spring／Neap Rise與Spring／Neap Range不可混為一談。\n4. Diurnal Range不是任意連續一次高潮與低潮的差值，而是日潮型水域所採用的統計基準差。",
+    "practicalAnalysis": "原答案將Rise定義為低潮至高潮的潮高上升量，這與潮汐基準術語不符。依IHO水文詞典及澳洲水文局潮汐詞彙，Rise是指定高潮面高於Chart Datum的高度；Range才是高潮與低潮的高度差。Mean Spring Rise、Mean Neap Rise及Diurnal Range均已重新定義並以基準面圖示說明。",
     "keyPoints": [
       {
-        "point": "Rise為低潮至隨後高潮的上升量。",
+        "point": "Rise是高潮面高於Chart Datum的高度，不是低潮到高潮的差值。",
         "importance": "essential"
       },
       {
-        "point": "Range為高潮與相鄰低潮之差。",
+        "point": "Range是高潮面與低潮面之間的高度差。",
         "importance": "essential"
       },
       {
-        "point": "Spring潮差較大，Neap潮差較小。",
+        "point": "Mean Spring Rise＝MHWS高於Chart Datum的高度。",
         "importance": "essential"
       },
       {
-        "point": "Mean Spring／Neap Rise為相應潮型上升量的平均。",
-        "importance": "supporting"
+        "point": "Mean Neap Rise＝MHWN高於Chart Datum的高度。",
+        "importance": "essential"
       },
       {
-        "point": "Diurnal Range須依教材採用的日潮不等定義作圖。",
-        "importance": "supporting"
+        "point": "Spring Range＝MHWS−MLWS；Neap Range＝MHWN−MLWN。",
+        "importance": "essential"
+      },
+      {
+        "point": "Mean Range＝MHW−MLW。",
+        "importance": "essential"
+      },
+      {
+        "point": "Diurnal Range通常為MHHW−MLLW，適用於日潮型水域。",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -94,34 +102,55 @@
         "title": "85年甲種引水人引港學官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國85年（1996）",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=023&code=085150&q=1&s=2001&t=Q",
-        "supports": "引港學五題原卷。"
+        "editionOrEffectiveDate": "民國85年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=085120&q=1&s=c181&t=Q",
+        "supports": "原題Rise、Range及各潮汐基準名詞。"
+      },
+      {
+        "title": "IHO Hydrographic Dictionary S-32 – Tidal terms",
+        "sourceType": "international_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://portal.iho.int/iho-ohi/S32/engView.php?page=2&quick_filter=mean+high+water+",
+        "supports": "Mean rise、Mean spring rise、Mean range、Spring range等標準定義。"
+      },
+      {
+        "title": "Tidal Glossary",
+        "sourceType": "official_hydrographic_reference",
+        "issuer": "Australian Hydrographic Office",
+        "url": "https://www.hydro.gov.au/hydrography/tidal-information/tidal-glossary",
+        "supports": "Mean spring rise、Mean neap rise及潮汐基準面定義。"
+      },
+      {
+        "title": "NOAA Tides and Currents Glossary",
+        "sourceType": "official_hydrographic_reference",
+        "issuer": "National Oceanic and Atmospheric Administration",
+        "url": "https://www.tidesandcurrents.noaa.gov/glossary.html",
+        "supports": "Mean range、Spring range及Diurnal range定義。"
       }
     ],
     "assumptions": [
-      "計算題明列方位解讀及潮流內插模型。"
+      "採IHO、澳洲水文局及NOAA潮汐基準術語；不同國家或舊教材縮寫可能略有差異，作答時以題目指定海圖圖例為準。"
     ],
     "limitations": [
-      "Diurnal Range及Mean Range在不同潮汐教材中的統計定義可能有細節差異，應與考試指定教材術語核對。"
+      "原卷未指定海圖基準面與教材版次；圖示為名詞關係示意，非特定港口實際潮位比例圖。"
     ],
     "verification": {
-      "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "status": "source_checked",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部85年引港學原卷",
+          "item": "Rise及Range標準定義",
           "result": "pass",
-          "note": "五題題文核對。"
+          "note": "依IHO S-32、Australian Hydrographic Office及NOAA定義核對。"
         },
         {
-          "item": "1996年海圖圖例／潮流曲線",
-          "result": "partial",
-          "note": "歷史圖例版次及指定潮流內插曲線待查。"
+          "item": "Spring／Neap／Mean／Diurnal各項定義",
+          "result": "pass",
+          "note": "各Rise以Chart Datum為起算基準，各Range為指定高低潮面之差。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "085-pilotage-03-answer-v1",
