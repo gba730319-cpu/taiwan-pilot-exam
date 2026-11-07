@@ -1,0 +1,68 @@
+[
+  {
+    "id": "087-pilotage-01-answer-v1",
+    "questionId": "087-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "| 圖例 | 符號示意 | 英文全名／意義 |\n|---|---|---|\n| 引水站 | ⚓ P | Pilot station：引水人登輪／離輪位置。 |\n| 中港浮 | ◉ | Mid-channel buoy：航道中央浮標。 |\n| 防波堤 | ━━━━━╱ | Breakwater：防波堤／突堤結構。 |\n| 礙航沉船 | ⚓✕／Wk | Dangerous wreck：可能妨礙航行的沉船。 |\n| 起重機 | ⚒ | Crane：岸上起重設備。 |\n| 落潮流2節 | ↓ 2 kn | Ebb current, 2 knots：落潮流，流速2節。 |\n| 禁止航行區域界線 | -·-·-·- | Boundary of prohibited area：禁止航行區域界線。 |\n\n上述Unicode示意僅供記憶，正式作答應依指定版次Chart No.1或考選部原卷附圖臨摹；尤其中港浮、礙航沉船及禁止航行區域界線須使用正確的圖式符號、頂標及界線樣式。",
+    "practicalAnalysis": "本題14分，七個符號須逐一畫出並寫名稱。文字示意不能完全取代正式海圖符號，正式答案仍應依Chart No.1原圖重畫。",
+    "keyPoints": [
+      {
+        "point": "Pilot station為引水站。",
+        "importance": "essential"
+      },
+      {
+        "point": "Mid-channel buoy為中港浮／航道中央浮標。",
+        "importance": "essential"
+      },
+      {
+        "point": "Breakwater為防波堤。",
+        "importance": "essential"
+      },
+      {
+        "point": "Dangerous wreck為礙航沉船。",
+        "importance": "supporting"
+      },
+      {
+        "point": "Crane為起重機。",
+        "importance": "supporting"
+      },
+      {
+        "point": "Ebb current 2 knots為落潮流2節。",
+        "importance": "supporting"
+      },
+      {
+        "point": "Prohibited area boundary為禁止航行區域界線。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2001&t=Q",
+        "supports": "原題"
+      }
+    ],
+    "assumptions": [
+      "以民國87年指定海圖圖式為準。"
+    ],
+    "limitations": [
+      "未取得考選部原卷圖例附圖及1998年指定Chart No.1版次，符號外觀僅文字示意。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部原卷",
+          "result": "pass",
+          "note": "題文核對完成。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
