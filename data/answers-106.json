@@ -330,7 +330,15 @@
       "現行港務資料及地方引水規定為2027備考依據，不能倒填為106年歷史港況。"
     ],
     "verification": {
-      "status": "partially_verified"
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "106年歷史港況與原始圖資",
+          "result": "needs_review",
+          "note": "歷史原始港圖或同期資料未完整取得；依專案原則保留待查標記，不以現況資料倒推歷史答案。"
+        }
+      ]
     },
     "version": 2,
     "lastUpdated": "2026-11-07",
