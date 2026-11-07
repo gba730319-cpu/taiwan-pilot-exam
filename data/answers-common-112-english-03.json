@@ -89,7 +89,7 @@
       "Boarding speed is operationally determined by vessel/pilot boat characteristics, weather, sea state and local instructions; no universal numerical speed is specified."
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
