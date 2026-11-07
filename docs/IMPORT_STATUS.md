@@ -1614,3 +1614,5 @@
 - 網站答案呈現採 `ReactMarkdown + remark-gfm + remark-math + rehype-katex`；表格使用GFM解析，公式使用KaTeX，CSS另有數學公式橫向捲動及表格手機版橫向捲動設定。已確認程式具備表格與公式呈現路徑，尚未完成瀏覽器實際視覺測試。
 - **統計口徑更正：**前一輪以部分aggregate檔案計算出的「267/544」不是完整答案覆蓋率，因未納入全部逐題答案檔，應作廢，不得作為正式缺題統計。完整覆蓋率須依 `app/page.tsx` 全部實際載入檔案去重後再計算。
 - 本輪為靜態程式與資料檢查；尚未執行成功的正式Build、瀏覽器端操作測試或Vercel最新部署驗證。
+
+- **Vercel狀態（2026-11-08）：**以GitHub main最新commit `0fd906a2d1bd063eeccec3b02e42f7d6c1619bcb`查詢commit status，Vercel檢查回報 `failure`，target URL指向Vercel `upgradeToPro=build-rate-limit` 頁面；目前不能視為已成功部署。Vercel MCP對該team的部署查詢回報403 scope authorization，授權連結工具又回404 Team not found，因此暫時無法從Vercel端讀取詳細build log或重試部署。待Vercel build額度／team授權問題排除後，再執行正式部署與瀏覽器驗收。
