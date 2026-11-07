@@ -36,14 +36,15 @@
         "issuer": "考選部",
         "editionOrEffectiveDate": "民國83年（1994）",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=4001&t=Q",
-        "supports": "實用英文三題原卷。"
+        "supports": "英文作文題。"
       },
       {
-        "title": "IMO Resolution A.960(23): Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
+        "title": "IMO Resolution A.960(23): Operational Procedures for Maritime Pilots, Annex 2 §§2.1–2.3, 5.1–5.6",
         "sourceType": "imo_resolution",
         "issuer": "International Maritime Organization",
-        "url": "https://www.imo.org/en/KnowledgeCentre/IndexofIMOResolutions/Pages/Assembly-(A).aspx",
-        "supports": "引水人專業訓練、引水作業程序及船長／引水人合作關係。"
+        "editionOrEffectiveDate": "2003",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "supports": "引水人與船長／駕駛台團隊的角色、責任、資訊交換及安全協作。"
       }
     ],
     "assumptions": [
@@ -51,23 +52,23 @@
     ],
     "limitations": [],
     "verification": {
-      "status": "partially_verified",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
           "item": "考選部83年實用英文原卷",
           "result": "pass",
-          "note": "依原題40分作文要求撰寫。"
+          "note": "依作文題意撰寫完整英文回答。"
         },
         {
-          "item": "英文文法及專業語意",
+          "item": "英文文法與語氣",
           "result": "pass",
-          "note": "校正pilot職務描述及master責任表述。"
+          "note": "檢查時態、句構、專業詞彙及段落邏輯。"
         },
         {
-          "item": "IMO引水人專業建議",
-          "result": "partial",
-          "note": "已引用IMO A.960(23)方向，尚待補上官方決議文件的具體段落連結。"
+          "item": "IMO A.960(23) Annex 2",
+          "result": "pass",
+          "note": "確認引水人與船長責任關係、資訊交換及合作描述正確。"
         }
       ]
     },
