@@ -1006,3 +1006,9 @@
 - Q5 Steerage Way：強調舵面相對水流及STW與SOG差異，區分Steerage Way與個船Minimum Steerage Speed。
 - Q6 Washing Damage：區分螺槳排流、船行波、水位下降／回升及受限水域回流，補足減速、推力控制、VTS協調與事故後檢查；強調不可為降低洗流而犧牲舵效。
 - 六題答案均已重新寫入並成功提交GitHub；提交commit：`74ab62baef0e71dec57f034cbc1f8c4955bdd590`。此為既有108年度第二版答案的針對性補強，不改變原題、題數及年度已完成的靜態終檢結論。
+
+### 108年度第二輪建置及安全性檢查（2026-11-07）
+- 以Vercel Sandbox從GitHub commit `40d40f4292472d63d503cd8d56a24f31e88a5b28` 乾淨clone；`npm install`成功，`npm run build`成功。Next.js 15.5.28編譯、型別檢查及5/5靜態頁產生均通過。僅有既有CSS autoprefixer警告（`end`建議改為`flex-end`），不影響建置。
+- 此build commit包含108年度26題v2答案；其後只補充船舶操縱答案參考來源發布者metadata，未改變頁面程式。
+- `npm audit`及`npm audit --omit=dev`均回報6項相依套件弱點（4 low、1 moderate、1 high），包括PostCSS高風險公告及KaTeX低風險公告。npm建議的自動修復會升級Next.js至16.4.5並涉及major版本變更；本輪未執行`npm audit fix --force`，避免未經確認的大版本遷移。應另行評估相容性及安全更新後再部署。
+- 本輪未執行Vercel Production部署；GitHub提交及Sandbox build成功不代表正式網站已更新。
