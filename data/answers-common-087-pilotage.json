@@ -227,31 +227,35 @@
   {
     "id": "087-pilotage-04-answer-v1",
     "questionId": "087-pilotage-04",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、定義及單位】\n氣壓（Atmospheric Pressure）是大氣柱重量作用於單位面積所產生的壓力。常用單位為hPa（百帕）或mbar（毫巴），1hPa=1mbar；標準海平面氣壓約1013.25hPa。\n【二、氣壓趨勢法】\n氣壓趨勢法是觀察連續一段時間內氣壓上升、下降或穩定的幅度與速度，推測天氣系統接近或遠離，常以過去3小時氣壓變化作參考。\n1. 氣壓持續快速下降：低壓、鋒面或颱風可能接近，風雨可能增強。\n2. 氣壓下降後轉為穩定：可能接近低壓中心或鋒面通過，須配合風向及雲況判斷。\n3. 氣壓快速上升：高壓或冷空氣可能移入，天氣通常趨向穩定，但冷鋒後仍可能有強風及陣雨。\n4. 氣壓緩慢上升且風勢減弱：通常表示天氣逐漸好轉。\n5. 氣壓短時間劇烈下降並伴隨風向突變：可能有強烈低壓或熱帶氣旋接近，應立即查閱官方警報。\n【三、判斷原則】\n氣壓下降通常表示天氣趨向不穩定，氣壓上升通常表示天氣趨向穩定；不能單憑氣壓預測風雨強度，應同時觀察風向風速、雲況、降雨及天氣圖。",
-    "practicalAnalysis": "本題18分，需定義氣壓、列單位，再說明氣壓趨勢與天氣變化；應指出氣壓趨勢需與風、雲、雨及天氣圖配合。",
+    "modelAnswer": "## 一、氣壓的定義及單位\n\n氣壓（Atmospheric Pressure）是大氣重量作用於單位面積所形成的壓力。海上氣象常用：\n- hectopascal（hPa，百帕）\n- millibar（mb，毫巴）\n\n兩者數值相同，1 hPa = 1 mb。標準海平面氣壓約為1013.25 hPa。\n\n## 二、氣壓趨勢法（Barometric Tendency Method）\n\n氣壓趨勢法是連續觀察氣壓計讀數，特別注意最近約三小時內氣壓變化的方向、幅度及速度，並與風向、風速、雲況、降雨及天氣圖合併判斷。\n\n1. **氣壓持續下降：**通常表示低壓、鋒面或熱帶氣旋系統可能接近，天氣轉壞及風力增強的機會增加。\n2. **氣壓快速或急劇下降：**須提高警覺，可能有強烈低壓或熱帶氣旋接近；應立即查閱官方海上警報及天氣圖，並依船舶程序採取防範措施。\n3. **氣壓下降後停止下降或回升：**可能表示低壓中心或鋒面已接近、通過或遠離，但仍須配合風向轉變、降雨及雲況確認。\n4. **氣壓持續上升：**通常表示高壓或較冷、較乾空氣移入，天氣可能改善；但冷鋒後仍可能出現強風、陣雨或海況惡化。\n5. **氣壓穩定：**表示觀測期間氣壓變化不大，但不代表必然沒有危險天氣，仍須觀察其他氣象要素。\n\n## 三、應用限制\n\n氣壓趨勢只能提供天氣系統變化的線索，不能單靠「下降／上升」就判定風力、降雨或颱風強度。航海上應同時使用氣壓計、風向風速、雲形、能見度、海況、天氣圖及官方警報；遇快速下降或異常變化時，應以最新官方預報及警報為準。",
+    "practicalAnalysis": "原答案把氣壓下降／上升直接連結成低壓接近／高壓移入，容易過度簡化天氣判讀。已改以連續約三小時的氣壓趨勢為核心，加入下降後回升、穩定及快速下降等情境，並要求與風、雲、雨、天氣圖及官方警報交叉判讀。",
     "keyPoints": [
       {
-        "point": "氣壓是大氣重量對單位面積施加的壓力。",
+        "point": "氣壓為大氣重量作用於單位面積的壓力；單位hPa或mb，兩者等值。",
         "importance": "essential"
       },
       {
-        "point": "單位hPa或mbar，1hPa=1mbar。",
+        "point": "氣壓趨勢法重點觀察連續變化，常以最近約三小時作判讀區間。",
         "importance": "essential"
       },
       {
-        "point": "持續下降表示低壓／鋒面／颱風可能接近。",
+        "point": "持續下降通常表示天氣系統接近、天氣轉壞機會增加；急降須提高警覺。",
         "importance": "essential"
       },
       {
-        "point": "持續上升通常表示高壓或天氣趨穩。",
+        "point": "下降後停止或回升可能表示低壓／鋒面通過或遠離，須配合其他天氣要素。",
         "importance": "supporting"
       },
       {
-        "point": "氣壓趨勢須配合風、雲、雨及天氣圖判讀。",
+        "point": "氣壓上升通常可能改善，但冷鋒後仍可能有強風陣雨。",
         "importance": "supporting"
+      },
+      {
+        "point": "不可單憑氣壓判斷風雨強度，須配合官方警報及天氣圖。",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -259,55 +263,70 @@
         "title": "87年甲種引水人引港學官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
+        "editionOrEffectiveDate": "民國87年",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2001&t=Q",
-        "supports": "引港學六題原卷。"
+        "supports": "原題題意及配分。"
+      },
+      {
+        "title": "Ship Handling: Theory and Practice",
+        "sourceType": "textbook_or_academic",
+        "issuer": "David J. House, Elsevier",
+        "editionOrEffectiveDate": "2007",
+        "url": "https://www.rexresearch1.com/SeamanshipNavigationLibrary/ShipHandlingTheoryandPractice.pdf",
+        "supports": "航海氣象及操船環境判讀背景參考。"
       }
     ],
     "assumptions": [
-      "以民國87年考試使用的海圖圖式、燈表及潮位資料為背景。"
+      "以船上氣壓計連續觀測值及天氣圖判讀；氣壓趨勢只作預警線索，不當作獨立預報工具。"
     ],
-    "limitations": [],
+    "limitations": [
+      "本題原卷未指定特定氣象教材版本或氣壓趨勢表格，故以一般航海氣象原則作答，不虛構固定氣壓變化門檻。"
+    ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部原卷",
+          "item": "氣壓定義及單位",
           "result": "pass",
-          "note": "題文核對。"
+          "note": "hPa與mb數值等值，標準海平面氣壓約1013.25hPa。"
         },
         {
-          "item": "歷史圖式／潮位資料",
-          "result": "partial",
-          "note": "原始版本未完整取得者保留待查。"
+          "item": "趨勢法定量門檻",
+          "result": "needs_review",
+          "note": "原題未指定教材或固定判讀門檻，答案不設定通用數值門檻。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "087-pilotage-05-answer-v1",
     "questionId": "087-pilotage-05",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "兩側防波堤燈標同時可見，只能證明兩燈標在觀測者視界內，不能單憑兩燈都看得到就判定船舶沒有偏離航道。船舶可能偏左或偏右，只要兩燈尚未被地形或距離遮蔽，仍可能同時可見。\n【可能情況】\n1. 船舶在航道中心線上，兩燈相對方位大致對稱。\n2. 船舶偏左或偏右，但兩燈仍同時可見；兩燈相對方位會不對稱。\n3. 船舶航向雖對準口門，卻受橫流、風壓或舵效不足影響而逐漸偏移。\n4. 兩燈與船舶不在同一橫斷面，透視及距離差造成視覺誤差。\n【確認方法】\n以雷達量測兩側防波堤端點的方位及距離，建立平行指標；用GNSS/ECDIS核對船位及航跡；觀察兩燈相對方位是否對稱，並以固定物疊標及連續定位交叉確認。發現偏離時及早小幅修正並向VTS報告。",
-    "practicalAnalysis": "本題18分，核心是兩燈可見不代表船位在中央；須考慮透視、橫流及船舶偏移，使用雷達PI、GNSS/ECDIS及連續定位。",
+    "modelAnswer": "## 一、兩側防波堤燈標同時可見，能否判斷船舶未偏離航道？\n\n**不能。**兩燈同時可見，只能表示兩燈均未被地平線、地形或其他障礙遮蔽，不能證明船舶位於航道中心線，也不能證明船舶的航跡正沿中心線前進。\n\n可能情況包括：\n1. **船位在中心線附近：**兩燈相對方位可能呈現近似對稱，但仍須確認兩燈位置及觀測幾何。\n2. **船舶偏左或偏右：**兩燈仍可能同時可見，只是兩燈相對方位、距離或視角不對稱。\n3. **船首對正口門但船位正在偏移：**橫流、風壓或船舶漂角可能使船舶航跡偏離，單看船首方向不足以判斷實際運動軌跡。\n4. **兩燈不在同一橫斷面或距離不同：**透視效果可能使視覺對稱與實際中心線位置不一致。\n\n## 二、應採取的定位及確認措施\n\n1. **雷達定位：**量測兩側防波堤端點的方位及距離，與海圖位置比對；可使用平行指標（Parallel Index）監控與防波堤的安全距離。\n2. **GNSS／ECDIS：**核對即時船位、航跡及預定進港航線，確認船位是否位於安全水域。\n3. **目視交叉方位：**觀察兩燈相對方位及固定岸標疊標，連續比較其變化；若有正式導標或疊標線，應以該導標線而非單純「兩燈可見」作為航向參考。\n4. **監控船舶運動：**同時比較船首向、COG、SOG、ROT及橫向偏移，辨別船首對正與實際航跡是否一致。\n5. **及早修正及通報：**發現偏離趨勢時，及早以小幅、可控的操舵修正；若影響交通或安全，通知VTS並依港口程序處置。\n\n## 三、結論\n\n兩側防波堤燈標同時可見不是可靠的船位判定方法。應以雷達、GNSS／ECDIS、固定物交叉方位及連續船舶運動監控交叉確認，避免因只看船首方向或燈標可見性而誤判。",
+    "practicalAnalysis": "原答案結論正確，但應更清楚區分「兩燈可見」、「船首對正口門」及「船舶實際航跡在中心線」三件事。已加入COG/SOG/ROT、雷達平行指標及正式導標線的差別，避免把兩燈對稱當成唯一定位依據。",
     "keyPoints": [
       {
-        "point": "兩側燈標都可見不代表船舶在航道中心。",
+        "point": "兩側防波堤燈標同時可見，不能證明船舶位於航道中心線。",
         "importance": "essential"
       },
       {
-        "point": "可能偏左、偏右或受風流造成橫移。",
+        "point": "船首對正口門不等於船舶實際航跡未偏移；橫流、風壓及漂角會造成差異。",
         "importance": "essential"
       },
       {
-        "point": "用雷達距離／方位、PI、GNSS/ECDIS及疊標定位。",
+        "point": "以雷達方位／距離及平行指標監控防波堤安全距離。",
         "importance": "essential"
       },
       {
-        "point": "發現偏離及早小幅修正並向VTS通報。",
+        "point": "以GNSS／ECDIS核對船位、航跡及預定航線。",
+        "importance": "essential"
+      },
+      {
+        "point": "比較船首向、COG、SOG、ROT及固定物交叉方位；正式導標線優先於視覺猜測。",
         "importance": "supporting"
       }
     ],
@@ -316,31 +335,42 @@
         "title": "87年甲種引水人引港學官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
+        "editionOrEffectiveDate": "民國87年",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2001&t=Q",
-        "supports": "引港學六題原卷。"
+        "supports": "原題題意及配分。"
+      },
+      {
+        "title": "Canadian Chart 1 – Chart Symbols and Abbreviations",
+        "sourceType": "official_chart_reference",
+        "issuer": "Fisheries and Oceans Canada",
+        "editionOrEffectiveDate": "2026-10-30",
+        "url": "https://charts.gc.ca/publications/chart1-carte1/sections/schema-eng.html",
+        "supports": "正式海圖圖式、導標及航標使用須依圖例及海圖註記。"
       }
     ],
     "assumptions": [
-      "以民國87年考試使用的海圖圖式、燈表及潮位資料為背景。"
+      "假設兩側燈標為防波堤端部燈標，題目未提供其精確座標、方位或燈質，故不作數值定位計算。"
     ],
-    "limitations": [],
+    "limitations": [
+      "缺少原卷附圖及兩燈標座標，不能計算船舶偏離量；本答案提供定位方法與判斷原則。"
+    ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部原卷",
+          "item": "目視可見性與船位判定",
           "result": "pass",
-          "note": "題文核對。"
+          "note": "幾何原理及船首向／航跡差異已釐清。"
         },
         {
-          "item": "歷史圖式／潮位資料",
-          "result": "partial",
-          "note": "原始版本未完整取得者保留待查。"
+          "item": "原題兩燈標幾何位置",
+          "result": "needs_review",
+          "note": "未取得原卷圖示及燈標座標，無法作精確定位演算。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "087-pilotage-06-answer-v1",
