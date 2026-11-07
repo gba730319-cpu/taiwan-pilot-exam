@@ -1,0 +1,356 @@
+[
+  {
+    "questionId": "084-taichung-waterway-01",
+    "modelAnswer": "【2027年備考主答｜臺中港港圖及運煤航道、台電碼頭】\n\n本題原要求依民國84年港況繪圖。2027年作答應先取得臺中港最新官方港區配置圖及航道／船席水深圖，再按圖面重繪，不可將1995年碼頭配置直接套用。\n\n圖面建議依序標示：\n1. 港口外海方位、港口入口、北／南防波堤及港口口門。\n2. 外航道、港內航道、迴船水域及各段航道中心線、寬度與水深。\n3. 碼頭區及編號，特別標示題目所稱運煤航道、煤碼頭及台電碼頭；若現行配置或用途已變更，應註明「現行配置」。\n4. 台電電力專業區、煤炭卸收設施、輸送帶／卸煤機等岸上關聯設施，僅在官方圖資有標示時繪入。\n5. 燈塔、燈浮、導標、雷達／VTS相關設施、錨地及引水登輪區。\n6. 指北箭頭、比例尺、圖資日期、測深基準及圖例。\n\n圖面可用下列層次表達：\n外海 → 引水登輪／外航道 → 港口口門 → 港內航道 → 迴船水域 → 煤碼頭／台電碼頭。\n各航段實際方位、尺度及水深均以最新官方海圖與測深成果為準。\n\n【結論】本題圖面得分在於航道、煤碼頭與台電碼頭的相對位置清楚，並標出導航設施、水深與圖資基準；不可憑記憶補造歷史位置。",
+    "practicalAnalysis": "本題35分，繪圖題應以圖面為主，文字只補充圖例。官方網站目前提供115年4月測深成果及現行碼頭水深圖；它能支援2027備考，不能還原民國84年運煤航道原貌。",
+    "keyPoints": [
+      {
+        "point": "港口輪廓、防波堤及口門",
+        "importance": "essential"
+      },
+      {
+        "point": "運煤航道及迴船水域位置與尺度",
+        "importance": "essential"
+      },
+      {
+        "point": "煤碼頭、台電碼頭及相關設施",
+        "importance": "essential"
+      },
+      {
+        "point": "導航標誌、錨地、引水登輪區",
+        "importance": "essential"
+      },
+      {
+        "point": "比例尺、指北、圖資日期與測深基準",
+        "importance": "essential"
+      }
+    ],
+    "assumptions": [
+      "以2027年備考及現行臺中港作業安全原則整理；凡題目指定1995年歷史資料者，均不以現況資料冒充。"
+    ],
+    "limitations": [
+      "尚未取得民國84年臺中港原始港區配置圖及運煤航道設計圖。"
+    ],
+    "references": [
+      {
+        "title": "臺中港港區圖及碼頭水深圖",
+        "sourceType": "official_port_chart",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/port/Articles?a=775",
+        "supports": "現行港區及碼頭水深圖下載入口；不可當作1995年歷史圖資。"
+      },
+      {
+        "title": "臺中港碼頭設施資料",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/zh-tw/port/Articles?a=778",
+        "supports": "現行碼頭用途、長度及水深資料。"
+      },
+      {
+        "title": "臺中港區總圖及專業區規劃",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司",
+        "url": "https://tc.twport.com.tw/zh-TW/about/Articles?a=760",
+        "supports": "現行港區總體配置及專業區規劃。"
+      }
+    ],
+    "verification": {
+      "status": "partially_verified"
+    }
+  },
+  {
+    "questionId": "084-taichung-waterway-02",
+    "modelAnswer": "【2027年備考主答｜汽車船靠泊及七級西南季風下離泊】\n\n一、靠泊碼頭與右舷靠\n題目所稱「現階段」是民國84年的歷史時點，必須先查當年汽車船實際靠泊碼頭及船席公告；目前官方現行碼頭用途已多次調整，不能直接指定某一現行碼頭為1995年答案。右舷靠的理由須依當時碼頭方位、船舶螺槳旋轉方向、風流及靠泊舷側設備判斷，不能把右舷靠說成所有汽車船的固定規則。\n\n二、高潮靠泊注意\n1. 依最新測深及潮位計算UKC，納入吃水、縱傾、橫傾、squat、波浪運動及測深誤差。\n2. 高潮時水流可能較強，須評估流向與流速、橫流造成的偏移及船舶接近碼頭的相對速度。\n3. 確認泊位前沿水深、護舷、繫纜樁、泊位長度及岸上裝卸設備高度／作業限制。\n4. 低速接近，保留中止靠泊能力，避免以過大橫向速度撞靠。\n\n三、七級西南季風下離泊步驟（概念操船）\n1. 先確認風向相對碼頭的實際作用方向；「西南風」不等於一定吹離碼頭，須按碼頭走向分解縱向及橫向風分量。\n2. 完成船長—引水人—拖船長MPX，確認主機、舵、側推器、錨、纜繩及拖船可用狀態。\n3. 依題定#411、#405配置拖船，但其實際BP、拖纜SWL及作業限制須查當年資料，不可用馬力直接換算拖力。\n4. 依風壓方向先控制船首／船尾，分段鬆解纜繩，保留必要控制纜；以拖船抵消橫風及控制船首向，避免船舶突然離開碼頭。\n5. 船身離開護舷後，保持足夠安全間距，再逐步建立出港航向及舵效；拖船依計畫由拖帶轉推頂或解除。\n6. 確認航道、交通及VTS許可後出港。\n\n【結論】靠泊舷及拖船分工必須依碼頭方位、船舶操縱特性與現場風流決定；不可把題幹的#411、#405當成可推算BP的充分資料。",
+    "practicalAnalysis": "這題應把「1995年指定碼頭」列為歷史資料待查；操船步驟則可用現行引水實務回答。七級風不能單憑風級決定是否可離泊，還要看陣風、風向、船舶受風面積、拖船BP與碼頭周圍水域。",
+    "keyPoints": [
+      {
+        "point": "歷史靠泊碼頭須以1995年資料確認",
+        "importance": "essential"
+      },
+      {
+        "point": "右舷靠理由依碼頭方向、船舶螺槳效應及風流判斷",
+        "importance": "essential"
+      },
+      {
+        "point": "高潮須重視潮流、UKC及泊位前沿水深",
+        "importance": "essential"
+      },
+      {
+        "point": "#411、#405須查實際BP而非只看主機馬力",
+        "importance": "essential"
+      },
+      {
+        "point": "先控制船首船尾及橫移，再解纜、離岸、轉向",
+        "importance": "essential"
+      }
+    ],
+    "assumptions": [
+      "以2027年備考及現行臺中港作業安全原則整理；凡題目指定1995年歷史資料者，均不以現況資料冒充。"
+    ],
+    "limitations": [
+      "未取得民國84年汽車船靠泊碼頭公告及#411、#405拖船規格／BP。"
+    ],
+    "references": [
+      {
+        "title": "臺中港港區圖及碼頭水深圖",
+        "sourceType": "official_port_chart",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/port/Articles?a=775",
+        "supports": "現行港區及碼頭水深圖下載入口；不可當作1995年歷史圖資。"
+      },
+      {
+        "title": "臺中港碼頭設施資料",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/zh-tw/port/Articles?a=778",
+        "supports": "現行碼頭用途、長度及水深資料。"
+      },
+      {
+        "title": "臺中港區總圖及專業區規劃",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司",
+        "url": "https://tc.twport.com.tw/zh-TW/about/Articles?a=760",
+        "supports": "現行港區總體配置及專業區規劃。"
+      }
+    ],
+    "verification": {
+      "status": "partially_verified"
+    }
+  },
+  {
+    "questionId": "084-taichung-waterway-03",
+    "modelAnswer": "【2027年備考主答｜運煤航道水深、吃水限制與UKC】\n\n本題所問「設計水深、滿載進港最大水尺、航道寬度、燈浮標示寬度」均是民國84年特定航道設計與當時公告數值，必須引用原始設計圖、航船布告及當年港口規章。現行臺中港測深成果是115年4月資料，不能反推1995年的設計值或滿載吃水限制。\n\n一、滿載煤輪進港水深餘裕至少考慮：\n1. 靜態吃水：艏、艉及平均吃水，縱傾／橫傾。\n2. 潮位：進港時預報與實測潮高，潮時誤差及潮位變化。\n3. Squat：依船速、船型、航道水深／船寬比及受限水域效應估算。\n4. 波浪運動：縱搖、橫搖、升沉及波浪造成的瞬時吃水增加。\n5. 測深與底質：測深誤差、淤積、疏浚後水深變化及底質安全餘裕。\n6. 船舶操縱：航道轉向、偏離中心線、會船／追越限制及低速操縱。\n7. 港方規定：最新UKC政策、潮窗、吃水限制及臨時航行公告。\n\n二、基本計算概念\n可用水深 = 海圖基準面水深 + 當時潮高（須確認基準一致）。\nUKC = 可用水深 − 船舶瞬時最大吃水。\n若將squat、波浪運動等分項列出，應避免重複扣除。\n\n三、燈浮標示航道寬度之用意\n燈浮標示的是可辨識的安全航行水域或航道邊界，不等同於航道全寬都可任意使用。其目的在於協助船舶辨識可航水域、保持航跡、減少擱淺及偏航風險；實際航行仍應依海圖、航道規則、VTS指示及船舶操縱性能。\n\n【結論】歷史數字待原始航船布告核對；2027年作答重點是以現行測深、潮位、squat、波浪及港方UKC規定判斷最大安全吃水。",
+    "practicalAnalysis": "題目把設計水深、港方最大吃水限制、燈浮標示寬度混在一起，三者不可混為一談。考場若沒有可靠歷史數字，應明確指出資料時點，不可拿現行測深圖替代設計值。",
+    "keyPoints": [
+      {
+        "point": "歷史設計數字須查民國84年原始圖資",
+        "importance": "essential"
+      },
+      {
+        "point": "區分設計水深、實測水深及最大准許吃水",
+        "importance": "essential"
+      },
+      {
+        "point": "UKC納入潮位、squat、波浪、縱傾橫傾與測深誤差",
+        "importance": "essential"
+      },
+      {
+        "point": "燈浮是航道辨識與邊界提示，不代表全寬任意可航",
+        "importance": "essential"
+      },
+      {
+        "point": "不可重複扣除squat或波浪等分項",
+        "importance": "essential"
+      }
+    ],
+    "assumptions": [
+      "以2027年備考及現行臺中港作業安全原則整理；凡題目指定1995年歷史資料者，均不以現況資料冒充。"
+    ],
+    "limitations": [
+      "尚未取得民國84年運煤航道設計水深、最大吃水公告、航道寬度及燈浮配置圖。"
+    ],
+    "references": [
+      {
+        "title": "臺中港港區圖及碼頭水深圖",
+        "sourceType": "official_port_chart",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/port/Articles?a=775",
+        "supports": "現行港區及碼頭水深圖下載入口；不可當作1995年歷史圖資。"
+      },
+      {
+        "title": "臺中港碼頭設施資料",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/zh-tw/port/Articles?a=778",
+        "supports": "現行碼頭用途、長度及水深資料。"
+      },
+      {
+        "title": "臺中港區總圖及專業區規劃",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司",
+        "url": "https://tc.twport.com.tw/zh-TW/about/Articles?a=760",
+        "supports": "現行港區總體配置及專業區規劃。"
+      }
+    ],
+    "verification": {
+      "status": "partially_verified"
+    }
+  },
+  {
+    "questionId": "084-taichung-waterway-04",
+    "modelAnswer": "【2027年備考主答｜風壓、拖船拖力及尼龍拖纜估算】\n\n題目提供平均風速15m/s、空船吃水艏6m艉7m，並指定#411、#405；但未提供船舶水上側投影面積、風壓係數、拖船BP、拖纜材質等級及安全係數，因此不能負責任地填出唯一的受風面積、風壓噸數、拖船拖力或纜繩直徑。\n\n一、受風面積\n應依巴拿馬極限型船舶的總布置圖或側視圖，分別估算水線以上船體、甲板貨艙口／艙蓋、甲板室及甲板設備的側投影面積，扣除重疊投影。不可只用LOA乘型寬估算。\n\n二、風壓\n可採：\nF = 0.5 × ρ_air × C_D × A × V²\n其中ρ_air為空氣密度、C_D為風阻係數、A為受風投影面積、V為相對風速。若以噸力表示，需將牛頓換算為kN及tf，並說明採用的C_D與風速定義。題目平均風速15m/s並不足以決定A與C_D。\n\n三、拖船拖力\n拖船可用拖力應以繫柱拖力BP證書或港方核定資料為準，並考慮拖帶方向、拖纜角度、拖船自身受風、波浪、船速及持續拖力折減。主機HP不能直接換算成BP。\n\n四、尼龍拖纜\n依拖船／被拖船繫柱、導纜孔、拖鉤、拖纜SWL、破斷強度、材質及作業規範選擇；尼龍伸長率高，須考慮回彈能量及snap-back危險區。纜繩直徑與條數須按核定拖帶計畫及拖船配備決定，不能由船舶吃水單獨推算。\n\n五、出港操船\n先完成MPX、確認風向與碼頭夾角，依風壓方向配置艏艉拖船；控制船首向與船尾偏移，分段解纜，船體離開碼頭後再建立出港航向，保持拖船安全受力角度及通訊。\n\n【結論】本題可完整寫出估算方法與所需資料；未提供側投影面積、BP及纜繩規格時，應把數值列為待查，不可虛構。",
+    "practicalAnalysis": "這是典型資料不足的工程估算題。若取得原始船型圖、拖船證書及纜繩規格，才能進一步算出數字；目前只可給出公式、變數及作業步驟。",
+    "keyPoints": [
+      {
+        "point": "受風面積由水線以上側投影面積計算",
+        "importance": "essential"
+      },
+      {
+        "point": "風壓公式F=0.5ρC_DAV²",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船HP不等於BP，應查繫柱拖力證書",
+        "importance": "essential"
+      },
+      {
+        "point": "尼龍纜繩依SWL、破斷強度、材質及安全係數選擇",
+        "importance": "essential"
+      },
+      {
+        "point": "拖纜伸長與snap-back風險須納入拖帶計畫",
+        "importance": "essential"
+      }
+    ],
+    "assumptions": [
+      "以2027年備考及現行臺中港作業安全原則整理；凡題目指定1995年歷史資料者，均不以現況資料冒充。"
+    ],
+    "limitations": [
+      "未取得巴拿馬極限型船舶水上側投影面積、#411及#405的BP、拖纜規格與港方作業標準。"
+    ],
+    "references": [
+      {
+        "title": "臺中港港區圖及碼頭水深圖",
+        "sourceType": "official_port_chart",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/port/Articles?a=775",
+        "supports": "現行港區及碼頭水深圖下載入口；不可當作1995年歷史圖資。"
+      },
+      {
+        "title": "臺中港碼頭設施資料",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/zh-tw/port/Articles?a=778",
+        "supports": "現行碼頭用途、長度及水深資料。"
+      },
+      {
+        "title": "臺中港區總圖及專業區規劃",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司",
+        "url": "https://tc.twport.com.tw/zh-TW/about/Articles?a=760",
+        "supports": "現行港區總體配置及專業區規劃。"
+      }
+    ],
+    "verification": {
+      "status": "partially_verified"
+    }
+  },
+  {
+    "questionId": "084-taichung-waterway-05",
+    "modelAnswer": "【2027年備考主答｜北外防波堤延伸850m對引水作業之影響】\n\n防波堤延伸會改變港口遮蔽條件、波浪傳播、港口入口流場及航行可用空間；其影響不能只用「港內更平靜」概括。\n\n一、可能正面影響\n1. 增加特定波向下的遮蔽效果，降低部分波浪直接傳入港池的能量。\n2. 改善部分季風或湧浪條件下的港內作業窗口，提升船舶待泊及靠離泊穩定性。\n3. 改變港口入口波浪條件，可能減少某些方向的橫浪。\n\n二、可能負面或需重新評估的影響\n1. 入口有效寬度及進出航路幾何改變，需重新評估航道中心線、轉向點及大型船舶迴旋餘裕。\n2. 防波堤端部繞射、反射及港池共振可能造成局部波浪集中或長週期振盪。\n3. 堤頭附近流速、回流、沿岸漂砂及淤積型態可能改變，影響航道及泊位水深。\n4. 助航標誌、燈質、導標及VTS航行程序須配合工程更新。\n5. 引水人應重新熟悉入口風場、流場、視覺標誌及拖船工作區。\n\n三、2027引水作業重點\n工程完成後應依最新海圖、港區配置圖、航道測深、潮流與波浪觀測資料更新引水計畫；首航或大型船舶作業前，應確認港方公告及限制條件。\n\n【結論】防波堤延伸既可能改善遮蔽，也可能改變入口流場、波浪及淤積；引水人必須依工程後實測資料重新評估，不可單向認定一定改善。",
+    "practicalAnalysis": "題目指定「延伸850m之後」是民國84年的工程情境，應先找當年工程設計與完工前後水工模型／觀測報告。上述是可用於2027備考的通用影響分析，不能冒充該次工程的歷史評估結論。",
+    "keyPoints": [
+      {
+        "point": "波浪遮蔽及港池振盪",
+        "importance": "essential"
+      },
+      {
+        "point": "口門寬度、航道幾何及大型船舶迴旋空間",
+        "importance": "essential"
+      },
+      {
+        "point": "堤頭繞射、反射及局部流場",
+        "importance": "essential"
+      },
+      {
+        "point": "漂砂、淤積及航道水深變化",
+        "importance": "essential"
+      },
+      {
+        "point": "助航標誌、海圖及引水程序更新",
+        "importance": "essential"
+      }
+    ],
+    "assumptions": [
+      "以2027年備考及現行臺中港作業安全原則整理；凡題目指定1995年歷史資料者，均不以現況資料冒充。"
+    ],
+    "limitations": [
+      "未取得民國84年北外防波堤延伸工程設計圖、模型試驗及完工後觀測資料。"
+    ],
+    "references": [
+      {
+        "title": "臺中港港區圖及碼頭水深圖",
+        "sourceType": "official_port_chart",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/port/Articles?a=775",
+        "supports": "現行港區及碼頭水深圖下載入口；不可當作1995年歷史圖資。"
+      },
+      {
+        "title": "臺中港碼頭設施資料",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/zh-tw/port/Articles?a=778",
+        "supports": "現行碼頭用途、長度及水深資料。"
+      },
+      {
+        "title": "臺中港區總圖及專業區規劃",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司",
+        "url": "https://tc.twport.com.tw/zh-TW/about/Articles?a=760",
+        "supports": "現行港區總體配置及專業區規劃。"
+      }
+    ],
+    "verification": {
+      "status": "partially_verified"
+    }
+  },
+  {
+    "questionId": "084-taichung-waterway-06",
+    "modelAnswer": "【2027年備考主答｜臺中港南外防波堤燈塔及輔助燈】\n\n題目指定依民國84年4月18日航船佈告作答，要求經緯度、燈質、燈高、公稱光程、顏色外觀及輔助燈明弧等。這些是特定版本的航標資料，必須查閱該期航船佈告或當年燈表；目前臺中港助航設施可能已調整，不能把現行燈表倒填成1995年資料。\n\n考場作答應依下列欄位整理：\n| 項目 | 主燈塔 | 輔助燈 |\n|---|---|---|\n| 位置 | 緯度、經度 | 緯度、經度 |\n| 燈質 | 明暗週期及顏色 | 明暗週期及顏色 |\n| 燈高 | 海面／基準面以上高度 | 海面／基準面以上高度 |\n| 公稱光程 | 浬 | 浬 |\n| 外觀 | 塔身顏色、形狀及標識 | 設施型式 |\n| 明弧 | 如航船佈告有列 | 以度數及作用方向記載 |\n| 用途 | 標示防波堤端部或港口位置 | 協助辨識航道、限制危險方位或提供導引 |\n\n燈質應按航標標準格式書寫，例如Fl、Oc、Iso、Q等，不可只寫「閃光」；位置須標明採用的海圖基準與座標格式。輔助燈明弧應以航船佈告或燈表所列角度為準。\n\n【結論】本題歷史數字目前未取得原始航船佈告，先保留欄位架構，不填入未核實經緯度、燈質及光程。",
+    "practicalAnalysis": "本題10分，適合用表格作答。網站應保留題目要求的所有欄位，等取得1995年4月18日航船佈告後逐欄補值；不應用今日燈表取代歷史資料。",
+    "keyPoints": [
+      {
+        "point": "主燈塔位置、燈質、燈高及公稱光程",
+        "importance": "essential"
+      },
+      {
+        "point": "燈塔高度、顏色與外觀",
+        "importance": "essential"
+      },
+      {
+        "point": "輔助燈位置、燈質、光程及明弧",
+        "importance": "essential"
+      },
+      {
+        "point": "說明輔助燈的導航用途",
+        "importance": "essential"
+      },
+      {
+        "point": "歷史數字須由指定航船佈告核對",
+        "importance": "essential"
+      }
+    ],
+    "assumptions": [
+      "以2027年備考及現行臺中港作業安全原則整理；凡題目指定1995年歷史資料者，均不以現況資料冒充。"
+    ],
+    "limitations": [
+      "尚未取得民國84年4月18日航船佈告及當年臺中港燈表。"
+    ],
+    "references": [
+      {
+        "title": "臺中港港區圖及碼頭水深圖",
+        "sourceType": "official_port_chart",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/port/Articles?a=775",
+        "supports": "現行港區及碼頭水深圖下載入口；不可當作1995年歷史圖資。"
+      },
+      {
+        "title": "臺中港碼頭設施資料",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/zh-tw/port/Articles?a=778",
+        "supports": "現行碼頭用途、長度及水深資料。"
+      },
+      {
+        "title": "臺中港區總圖及專業區規劃",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司",
+        "url": "https://tc.twport.com.tw/zh-TW/about/Articles?a=760",
+        "supports": "現行港區總體配置及專業區規劃。"
+      }
+    ],
+    "verification": {
+      "status": "partially_verified"
+    }
+  }
+]
