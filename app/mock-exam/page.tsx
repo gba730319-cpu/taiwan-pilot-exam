@@ -30,7 +30,7 @@ export default function MockExamPage(){
   const [started,setStarted]=useState(false);
   const [submitted,setSubmitted]=useState(false);
   const [elapsed,setElapsed]=useState(0);
-  const [duration,setDuration]=useState(600);
+  const [duration,setDuration]=useState(3600);
   const [active,setActive]=useState(0);
   const [confirmSubmit,setConfirmSubmit]=useState(false);
   useEffect(()=>{if(!started||submitted)return;const id=window.setInterval(()=>setElapsed(v=>v+1),1000);return()=>window.clearInterval(id);},[started,submitted]);
