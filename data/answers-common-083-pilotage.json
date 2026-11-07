@@ -69,7 +69,7 @@
     "version": 1,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "1. **Diurnal inequality（日不等）**：同一太陰日內兩次高潮（或兩次低潮）的潮高或潮時不相等。主要成因為月球赤緯及觀測地緯度，使潮汐分潮在南北方向的作用不對稱。\\n2. **Solar tide（太陽潮）**：由太陽引潮力造成的潮汐分量。太陽質量大但距離遠，其引潮力小於月球；與月潮疊加後影響潮差。\\n3. **Perigean tide（近地點潮）**：月球位於近地點時，因月地距離較近、引潮力較強而形成的較大潮汐；若同時接近朔望，潮差可能特別大。\\n4. **Spring tide（大潮）**：朔、望附近，日月引潮力大致同一直線，潮差較大；不是指春季發生的潮汐。\\n5. **Priming of the tide（潮汐提前）**：實際高潮或低潮相對於原預報／理論潮時逐漸提早的現象，常與潮波傳播、海灣形狀及水深等局部因素有關；其相對概念為lagging（潮汐延遲）。",
+    "modelAnswer": "【1. Diurnal inequality（日不等）】\n同一太陰日內，連續兩次高潮的潮高或潮時不相等，或連續兩次低潮的潮高或潮時不相等，稱為日不等。主要與月球赤緯及觀測地緯度有關；月球赤緯偏離天球赤道時，兩次潮汐隆起對當地的作用不對稱，日不等通常較明顯。\n\n【2. Solar tide（太陽潮）】\n太陽引潮力所造成的潮汐分量。雖然太陽質量遠大於月球，但因距離地球甚遠，其引潮作用仍小於月球；太陽潮與月球潮疊加，形成大潮、小潮及潮差的週期變化。\n\n【3. Perigean tide（近地點潮）】\n月球位於近地點附近時，因月地距離較近，月球引潮力增強而形成的潮汐。若近地點又與朔、望相近，月球潮與太陽潮疊加，潮差可能特別大；但實際潮高仍受當地海岸及海底地形影響。\n\n【4. Spring tide（大潮）】\n朔、望附近，日、月、地大致成一直線，太陽與月球引潮力在主要方向上相互加強，高潮較高、低潮較低，潮差較大。Spring並非指春季。\n\n【5. Priming of the tide（潮汐提前／潮時加速）】\n依IHO水文學詞典，指因太陽與月球相對位置改變，使高潮、低潮發生時間週期性加速、較原預期提前的現象；相反現象稱lagging of the tides（潮汐延遲）。此處重點是潮時提前，不是單純指潮流流速增加，也不等同於某港站因地形造成的局部潮時差。\n\n【記憶對照】\nDiurnal inequality＝同一太陰日兩次潮高／潮時不等；\nSolar tide＝太陽引潮分量；\nPerigean tide＝月球近地點時的潮汐；\nSpring tide＝朔望大潮；\nPriming＝日月相對位置變化造成高潮、低潮時刻提前。",
     "practicalAnalysis": "本題10分，五個名詞逐一解釋。Diurnal inequality主要由月球赤緯造成；Spring tide是朔望大潮，不是季節春潮。",
     "keyPoints": [
       {
@@ -101,6 +101,20 @@
         "editionOrEffectiveDate": "民國83年（1994）",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=2001&t=Q",
         "supports": "引港學八題原卷。"
+      },
+      {
+        "title": "IHO S-32 Hydrographic Dictionary：Priming of the tide(s)",
+        "sourceType": "international_hydrographic_reference",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://portal.iho.int/iho-ohi/S32/engView.php?page=203",
+        "supports": "Priming of tide定義為日月相對位置改變造成高潮、低潮發生時間加速；相反為lagging。"
+      },
+      {
+        "title": "NOAA Tides and Currents Glossary",
+        "sourceType": "official_hydrographic_reference",
+        "issuer": "NOAA",
+        "url": "https://tidesandcurrents.noaa.gov/glossary",
+        "supports": "Priming of tide為日月相對位置變化造成高潮、低潮時刻週期性提前。"
       }
     ],
     "assumptions": [
@@ -110,18 +124,18 @@
       "Priming of the tide在不同潮汐教材可能有更精確的定義及適用語境，需與考試指定教材核對。"
     ],
     "verification": {
-      "status": "partially_verified",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
           "item": "考選部83年引港學原卷",
           "result": "pass",
-          "note": "八題題文核對。"
+          "note": "五個英文名詞逐項核對。"
         },
         {
-          "item": "歷史浮標圖式及指定教材術語",
-          "result": "partial",
-          "note": "部分歷史圖例及專業名詞待原始教材核對。"
+          "item": "IHO／NOAA潮汐術語",
+          "result": "pass",
+          "note": "修正Priming of tide原答案的含糊描述，明確為潮時提前。"
         }
       ]
     },
@@ -133,7 +147,7 @@
     "version": 1,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、理想化駐波模型】若海峽兩端潮汐相位相反，一端漲潮、另一端退潮，可視為兩端潮波作用形成近似駐波的情況。\\n1. 潮差最大處：理想模型下位於兩端潮位振幅較大的腹點（antinode），通常接近海峽兩端。\\n2. 潮差最小處：位於潮位振幅最小的節點（node），通常在海峽中間附近。\\n3. 潮流流速最大處：在潮位節點附近，因水面坡度及水體往復運動較大，流速可達最大。\\n\\n【二、實際海峽】英吉利海峽的潮汐並非完美一維駐波，實際潮差及流速分布受海底地形、海岸線、潮波反射、摩擦及兩端潮波相位差影響，應以潮汐圖及潮流圖判斷。",
+    "modelAnswer": "【一、題意及理想化模型】\n題目假設海峽兩端潮位相位相反：一端漲潮，另一端退潮。若以兩端反相的潮波作理想化駐波（standing wave）模型，潮位振幅沿海峽呈腹點與節點分布。\n\n1. **潮差最大處：**潮位振幅的腹點（antinode），水面升降幅度最大；在理想化兩端反相模型中，通常接近兩端。\n2. **潮差最小處：**潮位振幅的節點（node），水面升降幅度最小；理想化情況下位於海峽中段附近。\n3. **潮流流速最大處：**潮位節點附近。此處水面高低變化較小，但水面坡度及水體往復流動較強，故潮流速度較大。\n\n【二、為何潮差小而流速反而大】\n駐波中水位振幅與水平流速的空間分布並不相同：水位腹點附近潮差大、流速較小；水位節點附近潮差小、流速較大。不可把「潮差最大」直接等同「潮流最快」。\n\n【三、實際英吉利海峽的限制】\n英吉利海峽並非單純的一維、完全駐波海峽；西部較接近前進潮波，東部駐波成分較強，潮差及流速還受海岸形狀、海底地形、摩擦、科氏力及潮波相位影響。實際航行應查當地潮汐圖及潮流圖，不能把理想模型的「海峽正中央」當成所有海域的固定最大流速位置。",
     "practicalAnalysis": "本題以潮波駐波概念回答：潮位振幅腹點潮差大，節點潮差小，而節點附近潮流最大。實際英吉利海峽需以潮汐圖驗證。",
     "keyPoints": [
       {
@@ -161,6 +175,13 @@
         "editionOrEffectiveDate": "民國83年（1994）",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=2001&t=Q",
         "supports": "引港學八題原卷。"
+      },
+      {
+        "title": "English Channel tidal regime technical review",
+        "sourceType": "hydrographic_research",
+        "issuer": "UK offshore energy technical report",
+        "url": "https://assets.publishing.service.gov.uk/media/5a7ae196e5274a34770e7c62/SEA8_TechRep_SeabedProc_HCProspect.pdf",
+        "supports": "英吉利海峽西部偏前進潮波、東部駐波特性，潮差及流速受地形影響。"
       }
     ],
     "assumptions": [
@@ -176,12 +197,12 @@
         {
           "item": "考選部83年引港學原卷",
           "result": "pass",
-          "note": "八題題文核對。"
+          "note": "依題目假設兩端潮位反相分析。"
         },
         {
-          "item": "歷史浮標圖式及指定教材術語",
+          "item": "英吉利海峽潮波特性",
           "result": "partial",
-          "note": "部分歷史圖例及專業名詞待原始教材核對。"
+          "note": "補充實際海峽並非理想駐波，不能直接把中點當成固定位置。"
         }
       ]
     },
@@ -193,7 +214,7 @@
     "version": 1,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、鋒面通過後氣壓】鋒面接近時，氣壓通常隨低壓系統接近而下降；冷鋒通過後，冷空氣取代暖空氣，氣壓通常迅速回升。若鋒面後方仍有低壓槽或其他系統，氣壓變化可能不同。\\n\\n【二、冷鋒通過現象】\\n1. 溫度下降，露點及濕度可能改變。\\n2. 風向常由偏南／西南轉為偏西北或偏北（依地區及低壓位置而異），風速可能突然增強。\\n3. 冷鋒前方常有積雨雲、雷雨、陣雨及短時強降水；通過後降雨逐漸減弱，能見度可能改善。\\n4. 氣壓通過鋒面後上升，雲量及天氣逐步轉好，但鋒後仍可能有陣雨及強風。\\n5. 海上可能出現風浪方向及浪高快速改變，船舶應注意陣風、湧浪及能見度變化。",
+    "modelAnswer": "【一、鋒面接近及通過時的氣壓變化】\n1. 鋒面隨低壓系統接近時，氣壓通常逐漸下降。\n2. 冷鋒通過測站時，氣壓常在鋒面附近達低點；冷空氣侵入後，氣壓通常轉為上升。\n3. 鋒後氣壓回升的速度與低壓移動、鋒面強度及後方氣團有關；若低壓槽仍在附近，未必立即轉晴。\n\n【二、冷鋒通過時常見現象】\n1. **氣溫：**冷空氣取代暖空氣，氣溫通常明顯下降。\n2. **風向及風速：**常由鋒前偏南至西南風，轉為鋒後偏西至西北風（實際依低壓位置及地區而異）；鋒面附近可能出現陣風及風速突增。\n3. **雲雨：**鋒前暖濕空氣被迫抬升，常形成積雨雲、陣雨、雷雨或短時強降水；通過後降水通常逐漸減弱，但鋒後仍可能有陣雨。\n4. **能見度：**強降雨、低雲及海霧可能使能見度突然惡化；冷鋒通過後，乾冷空氣進入時能見度通常改善。\n5. **海況：**風向、風速快速轉變，風浪方向及浪高可能改變，並可能出現短週期陣風浪及湧浪交叉。\n\n【三、引水與操船注意】\n冷鋒接近時應追蹤氣壓變化、雷雨雲及陣風預報；靠離泊前重新評估拖船能力、風壓中心、纜繩負荷及港池內風流。不可只依氣壓回升就判斷海況已安全。",
     "practicalAnalysis": "本題應分氣壓變化與冷鋒通過現象兩部分。風向轉變須視地區及氣旋位置，不宜固定說所有地區都相同。",
     "keyPoints": [
       {
@@ -221,6 +242,13 @@
         "editionOrEffectiveDate": "民國83年（1994）",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=2001&t=Q",
         "supports": "引港學八題原卷。"
+      },
+      {
+        "title": "NOAA JetStream：Weather fronts and cold fronts",
+        "sourceType": "official_meteorological_reference",
+        "issuer": "NOAA",
+        "url": "https://www.noaa.gov/jetstream",
+        "supports": "冷鋒通過常見氣溫下降、風向轉變、陣雨雷雨及氣壓變化。"
       }
     ],
     "assumptions": [
@@ -234,12 +262,12 @@
         {
           "item": "考選部83年引港學原卷",
           "result": "pass",
-          "note": "八題題文核對。"
+          "note": "鋒面氣壓及冷鋒現象題意已核對。"
         },
         {
-          "item": "歷史浮標圖式及指定教材術語",
-          "result": "partial",
-          "note": "部分歷史圖例及專業名詞待原始教材核對。"
+          "item": "氣象學基本機制",
+          "result": "pass",
+          "note": "補充氣壓、風向、雲雨及海況變化，並避免把鋒後必然晴朗寫成定律。"
         }
       ]
     },
@@ -251,7 +279,7 @@
     "version": 1,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、Clearing bearing（避險方位）】選擇一個岸標或危險物，使其方位保持在安全界線外；只要目標未越過預定危險方位，即可確保船舶不進入危險區。\\n\\n【二、Transit／Leading marks（疊標／導標）】選擇兩個固定岸標，使其保持成一直線，船舶沿該線航行即可通過指定安全水道。\\n\\n【三、Parallel indexing（平行指標）】在雷達上以岸線、碼頭或固定目標建立與計畫航線平行的指標，持續監控船舶與航線的橫向偏移，不必每次取得完整船位即可保持航跡。\\n\\n【四、Danger range／Clearing range（安全距離線）】利用雷達固定物距離、海圖距離圈或已知岸標距離設定安全界線，保持船舶與危險物的距離大於最低安全距離。\\n\\n【補充】亦可使用兩物標方位交叉、平行指標及等距線等方法。這些方法可降低對頻繁精確定位的依賴，但不能完全取代航行監視、海圖改正及必要定位。",
+    "modelAnswer": "本題重點是「不必每次先求得完整船位」，而以預先在海圖上建立的安全界線持續監控船舶是否仍在安全水域。考試可用下列四種方法作答：\n\n【一、Clearing bearing／Danger bearing（清界方位／危險方位）】\n選擇海圖上已知的燈塔、岸標或突出地物，量出危險邊界對該物標的限制方位。航行中持續觀測該物標方位，只要船舶未越過預定清界方位，即可確認仍在危險區外。必須先確認物標及羅經誤差，並預留觀測誤差與船舶轉向時艏艉掃掠的安全裕度。\n\n【二、Danger angle（危險水平角）】\n選擇危險物兩側的兩個固定物標，以六分儀量取兩物標的水平夾角，並在海圖上以危險物為基準建立臨界角。當實測夾角達到或超過預定危險界線時，代表船舶已接近或進入危險區，應及早改向。此法不要求先求出精確經緯度，但必須選擇清楚、固定且可辨識的物標。\n\n【三、Transit／Leading line（疊標／導標）】\n選擇兩個固定物標，使其保持成一直線，作為安全航道的導引線。船舶保持物標疊合即可沿預定安全線通過；若物標分離，表示船舶已偏離該線，須修正航向。應確認該導線本身位於安全水域，不能只看見疊標就假設航線安全。\n\n【四、Clearing range／Danger range（清界距離／危險距離）】\n利用雷達測距、已知岸標距離或海圖上的安全距離界線，設定與危險物之最小安全距離。航行中只要距離保持在安全界線外，即可避免接近危險物。若使用測深作為輔助，必須考慮潮高、海圖基準面及測深儀誤差。\n\n【補充】\n雷達平行指標（Parallel Indexing）亦可在狹水道連續監控船舶與計畫航線的橫向距離，屬現代常用的無須頻繁繪製船位的監控方法；但不應將其與傳統的危險方位、危險水平角混為同一概念。四法的具體分類仍應以當年指定教材為準。",
     "practicalAnalysis": "題目問無需仔細測定船位即可安全通過危險區的方法，應以危險方位、疊標、雷達平行指標及安全距離線作答。",
     "keyPoints": [
       {
@@ -283,6 +311,20 @@
         "editionOrEffectiveDate": "民國83年（1994）",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=2001&t=Q",
         "supports": "引港學八題原卷。"
+      },
+      {
+        "title": "U.S. Navy inshore navigation notes: Danger angle and danger bearing",
+        "sourceType": "navigation_training_reference",
+        "issuer": "U.S. Naval inshore patrol training notes",
+        "url": "https://ncisahistory.org/wp-content/uploads/2019/10/NOTES-ON-INSHORE-PATROL-SERVICE-MAY1917.pdf",
+        "supports": "明確說明不先定位即可避開特定危險的傳統方法，包括danger angle及danger bearing。"
+      },
+      {
+        "title": "NGA Pub. No. 9: The American Practical Navigator",
+        "sourceType": "official_navigation_reference",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "supports": "船位測定、航行監控及平行指標等方法。"
       }
     ],
     "assumptions": [
@@ -298,12 +340,12 @@
         {
           "item": "考選部83年引港學原卷",
           "result": "pass",
-          "note": "八題題文核對。"
+          "note": "題目要求四種無需仔細測定船位的方法。"
         },
         {
-          "item": "歷史浮標圖式及指定教材術語",
+          "item": "傳統導航教材分類",
           "result": "partial",
-          "note": "部分歷史圖例及專業名詞待原始教材核對。"
+          "note": "已確認danger angle及danger bearing是核心傳統方法；其餘兩項的原教材分類仍待指定版本核對。"
         }
       ]
     },
@@ -315,7 +357,7 @@
     "version": 1,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、季風成因】季風是季節性盛行風向反轉的現象，主要由海陸熱力差異、季節性氣壓配置、地球自轉及大尺度環流共同造成。夏季陸地升溫較快，形成較低氣壓，海上暖濕氣流流向陸地；冬季陸地冷卻較快，形成較高氣壓，冷乾空氣由大陸吹向海洋。\\n\\n【二、臺灣夏季】西南季風及西南氣流帶來暖濕空氣，西南部及中南部迎風面降雨增多；若與颱風或低壓系統交互作用，可能造成持續豪雨、河川暴漲及港區淹水。\\n\\n【三、臺灣冬季】東北季風盛行，北部、東北部及東部迎風面常有降雨，北部及東北部海域風浪增強；中南部西側多處於背風側，相對較乾，但海面仍可能受東北季風影響。\\n\\n【四、航海影響】季風改變風向、風浪、海流及港口靠離泊條件；引水人須依季節性風場調整進出港時間、拖船配置、錨泊及靠離泊計畫。",
+    "modelAnswer": "【一、季風的成因】\n季風是大尺度、具有季節性反轉特徵的盛行風系，主要由海陸熱力差異、季節性氣壓配置及大氣環流共同形成，地球自轉與地形也會影響風向及強度。\n1. 夏季：亞洲大陸受日照加熱較快，形成較低氣壓；海洋相對較涼，氣流由海洋吹向大陸，並將暖濕水氣帶入亞洲。\n2. 冬季：亞洲大陸冷卻較快，形成強大的高氣壓，冷乾空氣由大陸向海洋流出，形成東北季風。\n3. 季風並非單純由海陸風放大而成，還受到青藏高原、季節性ITCZ移動、西太平洋副熱帶高壓及中高緯度環流影響。\n\n【二、臺灣夏季氣候】\n1. 西南季風及西南氣流帶來暖濕空氣，西南部及中南部迎風坡常有較多降雨。\n2. 5至6月梅雨鋒面滯留時，易出現持續性降雨；夏季午後熱對流及颱風亦可能造成短延時強降雨。\n3. 若西南氣流與颱風外圍環流交互作用，可能形成極端豪雨及山區災害。\n\n【三、臺灣冬季氣候】\n1. 東北季風盛行，北部、東北部及東部迎風面降雨較多。\n2. 中南部西側位於中央山脈背風側，通常較乾燥，但仍可能受鋒面、地形及局部環流影響。\n3. 北部及東北部海域風浪增強，東北角、蘇澳及基隆附近港區靠離泊須注意陣風、湧浪及橫風。\n\n【四、對航海及引水的影響】\n季風改變港口風向、風壓、波浪、海流及船舶靠離泊條件。引水人應依季節性風場重新評估進港航向、拖船配置、下錨位置、繫纜受力及安全作業窗口。",
     "practicalAnalysis": "本題先說明海陸熱力差異及季節氣壓配置，再分臺灣夏季西南季風與冬季東北季風的氣候影響。",
     "keyPoints": [
       {
@@ -343,6 +385,13 @@
         "editionOrEffectiveDate": "民國83年（1994）",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=2001&t=Q",
         "supports": "引港學八題原卷。"
+      },
+      {
+        "title": "Central Weather Administration: Taiwan climate and monsoon information",
+        "sourceType": "official_meteorological_reference",
+        "issuer": "中央氣象署",
+        "url": "https://www.cwa.gov.tw/",
+        "supports": "臺灣季風、梅雨、東北季風及地形降雨等氣候背景。"
       }
     ],
     "assumptions": [
@@ -356,12 +405,12 @@
         {
           "item": "考選部83年引港學原卷",
           "result": "pass",
-          "note": "八題題文核對。"
+          "note": "季風成因及臺灣氣候影響題意已核對。"
         },
         {
-          "item": "歷史浮標圖式及指定教材術語",
+          "item": "臺灣季風氣候資料",
           "result": "partial",
-          "note": "部分歷史圖例及專業名詞待原始教材核對。"
+          "note": "內容符合一般氣候機制，仍可再補當年指定教材中的季節月份與區域敘述。"
         }
       ]
     },
@@ -373,7 +422,7 @@
     "version": 1,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "| 比較項目 | 熱帶氣旋（Tropical cyclone） | 溫帶氣旋（Extratropical cyclone） |\\n|---|---|---|\\n| 形成區域 | 熱帶及副熱帶暖海面 | 中高緯度鋒面區 |\\n| 能量來源 | 暖海面蒸發及水汽凝結釋放潛熱 | 冷暖氣團溫度梯度及斜壓不穩定 |\\n| 結構 | 暖心、近似軸對稱，成熟時有眼及眼牆 | 冷心或斜壓結構，常有暖鋒、冷鋒及鋒面系統 |\\n| 天氣 | 強風、暴雨、風暴潮及巨浪，中心附近最劇烈 | 鋒面廣泛降水、強風及氣溫變化，影響範圍大 |\\n| 生命史 | 通常由熱帶擾動發展，離開暖海面或遇強風切會減弱 | 由鋒面波動發展，成熟後可能 occlusion 並逐漸消散 |\\n| 移動 | 受副熱帶高壓及大尺度引導氣流影響 | 主要受中緯度西風帶及高空槽脊引導 |\\n\\n【補充】熱帶氣旋移入中緯度後可能發生溫帶化（extratropical transition），其結構及危險天氣會改變，不能只以中心風速判斷危險性。",
+    "modelAnswer": "| 比較項目 | 熱帶氣旋（Tropical cyclone） | 溫帶氣旋（Extratropical cyclone） |\n|---|---|---|\n| 形成區域 | 熱帶及副熱帶暖海面，通常需有足夠海溫及低層渦度 | 中緯度鋒面區，冷暖氣團交界處 |\n| 主要能量 | 暖海面水汽蒸發及凝結釋放潛熱 | 水平溫度梯度與斜壓不穩定所提供的能量 |\n| 垂直結構 | 成熟系統通常為暖心、近似軸對稱 | 多為斜壓結構，成熟後常有冷暖鋒及鋒面系統 |\n| 鋒面 | 成熟熱帶氣旋通常沒有典型冷鋒、暖鋒 | 常伴隨暖鋒、冷鋒及囚錮鋒 |\n| 風場 | 風場較集中於中心附近，成熟時可有眼及眼牆 | 風場範圍常較廣，強風可分布於鋒面及低壓周圍 |\n| 天氣 | 強風、豪雨、風暴潮、巨浪及暴雨帶 | 大範圍降雨、鋒面雷雨、強風及顯著氣溫變化 |\n| 生命史 | 由熱帶擾動發展，受海溫、濕度及垂直風切影響 | 由鋒面波動發展，可能成熟、囚錮後逐漸消散 |\n| 移動 | 受副熱帶高壓及大尺度引導氣流影響 | 主要受中緯度西風帶及高空槽脊引導 |\n\n【補充說明】\n1. 熱帶氣旋不一定每個都具有清楚的眼；眼及眼牆是成熟強烈熱帶氣旋的典型結構。\n2. 溫帶氣旋通常水平尺度較大，影響範圍廣，但其最大風速不必然低於熱帶氣旋。\n3. 熱帶氣旋進入中緯度後可能發生溫帶轉化（extratropical transition），逐漸取得鋒面及斜壓特徵；不能只以「暖心／冷心」作為唯一判斷標準。",
     "practicalAnalysis": "本題適合用表格比較形成區域、能量來源、結構、天氣、生命史及移動路徑。",
     "keyPoints": [
       {
@@ -401,6 +450,13 @@
         "editionOrEffectiveDate": "民國83年（1994）",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=2001&t=Q",
         "supports": "引港學八題原卷。"
+      },
+      {
+        "title": "NOAA JetStream: Tropical cyclones and mid-latitude cyclones",
+        "sourceType": "official_meteorological_reference",
+        "issuer": "NOAA",
+        "url": "https://www.noaa.gov/jetstream",
+        "supports": "熱帶與溫帶氣旋形成機制、結構及天氣特徵。"
       }
     ],
     "assumptions": [
@@ -414,12 +470,12 @@
         {
           "item": "考選部83年引港學原卷",
           "result": "pass",
-          "note": "八題題文核對。"
+          "note": "熱帶與溫帶氣旋比較題目已核對。"
         },
         {
-          "item": "歷史浮標圖式及指定教材術語",
+          "item": "氣象學基本定義",
           "result": "partial",
-          "note": "部分歷史圖例及專業名詞待原始教材核對。"
+          "note": "修正為比較能量來源、結構、鋒面與生命史；實際個案可能有例外。"
         }
       ]
     },
@@ -431,7 +487,7 @@
     "version": 1,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "月球對潮汐的影響主要來自以下因素：\\n1. **月相（Phase）**：朔、望時日月引潮力大致同向，形成大潮；上弦、下弦時部分抵銷，形成小潮。\\n2. **月球赤緯（Declination）**：月球赤緯越大，南北半球潮汐不等現象通常越明顯，造成同一太陰日兩次高潮及低潮高度不相等。\\n3. **月地距離（Perigee／Apogee）**：月球近地點時引潮力較強，遠地點時較弱。\\n4. **月球視位置及時角**：月球相對觀測地的方位及高度角影響潮汐隆起位置及潮時。\\n5. **月球軌道傾角及交點週期**：月球軌道相對黃道及赤道的傾斜，造成赤緯週期變化，進而影響潮汐不等。\\n6. **太陰日長度**：月球每日相對地球位置變化，使相鄰高潮及低潮時間通常每日延遲約50分鐘左右，但實際港站受潮波傳播及地形影響。\\n\\n此外，太陽引潮力、海底地形、海岸線及水深也會與月球作用共同決定當地潮汐。",
+    "modelAnswer": "月球對潮汐的影響，主要經由月球引潮力的大小、方向及其週期變化產生，應掌握下列因素：\n\n1. **月球相位／月相（Phase）：**朔、望時，日月引潮作用大致同向，形成大潮；上弦、下弦時兩者部分抵銷，形成小潮。\n2. **月球赤緯（Declination）：**月球赤緯改變南北方向引潮力分布，使同一太陰日兩次高潮及低潮可能出現高度或潮時不等（日不等）。\n3. **月地距離（Perigee／Apogee）：**月球近地點時引潮力較強，遠地點時較弱；近地點與朔望重合附近可能出現較大的潮差。\n4. **月球時角及相對方位：**月球相對觀測地的方位及高度角，影響當地潮汐隆起與潮時。\n5. **月球軌道傾角及交點週期：**月球軌道相對黃道、赤道的傾斜及交點位置變化，造成月球赤緯的週期變化，進而影響日不等。\n6. **太陰日：**月球相對地球自轉方向每日向東移動，使同一地點的月球過中天時間平均每日延後約50分鐘；潮時也常有每日延遲，但實際港站受潮波傳播及地形影響，不會固定每天恰好延遲50分鐘。\n\n【補充】\n當地實際潮汐並非只由月球決定；太陽引潮力、海底地形、水深、海岸線、海灣共振及摩擦均會改變潮差、潮時及潮流。",
     "practicalAnalysis": "本題15分，從月相、赤緯、月地距離、月球視位置、軌道傾角及太陰日等因素說明。",
     "keyPoints": [
       {
@@ -463,6 +519,20 @@
         "editionOrEffectiveDate": "民國83年（1994）",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=2001&t=Q",
         "supports": "引港學八題原卷。"
+      },
+      {
+        "title": "NOAA Tides and Currents: Tides and lunar effects",
+        "sourceType": "official_hydrographic_reference",
+        "issuer": "NOAA",
+        "url": "https://tidesandcurrents.noaa.gov/",
+        "supports": "月球及太陽引潮力、月相、月球週期與潮汐變化。"
+      },
+      {
+        "title": "IHO S-32 Hydrographic Dictionary",
+        "sourceType": "international_hydrographic_reference",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://portal.iho.int/iho-ohi/S32/engView.php?page=203",
+        "supports": "潮汐相關專有名詞及潮時提前／延遲定義。"
       }
     ],
     "assumptions": [
@@ -476,12 +546,12 @@
         {
           "item": "考選部83年引港學原卷",
           "result": "pass",
-          "note": "八題題文核對。"
+          "note": "月球影響潮汐因素題意已核對。"
         },
         {
-          "item": "歷史浮標圖式及指定教材術語",
+          "item": "潮汐天文因素",
           "result": "partial",
-          "note": "部分歷史圖例及專業名詞待原始教材核對。"
+          "note": "已區分月相、赤緯、月地距離、時角與軌道週期；地方潮汐仍須看港站調和常數。"
         }
       ]
     },
