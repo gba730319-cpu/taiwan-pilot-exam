@@ -1,0 +1,85 @@
+[
+  {
+    "id": "answer-112-pilotage-02",
+    "questionId": "112-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、ECDIS警報與指示的區別\n依IMO ECDIS性能標準MSC.232(82)及其Appendix 5，Alarm（警報）係以聲響或聲響加視覺方式通知駕駛員有需要注意的狀況；Indication（指示）主要以視覺方式提供系統或設備狀態資訊。兩者不可混稱：警報通常要求立即注意及採取行動，指示則提醒駕駛員留意顯示、資料或設定狀態。\n\n二、可依功能分成四組\n（一）航行危險與安全等深線警報／指示：\n1. 本船在預設時間內將穿越安全等深線（Safety Contour）時，ECDIS應發出警報。\n2. 航線規劃跨越本船安全等深線時，應給予指示；航線監控時接近或穿越危險物、禁航區或具有特殊條件區域，依標準設定發出警報或指示。\n3. 進入具有特殊條件的區域（Area with special conditions），依標準發出警報或指示，例如禁航、限制或需特別注意的海域。\n（二）航線規劃及航線監控警報：\n1. 本船偏離航線超過駕駛員設定的Cross Track Limit時，發出偏航警報。\n2. 接近關鍵點（Approach to critical point）時發出警報，提醒駕駛員即將抵達轉向點、航路關鍵點或需採取操作的地點。\n3. 航線監控時，若預定航線將使船舶接近／穿越危險物，依標準提供警報或指示；規劃階段跨越安全等深線、禁航或特殊區域則提供相應指示。\n（三）定位、基準及系統完整性警報：\n1. Positioning system failure：定位系統失效時發出警報，提醒不得再盲目依賴失效位置來源。\n2. Different geodetic datum：定位系統與ENC使用不同大地基準時，須警報或指示，避免船位與海圖錯置。\n3. ECDIS malfunction：ECDIS發生故障時發出警報；若系統測試失敗，依標準顯示指示。\n（四）海圖資料與顯示狀態指示：\n1. Information overscale：顯示比例尺大於資料原始編製比例尺，提示使用者目前為超比例尺顯示，細節不會因此增加。\n2. Larger scale ENC available：有更大比例尺ENC可用時提示切換。\n3. No ENC available：目前區域沒有可用ENC時提示，可能須依核准程序使用RCDS或備援海圖系統。\n4. Default safety contour：所選安全等深線無法在ENC中找到完全相同等深線時，ECDIS採用較深的可用等深線，並應提供指示。\n5. Customized display、海圖更新狀態及其他資料狀態，依設備版本及標準顯示相應指示。\n\n三、操作及引水實務注意事項\n（一）ECDIS警報不是自動避碰系統，駕駛員仍須維持瞭望、定位、雷達觀測及COLREG判斷。\n（二）航線規劃前應正確設定安全等深線、安全水深、XTD、航線警戒距離及Look-ahead time；設定值應依船舶吃水、UKC政策、潮高、squat及港口規定決定，不得任意採用預設值。\n（三）警報過多容易造成Alarm fatigue。應依公司SMS、設備操作手冊及航行環境設定合理警戒值，不能為減少警報而任意關閉重要安全警報。\n（四）不同ECDIS型號、軟體版本及適用性能標準可能在介面分類及呈現方式上有所差異；考試應以IMO性能標準的Alarm／Indication定義及Appendix 5項目為主。\n\n結論：ECDIS警報／指示可按航行危險、航線監控、定位及系統完整性、海圖資料顯示四組整理。核心項目包括穿越安全等深線、進入特殊條件區、偏離航線、接近關鍵點、定位失效、大地基準不同及ECDIS故障；超比例尺、更大比例尺ENC可用、無ENC及預設安全等深線等則屬資料或顯示指示。",
+    "practicalAnalysis": "本題20分，建議按四組各5分作答，並在開頭先定義Alarm與Indication。最容易失分的是把所有項目都寫成「警報」：MSC.232(82) Appendix 5明確區分Alarm、Indication及Alarm or Indication。需註明部分項目在不同作業情境下分別是航線規劃指示或航線監控警報。",
+    "keyPoints": [
+      {
+        "point": "Alarm為聲響或聲響加視覺提示需注意狀況；Indication為視覺狀態資訊。",
+        "importance": "essential"
+      },
+      {
+        "point": "航行危險：穿越安全等深線、進入特殊條件區、航線接近危險物。",
+        "importance": "essential"
+      },
+      {
+        "point": "航線監控：偏離航線、接近關鍵點、監控時跨越危險。",
+        "importance": "essential"
+      },
+      {
+        "point": "定位／系統：定位系統失效、大地基準不同、ECDIS故障及系統測試失敗。",
+        "importance": "essential"
+      },
+      {
+        "point": "資料／顯示：超比例尺、更大比例尺ENC可用、無ENC、預設安全等深線及自訂顯示狀態。",
+        "importance": "essential"
+      },
+      {
+        "point": "ECDIS不取代瞭望與COLREG；安全等深線、XTD及警戒時間必須依船舶及水域設定。",
+        "importance": "essential"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "note": "未取得官方逐項評分細則；配分僅供複習。"
+    },
+    "references": [
+      {
+        "title": "Resolution MSC.232(82) — Revised Performance Standards for ECDIS",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.232%2882%29.pdf",
+        "supports": "第11節航線規劃及監控、Appendix 5警報與指示清單。"
+      },
+      {
+        "title": "Appendix 5 — Alarms and Indicators",
+        "sourceType": "technical_standard_reference",
+        "issuer": "IMO MSC.232(82)",
+        "url": "https://www.imorules.com/GUID-46672FB3-9ED1-4705-92E6-DC4185CB20BD.html",
+        "supports": "警報與指示項目分類及觸發條件。"
+      },
+      {
+        "title": "ECDIS — Electronic Chart Display and Information System",
+        "sourceType": "official_guidance",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/electronic-charts.aspx",
+        "supports": "ECDIS作為SOLAS航海設備及性能標準的背景。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "IMO MSC.232(82)為本題核心性能標準；實船設備可能另依後續適用的IEC測試標準及型式認可版本，介面文字與警報呈現可能不同。"
+    ],
+    "verification": {
+      "status": "verified_with_scope",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目",
+          "result": "pass",
+          "note": "依112年度題庫主檔核對題目。"
+        },
+        {
+          "item": "主要專業依據",
+          "result": "pass",
+          "note": "依IMO／IHO／IALA官方標準或主管機關資料整理。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
