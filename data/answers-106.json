@@ -1209,14 +1209,38 @@
   {
     "questionId": "106-shiphandling-01",
     "modelAnswer": "本題拖輪馬力估算應先求船舶受風力，再換算所需橫向控制力與拖輪有效拖力。已知LOA 213m、船深16.5m、最大吃水10m、住艙長19.2m、駕駛台頂高21m，主甲板以上四層貨櫃，正橫吹開風22節，艏側推器1,500HP，忽略水流阻力。第一步依題目所給船體及貨櫃輪廓，估算水線以上正橫投影面積A及風壓中心；貨櫃層數、住艙與駕駛台高度須避免重複計算。第二步以風速換算m/s，採用風力公式F=0.5ρ_air·C_D·A·V²，ρ_air約1.225kg/m³，C_D依船型及風向選取合理係數。第三步將風力分解為橫向力及偏航力矩，並考慮拖輪作用點與風壓中心力臂。第四步估算艏側推器在實際船速下可提供的有效推力，注意1,500HP是功率，不可直接當成1,500匹等值拖力。最後依拖輪繫帶方式、拖輪推／拉角度、拖纜效率及安全裕度，求所需拖輪有效拖力，再依拖輪繫柱拉力（Bollard Pull）或港方拖輪性能表選擇馬力。",
-    "practicalAnalysis": "題目提供多項高度與長度資料，目的在估算受風面積與風壓中心，而非只用船長乘船深。22節約11.32m/s。若沒有貨櫃實際寬度、船體上層建築投影、風壓係數、拖輪BP及側推器推力曲線，無法得到唯一可靠的馬力數值。側推器的有效推力會隨船速、電力／液壓供應及安裝條件下降，且主要提供艏部橫向力，不能完全替代拖輪對艏艉及偏航的控制。",
+    "practicalAnalysis": "本題的核心不是猜出一個拖輪HP，而是建立受風力—偏航力矩—側推器—拖輪BP的完整力學鏈。題目未給足投影面積、阻力係數及拖輪BP，答案應明確指出無法唯一求值。",
     "keyPoints": [
-      "估算正橫受風投影面積及風壓中心。",
-      "22節換算約11.32m/s，使用風力公式F=0.5ρC_DAV²。",
-      "計算橫向風力及對船舶造成的偏航力矩。",
-      "考慮1,500HP艏側推器的實際有效推力與船速限制。",
-      "拖輪須以BP、作用角度、力臂及拖纜效率換算有效控制力。",
-      "加計安全裕度後，依拖輪性能表選擇馬力，不能以HP直接等同拖力。"
+      {
+        "point": "22kn換算與風力公式",
+        "importance": "essential",
+        "result": "pass",
+        "note": "22kn約11.32m/s，採風力平方關係。"
+      },
+      {
+        "point": "投影面積與風壓中心",
+        "importance": "important",
+        "result": "verified_with_scope",
+        "note": "需由實際輪廓估算；題幹未提供完整貨櫃寬度及投影圖。"
+      },
+      {
+        "point": "側推器功率與推力區分",
+        "importance": "essential",
+        "result": "pass",
+        "note": "1,500HP為功率，不可直接當作拖力。"
+      },
+      {
+        "point": "拖輪BP及有效力矩",
+        "importance": "essential",
+        "result": "pass",
+        "note": "依BP、拖纜角度、作用點及船速評估。"
+      },
+      {
+        "point": "所需拖輪馬力數值",
+        "importance": "important",
+        "result": "verified_with_scope",
+        "note": "題目資料不足，不能唯一求解，不虛構數值。"
+      }
     ],
     "references": [
       {
@@ -1228,26 +1252,93 @@
         "title": "MSC.137(76) Standards for Ship Manoeuvrability",
         "issuer": "IMO",
         "url": "https://www.imorules.com/GUID-DB7CD50D-0335-4910-AAB7-95ABD47A4A25.html"
+      },
+      {
+        "title": "A Guide to Good Practice on Port and Marine Facilities",
+        "url": "https://www.gov.uk/government/publications/a-guide-to-good-practice-on-port-marine-operations/a-guide-to-good-practice-on-port-and-marine-facilities",
+        "issuer": "Official / technical reference",
+        "sourceType": "technical_reference",
+        "supports": "港口拖輪指引應依船長、吃水、操縱性、環境及拖輪能力調整，並遵循港口作業限制。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "TP 15491 — Tug Guidance Notes",
+        "url": "https://tc.canada.ca/en/marine-transportation/publications/tp-15491-small-vessel-compliance-program-tug-guidance-notes-06-2024",
+        "issuer": "Official / technical reference",
+        "sourceType": "technical_reference",
+        "supports": "Bollard Pull為拖輪在測試條件下可產生的最大靜態拉力，須用於評估拖帶能力。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部106年船舶操縱試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1011&t=Q",
+        "issuer": "考選部",
+        "sourceType": "technical_reference",
+        "supports": "原題及題目給定條件。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "題目資料不足以唯一計算拖輪馬力：未給船寬、完整正橫投影輪廓、風壓係數、側推器推力曲線及拖輪BP。應以題目指定教材／當年課堂公式及拖輪性能表完成數值計算；本答案不捏造數值結論。"
     ],
     "verification": {
-      "status": "partially_verified"
-    }
+      "status": "verified_with_scope",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "22kn換算與風力公式",
+          "result": "pass",
+          "note": "22kn約11.32m/s，採風力平方關係。"
+        },
+        {
+          "item": "投影面積與風壓中心",
+          "result": "verified_with_scope",
+          "note": "需由實際輪廓估算；題幹未提供完整貨櫃寬度及投影圖。"
+        },
+        {
+          "item": "側推器功率與推力區分",
+          "result": "pass",
+          "note": "1,500HP為功率，不可直接當作拖力。"
+        },
+        {
+          "item": "拖輪BP及有效力矩",
+          "result": "pass",
+          "note": "依BP、拖纜角度、作用點及船速評估。"
+        },
+        {
+          "item": "所需拖輪馬力數值",
+          "result": "verified_with_scope",
+          "note": "題目資料不足，不能唯一求解，不虛構數值。"
+        }
+      ]
+    },
+    "version": 2,
+    "answer": "【2027年考試主答｜橫風下貨櫃船靠泊所需拖輪能力估算】\n\n一、先求風壓，不可直接由船長或總噸位推算拖輪馬力\n題目條件：LOA 213m、船深16.5m、最大吃水10m、住艙長19.2m、主甲板至駕駛台頂21m、主甲板上四層貨櫃、正橫吹開風22kn、艏側推器1,500HP，忽略水流阻力。\n\n風速換算：\n\\[\nV=22\\times0.514444=11.32\\text{ m/s}\n\\]\n風力估算式：\n\\[\nF_W=\\frac12\\rho_a C_D A V^2\n\\]\n其中\\(\\rho_a\\)為空氣密度（可取約1.225kg/m³作估算）、\\(C_D\\)為相應風向及船型的風阻係數、\\(A\\)為水線以上正橫投影面積。應依船體、上層建築及貨櫃實際外形分段估算，不能把住艙、駕駛台與貨櫃重複計入。\n\n二、由風力進一步計算操縱需求\n1. 求風壓中心位置，將風力分解為橫向力及對船舶重心／操縱中心的偏航力矩。\n2. 風壓中心與艏艉拖輪作用點不同，故需同時計算平移控制力與偏航控制力矩。\n3. 艏側推器只能在其有效工作條件下提供艏部橫向力；1,500HP是功率，不等於1,500匹拖力，也不能直接換算成固定噸數的推力。\n4. 側推器實際推力須查製造商推力曲線或本船操縱資料，並考慮船速、電力供應、隧道流場及連續工作限制。\n\n三、選擇拖輪\n1. 先決定拖輪接帶位置、推／拉方向、拖纜角度及可用力臂。\n2. 以拖輪證書或港方資料所列Bollard Pull（BP）作為靜態能力基準；實際作業有效拖力會受船舶前進速度、拖輪相對位置、拖纜角度、船體遮蔽及水流影響。\n3. 以各拖輪有效力的橫向分量計算合力，並以作用點至操縱中心的距離計算力矩；不可只把各拖輪馬力相加。\n4. 最後依風力變化、靠泊空間、船舶剩餘操縱能力及港方拖輪調派標準留設安全裕度。\n\n四、題目資料不足之處\n題目沒有提供貨櫃實際寬度及排列、完整正橫投影輪廓、風阻係數、艏側推器推力曲線、拖輪BP及可用拖纜角度，因此無法唯一算出所需拖輪馬力。考試作答應列出上述計算流程與缺少資料，不應臆造一個HP數字。\n\n【得分關鍵】風力平方關係、正橫投影面積、風壓中心與偏航力矩、側推器功率不等於推力、拖輪以BP及有效作用方向評估。",
+    "lastUpdated": "2026-11-07"
   },
   {
     "questionId": "106-shiphandling-02",
     "modelAnswer": "BTM（Bridge Team Management，駕駛台團隊管理）著重建立有效的駕駛台團隊合作，包括工作分配、資訊交換、共同監控、溝通、決策及資源管理。題目所稱BTCC（Bridge Team Command and Control，駕駛台統御與控制）可理解為在團隊管理基礎上，進一步強調明確指揮鏈、任務授權、態勢掌握、命令傳達、執行監控及回饋修正。其重點包括：船長／值班駕駛員明確分工；航線與操船計畫共同簡報；關鍵操作採閉環溝通；對引水人操作進行監控與交叉核對；遇有疑慮及時提出；掌握船位、航向、航速、CPA/TCPA、環境及設備狀態；在緊急情況下由指定指揮者整合資源並維持一致行動。",
-    "practicalAnalysis": "BTCC並非IMO公約中統一規定的獨立法定制度名稱，答題宜將其視為教材或業界倡議用語，說明其相對BTM所強調的指揮、控制與回饋面向，不應宣稱已取代BRM／BTM或是國際強制規範。",
+    "practicalAnalysis": "BTCC屬題目所用管理概念名稱，未查得IMO將其制定為獨立法定制度；以概念性比較作答，並以A.960(23)支持引水作業中的MPX及團隊合作。",
     "keyPoints": [
-      "BTM：團隊合作、溝通、工作負荷管理及共同監控。",
-      "BTCC：在團隊管理上強調指揮鏈、命令、控制與回饋。",
-      "明確角色分工與船長／值班駕駛員責任。",
-      "共同航行計畫、引水人簡報及閉環溝通。",
-      "交叉核對船位、航向、航速、CPA/TCPA及設備狀態。",
-      "鼓勵質疑與升級通報，緊急時維持統一指揮。"
+      {
+        "point": "BTM團隊管理內容",
+        "importance": "essential",
+        "result": "pass",
+        "note": "補入分工、資訊交換、交叉監控、人因及應變。"
+      },
+      {
+        "point": "BTCC概念解釋",
+        "importance": "important",
+        "result": "verified_with_scope",
+        "note": "以題目語境解釋command/control，不宣稱為IMO法定制度。"
+      },
+      {
+        "point": "引水作業MPX",
+        "importance": "essential",
+        "result": "pass",
+        "note": "依A.960(23)補入角色、資訊交換及監控。"
+      }
     ],
     "references": [
       {
@@ -1259,25 +1350,89 @@
         "title": "考選部106年船舶操縱試題",
         "issuer": "考選部",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1011&t=Q"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "issuer": "International Maritime Organization",
+        "sourceType": "technical_reference",
+        "supports": "引水人、船長及駕駛台人員責任、MPX與橋樓資源管理訓練。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.893(21) — Guidelines for Voyage Planning",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.893%2821%29.pdf",
+        "issuer": "International Maritime Organization",
+        "sourceType": "technical_reference",
+        "supports": "航次計畫、執行、監控及修正的管理流程。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部106年船舶操縱試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1011&t=Q",
+        "issuer": "考選部",
+        "sourceType": "technical_reference",
+        "supports": "原題及題目用語。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "BTCC的正式定義及題目所據教材版本尚未取得；答案採概念性解釋，應再以指定教材或出題年度相關課程講義核對。"
     ],
     "verification": {
-      "status": "partially_verified"
-    }
+      "status": "verified_with_scope",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "BTM團隊管理內容",
+          "result": "pass",
+          "note": "補入分工、資訊交換、交叉監控、人因及應變。"
+        },
+        {
+          "item": "BTCC概念解釋",
+          "result": "verified_with_scope",
+          "note": "以題目語境解釋command/control，不宣稱為IMO法定制度。"
+        },
+        {
+          "item": "引水作業MPX",
+          "result": "pass",
+          "note": "依A.960(23)補入角色、資訊交換及監控。"
+        }
+      ]
+    },
+    "version": 2,
+    "answer": "【2027年考試主答｜BTM與BTCC之內涵及關係】\n\n一、BTM（Bridge Team Management，駕駛台團隊管理）\nBTM是透過駕駛台團隊的人員、設備、資訊及程序協作，維持共同情境覺察並降低人為失誤。主要內容包括：\n1. 任務分工：船長、OOW、舵手、瞭望及其他支援人員職責明確。\n2. 資訊交換：共享航線計畫、船位、航向、航速、交通、風流、潮汐及設備狀態。\n3. 共同監控：交叉核對雷達、ECDIS、GNSS、羅經、舵角、ROT及目視資料。\n4. 溝通與決策：使用標準海事用語，重要指令採回讀確認，避免模糊或未確認的命令。\n5. 工作負荷及人因管理：注意疲勞、壓力、語言障礙、權威梯度及人員能力。\n6. 應變與回饋：預先安排失去舵、主機故障、能見度下降及偏離航線時的處置。\n\n二、BTCC（Bridge Team Command and Control，駕駛台統御與控制）\n依題目所用名稱，BTCC可理解為在團隊管理基礎上，更強調指揮、控制及回饋的實施面向：\n1. **指揮（Command）：**明確指揮者、權責、任務分派及優先順序。\n2. **控制（Control）：**依航行計畫設定目標，監控船位、航向、速度、舵令、車令及交通態勢。\n3. **溝通（Communication）：**命令清楚、回讀確認、重要資訊即時共享。\n4. **協調（Coordination）：**整合駕駛台人員、引水人、機艙、VTS及拖船等資源。\n5. **回饋與修正（Monitoring and feedback）：**確認命令執行結果；若實際船舶反應與預期不同，及早修正或升級通報。\n6. **安全質疑：**任何成員發現不安全或偏離計畫，均可提出疑慮，不因職位而壓抑安全資訊。\n\n三、引水作業中的實施\n登輪後由船長與引水人完成MPX，交換船舶操縱資料、航路、港口限制、拖船安排、通訊方式及緊急程序；航行中由駕駛台團隊持續監控引水人操船，並確認舵令、車令及船舶反應。若引水人與船長對計畫有重大疑慮，應立即溝通並採取安全措施。\n\n四、重要限定\nBTCC不是IMO公約所規定的全球統一獨立法定制度名稱，也不能據此說BTCC已取代BTM或BRM。答題應依題目所採教材脈絡說明其強調的指揮、控制及回饋功能；國際引水實務的共同依據仍包括IMO A.960(23)所強調的MPX、角色理解及駕駛台團隊合作。\n\n結論：BTM偏重團隊資源整合、合作與共同監控；BTCC在題目脈絡下進一步凸顯明確指揮鏈、控制、協調及執行回饋。兩者應互補，不應誤解為相互取代。",
+    "lastUpdated": "2026-11-07"
   },
   {
     "questionId": "106-shiphandling-03",
     "modelAnswer": "舵角指示器（Rudder Angle Indicator）顯示舵葉相對船體縱向中心線的實際舵角，供操舵者確認舵機是否依命令轉到指定角度；其顯示的是舵葉位置，不直接代表船舶轉向速率。迴轉率指示器（Rate of Turn Indicator, ROTI）顯示船舶艏向每分鐘改變的角度，通常以度／分鐘表示，可用於監控轉向快慢、控制轉向點及避免過度轉向。操船時兩者須搭配使用：舵角指示器確認操舵輸入，ROTI確認船舶實際角速度；同一舵角在不同航速、吃水、載況及水域條件下，可能產生不同ROT。",
-    "practicalAnalysis": "舵角是操縱命令／舵葉位置的反映；ROT是船體運動結果。舵角到位不代表船舶已按預期轉向，須以羅經艏向、ROT、船位及視覺／雷達資訊交叉監控。",
+    "practicalAnalysis": "本題重點是輸入與運動結果的區別；補入SOLAS設備適用範圍提醒，避免把所有船舶的配備要求混為一談。",
     "keyPoints": [
-      "舵角指示器：顯示舵葉角度及方向。",
-      "ROTI：顯示艏向變化率，單位通常為度／分鐘。",
-      "舵角是輸入，ROT是船舶實際反應。",
-      "相同舵角在不同航速、載況及水域會有不同ROT。",
-      "轉向時應交叉監控舵角、ROT、艏向及船位。"
+      {
+        "point": "舵角指示器功能",
+        "importance": "essential",
+        "result": "pass",
+        "note": "顯示舵葉實際角度及方向。"
+      },
+      {
+        "point": "ROTI功能",
+        "importance": "essential",
+        "result": "pass",
+        "note": "顯示艏向角速度，通常為度／分鐘。"
+      },
+      {
+        "point": "輸入與運動結果區別",
+        "importance": "essential",
+        "result": "pass",
+        "note": "明確說明舵角不是ROT，須監控實際船舶反應。"
+      },
+      {
+        "point": "設備法規適用範圍",
+        "importance": "important",
+        "result": "verified_with_scope",
+        "note": "未將特定船舶類別的配備規定泛化至所有船舶。"
+      }
     ],
     "references": [
       {
@@ -1289,26 +1444,100 @@
         "title": "考選部106年船舶操縱試題",
         "issuer": "考選部",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1011&t=Q"
+      },
+      {
+        "title": "IMO Resolution MSC.137(76) — Standards for Ship Manoeuvrability",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
+        "issuer": "International Maritime Organization",
+        "sourceType": "technical_reference",
+        "supports": "船舶操縱性能試驗及轉向率、舵角等操縱參數的關係。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO SOLAS Chapter V — Safety of Navigation",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/Default.aspx",
+        "issuer": "International Maritime Organization",
+        "sourceType": "technical_reference",
+        "supports": "船舶航行設備及安全航行規範背景；個別配備要求須按SOLAS適用條文判斷。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部106年船舶操縱試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1011&t=Q",
+        "issuer": "考選部",
+        "sourceType": "technical_reference",
+        "supports": "原題。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "ROTI設備的量測、阻尼及顯示規格依船舶設備型式而異；本題回答其基本功能差異。"
     ],
     "verification": {
-      "status": "source_checked"
-    }
+      "status": "verified_with_scope",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "舵角指示器功能",
+          "result": "pass",
+          "note": "顯示舵葉實際角度及方向。"
+        },
+        {
+          "item": "ROTI功能",
+          "result": "pass",
+          "note": "顯示艏向角速度，通常為度／分鐘。"
+        },
+        {
+          "item": "輸入與運動結果區別",
+          "result": "pass",
+          "note": "明確說明舵角不是ROT，須監控實際船舶反應。"
+        },
+        {
+          "item": "設備法規適用範圍",
+          "result": "verified_with_scope",
+          "note": "未將特定船舶類別的配備規定泛化至所有船舶。"
+        }
+      ]
+    },
+    "version": 2,
+    "answer": "【2027年考試主答｜舵角指示器與迴轉率指示器的功能差異】\n\n一、舵角指示器（Rudder Angle Indicator）\n1. 顯示舵葉相對船體縱向中心線的實際舵角及方向，例如右舵、左舵及舵角大小。\n2. 主要用途是確認舵機是否依舵令轉至預定角度，以及舵葉是否回中或出現異常。\n3. 它反映的是操舵輸入／舵葉位置，不直接表示船舶實際轉向速度。\n\n二、迴轉率指示器（Rate of Turn Indicator, ROTI）\n1. 顯示船舶艏向隨時間改變的角速度，通常以度／分鐘（°/min）表示。\n2. 可用於控制轉向速度、監控轉向點及判斷船舶是否過度或不足轉向。\n3. ROT是船舶運動的結果，會受舵角、航速、吃水、載況、風流、淺水及船舶操縱性能影響。\n\n三、兩者在操船中的搭配\n舵角指示器顯示「舵葉做了什麼」，ROTI顯示「船舶實際轉得多快」。例如下達右舵後，舵角指示器可確認舵葉已到右舵角度；ROTI則用來確認艏向是否開始向右改變，以及轉向速率是否符合計畫。即使舵角已到位，也不代表船舶必然按預期轉向，仍須監控羅經艏向、ROT、船位及雷達／ECDIS資料。\n\n四、法規與設備注意\n依SOLAS第五章第19條及船舶適用的設備要求，舵角指示及轉向率指示設備的配備義務依船舶類別、總噸位及適用規定而定；不應把特定噸位船舶的設備要求誤寫為所有船舶完全相同。ROTI亦不是舵角指示器的替代品，兩者功能互補。\n\n結論：舵角指示器是舵葉位置的回饋，ROTI是艏向變化率的回饋；前者反映操舵輸入，後者反映船舶運動結果，操船時應搭配艏向及船位交叉監控。",
+    "lastUpdated": "2026-11-07"
   },
   {
     "questionId": "106-shiphandling-04",
     "modelAnswer": "拖船協助大船時，除拖力須克服風、流、浪等外力外，實務尚須考慮：(1)大船尺寸、排水量、吃水、縱傾、載況及水線以上受風面積；(2)船舶主機、舵、側推器及操縱性能；(3)拖船馬力、繫柱拉力、拖船型式、推／拉能力、操縱反應及拖纜長度；(4)拖船接帶位置與力臂，避免只控制橫向力卻造成過大偏航力矩；(5)拖纜角度、受力方向、拖纜強度、磨損、彈性及斷纜回彈危險；(6)大船航速及拖船相對位置，避免拖船進入船艏／船艉危險區或被吸向船殼；(7)淺水、岸壁效應、船間效應及港池空間；(8)風流變化、潮汐、波浪與能見度；(9)通訊、口令、緊急脫纜及人員安全；(10)港方規定、交通管制及拖船可用性。",
-    "practicalAnalysis": "拖船的有效作用取決於拖力方向與作用點，而非只看馬力。拖船若在船艏或船艉施力，除平移外亦產生偏航力矩；接帶角度、拖纜長度及大船速度會影響控制效果。操船前須簡報拖船任務、口令、緊急狀況及各階段預期效果。",
+    "practicalAnalysis": "以BP作為能力基準但不等同動態有效拖力；強調力臂、拖纜安全、船舶交互作用及港口當日限制。",
     "keyPoints": [
-      "大船尺度、載況、吃水、風壓面積及操縱性能。",
-      "拖船BP、型式、操縱性、拖纜長度與拖纜強度。",
-      "接帶位置、拖力方向、力臂及偏航力矩。",
-      "大船速度、拖船相對位置及船體吸引／排斥效應。",
-      "淺水、岸壁、船間效應、風流浪與港池空間。",
-      "通訊口令、緊急脫纜、回彈危險與人員安全。"
+      {
+        "point": "大船與拖船能力評估",
+        "importance": "essential",
+        "result": "pass",
+        "note": "補入尺度、載況、操縱性及拖輪BP。"
+      },
+      {
+        "point": "靜態BP與動態有效拖力",
+        "importance": "essential",
+        "result": "pass",
+        "note": "明確區分測試BP與實際拖帶力。"
+      },
+      {
+        "point": "施力點、方向與力矩",
+        "importance": "essential",
+        "result": "pass",
+        "note": "納入平移力及偏航力矩。"
+      },
+      {
+        "point": "拖纜與人員安全",
+        "importance": "essential",
+        "result": "pass",
+        "note": "補入SWL、回彈區及緊急脫纜。"
+      },
+      {
+        "point": "環境與交互作用",
+        "importance": "essential",
+        "result": "pass",
+        "note": "補入淺水、岸壁、螺槳排流及港口限制。"
+      }
     ],
     "references": [
       {
@@ -1320,25 +1549,107 @@
         "title": "IMO A.960(23)",
         "issuer": "IMO",
         "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf"
+      },
+      {
+        "title": "A Guide to Good Practice on Port and Marine Facilities",
+        "url": "https://www.gov.uk/government/publications/a-guide-to-good-practice-on-port-marine-operations/a-guide-to-good-practice-on-port-marine-facilities",
+        "issuer": "Official / technical reference",
+        "sourceType": "technical_reference",
+        "supports": "港口拖輪配置需依船舶尺寸、吃水、操縱性、環境及拖輪能力調整。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "TP 15491 — Tug Guidance Notes",
+        "url": "https://tc.canada.ca/en/marine-transportation/publications/tp-15491-small-vessel-compliance-program-tug-guidance-notes-06-2024",
+        "issuer": "Official / technical reference",
+        "sourceType": "technical_reference",
+        "supports": "BP測量及拖輪適用能力評估。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "issuer": "International Maritime Organization",
+        "sourceType": "technical_reference",
+        "supports": "引水人與船長、駕駛台團隊間的溝通及作業協調。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部106年船舶操縱試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1011&t=Q",
+        "issuer": "考選部",
+        "sourceType": "technical_reference",
+        "supports": "原題。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "拖船作業細節須依拖船型式、港方作業規定及個別船舶操縱資料調整。"
     ],
     "verification": {
-      "status": "source_checked"
-    }
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "大船與拖船能力評估",
+          "result": "pass",
+          "note": "補入尺度、載況、操縱性及拖輪BP。"
+        },
+        {
+          "item": "靜態BP與動態有效拖力",
+          "result": "pass",
+          "note": "明確區分測試BP與實際拖帶力。"
+        },
+        {
+          "item": "施力點、方向與力矩",
+          "result": "pass",
+          "note": "納入平移力及偏航力矩。"
+        },
+        {
+          "item": "拖纜與人員安全",
+          "result": "pass",
+          "note": "補入SWL、回彈區及緊急脫纜。"
+        },
+        {
+          "item": "環境與交互作用",
+          "result": "pass",
+          "note": "補入淺水、岸壁、螺槳排流及港口限制。"
+        }
+      ]
+    },
+    "version": 2,
+    "answer": "【2027年考試主答｜拖船協助大船操縱的實務考量】\n\n拖船協助大船時，拖力必須能有效抵銷風、流、浪及船舶慣性等作用；但實務上不能只比較總外力與拖船馬力，還須考慮下列因素：\n\n1. **大船條件：**船長、船寬、吃水、排水量、載況、縱傾、風壓面積、重心及迴轉慣性。\n2. **大船操縱能力：**主機反應、舵效、螺槳型式、側推器、船舶速度、停船距離及設備故障狀態。\n3. **拖船能力：**拖船型式、主機功率、證書所列BP、拖曳／推頂能力、拖船吃水、操縱性及設備狀況。\n4. **動態拖力：**BP是特定測試條件下的靜態拉力，不等於任何航速及任何拖纜角度下均可取得的有效拖力；船舶前進、拖船自身運動及水流都會改變拖纜受力。\n5. **拖船數量與配置：**艏拖、艉拖、側拖或協助迴轉的任務分配，須依風壓中心、船舶重心、操縱中心及可用空間安排。\n6. **作用點及力矩：**拖力方向與接帶位置會產生平移力及偏航力矩；應確認力臂，避免只提供橫向力卻使船舶產生不必要的艏艉偏轉。\n7. **拖纜及接帶安全：**拖纜強度、磨耗、長度、角度、導纜器與繫纜樁SWL、拖纜回彈區及緊急脫纜程序。\n8. **船舶交互作用：**拖船可能受到大船螺槳排流、船體吸引／排斥、淺水及岸壁效應影響；短纜、低UKC及高推力操作尤其須注意。\n9. **環境及港區條件：**風向風速、潮流、浪、能見度、水深、航道寬度、碼頭配置、鄰船及交通流量。\n10. **通訊與團隊協調：**事前MPX及拖船簡報，確認工作位置、拖帶方式、口令、VHF頻道、緊急停止及備援方案。\n11. **港口作業限制：**遵守港方拖輪配置、最大風速／浪高、能見度、靠離泊速度及中止作業標準；當日依實際天候與船舶狀況重新評估。\n\n結論：拖船效能取決於BP、動態有效拖力、施力方向、作用點、船舶速度及環境交互作用；安全拖帶還必須納入拖纜、人員、通訊及港口作業限制。",
+    "lastUpdated": "2026-11-07"
   },
   {
     "questionId": "106-shiphandling-05",
     "modelAnswer": "船長與引水人對船舶操縱的觀點不同，但目標都是安全航行。船長對船舶負有最終法定責任，熟悉本船設備、主機舵機特性、載況、穩度、船員能力、公司程序及船舶限制，通常從全航程、船舶安全及船員執行角度思考。引水人熟悉當地水道、港口設施、潮汐、風流、航道限制、交通狀況、拖船及靠離泊程序，主要提供地方知識與操船建議。引水人登船後應與船長完成Master-Pilot Exchange，確認航行計畫、船舶操縱特性、通訊方式及緊急程序；船長與駕駛台人員仍須監控引水人行動，如有疑慮應立即提出並採取必要措施。",
-    "practicalAnalysis": "引水人不是取代船長，也不是單純下舵令的人。安全操船依賴船長的船舶知識與引水人的地方知識互補。雙方對操船有不同觀察角度，應透過資訊交換、閉環溝通、交叉監控及必要時停止操作化解差異。",
+    "practicalAnalysis": "避免把引水人描述成接管船長職權；依IMO A.960(23)明確船長與OOW責任持續存在，並強調MPX及持續監控。",
     "keyPoints": [
-      "船長：船舶與船員熟悉、船舶設備載況、最終管理及法定責任。",
-      "引水人：當地水道、潮汐、風流、交通、港口設施及拖船作業知識。",
-      "引水人提供專業領航服務，不解除船長責任。",
-      "登輪後完成MPX，交換航行計畫、船舶特性及緊急程序。",
-      "船長及駕駛台人員持續監控，有疑慮即提出並採取安全措施。"
+      {
+        "point": "船長職責與本船知識",
+        "importance": "essential",
+        "result": "pass",
+        "note": "明確列出本船設備、載況、船員及安全責任。"
+      },
+      {
+        "point": "引水人地方知識",
+        "importance": "essential",
+        "result": "pass",
+        "note": "涵蓋水道、交通、港口、風流及拖船程序。"
+      },
+      {
+        "point": "MPX與團隊合作",
+        "importance": "essential",
+        "result": "pass",
+        "note": "依A.960(23)補入資訊交換與監控。"
+      },
+      {
+        "point": "權責界線",
+        "importance": "essential",
+        "result": "pass",
+        "note": "引水人登船不解除船長及OOW安全責任。"
+      }
     ],
     "references": [
       {
@@ -1350,40 +1661,158 @@
         "title": "考選部106年船舶操縱試題",
         "issuer": "考選部",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1011&t=Q"
+      },
+      {
+        "title": "IMO Resolution A.960(23) — Recommendations on Training and Certification and on Operational Procedures for Maritime Pilots",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "issuer": "International Maritime Organization",
+        "sourceType": "technical_reference",
+        "supports": "第2節說明船長、駕駛台人員及引水人職責；第5節規定MPX持續資訊交換。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.893(21) — Guidelines for Voyage Planning",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.893%2821%29.pdf",
+        "issuer": "International Maritime Organization",
+        "sourceType": "technical_reference",
+        "supports": "航次計畫及執行監控背景。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部106年船舶操縱試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1011&t=Q",
+        "issuer": "考選部",
+        "sourceType": "technical_reference",
+        "supports": "原題。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "各國引水制度及船長與引水人法律責任細節不同；本答案採IMO A.960(23)一般原則及我國引水制度。"
     ],
     "verification": {
-      "status": "source_checked"
-    }
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "船長職責與本船知識",
+          "result": "pass",
+          "note": "明確列出本船設備、載況、船員及安全責任。"
+        },
+        {
+          "item": "引水人地方知識",
+          "result": "pass",
+          "note": "涵蓋水道、交通、港口、風流及拖船程序。"
+        },
+        {
+          "item": "MPX與團隊合作",
+          "result": "pass",
+          "note": "依A.960(23)補入資訊交換與監控。"
+        },
+        {
+          "item": "權責界線",
+          "result": "pass",
+          "note": "引水人登船不解除船長及OOW安全責任。"
+        }
+      ]
+    },
+    "version": 2,
+    "answer": "【2027年考試主答｜船長與引水人對船舶操縱的觀點差異】\n\n一、船長的觀點\n1. 對船舶安全負有最終管理及法定責任；引水人登船不解除船長與值班駕駛員的安全責任。\n2. 熟悉本船主機、舵機、推進系統、側推器、船舶操縱性能、載況、吃水、穩度、船員能力及公司SMS。\n3. 從全航程及船舶整體安全考量，包括船舶結構、機械限制、船員執行能力、航次計畫及緊急應變。\n\n二、引水人的觀點\n1. 熟悉引水區域的水道、航道尺度、港池、碼頭、錨地、潮汐、風流、航標、交通及VTS程序。\n2. 熟悉當地船舶交通、拖船調派、靠離泊程序、港口限制及特定水域的操船風險。\n3. 依本船操縱資料及當地條件提供領航建議，安排航路、速度、轉向點、拖船及靠離泊方式。\n\n三、兩者如何互補\n1. 登輪後進行Master-Pilot Exchange（MPX），交換船舶特性、航路計畫、風流潮汐、拖船、通訊及緊急程序。\n2. 引水人提供地方知識及操船建議；船長與OOW提供本船設備、性能及限制資訊。\n3. 駕駛台團隊持續監控船位、航向、速度、舵令、車令、拖船及航行環境，重要指令採閉環溝通。\n4. 若操船行動偏離計畫或任一方認為有不安全情況，應立即提出、澄清並採取必要措施；不能因權威或職務差異而延誤安全處置。\n\n結論：船長以本船、船員及整體航程安全為核心；引水人以當地水域、交通及港口操船知識為核心。兩者不是相互取代，而是透過MPX、共同計畫、閉環溝通及持續監控互補合作。",
+    "lastUpdated": "2026-11-07"
   },
   {
     "questionId": "106-shiphandling-06",
     "modelAnswer": "拖錨走（Dredging／Dredging Anchor）係船舶在錨鏈仍有部分出鏈、錨爪於海床拖行或保持近底狀態下，利用錨的阻力協助控制船舶速度、艏向或橫移的操船方法。運用前應確認水深、底質、錨地、航道寬度、障礙物、錨鏈長度及錨機煞車狀況，並確認不會危及海底管線、電纜或其他船舶。應選擇適當錨、適當出鏈長度與速度，避免錨鏈突然受力、錨爪抓底造成船舶急停或偏航。操船時須密切監控錨鏈方向、張力、船速、艏向及船位，主機與舵配合控制；若錨鏈受力過大、船舶偏航失控或有斷鏈風險，應立即調整主機、舵及錨機操作。拖錨走可用於港口進出、狹水道轉向或離靠碼頭時控制船舶，但須取得港方許可並確保水域及底質適合。",
-    "practicalAnalysis": "拖錨走不是把錨放下後任其拖行。錨的抓力會受底質、錨型、出鏈長度、鏈向、船速及水深影響，可能突然增加而產生高負荷。操作需防止錨鏈被船體或推進器捲入，並注意拖錨造成海床損害及港區設施風險。",
+    "practicalAnalysis": "參考Port Revel船舶操縱訓練教材說明，拖錨鏈長取決於所需阻力、船速、水深、底質、載況及風流；不把1.5–2倍水深寫成普遍強制值。",
     "keyPoints": [
-      "定義：錨鏈仍有控制出鏈，錨於海床拖行／近底提供阻力。",
-      "先確認底質、水深、海床管線電纜、障礙物及港方許可。",
-      "選擇適當錨、出鏈長度及船速，避免錨突然抓底。",
-      "監控錨鏈方向、張力、船速、艏向及船位。",
-      "主機、舵與錨機協調，避免錨鏈過載、斷鏈及推進器纏鏈。",
-      "僅於適合水域與安全條件下運用，不能當成一般制動的替代品。"
+      {
+        "point": "拖錨走定義",
+        "importance": "essential",
+        "result": "pass",
+        "note": "定義為受控放鏈使錨於海床拖行並提供阻力。"
+      },
+      {
+        "point": "底質與水下障礙評估",
+        "importance": "essential",
+        "result": "pass",
+        "note": "加入管線、電纜、沉船及港區設施風險。"
+      },
+      {
+        "point": "出鏈長度與速度控制",
+        "importance": "important",
+        "result": "verified_with_scope",
+        "note": "依訓練教材列出影響因素，不將1.5–2D當作普遍硬性規則。"
+      },
+      {
+        "point": "錨鏈過載與操船風險",
+        "importance": "essential",
+        "result": "pass",
+        "note": "補入突然抓底、急停、斷鏈及推進器干涉風險。"
+      }
     ],
     "references": [
       {
         "title": "考選部106年船舶操縱試題",
         "issuer": "考選部",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1011&t=Q"
+      },
+      {
+        "title": "Port Revel Shiphandling Course Manual — Dredging Anchor",
+        "url": "https://armcol.org/wp-content/uploads/2024/08/2852.-Manual-2006-Shiphandling.pdf",
+        "issuer": "Official / technical reference",
+        "sourceType": "technical_reference",
+        "supports": "訓練教材指出拖錨是有意拖行錨，錨鏈長度須依阻力需求、船速、水深、底質、載況及風流決定，船速應保持在維持操縱所需的低速並避免主機轉速突然變化。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "STCW Convention and Code",
+        "url": "https://www.imo.org/en/ourwork/humanelement/pages/stcw-conv-link.aspx",
+        "issuer": "Official / technical reference",
+        "sourceType": "technical_reference",
+        "supports": "船舶操縱及錨泊相關船員能力標準背景。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部106年船舶操縱試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1011&t=Q",
+        "issuer": "考選部",
+        "sourceType": "technical_reference",
+        "supports": "原題。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "拖錨走的操作方式與可接受出鏈長度須依錨型、底質、船舶尺寸及港區規定判斷，沒有適用所有船舶的固定節數。"
     ],
     "verification": {
-      "status": "partially_verified"
-    }
+      "status": "verified_with_scope",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "拖錨走定義",
+          "result": "pass",
+          "note": "定義為受控放鏈使錨於海床拖行並提供阻力。"
+        },
+        {
+          "item": "底質與水下障礙評估",
+          "result": "pass",
+          "note": "加入管線、電纜、沉船及港區設施風險。"
+        },
+        {
+          "item": "出鏈長度與速度控制",
+          "result": "verified_with_scope",
+          "note": "依訓練教材列出影響因素，不將1.5–2D當作普遍硬性規則。"
+        },
+        {
+          "item": "錨鏈過載與操船風險",
+          "result": "pass",
+          "note": "補入突然抓底、急停、斷鏈及推進器干涉風險。"
+        }
+      ]
+    },
+    "version": 2,
+    "answer": "【2027年考試主答｜拖錨走（Dredging Anchor）的注意事項及運用要領】\n\n一、定義及目的\n拖錨走（Dredging Anchor）是船舶有控制地放出有限錨鏈，使錨在海床拖行或間歇抓底，利用錨及錨鏈阻力協助控制船舶速度、艏向或移動趨勢。它不是正常定錨，也不是任由錨鏈失控拖行。可在特定狹窄水域、低速操船或緊急情況下作為輔助控制方法，但必須先確認港方規定及海床條件。\n\n二、作業前評估\n1. 確認水深、潮高、UKC、底質、坡度及海床是否有管線、電纜、錨鏈、沉船或其他障礙。\n2. 確認錨型、錨重、錨鏈狀況、錨機煞車、離合器、制鏈器及錨鏈長度標記。\n3. 評估船速、船舶排水量、風流、主機與舵效、航道寬度、附近船舶及可用操船水域。\n4. 與船長、船首作業人員及駕駛台確認通訊、指令、錨鏈狀態回報及緊急停止程序。\n\n三、運用要領\n1. 依操船計畫選擇適當錨及出鏈長度；拖錨鏈長須依水深、底質、船速、載況及所需阻力調整，不能將某一固定倍數當作所有船舶通則。\n2. 以低速接近並平順放鏈，讓錨及錨鏈逐步產生阻力；避免突然大量出鏈或突然增加主機轉速。\n3. 持續監控錨鏈方向、出鏈速度、張力、振動、船速、艏向及船位；注意錨可能突然抓底，使錨鏈張力急升。\n4. 配合主機與舵控制船舶，避免錨拖行造成非預期偏航、急停或船舶失去舵效。\n5. 操作結束後依程序收錨並檢查錨、錨鏈及錨機；若錨被障礙物勾住、鏈條過載或有斷鏈風險，應按船舶應急程序處理。\n\n四、主要危險\n1. 錨突然抓底造成錨鏈、錨機、制鏈器及船體受力過大。\n2. 錨鏈過短可能無法提供預期阻力；過長則可能使錨抓底過深、船舶減速後突然受力。\n3. 船舶加速或主機轉速突然改變，可能使錨鏈受力及錨的拖行狀態急遽變化。\n4. 錨鏈可能與船體、推進器或舵系干涉；亦可能損害海床、管線、電纜或港區設施。\n5. 船舶在狹窄水域拖錨時仍會受風流、岸壁及船舶交互作用影響，不能把拖錨視為可靠的獨立制動系統。\n\n結論：拖錨走是以受控錨鏈與錨的海床阻力輔助操船。關鍵在於事前確認底質與水下障礙、依船速及水深控制出鏈、低速平順操作並持續監控錨鏈張力；任何固定出鏈倍數均須視個船與環境條件調整。",
+    "lastUpdated": "2026-11-07"
   },
   {
     "questionId": "106-english-01",
