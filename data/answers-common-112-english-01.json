@@ -2,10 +2,10 @@
   {
     "id": "answer-112-english-01",
     "questionId": "112-english-01",
-    "version": 1,
+    "version": 2,
     "language": "en",
     "answerType": "essay",
-    "modelAnswer": "Legally, even when a pilot is on board, the master remains fully responsible for the safe navigation of the vessel. If the master has clear grounds to believe that the pilot may endanger the safety of navigation, the master may relieve the pilot of his or her duties and request that another pilot be embarked. In all circumstances, while on board and performing pilotage duties, the pilot remains under the authority of the master, but is at all times outside the ship's chain of command. The pilot remains on board as an important and indispensable member of the bridge team.",
+    "modelAnswer": "【Suggested English Translation】\n\nLegally, even when a pilot is on board, the master remains fully responsible for the safe navigation of the vessel. If the master has clear grounds to believe that the pilot may endanger the safety of navigation, the master may relieve the pilot of the pilotage duties and request that another pilot be embarked. In all circumstances, while on board and performing pilotage duties, the pilot is under the authority of the master but remains outside the ship’s chain of command. The pilot remains on board as an important and indispensable member of the bridge team.\n\n【Translation Notes】\n1. 「負完全責任」可譯為 “remains fully responsible”，避免誤寫成船長責任移轉給引水人。\n2. 「有明確的理由」使用 “has clear grounds to believe”，比 “has clear reasons” 更自然且符合海事語境。\n3. 「解除引水人的職責」使用 “relieve the pilot of the pilotage duties”；不表示船長可任意違反港口引水制度。\n4. “under the authority of the master” 與 “outside the ship’s chain of command” 必須同時保留，意思是引水人受船長權責監督，但不是船上職務指揮鏈的船員階層成員。\n5. “member of the bridge team” 表示引水人是駕駛臺團隊重要成員，與其不屬於船舶指揮鏈並不矛盾。\n\n【專業背景】\nIMO A.960(23)要求船長、值班駕駛員與引水人維持有效資訊交換及合作；引水人在船不會解除船長或值班駕駛員的安全責任。",
     "practicalAnalysis": "Translation notes:\n1. 「依法而言」可譯為Legally或As a matter of law。\n2. 「船長對其船舶之安全航行負完全責任」譯為the master remains fully responsible for the safe navigation of the vessel，保留責任主體為master。\n3. 「有明確的理由認為」譯為has clear grounds to believe；「解除引水人的職責」譯為relieve the pilot of his or her duties。\n4. 「要求另一名引水人登船」譯為request that another pilot be embarked。\n5. 「處於船長的權力之下」譯為under the authority of the master；「船舶指揮鏈之外」譯為outside the ship's chain of command。\n6. 「重要且不可或缺的駕駛臺團隊一員」譯為an important and indispensable member of the bridge team。\n\nLegal nuance: The pilot's presence does not relieve the master or the officer in charge of the navigational watch of their duties. The phrase 'outside the chain of command' describes the pilot's professional advisory/pilotage role and does not mean the pilot is independent of the master's overall authority.",
     "keyPoints": [
       {
@@ -43,6 +43,22 @@
         "issuer": "International Maritime Organization",
         "url": "https://www.imo.org/en/ourwork/safety/pages/pilotage.aspx",
         "supports": "Pilotage role, training and coordination with the bridge team."
+      },
+      {
+        "title": "IMO Resolution A.960(23) — Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "supports": "Annex 2船長、值班駕駛員及引水人之責任與合作；引水人登輪不解除船長責任。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Pilotage",
+        "sourceType": "official_guidance",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/pilotage.aspx",
+        "supports": "引水人職責、訓練及船長與引水人合作。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -50,18 +66,18 @@
       "The English rendering is a faithful translation of the supplied Chinese question text; legal interpretation should be read with the applicable national pilotage law and IMO A.960(23)."
     ],
     "verification": {
-      "status": "verified",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "Original question",
+          "item": "英譯完整性與海事用語",
           "result": "pass",
-          "note": "Checked against the 112 examination question bank."
+          "note": "保留船長完全責任、clear grounds、relieve pilot、master's authority及ship's chain of command等關鍵語意。"
         },
         {
-          "item": "English terminology",
+          "item": "船長與引水人責任界線",
           "result": "pass",
-          "note": "Cross-checked with IMO SMCP and standard maritime usage."
+          "note": "依IMO A.960(23)核對，避免誤譯成引水人取代船長責任。"
         }
       ]
     },
