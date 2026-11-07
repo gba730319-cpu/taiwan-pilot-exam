@@ -267,7 +267,7 @@ export default function Home() {
   const filtered = items.filter(
     (q) =>
       (year === "全部年度" || String(q.year) === year) &&
-      (subject === "全部科目" || q.subject === subject) &&
+      (subject === "全部科目" || (subject === "專業英文" ? ["專業英文", "實用英文"].includes(q.subject) : q.subject === subject)) &&
       matchesPort(q.port, port) &&
       (!search || q.question.toLowerCase().includes(search.toLowerCase()))
   ).sort((a, b) =>
