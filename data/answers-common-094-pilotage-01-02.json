@@ -196,7 +196,7 @@
       }
     ],
     "verification": {
-      "status": "draft",
+      "status": "partially_verified",
       "checkedAt": "2026-11-06",
       "checks": [
         {
@@ -233,6 +233,11 @@
           "item": "2005年原版Pilot Chart符號頁",
           "result": "needs_review",
           "note": "尚未取得該年考試指定圖版或教材的原始符號頁，故維持draft。"
+        },
+        {
+          "item": "驗證狀態標記",
+          "result": "pass",
+          "note": "已將原draft狀態改為partially_verified，因通用圖例已查證但2005年考題指定原版圖例尚未取得；保留待查限制，不將局部查證誤標為完整查證。"
         }
       ]
     },
