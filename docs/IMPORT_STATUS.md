@@ -1329,5 +1329,5 @@
 - 重新核對26題原題與26筆答案：五科題數正確、questionId/sourceId逐題對應、缺題0、孤兒答案0、重複ID0；全部version 2，modelAnswer、practicalAnalysis、keyPoints、references欄位完整。
 - 原參考來源中60筆字串型項目已轉為title／sourceType／issuer／url／supports物件，並清除重複來源；26題keyPoints均為前台可讀point／importance物件。最終查核狀態source_checked 16題、partially_verified 10題，所有部分查證題均有limitations，未核實的2015歷史港圖、浮筒／燈表、泊位資格及個船／拖船性能均明確標示。
 - 高雄港地方第1題已嵌入官方高雄港現況圖作為基圖，並明確標示圖面為110年版、不是2015歷史港況、也不是完整海圖／測深圖；現行港區分區圖與2015歷史資料分層處理。
-- 104年度答案資料、來源與前台匯入靜態檢查通過；公式標記成對，表格／數學Markdown由ReactMarkdown、remark-gfm、remark-math及rehype-katex處理。尚待最新main build及Sandbox頁面驗收；本輪未執行Production部署。
+- 104年度答案資料、來源與前台匯入靜態檢查通過；公式標記成對，表格／數學Markdown由ReactMarkdown、remark-gfm、remark-math及rehype-katex處理。GitHub main commit `49cd7cb44f7f0dcd7e8d72d70e99ca4fd994ed76` 乾淨更新後，Next.js 15.5.28 `npm run build`成功、型別檢查通過、5/5靜態頁產生完成；暫時Sandbox首頁及`/mock-exam`均HTTP 200。這是Sandbox驗收，不是Production部署。
 - **下一步：民國102年度**。
