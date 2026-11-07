@@ -2212,8 +2212,8 @@
   },
   {
     "questionId": "106-english-04",
-    "modelAnswer": "A qualified pilot must combine professional knowledge, practical experience and sound judgement. First, a pilot should have a thorough understanding of navigation, ship handling, meteorology, tides, currents and local port regulations. Knowledge of charts, navigational aids, traffic schemes and berth characteristics is essential for planning a safe passage. A pilot must also understand the manoeuvring characteristics of different ships, including their engines, rudders, thrusters and stopping distances.\n\nSecondly, practical experience is indispensable. A pilot should be familiar with local waters in different weather and tidal conditions and should know how to work effectively with tugboats and port control services. Before pilotage begins, the pilot must exchange information with the master, discuss the passage plan, confirm the ship's condition and agree on communications and emergency procedures.\n\nThirdly, communication and teamwork are vital. A qualified pilot should use clear and standardized maritime language, listen carefully to the bridge team and encourage questions whenever there is doubt. The pilot must respect the master's responsibility and cooperate with the master and bridge officers to monitor the vessel's position and movement continuously.\n\nFinally, a good pilot needs integrity, discipline, physical and mental fitness, and the ability to remain calm under pressure. The pilot should keep professional knowledge up to date, learn from incidents and exercises, and comply with laws and safety procedures. A qualified pilot is not simply someone who can manoeuvre a ship; he or she is a professional who can lead a safe passage through local waters while maintaining effective cooperation with the ship's crew and port authorities.",
-    "practicalAnalysis": "作文約300字，依專業知識、實務經驗、MPX與團隊合作、個人素養及持續訓練組織。避免把引水人寫成取代船長的指揮者，並將引水人專業能力與安全領航目標連結。",
+    "modelAnswer": "To become a qualified pilot, a candidate must first meet the legal and professional requirements established by the competent maritime authority. Passing the pilot examination is only the beginning. A pilot must possess sound seafaring experience, good physical and mental fitness, and a strong sense of responsibility.\n\nProfessional knowledge is essential. A pilot should understand navigation, ship handling, meteorology, tides, currents, chart work, collision regulations and port regulations. Detailed local knowledge of channels, turning basins, berths, anchorages, aids to navigation and traffic patterns is equally important. The pilot must also understand the manoeuvring characteristics of different vessels, including engine response, rudder performance, thrusters, stopping distance and turning circle. This knowledge should be developed through training, supervised pilotage, simulator exercises and continuous study.\n\nA qualified pilot must communicate effectively and work as part of the bridge team. Before pilotage begins, the pilot should conduct a thorough Master-Pilot Exchange, confirm the passage plan, discuss the vessel's condition, agree on communications and identify emergency procedures. During the passage, the pilot should maintain situational awareness, monitor the vessel's position and movement, and use clear, standard marine communication phrases. The pilot should encourage questions and challenge unsafe decisions when necessary, while respecting the master's overall responsibility for the ship.\n\nProfessional integrity is equally important. A pilot must remain calm under pressure, make timely decisions, follow safety procedures and never allow commercial schedules to override safety. Physical fitness, discipline and sound judgement are vital, especially during demanding berthing operations and adverse weather.\n\nFinally, a good pilot never stops learning. Reviewing incidents, practising emergency manoeuvres and keeping up with changes in regulations, technology and port conditions are essential. A qualified pilot is therefore not merely an expert ship handler, but a responsible professional who combines local knowledge, technical skill, teamwork and continuous improvement to ensure every passage is conducted safely.",
+    "practicalAnalysis": "作文約300字，採「法定資格與資歷—專業知識與地方熟悉度—MPX及橋樓團隊合作—職業操守與持續進修」四段結構。用語避免將引水人描述成取代船長的指揮者，並依IMO A.960(23)強調船長責任、MPX及團隊溝通。",
     "keyPoints": [
       {
         "point": "專業知識與船舶操縱能力",
@@ -2274,6 +2274,22 @@
         "sourceType": "official_or_technical_reference",
         "supports": "海事專業能力、訓練及持續適任背景。",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.960(23) — Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960(23).pdf",
+        "supports": "引水人訓練、認證、專業能力、MPX、引水人與船長及駕駛臺團隊合作。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Standard Marine Communication Phrases (SMCP)",
+        "sourceType": "IMO_standard",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/StandardMarineCommunicationPhrases.aspx",
+        "supports": "標準海事通信用語及橋樓溝通。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
@@ -2284,24 +2300,19 @@
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "專業知識與船舶操縱能力",
+          "item": "作文長度與題目要求",
           "result": "pass",
-          "note": "涵蓋航海、氣象、潮流、海圖、操縱性能及港規。"
+          "note": "全文約300字，分段完整並涵蓋成為合格引水人的主要條件。"
         },
         {
-          "item": "地方水域及實務經驗",
+          "item": "引水人與船長責任分際",
           "result": "pass",
-          "note": "補入UKC、Squat、風壓、岸壁效應及拖船協作。"
+          "note": "依IMO A.960(23)補強MPX及船長責任。"
         },
         {
-          "item": "MPX及團隊溝通",
+          "item": "橋樓通訊及持續專業發展",
           "result": "pass",
-          "note": "依A.960(23)說明資訊交換、閉環溝通及責任界線。"
-        },
-        {
-          "item": "品格與持續訓練",
-          "result": "pass",
-          "note": "補入誠信、紀律、身心適任及持續訓練。"
+          "note": "補入SMCP、情境警覺及持續訓練。"
         }
       ]
     },
