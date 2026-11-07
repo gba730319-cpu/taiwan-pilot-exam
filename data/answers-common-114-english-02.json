@@ -44,6 +44,13 @@
         "pageOrSection": "Annex 2, sections 2, 5 and 6",
         "accessedAt": "2026-11-07",
         "supports": "引水作業責任分工、引水前資訊交換及持續溝通。"
+      },
+      {
+        "title": "COLREG 1972 — Rule 5 Look-out",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "第一句高度警戒與瞭望概念的專業背景；如採lookout作等值延伸譯法，須確認不偏離原文。"
       }
     ],
     "assumptions": [],
@@ -68,9 +75,21 @@
           "item": "官方評分細則",
           "result": "needs_review",
           "note": "未取得官方評分細則。"
+        },
+        {
+          "item": "高度警戒與瞭望用語差異",
+          "result": "pass",
+          "note": "主譯文採high state of alertness以忠實對應原文；proper lookout可作專業語境補充，但非原文直譯。"
+        },
+        {
+          "item": "主機備便及引水前職責界定",
+          "result": "pass",
+          "note": "以main engine ready for immediate manoeuvring及respective roles and responsibilities表達原意。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "answer": "(1) When a vessel is navigating in a narrow channel or an area of dense traffic, a high state of alertness should be maintained at all times, and the main engine should be kept ready for immediate manoeuvring in case of an emergency.\n\n(2) Before pilotage commences, the master and the pilot should clearly define their respective roles and responsibilities to ensure smooth and effective communication and cooperation throughout the operation.",
+    "analysis": "第一句「保持高度警戒」宜譯為 maintain a high state of alertness；若想結合COLREG Rule 5的專業語境，可寫 maintain a proper lookout and remain highly alert，但原文未直接出現lookout，故主譯文不自行增添瞭望義務。「主機隨時備妥」可譯 keep the main engine ready for immediate manoeuvring。第二句使用 respective roles and responsibilities，比只寫 responsibilities 更能表達雙方職責範圍；pilotage commences 比 before pilotage starts正式。"
   }
 ]
