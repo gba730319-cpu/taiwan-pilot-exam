@@ -2473,11 +2473,26 @@
     "modelAnswer": "【參考翻譯】\n\n（一）船舶在狹窄水域航行，碰撞或擱淺的風險會增加。因此，在開始通過此類水域之前，應依安全管理系統（Safety Management System, SMS）執行風險分析，以確保備援系統隨時可供使用。（14分）\n\n（二）船舶在受限制水域航行時，必須保持高度警覺的目視瞭望，並經常前往船舶兩側的駕駛臺翼樓（bridge wings）查看。在狹窄及受限制水域，以及所有警戒區（precautionary areas）內，禁止追越。當船長或引水人對附近其他船舶的航行意圖存有疑慮時，基於航行安全考量，應鳴放五短聲警告號。（16分）\n\n【2027考試觀念校正】\n1. 上述先忠實翻譯原題，不代表每句都是COLREG普遍規定。\n2. COLREG Rule 9(e)並非一律禁止狹水道追越；若追越須被追越船採取行動配合安全通過，追越船應依Rule 34(c)發出相應聲號，被追越船同意後才採取配合措施。\n3. COLREG Rule 10沒有規定所有分道航行制警戒區一律禁止追越；仍須依該處分道航行制規則、海圖註記、地方港規及實際風險判斷。\n4. Rule 34(d)五短聲適用於兩船互相看見並接近時，對他船意圖／動作無法理解，或懷疑他船未採取足夠避碰行動的情況；不是只要對附近船舶意圖不確定就一律鳴放。\n5. 引水人與船長應先以通訊釐清意圖；聲號不能取代良好瞭望及及早避碰行動。\n\n【關鍵術語】narrow waters：狹窄水域；confined waters：受限制水域；risk analysis：風險分析；back-up systems：備援系統；bridge wings：駕駛臺翼樓；precautionary areas：警戒區；five short blasts：五短聲（至少五短而急促的聲號）。",
     "practicalAnalysis": "先忠實翻譯原文，再把概括性說法與COLREG現行規則分開。Rule 9(e)容許符合聲號、同意及安全條件的追越；Rule 10沒有一律禁止所有警戒區追越的通則；Rule 34(d)五短聲亦有適用情境。",
     "keyPoints": [
-      "狹窄水域航行風險及SMS風險分析",
-      "back-up systems、bridge wings、precautionary areas術語",
-      "忠實翻譯原題，與現行COLREG規則分開",
-      "Rule 9(e)追越須依聲號、同意及安全條件",
-      "Rule 34(d)五短聲的適用情境"
+      {
+        "point": "狹窄水域航行風險及SMS風險分析",
+        "importance": "essential"
+      },
+      {
+        "point": "back-up systems、bridge wings、precautionary areas術語",
+        "importance": "essential"
+      },
+      {
+        "point": "忠實翻譯原題，與現行COLREG規則分開",
+        "importance": "essential"
+      },
+      {
+        "point": "Rule 9(e)追越須依聲號、同意及安全條件",
+        "importance": "essential"
+      },
+      {
+        "point": "Rule 34(d)五短聲的適用情境",
+        "importance": "essential"
+      }
     ],
     "references": [
       {
@@ -2566,11 +2581,26 @@
     "modelAnswer": "【Suggested English Translation】\n\nAll vessels shall proceed at a safe speed adapted to the prevailing circumstances and conditions of restricted visibility, and shall exercise due caution. A power-driven vessel shall have her engines ready for immediate manoeuvre.\n\nWhen a vessel detects another vessel by radar alone, she shall determine whether a close-quarters situation and/or risk of collision is developing. If so, she shall take avoiding action in ample time. Where such action consists of an alteration of course, the following manoeuvres should, so far as possible, be avoided:\n\n(1) An alteration of course to port for a vessel forward of the beam, other than a vessel being overtaken; and\n\n(2) An alteration of course towards a vessel abeam or abaft the beam.\n\n【2027考試用語與法規對照】\n- safe speed：安全速度；依當時環境及能見度條件決定。\n- restricted visibility：能見度受限制，不等於完全無能見度。\n- exercise due caution：加以適切注意；本題中文原文不是proper lookout的逐字對應。\n- engines ready for immediate manoeuvre：主機備便，以便立即操縱。\n- radar alone：僅由雷達發現他船；仍須使用可用資料評估碰撞危險。\n- close-quarters situation：逼近情勢；risk of collision：碰撞危險，兩者不宜混為一詞。\n- forward of the beam／abeam／abaft the beam：正橫前方／正橫／正橫後方。\n\n後段主要對應COLREG Rule 19(d)(i)、(ii)，前段涉及Rule 19(a)、(b)及Rule 6。翻譯應保留shall的義務語氣，以及should, so far as possible的「在可能範圍內應避免」語氣，不可改成絕對禁止。",
     "practicalAnalysis": "中譯英應保留COLREG固定用語及義務／建議語氣。中文「加以適切注意」譯為exercise due caution；後段should, so far as possible不可翻成絕對禁止。",
     "keyPoints": [
-      "安全速度、能見度受限制及適切注意",
-      "主機備便以便立即操縱",
-      "radar alone、close-quarters situation及risk of collision",
-      "Rule 19(d)兩種應盡可能避免的轉向",
-      "保留shall與should, so far as possible語氣差異"
+      {
+        "point": "安全速度、能見度受限制及適切注意",
+        "importance": "essential"
+      },
+      {
+        "point": "主機備便以便立即操縱",
+        "importance": "essential"
+      },
+      {
+        "point": "radar alone、close-quarters situation及risk of collision",
+        "importance": "essential"
+      },
+      {
+        "point": "Rule 19(d)兩種應盡可能避免的轉向",
+        "importance": "essential"
+      },
+      {
+        "point": "保留shall與should, so far as possible語氣差異",
+        "importance": "essential"
+      }
     ],
     "references": [
       {
@@ -2651,11 +2681,26 @@
     "modelAnswer": "(1) **Anchorage:** A designated area of water in which a vessel may anchor, usually while waiting for a berth, orders, favourable conditions or further instructions.\n\n(2) **Approaches:** The navigable waters leading to a port, harbour, channel or terminal, through which vessels pass when arriving at or departing from that place.\n\n(3) **Breakwater:** A structure built offshore or at the entrance of a harbour to reduce wave energy and provide sheltered water for the harbour, its entrance or adjoining facilities.\n\n(4) **Deadweight (DWT):** The total weight a ship can carry when loaded to a specified limit, including cargo, fuel, fresh water, ballast water, stores, crew and passengers. It is the difference between the ship's displacement at the loaded condition and her lightship displacement, and is normally expressed in tonnes.\n\n【Terminology notes】\n- Anchorage means an anchoring area, not the anchor itself.\n- Approaches commonly refers to the waters giving access to a port; the precise limits depend on charting and local usage.\n- A breakwater reduces wave penetration; it is not necessarily a completely impermeable barrier.\n- Deadweight is expressed in tonnes. It must not be confused with Gross Tonnage (GT), a dimensionless index based on the ship's moulded volume.",
     "practicalAnalysis": "四個定義採可直接用於英文申論的完整句型。特別注意DWT與GT不同；Approaches須依海圖及港口語境理解。",
     "keyPoints": [
-      "Anchorage：指定錨泊水域",
-      "Approaches：通往港口的可航接近水域",
-      "Breakwater：降低波浪能量並提供遮蔽水域",
-      "Deadweight：載重狀態與空船排水量之差",
-      "DWT與GT不可混淆"
+      {
+        "point": "Anchorage：指定錨泊水域",
+        "importance": "essential"
+      },
+      {
+        "point": "Approaches：通往港口的可航接近水域",
+        "importance": "essential"
+      },
+      {
+        "point": "Breakwater：降低波浪能量並提供遮蔽水域",
+        "importance": "essential"
+      },
+      {
+        "point": "Deadweight：載重狀態與空船排水量之差",
+        "importance": "essential"
+      },
+      {
+        "point": "DWT與GT不可混淆",
+        "importance": "essential"
+      }
     ],
     "references": [
       {
