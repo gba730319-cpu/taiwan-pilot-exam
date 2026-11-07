@@ -543,6 +543,7 @@
 - 另補入既有引港學第2題：`data/answers-common-091-pilotage-02.json`，內容區分NtM、Navigational Warning及NAVTEX；高雄港86年7月1日電子航行障礙通告之歷史方式與專屬網址仍標示待查，未臆造。
 - 主要參考來源：考選部91年高雄港考區原卷；海軍大氣海洋局《九九臺灣沿海航行指南》（2010年第六版）；交通部運輸研究所貨櫃碼頭設施盤點；交通部高雄港碼頭概況；2003年前後Radio Navigational Warnings出版資料；高雄港務分公司現行航行規定。
 - **完整性檢查範圍：**高雄港考區26題，答案26筆、唯一questionId 26筆，逐題對應，缺漏0、額外ID 0、重複ID 0；和平港5題暫不處理。答案狀態統計：\`source_checked\` 18題、\`partial\` 2題（既有引港學第1、2題）、\`partially_verified\` 6題（本次新增地方題）。答案均為研讀用參考擬答，非考選部官方標準答案。
+- **建置驗證：**`npx tsc --noEmit` 通過；`npm run build` 成功，Next.js 15.5.28 production build完成。僅有既存CSS autoprefixer警告，不影響建置。
 - **部署政策：**依使用者指示，本年度僅提交GitHub並進行建置驗證，不執行Vercel Production部署。
 
 
@@ -617,14 +618,14 @@
 
 ## 民國 87 年度（高雄港考區）答案整理進度（2026-11-07）
 
-- 依 `data/questions.json` 核對，87年度高雄港考區共 **27題**：高雄港當地水道港灣詳情6題、航政法規4題、引港學6題、船舶操縱8題、專業英文3題。
+- 依 `data/questions.json` 核對，87年度高雄港考區共 **27題**：高雄港當地水道港灣詳情6題、航政法規4題、引港學6題、船舶操縱8題、實用英文3題。
 - 本年度另有其他港口地方題，依使用者以高雄港考區為準的範圍暫不處理。
 - 新增答案檔：
   - `data/answers-common-087-kaohsiung-waterway.json`：高雄港地方題6題。
   - `data/answers-common-087-pilot-law.json`：航政法規4題。
   - `data/answers-common-087-pilotage.json`：引港學6題。
   - `data/answers-common-087-shiphandling.json`：船舶操縱8題。
-  - `data/answers-common-087-english.json`：專業英文3題。
+  - `data/answers-common-087-english.json`：實用英文3題。
 - 已更新 `app/page.tsx` 匯入及答案合併。
 - 查證狀態及限制：
   1. 地方題第1題：整理第二港口至前鎮河口港域骨架，標示中鋼94–101號及台船85–91號碼頭區；1998年航道水深及最窄寬度未取得原始港圖，不臆造數值。
