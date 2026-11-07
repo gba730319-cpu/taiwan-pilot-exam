@@ -256,3 +256,12 @@
 - 依IMO A.601(15)補入應查個船資料：滿載／壓載風力與力矩、保向限制、風致漂移、側面投影面積、艏艉盲區、側推器能力及零速轉向效能；依MCA MGN 301補充Pilot Card、Wheelhouse Poster及Manoeuvring Booklet。
 - 重要題幹界線：駕駛臺位置不等於迴旋支點。現代大型貨櫃船常見艉部上層建築，題幹「三類船型駕駛臺均近艏」應視為特定假設或個船配置，不可泛化為船型通則。
 - 官方／專業來源：PIANC WG 211 https://www.kscoe.or.kr/%21/download/?ct=76&filename=7.+PIANC+MarCom+WG+211.pdf&oi=20312&path=%2Fmedia%2F51%2Fboard%2F2025%2F01%2F31%2F7._PIANC_MarCom_WG_211.pdf；J-STAGE貨櫃船風載研究 https://www.jstage.jst.go.jp/article/jjasnaoe/10/0/10_0_159/_article/-char/en；IMO A.601(15) https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.601%2815%29.pdf；MCA MGN 301 https://www.gov.uk/government/publications/mgn-301-mf-amendment-1-manoeuvring-information-onboard-ships/mgn-301-mf-amendment-1-manoeuvring-information-onboard-ships
+
+
+### 114 年船舶操縱第 6 題：通運輪高雄港二港口觸碰離岸堤事故複核（2026-11-07）
+- 已取得TTSB正式調查報告全文（TTSB-MFR-25-06-002，114-06-16），逐項核對VDR時間線及調查發現。
+- 重要時間點：1251:45通運引水人於防波堤內離船，通運當時約3.6節；長輝於1257進入雙向航道；1307:27兩船左對左通過，通運航速8.9節、相距約0.04浬；通運右前方離岸堤約0.4浬；1309:44通運右舷船身觸碰離岸堤。
+- 調查指出長輝等待時受風流影響漂入雙向航道，未有效維持船位、未按規定避讓及修正船位；通運引水人已離船，船長需獨自處理VTS、交通態勢及會遇。兩船主機、舵機、導航設備均正常；事故期間偏西風3–4級、落潮、流速約1節，報告未認定單純天候或機械故障為肇因。
+- 答案改以避免方案及系統改善兩層作答：引水人安全離輪與交接、會遇前確認實際船位、等待船不得未經許可侵入雙向航道、VTS主動警示與管制、保留通過後轉向空間、MPX及駕駛臺團隊監控。
+- 後續改善追蹤：TTSB-MSR-25-06-004顯示二港口航行規定於114-08-22公告修正並於114-12-03完成相關檢討；TTSB-MSR-25-06-010顯示港務公司已訂定VTS操作員作業原則並於115-08施行，115-10-14解除列管；TTSB-MSR-25-06-014之二港口航道系統風險評估及操船模擬，截至115年仍列管，預計116年完成。
+- 官方來源：TTSB正式調查報告 https://www.ttsb.gov.tw/media/8563/%E9%80%9A%E9%81%8B%E6%B2%B9%E8%BC%AA%E8%88%87fpmc-b-forever%E6%95%A3%E8%A3%9D%E8%88%B9%E8%AA%BF%E6%9F%A5%E5%A0%B1%E5%91%8A_%E7%99%BC%E5%B8%83.pdf；改善建議004 https://www.ttsb.gov.tw/1133/1154/1168/23107/46108/post；010 https://www.ttsb.gov.tw/1133/1154/1168/23107/46128/；014 https://www.ttsb.gov.tw/1133/1154/1168/23107/46140/
