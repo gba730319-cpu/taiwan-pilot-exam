@@ -8,96 +8,178 @@
     "modelAnswer": "一、VTS之設置目的與法律、國際規範基礎\n船舶交通服務（Vessel Traffic Service, VTS）係由岸上設置之船舶交通監控及服務系統，透過雷達、AIS、VHF無線電、電子海圖、CCTV及氣象水文資訊等設備，掌握VTS區域內船舶動態，提供航行資訊、必要之航行協助及交通組織服務。其目的在於保障海上人命安全、提升航行安全與效率，並保護海洋環境、港區設施及鄰近岸域。\n國際依據包括《1974年海上人命安全國際公約》（SOLAS）第五章第12條，規範船舶交通服務之設置及目的；IMO大會決議A.1158(32)（2021年）為現行國際VTS準則，說明VTS應具備與船舶交通互動及回應區域內交通狀況之能力。國內則應依商港法、商港港務管理規則、各港船舶交通服務指南及港口交通管制作業規定執行。\n\n二、VTS之主要服務類型\n（一）資訊服務（Information Service, INS）：在固定時間或必要時，主動或應船舶要求提供及時、正確且與航行決策有關之資訊，例如：1. 船舶位置、識別、航向、航速、動態及預定航行意圖；2. 航道、分道航行制、錨地、船席、施工區、疏浚區、障礙物及助航設施狀況；3. 天氣、風、浪、潮汐、海流、能見度及海象警報；4. 港口管制狀態、進出港次序、交通密度、他船動態及特殊船舶限制；5. 航行警告、海事安全資訊、港口作業及緊急事件訊息。其重點是讓船上駕駛台及早取得可靠資訊，作出正確航行判斷。\n（二）航行協助服務（Navigational Assistance Service, NAS）：當船舶提出需求，或VTS觀察到船舶可能發生航行困難、偏離航路、定位不確定、設備故障、接近淺灘或有碰撞／擱淺風險時，提供具體協助，例如通報船位及相對位置、提醒偏離航道、提供雷達監控下的航行資訊、協助確認航路或安全水域、提醒風流及能見度變化，並監控船舶採取措施後的效果。此服務旨在支援船上決策，不代表VTS代替船長操船或取代引水人的專業領航。\n（三）交通組織服務（Traffic Organization Service, TOS）：藉由預先規劃及管理船舶交通，避免危險交通情況形成，並維持船舶安全、有秩序及有效率地通過VTS區域。具體包括：1. 船舶進出港、移泊及通過航道之排班與次序安排；2. 船舶報到、ETA、進出港許可或交通放行程序；3. 依交通密度、船舶尺度、吃水、操縱性能及危險貨物等因素安排通行時機；4. 協調會船、交會、追越、狹水道通過及大型船舶進出港；5. 管理錨地、船席、航道及特定水域之使用；6. 必要時發布交通限制、等待、改道或暫停進出港等管制措施。實際具有拘束力之管制，須以國內法令、主管機關授權及港口公告之規定為依據。\n\n三、VTS執行航行安全作業之完整職掌\n（一）資料蒐集與船舶識別：利用雷達／ARPA、AIS、VHF、CCTV、電子海圖及船舶報到資料，持續掌握船舶名稱、識別、位置、航向、航速、航跡、目的地及交通意圖；並蒐集航道、助航設施、施工、氣象海象及港區作業資料。對AIS資料與雷達目標不一致、AIS未開啟或目標識別不明等情況，應交叉查證，不可僅依單一設備判斷。\n（二）交通態勢評估及風險預警：分析船舶間距、相對運動、CPA／TCPA、航道容量、會遇態勢、船舶操縱限制、吃水及水深、風流潮、能見度與施工區等因素，辨識碰撞、擱淺、觸碰設施、流錨、航道阻塞及污染風險，及早向相關船舶發出警示並採取適當交通管理措施。\n（三）船舶報到與通訊管理：依港口規定要求船舶於指定位置、時間及VHF頻道報到，確認船舶識別、位置、ETA、進出港或移泊意圖；維持與船舶、引水人、拖船、港口信號台及相關機關之通訊，發布航行安全資訊、交通指示及緊急通報。重要指示應使用清楚、標準化之海事通信用語，必要時要求覆誦確認，避免誤解。\n（四）進出港及移泊管制：依各港作業原則安排船舶進港、出港、移泊及拖船作業順序，協調大型船、危險品船、特殊操縱船舶及受限船舶之交通時機；確認航道、港池、船席及拖船資源可供安全使用，避免多艘船舶同時進入狹窄水域而產生衝突。\n（五）航行安全監控與違規警示：持續監控船舶是否遵守指定航道、分道航行制、速度限制、錨地及港區航行規定；對偏離航道、超速、違規追越、進入管制區、未依程序報到或可能妨礙他船之行為，適時警告、要求確認或通報有權機關處理。VTS人員應依授權及程序行事，不可將所有監控或警示權限逕自等同於一般警察或司法執法權。\n（六）惡劣天候與特殊航況管理：監控強風、陣風、湧浪、潮流、低能見度、雷雨及其他不利條件，發布海氣象資訊，依港口管制基準調整船舶進出港、移泊及錨泊作業；對主機、舵機、導航設備故障或操縱能力受限之船舶，提醒其採取安全措施，必要時協調拖船、引水人及港口相關單位。\n（七）海難事故與緊急應變：發現碰撞、擱淺、火災、爆炸、船舶失控、流錨、人員落海、危險品洩漏或油污染等事件時，立即確認事故位置、船舶狀況、危險種類及可能影響範圍；通知港務、航港、海巡、消防、海難救護、污染應變及其他相關單位，協助建立通訊與資訊共享，提供事故船舶位置、周邊交通及安全水域資訊，並協調其他船舶避讓、管制或改道。VTS可支援搜救與應變單位，但不取代法定搜救指揮機關之指揮權。\n（八）紀錄、分析及持續改善：保存船舶報到、VHF通訊、雷達／AIS軌跡、管制指示及事故通報紀錄，供事故調查、航安分析、交通流量評估及作業檢討使用；並定期檢討航道容量、交通管制程序、設備可靠度及VTS人員訓練。\n\n四、VTS設備與人員能力\nVTS中心通常配置雷達／ARPA、AIS、VHF無線電、電子海圖顯示與資訊系統（ECDIS或相關電子海圖系統）、CCTV、氣象水文感測器、錄音錄影及資料整合系統。設備須妥善維護、校準並建立備援；VTS操作員則須具備航海知識、雷達與AIS判讀、海事通訊、港口作業、風險評估、緊急應變及人因管理能力，並接受適任訓練與定期複訓。設備提供的是決策支援，仍須由受訓人員正確判讀及運用。\n\n五、VTS、引水人與船長之職責界線\nVTS負責岸基交通監控、資訊提供、航行協助及交通組織；引水人則依其專業資格與當地水域知識，提供船舶進出港、移泊及港內操縱之領航服務；船長及駕駛台團隊仍須負責船舶安全航行、瞭望、避碰、設備操作及對船舶的監督。VTS提供之資訊或建議不能使船長免除COLREG及其他法定責任；引水人在船亦不當然移轉船長責任。遇有VTS指示與船上實際安全狀況衝突或無法理解時，船舶應立即通訊澄清並採取必要安全措施，同時依適用法令及港口程序處理。\n\n六、結論\nVTS的核心職掌可歸納為「蒐集資料、評估交通、提供資訊、協助航行、組織交通、應變支援及紀錄改善」。透過岸基設備與合格操作員持續監控船舶動態，及早發現風險、協調進出港與移泊次序、發布航安資訊及支援事故應變，可降低碰撞、擱淺、設施觸碰及污染事故，提升港口安全、效率與環境保護。",
     "practicalAnalysis": "本題25分建議先寫VTS設置目的及國際法源，再以IMO A.1158(32)三大服務類型作為主架構，最後補充臺灣港口實務職掌及VTS、引水人、船長的責任界線。三類服務不可混淆：INS是提供資訊；NAS是協助船上判斷並監控效果；TOS是預防危險交通並組織船舶移動。實務上可用雷達／ARPA、AIS、VHF、電子海圖、CCTV及海氣象資料說明資料蒐集與監控。高分關鍵在於把「設備監控」轉化為「風險評估—預警—交通協調—緊急應變」的完整作業流程。另須明確指出VTS不等於船舶駕駛台，也不取代引水人；船長仍負船舶安全航行責任。涉及交通放行、強制指示或違規處理時，應以國內法令、主管機關授權及港口作業規定為依據，不宜將所有VTS建議一概寫成具有法律強制力的命令。",
     "keyPoints": [
-      {"point":"VTS目的：保障海上人命安全、提升航行安全與效率、保護海洋環境及港區設施。","importance":"essential"},
-      {"point":"國際法源：SOLAS第V章第12條；IMO A.1158(32)（2021）VTS準則。","importance":"essential"},
-      {"point":"三大服務：資訊服務INS、航行協助服務NAS、交通組織服務TOS。","importance":"essential"},
-      {"point":"設備：雷達／ARPA、AIS、VHF、電子海圖、CCTV及海氣象水文感測器。","importance":"essential"},
-      {"point":"蒐集船舶位置、識別、航向、航速、航跡、ETA及航行意圖，並交叉查證資料。","importance":"essential"},
-      {"point":"評估CPA／TCPA、交通密度、風流潮、能見度、吃水、水深及操縱限制，預警碰撞與擱淺風險。","importance":"essential"},
-      {"point":"安排進出港、移泊、會船、錨地與拖船作業次序，必要時依授權實施交通限制。","importance":"essential"},
-      {"point":"惡劣天候、設備故障及事故時，發布警示、協調相關單位並支援搜救與污染應變。","importance":"essential"},
-      {"point":"VTS不取代船長及駕駛台團隊的航行責任，也不取代引水人的專業領航。","importance":"essential"},
-      {"point":"保存通訊與船舶動態紀錄，供事故調查、航安分析及制度改善。","importance":"supporting"}
-    ],
-    "scoringGuide": {
-      "status":"editorial_estimate",
-      "totalPoints":25,
-      "items":[
-        {"criterion":"VTS目的、設置背景及國際／國內規範","points":4,"basis":"編輯建議配分，非官方評分標準"},
-        {"criterion":"INS、NAS、TOS三大服務內容","points":9,"basis":"編輯建議配分，非官方評分標準"},
-        {"criterion":"港口實務職掌、監控設備、交通管理及應變","points":8,"basis":"編輯建議配分，非官方評分標準"},
-        {"criterion":"VTS、引水人與船長責任界線及結論","points":4,"basis":"編輯建議配分，非官方評分標準"}
-      ]
-    },
-    "references":[
       {
-        "title":"SOLAS 1974, Chapter V, Regulation 12 — Vessel Traffic Services",
-        "sourceType":"international_convention",
-        "issuer":"International Maritime Organization (IMO)",
-        "editionOrEffectiveDate":"SOLAS Chapter V revised text entered into force 1 July 2002; Regulation V/12",
-        "url":"https://www.imo.org/en/ourwork/safety/pages/vesseltrafficservices.aspx",
-        "supports":"VTS目的、政府設置VTS之原則、船長航行責任界線及VTS適用背景。"
+        "point": "VTS目的：保障海上人命安全、提升航行安全與效率、保護海洋環境及港區設施。",
+        "importance": "essential"
       },
       {
-        "title":"Resolution A.1158(32), Guidelines for Vessel Traffic Services",
-        "sourceType":"international_guideline",
-        "issuer":"International Maritime Organization (IMO)",
-        "editionOrEffectiveDate":"Adopted 15 December 2021",
-        "url":"https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1158%2832%29.pdf",
-        "supports":"VTS目的、資訊提供、交通監控與管理、回應不安全情況及VTS提供者職責。"
+        "point": "國際法源：SOLAS第V章第12條；IMO A.1158(32)（2021）VTS準則。",
+        "importance": "essential"
       },
       {
-        "title":"Vessel Traffic Services",
-        "sourceType":"international_authority",
-        "issuer":"International Maritime Organization (IMO)",
-        "editionOrEffectiveDate":"IMO官方專題頁；查核日期2026-11-07",
-        "url":"https://www.imo.org/en/ourwork/safety/pages/vesseltrafficservices.aspx",
-        "supports":"VTS岸基系統特性、船舶報到與監控、VHF守聽及SOLAS V/12說明。"
+        "point": "三大服務：資訊服務INS、航行協助服務NAS、交通組織服務TOS。",
+        "importance": "essential"
       },
       {
-        "title":"VTS services",
-        "sourceType":"international_guideline",
-        "issuer":"International Association of Marine Aids to Navigation and Lighthouse Authorities (IALA)",
-        "editionOrEffectiveDate":"IALA International Dictionary of Marine Aids to Navigation",
-        "url":"https://www.iala.int/wiki/dictionary/index.php/VTS_services",
-        "supports":"資訊服務、航行協助服務及交通組織服務之定義與功能差異。"
+        "point": "設備：雷達／ARPA、AIS、VHF、電子海圖、CCTV及海氣象水文感測器。",
+        "importance": "essential"
       },
       {
-        "title":"高雄港船舶進出港及移舶交通管制作業原則",
-        "sourceType":"official_port_or_authority",
-        "issuer":"臺灣港務股份有限公司高雄港務分公司",
-        "editionOrEffectiveDate":"原公告107年10月30日；112年2月15日修正",
-        "url":"https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
-        "supports":"VTS管制員安排船舶進出港及移泊次序、船舶報到、ETA與拖船調度等港口實務。"
+        "point": "蒐集船舶位置、識別、航向、航速、航跡、ETA及航行意圖，並交叉查證資料。",
+        "importance": "essential"
       },
       {
-        "title":"商港港務管理規則",
-        "sourceType":"law_or_regulation",
-        "issuer":"交通部／法務部全國法規資料庫",
-        "editionOrEffectiveDate":"114年考試時有效版本；引用時應以歷史法規版本核對",
-        "url":"https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080009",
-        "supports":"船舶進出港預報、港口信號台聯絡、港內緩輪航行及港區秩序等相關規範；本答案未將115年新增或修正內容倒用於114年。"
+        "point": "評估CPA／TCPA、交通密度、風流潮、能見度、吃水、水深及操縱限制，預警碰撞與擱淺風險。",
+        "importance": "essential"
+      },
+      {
+        "point": "安排進出港、移泊、會船、錨地與拖船作業次序，必要時依授權實施交通限制。",
+        "importance": "essential"
+      },
+      {
+        "point": "惡劣天候、設備故障及事故時，發布警示、協調相關單位並支援搜救與污染應變。",
+        "importance": "essential"
+      },
+      {
+        "point": "VTS不取代船長及駕駛台團隊的航行責任，也不取代引水人的專業領航。",
+        "importance": "essential"
+      },
+      {
+        "point": "保存通訊與船舶動態紀錄，供事故調查、航安分析及制度改善。",
+        "importance": "supporting"
       }
     ],
-    "assumptions":[
-      "題目所稱VTS職掌以國際通用VTS服務架構及我國商港實務為答題主軸；各港具體交通放行、管制及執法權限仍依該港當時有效規定與主管機關授權判斷。"
-    ],
-    "limitations":[
-      "商港港務管理規則線上現行頁面可能包含114年以後修正內容；正式考試作答應以114年考試日有效歷史版本為準，本答案僅引用當時既有之一般港務管理原則，未以115年修法新增內容作為114年法源。",
-      "編輯建議配分非考選部公布之官方評分細則。",
-      "各港VTS設備配置、頻道、報到點及交通管制門檻不同，實務操作須依各港最新公告及作業指南。"
-    ],
-    "verification":{
-      "status":"source_checked",
-      "checkedAt":"2026-11-07",
-      "checks":[
-        {"item":"IMO A.1158(32)三類VTS服務及目的","result":"pass","note":"以IMO決議原文核對INS、NAS、TOS及VTS目的。"},
-        {"item":"SOLAS V/12及船長責任界線","result":"pass","note":"依IMO官方VTS專題頁核對。"},
-        {"item":"臺灣港口VTS進出港及移泊作業","result":"pass","note":"以高雄港務分公司公布之交通管制作業原則作實務例證。"},
-        {"item":"114年商港港務管理規則歷史版本","result":"needs_review","note":"現行法規頁含後續修正，需另以歷史法規全文核對當年條文版本。"},
-        {"item":"各港VTS實際授權與操作細節","result":"needs_review","note":"依各港VTS指南及港口公告而異，不宜概括推定所有港口完全相同。"}
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "totalPoints": 25,
+      "items": [
+        {
+          "criterion": "VTS目的、設置背景及國際／國內規範",
+          "points": 4,
+          "basis": "編輯建議配分，非官方評分標準"
+        },
+        {
+          "criterion": "INS、NAS、TOS三大服務內容",
+          "points": 9,
+          "basis": "編輯建議配分，非官方評分標準"
+        },
+        {
+          "criterion": "港口實務職掌、監控設備、交通管理及應變",
+          "points": 8,
+          "basis": "編輯建議配分，非官方評分標準"
+        },
+        {
+          "criterion": "VTS、引水人與船長責任界線及結論",
+          "points": 4,
+          "basis": "編輯建議配分，非官方評分標準"
+        }
       ]
     },
-    "lastUpdated":"2026-11-07"
+    "references": [
+      {
+        "title": "SOLAS 1974, Chapter V, Regulation 12 — Vessel Traffic Services",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization (IMO)",
+        "editionOrEffectiveDate": "SOLAS Chapter V revised text entered into force 1 July 2002; Regulation V/12",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/vesseltrafficservices.aspx",
+        "supports": "VTS目的、政府設置VTS之原則、船長航行責任界線及VTS適用背景。"
+      },
+      {
+        "title": "Resolution A.1158(32), Guidelines for Vessel Traffic Services",
+        "sourceType": "international_guideline",
+        "issuer": "International Maritime Organization (IMO)",
+        "editionOrEffectiveDate": "Adopted 15 December 2021",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1158%2832%29.pdf",
+        "supports": "VTS目的、資訊提供、交通監控與管理、回應不安全情況及VTS提供者職責。"
+      },
+      {
+        "title": "Vessel Traffic Services",
+        "sourceType": "international_authority",
+        "issuer": "International Maritime Organization (IMO)",
+        "editionOrEffectiveDate": "IMO官方專題頁；查核日期2026-11-07",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/vesseltrafficservices.aspx",
+        "supports": "VTS岸基系統特性、船舶報到與監控、VHF守聽及SOLAS V/12說明。"
+      },
+      {
+        "title": "VTS services",
+        "sourceType": "international_guideline",
+        "issuer": "International Association of Marine Aids to Navigation and Lighthouse Authorities (IALA)",
+        "editionOrEffectiveDate": "IALA International Dictionary of Marine Aids to Navigation",
+        "url": "https://www.iala.int/wiki/dictionary/index.php/VTS_services",
+        "supports": "資訊服務、航行協助服務及交通組織服務之定義與功能差異。"
+      },
+      {
+        "title": "高雄港船舶進出港及移舶交通管制作業原則",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "editionOrEffectiveDate": "原公告107年10月30日；112年2月15日修正",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "supports": "VTS管制員安排船舶進出港及移泊次序、船舶報到、ETA與拖船調度等港口實務。"
+      },
+      {
+        "title": "商港港務管理規則",
+        "sourceType": "law_or_regulation",
+        "issuer": "交通部／法務部全國法規資料庫",
+        "editionOrEffectiveDate": "114年考試時有效版本；引用時應以歷史法規版本核對",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080009",
+        "supports": "船舶進出港預報、港口信號台聯絡、港內緩輪航行及港區秩序等相關規範；本答案未將115年新增或修正內容倒用於114年。"
+      },
+      {
+        "title": "商港港務管理規則－交通部交通法規即時檢索（歷史沿革）",
+        "sourceType": "official_law_history",
+        "issuer": "交通部",
+        "editionOrEffectiveDate": "官方歷史沿革顯示112年4月26日修正，下一次修正為115年9月23日；114年考試年度適用112年版本",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/History?LawID=I0008017&type=-1",
+        "supports": "確認114年考試時點的版本切分，並避免將115年修正內容倒用於114年。"
+      },
+      {
+        "title": "商港港務管理規則－112年4月26日修正條文內容",
+        "sourceType": "official_law_text",
+        "issuer": "交通部",
+        "editionOrEffectiveDate": "中華民國112年4月26日修正版本",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0008018&type=-1",
+        "supports": "提供114年考試時有效版本條文全文，供入出港、港口信號台聯絡及港內航行規範之歷史版本核對。"
+      }
+    ],
+    "assumptions": [
+      "題目所稱VTS職掌以國際通用VTS服務架構及我國商港實務為答題主軸；各港具體交通放行、管制及執法權限仍依該港當時有效規定與主管機關授權判斷。"
+    ],
+    "limitations": [
+      "編輯建議配分非考選部公布之官方評分細則。",
+      "各港VTS設備配置、頻道、報到點及交通管制門檻不同，實務操作須依各港最新公告及作業指南。",
+      "已取得交通部112年4月26日版本及官方歷史沿革，確認114年考試年度適用該版本；但各港VTS實際授權、交通放行程序及操作門檻仍須依各港當時公告或作業指南個別核對。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "IMO A.1158(32)三類VTS服務及目的",
+          "result": "pass",
+          "note": "以IMO決議原文核對INS、NAS、TOS及VTS目的。"
+        },
+        {
+          "item": "SOLAS V/12及船長責任界線",
+          "result": "pass",
+          "note": "依IMO官方VTS專題頁核對。"
+        },
+        {
+          "item": "臺灣港口VTS進出港及移泊作業",
+          "result": "pass",
+          "note": "以高雄港務分公司公布之交通管制作業原則作實務例證。"
+        },
+        {
+          "item": "114年商港港務管理規則歷史版本",
+          "result": "pass",
+          "note": "已依交通部交通法規即時檢索「歷史沿革」確認：112年4月26日修正後，下一次修正為115年9月23日；114年考試年度適用112年4月26日版本。另以交通部112年4月26日條文內容頁交叉核對，故本題未倒用115年修法。"
+        },
+        {
+          "item": "各港VTS實際授權與操作細節",
+          "result": "needs_review",
+          "note": "依各港VTS指南及港口公告而異，不宜概括推定所有港口完全相同。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
   }
 ]
