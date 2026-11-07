@@ -966,16 +966,7 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07",
-    "answer": "",
-    "keys": [
-      "不淹岩：高潮仍露出的岩礁，依K10圖式及圖例標註。",
-      "No bottom found（I13）：在圖示測深位置及所標示深度仍未測得海底。",
-      "Foul ground：水面航行可通過，但應避免錨泊、拖網或觸底，不是測深未觸底。",
-      "MHWS：Mean High Water Springs，平均大潮高潮，屬潮汐基準面名稱。",
-      "禁區：Prohibited area，與Restricted area不同，須依圖例及區域註記判讀。",
-      "退潮流附記速度：以潮流方向箭頭及速度數值／單位表示。"
-    ]
+    "lastUpdated": "2026-11-07"
   },
   {
     "questionId": "106-pilotage-02",
@@ -1045,22 +1036,6 @@
         "issuer": "中央氣象署",
         "sourceType": "official_technical_reference",
         "supports": "七級風15m/s及十級風25m/s暴風半徑欄位。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "WMO International Cloud Atlas — Fog",
-        "url": "https://cloudatlas.wmo.int/fog-as-seen-from-aircraft.html",
-        "issuer": "World Meteorological Organization",
-        "sourceType": "official_technical_reference",
-        "supports": "霧的組成及水平能見度定義。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "NOAA JetStream — Waves and Swells",
-        "url": "https://www.noaa.gov/jetstream/ocean/waves",
-        "issuer": "NOAA",
-        "sourceType": "official_technical_reference",
-        "supports": "風浪與長浪的生成、傳播及週期差異。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -1256,14 +1231,6 @@
         "sourceType": "official_technical_reference",
         "supports": "大圈航線規劃及轉繪方法。",
         "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "NOAA Office of Coast Survey — Nautical Cartography",
-        "url": "https://www.nauticalcharts.noaa.gov/learn/nautical-cartography.html",
-        "issuer": "NOAA",
-        "sourceType": "official_technical_reference",
-        "supports": "海圖投影及恒向線用途。",
-        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
@@ -1370,14 +1337,6 @@
         "sourceType": "official_technical_reference",
         "supports": "迴轉潮流通常位於外海，方向持續轉變且沒有憩流；受限水域常見往復潮流。",
         "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部106年引港學試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=106060&q=1&s=1010&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_technical_reference",
-        "supports": "原題。",
-        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
@@ -1474,14 +1433,6 @@
         "sourceType": "technical_reference",
         "supports": "Bollard Pull為拖輪在測試條件下可產生的最大靜態拉力，須用於評估拖帶能力。",
         "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部106年船舶操縱試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1011&t=Q",
-        "issuer": "考選部",
-        "sourceType": "technical_reference",
-        "supports": "原題及題目給定條件。",
-        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
@@ -1519,7 +1470,6 @@
       ]
     },
     "version": 2,
-    "answer": "【2027年考試主答｜橫風下貨櫃船靠泊所需拖輪能力估算】\n\n一、先求風壓，不可直接由船長或總噸位推算拖輪馬力\n題目條件：LOA 213m、船深16.5m、最大吃水10m、住艙長19.2m、主甲板至駕駛台頂21m、主甲板上四層貨櫃、正橫吹開風22kn、艏側推器1,500HP，忽略水流阻力。\n\n風速換算：\n\\[\nV=22\\times0.514444=11.32\\text{ m/s}\n\\]\n風力估算式：\n\\[\nF_W=\\frac12\\rho_a C_D A V^2\n\\]\n其中\\(\\rho_a\\)為空氣密度（可取約1.225kg/m³作估算）、\\(C_D\\)為相應風向及船型的風阻係數、\\(A\\)為水線以上正橫投影面積。應依船體、上層建築及貨櫃實際外形分段估算，不能把住艙、駕駛台與貨櫃重複計入。\n\n二、由風力進一步計算操縱需求\n1. 求風壓中心位置，將風力分解為橫向力及對船舶重心／操縱中心的偏航力矩。\n2. 風壓中心與艏艉拖輪作用點不同，故需同時計算平移控制力與偏航控制力矩。\n3. 艏側推器只能在其有效工作條件下提供艏部橫向力；1,500HP是功率，不等於1,500匹拖力，也不能直接換算成固定噸數的推力。\n4. 側推器實際推力須查製造商推力曲線或本船操縱資料，並考慮船速、電力供應、隧道流場及連續工作限制。\n\n三、選擇拖輪\n1. 先決定拖輪接帶位置、推／拉方向、拖纜角度及可用力臂。\n2. 以拖輪證書或港方資料所列Bollard Pull（BP）作為靜態能力基準；實際作業有效拖力會受船舶前進速度、拖輪相對位置、拖纜角度、船體遮蔽及水流影響。\n3. 以各拖輪有效力的橫向分量計算合力，並以作用點至操縱中心的距離計算力矩；不可只把各拖輪馬力相加。\n4. 最後依風力變化、靠泊空間、船舶剩餘操縱能力及港方拖輪調派標準留設安全裕度。\n\n四、題目資料不足之處\n題目沒有提供貨櫃實際寬度及排列、完整正橫投影輪廓、風阻係數、艏側推器推力曲線、拖輪BP及可用拖纜角度，因此無法唯一算出所需拖輪馬力。考試作答應列出上述計算流程與缺少資料，不應臆造一個HP數字。\n\n【得分關鍵】風力平方關係、正橫投影面積、風壓中心與偏航力矩、側推器功率不等於推力、拖輪以BP及有效作用方向評估。",
     "lastUpdated": "2026-11-07"
   },
   {
@@ -1572,14 +1522,6 @@
         "sourceType": "technical_reference",
         "supports": "航次計畫、執行、監控及修正的管理流程。",
         "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部106年船舶操縱試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1011&t=Q",
-        "issuer": "考選部",
-        "sourceType": "technical_reference",
-        "supports": "原題及題目用語。",
-        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
@@ -1607,7 +1549,6 @@
       ]
     },
     "version": 2,
-    "answer": "【2027年考試主答｜BTM與BTCC之內涵及關係】\n\n一、BTM（Bridge Team Management，駕駛台團隊管理）\nBTM是透過駕駛台團隊的人員、設備、資訊及程序協作，維持共同情境覺察並降低人為失誤。主要內容包括：\n1. 任務分工：船長、OOW、舵手、瞭望及其他支援人員職責明確。\n2. 資訊交換：共享航線計畫、船位、航向、航速、交通、風流、潮汐及設備狀態。\n3. 共同監控：交叉核對雷達、ECDIS、GNSS、羅經、舵角、ROT及目視資料。\n4. 溝通與決策：使用標準海事用語，重要指令採回讀確認，避免模糊或未確認的命令。\n5. 工作負荷及人因管理：注意疲勞、壓力、語言障礙、權威梯度及人員能力。\n6. 應變與回饋：預先安排失去舵、主機故障、能見度下降及偏離航線時的處置。\n\n二、BTCC（Bridge Team Command and Control，駕駛台統御與控制）\n依題目所用名稱，BTCC可理解為在團隊管理基礎上，更強調指揮、控制及回饋的實施面向：\n1. **指揮（Command）：**明確指揮者、權責、任務分派及優先順序。\n2. **控制（Control）：**依航行計畫設定目標，監控船位、航向、速度、舵令、車令及交通態勢。\n3. **溝通（Communication）：**命令清楚、回讀確認、重要資訊即時共享。\n4. **協調（Coordination）：**整合駕駛台人員、引水人、機艙、VTS及拖船等資源。\n5. **回饋與修正（Monitoring and feedback）：**確認命令執行結果；若實際船舶反應與預期不同，及早修正或升級通報。\n6. **安全質疑：**任何成員發現不安全或偏離計畫，均可提出疑慮，不因職位而壓抑安全資訊。\n\n三、引水作業中的實施\n登輪後由船長與引水人完成MPX，交換船舶操縱資料、航路、港口限制、拖船安排、通訊方式及緊急程序；航行中由駕駛台團隊持續監控引水人操船，並確認舵令、車令及船舶反應。若引水人與船長對計畫有重大疑慮，應立即溝通並採取安全措施。\n\n四、重要限定\nBTCC不是IMO公約所規定的全球統一獨立法定制度名稱，也不能據此說BTCC已取代BTM或BRM。答題應依題目所採教材脈絡說明其強調的指揮、控制及回饋功能；國際引水實務的共同依據仍包括IMO A.960(23)所強調的MPX、角色理解及駕駛台團隊合作。\n\n結論：BTM偏重團隊資源整合、合作與共同監控；BTCC在題目脈絡下進一步凸顯明確指揮鏈、控制、協調及執行回饋。兩者應互補，不應誤解為相互取代。",
     "lastUpdated": "2026-11-07"
   },
   {
@@ -1666,14 +1607,6 @@
         "sourceType": "technical_reference",
         "supports": "船舶航行設備及安全航行規範背景；個別配備要求須按SOLAS適用條文判斷。",
         "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部106年船舶操縱試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1011&t=Q",
-        "issuer": "考選部",
-        "sourceType": "technical_reference",
-        "supports": "原題。",
-        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
@@ -1706,7 +1639,6 @@
       ]
     },
     "version": 2,
-    "answer": "【2027年考試主答｜舵角指示器與迴轉率指示器的功能差異】\n\n一、舵角指示器（Rudder Angle Indicator）\n1. 顯示舵葉相對船體縱向中心線的實際舵角及方向，例如右舵、左舵及舵角大小。\n2. 主要用途是確認舵機是否依舵令轉至預定角度，以及舵葉是否回中或出現異常。\n3. 它反映的是操舵輸入／舵葉位置，不直接表示船舶實際轉向速度。\n\n二、迴轉率指示器（Rate of Turn Indicator, ROTI）\n1. 顯示船舶艏向隨時間改變的角速度，通常以度／分鐘（°/min）表示。\n2. 可用於控制轉向速度、監控轉向點及判斷船舶是否過度或不足轉向。\n3. ROT是船舶運動的結果，會受舵角、航速、吃水、載況、風流、淺水及船舶操縱性能影響。\n\n三、兩者在操船中的搭配\n舵角指示器顯示「舵葉做了什麼」，ROTI顯示「船舶實際轉得多快」。例如下達右舵後，舵角指示器可確認舵葉已到右舵角度；ROTI則用來確認艏向是否開始向右改變，以及轉向速率是否符合計畫。即使舵角已到位，也不代表船舶必然按預期轉向，仍須監控羅經艏向、ROT、船位及雷達／ECDIS資料。\n\n四、法規與設備注意\n依SOLAS第五章第19條及船舶適用的設備要求，舵角指示及轉向率指示設備的配備義務依船舶類別、總噸位及適用規定而定；不應把特定噸位船舶的設備要求誤寫為所有船舶完全相同。ROTI亦不是舵角指示器的替代品，兩者功能互補。\n\n結論：舵角指示器是舵葉位置的回饋，ROTI是艏向變化率的回饋；前者反映操舵輸入，後者反映船舶運動結果，操船時應搭配艏向及船位交叉監控。",
     "lastUpdated": "2026-11-07"
   },
   {
@@ -1779,14 +1711,6 @@
         "sourceType": "technical_reference",
         "supports": "引水人與船長、駕駛台團隊間的溝通及作業協調。",
         "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部106年船舶操縱試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1011&t=Q",
-        "issuer": "考選部",
-        "sourceType": "technical_reference",
-        "supports": "原題。",
-        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
@@ -1824,7 +1748,6 @@
       ]
     },
     "version": 2,
-    "answer": "【2027年考試主答｜拖船協助大船操縱的實務考量】\n\n拖船協助大船時，拖力必須能有效抵銷風、流、浪及船舶慣性等作用；但實務上不能只比較總外力與拖船馬力，還須考慮下列因素：\n\n1. **大船條件：**船長、船寬、吃水、排水量、載況、縱傾、風壓面積、重心及迴轉慣性。\n2. **大船操縱能力：**主機反應、舵效、螺槳型式、側推器、船舶速度、停船距離及設備故障狀態。\n3. **拖船能力：**拖船型式、主機功率、證書所列BP、拖曳／推頂能力、拖船吃水、操縱性及設備狀況。\n4. **動態拖力：**BP是特定測試條件下的靜態拉力，不等於任何航速及任何拖纜角度下均可取得的有效拖力；船舶前進、拖船自身運動及水流都會改變拖纜受力。\n5. **拖船數量與配置：**艏拖、艉拖、側拖或協助迴轉的任務分配，須依風壓中心、船舶重心、操縱中心及可用空間安排。\n6. **作用點及力矩：**拖力方向與接帶位置會產生平移力及偏航力矩；應確認力臂，避免只提供橫向力卻使船舶產生不必要的艏艉偏轉。\n7. **拖纜及接帶安全：**拖纜強度、磨耗、長度、角度、導纜器與繫纜樁SWL、拖纜回彈區及緊急脫纜程序。\n8. **船舶交互作用：**拖船可能受到大船螺槳排流、船體吸引／排斥、淺水及岸壁效應影響；短纜、低UKC及高推力操作尤其須注意。\n9. **環境及港區條件：**風向風速、潮流、浪、能見度、水深、航道寬度、碼頭配置、鄰船及交通流量。\n10. **通訊與團隊協調：**事前MPX及拖船簡報，確認工作位置、拖帶方式、口令、VHF頻道、緊急停止及備援方案。\n11. **港口作業限制：**遵守港方拖輪配置、最大風速／浪高、能見度、靠離泊速度及中止作業標準；當日依實際天候與船舶狀況重新評估。\n\n結論：拖船效能取決於BP、動態有效拖力、施力方向、作用點、船舶速度及環境交互作用；安全拖帶還必須納入拖纜、人員、通訊及港口作業限制。",
     "lastUpdated": "2026-11-07"
   },
   {
@@ -1883,14 +1806,6 @@
         "sourceType": "technical_reference",
         "supports": "航次計畫及執行監控背景。",
         "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部106年船舶操縱試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1011&t=Q",
-        "issuer": "考選部",
-        "sourceType": "technical_reference",
-        "supports": "原題。",
-        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
@@ -1923,7 +1838,6 @@
       ]
     },
     "version": 2,
-    "answer": "【2027年考試主答｜船長與引水人對船舶操縱的觀點差異】\n\n一、船長的觀點\n1. 對船舶安全負有最終管理及法定責任；引水人登船不解除船長與值班駕駛員的安全責任。\n2. 熟悉本船主機、舵機、推進系統、側推器、船舶操縱性能、載況、吃水、穩度、船員能力及公司SMS。\n3. 從全航程及船舶整體安全考量，包括船舶結構、機械限制、船員執行能力、航次計畫及緊急應變。\n\n二、引水人的觀點\n1. 熟悉引水區域的水道、航道尺度、港池、碼頭、錨地、潮汐、風流、航標、交通及VTS程序。\n2. 熟悉當地船舶交通、拖船調派、靠離泊程序、港口限制及特定水域的操船風險。\n3. 依本船操縱資料及當地條件提供領航建議，安排航路、速度、轉向點、拖船及靠離泊方式。\n\n三、兩者如何互補\n1. 登輪後進行Master-Pilot Exchange（MPX），交換船舶特性、航路計畫、風流潮汐、拖船、通訊及緊急程序。\n2. 引水人提供地方知識及操船建議；船長與OOW提供本船設備、性能及限制資訊。\n3. 駕駛台團隊持續監控船位、航向、速度、舵令、車令、拖船及航行環境，重要指令採閉環溝通。\n4. 若操船行動偏離計畫或任一方認為有不安全情況，應立即提出、澄清並採取必要措施；不能因權威或職務差異而延誤安全處置。\n\n結論：船長以本船、船員及整體航程安全為核心；引水人以當地水域、交通及港口操船知識為核心。兩者不是相互取代，而是透過MPX、共同計畫、閉環溝通及持續監控互補合作。",
     "lastUpdated": "2026-11-07"
   },
   {
@@ -1977,14 +1891,6 @@
         "sourceType": "technical_reference",
         "supports": "船舶操縱及錨泊相關船員能力標準背景。",
         "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部106年船舶操縱試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1011&t=Q",
-        "issuer": "考選部",
-        "sourceType": "technical_reference",
-        "supports": "原題。",
-        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
@@ -2017,7 +1923,6 @@
       ]
     },
     "version": 2,
-    "answer": "【2027年考試主答｜拖錨走（Dredging Anchor）的注意事項及運用要領】\n\n一、定義及目的\n拖錨走（Dredging Anchor）是船舶有控制地放出有限錨鏈，使錨在海床拖行或間歇抓底，利用錨及錨鏈阻力協助控制船舶速度、艏向或移動趨勢。它不是正常定錨，也不是任由錨鏈失控拖行。可在特定狹窄水域、低速操船或緊急情況下作為輔助控制方法，但必須先確認港方規定及海床條件。\n\n二、作業前評估\n1. 確認水深、潮高、UKC、底質、坡度及海床是否有管線、電纜、錨鏈、沉船或其他障礙。\n2. 確認錨型、錨重、錨鏈狀況、錨機煞車、離合器、制鏈器及錨鏈長度標記。\n3. 評估船速、船舶排水量、風流、主機與舵效、航道寬度、附近船舶及可用操船水域。\n4. 與船長、船首作業人員及駕駛台確認通訊、指令、錨鏈狀態回報及緊急停止程序。\n\n三、運用要領\n1. 依操船計畫選擇適當錨及出鏈長度；拖錨鏈長須依水深、底質、船速、載況及所需阻力調整，不能將某一固定倍數當作所有船舶通則。\n2. 以低速接近並平順放鏈，讓錨及錨鏈逐步產生阻力；避免突然大量出鏈或突然增加主機轉速。\n3. 持續監控錨鏈方向、出鏈速度、張力、振動、船速、艏向及船位；注意錨可能突然抓底，使錨鏈張力急升。\n4. 配合主機與舵控制船舶，避免錨拖行造成非預期偏航、急停或船舶失去舵效。\n5. 操作結束後依程序收錨並檢查錨、錨鏈及錨機；若錨被障礙物勾住、鏈條過載或有斷鏈風險，應按船舶應急程序處理。\n\n四、主要危險\n1. 錨突然抓底造成錨鏈、錨機、制鏈器及船體受力過大。\n2. 錨鏈過短可能無法提供預期阻力；過長則可能使錨抓底過深、船舶減速後突然受力。\n3. 船舶加速或主機轉速突然改變，可能使錨鏈受力及錨的拖行狀態急遽變化。\n4. 錨鏈可能與船體、推進器或舵系干涉；亦可能損害海床、管線、電纜或港區設施。\n5. 船舶在狹窄水域拖錨時仍會受風流、岸壁及船舶交互作用影響，不能把拖錨視為可靠的獨立制動系統。\n\n結論：拖錨走是以受控錨鏈與錨的海床阻力輔助操船。關鍵在於事前確認底質與水下障礙、依船速及水深控制出鏈、低速平順操作並持續監控錨鏈張力；任何固定出鏈倍數均須視個船與環境條件調整。",
     "lastUpdated": "2026-11-07"
   },
   {
@@ -2078,14 +1983,6 @@
         "accessedAt": "2026-11-07"
       },
       {
-        "title": "考選部106年專業英文試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1012&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_or_technical_reference",
-        "supports": "原題。",
-        "accessedAt": "2026-11-07"
-      },
-      {
         "title": "IMO Resolution A.960(23) — Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
         "sourceType": "IMO_resolution",
         "issuer": "International Maritime Organization",
@@ -2114,7 +2011,6 @@
       ]
     },
     "version": 2,
-    "answer": "(1) 儘管引水人負有其職責與義務，引水人在船上並不會免除船長或負責航行值班之航行員對船舶安全所負的職責與義務。重要的是，引水人登船後、引水作業開始之前，引水人、船長及駕駛台人員都應了解彼此在確保船舶安全航行方面各自的角色。\n\n(2) 引水人應熟悉IMO《標準海事通信用語》，並在適當情況下，於無線電通訊及駕駛台口頭交流時使用。如此可使船長及負責航行值班之航行員更清楚了解通訊內容及其意圖。",
     "lastUpdated": "2026-11-07"
   },
   {
@@ -2152,14 +2048,6 @@
         "title": "考選部106年專業英文試題",
         "issuer": "考選部",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1012&t=Q"
-      },
-      {
-        "title": "考選部106年專業英文試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1012&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_or_technical_reference",
-        "supports": "原題及中文用語。",
-        "accessedAt": "2026-11-07"
       },
       {
         "title": "IMO Resolution A.960(23)",
@@ -2206,7 +2094,6 @@
       ]
     },
     "version": 2,
-    "answer": "(1) When a pilot is performing pilotage duties, the pilot boat carrying the pilot shall display the internationally recognized pilot signals or the pilot signals prescribed by the Republic of China, and shall also exhibit the appropriate lights at night. When the pilot leaves the pilot boat or is not engaged in pilotage duties, the pilot signals or lights shall be removed.\n\n(2) A pilot performing pilotage duties shall not leave the vessel before the assignment has been completed without the master's consent.",
     "lastUpdated": "2026-11-07"
   },
   {
@@ -2267,14 +2154,6 @@
         "accessedAt": "2026-11-07"
       },
       {
-        "title": "考選部106年專業英文試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1012&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_or_technical_reference",
-        "supports": "原題。",
-        "accessedAt": "2026-11-07"
-      },
-      {
         "title": "SOLAS Chapter II-1, Regulation 7-3 — Permeability",
         "sourceType": "international_convention",
         "issuer": "International Maritime Organization",
@@ -2329,7 +2208,6 @@
       ]
     },
     "version": 2,
-    "answer": "(1) **Head-on situation:** A situation in which two power-driven vessels are meeting on reciprocal or nearly reciprocal courses so as to involve risk of collision. Under Rule 14 of the COLREGs, each vessel shall alter course to starboard so that they pass port side to port side.\n\n(2) **Permeability:** The percentage of the volume of a compartment or space that can be occupied by water. It is used in damage-stability calculations to estimate the amount of water that may enter a flooded space.\n\n(3) **Block coefficient (Cb):** The ratio of a ship's underwater volume to the volume of a rectangular block having the same length, breadth and draught. It indicates the fullness of the ship's hull form.\n\n(4) **Ship domain:** The surrounding water area that a navigator wishes to keep clear of other vessels or obstacles to maintain safe navigation. Its size and shape depend on ship dimensions, speed, manoeuvrability, visibility, traffic density and the navigational environment.",
     "lastUpdated": "2026-11-07"
   },
   {
@@ -2396,14 +2274,6 @@
         "sourceType": "official_or_technical_reference",
         "supports": "海事專業能力、訓練及持續適任背景。",
         "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部106年專業英文試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1012&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_or_technical_reference",
-        "supports": "原題及作文題目。",
-        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
@@ -2436,7 +2306,6 @@
       ]
     },
     "version": 2,
-    "answer": "A qualified pilot must combine professional knowledge, practical experience, sound judgement and a strong sense of responsibility. First, a pilot needs a thorough understanding of navigation, ship handling, meteorology, tides, currents, charts, navigational aids and local port regulations. The pilot must also understand the manoeuvring characteristics of different ships, including their engines, rudders, thrusters, stopping distances and limitations in various loading conditions.\n\nSecondly, practical experience is essential. A pilot should become familiar with local waters, channels, anchorages, berths and traffic patterns under different weather and tidal conditions. The pilot must know how to assess under-keel clearance, squat, windage, bank effects and interaction between vessels. Effective cooperation with tugboats, VTS operators and port authorities is also important.\n\nThirdly, communication and teamwork are vital to safe pilotage. Before the operation begins, the pilot should conduct a Master-Pilot Exchange with the master and bridge team. They should discuss the passage plan, the ship's manoeuvring information, expected environmental conditions, tug arrangements, communication methods and emergency procedures. During pilotage, the pilot should use clear and standardized maritime language, give unambiguous orders and encourage the bridge team to report any concern. The pilot's presence does not relieve the master or the officer in charge of the navigational watch of their responsibilities. Continuous monitoring and mutual support are therefore essential.\n\nFinally, a qualified pilot must demonstrate integrity, discipline, physical and mental fitness, and the ability to remain calm under pressure. Professional knowledge should be updated through continuing training, simulator exercises, incident reviews and study of new regulations and technology.\n\nIn conclusion, becoming a qualified pilot requires much more than the ability to manoeuvre a ship. A good pilot combines local knowledge, technical competence, practical experience and effective teamwork to ensure that every passage is conducted safely and efficiently.",
     "lastUpdated": "2026-11-07"
   }
 ]
