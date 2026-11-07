@@ -205,3 +205,11 @@
 - 特別修正操作建議：不可只靠降低gain／提高偵測門檻清除風機雜波，因為小船與浮標弱回波也可能同時消失；須同時監控ARPA失標、假航跡及CPA/TCPA不合理變化。
 - 補入COLREG第6、7、8、19條在風場附近的安全航速、碰撞危險判斷、避碰及能見度受限操作要求。
 - National Academies報告：https://www.nationalacademies.org/read/26430/chapter/4；交通部運輸研究所離岸風場船舶通訊及雷達研究：https://www.iot.gov.tw/uploads/asset/data/661972b0367376304acd4dd7/B1080640.pdf；IMO MSC.419(97)：https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.419(97).pdf
+
+
+### 114 年引港學第 5 題：港區狹窄水道引航定位追加核驗（2026-11-07）
+- 依IMO Resolution A.893(21)補入泊位至泊位航次計畫、定位方法與頻率、定位精度關鍵區、轉向點、迴旋圈、潮流、潮高、Squat及最低龍骨下淨空等項目。
+- 依COLREG第9條補入狹水道航道位置要求，將定位監控與及早辨識偏航、橫越航道及進入他船通行空間連結。
+- 依UK MCA MGN 379 (M+F) Amendment 1複核平行索引：只能監控是否維持預定航跡，不能表示沿航路的進度，也不能取代定期船位定位；補入GNSS天線位置可能不等於船舶中心，須確認天線偏移及感測器輸入。
+- 修正原答案中「必要時每分鐘定位」的表述，避免誤成全港固定標準；改依船速、航道寬度、定位誤差、風流及可用操船時間決定頻率。
+- 官方來源：IMO A.893(21) https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.893%2821%29.pdf；MCA MGN 379 Amendment 1 https://www.gov.uk/government/publications/mgn-379-mf-amendment-1-use-of-electronic-navigational-aids/mgn-379-mf-amendment-1-use-of-electronic-navigational-aids；IMO COLREG https://www.imo.org/en/about/conventions/pages/colreg.aspx
