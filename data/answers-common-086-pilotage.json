@@ -343,31 +343,31 @@
   {
     "id": "086-pilotage-06-answer-v1",
     "questionId": "086-pilotage-06",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、分段航程的推算航位】以真航向及對水航速計算各段航程，東分量E=D·sinC，北分量N=D·cosC；D=V×t。四段如下：\n| 時段 | 真航向C | 船速 | 時間 | 航程 | 東分量E | 北分量N |\n|---|---:|---:|---:|---:|---:|---:|\n| 0800–0820 | 000° | 15 kn | 20 min | 5.0 NM | 0.000 | +5.000 |\n| 0820–0840 | 075° | 12 kn | 20 min | 4.0 NM | +3.864 | +1.035 |\n| 0840–0940 | 310° | 12 kn | 60 min | 12.0 NM | −9.193 | +7.713 |\n| 0940–1020 | 220° | 12 kn | 40 min | 8.0 NM | −5.142 | −6.128 |\n| **合計** | | | | **29.0 NM** | **−10.471** | **+7.620** |\n\n【二、實際船位】出發點在H島正東15NM，取H島為原點，初始船位(E,N)=(+15,0)。1020定位為H島方位025°、距離7NM，表示由H島指向船舶的方位為205°，故實際船位：E=7sin205°=−2.958NM；N=7cos205°=−6.344NM。\n\n【三、求流】實際位移=(−2.958−15, −6.344−0)=(−17.958,−6.344)NM。推算位移=(−10.471,+7.620)NM。流造成的位移=實際位移−推算位移=(−7.487,−13.965)NM。總時間2hr，流速分量：E=−3.744kn，N=−6.983kn。流速V=√(3.744²+6.983²)=7.92kn；流向（流往方向）=約208.2°T。\n\n【四、合理性檢查】結果流速約7.9節，數值偏大，應回頭核對題目中的起始位置、各段航向／船速、1020方位是否為「H島在船舶的方位」及題目是否有抄錄誤差。若題目方位是船舶相對H島的方位，向量方向會不同。考試作答應先寫明方位解讀及向量計算，再指出結果異常並檢查原卷。",
-    "practicalAnalysis": "本題的計算流程是先以各段真航向及船速作DR向量，再以最後定位求實際位移，兩者差值除以2小時即得流向流速。計算得到約7.92kn、流往208.2°，偏大，必須核對題目方位描述是否轉錄正確。",
+    "modelAnswer": "## 一、分段航程推算航位（DR）\n\n以真航向及對水航速計算各段航程，東分量 (E=D\\sin C)，北分量 (N=D\\cos C)，其中 (D=V\\times t)。\n\n| 時段 | 真航向C | 船速 | 時間 | 航程 | 東分量E | 北分量N |\n|---|---:|---:|---:|---:|---:|---:|\n| 0800–0820 | 000° | 15 kn | 20 min | 5.0 NM | 0.000 | +5.000 |\n| 0820–0840 | 075° | 12 kn | 20 min | 4.0 NM | +3.864 | +1.035 |\n| 0840–0940 | 310° | 12 kn | 60 min | 12.0 NM | −9.193 | +7.713 |\n| 0940–1020 | 220° | 12 kn | 40 min | 8.0 NM | −5.142 | −6.128 |\n| **合計** | | | | **29.0 NM** | **−10.471** | **+7.620** |\n\n## 二、實際船位\n\n出發點在H島正東15 NM，以H島為原點，初始船位為 (E=+15,N=0)。\n\n題目「定位於H 025°之方向，距離7浬」依通常航海定位語意，解讀為**船舶位於H島真方位025°、距離7 NM**，因此實際船位為：\n\n[\nE=7\\sin25^\\circ=+2.958\\text{ NM}\n]\n[\nN=7\\cos25^\\circ=+6.344\\text{ NM}\n]\n\n實際位移：\n\n[\nE=2.958-15=-12.042\\text{ NM},\\quad N=+6.344\\text{ NM}\n]\n\n## 三、求水流\n\n推算位移為 (E=-10.471,N=+7.620) NM。\n\n水流造成的位移＝實際位移－推算位移：\n\n[\nE_c=-12.042-(-10.471)=-1.571\\text{ NM}\n]\n[\nN_c=6.344-7.620=-1.276\\text{ NM}\n]\n\n總時間為2小時，水流分量：\n\n[\nV_E=-1.571/2=-0.786\\text{ kn}\n]\n[\nV_N=-1.276/2=-0.638\\text{ kn}\n]\n\n水流速度：\n\n[\nV_c=\\sqrt{0.786^2+0.638^2}\\approx1.01\\text{ kn}\n]\n\n水流流往方向（Set）：\n\n[\n\\operatorname{atan2}(E,N)\\approx231^\\circ T\n]\n\n**答案：約1.0節，流往231°T。**\n\n## 四、方位語意注意\n\n若原卷原意是「H島在船舶真方位025°」，才應採相反方位205°計算；但題目用語「船位於H 025°方向」通常表示船舶位於H島025°方位。本題應依此解讀，原答案採205°造成約7.9節的不合理結果，應予更正。",
+    "practicalAnalysis": "原答案把「定位於H 025°之方向」解讀成H島位於船舶025°方位，將方位反轉180°，因此算出約7.9節的異常水流。依通常定位語意，船舶位於H島025°方位、距離7浬，實際位置應為E=+2.958、N=+6.344 NM；與DR位移比較後，流速約1.01 kn、流往231°T。",
     "keyPoints": [
       {
-        "point": "各段航程D=V×t，E=DsinC，N=DcosC。",
+        "point": "分段航程以真航向與對水航速計算東、北分量，DR總位移E=-10.471、N=+7.620 NM。",
         "importance": "essential"
       },
       {
-        "point": "出發位置在H島東15NM，初始座標(+15,0)。",
+        "point": "「船位於H 025°方向」按通常語意表示船舶位於H島025°方位、距離7NM。",
         "importance": "essential"
       },
       {
-        "point": "H島方位025°、距7NM按船上觀測方位解讀，船位相對H為方位205°。",
+        "point": "實際船位E=+2.958、N=+6.344 NM；實際位移E=-12.042、N=+6.344 NM。",
         "importance": "essential"
       },
       {
-        "point": "流向量=實際位移−DR位移，再除以總時間2hr。",
-        "importance": "supporting"
+        "point": "水流位移=實際位移-DR位移，兩小時平均流速約1.01 kn。",
+        "importance": "essential"
       },
       {
-        "point": "結果約7.92kn、流往208.2°，需核對原題方位語意及數據。",
-        "importance": "supporting"
+        "point": "水流流往方向約231°T；若方位語意反解，結果差異巨大，應以原卷用語判讀。",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -375,40 +375,41 @@
         "title": "86年甲種引水人引港學官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國86年（1997）",
+        "editionOrEffectiveDate": "民國86年",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=086120&q=1&s=c181&t=Q",
-        "supports": "引港學六題原卷。"
+        "supports": "原題航向、航速、時間及最後定位資料。"
       },
       {
-        "title": "IALA Maritime Buoyage System",
-        "sourceType": "official_guidance",
-        "issuer": "IALA",
-        "url": "https://www.iala-aism.org/product/iala-maritime-buoyage-system/",
-        "supports": "浮標系統及航標辨識。"
+        "title": "The American Practical Navigator (Bowditch)",
+        "sourceType": "navigation_reference",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/Publications/APN",
+        "supports": "航位推算、方位距離定位及流向流速向量計算方法。"
       }
     ],
     "assumptions": [
-      "海圖圖例依題目指定的當年版本；航行實務依現行官方資料補充。"
+      "將「定位於H 025°之方向」解讀為船舶位於H島真方位025°、距離7NM。",
+      "各段C為真航向，題示S為對水航速；忽略風壓、舵效等其他誤差。"
     ],
     "limitations": [
-      "題目方位描述若非由船舶指向H島，最後定位向量將不同；計算結果異常偏大，必須核對考選部原卷影像。"
+      "若原卷實際標示為「H島在船舶方位025°」，則應採相反方位205°，答案會不同；本題須保留方位語意說明。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部86年引港學原卷",
+          "item": "航程分量與向量計算",
           "result": "pass",
-          "note": "六題題文核對。"
+          "note": "各段DR向量、最終船位及水流分量重新計算。"
         },
         {
-          "item": "Chart 1歷史圖例及題目原始定位圖",
-          "result": "partial",
-          "note": "歷史圖例版次及第6題原始方位圖尚待核對。"
+          "item": "題目方位語意",
+          "result": "needs_review",
+          "note": "依通常「船位於H 025°」語意採船舶在H島025°方位；仍應核對原卷是否有反向方位標示。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   }
 ]
