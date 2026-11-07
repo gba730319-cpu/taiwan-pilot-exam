@@ -1,0 +1,422 @@
+[
+  {
+    "id": "084-pilotage-01-answer-v1",
+    "questionId": "084-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、海流形成原因】海流是海水大尺度或區域性的持續流動，主要受風、海水密度差、地球自轉、海面坡度及海底地形影響。\\n1. 風力：盛行風及季風作用於海面，形成風生流及表層漂流。\\n2. 密度差：溫度及鹽度造成海水密度差，形成溫鹽環流及深層流。\\n3. 地球自轉：科氏力使北半球流動偏向右方，影響洋流方向及環流。\\n4. 海面坡度與氣壓：海面高度差及氣壓分布可造成壓力梯度流。\\n5. 潮汐引力：月球及太陽引潮力造成週期性潮流。\\n6. 地形與岸線：海峽、海灣、岬角及水深變化會導引、加速或改變海流。\\n\\n【二、海流種類】可按成因分為風生流、密度流、潮流、補償流、河口流及波浪沿岸流；按深度分為表層流與深層流；按時間特性分為穩定流及週期性流。實際海域通常為多種成因疊加。",
+    "practicalAnalysis": "本題15分，先列海流形成動力，再按成因及深度分類。應區分一般洋流與往復潮流。",
+    "keyPoints": [
+      {
+        "point": "風力、密度差、科氏力及海面坡度是主要成因。",
+        "importance": "essential"
+      },
+      {
+        "point": "潮汐引力形成週期性潮流。",
+        "importance": "essential"
+      },
+      {
+        "point": "海底地形及岸線會改變流向與流速。",
+        "importance": "essential"
+      },
+      {
+        "point": "海流種類包括風生流、密度流、潮流、補償流及沿岸流。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "84年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國84年（1995）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=2001&t=Q",
+        "supports": "引港學七題原卷。"
+      }
+    ],
+    "assumptions": [
+      "計算題列明幾何假設；缺少原卷圖表者不補造數值。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部84年引港學原卷",
+          "result": "pass",
+          "note": "七題題文核對。"
+        },
+        {
+          "item": "指定海圖圖例及潮汐表",
+          "result": "partial",
+          "note": "歷史圖例及基準面仍待原始資料核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "084-pilotage-02-answer-v1",
+    "questionId": "084-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、臺灣沿岸潮流概況】臺灣四周潮流受臺灣海峽、東海、太平洋及巴士海峽的潮波傳播、海底地形及海岸線影響，流向及流速具有明顯區域差異。\\n1. 臺灣海峽：潮流受海峽狹長地形及南北向潮波影響，部分海域呈往復流，近岸及海峽中部流速可有顯著差異。\\n2. 北部海域：受東海潮波、黑潮支流及沿岸地形共同影響，潮流方向及相位較複雜。\\n3. 東部海域：黑潮主流沿臺灣東岸北上，背景海流強，潮流疊加其上，不能只按潮汐表判斷總流向。\\n4. 西南部及南部海域：受臺灣海峽南端潮流、季風及巴士海峽水交換影響，近岸流向隨潮汐及季節變化。\\n\\n【二、潮流特性】\\n- 漲潮流與退潮流方向可能相反，轉流時刻不一定與高潮、低潮同時。\\n- 潮流在海峽、岬角、港口口門及水道收縮處可能加速。\\n- 大潮時流速通常較強，小潮時較弱，但局部地形可能改變此一般規律。\\n- 季風、黑潮、河川流量及氣壓風場會使實際流況偏離單純天文潮預報。\\n\\n【三、引水應用】應查最新潮流圖、潮汐表、港口實測及VTS資訊；大型船進出港須評估橫流、轉流時間及流壓對航向、靠泊及拖船作業的影響。",
+    "practicalAnalysis": "本題應以區域概況作答，避免將單一港口的潮流方向套用全臺灣。",
+    "keyPoints": [
+      {
+        "point": "臺灣海峽、東部黑潮沿岸、北部東海及南部巴士海峽潮流特性不同。",
+        "importance": "essential"
+      },
+      {
+        "point": "潮流轉流不必然與高潮低潮同時。",
+        "importance": "essential"
+      },
+      {
+        "point": "大潮流速通常較強，狹窄水道及岬角可加速。",
+        "importance": "essential"
+      },
+      {
+        "point": "季風、黑潮及河川流量會與潮流疊加。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "84年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國84年（1995）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=2001&t=Q",
+        "supports": "引港學七題原卷。"
+      }
+    ],
+    "assumptions": [
+      "計算題列明幾何假設；缺少原卷圖表者不補造數值。"
+    ],
+    "limitations": [
+      "未取得1995年指定臺灣沿岸潮流圖，未填各港固定流速及轉流時刻。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部84年引港學原卷",
+          "result": "pass",
+          "note": "七題題文核對。"
+        },
+        {
+          "item": "指定海圖圖例及潮汐表",
+          "result": "partial",
+          "note": "歷史圖例及基準面仍待原始資料核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "084-pilotage-03-answer-v1",
+    "questionId": "084-pilotage-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、霧的形成及四種主要類型】霧是近地面空氣中的水汽凝結成微小水滴或冰晶，使水平能見度降低。常見形成機制有：\\n1. 輻射霧（Radiation fog）：晴朗、微風夜間地面輻射冷卻，近地面空氣降至露點形成。\\n2. 平流霧（Advection fog）：暖濕空氣流經較冷地表或海面，因接觸冷卻而凝結，海霧常屬此類。\\n3. 上坡霧（Upslope fog）：濕空氣沿地形上升膨脹冷卻至露點形成。\\n4. 蒸發霧／蒸氣霧（Evaporation／Steam fog）：冷空氣移至較暖水面，水汽蒸發後在冷空氣中凝結。\\n\\n【二、常見霧型補充】海霧、陸霧、谷霧、冰霧、鋒面霧、降水霧、蒸氣霧及沿岸霧等，為按發生環境或形成過程所作的細分類；分類方式在不同氣象教材可能略有差異。\\n\\n【三、颱風來臨前雲系變化】遠距離時常先見高雲，如卷雲、卷層雲，雲量逐漸增加；接近時中層高層雲增厚，轉為高層雲、雨層雲及積雨雲，雲底降低、降雨增強，風力及氣壓變化加劇。典型先兆包括卷雲呈絲狀或馬尾狀、卷層雲形成日暈月暈、天空逐漸轉陰及氣壓持續下降，但實際雲序會受颱風路徑及環境氣流影響。",
+    "practicalAnalysis": "題目括號中的四種十霧可能指教材所採霧分類。答案先列四種主要物理形成機制，再補常見霧型，避免將不同分類系統混為一談。",
+    "keyPoints": [
+      {
+        "point": "四種主要機制：輻射、平流、上坡及蒸發霧。",
+        "importance": "essential"
+      },
+      {
+        "point": "海霧多屬平流霧。",
+        "importance": "essential"
+      },
+      {
+        "point": "颱風接近時常見高雲增多、雲層加厚、降雨及風力增強。",
+        "importance": "essential"
+      },
+      {
+        "point": "氣壓下降及雲系變化可作參考，但非單一確定預報。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "84年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國84年（1995）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=2001&t=Q",
+        "supports": "引港學七題原卷。"
+      }
+    ],
+    "assumptions": [
+      "計算題列明幾何假設；缺少原卷圖表者不補造數值。"
+    ],
+    "limitations": [
+      "「四種十霧」的原教材分類表未取得，四種主要形成機制與十種細分類須依指定教材再核。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部84年引港學原卷",
+          "result": "pass",
+          "note": "七題題文核對。"
+        },
+        {
+          "item": "指定海圖圖例及潮汐表",
+          "result": "partial",
+          "note": "歷史圖例及基準面仍待原始資料核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "084-pilotage-04-answer-v1",
+    "questionId": "084-pilotage-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、颱風形成必要條件】\\n1. 海面溫度足夠高，通常需約26.5°C以上且具有一定深度的暖水層，以供應潛熱。\\n2. 大氣中水汽充足且低層有輻合，能持續發展深厚對流雲系。\\n3. 垂直風切不可過強，否則會破壞暖心結構及對流組織。\\n4. 初始低壓擾動或熱帶波動，提供氣旋性環流起點。\\n5. 必須離赤道有一定距離，使科氏力足以維持旋轉；赤道附近通常不利熱帶氣旋生成。\\n6. 高空有利輻散，使上升氣流及低層氣壓下降得以維持。\\n\\n【二、我國颱風分類】臺灣氣象機關依近中心最大持續風速分類，歷史上常用熱帶性低氣壓、輕度颱風、中度颱風及強烈颱風等級。1995年分類門檻應以當年氣象局公告為準；現行門檻不可直接回填歷史考題。\\n\\n【三、應用】引水及港口作業應依官方颱風警報、路徑、暴風半徑、陣風、浪高及港口管制措施評估，不只看颱風中心距離。",
+    "practicalAnalysis": "本題形成條件可按海溫、水汽、低層擾動、弱風切、科氏力及高空輻散整理。歷史分類門檻需核對1995年官方標準。",
+    "keyPoints": [
+      {
+        "point": "暖海面及深厚暖水層提供能量。",
+        "importance": "essential"
+      },
+      {
+        "point": "低層輻合、水汽充足及初始擾動。",
+        "importance": "essential"
+      },
+      {
+        "point": "垂直風切不可過強。",
+        "importance": "essential"
+      },
+      {
+        "point": "需遠離赤道使科氏力足夠。",
+        "importance": "supporting"
+      },
+      {
+        "point": "分類門檻依1995年氣象局公告核對。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "84年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國84年（1995）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=2001&t=Q",
+        "supports": "引港學七題原卷。"
+      }
+    ],
+    "assumptions": [
+      "計算題列明幾何假設；缺少原卷圖表者不補造數值。"
+    ],
+    "limitations": [
+      "未取得1995年中央氣象局颱風分級公告原文，未填風速分級數字。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部84年引港學原卷",
+          "result": "pass",
+          "note": "七題題文核對。"
+        },
+        {
+          "item": "指定海圖圖例及潮汐表",
+          "result": "partial",
+          "note": "歷史圖例及基準面仍待原始資料核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "084-pilotage-05-answer-v1",
+    "questionId": "084-pilotage-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、垂直高程與深度概念圖】\\n高程向上↑\\n架空電纜最低點 ───────────（垂直淨空／Vertical clearance）\\n山頂／島頂 ───────────────（山高、島高：相對指定陸地高程基準）\\n燈塔燈光中心 ────────────（燈高：相對平均海面或海圖註記基準）\\n平均高潮面 MHW ───────────\\n平均海面 MSL ────────────\\n平均低潮面 MLW ───────────\\n海圖水深基準面 Chart Datum ─────\\n海床／海底 ───────────────\\n\\n【二、海圖水深及潮面】\\n1. MSL（Mean Sea Level）：長期觀測所得平均海面。\\n2. MHW（Mean High Water）：平均高潮面。\\n3. MLW（Mean Low Water）：平均低潮面。\\n4. Chart Datum：海圖水深及潮高採用的垂直基準面，應依該版海圖說明確認其定義。\\n5. 深度（Depth）：自海圖水深基準面向下至海床的垂直距離。\\n\\n【三、岩礁種類】\\n- 暗礁／水下礁（Submerged rock）：通常位於水面以下，須依海圖水深及危險物符號辨識。\\n- 適淹岩／乾出岩（Drying rock）：低潮時露出、高潮時淹沒，海圖以乾出高度表示。\\n- 可淹岩（Awash rock）：潮位變化時可能被淹沒或露出，海圖標示其危險性及基準面。\\n- 不淹岩（Always dry rock）：在各潮位下均露出水面，通常以高程表示。\\n\\n【四、燈塔及陸地高程】山高、島高及燈塔高須標明所依基準；燈塔高度可指燈光中心相對平均海面高度，不能與塔身結構高度混淆。\\n\\n【五、垂直淨空】架空電纜垂直間隙是海面至電纜最低點的垂直距離，須注意潮位變化及海圖標示基準。船舶通過時應以最高固定點計算air draft，並保留安全裕度。",
+    "practicalAnalysis": "本題是高程、深度及潮面基準圖示題。重點是把水平／垂直基準分清楚，並分別標示水深、乾出高度、陸地高程與架空電纜淨空。",
+    "keyPoints": [
+      {
+        "point": "標示MHW、MSL、MLW及Chart Datum。",
+        "importance": "essential"
+      },
+      {
+        "point": "區分海圖水深、乾出高度及陸地高程。",
+        "importance": "essential"
+      },
+      {
+        "point": "暗礁、適淹岩、可淹岩及不淹岩分別說明。",
+        "importance": "essential"
+      },
+      {
+        "point": "架空電纜淨空以海面至電纜最低點量測，須考慮潮位。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "84年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國84年（1995）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=2001&t=Q",
+        "supports": "引港學七題原卷。"
+      }
+    ],
+    "assumptions": [
+      "計算題列明幾何假設；缺少原卷圖表者不補造數值。"
+    ],
+    "limitations": [
+      "海圖水深基準面及各潮面採用的精確定義須依1995年指定海圖圖例及潮汐基準說明核對。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部84年引港學原卷",
+          "result": "pass",
+          "note": "七題題文核對。"
+        },
+        {
+          "item": "指定海圖圖例及潮汐表",
+          "result": "partial",
+          "note": "歷史圖例及基準面仍待原始資料核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "084-pilotage-06-answer-v1",
+    "questionId": "084-pilotage-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、幾何條件】河道寬500m，兩船均由河道中線相向航行，初始距離2,000m。要求會船時兩船橫向間隔100m，若兩船對稱偏離中線，則各自向相反側偏移50m。\\n\\n【二、求改向角】兩船速度相等，會船點在航道中點，從各自起點至會船點的縱向距離為1,000m。設每艘船相對河道軸線的改向角為θ：\\ntanθ=50/1000=0.05\\nθ=arctan(0.05)≈2.86°。\\n\\n【三、結論】理想幾何條件下，每艘船各向自己的右舷偏轉約2.9°，使兩船在會船時各距河道中線50m，彼此相隔100m。實際航行仍須考慮船寬、定位誤差、風流、操縱反應及安全間距；本題純幾何計算未納入這些因素。",
+    "practicalAnalysis": "本題是對稱幾何問題，等速相向船在中點會遇，兩船各自橫移50m，縱向距離1,000m。",
+    "keyPoints": [
+      {
+        "point": "河道半寬250m，題目只要求各偏移50m。",
+        "importance": "essential"
+      },
+      {
+        "point": "等速相向，會船點在中間，縱向距離各1,000m。",
+        "importance": "essential"
+      },
+      {
+        "point": "tanθ=50/1000，θ約2.86°。",
+        "importance": "essential"
+      },
+      {
+        "point": "實務需另加船寬、風流及安全裕度。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "84年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國84年（1995）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=2001&t=Q",
+        "supports": "引港學七題原卷。"
+      }
+    ],
+    "assumptions": [
+      "計算題列明幾何假設；缺少原卷圖表者不補造數值。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部84年引港學原卷",
+          "result": "pass",
+          "note": "七題題文核對。"
+        },
+        {
+          "item": "指定海圖圖例及潮汐表",
+          "result": "partial",
+          "note": "歷史圖例及基準面仍待原始資料核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "084-pilotage-07-answer-v1",
+    "questionId": "084-pilotage-07",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【題目資料缺漏】目前匯入的考選部題目文字只有「台灣某港之潮信如下」，但沒有附上後續潮汐表／潮高時間資料。缺少該表就無法判斷陰曆六月五日對應的高潮時刻及潮高，也不能可靠地從朔日後一至二天的大潮日期推算出數值。\\n\\n【正確解題程序】\\n1. 先由題目所附潮汐表確認陰曆日期與公曆日期對照。\\n2. 找出六月五日前後的高潮、低潮時間及潮高，確認潮汐日不等及潮時日變化。\\n3. 題目說大潮發生於朔日後一至二天，應先定位該月大潮日期，再依潮時日變化規律推算六月五日高潮時間。\\n4. 潮高須依相鄰大潮／小潮潮差及日期間變化內插，不能只用固定每日潮時延遲推算。\\n\\n【結論】待補回考選部原卷中的潮汐表影像後，才能計算本題。此題標記待複核，不填造高潮時間或潮高。",
+    "practicalAnalysis": "原卷題文的關鍵潮汐表未出現在目前題庫文字中，無法計算。應先補原卷表格影像，再按朔望與潮時日變化推算。",
+    "keyPoints": [
+      {
+        "point": "須先取得題目附帶潮汐表。",
+        "importance": "essential"
+      },
+      {
+        "point": "依朔日後1–2日定位大潮日期。",
+        "importance": "essential"
+      },
+      {
+        "point": "再依潮時及潮差日變化推算陰曆六月五日。",
+        "importance": "essential"
+      },
+      {
+        "point": "未取得表格前不編造高潮時間及潮高。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "84年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國84年（1995）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=2001&t=Q",
+        "supports": "引港學七題原卷。"
+      }
+    ],
+    "assumptions": [
+      "計算題列明幾何假設；缺少原卷圖表者不補造數值。"
+    ],
+    "limitations": [
+      "考選部原卷附帶潮汐表未包含在目前questions.json文字欄位，必須取得原卷影像才能解題。"
+    ],
+    "verification": {
+      "status": "needs_review",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部84年引港學原卷",
+          "result": "pass",
+          "note": "七題題文核對。"
+        },
+        {
+          "item": "指定海圖圖例及潮汐表",
+          "result": "fail",
+          "note": "第7題潮汐表未隨題目文字匯入。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
