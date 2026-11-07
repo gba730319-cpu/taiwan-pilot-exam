@@ -1,0 +1,414 @@
+[
+  {
+    "id": "086-pilotage-01-answer-v1",
+    "questionId": "086-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "| 圖例項目 | 圖面標示／英文 | 說明 |\n|---|---|---|\n| WGS | WGS 84 | World Geodetic System 1984，大地基準系統；座標須註明基準。 |\n| Fl | Fl | Flashing light，閃光燈標。 |\n| WRG 15s 21M/15M/11M | WRG | White/Red/Green sectors，白／紅／綠扇形燈；週期15秒，各色扇區可見距依題示資料分別為21、15、11海浬。 |\n| 領海直線基線 | Straight baseline | 連接適當基點的直線基線，用以量測領海寬度，須依官方公布座標。 |\n| 警戒區 | Cautionary area | 航行須特別注意的水域，並非當然禁止航行。 |\n| 檢疫錨泊區 | Quarantine anchorage | 指定檢疫錨泊水域。 |\n| 海底電力電纜區 | Submarine power cable | 海底電纜路線／區域，應避免下錨及拖網。 |\n| 海產養殖場 | Marine farm / fish farm | 小比例尺海圖養殖區符號，航行應避讓。 |\n| 推薦航線090°–270° | Recommended track | 推薦航向範圍090°至270°，依圖示及航行方向判讀。 |\n| 貨櫃起重機50T | Container crane, SWL 50 t | 岸上起重設備，標示安全工作負荷50公噸。 |\n| 高壓電纜及鐵塔，安全淨空64m | Overhead cable / tower, vertical clearance 64m | 船舶最高點須保留足夠淨空，並確認潮位及垂直基準。 |\n\n正式作答應依考試指定版次海圖圖式（Chart 1／Chart No.1）臨摹，不應以表格文字代替需要繪製的正式符號。",
+    "practicalAnalysis": "本題20分，十項符號／註記逐一對應，特別要分清楚警戒區不是禁航區、海底電纜不是可拋錨區，以及燈標扇區顏色與週期。",
+    "keyPoints": [
+      {
+        "point": "WGS84是大地基準，不是燈標。",
+        "importance": "essential"
+      },
+      {
+        "point": "WRG代表白、紅、綠扇形燈，題示週期15秒及分色光程。",
+        "importance": "essential"
+      },
+      {
+        "point": "警戒區、檢疫錨地、海底電纜及養殖場用途不同。",
+        "importance": "essential"
+      },
+      {
+        "point": "高壓電纜安全淨空64m須核對垂直基準及潮位。",
+        "importance": "supporting"
+      },
+      {
+        "point": "正式圖式依指定版次Chart 1繪製。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "86年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國86年（1997）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=086120&q=1&s=c181&t=Q",
+        "supports": "引港學六題原卷。"
+      },
+      {
+        "title": "IALA Maritime Buoyage System",
+        "sourceType": "official_guidance",
+        "issuer": "IALA",
+        "url": "https://www.iala-aism.org/product/iala-maritime-buoyage-system/",
+        "supports": "浮標系統及航標辨識。"
+      }
+    ],
+    "assumptions": [
+      "海圖圖例依題目指定的當年版本；航行實務依現行官方資料補充。"
+    ],
+    "limitations": [
+      "文字示意不能完全取代Chart 1正式符號；應依題目所指新制海圖圖例版本重畫。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部86年引港學原卷",
+          "result": "pass",
+          "note": "六題題文核對。"
+        },
+        {
+          "item": "Chart 1歷史圖例及題目原始定位圖",
+          "result": "partial",
+          "note": "歷史圖例版次及第6題原始方位圖尚待核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "086-pilotage-02-answer-v1",
+    "questionId": "086-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、潮汐表的性質】潮汐表是依長期潮汐觀測資料及天文潮預報方法，預測指定港站每日高潮、低潮的時間及潮高。其精確度取決於基準面、潮汐常數、觀測資料長度、港站代表性及天文潮以外的氣象海象因素。\n\n【二、影響預報與實測差異的因素】\n1. 天文因素：月球、太陽引潮力、朔望、近地點及分潮相位。\n2. 氣象因素：氣壓降低可造成水位上升（逆氣壓效應），強風可造成風暴增水或減水。\n3. 海象因素：季風、海流、湧浪、颱風及海嘯等會改變實際水位。\n4. 地形因素：港灣形狀、水深、河川流量、淺水效應及共振會使港內潮位與外海不同。\n5. 基準與測量：潮高基準面、驗潮站位置、儀器誤差、資料品質及時間基準均會影響比較。\n\n【三、實務使用】潮汐表數值應視為預報，不是即時水位。船舶進出港應同時查驗潮位站即時資料、港務測深、航船布告及天氣預報；計算UKC時納入潮高、squat、波浪、縱傾、橫傾及測深誤差。若氣壓或風暴潮影響顯著，應以即時觀測修正預報。",
+    "practicalAnalysis": "本題要求分析精確度，不宜只回答「準確／不準確」。要說明潮汐表主要預報天文潮，實際水位會受氣象、海流、地形及基準面影響。",
+    "keyPoints": [
+      {
+        "point": "潮汐表主要是天文潮預報。",
+        "importance": "essential"
+      },
+      {
+        "point": "氣壓、風、季風、颱風、海流及湧浪造成實測偏差。",
+        "importance": "essential"
+      },
+      {
+        "point": "港灣地形、淺水效應及河川流量會改變港內潮汐。",
+        "importance": "essential"
+      },
+      {
+        "point": "確認潮高基準面、驗潮站代表性及時間基準。",
+        "importance": "supporting"
+      },
+      {
+        "point": "實際UKC應使用即時潮位及最新測深。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "86年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國86年（1997）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=086120&q=1&s=c181&t=Q",
+        "supports": "引港學六題原卷。"
+      },
+      {
+        "title": "IALA Maritime Buoyage System",
+        "sourceType": "official_guidance",
+        "issuer": "IALA",
+        "url": "https://www.iala-aism.org/product/iala-maritime-buoyage-system/",
+        "supports": "浮標系統及航標辨識。"
+      }
+    ],
+    "assumptions": [
+      "海圖圖例依題目指定的當年版本；航行實務依現行官方資料補充。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部86年引港學原卷",
+          "result": "pass",
+          "note": "六題題文核對。"
+        },
+        {
+          "item": "Chart 1歷史圖例及題目原始定位圖",
+          "result": "partial",
+          "note": "歷史圖例版次及第6題原始方位圖尚待核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "086-pilotage-03-answer-v1",
+    "questionId": "086-pilotage-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、夜間辨識浮筒】夜間航行應依海圖及燈表確認浮筒編號、位置、燈色、燈質、週期及方位，不可只憑遠處燈光顏色判斷。先辨認港區採用的IALA浮標制度及進港方向，再確認左右舷側標、方位標、孤立危險物標及安全水域標。\n\n【二、避開措施】\n1. 航前在ECDIS／海圖標出浮筒位置、危險區及安全通過側，設定適當安全等深線及警戒區。\n2. 使用雷達辨認浮筒回波，配合AIS AtoN（若有）、雷達平行指標及GNSS定位；小型浮筒回波可能不穩，不能只靠雷達。\n3. 保持適當安全距離，不從浮筒與淺灘／危險物之間狹窄水道冒險通過；留意浮筒可能因潮流、繫鏈長度而偏移。\n4. 夜間降低至安全速度，增加瞭望，注意背景燈光、岸燈及浮筒燈光混淆。\n5. 若浮筒燈熄滅、移位或辨識不清，使用海圖、雷達及其他固定物定位，通知VTS並採取較大安全距離。\n\n【三、IALA A區基本規則】臺灣採用IALA A區時，進港方向通常左舷側為紅色、右舷側為綠色；仍應依海圖及燈表確認，勿將浮標顏色當成唯一判據。",
+    "practicalAnalysis": "本題核心是夜間辨識與交叉定位，並非只背紅綠燈。浮筒燈光、雷達回波及海圖位置均須互相驗證。",
+    "keyPoints": [
+      {
+        "point": "航前核對浮筒位置、燈色、燈質及通過側。",
+        "importance": "essential"
+      },
+      {
+        "point": "以雷達、ECDIS、GNSS、固定岸標交叉定位。",
+        "importance": "essential"
+      },
+      {
+        "point": "留安全距離，注意浮筒偏移及燈光背景混淆。",
+        "importance": "essential"
+      },
+      {
+        "point": "IALA A區進港左紅右綠，但仍須依海圖判讀。",
+        "importance": "supporting"
+      },
+      {
+        "point": "燈標異常時通報VTS並採較大安全距離。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "86年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國86年（1997）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=086120&q=1&s=c181&t=Q",
+        "supports": "引港學六題原卷。"
+      },
+      {
+        "title": "IALA Maritime Buoyage System",
+        "sourceType": "official_guidance",
+        "issuer": "IALA",
+        "url": "https://www.iala-aism.org/product/iala-maritime-buoyage-system/",
+        "supports": "浮標系統及航標辨識。"
+      }
+    ],
+    "assumptions": [
+      "海圖圖例依題目指定的當年版本；航行實務依現行官方資料補充。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部86年引港學原卷",
+          "result": "pass",
+          "note": "六題題文核對。"
+        },
+        {
+          "item": "Chart 1歷史圖例及題目原始定位圖",
+          "result": "partial",
+          "note": "歷史圖例版次及第6題原始方位圖尚待核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "086-pilotage-04-answer-v1",
+    "questionId": "086-pilotage-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、共同點】海峽兩岸均以海圖及航標提供船舶定位、航道辨識及危險物標示；均使用經緯度、海圖圖式、燈質、燈浮及潮汐資料，並逐步採用全球大地基準及電子海圖資料。\n\n【二、航行標誌差異】\n1. IALA制度：須按各自海圖及航標公告確認採用的區域制度。臺灣海域採IALA A區；中國大陸沿海亦應依其正式航標公告及海圖圖例核對，不能僅因兩岸鄰近便推定所有港口、內河及特殊航標完全一致。\n2. 航標名稱、編號、燈質、燈色、浮標位置及維護通報機制可能因主管機關及港口而異。\n3. 特殊用途標誌（施工、養殖、禁航、軍事管制、海底電纜等）應以各地官方海圖及航船布告為準。\n\n【三、海圖基準面】海圖水深基準面（Chart Datum）是海圖水深及潮高的共同參考面，兩岸可能採用不同潮汐基準定義、驗潮站資料及高程基準；大地基準（例如WGS84）則是水平座標基準，不能與水深垂直基準混為一談。使用跨海域海圖時，應核對水平基準、垂直基準、潮高基準、測深年代及改正資料。\n\n【四、航行實務】跨區航行不得直接將一地的潮高、海圖水深或航標資料套用另一地；應查閱該區最新版海圖、燈表、航船布告及潮汐表，並注意基準轉換及資料更新。",
+    "practicalAnalysis": "本題應比較航標制度、官方公告及海圖水深基準面。特別提醒WGS84是水平大地基準，不等於Chart Datum；垂直基準差異必須依海圖說明核對。",
+    "keyPoints": [
+      {
+        "point": "海圖及航標均須依當地官方圖例、燈表及航船布告。",
+        "importance": "essential"
+      },
+      {
+        "point": "臺灣IALA A區；其他海域仍須核對各港正式制度及特殊標誌。",
+        "importance": "essential"
+      },
+      {
+        "point": "水平大地基準與垂直水深基準是不同概念。",
+        "importance": "essential"
+      },
+      {
+        "point": "跨區航行應核對Chart Datum、潮高基準、WGS84及測深年代。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "86年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國86年（1997）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=086120&q=1&s=c181&t=Q",
+        "supports": "引港學六題原卷。"
+      },
+      {
+        "title": "IALA Maritime Buoyage System",
+        "sourceType": "official_guidance",
+        "issuer": "IALA",
+        "url": "https://www.iala-aism.org/product/iala-maritime-buoyage-system/",
+        "supports": "浮標系統及航標辨識。"
+      }
+    ],
+    "assumptions": [
+      "海圖圖例依題目指定的當年版本；航行實務依現行官方資料補充。"
+    ],
+    "limitations": [
+      "未取得1997年兩岸航標及海圖基準面官方比較表，故不列具體高程差值或一概而論的基準名稱。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部86年引港學原卷",
+          "result": "pass",
+          "note": "六題題文核對。"
+        },
+        {
+          "item": "Chart 1歷史圖例及題目原始定位圖",
+          "result": "partial",
+          "note": "歷史圖例版次及第6題原始方位圖尚待核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "086-pilotage-05-answer-v1",
+    "questionId": "086-pilotage-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、南海生成颱風的常見特性】南海生成或經南海發展的熱帶氣旋，常受季風槽、低層輻合、海溫、垂直風切及季節性環流影響。南海海域相對狹窄，部分系統發展時間短、移動路徑變化快，可能在接近華南、海南島、越南或臺灣西南部前迅速增強或減弱；亦可能與西南季風共同作用，帶來廣泛豪雨。\n\n【二、對臺灣的影響】\n1. 直接侵臺：若路徑由南海北上或東北轉向，可能影響臺灣西南部、南部及中部，帶來強風、暴雨及海面惡劣。\n2. 外圍環流：即使中心未登陸，西南氣流仍可能在中央山脈迎風面造成持續性豪雨及河川暴漲。\n3. 海象：南部及西南沿海可能出現長週期湧浪、風暴潮、港外浪高增加及港池振盪。\n4. 港口作業：引水艇登離輪、拖船作業、錨泊及靠離泊風險提高；港口可能限航或停航。\n\n【三、引水應變】密切追蹤中央氣象署颱風警報、路徑預報、風力及浪高；檢查港外引水站可接近性、引水梯安全、拖船配置及船舶操縱餘裕。當風浪超過港口或引水作業安全限制時，應暫緩登輪及進出港，並依港務機關指示執行。",
+    "practicalAnalysis": "本題重點不是背固定路徑，而是說明南海系統的季風與地形降雨特性，以及對臺灣西南部豪雨、湧浪及港口引水作業的影響。",
+    "keyPoints": [
+      {
+        "point": "南海熱帶氣旋受季風槽、海溫及風切影響，路徑與強度變化快。",
+        "importance": "essential"
+      },
+      {
+        "point": "西南氣流可在臺灣迎風面造成持續豪雨。",
+        "importance": "essential"
+      },
+      {
+        "point": "港外湧浪、風暴潮及港池振盪影響引水艇與拖船作業。",
+        "importance": "essential"
+      },
+      {
+        "point": "依官方警報、浪高及港口安全限制決定是否暫停作業。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "86年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國86年（1997）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=086120&q=1&s=c181&t=Q",
+        "supports": "引港學六題原卷。"
+      },
+      {
+        "title": "IALA Maritime Buoyage System",
+        "sourceType": "official_guidance",
+        "issuer": "IALA",
+        "url": "https://www.iala-aism.org/product/iala-maritime-buoyage-system/",
+        "supports": "浮標系統及航標辨識。"
+      }
+    ],
+    "assumptions": [
+      "海圖圖例依題目指定的當年版本；航行實務依現行官方資料補充。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部86年引港學原卷",
+          "result": "pass",
+          "note": "六題題文核對。"
+        },
+        {
+          "item": "Chart 1歷史圖例及題目原始定位圖",
+          "result": "partial",
+          "note": "歷史圖例版次及第6題原始方位圖尚待核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "086-pilotage-06-answer-v1",
+    "questionId": "086-pilotage-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、分段航程的推算航位】以真航向及對水航速計算各段航程，東分量E=D·sinC，北分量N=D·cosC；D=V×t。四段如下：\n| 時段 | 真航向C | 船速 | 時間 | 航程 | 東分量E | 北分量N |\n|---|---:|---:|---:|---:|---:|---:|\n| 0800–0820 | 000° | 15 kn | 20 min | 5.0 NM | 0.000 | +5.000 |\n| 0820–0840 | 075° | 12 kn | 20 min | 4.0 NM | +3.864 | +1.035 |\n| 0840–0940 | 310° | 12 kn | 60 min | 12.0 NM | −9.193 | +7.713 |\n| 0940–1020 | 220° | 12 kn | 40 min | 8.0 NM | −5.142 | −6.128 |\n| **合計** | | | | **29.0 NM** | **−10.471** | **+7.620** |\n\n【二、實際船位】出發點在H島正東15NM，取H島為原點，初始船位(E,N)=(+15,0)。1020定位為H島方位025°、距離7NM，表示由H島指向船舶的方位為205°，故實際船位：E=7sin205°=−2.958NM；N=7cos205°=−6.344NM。\n\n【三、求流】實際位移=(−2.958−15, −6.344−0)=(−17.958,−6.344)NM。推算位移=(−10.471,+7.620)NM。流造成的位移=實際位移−推算位移=(−7.487,−13.965)NM。總時間2hr，流速分量：E=−3.744kn，N=−6.983kn。流速V=√(3.744²+6.983²)=7.92kn；流向（流往方向）=約208.2°T。\n\n【四、合理性檢查】結果流速約7.9節，數值偏大，應回頭核對題目中的起始位置、各段航向／船速、1020方位是否為「H島在船舶的方位」及題目是否有抄錄誤差。若題目方位是船舶相對H島的方位，向量方向會不同。考試作答應先寫明方位解讀及向量計算，再指出結果異常並檢查原卷。",
+    "practicalAnalysis": "本題的計算流程是先以各段真航向及船速作DR向量，再以最後定位求實際位移，兩者差值除以2小時即得流向流速。計算得到約7.92kn、流往208.2°，偏大，必須核對題目方位描述是否轉錄正確。",
+    "keyPoints": [
+      {
+        "point": "各段航程D=V×t，E=DsinC，N=DcosC。",
+        "importance": "essential"
+      },
+      {
+        "point": "出發位置在H島東15NM，初始座標(+15,0)。",
+        "importance": "essential"
+      },
+      {
+        "point": "H島方位025°、距7NM按船上觀測方位解讀，船位相對H為方位205°。",
+        "importance": "essential"
+      },
+      {
+        "point": "流向量=實際位移−DR位移，再除以總時間2hr。",
+        "importance": "supporting"
+      },
+      {
+        "point": "結果約7.92kn、流往208.2°，需核對原題方位語意及數據。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "86年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國86年（1997）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=086120&q=1&s=c181&t=Q",
+        "supports": "引港學六題原卷。"
+      },
+      {
+        "title": "IALA Maritime Buoyage System",
+        "sourceType": "official_guidance",
+        "issuer": "IALA",
+        "url": "https://www.iala-aism.org/product/iala-maritime-buoyage-system/",
+        "supports": "浮標系統及航標辨識。"
+      }
+    ],
+    "assumptions": [
+      "海圖圖例依題目指定的當年版本；航行實務依現行官方資料補充。"
+    ],
+    "limitations": [
+      "題目方位描述若非由船舶指向H島，最後定位向量將不同；計算結果異常偏大，必須核對考選部原卷影像。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部86年引港學原卷",
+          "result": "pass",
+          "note": "六題題文核對。"
+        },
+        {
+          "item": "Chart 1歷史圖例及題目原始定位圖",
+          "result": "partial",
+          "note": "歷史圖例版次及第6題原始方位圖尚待核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
