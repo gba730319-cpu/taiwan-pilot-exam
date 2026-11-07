@@ -197,8 +197,8 @@ type Source = {
 function normalizeAnswerMarkdown(value: string) {
   // Keep display math as block math; inline delimiters remain inline.
   return value
-    .replaceAll("\\[", () => "$")
-    .replaceAll("\\]", () => "$")
+    .replaceAll("\\[", () => "$" + "$")
+    .replaceAll("\\]", () => "$" + "$")
     .replaceAll("\\(", () => "$")
     .replaceAll("\\)", () => "$");
 }
