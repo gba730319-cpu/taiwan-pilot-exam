@@ -355,16 +355,24 @@
     "version": 1,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "依COLREG Rule 35(d)，從事捕魚中的船舶在錨泊且處於能見度受限制的水域時，不使用一般錨泊船Rule 35(g)的鐘聲信號，而應使用Rule 35(c)的捕魚船霧號：每隔不超過2分鐘，連續鳴放三聲，即一長聲後接兩短聲。\\n\\n這是Rule 35(d)的特別規定；不得誤答成普通錨泊船每分鐘快速敲鐘約5秒。",
-    "practicalAnalysis": "依題目指定的1994年法規及COLREG條文整理；歷史條文未取得者明確保留待查，不以現行版本冒充。",
+    "modelAnswer": "【一、適用情況】本題所指為「正在從事捕魚作業的船舶」，於錨泊時又處於能見度受限制的水域（不論白天或夜間）。依《國際海上避碰規則》（COLREG）Rule 35(d)，該船不得只採用一般錨泊船的鐘聲信號，而應改用Rule 35(c)所規定的捕魚船霧號。\n\n【二、應鳴放的聲號】每隔不超過2分鐘，連續鳴放三聲：\n\n1. 一長聲（one prolonged blast）；\n\n2. 緊接兩短聲（two short blasts）。\n\n即「一長、兩短」，整組聲號的間隔不得超過2分鐘。Rule 35(c)規定此聲號供從事捕魚船舶等特定船舶，在能見度受限制時使用。\n\n【三、與一般錨泊船的差異】一般錨泊船依Rule 35(g)，每隔不超過1分鐘快速敲鐘約5秒；船長達100公尺或以上者，還須在船艏敲鐘後，於船艉快速敲鑼約5秒。但正在從事捕魚而錨泊的船舶，依Rule 35(d)應以Rule 35(c)的「一長兩短」取代Rule 35(g)的普通錨泊鐘聲。\n\n【四、考試易錯點】不能把「一長兩短」誤寫成一般錨泊船的鐘聲，也不能把間隔寫成每1分鐘；本題答案應明確寫出Rule 35(d)援引Rule 35(c)，每不超過2分鐘一組一長兩短。此規定亦適用於在錨泊位置執行工作的操縱能力受限制船舶。",
+    "practicalAnalysis": "本題10分，作答應明確指出Rule 35(d)是特別規定：從事捕魚的船舶錨泊時，以Rule 35(c)的一長兩短霧號取代Rule 35(g)的一般錨泊鐘聲。必須同時寫對聲號組成及不超過2分鐘的間隔，並避免與普通錨泊船每不超過1分鐘敲鐘約5秒混淆。",
     "keyPoints": [
       {
-        "point": "捕魚船錨泊於能見度受限制時，每不超過2分鐘一長二短。",
+        "point": "適用於正在從事捕魚的船舶錨泊，且位於能見度受限制水域，白天夜間均適用。",
         "importance": "essential"
       },
       {
-        "point": "依Rule35(d)取代普通錨泊船鐘聲。",
+        "point": "依Rule 35(d)援引Rule 35(c)，每不超過2分鐘鳴放一長聲接兩短聲。",
         "importance": "essential"
+      },
+      {
+        "point": "此聲號取代Rule 35(g)一般錨泊船每不超過1分鐘快速敲鐘約5秒的信號。",
+        "importance": "essential"
+      },
+      {
+        "point": "在錨泊位置執行工作的操縱能力受限制船舶亦適用Rule 35(d)。",
+        "importance": "supporting"
       }
     ],
     "references": [
@@ -382,6 +390,13 @@
         "issuer": "IMO",
         "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
         "supports": "第7題Rule35、第8題Rule27、第9題Rule5。"
+      },
+      {
+        "title": "COLREG 1972 — Rule 35, Sound Signals in Restricted Visibility",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "Rule 35(c)、35(d)、35(g)之霧號與錨泊聲號規定。"
       }
     ],
     "assumptions": [
