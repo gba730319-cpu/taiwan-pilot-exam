@@ -394,8 +394,14 @@ export default function Home() {
                           <ol className="answer-keypoints">
                             {answer.keyPoints.map((item, index) => (
                               <li key={index}>
-                                <b>{item.point}</b>
-                                {item.explanation ? <p>{item.explanation}</p> : null}
+                                {typeof item === "string" ? (
+                                  <b>{item}</b>
+                                ) : (
+                                  <>
+                                    <b>{item.point}</b>
+                                    {item.explanation ? <p>{item.explanation}</p> : null}
+                                  </>
+                                )}
                               </li>
                             ))}
                           </ol>
@@ -404,13 +410,35 @@ export default function Home() {
                       {Array.isArray(answer.assumptions) && answer.assumptions.length ? (
                         <section className="answer-section">
                           <h3>計算假設</h3>
-                          <ul>{answer.assumptions.map((item, index) => <li key={index}>{item}</li>)}</ul>
+                          <ul>{answer.assumptions.map((item, index) => (
+                            <li key={index}>
+                              {typeof item === "string" ? item : (
+                                <>
+                                  {item.url ? <a href={item.url} target="_blank" rel="noreferrer">{item.title || item.url}</a> : item.title}
+                                  {item.issuer ? `｜${item.issuer}` : ""}
+                                  {item.pageOrSection ? `（${item.pageOrSection}）` : ""}
+                                  {item.supports ? <span> — {item.supports}</span> : null}
+                                </>
+                              )}
+                            </li>
+                          ))}</ul>
                         </section>
                       ) : null}
                       {Array.isArray(answer.limitations) && answer.limitations.length ? (
                         <section className="answer-section">
                           <h3>適用限制與注意事項</h3>
-                          <ul>{answer.limitations.map((item, index) => <li key={index}>{item}</li>)}</ul>
+                          <ul>{answer.limitations.map((item, index) => (
+                            <li key={index}>
+                              {typeof item === "string" ? item : (
+                                <>
+                                  {item.url ? <a href={item.url} target="_blank" rel="noreferrer">{item.title || item.url}</a> : item.title}
+                                  {item.issuer ? `｜${item.issuer}` : ""}
+                                  {item.pageOrSection ? `（${item.pageOrSection}）` : ""}
+                                  {item.supports ? <span> — {item.supports}</span> : null}
+                                </>
+                              )}
+                            </li>
+                          ))}</ul>
                         </section>
                       ) : null}
                       {Array.isArray(answer.references) && answer.references.length ? (
