@@ -282,30 +282,30 @@
   {
     "id": "087-shiphandling-05-answer-v1",
     "questionId": "087-shiphandling-05",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、作用於舵葉的水流速度組成】\n舵葉的入流速度不是單純船速，而是多種流場向量的合成：\n1. 船舶對水前進速度（ship's speed through water）：船體相對水體運動所形成的軸向來流。\n2. 螺槳尾流（propeller race／slipstream）：螺槳加速的水流，會提高舵面局部流速，尤其前進車時明顯。\n3. 船體艉部伴流（wake）：船體邊界層及艉部流場造成舵前速度低於或不同於船速。\n4. 轉首及漂角分量：船舶有轉首率、側滑或橫向速度時，舵面來流會增加橫向分量。\n5. 外界流場：潮流、海流、淺水、岸壁及鄰船作用會改變舵面相對水流。\n\n【二、受限水域大角度轉向】\n1. 事先評估航道寬度、水深、船長、吃水、迴轉圈、風流、岸壁及鄰船，選擇足夠轉向水域。\n2. 在轉向前將速度降至可控低速，但保持足夠舵效；過高速會增加advance、transfer及岸壁效應。\n3. 提前下舵並監控ROT，避免船艏接近岸壁時才大角度急轉。\n4. 轉向過程注意船艏向外掃掠、船艉向內掃掠及淺水squat；必要時用主機短促車令維持舵面螺槳尾流。\n5. 接近目標航向時及早反舵（counter-rudder）降低轉首率，避免過度轉向。\n6. 若水域不足或風流過強，使用拖船協助，或等待合適潮時／交通空檔；不得勉強在狹窄水域急轉。",
-    "practicalAnalysis": "本題15分，第一部分要列出船速、螺槳尾流、船體伴流、轉首／漂角及外界流場；第二部分說明受限水域轉向要低速、提早下舵、監控ROT、注意艏艉掃掠及及早反舵。",
+    "modelAnswer": "## 一、作用於舵葉的水流速度由哪些部分組成？\n\n舵葉所受來流是舵附近局部水流相對於船舶的合成流場，不宜直接等同船舶對地航速。主要來源包括：\n\n1. **船舶對水速度（speed through water）：**船體相對周圍水體前進所形成的基本來流。\n2. **螺槳尾流（propeller race／slipstream）：**螺槳加速的水流，通常會提高舵面局部流速及舵力，尤其前進車時明顯。\n3. **船體伴流（hull wake）：**船體邊界層及艉部流場使舵前流速、流向與自由來流不同。\n4. **橫向流及偏航分量：**船舶有漂角、橫向速度或轉首率時，舵面來流會出現橫向分量。\n5. **局部水動力環境：**淺水、岸壁、船間交互作用及不均勻流場會改變舵附近的速度與方向。\n\n**注意潮流的算法：**若已採用「對水速度」，不可再把整體潮流速度當成另一個獨立分量重複相加；潮流會透過對地速度與對水速度的向量關係，以及局部流場變化，影響舵葉實際來流。\n\n## 二、船舶在受限水域航進，如何作大角度轉向？\n\n1. **預先評估：**確認航道寬度、水深、吃水、船長、風流、交通、迴轉圈及船艏艉掃掠空間。\n2. **控制進入速度：**在轉向前降低至可控速度，但仍須保留足夠舵效；速度過高會增加轉向所需水域及受限水域水動力效應。\n3. **提早施舵：**依本船操縱資料及引水經驗提早下舵，不要等船艏接近岸壁才急打大舵。\n4. **監控轉首率：**連續監看ROT、航向、船位及船艏艉與航道邊界的距離。\n5. **配合主機：**必要時以適當車令維持舵效，但避免過度加速；同時注意淺水效應及squat。\n6. **及早反舵：**接近目標航向前，依轉首率及船舶反應適時反舵，避免過度轉向。\n7. **保留替代方案：**若水域不足、風流過強或交通不允許，應請求拖船協助、等待合適潮時／交通空檔，或中止轉向，不可勉強操船。",
+    "practicalAnalysis": "原答案把潮流列為可直接加在對水速度上的獨立流速分量，可能造成重複計算。應先區分對地速度與對水速度，再描述舵附近局部流場；本題第二部分則重點考提早降速、提早施舵、監控ROT與艏艉掃掠、適時反舵。",
     "keyPoints": [
       {
-        "point": "舵葉入流包含船舶對水速度、螺槳尾流及船體伴流。",
+        "point": "舵葉來流包含船舶對水速度、螺槳尾流、船體伴流及漂角／轉首造成的橫向分量。",
         "importance": "essential"
       },
       {
-        "point": "轉首率、漂角、潮流及岸壁效應改變舵面入流方向與速度。",
+        "point": "若已使用對水速度，不可再把整體潮流速度當成另一個獨立分量重複相加。",
         "importance": "essential"
       },
       {
-        "point": "受限水域轉向前評估水深、航道寬度、迴轉圈及風流。",
+        "point": "受限水域大角度轉向須預先評估水深、寬度、風流、迴轉性能及艏艉掃掠。",
         "importance": "essential"
       },
       {
-        "point": "低速但保持舵效，提早下舵並監控ROT。",
-        "importance": "supporting"
+        "point": "提早降速、提早施舵、監控ROT，接近目標航向前適時反舵。",
+        "importance": "essential"
       },
       {
-        "point": "接近目標航向時及早反舵，注意艏艉掃掠及squat。",
+        "point": "水域或環境不允許時，使用拖船、等待或中止，不可勉強操船。",
         "importance": "supporting"
       }
     ],
@@ -316,61 +316,62 @@
         "issuer": "考選部",
         "editionOrEffectiveDate": "民國87年",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2003&t=Q",
-        "supports": "船舶操縱八題原卷。"
+        "supports": "原題題意及配分。"
       },
       {
         "title": "The Shiphandler's Guide",
         "sourceType": "textbook_or_academic",
         "issuer": "R.W. Rowe, The Nautical Institute",
         "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
-        "supports": "受限水域、單螺槳船、拖船及錨的操船原理。"
+        "supports": "舵效、船體伴流、螺槳尾流及受限水域操船。"
       }
     ],
     "assumptions": [
-      "依FPP單螺槳船及港內操船原理作答，未提供的螺槳旋向、船型及水域數據不自行假設。"
+      "以FPP單螺槳船為題幹背景；實際舵面流場仍依船型、車令、舵角、漂角及水域條件改變。"
     ],
-    "limitations": [],
+    "limitations": [
+      "題目未提供船型、螺槳旋向及實際水域數據，故不指定固定舵角、車令或轉向速度。"
+    ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部87年船舶操縱題目",
+          "item": "操船流體力學概念",
           "result": "pass",
-          "note": "已核對原卷題文。"
-        },
-        {
-          "item": "操船理論",
-          "result": "pass",
-          "note": "依船舶操縱學及拖船操作原理整理。"
+          "note": "修正對水速度與潮流重複計算的表述；未提供個船資料處仍保留條件限制。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "087-shiphandling-06-answer-v1",
     "questionId": "087-shiphandling-06",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "Standard 10°/10° Zig-zag Test是船舶操縱性試驗之一：船舶先以穩定航向及速度航行，操舵10°，當船艏向改變10°時立即反舵10°，再於反向達到10°時再次反舵，反覆進行。\n此試驗可量測或評估：\n1. 第一超越角（First Overshoot Angle）。\n2. 第二超越角（Second Overshoot Angle）。\n3. 船舶轉首反應及舵效延遲（initial turning／yaw response）。\n4. 航向控制及偏航抑制能力（yaw-checking ability）。\n5. 船舶動態穩定性及方向穩定性（dynamic stability／course-keeping ability）。\n超越角愈大，表示船舶在反舵後仍持續轉首的程度愈大，舵效延遲及偏航抑制能力較差；試驗結果可用於比較船型及確認是否符合IMO操縱性標準。",
-    "practicalAnalysis": "本題10分，須說明試驗程序及其量測的第一、第二超越角，並指出可評估yaw-checking ability及動態方向穩定性。",
+    "modelAnswer": "Standard 10°/10° Zig-zag Test（10°／10° Z形試驗）是IMO船舶操縱性標準試驗之一，用來評估船舶的偏航檢查能力及航向保持能力。\n\n## 一、試驗程序\n\n1. 船舶先以規定試驗速度穩定直航，初始轉首率接近零。\n2. 操舵10°至右舷或左舷（first execute）。\n3. 船首向偏離原航向10°時，立即反舵10°至另一舷（second execute）。\n4. 船舶雖已反舵，仍會因既有轉首動量繼續轉向；記錄其超過目標航向的角度。\n5. 船首向到達另一側偏離原航向10°時，再反舵10°，持續完成試驗。\n\n## 二、主要量測項目\n\n1. **第一超越角（First Overshoot Angle）：**第二次操舵後，船舶仍沿原方向轉首而超過目標航向的角度。\n2. **第二超越角（Second Overshoot Angle）：**第三次操舵後，船舶再次超過另一側目標航向的角度。\n3. **第二次操舵時間（Initial Turning Time to Second Execute）：**由第一次操舵至船首向達到第一次10°偏角、執行反舵所經時間。\n4. **偏航檢查時間（Time to Check Yaw）：**反舵後使原有轉首運動受到抑制所需的時間。\n\n## 三、性能意義\n\n超越角及偏航檢查時間可用來評估船舶反舵後抑制轉首的能力及航向保持表現。IMO操縱性標準以第一、第二超越角作為重要判準；若標準試驗顯示動態不穩定，通常還須以spiral test或pull-out manoeuvre等補充試驗進一步評估，不能把10°／10°試驗單獨說成完整量測所有動態穩定性。",
+    "practicalAnalysis": "原答案將動態穩定性說成10°／10° Zig-zag Test直接量測項目，範圍過廣。依IMO操縱性說明，Zig-zag試驗主要取得第一、第二超越角、第二次操舵時間及偏航檢查時間；如需更深入評估動態穩定性，可另做spiral或pull-out試驗。",
     "keyPoints": [
       {
-        "point": "先操舵10°，艏向改變10°後反舵10°。",
+        "point": "程序：穩定直航後操舵10°，船首向偏離10°時反舵10°，交替進行。",
         "importance": "essential"
       },
       {
-        "point": "量測第一及第二超越角。",
+        "point": "主要量測第一超越角及第二超越角。",
         "importance": "essential"
       },
       {
-        "point": "評估轉首反應、舵效延遲及yaw-checking ability。",
+        "point": "亦可取得第二次操舵時間及偏航檢查時間。",
+        "importance": "supporting"
+      },
+      {
+        "point": "主要評估yaw-checking及course-keeping能力，不應誇稱單一試驗完整量測所有動態穩定性。",
         "importance": "essential"
       },
       {
-        "point": "可比較船舶動態方向穩定性及操縱性能。",
+        "point": "動態不穩定需更深入評估時，可用spiral test或pull-out manoeuvre補充。",
         "importance": "supporting"
       }
     ],
@@ -381,37 +382,41 @@
         "issuer": "考選部",
         "editionOrEffectiveDate": "民國87年",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2003&t=Q",
-        "supports": "船舶操縱八題原卷。"
+        "supports": "原題題意及配分。"
       },
       {
-        "title": "The Shiphandler's Guide",
-        "sourceType": "textbook_or_academic",
-        "issuer": "R.W. Rowe, The Nautical Institute",
-        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
-        "supports": "受限水域、單螺槳船、拖船及錨的操船原理。"
+        "title": "MSC.137(76) Standards for Ship Manoeuvrability",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2002-12-04",
+        "url": "https://www.imorules.com/GUID-DB7CD50D-0335-4910-AAB7-95ABD47A4A25.html",
+        "supports": "Zig-zag試驗超越角及操縱性能判準。"
+      },
+      {
+        "title": "MSC/Circ.1053 Explanatory Notes to the Standards for Ship Manoeuvrability",
+        "sourceType": "international_standard",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2002-12-16",
+        "url": "https://www.imorules.com/GUID-BE137BC0-62C8-45FA-B5AB-917DDD9B48A3.html",
+        "supports": "10°／10°試驗程序、超越角、第二次操舵時間及偏航檢查時間。"
       }
     ],
     "assumptions": [
-      "依FPP單螺槳船及港內操船原理作答，未提供的螺槳旋向、船型及水域數據不自行假設。"
+      "以IMO船舶操縱性標準試驗的通常定義說明；正式試驗速度、船舶狀態及接受標準依適用IMO文件及主管機關要求。"
     ],
     "limitations": [],
     "verification": {
-      "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "status": "source_checked",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部87年船舶操縱題目",
+          "item": "IMO MSC.137(76)及MSC/Circ.1053",
           "result": "pass",
-          "note": "已核對原卷題文。"
-        },
-        {
-          "item": "操船理論",
-          "result": "pass",
-          "note": "依船舶操縱學及拖船操作原理整理。"
+          "note": "核對試驗程序、超越角及主要輸出項目；修正動態穩定性過度延伸的描述。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "087-shiphandling-07-answer-v1",
