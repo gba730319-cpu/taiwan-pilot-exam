@@ -173,3 +173,11 @@
 - IHO S-52 Addendum官方圖形目錄：https://iho.int/uploads/user/pubs/standards/s-52/S-52%20PresLib%20Ed%204.0.3%20Part%20I%20Addendum_Clean.pdf
 - 官方U.S. Chart No.1第13版（2019-04-15）P30.2 ECDIS欄：https://msi.nga.mil/api/publications/download?key=16694005%2FSFH00000%2FChartNo1.pdf&type=view
 - 答案已更新，verification.status由partially_verified提升為source_checked；但沈船實際畫面仍須強調其依ENC屬性及本船安全等深線而變動，不是單一固定圖形。
+
+
+### 114 年航政法規第 1 題：通用引水契約定位追加查核（2026-11-07）
+- 已查得114年考試時有效之《引水人管理規則》（113年12月18日修正）第2條：各引水區域引水人共同設置辦事處辦理船舶招請領航；辦事處規約由引水人簽約共同信守，並報航政機關核定後實施，航政機關得於重大海事案件或必要時要求檢討。
+- 重要法律區分：辦事處規約是辦事處／引水人之組織、自律與執業管理文件，不應直接等同船舶所有人與引水人之間的通用服務契約。
+- 航港局官方「引水人監理作業」頁面列示引水法、管理規則、領航程序注意事項、各港引水費率、引航作業注意事項、標準作業程序、勤前自檢表、酒測紀錄表及標準引航計畫卡；目前未見全國統一船方—引水人通用契約全文。
+- 因此答案已修正為：以題目所稱通用契約進行一般契約法理分析，但未取得具體正式條款前，不臆測免責、責任上限、保險及索賠期限。相關契約全文子項維持 needs_review。
+- 官方來源：《引水人管理規則》https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0070029；行政院公報113年12月18日修正令 https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg030237/ch06/type1/gov50/num11/Eg.pdf；航港局監理作業資料清單 https://www.motcmpb.gov.tw/Article?NodeId=498&SiteId=1
