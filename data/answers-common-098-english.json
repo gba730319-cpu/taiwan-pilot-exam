@@ -2,11 +2,11 @@
   {
     "id": "98-english-01",
     "questionId": "98-english-01",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "translation",
-    "modelAnswer": "【第一段英翻中】\n\n任何負責特定區域內交通安全且有效率運作，同時肩負保護民眾及環境責任的主管機關，均有許多可運用的管理工具，以達成上述目標。每一種工具各有其特定的適用範圍，但同時也可能在其他領域發揮輔助功能，因而在彼此互動的過程中產生附加價值。\n\n【第二段英翻中】\n\n引水人在船上執行領航期間，負責船舶的航行；船舶船員應遵從強制引水人所下達、與航行有關的命令，除非船長基於下文將討論的理由，認為有必要介入。在強制引水人於船上的情況下，船長的責任並非因此完全且永久地解除。船長與引水人不僅對船舶、貨物及船員負有高度責任，對社會大眾亦負有相當重大的責任。\n\n【重要字詞與翻譯說明】\n1. authority：主管機關／主管當局，依上下文不宜一律譯為「權威」。\n2. safe and efficient flow of traffic：安全且有效率的交通流；海事語境可譯為船舶交通流。\n3. instruments：政策工具、管理工具或管制措施，不是字面上的「儀器」。\n4. subsidiary function：輔助功能。\n5. compulsory pilot：強制引水人／依法強制領航之引水人。\n6. intercede：介入、出面干預；本句指船長因安全或其他正當理由介入操船。\n7. bear responsibility：承擔責任。\n8. the public：社會大眾／公眾。\n\n原文第二段的 “a master's responsibility is not total and forever” 英文表達較不自然，譯文採忠於上下文的方式，表達「引水人在船不代表船長責任完全且永久解除」；不宜誤譯為船長完全沒有責任。",
-    "practicalAnalysis": "本題30分，兩段各自掌握句構。第一段主詞是Any authority，核心動詞has；responsible for後接兩項責任，available to pursue為「可用以達成」。第二段注意while aboard修飾引水人在船期間；is in charge of為負責；is required to obey為應遵從；unless為除非；intercede為介入；not total and forever應依語境理解為船長責任不因強制引水而完全、永久解除。最後public是公眾，不是「公共設施」。",
+    "modelAnswer": "【第一段英翻中】\n\n任何負責特定區域內交通安全且有效率運作，同時肩負保護民眾及環境責任的主管機關，均有許多可運用的管理工具，以達成上述目標。每一種工具各有其特定的適用範圍，但同時也可能在其他領域發揮輔助功能，因而在彼此互動的過程中產生附加價值。\n\n【第二段英翻中｜忠於原文】\n\n引水人在船上期間負責船舶的航行；船舶船員應遵從強制引水人所下達、與航行有關的命令，除非船長基於下文將討論的理由，認為有必要介入。即使有強制引水人在船上，船長的責任也不是「完全且永久」地由引水人承擔。船長與引水人不僅對船舶、貨物及船員負有高度責任，對社會大眾亦負有相當重大的責任。\n\n【原文語意注意】\n原文 “a master's responsibility is not total and forever” 並非自然、精確的海事法律英文，字面上是「船長的責任並非完全且永久如此」，可能意在表達船長與引水人的責任並非由其中一方完全承擔。考試翻譯宜保留原文語意並指出句子不自然，不宜自行改寫成確定的法律結論。\n\n【2027現行制度提醒】\n依IMO A.960(23)，引水人登船不解除船長及值班駕駛員對船舶安全的責任；船長仍須監督引水作業，必要時提出質疑或採取安全措施。這是現行專業責任說明，與上方逐字翻譯應分開作答。\n\n【重要字詞】\n- authority：主管機關／主管當局。\n- safe and efficient flow of traffic：安全且有效率的交通流。\n- instruments：政策工具、管理工具或管制措施。\n- subsidiary function：輔助功能。\n- compulsory pilot：強制引水人。\n- intercede：介入、出面干預。\n- bear responsibility：承擔責任。\n- the public：社會大眾／公眾。",
+    "practicalAnalysis": "翻譯時忠於原文，不替不自然的英文句子補寫成法條。第二段最後一句的語意有歧義，須標明文字不自然；現行引水責任另依IMO A.960(23)說明引水人登船不解除船長及OOW責任。",
     "keyPoints": [
       {
         "point": "authority在本段譯為主管機關，instruments譯為管理工具或管制措施。",
@@ -52,13 +52,21 @@
         "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.960%2823%29.pdf",
         "pageOrSection": "Annex 2, Master-Pilot Information Exchange",
         "supports": "補充船長與引水人資訊交換及共同安全責任之海事語境。"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "imo_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "supports": "引水人登船不解除船長及值班駕駛員責任、MPX及引水作業程序。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [
       "英翻中以保留原文語意及海事專業用語為原則；原文第二段最後一句的責任描述不夠自然，故依上下文翻譯並加註。"
     ],
     "limitations": [
-      "本題為翻譯題，不將譯文當作我國引水法條文之逐字翻譯；如引用法律，仍應以正式中文法規為準。"
+      "原文第二段a master's responsibility is not total and forever並非自然且精確的法律英文，僅能作語境解讀；不能視為現行法律的正式表述。"
     ],
     "verification": {
       "status": "source_checked",
@@ -81,16 +89,16 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   },
   {
     "id": "98-english-02",
     "questionId": "98-english-02",
-    "version": 1,
+    "version": 2,
     "language": "en",
     "answerType": "translation",
     "modelAnswer": "【(1) 中文英譯】\n\nWhen a pilot is performing pilotage duties, he or she shall carry the pilot's licence and relevant documents. If the master requests to inspect them, the pilot shall not refuse.\n\n【(2) 中文英譯】\n\nThe purpose of establishing a Vessel Traffic Service (VTS) in a port is to enhance the safety of vessel navigation and anchoring within the area, protect the marine environment, and maintain an orderly flow of vessel traffic.\n\n【Alternative, more formal version of (2)】\n\nA Vessel Traffic Service (VTS) is established in a port to improve the safety of navigation and anchoring in the area, safeguard the marine environment, and ensure an orderly flow of maritime traffic.\n\n【用語提示】\n- 執行領航業務：perform pilotage duties\n- 執業證書：pilot's licence / certificate of competency (依證件正式名稱選用)\n- 有關證件：relevant documents\n- 索閱：request to inspect / ask to see\n- 不得拒絕：shall not refuse\n- 船舶交通服務：Vessel Traffic Service (VTS)\n- 錨泊：anchoring\n- 海洋環境：marine environment\n- 有秩序之交通流：an orderly flow of vessel traffic",
-    "practicalAnalysis": "本題20分，第一句用When引導時間副詞子句，主句shall carry；「如遇船長索閱時」可用If the master requests to inspect them；「不得拒絕」用shall not refuse。第二句VTS是正式名稱Vessel Traffic Service；「船舶航行及錨泊之安全」譯為safety of vessel navigation and anchoring；「維持有秩序之交通流」譯為maintain an orderly flow of vessel traffic。法律義務句使用shall較符合規範語氣。",
+    "practicalAnalysis": "本題20分，第一句用When引導時間副詞子句，主句shall carry；「如遇船長索閱時」可用If the master requests to inspect them；「不得拒絕」用shall not refuse。第二句VTS是正式名稱Vessel Traffic Service；「船舶航行及錨泊之安全」譯為safety of vessel navigation and anchoring；「維持有秩序之交通流」譯為maintain an orderly flow of vessel traffic。法律義務句使用shall較符合規範語氣。 2027備考時，shall carry及shall not refuse為法規義務語氣；翻譯須保留shall，不弱化成should。",
     "keyPoints": [
       {
         "point": "引水人執行領航業務：When a pilot is performing pilotage duties。",
@@ -171,16 +179,16 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   },
   {
     "id": "98-english-03",
     "questionId": "98-english-03",
-    "version": 1,
+    "version": 2,
     "language": "en",
     "answerType": "definition",
     "modelAnswer": "**(1) 助航設施 — Aids to Navigation (AtoN)**\n\nSentence: All vessels should keep a proper lookout for aids to navigation when approaching the port.\n\n**(2) 搜索與救助 — Search and Rescue (SAR)**\n\nSentence: The coast guard coordinated a search and rescue operation for the crew of the disabled vessel.\n\n**(3) 海事報告 — Marine Report / Maritime Accident Report**\n\nSentence: The master submitted a marine report to the competent authority after the vessel was involved in a collision.\n\n**(4) 人為過失 — Human Error**\n\nSentence: Human error is one of the factors that may contribute to a marine accident.\n\n【用語補充】\n- Aids to Navigation (AtoN)：航標、燈塔、浮標及其他助航設施的統稱。\n- Search and Rescue (SAR)：國際通用縮寫。\n- Marine report：一般海事報告；若明確指海難或事故調查報告，可依文件性質使用 maritime accident report 或 marine casualty report。\n- Human error：人為錯誤／人為過失；若法律上強調過失責任，可依句意使用 negligence，但不可將兩者在所有情況下視為完全同義。",
-    "practicalAnalysis": "本題20分，每一小題先寫標準英文術語，再造一個完整句子。助航設施建議用IMO常見的Aids to Navigation；搜索與救助用Search and Rescue (SAR)；海事報告可用Marine Report，但若題目指正式事故報告，Marine Casualty Report或Maritime Accident Report更精確；人為過失一般用Human Error，法律責任語境才考慮Negligence。句子須有完整主詞、動詞及語意，不要只寫片語。",
+    "practicalAnalysis": "本題20分，每一小題先寫標準英文術語，再造一個完整句子。助航設施建議用IMO常見的Aids to Navigation；搜索與救助用Search and Rescue (SAR)；海事報告可用Marine Report，但若題目指正式事故報告，Marine Casualty Report或Maritime Accident Report更精確；人為過失一般用Human Error，法律責任語境才考慮Negligence。句子須有完整主詞、動詞及語意，不要只寫片語。 2027備考時區分Aids to Navigation、SAR、Marine Casualty Report及Human Error等正式或常用海事術語；海事報告名稱應依文件性質選用。",
     "keyPoints": [
       {
         "point": "助航設施：Aids to Navigation (AtoN)。",
@@ -272,16 +280,16 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   },
   {
     "id": "98-english-04",
     "questionId": "98-english-04",
-    "version": 1,
+    "version": 2,
     "language": "en",
     "answerType": "essay",
     "modelAnswer": "**The Training of a Pilot**\n\nA ship pilot plays an important role in ensuring the safe and efficient movement of vessels in ports and confined waters. A pilot must have professional knowledge, practical experience, good communication skills and sound judgment. Therefore, the training of a pilot should include both theoretical study and practical experience.\n\nFirst, a pilot trainee must develop a strong foundation in navigation. Important subjects include ship handling, collision regulations, meteorology, tides, currents, chart work and maritime law. A pilot must understand how different types of ships respond to engines, rudders, thrusters and external forces. Knowledge of local waters is also essential, including channels, depths, traffic patterns, anchorages, port facilities and navigational aids.\n\nSecond, practical training is necessary. Trainees should observe experienced pilots and gradually participate in pilotage under proper supervision. They need to learn how to plan an approach, control a vessel at low speed, use tug assistance, communicate with the master and the vessel's bridge team, and conduct berthing and unberthing operations. Training should cover different ship sizes, loading conditions, weather conditions and emergency situations.\n\nThird, communication and teamwork are vital. A pilot must exchange important information with the master before pilotage begins. The pilot should explain the passage plan, discuss the ship's manoeuvring characteristics and confirm the use of tugs and communication procedures. Good teamwork helps prevent misunderstandings and reduces the risk of accidents.\n\nFinally, pilot training should never stop after certification. Pilots should attend refresher courses, practise emergency procedures and keep up to date with changes in regulations, port facilities and navigational technology. Simulator training can also help pilots practise difficult manoeuvres in a safe environment.\n\nIn conclusion, a competent pilot is developed through continuous learning, supervised practical training, local knowledge and effective communication. The ultimate purpose of pilot training is to protect human life, ships, cargo, port facilities and the marine environment.",
-    "practicalAnalysis": "本題30分，約300字短文，採五段式：引言、理論訓練、實務訓練、溝通團隊、持續訓練與結論。文章約300字，涵蓋航海知識、當地水域、拖船、靠離泊、Master-Pilot Exchange、模擬器、緊急應變及持續專業發展。考場可背熟段落結構，再依題目字數調整。",
+    "practicalAnalysis": "本題30分，約300字短文，採五段式：引言、理論訓練、實務訓練、溝通團隊、持續訓練與結論。文章約300字，涵蓋航海知識、當地水域、拖船、靠離泊、Master-Pilot Exchange、模擬器、緊急應變及持續專業發展。考場可背熟段落結構，再依題目字數調整。 作文內容依IMO A.960(23)補強引水人訓練、MPX、BRM、模擬器及持續專業發展，不將範文冒稱為官方課程大綱。",
     "keyPoints": [
       {
         "point": "引言說明引水人對港口及受限水域航行安全的重要性。",
@@ -363,6 +371,6 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   }
 ]
