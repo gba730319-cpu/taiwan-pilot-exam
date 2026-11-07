@@ -1,5 +1,10 @@
 "use client";
 
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
+
 import answer104 from "../data/answers-104.json";
 
 import answer106 from "../data/answers-106.json";
@@ -128,6 +133,14 @@ type Source = {
   issuer: string;
   url: string;
 };
+
+function normalizeAnswerMarkdown(value: string) {
+  return value
+    .replaceAll("\\[", () => "$")
+    .replaceAll("\\]", () => "$")
+    .replaceAll("\\(", () => "$")
+    .replaceAll("\\)", () => "$");
+}
 
 const subjects = ["全部科目", "當地水道港灣詳情", "航政法規", "引港學", "船舶操縱", "專業英文", "實用英文"];
 const ports = ["全部港區", "高雄港", "基隆港", "臺中港", "臺北港", "和平港", "麥寮港", "麥寮工業專用港", "安平港", "蘇澳港", "花蓮港"];
@@ -258,12 +271,12 @@ export default function Home() {
                     <div className="answer-content">
                       <section className="answer-section">
                         <h3>參考擬答</h3>
-                        <p>{answer.modelAnswer}</p>
+                        <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeKatex]}>{normalizeAnswerMarkdown(answer.modelAnswer)}</ReactMarkdown>
                       </section>
                       {answer.practicalAnalysis ? (
                         <section className="answer-section">
                           <h3>解題分析與作答策略</h3>
-                          <p>{answer.practicalAnalysis}</p>
+                          <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeKatex]}>{normalizeAnswerMarkdown(answer.practicalAnalysis)}</ReactMarkdown>
                         </section>
                       ) : null}
                       {Array.isArray(answer.keyPoints) && answer.keyPoints.length ? (
