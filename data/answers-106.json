@@ -949,8 +949,8 @@
   },
   {
     "questionId": "106-pilotage-02",
-    "modelAnswer": "(1)冷鋒（Cold Front）：冷空氣推進並取代暖空氣的鋒面。冷空氣楔入暖空氣下方，使暖空氣抬升，常伴隨積雲或積雨雲、陣雨、雷暴、風向轉變及氣溫下降。(2)霧（Fog）：近地面空氣中的微小水滴或冰晶懸浮，使水平能見度降低至氣象上霧的判定標準；海上常見平流霧、輻射霧及蒸發霧。(3)長浪（Swell）：由遠處風暴或風區生成、離開原生成區後傳播的規則波浪，週期通常較風浪長，方向可能與當地風向不同。(4)暴風半徑（Radius of Gale-force Winds）：熱帶氣旋中心至指定風力門檻（通常以七級風或34節風圈表示）外緣的距離；實務上須確認題目或氣象機關採用的風力門檻及平均時間。(5)颱風眼（Eye）：成熟熱帶氣旋中心附近相對平靜、下沉氣流較明顯的區域，通常風較弱、雲量較少，但眼牆附近風雨最劇烈。",
-    "practicalAnalysis": "需區分長浪與當地風浪；長浪可能在本地風弱時仍造成船舶大幅橫搖或港口湧浪。颱風眼短暫風平浪靜不代表危險解除，眼牆通過前後風向可能劇烈改變。暴風半徑的定義有不同機構及風力門檻，答題應寫清楚採用標準。",
+    "modelAnswer": "【2027年考試主答｜五種氣象及海象名詞】\n\n(1) **冷鋒（Cold Front）**：冷而密度較大的空氣團向前推進，取代原有暖空氣團的鋒面。冷空氣通常楔入暖空氣下方，使暖空氣抬升；通過時常見氣溫下降、氣壓上升、風向轉變，並可能伴隨陣雨、積雨雲及雷暴。實際天氣仍取決於水氣、穩定度及鋒面移動速度。\n\n(2) **霧（Fog）**：近地面空氣中懸浮大量微小水滴，或低溫時的微小冰晶，使地面水平能見度降低至1,000公尺以下的現象。海上常見平流霧（暖濕空氣流經較冷海面而冷卻）、輻射霧（地表輻射冷卻）及蒸發霧／混合霧（冷空氣流經較暖水面，水汽蒸發後凝結）。航海上須依COLREG Rule 19及Rule 35採取安全速度、瞭望與霧中聲號措施。\n\n(3) **長浪（Swell）**：由遠處風暴或強風區產生，離開原生成區後仍向外傳播的波浪。相較於當地風浪，長浪通常週期較長、波峰較平順且較規則，波向可能與當地風向不同；即使當地風力已減弱，長浪仍可能持續到達。船舶操縱、靠泊及登輪時須注意長週期波浪造成的船體縱搖、橫搖及引水梯相對運動。\n\n(4) **暴風半徑（Radius of Gale-force Winds／Typhoon Gale Radius）**：由颱風中心向外至達到指定暴風風速門檻的距離。臺灣中央氣象署所稱「七級風暴風半徑」，是中心向外至平均風速約15m/s（約54km/h、蒲福風級7級）的距離；預報資料亦可能另列十級風暴風半徑。暴風半徑越大，代表受強風影響的範圍越廣，但颱風風場通常不完全對稱，實際各象限半徑可能不同。部分國際產品使用34kt（約17.5m/s）的R34，與臺灣15m/s七級風半徑門檻不同，答題應說明所採定義。\n\n(5) **颱風眼（Eye of a Typhoon）**：位於成熟熱帶氣旋中心附近、風力相對微弱的區域，通常呈近圓形，可能有較少雲量、較平靜天氣及下沉氣流；外圍由眼牆（Eyewall）環繞，眼牆附近通常具有最強風力及最劇烈降雨。颱風眼內短暫風雨減弱不代表颱風已經離開，眼牆通過後風向可能改變，強風可能再次增強。\n\n結論：冷鋒是冷空氣取代暖空氣的鋒面；霧使水平能見度低於1km；長浪是離開生成區仍傳播的長週期波浪；臺灣七級風暴風半徑以15m/s為門檻；颱風眼是中心附近相對平靜區，最強風雨通常在眼牆。",
+    "practicalAnalysis": "本題需區分臺灣氣象署七級風暴風半徑與國際部分產品的R34。臺灣氣象署以15m/s（約54km/h）七級風界定暴風半徑；R34則為34kt，兩者門檻不同。霧的標準能見度界線為1km；長浪即使當地風力減弱仍可能存在，對登輪及靠泊有直接風險。",
     "keyPoints": [
       "冷鋒：冷氣團推進、迫使暖空氣抬升，常有陣雨雷暴及風向轉變。",
       "霧：懸浮微滴／冰晶降低能見度；能辨識平流、輻射、蒸發霧。",
@@ -968,14 +968,66 @@
         "title": "NOAA National Hurricane Center – Glossary",
         "issuer": "NOAA",
         "url": "https://www.nhc.noaa.gov/aboutgloss.shtml"
+      },
+      {
+        "title": "中央氣象署：颱風的形容詞知多少？",
+        "sourceType": "official_meteorological_guidance",
+        "issuer": "中央氣象署",
+        "url": "https://pweb.cwa.gov.tw/PopularScience/pr/pr_5.html",
+        "supports": "臺灣颱風七級風暴風半徑定義：平均風速約50km/h（約15m/s）。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "中央氣象署颱風警報產品說明文件",
+        "sourceType": "official_meteorological_data_specification",
+        "issuer": "中央氣象署",
+        "url": "https://opendata.cwa.gov.tw/opendatadoc/Warning/W-C0034-005.pdf",
+        "supports": "颱風資料欄位circle_of_15ms及circle_of_25ms，分別代表七級及十級風暴風半徑。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "WMO International Cloud Atlas — Fog",
+        "sourceType": "WMO_standard",
+        "issuer": "World Meteorological Organization",
+        "url": "https://cloudatlas.wmo.int/fog-as-seen-from-aircraft.html",
+        "supports": "霧的組成及水平能見度低於1,000m定義。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "NOAA JetStream — Waves and Swells",
+        "sourceType": "official_oceanography",
+        "issuer": "NOAA",
+        "url": "https://www.noaa.gov/jetstream/ocean/waves",
+        "supports": "風浪與長浪生成區、傳播距離、週期及規則波峰差異。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "暴風半徑在不同氣象資料中可能採不同風速門檻及平均時間，作答時須依題目所採氣象機關定義。"
     ],
     "verification": {
-      "status": "partially_verified"
-    }
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "冷鋒、霧、長浪及颱風眼定義",
+          "result": "pass",
+          "note": "依NOAA、WMO官方氣象／海象詞彙資料核對。"
+        },
+        {
+          "item": "臺灣暴風半徑門檻",
+          "result": "pass",
+          "note": "依中央氣象署七級風15m/s及十級風25m/s資料欄位核對。"
+        },
+        {
+          "item": "臺灣15m/s與國際R34 34kt差異",
+          "result": "pass",
+          "note": "明確區分不同產品風速門檻，避免將兩種半徑混為一談。"
+        }
+      ]
+    },
+    "version": 2,
+    "lastUpdated": "2026-11-07"
   },
   {
     "questionId": "106-pilotage-03",
