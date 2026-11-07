@@ -1,6 +1,6 @@
 [
   {
-    "id": "102-english-01-answer-v1",
+    "id": "102-english-01",
     "questionId": "102-english-01",
     "version": 2,
     "language": "zh-TW",
@@ -10,23 +10,23 @@
     "keyPoints": [
       {
         "point": "Variable Pitch Propeller",
-        "explanation": "譯為可變螺距螺槳（CPP）。",
-        "result": "pass"
+        "explanation": "譯為可變螺距螺槳（CPP）。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "Fixed Blade Propeller",
-        "explanation": "依上下文譯為固定螺距螺槳（FPP）。",
-        "result": "pass"
+        "explanation": "依上下文譯為固定螺距螺槳（FPP）。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "Go astern／direction of propulsion",
-        "explanation": "分別譯為倒俥運轉及改變推進方向。",
-        "result": "pass"
+        "explanation": "分別譯為倒俥運轉及改變推進方向。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "Starting air",
-        "explanation": "譯為起動空氣，保留柴油主機輪機術語。",
-        "result": "pass"
+        "explanation": "譯為起動空氣，保留柴油主機輪機術語。；查核：pass",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -77,12 +77,10 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "專業英文"
+    "lastUpdated": "2026-11-07"
   },
   {
-    "id": "102-english-02-answer-v1",
+    "id": "102-english-02",
     "questionId": "102-english-02",
     "version": 2,
     "language": "en",
@@ -92,23 +90,23 @@
     "keyPoints": [
       {
         "point": "Risk of collision",
-        "explanation": "使用COLREG標準用語。",
-        "result": "pass"
+        "explanation": "使用COLREG標準用語。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "All available means",
-        "explanation": "完整保留適當情況下利用一切可用方法。",
-        "result": "pass"
+        "explanation": "完整保留適當情況下利用一切可用方法。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "Radar plotting／systematic observation",
-        "explanation": "正確表達雷達測繪及系統性觀測。",
-        "result": "pass"
+        "explanation": "正確表達雷達測繪及系統性觀測。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "Scanty information",
-        "explanation": "保留不得依不充分資料作假設的語意。",
-        "result": "pass"
+        "explanation": "保留不得依不充分資料作假設的語意。；查核：pass",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -157,12 +155,10 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "專業英文"
+    "lastUpdated": "2026-11-07"
   },
   {
-    "id": "102-english-03-answer-v1",
+    "id": "102-english-03",
     "questionId": "102-english-03",
     "version": 2,
     "language": "en",
@@ -172,28 +168,28 @@
     "keyPoints": [
       {
         "point": "Rhumb line",
-        "explanation": "同角度交叉子午線，Mercator圖上為直線。",
-        "result": "pass"
+        "explanation": "同角度交叉子午線，Mercator圖上為直線。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "List",
-        "explanation": "區分持續橫傾與外力造成的暫時Heel。",
-        "result": "pass"
+        "explanation": "區分持續橫傾與外力造成的暫時Heel。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "Beam sea",
-        "explanation": "波浪約由正橫方向來襲。",
-        "result": "pass"
+        "explanation": "波浪約由正橫方向來襲。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "Leeway",
-        "explanation": "風致側移，與潮流造成的set區分。",
-        "result": "pass"
+        "explanation": "風致側移，與潮流造成的set區分。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "Magnetic north",
-        "explanation": "說明磁北、磁差及船磁羅經偏差。",
-        "result": "pass"
+        "explanation": "說明磁北、磁差及船磁羅經偏差。；查核：pass",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -257,12 +253,10 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "專業英文"
+    "lastUpdated": "2026-11-07"
   },
   {
-    "id": "102-english-04-answer-v1",
+    "id": "102-english-04",
     "questionId": "102-english-04",
     "version": 2,
     "language": "en",
@@ -272,23 +266,23 @@
     "keyPoints": [
       {
         "point": "船長權責",
-        "explanation": "保留船長整體指揮及船舶安全責任。",
-        "result": "pass"
+        "explanation": "保留船長整體指揮及船舶安全責任。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "強制引水人角色",
-        "explanation": "地方知識、航路、風流、港規及拖船安排。",
-        "result": "pass"
+        "explanation": "地方知識、航路、風流、港規及拖船安排。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "MPX",
-        "explanation": "補入航路計畫、船舶特性、通訊及緊急程序。",
-        "result": "pass"
+        "explanation": "補入航路計畫、船舶特性、通訊及緊急程序。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "BRM及閉環溝通",
-        "explanation": "強調OOW獨立監控、交叉核對及安全質疑。",
-        "result": "pass"
+        "explanation": "強調OOW獨立監控、交叉核對及安全質疑。；查核：pass",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -347,8 +341,6 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "專業英文"
+    "lastUpdated": "2026-11-07"
   }
 ]
