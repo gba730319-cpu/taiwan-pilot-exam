@@ -1616,3 +1616,11 @@
 - 本輪為靜態程式與資料檢查；尚未執行成功的正式Build、瀏覽器端操作測試或Vercel最新部署驗證。
 
 - **Vercel狀態（2026-11-08）：**以GitHub main最新commit `0fd906a2d1bd063eeccec3b02e42f7d6c1619bcb`查詢commit status，Vercel檢查回報 `failure`，target URL指向Vercel `upgradeToPro=build-rate-limit` 頁面；目前不能視為已成功部署。Vercel MCP對該team的部署查詢回報403 scope authorization，授權連結工具又回404 Team not found，因此暫時無法從Vercel端讀取詳細build log或重試部署。待Vercel build額度／team授權問題排除後，再執行正式部署與瀏覽器驗收。
+
+
+### 民國100、102年度答案覆蓋率與內容欄位抽查（2026-11-08）
+- 以 `data/questions.json` 的西元年度欄位（民國年+1911）比對正式範圍，民國100年（2011）共26題：高雄港6、航政法規5、引港學5、船舶操縱6、專業英文4；民國102年（2013）共28題：高雄港7、航政法規5、引港學6、船舶操縱6、專業英文4。
+- 逐一讀取網站實際載入的100年度5份答案檔及102年度6份答案檔，確認100年26/26、102年28/28，題目ID全部對應，沒有空白擬答。
+- 兩年度共54筆答案均有 verification 欄位、非空 modelAnswer、keyPoints；最短答案315字元（102年），最長3209字元（100年）。100年驗證狀態：source_checked 23、partially_verified 3；102年：source_checked 17、partially_verified 11。這裡的「有答案」不代表所有內容均已完成獨立專業複核，partially_verified仍須保留待查項目。
+- 本次只驗收共通科目及高雄港地方題；沒有把基隆、臺中、花蓮或其他地方港區納入。
+- 目前累積可明確報告的年度覆蓋抽查：100年26/26、102年28/28、112年24/24、114年26/26。尚未完成其餘年度的全量覆蓋統計，不宣稱544題全部通過。
