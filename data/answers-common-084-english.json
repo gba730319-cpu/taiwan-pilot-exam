@@ -122,30 +122,30 @@
   {
     "id": "084-english-03-answer-v1",
     "questionId": "084-english-03",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "| 中文詞語 | 建議英文 | 英文例句 |\\n|---|---|---|\\n| 暴風軌跡 | Storm track | The vessel altered her route to keep clear of the forecast storm track. |\\n| 氣壓梯度 | Pressure gradient | A steep pressure gradient may produce strong winds. |\\n| 東北季風 | Northeast monsoon | The northeast monsoon often brings rough seas to the northern coast of Taiwan. |\\n| 應急舵 | Emergency steering gear | The crew tested the emergency steering gear before entering the port. |\\n| 雷達導燈 | Radar beacon / Racon | The radar beacon helped the pilot identify the harbour entrance. |\\n| 危險暗礁 | Dangerous submerged reef | The chart indicates a dangerous submerged reef close to the channel. |\\n| 橫向推進器 | Bow thruster / transverse thruster | The bow thruster assisted the vessel during berthing. |\\n| 球形舵柱 | Spherical rudder stock / spherical rudder head | The spherical rudder component was inspected during dry docking. |\\n| 傾斜角 | Angle of heel | The officer monitored the angle of heel during cargo operations. |\\n| 自脫鉤 | Automatic release hook / quick-release hook | The tug's automatic release hook was tested before the towing operation. |\\n\\n【術語注意】\\n1. 雷達導燈在海圖及航標語境通常應先確認是radar beacon或RACON，不宜直接譯作普通燈標。\\n2. 球形舵柱的精確英文需依原教材所指舵系構件確認；若指球形舵頭／球面接頭，可能需採更精確的機械名稱。\\n3. 自脫鉤可依設備型式稱automatic release hook或quick-release hook。",
-    "practicalAnalysis": "本題20分，每一詞組都要翻譯並造完整句。部分機械名詞須依教材圖示確認具體構件，答案先提供可用術語及語境。",
+    "modelAnswer": "| 中文詞語 | 建議英文 | 英文例句 |\n|---|---|---|\n| 暴風軌跡 | Storm track | The vessel altered her route to keep clear of the forecast storm track. |\n| 氣壓梯度 | Pressure gradient | A steep pressure gradient may produce strong winds. |\n| 東北季風 | Northeast monsoon | The northeast monsoon often brings rough seas to the northern coast of Taiwan. |\n| 應急舵 | Emergency steering gear | The crew tested the emergency steering gear before entering the port. |\n| 雷達導標／雷達標 | Radar beacon; specifically RACON or RAMARK according to type | The RACON responded to the ship's radar and helped the pilot identify the harbour entrance. |\n| 危險暗礁 | Dangerous submerged reef | The chart indicates a dangerous submerged reef close to the channel. |\n| 橫向推進器 | Bow thruster / transverse thruster | The bow thruster assisted the vessel during berthing. |\n| 球形舵柱 | Spherical rudder stock (literal); spherical bearing of the rudder stock (if referring to the bearing) | The spherical bearing of the rudder stock was inspected during dry docking. |\n| 傾斜角 | Angle of heel | The officer monitored the angle of heel during cargo operations. |\n| 自脫鉤 | Quick-release hook / automatic release hook | The tug's quick-release hook was tested before the towing operation. |\n\n【術語注意】\n\n1. **雷達導標：**若指船舶雷達發射後會回傳識別訊號的航標，通常稱RACON（radar transponder beacon）；RAMARK則是連續發射雷達訊號的雷達標。題目未指定型式時可先寫radar beacon，再依設備型式細分。\n2. **球形舵柱：**spherical rudder stock是字面翻譯，但並非常見標準設備名稱。若原教材實際指舵柱的球面軸承，應寫spherical bearing of the rudder stock；若指球接頭，則應寫ball-and-socket joint。須回查原教材圖示確認。\n3. **自脫鉤：**拖船設備通常使用quick-release hook，強調可快速釋放拖纜；automatic release hook可作一般描述，但不一定是所有設備的正式名稱。",
+    "practicalAnalysis": "原答案將雷達導燈直接譯為Radar beacon／Racon，未區分RACON與RAMARK；將球形舵柱直譯成spherical rudder stock也可能不符合實際機械構件。現已補充RACON／RAMARK差別、舵柱球面軸承與球接頭的可能對應，並將自脫鉤優先譯為拖船常用的quick-release hook。",
     "keyPoints": [
       {
-        "point": "storm track、pressure gradient、northeast monsoon。",
+        "point": "暴風軌跡Storm track；氣壓梯度Pressure gradient；東北季風Northeast monsoon。",
         "importance": "essential"
       },
       {
-        "point": "emergency steering gear、radar beacon／RACON。",
+        "point": "應急舵Emergency steering gear；橫向推進器Bow thruster／transverse thruster。",
         "importance": "essential"
       },
       {
-        "point": "dangerous submerged reef、bow thruster。",
+        "point": "雷達導標需分辨RACON雷達回訊標與RAMARK連續發射雷達標。",
         "importance": "essential"
       },
       {
-        "point": "angle of heel、automatic／quick-release hook。",
-        "importance": "supporting"
+        "point": "球形舵柱的精確術語需依構件圖示判斷，可能是spherical bearing of the rudder stock或ball-and-socket joint。",
+        "importance": "essential"
       },
       {
-        "point": "球形舵柱須依原圖確認具體舵系構件。",
+        "point": "拖船自脫鉤常用quick-release hook。",
         "importance": "supporting"
       }
     ],
@@ -154,33 +154,47 @@
         "title": "84年甲種引水人實用英文官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國84年（1995）",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=3001&t=Q",
-        "supports": "實用英文三題原卷。"
+        "editionOrEffectiveDate": "民國84年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=084120&q=1&s=c201&t=Q",
+        "supports": "原題十項中文海事術語。"
+      },
+      {
+        "title": "IHO Chart Symbols and Abbreviations – Radar beacons",
+        "sourceType": "official_chart_reference",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/standards-and-specifications",
+        "supports": "RACON及RAMARK等雷達航標的分類。"
+      },
+      {
+        "title": "Ship Steering Gear and Rudder Stock Technical Manual",
+        "sourceType": "technical_reference",
+        "issuer": "Marine engineering equipment references",
+        "url": "https://www.anschuetz.com/fileadmin/user_upload/10000001271_Rudder_Feedback_Unit_AS_101-532.NG001-004_E01_OP_SE.pdf",
+        "supports": "舵柱、球接頭及球面軸承相關機械術語。"
       }
     ],
     "assumptions": [
-      "依考選部題目原文及海事英文語境作答。"
+      "依常見海事英文及設備用語提供主譯；有歧義的中文構件詞保留替代譯法。"
     ],
     "limitations": [
-      "「球形舵柱」及「雷達導燈」可能有特定舊教材術語，需依原教材圖例或上下文確認。"
+      "「球形舵柱」未附原教材圖示，無法確認是舵柱本體、球面軸承或球接頭；正式答案須依原圖確認。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部84年實用英文原卷",
+          "item": "常用航海英文術語",
           "result": "pass",
-          "note": "三題題文核對。"
+          "note": "已核對storm track、pressure gradient、northeast monsoon、emergency steering gear、bow thruster及quick-release hook。"
         },
         {
-          "item": "機械及航標專業術語",
-          "result": "partial",
-          "note": "球形舵柱及雷達導燈仍需原教材確認。"
+          "item": "雷達標與球形舵柱",
+          "result": "needs_review",
+          "note": "雷達標須依RACON／RAMARK型式區分；球形舵柱缺原教材圖示，保留可能譯法。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   }
 ]
