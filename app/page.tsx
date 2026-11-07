@@ -203,6 +203,17 @@ function normalizeAnswerMarkdown(value: string) {
     .replaceAll("\\)", () => "$");
 }
 
+function verificationStatusLabel(status: string) {
+  const labels: Record<string, string> = {
+    source_checked: "已完成來源核對",
+    calculation_checked: "計算已複核",
+    partially_verified: "部分核對，仍有項目待查",
+    needs_review: "待複核",
+    draft: "草稿，尚未完成查核",
+  };
+  return labels[status] || status;
+}
+
 const subjects = ["全部科目", "當地水道港灣詳情", "航政法規", "引港學", "船舶操縱", "專業英文", "實用英文"];
 const ports = ["全部港區", "高雄港", "基隆港", "臺中港", "臺北港", "和平港", "麥寮港", "麥寮工業專用港", "安平港", "蘇澳港", "花蓮港"];
 // 正式備考範圍：民國83、84、85、86、87、89、90、91、92、94、96、98、100、102、104、106、108、110、112、114年。
@@ -461,7 +472,7 @@ export default function Home() {
                         </details>
                       ) : null}
                       {answer.verification?.status ? (
-                        <div className="answer-status">資料查核狀態：{answer.verification.status === "source_checked" ? "已完成來源核對" : answer.verification.status}</div>
+                        <div className="answer-status">資料查核狀態：{verificationStatusLabel(answer.verification.status)}</div>
                       ) : null}
                     </div>
                   </details>
