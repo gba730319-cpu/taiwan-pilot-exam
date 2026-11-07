@@ -1,6 +1,6 @@
 [
   {
-    "id": "100-english-01-answer-v1",
+    "id": "100-english-01",
     "questionId": "100-english-01",
     "version": 1,
     "language": "zh-TW",
@@ -94,7 +94,7 @@
     "lastUpdated": "2026-11-06"
   },
   {
-    "id": "100-english-02-answer-v1",
+    "id": "100-english-02",
     "questionId": "100-english-02",
     "version": 1,
     "language": "en",
@@ -186,11 +186,11 @@
     "lastUpdated": "2026-11-06"
   },
   {
-    "id": "100-english-03-answer-v1",
+    "id": "100-english-03",
     "questionId": "100-english-03",
     "version": 1,
     "language": "en",
-    "answerType": "vocabulary_and_sentences",
+    "answerType": "definition",
     "modelAnswer": "**(1) 走錨 — Dragging Anchor**\n\nSentence: The vessel began dragging anchor because of the strong wind and current.\n\n**(2) 自動識別系統 — Automatic Identification System (AIS)**\n\nSentence: The officer of the watch used the Automatic Identification System (AIS), together with radar and visual observations, to monitor nearby traffic.\n\n**(3) 分道通航制 — Traffic Separation Scheme (TSS)**\n\nSentence: Vessels navigating in a traffic separation scheme should proceed in the appropriate traffic lane in the direction of traffic flow.\n\n**(4) 迎艏正遇 — Head-on Situation**\n\nSentence: When two power-driven vessels meet on reciprocal or nearly reciprocal courses and there is a risk of collision, both vessels should alter course to starboard.\n\n【用語補充】\n- Dragging anchor：錨抓力不足，船舶受風流影響而拖錨漂移。\n- Automatic Identification System (AIS)：自動識別系統；第一次出現應先寫全名再加縮寫。\n- Traffic Separation Scheme (TSS)：交通分道制度。\n- Head-on situation：迎艏正遇；COLREG Rule 14使用的正式用語為head-on situation。",
     "practicalAnalysis": "本題20分，每小題要寫正確英文術語並造完整句子。走錨用Dragging Anchor，不要用anchor dragging作為名詞答案；AIS首次出現寫全名及縮寫；分道通航制用Traffic Separation Scheme；迎艏正遇用Head-on Situation。句子內容最好結合航行安全或COLREG規則，避免只有單字片語。",
     "keyPoints": [
@@ -289,11 +289,11 @@
     "lastUpdated": "2026-11-06"
   },
   {
-    "id": "100-english-04-answer-v1",
+    "id": "100-english-04",
     "questionId": "100-english-04",
     "version": 2,
     "language": "en",
-    "answerType": "composition",
+    "answerType": "essay",
     "modelAnswer": "**Relationships between Pilots and Vessel Traffic Services (VTS)**\n\nA good working relationship between maritime pilots and a Vessel Traffic Services (VTS) centre is essential for safe and efficient navigation in port areas and their approaches. Although pilots and VTS personnel have different responsibilities, they share the common objectives of protecting life at sea, improving navigational safety and efficiency, and protecting the marine environment.\n\nFirst, VTS provides timely and relevant information that may affect a vessel's movement. Such information includes the position, identity and intentions of other vessels, maritime safety information, navigational hazards, weather and current conditions, waterway restrictions, and any operational limitations that may affect traffic. This information supports the pilot's and master's decision-making.\n\nSecond, VTS monitors and manages vessel traffic. It may plan vessel movements, organize traffic and the allocation of water space, operate traffic-clearance or reporting systems, provide route advice, and coordinate arriving, departing and shifting vessels. The pilot should maintain clear and timely communication with VTS, reporting the vessel's identity, position, course, speed, draught, destination, ETA, intended manoeuvres and any delay, defect or unusual situation as required by local procedures.\n\nThird, VTS responds to developing unsafe situations. These may include restricted visibility, strong winds, a vessel deviating from its route, equipment failure, risk of grounding or collision, or a vessel requiring assistance. Pilots should promptly inform VTS of hazards and request assistance when necessary. Effective cooperation with allied services, such as tugs and linesmen, is also important.\n\nVTS may provide information or issue advice, warnings and instructions. Participating ships should provide required reports, take account of information, advice and warnings, and comply with VTS requirements and instructions unless there are overriding safety or marine-environment reasons not to do so. However, VTS does not replace the pilot or the master's duties. The master retains ultimate responsibility for all aspects of the ship's operation, including safe navigation, while the pilot contributes local knowledge and conducts pilotage in cooperation with the bridge team.\n\nIn conclusion, mutual respect, accurate information, timely reporting and clear communication are the foundations of an effective relationship between pilots and VTS. Close cooperation among the ship, pilot, VTS and allied port services helps prevent accidents, protect the environment and maintain an orderly flow of traffic in port waters.",
     "practicalAnalysis": "本題30分，建議五段式作文：引言、VTS資訊提供、交通監控與管理、危險情況應變、責任界線及結論。原答案引用IMO A.857(20)已過時：IMO於2021年12月15日採納A.1158(32)，並明文撤銷A.857(20)。因此本次改依現行A.1158(32)組織內容，不再沿用舊版「三項VTS服務」分類。\n\n現行A.1158(32)第3.1段將VTS目的分為三類：提供及時相關資訊；監控及管理船舶交通；對正在發展的不安全情況作出回應。第3.2段指出VTS得視需要提供資訊或發布建議、警告及指示。第6.1段規定參與船舶應提交所需報告、考量VTS提供的資訊／建議／警告，並遵守VTS要求及指示（除非有相反的安全或海洋環境保護理由）；第7.1段明確指出船長對船舶運作及安全航行仍負最終責任。引水人角色與船長、駕駛台團隊協調則另參IMO A.960(23)。SMCP A.918(22)仍可作標準通訊用語依據。",
     "keyPoints": [
