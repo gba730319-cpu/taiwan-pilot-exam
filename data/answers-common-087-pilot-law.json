@@ -1,0 +1,308 @@
+[
+  {
+    "id": "087-pilot-law-01-answer-v1",
+    "questionId": "087-pilot-law-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、船舶發生海事事故後的船長責任】\n船舶在港內或港外發生碰撞、擱淺、火災、爆炸、沉沒、危險品洩漏或其他海事事故時，船長應立即：\n1. 先救人及保護船舶：發出船內警報、清點人員、救助落水者、控制火災／進水／洩漏，必要時準備棄船。\n2. 通報主管機關：立即向VTS、港務機關、海岸電臺、航港主管機關及相關救援單位通報事故時間、位置、船名、船況、遇險人數、貨物危險性及所需協助。\n3. 防止二次事故：設置警戒、顯示適當號燈號標、警告附近船舶，避免沉船、漂流物、油污及危險貨物擴大影響航道。\n4. 保全紀錄：保存航海日誌、雷達／AIS、VHF錄音、ECDIS航跡、機艙紀錄及船員證詞。\n5. 配合調查及救援：依主管機關指示協助拖救、打撈、污染防治及事故調查。\n\n【二、商港管理機關得拒絕船舶進港的情形】\n港務機關為維護港區安全、船席及公共利益，遇有下列情形，得依法律及港口規定拒絕或限制船舶進港：\n1. 船舶有不適航、船體／機器重大故障或無法安全操縱情形，進港可能危及港口及其他船舶。\n2. 船舶發生重大海事事故、走錨、失控或有沉沒、火災、爆炸危險，且無法在港內安全處置。\n3. 船舶載運危險物品未依規定申報、包裝、標示或缺乏必要安全設備。\n4. 船舶有油污、化學品或其他污染風險，可能危害港區及海洋環境。\n5. 港口因颱風、地震、能見度不良、施工、航道阻塞或其他安全因素暫停進出港。\n6. 船舶未完成必要入港申報、檢查、檢疫或其他法定程序。\n拒絕進港應有法定依據及安全理由，並告知船舶採取待命、改港、錨泊或其他安全措施；若屬緊急救助，仍須依救援協調及港區安全原則處理。",
+    "practicalAnalysis": "本題15分，分船長事故處置及港務機關拒絕進港兩部分。事故處置以救人、通報、防止污染／二次事故及保存證據為主；拒絕進港須有法定依據及具體危險，不可任意拒絕。",
+    "keyPoints": [
+      {
+        "point": "船長優先救人、控制事故及保護船舶。",
+        "importance": "essential"
+      },
+      {
+        "point": "立即通報VTS、港務及救援單位，提供船位、船況及危險貨物資料。",
+        "importance": "essential"
+      },
+      {
+        "point": "防止航道阻塞、油污、火災及二次事故。",
+        "importance": "essential"
+      },
+      {
+        "point": "不適航、危險品申報不全、污染風險或港口管制時可依法拒絕／限制進港。",
+        "importance": "supporting"
+      },
+      {
+        "point": "拒絕進港須有法定理由並提供安全待命或改港安排。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人航政法規官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國87年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2002&t=Q",
+        "supports": "航政法規四題原卷。"
+      },
+      {
+        "title": "商港法",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "supports": "商港船舶事故、港口管制及管理機關權責。"
+      },
+      {
+        "title": "引水法",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0070028",
+        "supports": "引水人資格、執業及船長責任。"
+      }
+    ],
+    "assumptions": [
+      "以民國87年有效法規為核心，現行條文僅作制度參考。"
+    ],
+    "limitations": [
+      "未取得民國87年港務管理規則拒絕進港條文完整歷史版本，具體法定事由應再逐條核對。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部87年航政法規原卷",
+          "result": "pass",
+          "note": "題文核對。"
+        },
+        {
+          "item": "1998年商港法及引水法歷史條文",
+          "result": "partial",
+          "note": "個別細則及條號尚待歷史版本逐條核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "087-pilot-law-02-answer-v1",
+    "questionId": "087-pilot-law-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、學習引水人定義】\n學習引水人（Apprentice Pilot）是經航政主管機關依規定核准，為取得引水人資格或熟悉特定引水區域，而在合格引水人指導監督下接受港區實務訓練的人員。學習引水人尚未取得獨立執業資格，不得自行承擔法定引水職務。\n【二、申請及訓練程序】\n1. 申請人須符合當時引水法及引水人管理規則所定學歷、船員資歷、適任證書、服務年資及健康條件。\n2. 向航政主管機關提出申請，檢附身分、船員服務資歷、適任證書、體格及其他法定文件。\n3. 經主管機關審查核准後，依指定引水區域及引水人辦事處安排，跟隨合格引水人實習。\n4. 實習內容包括港區地文航海、航道、錨地、碼頭、潮汐、流況、港口信號、VTS程序、船舶操縱、拖船協同、危險貨物及緊急應變。\n5. 學習引水人應記錄實習船舶、總噸位、進出港／移泊、引水區段、天候海象及指導引水人評語。\n6. 完成法定實習及考核後，依規定參加引水人考試或辦理執業資格審查；取得執業證書前不得獨立領航。\n\n【三、訓練目的】\n讓申請人熟悉特定引水區域的港口水道、船席、潮流、風場、航標、VTS及拖船作業，並在監督下累積不同船型、載況及天候的操船經驗。",
+    "practicalAnalysis": "本題15分，定義須強調學習引水人是經核准並在合格引水人監督下訓練，不能獨立領航。流程應列資格審查、核准、實習、記錄、考核及取得執業證書。",
+    "keyPoints": [
+      {
+        "point": "學習引水人須經航政主管機關核准。",
+        "importance": "essential"
+      },
+      {
+        "point": "在合格引水人指導監督下接受特定引水區域實務訓練。",
+        "importance": "essential"
+      },
+      {
+        "point": "尚未取得執業證書前不得獨立領航。",
+        "importance": "essential"
+      },
+      {
+        "point": "申請須符合資歷、適任證書、健康及其他法定條件。",
+        "importance": "supporting"
+      },
+      {
+        "point": "實習記錄船舶、噸位、作業、天候及指導引水人評語。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人航政法規官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國87年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2002&t=Q",
+        "supports": "航政法規四題原卷。"
+      },
+      {
+        "title": "商港法",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "supports": "商港船舶事故、港口管制及管理機關權責。"
+      },
+      {
+        "title": "引水法",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0070028",
+        "supports": "引水人資格、執業及船長責任。"
+      }
+    ],
+    "assumptions": [
+      "以民國87年有效法規為核心，現行條文僅作制度參考。"
+    ],
+    "limitations": [
+      "未取得民國87年學習引水人申請表及實習時數／船舶噸位門檻的歷史原文，故不填固定月數或航次。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部87年航政法規原卷",
+          "result": "pass",
+          "note": "題文核對。"
+        },
+        {
+          "item": "1998年商港法及引水法歷史條文",
+          "result": "partial",
+          "note": "個別細則及條號尚待歷史版本逐條核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "087-pilot-law-03-answer-v1",
+    "questionId": "087-pilot-law-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、COLREG Rule 6安全速度】\n每艘船舶任何時候均應以安全速度航行，使其能採取適當且有效的避碰行動，並能在適當距離內停止。決定安全速度時，應考慮：\n1. 能見度狀況。\n2. 船舶交通密度，包括漁船或其他船舶聚集情形。\n3. 船舶操縱性能，尤其停止距離及迴轉能力。\n4. 夜間背景燈光，例如岸上燈光或本船燈光反射造成的辨識困難。\n5. 風、海況、潮流及附近航行危險物。\n6. 吃水相對於可用水深的比例，並考慮淺水效應及squat。\n\n【二、使用雷達時另須考慮】\n1. 雷達設備性能、限制及量測精度。\n2. 雷達量程及其對目標偵測的影響。\n3. 海況、雨雪雜波及其他干擾。\n4. 小船、浮冰及其他漂浮物可能無法有效偵測。\n5. 雷達所偵測船舶數量、位置及相對運動。\n6. 以雷達測定周圍船舶距離及最近會遇距離（CPA）時可能產生的誤差。\n\n【三、操船應用】\n安全速度不是固定節數；在能見度不良、交通密集、淺水、狹窄航道或船舶停止距離長時，應降低速度並加強瞭望；在空曠水域及良好能見度下，仍須依船舶操縱性能及海況決定。",
+    "practicalAnalysis": "本題15分，直接依COLREG Rule 6分一般因素及使用雷達時附加因素作答，最容易漏掉夜間背景燈光、吃水與可用水深比例及雷達對小目標的偵測限制。",
+    "keyPoints": [
+      {
+        "point": "安全速度須使船舶能有效避碰並在適當距離內停止。",
+        "importance": "essential"
+      },
+      {
+        "point": "一般因素包括能見度、交通密度、操縱性能、背景燈光、風浪流及危險物。",
+        "importance": "essential"
+      },
+      {
+        "point": "考慮吃水與可用水深比例及squat。",
+        "importance": "essential"
+      },
+      {
+        "point": "雷達因素包括性能限制、量程、雜波、小目標偵測及CPA誤差。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人航政法規官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國87年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2002&t=Q",
+        "supports": "航政法規四題原卷。"
+      },
+      {
+        "title": "商港法",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "supports": "商港船舶事故、港口管制及管理機關權責。"
+      },
+      {
+        "title": "引水法",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0070028",
+        "supports": "引水人資格、執業及船長責任。"
+      }
+    ],
+    "assumptions": [
+      "以民國87年有效法規為核心，現行條文僅作制度參考。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部87年航政法規原卷",
+          "result": "pass",
+          "note": "題文核對。"
+        },
+        {
+          "item": "1998年商港法及引水法歷史條文",
+          "result": "partial",
+          "note": "個別細則及條號尚待歷史版本逐條核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "087-pilot-law-04-answer-v1",
+    "questionId": "087-pilot-law-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、船長拒絕或要求更換引水人的合理情形】\n船長有責任確保引水服務合法且安全。若出現下列情形，船長應立即向港務／航政主管機關及引水人辦事處反映，必要時拒絕該名引水人登輪或要求更換：\n1. 引水人無有效執業證書，或執業區域、船舶噸位及資格限制不符。\n2. 引水人身體不適、受酒精或藥物影響、疲勞或其他狀態足以妨礙安全執業。\n3. 引水人無法有效溝通，未能說明航行計畫、航道、拖船配置或緊急方案，造成重大安全疑慮。\n4. 引水人違反港口航行規定、COLREG或安全程序，且經提醒仍拒絕修正。\n5. 引水梯、登輪位置、船岸相對運動或天候海況不符合安全登輪要求；此時應停止登輪並要求重新安排。\n6. 引水人執業範圍與船舶特性或港區限制明顯不符，可能危及船舶安全。\n\n【二、船長責任及程序】\n1. 船長應清楚說明拒絕理由，通知VTS及引水人辦事處，要求更換合格引水人或延後作業。\n2. 船長不得僅因引水人提出安全建議、航速限制或拖船需求而任意拒絕。\n3. 引水人登輪後，船長仍須與引水人交換船舶資料、確認航行計畫並保持監督；引水人登輪不解除船長的最終責任。\n4. 若航行中引水人失能或發生重大安全爭議，船長應立即採取安全措施並通知VTS，避免在航道中因爭議而突然停止或失控。\n\n【結論】\n拒絕引水應有資格不符、健康／清醒狀態不適任、溝通失效、違規操船或登輪不安全等具體理由；船長須通報並要求更換或延後，且仍負船舶安全責任。",
+    "practicalAnalysis": "本題15分，應把「拒絕引水人」與「拒絕引水人的安全建議」區分。船長可基於資格、健康、能力或登輪安全提出更換，但不能任意拒絕或因意見不同就妨礙航安。",
+    "keyPoints": [
+      {
+        "point": "引水人無有效證書或執業範圍不符。",
+        "importance": "essential"
+      },
+      {
+        "point": "引水人健康、清醒或體能狀況不適任。",
+        "importance": "essential"
+      },
+      {
+        "point": "無法有效溝通或航行計畫有重大安全疑慮。",
+        "importance": "essential"
+      },
+      {
+        "point": "登輪設備或海況不安全時應停止登輪。",
+        "importance": "supporting"
+      },
+      {
+        "point": "船長通知VTS及引水辦事處並要求更換／延後，仍負最終船舶安全責任。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人航政法規官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國87年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2002&t=Q",
+        "supports": "航政法規四題原卷。"
+      },
+      {
+        "title": "商港法",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
+        "supports": "商港船舶事故、港口管制及管理機關權責。"
+      },
+      {
+        "title": "引水法",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0070028",
+        "supports": "引水人資格、執業及船長責任。"
+      }
+    ],
+    "assumptions": [
+      "以民國87年有效法規為核心，現行條文僅作制度參考。"
+    ],
+    "limitations": [
+      "未取得民國87年引水法對船長拒絕引水人之專條原文，故本題以安全作業及資格原則整理，具體法定條號待查。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部87年航政法規原卷",
+          "result": "pass",
+          "note": "題文核對。"
+        },
+        {
+          "item": "1998年商港法及引水法歷史條文",
+          "result": "partial",
+          "note": "個別細則及條號尚待歷史版本逐條核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
