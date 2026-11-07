@@ -4,7 +4,7 @@
     "questionId": "102-english-01",
     "version": 1,
     "language": "zh-TW",
-    "answerType": "model_essay",
+    "answerType": "translation",
     "modelAnswer": "裝設可變螺距螺槳（variable pitch propeller，亦稱controllable pitch propeller, CPP）的船舶，其操縱特性與裝設固定螺距螺槳（fixed pitch propeller, FPP）的船舶有顯著不同。可變螺距推進系統具有若干優點：配備此系統的柴油主機不必為了倒俥而停車後重新起動，而且可以選擇幾乎無段差的各種航速。此外，船舶可以長時間持續倒俥；這是汽輪機推進船舶無法做到的。與傳統固定螺距的機動船不同，可變螺距推進船舶可以反覆改變推進方向，而不必擔心耗盡起動空氣供應量。\n\n【術語補充】CPP藉由改變螺槳葉片螺距角來改變推力大小及方向；FPP的葉片螺距固定，通常需改變主機轉速或轉向來調整推進狀態。原文所稱almost infinite choice of speeds應譯為近乎無段式的速度選擇，不是字面上的無限速度。",
     "practicalAnalysis": "翻譯得分重點：variable pitch propeller譯可變螺距螺槳；fixed blade／fixed pitch propeller譯固定螺距螺槳；go astern譯倒俥；starting air譯起動空氣。需保留原文比較邏輯，不要將CPP優點誤寫成任何轉速下都能無限制倒俥。",
     "keyPoints": [
@@ -55,8 +55,8 @@
     "id": "102-english-02-answer-v1",
     "questionId": "102-english-02",
     "version": 1,
-    "language": "zh-TW",
-    "answerType": "model_essay",
+    "language": "en",
+    "answerType": "translation",
     "modelAnswer": "（1）Each vessel shall use all available means appropriate to the prevailing circumstances and conditions to determine whether risk of collision exists. If there is any doubt, such risk shall be deemed to exist.\n\n（2）If radar equipment is fitted and operational, it shall be properly used, including long-range scanning to obtain early warning of risk of collision and radar plotting or equivalent systematic observation of detected objects.\n\n（3）Assumptions shall not be made on the basis of scanty information, especially scanty radar information.\n\n【法規用語】以上譯文依《國際海上避碰規則》Rule 7「碰撞危機之判定」核心文字整理。題目中文為意譯，考試可使用shall、risk of collision、prevailing circumstances and conditions、long-range scanning、radar plotting及scanty information等關鍵用語。",
     "practicalAnalysis": "此題三小題實際考COLREG Rule 7。第一小題要有all available means appropriate及if in doubt, risk shall be deemed to exist；第二小題包含long-range scanning及systematic observation；第三小題保留scanty information，尤其雷達資料不足不可擅作假設。",
     "keyPoints": [
@@ -108,8 +108,8 @@
     "id": "102-english-03-answer-v1",
     "questionId": "102-english-03",
     "version": 1,
-    "language": "zh-TW",
-    "answerType": "model_essay",
+    "language": "en",
+    "answerType": "definition",
     "modelAnswer": "(1) **Rhumb line:** A line on the Earth's surface that crosses all meridians at the same angle. It represents a constant compass direction and appears as a straight line on a Mercator chart, except for the special case of a meridian or the equator.\n\n(2) **List:** The steady inclination of a vessel to port or starboard, usually caused by an unequal distribution of weights, flooding, or other transverse imbalance. It differs from a temporary heel caused by turning or wind.\n\n(3) **Beam sea:** A sea condition in which waves approach a vessel from approximately abeam, i.e. from about 90 degrees to the ship's heading.\n\n(4) **Leeway:** The angular difference between a vessel's heading and its actual track over the ground caused by wind acting on the vessel; it is the sideways displacement or drift due to wind.\n\n(5) **Magnetic north:** The direction toward the Earth's magnetic north pole, indicated by the north-seeking end of a freely suspended magnetic compass needle. It differs from true north by magnetic variation, which changes with geographical position and time.",
     "practicalAnalysis": "定義題每題4分，採一至兩句完整英文定義，並凸顯概念差異。Rhumb line是與各經線保持固定交角的線；List是船體持續向一舷傾斜；Beam sea是波浪由正橫附近來；Leeway是風造成航向與對地航跡差；Magnetic north是磁羅經指北方向，不等於True North。",
     "keyPoints": [
@@ -171,8 +171,8 @@
     "id": "102-english-04-answer-v1",
     "questionId": "102-english-04",
     "version": 1,
-    "language": "zh-TW",
-    "answerType": "model_essay",
+    "language": "en",
+    "answerType": "essay",
     "modelAnswer": "**The Relationship between Master and Compulsory Pilot**\n\nThe relationship between a master and a compulsory pilot should be based on cooperation, mutual respect and effective communication. Although a compulsory pilot is required by law to conduct or assist the navigation of a vessel within a designated pilotage area, the master remains in command of the ship and retains ultimate responsibility for its safety.\n\nBefore the pilotage begins, the master should provide the pilot with accurate information about the vessel, including her dimensions, draft, manoeuvring characteristics, engine and steering conditions, and any defects that may affect navigation. The pilot should explain the intended passage plan, expected manoeuvres, tug requirements, speed limits, berth arrangements and relevant local hazards. This exchange is commonly known as the master-pilot exchange (MPX).\n\nDuring pilotage, the pilot contributes local knowledge, experience and advice on tides, currents, traffic, channel conditions and port regulations. The master and bridge team should monitor the vessel's position, speed, heading and progress, and should ensure that orders are understood and carried out correctly. The pilot should not merely issue orders; he or she should maintain an open dialogue with the bridge team and encourage questions or requests for clarification.\n\nIf the master believes that a pilot's instruction may endanger the vessel, the master should immediately raise the concern and discuss a safer alternative. Likewise, the pilot should promptly inform the master of any hazard, change in conditions or limitation affecting the passage. Neither party should hesitate to challenge an unsafe action. A clear understanding of roles, closed-loop communication and continuous monitoring can prevent misunderstanding and reduce the risk of human error.\n\nIn conclusion, compulsory pilotage does not transfer command of the vessel from the master to the pilot. The pilot provides professional local expertise, while the master retains command and responsibility. Their partnership, supported by bridge resource management, is essential to safe navigation and protection of life, property and the marine environment.",
     "practicalAnalysis": "作文約300字，應涵蓋：強制引水的目的、船長保有指揮權、引水人提供地方專業知識、登輪前MPX、航行中BRM與監控、對不安全指令提出質疑，以及共同維護人命、船舶、港設施與海洋環境。避免寫成引水人完全接管船舶或船長可以放棄責任。",
     "keyPoints": [
