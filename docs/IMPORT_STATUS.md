@@ -1114,3 +1114,11 @@
 - 修正104年航政法規第2題「應先應先到港」重複字樣；修正104年高雄港全港圖題得分關鍵中「只呈現104年歷史設施」與2027主答相互矛盾的內容，並更正原題來源誤標。
 - 前台答案元件使用ReactMarkdown、remark-gfm、remark-math及rehype-katex，具備Markdown表格與數學公式渲染支援；此處完成的是程式與資料欄位靜態相容檢查，尚未以最新104資料部署後進行真實瀏覽器視覺驗收。
 - 本輪未執行Vercel Production部署；目前最新已知Production deployment的Git commit仍為10cca08f07c5efebf9a7c60a374f3be0189c8bc3，並非本輪104年度答案提交，因此不可宣稱104年度更新已出現在正式網站。
+
+### 民國 108 年專業英文：2027備考角度複核（2026-11-07）
+- 4題參考答案均保留「建議譯文／參考作答稿」定位，不冒稱考選部官方標準答案。
+- 第1題逐句檢查原文與現行《引水法》第17至21條對照；修正中文譯文中原文未明示的「依法」限定，避免翻譯自行增加法律要件。
+- 第2題依COLREG Rule 8保留「when the circumstances of the case admit」條件語氣，避免將「環境許可時」改寫為無條件的大幅轉向要求。
+- 第3題釐清Cardinal Buoys、CPA、Manoeuvring Speed及List的定義，並區分CPA/TCPA、Manoeuvring Speed/Minimum Steerage Speed及List/Heel。
+- 第4題作文涵蓋事故因素及改善措施，包含MPX、權威梯度、情境覺察、閉環通訊、疲勞與持續監控。
+- 本次僅作108年度專業英文答案內容校正與複核，非官方評分細則核定。
