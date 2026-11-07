@@ -384,6 +384,30 @@
         "title": "IMO A.960(23)",
         "issuer": "IMO",
         "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf"
+      },
+      {
+        "title": "高雄港港埠營運設施總表",
+        "sourceType": "official_port_data",
+        "issuer": "臺灣港務公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/port/Articles?a=919",
+        "supports": "42、43、44號碼頭長度、用途及第一港口航道寬度、水深。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "高雄港船舶航行規定（現行版）",
+        "sourceType": "official_port_regulation",
+        "issuer": "臺灣港務公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "supports": "第一港口VTS交通管制及特定碼頭LOA超過150m船舶靠泊限制。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "國際商港港勤拖船調派及管理要點（含高雄港附件）",
+        "sourceType": "official_port_regulation",
+        "issuer": "臺灣港務股份有限公司",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=4134&l=1&type=AttFile",
+        "supports": "高雄港14,500GT級距拖船配置及拖船作業安全。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
@@ -391,7 +415,30 @@
       "現行碼頭及港口資料僅供2027備考，不回填為106年歷史尺寸。"
     ],
     "verification": {
-      "status": "partially_verified"
+      "status": "verified_with_scope",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "42、43、44號碼頭現行資料",
+          "result": "pass",
+          "note": "依高雄港務分公司現行港埠設施總表核對。"
+        },
+        {
+          "item": "錨鏈、拖船及鄰船離泊風險",
+          "result": "pass",
+          "note": "依IMO A.960(23)及港務公司拖船調派要點補強。"
+        },
+        {
+          "item": "150m碼頭限制的適用範圍",
+          "result": "pass",
+          "note": "依現行航行規定第17點確認適用碼頭及LOA超過150m之門檻。"
+        },
+        {
+          "item": "106年歷史港況",
+          "result": "needs_review",
+          "note": "本版以2027現行資料為主，未將現況倒填為2017歷史資料。"
+        }
+      ]
     },
     "version": 2,
     "lastUpdated": "2026-11-07"
