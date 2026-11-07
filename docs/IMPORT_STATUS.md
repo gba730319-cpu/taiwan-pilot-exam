@@ -131,3 +131,9 @@
 - 此資訊只證明 2026 年現行版次，不得倒推為民國 114 年（2025 年）考試當時版本；答案已明確加入版次時點警語。
 - 五個物標的標準圖形仍未取得 2025 年當時有效 Presentation Library／ECDIS Chart 1 逐項視覺核對，因此原 verification status 維持 **partially_verified**，圖形核對項目維持 **needs_review**。
 - IHO 官方來源：https://iho.int/en/enc-ecdis
+
+### 114 年航政法規第 4 題：商港港務管理規則歷史版本核對（2026-11-07）
+- 已查交通部「交通法規即時檢索－歷史沿革」：商港港務管理規則於112年4月26日修正後，下一次修正為115年9月23日；因此114年考試年度適用112年4月26日版本。
+- 已取得交通部112年4月26日修正條文內容頁，與官方歷史沿革交叉核對。答案中「114年商港港務管理規則歷史版本」子項由 `needs_review` 更新為 `pass`。
+- 仍保留 `needs_review`：各港VTS實際授權、交通放行程序及操作門檻因港別而異，需逐港取得當時有效公告／作業指南；不可將高雄港作業原則概括套用所有港口。
+- 官方來源：交通部歷史沿革 https://motclaw.motc.gov.tw/webMotcLaw2018/Law/History?LawID=I0008017&type=-1；112年版本條文 https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0008018&type=-1
