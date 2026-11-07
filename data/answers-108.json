@@ -735,10 +735,10 @@
       },
       {
         "title": "商港法（全國法規資料庫及歷史沿革）",
-        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0070001",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0080001",
         "sourceType": "official_law",
         "issuer": "法務部全國法規資料庫",
-        "supports": "本法關於船舶入出港、停泊停航、港區安全、污染及危險物品等規範架構；作答須以108年歷史版本核對。"
+        "supports": "商港法本法關於港區船舶停泊、入出港、安全及污染等管理架構；正式條文須選取108年歷史版本。"
       },
       {
         "title": "商港港務管理規則",
