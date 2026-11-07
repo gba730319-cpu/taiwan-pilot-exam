@@ -1,0 +1,186 @@
+[
+  {
+    "id": "083-english-01-answer-v1",
+    "questionId": "083-english-01",
+    "version": 1,
+    "language": "en",
+    "answerType": "essay",
+    "modelAnswer": "I am interested in becoming a harbor pilot because the profession combines practical shiphandling, local navigational knowledge and professional responsibility. During my seagoing career, I have learned that safe navigation depends not only on the performance of a ship but also on the judgement, experience and cooperation of the bridge team.\\n\\nA harbor pilot must have a thorough knowledge of the local fairways, tides, currents, weather, navigational marks, port regulations and berth conditions. I enjoy studying these factors and applying them to real shiphandling situations. I also find satisfaction in planning a safe passage, communicating clearly with the master and tugboat crews, and making timely decisions when conditions change.\\n\\nThe work of a pilot requires patience, discipline, continuous learning and a strong sense of duty. Every vessel is different in size, draft, propulsion and manoeuvring characteristics. Therefore, a pilot must carefully exchange information with the master and prepare a suitable passage or berthing plan for each operation.\\n\\nI understand that a pilot does not replace the master or take over the master's legal responsibility. Instead, the pilot provides local expertise and works closely with the bridge team to protect life, property and the marine environment.\\n\\nI wish to take this career because it offers an opportunity to use my maritime experience in the service of port safety and efficiency. I am prepared to continue studying local waters, regulations and shiphandling techniques, and to accept the responsibility that comes with the profession.",
+    "practicalAnalysis": "本題40分，英文回答應包含職業動機、專業能力、引水人與船長關係及持續學習。使用第一人稱但不虛構特定履歷細節。",
+    "keyPoints": [
+      {
+        "point": "說明對船舶操縱及港口導航的興趣。",
+        "importance": "essential"
+      },
+      {
+        "point": "強調潮汐、潮流、航道、港規及泊位知識。",
+        "importance": "essential"
+      },
+      {
+        "point": "說明Master-Pilot Exchange及拖船協調。",
+        "importance": "essential"
+      },
+      {
+        "point": "指出引水人不取代船長責任。",
+        "importance": "supporting"
+      },
+      {
+        "point": "表達持續學習及航安責任。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "83年甲種引水人實用英文官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國83年（1994）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=3001&t=Q",
+        "supports": "實用英文三題原卷。"
+      }
+    ],
+    "assumptions": [
+      "依考選部原題及海事英文語境作答。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部83年實用英文原卷",
+          "result": "pass",
+          "note": "三題題文核對。"
+        },
+        {
+          "item": "舊教材專業詞彙",
+          "result": "partial",
+          "note": "快速碼頭及貨櫃船格需原教材語境確認。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "083-english-02-answer-v1",
+    "questionId": "083-english-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【中文翻譯】\\n\\n船舶操縱是航海技術中最高層次的專業。之所以稱為一門藝術，是因為操船所涉及的因素非常多、變化極大，而且在任何風浪條件下，不同船舶之間的特性也各不相同。\\n\\n【翻譯說明】\\n- Shiphandling：船舶操縱／操船。\\n- seamanship：航海技術、船藝或船藝實務。\\n- the highest form：最高層次／最高形式。\\n- an art：一門藝術，強調經驗、判斷及技巧，不是單純機械操作。\\n- factors involved：所涉及的各項因素。\\n- so many, so variable：數量繁多且變化多端。\\n- under all conditions of wind and sea：在各種風浪條件下。",
+    "practicalAnalysis": "本題30分，應保留原文對船舶操縱作為藝術的比喻，並準確翻譯seamanship及wind and sea。",
+    "keyPoints": [
+      {
+        "point": "Shiphandling譯為船舶操縱。",
+        "importance": "essential"
+      },
+      {
+        "point": "Seamanship譯為航海技術／船藝。",
+        "importance": "essential"
+      },
+      {
+        "point": "An art強調經驗與判斷，不是純粹藝術創作。",
+        "importance": "essential"
+      },
+      {
+        "point": "保留因素繁多、變化及船型差異的語意。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "83年甲種引水人實用英文官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國83年（1994）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=3001&t=Q",
+        "supports": "實用英文三題原卷。"
+      }
+    ],
+    "assumptions": [
+      "依考選部原題及海事英文語境作答。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部83年實用英文原卷",
+          "result": "pass",
+          "note": "三題題文核對。"
+        },
+        {
+          "item": "舊教材專業詞彙",
+          "result": "partial",
+          "note": "快速碼頭及貨櫃船格需原教材語境確認。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "083-english-03-answer-v1",
+    "questionId": "083-english-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "| 中文詞語 | 建議英文 | 英文例句 |\\n|---|---|---|\\n| 掛滿旗 | Dress ship / Dress overall | The vessel will dress overall to celebrate the national holiday. |\\n| 壞天氣 | Bad weather / Foul weather | The master postponed the departure because of the foul weather. |\\n| 禁泊區 | No-anchoring area / Prohibited anchorage | Anchoring is prohibited in the no-anchoring area near the submarine cable. |\\n| 巡航半徑 | Cruising radius | The vessel's cruising radius depends on her fuel capacity and service speed. |\\n| 貨櫃船格 | Container cell / Container cell guide | The container must be secured in the correct container cell. |\\n| 車葉橫推力 | Propeller transverse thrust / Propeller side thrust | The pilot considered the propeller transverse thrust when manoeuvring the vessel astern. |\\n| 迴旋場 | Turning basin | The large vessel requires sufficient room in the turning basin. |\\n| 臨界轉數 | Critical revolutions / Critical RPM | The engine should not be operated continuously within the critical RPM range. |\\n| 空氣壓縮機 | Air compressor | The air compressor supplies starting air to the main engine. |\\n| 快速碼頭 | Quick-turnaround berth / Fast-service berth | The port plans to develop a quick-turnaround berth for short-stay vessels. |\\n\\n【用語補充】\\n1. 掛滿旗亦可稱dress overall，通常指船舶依規定以國際信號旗裝飾全船。\\n2. 禁泊區若特指禁止下錨，應用no-anchoring area；若指禁止靠泊，應用no-berthing area。\\n3. 貨櫃船格可依語境稱container cell或container cell guide。\\n4. 快速碼頭若指快速裝卸／短停靠泊的設施，quick-turnaround berth較能表達功能；仍須核對題目教材用語。",
+    "practicalAnalysis": "本題30分，十個詞語均須翻譯並造完整英文句子。對禁泊區、貨櫃船格及快速碼頭等詞，需依上下文選擇更精確的術語。",
+    "keyPoints": [
+      {
+        "point": "Dress ship／dress overall。",
+        "importance": "essential"
+      },
+      {
+        "point": "Foul weather；no-anchoring area／prohibited anchorage。",
+        "importance": "essential"
+      },
+      {
+        "point": "Cruising radius；container cell。",
+        "importance": "essential"
+      },
+      {
+        "point": "Propeller transverse thrust；turning basin。",
+        "importance": "supporting"
+      },
+      {
+        "point": "Critical RPM；air compressor；quick-turnaround berth。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "83年甲種引水人實用英文官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國83年（1994）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=3001&t=Q",
+        "supports": "實用英文三題原卷。"
+      }
+    ],
+    "assumptions": [
+      "依考選部原題及海事英文語境作答。"
+    ],
+    "limitations": [
+      "「快速碼頭」及「貨櫃船格」可能是舊教材特定術語，需依原教材語境確認。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部83年實用英文原卷",
+          "result": "pass",
+          "note": "三題題文核對。"
+        },
+        {
+          "item": "舊教材專業詞彙",
+          "result": "partial",
+          "note": "快速碼頭及貨櫃船格需原教材語境確認。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
