@@ -1,0 +1,81 @@
+[
+  {
+    "id": "answer-112-pilot-law-03",
+    "questionId": "112-pilot-law-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、安全速度（Safe Speed）的定義與基本要求\n依《1972年國際海上避碰規則》（COLREG）第6條，各船舶在任何時候均應以安全速度航行，使其能採取適當而有效的避碰行動，並能在適合當時環境及情況的距離內把船舶停住。安全速度不是固定節數，也不是單純依港口限速或船舶最高速率決定；它是船舶在當時能見度、交通密度、水域條件、操縱性能及風流等條件下，仍能有效避碰及停船的速度。\n\n二、所有船舶均應考慮的因素（Rule 6(a)）\n（一）能見度狀況：霧、雨、雪、煙霾、夜間背景燈光及逆光等，會影響目視瞭望與目標辨識；能見度降低時應減速，必要時降至可立即採取有效行動的速度。\n（二）交通密度：特別是漁船群、拖帶船、密集船流及附近船舶數量。船舶越密集，越可能需要頻繁改向或減速，應保留更大反應時間與水域。\n（三）本船操縱性能：停止距離、迴轉性能、舵效、主機反應時間、倒俥能力、吃水與載況。大型船、深吃水船、載況特殊或操縱受限船舶，通常須較早減速並預留更長停止距離。\n（四）夜間背景光、岸上燈光及自身燈光反射：可能妨礙辨認航行燈、助航標誌及小型船舶，不能只以雷達目標數量判斷安全。\n（五）風、海況、流及航行危害物的接近程度：強風、湧浪、橫流、淺灘、礁石、沉船及岸壁等，會縮小可用水域並影響船位控制；接近危險水域時應降低速度。\n（六）吃水與可用水深之關係：須考慮富餘水深（UKC）、潮高、船舶下沉量（squat）、縱傾及波浪造成的動態吃水變化。水深受限時速度過高會增加squat並減少UKC。\n\n三、使用雷達的船舶另須考慮的因素（Rule 6(b)）\n（一）雷達設備性能、效率及限制：包括雷達量程、解析度、天線高度、盲區、海浪／雨雪雜波、調諧及目標擷取能力；設備性能不佳或雜波嚴重時，不能過度依賴雷達資訊。\n（二）所選量程造成的限制：短量程有利近距離細節但可能漏失遠方目標；長量程可提早發現目標，但目標解析及更新判讀可能較不精確，應適時切換量程並持續觀察。\n（三）海況、天候及其他干擾對雷達偵測的影響：海浪、雨雪、海面反射及岸線回波會遮蔽小型目標或造成假回波。\n（四）小船、冰塊及其他漂浮物可能未被雷達及時偵測：尤其低雷達反射截面、塑膠／木質小船、浮標或漂流物，不得因雷達上沒有回波就認定前方無危險。\n（五）雷達所偵測船舶的數量、位置及運動：須觀察相對運動、CPA／TCPA、目標航跡及其變化；目標多且交會關係複雜時，應降低速度，給予避碰行動足夠時間。\n（六）雷達對能見度的較精確估計：雷達可提供目標偵測與距離資訊，但不等於完全取代目視瞭望；仍須綜合所有可用資料。\n\n四、引水及港內操船的實務應用\n引水人評估安全速度時，應把航道寬度、水深、轉向點、船舶尺度與慣性、主機／舵機反應、拖船配置、風流、交通及VTS管制一併納入。進入狹窄航道或靠離碼頭時，速度應足以維持舵效及操縱控制，但不得高到無法在可用距離內停船或修正船位。應明確區分對水速度（STW）與對地速度（SOG）：水流可能使兩者差異甚大；squat通常與對水速度及受限水域條件密切相關，不能只看GPS的SOG。\n\n結論：Rule 6要求的是「能有效避碰，並能在適當距離內停住」的速度。安全速度須隨能見度、交通、操縱性能、背景光、風浪流、危險物距離及水深／吃水關係動態調整；使用雷達時，還要考慮雷達性能、量程、海況干擾、小目標漏失及目標數量與運動資訊。",
+    "practicalAnalysis": "本題25分可按三段作答：定義約5分、所有船舶六項因素約12分、雷達額外因素約8分。務必把COLREG Rule 6(a)與6(b)分開列點；「安全速度不是固定節數」及「適當距離內停船」是得分核心。引水實務可補充STW/SOG、UKC、squat及港內操縱餘裕，但不要用實務延伸取代規則列舉。",
+    "keyPoints": [
+      {
+        "point": "任何時候均須以適當且有效避碰行動、並能在適當距離內停船的速度航行。",
+        "importance": "essential"
+      },
+      {
+        "point": "安全速度不是固定節數，須依當時環境及情況動態決定。",
+        "importance": "essential"
+      },
+      {
+        "point": "Rule 6(a)：能見度、交通密度、操縱性能、夜間背景光、風浪流與危險物距離、吃水與可用水深。",
+        "importance": "essential"
+      },
+      {
+        "point": "Rule 6(b)：雷達性能與限制、量程選擇、海況天候干擾、小船冰塊漂浮物漏失、目標數量位置運動、雷達對能見度的估計。",
+        "importance": "essential"
+      },
+      {
+        "point": "實務上區分STW與SOG，並評估UKC、squat、停止距離及可用水域。",
+        "importance": "essential"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "note": "未取得考選部官方逐項評分細則；僅供複習分配時間與架構使用。"
+    },
+    "references": [
+      {
+        "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972 (COLREG)",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "Rule 6 Safe Speed完整條文及Rule 5 lookout、Rule 7 risk of collision等相關規則。"
+      },
+      {
+        "title": "COLREG Rule 6 — Safe Speed (official text)",
+        "sourceType": "international_rule",
+        "issuer": "IMO",
+        "url": "https://www.gov.uk/government/publications/colregs-safe-speed-and-lookout",
+        "supports": "英國海事主管機關對安全速度與瞭望規則的官方說明。"
+      },
+      {
+        "title": "MGN 199 (M) Amendment 1 — Danger of interaction",
+        "sourceType": "official_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction",
+        "supports": "狹窄及受限水域中速度、squat、船岸交互作用的航行風險。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "官方逐項評分細則未公開取得；本文配分及答題架構為研讀建議。"
+    ],
+    "verification": {
+      "status": "verified_with_scope",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目與考試年度",
+          "result": "pass",
+          "note": "依題庫主檔所載112年度原題整理。"
+        },
+        {
+          "item": "專業依據",
+          "result": "pass",
+          "note": "以公約、IMO決議及主管機關法規／指引交叉整理。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
