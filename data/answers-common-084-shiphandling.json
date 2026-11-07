@@ -118,22 +118,42 @@
   {
     "id": "084-shiphandling-03-answer-v1",
     "questionId": "084-shiphandling-03",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、標準】1994年7月1日以後新建且長度達100m以上船舶，題目所指為IMO Resolution A.751(18)《Interim Standards for Ship Manoeuvrability》（船舶操縱性暫行標準）。\\n\\n【二、主要基本性能指標】\\n1. 迴轉能力（Turning ability）：標準試驗中advance不應超過4.5L，tactical diameter不應超過5.0L。\\n2. 初始轉向能力（Initial turning ability）：施舵後船艏向改變10°前的航行距離不應超過2.5L。\\n3. 停船能力（Stopping ability）：全速倒俥停船的track reach一般不應超過15L；若船舶設計或特殊條件有例外，依標準所定程序處理。\\n4. 航向穩定／Zig-zag能力：以10°/10°及20°/20°Zig-zag試驗測量第一、第二超越角，評估換舵反應及航向穩定性。\\n\\n【三、意義】L通常指船舶水線長度或標準指定長度。上述數值為標準基本判準，正式評估須依A.751(18)完整試驗程序、試驗速度及適用條件，不可只憑單一操船經驗判定。",
-    "practicalAnalysis": "依船舶操縱原理及題目條件整理，計算題明列假設及單位換算。",
+    "modelAnswer": "## 一、歷史題目所指標準\n\n題目所述「1994年7月1日以後新建、船長100公尺以上」所指為IMO Resolution A.751(18)《Interim Standards for Ship Manoeuvrability》，該標準於1993年通過，適用於當時指定日期後建造的船舶。\n\n## 二、2027年現行備考標準\n\nA.751(18)已由IMO Resolution MSC.137(76)《Standards for Ship Manoeuvrability》（2002年12月4日通過）取代。現行主答應以MSC.137(76)為準，適用範圍依該標準及相關IMO規定判斷。\n\n### 主要操縱性能判準\n\n1. **迴轉能力（Turning ability）**\n   - Advance（進距）不得超過4.5L。\n   - Tactical diameter（戰術直徑）不得超過5.0L。\n\n2. **初始轉向能力（Initial turning ability）**\n   - 下達10°左／右舵後，船首向改變10°前，船舶航行距離不得超過2.5L。\n\n3. **偏航檢查及航向保持能力（Yaw-checking and course-keeping）**\n   - 10°/10° Zig-zag第一超越角：\n     - L/V小於10秒：不得超過10°。\n     - L/V達30秒以上：不得超過20°。\n     - L/V介於10至30秒：不得超過 (5+0.5(L/V)) 度。\n   - 10°/10° Zig-zag第二超越角：\n     - L/V小於10秒：不得超過25°。\n     - L/V達30秒以上：不得超過40°。\n     - L/V介於10至30秒：不得超過 (17.5+0.75(L/V)) 度。\n   - 20°/20° Zig-zag第一超越角不得超過25°。\n\n4. **停船能力（Stopping ability）**\n   - 全速倒俥停船試驗的Track Reach原則不得超過15L。\n   - 若大型船舶排水量使此標準難以達成，主管機關得調整，但不得超過20L。\n\n其中L為標準指定船長，V為試驗速度，計算L/V時L以公尺、V以公尺／秒表示。\n\n## 三、試驗條件及補充\n\n標準試驗應在深水、無限制水域、平靜環境、滿載夏季載重線吃水及穩定進入試驗速度等條件下進行；若標準試驗顯示動態不穩定，得依IMO說明文件另作Spiral Test或Pull-out Manoeuvre等補充試驗。\n\n**考試策略：**題目若問1994年當時標準，應寫A.751(18)；若面對2027年考試及現行船舶操縱性能要求，主答MSC.137(76)，不可把舊暫行標準當成現行最新標準。",
+    "practicalAnalysis": "原答案直接把A.751(18)當成2027現行標準，且10°/10°第二超越角判準寫成25°／40°，未說明L/V分段。A.751(18)是1994歷史題標準，後由MSC.137(76)取代；現已補入現行標準的完整第一、第二超越角分段、20°/20°第一超越角及停船15L（大型船可放寬但不超過20L）。",
     "keyPoints": [
       {
-        "point": "IMO A.751(18)為操縱性暫行標準。",
+        "point": "1994年歷史題所指為IMO A.751(18) Interim Standards。",
         "importance": "essential"
       },
       {
-        "point": "基本指標包括advance、tactical diameter、initial turning及stopping ability。",
+        "point": "2027備考現行主答為IMO MSC.137(76)，A.751(18)已被取代。",
         "importance": "essential"
       },
       {
-        "point": "Zig-zag試驗評估超越角及航向穩定性。",
+        "point": "Turning circle：Advance≤4.5L，Tactical diameter≤5L。",
+        "importance": "essential"
+      },
+      {
+        "point": "Initial turning：10°舵至船首向改變10°的距離≤2.5L。",
+        "importance": "essential"
+      },
+      {
+        "point": "10°/10°第一超越角依L/V小於10、10至30、30秒以上分別10°、5+0.5(L/V)°、20°。",
+        "importance": "essential"
+      },
+      {
+        "point": "10°/10°第二超越角依L/V分別25°、17.5+0.75(L/V)°、40°。",
+        "importance": "essential"
+      },
+      {
+        "point": "20°/20°第一超越角≤25°。",
+        "importance": "essential"
+      },
+      {
+        "point": "Full astern stopping track reach≤15L，大型船可調整但不得超過20L。",
         "importance": "essential"
       }
     ],
@@ -142,41 +162,59 @@
         "title": "84年甲種引水人船舶操縱官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國84年（1995）",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=7001&t=Q",
-        "supports": "船舶操縱七題原卷。"
+        "editionOrEffectiveDate": "民國84年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=084120&q=1&s=c181&t=Q",
+        "supports": "1994年7月1日及100m船舶的歷史標準題意。"
       },
       {
-        "title": "IMO Resolution A.751(18) — Interim Standards for Ship Manoeuvrability",
-        "sourceType": "imo_resolution",
-        "issuer": "IMO",
+        "title": "IMO Resolution A.751(18) – Interim Standards for Ship Manoeuvrability",
+        "sourceType": "international_standard",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "1993-11-04",
         "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.751%2818%29.pdf",
-        "supports": "第3題操縱性能暫行標準。"
+        "supports": "歷史1994適用的暫行操縱性標準。"
+      },
+      {
+        "title": "IMO Resolution MSC.137(76) – Standards for Ship Manoeuvrability",
+        "sourceType": "international_standard",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2002-12-04",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
+        "supports": "現行操縱性標準第5.3節各項性能判準。"
+      },
+      {
+        "title": "MSC/Circ.1053 – Explanatory Notes to the Standards for Ship Manoeuvrability",
+        "sourceType": "international_standard",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2002-12-16",
+        "url": "https://www.imorules.com/GUID-BE137BC0-62C8-45FA-B5AB-917DDD9B48A3.html",
+        "supports": "Zig-zag、轉圈及停船試驗程序與量測項目。"
       }
     ],
     "assumptions": [
-      "計算題依題目排除阻抗條件，採恆定拖力及理想運動模型。"
+      "2027備考以MSC.137(76)為現行主答；A.751(18)僅作1994歷史題背景。",
+      "L/V公式中的L以公尺、V以公尺／秒表示。"
     ],
     "limitations": [
-      "1994年A.751(18)完整判準及特定船舶適用日期須依決議原文核對；此處列主要指標。"
+      "特定船型是否適用及試驗條件，仍依MSC.137(76)、SOLAS及主管機關規定判定；不可只依船長100m單一條件概括所有船舶。"
     ],
     "verification": {
-      "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "status": "source_checked",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部84年船舶操縱原卷",
+          "item": "A.751(18)歷史標準",
           "result": "pass",
-          "note": "七題題文核對。"
+          "note": "核對1993年決議及1994年適用背景。"
         },
         {
-          "item": "指定IMO操縱性標準及船舶特定資料",
-          "result": "partial",
-          "note": "部分歷史標準及特定船舶資料待核。"
+          "item": "MSC.137(76)現行判準",
+          "result": "pass",
+          "note": "核對4.5L、5L、2.5L、Zig-zag分段超越角及15L／20L停船判準。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "084-shiphandling-04-answer-v1",
