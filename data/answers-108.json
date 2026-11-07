@@ -1044,10 +1044,10 @@
   {
     "id": "answer-108-pilotage-01",
     "questionId": "108-pilotage-01",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "（一）沿岸航行時，決定離岸距離最重要的考慮因素，是船舶與岸邊危險物之間是否保有足夠的安全水域與水深，即航行安全及可用海域，而不是單純追求離岸愈遠愈好。應先確認海圖水深、等深線、暗礁、淺灘、沉船、潮位及測量資料可靠度，並確保足夠龍骨下淨空（UKC）。\n（二）除船舶大小外，還須考慮：\n1. 吃水、縱傾、橫傾及載況；吃水愈深，越須遠離淺灘並預留潮位變化。\n2. 船舶操縱性能、迴旋半徑、停船距離、舵效、主機及側推器狀況。\n3. 船速及淺水效應、下沉量（squat）、岸壁吸引／排斥及岸坡效應。\n4. 潮汐、潮流、沿岸流、風向風速、湧浪及能見度。\n5. 海圖基準面、測深誤差、定位誤差、GPS／雷達／測深儀可靠性。\n6. 航道、分道通航制、漁場、養殖區、海底電纜／管線、禁航區、軍事區及其他船舶交通。\n7. 航標、燈塔、雷達標、岸標及可用定位方法。\n8. 避難錨地、港口入口、應急轉向水域與天候變化後的安全選擇。\n9. 船舶是否需要保持足夠海域以避讓、轉向或應對設備故障。\n結論：離岸距離應由水深與危險物、船舶操縱能力、環境條件及交通避讓共同決定，並持續依實際船位與海況修正。",
+    "modelAnswer": "【2027年考試主答｜沿岸航行離岸距離的決定】\n\n一、最重要考慮因素\n沿岸航行時，決定離岸距離最重要的是**保持足夠的水深、UKC及避開岸邊危險物，確保船舶有足夠安全水域及操船餘裕**。不是離岸越遠越安全，也沒有一個適用所有船舶及海岸的固定離岸距離。\n應先依有效海圖確認岸線、礁石、淺灘、沉船、潮位、測深品質、海底管線及其他障礙，再決定安全航跡。\n\n二、除船舶大小外，應考慮的因素\n1. **吃水與載況：**艏艉吃水、縱傾、橫傾、載重、船舶動態下沉及UKC。\n2. **船舶操縱性能：**船速、舵效、迴旋半徑、停船距離、主機反應、側推器及推進器型式。\n3. **淺水與岸壁效應：**Squat、岸壁吸引／排斥、岸坡效應、淺水效應及船舶交互作用。\n4. **水文氣象：**潮位、潮流、沿岸流、風向風速、湧浪、海況、能見度及海流季節變化。\n5. **海圖及定位品質：**Chart Datum、測深年代、CATZOC／ZOC、定位誤差、GNSS、雷達、測深儀及目視定位可靠度。\n6. **航行環境：**航道、分道通航制、漁場、養殖區、漁柵、海底電纜／管線、禁航區、軍事區及其他船舶交通。\n7. **助導航及岸標：**燈塔、浮標、導標、雷達標及可用的定位物標。\n8. **應變空間：**避讓他船、轉向、停船、故障漂航、緊急錨泊及避難港的可用水域。\n9. **航行目的與航路限制：**是否進出港、沿岸航線、港口交通管制、VTS指示及當地航行規定。\n\n三、實際判斷程序\n1. 先由海圖及航船布告確認危險物、等深線及安全水域。\n2. 以船舶實際吃水、潮高、Squat及所需安全餘裕計算UKC。\n3. 評估船舶操縱性能、風流壓、岸壁效應及可用轉向水域。\n4. 規劃安全航跡及備用航路，並使用雷達平行指標、GNSS、目視及測深交叉監控。\n5. 航行中持續更新船位與環境資訊；如水深、風流或交通狀況改變，應重新評估離岸距離。\n\n結論：離岸距離以足夠水深、UKC及遠離岸邊危險物為首要；再依吃水、操縱性能、淺水與岸壁效應、風流海況、海圖品質、交通及應變空間綜合決定。",
     "practicalAnalysis": "「最重要」應聚焦於岸近危險與安全水深，而非船長或噸位本身。船舶大小只是影響操縱性與安全餘裕的其中一項；大吃水船、操縱遲鈍船及受限船舶通常需要更大的安全水域。",
     "keyPoints": [
       {
@@ -1089,6 +1089,38 @@
         "sourceType": "international_convention_guidance",
         "issuer": "IMO",
         "supports": "瞭望、安全速度及碰撞危險判斷原則。"
+      },
+      {
+        "title": "IHO S-4 Regulations of the IHO for International Charts and Chart Specifications, Edition 4.10.0 (March 2026)",
+        "sourceType": "official_hydrographic_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/en/standards-and-specifications",
+        "supports": "海圖水深、測量品質、基準、危險物及航行資訊。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO COLREG 1972 — Rules 5, 6 and 7",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "瞭望、安全速度及碰撞危險判斷。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "MGN 199 (M) Amendment 1 — Danger of interaction",
+        "sourceType": "official_maritime_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
+        "supports": "淺水、受限水域、岸壁及船舶交互作用風險。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "MGN 301 (M) Amendment 1 — Manoeuvring information onboard ships",
+        "sourceType": "official_maritime_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/mgn-301-mf-amendment-1-manoeuvring-information-onboard-ships",
+        "supports": "依個船操縱資料評估停船距離、轉向及操縱餘裕。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -1096,18 +1128,23 @@
       "本題無單一固定離岸距離公式；須依航段海圖、水深、船舶吃水與環境條件判斷。"
     ],
     "verification": {
-      "status": "partially_verified",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "考題文字、題號及配分",
+          "item": "離岸距離最重要因素",
           "result": "pass",
-          "note": "依考選部108年官方原卷核對。"
+          "note": "聚焦安全水深、UKC、岸邊危險物及可用安全水域。"
         },
         {
-          "item": "專業細節與歷史版本",
-          "result": "needs_review",
-          "note": "仍有歷史港圖、原卷附圖、地方版本或個船資料缺口，答案已明確標示，不以推測代替史料。"
+          "item": "船舶及環境因素",
+          "result": "pass",
+          "note": "補入Squat、岸壁效應、測深品質、風流及應變空間。"
+        },
+        {
+          "item": "固定離岸距離數值",
+          "result": "pass",
+          "note": "確認本題無通用固定距離，須依航段及船舶條件判斷。"
         }
       ]
     },
@@ -1116,10 +1153,10 @@
   {
     "id": "answer-108-pilotage-02",
     "questionId": "108-pilotage-02",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "（一）燈質 GP. FL W. (3) 12 sec 36 M 17 m 解讀：\n1. GP Fl：Group Flashing，群閃光。\n2. W：White，白色燈光。\n3. (3)：每一週期連續三次閃光。\n4. 12 sec：完整燈光週期為12秒，約每12秒出現一組三閃。\n5. 36 M：標示光程36海浬（依題目所採燈表欄位理解為名義光程）。\n6. 17 m：燈光焦面高度／燈高資料17公尺；不是塔身高度，應依海圖圖例及燈表欄位區分。\n（二）船眼高16公尺時的地理能見距離：\n地球曲率近似公式（標準折射條件）：\nD（海浬）≈2.08（√h₁＋√h₂）\n其中h₁為船眼高、h₂為燈光焦面高度，單位均為公尺。\n代入h₁=16m、h₂=17m：\nD≈2.08（√16＋√17）\n =2.08（4＋4.123）\n ≈16.9海浬。\n因此正常大氣折射條件下，船舶約在16.9海浬可從幾何地平線看見燈光；雖然燈的名義光程為36海浬，但船眼高與燈高限制了地理能見距離，實際可見距離還受能見度、燈光強度、背景光及大氣狀況影響。\n注意：若考題所稱17m為塔高而非焦面高度，應以燈表欄位的實際焦面高代入；不可把36海浬光程直接當作船眼高16m時的可見距離。",
+    "modelAnswer": "【2027年考試主答｜燈質解讀及地理能見距離】\n\n一、燈質解讀\n題目標示：Gp. Fl. W. (3) 12 sec 36 M 17 m。\n1. **Gp. Fl.：**Group Flashing，群閃光。\n2. **W：**White，白色燈光。\n3. **(3)：**每一週期連續閃光3次。\n4. **12 sec：**完整燈光週期為12秒。\n5. **36 M：**名義光程（Nominal Range）36海浬；大寫M表示海浬。\n6. **17 m：**燈光焦面高度／燈高17公尺；小寫m表示公尺。此處不是燈塔建築物高度。\n\n二、地理能見距離（Geographical Range）\n標準折射條件下，常用近似公式：\n\\[\nD=2.08(\\sqrt{h_1}+\\sqrt{h_2})\n\\]\n其中：\n- (h_1)：觀察者眼高，公尺。\n- (h_2)：燈光焦面高度，公尺。\n- (D)：地理能見距離，海浬。\n\n題目給定船眼高16m、燈高17m：\n\\[\nD=2.08(\\sqrt{16}+\\sqrt{17})\n\\]\n\\[\n=2.08(4+4.123)\n\\]\n\\[\n\\approx16.9\\text{ NM}\n\\]\n\n三、光程與實際可見距離\n1. 36M是燈光名義光程，通常以氣象能見度10海浬的均勻大氣為基準。\n2. 16.9海浬是依船眼高及燈高計算的地理能見距離。\n3. 實際可見距離受燈光名義光程、地理能見距離、氣象能見度、背景燈光及大氣折射共同限制；在標準條件下，地理能見距離約16.9海浬，小於名義光程36海浬，因此地理條件先限制可見距離。\n4. 若氣象能見度低於10海浬，燈光的實際光學可見距離可能進一步縮短；若大氣條件不同，也可能產生異常折射。\n\n結論：此燈為白色群閃燈，每12秒閃3次，名義光程36海浬，燈高17公尺。船眼高16公尺時，地理能見距離約16.9海浬；實際可見距離還須考慮氣象能見度及大氣狀況。",
     "practicalAnalysis": "此題考的是燈質縮寫與地理能見距離，不是把36M照抄作答案。先解碼GP Fl W(3) 12s，再用船眼高與燈高計算地理光程；36M為名義光程上限，地球曲率使實際幾何可視距離更短。",
     "keyPoints": [
       {
@@ -1168,6 +1205,30 @@
         "sourceType": "international_aids_to_navigation_reference",
         "issuer": "IALA",
         "supports": "航標燈質及光程／燈高術語。"
+      },
+      {
+        "title": "IHO S-4 B-471 — Light Characteristics, Elevation and Range",
+        "sourceType": "official_hydrographic_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/uploads/user/pubs/standards/s-4/S4_V4-9-0_March_2021.pdf",
+        "supports": "燈光週期、焦面高度以m表示、名義光程以M表示及地理能見距離原則。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Canadian Hydrographic Service — List of Lights, Column 5 and 6",
+        "sourceType": "official_hydrographic_reference",
+        "issuer": "Canadian Hydrographic Service",
+        "url": "https://www.notmar.gc.ca/publications/list-lights/pac/pacfront-en.php",
+        "supports": "焦面高度（m）及名義光程（NM）的區別與地理能見距離表。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IALA International Dictionary of Marine Aids to Navigation — Nominal Range",
+        "sourceType": "IALA_dictionary",
+        "issuer": "International Organization for Marine Aids to Navigation",
+        "url": "https://www.iala.int/wiki/dictionary/index.php/Nominal_Range",
+        "supports": "名義光程定義為氣象能見度10海浬時的光學光程。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -1176,18 +1237,28 @@
       "標準折射係數2.08為近似值，實際可見距離受大氣折射及氣象能見度影響。"
     ],
     "verification": {
-      "status": "partially_verified",
+      "status": "verified_with_scope",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "考題文字、題號及配分",
+          "item": "燈質縮寫及週期",
           "result": "pass",
-          "note": "依考選部108年官方原卷核對。"
+          "note": "依題目縮寫解讀為白色群閃、每週期三閃、週期12秒。"
         },
         {
-          "item": "專業細節與歷史版本",
-          "result": "needs_review",
-          "note": "仍有歷史港圖、原卷附圖、地方版本或個船資料缺口，答案已明確標示，不以推測代替史料。"
+          "item": "36M與17m單位區分",
+          "result": "pass",
+          "note": "大寫M為海浬名義光程，小寫m為燈光焦面高度。"
+        },
+        {
+          "item": "地理能見距離計算",
+          "result": "pass",
+          "note": "D=2.08(√16+√17)約16.9海浬。"
+        },
+        {
+          "item": "光程與實際可見距離",
+          "result": "pass",
+          "note": "區分名義光程、地理能見距離及氣象能見度。"
         }
       ]
     },
@@ -1196,10 +1267,10 @@
   {
     "id": "answer-108-pilotage-03",
     "questionId": "108-pilotage-03",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "太平洋主要海流可依北太平洋環流、南太平洋環流及赤道流系統說明：\n一、北太平洋環流（順時針）：\n1. 北赤道洋流：受信風推動，大致由東向西流，橫越太平洋熱帶北部。\n2. 黑潮（日本暖流）：由菲律賓東側向北，沿臺灣東岸及日本南岸流向東北，是西北太平洋重要暖流。\n3. 北太平洋洋流：自日本附近向東流，橫越北太平洋至北美西岸。\n4. 加利福尼亞洋流：沿北美西岸向南流，為寒流。\n二、南太平洋環流（逆時針）：\n1. 南赤道洋流：受東南信風推動，大致由東向西流。\n2. 東澳洲洋流：沿澳洲東岸向南流，為暖流。\n3. 南太平洋洋流：中高緯度由西向東流。\n4. 秘魯（洪堡）洋流：沿南美洲西岸向北流，為寒流。\n三、赤道附近及其他重要海流：\n1. 赤道逆流：位於南、北赤道洋流之間，整體由西向東流。\n2. 赤道潛流（Cromwell Current）：太平洋赤道下方的次表層東向流，不同於表層赤道逆流。\n3. 阿拉斯加洋流：北太平洋東北部沿阿拉斯加灣向北／西北方向流動，屬區域性暖流系統。\n4. 親潮（千島寒流）：自白令海及堪察加附近向南流，與黑潮在日本東側海域交會。\n四、成因：表層海流主要受盛行風、地球自轉偏向力、海盆邊界及海岸線形狀影響；洋流會輸送熱量、鹽分及營養物質，並影響航行、海霧、漁場及船舶航速。\n作圖時以太平洋為中心，畫出北半球順時針、南半球逆時針兩大環流，並標註赤道洋流向西、赤道逆流向東。",
+    "modelAnswer": "【2027年考試主答｜太平洋主要海流及流向】\n\n一、北太平洋主要海流\n1. **北赤道海流（North Equatorial Current）：**受信風推動，主要由東向西流。\n2. **赤道逆流（Equatorial Countercurrent）：**位於赤道附近，主要由西向東流。\n3. **黑潮（Kuroshio Current）：**由菲律賓東側向北，沿臺灣東側及日本南方流向東北，為強勁暖流。\n4. **黑潮延伸流（Kuroshio Extension）：**黑潮離開日本東南岸後向東流入北太平洋。\n5. **親潮／千島海流（Oyashio Current）：**由堪察加及千島群島附近向南流，與黑潮系統在日本東側交會，為寒流。\n6. **北太平洋海流（North Pacific Current）：**中高緯度由西向東流，連接黑潮延伸流與北美西岸流系。\n7. **加利福尼亞海流（California Current）：**沿北美西岸向南流，為寒流。\n8. **阿拉斯加海流（Alaska Current）：**沿北美西北岸及阿拉斯加灣一帶向北／東北流；阿拉斯加流系在阿留申群島附近另有向西流的Alaskan Stream。\n\n二、南太平洋主要海流\n1. **南赤道海流（South Equatorial Current）：**主要由東向西流。\n2. **東澳大利亞海流（East Australian Current）：**沿澳洲東岸向南流，為暖流。\n3. **南太平洋海流（South Pacific Current）：**中高緯度由西向東流。\n4. **秘魯／洪堡海流（Peru or Humboldt Current）：**沿南美洲西岸向北流，為寒流。\n5. **南極繞極流（Antarctic Circumpolar Current）：**環繞南極洲由西向東流，連接太平洋、印度洋及大西洋。\n\n三、主要環流方向\n（一）北太平洋副熱帶環流：整體順時針，主要由北赤道海流向西、黑潮向北、北太平洋海流向東及加利福尼亞海流向南構成。\n（二）南太平洋副熱帶環流：整體逆時針，主要由南赤道海流向西、東澳大利亞海流向南、南太平洋海流向東及秘魯海流向北構成。\n（三）北太平洋副極地環流：整體逆時針，包含親潮及阿拉斯加海流系統。\n\n四、臺灣附近航行重點\n1. 臺灣東側主要受黑潮影響，流軸、流速及渦旋位置會隨季節與海況變化。\n2. 臺灣海峽流況受季風、潮汐、地形及中國沿岸流影響，冬季東北季風期間常見南向沿岸流增強，夏季流況可能不同。\n3. 航海計畫應依即時海流預報、潮流資料、海圖及實際SOG／STW差異修正，不可只依固定洋流示意圖。\n4. IHO S-111已建立海表流資料產品標準，未來可供電子航海資料使用；實際船載顯示仍取決於設備與資料服務。\n\n結論：北太平洋主要海流包括北赤道海流、赤道逆流、黑潮、黑潮延伸流、親潮、北太平洋海流、加利福尼亞及阿拉斯加海流；南太平洋包括南赤道、東澳大利亞、南太平洋及秘魯海流。北半球副熱帶環流順時針，南半球副熱帶環流逆時針。",
     "practicalAnalysis": "答題須標示流向而非只列海流名稱。黑潮與親潮在日本附近交會；加利福尼亞流、秘魯流為東太平洋沿岸寒流；東澳洲流沿澳洲東岸向南。海流季節性、區域分支及深度差異很大，考場以主要表層環流方向為主。",
     "keyPoints": [
       {
@@ -1237,6 +1308,30 @@
         "sourceType": "university_education",
         "issuer": "University of Hawaiʻi",
         "supports": "主要表層海流名稱與太平洋洋流系統方向。"
+      },
+      {
+        "title": "NOAA JetStream — Major Ocean Currents",
+        "sourceType": "official_oceanography",
+        "issuer": "NOAA",
+        "url": "https://www.noaa.gov/jetstream/ocean/circulations/jetstream-max-major-ocean-currents",
+        "supports": "太平洋主要海流及北、南太平洋環流方向。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "University of Hawaiʻi — Ocean Surface Currents",
+        "sourceType": "university_education",
+        "issuer": "University of Hawaiʻi",
+        "url": "https://manoa.hawaii.edu/exploringourfluidearth/physical/atmospheric-effects/ocean-surface-currents",
+        "supports": "太平洋表層海流、信風及環流方向。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IHO Standards and Specifications — S-111 Surface Currents",
+        "sourceType": "official_hydrographic_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/en/standards-and-specifications",
+        "supports": "S-111海表流資料產品規格。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -1244,18 +1339,23 @@
       "海流分支及季節性變化複雜；本答案以主要表層環流概述，並非完整海洋環流圖。"
     ],
     "verification": {
-      "status": "partially_verified",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "考題文字、題號及配分",
+          "item": "北太平洋主要海流及方向",
           "result": "pass",
-          "note": "依考選部108年官方原卷核對。"
+          "note": "依NOAA及夏威夷大學海流資料核對。"
         },
         {
-          "item": "專業細節與歷史版本",
-          "result": "needs_review",
-          "note": "仍有歷史港圖、原卷附圖、地方版本或個船資料缺口，答案已明確標示，不以推測代替史料。"
+          "item": "南太平洋主要海流及方向",
+          "result": "pass",
+          "note": "補入南極繞極流及東澳大利亞、秘魯海流。"
+        },
+        {
+          "item": "臺灣附近海流季節性",
+          "result": "verified_with_scope",
+          "note": "流軸及流速具季節及渦旋變化，航次須查即時資料。"
         }
       ]
     },
@@ -1264,10 +1364,10 @@
   {
     "id": "answer-108-pilotage-04",
     "questionId": "108-pilotage-04",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "一、海風（Sea Breeze）：\n1. 成因：白天陸地受太陽輻射升溫較快，近地面空氣受熱膨脹、密度降低，形成相對低壓；海面升溫較慢，空氣較冷、密度較大，形成相對高壓。近地面空氣由海洋吹向陸地，形成海風；高空則有反向回流，構成局部環流。\n2. 發生時間：通常日出後陸地升溫開始形成，上午逐漸增強，午後較明顯，傍晚陸海溫差減小後轉弱；實際時間依季節、雲量、地形及背景風而變。\n3. 影響範圍：沿海地區最明顯，強度及深入陸地距離依地形與背景風而異，可延伸數十公里；海風鋒面可能帶來風向突變、陣風、雲雨或雷暴。\n二、陸風（Land Breeze）：\n1. 成因：夜間陸地散熱比海洋快，陸地近地面空氣較冷、密度較大，形成相對高壓；海面相對溫暖，空氣上升形成低壓，近地面空氣由陸地吹向海洋，形成陸風；高空有反向回流。\n2. 發生時間：通常日落後陸地降溫時開始，夜間至日出前較明顯，日出後陸地升溫則逐漸減弱。\n3. 影響範圍：通常較海風弱、垂直厚度較淺，主要影響沿岸及近海水域；秋冬夜間陸海溫差明顯時可能較清楚。\n三、航海影響及注意事項：\n1. 海風、陸風可造成近岸風向每日反轉，影響進出港、錨泊、靠離泊及小船活動。\n2. 海風鋒面通過時，可能出現短時間風向與風速改變、陣風及雷雨。\n3. 背景季風或強風可能抑制局部海陸風環流，故不能只按時刻預測。\n4. 引水人應結合氣象預報、實測風、地形及VTS資訊判斷，並預留靠泊及離泊風壓餘裕。",
+    "modelAnswer": "【2027年考試主答｜海風與陸風】\n\n一、海風（Sea Breeze）\n（一）成因\n白天陸地比海洋升溫快，陸地上方近地面空氣受熱膨脹、密度降低並上升，形成相對低壓；海面升溫較慢，近地面空氣相對較冷、密度較大，形成相對高壓。近地面空氣由海洋吹向陸地，形成海風；高空則有反向回流，構成局部環流。\n（二）發生時間\n通常日出後陸地開始升溫，上午逐漸形成，午後陸海溫差較大時較明顯，傍晚陸地降溫後逐漸減弱。實際開始及最強時間依季節、雲量、地形及背景風而變。\n（三）影響範圍\n沿海最明顯，海風可形成海風鋒面，向陸地推進數十公里；其垂直厚度及深入距離受地形、背景風及大氣穩定度控制。海風鋒面可能帶來風向突變、陣風、積雲、雷雨及局部降雨。\n\n二、陸風（Land Breeze）\n（一）成因\n夜間陸地比海洋散熱快，陸地近地面空氣冷卻、密度增加，形成相對高壓；海面相對溫暖，空氣較易上升，形成相對低壓。近地面空氣由陸地吹向海洋，形成陸風；高空有反向回流。\n（二）發生時間\n通常日落後陸地降溫時開始，夜間至日出前較明顯；日出後陸地升溫，陸風逐漸減弱。\n（三）影響範圍\n通常較海風弱、環流較淺，主要影響沿岸及近海水域；實際範圍受海陸溫差、地形及背景風影響。\n\n三、形成及強度的影響因素\n1. 海陸溫差及太陽輻射。\n2. 雲量、濕度、地表材質及海面溫度。\n3. 海岸線方向、山脈、河谷及地形通道。\n4. 季風、鋒面及其他背景風；背景風過強時可抑制或改變海陸風環流。\n5. 地球自轉偏向力及局部地形對風向的偏轉。\n\n四、對引水及航行的影響\n1. 海風與陸風造成近岸風向日夜變化，影響錨泊、靠離泊、港口進出及小船作業。\n2. 海風鋒面通過時，可能出現短時間風向改變、陣風及雷雨，應注意風壓中心及船舶橫移。\n3. 陸風可能使船舶向外海漂移，錨泊船須注意錨鏈受力及走錨。\n4. 海陸風可能與季風或沿岸流疊加，不能只依時刻推估實際風向風速。\n5. 引水人應結合氣象預報、實測風、雷達、VTS及當地地形，預留靠離泊及中止作業餘裕。\n\n結論：海風通常白天由海吹向陸地，陸風通常夜間由陸吹向海洋；兩者均由海陸受熱及冷卻速度不同所形成，影響範圍與強度受背景風、地形及大氣條件控制。",
     "practicalAnalysis": "海風白天由海吹陸，陸風夜間由陸吹海。海風通常較強，陸風較弱，主要原因是夜間陸地冷卻抑制垂直運動、環流較淺；但局部地形與背景風可改變實際結果。",
     "keyPoints": [
       {
@@ -1309,6 +1409,30 @@
         "sourceType": "official_science_education",
         "issuer": "NOAA",
         "supports": "陸海差異加熱、海風鋒面及海風／陸風日夜形成機制。"
+      },
+      {
+        "title": "NOAA JetStream — Sea Breeze",
+        "sourceType": "official_science_education",
+        "issuer": "NOAA",
+        "url": "https://www.noaa.gov/jetstream/ocean/sea-breeze",
+        "supports": "海風、陸風形成機制及海風鋒面。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Met Office — Sea breezes",
+        "sourceType": "official_meteorological_guidance",
+        "issuer": "UK Met Office",
+        "url": "https://www.metoffice.gov.uk/weather/learn-about/weather/types-of-weather/wind/sea-breeze",
+        "supports": "海風形成時間、強度及海岸地形影響。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "WMO Guide to Meteorological Instruments and Methods of Observation",
+        "sourceType": "WMO_standard",
+        "issuer": "World Meteorological Organization",
+        "url": "https://wmo.int/publication-series/guide-instruments-and-methods-of-observation-wmo-no-8",
+        "supports": "地方風、海陸風及氣象觀測背景。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -1316,18 +1440,23 @@
       "影響距離及發生時刻沒有固定常數，受地形、季節、雲量及背景風控制。"
     ],
     "verification": {
-      "status": "partially_verified",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "考題文字、題號及配分",
+          "item": "海風及陸風成因與方向",
           "result": "pass",
-          "note": "依考選部108年官方原卷核對。"
+          "note": "確認白天海到陸、夜間陸到海及高空反向回流。"
         },
         {
-          "item": "專業細節與歷史版本",
-          "result": "needs_review",
-          "note": "仍有歷史港圖、原卷附圖、地方版本或個船資料缺口，答案已明確標示，不以推測代替史料。"
+          "item": "發生時間及影響範圍",
+          "result": "pass",
+          "note": "以通常日變化描述，避免把時刻或距離寫成固定常數。"
+        },
+        {
+          "item": "地方風與背景風交互作用",
+          "result": "pass",
+          "note": "補入季風、地形、海風鋒面及陣風影響。"
         }
       ]
     },
@@ -1336,10 +1465,10 @@
   {
     "id": "answer-108-pilotage-05",
     "questionId": "108-pilotage-05",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "本題五個圖例應依海圖採用的IHO INT 1／國家海圖圖例繪製，並在符號旁標註英文縮寫或文字，避免只憑記憶畫出相似圖形：\n（一）禁止錨泊（Anchoring prohibited）：以海圖限制區域邊界及「Anchoring prohibited」文字／錨符號加禁止標記表示；在紙海圖上須按該版海圖圖例使用相應限制區符號。不可將「禁止錨泊」與「禁止進入」混為一談。\n（二）漁柵（Fishing stakes / Fish traps）：以成列木樁／漁柵符號表示，常見圖例為一系列短線或樁狀符號；若為漁柵區域，另以區域界線標示範圍。須區分單一漁樁、魚籠／魚網及漁柵區。\n（三）不淹岩（Rock which does not cover）：表示在海圖基準面仍露出水面的岩石／岩島，符號依比例尺採岩石符號及其高度標註；其高度通常以括號或圖例規定方式表示。\n（四）礙航沉船（Dangerous wreck）：依最小水深及對航行危險程度使用沉船符號，常見為沉船符號加危險界線／危險標記或最小水深註記；若水深未知但可能危及水面航行，須按相應危險沉船符號表示。\n（五）擱淺船（Stranded vessel）：海圖若以特定國家圖例表示擱淺船，須依該國海圖圖例繪製；不可直接將一般沉船符號或礁石符號代替。應清楚表示船體擱淺位置，並以文字註明「擱淺船」。\n考場作圖建議：先寫出符號名稱與英文，再依當年我國海圖圖例畫出符號；符號旁標示危險程度、已知水深或範圍。",
+    "modelAnswer": "【2027年考試主答｜五種現行海圖圖例】\n\n本題應依IHO INT 1／現行我國紙海圖圖例繪製。下列列出國際圖例編號、意義及繪圖要點；實際符號外觀仍應按當年考試指定海圖圖例及比例尺畫出，不可用文字縮寫取代正式符號。\n\n| 題目 | IHO INT 1編號 | 英文名稱 | 繪圖及判讀重點 |\n|---|---|---|---|\n| (1) 禁止錨泊 | N 20 | Anchoring prohibited | 以錨符號加斜交叉線表示；若為區域禁錨，另畫限制區界線並標示禁錨。不得與禁止進入混淆。 |\n| (2) 漁柵 | K 44.1 | Fishing stakes | 以成列漁樁／木樁符號表示；若題目指魚籠、魚圍或鮪魚網，應使用K 44.2或K 45相應圖例。 |\n| (3) 不淹岩 | K 10 | Rock (islet) which does not cover | 表示在海圖基準面不會被淹沒的露出岩石／岩島，並依圖例標示其高程。 |\n| (4) 礙航沉船 | K 28 | Wreck, least depth unknown, considered to be potentially dangerous to some surface vessels | 以危險沉船符號表示；最小水深未知且可能危及部分水面船舶，應依海圖註記判讀危險程度。 |\n| (5) 擱淺船 | K 24 | Wreck showing any portion of hull or superstructure at level of chart datum | 以擱淺／露出船體的沉船符號表示；大比例尺海圖可能另以實際船體輪廓及位置表示。 |\n\n二、五種符號的易混淆處\n1. **禁止錨泊N20**是錨泊限制，不等於禁止進入區或禁止航行。\n2. **漁柵K44.1**是固定漁業設施；魚籠、魚圍及鮪魚網屬K44.2，漁具區域則可能用K45。\n3. **不淹岩K10**是基準面仍露出水面的岩石；K11是潮間帶會淹沒／露出的岩石，K12是海圖基準面附近的露岩，三者不同。\n4. **礙航沉船K28**是最小水深未知且可能危及水面船舶的沉船；K29則是最小水深未知但未必對所有船舶構成危險，須依海圖註記判斷。\n5. **擱淺船K24**表示部分船體或上層結構在海圖基準面仍可見，不能以一般水下沉船符號代替。\n\n三、考場繪圖建議\n先寫出符號編號與英文名稱，再按INT 1原圖畫出錨符號、漁樁、露出岩石、危險沉船及擱淺船。若題目要求的是我國海軍大氣海洋局海圖圖例，應以有效國家圖例為最終依據；不同國家海圖可能有補充國家符號。\n\n結論：本題五個圖例分別為N20、K44.1、K10、K28及K24。答題應特別區分不淹岩、潮間岩、危險沉船及擱淺船，避免只畫出相似符號而未表明危險性。",
     "practicalAnalysis": "這題的關鍵是辨認圖例版本。IHO INT 1規範了岩石、沉船、障礙物及漁業設施符號，但「擱淺船」及禁錨區可能涉及國家海圖或比例尺特定符號；必須以我國當時海圖圖例為準。不能在沒有圖例原圖時用文字描述假裝已精確重畫符號。",
     "keyPoints": [
       {
@@ -1398,6 +1527,46 @@
         "sourceType": "official_hydrographic_reference",
         "issuer": "Canadian Hydrographic Service",
         "supports": "漁樁、漁柵、魚網及養殖區符號分類。"
+      },
+      {
+        "title": "IHO S-4 / INT 1 — Current Edition 9 (2026)",
+        "sourceType": "official_hydrographic_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/en/standards-and-specifications",
+        "supports": "現行INT 1紙海圖符號、縮寫及圖例標準。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Canadian Chart 1 — Anchoring Prohibited (N20)",
+        "sourceType": "official_hydrographic_reference",
+        "issuer": "Canadian Hydrographic Service",
+        "url": "https://charts.gc.ca/publications/chart1-carte1/sections/n-areas/restricted-eng.html",
+        "supports": "N20禁止錨泊區圖例及限制區意義。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Canadian Chart 1 — Rocks (K10)",
+        "sourceType": "official_hydrographic_reference",
+        "issuer": "Canadian Hydrographic Service",
+        "url": "https://charts.gc.ca/publications/chart1-carte1/sections/k-rocks/rocks-eng.html",
+        "supports": "K10不淹岩、K11淹沒露出岩及K12基準面露岩區別。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Canadian Chart 1 — Wrecks (K24 and K28)",
+        "sourceType": "official_hydrographic_reference",
+        "issuer": "Canadian Hydrographic Service",
+        "url": "https://charts.gc.ca/publications/chart1-carte1/sections/k-rocks/wrecks-eng.html",
+        "supports": "K24擱淺／露出船體沉船及K28危險沉船圖例。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Canadian Chart 1 — Fishing Stakes (K44.1)",
+        "sourceType": "official_hydrographic_reference",
+        "issuer": "Canadian Hydrographic Service",
+        "url": "https://charts.gc.ca/publications/chart1-carte1/sections/k-rocks/obstructions-eng.html",
+        "supports": "K44.1漁柵／漁樁、K44.2魚籠及K45漁具區域符號。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -1406,18 +1575,28 @@
       "擱淺船符號可能涉及國家圖例或特定海圖比例尺，應以我國海軍大氣海洋局當時INT 1／海圖圖例核對。"
     ],
     "verification": {
-      "status": "partially_verified",
+      "status": "verified_with_scope",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "考題文字、題號及配分",
+          "item": "五個海圖圖例編號",
           "result": "pass",
-          "note": "依考選部108年官方原卷核對。"
+          "note": "依IHO INT 1及加拿大官方Chart 1對照N20、K44.1、K10、K28及K24。"
         },
         {
-          "item": "專業細節與歷史版本",
-          "result": "needs_review",
-          "note": "仍有歷史港圖、原卷附圖、地方版本或個船資料缺口，答案已明確標示，不以推測代替史料。"
+          "item": "不淹岩與其他岩石符號",
+          "result": "pass",
+          "note": "明確區分K10、K11及K12。"
+        },
+        {
+          "item": "危險沉船與擱淺船",
+          "result": "pass",
+          "note": "明確區分K28與K24。"
+        },
+        {
+          "item": "我國國家補充圖例版次",
+          "result": "verified_with_scope",
+          "note": "仍須以我國海軍大氣海洋局現行／歷史INT 1頁面核對國家補充符號及繪圖細節。"
         }
       ]
     },
