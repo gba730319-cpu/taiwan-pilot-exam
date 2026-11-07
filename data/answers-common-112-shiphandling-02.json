@@ -85,7 +85,7 @@
       "題目未提供該郵輪AziPod原廠型式、控制邏輯及圖示；本答案說明通用向量與停船方式，不將某一廠牌操作程序視為所有AziPod通則。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -100,7 +100,7 @@
         },
         {
           "item": "適用特定船型之方位角與程序",
-          "result": "verified_with_scope",
+          "result": "partially_verified",
           "note": "原廠文件明確指出船舶控制系統及功率限制可能不同，須以本船受控手冊為準。"
         }
       ]
