@@ -1651,3 +1651,11 @@
 - 本輪尚未完成正式Build、瀏覽器端全頁視覺測試及最新Production部署驗證；Vercel build-rate-limit問題仍待處理。
 
 - **最新Vercel檢查（main commit e6ae336015759abe954dadeef56cf20a3ff50701）：**GitHub commit status仍為failure，Vercel明確回報「Deployment rate limited — retry in 24 hours」，連結指向build-rate-limit頁面。這是平台部署額度限制，不是本輪答案覆蓋率檢查失敗；正式Build與Production部署仍未通過。
+
+### 尚待內容專業複核的明確項目（2026-11-08）
+- 83年船舶操縱第4題：原卷引用圖A、圖B，但題庫缺少附圖；拖船接觸點、拖纜角度及力臂無法由文字確認。保留原理分析，不補畫虛構圖。
+- 84年引港學第7題：原卷潮汐表影像缺失，無法可靠計算指定日期高潮時間與潮高；保留正確推算程序，不捏造數值。
+- 89年引港學第6題：原卷缺少部分圖示／歷史圖書資料；缺資料部分明確標示待查。已將一筆不符合schema的 checks.result=partial 正規化為 needs_review。
+- 96年船舶操縱第5題：Convert interference並非已確認的標準海事術語，可能涉及命題或翻譯誤植；保留待查，不擅自替換成Conning或Control。
+- 98年高雄港第6題：2009年歷史碼頭方位及設計水深仍缺對應歷史圖資；現有近同期研究與現況資料已區分，整筆狀態標記skipped，仍有needs_review檢核項目，不能當成內容審定完成。
+- 上述項目是目前已辨識的高風險待查事項，不應為了提高完成率而刪除限制或自行填入推測數字；後續優先尋找原卷附件、歷史海圖、港務工程圖資及權威術語來源。
