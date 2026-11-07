@@ -120,26 +120,30 @@
   {
     "id": "084-pilotage-03-answer-v1",
     "questionId": "084-pilotage-03",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、霧的形成及四種主要類型】霧是近地面空氣中的水汽凝結成微小水滴或冰晶，使水平能見度降低。常見形成機制有：\\n1. 輻射霧（Radiation fog）：晴朗、微風夜間地面輻射冷卻，近地面空氣降至露點形成。\\n2. 平流霧（Advection fog）：暖濕空氣流經較冷地表或海面，因接觸冷卻而凝結，海霧常屬此類。\\n3. 上坡霧（Upslope fog）：濕空氣沿地形上升膨脹冷卻至露點形成。\\n4. 蒸發霧／蒸氣霧（Evaporation／Steam fog）：冷空氣移至較暖水面，水汽蒸發後在冷空氣中凝結。\\n\\n【二、常見霧型補充】海霧、陸霧、谷霧、冰霧、鋒面霧、降水霧、蒸氣霧及沿岸霧等，為按發生環境或形成過程所作的細分類；分類方式在不同氣象教材可能略有差異。\\n\\n【三、颱風來臨前雲系變化】遠距離時常先見高雲，如卷雲、卷層雲，雲量逐漸增加；接近時中層高層雲增厚，轉為高層雲、雨層雲及積雨雲，雲底降低、降雨增強，風力及氣壓變化加劇。典型先兆包括卷雲呈絲狀或馬尾狀、卷層雲形成日暈月暈、天空逐漸轉陰及氣壓持續下降，但實際雲序會受颱風路徑及環境氣流影響。",
-    "practicalAnalysis": "題目括號中的四種十霧可能指教材所採霧分類。答案先列四種主要物理形成機制，再補常見霧型，避免將不同分類系統混為一談。",
+    "modelAnswer": "## 一、霧的形成及四種主要機制\n\n霧是近地面空氣中的水汽凝結成微小水滴或冰晶，使水平能見度降低。依主要物理形成機制，可分為：\n\n1. **輻射霧（Radiation fog）：**晴朗、風弱的夜間，地面向外長波輻射冷卻，使近地面空氣降至露點。\n2. **平流霧（Advection fog）：**暖濕空氣流經較冷地表或海面，因接觸冷卻而凝結；海霧常屬此類。\n3. **上坡霧（Upslope fog）：**濕空氣沿地形上升，因絕熱膨脹冷卻至露點形成。\n4. **蒸發／混合霧（Evaporation or mixing fog）：**冷空氣移至較暖水面，水汽蒸發進入冷空氣後混合至飽和，形成蒸氣霧。\n\n## 二、常見十種霧型（按環境或形成現象分類）\n\n不同教材對「十霧」的分法略有差異，常見名稱可包括：\n1. 輻射霧（Radiation fog）\n2. 平流霧（Advection fog）\n3. 海霧（Sea fog）\n4. 沿岸霧（Coastal fog）\n5. 蒸氣霧／煙霧（Steam fog）\n6. 上坡霧（Upslope fog）\n7. 谷霧（Valley fog）\n8. 鋒面霧／降水霧（Frontal or precipitation fog）\n9. 冰霧（Ice fog）\n10. 凍結霧（Freezing fog）\n\n海霧、沿岸霧及谷霧是按發生環境命名；輻射霧、平流霧及上坡霧是按形成機制命名，彼此可能重疊，並非十種互不相關的物理過程。\n\n## 三、颱風來臨前的典型雲系變化\n\n在颱風外圍環流接近且觀測位置位於其前方時，常見雲系變化如下：\n1. 較遠處先出現高雲，如卷雲（Ci）及卷層雲（Cs），雲絲呈羽毛狀或馬尾狀，可能出現日暈、月暈。\n2. 隨系統接近，高層雲（As）及中層雲量增加，天空逐漸轉陰。\n3. 接近颱風環流時，雲底降低，雨層雲（Ns）及積雨雲（Cb）增多，降雨、陣風及能見度惡化。\n4. 氣壓可能持續下降，風向、風速及海況逐漸改變。\n\n**注意：**上述是典型觀察序列，不是每個颱風都必然出現的固定雲序；雲系受路徑、季節、環境氣流及觀測方位影響。",
+    "practicalAnalysis": "原答案只列四種主要霧型及部分環境霧型，未充分回應題幹的「四種十霧」。現已將四種物理形成機制與十種常見名稱分開，避免把分類維度混為一談；颱風前雲系補充卷雲、卷層雲、高層雲、雨層雲及積雨雲的典型變化，並標示非固定序列。",
     "keyPoints": [
       {
-        "point": "四種主要機制：輻射、平流、上坡及蒸發霧。",
+        "point": "四種主要機制：輻射冷卻、平流冷卻、上坡絕熱冷卻、蒸發／混合。",
         "importance": "essential"
       },
       {
-        "point": "海霧多屬平流霧。",
+        "point": "常見十霧包括輻射、平流、海、沿岸、蒸氣、上坡、谷、鋒面／降水、冰及凍結霧。",
         "importance": "essential"
       },
       {
-        "point": "颱風接近時常見高雲增多、雲層加厚、降雨及風力增強。",
+        "point": "霧型分類可依形成機制或發生環境，名稱間可能重疊。",
+        "importance": "supporting"
+      },
+      {
+        "point": "颱風接近時典型雲系可能由卷雲／卷層雲，逐漸增厚為高層雲，再出現雨層雲及積雨雲。",
         "importance": "essential"
       },
       {
-        "point": "氣壓下降及雲系變化可作參考，但非單一確定預報。",
+        "point": "典型雲序非每個颱風固定必經，須配合路徑、氣壓、風及官方預報。",
         "importance": "supporting"
       }
     ],
@@ -148,62 +152,77 @@
         "title": "84年甲種引水人引港學官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國84年（1995）",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=2001&t=Q",
-        "supports": "引港學七題原卷。"
+        "editionOrEffectiveDate": "民國84年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=084120&q=1&s=c181&t=Q",
+        "supports": "原題四種十霧及颱風前雲系題意。"
+      },
+      {
+        "title": "International Cloud Atlas – Fog and mist",
+        "sourceType": "international_meteorological_reference",
+        "issuer": "World Meteorological Organization",
+        "url": "https://cloudatlas.wmo.int/en/fog.html",
+        "supports": "霧的定義及主要形成機制。"
+      },
+      {
+        "title": "中央氣象署颱風科普與預報說明",
+        "sourceType": "official_meteorological_guidance",
+        "issuer": "交通部中央氣象署",
+        "url": "https://www.cwa.gov.tw/V8/C/P/Typhoon/Typhoon.html",
+        "supports": "颱風環流、雲系及氣象觀測需配合官方預報判讀。"
       }
     ],
     "assumptions": [
-      "計算題列明幾何假設；缺少原卷圖表者不補造數值。"
+      "「四種十霧」依航海氣象常見教學分類，將四種形成機制與十種常見霧型分開說明。"
     ],
     "limitations": [
-      "「四種十霧」的原教材分類表未取得，四種主要形成機制與十種細分類須依指定教材再核。"
+      "不同航海氣象教材對十種霧型的分類名稱可能略有不同；考試若指定教材圖表，應以該版分類表為準。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部84年引港學原卷",
+          "item": "霧的定義及主要形成機制",
           "result": "pass",
-          "note": "七題題文核對。"
+          "note": "依WMO國際雲圖集核對霧與主要冷卻／混合機制。"
         },
         {
-          "item": "指定海圖圖例及潮汐表",
-          "result": "partial",
-          "note": "歷史圖例及基準面仍待原始資料核對。"
+          "item": "四種十霧教材分類",
+          "result": "needs_review",
+          "note": "題目未指定「十霧」教材版次，故列常見十類並說明分類重疊。"
+        },
+        {
+          "item": "颱風前雲序",
+          "result": "needs_review",
+          "note": "雲序為典型觀察經驗，並非所有路徑必然出現。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "084-pilotage-04-answer-v1",
     "questionId": "084-pilotage-04",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、颱風形成必要條件】\\n1. 海面溫度足夠高，通常需約26.5°C以上且具有一定深度的暖水層，以供應潛熱。\\n2. 大氣中水汽充足且低層有輻合，能持續發展深厚對流雲系。\\n3. 垂直風切不可過強，否則會破壞暖心結構及對流組織。\\n4. 初始低壓擾動或熱帶波動，提供氣旋性環流起點。\\n5. 必須離赤道有一定距離，使科氏力足以維持旋轉；赤道附近通常不利熱帶氣旋生成。\\n6. 高空有利輻散，使上升氣流及低層氣壓下降得以維持。\\n\\n【二、我國颱風分類】臺灣氣象機關依近中心最大持續風速分類，歷史上常用熱帶性低氣壓、輕度颱風、中度颱風及強烈颱風等級。1995年分類門檻應以當年氣象局公告為準；現行門檻不可直接回填歷史考題。\\n\\n【三、應用】引水及港口作業應依官方颱風警報、路徑、暴風半徑、陣風、浪高及港口管制措施評估，不只看颱風中心距離。",
-    "practicalAnalysis": "本題形成條件可按海溫、水汽、低層擾動、弱風切、科氏力及高空輻散整理。歷史分類門檻需核對1995年官方標準。",
+    "modelAnswer": "## 一、颱風形成的必要環境條件\n\n1. **暖海面：**海面溫度通常需約26.5°C以上，且暖水層具有一定深度，提供水汽及潛熱。\n2. **水汽充足及低層輻合：**有利深厚對流雲系持續發展。\n3. **低層初始擾動：**如熱帶波動或季風槽，提供氣旋性環流起點。\n4. **垂直風切較弱：**過強垂直風切會破壞對流與暖心結構。\n5. **距赤道有一定距離：**需要足夠科氏力維持旋轉，赤道附近不利生成。\n6. **高空輻散有利：**使上升氣流能持續排出高層空氣，維持低壓發展。\n\n## 二、我國現行颱風強度分類\n\n依《氣象預報警報統一發布辦法》第9條，依颱風中心附近最大風速分為三類：\n\n| 分類 | 中心附近最大風速 | 約當蒲福風級 |\n|---|---:|---:|\n| 輕度颱風 | 17.2–32.6 m/s | 8–11級 |\n| 中度颱風 | 32.7–50.9 m/s | 12–15級 |\n| 強烈颱風 | 51.0 m/s以上 | 16級以上 |\n\n熱帶性低氣壓的中心附近最大風速未達17.2m/s，尚未列入上述三種颱風強度級別。\n\n## 三、引水及港口作業的應用\n\n颱風強度分類只反映近中心最大風速，不代表港口當地實際風力。引水作業還須觀察暴風半徑、路徑、陣風、浪高、潮位、風暴潮及港口公告；即使颱風未達強烈級，若港口風浪已超過引水艇或拖船安全限制，仍應暫停作業。",
+    "practicalAnalysis": "原答案只說歷史分類門檻待查，未回答2027應使用的現行標準。已依《氣象預報警報統一發布辦法》第9條列出輕度、中度、強烈三類及風速門檻，並補充熱帶性低氣壓與颱風分類的界線。",
     "keyPoints": [
       {
-        "point": "暖海面及深厚暖水層提供能量。",
+        "point": "形成條件包括暖海面、水汽及低層輻合、初始擾動、弱垂直風切、足夠科氏力及高空輻散。",
         "importance": "essential"
       },
       {
-        "point": "低層輻合、水汽充足及初始擾動。",
+        "point": "輕度颱風17.2–32.6m/s；中度32.7–50.9m/s；強烈51.0m/s以上。",
         "importance": "essential"
       },
       {
-        "point": "垂直風切不可過強。",
+        "point": "中心風速未達17.2m/s者為熱帶性低氣壓，不屬三種颱風強度級別。",
         "importance": "essential"
       },
       {
-        "point": "需遠離赤道使科氏力足夠。",
-        "importance": "supporting"
-      },
-      {
-        "point": "分類門檻依1995年氣象局公告核對。",
+        "point": "颱風強度分類不等於港口作業安全標準，須另評估暴風半徑、陣風、浪高、潮位及港口公告。",
         "importance": "supporting"
       }
     ],
@@ -212,59 +231,81 @@
         "title": "84年甲種引水人引港學官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國84年（1995）",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=2001&t=Q",
-        "supports": "引港學七題原卷。"
+        "editionOrEffectiveDate": "民國84年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=084120&q=1&s=c181&t=Q",
+        "supports": "原題形成條件及我國颱風分類題意。"
+      },
+      {
+        "title": "氣象預報警報統一發布辦法第9條",
+        "sourceType": "law_or_regulation",
+        "issuer": "全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0100002",
+        "supports": "輕度、中度及強烈颱風之現行風速分類。"
+      },
+      {
+        "title": "何謂災害性天氣？",
+        "sourceType": "official_meteorological_guidance",
+        "issuer": "交通部中央氣象署",
+        "url": "https://pweb.cwa.gov.tw/PopularScience/pr/pr_11.html",
+        "supports": "颱風定義及現行強度分類。"
       }
     ],
     "assumptions": [
-      "計算題列明幾何假設；缺少原卷圖表者不補造數值。"
+      "依現行氣象預報警報統一發布辦法分類；不將熱帶低壓當作颱風強度三級之一。"
     ],
     "limitations": [
-      "未取得1995年中央氣象局颱風分級公告原文，未填風速分級數字。"
+      "風速採中心附近最大持續風速分類；實際港口作業限制依港口公告及現場風浪條件另定。"
     ],
     "verification": {
-      "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "status": "source_checked",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部84年引港學原卷",
+          "item": "現行颱風分類風速門檻",
           "result": "pass",
-          "note": "七題題文核對。"
+          "note": "依現行氣象預報警報統一發布辦法第9條及中央氣象署資料核對。"
         },
         {
-          "item": "指定海圖圖例及潮汐表",
-          "result": "partial",
-          "note": "歷史圖例及基準面仍待原始資料核對。"
+          "item": "颱風生成必要環境條件",
+          "result": "pass",
+          "note": "以常用熱帶氣旋生成條件整理。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "084-pilotage-05-answer-v1",
     "questionId": "084-pilotage-05",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、垂直高程與深度概念圖】\\n高程向上↑\\n架空電纜最低點 ───────────（垂直淨空／Vertical clearance）\\n山頂／島頂 ───────────────（山高、島高：相對指定陸地高程基準）\\n燈塔燈光中心 ────────────（燈高：相對平均海面或海圖註記基準）\\n平均高潮面 MHW ───────────\\n平均海面 MSL ────────────\\n平均低潮面 MLW ───────────\\n海圖水深基準面 Chart Datum ─────\\n海床／海底 ───────────────\\n\\n【二、海圖水深及潮面】\\n1. MSL（Mean Sea Level）：長期觀測所得平均海面。\\n2. MHW（Mean High Water）：平均高潮面。\\n3. MLW（Mean Low Water）：平均低潮面。\\n4. Chart Datum：海圖水深及潮高採用的垂直基準面，應依該版海圖說明確認其定義。\\n5. 深度（Depth）：自海圖水深基準面向下至海床的垂直距離。\\n\\n【三、岩礁種類】\\n- 暗礁／水下礁（Submerged rock）：通常位於水面以下，須依海圖水深及危險物符號辨識。\\n- 適淹岩／乾出岩（Drying rock）：低潮時露出、高潮時淹沒，海圖以乾出高度表示。\\n- 可淹岩（Awash rock）：潮位變化時可能被淹沒或露出，海圖標示其危險性及基準面。\\n- 不淹岩（Always dry rock）：在各潮位下均露出水面，通常以高程表示。\\n\\n【四、燈塔及陸地高程】山高、島高及燈塔高須標明所依基準；燈塔高度可指燈光中心相對平均海面高度，不能與塔身結構高度混淆。\\n\\n【五、垂直淨空】架空電纜垂直間隙是海面至電纜最低點的垂直距離，須注意潮位變化及海圖標示基準。船舶通過時應以最高固定點計算air draft，並保留安全裕度。",
-    "practicalAnalysis": "本題是高程、深度及潮面基準圖示題。重點是把水平／垂直基準分清楚，並分別標示水深、乾出高度、陸地高程與架空電纜淨空。",
+    "modelAnswer": "## 一、垂直基準及高程示意\n\n臺灣官方海圖圖例第9版規定：一般陸地高程以平均海面（MSL）為基準；燈高以平均大潮高潮面（MHWS）至燈光中心量測；乾出高度自海圖基準面（CD）起算。海圖深度則自CD向下量測。\n\n概念示意（非比例圖）：\n\n```\n陸地高程 ↑\n山高／島高 ─────── 以Height Datum標示；一般高程依圖幅註記以MSL為基準\n燈光中心 ───────── 燈高：由MHWS至燈光中心\n高架電纜最低點 ─── 安全垂直淨空：由指定Height Datum起算\nHAT ────────────── 最高天文潮\nMHWS ───────────── 平均大潮高潮面\nMHW ────────────── 平均高潮面\nMSL ────────────── 平均海面\nMLW ────────────── 平均低潮面\nMLWS ───────────── 平均大潮低潮面\nLAT ────────────── 最低天文潮（若該圖幅採用）\nCD ─────────────── 海圖基準面／深度基準面\n海床深度 ↓ ─────── 自CD向下標示\n```\n\n## 二、各項高程與深度\n\n1. **山高、島高：**地形高程以指定Height Datum為基準；臺灣海圖圖例一般以MSL表示，若採原始資料基準，須看海圖標題註記。\n2. **燈塔高（Light elevation）：**由MHWS量至燈光發光中心，不等於燈塔塔頂或建築物總高度。\n3. **架空電纜垂直淨空（Vertical clearance）：**依海圖指定Height Datum至電纜最低點量測；圖例以洋紅色表示主管機關訂定的安全淨空，以黑色表示實際物理淨空。船舶通過時須配合潮位及air draft評估。\n4. **海圖深度（Sounding）：**自CD向下至海床的垂直距離。\n5. **乾出高度（Drying height）：**物體高於CD、低於最高高潮面的高度，海圖以底線數字表示。\n\n## 三、礁岩種類\n\n| 名稱 | 英文／圖式意義 | 高程或深度基準 |\n|---|---|---|\n| 暗礁 | Submerged rock | 位於水面下，標示其頂部水深或危險水深。 |\n| 可淹岩 | Rock which covers and uncovers | 高度自CD起算，潮位變化時會淹沒或露出。 |\n| 適淹岩 | Rock awash at the level of CD | 岩頂與CD同高。 |\n| 不淹岩 | Rock (islet) which does not cover | 不會被高潮淹沒，高度自Height Datum起算。 |\n\n**結論：**本題最重要的是分清MSL、MHWS、CD及Height Datum：山島高程、燈高、電纜淨空、乾出高度與水深並非全部使用同一基準。",
+    "practicalAnalysis": "原答案將燈塔高度概稱為相對平均海面，且未依臺灣官方海圖圖例區分一般陸地高程、燈高、乾出高度、海圖深度及架空電纜淨空。現已依第9版圖例：一般高程以MSL、燈高由MHWS至發光中心、乾出高度自CD起算、深度自CD向下，並補上可淹岩、適淹岩及不淹岩定義。",
     "keyPoints": [
       {
-        "point": "標示MHW、MSL、MLW及Chart Datum。",
+        "point": "臺灣海圖一般陸地高程以MSL為基準，若圖幅採原始資料基準須看標題註記。",
         "importance": "essential"
       },
       {
-        "point": "區分海圖水深、乾出高度及陸地高程。",
+        "point": "燈高由MHWS至燈光發光中心，不是塔頂高度。",
         "importance": "essential"
       },
       {
-        "point": "暗礁、適淹岩、可淹岩及不淹岩分別說明。",
+        "point": "架空電纜安全垂直淨空依指定Height Datum至電纜最低點，須配合潮位及air draft。",
         "importance": "essential"
       },
       {
-        "point": "架空電纜淨空以海面至電纜最低點量測，須考慮潮位。",
-        "importance": "supporting"
+        "point": "海圖深度自CD向下量測；乾出高度自CD向上量測。",
+        "importance": "essential"
+      },
+      {
+        "point": "可淹岩高度自CD起算；適淹岩岩頂與CD同高；不淹岩高度自Height Datum起算。",
+        "importance": "essential"
+      },
+      {
+        "point": "暗礁位於水面下，海圖以頂部水深或危險水深標示。",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -272,34 +313,42 @@
         "title": "84年甲種引水人引港學官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國84年（1995）",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=2001&t=Q",
-        "supports": "引港學七題原卷。"
+        "editionOrEffectiveDate": "民國84年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=084120&q=1&s=c181&t=Q",
+        "supports": "原題高程、深度、岩礁及潮面圖示要求。"
+      },
+      {
+        "title": "中華民國海軍水道圖刊物第一種：海圖圖例第9版",
+        "sourceType": "official_chart_reference",
+        "issuer": "海軍大氣海洋局",
+        "editionOrEffectiveDate": "第9版，依2021年IHO海圖規格",
+        "url": "https://navy.mnd.gov.tw/Files/Policy/%E6%B5%B7%E8%BB%8D_%E6%B5%B7%E5%9C%96%E5%9C%96%E4%BE%8B.pdf",
+        "supports": "潮面名詞、一般高程MSL、燈高MHWS、乾出高度CD、掃測及岩礁圖式、電纜淨空基準。"
       }
     ],
     "assumptions": [
-      "計算題列明幾何假設；缺少原卷圖表者不補造數值。"
+      "依臺灣官方海圖圖例第9版作為2027備考基準；個別海圖若採其他Height Datum，依圖幅註記。"
     ],
     "limitations": [
-      "海圖水深基準面及各潮面採用的精確定義須依1995年指定海圖圖例及潮汐基準說明核對。"
+      "示意圖為概念圖，不按比例；不同圖幅可能採用原始測量基準或不同潮面基準，須查海圖標題與註記。"
     ],
     "verification": {
-      "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "status": "source_checked",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部84年引港學原卷",
+          "item": "臺灣官方海圖高程及深度基準",
           "result": "pass",
-          "note": "七題題文核對。"
+          "note": "核對一般高程MSL、燈高MHWS、乾出高度CD及海圖深度CD。"
         },
         {
-          "item": "指定海圖圖例及潮汐表",
-          "result": "partial",
-          "note": "歷史圖例及基準面仍待原始資料核對。"
+          "item": "岩礁及電纜淨空圖式定義",
+          "result": "pass",
+          "note": "核對可淹岩、適淹岩、不淹岩及安全垂直淨空定義。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "084-pilotage-06-answer-v1",
