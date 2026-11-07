@@ -1,0 +1,550 @@
+[
+  {
+    "id": "087-shiphandling-01-answer-v1",
+    "questionId": "087-shiphandling-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【可能原因】\n1. 岸壁效應（Bank Effect）：船舶靠近岸壁時，船艏可能受岸壁排斥、船艉受吸引，產生突然偏轉；水域越狹窄、船速越高，效應越明顯。\n2. 淺水效應及squat：水深不足使船底流速增加、壓力下降、船體下沉及縱傾改變，造成舵效及船體水動力變化。\n3. 單螺槳橫向推力（Propeller Walk）：主機加減速、倒俥或螺槳流場改變時，船艉產生橫向偏移，帶動船艏突然擺頭。\n4. 螺槳尾流與舵效變化：螺槳轉速、舵角、倒俥或流動分離使舵面來流不均，舵力突然改變。\n5. 風流外力：橫風、橫流、潮流剪切或陣風造成船艏艉受力不均。\n6. 船舶交互作用：與他船近距離交會、追越或靠近碼頭時，船間吸引、排斥及波浪作用造成偏轉。\n7. 操舵或設備故障：舵機、舵角指示、主機或自動舵異常亦可能造成突然擺頭。\n\n【應急措施】\n1. 立即通知船長及艏艉瞭望，確認舵角、船位、船艏向及偏轉方向。\n2. 視情況操反舵（counter-rudder）抑制轉首率，避免持續大舵角造成過度反轉。\n3. 降低主機轉速，必要時短暫停車或倒俥，減少前進動量及岸壁效應；但須保持足夠舵效。\n4. 監控船艏艉與岸壁、他船及航道邊界距離，必要時使用拖船協助或在安全水域拋錨。\n5. 立即向VTS通報船舶失控或偏離航道，請求交通管制及協助。\n6. 查明原因後才恢復正常操船，若舵機或主機故障應依應急程序處理。",
+    "practicalAnalysis": "本題15分，原因要涵蓋岸壁效應、淺水效應、單螺槳橫向推力、風流、船間效應及設備故障；應急處置以控制轉首率、降低動量、保持安全距離及通知VTS為主。",
+    "keyPoints": [
+      {
+        "point": "岸壁效應、淺水效應及squat。",
+        "importance": "essential"
+      },
+      {
+        "point": "單螺槳propeller walk、尾流及舵效改變。",
+        "importance": "essential"
+      },
+      {
+        "point": "風流、船間吸引排斥及舵機／主機故障。",
+        "importance": "essential"
+      },
+      {
+        "point": "操反舵、適度減速或停車／倒俥控制擺頭。",
+        "importance": "supporting"
+      },
+      {
+        "point": "必要時拖船、緊急拋錨並通知VTS。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人船舶操縱官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國87年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2003&t=Q",
+        "supports": "船舶操縱八題原卷。"
+      },
+      {
+        "title": "The Shiphandler's Guide",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "受限水域、單螺槳船、拖船及錨的操船原理。"
+      }
+    ],
+    "assumptions": [
+      "依FPP單螺槳船及港內操船原理作答，未提供的螺槳旋向、船型及水域數據不自行假設。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部87年船舶操縱題目",
+          "result": "pass",
+          "note": "已核對原卷題文。"
+        },
+        {
+          "item": "操船理論",
+          "result": "pass",
+          "note": "依船舶操縱學及拖船操作原理整理。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "087-shiphandling-02-answer-v1",
+    "questionId": "087-shiphandling-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【重載船】\n1. 吃水深、排水量大、慣性大，停止距離長，減速及轉向反應較遲緩。\n2. 受風面積相對較小，風壓造成的漂移通常較輕載船小，但仍受風向及船型影響。\n3. 船底與海床間隙較小，淺水效應、squat及岸壁效應較顯著，需較大UKC及安全水域。\n4. 螺槳及舵浸水較深，通常能維持較穩定的推進器與舵面來流，但滿載時慣性使操船反應較慢。\n5. 轉動慣量大，迴轉圈及停船所需水域較大，應提早下舵、減速及安排拖船。\n\n【輕載船】\n1. 吃水淺、排水量小，慣性較小，通常較易加減速及改變航向。\n2. 乾舷高、受風面積大，容易受風壓影響產生橫移及艏艉偏轉。\n3. 螺槳及舵浸水可能不足，容易吸氣、通氣及降低推進／舵效，尤其空載船縱傾不當時更明顯。\n4. 船舶較易隨風流漂移，靠離泊時需更注意風壓、拖船及繫纜控制。\n5. 吃水淺使squat通常較小，但在狹窄水域仍須考慮水深與船寬比及岸壁效應。\n\n【操船結論】\n重載船重點是慣性大、停船及轉向距離長、UKC及淺水效應；輕載船重點是風壓大、漂移明顯、螺槳與舵浸水不足。兩者均須依實際吃水、縱傾、船速及風流制定操船計畫。",
+    "practicalAnalysis": "本題15分，重載與輕載需對照寫，不可只寫重載船較慢、輕載船較快。重載船重慣性及吃水效應；輕載船高乾舷、風壓大及舵槳浸水不足。",
+    "keyPoints": [
+      {
+        "point": "重載船排水量與慣性大，停船距離及迴轉水域較大。",
+        "importance": "essential"
+      },
+      {
+        "point": "重載船吃水深，UKC、squat及淺水效應較重要。",
+        "importance": "essential"
+      },
+      {
+        "point": "輕載船乾舷高、風壓大，易漂移及偏轉。",
+        "importance": "essential"
+      },
+      {
+        "point": "輕載船舵槳浸水不足可能降低舵效及推力。",
+        "importance": "supporting"
+      },
+      {
+        "point": "兩種載況均須考慮縱傾、風流及拖船配置。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人船舶操縱官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國87年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2003&t=Q",
+        "supports": "船舶操縱八題原卷。"
+      },
+      {
+        "title": "The Shiphandler's Guide",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "受限水域、單螺槳船、拖船及錨的操船原理。"
+      }
+    ],
+    "assumptions": [
+      "依FPP單螺槳船及港內操船原理作答，未提供的螺槳旋向、船型及水域數據不自行假設。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部87年船舶操縱題目",
+          "result": "pass",
+          "note": "已核對原卷題文。"
+        },
+        {
+          "item": "操船理論",
+          "result": "pass",
+          "note": "依船舶操縱學及拖船操作原理整理。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "087-shiphandling-03-answer-v1",
+    "questionId": "087-shiphandling-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、向岸風靠泊】\n向岸風由海吹向岸，會將船舶推向碼頭。FPP單螺槳船應在較外側、迎風方向建立接近航線，保持低但有舵效的速度，避免直接受風推向碼頭。\n1. 依風向及泊位方向選擇小角度接近，預先將錨備妥並確認錨鏈方向。\n2. 在適當距離下錨，利用錨鏈作為制動及控制船艏的工具，控制船舶向岸漂移速度。\n3. 配合主機前進／倒俥及舵角，利用螺槳尾流維持舵效並控制船艏艉；注意FPP倒俥時的propeller walk。\n4. 船舶接近碼頭時，逐步收緊錨鏈控制船速，避免風壓造成過大橫向接觸速度；以spring line及其他繫纜完成靠泊。\n\n【二、向岸風離泊】\n1. 向岸風會把船舶壓向碼頭，先確認可用水域、風力及主機舵機狀況；錨應在離岸側適當位置備妥。\n2. 保留控制纜及適當錨鏈，先用錨鏈絞收或調整錨鏈張力，使船艏逐漸離開碼頭並建立離岸間隙。\n3. 配合主機短促車令及舵角，利用螺槳橫向推力及舵效使船艉離岸；車舵方向須依右旋／左旋螺槳及泊位側修正。\n4. 當船體已離開碼頭並有足夠操縱水域後，起錨，使用主機及舵完成轉向離港。\n5. 若錨鏈受力過大、風力超過船舶能力或船舶無法控制，應停止離泊並請求拖船或等待風勢減弱。\n\n【結論】\n向岸風下以錨鏈制動及控制船艏，主機與舵維持舵效並利用FPP橫向推力協助艏艉移動；靠泊時控制橫向接觸速度，離泊時先用錨鏈拉開船艏，再使船艉離岸及起錨。",
+    "practicalAnalysis": "本題15分，需分靠泊與離泊。向岸風把船推向碼頭，錨鏈可作制動及控制船艏的工具；單螺槳船須考慮倒俥propeller walk。實際車舵方向取決於螺槳旋向及船舶靠泊側。",
+    "keyPoints": [
+      {
+        "point": "向岸風會把船推向碼頭，接近時須控制橫向速度。",
+        "importance": "essential"
+      },
+      {
+        "point": "錨鏈可作制動及控制船艏的工具。",
+        "importance": "essential"
+      },
+      {
+        "point": "配合主機、舵及FPP螺槳橫向推力控制艏艉。",
+        "importance": "essential"
+      },
+      {
+        "point": "離泊先用錨鏈拉開船艏，再使船艉離岸及起錨。",
+        "importance": "supporting"
+      },
+      {
+        "point": "車舵方向依螺槳旋向、靠泊側及船型修正。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人船舶操縱官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國87年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2003&t=Q",
+        "supports": "船舶操縱八題原卷。"
+      },
+      {
+        "title": "The Shiphandler's Guide",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "受限水域、單螺槳船、拖船及錨的操船原理。"
+      }
+    ],
+    "assumptions": [
+      "依FPP單螺槳船及港內操船原理作答，未提供的螺槳旋向、船型及水域數據不自行假設。"
+    ],
+    "limitations": [
+      "未提供螺槳旋向、泊位側及錨位，故不指定固定車舵口令或錨鏈長度。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部87年船舶操縱題目",
+          "result": "pass",
+          "note": "已核對原卷題文。"
+        },
+        {
+          "item": "操船理論",
+          "result": "pass",
+          "note": "依船舶操縱學及拖船操作原理整理。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "087-shiphandling-04-answer-v1",
+    "questionId": "087-shiphandling-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、原理】\n船舶前進時，旋轉支點（Pivot Point）通常位於船艏後方約船長1/4處。拖船若在旋轉支點附近施加與船舶縱向垂直的側向力，產生的偏航力矩較小，可使船舶較接近平行側移；若拖船位於船艏或船艉，則會產生較大偏航力矩，使船舶轉向。\n【二、操船步驟】\n1. 先確認船舶前進速度、船長、旋轉支點、拖船bollard pull、拖纜長度及可用水域。\n2. 拖船接近船舶側面，將拖纜繫於接近前進中旋轉支點的位置，並保持拖纜角度及安全距離。\n3. 拖船以近似垂直船體縱向的方向施力，逐漸增加拖力，使大船產生側向速度；避免突然大力拉拖造成偏航。\n4. 大船以主機及舵維持前進速度與航向，必要時以舵角抵銷拖船產生的偏航力矩。\n5. 以雷達、GNSS及岸標監控側移量、航向、船艏艉掃掠及船舶間距；接近目標位置時逐步減少拖力。\n6. 達到目標側向位置後，拖船逐漸卸力並解拖，確認船舶航向及速度穩定。\n\n【三、限制】\n單艘拖船只能在有限時間內提供側向力；船舶前進速度愈高，水動力及旋轉支點位置會改變。若拖船偏離旋轉支點，須用舵及主機補償偏航；拖力不足或水域狹窄時，應減速、增加拖船或改用其他操船方案。",
+    "practicalAnalysis": "本題15分，關鍵是前進中旋轉支點靠近船艏，拖船若在該點附近施加橫向力，較能達到純側移而不造成大偏航；拖船位於船艉則力臂大、容易轉向。",
+    "keyPoints": [
+      {
+        "point": "前進中旋轉支點約位於船艏後方1/4船長。",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船靠近旋轉支點並施加垂直船體縱向的力，可減少偏航。",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船位於船艏／船艉會產生偏航力矩。",
+        "importance": "essential"
+      },
+      {
+        "point": "大船以主機及舵補償偏航並監控側移。",
+        "importance": "supporting"
+      },
+      {
+        "point": "逐漸加減拖力，避免拖纜衝擊及過度側移。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人船舶操縱官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國87年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2003&t=Q",
+        "supports": "船舶操縱八題原卷。"
+      },
+      {
+        "title": "The Shiphandler's Guide",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "受限水域、單螺槳船、拖船及錨的操船原理。"
+      }
+    ],
+    "assumptions": [
+      "依FPP單螺槳船及港內操船原理作答，未提供的螺槳旋向、船型及水域數據不自行假設。"
+    ],
+    "limitations": [
+      "旋轉支點位置會隨速度、載況及水域改變，船長1/4僅為操船估算。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部87年船舶操縱題目",
+          "result": "pass",
+          "note": "已核對原卷題文。"
+        },
+        {
+          "item": "操船理論",
+          "result": "pass",
+          "note": "依船舶操縱學及拖船操作原理整理。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "087-shiphandling-05-answer-v1",
+    "questionId": "087-shiphandling-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、作用於舵葉的水流速度組成】\n舵葉的入流速度不是單純船速，而是多種流場向量的合成：\n1. 船舶對水前進速度（ship's speed through water）：船體相對水體運動所形成的軸向來流。\n2. 螺槳尾流（propeller race／slipstream）：螺槳加速的水流，會提高舵面局部流速，尤其前進車時明顯。\n3. 船體艉部伴流（wake）：船體邊界層及艉部流場造成舵前速度低於或不同於船速。\n4. 轉首及漂角分量：船舶有轉首率、側滑或橫向速度時，舵面來流會增加橫向分量。\n5. 外界流場：潮流、海流、淺水、岸壁及鄰船作用會改變舵面相對水流。\n\n【二、受限水域大角度轉向】\n1. 事先評估航道寬度、水深、船長、吃水、迴轉圈、風流、岸壁及鄰船，選擇足夠轉向水域。\n2. 在轉向前將速度降至可控低速，但保持足夠舵效；過高速會增加advance、transfer及岸壁效應。\n3. 提前下舵並監控ROT，避免船艏接近岸壁時才大角度急轉。\n4. 轉向過程注意船艏向外掃掠、船艉向內掃掠及淺水squat；必要時用主機短促車令維持舵面螺槳尾流。\n5. 接近目標航向時及早反舵（counter-rudder）降低轉首率，避免過度轉向。\n6. 若水域不足或風流過強，使用拖船協助，或等待合適潮時／交通空檔；不得勉強在狹窄水域急轉。",
+    "practicalAnalysis": "本題15分，第一部分要列出船速、螺槳尾流、船體伴流、轉首／漂角及外界流場；第二部分說明受限水域轉向要低速、提早下舵、監控ROT、注意艏艉掃掠及及早反舵。",
+    "keyPoints": [
+      {
+        "point": "舵葉入流包含船舶對水速度、螺槳尾流及船體伴流。",
+        "importance": "essential"
+      },
+      {
+        "point": "轉首率、漂角、潮流及岸壁效應改變舵面入流方向與速度。",
+        "importance": "essential"
+      },
+      {
+        "point": "受限水域轉向前評估水深、航道寬度、迴轉圈及風流。",
+        "importance": "essential"
+      },
+      {
+        "point": "低速但保持舵效，提早下舵並監控ROT。",
+        "importance": "supporting"
+      },
+      {
+        "point": "接近目標航向時及早反舵，注意艏艉掃掠及squat。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人船舶操縱官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國87年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2003&t=Q",
+        "supports": "船舶操縱八題原卷。"
+      },
+      {
+        "title": "The Shiphandler's Guide",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "受限水域、單螺槳船、拖船及錨的操船原理。"
+      }
+    ],
+    "assumptions": [
+      "依FPP單螺槳船及港內操船原理作答，未提供的螺槳旋向、船型及水域數據不自行假設。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部87年船舶操縱題目",
+          "result": "pass",
+          "note": "已核對原卷題文。"
+        },
+        {
+          "item": "操船理論",
+          "result": "pass",
+          "note": "依船舶操縱學及拖船操作原理整理。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "087-shiphandling-06-answer-v1",
+    "questionId": "087-shiphandling-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "Standard 10°/10° Zig-zag Test是船舶操縱性試驗之一：船舶先以穩定航向及速度航行，操舵10°，當船艏向改變10°時立即反舵10°，再於反向達到10°時再次反舵，反覆進行。\n此試驗可量測或評估：\n1. 第一超越角（First Overshoot Angle）。\n2. 第二超越角（Second Overshoot Angle）。\n3. 船舶轉首反應及舵效延遲（initial turning／yaw response）。\n4. 航向控制及偏航抑制能力（yaw-checking ability）。\n5. 船舶動態穩定性及方向穩定性（dynamic stability／course-keeping ability）。\n超越角愈大，表示船舶在反舵後仍持續轉首的程度愈大，舵效延遲及偏航抑制能力較差；試驗結果可用於比較船型及確認是否符合IMO操縱性標準。",
+    "practicalAnalysis": "本題10分，須說明試驗程序及其量測的第一、第二超越角，並指出可評估yaw-checking ability及動態方向穩定性。",
+    "keyPoints": [
+      {
+        "point": "先操舵10°，艏向改變10°後反舵10°。",
+        "importance": "essential"
+      },
+      {
+        "point": "量測第一及第二超越角。",
+        "importance": "essential"
+      },
+      {
+        "point": "評估轉首反應、舵效延遲及yaw-checking ability。",
+        "importance": "essential"
+      },
+      {
+        "point": "可比較船舶動態方向穩定性及操縱性能。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人船舶操縱官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國87年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2003&t=Q",
+        "supports": "船舶操縱八題原卷。"
+      },
+      {
+        "title": "The Shiphandler's Guide",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "受限水域、單螺槳船、拖船及錨的操船原理。"
+      }
+    ],
+    "assumptions": [
+      "依FPP單螺槳船及港內操船原理作答，未提供的螺槳旋向、船型及水域數據不自行假設。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部87年船舶操縱題目",
+          "result": "pass",
+          "note": "已核對原卷題文。"
+        },
+        {
+          "item": "操船理論",
+          "result": "pass",
+          "note": "依船舶操縱學及拖船操作原理整理。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "087-shiphandling-07-answer-v1",
+    "questionId": "087-shiphandling-07",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【拖錨（Dredging Anchor）的定義】\n船舶將錨放出並讓錨爪在海床上拖行或部分抓底，以錨鏈及錨爪阻力協助控制船舶速度、位置或轉向；與正常錨泊完全抓底、固定船位不同。\n【港內運轉時的使用時機】\n1. 船舶進入狹窄港池或迴船池時，需要減少前進速度而主機倒俥反應不足，可適度拖錨增加阻力。\n2. 需要限制船舶向前漂移、控制船艏或維持一定轉向支點時，可依水深及底質拖錨。\n3. 風流較強、船舶低速操縱困難時，可利用錨鏈張力協助保持船位或降低漂移。\n4. 船舶靠離泊或在有限水域調頭時，經計畫後可用拖錨控制艏向及船速。\n5. 緊急情況下，若主機或舵機失效且有安全海床可用，可將錨作為緊急制動或防止船舶失控的措施。\n\n【注意事項】\n- 必須確認水深、底質、錨爪抓力、錨鏈長度及海床是否有電纜、管線或其他設施。\n- 避免在航道、禁錨區、海底管線及其他船舶附近拖錨。\n- 拖錨會使錨鏈及錨機承受衝擊負荷，應控制出鏈速度及張力，避免錨鏈斷裂或錨機損壞。\n- 拖錨不是一般長時間航行的制動方式，應由船長／引水人依操船計畫使用，並通知VTS。",
+    "practicalAnalysis": "本題10分，拖錨是讓錨爪／錨鏈在海床產生阻力，協助減速、控制漂移及轉向。答題要列出狹窄港池、迴船池、強風流及緊急情況，並提醒水深、底質及海底管線限制。",
+    "keyPoints": [
+      {
+        "point": "拖錨可增加阻力，控制船速及船位。",
+        "importance": "essential"
+      },
+      {
+        "point": "狹窄港池、迴船池、低速操船及強風流時可考慮使用。",
+        "importance": "essential"
+      },
+      {
+        "point": "可協助減速、控制艏向及限制漂移。",
+        "importance": "essential"
+      },
+      {
+        "point": "避開禁錨區、海底電纜／管線及其他船舶。",
+        "importance": "supporting"
+      },
+      {
+        "point": "控制錨鏈張力，避免錨鏈、錨機過載。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人船舶操縱官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國87年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2003&t=Q",
+        "supports": "船舶操縱八題原卷。"
+      },
+      {
+        "title": "The Shiphandler's Guide",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "受限水域、單螺槳船、拖船及錨的操船原理。"
+      }
+    ],
+    "assumptions": [
+      "依FPP單螺槳船及港內操船原理作答，未提供的螺槳旋向、船型及水域數據不自行假設。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部87年船舶操縱題目",
+          "result": "pass",
+          "note": "已核對原卷題文。"
+        },
+        {
+          "item": "操船理論",
+          "result": "pass",
+          "note": "依船舶操縱學及拖船操作原理整理。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "087-shiphandling-08-answer-v1",
+    "questionId": "087-shiphandling-08",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "拖船使大船旋轉時，應將拖船配置在距離大船旋轉支點較遠的船艏或船艉端部，並以接近垂直船體縱向的方向施力，才能形成較大的偏航力矩。\n力矩公式：M=F×L，其中F為拖船施力，L為施力點至旋轉支點的垂直力臂。力臂愈長，在相同拖力下產生的轉向力矩愈大。\n船舶前進時，旋轉支點通常位於船艏後方約1/4船長，因此若要產生較大轉向力矩，拖船配置在船艉端通常具有較長力臂；若旋轉支點或轉向需求不同，則應選擇遠離當時旋轉支點的一端。\n拖船應避免拖纜與螺槳、舵、錨鏈及其他繫纜交纏，並以漸進拖力控制轉首率。",
+    "practicalAnalysis": "本題5分，直接回答「距旋轉支點最遠的船艏或船艉端」，並說明力矩M=F×L；前進中旋轉支點靠近船艏時，船艉拖帶通常可提供較大力臂。",
+    "keyPoints": [
+      {
+        "point": "拖船應在距旋轉支點較遠的船艏或船艉端。",
+        "importance": "essential"
+      },
+      {
+        "point": "力矩M=F×L，力臂越長轉向力矩越大。",
+        "importance": "essential"
+      },
+      {
+        "point": "前進時旋轉支點通常靠近船艏，船艉端通常具有較長力臂。",
+        "importance": "essential"
+      },
+      {
+        "point": "拖纜須避開螺槳、舵及錨鏈。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人船舶操縱官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國87年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2003&t=Q",
+        "supports": "船舶操縱八題原卷。"
+      },
+      {
+        "title": "The Shiphandler's Guide",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "受限水域、單螺槳船、拖船及錨的操船原理。"
+      }
+    ],
+    "assumptions": [
+      "依FPP單螺槳船及港內操船原理作答，未提供的螺槳旋向、船型及水域數據不自行假設。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部87年船舶操縱題目",
+          "result": "pass",
+          "note": "已核對原卷題文。"
+        },
+        {
+          "item": "操船理論",
+          "result": "pass",
+          "note": "依船舶操縱學及拖船操作原理整理。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
