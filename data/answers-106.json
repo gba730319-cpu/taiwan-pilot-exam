@@ -2119,8 +2119,8 @@
   },
   {
     "questionId": "106-english-02",
-    "modelAnswer": "(1) When a pilot is performing pilotage duties, the pilot boat on which he/she is embarked shall display the internationally recognized pilot signals or the pilot signals prescribed by the Republic of China, and shall also exhibit the appropriate lights at night. When the pilot leaves the pilot boat or is not engaged in pilotage duties, the pilot signals or lights shall be removed. (2) A pilot engaged in pilotage duties shall not leave the vessel before completion of the assignment without the master's consent.",
-    "practicalAnalysis": "翻譯以忠實呈現題目中文為主，不將106年題目所引規定直接宣稱為2027現行法規。第(2)句保留「非經船長同意」的例外條件；shall not ... without the master's consent不可誤譯成任何情況均不得離船。",
+    "modelAnswer": "(1) When a pilot is performing pilotage duties, the pilot boat on which the pilot is embarked shall display the pilot signals prescribed internationally or by the Republic of China and, at night, shall also display the prescribed lights. When the pilot leaves the pilot boat or is not engaged in pilotage duties, the pilot signals or lights shall be taken down.\n\n(2) A pilot engaged in pilotage duties shall not leave the vessel before the assignment is completed without the master's consent.",
+    "practicalAnalysis": "第1段對應《引水法》第25條，shall display及shall be taken down均為義務語氣；第2段對應《引水人管理規則》第39條，不是《引水法》第39條。譯文使用the pilot boat on which the pilot is embarked及the master's consent，避免將引水船與被引領船舶混淆。",
     "keyPoints": [
       {
         "point": "執行領航業務",
@@ -2168,6 +2168,22 @@
         "sourceType": "official_or_technical_reference",
         "supports": "引水人作業程序與船長、引水人之協調背景；不作為本題中文法條的替代文本。",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "引水法（現行條文）",
+        "sourceType": "law_or_regulation",
+        "issuer": "法務部全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+        "supports": "第25條引水船於執行業務時顯示引水船信號及夜間燈號，離船或非執勤時撤除。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "引水人管理規則（現行條文）",
+        "sourceType": "administrative_regulation",
+        "issuer": "法務部全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0070029",
+        "supports": "第39條引水人未完成任務前，非經船長同意不得離船。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
@@ -2178,24 +2194,14 @@
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "執行領航業務",
+          "item": "引水船信號及燈號義務",
           "result": "pass",
-          "note": "performing pilotage duties。"
+          "note": "依引水法第25條核對。"
         },
         {
-          "item": "引水船及信號燈號",
+          "item": "引水人完成任務前不得擅自離船",
           "result": "pass",
-          "note": "pilot boat carrying the pilot；display signals／exhibit lights。"
-        },
-        {
-          "item": "未完成任務前非經船長同意不得離船",
-          "result": "pass",
-          "note": "保留without the master's consent之條件。"
-        },
-        {
-          "item": "歷史題文與現行法規區隔",
-          "result": "pass",
-          "note": "標明此處為翻譯原題，不將歷史文字直接宣稱為現行法。"
+          "note": "依引水人管理規則第39條核對，並修正原答案可能混淆法規來源的問題。"
         }
       ]
     },
