@@ -154,3 +154,12 @@
 - 已特別標示VTS報到點、VHF頻道及放行細節依各港當年度公告，不能將高雄港規定外推全臺。
 - 官方來源：交通部112年版《商港港務管理規則》https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0008018&type=-1；交通部112年版《商港法》https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0002009&type=-1；IMO COLREG https://www.imo.org/en/about/conventions/pages/colreg.aspx
 - 本題答案已更新；未取得考選部官方評分細則，建議配分仍明確標示為編輯估計。
+
+
+### 114 年航政法規第 3 題：商港法立法目的與港埠政策複核（2026-11-07）
+- 依考試時有效的112年6月28日修正公布版本，補充第二條歷史條文的主管機關名稱：原文為「交通及建設部」；115年1月5日修正第二條，並自115年6月1日起改為「交通部」，不得將現行名稱倒套114年考題。
+- 再次確認112年增訂的第36條之1、第65條之1於115年2月1日才施行；不列為114年考試時已生效規範。
+- 補強航港建設基金制度：商港服務費全數用於國際商港建設；基金其他來源及用途另依《航港建設基金收支保管及運用辦法》，包括港口保全、政策研究、聯外交通、環保節能、污染防治及商港交通管理等。
+- 政策解讀明確區分「商港法明文目的」與「可由相關政策計畫補充的當代政策」；淨零、智慧港口、岸電等不得無來源地說成商港法第一條直接列舉事項。
+- 官方來源：商港法112年版本 https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0002009&type=-1；商港法歷史沿革 https://motclaw.motc.gov.tw/webMotcLaw2018/Law/History?LawID=I0002010&type=-1；航港建設基金辦法 https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0020046；航港局基金說明 https://www.motcmpb.gov.tw/Article?nodeId=340&siteId=1
+- 官方評分細則未取得，配分仍為研讀建議；本題法規時點、基金制度與政策界線已完成複核。
