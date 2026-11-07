@@ -1,6 +1,6 @@
 [
   {
-    "id": "102-shiphandling-06-answer-v2",
+    "id": "102-shiphandling-06",
     "questionId": "102-shiphandling-06",
     "version": 2,
     "language": "zh-TW",
@@ -10,23 +10,23 @@
     "keyPoints": [
       {
         "point": "錨泊保持船位",
-        "explanation": "依水深、底質、風流及出鏈長度控制錨泊。",
-        "result": "pass"
+        "explanation": "依水深、底質、風流及出鏈長度控制錨泊。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "拖錨及緊急制動",
-        "explanation": "區分受控拖錨與緊急投錨，補入錨鏈衝擊風險。",
-        "result": "pass"
+        "explanation": "區分受控拖錨與緊急投錨，補入錨鏈衝擊風險。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "協助迴轉及靠離泊",
-        "explanation": "錨可作輔助控制，但不能假定任何港況都能作固定支點。",
-        "result": "verified_with_scope"
+        "explanation": "錨可作輔助控制，但不能假定任何港況都能作固定支點。；查核：verified_with_scope",
+        "importance": "essential"
       },
       {
         "point": "錨鏈及人員安全",
-        "explanation": "補入過載、推進器干涉、管線及回彈區風險。",
-        "result": "pass"
+        "explanation": "補入過載、推進器干涉、管線及回彈區風險。；查核：pass",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -76,7 +76,7 @@
       "錨鏈長度與拋錨程序須依船舶SMS、錨設備設計、底質與當地港規決定；本答案不以單一倍數作為所有船舶通用標準。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -91,8 +91,8 @@
         },
         {
           "item": "協助迴轉及靠離泊",
-          "result": "verified_with_scope",
-          "note": "錨可作輔助控制，但不能假定任何港況都能作固定支點。"
+          "result": "pass",
+          "note": "限定適用範圍：錨可作輔助控制，但不能假定任何港況都能作固定支點。"
         },
         {
           "item": "錨鏈及人員安全",
@@ -101,8 +101,6 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "船舶操縱"
+    "lastUpdated": "2026-11-07"
   }
 ]
