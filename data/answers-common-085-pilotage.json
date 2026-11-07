@@ -1,0 +1,306 @@
+[
+  {
+    "id": "085-pilotage-01-answer-v1",
+    "questionId": "085-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "| 圖例 | 英文／符號意義 | 說明 |\n|---|---|---|\n| 防波堤 | Breakwater | 港口外側防浪構造，圖上依比例尺畫出岸線及堤頭。 |\n| 海關 | Customs | 海關機關／查驗設施位置。 |\n| 暗渠 | Submarine outfall / culvert | 海底或水下暗渠／排水通道；須依圖例區分涵洞、排水口。 |\n| 高架電線 | Overhead cable | 跨越水域的架空電纜，須注意安全淨空。 |\n| 漁港 | Fishing harbour | 漁船停泊、漁業作業港區。 |\n| 雷達標 | Radar reflector / radar beacon | 雷達反射器或雷達信標；須按指定圖式辨識。 |\n| 海底管線區 | Submarine pipeline area | 海底管線路線／區域，應避免拋錨及拖網。 |\n| 拖底掃測 | Swept area / swept channel | 經拖底掃測確認無障礙物的區域；不等同保證全水域任何時候均無危險。 |\n| 089°30′ Mds | 089°30′ magnetic direction / chart notation | 表示圖上方位註記；Mds縮寫須依該版海圖圖例確認，不可擅自解作真方位。 |\n\n正式作答應依考試指定版次海圖圖式臨摹，尤其暗渠、雷達標、拖底掃測及Mds縮寫須按原圖例辨認。",
+    "practicalAnalysis": "本題20分，逐項畫出九種海圖圖例及一個方位註記。文字解釋可協助記憶，但正式作答仍須按當年Chart 1圖式繪製。",
+    "keyPoints": [
+      {
+        "point": "防波堤、海關、暗渠及高架電線需使用對應圖式。",
+        "importance": "essential"
+      },
+      {
+        "point": "雷達標須區分雷達反射器與雷達信標。",
+        "importance": "essential"
+      },
+      {
+        "point": "海底管線區及拖底掃測區應說明航行／拋錨限制。",
+        "importance": "essential"
+      },
+      {
+        "point": "089°30′ Mds縮寫須依題目指定圖例核實。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "85年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國85年（1996）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=023&code=085150&q=1&s=2001&t=Q",
+        "supports": "引港學五題原卷。"
+      }
+    ],
+    "assumptions": [
+      "計算題明列方位解讀及潮流內插模型。"
+    ],
+    "limitations": [
+      "未取得1996年考試指定版次Chart 1完整圖例，Mds縮寫及個別符號形式待原圖核對。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部85年引港學原卷",
+          "result": "pass",
+          "note": "五題題文核對。"
+        },
+        {
+          "item": "1996年海圖圖例／潮流曲線",
+          "result": "partial",
+          "note": "歷史圖例版次及指定潮流內插曲線待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "085-pilotage-02-answer-v1",
+    "questionId": "085-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、Rise與Range定義】\n- Rise：某次潮汐由低潮至隨後高潮的潮高上升量；在同一基準面下可由高潮潮高減去前一低潮潮高求得。\n- Range：潮差，為高潮與相鄰低潮之潮高差，即HW−LW。\n【二、春潮與小潮】\n- Spring tide：朔、望附近，日月引潮力大致同向，潮差較大。\n- Neap tide：上弦、下弦附近，日月引潮力部分抵銷，潮差較小。\n- Spring Rise：春潮時低潮至高潮的上升量。\n- Mean Spring Rise：多次春潮上升量的平均值。\n- Neap Rise：小潮時低潮至高潮的上升量。\n- Mean Neap Rise：多次小潮上升量的平均值。\n- Spring Range：春潮高潮與相鄰低潮的潮差。\n- Neap Range：小潮高潮與相鄰低潮的潮差。\n- Mean Range：指定觀測期間高潮與低潮潮差的平均值；應說明採用的潮型及統計期間。\n- Diurnal Range：日潮不等現象下，一個太陰日內相關高潮與低潮的潮高差；若教材採特定定義，須按其定義標示。\n\n【三、示意圖】\n潮高 ↑\n高潮 HW ───────────────\n          ↑ Rise（低潮至高潮）\n低潮 LW ───────────────\n          ↕ Range = HW − LW（相鄰高、低潮之差）\n\n春潮的Rise／Range通常較大；小潮的Rise／Range通常較小。Mean數值是多個潮汐週期的平均，不是單一潮次。",
+    "practicalAnalysis": "本題要求名詞及圖示。Rise是低潮到高潮的上升量；Range是高潮與低潮的潮差。春潮與小潮的大小差異來自日月引潮力配置。",
+    "keyPoints": [
+      {
+        "point": "Rise為低潮至隨後高潮的上升量。",
+        "importance": "essential"
+      },
+      {
+        "point": "Range為高潮與相鄰低潮之差。",
+        "importance": "essential"
+      },
+      {
+        "point": "Spring潮差較大，Neap潮差較小。",
+        "importance": "essential"
+      },
+      {
+        "point": "Mean Spring／Neap Rise為相應潮型上升量的平均。",
+        "importance": "supporting"
+      },
+      {
+        "point": "Diurnal Range須依教材採用的日潮不等定義作圖。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "85年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國85年（1996）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=023&code=085150&q=1&s=2001&t=Q",
+        "supports": "引港學五題原卷。"
+      }
+    ],
+    "assumptions": [
+      "計算題明列方位解讀及潮流內插模型。"
+    ],
+    "limitations": [
+      "Diurnal Range及Mean Range在不同潮汐教材中的統計定義可能有細節差異，應與考試指定教材術語核對。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部85年引港學原卷",
+          "result": "pass",
+          "note": "五題題文核對。"
+        },
+        {
+          "item": "1996年海圖圖例／潮流曲線",
+          "result": "partial",
+          "note": "歷史圖例版次及指定潮流內插曲線待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "085-pilotage-03-answer-v1",
+    "questionId": "085-pilotage-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、生成條件】中國沿海海霧多屬平流霧（advection fog）。暖濕空氣流經較冷海面時，下層空氣被冷卻至露點以下，水汽凝結成微小水滴，形成低能見度海霧。若海面冷水、暖濕氣流及適當風速持續存在，海霧可維持並向沿岸擴展。\n【二、影響因素】\n1. 海氣溫差：暖濕空氣移至冷海面是重要條件。\n2. 水汽供應：海面蒸發及濕潤氣團提供足夠水汽。\n3. 風向風速：適當風速可把霧輸送至沿岸；風太強可能使霧層混合消散。\n4. 海流及海溫：冷流或冷水區有利於空氣冷卻；暖流與冷流交界可形成海霧帶。\n5. 穩定度與逆溫：低層穩定及逆溫有利於霧層維持。\n【三、分布與季節】中國沿海海霧常見於黃海、東海及其近岸，部分時期亦影響渤海、長江口、浙江、福建及華南沿海。春季至初夏，暖濕空氣移流至較冷海面時較容易發生；不同海區受海流、季風及地形影響，霧季並不完全一致。\n【四、航行影響】海霧會降低目視距離，增加碰撞及擱淺風險；船舶應遵守COLREG Rule 19，以安全速度航行、保持瞭望、使用雷達及霧號，並依港務管制決定是否進出港。",
+    "practicalAnalysis": "本題要解釋暖濕空氣移流至冷海面形成平流霧，再說明中國沿海主要海區及春季至初夏的季節性。",
+    "keyPoints": [
+      {
+        "point": "海霧主要成因為暖濕空氣流經冷海面，冷卻至露點以下。",
+        "importance": "essential"
+      },
+      {
+        "point": "海溫、海流、季風、風速及逆溫影響霧的形成與維持。",
+        "importance": "essential"
+      },
+      {
+        "point": "黃海、東海及近岸是常見海霧區域。",
+        "importance": "essential"
+      },
+      {
+        "point": "海霧降低能見度，航行須遵守COLREG Rule 19。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "85年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國85年（1996）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=023&code=085150&q=1&s=2001&t=Q",
+        "supports": "引港學五題原卷。"
+      }
+    ],
+    "assumptions": [
+      "計算題明列方位解讀及潮流內插模型。"
+    ],
+    "limitations": [
+      "未引用1996年中國沿海海霧氣候圖及逐月統計，區域與季節描述為一般氣候學概述。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部85年引港學原卷",
+          "result": "pass",
+          "note": "五題題文核對。"
+        },
+        {
+          "item": "1996年海圖圖例／潮流曲線",
+          "result": "partial",
+          "note": "歷史圖例版次及指定潮流內插曲線待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "085-pilotage-04-answer-v1",
+    "questionId": "085-pilotage-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、0900潮流】潮流資料顯示0619時為憩流（0），0950時達3.1節落潮流（e）。若以簡諧潮流近似，憩流至最大流速期間：V=Vmax·sin[(π/2)(t/T)]。\n0619至0950共211分鐘；0900距0619為161分鐘。\nV=3.1×sin[(π/2)×161/211]≈2.89節，方向為題示落潮流（ebb）方向。\n【二、流速低於1節的時間】以同一簡諧模型，從憩流至最大流速的時間比例為f=(2/π)arcsin(1/Vmax)。依各段憩流與最大流速估算：\n1. 0031憩流至0326最大2.5節：流速由0升至1節約在0117；因此0031–0117低於1節。\n2. 0326最大2.5節至0619憩流：降至1節約在0534；0619後至0950最大3.1節，升至1節約在0703。因此0534–0703低於1節。\n3. 0950最大3.1節至1322憩流：降至1節約在1238；1322後至1554最大3.5節，升至1節約在1350。因此1238–1350低於1節。\n4. 1554最大3.5節至1830憩流：降至1節約在1801；1830後至2201最大2.5節，升至1節約在1925。因此1801–1925低於1節。\n5. 2201後至下一次憩流的資料未提供，無法完整求出當晚後半段低於1節的時間。\n【三、結論】按簡諧近似，0900約2.89節落潮；流速低於1節的可用時段約為0031–0117、0534–0703、1238–1350及1801–1925。實際入港仍須以即時潮流及港務管制為準。",
+    "practicalAnalysis": "本題用憩流至最大流速的簡諧曲線內插。若原考試教材指定線性內插或另有潮流曲線，數值會不同；此答案明列採用的模型。",
+    "keyPoints": [
+      {
+        "point": "0619至0950為0至3.1節落潮流。",
+        "importance": "essential"
+      },
+      {
+        "point": "簡諧內插得0900約2.89節落潮。",
+        "importance": "essential"
+      },
+      {
+        "point": "流速小於1節的時段依各憩流與最大流速時間估算。",
+        "importance": "essential"
+      },
+      {
+        "point": "2201後缺下一次憩流時間，無法完整推算該段後續窗口。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "85年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國85年（1996）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=023&code=085150&q=1&s=2001&t=Q",
+        "supports": "引港學五題原卷。"
+      }
+    ],
+    "assumptions": [
+      "計算題明列方位解讀及潮流內插模型。"
+    ],
+    "limitations": [
+      "題目未提供潮流曲線圖或明示內插模型；此處採簡諧潮流近似，須與指定教材曲線核對。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部85年引港學原卷",
+          "result": "pass",
+          "note": "五題題文核對。"
+        },
+        {
+          "item": "1996年海圖圖例／潮流曲線",
+          "result": "partial",
+          "note": "歷史圖例版次及指定潮流內插曲線待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "085-pilotage-05-answer-v1",
+    "questionId": "085-pilotage-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、建立座標】以B為原點，東為E正、北為N正。A在B正北28NM。甲船航速20kn、乙船15kn，均航向180°，航行1小時後，無流推算位置分別為：甲在B北8NM，乙在B北13NM。\n【二、利用方位求實際位置】\n甲船位於B方位334°，設距離B為r₁；乙船位於B方位351°，設距離B為r₂。兩船受到相同流，實際位置差仍等於對水航程差5NM，方向向南。\n東分量：r₁sin334°−r₂sin351°=0。\n北分量：r₁cos334°−r₂cos351°=−5。\n解得r₁≈2.68NM，r₂≈7.50NM。甲船實際座標約(E,N)=(−1.17,+2.40)NM。\n【三、求流】甲船無流推算位置為(0,+8)NM，因此流位移=(−1.17,2.40)−(0,8)=(−1.17,−5.60)NM。航行時間1小時，流速=√(1.17²+5.60²)≈5.72節。\n流向為流往約192°T（南偏西約12°）。\n【四、檢查】方位334°及351°均按由B指向船舶的位置方位解讀；若原題方位定義不同，向量方向須重算。",
+    "practicalAnalysis": "兩船相同起點、相同航向、不同船速，受到相同流後，其實際位置差仍為5NM向南。利用兩個方位射線聯立求距離，再由DR與實際船位差求流向流速。",
+    "keyPoints": [
+      {
+        "point": "以B為原點，A在正北28NM。",
+        "importance": "essential"
+      },
+      {
+        "point": "無流DR位置：甲北8NM，乙北13NM。",
+        "importance": "essential"
+      },
+      {
+        "point": "方位射線聯立解出距離甲約2.68NM、乙約7.50NM。",
+        "importance": "essential"
+      },
+      {
+        "point": "流速約5.72節，流往約192°T。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "85年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國85年（1996）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=023&code=085150&q=1&s=2001&t=Q",
+        "supports": "引港學五題原卷。"
+      }
+    ],
+    "assumptions": [
+      "計算題明列方位解讀及潮流內插模型。"
+    ],
+    "limitations": [
+      "方位角依題文視為由B指向兩船；若原卷有其他方位基準，需重新計算。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部85年引港學原卷",
+          "result": "pass",
+          "note": "五題題文核對。"
+        },
+        {
+          "item": "1996年海圖圖例／潮流曲線",
+          "result": "partial",
+          "note": "歷史圖例版次及指定潮流內插曲線待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
