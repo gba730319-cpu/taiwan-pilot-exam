@@ -2684,8 +2684,8 @@
     "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【Chinese Translation】\n\n(1) 任何依法需要引水人領航的船舶，均應懸掛國際通用或中華民國主管機關規定的「招請引水人信號」。船舶所有人或船長得事先與當地引水人辦事處聯繫，辦理僱用引水人的相關事宜。若有兩艘或兩艘以上船舶同時懸掛招請引水人信號，引水人原則上應先為先到港的船舶提供服務；但其中如有船舶遇險，引水人應優先為該遇險船舶提供服務。\n\n(2) 船舶僱用引水人登輪領航時，船長應降下「招請引水人信號」，改懸表示「引水人在船」的信號，並將船舶的操縱性能、總噸位、船長、吃水、航速等資料告知引水人。引水人要求查驗相關證書時，船長不得拒絕。\n\n(3) 引水人除持有交通部核發的引水人執業證書，並取得該引水區域當地航政主管機關核發的登記證書外，不得執行領航服務。\n\n【專業用語】\n- pilot request signal：招請引水人信號。\n- pilot on board：引水人在船信號。\n- pilot's local agency：當地引水人辦事處。\n- maneuvering characteristics：船舶操縱性能。\n- certificate of registration：引水區域登記證書。\n- MOTC：Ministry of Transportation and Communications，交通部。\n\n【法規對照】\n題幹內容主要對應現行《引水法》第17至21條的招請信號、應招順序、船舶資料及執業證書／區域登記要求。翻譯應保留shall及shall not等義務語氣；第一段「先到港先應招、遇險船優先」與現行第18條相符。",
-    "practicalAnalysis": "翻譯應保留法律義務語氣：shall為「應」，may為「得」，shall not reject為「不得拒絕」。第三段的兩項證件是執業證書及引水區域登記證書，不應誤譯成一般船員適任證書。",
+    "modelAnswer": "【Chinese Translation】\n\n(1) 任何需要引水人領航的船舶，均應懸掛國際通用或中華民國主管機關規定的「招請引水人信號」。船舶所有人或船長得事先與當地引水人辦事處聯繫，辦理僱用引水人的相關事宜。若有兩艘或兩艘以上船舶同時懸掛招請引水人信號，引水人原則上應先為先到港的船舶提供服務；但其中如有船舶遇險，引水人應優先為該遇險船舶提供服務。\n\n(2) 船舶僱用引水人登輪領航時，船長應降下「招請引水人信號」，改懸表示「引水人在船」的信號，並將船舶的操縱性能、總噸位、船長、吃水、航速等資料告知引水人。引水人要求查驗相關證書時，船長不得拒絕。\n\n(3) 引水人除持有交通部核發的引水人執業證書，並取得該引水區域當地航政主管機關核發的登記證書外，不得執行領航服務。\n\n【專業用語】\n- pilot request signal：招請引水人信號。\n- pilot on board：引水人在船信號。\n- pilot's local agency：當地引水人辦事處。\n- maneuvering characteristics：船舶操縱性能。\n- certificate of registration：引水區域登記證書。\n- MOTC：Ministry of Transportation and Communications，交通部。\n\n【法規對照】\n題幹內容主要對應現行《引水法》第17至21條的招請信號、應招順序、船舶資料及執業證書／區域登記要求。翻譯應保留shall及shall not等義務語氣；第一段「先到港先應招、遇險船優先」與現行第18條相符。",
+    "practicalAnalysis": "翻譯應忠實呈現原文，不額外加入原文未明示的「依法」限定；shall為「應」、may為「得」、shall not reject為「不得拒絕」。法規對照則另依2027備考現行《引水法》第17至21條說明，避免把英文原文翻譯與現行法規解讀混成一件事。",
     "keyPoints": [
       {
         "point": "shall／shall not須譯出法定義務與禁止",
@@ -2753,6 +2753,11 @@
           "item": "法律義務語氣及現行條文",
           "result": "pass",
           "note": "依現行引水法第17至21條核對shall／shall not及招請順序。"
+        },
+        {
+          "item": "原文忠實度",
+          "result": "pass",
+          "note": "移除原文未明示的「依法」限定，避免翻譯自行增加法律要件。"
         }
       ]
     },
