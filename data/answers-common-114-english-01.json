@@ -2,10 +2,10 @@
   {
     "id": "answer-114-english-01",
     "questionId": "114-english-01",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "translation",
-    "modelAnswer": "（一）船舶交通服務（VTS）在提升船舶交通繁忙水域之航行安全與效率方面，扮演關鍵角色。VTS透過即時通訊及交通監控，向船舶提供重要航行資訊與安全指示，藉此大幅降低船舶碰撞風險及海上交通活動可能造成的環境危害。\n\n（二）即使船上已有引水人，船舶航行的主要責任仍由船長承擔。然而，引水人具備專業的當地水域知識及航行技能，尤其在具挑戰性或船舶不熟悉的水域中，能對船舶安全操縱提供重大助益。",
+    "modelAnswer": "（一）船舶交通服務（VTS）在提升船舶交通繁忙水域之航行安全與效率方面，扮演關鍵角色。VTS透過即時通訊及交通監控，向船舶提供重要航行資訊與安全指示，藉此大幅降低船舶碰撞風險及海上交通活動可能造成的環境危害。\n\n（二）即使船上已有引水人，船舶航行的主要責任仍由船長承擔。然而，引水人具備專業的當地水域知識及航行技能，尤其在具挑戰性或船舶不熟悉的水域中，能對船舶安全操縱提供重大助益。\n\n【現行術語補充｜查核截至2026-11-07】\nIMO A.1158(32)將VTS目的界定為促進海上人命安全、航行安全與效率及環境保護，並以資訊提供、交通監控／管理及應對不安全情況等方式達成。翻譯時，原文的“safety instructions”宜按語境譯為「安全指示」，但不能因此推論VTS每一項建議或資訊都等同船長操船命令；VTS服務類型、授權及強制性應依該港現行法規與作業指南判斷。引水人在船亦不解除船長及值班駕駛員的安全責任，依IMO A.960(23)仍須保持有效溝通與監督。",
     "practicalAnalysis": "本題為專業英文翻譯，評分重點在語意完整、術語正確及責任關係不失真。\n\n1. Vessel Traffic Services (VTS)：正式術語為「船舶交通服務」，不可只譯成一般的船舶管理或港口管制。\n2. congested waters：可譯「船舶交通繁忙水域」或「船舶交通密集水域」。\n3. real-time communication and monitoring：宜譯「即時通訊及監控」，此處monitoring是交通監控。\n4. navigational information and safety instructions：可譯「航行資訊與安全指示」。但在專業理解上，VTS的資訊服務、航行協助服務及交通組織服務各有不同；原文instructions不代表所有VTS建議均具有命令性，實際權限依SOLAS、IMO指南及當地法規。\n5. environmental hazards：此處指海上交通活動可能造成的環境危害，可譯「環境危害」或「海洋環境風險」。\n6. primary responsibility for the ship's navigation remains with the master：船長仍負船舶航行的主要責任。不可翻成「引水人不負責」；IMO A.960(23)強調引水人登輪不解除船長及值班駕駛員原有職責與責任。\n7. pilot's expert local knowledge：宜譯「引水人專業的當地水域知識」或「對當地水域的專業知識」。\n8. safe maneuvering：宜譯「安全操縱」，不只是安全航行。\n\nVTS法理背景：SOLAS V/12及IMO A.1158(32)說明VTS目的包括海上人命安全、航行安全與效率及海洋環境保護；服務可包含資訊、航行協助及交通組織。船舶有效航行及操縱的最終決策責任仍由船長承擔。",
     "keyPoints": [
       {
@@ -76,6 +76,15 @@
         "editionOrEffectiveDate": "2021-12-15",
         "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1158%2832%29.pdf",
         "supports": "VTS資訊服務、航行協助、交通組織及危險態勢應變的功能分類。"
+      },
+      {
+        "title": "IMO Resolution A.1158(32) — Guidelines for Vessel Traffic Services",
+        "sourceType": "official_international_standard",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2021-12-15採納",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1158%2832%29.pdf",
+        "accessedAt": "2026-11-07",
+        "supports": "VTS目的、資訊服務、交通組織及不安全情況應對；避免把所有VTS資訊誤譯為具有命令性的操船指令。"
       }
     ],
     "assumptions": [],
@@ -110,6 +119,11 @@
           "item": "VTS指示與船長責任關係",
           "result": "pass",
           "note": "依IMO A.1158(32)、A.960(23)及IMO官方VTS說明，避免將VTS安全指示誤解為全面接管船舶操縱。"
+        },
+        {
+          "item": "VTS現行國際術語與安全指示語意",
+          "result": "pass",
+          "note": "依IMO A.1158(32)補充VTS服務目的及職能；指出原文instructions不代表所有VTS建議均具有命令性，須依地方授權及港規判斷。"
         }
       ]
     },
