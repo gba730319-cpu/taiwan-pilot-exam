@@ -1,0 +1,74 @@
+[
+  {
+    "id": "answer-112-shiphandling-01",
+    "questionId": "112-shiphandling-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、Flare／Overhang造成岸上機具碰撞的機理\n船艏及船艉外飄（flare）是船殼上部向外擴張的線型；船舶在水線附近可能尚未接觸碼頭，但高於水線的船殼外飄、舷牆或甲板突出部已向碼頭上方伸入，形成Overhang。大型船若以船身與碼頭法線偏斜的角度靠岸，艏艉端會因幾何投影而比平行船殼段更早進入岸上機具、繫纜柱或岸橋的空間，可能碰撞岸橋、裝卸臂、繫纜設備及其他岸上設施。\n\n二、影響船殼撞擊岸上機具的因素\n（一）船舶接近碼頭的角度：偏斜角越大，艏艉端相對平行船殼段的縱向投影越大，外飄部位更容易伸入岸上設施範圍。\n（二）船舶艏艉外飄程度及線型：外飄角度、上層船殼寬度、艏艉端型線、舷牆及突出構件決定上部船殼的橫向外伸量。\n（三）船舶乾舷及吃水：乾舷越高，水線以上船殼與岸上設備高度重疊的機會越大；吃水、載況及壓載狀態會改變船殼與岸壁的相對高度及水下線型。\n（四）潮位及碼頭面高度：潮位改變船舶水線與碼頭面的相對高度；高潮、低潮或潮位快速變化時，可能改變船殼外飄部位與岸橋樑、繫纜柱的高度重疊關係。\n（五）碼頭設施位置與尺寸：岸橋軌道、吊臂、繫纜柱、護舷、裝卸平台、管線及其他突出物的位置、高度與伸出距離。\n（六）船舶縱向位置與平行船殼段長度：平行船殼段越短、艏艉端外飄區越長，角度造成的端部偏移越大；船舶靠泊位置及前後定位亦影響哪一端先接近設施。\n（七）船舶橫移速度、偏航率及慣性：即使幾何上有足夠間距，橫移速度過快或艏艉偏航仍可能造成碰撞；大型船舶停止側移及修正艏向需要時間。\n（八）風、流及拖船配置：橫風、橫流、港池迴流及拖船施力不均會使船舶產生偏航與橫移，尤其艏艉外飄區最先進入岸上機具範圍。\n\n三、計算船艉伸入碼頭法線內的距離\n已知LOA=210 m，船舯平行船殼段長度=52 m，假設艏艉外飄段沿船長方向對稱分配，則每端外飄段的縱向長度：\n(210−52)÷2=79 m。\n船身與碼頭法線偏斜2°時，船艉外飄段相對於碼頭法線的橫向投影：\n79×sin(2°)=2.76 m（約）。\n若題意所稱「伸入碼頭法線內」係指沿碼頭方向的投影，應使用同一幾何模型並依圖示角度定義判讀；本答案採常見「船艉端相對於平行船殼段的橫向外伸量」解釋。實際船舶外飄形狀未必對稱，精確值須使用船舶總布置圖／型線圖及碼頭設備高度資料。\n\n四、操船預防措施\n1. 靠泊前取得船舶GA、外飄線型、乾舷、吃水、潮高及碼頭岸橋／繫纜柱位置資料，確認最大允許靠泊角度。\n2. 先使平行船殼段與碼頭保持適當平行，減少艏艉端過度伸入岸上設備範圍；接近最後階段應控制極小橫移速度及偏航率。\n3. 以拖船分別控制艏艉橫移及艏向，避免一艘拖船過度施力造成艏艉掃掠；必要時中止靠泊、退出後重新建立平行態勢。\n4. 由岸上作業人員確認岸橋移至安全位置，暫停可能進入船舶外飄範圍的吊臂或裝卸設備；VHF保持船岸及拖船通訊。\n\n結論：外飄船殼碰撞風險受接近角度、船殼線型、乾舷／吃水、潮位、碼頭機具高度與位置、船舶偏航及風流拖船作用共同影響。依題目對稱假設，每端外飄段79公尺，2°角度產生的橫向投影約2.76公尺；實際值應依船舶線型與碼頭設施圖核實。",
+    "practicalAnalysis": "幾何計算要先說明假設：LOA減平行船殼段後，兩端各分配79m；2°角度下投影為79×sin2°≈2.76m。題幹若有原圖，應依圖中「2°相對哪一條線」決定使用sin或tan；不可不交代幾何定義就只寫數字。TSB調查資料亦指出船舶吃水、潮位、碼頭面高度、船殼flare及接近角度均會影響overhang。",
+    "keyPoints": [
+      {
+        "point": "Flare是船殼上部外擴；Overhang是船舶上部外飄部分伸入岸上設備範圍。",
+        "importance": "essential"
+      },
+      {
+        "point": "偏斜角、flare線型、乾舷／吃水、潮位、碼頭設備高度與位置、平行船殼段長度、橫移速度、偏航率、風流與拖船力均會影響碰撞風險。",
+        "importance": "essential"
+      },
+      {
+        "point": "假設艏艉對稱：每端外飄段=(210−52)/2=79m。",
+        "importance": "essential"
+      },
+      {
+        "point": "2°下橫向投影=79×sin2°≈2.76m；需依題圖角度定義確認投影方向。",
+        "importance": "essential"
+      },
+      {
+        "point": "靠泊前檢查GA／型線圖及岸橋位置，控制接近角、橫移速度及偏航率，必要時中止靠泊。",
+        "importance": "essential"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "note": "未取得考選部官方逐項評分細則；僅供研讀。"
+    },
+    "references": [
+      {
+        "title": "Marine transportation safety investigation report M19P0020",
+        "sourceType": "official_accident_investigation",
+        "issuer": "Transportation Safety Board of Canada",
+        "url": "https://www.bst-tsb.gc.ca/eng/rapports-reports/marine/2019/m19p0020/m19p0020.html",
+        "supports": "船舶flare及overhang碰撞岸上機具的幾何機理與影響因素。"
+      },
+      {
+        "title": "A Guide to Good Practice on Port and Marine Facilities",
+        "sourceType": "official_port_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/a-guide-to-good-practice-on-port-marine-operations/a-guide-to-good-practice-on-port-and-marine-facilities",
+        "supports": "港內靠泊風險評估、拖船協調及船岸設施安全。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "計算採艏艉外飄段對稱假設，題目未提供船舶型線圖及原始圖示；若原圖將2°定義為另一方向角，投影公式可能需改用tan或重新取幾何基準。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "原題",
+          "result": "pass",
+          "note": "依112年度題庫主檔核對題目。"
+        },
+        {
+          "item": "專業依據",
+          "result": "pass",
+          "note": "依IMO／港務及船舶操縱專業資料交叉整理。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
