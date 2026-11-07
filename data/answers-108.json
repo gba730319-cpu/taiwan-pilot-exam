@@ -1913,8 +1913,8 @@
     "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【2027年考試主答｜ROTI失效時通過90度彎曲河道的迴轉率】\n\n一、ROTI用途及現行配備要求\n1. ROTI（Rate of Turn Indicator）顯示船舶艏向變化率，通常以度／分鐘表示，協助駕駛員掌握轉向率及停止轉向時機。\n2. IMO Resolution A.526(13)是ROTI性能標準，不代表所有船舶均依法必須配備ROTI。\n3. 依現行SOLAS Chapter V Regulation 19，總噸位50,000以上船舶須配備Rate-of-Turn Indicator或其他能測定及顯示迴轉率的設備；其他船舶是否必須配備，應依適用法規、船級及設備要求判斷。\n4. ROTI故障時應依SMS及船舶設備故障程序通報，使用陀螺羅經、艏向變化、GNSS／ECDIS、雷達平行指標及目視方位等替代監控；若無法安全通過狹窄彎道，應減速、等待或中止航行。\n\n二、題目已知條件與幾何\n- 彎曲河道弧長L=1,000m。\n- 彎曲角度θ=90°=π/2 rad。\n- 船舶對地速度SOG=10kn。\n- 落潮流2kn。\n假設1,000m為船舶應沿行的圓弧長度，彎道可近似為定半徑圓弧。\n\n彎道半徑：\n\\[\nR=\\frac{L}{\\theta}=\\frac{1000}{\\pi/2}\\approx636.6\\text{ m}\n\\]\n\n三、依SOG計算對地航跡所需迴轉率\n將SOG 10kn換算：\n\\[\nV_g=10\\times0.514444=5.1444\\text{ m/s}\n\\]\n角速度：\n\\[\n\\omega=\\frac{V_g}{R}=\\frac{5.1444}{636.6}\n\\]\n換算為度／分鐘：\n\\[\nROT=\\omega\\times\\frac{180}{\\pi}\\times60\n\\]\n\\[\nROT\\approx27.8^\\circ/\\text{min}\n\\]\n\n四、落潮流2kn如何處理\n1. 題目已給SOG 10kn，這是船舶相對地面的速度；若要求船舶沿河道彎曲航跡的對地轉向率，應使用SOG，不可再把2kn重複加減。\n2. 若假設2kn落潮流與船舶航跡同向，則對水速度STW約為8kn；但這是另一個速度量，不代表對地航跡的轉向率必然改用8kn計算。\n3. ROTI顯示的是艏向變化率，不是單純的COG變化率。若船舶因橫流而有流壓角，艏向ROT與對地航跡轉向率可能不同；題目未提供流向相對彎道切線、船舶艏向及流場分布，無法求得唯一的實際ROTI讀值。\n4. 若考題原意是以STW 8kn代入簡化公式，則會得到約22.2°/min；但這是以8kn作為沿彎道速度的另一種假設，不能與已給SOG 10kn混為一談。\n\n結論：若1,000m為90°彎道弧長，且題目所給10kn SOG代表船舶沿彎道的對地速度，所需對地航跡轉向率約27.8°/min。2kn落潮流已反映在SOG中，不應重複扣除；實際ROTI艏向讀值仍須知道流向及流壓角。",
-    "practicalAnalysis": "此題有一個重要物理區分：船舶艏向ROT與對地航跡轉向率不一定相同，尤其在橫流下，兩者差異可能很大。因題目提供SOG，且彎道長度為地理航道長度，27.8°/min是可直接計算的對地航跡值；落潮流2節只有在要求STW／船體相對水體的轉向率且流向已知時才能納入。",
+    "modelAnswer": "【2027年主答｜ROTI故障及彎曲河道轉向率】\n\n若題目所稱1,000m為90°彎道中心線弧長，則：\nθ=90°=π/2 rad\nR=L/θ=1000÷(π/2)=636.62m\nSOG=10×0.514444=5.1444m/s\nω=V/R=5.1444÷636.62=0.00808rad/s\nROT=0.00808×180/π×60≈27.8°/min。\n\n因此，依上述假設，對地航跡轉向率約27.8°/min。\n\n**潮流2kn的處理：**題目給的是SOG，計算對地航跡轉向率時不可再將潮流直接加減。若問船首艏向ROT，則題幹仍不足以唯一求解，因未提供潮流方向、河道軸線與船首／航跡關係；橫流時對地航跡轉向率與船首ROT尤其可能不同。若1,000m不是弧長或彎道非定半徑圓弧，亦須重算。\n\n**ROTI故障應變：**立即告知船長及駕駛台團隊，依SMS評估並視情通報VTS；以陀螺羅經艏向變化、雷達平行指標、ECDIS、GNSS航跡、岸標方位及測深交叉監控；降低至仍能維持安全舵效的速度，保留轉向及停船餘裕，採閉環通訊。\n\n【考試陷阱】27.8°/min是特定假設下的對地航跡值，不可未經流向與艏向資料便稱為唯一的船首ROT。",
+    "practicalAnalysis": "計算限定弧長與SOG條件值，釐清SOG、STW及船首ROT，並補足ROTI失效時的交叉監控。",
     "keyPoints": [
       {
         "point": "90°=π/2 rad；彎道半徑R=1,000/(π/2)=636.62m",
@@ -1975,6 +1975,22 @@
         "url": "https://www.iso.org/standard/74753.html",
         "supports": "現行ROTI建造、性能及測試要求。",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.526(13) — Performance standards for rate-of-turn indicators",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.526%2813%29.pdf",
+        "sourceType": "technical_reference",
+        "issuer": "Official / technical source",
+        "supports": "ROTI性能標準及轉向率指示用途。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "sourceType": "technical_reference",
+        "issuer": "Official / technical source",
+        "supports": "引水作業程序及引水人與船長溝通。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [
@@ -1989,19 +2005,24 @@
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "ROTI法規適用範圍",
+          "item": "弧長、轉角與半徑計算",
           "result": "pass",
-          "note": "區分A.526(13)性能標準與SOLAS 50,000 GT以上配備要求。"
+          "note": "若1,000m為90°圓弧弧長，R=636.62m。"
         },
         {
-          "item": "彎道半徑及SOG轉向率",
+          "item": "SOG對地航跡轉向率",
           "result": "pass",
-          "note": "依1,000m弧長、90度及10kn SOG計算，ROT約27.8度／分鐘。"
+          "note": "以10kn計算約27.8°/min。"
         },
         {
-          "item": "流速與實際艏向ROT",
+          "item": "潮流及艏向ROT判讀",
           "result": "verified_with_scope",
-          "note": "2kn流向及流壓角未完整提供，故區分對地航跡轉向率與實際艏向ROT。"
+          "note": "題幹未提供潮流方向及船首／航跡關係，無法唯一求船首ROT。"
+        },
+        {
+          "item": "ROTI故障替代監控",
+          "result": "pass",
+          "note": "補入多源交叉監控及風險評估。"
         }
       ]
     },
@@ -2013,8 +2034,8 @@
     "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【2027年考試主答｜Azipod全迴轉電力推進系統】\n\n一、基本構造\nAzipod是ABB的註冊商標，屬吊艙式電力推進系統（Podded Electric Propulsion）。電動馬達及螺旋槳置於船體外部水下吊艙內，整個吊艙可作360°迴轉，直接改變推力方向，因此可同時提供推進及操舵功能，通常不需傳統軸系及獨立舵葉。\n\n二、主要優點\n1. **推力方向自由：**吊艙可360°旋轉，推力可朝任意方向，港內低速操縱、橫移、原地迴轉及定位能力較佳。\n2. **操縱反應佳：**推力方向改變迅速，可縮小迴旋空間並提高靠離泊及狹水道操縱能力。\n3. **省去傳統長軸系：**電動馬達直接驅動螺旋槳，減少齒輪箱、長軸及部分機械傳動損失。\n4. **船舶配置彈性：**主發電機可依船舶需求配置於機艙，吊艙位置及艙室安排較有彈性。\n5. **噪音及振動：**電力推進可降低部分機械傳動噪音及振動，適合郵輪、客船及特殊作業船。\n6. **能源效率：**依船型及航速設計，可能改善推進效率及燃油消耗；節能幅度取決於船型、航線及操作條件，不能套用單一固定百分比。\n\n三、限制及注意事項\n1. 初期建造成本、電力系統及控制系統複雜度較高。\n2. 吊艙、軸承、密封、電纜及水下設備維修需專業技術與設備。\n3. 推進器或吊艙受損可能直接影響推進及操舵能力。\n4. 仍須注意吊艙轉角、推力方向、螺槳排流、船體交互作用及港內水深。\n5. 不同Azipod型號的功率、吊艙數量、螺槳型式及控制邏輯不同，須依本船操縱手冊判斷。\n\n四、與傳統軸系及Z-drive的區別\n- 傳統軸系通常由固定方向螺旋槳推進，再以舵葉改變水流方向操舵。\n- Azipod是電動馬達置於水下吊艙內，吊艙可360°旋轉並直接改變推力方向。\n- Z-drive通常是帶有齒輪傳動的全迴轉舵槳，與ABB Azipod的電動吊艙結構不同；不能把所有360°舵槳都稱為Azipod。\n\n結論：Azipod是可360°迴轉的吊艙式電力推進系統，推進器與操舵功能整合，具備高機動性、配置彈性及減少傳動損失等優點，但須考慮成本、水下設備維護及型號差異。",
-    "practicalAnalysis": "Azipod不是「螺槳可轉」而已，而是電動吊艙推進器兼具推進與操舵。引水人最重要的是熟悉該船控制介面及失效模式，不能用傳統舵角與主機車鐘經驗直接替代製造商操作程序。",
+    "modelAnswer": "【2027年主答｜Azipod吊艙式電力推進系統】\n\nAzipod是ABB的吊艙式電力推進系統，將推進電動機置於船底外部的水下吊艙內，吊艙可繞垂直軸旋轉，使螺槳推力方向改變；典型配置整合推進與操舵，不需傳統長軸系及獨立舵。\n\n一、**構造與原理**\n船舶電力系統經電力變換及控制設備驅動吊艙內電動機。吊艙包括電動機、螺槳、軸承、密封、冷卻及旋轉控制設備。依型號可有拉式（puller）、推式（pusher）、單吊艙或多吊艙配置。\n\n二、**操縱特性及優點**\n1. 吊艙轉向可改變推力方向，提供前進、倒車及橫向推力。\n2. 多吊艙可藉不同推力向量組合，控制艏向、橫移及迴轉。\n3. 推力方向可直接調整，通常有利低速操縱、靠離泊及狹窄水域機動。\n4. 推進與操舵整合，船尾配置較具彈性；特定船型亦可能改善振動、噪音及推進效率，但實際效益須依船型與工況評估。\n\n三、**限制及風險**\n1. 系統整合、專用備件及維修成本可能較高。\n2. 電力、控制、冷卻、密封、軸承及旋轉機構故障均可能影響推進。\n3. 推力及操縱效果受船速、吊艙角度、螺槳轉速、船體流場及淺水環境影響。\n4. 不同世代及型號的操作介面、最大旋轉角度、推力限制與失效模式不同，不可將某船數據套用其他船舶。\n\n四、**引水操縱注意事項**\nMPX時確認吊艙數量與配置、可用推力、旋轉限制、控制模式、倒車／制動能力、單機故障後剩餘能力及緊急程序。靠離泊時漸進調整推力向量，注意排流對碼頭、鄰船、小艇及浮筒的影響。發生故障時依個船手冊處置，重新評估航道、速度及拖船需求。\n\n結論：Azipod以可旋轉水下電動吊艙改變螺槳推力方向，整合推進與操舵，通常有利港內及低速操縱；實際性能與故障處置必須依個船型號、操作手冊及MPX確認。",
+    "practicalAnalysis": "補足Azipod推進架構、推力向量及個船差異，避免把型號特性泛化。",
     "keyPoints": [
       {
         "point": "電動馬達置於水下吊艙，吊艙可旋轉以改變推力方向",
@@ -2078,6 +2099,22 @@
         "url": "https://global.abb/group/en/technology/did-you-know/azipod-electric-propulsion",
         "supports": "Azipod推力可朝任意方向及其機動性。",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Azipod electric propulsion",
+        "url": "https://www.abb.com/global/en/industries/marine/solutions/marine-electric-propulsion/azipod",
+        "sourceType": "technical_reference",
+        "issuer": "Official / technical source",
+        "supports": "ABB吊艙式電力推進系統及產品配置。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "sourceType": "technical_reference",
+        "issuer": "Official / technical source",
+        "supports": "引水人與船長資訊交換及作業程序。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -2085,23 +2122,23 @@
       "不同世代、廠牌及船型的Azipod控制邏輯、性能與故障程序不完全相同；實際操縱須依個船原廠手冊及海試資料。"
     ],
     "verification": {
-      "status": "source_checked",
+      "status": "verified_with_scope",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "Azipod構造及360度迴轉",
+          "item": "基本構造及推力向量",
           "result": "pass",
-          "note": "依ABB原廠資料核對水下電動吊艙及全迴轉推力方向。"
+          "note": "依ABB產品資料確認吊艙式電力推進及旋轉推力方向。"
         },
         {
-          "item": "與傳統軸系及Z-drive區別",
-          "result": "pass",
-          "note": "明確區分Azipod商標及一般齒輪式Z-drive舵槳。"
-        },
-        {
-          "item": "節能效益",
+          "item": "性能及型號限制",
           "result": "verified_with_scope",
-          "note": "效益依船型、航速及航線而異，不使用固定節能百分比作通則。"
+          "note": "不將特定型號性能泛化為所有Azipod。"
+        },
+        {
+          "item": "MPX及故障應變",
+          "result": "pass",
+          "note": "補入個船控制模式、推力限制及失效程序確認。"
         }
       ]
     },
@@ -2113,8 +2150,8 @@
     "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【2027年考試主答｜船舶減搖鰭（Fin Stabilizer）】\n\n一、作用原理\n減搖鰭通常安裝於船舶左右舷水線以下、接近船舯位置，藉由鰭片相對水流產生升力，形成與船舶橫搖相反的力矩，以降低Roll。現代主動式減搖鰭由橫搖感測器、控制器及液壓／電動致動器控制鰭片角度，依船舶橫搖方向及速度即時調整。\n\n二、主動式與被動式\n（一）主動式減搖鰭（Active Fin Stabilizer）\n1. 以陀螺儀或運動感測器偵測船舶橫搖。\n2. 控制系統計算所需鰭角，驅動液壓或電動致動器。\n3. 鰭片改變攻角，產生水動力升力及反向力矩，抵銷船舶橫搖。\n4. 一般航行中需有相對水流才能產生升力；普通航行型減搖鰭在船舶停船或低速時效能會下降。\n5. 部分新型系統具Zero-Speed／At-Rest功能，可在低速或錨泊時透過加大鰭面、特殊翼型或控制技術產生減搖力，不能假設所有主動式減搖鰭都具此功能。\n\n（二）被動式減搖裝置（Passive Stabilization）\n1. 不依賴感測器及即時致動控制，而由固定幾何或液體運動產生阻尼。\n2. 例如Bilge Keel（舭龍骨）、被動式防搖水艙及固定減搖鰭等。\n3. 結構較簡單、維護需求較低，但減搖能力及適用速度範圍通常不如主動式系統靈活。\n\n三、固定式與可收放式\n1. **固定式（Non-retractable）：**鰭片固定突出船殼，構造較簡單，但增加阻力、靠碼頭及淺水域作業時須注意突出物。\n2. **可收放式（Retractable）：**不使用時可收回船體凹槽內，降低阻力並避免靠泊、狹水道或高速航行時碰撞；機構及維護較複雜。\n固定／可收放是安裝方式，不等於主動／被動控制方式；兩種分類不可混為一談。\n\n四、船舶配置示意（俯視，非比例）\n\\[\n\\begin{array}{c}\n\\text{船艏}\\uparrow\\\\\n\\text{左舷減搖鰭}\\;\\triangle\\quad\n\\boxed{\\text{船體}}\\quad\n\\triangle\\;\\text{右舷減搖鰭}\\\\\n\\text{船艉}\n\\end{array}\n\\]\n實際鰭片通常成對配置於船舯附近的左右舷水線下方，並依船型及設計位置安裝。\n\n五、優點與限制\n- 降低橫搖，提高乘客舒適度及船員工作安全。\n- 改善航行中甲板作業、裝卸及部分設備運作環境。\n- 可能增加阻力及燃油消耗，尤其固定式鰭片或不適當展開時。\n- 鰭片及液壓／電動系統故障時，減搖能力下降；需依設備手冊檢查、保養及操作。\n\n結論：減搖鰭利用水動力升力產生反向橫搖力矩；可分主動／被動及固定／可收放兩組不同分類。一般主動鰭需有前進水流，具Zero-Speed功能者則是特別設計，不能一概而論。",
-    "practicalAnalysis": "題目要求畫標誌、種類、功能及注意事項。圖示重點是兩舷水下翼片，不是水線以上的舷側標誌。主動式依感測回授調整攻角；固定／被動式則依水流產生阻尼。傳統鰭片依賴船速，在港內低速時通常須依手冊收回。",
+    "modelAnswer": "【2027年主答｜鰭狀穩定器（Fin Stabilizer）】\n\n一、**位置與原理**\n鰭狀穩定器通常安裝於船體兩舷水下、約在船中附近，形如翼片。船舶航行時，鰭片依控制系統改變攻角，產生水動力升力及力矩，以抵銷船舶橫搖。\n簡圖（概念示意，非比例）：\n艏向 →\n左舷鰭片 ◁ ┌────船體────┐ ▷ 右舷鰭片\n實際外形、位置及收放方式依船型設計。\n\n二、**種類**\n1. 主動式（Active fin）：感測器偵測橫搖，控制系統即時調整鰭片攻角，產生反向力矩。\n2. 被動式（Passive fin）：主要依固定翼面或機械／水動力特性產生阻尼，不具有主動式相同的即時閉迴路控制能力。\n3. 固定式與可收放式：固定式常態突出船體；可收放式可在不使用或有碰撞風險時收回。\n4. 航行式與零航速型：傳統航行式依賴船舶前進速度產生水動力；部分專用零航速系統可在低速或停船時維持穩定效果，並非所有鰭片都有此功能。\n\n三、**功能及限制**\n主要減少橫搖、改善乘客及船員舒適性，並降低貨物與設備因橫搖受損的風險。不能取代船舶完整穩性設計，也不能直接消除縱搖、艏搖或橫移。效果受船速、海況、鰭片面積、攻角及控制系統能力影響；傳統航行式鰭片低速時效果通常下降。\n\n四、**引水及港內注意事項**\n1. MPX時確認鰭片是否伸出、是否可收放、收放時間、允許操作船速及故障警報。\n2. 靠離泊、狹水道、淺水區或拖船靠近時，依個船操作手冊確認是否應收回；不可假定所有船舶均須在港內收回。\n3. 收放前確認兩舷水下淨空、船速及液壓／電力系統狀態。\n4. 若鰭片故障或無法收回，評估與碼頭、拖船、繫纜及水下設施碰撞風險，必要時通報VTS並調整靠泊計畫。\n\n結論：鰭狀穩定器以兩舷水下翼片產生水動力，主要抑制橫搖；種類及操作限制依個船設計，港內是否收回應依船舶手冊與水域條件判斷。",
+    "practicalAnalysis": "補清主動／被動、固定／可收放、航行式／零航速差異，並修正港內收放不可一概而論。",
     "keyPoints": [
       {
         "point": "鰭片位於船體兩舷水下，產生水動力以抵銷橫搖",
@@ -2179,6 +2216,14 @@
         "url": "https://www.kongsbergmaritime.com/products/positioning-and-manoeuvring/fin-stabilisers/stabilisation-at-rest-stabilisers/",
         "supports": "可收放式減搖鰭及錨泊／低速減搖功能。",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Stabilization, propulsion and positioning systems",
+        "url": "https://www.fincantieri.com/en/business/products/systems--components-e-infrastructures/stabilization-propulsion-positioning-and-generation-systems",
+        "sourceType": "technical_reference",
+        "issuer": "Official / technical source",
+        "supports": "船舶穩定系統及鰭狀穩定器相關產品型式。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -2186,23 +2231,23 @@
       "不同船型的鰭片位置、型式、控制方式及允許收放速度各異；圖示為概念示意，不代表某一船級或廠牌的標準符號。"
     ],
     "verification": {
-      "status": "source_checked",
+      "status": "verified_with_scope",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "主動式減搖鰭原理",
+          "item": "位置及減少橫搖原理",
           "result": "pass",
-          "note": "補入感測器、控制器、致動器及鰭片水動力升力。"
+          "note": "說明水下翼片及水動力反向力矩。"
         },
         {
-          "item": "被動式及主動式區別",
-          "result": "pass",
-          "note": "區分固定阻尼裝置與即時控制的主動鰭。"
+          "item": "種類與零航速效能",
+          "result": "verified_with_scope",
+          "note": "依系統設計分類，避免將所有鰭片視為相同型式。"
         },
         {
-          "item": "固定／可收放及Zero-Speed功能",
+          "item": "港內收放限制",
           "result": "pass",
-          "note": "說明安裝分類與控制分類不同，Zero-Speed為特定設計功能。"
+          "note": "依個船手冊及水域條件判斷，不設通用規則。"
         }
       ]
     },
@@ -2214,8 +2259,8 @@
     "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【2027年考試主答｜引水人橋樓資源管理（BRM-P）】\n\n一、BRM-P的意義\nBRM-P（Bridge Resource Management for Pilots）是以引水人為核心的橋樓資源管理訓練，重點在有效運用船長、引水人、值班駕駛員、拖船、VTS、導航設備及其他資訊資源，建立共同情境認知並降低人為失誤。BRM-P是訓練概念及課程設計，不是單一IMO公約條文或固定課程名稱。\n\n二、訓練主要內容\n1. **角色與責任：**說明船長、引水人及駕駛臺團隊的責任界線；引水人提供地方知識及操船建議，但不取代船長責任。\n2. **MPX：**登輪後交換船舶操縱性能、航行計畫、航道水深、潮汐、風流、交通、拖船、VTS頻道、UKC、轉向點及中止方案。\n3. **溝通及閉環確認：**使用標準海事通信用語，明確下達車鐘、舵令及拖船指令，要求複誦並確認執行。\n4. **情境認知：**整合雷達、ECDIS、GNSS、目視、AIS、測深及VTS資訊，避免單一設備或單一人員過度依賴。\n5. **團隊合作及領導：**建立挑戰與回應文化，鼓勵團隊成員提出疑慮，避免權威梯度及語言差異造成沉默。\n6. **決策及風險評估：**辨識碰撞、擱淺、失去動力、拖船失效、強風橫流及狹水道風險，設定中止點與備用方案。\n7. **人因管理：**訓練疲勞、壓力、工作負荷、情緒及注意力管理。\n8. **拖船與VTS協調：**明確拖船位置、BP、拖纜、工作頻道、港口交通排序及緊急通報程序。\n\n三、訓練方式\n1. **課堂講授：**IMO引水建議、COLREG、當地港規、BRM及人因工程。\n2. **模擬器訓練：**強風、橫流、低能見度、超大型船、特殊推進器、拖船協同、主機或舵機失效、靠離泊中止及緊急應變。\n3. **案例研討：**分析碰撞、擱淺、拖船失效、登輪事故及近失事件，找出溝通、情境認知及決策缺失。\n4. **實船觀察與教練制度：**由資深引水人觀察新進人員MPX、操船指令、VTS及拖船協調，提供回饋。\n5. **評量及複訓：**以模擬器情境、溝通表現、風險評估及事故案例分析進行評量，並定期複訓。\n\n四、BRM-P的目標\n- 建立船長、引水人及駕駛臺團隊的共同情境認知。\n- 減少溝通誤解、錯誤假設及單一人員決策風險。\n- 及早發現船舶偏離計畫或操縱設備異常。\n- 強化拖船、VTS及港口服務間的協同。\n- 提升引水人辨識風險、提出異議及中止不安全作業的能力。\n\n結論：BRM-P透過MPX、閉環通訊、情境認知、團隊合作、決策、人因及模擬器訓練，使引水人能有效整合橋樓及港口資源；核心是合作與交叉監控，而不是取代船長指揮權。",
-    "practicalAnalysis": "本題特別問BRM-P沿革與精神，宜將CRM人因管理背景、IMO A.960(23)引水人BRM訓練及MPX連起來。不能把BRM-P寫成引水人單方面指揮制度；它的核心是共享資訊、互相監控、保留船長責任及鼓勵安全質疑。",
+    "modelAnswer": "【2027年主答｜BRM-P計畫的沿革與精神】\n\n一、**名詞及沿革**\nBRM（Bridge Resource Management）是整合駕駛台人員、船舶設備、資訊及外部支援資源，以降低人為因素與團隊協作失誤造成的航行風險。其人因管理理念受到航空業CRM（Crew Resource Management）發展影響。航海事故顯示，事故往往不只是操船技術問題，也可能涉及情境覺察不足、溝通失敗、工作負荷、疲勞及權威梯度。\n\nIMO於2003年通過A.960(23)，就引水人訓練、認證及作業程序提出建議，強調引水人與船長及駕駛台團隊間的資訊交換、合作及BRM訓練。\n\n**BRM-P**在本題脈絡可理解為將BRM原則運用於引水作業的計畫及執行方式；它不是IMO另行制定的一部公約，也不應在缺乏特定港口文件佐證下，宣稱各國均採用同一套正式BRM-P制度。\n\n二、**精神主旨**\n1. 情境覺察：共享船位、航向、速度、交通、風流、潮汐、UKC、航道限制及設備狀態。\n2. 角色與責任明確：引水人提供地方知識及領航建議；船長與值班駕駛員仍須履行船舶安全責任，持續監控並適時提出質疑。\n3. 有效溝通：使用明確標準海事用語，操船指令採回讀確認（closed-loop communication）。\n4. 團隊監控：交叉核對船位、航向、速度、舵令、車令、雷達、ECDIS及預定航跡。\n5. 工作負荷管理：合理分配操船、瞭望、通訊及記錄工作。\n6. 預先計畫與備援：確認航路、轉向點、速度、UKC、拖船、錨泊及失去舵／主機等緊急方案。\n7. 鼓勵安全質疑：任何成員發現偏離計畫或不安全狀況，均應及時提出，不因職位或權威而壓抑安全訊息。\n\n三、**引水作業實施**\n登輪後進行MPX，交換船舶操縱資料、航路計畫、港口限制、拖船配置及緊急程序；確認各人角色、通訊方式及監控分工。航行中持續核對計畫與實際船位，遇到風流、交通或設備異常即時修正，作業後檢討偏差及近失事件。\n\n結論：BRM-P的核心是把BRM人因與團隊管理原則落實於引水作業，重點為共享情境覺察、明確責任、閉環溝通、交叉監控、工作負荷管理及預先應變。BRM-P不應被誤寫為IMO獨立公約或全球統一法定計畫名稱。",
+    "practicalAnalysis": "釐清BRM-P名稱的法規地位，補入A.960(23)、MPX及引水實務執行步驟。",
     "keyPoints": [
       {
         "point": "由航空CRM人因管理概念發展至航海BRM",
@@ -2283,6 +2328,30 @@
         "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
         "supports": "最新船舶交互作用、拖船與受限水域風險案例，可納入BRM-P情境訓練。",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "sourceType": "technical_reference",
+        "issuer": "Official / technical source",
+        "supports": "引水人訓練、MPX及駕駛台團隊合作。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO International Safety Management (ISM) Code",
+        "url": "https://www.imo.org/en/ourwork/humanelement/pages/ismcode.aspx",
+        "sourceType": "technical_reference",
+        "issuer": "Official / technical source",
+        "supports": "安全管理制度、船上責任及持續改善背景。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "STCW Convention and Code",
+        "url": "https://www.imo.org/en/ourwork/humanelement/pages/stcw-conv-link.aspx",
+        "sourceType": "technical_reference",
+        "issuer": "Official / technical source",
+        "supports": "船員能力及橋樓團隊訓練背景。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -2294,19 +2363,24 @@
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "BRM-P角色及責任",
-          "result": "pass",
-          "note": "依IMO A.960(23)區分船長、引水人及駕駛臺團隊責任。"
-        },
-        {
-          "item": "MPX、閉環通訊及情境認知",
-          "result": "pass",
-          "note": "整理核心訓練內容與具體執行方式。"
-        },
-        {
-          "item": "BRM-P正式課綱地位",
+          "item": "BRM及CRM發展背景",
           "result": "verified_with_scope",
-          "note": "明確標示為訓練概念與課程設計，不宣稱是IMO單一法定課程。"
+          "note": "說明人因管理發展脈絡，不虛構單一創始年份。"
+        },
+        {
+          "item": "IMO A.960(23)引水人BRM建議",
+          "result": "pass",
+          "note": "依IMO決議確認引水人訓練及團隊合作。"
+        },
+        {
+          "item": "BRM-P名稱及法規地位",
+          "result": "pass",
+          "note": "標示為本題脈絡中的計畫化實施概念，不稱獨立IMO公約。"
+        },
+        {
+          "item": "MPX與閉環溝通",
+          "result": "pass",
+          "note": "補入可執行的溝通、監控及備援流程。"
         }
       ]
     },
@@ -2318,8 +2392,8 @@
     "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【2027年考試主答｜Steerage Way（舵效速度）】\n\n一、定義\nSteerage Way是船舶具有足夠相對水流通過舵面，使舵能產生足夠水動力及操舵效果，以維持或改變船舶航向的最低實用速度。它不是所有船舶共通的固定節數，而是依船舶設計、舵型、螺槳、載況及環境而變。\n\n二、影響因素\n1. **船舶速度：**通常對水速度（STW）越高，舵面水動力越大；但過高速度會增加轉向半徑及操船風險。\n2. **舵型及面積：**舵面積、舵角、舵型、舵後流場及舵效設計均影響操舵能力。\n3. **螺槳排流：**即使船舶對地速度很低，主機運轉仍可能使螺槳流通過舵面，提供部分舵效；不同推進器及舵配置差異很大。\n4. **載況及吃水：**船舶吃水、縱傾、舵浸水深度及船體遮蔽會影響舵面受流。\n5. **風流：**橫風及橫流可能使船舶偏離航跡；SOG不等於STW，不能只看GPS速度判斷舵效。\n6. **淺水及船體交互作用：**淺水、岸壁、會船及拖船交互作用可能改變船舶反應。\n\n三、實務判斷\n1. 舵效應依本船Pilot Card、Manoeuvring Booklet及實際操作經驗判斷，不使用固定「最低舵效速度」套用所有船舶。\n2. 在強流中，船舶SOG可能很高但STW很低，舵效可能不足；反之，船舶對地速度接近零時，若螺槳排流足夠，舵仍可能有一定效力。\n3. 低速接近碼頭時，應在維持足夠舵效與避免過高靠泊速度間取得平衡。\n4. 若舵效不足，應依船舶設備及操縱計畫使用主機、側推器、拖船及錨等輔助措施；不得突然大車或大舵角而造成失控。\n\n結論：Steerage Way是使舵面獲得足夠水流、能有效控制航向的最低實用速度，沒有通用固定數值；應依STW、舵型、螺槳排流、載況及風流等條件判斷。",
-    "practicalAnalysis": "引水人最容易混淆的是SOG、STW與舵效。舵只感受到舵面附近的水流，而非GPS顯示的對地速度；螺槳排流、橫流及推進器型式都會改變最低舵效速度。",
+    "modelAnswer": "【2027年主答｜Steerage Way】\n\n一、**定義**\nSteerage way是船舶具有足夠水流通過舵面，使舵產生足夠水動力以維持或改變船舶航向的狀態。它不是所有船舶通用的固定節數，也不等於GPS顯示的對地速度（SOG）。\n\n二、**作用原理**\n1. 舵力主要與舵面附近的相對水流速度、舵面積、舵角、舵型及流場有關。\n2. 船舶前進時，水流通過舵面產生升力；螺槳排流亦可能提高舵面流速，因此即使船舶對地速度很低，只要舵面仍有足夠水流，仍可能具有舵效。\n3. 若船舶對地速度較高但受強流影響，船舶對水速度及舵面流場可能與SOG不同，不能只看GPS速度判斷舵效。\n\n三、**影響因素**\n1. 船舶對水速度（STW）及舵面相對水流。\n2. 主機與螺槳：轉速、排流方向、CPP／FPP、單槳或雙槳配置及舵與螺槳位置。\n3. 舵的面積、舵型、舵角、舵機反應及舵面狀況。\n4. 船型、吃水、縱傾、載況及艉部流場。\n5. 水深、淺水效應、岸壁效應、橫流及船舶交互作用。\n6. 風、浪、潮流及船舶既有前進／迴轉慣性。\n7. 推進系統型式，如傳統舵、雙舵、側推器或吊艙式推進器。\n\n四、**操船應用**\n進港、狹水道及靠泊時，應維持足夠舵效，同時避免速度過高而增加停船距離、Squat及交互作用風險。順流、逆流及橫流下，SOG與STW差異可能很大。低速操船應依個船特性配合主機排流、拖船或側推器；若舵效不足或舵機故障，依船舶應急程序評估備用操縱方式及拖船支援。\n\n五、**Steerage Way與Minimum Steerage Speed**\nSteerage way描述船舶已具有足夠舵效的狀態；minimum steerage speed則是特定船舶在特定載況、推進配置及環境條件下，維持所需舵效的最低速度。須依個船操縱手冊、海試資料及實際環境判斷，沒有通用固定值。\n\n結論：Steerage way是舵面具有足夠相對水流以產生有效舵力的狀態；判斷應看舵面流場及船舶對水運動，不能只看SOG。",
+    "practicalAnalysis": "強調舵面水流而非GPS速度，區分Steerage way與minimum steerage speed，並補充個船操縱資料。",
     "keyPoints": [
       {
         "point": "Steerage way是足夠水流通過舵面以維持操舵效果",
@@ -2372,6 +2446,30 @@
         "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.601%2815%29.pdf",
         "supports": "船舶操縱資料及個船操縱性能資訊。",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "MGN 301 (M) Amendment 1 — Manoeuvring information onboard ships",
+        "url": "https://www.gov.uk/government/publications/mgn-301-mf-amendment-1-manoeuvring-information-onboard-ships",
+        "sourceType": "technical_reference",
+        "issuer": "Official / technical source",
+        "supports": "個船操縱資料及不同載況下操縱性能。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "MGN 199 (M) Amendment 1 — Danger of interaction",
+        "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
+        "sourceType": "technical_reference",
+        "issuer": "Official / technical source",
+        "supports": "淺水、狹窄水域及船舶交互作用風險。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "sourceType": "technical_reference",
+        "issuer": "Official / technical source",
+        "supports": "引水作業程序及船舶操縱資訊交換。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -2383,19 +2481,24 @@
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "Steerage Way定義",
+          "item": "Steerage way定義",
           "result": "pass",
-          "note": "以舵面足夠水動力及最低實用速度定義。"
+          "note": "以舵面相對水流及有效舵力定義。"
         },
         {
           "item": "SOG與STW區別",
           "result": "pass",
-          "note": "補充強流下SOG與舵效可能不一致。"
+          "note": "指出GPS對地速度不能直接代表舵面流速。"
         },
         {
-          "item": "通用固定最低速度",
+          "item": "螺槳排流與舵效",
           "result": "pass",
-          "note": "確認無適用所有船舶的固定節數，須依個船資料。"
+          "note": "說明低速時螺槳排流可能維持舵效。"
+        },
+        {
+          "item": "最低舵效速度",
+          "result": "pass",
+          "note": "不給通用固定節數，依個船手冊及海試資料判斷。"
         }
       ]
     },
@@ -2407,8 +2510,8 @@
     "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【2027年考試主答｜Wash Damage（船舶洗流／尾流造成的損害）】\n\n一、定義\nWash Damage是船舶航行或操縱時所產生的水流及波浪，對附近船舶、碼頭、岸壁、海床、繫纜及港口設施造成的損害。常見來源包括：\n1. **Propeller Wash／Propeller Jet：**螺旋槳產生的高速湍流及噴流，可能沖刷海床、碼頭基礎及岸坡。\n2. **Ship-generated Waves／Wake：**船體前進造成的艏波、艉波及尾流，使鄰近繫泊船舶產生縱搖、橫搖及繫纜受力。\n3. **Return Flow及吸流：**船體排水造成回流及局部壓力變化，可能使靠泊船舶向航道或碼頭移動。\n4. **高功率操船排流：**船舶靠離泊時大車、倒俥、舵後流、側推器或拖船推力，可能集中沖擊岸壁、浮筒、海床及鄰船。\n\n二、可能造成的損害\n1. 繫泊船舶大幅移動，造成繫纜斷裂、纜樁損壞、舷梯脫落或船體碰撞碼頭。\n2. 碼頭護舷、繫船柱、浮筒及登船設施受損。\n3. 螺旋槳噴流造成海床沖刷（scour）、基礎淘空、岸坡或護岸破壞。\n4. 小型船、工作船、浮台及水上作業人員受尾流影響，增加翻覆或落水風險。\n5. 浮泥及底質被攪動，可能造成局部水深改變或水質混濁。\n\n三、預防措施\n1. **速度管理：**依港口規定及水域條件控制航速，避免過速及不必要的大功率操船；但仍須維持足夠舵效，不可低於安全操縱所需速度。\n2. **主機及推進器控制：**在碼頭、淺水區及鄰近繫泊船舶處，避免長時間高轉速、急倒俥及將螺旋槳噴流直接指向岸壁或海床。\n3. **航道及距離：**與繫泊船、浮筒、岸壁及水上設施保持適當距離，避免在狹窄水域近距離高速通過。\n4. **拖船協助：**需要大幅橫移或轉向時，善用拖船及側推器，減少主機大功率排流對岸壁及鄰船的影響。\n5. **港口管理：**訂定船舶安全速度、尾流限制、通過大型繫泊船舶的距離及通報程序；必要時安排鄰泊船舶加強繫纜。\n6. **設施防護：**碼頭設計及維護應考慮propeller wash沖刷，適當設置護底、拋石、消波及基礎防淘刷設施。\n7. **作業通報：**若發現鄰船繫纜受力異常、岸壁沖刷或設施受損，應立即通報VTS及港務單位。\n\n四、引水實務\n大型船舶在狹窄港池、淺水及碼頭附近操船時，須同時考慮船體波浪、螺旋槳噴流及回流。低速不代表完全沒有wash；船舶停留在原地而大車操船時，propeller wash仍可能對碼頭基礎造成強烈沖刷。應依本船推進器、舵及側推器配置，選擇適當操船方式。\n\n結論：Wash Damage主要來自船舶螺旋槳噴流、船體波浪、尾流及回流，可能損害繫泊船舶、碼頭設施及海床。預防重點是速度及推力管理、保持安全距離、善用拖船、設施防淘刷及即時通報。",
-    "practicalAnalysis": "Washing damage不是只有螺槳水流沖壞物件，也包含船行波與水位變化引起的繫泊船運動及岸坡沖刷。操船上要在「減少洗流」與「維持舵效及安全操縱」之間取得平衡，不能為了減少排流而任意失去操縱能力。",
+    "modelAnswer": "【2027年主答｜Washing Damage及應變措施】\n\n一、**意義**\n在港池及近岸操船脈絡，Washing damage通常指船舶螺槳排流（propeller wash／jet）、船行波及船體通過造成的水流與水位變化，對鄰近船舶、碼頭、護岸、浮筒、繫纜、海床或水下設施造成沖刷、拉扯、碰撞或其他損害。實際事故可能同時涉及數種水動力作用，不宜將所有損害都歸因於螺槳排流。\n\n二、**主要作用機制**\n1. 螺槳排流：螺槳產生高速射流，近距離朝向碼頭、護岸、繫泊船、小艇或海床，可能造成局部沖刷、繫纜受力、設備損壞或小船失控。\n2. 船行波：船舶通過產生的波浪可能使繫泊船上下及橫向運動，增加纜繩、護舷及繫泊設備負荷。\n3. 水位下降及回升（drawdown and return flow）：船舶通過狹窄水域時，可能造成局部水位變化與回流，使鄰近船舶向岸壁或航道方向移動。\n4. 淺水及受限水域效應：水深及側向空間受限時，船體周圍流速與壓力分布改變，可能加劇船行波、回流及船舶交互作用。\n\n三、**疑慮發生時的措施**\n1. 及早評估並依港口規定及安全操縱需求減速，避免不必要的大車、急倒車及高轉速排流；但不得為減少洗流而降至失去舵效或安全操縱能力。\n2. 與碼頭、護岸、繫泊船、小艇、浮筒及水下設施保持適當距離，考慮船寬、吃水、航道寬度及操縱性能。\n3. 平順操作推進器，避免突然增加螺槳轉速或長時間朝向敏感設施排流；必要時以拖船協助，降低主機大車及側推器排流造成的局部影響。\n4. 與VTS、拖船、碼頭及附近船舶通聯，提醒可能受船行波或排流影響者；水域或設施狀況不適合通過時，依程序等待或改變計畫。\n5. 靠離泊時確認拖船位置、繫纜及浮筒安全，避免推進器排流直接衝擊碼頭、護舷、鄰船或水下設施。\n6. 若已造成損害或近失事件，通報相關單位，檢查繫纜、護舷、碼頭及可能受影響設施，保存時間、位置、車鐘、船速及風流資料。\n\n四、**引水人應掌握的原則**\n控制船速與推進器排流時，必須同時顧及舵效、停船距離、Squat、船舶交互作用及港口規定。不能只為降低洗流而突然停車、任意倒車或採取可能使船舶失去操縱能力的動作。\n\n結論：Washing damage主要涉及螺槳排流、船行波、水位變化及受限水域回流對周邊設施或船舶造成的損害。處置重點是適當減速、保持距離、平順控制推力、與VTS及周邊單位協調，同時維持足夠舵效與安全操縱能力。",
+    "practicalAnalysis": "區分螺槳排流、船行波及水位回流，補足操船措施並提醒不能為降低洗流而犧牲舵效。",
     "keyPoints": [
       {
         "point": "螺槳高速排流可能沖擊碼頭、浮筒、繫纜、鄰船及海床",
@@ -2489,6 +2592,30 @@
         "url": "https://www.nsw.gov.au/driving-boating-and-transport/boating-and-marine/waterways-safety-and-rules/rules/wash",
         "supports": "船舶wash對繫泊船、岸邊設施及水上作業的損害及速度管理。",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "MGN 199 (M) Amendment 1 — Danger of interaction",
+        "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
+        "sourceType": "technical_reference",
+        "issuer": "Official / technical source",
+        "supports": "船舶交互作用、淺水及受限水域水動力風險。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "PIANC — Harbour Approach Channels Design Guidelines",
+        "url": "https://www.pianc.org/publications",
+        "sourceType": "technical_reference",
+        "issuer": "Official / technical source",
+        "supports": "港口航道及船舶通過效應的工程背景。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "sourceType": "technical_reference",
+        "issuer": "Official / technical source",
+        "supports": "引水作業安全溝通、計畫及合作。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -2496,23 +2623,28 @@
       "Washing damage不是單一標準化事故分類，各港口對洗流、船行波、螺槳排流的定義可能略有差異；本答案按港池及碼頭附近常見水動力損害作答。"
     ],
     "verification": {
-      "status": "source_checked",
+      "status": "verified_with_scope",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "Wash Damage定義及來源",
-          "result": "pass",
-          "note": "區分propeller wash、船體波浪、尾流及回流。"
+          "item": "Washing damage機制",
+          "result": "verified_with_scope",
+          "note": "區分螺槳排流、船行波及水位回流，避免混為單一機制。"
         },
         {
-          "item": "可能損害及預防措施",
+          "item": "減速及推進器操作",
           "result": "pass",
-          "note": "補入繫纜、碼頭、海床沖刷及速度／推力管理。"
+          "note": "降低不必要排流，但不得犧牲舵效及安全操縱。"
         },
         {
-          "item": "工程沖刷研究",
+          "item": "VTS及周邊單位協調",
           "result": "pass",
-          "note": "納入2024年碼頭岸壁與流場交互作用研究。"
+          "note": "補入通報、警示、等待及事故後檢查紀錄。"
+        },
+        {
+          "item": "港口與船型差異",
+          "result": "verified_with_scope",
+          "note": "速度、距離及推力操作無通用數值，依港規及個船資料判斷。"
         }
       ]
     },
