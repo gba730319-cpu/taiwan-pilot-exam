@@ -97,7 +97,7 @@
       "IMO MSC.232(82)為本題核心性能標準；實船設備可能另依後續適用的IEC測試標準及型式認可版本，介面文字與警報呈現可能不同。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -117,7 +117,7 @@
         },
         {
           "item": "不同型號ECDIS介面與型式認證",
-          "result": "verified_with_scope",
+          "result": "partially_verified",
           "note": "實際介面與警報呈現依船上設備型號及型式認證；答案採性能標準層級整理。"
         }
       ]
