@@ -2,11 +2,11 @@
   {
     "id": "98-pilotage-01",
     "questionId": "98-pilotage-01",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "chart_or_drawing",
     "modelAnswer": "【一、記深沉船（Wreck, depth known）】\n\n- IHO海圖圖例主要符號：K22，Submerged wreck, depth known（已知水深之水下沉船）。\n- 圖上以沉船符號標示沉船位置，並在旁標註已知水深；若題目所指的是「沉船最淺深度僅由測深取得」，則應使用K26（Wreck, least depth known by sounding only）；若最淺深度經拖網或潛水員掃測確認，則為K27。\n- 航海意義：表示該位置存在沉船，水深資料已知，但仍須依海圖危險線、周圍水深及本船吃水判斷安全通過距離。\n\n【二、不礙航沉船（Non-dangerous wreck）】\n\n- 若指沉船殘骸或其他海床障礙物，對一般水面航行不構成危險，但錨泊、拖網等作業應避免，IHO圖例為K31（Remains of a wreck or other foul ground, non-dangerous to navigation but to be avoided by vessels anchoring, trawling etc.）。\n- 若指完整沉船但最淺深度不明，海圖認為其覆水深度通常足以讓一般水面船舶通過，則可能使用K29（Wreck, least depth unknown）；但K29不代表對所有船舶均安全，深吃水船舶仍可能有危險。\n- 因此，考題若以「不礙航沉船」描述殘骸或非危險障礙物，應答K31；若圖例指的是深水中最淺深度不明之沉船，則須依K29及海圖註記判讀。\n\n【三、漲潮流（附速度）（Flood tidal stream with rate）】\n\n- IHO海圖圖例：H40。\n- 以箭頭表示漲潮流流向，箭頭旁標註流速，通常以節（knots）表示；依圖例註記，所標數值可能表示大潮時瞬間最大流速。\n- 航海意義：箭頭尖端表示潮流流去的方向，速度數值表示流速大小，不是風速，也不是船舶對地航速。\n- 操船時應依當地潮流表、潮流圖及潮時判斷流向、流速與轉流時間，並將潮流向量納入航跡及速度計算。\n\n【四、人工漁礁（Fish haven／Artificial reef）】\n\n- IHO海圖圖例：K46.1，Fish haven（人工魚礁／漁業資源保護礁區）；若另標示最小水深，則可使用K46.2。\n- 海圖以特定礁區範圍或點位符號標示人工設置之魚礁或漁業資源保護區，並可能附註名稱、範圍或水深。\n- 航海意義：人工魚礁可能形成水下障礙物或限制漁業作業區，船舶應依海圖標示及地方公告保持安全距離，避免擱淺、碰撞或錨泊拖網造成損害。\n\n【五、50公尺不到底（No bottom found at depth shown）】\n\n- IHO海圖圖例：I13。\n- 圖上以水深數字「50」上方加橫線及小點（上橫線、點號）表示，意即測深至50公尺仍未觸底。\n- 航海意義：50公尺是測深時已達到的深度，並非海床確切深度；實際水深大於50公尺，海圖不得將其解讀為海床恰在50公尺處。\n- 船舶航行時應依周圍等深線、測深資料品質及海圖註記判斷，不能把「不到底」當作已測得的精確水深。\n\n【整理表】\n\n| 題目名稱 | IHO圖例代碼 | 英文名稱／圖示意義 | 航海判讀 |\n|---|---|---|---|\n| 記深沉船 | K22；特定情況K26／K27 | Submerged wreck, depth known | 沉船位置及水深已知；依危險線與最淺深度判斷 |\n| 不礙航沉船 | 通常K31；深水未知沉船另有K29 | Wreck remains / non-dangerous wreck | 一般水面航行不構成危險，但仍可能限制錨泊、拖網或深吃水船 |\n| 漲潮流附速度 | H40 | Flood tidal stream with rate | 箭頭示流向，數字示流速（knots） |\n| 人工漁礁 | K46.1／K46.2 | Fish haven | 標示人工魚礁及可能之最小水深 |\n| 50公尺不到底 | I13 | No bottom found at depth shown | 測深至50m仍未觸底，實際水深大於50m |\n\n【結論】\n\n本題應熟記五個海圖符號的代碼及航海意義：沉船K22（最淺深度由測深取得時K26）、不礙航沉船殘骸K31、漲潮流附速度H40、人工魚礁K46.1、不到底水深I13。特別注意K29與K31的差異，以及I13的50公尺是測深未觸底的深度，不是海床確切深度。",
-    "practicalAnalysis": "本題圖例辨識，建議以「符號代碼＋英文名稱＋中文意義＋航海注意事項」作答。IHO標準代碼：K22已知水深水下沉船；K26最淺深度僅由測深取得；K27最淺深度經拖網／潛水掃測；K31沉船殘骸或污底，對一般航行不危險但應避免錨泊拖網；K29則為最淺深度未知的沉船，通常覆水較深但深吃水船仍可能有危險；H40漲潮流附流速；K46.1人工魚礁；I13不到底。題目「不礙航沉船」若未附圖，須說明K31與K29依圖例語境區別，避免過度武斷。",
+    "practicalAnalysis": "本題圖例辨識，建議以「符號代碼＋英文名稱＋中文意義＋航海注意事項」作答。IHO標準代碼：K22已知水深水下沉船；K26最淺深度僅由測深取得；K27最淺深度經拖網／潛水掃測；K31沉船殘骸或污底，對一般航行不危險但應避免錨泊拖網；K29則為最淺深度未知的沉船，通常覆水較深但深吃水船仍可能有危險；H40漲潮流附流速；K46.1人工魚礁；I13不到底。題目「不礙航沉船」若未附圖，須說明K31與K29依圖例語境區別，避免過度武斷。\n2027備考複核：以現行IHO／我國官方海圖圖例及航海標準為主；歷史海圖版本只保留辨識提醒，不作為現行航行依據。",
     "keyPoints": [
       {
         "point": "記深沉船：K22，已知水深之水下沉船；最淺深度僅由測深取得為K26，掃測確認為K27。",
@@ -84,6 +84,22 @@
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=703&code=098090&q=2&s=c721&t=Q",
         "pageOrSection": "引港學第一題",
         "supports": "確認原題五項海圖符號。"
+      },
+      {
+        "title": "刊物第一種《海圖圖例》第九版",
+        "url": "https://navy.mnd.gov.tw/Files/Others/01_%E6%B5%B7%E5%9C%96%E5%9C%96%E4%BE%8B.pdf",
+        "issuer": "Official / technical source",
+        "sourceType": "technical_reference",
+        "supports": "我國現行官方海圖圖例，核對K22、K26、K27、K29、K31、H40、K46.1及I13符號及定義。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IHO INT 1 Edition 9",
+        "url": "https://iho.int/en/standardization-of-nautical-publications",
+        "issuer": "Official / technical source",
+        "sourceType": "technical_reference",
+        "supports": "現行國際海圖圖例標準及符號分類。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [
@@ -123,19 +139,24 @@
           "item": "50m不到底",
           "result": "pass",
           "note": "依Chart 1 Section I核對I13為No bottom found at depth shown，水深數值上方有橫線及點號。"
+        },
+        {
+          "item": "2027現行標準適用性",
+          "result": "pass",
+          "note": "補入現行海圖圖例、IHO標準及航海計算參考資料。"
         }
       ]
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   },
   {
     "id": "98-pilotage-02",
     "questionId": "98-pilotage-02",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "definition",
     "modelAnswer": "【一、海圖基準（Datum）之意義】\n\n題目所稱「基點標註」依海圖航海語境，較合理解讀為海圖基準（Chart Datum／Datum）的標示。海圖上之位置、水深、乾出高度及陸上物體高度，都必須相對於明確基準才有意義。海圖基準主要分為水平基準（Horizontal Datum）及垂直基準（Vertical Datum）；垂直基準又須區分水深基準面與高度基準面。\n\n【二、海圖基準之標註方法】\n\n（一）水平基準（Horizontal Datum）\n1. 在海圖標題欄或圖廓註記中，標明經緯度所依據之大地基準，例如World Geodetic System 1984（WGS-84）。\n2. 若海圖採用地方大地基準，應註明基準名稱及與WGS-84之坐標差或改正量，供GPS／GNSS定位資料與海圖坐標互相轉換。\n3. 使用舊版海圖或外國海圖時，仍須確認其坐標基準，不可假設所有海圖均與GPS顯示一致。\n\n（二）水深基準面（Chart Datum／Sounding Datum）\n1. 在海圖標題欄或圖廓註記中，標明海圖水深之起算面，例如約最低低潮面、最低天文潮（LAT）或該區域採用之地方基準面。\n2. 海圖所標水深是由水深基準面向下量至海床之垂直距離；潮位高於基準面時，實際水深應加上當時潮高。\n3. 若海圖採用不同區域或不同年代之水深基準面，應於圖廓或資料來源註記中明確標示，避免不同測量資料混用。\n\n（三）高度基準面（Height Datum）\n1. 陸上地形高程、燈塔高度、橋梁淨空及其他架空物高度，應註明其起算基準面，例如平均海面（Mean Sea Level, MSL）或平均大潮高潮面（Mean High Water Springs, MHWS）。\n2. 乾出高度（Drying Height）通常以水深基準面為起算面；燈高、橋梁淨空及陸上高程則可能採不同高度基準面，應依海圖註記判讀。\n3. 海圖應清楚標明高度單位及基準面，避免把水深基準與陸上高度基準混為一談。\n\n（四）基準點（Benchmark, BM）及潮位資料連結\n1. 在岸上選定穩固且不易變動之永久基準點，測定其高程並設置基準點標誌。\n2. 潮位站以水尺或潮位儀觀測潮位，並將觀測水位與岸上基準點高程連結，建立當地潮位基準。\n3. 海圖或相關潮汐資料應註明基準面名稱、基準點資料、採用年代或基準面改正資訊，使不同測量及潮位資料能在同一垂直基準下比較。\n\n【三、海圖基準標註之重要性】\n\n1. 確保水深判讀正確：依海圖水深、當時潮高及船舶吃水計算實際水深及富餘水深（UKC），避免擱淺。\n2. 正確判斷乾出礁及淺灘：乾出高度以特定基準面起算，基準面不明可能造成高潮、低潮時露出情形判斷錯誤。\n3. 確保GPS／GNSS定位與海圖一致：水平基準不同會產生坐標偏差，未改正可能使船舶定位錯誤，尤其接近航道邊界、礁石或岸線時風險更高。\n4. 正確計算橋梁及架空電纜淨空：高度基準不同會造成空高計算錯誤，可能導致桅杆、天線或吊臂碰撞。\n5. 確保潮汐預報與海圖水深可互相配合：潮汐表、潮位站及海圖必須使用可追溯的基準面，才能正確換算潮高及實際水深。\n6. 不同海圖及測量資料可互相比較：明確標註基準面及基準年代，可避免不同國家、測量年代或區域的水深資料產生系統性差異。\n7. 提升航海安全及海圖更新品質：有助於海道測量、海圖改版、電子海圖資料整合及航行風險評估。\n\n【四、我國海圖基準補充】\n\n依海軍大氣海洋局《海圖圖例》第九版說明，我國海圖主要採用WGS-84衛星定位坐標系統；水深基準面採約最低低潮面，部分區域亦可能沿用原始資料來源之地方基準面。海圖所載水深為水深基準面以下之水深，通常以公尺表示；高度則依海圖註記採平均海面或原始資料基準面，燈高另依其指定基準面計算。\n\n【結論】\n\n海圖基準應在標題欄或圖廓註記中清楚標示水平大地基準、水深基準面及高度基準面，必要時補充基準點、基準年代及坐標改正量。其重要性在於確保海圖定位、水深、潮高、乾出高度及架空物淨空計算正確，避免因基準面不同造成定位偏差、UKC誤算及擱淺或碰撞事故。",
-    "practicalAnalysis": "本題20分，先說明datum是海圖資料的共同起算基準。至少分成水平基準（WGS-84）、水深基準面（Chart Datum／約最低低潮面或LAT）及高度基準面（MSL、MHWS等）。標註位置在海圖標題欄或圖廓註記；必要時註明地方基準、坐標改正量及基準年代。重要性連結GPS定位、潮高加算實際水深、UKC、乾出礁及橋梁淨空。若題目「基點」特指岸上Benchmark，補充固定基準點與潮位站的高程連結方式。",
+    "practicalAnalysis": "本題20分，先說明datum是海圖資料的共同起算基準。至少分成水平基準（WGS-84）、水深基準面（Chart Datum／約最低低潮面或LAT）及高度基準面（MSL、MHWS等）。標註位置在海圖標題欄或圖廓註記；必要時註明地方基準、坐標改正量及基準年代。重要性連結GPS定位、潮高加算實際水深、UKC、乾出礁及橋梁淨空。若題目「基點」特指岸上Benchmark，補充固定基準點與潮位站的高程連結方式。\n2027備考複核：以現行IHO／我國官方海圖圖例及航海標準為主；歷史海圖版本只保留辨識提醒，不作為現行航行依據。",
     "keyPoints": [
       {
         "point": "海圖基準應於標題欄或圖廓註記中標明，至少區分水平大地基準、垂直水深基準及高度基準。",
@@ -211,6 +232,22 @@
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=703&code=098090&q=2&s=c721&t=Q",
         "pageOrSection": "引港學第二題",
         "supports": "確認原題要求說明海圖基點標註法及其重要性。"
+      },
+      {
+        "title": "IHO S-4 Edition 4.10.0 — Chart Specifications of the IHO",
+        "url": "https://iho.int/uploads/user/pubs/standards/s-4/S-4%20Ed%204.10.0_FINAL.pdf",
+        "issuer": "Official / technical source",
+        "sourceType": "technical_reference",
+        "supports": "水平基準、水深基準面、高度基準面及海圖圖廓註記要求。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "刊物第一種《海圖圖例》第九版",
+        "url": "https://navy.mnd.gov.tw/Files/Others/01_%E6%B5%B7%E5%9C%96%E5%9C%96%E4%BE%8B.pdf",
+        "issuer": "Official / technical source",
+        "sourceType": "technical_reference",
+        "supports": "我國海圖採用WGS-84及水深／高度基準標註說明。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [
@@ -249,19 +286,24 @@
           "item": "重要性及航安應用",
           "result": "pass",
           "note": "核對GPS坐標轉換、UKC、潮高、乾出礁及橋梁淨空之應用。"
+        },
+        {
+          "item": "2027現行標準適用性",
+          "result": "pass",
+          "note": "補入現行海圖圖例、IHO標準及航海計算參考資料。"
         }
       ]
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   },
   {
     "id": "98-pilotage-03",
     "questionId": "98-pilotage-03",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "definition",
     "modelAnswer": "【一、Inversion Layer（逆溫層）】\n一般對流層氣溫隨高度增加通常降低；逆溫層則是氣溫在某一大氣層內隨高度增加反而升高。常由夜間地面輻射冷卻、下沉氣流或鋒面結構造成，使大氣垂直穩定度增加、抑制上下混合，容易使霧、煙塵及污染物滯留近地面；配合高濕度時可能造成能見度不良，影響瞭望及進出港安全。\n\n【二、ITCZ（Intertropical Convergence Zone，熱帶輻合帶）】\nITCZ為赤道附近南北半球信風及季風氣流匯合之低壓帶，低層空氣輻合上升，形成旺盛對流，常伴隨積雨雲、雷雨、陣雨及陣風，近地面風力可能較弱或方向不定，俗稱Doldrums。ITCZ隨太陽直射點及季節南北移動，北半球夏季通常北移、冬季南移。航行時應注意雷雨、強陣風、短時強降雨、能見度及風向不穩定。\n\n【三、Sea Breeze and Land Breeze（海風與陸風）】\n1. 海風：白天陸地受太陽加熱較快，陸地上方暖空氣上升，較冷海面空氣由海上流向陸地，形成海風，通常午後較明顯。\n2. 陸風：夜間陸地散熱較快，陸地溫度低於海面，近地面空氣由陸地流向海面，形成陸風，通常夜間至清晨較明顯。\n海陸風屬局部環流，會受季風、背景風、地形及雲量影響；港口及沿岸航行須注意局部風向、風速變化。\n\n【四、Occluded Front（錮囚鋒／囚錮鋒）】\n溫帶氣旋發展時，移動較快的冷鋒追上暖鋒，使暖區暖空氣被迫抬升離開地面，形成錮囚鋒。冷鋒後方空氣較冷者為冷式錮囚鋒；若冷鋒後方空氣較暖、沿前方較冷空氣上方爬升，則為暖式錮囚鋒。錮囚鋒附近常有廣泛雲系、持續降雨或降雪、風向轉變及氣壓變化，航行時須注意鋒面通過前後風、浪及能見度改變。\n\n【五、Sweating of Ship's Hull（船體流汗／船體結露）】\n船體流汗是暖濕空氣接觸低於其露點溫度的冷船體鋼板、艙壁或艙內結構時，水氣凝結成水珠並附著於船體或艙壁內側。常見於船舶由寒冷海域航行至溫暖潮濕海域，船體仍維持低溫時，可能使貨物受潮、包裝損壞或金屬貨物鏽蝕。\n須與Cargo Sweat（貨物流汗）區分：Ship's Sweat凝結在冷船體／艙壁；Cargo Sweat凝結在較冷貨物表面。預防方法是監測艙內外溫度、濕度及露點；只有外界空氣露點低於貨物或冷表面溫度、通風確實有利除濕時才通風；若外界露點較高，應關閉艙口並使用除濕或其他防潮措施。\n\n【結論】\n逆溫層抑制垂直混合；ITCZ為信風輻合上升的多雨雷暴帶；海風白天海吹陸、陸風夜間陸吹海；錮囚鋒為冷鋒追上暖鋒使暖空氣抬升；船體流汗為暖濕空氣接觸低於露點之冷船體表面而結露。",
-    "practicalAnalysis": "本題20分，五個名詞各4分。Inversion layer：氣溫隨高度反而上升，穩定大氣、抑制混合；ITCZ：南北信風輻合上升，對流雷雨多、風弱不定；海風白天海吹陸、陸風夜間陸吹海；Occluded front：冷鋒追上暖鋒、暖空氣被抬升；Ship's sweat：暖濕空氣接觸低於露點的冷船體／艙壁而凝結。必須區分Ship's sweat與Cargo sweat，並說明露點通風原則。",
+    "practicalAnalysis": "本題20分，五個名詞各4分。Inversion layer：氣溫隨高度反而上升，穩定大氣、抑制混合；ITCZ：南北信風輻合上升，對流雷雨多、風弱不定；海風白天海吹陸、陸風夜間陸吹海；Occluded front：冷鋒追上暖鋒、暖空氣被抬升；Ship's sweat：暖濕空氣接觸低於露點的冷船體／艙壁而凝結。必須區分Ship's sweat與Cargo sweat，並說明露點通風原則。\n2027備考複核：以現行IHO／我國官方海圖圖例及航海標準為主；歷史海圖版本只保留辨識提醒，不作為現行航行依據。",
     "keyPoints": [
       {
         "point": "Inversion layer：氣溫隨高度增加反而上升，形成穩定層並抑制垂直混合，可能使霧及污染物滯留。",
@@ -338,6 +380,38 @@
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=703&code=098090&q=2&s=c721&t=Q",
         "pageOrSection": "引港學第三題",
         "supports": "確認原題五項氣象及貨物照管名詞。"
+      },
+      {
+        "title": "NOAA JetStream — Atmospheric Stability and Inversions",
+        "url": "https://www.noaa.gov/jetstream",
+        "issuer": "Official / technical source",
+        "sourceType": "technical_reference",
+        "supports": "逆溫層與大氣穩定度之氣象背景。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "NOAA — Intertropical Convergence Zone",
+        "url": "https://www.noaa.gov/education/resource-collections/weather-atmosphere",
+        "issuer": "Official / technical source",
+        "sourceType": "technical_reference",
+        "supports": "ITCZ信風輻合及對流降雨背景。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Met Office — Occluded Fronts",
+        "url": "https://www.metoffice.gov.uk/weather/learn-about/weather/types-of-weather/fronts/occluded-front",
+        "issuer": "Official / technical source",
+        "sourceType": "technical_reference",
+        "supports": "錮囚鋒形成及冷式／暖式錮囚鋒。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Gard P&I — Ventilation and Sweat",
+        "url": "https://www.gard.no/web/updates/content/20882958/cargo-sweat-and-ship-sweat",
+        "issuer": "Official / technical source",
+        "sourceType": "technical_reference",
+        "supports": "Ship's sweat與Cargo sweat區別及露點通風原則。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [
@@ -376,19 +450,24 @@
           "item": "船體流汗",
           "result": "pass",
           "note": "依Gard P&I貨物照管資料核對Ship's Sweat、Cargo Sweat及露點通風原則。"
+        },
+        {
+          "item": "2027現行標準適用性",
+          "result": "pass",
+          "note": "補入現行海圖圖例、IHO標準及航海計算參考資料。"
         }
       ]
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   },
   {
     "id": "98-pilotage-04",
     "questionId": "98-pilotage-04",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
     "modelAnswer": "【一、麥卡托投影（Mercator Projection）之定義】\n\n麥卡托投影又稱等角圓柱投影（Conformal Cylindrical Projection），由Gerardus Mercator於1569年提出。其原理是將地球表面經緯度位置依數學關係投影至與地球相切於赤道的圓柱面，再將圓柱展開成平面海圖。為保持等角性，緯線間距須隨緯度增加而逐漸放大。\n\n其主要幾何特性如下：\n1. 經線：在圖上表示為互相平行、等距的垂直直線。\n2. 緯線：表示為互相平行的水平直線，並與經線成直角。\n3. 緯線間距：由赤道向南北兩極逐漸增加，愈接近兩極，間距愈大。\n4. 投影性質：屬等角投影，局部角度及小範圍形狀可保持正確；但面積及距離並非全圖等比例。\n5. 航向線：等角航線（Rhumb Line／Loxodrome）在麥卡托海圖上呈直線，且與各經線保持相同角度。\n\n球面麥卡托投影之基本公式可表示為：\n\n\\[\nx=R\\lambda\n\\]\n\n\\[\ny=R\\ln\\tan\\left(\\frac{\\pi}{4}+\\frac{\\varphi}{2}\\right)\n\\]\n\n其中R為地球半徑，\\(\\lambda\\)為經度（弧度），\\(\\varphi\\)為緯度（弧度）。其局部比例尺因子約為：\n\n\\[\nk=\\sec\\varphi=\\frac{1}{\\cos\\varphi}\n\\]\n\n因此緯度愈高，比例尺放大愈明顯；兩極因比例尺趨近無限大，無法在一般麥卡托投影圖上表示。\n\n【二、麥卡托海圖之優點】\n\n（一）等角性良好\n麥卡托投影可保持局部角度及小範圍形狀，船舶在局部海域量測方位、航向及轉向角度較方便。\n\n（二）等角航線為直線\n船舶以固定真航向航行時，其航跡為等角航線；在麥卡托海圖上呈直線，可直接使用量角器量取航向，方便航線規劃及操船。\n\n（三）經緯線呈直角網格\n經線為平行垂直直線，緯線為平行水平直線，兩者互相垂直，便於標繪經緯度、定位及量測航向。\n\n（四）適合一般海洋及沿岸航行\n多數一般航海海圖採用麥卡托投影，航海人員熟悉其圖式，便於航線標繪、定位及與電子海圖系統配合。\n\n（五）方便航向及距離量測\n航向可由等角航線直線量取；距離則可在航線中分緯度附近的緯度刻度上量測，較符合一般航海作業需求。\n\n【三、麥卡托海圖之缺點】\n\n（一）高緯度面積及距離變形大\n緯度愈高，比例尺愈大；高緯度地區在圖上被嚴重放大，面積及距離容易產生錯誤直覺，不能直接用全圖固定比例尺量距。\n\n（二）兩極無法表示\n緯度接近90度時，投影比例尺趨近無限大，南北兩極無法表示，因此不適合極區及高緯度航行之小比例尺總圖。\n\n（三）大圓航線不是直線\n兩點間最短距離通常為大圓航線（Great Circle／Orthodrome），在麥卡托海圖上除赤道及經線等特殊情況外，通常呈曲線；若直接以直線連接兩點，得到的是等角航線，不一定是最短航程。\n\n（四）全圖比例尺不一致\n同一張海圖不同緯度位置之比例尺不同，量測距離時應使用航線中分緯度附近的緯度刻度，不能直接使用圖上任意位置的比例尺。\n\n（五）不適合呈現全球面積分布\n因高緯度面積被放大，不適合用來比較各地區實際面積大小或作全球地理面積分析。\n\n【四、航海實務之使用方法】\n\n1. 標繪等角航線時，將出發點及目的地連線，量取該直線與經線之夾角，即可取得等角航線之真航向。\n2. 若計畫航行大圓航線，應先利用心射投影圖（Gnomonic Chart）將大圓航線畫成直線，再將航線轉換為若干航點，逐段標繪於麥卡托海圖，以便實際操船。\n3. 在麥卡托海圖量測距離時，應於航線中分緯度附近的緯度刻度量取；緯度1分約等於1海里，但應依海圖比例及位置正確讀取。\n4. 高緯度航行應特別注意比例尺變形，必要時使用適合極區之投影海圖。\n\n【結論】\n\n麥卡托投影為等角圓柱投影，其最大優點是等角航線在圖上呈直線，且經緯線互相垂直，方便航向量取、定位及一般航線規劃；缺點是緯度愈高比例尺愈大、面積及距離變形愈嚴重，兩極無法表示，且大圓最短航線在圖上通常為曲線。因此適合一般海洋及沿岸航行，但高緯度及極區航行須配合其他投影海圖使用。",
-    "practicalAnalysis": "本題20分。定義要寫「等角圓柱投影」及圓柱展開；特性要寫經線平行等距、緯線平行且與經線垂直、緯線間距往兩極增加、等角航線為直線。優點以航向量取及定位方便為核心；缺點以高緯度比例尺及面積失真、兩極無法表示、大圓航線為曲線、量距需用中分緯度刻度為核心。可加比例尺因子k=secφ及投影公式加強專業度。",
+    "practicalAnalysis": "本題20分。定義要寫「等角圓柱投影」及圓柱展開；特性要寫經線平行等距、緯線平行且與經線垂直、緯線間距往兩極增加、等角航線為直線。優點以航向量取及定位方便為核心；缺點以高緯度比例尺及面積失真、兩極無法表示、大圓航線為曲線、量距需用中分緯度刻度為核心。可加比例尺因子k=secφ及投影公式加強專業度。\n2027備考複核：以現行IHO／我國官方海圖圖例及航海標準為主；歷史海圖版本只保留辨識提醒，不作為現行航行依據。",
     "keyPoints": [
       {
         "point": "麥卡托投影是等角圓柱投影，圓柱通常與赤道相切後展開為平面。",
@@ -454,6 +533,22 @@
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=703&code=098090&q=2&s=c721&t=Q",
         "pageOrSection": "引港學第四題",
         "supports": "確認原題要求說明麥卡托投影及其優缺點。"
+      },
+      {
+        "title": "NOAA Nautical Chart Manual",
+        "url": "https://ocsdata.ncd.noaa.gov/mcs/02_ncm_vol1.pdf",
+        "issuer": "Official / technical source",
+        "sourceType": "technical_reference",
+        "supports": "Mercator投影、等角航線及航海圖量測原則。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IHO S-4 Edition 4.10.0",
+        "url": "https://iho.int/uploads/user/pubs/standards/s-4/S-4%20Ed%204.10.0_FINAL.pdf",
+        "issuer": "Official / technical source",
+        "sourceType": "technical_reference",
+        "supports": "現行海圖投影、比例尺及航海圖製圖標準。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [
@@ -486,19 +581,24 @@
           "item": "大圓航線",
           "result": "pass",
           "note": "依NOAA海圖投影資料核對大圓航線在麥卡托圖上通常呈曲線。"
+        },
+        {
+          "item": "2027現行標準適用性",
+          "result": "pass",
+          "note": "補入現行海圖圖例、IHO標準及航海計算參考資料。"
         }
       ]
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   },
   {
     "id": "98-pilotage-05",
     "questionId": "98-pilotage-05",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "calculation",
     "modelAnswer": "【一、已知條件】\n\n起點：0800 DR，緯度00°00′N、經度120°00′E。\n\n航行順序：\n1. 航向000°，航程1,800浬。\n2. 轉向090°，航程1,800浬。\n3. 轉向180°，航程1,800浬。\n\n假設航向為真航向，航程為對水或對地計算之理想航程，忽略風、流、羅經差、航速誤差及其他外力。\n\n【二、第一段：航向000°，北航1,800浬】\n\n沿經線向北航行，1分緯度約等於1浬。\n\n\\[\n\\Delta Lat=\\frac{1800}{60}=30^\\circ\n\\]\n\n起點緯度00°00′N，向北增加30°：\n\n\\[\nLat_1=00^\\circ00'N+30^\\circ00'=30^\\circ00'N\n\\]\n\n經度不變：\n\n\\[\nLong_1=120^\\circ00'E\n\\]\n\n第一段終點：30°00′N，120°00′E。\n\n【三、第二段：航向090°，沿30°N向東航行1,800浬】\n\n本段沿緯線航行，使用平行航法（Parallel Sailing）：\n\n\\[\nD=\\Delta Long\\times60\\times\\cos Lat\n\\]\n\n因此：\n\n\\[\n\\Delta Long=\\frac{D}{60\\cos Lat}\n\\]\n\n代入D=1,800浬、Lat=30°N：\n\n\\[\n\\Delta Long=\\frac{1800}{60\\times\\cos30^\\circ}\n\\]\n\n\\[\n=\\frac{1800}{60\\times0.8660254}\n=34.6410^\\circ\n\\]\n\n換算為度分：\n\n\\[\n0.6410^\\circ\\times60=38.46'\n\\]\n\n所以：\n\n\\[\n\\Delta Long\\approx34^\\circ38.46'\n\\]\n\n向東航行，經度增加：\n\n\\[\nLong_2=120^\\circ00'E+34^\\circ38.46'\n=154^\\circ38.46'E\n\\]\n\n緯度仍為30°00′N。\n\n第二段終點：30°00′N，154°38.46′E。\n\n【四、第三段：航向180°，南航1,800浬】\n\n沿經線向南航行：\n\n\\[\n\\Delta Lat=\\frac{1800}{60}=30^\\circ\n\\]\n\n由30°00′N向南減少30°：\n\n\\[\nLat_3=30^\\circ00'N-30^\\circ00'=00^\\circ00'\n\\]\n\n經度不變：\n\n\\[\nLong_3=154^\\circ38.46'E\n\\]\n\n【五、最後到達位置】\n\n\\[\n\\boxed{00^\\circ00'N\\quad154^\\circ38.46'E}\n\\]\n\n換算至秒約為：\n\n\\[\n\\boxed{00^\\circ00'00''N\\quad154^\\circ38'28''E}\n\\]\n\n【六、答案檢核】\n\n1. 第一段北航1,800浬，緯度由00°N增加至30°N。\n2. 第二段在30°N沿緯線東航1,800浬，經度增加34°38.46′，不是直接以1,800/60=30°計算；因緯線長度隨緯度增加而縮短，故經度差必須除以cos30°。\n3. 第三段南航1,800浬，緯度由30°N回到00°N，經度維持不變。\n4. 因航線沒有跨越180°經線，經度仍以東經表示。\n\n【結論】\n\n本船最後到達位置為：\n\n\\[\n\\boxed{Lat\\ 00^\\circ00'N,\\quad Long\\ 154^\\circ38.46'E}\n\\]\n\n本題關鍵是第二段須使用平行航法，不能將1,800浬直接換算成30°經度；在30°N緯度上，經度差應為34°38.46′。",
-    "practicalAnalysis": "本題20分，三段航程中第一、三段沿經線，1,800浬各代表30°緯度；第二段沿30°N緯線向東，必須用平行航法D=ΔLong×60×cosL，因此ΔLong=1800/(60cos30°)=34°38.46′。最後緯度回到00°N，經度由120°E增加至154°38.46′E。最常見錯誤是把第二段1,800浬直接當成30°經度，漏掉cos30°修正。",
+    "practicalAnalysis": "本題20分，三段航程中第一、三段沿經線，1,800浬各代表30°緯度；第二段沿30°N緯線向東，必須用平行航法D=ΔLong×60×cosL，因此ΔLong=1800/(60cos30°)=34°38.46′。最後緯度回到00°N，經度由120°E增加至154°38.46′E。最常見錯誤是把第二段1,800浬直接當成30°經度，漏掉cos30°修正。\n2027備考複核：以現行IHO／我國官方海圖圖例及航海標準為主；歷史海圖版本只保留辨識提醒，不作為現行航行依據。",
     "keyPoints": [
       {
         "point": "第一段沿經線北航1,800浬，緯度增加1,800/60=30°，到30°00′N、120°00′E。",
@@ -549,6 +649,14 @@
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=703&code=098090&q=2&s=c721&t=Q",
         "pageOrSection": "引港學第五題",
         "supports": "確認原題起點、三段航向及各段航程。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch), 2019 Edition",
+        "url": "https://msi.nga.mil/api/publications/download?key=16693975%2FSFH00000%2FBowditch_Vol_1_LoRes_2019.pdf",
+        "issuer": "Official / technical source",
+        "sourceType": "technical_reference",
+        "supports": "平行航法、經緯度換算及航海計算公式。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [
@@ -583,9 +691,14 @@
           "item": "最後位置",
           "result": "pass",
           "note": "00°00′N、154°38.46′E，換算約154°38′28″E。"
+        },
+        {
+          "item": "2027現行標準適用性",
+          "result": "pass",
+          "note": "補入現行海圖圖例、IHO標準及航海計算參考資料。"
         }
       ]
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   }
 ]
