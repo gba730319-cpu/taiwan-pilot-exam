@@ -1,0 +1,661 @@
+[
+  {
+    "id": "094-kaohsiung-waterway-01-answer-v1",
+    "questionId": "94-kaohsiung-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、題目條件與操船核心】\n本船約3,000 GT，繫泊於高雄港第25號浮筒附近，並已下雙錨；西北風5級，僅有一艘1,800 HP拖船協助。任務不是單純解纜或起錨，而是要在有限拖船能力下，先解除錨泊／浮筒繫泊限制，再建立可控制的船首向、船位與出港航向。\n\n西北風表示風由西北吹向東南，船舶會受到向東南的風壓及偏移趨勢；但實際風壓方向、船體受風面積與錨鏈受力，仍須依當時船艏向、裝載狀態及浮筒位置判斷，不能僅憑風向指定拖船固定位置。\n\n【二、作業前準備】\n1. 與船長交換資料：船長、船寬、吃水、乾舷、裝載狀態、主機／舵機／側推器狀況、錨鏈節數、錨鏈方向與受力、浮筒繫纜方式、船艏向及預定出港航路。\n2. 確認雙錨實際狀態：左右錨是否均已著底、錨鏈是否交叉或纏繞、各錨鏈出鏈方向、是否有一錨承受主要風力，以及起錨機是否可正常操作。\n3. 與VTS確認第25號浮筒周邊交通、出港許可、航道使用及附近船舶動態；確認拖船抵達、拖纜、拖點、通訊頻道及緊急解拖信號。\n4. 評估風力、陣風、流向、潮位、可用迴旋水域、附近船舶及岸壁距離；若風力超出拖船或船舶操縱能力，應延後作業或請求增加拖船。\n\n【三、建議操船程序】\n（一）先建立拖船控制與船舶動力\n- 拖船先與引水人確認拖帶位置、拖纜長度及受力方向。拖船位置應以能抵抗西北風造成的偏移、又不妨礙起錨及浮筒解纜為原則；究竟置於船艏、船艉或迎風側，須依船艏向及出港方向決定。\n- 主機、舵機及操舵控制先測試妥當。船舶尚受雙錨限制時，不可用大車強行拉扯錨鏈或浮筒繫纜。\n（二）逐一解除雙錨\n- 由船長及艏樓回報兩錨錨鏈方向與受力。通常先處理較易起錨、且不會使船舶失去主要控制的錨；另一錨保持適當制約，避免船舶在風壓下突然漂移。\n- 逐步收鏈至短鏈、確認錨鏈方向與受力變化，再依引水人指令收妥第一錨。不得在錨鏈仍受大力時急速起錨，也不得讓錨鏈橫越另一錨鏈或拖船拖纜。\n- 第一錨收妥後，利用拖船及主機控制船位，再收第二錨。錨離底、錨離水及錨收妥須分別回報；不可把「錨已離底」誤認為「錨已收妥」。\n（三）解除浮筒繫泊並脫離\n- 依浮筒繫泊方式及當時受力，安排船艏／船艉繫纜逐條鬆解，保留最後一道控制纜或拖船控制，避免船舶突然被風推離或向浮筒回擺。\n- 浮筒繫纜完全解除並確認清爽後，拖船以平順拖力協助船舶轉向至安全出港航向；主機及舵效逐步接手，避免拖船與船舶主機互相對抗。\n- 船舶離開浮筒及錨泊區後，確認錨已固定、拖纜已安全解脫、船位及航向穩定，再依VTS指示進入航道。\n\n【四、拖船與風力控制要點】\n1,800 HP是主機額定功率，不等於實際可用拖力（bollard pull）。應確認拖船證書或操作資料、拖纜角度、拖船吃水及海況；不得直接將馬力換算成固定噸數拖力。拖船須避免橫拖過度、拖纜擦碰錨鏈、船殼或浮筒。\n\n【五、停止／中止條件】\n若錨鏈交叉、錨被拖曳、起錨機異常、拖纜受力超限、拖船失去位置、船舶向鄰船或浮筒失控漂移、主機／舵機故障，應立即停止起錨或解纜，先恢復安全控制，必要時重新下錨、重新繫回浮筒或請求增派拖船。\n\n【結論】\n本題得分重點為雙錨受力判斷、逐錨安全起錨、拖船先建立控制、浮筒繫纜依序解除、風壓下保持船位及依VTS管制出港。由於未取得2005年第25號浮筒配置圖與該船錨泊方向，答案不指定固定拖船位置、先收左錨或右錨及固定車舵時序。",
+    "practicalAnalysis": "本題20分，建議依「資料交換與風流判斷—拖船控制—雙錨起錨—浮筒解纜—脫離與出港—中止條件」順序作答。風向西北風5級只能判斷風由西北吹向東南，不能在缺少船艏向、浮筒相對位置與錨鏈方向時武斷指定拖船應在某一舷。另須區分拖船馬力與實際繫柱拉力；拖船協同應使用清楚口令、拖纜負荷監控及緊急解拖程序。",
+    "keyPoints": [
+      {
+        "point": "明確說明NW風的來向與風壓偏移，並指出須依船艏向、錨鏈方向判斷。",
+        "importance": "essential"
+      },
+      {
+        "point": "確認雙錨錨鏈方向、受力、交叉及起錨設備狀況。",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船先建立可控船位，再逐一收錨及解除浮筒繫纜。",
+        "importance": "essential"
+      },
+      {
+        "point": "錨離底、錨離水、錨收妥分開確認，避免錨鏈與拖纜交纏。",
+        "importance": "supporting"
+      },
+      {
+        "point": "1,800 HP不等於固定拖力，應核對bollard pull及拖船操作限制。",
+        "importance": "supporting"
+      },
+      {
+        "point": "列出錨鏈受力異常、拖纜超限、主機舵機故障等中止條件。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "94年甲種引水人（高雄港）當地水道港灣詳情官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國94年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=343&code=094080&q=1&s=1001&t=Q",
+        "pageOrSection": "第1至7題",
+        "supports": "題目原文及考試年度。"
+      },
+      {
+        "title": "高雄港船舶航行規定",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "supports": "現行港內航行安全、VTS管制、航道及信號規定；僅作現行原則參考，不回推2005年歷史細節。"
+      },
+      {
+        "title": "The Shiphandler's Guide for Masters and Navigating Officers, Pilots and Tug Masters",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "editionOrEffectiveDate": "2nd edition, 2000",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "風流效應、拖船協同、靠離泊、船舶旋轉支點及速度控制原理。"
+      }
+    ],
+    "assumptions": [
+      "題目所稱「第25號浮筒下雙錨」依字面理解為船舶在浮筒附近以雙錨協助繫泊；實際錨泊與繫浮筒配置須由當時港圖及船長確認。",
+      "以2005年考試年度的港區情境作答；現行VTS規定僅作一般安全原則參考。"
+    ],
+    "limitations": [
+      "未取得2005年高雄港第25號浮筒配置、錨位、潮流及該船錨泊方向資料，故不提供固定起錨舷側、拖船位置及操車時序。",
+      "本答案為依操船原理整理的參考擬答，非官方標準答案。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部94年高雄港地方題原卷",
+          "result": "pass",
+          "note": "已逐字核對考選部官方原卷題目。"
+        },
+        {
+          "item": "2005年高雄港歷史港圖、碼頭設施與作業資料",
+          "result": "partial",
+          "note": "未取得完整2005年港區配置圖、歷史碼頭竣工圖或個別船舶操船紀錄；不以現況資料冒充當年資料。"
+        },
+        {
+          "item": "操船原理與安全程序",
+          "result": "pass",
+          "note": "依船舶操縱、拖船協同、繫泊及港內航行安全原理整理；具體操作仍須依本船操縱資料、現場風流與VTS指示修正。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "094-kaohsiung-waterway-02-answer-v1",
+    "questionId": "94-kaohsiung-waterway-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、條件分析】\n本船為8,000 GT半載貨櫃船，由高雄港第二港口進港，預定右舷靠第118號碼頭；東北風5級，配置一艘1,800 HP拖船。半載貨櫃船通常具有較大的上層受風面積，風壓中心較高；東北風由東北吹向西南，可能造成船舶橫向漂移及艏艉偏轉。其究竟屬於靠岸風或離岸風，須依第118號碼頭岸線方向判斷，不能只憑「東北風」三字決定拖船推、拉方向。\n\n【二、進港前準備】\n1. 與船長確認船長、船寬、吃水、半載貨櫃堆疊高度、風壓面積、主機／舵機／側推器狀況、螺槳旋向、倒俥性能及停船距離。\n2. 確認第118號碼頭可用泊位長度、實際水深、潮位、岸壁及護舷配置、繫纜樁位置、前後鄰船、碼頭作業及障礙物。須使用當年或最新核准資料，不以其他碼頭水深代替。\n3. 向VTS申請進港，確認第二港口交通、迴船池狀況、航道管制、前船間距、拖船作業及靠泊時間。\n4. 與拖船船長交換船舶資料及靠泊計畫，確認拖船實際bollard pull、拖纜、拖點、作業頻道及緊急解拖信號。1,800 HP僅為馬力資料，不能直接當作拖力噸數。\n\n【三、進港與靠泊程序】\n（一）第二港口進港\n- 依VTS許可及港口信號進港，保持安全速度與規定間距，進港前完成主機、舵機、錨機及通訊測試。\n- 通過防波堤及航道轉向段時，注意風壓、側推、淺水效應、岸壁效應與船舶交會；不因拖船已到位而提高進港速度。\n- 進入可操縱水域後，逐步降低對地速度（SOG），同時確認對水速度（STW）及舵效。若風力使船舶偏移，應及早修正，不可等到接近碼頭才以大舵角或大拖力補救。\n（二）拖船配置\n- 拖船宜配置在能有效控制船舶橫移與艏艉偏轉的位置。若東北風為離岸風，拖船可能需協助將船舶推向碼頭並控制外漂；若為靠岸風，則應預先保留拖船制動及拉離能力，防止船舶被風推向碼頭。\n- 拖船究竟採艏拖、艉拖、推頂或拉帶，應依船艏向、碼頭走向、拖船到達側及船舶操縱特性決定。不可在沒有港圖時寫死「拖船必須在左艏」或固定拖點。\n- 拖船應以漸進、可調節的力量工作，避免拖力突然變化造成船舶艏艉急轉；接近碼頭時保持拖纜角度與安全距離，避免拖船進入船艏盲區或受船體擠壓。\n（三）右舷靠泊\n- 依泊位方向建立適當接近角，控制船艏與船艉的橫向速度，使船舶以低速、近乎平行方式接近碼頭。船艏與船艉應分別監控，避免一端先撞岸而另一端仍有前進速度。\n- 以主機、舵及拖船配合控制船舶前進／後退與橫移；船舶接近碼頭時以小量、短時間修正為原則，避免過度操舵及大車造成螺槳排流衝擊碼頭或鄰船。\n- 右舷靠妥後，依船長與碼頭人員指示先建立控制纜，再逐步帶妥艏纜、艉纜、前倒纜及後倒纜／橫纜；確認繫纜受力均勻，並注意風力持續變化及船舶縱向移動。\n\n【四、風、流及船體效應】\n東北風5級對半載貨櫃船的影響可能顯著，須考慮上層貨櫃受風面積、風壓中心、陣風、碼頭遮蔽及岸線方向。進入狹水域時，船舶可能出現岸壁吸引、岸壁反彈、淺水效應及船艉偏移；船速愈高，這些效應及碰撞能量通常愈大。不可僅以風級作決策，應持續觀察實際船位與風速。\n\n【五、安全界線與中止條件】\n若進港速度無法控制、拖船未能保持預定位置、風力超出拖船能力、泊位被占用、前後距離不足、VTS改變交通管制，或主機／舵機／錨機異常，應停止接近，利用剩餘水域減速、等待、重新定位或退出，不可勉強靠泊。\n\n【結論】\n本題答題重點為半載貨櫃船受風面積大、東北風與碼頭相對方向判讀、第二港口VTS管制、單艘拖船的有效配置、低速平行靠泊及中止條件。",
+    "practicalAnalysis": "20分題應強調「風向與碼頭岸線的相對關係」而非只背東北風的固定操作。船舶半載、貨櫃堆疊及乾舷會改變風壓；1,800 HP拖船能力須以實際bollard pull、拖纜及拖船位置評估。題目未給船長、船寬、吃水、碼頭軸向、泊位水深及拖船位置，因此以條件式操船程序作答，避免捏造靠泊航向、拖點或俥舵時序。",
+    "keyPoints": [
+      {
+        "point": "說明半載貨櫃船上層受風面積大，風壓對橫移及艏艉偏轉的影響。",
+        "importance": "essential"
+      },
+      {
+        "point": "判斷東北風相對第118號碼頭是靠岸風或離岸風，不能直接假設。",
+        "importance": "essential"
+      },
+      {
+        "point": "進港前確認第二港口VTS、航道、泊位水深、潮位、鄰船與護舷。",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船依風向、船艏向及泊位幾何配置，1,800 HP不等於固定拖力。",
+        "importance": "supporting"
+      },
+      {
+        "point": "接近碼頭控制橫向速度與艏艉差速，以低速近乎平行方式靠泊。",
+        "importance": "supporting"
+      },
+      {
+        "point": "列明風力超限、拖船失位、泊位受阻及機械故障時的中止方案。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "94年甲種引水人（高雄港）當地水道港灣詳情官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國94年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=343&code=094080&q=1&s=1001&t=Q",
+        "pageOrSection": "第1至7題",
+        "supports": "題目原文及考試年度。"
+      },
+      {
+        "title": "高雄港船舶航行規定",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "supports": "現行港內航行安全、VTS管制、航道及信號規定；僅作現行原則參考，不回推2005年歷史細節。"
+      },
+      {
+        "title": "The Shiphandler's Guide for Masters and Navigating Officers, Pilots and Tug Masters",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "editionOrEffectiveDate": "2nd edition, 2000",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "風流效應、拖船協同、靠離泊、船舶旋轉支點及速度控制原理。"
+      }
+    ],
+    "assumptions": [
+      "第118號碼頭的岸線方向、2005年泊位水深與設施須以歷史港圖及當年碼頭資料確認。",
+      "題目未給船舶尺度及實際拖船bollard pull，故不作定量拖力或速度計算。"
+    ],
+    "limitations": [
+      "未取得2005年第118號碼頭歷史配置圖、岸線方位、泊位水深及拖船作業紀錄。",
+      "本答案不指定固定進港航向、拖船左右舷位置或車舵時序。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部94年高雄港地方題原卷",
+          "result": "pass",
+          "note": "已逐字核對考選部官方原卷題目。"
+        },
+        {
+          "item": "2005年高雄港歷史港圖、碼頭設施與作業資料",
+          "result": "partial",
+          "note": "未取得完整2005年港區配置圖、歷史碼頭竣工圖或個別船舶操船紀錄；不以現況資料冒充當年資料。"
+        },
+        {
+          "item": "操船原理與安全程序",
+          "result": "pass",
+          "note": "依船舶操縱、拖船協同、繫泊及港內航行安全原理整理；具體操作仍須依本船操縱資料、現場風流與VTS指示修正。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "094-kaohsiung-waterway-03-answer-v1",
+    "questionId": "94-kaohsiung-waterway-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、第28號碼頭的特殊構造】\n本題關鍵在於辨識第28號碼頭並非可直接假設為一般連續重力式岸壁。高雄港第27、28號碼頭後續整建工程資料記載，拆除既有27、28號碼頭之「樁欉結構」，保留既有護岸板樁並納入改建。這項工程資料可支持舊碼頭具有樁欉式／樁基支承結構的特徵；但未取得2005年竣工圖，不能進一步斷言每一排樁的尺寸、間距、承載力或護舷型式。\n\n樁基或樁欉式碼頭與連續實心岸壁不同，碼頭面板由水中樁基支承，船舶接觸碼頭時的局部受力可能集中於護舷、樁基及其連接構件；若船舶以過大橫向速度碰撞，可能造成護舷、樁、梁或碼頭面損傷。題目所稱「特殊處」應著重結構型式與船舶接觸時的受力特性，而非只描述碼頭用途。\n\n【二、1,000總噸重載船靠泊前評估】\n1. 確認船舶實際排水量、吃水、縱傾、船寬、船艏外飄、船艉突出物、舷側結構及靠泊速度；總噸位（GT）不是排水量，不能以1,000 GT直接計算碰撞能量。\n2. 查明碼頭設計船型、核准靠泊範圍、護舷型式及額定吸能量、護舷間距、樁基位置、碼頭水深及水下障礙物；確認船舶接觸區有足夠護舷覆蓋，避免船體直接撞擊樁柱或梁構件。\n3. 評估潮位、風流、船舶接近角、船速及拖船能力；重載船排水量大、慣性大，減速與停止所需距離不可只看總噸位。\n\n【三、靠泊操船措施】\n（一）控制接近速度與角度\n- 採低速、可隨時停止的接近速度，盡量以船體縱向平行碼頭方式接近，避免以船艏或船艉尖角先行碰撞。\n- 橫向速度應特別低，並隨接近距離逐步降低；船舶接觸護舷時應避免殘餘前進速度與橫向速度同時過大。\n- 如風流造成船艏或船艉偏轉，及早使用主機、舵及拖船修正，避免靠近後才大幅施力。\n（二）使用拖船及繫纜\n- 依泊位設計及船舶尺度配置拖船，拖力應作用於適當拖點，並避免拖船推頂在無法承受集中負荷的船體部位。\n- 先建立控制纜，逐步帶妥艏艉纜及倒纜，避免以繫纜強拉船體撞向碼頭；監控各纜受力及碼頭繫纜樁負荷。\n- 靠妥後確認護舷壓縮量、船體與碼頭間隙、舷側外板、舷梯及裝卸設備安全。\n（三）避免排流及水下損害\n- 不在接近樁基及碼頭水下構件時任意大車倒俥或大角度操舵，避免螺槳排流沖刷碼頭基礎、船底或鄰近船舶；必要時採拖船控制橫移。\n- 若碼頭護舷損壞、樁基暴露、靠泊區有施工或水深異常，應停止靠泊並向港方確認。\n\n【四、碰撞能量與風險概念】\n船舶靠泊時需吸收的橫向動能可用概念式表示：\n\n$$E=\\\\frac{1}{2}m v_n^2$$\n\n其中m為船舶有效質量（實務上還須考慮附加水質量），v_n為垂直碼頭方向的接觸速度。可見接觸速度加倍，動能約增為四倍；因此降低橫向速度比單純依賴碼頭護舷更重要。實際設計吸能量應由碼頭工程資料及護舷規格確認，不能僅憑GT推算。\n\n【結論】\n第28號碼頭舊構造可依整建工程資料描述為樁欉／樁基支承特徵；重載船靠泊應查明樁基與護舷配置、控制橫向接觸速度、採平行靠泊、妥善使用拖船及繫纜，並避免螺槳排流與船體直接碰撞水下構件。",
+    "practicalAnalysis": "本題20分，前半段要回答「結構特殊處」，後半段要把結構型式連結到重載船靠泊風險。已找到港務工程承攬商對27、28號碼頭整建工程的說明，指出拆除既有樁欉結構並保留護岸板樁；此可作為舊碼頭樁基結構的佐證，但仍缺2005年竣工圖，不能把樁距、樁徑、護舷數值寫成已查證事實。碰撞能量公式是答題的物理原理，GT不能取代排水量。",
+    "keyPoints": [
+      {
+        "point": "指出第28號碼頭舊有樁欉／樁基支承結構特徵，並說明與連續實心岸壁不同。",
+        "importance": "essential"
+      },
+      {
+        "point": "說明樁基、梁板及護舷受力，船舶直接撞擊可能造成局部結構損傷。",
+        "importance": "essential"
+      },
+      {
+        "point": "靠泊前查明設計船型、護舷額定吸能量、樁基位置、水深與靠泊範圍。",
+        "importance": "essential"
+      },
+      {
+        "point": "重載船應控制接近角及橫向速度，以平行、低速方式接觸護舷。",
+        "importance": "supporting"
+      },
+      {
+        "point": "使用拖船與繫纜控制船位，不以繫纜強拉船體撞岸。",
+        "importance": "supporting"
+      },
+      {
+        "point": "GT不是排水量；碰撞能量與有效質量及接觸速度平方有關。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "94年甲種引水人（高雄港）當地水道港灣詳情官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國94年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=343&code=094080&q=1&s=1001&t=Q",
+        "pageOrSection": "第1至7題",
+        "supports": "題目原文及考試年度。"
+      },
+      {
+        "title": "高雄港船舶航行規定",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "supports": "現行港內航行安全、VTS管制、航道及信號規定；僅作現行原則參考，不回推2005年歷史細節。"
+      },
+      {
+        "title": "The Shiphandler's Guide for Masters and Navigating Officers, Pilots and Tug Masters",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "editionOrEffectiveDate": "2nd edition, 2000",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "風流效應、拖船協同、靠離泊、船舶旋轉支點及速度控制原理。"
+      },
+      {
+        "title": "高雄港第四船渠碼頭及護岸整建工程",
+        "sourceType": "engineering_project",
+        "issuer": "永覲工業股份有限公司（工程承攬資訊）",
+        "url": "https://www.youngching.com/album_info?id=316",
+        "supports": "工程說明記載拆除既有27、28號碼頭樁欉結構、保留護岸板樁改建，可佐證舊結構類型；非2005年原始竣工圖。"
+      },
+      {
+        "title": "高雄港27、28號碼頭改建工程計畫資料",
+        "sourceType": "official_planning",
+        "issuer": "高雄市政府都市發展局",
+        "url": "https://urban-web.kcg.gov.tw/KDA/web_upload/KDA05/KDA0501/%E5%A0%B1%E9%83%A8%E4%B8%BB%E8%A6%81%E8%A8%88%E7%95%AB%E6%9B%B820251120092152-7.pdf",
+        "supports": "改建工程與碼頭現況背景，不能取代舊碼頭詳細結構圖。"
+      }
+    ],
+    "assumptions": [
+      "工程資料所述樁欉結構指既有27、28號碼頭的舊構造，作為2005年考題背景之佐證；不推定具體樁距、樁徑或護舷規格。",
+      "題目中的重載船以排水量大、慣性大作定性分析；不以GT等同排水量。"
+    ],
+    "limitations": [
+      "未取得2005年第28號碼頭原始竣工圖、樁基配置、護舷型錄及設計靠泊船型。",
+      "樁欉結構佐證來自後續改建工程說明，細部工程參數仍待官方原始圖說核實。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部94年高雄港地方題原卷",
+          "result": "pass",
+          "note": "已逐字核對考選部官方原卷題目。"
+        },
+        {
+          "item": "2005年高雄港歷史港圖、碼頭設施與作業資料",
+          "result": "partial",
+          "note": "未取得完整2005年港區配置圖、歷史碼頭竣工圖或個別船舶操船紀錄；不以現況資料冒充當年資料。"
+        },
+        {
+          "item": "操船原理與安全程序",
+          "result": "pass",
+          "note": "依船舶操縱、拖船協同、繫泊及港內航行安全原理整理；具體操作仍須依本船操縱資料、現場風流與VTS指示修正。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "094-kaohsiung-waterway-04-answer-v1",
+    "questionId": "94-kaohsiung-waterway-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "calculation",
+    "modelAnswer": "【一、計算原理】\n題目給定船舶通過第44號碼頭兩個纜樁的時間為8秒。若兩纜樁沿船舶航行方向的實際間距為d公尺，則船舶在這段時間內的平均對地速度為：\n\n$$V=\\\\frac{d}{t}$$\n\n換算為節（1 m/s = 1.94384 kn）：\n\n$$V(\\\\mathrm{kn})=\\\\frac{d}{8}\\\\times1.94384$$\n\n因此：\n\n$$V=0.24298d\\\\;\\\\mathrm{kn}$$\n\n【二、代入示範】\n本題原卷只給8秒，未在題幹標出兩纜樁的實際間距。必須先從第44號碼頭配置圖、現場測量或題目附圖取得d，才可得到唯一數值。若僅作示範，假設兩纜樁沿航行方向相距10公尺：\n\n$$V=\\\\frac{10}{8}\\\\times1.94384=2.43\\\\;\\\\mathrm{kn}$$\n\n**注意：2.43 kn只是d=10 m假設下的示範值，不是已查證的第44號碼頭實際答案。** 若實際間距為12 m，則約2.92 kn；若為15 m，則約3.64 kn。應以歷史港圖或現場實測間距代入。\n\n【三、應採取的措施】\n1. 若測得速度對靠泊或港內交通而言過高，應及早減速，不可等到接近泊位才急倒俥；減速計畫須考慮船舶排水量、吃水、主機倒俥反應、風流及淺水效應。\n2. 通過纜樁時應保持航向穩定，避免為了觀察纜樁而突然轉舵；由駕駛台與船艏／船艉瞭望人員確認同一組固定目標及通過時刻。\n3. 以雷達、GPS/SOG、計程儀/STW及岸上固定物交叉核對；港內有流時，兩纜樁測得的是相對岸固定物的對地速度，不能直接當作對水速度。\n4. 若船速過高或距離不足，應停止靠泊計畫、重新評估拖船及減速水域，必要時向VTS通報並等待，不可用急劇倒車造成船艉偏轉或失控。\n\n【結論】\n列式為V(kn)=d(m)/8(s)×1.94384。題幹缺少纜樁間距，故沒有唯一數值；10公尺間距時示範結果為2.43節。考試若附圖或前提提供間距，必須用該數值計算，並說明測得速度後應及早控制港內航速。",
+    "practicalAnalysis": "本題10分，關鍵是先找出兩個纜樁沿船舶航行方向的實際間距d，再以距離除以時間換算成節。考選部原卷文字版僅顯示「兩個纜樁」及8秒，未顯示間距或附圖，因此不能把10公尺當成既定事實。答案採一般式並給10公尺假設示範，將示範值與正式答案明確區分。還要指出測量的是相對岸上固定物的對地速度；有流時與對水速度不同。",
+    "keyPoints": [
+      {
+        "point": "平均速度=兩纜樁實際間距÷8秒。",
+        "importance": "essential"
+      },
+      {
+        "point": "節數=距離(m)÷8×1.94384。",
+        "importance": "essential"
+      },
+      {
+        "point": "一般式V(kn)=0.24298×d(m)。",
+        "importance": "essential"
+      },
+      {
+        "point": "若假設間距10m，示範值2.43kn，但不是已核實的歷史碼頭間距。",
+        "importance": "supporting"
+      },
+      {
+        "point": "測得的是對地速度；有流時須與STW區分。",
+        "importance": "supporting"
+      },
+      {
+        "point": "速度偏高應提早減速、保持航向穩定，必要時中止靠泊並通報VTS。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "94年甲種引水人（高雄港）當地水道港灣詳情官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國94年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=343&code=094080&q=1&s=1001&t=Q",
+        "pageOrSection": "第1至7題",
+        "supports": "題目原文及考試年度。"
+      },
+      {
+        "title": "高雄港船舶航行規定",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "supports": "現行港內航行安全、VTS管制、航道及信號規定；僅作現行原則參考，不回推2005年歷史細節。"
+      },
+      {
+        "title": "The Shiphandler's Guide for Masters and Navigating Officers, Pilots and Tug Masters",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "editionOrEffectiveDate": "2nd edition, 2000",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "風流效應、拖船協同、靠離泊、船舶旋轉支點及速度控制原理。"
+      }
+    ],
+    "assumptions": [
+      "以兩纜樁間距沿船舶實際航行方向量測為d。",
+      "10m僅為示範假設，不作為第44號碼頭歷史實測資料。"
+    ],
+    "limitations": [
+      "未找到2005年44號碼頭兩纜樁間距的官方圖說或現場測量紀錄，因此無法確認唯一數值答案。",
+      "官方原卷文字版未呈現附圖；若原卷紙本另有圖示，應以圖上距離優先。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部94年高雄港地方題原卷",
+          "result": "pass",
+          "note": "已逐字核對考選部官方原卷題目。"
+        },
+        {
+          "item": "2005年高雄港歷史港圖、碼頭設施與作業資料",
+          "result": "partial",
+          "note": "未取得完整2005年港區配置圖、歷史碼頭竣工圖或個別船舶操船紀錄；不以現況資料冒充當年資料。"
+        },
+        {
+          "item": "操船原理與安全程序",
+          "result": "pass",
+          "note": "依船舶操縱、拖船協同、繫泊及港內航行安全原理整理；具體操作仍須依本船操縱資料、現場風流與VTS指示修正。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "094-kaohsiung-waterway-05-answer-v1",
+    "questionId": "94-kaohsiung-waterway-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、定義：先分清「對地靜止」與「對水靜止」】\n船舶倒退迴轉準備出港時，所謂船已靜止，必須先釐清是相對岸固定物的對地速度（SOG）接近零，還是相對水體的速度（STW）接近零。若有潮流，船舶可能對水無速度卻仍隨流漂移；也可能對地停住但仍有水流相對船體流過，舵效及錨鏈受力不能忽略。因此應以多種方法交叉確認，不可只看一具儀器。\n\n【二、至少五種判斷方法】\n1. **岸上固定物方位法**：選擇兩個以上岸上固定顯著物，連續觀察羅經方位。若方位持續改變，表示船舶仍有橫向或縱向移動；方位穩定只能代表相對該目標的方位變化小，仍須搭配距離判斷。\n2. **岸上固定物距離法**：以雷達量測固定岸標、碼頭角或建築物距離，連續比較range。距離持續增減代表仍在移動；方位與距離均穩定，才較能支持對地靜止判斷。\n3. **兩物標 transit／疊標法**：選取兩個在同一直線上的岸上物標，觀察其疊合線是否相對船舶持續偏移。若疊標關係穩定，可作為橫向移動很小的參考；但單一疊標不能排除沿疊標方向的移動，應與雷達距離或第二組疊標合用。\n4. **GPS／GNSS SOG與COG**：觀察連續數分鐘的對地速度及航跡向量是否接近零且穩定。低速時GPS有位置跳動及濾波延遲，不能只憑瞬間0.0 kn判定。\n5. **雷達相對運動／平行指標（PI）**：使用固定岸線、碼頭端點或雷達固定目標，觀察目標相對運動及PI偏移；若回波相對位置持續改變，表示仍有移動。須確認雷達穩定、量程及設定正確。\n6. **計程儀／Doppler log**：觀察對水速度（STW）或對地速度（若設備具此功能）。Doppler log可提供船體相對水或海床速度資訊，須確認設備模式與量測方向；受淺水、海床回波及流況影響時需交叉驗證。\n7. **Rate of Turn（ROT）及艏向變化**：觀察ROT指示器、陀螺羅經及磁羅經艏向是否仍持續變化。ROT接近零代表轉動趨勢減弱，但不代表船舶平移速度為零，故不可單獨使用。\n8. **船艏、船艉瞭望與固定距離標記**：由船艏、船艉人員分別觀察與岸壁、浮筒或固定標記的距離變化，並以無線電回報；兩端都穩定可補足駕駛台視線死角。\n9. **錨鏈／繫纜狀態及流壓觀察**：若船舶仍有錨或纜繩控制，可觀察錨鏈方向、鬆緊及受力是否持續變化；但錨鏈受力穩定並不等於船舶絕對靜止，不能作為唯一依據。\n\n【三、實際確認程序】\n- 選擇至少兩組互相獨立的岸上參考：例如雷達距離＋岸標方位，或GPS SOG＋兩端瞭望回報。\n- 連續觀察一段時間，而不是讀取單一瞬間數值；確認SOG、岸標方位／距離及ROT均沒有持續趨勢。\n- 同時確認風、流方向與流速，判斷船舶是否只是對地停住但仍有對水流速。\n- 向船長、艏樓及艉樓確認船舶相對碼頭、鄰船及浮筒的位置，並確認錨、拖船、拖纜與主機狀態。\n\n【四、結論】\n至少可列岸標方位、岸標距離、疊標、GPS SOG/COG、雷達相對運動、Doppler log、ROT／艏向變化及船艏艉瞭望等方法。最可靠的做法是使用兩種以上獨立方法，並清楚區分對地靜止與對水靜止。",
+    "practicalAnalysis": "本題10分，至少列五項並簡述判斷原理即可得分。建議多寫兩至三項並強調「交叉確認」。最常見錯誤是把ROT=0、GPS瞬間顯示0.0 kn或單一疊標穩定，直接等同船舶完全靜止。港內有流時，SOG與STW尤其不可混淆；倒退迴轉前仍須確認艏艉橫移及艏向旋轉均受控。",
+    "keyPoints": [
+      {
+        "point": "至少列出五種：岸標方位、雷達距離、疊標、GPS SOG/COG、雷達PI／相對運動、Doppler log、ROT及艏艉瞭望。",
+        "importance": "essential"
+      },
+      {
+        "point": "岸標方位與距離應連續觀察，不能只讀取一次。",
+        "importance": "essential"
+      },
+      {
+        "point": "單一疊標無法排除沿疊標方向的移動。",
+        "importance": "essential"
+      },
+      {
+        "point": "ROT接近零只表示轉動減弱，不代表平移速度為零。",
+        "importance": "supporting"
+      },
+      {
+        "point": "明確區分對地速度SOG與對水速度STW，考慮潮流。",
+        "importance": "supporting"
+      },
+      {
+        "point": "使用至少兩種獨立方法交叉確認後才認定船舶靜止。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "94年甲種引水人（高雄港）當地水道港灣詳情官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國94年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=343&code=094080&q=1&s=1001&t=Q",
+        "pageOrSection": "第1至7題",
+        "supports": "題目原文及考試年度。"
+      },
+      {
+        "title": "高雄港船舶航行規定",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "supports": "現行港內航行安全、VTS管制、航道及信號規定；僅作現行原則參考，不回推2005年歷史細節。"
+      },
+      {
+        "title": "The Shiphandler's Guide for Masters and Navigating Officers, Pilots and Tug Masters",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "editionOrEffectiveDate": "2nd edition, 2000",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "風流效應、拖船協同、靠離泊、船舶旋轉支點及速度控制原理。"
+      },
+      {
+        "title": "IMO Resolution A.601(15)—Provision and display of manoeuvring information on board ships",
+        "sourceType": "imo_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.601(15).pdf",
+        "supports": "船舶操縱資料、航速與操縱性能資訊的使用背景。"
+      }
+    ],
+    "assumptions": [
+      "「靜止」以對地靜止為主要港內操船判斷，同時另行確認對水速度及流壓。",
+      "儀器精度與顯示延遲依船上設備型式而異。"
+    ],
+    "limitations": [
+      "不同船舶的GPS、Doppler log、雷達及ROT設備精度不同，須依本船設備操作手冊。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部94年高雄港地方題原卷",
+          "result": "pass",
+          "note": "已逐字核對考選部官方原卷題目。"
+        },
+        {
+          "item": "2005年高雄港歷史港圖、碼頭設施與作業資料",
+          "result": "partial",
+          "note": "未取得完整2005年港區配置圖、歷史碼頭竣工圖或個別船舶操船紀錄；不以現況資料冒充當年資料。"
+        },
+        {
+          "item": "操船原理與安全程序",
+          "result": "pass",
+          "note": "依船舶操縱、拖船協同、繫泊及港內航行安全原理整理；具體操作仍須依本船操縱資料、現場風流與VTS指示修正。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "094-kaohsiung-waterway-06-answer-v1",
+    "questionId": "94-kaohsiung-waterway-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、球型船艏（Bulbous Bow）特性】\n球型船艏是在水線以下船艏前方設置向前突出的球狀或流線型結構，用以改善特定設計航速及吃水條件下的波浪阻力。其突出部分可能延伸至水線前方，從駕駛台或船艏甲板未必能直接看見，因此船長、船寬及水線長度不能完整代表水下船艏最前端位置。\n\n【二、高雄港內操船應注意事項】\n1. **水下突出長度與船位估計**：操船時應使用船舶總長（LOA）、球鼻艏突出長度及本船操縱資料，掌握水下最前端位置。靠泊、通過浮筒、錨地、淺灘及狹窄航道時，不能只以水線船艏估算安全距離。\n2. **富餘水深（UKC）**：球鼻艏可能比船底其他部位更早接近海床；應核對最新水深、潮位、吃水、縱傾、橫傾、波浪及測深誤差，並考慮船速造成的下沉（squat）。不得只用平均吃水判斷球鼻艏下方餘裕。\n3. **淺水效應與船速**：水深受限時，船舶阻力、下沉量及操縱反應可能改變；應控制安全速度，避免因高速增加squat及觸底風險。必要時依港方限制及本船操縱資料採取低速航行。\n4. **轉向與迴旋水域**：球鼻艏會增加水下船體前端突出範圍，轉向時須留意船艏掃掠範圍（swept path）、船艉外擺及與碼頭、浮筒、鄰船的距離。不能只看駕駛台所在位置或水線船艏。\n5. **靠離碼頭及碰撞風險**：球鼻艏突出部分可能先於水線船艏接近碼頭、護舷、浮筒或其他船舶水下結構。靠泊時應以船體平行、低速接近為原則，確認護舷高度與接觸區是否能保護球鼻艏；避免船艏斜角撞擊碼頭或鄰船。\n6. **錨泊與起錨**：下錨時應注意錨鏈、錨爪及球鼻艏的相對位置，避免錨鏈跨越或磨擦球鼻艏；起錨、掉頭及拖船作業時，注意拖纜與球鼻艏下方結構的安全間距。\n7. **螺槳排流及岸壁效應**：港內操船應同時考慮船艉排流、岸壁吸引與反彈、淺水效應及風流。球鼻艏並不會消除這些效應；在狹水域仍應以低速、提早修正及拖船協助維持可控性。\n8. **引水人與船長資料交換**：登輪後應詢問球鼻艏突出長度、船舶LOA、吃水、縱傾、操縱手冊所列淺水限制、艏側推器能力及駕駛台盲區，並在靠泊計畫中標示水下艏端位置。\n\n【三、實務操作原則】\n- 在海圖或ECDIS上以船舶參考點（通常GNSS天線位置）加上船舶尺寸及球鼻艏突出長度，建立船體外形／安全等深線監控。\n- 船位監控不只看GPS天線點，應同時看船艏、球鼻艏及船艉的掃掠範圍。\n- 進出淺水區、港池、碼頭前沿及轉彎處時，核算UKC並保留安全餘裕；若資料不足，應採保守吃水與速度限制或暫緩通過。\n- 若發生觸底、異常震動或船艏碰觸，應立即評估船體、球鼻艏、聲納／測深器及外板損傷，並依程序通報。\n\n【結論】\n球鼻艏船舶在高雄港內運轉，核心是掌握水下突出長度、實際船體掃掠範圍及球鼻艏下方UKC；在淺水、轉向、靠離碼頭、錨泊及拖船作業時，應以最新水深、低速、充分安全距離及船舶操縱資料為依據。",
+    "practicalAnalysis": "本題10分，答題應從球鼻艏的水下突出特性出發，連結港內常見風險：水下船艏位置估計、UKC/squat、轉向掃掠範圍、靠泊碰撞、錨鏈及拖纜干涉。不要把球鼻艏誤解成會增加水面船長的簡單延長；其實務重點是水下幾何與水深餘裕。",
+    "keyPoints": [
+      {
+        "point": "球鼻艏是水線以下向前突出，駕駛台視線未必能直接判斷其最前端。",
+        "importance": "essential"
+      },
+      {
+        "point": "核對球鼻艏突出長度、LOA、吃水、縱傾及最新水深，計算UKC。",
+        "importance": "essential"
+      },
+      {
+        "point": "淺水航行控制速度，考慮squat與船體姿態。",
+        "importance": "essential"
+      },
+      {
+        "point": "轉向時考慮球鼻艏掃掠範圍、船艉外擺及鄰船／碼頭距離。",
+        "importance": "supporting"
+      },
+      {
+        "point": "靠泊、錨泊及拖船作業時防止球鼻艏、錨鏈、拖纜及水下結構互相干涉。",
+        "importance": "supporting"
+      },
+      {
+        "point": "船位監控不可只看GPS天線點，須以船體外形與水下突出量判斷。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "94年甲種引水人（高雄港）當地水道港灣詳情官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國94年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=343&code=094080&q=1&s=1001&t=Q",
+        "pageOrSection": "第1至7題",
+        "supports": "題目原文及考試年度。"
+      },
+      {
+        "title": "高雄港船舶航行規定",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "supports": "現行港內航行安全、VTS管制、航道及信號規定；僅作現行原則參考，不回推2005年歷史細節。"
+      },
+      {
+        "title": "The Shiphandler's Guide for Masters and Navigating Officers, Pilots and Tug Masters",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "editionOrEffectiveDate": "2nd edition, 2000",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "風流效應、拖船協同、靠離泊、船舶旋轉支點及速度控制原理。"
+      }
+    ],
+    "assumptions": [
+      "球鼻艏突出量及形狀依船型而異，應以本船總布置圖及操縱手冊為準。",
+      "UKC計算需使用最新測深、潮位、吃水、縱傾及squat資料。"
+    ],
+    "limitations": [
+      "未取得題目所指船型及2005年港區歷史水深，因此不提供固定球鼻艏突出長度或特定航道UKC數值。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部94年高雄港地方題原卷",
+          "result": "pass",
+          "note": "已逐字核對考選部官方原卷題目。"
+        },
+        {
+          "item": "2005年高雄港歷史港圖、碼頭設施與作業資料",
+          "result": "partial",
+          "note": "未取得完整2005年港區配置圖、歷史碼頭竣工圖或個別船舶操船紀錄；不以現況資料冒充當年資料。"
+        },
+        {
+          "item": "操船原理與安全程序",
+          "result": "pass",
+          "note": "依船舶操縱、拖船協同、繫泊及港內航行安全原理整理；具體操作仍須依本船操縱資料、現場風流與VTS指示修正。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "094-kaohsiung-waterway-07-answer-v1",
+    "questionId": "94-kaohsiung-waterway-07",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、基本原則】\n在高雄港內航行時，船艏與船艉的實際位置不一定等於駕駛台GNSS天線或雷達天線所在位置。引水人應先掌握船舶總長、船寬、駕駛台／GNSS天線位置、艏艉突出物及本船盲區，再用岸上固定目標、雷達、ECDIS及船艏艉瞭望交叉估計。\n\n【二、估計船艏、船艉位置的方法】\n1. **GNSS位置加船舶尺寸偏移量**：確認GNSS天線相對船艏、船艉及船舶中心線的位置，以天線位置配合船舶總布置圖計算船艏、船艉座標。若ECDIS已正確輸入船舶尺寸及天線偏移，可顯示船體輪廓；若偏移設定錯誤，船體位置會整體偏移。\n2. **雷達距離與方位**：選取岸上固定角點、燈塔、碼頭端點或防波堤，量測雷達目標距離及方位，再依本船天線位置偏移及船體方向估計艏艉與岸壁距離。近距離時應注意雷達盲區、回波擴展及天線位置差。\n3. **目視方位／距離及岸標定位**：由駕駛台及兩側翼觀察岸標、碼頭角、浮筒或固定建築物，利用方位與距離變化判斷船艏、船艉接近情況；可由船艏及船艉瞭望人員回報與岸邊目標的相對距離。\n4. **疊標（Transit）及方位線**：選取兩個岸上物標形成疊標線，觀察船舶通過該線的時機；配合第二組疊標或雷達距離，可估計船艏、船艉何時通過某一固定橫斷面。單一疊標不能同時確定船艏與船艉位置，須考慮船長及艏艉偏移。\n5. **平行指標（Parallel Index, PI）**：在雷達上建立與岸線或航道邊界平行的電子指標線，監控船舶相對岸線的橫向位置。應把雷達天線位置及船體外形偏移納入判斷，必要時分別設定船艏與船艉安全界線。\n6. **ECDIS船體輪廓／安全監控**：輸入正確的船長、船寬、GNSS天線偏移及船舶參考點，利用船體輪廓、航跡、等深線及安全等深線估計艏艉與危險物的相對位置。ECDIS顯示仍受定位誤差、海圖資料品質及設定正確性限制。\n7. **相對運動及船艏艉瞭望**：利用雷達相對運動、岸上固定物及船艏艉人員的目視回報，判斷船艏、船艉是否仍在前進、後退或橫移；兩端回報應使用明確距離、方向與時間基準。\n8. **已知船長與轉向幾何推算**：已知船舶參考點位置、艏向及船長，可沿船舶中心線向前、向後推算艏艉位置；若船舶正在轉向，須考慮艏艉掃掠弧線及船舶旋轉支點，不能只用直線投影。\n9. **碼頭／航道固定距離標記**：利用碼頭繫纜樁、岸壁標尺、航道標誌或已測量固定點，配合船舶通過時序及已知船長估計艏艉位置；必須先確認標記間距及其測量基準可靠。\n\n【三、實務交叉檢查】\n- 先確認GNSS天線偏移與船舶尺寸資料正確，再將定位點轉換為船體外形。\n- 船舶直航時，依船艏向與LOA推算艏艉；轉向時改以船艏艉掃掠範圍及旋轉支點概念判斷。\n- 在狹窄航道、碼頭前沿或與他船交會時，至少採用雷達／ECDIS及目視瞭望兩種來源交叉確認。\n- 船艏與船艉分別設置安全距離，不可因船艏已過障礙物就假定船艉也已清過。\n- 對GPS、雷達、ECDIS及AIS資料的精度、更新率與延遲保持警覺；AIS主要提供目標船資訊，不能取代本船艏艉目視及雷達定位。\n\n【結論】\n估計船艏、船艉位置可採GNSS加偏移量、雷達距離方位、目視方位、疊標、平行指標、ECDIS船體輪廓、船艏艉瞭望及船長幾何推算等方法。港內操船應將船體外形、轉向掃掠範圍與定位誤差一併考慮，並以不同來源交叉確認。",
+    "practicalAnalysis": "本題10分，至少列五種方法並說明如何估計艏艉。高分答案應指出GNSS天線通常不在船艏或船艉，必須輸入天線偏移及船舶尺寸；轉向時船艏艉沿不同弧線掃掠，不能只用中心點位置。雷達PI適合監控相對岸線的橫向偏移，但仍須結合船體外形與船艏艉瞭望。",
+    "keyPoints": [
+      {
+        "point": "GNSS定位點加上天線偏移及LOA可推算船艏、船艉座標。",
+        "importance": "essential"
+      },
+      {
+        "point": "雷達距離／方位、岸上固定物目視方位可估計艏艉與岸壁距離。",
+        "importance": "essential"
+      },
+      {
+        "point": "疊標與平行指標可監控通過位置及橫向偏移。",
+        "importance": "essential"
+      },
+      {
+        "point": "ECDIS需正確輸入船長、船寬及天線偏移，才可顯示可信船體輪廓。",
+        "importance": "supporting"
+      },
+      {
+        "point": "船艏、船艉瞭望回報可補足駕駛台視線盲區。",
+        "importance": "supporting"
+      },
+      {
+        "point": "轉向時須考慮旋轉支點與艏艉掃掠弧線，不可只看船舶中心點。",
+        "importance": "supporting"
+      },
+      {
+        "point": "AIS不能取代本船雷達、目視及船體尺寸定位。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "94年甲種引水人（高雄港）當地水道港灣詳情官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國94年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=343&code=094080&q=1&s=1001&t=Q",
+        "pageOrSection": "第1至7題",
+        "supports": "題目原文及考試年度。"
+      },
+      {
+        "title": "高雄港船舶航行規定",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "supports": "現行港內航行安全、VTS管制、航道及信號規定；僅作現行原則參考，不回推2005年歷史細節。"
+      },
+      {
+        "title": "The Shiphandler's Guide for Masters and Navigating Officers, Pilots and Tug Masters",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "editionOrEffectiveDate": "2nd edition, 2000",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "風流效應、拖船協同、靠離泊、船舶旋轉支點及速度控制原理。"
+      }
+    ],
+    "assumptions": [
+      "本船GNSS、雷達天線及駕駛台參考點位置須由總布置圖或設備設定確認。",
+      "ECDIS船體輪廓功能及PI能力依設備型號、設定與海圖資料而異。"
+    ],
+    "limitations": [
+      "題目未指定船型及航儀配置，因此列出通用方法；實際精度應依船上設備及校正資料判斷。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部94年高雄港地方題原卷",
+          "result": "pass",
+          "note": "已逐字核對考選部官方原卷題目。"
+        },
+        {
+          "item": "2005年高雄港歷史港圖、碼頭設施與作業資料",
+          "result": "partial",
+          "note": "未取得完整2005年港區配置圖、歷史碼頭竣工圖或個別船舶操船紀錄；不以現況資料冒充當年資料。"
+        },
+        {
+          "item": "操船原理與安全程序",
+          "result": "pass",
+          "note": "依船舶操縱、拖船協同、繫泊及港內航行安全原理整理；具體操作仍須依本船操縱資料、現場風流與VTS指示修正。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
