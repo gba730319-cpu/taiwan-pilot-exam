@@ -2023,13 +2023,32 @@
   {
     "questionId": "106-english-01",
     "modelAnswer": "(1) 儘管引水人負有其職責與義務，引水人在船上並不會免除船長或負責航行值班之航行員對船舶安全所負的職責與義務。重要的是，在引水人登船後、引水作業開始之前，引水人、船長及駕駛台人員應了解彼此在確保船舶安全航行方面各自的角色。(2) 引水人應熟悉IMO《標準海事通信用語》，並在無線電通訊及駕駛台口頭交流等適當情況下使用。如此可使船長及負責航行值班之航行員更清楚理解相關通訊內容及其意圖。",
-    "practicalAnalysis": "第一段的核心是「引水人登船不解除船長責任」；officer in charge of the navigational watch宜譯為「負責航行值班之航行員」或「航行值班駕駛員」。第二段的intent是通訊意圖，不是一般抽象的目的。",
+    "practicalAnalysis": "保留原文的責任界線及shall／should語氣；officer in charge of the navigational watch可譯為「負責航行值班之航行員」。此題翻譯與IMO A.960(23)第2.1段文字相符。",
     "keyPoints": [
-      "duties and obligations：職責與義務。",
-      "does not relieve：並不免除。",
-      "officer in charge of the navigational watch：負責航行值班之航行員。",
-      "respective roles：各自的角色／職責。",
-      "IMO Standard Marine Communication Phrases：IMO標準海事通信用語。"
+      {
+        "point": "duties and obligations",
+        "importance": "essential",
+        "result": "pass",
+        "note": "譯為職責與義務，保留原文並列語氣。"
+      },
+      {
+        "point": "does not relieve",
+        "importance": "essential",
+        "result": "pass",
+        "note": "明確譯為並不免除。"
+      },
+      {
+        "point": "officer in charge of the navigational watch",
+        "importance": "essential",
+        "result": "pass",
+        "note": "譯為負責航行值班之航行員。"
+      },
+      {
+        "point": "respective roles及intent",
+        "importance": "essential",
+        "result": "pass",
+        "note": "分別譯為各自角色及通訊意圖。"
+      }
     ],
     "references": [
       {
@@ -2041,50 +2060,180 @@
         "title": "考選部106年專業英文試題",
         "issuer": "考選部",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1012&t=Q"
+      },
+      {
+        "title": "IMO Resolution A.960(23) — Annex 2, paragraph 2.1",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原文責任界線：引水人在船不解除船長及航行值班駕駛員安全責任。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Standard Marine Communication Phrases",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/StandardMarineCommunicationPhrases.aspx",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "標準海事通信用語的用途與適用背景。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部106年專業英文試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1012&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "譯文提供一種專業中文表達；考試可接受語意正確且符合航海用語習慣的其他譯法。"
     ],
     "verification": {
-      "status": "source_checked"
-    }
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "duties and obligations",
+          "result": "pass",
+          "note": "譯為職責與義務，保留原文並列語氣。"
+        },
+        {
+          "item": "does not relieve",
+          "result": "pass",
+          "note": "明確譯為並不免除。"
+        },
+        {
+          "item": "officer in charge of the navigational watch",
+          "result": "pass",
+          "note": "譯為負責航行值班之航行員。"
+        },
+        {
+          "item": "respective roles及intent",
+          "result": "pass",
+          "note": "分別譯為各自角色及通訊意圖。"
+        }
+      ]
+    },
+    "version": 2,
+    "answer": "(1) 儘管引水人負有其職責與義務，引水人在船上並不會免除船長或負責航行值班之航行員對船舶安全所負的職責與義務。重要的是，引水人登船後、引水作業開始之前，引水人、船長及駕駛台人員都應了解彼此在確保船舶安全航行方面各自的角色。\n\n(2) 引水人應熟悉IMO《標準海事通信用語》，並在適當情況下，於無線電通訊及駕駛台口頭交流時使用。如此可使船長及負責航行值班之航行員更清楚了解通訊內容及其意圖。",
+    "lastUpdated": "2026-11-07"
   },
   {
     "questionId": "106-english-02",
     "modelAnswer": "(1) When a pilot is performing pilotage duties, the pilot boat on which he/she is embarked shall display the internationally recognized pilot signals or the pilot signals prescribed by the Republic of China, and shall also exhibit the appropriate lights at night. When the pilot leaves the pilot boat or is not engaged in pilotage duties, the pilot signals or lights shall be removed. (2) A pilot engaged in pilotage duties shall not leave the vessel before completion of the assignment without the master's consent.",
-    "practicalAnalysis": "翻譯時注意「引水船」可用pilot boat；「懸掛信號」在海事英文常用display／exhibit signals；「非經船長同意不得離船」要保留without the master's consent的限制，不宜譯成引水人任何情況均不得離船。",
+    "practicalAnalysis": "翻譯以忠實呈現題目中文為主，不將106年題目所引規定直接宣稱為2027現行法規。第(2)句保留「非經船長同意」的例外條件；shall not ... without the master's consent不可誤譯成任何情況均不得離船。",
     "keyPoints": [
-      "執行領航業務：performing／engaged in pilotage duties。",
-      "引水船：pilot boat。",
-      "懸掛引水船信號：display／exhibit pilot signals。",
-      "夜間懸掛燈號：exhibit the appropriate lights at night。",
-      "未完成任務前非經船長同意不得離船：shall not leave before completion without the master's consent。"
+      {
+        "point": "執行領航業務",
+        "importance": "essential",
+        "result": "pass",
+        "note": "performing pilotage duties。"
+      },
+      {
+        "point": "引水船及信號燈號",
+        "importance": "essential",
+        "result": "pass",
+        "note": "pilot boat carrying the pilot；display signals／exhibit lights。"
+      },
+      {
+        "point": "未完成任務前非經船長同意不得離船",
+        "importance": "essential",
+        "result": "pass",
+        "note": "保留without the master's consent之條件。"
+      },
+      {
+        "point": "歷史題文與現行法規區隔",
+        "importance": "essential",
+        "result": "pass",
+        "note": "標明此處為翻譯原題，不將歷史文字直接宣稱為現行法。"
+      }
     ],
     "references": [
       {
         "title": "考選部106年專業英文試題",
         "issuer": "考選部",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1012&t=Q"
+      },
+      {
+        "title": "考選部106年專業英文試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1012&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題及中文用語。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "引水人作業程序與船長、引水人之協調背景；不作為本題中文法條的替代文本。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "英譯需以原題法規中文版本為準；若採法規官方英譯，部分用語可能與本擬答略有差異。"
     ],
     "verification": {
-      "status": "partially_verified"
-    }
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "執行領航業務",
+          "result": "pass",
+          "note": "performing pilotage duties。"
+        },
+        {
+          "item": "引水船及信號燈號",
+          "result": "pass",
+          "note": "pilot boat carrying the pilot；display signals／exhibit lights。"
+        },
+        {
+          "item": "未完成任務前非經船長同意不得離船",
+          "result": "pass",
+          "note": "保留without the master's consent之條件。"
+        },
+        {
+          "item": "歷史題文與現行法規區隔",
+          "result": "pass",
+          "note": "標明此處為翻譯原題，不將歷史文字直接宣稱為現行法。"
+        }
+      ]
+    },
+    "version": 2,
+    "answer": "(1) When a pilot is performing pilotage duties, the pilot boat carrying the pilot shall display the internationally recognized pilot signals or the pilot signals prescribed by the Republic of China, and shall also exhibit the appropriate lights at night. When the pilot leaves the pilot boat or is not engaged in pilotage duties, the pilot signals or lights shall be removed.\n\n(2) A pilot performing pilotage duties shall not leave the vessel before the assignment has been completed without the master's consent.",
+    "lastUpdated": "2026-11-07"
   },
   {
     "questionId": "106-english-03",
     "modelAnswer": "(1) Head-on situation: A situation in which two power-driven vessels are meeting on reciprocal or nearly reciprocal courses so as to involve risk of collision. Each vessel shall alter her course to starboard so that they pass port side to port side, in accordance with COLREG Rule 14.(2) Permeability: The percentage of the volume of a compartment or space that can be occupied by water, expressed as a proportion of its total volume. It is used in damage-stability calculations.(3) Block coefficient (Cb): The ratio of the underwater volume of a ship to the volume of a rectangular block having the same length, breadth and draught. It indicates the fullness of the ship's hull form.(4) Ship domain: The surrounding water area that a navigator wishes to keep clear of other vessels or obstacles to maintain safe navigation. Its size and shape depend on ship dimensions, speed, manoeuvrability, visibility, traffic density and navigational environment.",
-    "practicalAnalysis": "Head-on situation須提及兩艘動力船互見及近乎相反航向，並指出COLREG Rule 14的右轉避讓。Permeability是艙室容積中可被水占據的比例，並非船體材料孔隙率。Block coefficient是水下排水體積與長×寬×吃水長方體體積之比。Ship domain屬航行安全研究概念，沒有全球唯一固定尺寸。",
+    "practicalAnalysis": "Head-on situation須連結COLREG Rule 14的互見、近乎相反航向及碰撞危險條件；Permeability是艙室可被水占據容積的百分比；Block coefficient為水下體積與L×B×T長方體體積之比；Ship domain是航行安全研究概念，沒有全球唯一固定尺度。",
     "keyPoints": [
-      "Head-on situation：兩動力船近乎相反航向且有碰撞危險。",
-      "Permeability：艙室可被水占據容積占總容積的比例。",
-      "Block coefficient：水下體積／長×寬×吃水。",
-      "Ship domain：航行者希望保持淨空的周圍水域。",
-      "Ship domain大小受船型、速度、操縱性、能見度及交通環境影響。"
+      {
+        "point": "Head-on situation",
+        "importance": "essential",
+        "result": "pass",
+        "note": "定義包含兩動力船、互見、近乎相反航向及碰撞危險。"
+      },
+      {
+        "point": "Permeability",
+        "importance": "essential",
+        "result": "pass",
+        "note": "定義為艙室可被水占據容積百分比。"
+      },
+      {
+        "point": "Block coefficient",
+        "importance": "essential",
+        "result": "pass",
+        "note": "公式為水下體積除以L×B×T。"
+      },
+      {
+        "point": "Ship domain",
+        "importance": "important",
+        "result": "verified_with_scope",
+        "note": "屬研究及操船概念，尺度依船型與環境而異。"
+      }
     ],
     "references": [
       {
@@ -2096,25 +2245,94 @@
         "title": "考選部106年專業英文試題",
         "issuer": "考選部",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1012&t=Q"
+      },
+      {
+        "title": "IMO COLREG 1972 — Rule 14",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "對遇情況的適用條件及兩艘動力船各自向右轉向規則。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch), Pub. No. 9",
+        "url": "https://msi.nga.mil/",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "sourceType": "official_or_technical_reference",
+        "supports": "船舶穩度、艙室滲透率及船型係數相關航海術語。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部106年專業英文試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1012&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "Ship domain為研究與操船分析概念，模型定義及尺度依研究方法不同；不應給出固定全球標準值。"
     ],
     "verification": {
-      "status": "source_checked"
-    }
+      "status": "verified_with_scope",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "Head-on situation",
+          "result": "pass",
+          "note": "定義包含兩動力船、互見、近乎相反航向及碰撞危險。"
+        },
+        {
+          "item": "Permeability",
+          "result": "pass",
+          "note": "定義為艙室可被水占據容積百分比。"
+        },
+        {
+          "item": "Block coefficient",
+          "result": "pass",
+          "note": "公式為水下體積除以L×B×T。"
+        },
+        {
+          "item": "Ship domain",
+          "result": "verified_with_scope",
+          "note": "屬研究及操船概念，尺度依船型與環境而異。"
+        }
+      ]
+    },
+    "version": 2,
+    "answer": "(1) **Head-on situation:** A situation in which two power-driven vessels are meeting on reciprocal or nearly reciprocal courses so as to involve risk of collision. Under Rule 14 of the COLREGs, each vessel shall alter course to starboard so that they pass port side to port side.\n\n(2) **Permeability:** The percentage of the volume of a compartment or space that can be occupied by water. It is used in damage-stability calculations to estimate the amount of water that may enter a flooded space.\n\n(3) **Block coefficient (Cb):** The ratio of a ship's underwater volume to the volume of a rectangular block having the same length, breadth and draught. It indicates the fullness of the ship's hull form.\n\n(4) **Ship domain:** The surrounding water area that a navigator wishes to keep clear of other vessels or obstacles to maintain safe navigation. Its size and shape depend on ship dimensions, speed, manoeuvrability, visibility, traffic density and the navigational environment.",
+    "lastUpdated": "2026-11-07"
   },
   {
     "questionId": "106-english-04",
     "modelAnswer": "A qualified pilot must combine professional knowledge, practical experience and sound judgement. First, a pilot should have a thorough understanding of navigation, ship handling, meteorology, tides, currents and local port regulations. Knowledge of charts, navigational aids, traffic schemes and berth characteristics is essential for planning a safe passage. A pilot must also understand the manoeuvring characteristics of different ships, including their engines, rudders, thrusters and stopping distances.\n\nSecondly, practical experience is indispensable. A pilot should be familiar with local waters in different weather and tidal conditions and should know how to work effectively with tugboats and port control services. Before pilotage begins, the pilot must exchange information with the master, discuss the passage plan, confirm the ship's condition and agree on communications and emergency procedures.\n\nThirdly, communication and teamwork are vital. A qualified pilot should use clear and standardized maritime language, listen carefully to the bridge team and encourage questions whenever there is doubt. The pilot must respect the master's responsibility and cooperate with the master and bridge officers to monitor the vessel's position and movement continuously.\n\nFinally, a good pilot needs integrity, discipline, physical and mental fitness, and the ability to remain calm under pressure. The pilot should keep professional knowledge up to date, learn from incidents and exercises, and comply with laws and safety procedures. A qualified pilot is not simply someone who can manoeuvre a ship; he or she is a professional who can lead a safe passage through local waters while maintaining effective cooperation with the ship's crew and port authorities.",
-    "practicalAnalysis": "約300字作文宜有明確結構：專業知識、實務經驗、溝通合作、個人品格與持續訓練。文章避免把引水人描述成取代船長的指揮者，並以安全領航、團隊合作及法規遵循作結。",
+    "practicalAnalysis": "作文約300字，依專業知識、實務經驗、MPX與團隊合作、個人素養及持續訓練組織。避免把引水人寫成取代船長的指揮者，並將引水人專業能力與安全領航目標連結。",
     "keyPoints": [
-      "專業知識：航海、操船、潮汐、氣象、海圖與港規。",
-      "實務經驗：熟悉當地水域、各型船舶與拖船協作。",
-      "登輪前MPX：交換航行計畫、船舶狀態及緊急程序。",
-      "溝通合作：使用標準海事用語，尊重船長責任並持續監控。",
-      "個人素養：誠信、紀律、身心適任、抗壓及持續進修。"
+      {
+        "point": "專業知識與船舶操縱能力",
+        "importance": "essential",
+        "result": "pass",
+        "note": "涵蓋航海、氣象、潮流、海圖、操縱性能及港規。"
+      },
+      {
+        "point": "地方水域及實務經驗",
+        "importance": "essential",
+        "result": "pass",
+        "note": "補入UKC、Squat、風壓、岸壁效應及拖船協作。"
+      },
+      {
+        "point": "MPX及團隊溝通",
+        "importance": "essential",
+        "result": "pass",
+        "note": "依A.960(23)說明資訊交換、閉環溝通及責任界線。"
+      },
+      {
+        "point": "品格與持續訓練",
+        "importance": "essential",
+        "result": "pass",
+        "note": "補入誠信、紀律、身心適任及持續訓練。"
+      }
     ],
     "references": [
       {
@@ -2126,13 +2344,71 @@
         "title": "考選部106年專業英文試題",
         "issuer": "考選部",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1012&t=Q"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "引水人訓練、BRM、MPX及船長／駕駛台團隊責任。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.893(21) — Guidelines for Voyage Planning",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.893%2821%29.pdf",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "航次計畫、執行、監控及應變。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO STCW Convention and Code",
+        "url": "https://www.imo.org/en/ourwork/humanelement/pages/stcw-conv-link.aspx",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "海事專業能力、訓練及持續適任背景。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部106年專業英文試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1012&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題及作文題目。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "英文作文為練習擬答，非考選部官方範文；字數及評分方式以原題要求與閱卷標準為準。"
     ],
     "verification": {
-      "status": "partially_verified"
-    }
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "專業知識與船舶操縱能力",
+          "result": "pass",
+          "note": "涵蓋航海、氣象、潮流、海圖、操縱性能及港規。"
+        },
+        {
+          "item": "地方水域及實務經驗",
+          "result": "pass",
+          "note": "補入UKC、Squat、風壓、岸壁效應及拖船協作。"
+        },
+        {
+          "item": "MPX及團隊溝通",
+          "result": "pass",
+          "note": "依A.960(23)說明資訊交換、閉環溝通及責任界線。"
+        },
+        {
+          "item": "品格與持續訓練",
+          "result": "pass",
+          "note": "補入誠信、紀律、身心適任及持續訓練。"
+        }
+      ]
+    },
+    "version": 2,
+    "answer": "A qualified pilot must combine professional knowledge, practical experience, sound judgement and a strong sense of responsibility. First, a pilot needs a thorough understanding of navigation, ship handling, meteorology, tides, currents, charts, navigational aids and local port regulations. The pilot must also understand the manoeuvring characteristics of different ships, including their engines, rudders, thrusters, stopping distances and limitations in various loading conditions.\n\nSecondly, practical experience is essential. A pilot should become familiar with local waters, channels, anchorages, berths and traffic patterns under different weather and tidal conditions. The pilot must know how to assess under-keel clearance, squat, windage, bank effects and interaction between vessels. Effective cooperation with tugboats, VTS operators and port authorities is also important.\n\nThirdly, communication and teamwork are vital to safe pilotage. Before the operation begins, the pilot should conduct a Master-Pilot Exchange with the master and bridge team. They should discuss the passage plan, the ship's manoeuvring information, expected environmental conditions, tug arrangements, communication methods and emergency procedures. During pilotage, the pilot should use clear and standardized maritime language, give unambiguous orders and encourage the bridge team to report any concern. The pilot's presence does not relieve the master or the officer in charge of the navigational watch of their responsibilities. Continuous monitoring and mutual support are therefore essential.\n\nFinally, a qualified pilot must demonstrate integrity, discipline, physical and mental fitness, and the ability to remain calm under pressure. Professional knowledge should be updated through continuing training, simulator exercises, incident reviews and study of new regulations and technology.\n\nIn conclusion, becoming a qualified pilot requires much more than the ability to manoeuvre a ship. A good pilot combines local knowledge, technical competence, practical experience and effective teamwork to ensure that every passage is conducted safely and efficiently.",
+    "lastUpdated": "2026-11-07"
   }
 ]
