@@ -2,10 +2,10 @@
   {
     "id": "answer-112-shiphandling-02",
     "questionId": "112-shiphandling-02",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "一、兩具外旋式AziPods產生最大左右橫向推力的相對位置\nAziPod可繞垂直軸360°迴轉，推力方向由吊艙方位決定。若題目要求船舶產生最大向左（Port）或向右（Starboard）的橫向推力，兩具吊艙的推力軸應同時轉至與船舶縱向軸約90°，且兩具推力向量朝同一舷，使橫向分力相加。欲向左移，兩具吊艙均將推力指向左舷；欲向右移，則均指向右舷。所謂外旋（Outward turning）描述兩具螺旋槳的旋轉方向／配置，不代表兩具吊艙在產生橫向推力時應各自朝相反方向施力；若向量相反，橫向分力會互相抵銷。\n\n二、在前進中停止船舶的吊艙操作方法\n（一）Pod-way crash stop（吊艙反轉停船）：不必先反轉螺旋槳旋轉方向，而是將兩具吊艙繞垂直軸迴轉約180°，使推力方向由向前改為向後，產生與船舶前進方向相反的推力。雙吊艙通常可採向外旋轉（toe-out）或依製造商核准程序操作；應考慮吊艙轉向時間、軸承負荷、螺旋槳負荷及船舶偏航。\n（二）傳統反車／反轉推力：依製造商允許方式降低轉速或改變螺旋槳推力方向，使其產生向後推力。對AziPod而言，直接反轉螺旋槳轉向可能造成機械及水動力負荷，不應假設所有吊艙都適用；必須遵守原廠操縱手冊。\n（三）轉向制動（Turning stop）：將吊艙轉至大角度，利用推力產生急轉向，同時以船體阻力及轉向運動消耗動能。此法可在短距離內減速，但會造成較大的橫向空間需求、橫傾及結構負荷，需在水域寬敞且速度已適當降低時使用。\n（四）差動／反向側向推力制動：雙吊艙設定不同方位，使其推力向量形成制動力及控制艏向的力矩；可利用兩吊艙反向或斜向推力，在減速同時控制偏航。實際可用模式取決於控制系統、推進器配置及製造商限制。\n\n三、操縱安全注意事項\n1. 題目假設無風、無流、空曠且水深足夠，故可忽略外界風流及淺水限制；實際操作仍須評估水域寬度、船速、吃水、航道及周圍船舶。\n2. Pod-way crash stop時，吊艙快速轉向可能產生很大的方位軸承與結構負荷；應依原廠核准的轉向速度、最大角度、轉速及負荷限制操作。\n3. 轉向制動會產生橫向加速度與船體傾斜，應控制速度及人員安全；不得將模擬器或其他船型的數據直接套用。\n4. 停船距離受初速、船舶排水量、推力、吊艙轉向速率、船體阻力及控制模式影響，應以該船海試資料及Manoeuvring Booklet為準。\n\n結論：最大橫向推力時，兩具吊艙的推力向量應同向並垂直船舶縱向軸，讓側向分力相加。前進中停船可採吊艙轉向180°產生反向推力、原廠允許的反車方式、轉向制動及差動／反向側向推力等方法；AziPod操作負荷高，必須依個船製造商程序及海試資料執行。",
+    "modelAnswer": "【2027年考試主答｜AziPod操作資料查核截至2026-11-07】\n\n一、雙吊艙最大橫向推力\nAziPod可繞垂直軸360°迴轉，推力方向由吊艙方位角及螺旋槳轉速決定。依ABB Azipod操作指引及AZIPILOT技術研究，雙吊艙要取得較大的橫向側推力，兩具吊艙均使用正轉速（positive RPM），吊艙方位角大致落在船舶縱向軸的75°至105°範圍，並須採「向開放水域排流（blowing to the open）」的配置，避免螺槳流直接衝擊船殼、另一具吊艙或其他障礙物，否則有效推力會明顯下降。\n（一）欲使船舶產生向左（Port）的橫向作用，應採左側推力配置；欲向右（Starboard），則採鏡像配置。兩具吊艙的推力向量須形成所需的合成側向分力，但實際方位角不宜簡化成兩具吊艙一律固定90°平行，應依吊艙位置、推進器旋轉方向、排流是否受船殼遮擋及製造商控制圖設定。\n（二）ABB圖示所稱「最大側推力」是特定雙吊艙配置與船體設計下的結果，不能直接把75°至105°當成所有船型的絕對固定值。\n（三）「Outward turning propellers」是螺旋槳旋轉方向／配置；「pods turned outwards」則是吊艙繞垂直軸向外轉向，兩者不是同一概念。\n\n二、前進中停止船舶的四種常見方法\n1. Turning Stop（轉向制動）：利用吊艙大角度轉向產生強烈轉向力及船體阻力，同時消耗船舶動能。此法需要橫向水域，且速度過高可能產生很大橫傾，應先降低速度並依船舶操縱資料操作。\n2. POD WAY Crash Stop（吊艙轉向停船）：不反轉螺旋槳旋轉方向，將兩具吊艙繞垂直軸轉向約180°，使推力方向反向。ABB指引建議吊艙向外轉，並依該船控制程序先切換Manoeuvring模式、降低功率，再分階段轉向；可維持positive RPM，避免高速時直接反轉造成的推進系統負荷。\n3. Crash Stop by Reverse RPM（反轉螺旋槳停船）：傳統方式，降低功率後將螺旋槳轉速由正轉改為負轉，產生向後推力。製造商通常不建議在高速下直接反轉，僅可依個船程序、低速或緊急狀況採用。\n4. Transverse Arrest（橫向制動）：兩具吊艙轉至約90°相對的橫向制動位置，利用橫向水動力阻力快速減速；速度降低至約5節附近後，再進一步調整吊艙產生向後推力。此法負荷及機械應力可能較大，須確認該船控制系統是否支援及其限制。\n\n三、操縱限制\n1. 以上四種為技術文獻中常見的停船方式，不代表每艘AziPod船舶均可使用全部模式。\n2. ABB操作指引指出，吊艙快速轉向時應注意控制模式、功率限制、吊艙轉向路徑、軸承負荷、船舶橫傾及螺槳流與船殼／另一吊艙的交互作用。\n3. 不得把某一船型的轉向角、速度門檻或停船距離直接套用其他船舶；應以本船Azipod Operating Manual、Manoeuvring Booklet、Pilot Card及海試資料為準。\n4. 題目設定無風、無流、空曠且水深足夠，可忽略外界風流及淺水限制，但不代表可忽略吊艙機械負荷及船體橫傾。\n\n結論：雙吊艙最大側推力的關鍵是正轉速、約75°至105°的有效方位範圍及向開放水域排流；左、右側推採鏡像配置。前進中停船常見有Turning Stop、POD WAY、Reverse RPM及Transverse Arrest四種，但實際可用模式與步驟必須依本船製造商手冊。",
     "practicalAnalysis": "本題20分，前半段要畫出兩具吊艙同向90°推力，左右移時整組鏡像反轉；後半段至少列出Pod-way crash stop、傳統反向推力、turning stop及差動推力控制。研究資料指出雙吊艙可用180°旋轉推力完成pod-way停船，通常不需反轉螺旋槳旋向；實際轉向方向及負荷限制仍應服從原廠手冊。",
     "keyPoints": [
       {
@@ -54,6 +54,30 @@
         "issuer": "International Maritime Organization",
         "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.601%2815%29.pdf",
         "supports": "個船操縱資料及停船性能應以船舶實際資料為準。"
+      },
+      {
+        "title": "Azipod Operating Guidelines, ABB document 3AFV6015954 Rev.K",
+        "sourceType": "manufacturer_operating_guidance",
+        "issuer": "ABB",
+        "url": "https://www.scribd.com/document/1075091522/Azipod-X-Operating-Guidelines",
+        "supports": "雙吊艙正轉速、75°至105°有效側推範圍、向開放水域排流及POD WAY停船程序；此為ABB文件的公開轉載頁，實際操作仍以船上受控版本為準。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "AZIPILOT Deliverable 3.5 — Proposed Azipod Model Training Programme and Assessment",
+        "sourceType": "technical_research",
+        "issuer": "AZIPILOT Project / Newcastle University",
+        "url": "https://pilot.ncl.ac.uk/publishable%20summaries/Deliverable%203.5%20PUBLIC.pdf",
+        "supports": "雙吊艙側推、吊艙交互作用、Turning Stop、POD WAY、Reverse RPM及Transverse Arrest原理。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Azipod VI and ICE Product Introduction",
+        "sourceType": "manufacturer_product_information",
+        "issuer": "ABB",
+        "url": "https://library.e.abb.com/public/27726b3b06fd4034b09734c4d1655731/Azipod%20VI%20and%20ICE_brochure.pdf",
+        "supports": "Azipod推進器配置及船體整合須依個船設計與原廠工程資料。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -61,18 +85,23 @@
       "題目未提供該郵輪AziPod原廠型式、控制邏輯及圖示；本答案說明通用向量與停船方式，不將某一廠牌操作程序視為所有AziPod通則。"
     ],
     "verification": {
-      "status": "partially_verified",
+      "status": "verified_with_scope",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "原題",
+          "item": "雙吊艙最大側推配置",
           "result": "pass",
-          "note": "依112年度題庫主檔核對題目。"
+          "note": "依ABB操作指引及AZIPILOT技術研究，補正75°至105°、positive RPM及向開放水域排流原則。"
         },
         {
-          "item": "專業依據",
+          "item": "四種停船方式",
           "result": "pass",
-          "note": "依IMO／港務及船舶操縱專業資料交叉整理。"
+          "note": "核對Turning Stop、POD WAY、Reverse RPM及Transverse Arrest；補充模式限制。"
+        },
+        {
+          "item": "適用特定船型之方位角與程序",
+          "result": "verified_with_scope",
+          "note": "原廠文件明確指出船舶控制系統及功率限制可能不同，須以本船受控手冊為準。"
         }
       ]
     },
