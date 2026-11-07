@@ -44,13 +44,20 @@
         "supports": "原題及圖面要求。",
         "accessedAt": "2026-11-07"
       },
-      "高雄港船舶航行規則 — 臺灣港務公司高雄港務分公司 — https://kh.twport.com.tw/en/service/Articles?a=1053",
+      {
+        "title": "高雄港船舶航行規則",
+        "sourceType": "official_port_reference",
+        "issuer": "臺灣港務公司高雄港務分公司",
+        "supports": "港區作業規定、設施及港口管理資料。",
+        "accessedAt": "2026-11-07",
+        "url": "https://kh.twport.com.tw/en/service/Articles?a=1053"
+      },
       {
         "title": "高雄港港埠營運設施總表",
         "sourceType": "official_port_data",
         "issuer": "臺灣港務公司高雄港務分公司",
         "url": "https://kh.twport.com.tw/port/Articles?a=919",
-        "supports": "現行港口、航道、迴船池及各碼頭設施資料。",
+        "supports": "現行港口、航道、迴船池及各碼頭設施資料。；第一、第二港口航道、迴船池及各碼頭設施；頁面列示2026-10-21更新資料。",
         "accessedAt": "2026-11-07"
       },
       {
@@ -83,14 +90,6 @@
         "issuer": "中央氣象署",
         "url": "https://ocean.cwa.gov.tw/V2/sailing_forecast",
         "supports": "港灣高解析度動態潮流預報及操船定位資訊。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "高雄港港埠營運設施總表",
-        "sourceType": "official_port_data",
-        "issuer": "臺灣港務公司高雄港務分公司",
-        "url": "https://kh.twport.com.tw/port/Articles?a=919",
-        "supports": "第一、第二港口航道、迴船池及各碼頭設施；頁面列示2026-10-21更新資料。",
         "accessedAt": "2026-11-07"
       },
       {
@@ -222,9 +221,30 @@
       }
     ],
     "references": [
-      "考選部104年高雄港當地水道試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0803&t=Q",
-      "IMO A.960(23) Recommendations on Training and Certification and Operational Procedures for Maritime Pilots — IMO — https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
-      "高雄港船舶航行規則及港區作業資訊 — 臺灣港務公司高雄港務分公司 — https://kh.twport.com.tw/en/service/Articles?a=1053",
+      {
+        "title": "考選部104年高雄港當地水道試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0803&t=Q"
+      },
+      {
+        "title": "IMO A.960(23) Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
+        "sourceType": "IMO_international_reference",
+        "issuer": "IMO",
+        "supports": "引水人訓練、MPX及引水作業程序。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf"
+      },
+      {
+        "title": "高雄港船舶航行規則及港區作業資訊",
+        "sourceType": "official_port_reference",
+        "issuer": "臺灣港務公司高雄港務分公司",
+        "supports": "港區作業規定、設施及港口管理資料。",
+        "accessedAt": "2026-11-07",
+        "url": "https://kh.twport.com.tw/en/service/Articles?a=1053"
+      },
       {
         "title": "高雄港船舶航行規定（現行版）",
         "sourceType": "official_port_regulation",
@@ -347,8 +367,22 @@
       }
     ],
     "references": [
-      "考選部104年高雄港當地水道試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0803&t=Q",
-      "IMO A.960(23) Pilotage operational procedures — IMO — https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+      {
+        "title": "考選部104年高雄港當地水道試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0803&t=Q"
+      },
+      {
+        "title": "IMO A.960(23) Pilotage operational procedures",
+        "sourceType": "IMO_international_reference",
+        "issuer": "IMO",
+        "supports": "引水人訓練、MPX及引水作業程序。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf"
+      },
       {
         "title": "高雄港公共水域、浮筒座標間距及全港區水深圖",
         "sourceType": "official_port_data",
@@ -479,9 +513,30 @@
       }
     ],
     "references": [
-      "考選部104年高雄港當地水道試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0803&t=Q",
-      "IMO A.960(23) — IMO — https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
-      "高雄港船舶航行規則 — 臺灣港務公司高雄港務分公司 — https://kh.twport.com.tw/en/service/Articles?a=1053",
+      {
+        "title": "考選部104年高雄港當地水道試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0803&t=Q"
+      },
+      {
+        "title": "IMO A.960(23)",
+        "sourceType": "IMO_international_reference",
+        "issuer": "IMO",
+        "supports": "引水人訓練、MPX及引水作業程序。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf"
+      },
+      {
+        "title": "高雄港船舶航行規則",
+        "sourceType": "official_port_reference",
+        "issuer": "臺灣港務公司高雄港務分公司",
+        "supports": "港區作業規定、設施及港口管理資料。",
+        "accessedAt": "2026-11-07",
+        "url": "https://kh.twport.com.tw/en/service/Articles?a=1053"
+      },
       {
         "title": "高雄港船舶航行規定（現行版）",
         "sourceType": "official_port_regulation",
@@ -612,9 +667,30 @@
       }
     ],
     "references": [
-      "考選部104年高雄港當地水道試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0803&t=Q",
-      "IMO A.960(23) — IMO — https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
-      "高雄港船舶進出港及移泊交通管制作業原則 — 臺灣港務公司高雄港務分公司 — https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+      {
+        "title": "考選部104年高雄港當地水道試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0803&t=Q"
+      },
+      {
+        "title": "IMO A.960(23)",
+        "sourceType": "IMO_international_reference",
+        "issuer": "IMO",
+        "supports": "引水人訓練、MPX及引水作業程序。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf"
+      },
+      {
+        "title": "高雄港船舶進出港及移泊交通管制作業原則",
+        "sourceType": "official_port_reference",
+        "issuer": "臺灣港務公司高雄港務分公司",
+        "supports": "港區作業規定、設施及港口管理資料。；港內移泊、拖船及安全速度程序。",
+        "accessedAt": "2026-11-07",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052"
+      },
       {
         "title": "高雄港94–99及101號碼頭配置圖",
         "sourceType": "official_port_chart",
@@ -669,14 +745,6 @@
         "issuer": "法務部全國法規資料庫／交通部",
         "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0070028",
         "supports": "強制引水基本規定及法定適用範圍。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "高雄港船舶進出港及移泊交通管制作業原則",
-        "sourceType": "official_port_regulation",
-        "issuer": "臺灣港務公司高雄港務分公司",
-        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
-        "supports": "港內移泊、拖船及安全速度程序。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -758,8 +826,22 @@
       }
     ],
     "references": [
-      "高雄港洲際貨櫃中心第一期工程及營運沿革 — 臺灣港務公司高雄港務分公司 — https://kh.twport.com.tw/port/Articles?a=229",
-      "2015年海運新航路發展與臺灣港埠調適能力研討會論文集 — 交通部運輸研究所 — https://www.iot.gov.tw/uploads/asset/data/66198bd9367376304acd4f57/2015_%E5%B9%B4%E6%B5%B7%E9%81%8B%E6%96%B0%E8%88%AA%E8%B7%AF%E7%99%BC%E5%B1%95%E8%88%87%E8%87%BA%E7%81%A3%E6%B8%AF%E5%9F%A0%E8%AA%BF%E9%81%A9%E8%83%BD%E5%8A%9B%E7%A0%94%E8%A8%8E%E6%9C%83%E8%AB%96%E6%96%87%E9%9B%86.pdf",
+      {
+        "title": "高雄港洲際貨櫃中心第一期工程及營運沿革",
+        "sourceType": "official_port_reference",
+        "issuer": "臺灣港務公司高雄港務分公司",
+        "supports": "港區作業規定、設施及港口管理資料。",
+        "accessedAt": "2026-11-07",
+        "url": "https://kh.twport.com.tw/port/Articles?a=229"
+      },
+      {
+        "title": "2015年海運新航路發展與臺灣港埠調適能力研討會論文集",
+        "sourceType": "official_law_reference",
+        "issuer": "交通部運輸研究所",
+        "supports": "法規條文及歷史版本依據。",
+        "accessedAt": "2026-11-07",
+        "url": "https://www.iot.gov.tw/uploads/asset/data/66198bd9367376304acd4f57/2015_%E5%B9%B4%E6%B5%B7%E9%81%8B%E6%96%B0%E8%88%AA%E8%B7%AF%E7%99%BC%E5%B1%95%E8%88%87%E8%87%BA%E7%81%A3%E6%B8%AF%E5%9F%A0%E8%AA%BF%E9%81%A9%E8%83%BD%E5%8A%9B%E7%A0%94%E8%A8%8E%E6%9C%83%E8%AB%96%E6%96%87%E9%9B%86.pdf"
+      },
       {
         "title": "高雄港第七貨櫃中心計畫",
         "sourceType": "official_port_project",
@@ -895,8 +977,22 @@
       }
     ],
     "references": [
-      "COLREG 1972（IMO官方說明） — IMO — https://www.imo.org/en/about/conventions/pages/colreg.aspx",
-      "考選部104年航政法規試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q",
+      {
+        "title": "COLREG 1972（IMO官方說明）",
+        "sourceType": "IMO_international_reference",
+        "issuer": "IMO",
+        "supports": "國際海上避碰規則及航行燈號／安全航速依據。",
+        "accessedAt": "2026-11-07",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx"
+      },
+      {
+        "title": "考選部104年航政法規試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。；原題。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q"
+      },
       {
         "title": "COLREG 1972 — Rule 9 Narrow Channels",
         "sourceType": "international_convention",
@@ -927,14 +1023,6 @@
         "issuer": "International Maritime Organization",
         "sourceType": "official_law_or_convention",
         "supports": "Rule 5至9及安全速度、碰撞危險與避碰行動背景。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部104年航政法規試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_law_or_convention",
-        "supports": "原題。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -1000,8 +1088,22 @@
       }
     ],
     "references": [
-      "引水法（修正日期民國91年1月30日，104年考試時適用版本） — 法務部全國法規資料庫 — https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
-      "考選部104年航政法規試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q",
+      {
+        "title": "引水法（修正日期民國91年1月30日，104年考試時適用版本）",
+        "sourceType": "official_law_reference",
+        "issuer": "法務部全國法規資料庫",
+        "supports": "法規條文及歷史版本依據。",
+        "accessedAt": "2026-11-07",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028"
+      },
+      {
+        "title": "考選部104年航政法規試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。；原題。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q"
+      },
       {
         "title": "引水法（現行條文，修正日期115年8月17日）",
         "sourceType": "law_or_regulation",
@@ -1032,14 +1134,6 @@
         "issuer": "法務部全國法規資料庫／交通部",
         "sourceType": "official_law_or_convention",
         "supports": "確認115年8月17日修正第6條，並核對第16至20條未列入該次修正。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部104年航政法規試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_law_or_convention",
-        "supports": "原題。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -1115,8 +1209,22 @@
       }
     ],
     "references": [
-      "引水法（民國91年1月30日修正版本） — 法務部全國法規資料庫 — https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
-      "考選部104年航政法規試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q",
+      {
+        "title": "引水法（民國91年1月30日修正版本）",
+        "sourceType": "official_law_reference",
+        "issuer": "法務部全國法規資料庫",
+        "supports": "法規條文及歷史版本依據。",
+        "accessedAt": "2026-11-07",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028"
+      },
+      {
+        "title": "考選部104年航政法規試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。；原題。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q"
+      },
       {
         "title": "引水法（現行條文，修正日期115年8月17日）",
         "sourceType": "law_or_regulation",
@@ -1138,7 +1246,7 @@
         "sourceType": "IMO_resolution",
         "issuer": "International Maritime Organization",
         "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
-        "supports": "引水人與船長、駕駛台團隊之合作及MPX。",
+        "supports": "引水人與船長、駕駛台團隊之合作及MPX。；引水人、船長與駕駛台團隊的MPX、角色理解及BRM。",
         "accessedAt": "2026-11-07"
       },
       {
@@ -1155,22 +1263,6 @@
         "issuer": "法務部全國法規資料庫／交通部",
         "sourceType": "official_law_or_convention",
         "supports": "確認115年修正範圍僅第6條。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "IMO Resolution A.960(23)",
-        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
-        "issuer": "International Maritime Organization",
-        "sourceType": "official_law_or_convention",
-        "supports": "引水人、船長與駕駛台團隊的MPX、角色理解及BRM。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部104年航政法規試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_law_or_convention",
-        "supports": "原題。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -1241,8 +1333,22 @@
       }
     ],
     "references": [
-      "商港法（104年考試時適用條文，交通部歷史法規資料） — 交通部 — https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0002008&type=-1",
-      "考選部104年航政法規試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q",
+      {
+        "title": "商港法（104年考試時適用條文，交通部歷史法規資料）",
+        "sourceType": "official_law_reference",
+        "issuer": "交通部",
+        "supports": "法規條文及歷史版本依據。",
+        "accessedAt": "2026-11-07",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0002008&type=-1"
+      },
+      {
+        "title": "考選部104年航政法規試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。；原題。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q"
+      },
       {
         "title": "商港法（現行條文，修正日期115年2月4日）",
         "sourceType": "law_or_regulation",
@@ -1281,14 +1387,6 @@
         "issuer": "International Maritime Organization",
         "sourceType": "official_law_or_convention",
         "supports": "航行避碰聲號的國際規則依據。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部104年航政法規試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_law_or_convention",
-        "supports": "原題。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -1359,9 +1457,30 @@
       }
     ],
     "references": [
-      "商港法（交通部法規資料） — 交通部 — https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0002008&type=-1",
-      "COLREG 1972 — IMO — https://www.imo.org/en/about/conventions/pages/colreg.aspx",
-      "考選部104年航政法規試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q",
+      {
+        "title": "商港法（交通部法規資料）",
+        "sourceType": "official_law_reference",
+        "issuer": "交通部",
+        "supports": "法規條文及歷史版本依據。",
+        "accessedAt": "2026-11-07",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0002008&type=-1"
+      },
+      {
+        "title": "COLREG 1972",
+        "sourceType": "IMO_international_reference",
+        "issuer": "IMO",
+        "supports": "國際海上避碰規則及航行燈號／安全航速依據。",
+        "accessedAt": "2026-11-07",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx"
+      },
+      {
+        "title": "考選部104年航政法規試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。；原題。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q"
+      },
       {
         "title": "商港法（現行條文，修正日期115年2月4日）",
         "sourceType": "law_or_regulation",
@@ -1375,7 +1494,7 @@
         "sourceType": "international_convention",
         "issuer": "International Maritime Organization",
         "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
-        "supports": "Rule 5瞭望、Rule 6安全速度、Rule 7碰撞危險判斷及Rule 8避碰行動。",
+        "supports": "Rule 5瞭望、Rule 6安全速度、Rule 7碰撞危險判斷及Rule 8避碰行動。；Rule 5瞭望、Rule 6安全速度、Rule 7碰撞危險及Rule 8避碰行動。",
         "accessedAt": "2026-11-07"
       },
       {
@@ -1400,22 +1519,6 @@
         "issuer": "法務部全國法規資料庫／交通部",
         "sourceType": "official_law_or_convention",
         "supports": "核對第31條未列入近年修法項目。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "IMO COLREG 1972",
-        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
-        "issuer": "International Maritime Organization",
-        "sourceType": "official_law_or_convention",
-        "supports": "Rule 5瞭望、Rule 6安全速度、Rule 7碰撞危險及Rule 8避碰行動。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部104年航政法規試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_law_or_convention",
-        "supports": "原題。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -1491,8 +1594,22 @@
       }
     ],
     "references": [
-      "考選部104年引港學試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q",
-      "NOAA JetStream—Monsoons — NOAA — https://www.noaa.gov/jetstream",
+      {
+        "title": "考選部104年引港學試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。；原題。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q"
+      },
+      {
+        "title": "NOAA JetStream—Monsoons",
+        "sourceType": "official_meteorological_reference",
+        "issuer": "NOAA",
+        "supports": "氣象及海洋環境資料。",
+        "accessedAt": "2026-11-07",
+        "url": "https://www.noaa.gov/jetstream"
+      },
       {
         "title": "NOAA National Weather Service Glossary — Monsoon",
         "sourceType": "official_meteorological_reference",
@@ -1523,14 +1640,6 @@
         "issuer": "Official / technical source",
         "sourceType": "official_or_technical_reference",
         "supports": "東亞冬季季風及西伯利亞高壓、東北季風背景。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部104年引港學試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_or_technical_reference",
-        "supports": "原題。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -1606,14 +1715,28 @@
       }
     ],
     "references": [
-      "考選部104年引港學試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q",
-      "IMO COLREG 1972 — IMO — https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+      {
+        "title": "考選部104年引港學試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。；原題。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q"
+      },
+      {
+        "title": "IMO COLREG 1972",
+        "sourceType": "IMO_international_reference",
+        "issuer": "IMO",
+        "supports": "國際海上避碰規則及航行燈號／安全航速依據。；Rule 5瞭望及Rule 6安全速度。；Rule 5、6、7及19能見度不良時的航行安全規定。",
+        "accessedAt": "2026-11-07",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx"
+      },
       {
         "title": "NOAA National Weather Service — Advection Fog",
         "sourceType": "official_meteorological_guidance",
         "issuer": "NOAA",
         "url": "https://www.weather.gov/safety/fog-advection",
-        "supports": "暖濕空氣流經冷面、冷卻至飽和形成平流霧；可在雲天及中等至較強風下形成。",
+        "supports": "暖濕空氣流經冷面、冷卻至飽和形成平流霧；可在雲天及中等至較強風下形成。；平流霧形成條件、可於多雲天氣及中等至較強風下形成、可隨風移動。",
         "accessedAt": "2026-11-07"
       },
       {
@@ -1622,38 +1745,6 @@
         "issuer": "NOAA",
         "url": "https://www.weather.gov/safety/fog-water",
         "supports": "海霧為海面上的平流霧，暖濕空氣流經較冷水面形成。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "IMO COLREG 1972",
-        "sourceType": "international_convention",
-        "issuer": "International Maritime Organization",
-        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
-        "supports": "Rule 5瞭望及Rule 6安全速度。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "NOAA National Weather Service — Advection Fog",
-        "url": "https://www.weather.gov/safety/fog-advection",
-        "issuer": "Official / technical source",
-        "sourceType": "official_or_technical_reference",
-        "supports": "平流霧形成條件、可於多雲天氣及中等至較強風下形成、可隨風移動。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "IMO COLREG 1972",
-        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
-        "issuer": "International Maritime Organization",
-        "sourceType": "official_or_technical_reference",
-        "supports": "Rule 5、6、7及19能見度不良時的航行安全規定。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部104年引港學試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_or_technical_reference",
-        "supports": "原題。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -1724,8 +1815,22 @@
       }
     ],
     "references": [
-      "考選部104年引港學試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q",
-      "The Kuroshio and its Adjacent Regions (CSK-2) — IOC Sub-Commission for the Western Pacific — https://ioc-westpac.org/csk2/",
+      {
+        "title": "考選部104年引港學試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。；原題。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q"
+      },
+      {
+        "title": "The Kuroshio and its Adjacent Regions (CSK-2)",
+        "sourceType": "technical_reference",
+        "issuer": "IOC Sub-Commission for the Western Pacific",
+        "supports": "作為本題專業背景及查證參考。",
+        "accessedAt": "2026-11-07",
+        "url": "https://ioc-westpac.org/csk2/"
+      },
       {
         "title": "Seasonal variation of the circulation in the Taiwan Strait",
         "sourceType": "peer_reviewed_oceanography",
@@ -1772,14 +1877,6 @@
         "issuer": "Official / technical source",
         "sourceType": "official_or_technical_reference",
         "supports": "冬季中國沿岸流南下、夏季黑潮支流及南海海流北上等季節性水團背景。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部104年引港學試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_or_technical_reference",
-        "supports": "原題。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -1855,9 +1952,30 @@
       }
     ],
     "references": [
-      "考選部104年引港學試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q",
-      "海圖圖例 — 中華民國海軍 — https://navy.mnd.gov.tw/aboutus/partner_info.aspx?aid=30888&id=30198",
-      "Chart Symbols and Abbreviations — Maritime and Port Authority of Singapore（依IHO標準編排） — https://www.mpa.gov.sg/who-we-are/newsroom-resources/publications/chart-symbols-and-abbreviations",
+      {
+        "title": "考選部104年引港學試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。；原題。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q"
+      },
+      {
+        "title": "海圖圖例",
+        "sourceType": "official_naval_chart_reference",
+        "issuer": "中華民國海軍",
+        "supports": "海圖圖例及助導航符號參考。",
+        "accessedAt": "2026-11-07",
+        "url": "https://navy.mnd.gov.tw/aboutus/partner_info.aspx?aid=30888&id=30198"
+      },
+      {
+        "title": "Chart Symbols and Abbreviations",
+        "sourceType": "official_hydrographic_reference",
+        "issuer": "Maritime and Port Authority of Singapore（依IHO標準編排）",
+        "supports": "海圖圖式、符號及航海資料參考。",
+        "accessedAt": "2026-11-07",
+        "url": "https://www.mpa.gov.sg/who-we-are/newsroom-resources/publications/chart-symbols-and-abbreviations"
+      },
       {
         "title": "IHO Standards and Specifications — S-4, INT 1, INT 2 and INT 3",
         "sourceType": "official_hydrographic_standard",
@@ -1904,14 +2022,6 @@
         "issuer": "Official / technical source",
         "sourceType": "official_or_technical_reference",
         "supports": "歷史版本圖例，供辨識舊題及過去海圖縮寫使用，不作現行版本替代。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部104年引港學試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_or_technical_reference",
-        "supports": "原題。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -2007,9 +2117,30 @@
       }
     ],
     "references": [
-      "Chart 5011—Symbols and Abbreviations used on Admiralty Charts — UK Hydrographic Office — https://maredu.hcg.gr/modules/document/index.php?course=ASP594&download=%2F6385379e63vj.pdf",
-      "海圖圖例 — 中華民國海軍 — https://navy.mnd.gov.tw/aboutus/partner_info.aspx?aid=30888&id=30198",
-      "考選部104年引港學試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q",
+      {
+        "title": "Chart 5011—Symbols and Abbreviations used on Admiralty Charts",
+        "sourceType": "official_hydrographic_reference",
+        "issuer": "UK Hydrographic Office",
+        "supports": "海圖圖式、符號及航海資料參考。",
+        "accessedAt": "2026-11-07",
+        "url": "https://maredu.hcg.gr/modules/document/index.php?course=ASP594&download=%2F6385379e63vj.pdf"
+      },
+      {
+        "title": "海圖圖例",
+        "sourceType": "official_naval_chart_reference",
+        "issuer": "中華民國海軍",
+        "supports": "海圖圖例及助導航符號參考。",
+        "accessedAt": "2026-11-07",
+        "url": "https://navy.mnd.gov.tw/aboutus/partner_info.aspx?aid=30888&id=30198"
+      },
+      {
+        "title": "考選部104年引港學試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。；原題。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q"
+      },
       {
         "title": "IHO Standards and Specifications — INT 1 Edition 9 (2026)",
         "sourceType": "official_hydrographic_standard",
@@ -2056,14 +2187,6 @@
         "issuer": "UK Hydrographic Office",
         "sourceType": "official_or_technical_reference",
         "supports": "NP5011為Admiralty海圖符號與縮寫參考出版品。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部104年引港學試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_or_technical_reference",
-        "supports": "原題。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -2139,8 +2262,22 @@
       }
     ],
     "references": [
-      "考選部104年船舶操縱試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q",
-      "Towage Guidelines — Maritime and Port Authority of Singapore — https://www.mpa.gov.sg/port-marine-ops/marine-services/pilotage-and-towage/towage",
+      {
+        "title": "考選部104年船舶操縱試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。；原題。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q"
+      },
+      {
+        "title": "Towage Guidelines",
+        "sourceType": "official_port_reference",
+        "issuer": "Maritime and Port Authority of Singapore",
+        "supports": "港區作業規定、設施及港口管理資料。",
+        "accessedAt": "2026-11-07",
+        "url": "https://www.mpa.gov.sg/port-marine-ops/marine-services/pilotage-and-towage/towage"
+      },
       {
         "title": "MGN 301 (M) Amendment 1 — Manoeuvring information onboard ships",
         "sourceType": "official_maritime_guidance",
@@ -2171,14 +2308,6 @@
         "issuer": "IMO SOLAS",
         "sourceType": "official_or_technical_reference",
         "supports": "倒俥推力須能於合理距離內使船舶停下，停船時間、航向及距離試驗結果須供船長使用。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部104年船舶操縱試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_or_technical_reference",
-        "supports": "原題。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -2259,14 +2388,28 @@
       }
     ],
     "references": [
-      "考選部104年船舶操縱試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q",
-      "IMO A.960(23) Pilotage operational procedures — IMO — https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+      {
+        "title": "考選部104年船舶操縱試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。；原題。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q"
+      },
+      {
+        "title": "IMO A.960(23) Pilotage operational procedures",
+        "sourceType": "IMO_international_reference",
+        "issuer": "IMO",
+        "supports": "引水人訓練、MPX及引水作業程序。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf"
+      },
       {
         "title": "IMO Resolution A.960(23)",
         "sourceType": "IMO_resolution",
         "issuer": "International Maritime Organization",
         "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
-        "supports": "引水人與船長MPX、船舶操縱資料及引水作業計畫。",
+        "supports": "引水人與船長MPX、船舶操縱資料及引水作業計畫。；引水人、船長及拖船協作的資訊交換及安全程序。",
         "accessedAt": "2026-11-07"
       },
       {
@@ -2286,27 +2429,11 @@
         "accessedAt": "2026-11-07"
       },
       {
-        "title": "IMO Resolution A.960(23)",
-        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
-        "issuer": "International Maritime Organization",
-        "sourceType": "official_or_technical_reference",
-        "supports": "引水人、船長及拖船協作的資訊交換及安全程序。",
-        "accessedAt": "2026-11-07"
-      },
-      {
         "title": "方信雄《船舶引航專論》",
         "url": "https://www.books.com.tw/",
         "issuer": "Official / technical source",
         "sourceType": "official_or_technical_reference",
         "supports": "船舶引航及港內操船專業參考。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部104年船舶操縱試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_or_technical_reference",
-        "supports": "原題。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -2387,9 +2514,30 @@
       }
     ],
     "references": [
-      "SOLAS Chapter II-1, Regulation 29—Steering gear — IMO Convention text (reference reproduction) — https://www.imorules.com/solas/02_chapter_II-1.html",
-      "SOLAS Chapter V, Regulation 22—Navigation bridge visibility — IMO / UK Government published convention text — https://assets.publishing.service.gov.uk/media/58984fae40f0b6070b000018/COR_AnnexesCombined.pdf",
-      "考選部104年船舶操縱試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q",
+      {
+        "title": "SOLAS Chapter II-1, Regulation 29—Steering gear",
+        "sourceType": "IMO_international_reference",
+        "issuer": "IMO Convention text (reference reproduction)",
+        "supports": "SOLAS船舶安全及駕駛台相關規定。",
+        "accessedAt": "2026-11-07",
+        "url": "https://www.imorules.com/solas/02_chapter_II-1.html"
+      },
+      {
+        "title": "SOLAS Chapter V, Regulation 22—Navigation bridge visibility",
+        "sourceType": "IMO_international_reference",
+        "issuer": "IMO / UK Government published convention text",
+        "supports": "SOLAS船舶安全及駕駛台相關規定。",
+        "accessedAt": "2026-11-07",
+        "url": "https://assets.publishing.service.gov.uk/media/58984fae40f0b6070b000018/COR_AnnexesCombined.pdf"
+      },
+      {
+        "title": "考選部104年船舶操縱試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。；原題。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q"
+      },
       {
         "title": "SOLAS 2024 — Chapter II-1, Regulation 29: Steering gear",
         "sourceType": "international_convention_text",
@@ -2428,14 +2576,6 @@
         "issuer": "IMO SOLAS",
         "sourceType": "official_or_technical_reference",
         "supports": "55m及1998-07-01適用門檻、前方視野、盲區及225°水平視野。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部104年船舶操縱試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_or_technical_reference",
-        "supports": "原題。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -2517,8 +2657,21 @@
       }
     ],
     "references": [
-      "考選部104年船舶操縱試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q",
-      "方信雄《航行避碰與操船》 — 專業參考著作",
+      {
+        "title": "考選部104年船舶操縱試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。；原題。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q"
+      },
+      {
+        "title": "方信雄《航行避碰與操船》",
+        "sourceType": "professional_book",
+        "issuer": "專業參考著作",
+        "supports": "船舶操縱、避碰及引水專業參考著作。",
+        "accessedAt": "2026-11-07"
+      },
       {
         "title": "MGN 301 (M) Amendment 1 — Manoeuvring information onboard ships",
         "sourceType": "official_maritime_guidance",
@@ -2557,14 +2710,6 @@
         "issuer": "Official / technical source",
         "sourceType": "official_or_technical_reference",
         "supports": "旋轉支點、船舶迴旋及操船運動學專業參考。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部104年船舶操縱試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_or_technical_reference",
-        "supports": "原題。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -2645,8 +2790,22 @@
       }
     ],
     "references": [
-      "考選部104年船舶操縱試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q",
-      "COLREG 1972—Lights and shapes for towing — IMO — https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+      {
+        "title": "考選部104年船舶操縱試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。；原題。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q"
+      },
+      {
+        "title": "COLREG 1972—Lights and shapes for towing",
+        "sourceType": "IMO_international_reference",
+        "issuer": "IMO",
+        "supports": "國際海上避碰規則及航行燈號／安全航速依據。",
+        "accessedAt": "2026-11-07",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx"
+      },
       {
         "title": "Transport Canada TP 15491 — Small Vessel Compliance Program: Tug Guidance Notes (2024)",
         "sourceType": "official_maritime_guidance",
@@ -2693,14 +2852,6 @@
         "issuer": "International Maritime Organization",
         "sourceType": "official_or_technical_reference",
         "supports": "引水作業資訊交換及駕駛台團隊合作。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部104年船舶操縱試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_or_technical_reference",
-        "supports": "原題。",
         "accessedAt": "2026-11-07"
       },
       {
@@ -2799,14 +2950,28 @@
       }
     ],
     "references": [
-      "考選部104年船舶操縱試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q",
-      "IMO A.960(23) — IMO — https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+      {
+        "title": "考選部104年船舶操縱試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。；原題。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q"
+      },
+      {
+        "title": "IMO A.960(23)",
+        "sourceType": "IMO_international_reference",
+        "issuer": "IMO",
+        "supports": "引水人訓練、MPX及引水作業程序。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf"
+      },
       {
         "title": "IMO Resolution A.960(23)",
         "sourceType": "IMO_resolution",
         "issuer": "International Maritime Organization",
         "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
-        "supports": "MPX及引水人與船長、拖船團隊的安全協調。",
+        "supports": "MPX及引水人與船長、拖船團隊的安全協調。；MPX、引水人與船長資訊交換及駕駛台團隊合作。",
         "accessedAt": "2026-11-07"
       },
       {
@@ -2834,27 +2999,11 @@
         "accessedAt": "2026-11-07"
       },
       {
-        "title": "IMO Resolution A.960(23)",
-        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
-        "issuer": "International Maritime Organization",
-        "sourceType": "official_or_technical_reference",
-        "supports": "MPX、引水人與船長資訊交換及駕駛台團隊合作。",
-        "accessedAt": "2026-11-07"
-      },
-      {
         "title": "MCA MGN 199 (M) Amendment 1 — Danger of interaction",
         "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
         "issuer": "Official / technical source",
         "sourceType": "official_or_technical_reference",
         "supports": "淺水、狹窄水域及拖船與大船交互作用風險。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部104年船舶操縱試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_or_technical_reference",
-        "supports": "原題。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -2930,8 +3079,22 @@
       }
     ],
     "references": [
-      "考選部104年專業英文試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q",
-      "IMO Resolution A.159(ES.IV)—Recommendation on Pilotage — IMO — https://www.imo.org/en/OurWork/Safety/Pages/Pilotage.aspx",
+      {
+        "title": "考選部104年專業英文試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。；原題。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q"
+      },
+      {
+        "title": "IMO Resolution A.159(ES.IV)—Recommendation on Pilotage",
+        "sourceType": "IMO_international_reference",
+        "issuer": "IMO",
+        "supports": "IMO公約、決議及海事技術資料。",
+        "accessedAt": "2026-11-07",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/Pilotage.aspx"
+      },
       {
         "title": "IMO Resolution A.159(ES.IV) — Recommendation on Pilotage Services",
         "url": "https://www.imo.org/en/OurWork/Safety/Pages/Pilotage.aspx",
@@ -2945,15 +3108,7 @@
         "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
         "issuer": "International Maritime Organization",
         "sourceType": "official_or_technical_reference",
-        "supports": "現代引水人訓練、MPX及引水作業程序的參考依據。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部104年專業英文試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_or_technical_reference",
-        "supports": "原題。",
+        "supports": "現代引水人訓練、MPX及引水作業程序的參考依據。；現代引水人訓練及引水作業程序的延伸參考。",
         "accessedAt": "2026-11-07"
       },
       {
@@ -2962,14 +3117,6 @@
         "issuer": "International Maritime Organization",
         "url": "https://www.imo.org/en/knowledgecentre/indexofimoresolutions/pages/assembly-(a).aspx",
         "supports": "1968年IMO大會決議A.159有關引水服務的建議背景。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "IMO Resolution A.960(23)",
-        "sourceType": "IMO_resolution",
-        "issuer": "International Maritime Organization",
-        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
-        "supports": "現代引水人訓練及引水作業程序的延伸參考。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -3040,22 +3187,28 @@
       }
     ],
     "references": [
-      "考選部104年專業英文試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q",
-      "COLREG 1972, Rule 6—Safe Speed — IMO — https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+      {
+        "title": "考選部104年專業英文試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。；原題。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q"
+      },
+      {
+        "title": "COLREG 1972, Rule 6—Safe Speed",
+        "sourceType": "IMO_international_reference",
+        "issuer": "IMO",
+        "supports": "國際海上避碰規則及航行燈號／安全航速依據。",
+        "accessedAt": "2026-11-07",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx"
+      },
       {
         "title": "IMO COLREG 1972 — Rule 6 Safe Speed",
         "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
         "issuer": "International Maritime Organization",
         "sourceType": "official_or_technical_reference",
         "supports": "安全速度規則及各項判斷因素。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部104年專業英文試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_or_technical_reference",
-        "supports": "原題。",
         "accessedAt": "2026-11-07"
       },
       {
@@ -3124,9 +3277,30 @@
       }
     ],
     "references": [
-      "考選部104年專業英文試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q",
-      "COLREG 1972—Definitions — IMO — https://www.imo.org/en/about/conventions/pages/colreg.aspx",
-      "GMDSS Search and Rescue Transponder information — IMO — https://www.imo.org/en/OurWork/Safety/Pages/RadioCommunications-Default.aspx",
+      {
+        "title": "考選部104年專業英文試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。；原題。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q"
+      },
+      {
+        "title": "COLREG 1972—Definitions",
+        "sourceType": "IMO_international_reference",
+        "issuer": "IMO",
+        "supports": "國際海上避碰規則及航行燈號／安全航速依據。",
+        "accessedAt": "2026-11-07",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx"
+      },
+      {
+        "title": "GMDSS Search and Rescue Transponder information",
+        "sourceType": "IMO_international_reference",
+        "issuer": "IMO",
+        "supports": "IMO公約、決議及海事技術資料。",
+        "accessedAt": "2026-11-07",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/RadioCommunications-Default.aspx"
+      },
       {
         "title": "IMO COLREG 1972 — Rule 3 Definitions",
         "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
@@ -3141,14 +3315,6 @@
         "issuer": "International Maritime Organization",
         "sourceType": "official_or_technical_reference",
         "supports": "GMDSS及搜救設備背景。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部104年專業英文試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_or_technical_reference",
-        "supports": "原題。",
         "accessedAt": "2026-11-07"
       },
       {
@@ -3240,9 +3406,30 @@
       }
     ],
     "references": [
-      "考選部104年專業英文試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q",
-      "IMO A.960(23)—Recommendations on Training and Certification and Operational Procedures for Maritime Pilots — IMO — https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
-      "SOLAS Chapter V, Regulation 34-1—Master's discretion — IMO — https://www.imo.org/en/OurWork/Safety/Pages/Default.aspx",
+      {
+        "title": "考選部104年專業英文試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "supports": "原始考試題目及題幹依據。；原題。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q"
+      },
+      {
+        "title": "IMO A.960(23)—Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
+        "sourceType": "IMO_international_reference",
+        "issuer": "IMO",
+        "supports": "引水人訓練、MPX及引水作業程序。",
+        "accessedAt": "2026-11-07",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf"
+      },
+      {
+        "title": "SOLAS Chapter V, Regulation 34-1—Master's discretion",
+        "sourceType": "IMO_international_reference",
+        "issuer": "IMO",
+        "supports": "SOLAS船舶安全及駕駛台相關規定。",
+        "accessedAt": "2026-11-07",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/Default.aspx"
+      },
       {
         "title": "IMO Resolution A.960(23) — Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
         "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
@@ -3257,14 +3444,6 @@
         "issuer": "International Maritime Organization",
         "sourceType": "official_or_technical_reference",
         "supports": "航次計畫、執行、監控及應變。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "考選部104年專業英文試題",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q",
-        "issuer": "考選部",
-        "sourceType": "official_or_technical_reference",
-        "supports": "原題。",
         "accessedAt": "2026-11-07"
       },
       {
