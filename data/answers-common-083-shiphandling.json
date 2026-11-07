@@ -1,0 +1,478 @@
+[
+  {
+    "id": "083-shiphandling-01-answer-v1",
+    "questionId": "083-shiphandling-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、對緊靠船舶的影響】船舶進出港時緊靠錨泊船或繫泊船航行，兩船間水流受限及壓力分布改變，可能產生船舶交互作用：\\n1. 船首排斥（bow cushion）：兩船船首間水流受擠壓，壓力上升，船首可能互相排斥。\\n2. 船艉吸引（stern suction）：兩船船艉間流速增加、壓力下降，船艉可能互相吸引，造成偏航。\\n3. 船體下沉及縱傾（squat）：水道狹窄時回流受限，船舶下沉及縱傾可能增加。\\n4. 產生橫移、偏航及搖擺：被靠近船舶可能被吸向航行船，錨鏈或繫纜受力突增，甚至走錨或斷纜。\\n5. 尾流及螺槳流可能使小船、浮筒及繫泊船產生劇烈運動。\\n\\n【二、影響加大的因素】兩船距離近、船速高、兩船尺度大、船間水域狹窄、吃水深、水深淺、兩船平行航行時間長、船舶排水量大及岸壁限制等。\\n\\n【三、注意事項】保持足夠橫向距離及安全速度；避免高速貼近錨泊船；必要時減速或改變航線；注意被靠近船的錨鏈、繫纜及艏艉掃掠；以VHF通知附近船舶，並避免螺槳流直接沖擊小船。",
+    "practicalAnalysis": "本題重點是船舶交互作用對緊靠船的影響及放大條件，應將船首排斥、船艉吸引、squat及繫纜受力列出。",
+    "keyPoints": [
+      {
+        "point": "船首排斥、船艉吸引及船體偏航。",
+        "importance": "essential"
+      },
+      {
+        "point": "尾流及螺槳流可能使繫泊船搖擺、走錨或斷纜。",
+        "importance": "essential"
+      },
+      {
+        "point": "船速高、船間距小、淺水及狹窄水域會加劇。",
+        "importance": "essential"
+      },
+      {
+        "point": "減速、保持距離並通知附近船舶。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "83年甲種引水人船舶操縱官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國83年（1994）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=7001&t=Q",
+        "supports": "船舶操縱七題原卷。"
+      },
+      {
+        "title": "IMO Resolution MSC.137(76) — Standards for Ship Manoeuvrability",
+        "sourceType": "imo_resolution",
+        "issuer": "IMO",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
+        "supports": "船舶操縱及安全操船原則。"
+      }
+    ],
+    "assumptions": [
+      "風壓力按題示風壓係數與風速平方關係估算。",
+      "幾何題明列視線距離起算點。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部83年船舶操縱原卷",
+          "result": "pass",
+          "note": "七題題文核對。"
+        },
+        {
+          "item": "原卷圖示及拖船性能資料",
+          "result": "partial",
+          "note": "第4題附圖及第6題拖力馬力係數待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "083-shiphandling-02-answer-v1",
+    "questionId": "083-shiphandling-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、橫反拖／Girting】拖船在拖帶或協助大船時，若拖纜受力方向使拖船被拉向側面，拖船船體受到橫向力及偏航力矩，當拖船無法及時轉向或釋放拖纜，可能被拖船拖至橫向（beam-on），進而傾覆。此類事故常稱girting或橫拖翻覆。\\n\\n【二、容易發生的情況】\\n1. 拖纜固定點過低或拖船無法快速釋放，拖纜受力線作用於拖船側面。\\n2. 拖船在大船艏艉附近作業，拖船與大船相對速度大，拖纜角度快速改變。\\n3. 大船突然加速、倒俥、轉向或受風流影響，拖纜張力突然增加。\\n4. 拖船被大船拖向船側，船體呈橫向受力，拖船舵及推進器無法產生足夠反向控制力。\\n5. 拖纜纏繞、拖船推進器失效、通信不良或拖船未及時釋放拖纜。\\n\\n【三、預防】使用合格快速釋放拖鉤；拖船長持續監控拖纜角度及張力；避免拖船停留在危險橫向位置；依拖船型式選擇間接拖帶或推頂方式；明確約定緊急釋放口令；拖船不得接受超出bollard pull及操縱能力的拖帶要求。",
+    "practicalAnalysis": "橫反拖的核心是拖纜受力方向使拖船橫向受力，且拖船無法及時脫鉤或轉向，造成girting及傾覆風險。",
+    "keyPoints": [
+      {
+        "point": "拖纜力線造成拖船橫向受力及偏航。",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船被拉至beam-on且無法釋放時易傾覆。",
+        "importance": "essential"
+      },
+      {
+        "point": "大船突然加速、倒俥、轉向及拖纜角度改變會加劇。",
+        "importance": "essential"
+      },
+      {
+        "point": "快速釋放拖鉤、監控張力及明確緊急口令。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "83年甲種引水人船舶操縱官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國83年（1994）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=7001&t=Q",
+        "supports": "船舶操縱七題原卷。"
+      },
+      {
+        "title": "IMO Resolution MSC.137(76) — Standards for Ship Manoeuvrability",
+        "sourceType": "imo_resolution",
+        "issuer": "IMO",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
+        "supports": "船舶操縱及安全操船原則。"
+      }
+    ],
+    "assumptions": [
+      "風壓力按題示風壓係數與風速平方關係估算。",
+      "幾何題明列視線距離起算點。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部83年船舶操縱原卷",
+          "result": "pass",
+          "note": "七題題文核對。"
+        },
+        {
+          "item": "原卷圖示及拖船性能資料",
+          "result": "partial",
+          "note": "第4題附圖及第6題拖力馬力係數待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "083-shiphandling-03-answer-v1",
+    "questionId": "083-shiphandling-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、Trim定義】俯仰差（Trim）是船舶艏吃水與艉吃水的差值。艉吃水大於艏吃水稱艉傾（trim by stern）；艏吃水大於艉吃水稱艏傾（trim by head）。\\n\\n【二、對操船的影響】\\n1. 螺槳及舵葉浸水：艉傾通常增加螺槳及舵葉浸水，有利於推進及舵效；艏傾可能使艉部舵槳浸水不足，降低操縱能力。\\n2. 船體阻力及速度：不適當俯仰差會增加阻力、改變船體伴流及推進效率。\\n3. 迴轉性能：艏艉水下側向面積及阻力分布改變，影響旋轉支點、迴轉半徑及艏艉掃掠。\\n4. 倒俥性能：艉部吃水不足可能使螺槳通氣或舵效降低，倒俥時船艉偏轉更難控制。\\n5. 淺水及squat：船舶在淺水航行時，俯仰差會影響艏艉下沉量及最小UKC位置。\\n6. 靠離泊：船艏或船艉吃水差會改變風壓中心、水下側向阻力及靠泊接觸部位。\\n\\n【三、實務】引水前確認艏艉吃水及trim，依船型操縱資料評估舵槳浸水、淺水效應及靠離泊性能。",
+    "practicalAnalysis": "本題須從舵槳浸水、阻力、迴轉、倒俥、squat及靠離泊等方面說明俯仰差的影響。",
+    "keyPoints": [
+      {
+        "point": "Trim為艏艉吃水差。",
+        "importance": "essential"
+      },
+      {
+        "point": "艉傾通常有利舵槳浸水；艏傾可能降低艉部舵效。",
+        "importance": "essential"
+      },
+      {
+        "point": "Trim改變迴轉、倒俥、阻力及squat。",
+        "importance": "essential"
+      },
+      {
+        "point": "靠離泊前確認實際艏艉吃水。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "83年甲種引水人船舶操縱官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國83年（1994）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=7001&t=Q",
+        "supports": "船舶操縱七題原卷。"
+      },
+      {
+        "title": "IMO Resolution MSC.137(76) — Standards for Ship Manoeuvrability",
+        "sourceType": "imo_resolution",
+        "issuer": "IMO",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
+        "supports": "船舶操縱及安全操船原則。"
+      }
+    ],
+    "assumptions": [
+      "風壓力按題示風壓係數與風速平方關係估算。",
+      "幾何題明列視線距離起算點。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部83年船舶操縱原卷",
+          "result": "pass",
+          "note": "七題題文核對。"
+        },
+        {
+          "item": "原卷圖示及拖船性能資料",
+          "result": "partial",
+          "note": "第4題附圖及第6題拖力馬力係數待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "083-shiphandling-04-answer-v1",
+    "questionId": "083-shiphandling-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、受力原理】本船微速前進，拖船在左舷正橫方向施力。推頂與拉引雖然都在左舷附近作用，但力的方向相反，且實際施力點、拖纜角度及相對旋轉支點不同，因此船舶軌跡會不同。\\n\\n【二、圖A：拖船由左舷正橫推頂】拖船推力由左向右（向本船右舷）作用於左舷船側。若作用線接近船舶重心／旋轉支點，主要造成船舶向右側移；若作用點偏離旋轉支點，會附帶產生偏航力矩。推頂接觸點固定，拖船可直接調整推力，但接觸點局部受力及拖船與本船間距須注意。\\n\\n【三、圖B：拖船由左舷正橫拉引】拖船透過拖纜向左側拉本船，力的方向與推頂相反；拖纜作用點通常位於繫纜點，且拖纜角度隨相對位置改變，可能產生不同偏航力矩，使船舶向左側移並可能同時改變艏向。拉引時拖纜張力及拖船位置會影響運動軌跡。\\n\\n【四、比較】推頂與拉引的橫向力方向相反；軌跡是否伴隨旋轉，取決於施力線相對旋轉支點的力臂N=F×d。若兩種情況施力線恰好通過旋轉支點，主要為側移；若有力臂則產生偏航。由於原題所附A、B圖未包含在文字資料中，無法確認確切施力點及拖纜角度，不能臆畫唯一的迴轉軌跡。",
+    "practicalAnalysis": "此題原卷附圖是決定施力點及軌跡的關鍵。答案先說明推頂與拉引的力方向相反，再以力矩及旋轉支點解釋差異；需補圖才能畫出唯一軌跡。",
+    "keyPoints": [
+      {
+        "point": "推頂與拉引的橫向力方向相反。",
+        "importance": "essential"
+      },
+      {
+        "point": "偏航力矩N=F×d，取決於施力線與旋轉支點的力臂。",
+        "importance": "essential"
+      },
+      {
+        "point": "作用線通過旋轉支點時主要側移；偏離時同時旋轉。",
+        "importance": "essential"
+      },
+      {
+        "point": "原卷A、B圖缺失，需補圖確認施力點及軌跡。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "83年甲種引水人船舶操縱官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國83年（1994）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=7001&t=Q",
+        "supports": "船舶操縱七題原卷。"
+      },
+      {
+        "title": "IMO Resolution MSC.137(76) — Standards for Ship Manoeuvrability",
+        "sourceType": "imo_resolution",
+        "issuer": "IMO",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
+        "supports": "船舶操縱及安全操船原則。"
+      }
+    ],
+    "assumptions": [
+      "風壓力按題示風壓係數與風速平方關係估算。",
+      "幾何題明列視線距離起算點。"
+    ],
+    "limitations": [
+      "考選部原卷附圖A、B未匯入題目文字，無法確認拖船實際接觸點、拖纜角度及唯一軌跡。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部83年船舶操縱原卷",
+          "result": "pass",
+          "note": "七題題文核對。"
+        },
+        {
+          "item": "原卷圖示及拖船性能資料",
+          "result": "partial",
+          "note": "第4題附圖及第6題拖力馬力係數待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "083-shiphandling-05-answer-v1",
+    "questionId": "083-shiphandling-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、深水進入淺水及靠泊可能現象】\\n1. Squat增加：水深／吃水比下降，船底流速及壓力變化加大，船舶下沉及縱傾增加，UKC減少。\\n2. 船速下降及操縱性改變：淺水阻力增加，主機負荷上升，舵效及迴轉性能改變。\\n3. 岸壁效應：接近碼頭或狹窄水道時，船艏排斥、船艉吸引及偏航可能加劇。\\n4. 迴轉半徑增加、停止距離及反應時間改變，重載船慣性大，較難快速修正。\\n5. 船艏艉掃掠、橫移及風壓效應可能使船舶偏離泊位軸線。\\n6. 船舶與岸壁、碼頭、浮筒及其他船舶交互作用，造成接觸速度增加。\\n\\n【二、對策】\\n1. 進港前依最新測深、潮位及船舶吃水計算UKC，納入squat、波浪及測量誤差。\\n2. 提前降低速度，但保持足夠舵效；避免突然大車或急倒俥。\\n3. 選擇足夠寬度及水深的航道與轉向水域，提早轉向並預留艏艉掃掠。\\n4. 依船舶尺度、風流及操縱性配置足夠拖船，事先約定拖點及口令。\\n5. 以雷達PI、ECDIS、GNSS及目視持續監控船位，必要時中止靠泊。",
+    "practicalAnalysis": "本題重載大型船由深水進入港內淺水及靠泊，應涵蓋squat、淺水阻力、操縱性能、岸壁效應及拖船對策。",
+    "keyPoints": [
+      {
+        "point": "水深／吃水比下降使squat及UKC風險增加。",
+        "importance": "essential"
+      },
+      {
+        "point": "淺水阻力及船舶操縱性能改變。",
+        "importance": "essential"
+      },
+      {
+        "point": "岸壁效應及船舶交互作用可能加劇。",
+        "importance": "essential"
+      },
+      {
+        "point": "提早減速、計算UKC、配置拖船及持續定位。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "83年甲種引水人船舶操縱官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國83年（1994）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=7001&t=Q",
+        "supports": "船舶操縱七題原卷。"
+      },
+      {
+        "title": "IMO Resolution MSC.137(76) — Standards for Ship Manoeuvrability",
+        "sourceType": "imo_resolution",
+        "issuer": "IMO",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
+        "supports": "船舶操縱及安全操船原則。"
+      }
+    ],
+    "assumptions": [
+      "風壓力按題示風壓係數與風速平方關係估算。",
+      "幾何題明列視線距離起算點。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部83年船舶操縱原卷",
+          "result": "pass",
+          "note": "七題題文核對。"
+        },
+        {
+          "item": "原卷圖示及拖船性能資料",
+          "result": "partial",
+          "note": "第4題附圖及第6題拖力馬力係數待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "083-shiphandling-06-answer-v1",
+    "questionId": "083-shiphandling-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、風壓面積】船長L=230m，船深18m，半載吃水T=9m。水面以上側投影高度=18−9=9m。側投影面積A=230×9=2,070m²。\\n\\n【二、風壓係數換算】題示風速12m/s時風壓係數為2.5kgf/m²，假設風壓與風速平方成正比：\\np₁₆=2.5×(16/12)²=4.444kgf/m²。\\n\\n【三、總風壓力】F=pA=4.444×2,070=9,200kgf≈9.2公噸力。\\n\\n【四、拖船馬力】風壓力9.2噸力表示拖船至少需提供大於此值的有效橫向拖力，並應加入安全裕度。但僅憑風壓力不能唯一換算拖船馬力，還需要拖船bollard pull與BHP的性能曲線、推進器效率、拖纜角度及風流方向。若教材採用每100HP約1噸拖力的經驗估算，則約需920HP；此為經驗換算，不是由題目資料唯一決定的答案。\\n\\n【結論】估算風壓約9.2噸力；拖船馬力須依拖船性能曲線或教材指定換算係數求得。",
+    "practicalAnalysis": "本題風壓力可由水面以上側投影面積及風速平方比例求得；拖船馬力則缺少拖力與馬力換算係數，需明列教材假設。",
+    "keyPoints": [
+      {
+        "point": "水面以上高度=18−9=9m。",
+        "importance": "essential"
+      },
+      {
+        "point": "側投影面積=230×9=2,070m²。",
+        "importance": "essential"
+      },
+      {
+        "point": "16m/s風壓係數=2.5×(16/12)²=4.444kgf/m²。",
+        "importance": "essential"
+      },
+      {
+        "point": "風壓力約9.2噸力。",
+        "importance": "supporting"
+      },
+      {
+        "point": "拖船馬力需拖力—馬力曲線；若採100HP/噸經驗值約920HP。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "83年甲種引水人船舶操縱官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國83年（1994）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=7001&t=Q",
+        "supports": "船舶操縱七題原卷。"
+      },
+      {
+        "title": "IMO Resolution MSC.137(76) — Standards for Ship Manoeuvrability",
+        "sourceType": "imo_resolution",
+        "issuer": "IMO",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
+        "supports": "船舶操縱及安全操船原則。"
+      }
+    ],
+    "assumptions": [
+      "風壓力按題示風壓係數與風速平方關係估算。",
+      "幾何題明列視線距離起算點。"
+    ],
+    "limitations": [
+      "原題未提供拖船bollard pull與BHP換算係數；920HP僅在假設100HP/噸拖力時成立。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部83年船舶操縱原卷",
+          "result": "pass",
+          "note": "七題題文核對。"
+        },
+        {
+          "item": "原卷圖示及拖船性能資料",
+          "result": "partial",
+          "note": "第4題附圖及第6題拖力馬力係數待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "083-shiphandling-07-answer-v1",
+    "questionId": "083-shiphandling-07",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、幾何關係】操船者眼睛高31m，船首結構物頂高23m，兩者水平距離200m。兩者高度差為31−23=8m。視線由操船者眼睛連至結構物頂端，通過結構物頂端後向海面延伸，形成視線死角。\\n\\n【二、死角距離】視線斜率=8/200=0.04。由結構物頂端高度23m至海面需延伸距離x：\\n23/0.04=575m。\\n因此，從結構物所在位置向前至視線與海面相交的水平距離約575m。\\n\\n【三、與船舶位置關係】若題目所問「與船舶之水平距離」係指從船首結構物（船艏）至視線交海點，答案約575m；若要由操船者位置量至交海點，則為200+575=775m。船長240m可用於判斷操船者及結構物在船體上的相對位置，但不改變由兩高度及200m水平距離所求的視線延伸距離。\\n\\n【結論】死角最遠端距船首結構物約575m；自操船者位置至該點約775m。",
+    "practicalAnalysis": "以相似三角形求視線延伸距離。必須說明距離是從結構物或從操船者量起，避免把575m與775m混淆。",
+    "keyPoints": [
+      {
+        "point": "高度差31−23=8m。",
+        "importance": "essential"
+      },
+      {
+        "point": "視線斜率8/200=0.04。",
+        "importance": "essential"
+      },
+      {
+        "point": "由結構物頂端至海面交點距離23/0.04=575m。",
+        "importance": "essential"
+      },
+      {
+        "point": "從操船者位置至交點為775m。",
+        "importance": "supporting"
+      },
+      {
+        "point": "船長240m用於定位結構物相對船體位置，不改變視線斜率。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "83年甲種引水人船舶操縱官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國83年（1994）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=7001&t=Q",
+        "supports": "船舶操縱七題原卷。"
+      },
+      {
+        "title": "IMO Resolution MSC.137(76) — Standards for Ship Manoeuvrability",
+        "sourceType": "imo_resolution",
+        "issuer": "IMO",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
+        "supports": "船舶操縱及安全操船原則。"
+      }
+    ],
+    "assumptions": [
+      "風壓力按題示風壓係數與風速平方關係估算。",
+      "幾何題明列視線距離起算點。"
+    ],
+    "limitations": [
+      "題目「與船舶之水平距離」的量測起點可能指船首結構物或操船者；答案同時列出575m及775m並說明基準。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部83年船舶操縱原卷",
+          "result": "pass",
+          "note": "七題題文核對。"
+        },
+        {
+          "item": "原卷圖示及拖船性能資料",
+          "result": "partial",
+          "note": "第4題附圖及第6題拖力馬力係數待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
