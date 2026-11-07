@@ -5,59 +5,69 @@
     "version": 2,
     "language": "zh-TW",
     "answerType": "operational_scenario",
-    "modelAnswer": "【2027年考試主答｜錨在操船上的運用】\n\n一、主要操船用途\n1. **正常錨泊及保持船位：**選擇適當水深、底質及避風水域，確認與他船、航道、海底管線及禁錨區的距離；依風流、船舶尺度及錨設備決定拋錨舷與出鏈長度。\n2. **緊急制動或限制前進：**船舶仍有前進動量時，在水深、底質及設備條件許可下，可受控鬆錨、放鏈或讓錨鏈逐步受力，以增加阻力、限制船舶前進；不能在高速時突然大量放出錨鏈，亦不能將錨視為可取代主機或拖船的正常制動器。\n3. **控制船首及漂移：**單錨抓底後，船舶通常會逐漸受到風流作用而轉至較有利的迎風流方向；可用來限制船位及偏蕩，但實際艏向受風流合力、錨位及錨鏈方向影響。\n4. **協助迴旋或掉頭：**在足夠水深、底質良好且有足夠迴旋空間的水域，可依計畫利用錨鏈張力限制船體某一端的移動，配合主機、舵及拖船產生轉向力矩。此法須確認錨抓力、錨鏈受力、拖船位置及螺槳與錨鏈的相對位置，不能假定錨一定形成固定支點。\n5. **狹水道或靠離泊備援：**在港規允許且風險評估適當時，預先備妥錨作為緊急控制手段；進港前確認錨機、制鏈器、錨鏈及通訊正常。\n6. **主機或舵機故障時避險：**若有安全水域且海床條件允許，可及早拋錨限制漂航，同時通報VTS、船長及相關單位並請求拖船支援。\n\n二、影響錨效的因素\n錨型與重量、錨爪抓底能力、海床底質（泥、砂、礫、岩）、水深、錨鏈長度及懸垂重量、錨鏈仰角、船舶受風面積、潮流、波浪、船速及錨鏈受力方向。錨鏈長度不能只用固定倍數決定，應依水深、風流、底質、錨設備設計及港規調整。\n\n三、拋錨及起錨安全程序\n1. 拋錨前確認錨地合法且安全，檢查水深、底質、潮位、周邊船舶、航道、海底管線及可用迴旋範圍。\n2. 確認船速、船艏向、風流方向、錨的型式與重量、錨鏈長度、錨機及煞車狀態。\n3. 依船長與引水人共同計畫下達錨令、拋錨舷、出鏈長度及停止出鏈指令；必要時採受控鬆錨（walk back）。\n4. 拋錨後監控船位、艏向、錨鏈方向與張力，使用雷達、GNSS／ECDIS及目視交叉確認是否走錨。\n5. 起錨前確認船位、船速、錨鏈方向及周圍船舶；必要時以主機或拖船卸除錨鏈負荷，再逐步起錨。\n\n四、限制及風險\n1. 不得在航道、迴船池、禁錨區、海底管線或不適合底質任意拋錨。\n2. 高速拖錨或突然放出大量錨鏈，可能造成錨鏈衝擊、錨機／制鏈器損壞及船體結構受力過大。\n3. 避免錨鏈纏繞螺槳、舵、艏側推器或拖船纜繩；注意錨鏈回彈及甲板作業人員安全。\n4. 錨抓力受底質、錨型、出鏈長度及受力方向影響；拋錨後仍須監控走錨，不能只因錨鏈已放出就認定船舶已固定。\n5. 若錨鏈異常受力、錨拖、纏繞或錨機故障，應立即通知船長及駕駛台團隊，依SMS及應急程序處置。\n\n結論：錨可用於錨泊、限制漂移、受控制動、協助轉向及緊急避險；使用前必須評估水深、底質、船速、風流、錨鏈及周邊障礙。錨不是可隨時使用的固定支點或萬用制動器，必須依船舶設備手冊、SMS及港規操作。",
-    "practicalAnalysis": "將錨的用途分為錨泊、受控制動、控制船首、協助迴旋及緊急避險；強調錨不一定形成固定支點，高速拋錨可能造成錨鏈衝擊與設備損壞。",
+    "modelAnswer": "【2027年考試主答｜錨在船舶操縱上的運用】\n\n一、錨泊及保持船位\n1. 在適當水深、底質及水域投錨，利用錨爪抓底及錨鏈重量／摩擦力抵抗風、流及浪，使船舶保持在預定錨位。\n2. 依水深、潮差、底質、風流、船舶尺度及錨型決定出鏈長度；須考慮旋迴半徑、鄰船、航道、管線及禁錨區。\n3. 錨泊後監控船位、旋迴圈、錨鏈方向、張力及拖錨情況，必要時加派值班及備妥主機。\n\n二、控制船速及緊急制動\n1. 船舶有前進慣性時，可在適當條件下使用錨及錨鏈增加阻力、協助減速或限制漂移。\n2. 拖錨走（Dredging Anchor）是受控放出有限錨鏈，使錨在海床拖行或間歇抓底，以提供阻力及控制船舶移動；出鏈長度依水深、底質、船速及所需阻力決定，不能用固定倍數套用所有情況。\n3. 緊急投錨可能有助於限制船舶漂移或避免觸礁，但錨鏈突然抓底會產生極大衝擊，可能損壞錨機、制鏈器、錨鏈及船體；須依船舶程序及實際情況判斷。\n\n三、協助迴轉及控制船艏\n1. 在適當底質及水域，可利用單錨或雙錨控制船舶旋轉支點、限制某一方向的漂移，配合主機、舵及拖船進行迴轉。\n2. 依錨位、錨鏈方向及受力方向，錨可協助控制船艏或減少船舶向風／流下風漂移；不可假定錨一定能作為固定支點。\n3. 迴轉前應確認錨鏈不會與推進器、舵、拖纜或其他船舶干涉，並保留足夠迴旋空間。\n\n四、靠離泊及移泊輔助\n在特定港池、狹水道或無法充分使用拖船的情況下，可使用錨作為輔助控制工具，例如以錨限制船艏移動、協助船舶轉向或控制船身橫移；實際作法須依港規、船型、錨位及底質評估，不能取代必要的拖船及主機舵機。\n\n五、錨作業風險及注意事項\n1. **底質與抓力：**泥、砂、礫石、岩石及珊瑚底的抓錨能力不同；底質不明或有海床管線、電纜時不得任意拖錨。\n2. **錨鏈及錨機負荷：**避免突然大量出鏈、錨鏈過載、煞車滑動、制鏈器損壞及鏈條斷裂。\n3. **船速及水深：**高速投錨或淺水區拖錨可能造成巨大衝擊、錨鏈跳動或船體受損。\n4. **推進器及舵系：**確認錨鏈方向，避免錨鏈捲入螺槳、舵或側推器。\n5. **周邊船舶與港區設施：**注意旋迴圈、鄰船、航道、碼頭、浮筒、管線及水下障礙物。\n6. **人員安全：**錨鏈作業區及鏈條回彈區應管制人員，駕駛台與船首保持清楚通訊。\n\n結論：錨可用於錨泊保持船位、拖錨減速、緊急制動、控制漂移、協助迴轉及靠離泊移泊。使用前必須評估底質、水深、船速、錨鏈方向與負荷、推進器及周邊設施，並依個船程序安全操作。",
+    "practicalAnalysis": "以操船功能分類錨的用途，將正常錨泊、拖錨走、緊急制動、控制迴轉及靠離泊輔助分開。補入拖錨風險及錨鏈與推進器干涉，不把錨當作可無條件使用的煞車或固定支點。",
     "keyPoints": [
       {
-        "point": "錨可用於錨泊、減速制動、控制船首、輔助迴旋及緊急避險。",
-        "importance": "essential"
+        "point": "錨泊保持船位",
+        "explanation": "依水深、底質、風流及出鏈長度控制錨泊。",
+        "result": "pass"
       },
       {
-        "point": "錨效受錨型、底質、水深、錨鏈長度、風流浪及船速影響。",
-        "importance": "essential"
+        "point": "拖錨及緊急制動",
+        "explanation": "區分受控拖錨與緊急投錨，補入錨鏈衝擊風險。",
+        "result": "pass"
       },
       {
-        "point": "高速不得突然拋錨；需控制錨鏈受力及錨機負荷。",
-        "importance": "essential"
+        "point": "協助迴轉及靠離泊",
+        "explanation": "錨可作輔助控制，但不能假定任何港況都能作固定支點。",
+        "result": "verified_with_scope"
       },
       {
-        "point": "注意錨鏈與螺槳、舵、側推器、拖纜的相對位置。",
-        "importance": "essential"
-      },
-      {
-        "point": "避開航道、迴船池、禁錨區及海底管線，並監控走錨。",
-        "importance": "essential"
+        "point": "錨鏈及人員安全",
+        "explanation": "補入過載、推進器干涉、管線及回彈區風險。",
+        "result": "pass"
       }
     ],
     "references": [
       {
-        "title": "The American Practical Navigator (Bowditch)",
-        "sourceType": "official_port_or_authority",
-        "issuer": "National Geospatial-Intelligence Agency",
-        "url": "https://msi.nga.mil/api/publications/download?key=16693975%2FSFH00000%2FBowditch_Vol_1_LoRes_2019.pdf",
-        "supports": "潮流、定位、操船與錨泊原理。"
-      },
-      {
-        "title": "102年甲種引水人（高雄港）當地水道港灣詳情原卷",
-        "sourceType": "other",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=102070&q=1&s=0803&t=Q",
-        "supports": "核對題目與配分。"
-      },
-      {
-        "title": "IMO MSC.1/Circ.1175/Rev.1 — Shipboard Towing and Mooring Equipment",
-        "sourceType": "IMO_circular",
-        "issuer": "International Maritime Organization",
-        "url": "https://www.imo.org/en/ourwork/safety/pages/shipboard-towing-and-mooring-equipment.aspx",
-        "supports": "錨泊、錨鏈、錨機及船上拖帶繫泊設備安全。",
+        "title": "Port Revel Shiphandling Course Manual — Dredging Anchor",
+        "url": "https://armcol.org/wp-content/uploads/2024/08/2852.-Manual-2006-Shiphandling.pdf",
+        "issuer": "Official / technical source",
+        "sourceType": "official_or_technical_reference",
+        "supports": "拖錨走的出鏈控制、低速操船及錨鏈負荷風險。",
         "accessedAt": "2026-11-07"
       },
       {
-        "title": "IACS Unified Requirement A1 — Anchoring Equipment",
-        "sourceType": "classification_standard",
-        "issuer": "International Association of Classification Societies",
-        "url": "https://iacs.org.uk/resolutions/unified-requirements/ur-a/ur-a1-rev7-cln",
-        "supports": "錨及錨鏈設備設計、選用及艤裝數基礎。",
+        "title": "MCA MGN 199 (M) Amendment 1 — Danger of interaction",
+        "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "sourceType": "official_or_technical_reference",
+        "supports": "狹水道、淺水及船舶交互作用風險。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "引水作業安全程序及船長與引水人協調。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "國立海洋科技博物館：船舶基本性能／適航性",
+        "url": "https://ship.nmmst.gov.tw/ship/content/122/487",
+        "issuer": "國立海洋科技博物館",
+        "sourceType": "official_or_technical_reference",
+        "supports": "船舶操縱主要手段及錨、纜、拖船作為輔助手段。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部102年船舶操縱試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=102070&q=1&s=0806&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -66,26 +76,33 @@
       "錨鏈長度與拋錨程序須依船舶SMS、錨設備設計、底質與當地港規決定；本答案不以單一倍數作為所有船舶通用標準。"
     ],
     "verification": {
-      "status": "source_checked",
+      "status": "verified_with_scope",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "錨在操船上的用途",
+          "item": "錨泊保持船位",
           "result": "pass",
-          "note": "涵蓋錨泊、制動、控首、迴旋及緊急避險。"
+          "note": "依水深、底質、風流及出鏈長度控制錨泊。"
         },
         {
-          "item": "拋錨前風險評估",
+          "item": "拖錨及緊急制動",
           "result": "pass",
-          "note": "補入水深、底質、錨地限制及錨鏈干涉風險。"
+          "note": "區分受控拖錨與緊急投錨，補入錨鏈衝擊風險。"
         },
         {
-          "item": "錨鏈受力及錨拖風險",
+          "item": "協助迴轉及靠離泊",
+          "result": "verified_with_scope",
+          "note": "錨可作輔助控制，但不能假定任何港況都能作固定支點。"
+        },
+        {
+          "item": "錨鏈及人員安全",
           "result": "pass",
-          "note": "強調受控放鏈、錨鏈衝擊及走錨監控。"
+          "note": "補入過載、推進器干涉、管線及回彈區風險。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "year": 2013,
+    "subject": "船舶操縱"
   }
 ]
