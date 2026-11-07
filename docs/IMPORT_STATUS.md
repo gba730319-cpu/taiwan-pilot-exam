@@ -163,3 +163,13 @@
 - 政策解讀明確區分「商港法明文目的」與「可由相關政策計畫補充的當代政策」；淨零、智慧港口、岸電等不得無來源地說成商港法第一條直接列舉事項。
 - 官方來源：商港法112年版本 https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0002009&type=-1；商港法歷史沿革 https://motclaw.motc.gov.tw/webMotcLaw2018/Law/History?LawID=I0002010&type=-1；航港建設基金辦法 https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0020046；航港局基金說明 https://www.motcmpb.gov.tw/Article?nodeId=340&siteId=1
 - 官方評分細則未取得，配分仍為研讀建議；本題法規時點、基金制度與政策界線已完成複核。
+
+
+### 114 年引港學第 1 題：ECDIS 五項符號指定版核驗完成（2026-11-07）
+- IHO Standards in Force 明確列出2025年3月12日適用之 S-52 Annex A Edition 4.0.(4)，截至2025年3月Clarifications；S-52 Appendix 2為Edition 6.1.(1)。2026年生效的S-100 Presentation Library Edition 5.0.0不可倒推為114年考試版次。
+- IHO官方標準頁：https://iho.int/standards-in-force；S-52標準清單及附件：https://iho.int/standards-and-specifications
+- S-52 Annex A可取得之符號圖形目錄為Edition 4.0(.3)，2020年12月；搭配Edition 4.0.(4)截至2025年3月clarifications核對。S-52主文件定義clarification為不造成符號化實質變更的文字澄清，因此圖形目錄可用於核對符號本體。
+- 五項核對結果：①風場SY(WNDFRM51)，顯著風場SY(WNDFRM61)；②無扇區方向燈對應Chart 1 P30.2，官方U.S. Chart No.1 ECDIS欄明列Directional light without sector，S-52 LIGHTS06依LIGHTS屬性及ORIENT條件式呈現；③未知深度危險沈船SY(WRECKS05)，並由WRECKS05／UDWHAZ05依本船安全等深線條件判斷isolated danger顯示；④ESSA為SY(ESSARE01)；⑤交通警戒區包括SY(PRCARE12)點符號、SY(PRCARE51)區域符號及LC(PRCARE51)界線。
+- IHO S-52 Addendum官方圖形目錄：https://iho.int/uploads/user/pubs/standards/s-52/S-52%20PresLib%20Ed%204.0.3%20Part%20I%20Addendum_Clean.pdf
+- 官方U.S. Chart No.1第13版（2019-04-15）P30.2 ECDIS欄：https://msi.nga.mil/api/publications/download?key=16694005%2FSFH00000%2FChartNo1.pdf&type=view
+- 答案已更新，verification.status由partially_verified提升為source_checked；但沈船實際畫面仍須強調其依ENC屬性及本船安全等深線而變動，不是單一固定圖形。
