@@ -2,11 +2,11 @@
   {
     "id": "100-pilotage-01",
     "questionId": "100-pilotage-01",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
     "modelAnswer": "【一、美國海圖編號制度概述】\n\n美國海圖編號由美國國家地理空間情報局（NGA，早期DMA／NIMA）及美國國家海洋暨大氣總署（NOAA）等依海圖涵蓋之地理區域及比例尺編排。一般分為一位數至五位數，位數主要反映海圖種類及比例尺範圍；部分編號的首位數字亦代表海洋區域或地理分區。\n\n【二、一位數至五位數之意義】\n\n（一）一位數（1–9）\n此類編號通常不是一般航行海圖，而是海圖系統中無比例尺或特殊用途之圖書、圖表，例如：\n- Chart No. 1：海圖圖式、符號及縮寫（Chart Symbols and Abbreviations）。\n- 其他特殊旗號、信號或相關圖表。\n因此，一位數編號不以一般海圖比例尺區分。\n\n（二）二位數（10–99）\n屬小比例尺海圖，比例尺為1:9,000,000及更小（分母更大），涵蓋大範圍海洋或主要海盆；第一位數字表示所屬海洋區域／海盆，第二位數字為該區域內的編號。\n\n（三）三位數（100–999）\n屬小比例尺至中小比例尺海圖，比例尺約為1:2,000,000至1:9,000,000，通常涵蓋較大海域或海盆之一部分；第一位數字同樣用以識別海洋區域，後續數字依地理範圍及圖幅序列編排。\n\n（四）四位數（常見5000–9999）\n通常用於特殊用途或非一般航行用途之圖表，例如大圓航線追蹤圖、電子導航系統標繪圖、操船圖（Maneuvering Board）及其他專用圖表；不以一般沿岸航行海圖比例尺系列解讀。\n\n（五）五位數（常見11000–99999）\n用於比例尺1:2,000,000及更大（分母較小）的航行海圖，涵蓋海岸線、沿岸、港口及其附近水域。\n1. 第一位數字表示較大的地理區域（Region）。\n2. 第二位數字表示該區域內的地理次區域（Subregion）。\n3. 最後三位數字表示該次區域內各張海圖的編號，依地理位置順序編排。\n4. 部分號碼會保留不用，以便日後新增海圖時可插入適當地理位置。\n\n【三、臺灣地區海圖之開頭二位數字】\n\n我國海軍大氣海洋局所刊行之臺灣及附近海圖，五位數海圖編號的前兩位數字為「04」。例如：\n- 04501：出風鼻至車城泊地。\n- 04502：車城泊地至枋寮泊地。\n- 04503：琉球嶼及附近。\n- 04504：枋寮泊地至高雄港（含琉球嶼）。\n- 04505：高雄港至安平港。\n\n上述圖號可由海軍大氣海洋局《航海圖書目錄》及海圖圖號索引查證。\n\n【結論】\n\n美國海圖編號依一至五位數區分：一位數為無比例尺或特殊圖書圖表；二位數比例尺1:9,000,000及更小；三位數約1:2,000,000至1:9,000,000；四位數為特殊用途或非一般航行圖表；五位數為1:2,000,000及更大之航行海圖，其前兩位數表示地理區域及次區域，末三位為該區域海圖序號。臺灣地區海圖的五位數編號前兩位為04。",
-    "practicalAnalysis": "本題20分，先列五類位數與比例尺，再補臺灣海圖前兩位數04。最容易失分的是把四位數誤當成一般大比例尺海圖，或將五位數的前兩位只說成「臺灣」而未說明其地理區域／次區域編碼。例子可舉04501至04505，說明臺灣及附近海圖系列以04開頭。",
+    "practicalAnalysis": "本題20分，先列五類位數與比例尺，再補臺灣海圖前兩位數04。最容易失分的是把四位數誤當成一般大比例尺海圖，或將五位數的前兩位只說成「臺灣」而未說明其地理區域／次區域編碼。例子可舉04501至04505，說明臺灣及附近海圖系列以04開頭。 本輪以現行航海圖學及航海計算觀念複核，保留題目簡化假設，不將歷史海圖編號或測量資料誤當作現行港區資料。",
     "keyPoints": [
       {
         "point": "一位數：無比例尺或特殊用途圖表，例如Chart No.1海圖圖式。",
@@ -81,6 +81,22 @@
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=100090&q=2&s=1205&t=Q",
         "pageOrSection": "引港學第一題",
         "supports": "核對原題及20分配分。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch), 2019 Edition",
+        "sourceType": "official_navigation_publication",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/api/publications/download?key=16693975%2FSFH00000%2FBowditch_Vol_1_LoRes_2019.pdf",
+        "supports": "Chapter on nautical chart numbering: one- to five-digit numbering, scale categories, region and subregion digits.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "NOAA Nautical Chart Manual, Section 2.5.1",
+        "sourceType": "official_hydrographic_manual",
+        "issuer": "NOAA Office of Coast Survey",
+        "url": "https://ocsdata.ncd.noaa.gov/mcs/02_ncm_vol1.pdf",
+        "supports": "Chart numbering categories and geographic sequence of five-digit charts.",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [
@@ -114,19 +130,24 @@
           "item": "原題及配分",
           "result": "pass",
           "note": "依考選部100年引港學第一題核對。"
+        },
+        {
+          "item": "2027備考適用性",
+          "result": "pass",
+          "note": "確認核心圖號制度、相對方位幾何及燈光見距術語仍可用於2027備考，並補入現行標準來源。"
         }
       ]
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   },
   {
     "id": "100-pilotage-02",
     "questionId": "100-pilotage-02",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "calculation",
     "modelAnswer": "【一、已知條件】\n\n- 本船航向：030°。\n- 本船航速：20 kn。\n- ZT 0800：目標真方位000°。\n- ZT 1000：同一目標真方位330°。\n- 假設目標固定不動，本船保持航向030°、航速20 kn，且不考慮風流壓差。\n\n【二、求0800至1000本船航行距離】\n\n兩次觀測相隔2小時，本船航速20 kn：\n\n[\nAB=20\times2=40 \text{NM}\n]\n\n令A為0800本船位置，B為1000本船位置，T為固定目標位置。\n\n【三、利用三角形求目標相對本船航跡的位置】\n\n1. A點本船航向030°，目標方位000°，故航跡AB與AT之夾角為30°。\n2. B點本船反向航跡方位為210°，目標方位330°，故角ABT為120°。\n3. 三角形內角總和180°，所以角ATB=30°。\n\n因此，三角形ABT三角為30°、120°、30°，且AB=40 NM。\n\n依正弦定理：\n\n[\n\frac{AT}{sin120^circ}=\frac{40}{sin30^circ}\n]\n\n[\nAT=\frac{40\timessin120^circ}{sin30^circ}\n=69.28 \text{NM}\n]\n\n目標位於本船航跡左側，其垂直距離（即目標通過左正橫時的距離）為：\n\n[\nd=ATsin30^circ\n=69.28\times0.5\n=34.64 \text{NM}\n]\n\n【四、求目標到達左正橫之時間】\n\n目標在本船航跡方向上的投影距離：\n\n[\nx=ATcos30^circ\n=69.28\times0.8660\n=60.00 \text{NM}\n]\n\n本船自0800起以20 kn航行，抵達目標左正橫位置所需時間：\n\n[\nt=\frac{60}{20}=3 \text{hours}\n]\n\n因此：\n\n[\n0800+3 \text{hours}=\boxed{ZT 1100}\n]\n\n也可由1000時位置B計算：B至左正橫位置尚有20 NM，20 kn航行需1小時，因此亦為ZT 1100。\n\n【答案】\n\n1. 目標到達本船左正橫之時間：**ZT 1100**。\n2. 目標到達左正橫時，本船與目標距離：**34.64 NM（約34.6海浬）**。\n\n【注意】\n不能把方位變化30°除以2小時後，假設方位變化率固定，再推算到左正橫。目標方位角的變化率並非線性；應以兩次觀測位置建立三角形，求目標相對航跡的垂直距離及沿航跡投影。若目標本身也在移動，僅憑兩次方位及本船航向、航速，資料不足以唯一求解，必須另有目標運動資訊。",
-    "practicalAnalysis": "本題20分，最關鍵是不能把方位角變化率當成固定值。0800到1000本船走40 NM；三角形ABT角度為30°、120°、30°。正弦定理得AT=69.28 NM；沿航跡投影為60 NM，因此0800後3小時到左正橫，即ZT1100；垂直航跡距離為34.64 NM。答案假設目標固定、本船航向航速不變且無風流壓差。",
+    "practicalAnalysis": "本題20分，最關鍵是不能把方位角變化率當成固定值。0800到1000本船走40 NM；三角形ABT角度為30°、120°、30°。正弦定理得AT=69.28 NM；沿航跡投影為60 NM，因此0800後3小時到左正橫，即ZT1100；垂直航跡距離為34.64 NM。答案假設目標固定、本船航向航速不變且無風流壓差。 本輪以現行航海圖學及航海計算觀念複核，保留題目簡化假設，不將歷史海圖編號或測量資料誤當作現行港區資料。",
     "keyPoints": [
       {
         "point": "0800至1000本船航行距離AB=20×2=40 NM。",
@@ -176,6 +197,14 @@
         "url": "https://msi.nga.mil/api/publications/download?key=16693975%2FSFH00000%2FBowditch_Vol_1_LoRes_2019.pdf",
         "pageOrSection": "Chapter 7, bearings, relative motion and plotting",
         "supports": "方位線交會、航跡繪算及相對運動之基本航海計算方法。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch), 2019 Edition",
+        "sourceType": "official_navigation_publication",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/api/publications/download?key=16693975%2FSFH00000%2FBowditch_Vol_1_LoRes_2019.pdf",
+        "supports": "Relative bearing observations, running fix geometry and navigational plotting principles.",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [
@@ -209,19 +238,24 @@
           "item": "左正橫距離",
           "result": "pass",
           "note": "垂直航跡距離34.64NM。"
+        },
+        {
+          "item": "2027備考適用性",
+          "result": "pass",
+          "note": "確認核心圖號制度、相對方位幾何及燈光見距術語仍可用於2027備考，並補入現行標準來源。"
         }
       ]
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   },
   {
     "id": "100-pilotage-03",
     "questionId": "100-pilotage-03",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
     "modelAnswer": "【一、地平距離（Distance to the Horizon）】\n\n地平距離係觀測者眼睛或燈光所在高度，沿視線至地球曲面與視線相切之地平線的距離。高度愈高，地平距離愈遠。\n\n在一般海上航海計算中，考慮標準大氣折射後，可用下式估算：\n\n[\nD=2.08sqrt{h}\n]\n\n其中：\n- D：地平距離，單位海浬（NM）。\n- h：眼高或燈高，單位公尺（m）。\n\n若高度以英呎表示，常用近似式：\n\n[\nD=1.17sqrt{h_{mathrm{ft}}}\n]\n\n地平距離是單一高度至地平線的距離，尚未將燈高與觀測者眼高兩者相加。\n\n【二、公稱光程（Nominal Range）】\n\n公稱光程係指助航燈光在均勻大氣中，當氣象能見度（Meteorological Visibility）為10海浬時，依燈光強度及標準觀測條件所能達到的光程。\n\n其重點如下：\n1. 公稱光程是燈光的標準化光學性能數值，通常刊載於燈表（List of Lights）。\n2. 以10海浬氣象能見度作為標準條件，便於不同燈光之間比較。\n3. 公稱光程不代表實際航行時一定能看見該燈光；實際能見距還受當時大氣能見度及地球曲率影響。\n4. 公稱光程與地理見距是不同概念：前者是光學亮度及標準大氣條件，後者是地球曲率及高度所決定。\n\n【三、照射光程／發光見距（Luminous Range）】\n\n照射光程（Luminous Range）係指在當時大氣能見度條件下，依燈光的發光強度、大氣透射率及觀測者眼睛的最低照度閾值，燈光仍可被辨認的最大距離。\n\n其特點如下：\n1. 主要受燈光強度及大氣透明程度影響。\n2. 霧、雨、煙霾、鹽霧及空氣中懸浮微粒會降低大氣透射率，使照射光程縮短。\n3. 天氣及能見度改善時，照射光程可能增加。\n4. 照射光程本身不考慮地球曲率、燈高及觀測者眼高；這些因素須另以地理見距判斷。\n5. 公稱光程可視為在氣象能見度10海浬標準條件下的照射光程。\n\n【四、地理見距（Geographical Range）】\n\n地理見距係由地球曲率、燈光高度及觀測者眼高共同決定的最大幾何可見距離。燈光與觀測者各自具有一段地平距離，兩者相加即為地理見距。\n\n[\nG=2.08(sqrt{H}+sqrt{h})\n]\n\n其中：\n- G：地理見距，單位海浬（NM）。\n- H：燈光焦點高度，單位公尺（m）。\n- h：觀測者眼高，單位公尺（m）。\n\n例如燈高40m、觀測者眼高4m：\n\n[\nG=2.08(sqrt{40}+sqrt{4})\n]\n\n[\nG=2.08(6.325+2)=17.32 \text{NM}\n]\n\n故在大氣能見度足夠且無其他遮蔽時，該燈光的地理見距約17.3海浬。\n\n【五、四者之關係與實際判讀】\n\n1. 地平距離：單一觀測高度至地平線的距離。\n2. 公稱光程：氣象能見度10海浬標準條件下的照射光程。\n3. 照射光程：當時大氣條件及燈光強度所決定的最大可見距離。\n4. 地理見距：燈高及觀測者眼高加上地球曲率後所決定的幾何可見距離。\n\n實際觀測燈光時，能否看見燈光，通常受照射光程與地理見距兩者中較小者限制：\n\n[\n\text{實際可見距}approxmin(\text{照射光程},\text{地理見距})\n]\n\n例如燈光照射光程為20海浬，但地理見距只有15海浬，則受地球曲率限制，通常最遠約15海浬才可見；若地理見距為25海浬，但照射光程僅10海浬，則受大氣能見度及燈光強度限制，最遠約10海浬可見。\n\n【結論】\n\n地平距離是單一高度至地平線的距離；公稱光程是氣象能見度10海浬標準條件下的燈光照射光程；照射光程依燈光強度及當時大氣透射率決定；地理見距則依燈高、觀測者眼高及地球曲率決定。實際燈光能見距須同時考量光學及幾何限制，通常取照射光程與地理見距兩者較小值。",
-    "practicalAnalysis": "本題20分，四個名詞要清楚區分。地平距離是單一高度的地平線距離，公式D=2.08√h（h以m、D以NM）；地理見距是燈高與眼高兩段地平距離相加，G=2.08(√H+√h)；照射光程是燈光強度與大氣能見度決定的Luminous Range；公稱光程是能見度10海浬時的標準Luminous Range。實際看得到的距離通常取照射光程與地理見距較小者。",
+    "practicalAnalysis": "本題20分，四個名詞要清楚區分。地平距離是單一高度的地平線距離，公式D=2.08√h（h以m、D以NM）；地理見距是燈高與眼高兩段地平距離相加，G=2.08(√H+√h)；照射光程是燈光強度與大氣能見度決定的Luminous Range；公稱光程是能見度10海浬時的標準Luminous Range。實際看得到的距離通常取照射光程與地理見距較小者。 本輪以現行航海圖學及航海計算觀念複核，保留題目簡化假設，不將歷史海圖編號或測量資料誤當作現行港區資料。",
     "keyPoints": [
       {
         "point": "地平距離：單一高度至地平線距離，D=2.08√h，h以公尺、D以海浬計。",
@@ -296,6 +330,14 @@
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=100090&q=2&s=1205&t=Q",
         "pageOrSection": "引港學第三題",
         "supports": "核對原題四個燈光光程與能見距名詞。"
+      },
+      {
+        "title": "IHO S-4 Edition 4.10.0 — Chart Specifications of the IHO",
+        "sourceType": "official_hydrographic_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/uploads/user/pubs/standards/s-4/S-4%20Ed%204.10.0_FINAL.pdf",
+        "supports": "Light descriptions, nominal range, luminous range and geographical range terminology.",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [
@@ -329,10 +371,15 @@
           "item": "實際可見距判斷",
           "result": "pass",
           "note": "依IHO S-4說明光度限制及地球曲率限制兩者均須考量。"
+        },
+        {
+          "item": "2027備考適用性",
+          "result": "pass",
+          "note": "確認核心圖號制度、相對方位幾何及燈光見距術語仍可用於2027備考，並補入現行標準來源。"
         }
       ]
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   },
   {
     "id": "100-pilotage-04",
