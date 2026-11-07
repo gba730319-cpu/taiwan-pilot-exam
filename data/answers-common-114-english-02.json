@@ -2,10 +2,10 @@
   {
     "id": "answer-114-english-02",
     "questionId": "114-english-02",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "translation",
-    "modelAnswer": "(1) When a vessel is navigating in a narrow channel or an area with dense traffic, a proper lookout should be maintained at all times, and the main engine should be kept ready for immediate manoeuvre in case of an emergency.\n\n(2) Before commencing pilotage, the master and the pilot should clearly define their respective responsibilities to ensure effective communication and cooperation throughout the operation.",
+    "modelAnswer": "(1) When a vessel is navigating in a narrow channel or an area with dense traffic, a proper lookout should be maintained at all times, and the main engine should be kept ready for immediate manoeuvre in case of an emergency.\n\n(2) Before commencing pilotage, the master and the pilot should clearly define their respective responsibilities to ensure effective communication and cooperation throughout the operation.\n\n【專業用語與責任界線補充｜查核截至2026-11-07】\n“the master and the pilot should clearly define their respective responsibilities”宜譯為「船長與引水人應明確確認彼此的職責及分工」，不是將船舶安全責任移轉給引水人。依IMO A.960(23)，引水人在船不解除船長或值班駕駛員的安全責任，雙方及駕駛臺團隊須維持良好溝通、互相理解並監督操船行動。",
     "practicalAnalysis": "本題接受意思等值的譯法。第一句可用 maintain a proper lookout 或 remain highly alert；「主機隨時備妥」可用 keep the main engine ready for immediate manoeuvre。第二句要表達雙方事先確認職責，而不是把船舶安全責任完全移交給引水人。",
     "keyPoints": [
       {
@@ -51,6 +51,15 @@
         "issuer": "International Maritime Organization",
         "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
         "supports": "第一句高度警戒與瞭望概念的專業背景；如採lookout作等值延伸譯法，須確認不偏離原文。"
+      },
+      {
+        "title": "IMO Resolution A.960(23) — Recommendations on Training and Certification and on Operational Procedures for Maritime Pilots",
+        "sourceType": "official_international_standard",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2003-12-05採納",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "accessedAt": "2026-11-07",
+        "supports": "引水人、船長及駕駛臺團隊職責、溝通及引水人登輪後的MPX程序。"
       }
     ],
     "assumptions": [],
@@ -85,6 +94,11 @@
           "item": "主機備便及引水前職責界定",
           "result": "pass",
           "note": "以main engine ready for immediate manoeuvring及respective roles and responsibilities表達原意。"
+        },
+        {
+          "item": "引水人與船長職責翻譯",
+          "result": "pass",
+          "note": "依IMO A.960(23)核對，明確區分職責確認與安全責任移轉；引水人登船不解除船長及值班駕駛員責任。"
         }
       ]
     },
