@@ -2,10 +2,10 @@
   {
     "id": "answer-112-pilotage-02",
     "questionId": "112-pilotage-02",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "一、ECDIS警報與指示的區別\n依IMO ECDIS性能標準MSC.232(82)及其Appendix 5，Alarm（警報）係以聲響或聲響加視覺方式通知駕駛員有需要注意的狀況；Indication（指示）主要以視覺方式提供系統或設備狀態資訊。兩者不可混稱：警報通常要求立即注意及採取行動，指示則提醒駕駛員留意顯示、資料或設定狀態。\n\n二、可依功能分成四組\n（一）航行危險與安全等深線警報／指示：\n1. 本船在預設時間內將穿越安全等深線（Safety Contour）時，ECDIS應發出警報。\n2. 航線規劃跨越本船安全等深線時，應給予指示；航線監控時接近或穿越危險物、禁航區或具有特殊條件區域，依標準設定發出警報或指示。\n3. 進入具有特殊條件的區域（Area with special conditions），依標準發出警報或指示，例如禁航、限制或需特別注意的海域。\n（二）航線規劃及航線監控警報：\n1. 本船偏離航線超過駕駛員設定的Cross Track Limit時，發出偏航警報。\n2. 接近關鍵點（Approach to critical point）時發出警報，提醒駕駛員即將抵達轉向點、航路關鍵點或需採取操作的地點。\n3. 航線監控時，若預定航線將使船舶接近／穿越危險物，依標準提供警報或指示；規劃階段跨越安全等深線、禁航或特殊區域則提供相應指示。\n（三）定位、基準及系統完整性警報：\n1. Positioning system failure：定位系統失效時發出警報，提醒不得再盲目依賴失效位置來源。\n2. Different geodetic datum：定位系統與ENC使用不同大地基準時，須警報或指示，避免船位與海圖錯置。\n3. ECDIS malfunction：ECDIS發生故障時發出警報；若系統測試失敗，依標準顯示指示。\n（四）海圖資料與顯示狀態指示：\n1. Information overscale：顯示比例尺大於資料原始編製比例尺，提示使用者目前為超比例尺顯示，細節不會因此增加。\n2. Larger scale ENC available：有更大比例尺ENC可用時提示切換。\n3. No ENC available：目前區域沒有可用ENC時提示，可能須依核准程序使用RCDS或備援海圖系統。\n4. Default safety contour：所選安全等深線無法在ENC中找到完全相同等深線時，ECDIS採用較深的可用等深線，並應提供指示。\n5. Customized display、海圖更新狀態及其他資料狀態，依設備版本及標準顯示相應指示。\n\n三、操作及引水實務注意事項\n（一）ECDIS警報不是自動避碰系統，駕駛員仍須維持瞭望、定位、雷達觀測及COLREG判斷。\n（二）航線規劃前應正確設定安全等深線、安全水深、XTD、航線警戒距離及Look-ahead time；設定值應依船舶吃水、UKC政策、潮高、squat及港口規定決定，不得任意採用預設值。\n（三）警報過多容易造成Alarm fatigue。應依公司SMS、設備操作手冊及航行環境設定合理警戒值，不能為減少警報而任意關閉重要安全警報。\n（四）不同ECDIS型號、軟體版本及適用性能標準可能在介面分類及呈現方式上有所差異；考試應以IMO性能標準的Alarm／Indication定義及Appendix 5項目為主。\n\n結論：ECDIS警報／指示可按航行危險、航線監控、定位及系統完整性、海圖資料顯示四組整理。核心項目包括穿越安全等深線、進入特殊條件區、偏離航線、接近關鍵點、定位失效、大地基準不同及ECDIS故障；超比例尺、更大比例尺ENC可用、無ENC及預設安全等深線等則屬資料或顯示指示。",
+    "modelAnswer": "【2027年考試主答｜ECDIS現行性能標準查核截至2026-11-07】\n\n一、先區分Alert、Alarm及Indication\n現代ECDIS應依適用的IMO性能標準及橋樓警報管理標準提供Alerts與Indications。Alert是以聲響及／或視覺方式通知需注意的狀況，其優先層級包括Alarm、Warning及Caution；Indication則主要以視覺方式提供系統或設備狀態資訊。Alarm通常代表須立即注意並採取行動；Warning提醒需立即注意的預防性狀況；Caution提供需留意的資訊。不可將所有Alert都稱為Alarm。\n\n二、ECDIS適用性能標準的時間差\n（一）既有S-57 ECDIS：依設備安裝日期及型式認證，可能適用IMO A.817(19)及其修正，或MSC.232(82)。\n（二）新一代S-100 ECDIS：IMO MSC.530(106)於2022年採納，MSC.530(106)/Rev.1於2024年修訂，導入S-100及航線計畫交換等功能。新標準自2026年1月1日起可供新安裝設備採用；自2029年1月1日起，所有新安裝ECDIS須符合新標準。2027年考試時仍處於新舊標準轉換期，不能假設所有船上ECDIS均已採用同一版本。\n（三）考試作答：若題目未指定設備安裝日期或標準版次，應說明適用版本差異，再以MSC.530(106)/Rev.1的Alerts／Indications架構補充現代要求；不得把舊版MSC.232(82)項目直接當成所有新設備唯一標準。\n\n三、依功能整理現代ECDIS警報與指示項目\n（一）航行危險及航線監控\n1. 船舶將在設定時間或距離內，比使用者設定的安全等深線更接近時，發出Alarm。\n2. 船舶偏離已選航線並超過設定的Cross Track Limit時，發出Alarm。\n3. 接近具有特殊條件或禁止性質的區域時，依使用者選擇發出Warning、Caution或Indication。\n4. 航線監控中接近航線附近危險物（如淺點、礁石、沉船或障礙物）時，依標準及使用者設定發出Warning、Caution或Indication。\n5. 航線規劃階段，航線接近安全等深線、指定區域或危險物時，提供Indication，供駕駛員檢視與修正。\n6. 接近Critical Point時發出Warning，提醒駕駛員即將到達需採取操作的關鍵點。\n\n（二）定位及基準系統\n1. Positioning System Failure：定位系統失效時發出Warning。\n2. Different Geodetic Datum：定位來源與海圖使用不同大地基準時發出Warning，避免船位與ENC錯置。\n3. Different Reference System：附加導航資料與ECDIS使用不同參考系統時提供Indication。\n\n（三）設備及系統完整性\n1. ECDIS malfunction：設備故障時依故障性質發出Warning或Indication。\n2. System test failure：系統自我測試失敗時提供Indication，指出異常模組或功能。\n3. 發生設備故障時，應依SMS及備援程序切換至獨立備援ECDIS或核准紙海圖，不可只消除警報後繼續航行。\n\n（四）海圖資料與顯示狀態\n1. Default Safety Contour：所選安全等深線在資料庫中不存在時，系統改用較深的可用等深線並提供Indication。\n2. Information Overscale：顯示比例尺大於ENC原始編製比例尺時提供Indication；放大畫面不會增加海圖資料精度。\n3. Larger Scale ENC Available：本船位置有更大比例尺ENC可用時提供Indication。\n4. Information Not Displayed due to Scale Minimum：部分資訊因比例尺最小顯示限制而未顯示時提供Indication。\n5. No ENC Available：目前水域沒有適當比例尺ENC可用時提供Indication，須依核准程序使用備援海圖或RCDS。\n6. Customized Display：使用者自訂顯示設定時提供Indication，提醒顯示內容可能與標準顯示不同。\n\n四、警報設定及引水實務\n（一）航線規劃前，應依本船吃水、UKC政策、潮高、Squat、港口水深及航道限制，合理設定Safety Contour、Safety Depth、XTD、Look-ahead time及危險警戒距離。\n（二）ECDIS警報不能取代目視瞭望、雷達觀測、獨立定位及COLREG判斷；定位來源、ENC更新及設備狀態均須交叉檢查。\n（三）過多警報會造成Alarm Fatigue。應依設備手冊、SMS及航行環境設定合理警戒值，但不得為減少警報而任意關閉重要安全警報或降低安全等深線。\n（四）不同設備製造商、型式認證及適用性能標準，可能造成警報名稱、優先層級及介面呈現不同；應熟悉本船設備型式及其適用標準。\n\n【112年度歷史補充】\n112年度考試時，題目通常依MSC.232(82)及其Appendix 5的Alarm／Indication清單作答。當時常見項目包括偏離航線、穿越安全等深線、進入特殊區域、接近Critical Point、定位系統失效、大地基準不同、ECDIS故障，以及Overscale、較大比例尺ENC可用、無ENC及System Test Failure等。這些內容仍可用於理解傳統ECDIS，但2027年作答應加上MSC.530(106)/Rev.1新舊設備適用時程與Alert優先層級差異。\n\n結論：ECDIS的重點不是死背一張舊警報清單，而是先辨識設備適用的性能標準，再依航行危險、航線監控、定位基準、設備故障及海圖顯示狀態分類。2027年仍在新舊標準轉換期，答題必須清楚交代版次及安裝日期。",
     "practicalAnalysis": "本題20分，建議按四組各5分作答，並在開頭先定義Alarm與Indication。最容易失分的是把所有項目都寫成「警報」：MSC.232(82) Appendix 5明確區分Alarm、Indication及Alarm or Indication。需註明部分項目在不同作業情境下分別是航線規劃指示或航線監控警報。",
     "keyPoints": [
       {
@@ -58,6 +58,38 @@
         "issuer": "International Maritime Organization",
         "url": "https://www.imo.org/en/ourwork/safety/pages/electronic-charts.aspx",
         "supports": "ECDIS作為SOLAS航海設備及性能標準的背景。"
+      },
+      {
+        "title": "MSC.530(106)/Rev.1 — Performance Standards for ECDIS",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.mardep.gov.hk/filemanager/en/share/msnote/pdf/msin2446anx1.pdf",
+        "supports": "2024年修訂的ECDIS性能標準、Alerts及Indications架構、Appendix 5項目及新設備適用要求。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "MSC.232(82) — Revised Performance Standards for ECDIS",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.232%2882%29.pdf",
+        "supports": "傳統S-57 ECDIS性能標準及舊版Appendix 5警報／指示項目。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "ENC & ECDIS — Standards in Force",
+        "sourceType": "official_hydrographic_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/en/enc-ecdis",
+        "supports": "S-57與S-100 ECDIS適用標準、2026年生效的IHO資料標準及雙燃料過渡期。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "MGN 379 (M+F) Amendment 1 — Use of electronic navigational aids",
+        "sourceType": "official_maritime_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/mgn-379-mf-amendment-1-use-of-electronic-navigational-aids/mgn-379-mf-amendment-1-use-of-electronic-navigational-aids",
+        "supports": "ECDIS警報辨識、警報疲勞、設備維護與備援使用。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -69,14 +101,24 @@
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "題目",
+          "item": "現行ECDIS性能標準及安裝時程",
           "result": "pass",
-          "note": "依112年度題庫主檔核對題目。"
+          "note": "依IMO MSC.530(106)/Rev.1及IHO標準入口核對2026至2029轉換時程。"
         },
         {
-          "item": "主要專業依據",
+          "item": "MSC.530(106)/Rev.1 Appendix 5 Alerts與Indications",
           "result": "pass",
-          "note": "依IMO／IHO／IALA官方標準或主管機關資料整理。"
+          "note": "依現行標準重新分類Alarm、Warning、Caution及Indication，並逐項核對觸發情況。"
+        },
+        {
+          "item": "112年度舊版標準脈絡",
+          "result": "pass",
+          "note": "保留MSC.232(82)歷史背景，避免將新標準倒套至112年考試。"
+        },
+        {
+          "item": "不同型號ECDIS介面與型式認證",
+          "result": "verified_with_scope",
+          "note": "實際介面與警報呈現依船上設備型號及型式認證；答案採性能標準層級整理。"
         }
       ]
     },
