@@ -867,10 +867,10 @@
   {
     "id": "answer-110-pilotage-01",
     "questionId": "110-pilotage-01",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "海圖是供航海定位、航路規劃及危險避讓使用的官方水道測量成果。常見資料至少可舉十項：1. 海岸線、島嶼、礁岩及港口岸形。2. 水深測量數值（Soundings）及深度等深線。3. 海底底質，例如泥、沙、岩、貝殼等。4. 明礁、暗礁、淺灘、沉船及其他航行障礙物。5. 助導航標誌，包括燈塔、燈浮、導標、霧號及雷達標。6. 航道、分道航行制、推薦航路及航行限制區。7. 錨地、禁錨區、禁航區及軍事／危險作業區。8. 潮汐資料、潮流箭矢及流速資訊（依海圖種類及圖載資料而定）。9. 港口、碼頭、繫泊浮筒、船閘及港務設施。10. 電纜、管線、架空電纜及其他海底設施。11. 海底地形、海溝、陡坡及底質變化。12. 磁差資料、羅經玫瑰及方位基準。13. 測深基準面、比例尺、投影、圖號、版次及改正資訊。14. 引水登輪區、VTS報告點及其他地方航行資訊（如該海圖或附載資料有標示）。",
+    "modelAnswer": "【2027年考試主答｜現行紙海圖及電子海圖資訊】\n\n一、航海圖的基本目的\n航海圖是將海域、海岸、海底地形、水深、危險物、助航設施及航行限制等資訊，以規定符號及比例尺呈現，供船舶航路規劃、定位、避碰、測深及靠離港使用。紙海圖與ENC均須使用主管水道測量機關正式發行、有效版次並完成改正的資料。\n\n二、航海圖主要包含的十類資料\n1. **圖名、圖號及出版資料：**海圖名稱、圖號、發行機關、版次、出版日期、最新改正及航船布告資訊。\n2. **比例尺及投影：**比例尺、投影方式（常用Mercator projection）、緯度刻度及經度刻度；大比例尺通常呈現較細緻的港灣及近岸資訊。\n3. **基準及座標系統：**水平大地基準（如WGS84）、垂直基準／海圖基準面（Chart Datum）、高程基準、單位及座標說明。\n4. **海岸線及陸地地物：**海岸線、港口、碼頭、防波堤、燈塔、建築物、山丘、顯著地標及其他可供定位的陸上目標。\n5. **水深及海底地形：**測深點、等深線、淺灘、深槽、海底地形、底質及水深單位；應注意測深基準及測量年代。\n6. **危險物及障礙：**礁石、沉船、暗礁、障礙物、禁航區、危險區、電纜及管線等。\n7. **助航標誌：**燈塔、燈浮標、燈杆、浮標、導標、扇形燈、雷達標及其他AtoN的位置、燈質及識別資訊。\n8. **航道及港區設施：**航道界線、分道航行制、錨地、船席、轉向池、港界、引水站、VTS及港區限制。\n9. **潮流及航行附加資訊：**圖上可能標示潮流箭頭、流向、潮流資料及特殊航行注意事項；完整潮汐預報、潮流表及港口作業規定通常須另查相關航海出版物。\n10. **資料來源與品質：**測量來源、測量日期、測量精度、資料品質分類（如CATZOC／ZOC）、圖例、縮寫、注意事項及改正紀錄。\n\n三、2027年電子海圖與S-100新制\n（一）S-57 ENC仍是既有ECDIS的重要資料格式；S-100為IHO通用水文地理資料模型，並非單一海圖格式。\n（二）截至2026年，IHO已將S-100 Edition 5.2.1列為現行版本（2026年1月1日生效），主要相關產品包括：\n- S-101：Electronic Navigational Chart（電子航海圖）。\n- S-102：Bathymetric Surface（高解析度水深表面）。\n- S-104：Water Level Information for Surface Navigation（水位資訊）。\n- S-111：Surface Currents（海表流）。\n- S-125：Marine Aids to Navigation（海上助航設施）。\n（三）2027年船舶設備及考試答題仍須區分S-57與S-100 ECDIS適用標準及設備型式認證；不能因S-100產品規格已生效，就推定所有現役船舶ECDIS均已支援S-100。\n（四）紙海圖仍須依IHO S-4及INT 1圖式標準判讀；IHO S-4 Edition 4.10.0於2026年3月發布，INT 1英文版第9版於2026年列為現行版。\n\n四、使用海圖的安全注意事項\n1. 開航前確認海圖版次、改正、航船布告及臨時通告。\n2. 核對Chart Datum、船舶吃水、潮高、UKC及測深資料品質。\n3. 不可將放大ENC畫面誤認為較高測量精度；注意overscale及CATZOC。\n4. 不可單憑海圖取代目視、雷達、GNSS、測深儀、潮流資料及VTS公告。\n5. 港內工程、浮標移位、疏浚及臨時禁航區須查最新航船布告與港口通告。\n\n結論：航海圖至少應包含圖號出版資料、比例尺投影、基準座標、海岸地物、水深地形、危險物、助航標誌、航道港區、潮流附加資訊及資料品質等十類內容。2027年應再熟悉S-100及S-101、S-102、S-104、S-111等新一代海洋資料產品。",
     "practicalAnalysis": "題目只要求舉十項，考試可列12項並以水深、障礙物、航標、航道、錨地等核心資訊優先。要注意並非每張海圖都包含全部潮汐或氣象資訊，潮汐表、航路指南及燈表常是配套出版品。",
     "keyPoints": [
       {
@@ -932,6 +932,38 @@
         "sourceType": "official_exam_paper",
         "issuer": "考選部",
         "supports": "題目原文。"
+      },
+      {
+        "title": "IHO S-4 Regulations of the IHO for International (INT) Charts and Chart Specifications, Edition 4.10.0 (March 2026)",
+        "sourceType": "official_hydrographic_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/uploads/user/pubs/standards/s-4/S-4%20Ed%204.10.0_FINAL.pdf",
+        "supports": "紙海圖內容、圖式、圖框、比例尺、基準及資料品質呈現。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IHO Standards and Specifications",
+        "sourceType": "official_hydrographic_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/en/standards-and-specifications",
+        "supports": "S-4、INT 1、S-101、S-102、S-104、S-111及S-125現行版次。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "ENC & ECDIS — Standards in Force",
+        "sourceType": "official_hydrographic_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/en/enc-ecdis",
+        "supports": "S-100 Edition 5.2.1及相關電子海圖產品規格的生效日期。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IHO S-101 Electronic Navigational Chart Product Specification",
+        "sourceType": "official_hydrographic_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://registry.iho.int/productspec/view.do?idx=214",
+        "supports": "S-101 Edition 2.0.0為第一個正式作業版ENC產品規格。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -943,9 +975,19 @@
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "題目文字與題號",
+          "item": "航海圖十類基本資訊",
           "result": "pass",
-          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+          "note": "依IHO S-4及INT 1現行規格重新分類。"
+        },
+        {
+          "item": "2026至2027 S-100產品規格",
+          "result": "pass",
+          "note": "依IHO現行標準表核對S-100 5.2.1及S-101、102、104、111、125版次。"
+        },
+        {
+          "item": "紙海圖與S-100 ECDIS適用範圍",
+          "result": "pass",
+          "note": "明確區分規格生效與現役船舶設備全面採用，避免誤導。"
         }
       ]
     },
@@ -954,10 +996,10 @@
   {
     "id": "answer-110-pilotage-02",
     "questionId": "110-pilotage-02",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "太平洋洋流可依緯度與環流系統概分為北太平洋環流、南太平洋環流及赤道流系。北太平洋主要洋流：北赤道洋流（North Equatorial Current）向西流；黑潮（Kuroshio Current）沿菲律賓、臺灣及日本南下／北上路徑中的西邊界暖流向北流；黑潮延伸流（Kuroshio Extension）向東流；北太平洋洋流（North Pacific Current）向東流；加利福尼亞洋流（California Current）沿北美西岸向南流；阿拉斯加洋流／阿拉斯加環流（Alaska Current/Gyre）沿北美西北岸流動；親潮（Oyashio Current）為西北太平洋寒流，沿堪察加、千島及日本東北側南下。赤道區域包括北赤道洋流、南赤道洋流（South Equatorial Current，向西）及赤道逆流（Equatorial Countercurrent，主要向東）。南太平洋主要洋流：南赤道洋流向西；東澳洲洋流（East Australian Current）沿澳洲東岸向南；南太平洋洋流（South Pacific Current）向東；秘魯／洪堡洋流（Peru or Humboldt Current）沿南美洲西岸向北；另有西風漂流／南極環流（Antarctic Circumpolar Current）在南緯高緯度環繞南極向東流。",
+    "modelAnswer": "【2027年考試主答｜太平洋主要海流】\n\n一、北太平洋主要海流\n1. **北赤道海流（North Equatorial Current）：**受信風推動，主要由東向西流動，位於熱帶北太平洋。\n2. **赤道逆流（Equatorial Countercurrent）：**位於赤道附近，主要由西向東流動，與赤道海流方向相反。\n3. **黑潮（Kuroshio Current）：**北赤道海流到達菲律賓附近後分流，黑潮沿菲律賓東側、臺灣東側及日本南方向北至東北流動，為強勁暖流。\n4. **黑潮延伸流（Kuroshio Extension）：**黑潮離開日本東南岸後向東流入北太平洋。\n5. **親潮／千島海流（Oyashio Current）：**由白令海及堪察加、千島群島附近向南流，沿日本東北部與黑潮系統交會，為寒流。\n6. **北太平洋海流（North Pacific Current）：**位於中高緯度，主要由西向東流動，連接黑潮延伸流與北美西岸海流系統。\n7. **加利福尼亞海流（California Current）：**沿北美西岸向南流動，為寒流；近岸流況有季節性變化。\n8. **阿拉斯加海流（Alaska Current）：**沿北美西北岸及阿拉斯加灣一帶向北／東北流動；其延伸的Alaskan Stream沿阿留申群島南側向西流。\n9. **鄂霍次克海及東堪察加海流系統：**在北太平洋西北部形成寒水來源，影響親潮及西北太平洋海洋環境。\n\n二、南太平洋主要海流\n1. **南赤道海流（South Equatorial Current）：**主要由東向西流動，位於南太平洋熱帶海域。\n2. **南太平洋海流（South Pacific Current）：**位於中高緯度，主要由西向東流動。\n3. **東澳大利亞海流（East Australian Current）：**沿澳洲東岸向南流動，為暖流。\n4. **秘魯／洪堡海流（Peru or Humboldt Current）：**沿南美洲西岸向北流動，為寒流，並與沿岸湧升流及漁場生產力有關。\n5. **南極繞極流（Antarctic Circumpolar Current／West Wind Drift）：**環繞南極洲由西向東流動，連結太平洋、印度洋及大西洋。\n\n三、太平洋環流系統\n（一）北太平洋副熱帶環流：受信風及西風帶共同作用，整體順時針旋轉；西側為黑潮，北側為北太平洋海流，東側為加利福尼亞海流，南側為北赤道海流。\n（二）北太平洋副極地環流：整體逆時針旋轉，包含親潮、阿拉斯加海流及相關支流。\n（三）南太平洋副熱帶環流：整體逆時針旋轉，包含南赤道海流、東澳大利亞海流、南太平洋海流及秘魯海流系統。\n\n四、臺灣附近航行重點\n1. 臺灣東側受黑潮主流影響，流速及流向會隨季節、地形、渦旋及黑潮軸位置改變。\n2. 臺灣海峽受季風、潮汐、地形及中國沿岸流影響，冬季東北季風期間常見南向沿岸流增強；夏季流況可能不同。\n3. 航海計畫不可只套用洋流示意圖；應查即時海流預報、海圖、潮流資料及船舶實測SOG／STW差異。\n4. 2026年IHO S-111已列入現行海洋資料產品規格，可支援電子化海表流資料；是否能在船上ECDIS使用仍取決於設備、資料服務及型式認證。\n\n結論：太平洋主要海流可按北太平洋與南太平洋環流系統整理，北太平洋有黑潮、親潮、北太平洋海流、北赤道海流、赤道逆流及加利福尼亞海流；南太平洋有南赤道海流、南太平洋海流、東澳大利亞海流及秘魯海流。北半球副熱帶環流順時針，南半球副熱帶環流逆時針。",
     "practicalAnalysis": "可用「北太平洋順時針副熱帶環流、南太平洋逆時針副熱帶環流、赤道流系、北太平洋副極地環流」組織答案。暖流／寒流名稱與方向須配合地理位置；黑潮對臺灣東部航行、潮流以外的海流估算及漂移修正特別重要。",
     "keyPoints": [
       {
@@ -1015,6 +1057,38 @@
         "sourceType": "intergovernmental_oceanography",
         "issuer": "UNESCO-IOC",
         "supports": "海洋觀測及海洋環流背景資料入口。"
+      },
+      {
+        "title": "JetStream Max: Major Ocean Currents",
+        "sourceType": "official_oceanography",
+        "issuer": "NOAA",
+        "url": "https://www.noaa.gov/jetstream/ocean/circulations/jetstream-max-major-ocean-currents",
+        "supports": "太平洋主要表層海流名稱及分布。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "NOAA Tides and Currents Glossary",
+        "sourceType": "official_oceanography",
+        "issuer": "NOAA",
+        "url": "https://www.tidesandcurrents.noaa.gov/glossary.html",
+        "supports": "Kuroshio、Kuroshio Extension及North Pacific Current等海流定義。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Review of oceanic mesoscale processes in the North Pacific",
+        "sourceType": "scientific_research",
+        "issuer": "NOAA Central Library",
+        "url": "https://repository.library.noaa.gov/view/noaa/59464/noaa_59464_DS1.pdf",
+        "supports": "黑潮、親潮、東堪察加海流及西北太平洋環流系統。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IHO Standards and Specifications — S-111 Surface Currents",
+        "sourceType": "official_hydrographic_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/en/standards-and-specifications",
+        "supports": "S-111 Edition 2.0.0現行海表流資料產品規格。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -1022,13 +1096,23 @@
       "洋流名稱及範圍在不同教材可能採不同分區方式；考試時以海洋學教材的標準流系圖配合方向作答。"
     ],
     "verification": {
-      "status": "draft",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "題目文字與題號",
+          "item": "北太平洋主要海流名稱與流向",
           "result": "pass",
-          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+          "note": "依NOAA主要海流圖及海洋學資料核對。"
+        },
+        {
+          "item": "南太平洋主要海流名稱與流向",
+          "result": "pass",
+          "note": "補充東澳大利亞、南太平洋、南赤道及秘魯海流。"
+        },
+        {
+          "item": "臺灣附近黑潮與海峽季節性",
+          "result": "verified_with_scope",
+          "note": "海流路徑及流速具季節、渦旋及地形變化，不能用固定示意線作航次預報。"
         }
       ]
     },
@@ -1037,10 +1121,10 @@
   {
     "id": "answer-110-pilotage-03",
     "questionId": "110-pilotage-03",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "空氣濕度常見表示法如下：一、絕對濕度（Absolute Humidity）：單位體積濕空氣中所含水蒸氣質量，常用g/m³表示。二、相對濕度（Relative Humidity, RH）：實際水蒸氣分壓與同溫度下飽和水蒸氣分壓之比值，以百分比表示；反映空氣距離飽和的程度。三、比濕（Specific Humidity）：濕空氣中水蒸氣質量與濕空氣總質量之比，常用g/kg或kg/kg表示。四、混合比（Mixing Ratio）：水蒸氣質量與乾空氣質量之比，常用g/kg表示。五、水蒸氣分壓（Vapour Pressure）：水蒸氣在總氣壓中所貢獻的分壓。六、露點（Dew Point）：在氣壓及水蒸氣含量近似不變下，空氣冷卻至飽和時的溫度；露點越接近氣溫，通常表示相對濕度越高。七、濕球溫度及乾濕球差：以乾球、濕球溫度差估算空氣濕度，常用於氣象觀測。",
+    "modelAnswer": "【2027年考試主答｜空氣濕度的表示方法】\n\n一、濕度的意義\n空氣濕度是空氣中水蒸氣含量或水蒸氣狀態的表示方式。不同濕度量所採用的基準不同，有些表示實際水汽質量，有些表示相對於飽和狀態的比例，也有些以溫度或水汽壓作為間接指標。\n\n二、常用濕度表示方式\n\n| 名稱 | 英文 | 定義／公式 | 常用單位或說明 |\n|---|---|---|---|\n| 絕對濕度 | Absolute Humidity | 單位體積濕空氣中的水蒸氣質量，\\(\\rho_v=m_v/V\\) | g/m³ |\n| 比濕 | Specific Humidity | 水蒸氣質量與濕空氣總質量之比，\\(q=m_v/(m_d+m_v)\\) | kg/kg |\n| 混合比 | Mixing Ratio | 水蒸氣質量與乾空氣質量之比，\\(r=m_v/m_d\\) | kg/kg |\n| 相對濕度 | Relative Humidity | 實際水汽壓與同溫度飽和水汽壓之比，\\(RH=e/e_s\\times100\\%\\) | % |\n| 水汽壓 | Vapour Pressure | 空氣中水蒸氣所產生的分壓 | hPa |\n| 露點溫度 | Dew-point Temperature | 在水汽含量及壓力條件不變下，冷卻至達飽和時的溫度 | °C |\n| 濕球溫度 | Wet-bulb Temperature | 通風濕球溫度計在水分蒸發冷卻後達到的溫度 | °C |\n| 乾濕球溫差 | Wet-bulb Depression | 乾球溫度與濕球溫度之差，\\(T-T_w\\) | °C；空氣越乾燥通常溫差越大 |\n\n三、各表示方式的比較\n1. 絕對濕度、比濕及混合比主要表示實際水汽質量，但採用的分母不同。\n2. 相對濕度同時受水汽含量及氣溫影響；即使空氣中的水汽質量不變，氣溫升高通常會使相對濕度下降，氣溫降低則相對濕度上升。\n3. 露點溫度可用來判斷空氣水汽含量；在氣壓相近時，露點越高通常代表水汽越多。\n4. 濕球溫度及乾濕球溫差可用來估計蒸發冷卻及空氣濕度；需配合通風、氣壓及儀器條件判讀。\n5. 水汽壓是水蒸氣分壓，並非百分比；不可與相對濕度混為一談。\n\n四、海上氣象及引水實務\n1. 高濕度與氣溫接近露點時，可能形成霧、低雲及能見度下降，但霧的形成還需考慮冷卻、凝結核及氣團條件。\n2. 露點差小通常表示空氣接近飽和，夜間輻射冷卻時需注意霧或低雲發展。\n3. 濕度會影響船員熱舒適、貨物防潮及部分設備，但航行安全判斷仍須結合能見度、降水、風、海況及雷達資訊。\n\n結論：濕度可用絕對濕度、比濕、混合比、相對濕度及水汽壓表示；露點、濕球溫度及乾濕球溫差則是常用的溫度指標。答題時應分清質量比、體積濃度、壓力及百分比的差別。",
     "practicalAnalysis": "題目問「有那幾種表示法」，可列絕對濕度、相對濕度、比濕、混合比、水蒸氣分壓、露點及濕球法。需分清楚濕度的物理量與測量／推估方法：露點是溫度指標，乾濕球是測量方法，不宜全部當成同一類定義。",
     "keyPoints": [
       {
@@ -1079,6 +1163,30 @@
         "sourceType": "official_exam_paper",
         "issuer": "考選部",
         "supports": "題目原文。"
+      },
+      {
+        "title": "WMO Guide to Instruments and Methods of Observation (WMO-No. 8), Chapter 4: Measurement of Humidity",
+        "sourceType": "WMO_standard",
+        "issuer": "World Meteorological Organization",
+        "url": "https://www.weather.gov/media/epz/mesonet/CWOP-WMO8.pdf",
+        "supports": "混合比、比濕、露點、相對濕度、水汽壓及濕度量測定義。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Humidity — National Weather Service Glossary",
+        "sourceType": "official_meteorological_glossary",
+        "issuer": "NOAA National Weather Service",
+        "url": "https://forecast.weather.gov/glossary.php?word=Humidity",
+        "supports": "相對濕度及比濕定義，說明相對濕度受溫度影響。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "WMO Training Material — Humidity Part 1: Introduction",
+        "sourceType": "official_meteorological_training",
+        "issuer": "World Meteorological Organization",
+        "url": "https://etrp.wmo.int/pluginfile.php/97653/mod_folder/content/0/Training%20Material/5_1_Humidity%20Part%201%20Introduction.pdf",
+        "supports": "2024版WMO濕度量、單位及符號。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -1086,13 +1194,18 @@
       "不同氣象學教材對「濕度表示法」列舉項目略有差異；作答應優先掌握相對濕度、絕對濕度、比濕、混合比與露點。"
     ],
     "verification": {
-      "status": "draft",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "題目文字與題號",
+          "item": "濕度各種表示方法及公式",
           "result": "pass",
-          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+          "note": "依WMO-No.8及2024 WMO訓練資料核對質量比、體積濃度及水汽壓。"
+        },
+        {
+          "item": "相對濕度與溫度關係",
+          "result": "pass",
+          "note": "補充相對濕度不能單獨代表實際水汽量。"
         }
       ]
     },
@@ -1101,10 +1214,10 @@
   {
     "id": "answer-110-pilotage-04",
     "questionId": "110-pilotage-04",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "潮汐依一個太陰日（約24小時50分）內高潮、低潮的次數及高度特徵，通常分為三類：一、半日潮（Semi-diurnal Tide）：一天約有兩次高潮與兩次低潮，兩次高潮高度及兩次低潮高度大致相近，潮時也較接近；臺灣西部沿岸多呈半日潮特徵。二、全日潮（Diurnal Tide）：一天約只有一次高潮及一次低潮。三、混合潮（Mixed Tide）：一天有兩次高潮與兩次低潮，但相鄰高潮或低潮的高度差明顯，潮時也可能不等；可再依日不等程度描述。潮型主要受月球、太陽引潮力、海盆形狀、海底地形、共振及地球自轉等影響。同一海岸不同港口可能因地形及潮波傳播而有不同潮型。",
+    "modelAnswer": "【2027年考試主答｜潮汐的三種基本類型】\n\n一、半日潮（Semidiurnal Tide）\n在一個太陰日（約24小時50分鐘）內，發生兩次高潮及兩次低潮，兩次高潮高度大致相近，兩次低潮高度亦大致相近。相鄰高潮平均約相隔12小時25分鐘。臺灣西部沿岸多數地區以半日潮特徵為主，但仍須依測站潮汐分析判斷。\n\n二、全日潮（Diurnal Tide）\n在一個太陰日內，通常只有一次高潮及一次低潮。此類潮汐常見於潮汐日不等性較強的部分海域。\n\n三、混合潮（Mixed Tide，通常稱Mixed Semidiurnal）\n在一個太陰日內通常仍有兩次高潮及兩次低潮，但相鄰高潮或低潮高度有明顯差異，且潮汐間隔可能不完全相等。若以日不等性大小分類，亦可再分為以半日潮為主或以全日潮為主的混合型。\n\n四、潮型的定量判斷（進階）\n可用潮汐型式係數（Form Factor）：\n\\[\nF=\\frac{K_1+O_1}{M_2+S_2}\n\\]\n其中K1、O1為主要日潮分潮，M2、S2為主要半日潮分潮。常見分類：\n- F小於0.25：半日潮。\n- F為0.25至1.5：混合潮，以半日潮為主。\n- F為1.5至3.0：混合潮，以全日潮為主。\n- F大於3.0：全日潮。\n實際潮型應依當地潮汐分潮分析及潮汐表資料判斷，不能只憑單日兩次高潮的目視觀察。\n\n五、引水實務\n1. 潮型決定潮位變化及高潮、低潮出現次數，但不代表潮流必然與潮位同時轉向。\n2. 港口潮位、潮流及憩流時刻可能因地形、潮波傳播、風壓及河川流量而不同。\n3. 靠離泊、進出港及UKC計算應使用指定測站的潮汐預報、潮流資料及港務公告，不可只以潮型推估即時潮高或潮流速度。\n\n結論：潮汐基本類型為半日潮、全日潮及混合潮；半日潮每太陰日約兩次高潮與兩次低潮，全日潮約一次高潮與一次低潮，混合潮則有明顯日不等性。",
     "practicalAnalysis": "考試可先用「一天兩高兩低且近似相等／一天一高一低／一天兩高兩低但不等」作區別，再補充潮型受海盆與地形影響。不要把大小潮（朔望潮與小潮）誤當成三種基本潮型；大小潮描述潮差週期，與半日、全日、混合潮分類不同。",
     "keyPoints": [
       {
@@ -1135,6 +1248,30 @@
         "sourceType": "official_exam_paper",
         "issuer": "考選部",
         "supports": "題目原文。"
+      },
+      {
+        "title": "NOAA Tides and Currents Glossary — Type of Tide",
+        "sourceType": "official_hydrographic_glossary",
+        "issuer": "NOAA",
+        "url": "https://www.tidesandcurrents.noaa.gov/glossary.html",
+        "supports": "半日潮、全日潮、混合潮及潮汐型式係數分類。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Types and Causes of Tidal Cycles",
+        "sourceType": "official_oceanography",
+        "issuer": "NOAA National Ocean Service",
+        "url": "https://oceanservice.noaa.gov/education/tutorial_tides/tides07_cycles.html",
+        "supports": "三種潮型的基本定義及地區差異。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "How Frequent Are Tides? — The Lunar Day",
+        "sourceType": "official_oceanography",
+        "issuer": "NOAA National Ocean Service",
+        "url": "https://oceanservice.noaa.gov/education/tutorial_tides/tides05_lunarday.html",
+        "supports": "太陰日24小時50分鐘及相鄰高潮平均12小時25分鐘。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -1142,13 +1279,23 @@
       "潮型應以當地潮汐資料及潮汐表判定，不能只依海域名稱推定所有港口皆屬相同潮型。"
     ],
     "verification": {
-      "status": "draft",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "題目文字與題號",
+          "item": "三種潮型定義",
           "result": "pass",
-          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+          "note": "依NOAA潮汐詞彙表及教育資料核對。"
+        },
+        {
+          "item": "太陰日與高潮間隔",
+          "result": "pass",
+          "note": "依NOAA資料核對24小時50分鐘及平均12小時25分鐘。"
+        },
+        {
+          "item": "潮汐型式係數",
+          "result": "pass",
+          "note": "補充Form Factor及半日潮／混合潮／全日潮常用分類門檻。"
         }
       ]
     },
@@ -1157,10 +1304,10 @@
   {
     "id": "answer-110-pilotage-05",
     "questionId": "110-pilotage-05",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "本題應依考題所稱「我國浮標制度」作答，不可直接套用IALA-B側面標誌。依我國舊制航標圖例：\n（一）紅、黑相間橫條紋浮標：設於港灣航道中界／航路中央，標示航道中心。官方不同版本對通過側有文字差異：部分官方燈表記載船舶應在其右側通過；航港研究資料則記載可由任一側通過。考試作答應依110年當時適用的《水道燈表》／港區航標圖例確認，不能不加說明地混用。\n（二）紅、黑相間直條紋浮標：設於地形突出端、沙洲、淺灘或險礁的內外端；標示危險物邊界，標誌兩側均有可航水道，但不得從浮標與其所標示危險物之間通過。\n（三）紅、黑相間方格浮標：標示海中礁石及範圍較小的障礙物；其兩側均有航道可通，若標示障礙物，通常設於危險物向海的一側。若以成對方格標示障礙物兩側，紅白方格與黑白方格另有各自的左右側通過意義，須依圖例辨認。\n（四）綠色浮標：我國舊制用於標示沉船，不可誤認為IALA-B的綠色側面標誌。沉船位於外海或兩側均有寬闊航道時，浮標設於沉船向海一側；位於江內、港內、河口或狹窄水道時，則設於沉船向航道一側。若為燈浮，依舊制圖例使用綠色燈光。\n注意：我國現行航路標識已採IALA-B制度，但考題問的是「我國浮標系統」的歷史圖例；必須分辨題目所指制度與現行IALA-B側面標誌，避免把綠色沉船標誤判為左側標。",
+    "modelAnswer": "【2027年考試主答｜臺灣現行浮標系統】\n\n一、現行制度\n臺灣採用IALA Maritime Buoyage System Region B。側面標誌顏色依Region B判讀：沿主管機關公布的浮標方向進港時，左舷標誌為綠色，右舷標誌為紅色。方位標誌、孤立危險物標誌、安全水域標誌、特殊標誌及緊急沉船標誌等，A、B區採相同規則。\n\n二、現行六類主要標誌\n\n| 標誌種類 | 顏色及形狀 | 頂標／燈光 | 用途 |\n|---|---|---|---|\n| 側面標誌 Lateral Mark | Region B進港左舷綠色、右舷紅色；形狀及燈光依左右舷規則 | 頂標依標誌形狀；燈色與標體顏色相同 | 標示航道左右側及航道分支 |\n| 方位標誌 Cardinal Mark | 黑／黃組合，依北、東、南、西分段 | 兩個黑色圓錐頂標；白色Q／VQ燈光節奏 | 指示危險物周圍哪一方位側為安全水域 |\n| 孤立危險物標誌 Isolated Danger Mark | 黑色標體，具一條或多條紅色寬橫帶 | 兩個黑色球形頂標；白色群閃(2) | 標示孤立危險物，周圍仍有可航水域 |\n| 安全水域標誌 Safe Water Mark | 紅白垂直條紋 | 單一紅色球形頂標；白色等明、明暗、長閃或摩斯A | 標示四周均可航水域、航道中央或陸地標誌 |\n| 特殊標誌 Special Mark | 黃色標體 | 黃色X形頂標（如有）；黃色燈光 | 標示特殊區域或特殊用途，須查海圖說明 |\n| 緊急沉船標誌 Emergency Wreck Marking Buoy | 藍黃垂直條紋，條數及寬度相同 | 黃色直立十字頂標（如有）；交替藍／黃燈光 | 標示新發現且對航行構成重大危險的沉船或其他新危險 |\n\n三、重要辨識\n（一）黑色配紅色橫帶、兩個黑球頂標及白色群閃(2)，是現行孤立危險物標誌。\n（二）紅白垂直條紋是現行安全水域標誌，不應與舊式紅黑垂直條紋標誌混為一談。\n（三）藍黃垂直條紋是現行緊急沉船標誌；不可再以一般綠色浮標作為所有沉船的通用標示。\n（四）臺灣屬Region B，進港左綠右紅；但方位、孤立危險物、安全水域、特殊及緊急沉船標誌在A、B區相同。\n\n四、110年度舊式標誌題的歷史處理\n110年原題列出的「紅黑橫條、紅黑直條、紅黑棋盤格及綠色浮標」屬舊版或地方歷史標誌圖式的脈絡，不應直接當成2027年現行IALA六類標誌。現行IALA R1001並無以紅黑直條、紅黑棋盤格及一般綠色浮標分別代表上述舊題用途的通用規定。\n如題目明確要求還原110年當時的舊圖式，應以110年有效海圖圖例、當年港口助航標誌表及原始法規附件核對；目前尚未取得足以逐一確認這三種舊式圖案的官方歷史圖例，因此其歷史對應意義標示待查，不猜測。若題目問現行我國浮標系統，應完整使用現行IALA Region B制度作答。\n\n結論：2027年應以IALA Region B為主，熟記六類標誌及顏色、頂標、燈光與用途；110年舊式紅黑直條、棋盤格及綠色浮標圖案僅作歷史題背景，未經官方歷史圖例確認不得當成現行規定。",
     "practicalAnalysis": "本題四種標誌是我國舊制特殊航標圖例，並非全數可一對一套用IALA-B。可確定的重點是直條紋標示地形危險物邊界、方格標示礁石／小型障礙物、綠色浮標標示沉船。橫條紋標誌的通過側在不同版本官方／研究資料間存在文字差異，已保留查核註記。",
     "keyPoints": [
       {
@@ -1212,6 +1359,30 @@
         "sourceType": "official_guidance",
         "issuer": "交通部航港局",
         "supports": "我國現行IALA-B側面標誌：進港左綠右紅；用以區別舊制綠色沉船浮標。"
+      },
+      {
+        "title": "IALA Recommendation R1001 — The IALA Maritime Buoyage System, Edition 2.0 (revised 3 June 2023)",
+        "sourceType": "IALA_standard",
+        "issuer": "International Organization for Marine Aids to Navigation",
+        "url": "https://www.iala.int/product/r1001/",
+        "supports": "現行IALA A/B區、側面標誌、方位標誌、孤立危險物、安全水域、特殊及緊急沉船標誌。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IALA R1001 Edition 2.0 — Full Recommendation",
+        "sourceType": "IALA_standard",
+        "issuer": "International Organization for Marine Aids to Navigation",
+        "url": "https://www.iala.int/content/uploads/2022/05/C75-10.3.7-Revised-Recommendation-R1001-Ed2.0-The-IALA-Maritime-Buoyage-System-June-2022.pdf",
+        "supports": "現行浮標系統各類標誌之顏色、形狀、頂標、燈光及用途。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IALA Buoyage System: Regions A and B",
+        "sourceType": "official_navigation_reference",
+        "issuer": "IALA",
+        "url": "https://ialacolreg.com/en/iala",
+        "supports": "臺灣屬Region B及左右舷標誌顏色差異的說明。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -1224,19 +1395,19 @@
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "四種我國舊制浮標類別及一般意義",
+          "item": "現行IALA Region B側面標誌",
           "result": "pass",
-          "note": "以國防部99年水道燈表及交通部運輸研究所研究報告交叉核對。"
+          "note": "確認臺灣進港左綠右紅。"
         },
         {
-          "item": "紅黑橫條紋標誌的通過側",
+          "item": "現行六類標誌顏色、頂標及燈光",
+          "result": "pass",
+          "note": "依IALA R1001 Edition 2.0及2023修訂核對。"
+        },
+        {
+          "item": "110年舊式紅黑直條、棋盤格及綠色浮標圖例",
           "result": "needs_review",
-          "note": "不同官方／研究版本文字略有差異，待取得110年考試當時有效正式圖例原件。"
-        },
-        {
-          "item": "現行IALA-B與我國舊制綠色沉船標的區別",
-          "result": "pass",
-          "note": "航港局指引說明臺灣現行IALA-B；舊制圖例另以綠色標示沉船。"
+          "note": "尚未取得110年當時官方圖例／法規附件，避免猜測舊式符號意義。"
         }
       ]
     },
