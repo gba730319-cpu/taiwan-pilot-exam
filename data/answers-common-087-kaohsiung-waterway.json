@@ -52,5 +52,300 @@
       ]
     },
     "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "087-kaohsiung-waterway-02-answer-v1",
+    "questionId": "087-kaohsiung-waterway-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "第一港口進港應參考高雄燈塔、北／南防波堤端燈杆、港內信號台、導標、燈杆、燈浮及外海危險物標誌。逐一應列名稱、位置、顏色、燈質（定光／閃光）、週期、燈高及公稱光程。進港前以高雄燈塔及岸上固定物定位；接近口門時同時辨識兩側防波堤燈標；入港後依導標、燈浮、雷達PI及VTS指示保持航跡。夜間注意背景燈光及燈光遮蔽弧，不可只依單一燈標判斷船位。1998年燈表未取得，不能臆造導航標誌總數及燈質。",
+    "practicalAnalysis": "本題15分，應以燈表逐項列出導航標誌名稱、位置、燈色、燈質、週期及公稱光程。後續港口誌可確認主要設施類型，但不能替代1998年燈表。",
+    "keyPoints": [
+      {
+        "point": "列出高雄燈塔、第一港口北／南防波堤燈杆、港內導標及燈浮。",
+        "importance": "essential"
+      },
+      {
+        "point": "逐一標示位置與助航目的。",
+        "importance": "essential"
+      },
+      {
+        "point": "燈質列顏色、定光／閃光、週期、燈高及公稱光程。",
+        "importance": "essential"
+      },
+      {
+        "point": "進港時結合雷達、目視、導標及VTS定位。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人高雄港當地水道港灣詳情官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=5004&t=Q",
+        "supports": "高雄港地方題原卷。"
+      }
+    ],
+    "assumptions": [
+      "本年度僅整理高雄港考區地方題。"
+    ],
+    "limitations": [
+      "未取得1998年燈表第一港口頁及航船布告，無法確認導航標誌總數與燈質。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部87年高雄港地方題",
+          "result": "pass",
+          "note": "原卷題文核對。"
+        },
+        {
+          "item": "1998年港圖及燈表",
+          "result": "partial",
+          "note": "歷史圖資未完整取得，精確位置及數值待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "087-kaohsiung-waterway-03-answer-v1",
+    "questionId": "087-kaohsiung-waterway-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【進港航行】進港前取得VTS許可，確認港口開放、交通次序、前船間距及航道狀況；依海圖及燈表確認高雄燈塔、北／南防波堤端燈標、導標、燈浮及危險物位置。接近防波堤口前控制速度，避免口門交會、追越或停船；通過口門時保持安全速度及舵效，進港後依VTS指示前往泊位並保持VHF守聽。\n\n【日間管制】日間由第一信號台以信號板／旗號顯示港口開放、進港、出港或停止進出港狀態。\n\n【夜間管制】夜間由信號台以規定燈光信號表示港口交通狀態。若信號不明、燈號故障或與VTS指示不一致，應先詢問VTS，不得自行推測。\n\n信號字母、燈色及排列須依1998年有效版本核對；不可把後來修訂的信號表回填為1998年答案。",
+    "practicalAnalysis": "本題15分，前半寫進港航行程序，後半寫日夜信號。信號組合是版本性資料，須依1998年港口航行規定。",
+    "keyPoints": [
+      {
+        "point": "進港前取得VTS許可並確認港口開放及交通次序。",
+        "importance": "essential"
+      },
+      {
+        "point": "依燈塔、防波堤燈標、導標及燈浮保持航道。",
+        "importance": "essential"
+      },
+      {
+        "point": "通過口門控制速度、保持舵效並避免交會追越。",
+        "importance": "essential"
+      },
+      {
+        "point": "日間信號板／旗號、夜間燈光信號依當年規定辨識。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人高雄港當地水道港灣詳情官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=5004&t=Q",
+        "supports": "高雄港地方題原卷。"
+      }
+    ],
+    "assumptions": [
+      "本年度僅整理高雄港考區地方題。"
+    ],
+    "limitations": [
+      "未取得1998年高雄港航行規定及日夜信號圖表，故不列未核實的信號字母與燈色。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部87年高雄港地方題",
+          "result": "pass",
+          "note": "原卷題文核對。"
+        },
+        {
+          "item": "1998年港圖及燈表",
+          "result": "partial",
+          "note": "歷史圖資未完整取得，精確位置及數值待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "087-kaohsiung-waterway-04-answer-v1",
+    "questionId": "087-kaohsiung-waterway-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "第一、第二港口外禁錨區主要沿指定進出港航道、港口外分道航行區、進港等待區及防波堤口附近設置，以免錨泊船阻礙進出港船舶、拖船及引水艇。港內主航道、迴船池、碼頭前沿及海底電纜／管線附近，可能因水域狹窄、交通密集或水下設施而列為禁錨區。船舶若主機／舵機故障，應先通知VTS並依指示使用拖船、備援主機或其他措施。若面臨立即碰撞或擱淺危險而緊急拋錨，應立即通報VTS並配合後續移除錨鏈或拖離。精確界線須依1998年海圖及港務公告，不能用現行界線回推。",
+    "practicalAnalysis": "本題15分，分港外及港內兩部分。港外重點是航道與分道航行區，港內重點是主航道、迴船池、碼頭前沿及水下設施。",
+    "keyPoints": [
+      {
+        "point": "第一、第二港口外指定航道及分道航行區為禁錨重點。",
+        "importance": "essential"
+      },
+      {
+        "point": "港內主航道、迴船池、碼頭前沿及水下管線／電纜周邊可能禁錨。",
+        "importance": "essential"
+      },
+      {
+        "point": "界線應依1998年海圖及港務公告。",
+        "importance": "essential"
+      },
+      {
+        "point": "緊急拋錨後立即通報VTS並採取後續措施。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人高雄港當地水道港灣詳情官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=5004&t=Q",
+        "supports": "高雄港地方題原卷。"
+      }
+    ],
+    "assumptions": [
+      "本年度僅整理高雄港考區地方題。"
+    ],
+    "limitations": [
+      "未取得1998年禁錨區配置圖及航道公告，故不提供精確界線及座標。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部87年高雄港地方題",
+          "result": "pass",
+          "note": "原卷題文核對。"
+        },
+        {
+          "item": "1998年港圖及燈表",
+          "result": "partial",
+          "note": "歷史圖資未完整取得，精確位置及數值待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "087-kaohsiung-waterway-05-answer-v1",
+    "questionId": "087-kaohsiung-waterway-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【常見事故】包括船舶對船舶碰撞、船舶碰撞碼頭、防波堤、浮筒及港內設施，以及拖船與被拖船事故。主要原因為港內交通密集、航道狹窄、速度過大、交會追越、靠泊角度不當、拖船推拉不協調、風流估計錯誤、定位不良、岸壁／淺水效應、通訊不足及船長—引水人—拖船長資料交換不足。\n\n【防範】落實Master-Pilot Exchange，交換船舶尺度、吃水、排水量、螺槳旋向、倒俥性能及拖船能力；依船舶載況與風流制定靠離泊計畫，控制縱向與橫向速度；遵守VTS、航道次序及安全速度；使用雷達、AIS、ECDIS、平行指標、GNSS及艏艉瞭望交叉定位；依最新海圖、航船布告、測深及施工資訊更新計畫；定期訓練及檢討事故案例。",
+    "practicalAnalysis": "本題15分，按碰撞對象分類，再列出操船及管理原因，最後提出對應預防措施。",
+    "keyPoints": [
+      {
+        "point": "碰撞類型包括船對船、船對碼頭、防波堤／浮筒／設施及拖船事故。",
+        "importance": "essential"
+      },
+      {
+        "point": "原因包括速度過大、定位不良、風流及岸壁效應、通訊不足及計畫不完整。",
+        "importance": "essential"
+      },
+      {
+        "point": "落實Master-Pilot Exchange及拖船協調。",
+        "importance": "essential"
+      },
+      {
+        "point": "遵守VTS、航道次序、安全速度及最新航行資料。",
+        "importance": "supporting"
+      },
+      {
+        "point": "加強雷達、AIS、ECDIS、PI及艏艉瞭望。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人高雄港當地水道港灣詳情官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=5004&t=Q",
+        "supports": "高雄港地方題原卷。"
+      }
+    ],
+    "assumptions": [
+      "本年度僅整理高雄港考區地方題。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部87年高雄港地方題",
+          "result": "pass",
+          "note": "原卷題文核對。"
+        },
+        {
+          "item": "1998年港圖及燈表",
+          "result": "partial",
+          "note": "歷史圖資未完整取得，精確位置及數值待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "087-kaohsiung-waterway-06-answer-v1",
+    "questionId": "087-kaohsiung-waterway-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【系統架構】VTMS由雷達、AIS接收站、CCTV、氣象站、潮流／潮位監測、VHF通信、資料網路、電子海圖資料庫及VTS控制中心構成；整合船舶位置、航向、航速、船名、尺度、目的地、航道、錨地、碼頭、航標及天候海象資訊。\n\n【主要功能】交通監視、航行資訊服務、航行協助服務、交通組織服務、進出港次序安排、錨地及移泊管理、緊急事故協調、海難搜救及污染應變、雷達／AIS／VHF紀錄保存。\n\n【船舶配合】依規定在指定VHF頻道守聽；進出港、轉向、移泊及抵達報告點時主動報告；正確維護AIS船名、呼號、MMSI、目的地、吃水及航行狀態；依VTS指示使用航道、速度、船席及錨地；維持雷達、GNSS、ECDIS及通信設備正常。VTS資訊不取代船長的避碰及安全航行責任。",
+    "practicalAnalysis": "本題15分，分系統架構、主要功能及船舶配合三段作答。VTS服務分資訊、航行協助及交通組織，不是替船長操船或承擔船長避碰責任。",
+    "keyPoints": [
+      {
+        "point": "架構包括雷達、AIS、CCTV、氣象水文、VHF、資料網路及控制中心。",
+        "importance": "essential"
+      },
+      {
+        "point": "功能包括交通監視、資訊服務、航行協助、交通組織及緊急應變。",
+        "importance": "essential"
+      },
+      {
+        "point": "船舶須守聽VHF、主動報告、維護AIS資料及遵守VTS交通指示。",
+        "importance": "essential"
+      },
+      {
+        "point": "VTS不取代船長的安全航行與COLREG責任。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人高雄港當地水道港灣詳情官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=5004&t=Q",
+        "supports": "高雄港地方題原卷。"
+      }
+    ],
+    "assumptions": [
+      "本年度僅整理高雄港考區地方題。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部87年高雄港地方題",
+          "result": "pass",
+          "note": "原卷題文核對。"
+        },
+        {
+          "item": "1998年港圖及燈表",
+          "result": "partial",
+          "note": "歷史圖資未完整取得，精確位置及數值待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
   }
 ]
