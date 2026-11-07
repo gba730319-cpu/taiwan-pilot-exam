@@ -2,10 +2,10 @@
   {
     "id": "answer-112-english-03",
     "questionId": "112-english-03",
-    "version": 1,
+    "version": 2,
     "language": "en",
     "answerType": "essay",
-    "modelAnswer": "(1) Dragging (of anchor)\nThe condition in which an anchor fails to hold the vessel in its intended position and moves along the seabed under the force of wind, current or waves, causing the vessel to drift from its anchorage.\n\n(2) Leeward\nThe side or direction away from which the wind is blowing; the side sheltered from the wind. The opposite side is windward.\n\n(3) Boarding speed\nThe low and controlled speed of a vessel when a pilot or other person is transferring between a pilot boat and the ship. It should be suitable for the prevailing weather and sea conditions and should allow a safe approach, transfer and recovery. There is no single universal speed applicable to every vessel; the master and pilot boat coxswain should agree a safe speed and heading in accordance with local procedures and the pilot transfer arrangement.\n\n(4) Drifting\nThe movement of a vessel or floating object away from its intended position under the influence of wind, current, waves or other external forces, particularly when it is not making effective way through the water or is unable to maintain its intended course or position.",
+    "modelAnswer": "【Suggested English Definitions】\n\n(1) Dragging (of anchor)\n\nThe condition in which an anchor fails to hold the vessel in its intended position and moves along the seabed under the force of wind, current or waves, causing the vessel to drift away from its anchorage.\n\n(2) Leeward\n\nThe side or direction towards which the wind is blowing; the side sheltered from the wind. The opposite side is windward.\n\n(3) Boarding speed\n\nA low and controlled speed maintained by a ship during the transfer of a pilot or another person between the ship and a pilot boat. The appropriate speed depends on the ship’s characteristics, the pilot boat, the prevailing wind, sea and current conditions, and the transfer arrangement. The ship’s master and the pilot boat coxswain should agree on a safe speed and heading in accordance with local procedures. There is no single universal boarding speed suitable for every ship and every condition.\n\n(4) Drifting\n\nThe movement of a vessel or floating object away from its intended position or track under the influence of wind, current, waves or other external forces, particularly when it is not making effective way through the water or cannot maintain its intended course or position.\n\n【Current Pilot-Transfer Safety Note】\nFor the 2027 examination, do not state one fixed boarding speed as a universal rule. The safe speed and heading depend on the ship, pilot boat, sea state, wind, current and transfer arrangement. IMO adopted updated SOLAS regulation V/23 pilot-transfer requirements in June 2025, with entry into force on 1 January 2028. Therefore, for a 2027 examination, describe the new requirements as adopted and forthcoming, not as already universally in force. The new standards cover design, manufacture, installation, inspection, maintenance, replacement and familiarization of pilot-transfer arrangements.",
     "practicalAnalysis": "Terminology notes:\n- Dragging of anchor: distinguish from ordinary swinging at anchor. A vessel swings around a holding anchor as wind/current changes; dragging means the anchor is not holding and the vessel's position changes over the seabed.\n- Leeward: downwind/sheltered side; windward is the side facing the wind.\n- Boarding speed: the question concerns pilot transfer. Do not give a fixed number of knots unless the port, vessel and pilot boat procedures specify one. A safe heading and lee may be as important as speed.\n- Drifting: a broad motion caused by external forces; it may occur with an anchor dragging, loss of propulsion or while the vessel is not maintaining a controlled track.",
     "keyPoints": [
       {
@@ -50,6 +50,38 @@
         "issuer": "IALA",
         "url": "https://www.iala.int/wiki/dictionary/",
         "supports": "Standard maritime terminology and definitions."
+      },
+      {
+        "title": "IMO Resolution A.1045(27) — Pilot Transfer Arrangements",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1045%2827%29.pdf",
+        "supports": "既有引水梯及引水人安全轉乘安排的國際指引背景。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Maritime Safety Committee — 110th session (MSC 110)",
+        "sourceType": "official_IMO_meeting_summary",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-110th-session.aspx",
+        "supports": "2025年6月採納SOLAS V/23引水人轉乘安排修正及新性能標準，預定2028年1月1日生效。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Pilotage",
+        "sourceType": "official_guidance",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/pilotage.aspx",
+        "supports": "引水人轉乘安全及SOLAS V/23背景。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "International Dictionary of Marine Aids to Navigation",
+        "sourceType": "official_maritime_dictionary",
+        "issuer": "IALA",
+        "url": "https://www.iala.int/wiki/dictionary/",
+        "supports": "Dragging、Leeward及Drifting等海事術語用法。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -61,14 +93,14 @@
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "Original question",
+          "item": "四個海事術語英文定義",
           "result": "pass",
-          "note": "Checked against the 112 examination question bank."
+          "note": "修正Leeward方向定義並清楚區分Dragging與Drifting。"
         },
         {
-          "item": "English terminology",
+          "item": "Boarding speed及引水轉乘安全",
           "result": "pass",
-          "note": "Cross-checked with IMO SMCP and standard maritime usage."
+          "note": "明確說明無通用固定速度，並補入2028年生效的新SOLAS V/23要求時點。"
         }
       ]
     },
