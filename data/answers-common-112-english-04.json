@@ -2,10 +2,10 @@
   {
     "id": "answer-112-english-04",
     "questionId": "112-english-04",
-    "version": 1,
+    "version": 2,
     "language": "en",
     "answerType": "essay",
-    "modelAnswer": "(1) Communicating with the captain of incoming vessels to provide essential information about the port, fairways, traffic conditions and local regulations until the vessel has safely completed its passage to the berth.\n\n(2) Monitoring the weather conditions and communicating with the relevant port authorities, VTS and vessel's bridge team to ensure that the passage and berthing operation can be carried out safely, such as by checking wind speed, visibility, tide, current and sea state.\n\n(3) Enforcing international and national laws pertaining to navigation, collision prevention, port safety and environmental protection, and reporting any observed violation to the competent authority.\n\n(4) Maintaining accurate records of all harbor pilotage operations, including vessel movements, pilot boarding and disembarking times, tug assistance, unusual events, incidents and reports submitted to the port authority.\n\n(5) Determining the best route for ships to take based on charted depths, under-keel clearance, traffic density, weather, tidal streams, navigational hazards and the vessel's manoeuvring characteristics.\n\n(6) Determining the depth of the water along the intended route and near the berth to ensure that the vessel has adequate under-keel clearance, taking account of tide, squat, draught and any relevant safety margins.\n\n(7) Coordinating with local port operators to ensure that berths, tugs, mooring boats, linesmen, terminal equipment and other facilities are ready before the vessel arrives.\n\n(8) Recommending measures to improve safety in the harbor, such as improving aids to navigation, revising traffic routes, establishing speed limits, improving VTS procedures and conducting regular risk assessments.\n\n(9) Providing instructions to tugboat operators on how to assist the vessel safely during berthing, unberthing and shifting, including the required tug positions, push or pull directions, timing, power and communication procedures.",
+    "modelAnswer": "【Suggested English Answer】\n\n(1) Communicating with the masters of incoming vessels to provide essential information about the port, fairways, traffic conditions and local regulations until the vessels have safely completed their passages to their berths.\n\n(2) Monitoring weather conditions and communicating with the relevant port authorities, VTS and the vessels’ bridge teams to ensure that passages and berthing operations can be carried out safely, including checking wind speed and direction, visibility, tide, current and sea state.\n\n(3) Helping to ensure compliance with international and national laws and regulations concerning navigation, collision prevention, port safety and environmental protection, and reporting any observed violations to the competent authority. A harbour pilot is not a law-enforcement officer; the pilot should perform pilotage duties in accordance with applicable rules and report violations through the proper channels.\n\n(4) Maintaining accurate records of harbour pilotage operations, including vessel movements, pilot boarding and disembarking times, tug assistance, unusual events, incidents and reports submitted to the port authority.\n\n(5) Selecting and recommending the safest practicable route for each vessel, taking account of charted depths, under-keel clearance, traffic density, weather, tidal streams, navigational hazards and the vessel’s manoeuvring characteristics.\n\n(6) Checking the available and published depths along the intended route and near the berth, and assessing whether adequate under-keel clearance is available after taking account of tide, squat, draught and the required safety margins. Actual hydrographic surveying is normally carried out by the competent hydrographic or port authority, not by the pilot personally.\n\n(7) Coordinating with local port operators to ensure that berths, tugs, mooring boats, linesmen, terminal equipment and other facilities are ready before the vessel arrives.\n\n(8) Recommending measures to improve safety in the harbour, such as improving aids to navigation, revising traffic routes, establishing appropriate speed limits, improving VTS procedures and conducting regular risk assessments.\n\n(9) Coordinating tug operations by communicating the intended tug positions, push or pull directions, timing, power requirements and communication procedures to tug operators. The tug master remains responsible for the safe operation of the tug and should report any unsafe condition.\n\n【Professional Notes】\n1. “Enforcing laws” in the question should be understood in the pilot’s operational context: comply with applicable rules, help maintain safe navigation and report violations. A pilot is not a police or enforcement officer.\n2. “Determining the depth” is better expressed as checking published/charted depths and assessing UKC using current hydrographic information; the pilot should not claim to independently survey the seabed.\n3. Tug instructions must be coordinated with the tug master; the pilot’s manoeuvring plan does not remove the tug master’s responsibility for the tug’s own safety.",
     "practicalAnalysis": "Suggested sentence-building approach:\n- Use a gerund phrase for each responsibility to match the stem: Communicating / Monitoring / Enforcing / Maintaining / Determining / Coordinating / Recommending / Providing.\n- Use “to ensure that ...” to state the safety objective.\n- Give two or three maritime examples after “such as” rather than leaving the sentence abstract.\n- Avoid overstating the pilot's statutory authority: “enforcing laws” is interpreted as ensuring compliance during pilotage and reporting violations, not that a pilot personally exercises police or port-state enforcement powers.\n- “Determining the depth” should be understood as checking reliable charted/surveyed depth and current hydrographic information, not independently conducting a hydrographic survey during every transit.",
     "keyPoints": [
       {
@@ -50,6 +50,30 @@
         "issuer": "International Maritime Organization",
         "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
         "supports": "International collision-prevention rules and safe navigation."
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "supports": "引水人操作程序、MPX、船舶操縱資訊及與拖船協調。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.1158(32) — Vessel Traffic Services",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1158%2832%29.pdf",
+        "supports": "VTS交通資訊、港口交通管理及安全通訊。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO COLREG Convention",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "國際避碰規則及安全航行責任。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -57,18 +81,18 @@
       "Question wording is a sentence-completion prompt with ellipses; model answers supply plausible professional completions rather than claiming a single official wording."
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "Original question",
+          "item": "九項港口引水人職責英文表達",
           "result": "pass",
-          "note": "Checked against the 112 examination question bank."
+          "note": "依題目句型完整作答，修正法律執行、測深及拖船指揮的責任界線。"
         },
         {
-          "item": "English terminology",
+          "item": "引水人與VTS／港務單位／拖船權責",
           "result": "pass",
-          "note": "Cross-checked with IMO SMCP and standard maritime usage."
+          "note": "依IMO A.960(23)及A.1158(32)區分引水人、VTS、港務機關及拖船船長職責。"
         }
       ]
     },
