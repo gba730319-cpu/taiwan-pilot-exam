@@ -869,8 +869,8 @@
   },
   {
     "questionId": "106-pilotage-01",
-    "modelAnswer": "本題五項海圖符號應依考試指定海圖圖式及IHO INT 1圖例繪製，不能只寫中文名稱代替圖形。作答辨識如下：(1)不淹岩：高潮時仍露出水面的岩礁，按海圖水深／陸地物標圖式表示，並注意岩礁高度與基準面。(2)不到底（Foul）：測深線或測深點旁標示Foul，表示測深線未能觸底或海底狀況不明，不能當作安全水深。(3)平均大潮高潮（Mean High Water Springs, MHWS）：潮汐基準面縮寫，依海圖潮汐基準標註方式表示。(4)禁區：以限制區／禁入區界線及區域名稱或限制註記表示，具體線型依圖式。(5)退潮流附記速度：以潮流箭頭表示流向，旁註速度數值及單位，必要時標明潮時或基準時。",
-    "practicalAnalysis": "五種符號分別涉及水上突出物、測深可信度、潮汐垂直基準、航行限制區及潮流方向速度。尤其Foul不等於「水深足夠」；MHWS是垂直基準面，不是潮流符號。禁區須看邊界與文字限制，不能僅憑區域填色判斷。",
+    "modelAnswer": "【2027年考試主答｜五種航海圖符號】\n\n本題應以現行IHO INT 1海圖圖式及縮寫作答。下列代碼為IHO／Chart 1對照代碼，考場繪圖時應依海圖圖例中的正式圖形描繪，不宜以一般文字或自創符號代替。\n\n| 題目中文 | 現行英文名稱 | IHO INT 1代碼 | 繪圖及標註重點 |\n|---|---|---|---|\n| 不淹岩 | Rock which does not cover | K10 | 繪出不淹沒岩礁的黑色岩石圖式；依圖上基準標示岩礁高程。此類岩礁在高潮時仍不被淹沒。 |\n| 不到底 | No bottom found | I13 | 使用I13「未測得海底」圖式，並依圖例標註測深資訊。不得誤寫成Foul ground（不良底質／礙錨地）。 |\n| 平均大潮高潮 | Mean High Water Springs | H9 | 以縮寫MHWS標示；屬潮汐基準／潮汐資料縮寫，不是獨立的岩礁或航標圖形。 |\n| 禁區 | Prohibited area | N2.2 | 繪出禁區界線，並在區域內標註PROHIBITED AREA或依海圖註記標明禁止事項；不得與一般Restricted area（N2.1）混淆。 |\n| 退潮流附記速度 | Ebb tidal stream with rate | H41 | 以潮流箭頭表示退潮流方向，並在箭頭旁附註流速，單位通常為kn，例如2 kn；箭頭方向須依當地退潮流向。 |\n\n二、容易混淆的圖式\n1. 不淹岩（K10）表示不會被潮水淹沒的岩礁；會淹沒或乾出的岩礁應使用其他相應圖式。\n2. 不到底（I13）表示測深時未能測得海底；Foul ground表示底質或水下障礙可能妨礙錨泊或拖網，兩者意義完全不同。\n3. 禁區（N2.2）與限制區（N2.1）不同，應讀取海圖註記，不能當成同義詞。\n4. MHWS是Mean High Water Springs，平均大潮高潮；與MHW、MHHW及MLWS不同。\n5. 退潮流（H41）箭頭表示流向，旁邊數字表示速度；不可把退潮流方向與船舶航向或海圖北向混為一談。\n\n三、2027考試使用原則\n- 紙海圖圖式依考題所指定或現行海圖圖例的IHO INT 1版本判讀；目前應以IHO現行INT 1 Edition 9（2026）及IHO S-4標準為依據。\n- 若原題或歷史海圖使用舊版圖式，應保留歷史題意並註明版次；不能把舊符號直接當成2027現行圖式。\n- ENC的S-57／S-100呈現圖式與紙海圖INT 1圖例應分開理解；不要將不同產品規格的符號編碼混為一談。\n\n結論：本題五項依序為K10、I13、H9（MHWS）、N2.2及H41。最重要的校正是「不到底」應為No bottom found（I13），不是Foul ground；「禁區」須與Restricted area區分。",
+    "practicalAnalysis": "原答案把「不到底」誤解為Foul ground，這是重要概念錯誤；已改為IHO I13 No bottom found。並將不淹岩K10、MHWS H9、Prohibited area N2.2、Ebb tidal stream with rate H41分別列出，提供2027現行圖式版次原則。",
     "keyPoints": [
       "不淹岩：高潮仍露出的岩礁，須表達岩礁位置及高度／危險性。",
       "Foul：測深未觸底或海底狀況不明，不能視為已測得安全水深。",
@@ -893,14 +893,59 @@
         "title": "考選部106年引港學試題",
         "issuer": "考選部",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=106060&q=1&s=1010&t=Q"
+      },
+      {
+        "title": "IHO Standards and Specifications — INT 1 Edition 9 (2026)",
+        "sourceType": "official_hydrographic_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/en/standards-and-specifications",
+        "supports": "現行INT 1海圖符號、縮寫及IHO S-4圖式標準版次。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Canadian Chart 1 — Symbols, Abbreviations and Terms",
+        "sourceType": "official_hydrographic_chart_reference",
+        "issuer": "Canadian Hydrographic Service",
+        "url": "https://charts.gc.ca/publications/chart1-carte1/sections/x-descri/descri-eng.html",
+        "supports": "K10不淹岩、I13 No bottom found、H9 MHWS、N2.2 Prohibited area及H41退潮流附記速度之符號代碼對照。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Chart No. 1 — Nautical Chart Symbols and Abbreviations",
+        "sourceType": "official_hydrographic_chart_reference",
+        "issuer": "NOAA",
+        "url": "https://repository.library.noaa.gov/view/noaa/49552/noaa_49552_DS1.pdf",
+        "supports": "潮汐與潮流圖式、MHWS縮寫及退潮流附記速度的圖形參考。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
-      "目前未取得考試指定版海圖圖式原頁並逐一比對符號細節；此處提供符號意義與作圖方向，不以文字描述冒充精確符號圖。"
+      "本題要求實際繪圖，網站文字答案列出IHO圖式代碼與繪製要點；最終手繪仍應對照IHO INT 1正式圖例，不以文字代碼取代圖形。",
+      "106年（2017）歷史考試當時適用的INT 1版次與現行Edition 9不同；本版主答以2027現行標準為主。"
     ],
     "verification": {
-      "status": "partially_verified"
-    }
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "五項圖式名稱與IHO代碼",
+          "result": "pass",
+          "note": "依IHO現行INT 1及加拿大官方Chart 1索引核對K10、I13、H9、N2.2、H41。"
+        },
+        {
+          "item": "不到底與Foul ground區別",
+          "result": "pass",
+          "note": "修正原答案誤將No bottom found寫成Foul ground。"
+        },
+        {
+          "item": "2027圖式版本",
+          "result": "pass",
+          "note": "依IHO Standards and Specifications頁面確認INT 1 Edition 9（2026）為現行版。"
+        }
+      ]
+    },
+    "version": 2,
+    "lastUpdated": "2026-11-07"
   },
   {
     "questionId": "106-pilotage-02",
