@@ -1,0 +1,740 @@
+[
+  {
+    "id": "092-kaohsiung-waterway-01-answer-v1",
+    "questionId": "92-kaohsiung-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、法規及作業原則】\n颱風前後風浪過大，領港艇無法安全出港或無法在港外安全接送引水人時，不代表船舶當然可以不經許可自行進港。應先確認當時有效的「高雄港船舶進出港管制基準」、港口是否仍開放、船舶是否符合例外條件，以及VTS與引水人辦事處是否同意採取替代登輪方式。\n\n考試答題應區分兩種情形：\n1. **依法得免強制引水的船舶**：當時相關管制基準若明文允許，船長可依規定提出切結或聲明，在核准條件下自行操縱進港；須遵守VTS管制、港口信號及船舶進出港限制。\n2. **依法應強制引水的船舶**：不得自行把「引水艇不能出港」解讀為船長自動取得免引水權。應由VTS、引水人辦事處及港口主管機關依當時特別程序協調，確認是否可由船長在引水人遠距指導或其他核准方式下進入防波堤內，再於安全水域登輪；未獲許可不得擅自進堤。\n\n【二、船長自行操縱進堤的前提】\n（一）港口狀態及管制許可\n- 確認第二港口仍開放，未因風力、湧浪、能見度或其他海氣象因素全面停止進出港。\n- 先向VTS報告船舶資料、預定進港時間、吃水、船長、船寬、操縱設備及引水人無法登輪的原因，取得明確許可及交通次序。\n- 確認進港航道、迴船池、防波堤口及港內登輪點無施工、障礙物或其他船舶衝突。\n（二）船舶適航與船長能力\n- 主機、舵機、錨機、操舵及通訊設備必須正常；船長應熟悉第二港口航道、航標、風流與操船限制。\n- 船長須有足夠港口操船經驗，並已取得必要的海圖、航行警告、港口管制資訊及引水人辦事處／VTS提供的航行指示。\n- 若船舶操縱能力不足、吃水或風壓條件超出安全範圍、主機舵機有故障，應等待引水人可安全登輪或天候改善，不可勉強進港。\n（三）切結及責任\n- 依當時適用規定辦理書面切結、船長聲明或主管機關要求的文件；切結不是免除船長法定責任，也不是港口必須准許進港的保證。\n- 船長仍負船舶安全航行及避碰責任；VTS提供交通管制與資訊，不取代船長操船決策。\n\n【三、進入第二港口防波堤內之作業】\n1. 以VTS核准的時間及航道進港，保持指定VHF守聽，確認港口信號及前後船舶間距。\n2. 在外海及防波堤口前控制速度，依風浪方向、船舶受風面積、吃水及操縱性能，預留足夠舵效與停船距離。\n3. 依引水人辦事處或VTS協調的登輪位置與方式，選擇防波堤內較安全、可控制的水域；不得在航道、迴船池或其他船舶操縱水域任意減速漂航或停船等候。\n4. 船長應維持船舶在可控狀態，並依登輪作業安全要求調整船速、航向及引水梯舷側；確認引水人安全登輪後，完成船舶資料交換及操船交接。\n\n【四、遇到不安全狀況的處置】\n若風浪、能見度或船舶操縱狀況惡化，或VTS取消許可、港口改為關閉，應停止進港並在核准安全水域等待或退出；不可因已接近防波堤而勉強通過。若已進入堤內，應依VTS指示選擇安全水域及應變方案。\n\n【結論】\n本題得分核心是「例外條件、事前核准、船長資格與船舶適航、切結文件、VTS協調、堤內安全登輪」。必須強調領港艇無法出港本身並不當然解除強制引水義務；具體適用條件應以2003年考試當時有效的高雄港管制基準原文為準。",
+    "practicalAnalysis": "20分題應先辨識法律例外的適用對象，再寫作業程序。現存可取得的93年8月19日管制基準載有颱風期間平時免用引水人船舶可僱用引水人或由船長切結自行進港的規定，另有能見度限制；但該版本晚於92年考試年度，故只能作制度沿革參照，不能直接當作2003年適用法條。最安全的答案是不把「領港艇無法出港」當成所有船舶免引水的通則。",
+    "keyPoints": [
+      {
+        "point": "先區分強制引水船與依法免強制引水船。",
+        "importance": "essential"
+      },
+      {
+        "point": "領港艇不能出港不代表船長自動取得自行進港權，須依當時管制基準及主管機關核准。",
+        "importance": "essential"
+      },
+      {
+        "point": "確認港口開放、風浪、能見度、航道、迴船池及VTS交通管制。",
+        "importance": "essential"
+      },
+      {
+        "point": "確認船舶適航、主機舵機正常、船長熟悉港區並具操船能力。",
+        "importance": "supporting"
+      },
+      {
+        "point": "依規定辦理切結／聲明，切結不免除船長責任。",
+        "importance": "supporting"
+      },
+      {
+        "point": "在核准水域安全減速、保持VHF聯絡並安排堤內登輪；不安全即停止或退出。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "92年甲種引水人（高雄港）當地水道港灣詳情官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國92年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=343&code=092250&q=1&s=1001&t=Q",
+        "pageOrSection": "第1至7題",
+        "supports": "題目原文及考試年度。"
+      },
+      {
+        "title": "高雄港船舶進出港管制基準（民國93年8月19日修正版本）",
+        "sourceType": "law_or_regulation",
+        "issuer": "交通部法規資訊網",
+        "editionOrEffectiveDate": "民國93年8月19日修正",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0110001&type=-1",
+        "supports": "颱風期間船舶進出港管制、船長自行進港之特定條件及一、二港口能見度門檻；版本晚於本題2003考試年度，僅作相近制度核對。"
+      },
+      {
+        "title": "九九臺灣航行指南（2010年第六版）—高雄港港口誌",
+        "sourceType": "official_publication_copy",
+        "issuer": "海軍大氣海洋局",
+        "editionOrEffectiveDate": "民國99年（2010）第六版",
+        "url": "https://www.scribd.com/document/612202080/%E4%B9%9D%E4%B9%9D%E8%87%BA%E7%81%A3%E8%88%AA%E8%A1%8C%E6%8C%87%E5%8D%97-%E6%B0%91-%E5%AE%8C%E6%95%B4%E7%89%88-1030512",
+        "pageOrSection": "高雄港港口誌，約第38至42頁",
+        "supports": "高雄港錨地分區、危險品船專用錨地、燈標及港內航行資訊；屬2010年版，不可直接視為2003年原貌。"
+      },
+      {
+        "title": "高雄港船舶航行規定",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "supports": "現行VTS、航道、港內船舶安全規定，僅作現行作業原則參考。"
+      },
+      {
+        "title": "The Shiphandler's Guide for Masters and Navigating Officers, Pilots and Tug Masters",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "editionOrEffectiveDate": "2nd edition, 2000",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "強風靠泊、拖船協同、風壓及操船安全原理。"
+      }
+    ],
+    "assumptions": [
+      "以題目所述「進入第二港口防波堤內上領港」理解為替代引水人登輪作業。",
+      "現有可讀法規為民國93年8月19日修正版，晚於92年考試年度；答題不將其條文直接宣稱為2003年有效版本。"
+    ],
+    "limitations": [
+      "尚未取得2003年當時版本的高雄港船舶進出港管制基準及引水人登離輪作業細則。",
+      "未能確認當年例外條款是否適用所有船舶或僅適用免強制引水船，故明確保留版本查證。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部92年高雄港地方題原卷",
+          "result": "pass",
+          "note": "已依data/sources.json所列考選部官方原卷及題庫逐題核對題文。"
+        },
+        {
+          "item": "2003年港區助航設施、浮筒及歷史港圖",
+          "result": "partial",
+          "note": "未取得完整2003年航船布告、燈表、港區配置圖及繫船浮筒設施圖；不虛構燈質、位置、距離及歷史變更細節。"
+        },
+        {
+          "item": "航行規定及操船原理",
+          "result": "partial",
+          "note": "部分參考資料為2004年後法規版本或2010年航行指南，僅用於核對原理或近年沿革，未冒充2003年當時版本。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "092-kaohsiung-waterway-02-answer-v1",
+    "questionId": "92-kaohsiung-waterway-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、一港口導航標誌變遷的判讀方式】\n本題要求比較舊有導航標誌與新設標誌，並說明順榮船塢變遷及吃水9公尺以上船舶通過船塢外側的注意事項。作答時應以2003年以前的海圖、航船布告（Notice to Mariners）、燈表及港務局工程公告逐項比較，至少核對：\n1. 舊標誌是否移位、拆除、改建或改變燈質。\n2. 新標誌的名稱、經緯度、設置日期、結構、顏色、頂標及燈光特性。\n3. 船塢外緣、塢口、施工水域及附近水深是否改變。\n4. 變更是否已刊入海圖及航海通告，並確認資料基準及版本。\n\n目前可取得的1999／2010版高雄港航行指南及現行港務設施資料，能說明第一港口航標的基本架構與順榮船塢仍是航道附近的重要障礙物／地標，但未能取得2003年當時新增航標的原始航船布告及燈表。因此不在此臆造新標誌座標、燈色、週期或能見距。\n\n【二、新設導航標誌應如何完整描述】\n正式答案應依下表列出，並以2003年航船布告或燈表原文填入：\n\n| 查核項目 | 應記載內容 |\n|---|---|\n| 標誌名稱及編號 | 航標名稱、海圖編號、國際編號 |\n| 位置 | WGS84經緯度及相對岸標方位距離 |\n| 外觀 | 顏色、形狀、結構高度、頂標或雷達反射器 |\n| 燈質 | 顏色、閃光／定光、週期及明暗時間 |\n| 燈高 | 相對規定基準面的燈高 |\n| 能見距 | 公稱光程（浬），並注意非實際氣象能見度 |\n| 用途 | 標示航道邊界、障礙物、轉向點或警告區 |\n\n【三、順榮船塢外側的航行注意事項】\n1. **不得把船塢外緣當作可任意貼近的岸線**：船塢、塢口及其外側可能有突出結構、施工設施、局部淺點或不規則岸線，應依最新海圖與港方資料確認可航水域。\n2. **吃水9公尺以上船舶應特別核算UKC**：確認當時水深基準、潮位、船舶前後吃水、縱傾、橫傾、波浪及squat。不可只憑船塢外側「看起來很寬」決定通過。\n3. **控制速度及岸距**：船舶接近船塢時應保持安全速度，避免過快造成squat、岸壁吸引、船艉偏移或操縱反應延遲；也不可過度貼近船塢外緣，以免船體、球鼻艏或突出物與水下構造接觸。\n4. **避免與進出港船交會或追越**：依第一港口航道管制及VTS指示保持前船間距，避免在狹窄或受限水域交會、追越或突然轉向。\n5. **瞭望與定位**：使用雷達、ECDIS、目視方位及平行指標監控船塢外緣與船體外形，並安排船艏、船艉瞭望；航標燈故障或位置不符時立即通報VTS。\n6. **備妥應變**：若水深、航標、施工區或船舶交通與預期不符，應減速、停止接近或依VTS指示改道，不可沿用過期航標資料。\n\n【結論】\n本題重點是用海圖及航船布告確認航標變遷，逐項列出新標誌位置與燈質，再說明順榮船塢附近的淺水、障礙、岸壁效應、UKC及速度控制。2003年新設航標的確切位置與燈光資料仍待原始航船布告核對，不能以現行燈表回推。",
+    "practicalAnalysis": "本題20分，前半部應呈現「舊標—新標」對照表，後半部以吃水9m以上船舶的UKC、船塢外緣障礙、岸壁效應及VTS交通管理作答。現行港務資料可確認第一港口航標資訊會隨公告變動，但不能替代2003年航船布告；若考試指定的「新設航標」是某一具體工程標誌，仍需查當年公告才能準確填入位置與燈質。",
+    "keyPoints": [
+      {
+        "point": "以2003年海圖、航船布告及燈表比較舊標誌與新設標誌。",
+        "importance": "essential"
+      },
+      {
+        "point": "新標誌資料必須包含位置、外觀、燈質、燈高、公稱光程及設置目的。",
+        "importance": "essential"
+      },
+      {
+        "point": "順榮船塢外側可能有塢口、突出構造、施工及局部水深變化，應依最新圖資。",
+        "importance": "essential"
+      },
+      {
+        "point": "吃水9m以上船舶須核算UKC並考慮潮位、squat、縱傾及波浪。",
+        "importance": "supporting"
+      },
+      {
+        "point": "控制速度與岸距，避免岸壁吸引、船艉偏移及水下船艏觸碰。",
+        "importance": "supporting"
+      },
+      {
+        "point": "不以現行航標表回推2003年燈質及位置。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "92年甲種引水人（高雄港）當地水道港灣詳情官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國92年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=343&code=092250&q=1&s=1001&t=Q",
+        "pageOrSection": "第1至7題",
+        "supports": "題目原文及考試年度。"
+      },
+      {
+        "title": "高雄港船舶進出港管制基準（民國93年8月19日修正版本）",
+        "sourceType": "law_or_regulation",
+        "issuer": "交通部法規資訊網",
+        "editionOrEffectiveDate": "民國93年8月19日修正",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0110001&type=-1",
+        "supports": "颱風期間船舶進出港管制、船長自行進港之特定條件及一、二港口能見度門檻；版本晚於本題2003考試年度，僅作相近制度核對。"
+      },
+      {
+        "title": "九九臺灣航行指南（2010年第六版）—高雄港港口誌",
+        "sourceType": "official_publication_copy",
+        "issuer": "海軍大氣海洋局",
+        "editionOrEffectiveDate": "民國99年（2010）第六版",
+        "url": "https://www.scribd.com/document/612202080/%E4%B9%9D%E4%B9%9D%E8%87%BA%E7%81%A3%E8%88%AA%E8%A1%8C%E6%8C%87%E5%8D%97-%E6%B0%91-%E5%AE%8C%E6%95%B4%E7%89%88-1030512",
+        "pageOrSection": "高雄港港口誌，約第38至42頁",
+        "supports": "高雄港錨地分區、危險品船專用錨地、燈標及港內航行資訊；屬2010年版，不可直接視為2003年原貌。"
+      },
+      {
+        "title": "高雄港船舶航行規定",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "supports": "現行VTS、航道、港內船舶安全規定，僅作現行作業原則參考。"
+      },
+      {
+        "title": "The Shiphandler's Guide for Masters and Navigating Officers, Pilots and Tug Masters",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "editionOrEffectiveDate": "2nd edition, 2000",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "強風靠泊、拖船協同、風壓及操船安全原理。"
+      }
+    ],
+    "assumptions": [
+      "使用現行及2010年航行指南僅作為航標資訊欄位、港區地形與操船風險的參考，不視為2003年原貌。"
+    ],
+    "limitations": [
+      "缺2003年新增航標的航船布告、海圖改正、燈表及順榮船塢竣工／擴建圖。",
+      "新設航標的經緯度、燈色、週期、公稱光程及順榮塢外水深均不臆造。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部92年高雄港地方題原卷",
+          "result": "pass",
+          "note": "已依data/sources.json所列考選部官方原卷及題庫逐題核對題文。"
+        },
+        {
+          "item": "2003年港區助航設施、浮筒及歷史港圖",
+          "result": "partial",
+          "note": "未取得完整2003年航船布告、燈表、港區配置圖及繫船浮筒設施圖；不虛構燈質、位置、距離及歷史變更細節。"
+        },
+        {
+          "item": "航行規定及操船原理",
+          "result": "partial",
+          "note": "部分參考資料為2004年後法規版本或2010年航行指南，僅用於核對原理或近年沿革，未冒充2003年當時版本。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "092-kaohsiung-waterway-03-answer-v1",
+    "questionId": "92-kaohsiung-waterway-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、三線繫船浮筒的功能】\n三線繫船浮筒是以多個繫船浮筒沿特定方向配置，供船舶以艏、艉或多條繫纜分散繫泊負荷，提供港內臨時或指定用途的繫泊水域。浮筒間距與排列方向會影響船舶長度適配、繫纜角度、船舶回旋範圍及相鄰船舶間距。\n\n【二、浮筒編號及間距】\n題目要求列出三線浮筒的編號及各浮筒間長度，這屬於必須依2003年高雄港港區配置圖、浮筒清冊或港務局泊位表讀取的歷史設施資料。現有可取得的2010年航行指南與現行港務資料未能完整還原當年三線浮筒編號及每一浮筒的中心距離，因此不宜憑記憶填入數字。正式考試答案應將浮筒按三條線分組，依圖列出每個編號及相鄰浮筒中心間距，並註明距離是中心至中心或繫泊有效間距。\n\n建議整理表格如下：\n\n| 浮筒線別 | 浮筒編號 | 相鄰浮筒中心距 | 備註 |\n|---|---|---:|---|\n| 第一線 | 依2003年配置圖填列 | 依圖量測／官方表列 | 船艏或船艉繫泊用途 |\n| 第二線 | 依2003年配置圖填列 | 依圖量測／官方表列 | 船舶尺寸及吃水限制 |\n| 第三線 | 依2003年配置圖填列 | 依圖量測／官方表列 | 依港方指定用途 |\n\n【三、設置目的】\n1. 提供港內船舶等待船席、短期停泊、補給或其他核准作業的繫泊位置，減少船舶任意下錨及佔用航道。\n2. 以固定浮筒位置及繫纜方式，讓船舶在指定水域內保持相對穩定，便於港方管理船舶交通及船席調度。\n3. 依浮筒線別與船舶長度、吃水、風壓面積及用途安排適合船舶，避免船舶過長、過短或繫纜角度不當造成互相干擾。\n4. 分散繫泊力，降低單一繫纜點負荷；在風流作用下限制船舶漂移及旋轉，但不能取代船舶持續值班與安全監控。\n\n【四、繫泊時最重要的一點】\n最重要的是**依港方核准的浮筒配置及繫泊計畫，確實控制船舶相對浮筒的位置與繫纜受力，並確保錨、錨鏈與浮筒繫纜不互相干涉**。實際操作應注意：\n- 先確認浮筒編號、指定船位、船舶尺度及周邊船舶，禁止擅自改泊或跨線繫纜。\n- 依船長及引水人指示安排艏艉繫纜，保持適當纜繩角度及長度，避免纜繩過短造成潮位變化時受力突增。\n- 檢查浮筒、繫環、卸扣及纜繩額定負荷，並確認磨耗、腐蝕及浮筒狀態。\n- 風流改變時持續調整纜繩及值班，避免船舶旋轉、相鄰船舶碰撞或繫纜突然斷裂。\n- 除非港方核准及有安全必要，不得任意在浮筒區下錨；錨鏈可能纏繞浮筒繫纜或其他船舶錨鏈。\n\n【結論】\n本題應以2003年浮筒配置圖列出三線編號及中心間距，再說明浮筒的船席管理與安全繫泊目的。繫泊最重要的是按核准配置控制船位、繫纜受力及錨鏈干涉；未取得歷史配置圖前，不應臆造浮筒編號與距離。",
+    "practicalAnalysis": "本題15分，應將可核實的設施資料與通用繫泊原理分開。浮筒編號及間距是圖面題，不能以現行浮筒清冊代替2003年配置。就操船原理而言，答題重點是船位、繫纜角度與負荷、潮位變化、風流及錨鏈／浮筒繫纜互相干涉。",
+    "keyPoints": [
+      {
+        "point": "說明三線浮筒的指定繫泊、候泊及船席管理功能。",
+        "importance": "essential"
+      },
+      {
+        "point": "依2003年港區圖列出每條線的浮筒編號與相鄰中心間距。",
+        "importance": "essential"
+      },
+      {
+        "point": "距離需說明量測基準，不能把圖上比例估讀當成官方數值。",
+        "importance": "essential"
+      },
+      {
+        "point": "繫泊最重要的是按核准配置控制船位與繫纜受力。",
+        "importance": "supporting"
+      },
+      {
+        "point": "檢查浮筒及繫纜設備額定負荷，注意風流、潮位及磨耗。",
+        "importance": "supporting"
+      },
+      {
+        "point": "避免錨鏈與浮筒繫纜或他船錨鏈交纏。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "92年甲種引水人（高雄港）當地水道港灣詳情官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國92年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=343&code=092250&q=1&s=1001&t=Q",
+        "pageOrSection": "第1至7題",
+        "supports": "題目原文及考試年度。"
+      },
+      {
+        "title": "高雄港船舶進出港管制基準（民國93年8月19日修正版本）",
+        "sourceType": "law_or_regulation",
+        "issuer": "交通部法規資訊網",
+        "editionOrEffectiveDate": "民國93年8月19日修正",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0110001&type=-1",
+        "supports": "颱風期間船舶進出港管制、船長自行進港之特定條件及一、二港口能見度門檻；版本晚於本題2003考試年度，僅作相近制度核對。"
+      },
+      {
+        "title": "九九臺灣航行指南（2010年第六版）—高雄港港口誌",
+        "sourceType": "official_publication_copy",
+        "issuer": "海軍大氣海洋局",
+        "editionOrEffectiveDate": "民國99年（2010）第六版",
+        "url": "https://www.scribd.com/document/612202080/%E4%B9%9D%E4%B9%9D%E8%87%BA%E7%81%A3%E8%88%AA%E8%A1%8C%E6%8C%87%E5%8D%97-%E6%B0%91-%E5%AE%8C%E6%95%B4%E7%89%88-1030512",
+        "pageOrSection": "高雄港港口誌，約第38至42頁",
+        "supports": "高雄港錨地分區、危險品船專用錨地、燈標及港內航行資訊；屬2010年版，不可直接視為2003年原貌。"
+      },
+      {
+        "title": "高雄港船舶航行規定",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "supports": "現行VTS、航道、港內船舶安全規定，僅作現行作業原則參考。"
+      },
+      {
+        "title": "The Shiphandler's Guide for Masters and Navigating Officers, Pilots and Tug Masters",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "editionOrEffectiveDate": "2nd edition, 2000",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "強風靠泊、拖船協同、風壓及操船安全原理。"
+      }
+    ],
+    "assumptions": [
+      "三線浮筒理解為高雄港港內指定的三列繫泊浮筒設施。",
+      "浮筒編號及間距須以2003年官方港區圖／浮筒清冊為準。"
+    ],
+    "limitations": [
+      "未取得2003年三線繫船浮筒配置圖、浮筒編號清冊及各浮筒中心間距資料。",
+      "故不提供未查證的編號、數量及距離。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部92年高雄港地方題原卷",
+          "result": "pass",
+          "note": "已依data/sources.json所列考選部官方原卷及題庫逐題核對題文。"
+        },
+        {
+          "item": "2003年港區助航設施、浮筒及歷史港圖",
+          "result": "partial",
+          "note": "未取得完整2003年航船布告、燈表、港區配置圖及繫船浮筒設施圖；不虛構燈質、位置、距離及歷史變更細節。"
+        },
+        {
+          "item": "航行規定及操船原理",
+          "result": "partial",
+          "note": "部分參考資料為2004年後法規版本或2010年航行指南，僅用於核對原理或近年沿革，未冒充2003年當時版本。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "092-kaohsiung-waterway-04-answer-v1",
+    "questionId": "92-kaohsiung-waterway-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、船舶及環境條件】\n本船為5,000 GT空船，夏季西南風強勁，由一港口進港，僅配置一艘拖船，目的地為蓬萊區碼頭。空船吃水較小，但乾舷及上層受風面積通常較大，強西南風會造成顯著風壓與偏移；實際風壓方向相對碼頭岸線仍須依碼頭方位判斷。\n\n【二、進港前準備】\n1. 與船長交換船舶尺度、吃水、乾舷、受風面積、主機／舵機／側推器、螺槳旋向、倒俥反應及停船距離。\n2. 確認一港口航道、信號、VTS交通次序、前船距離、蓬萊區泊位及鄰船動態；確認潮位、風向風速、陣風、流向、浪況與港口開放狀態。\n3. 與拖船船長協調拖點、拖纜、拖船實際bollard pull、通訊頻道、作業口令及緊急解拖方式。拖船馬力或船舶總噸位均不能直接等同拖力。\n4. 評估空船高乾舷在西南風下的風壓中心及漂移趨勢，預先選擇可控的進港速度及靠泊接近角；若單艘拖船能力不足，應要求增派拖船或等待風勢減弱。\n\n【三、操船程序】\n（一）通過一港口\n- 依VTS許可及信號進港，保持前船間距，勿在防波堤口或狹窄水域追越、交會。\n- 強風下保持足夠舵效但不以過高速度進港；提早修正風壓造成的偏航與橫移，並監控船艏、船艉相對防波堤及航道邊界的位置。\n- 接近港內較受遮蔽水域時，重新評估風力及流向，不能假設進入防波堤後風壓立即消失。\n（二）拖船協助\n- 拖船應配置於能控制主要風壓造成的漂移及艏艉偏轉的位置。若風使船舶向碼頭外漂，拖船須有能力將船舶帶向泊位並控制船艏；若風將船推向碼頭，則須保留制動及拉離能力。\n- 一艘拖船的配置應優先確保最難控制的端部；依船艏向、螺槳效應、風向及碼頭軸線，決定艏拖或艉拖及推／拉方向。沒有港圖與船舶資料時，不宜指定固定拖點及俥舵順序。\n- 拖船以漸進力量工作，避免突然加力導致船舶急轉或拖纜過載；注意拖船不得進入船艏盲區或被船體擠壓。\n（三）蓬萊區靠泊\n- 先控制船舶縱向速度，再建立適當靠泊角，逐步降低橫向速度，以平行、低速方式接近碼頭。\n- 空船風壓大，應避免船舶在碼頭前失去控制或過早橫向漂移；必要時利用拖船抵抗風壓，主機及舵維持最低有效舵效。\n- 先建立控制纜，再依序帶妥艏艉纜及倒纜，避免用纜繩強拉船體撞靠碼頭；確認鄰船、碼頭設施、護舷及舷梯安全。\n\n【四、最重要的一點】\n本題最重要的是**空船在強西南風下的風壓控制，以及單艘拖船是否能在關鍵時刻抵消橫向漂移並控制船艏／船艉**。不可只重視船舶進港航向而忽略接近碼頭時的橫向速度；若風力已超出一艘拖船與本船操縱能力，應延後靠泊、等待或申請增派拖船。\n\n【結論】\n以VTS許可、安全速度進港，評估西南風相對碼頭的靠岸／離岸分量，讓單艘拖船集中控制主要風壓端，並以低速平行方式靠泊。",
+    "practicalAnalysis": "本題15分，最重要的是空船受風面積大，強西南風會造成顯著橫移及艏艉偏轉，而只有一艘拖船，故須先評估風向與碼頭軸線，再決定拖船最有效的作用位置。靠泊前若拖力不足，不應以高速或大舵角彌補。",
+    "keyPoints": [
+      {
+        "point": "空船吃水較淺但乾舷及受風面積較大，風壓影響明顯。",
+        "importance": "essential"
+      },
+      {
+        "point": "西南風為風來向，須依蓬萊碼頭岸線方位判斷靠岸風或離岸風。",
+        "importance": "essential"
+      },
+      {
+        "point": "進港須依VTS許可、航道間距及安全速度行駛。",
+        "importance": "essential"
+      },
+      {
+        "point": "單艘拖船集中控制主要風壓端，拖力以bollard pull評估。",
+        "importance": "supporting"
+      },
+      {
+        "point": "靠泊時控制縱向速度與橫向速度，以低速平行方式靠泊。",
+        "importance": "supporting"
+      },
+      {
+        "point": "拖船能力不足時延後作業或增派拖船，不可勉強靠泊。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "92年甲種引水人（高雄港）當地水道港灣詳情官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國92年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=343&code=092250&q=1&s=1001&t=Q",
+        "pageOrSection": "第1至7題",
+        "supports": "題目原文及考試年度。"
+      },
+      {
+        "title": "高雄港船舶進出港管制基準（民國93年8月19日修正版本）",
+        "sourceType": "law_or_regulation",
+        "issuer": "交通部法規資訊網",
+        "editionOrEffectiveDate": "民國93年8月19日修正",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0110001&type=-1",
+        "supports": "颱風期間船舶進出港管制、船長自行進港之特定條件及一、二港口能見度門檻；版本晚於本題2003考試年度，僅作相近制度核對。"
+      },
+      {
+        "title": "九九臺灣航行指南（2010年第六版）—高雄港港口誌",
+        "sourceType": "official_publication_copy",
+        "issuer": "海軍大氣海洋局",
+        "editionOrEffectiveDate": "民國99年（2010）第六版",
+        "url": "https://www.scribd.com/document/612202080/%E4%B9%9D%E4%B9%9D%E8%87%BA%E7%81%A3%E8%88%AA%E8%A1%8C%E6%8C%87%E5%8D%97-%E6%B0%91-%E5%AE%8C%E6%95%B4%E7%89%88-1030512",
+        "pageOrSection": "高雄港港口誌，約第38至42頁",
+        "supports": "高雄港錨地分區、危險品船專用錨地、燈標及港內航行資訊；屬2010年版，不可直接視為2003年原貌。"
+      },
+      {
+        "title": "高雄港船舶航行規定",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "supports": "現行VTS、航道、港內船舶安全規定，僅作現行作業原則參考。"
+      },
+      {
+        "title": "The Shiphandler's Guide for Masters and Navigating Officers, Pilots and Tug Masters",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "editionOrEffectiveDate": "2nd edition, 2000",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "強風靠泊、拖船協同、風壓及操船安全原理。"
+      }
+    ],
+    "assumptions": [
+      "未提供船舶長寬、乾舷、風壓面積、碼頭軸向、拖船bollard pull及當時風速數值。",
+      "操船方案依實際風向與碼頭方向調整。"
+    ],
+    "limitations": [
+      "未取得2003年蓬萊區碼頭配置圖及當時強西南風操船紀錄，故不指定固定拖船位置、車舵時序及靠泊航向。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部92年高雄港地方題原卷",
+          "result": "pass",
+          "note": "已依data/sources.json所列考選部官方原卷及題庫逐題核對題文。"
+        },
+        {
+          "item": "2003年港區助航設施、浮筒及歷史港圖",
+          "result": "partial",
+          "note": "未取得完整2003年航船布告、燈表、港區配置圖及繫船浮筒設施圖；不虛構燈質、位置、距離及歷史變更細節。"
+        },
+        {
+          "item": "航行規定及操船原理",
+          "result": "partial",
+          "note": "部分參考資料為2004年後法規版本或2010年航行指南，僅用於核對原理或近年沿革，未冒充2003年當時版本。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "092-kaohsiung-waterway-05-answer-v1",
+    "questionId": "92-kaohsiung-waterway-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、題目所問燈浮資料的組成】\n第二港口港內2、4、6號燈浮，應分別說明其概略位置、燈光特性、公稱能見距及設置目的。燈浮資料必須依2003年燈表、海圖及航船布告核對，尤其要確認燈色、週期、明暗時間、公稱光程及位置是否曾移設。\n\n目前可取得的2010年《臺灣沿海航行指南》列有第二港口1至6號燈杆資料，其中第2、3號為紅／綠定光或其他燈杆資料，第4至6號為港內燈杆；但該資料是固定燈杆，不能直接等同題目所稱2、4、6號「燈浮」。現行官方導航設施表及後續航船布告亦有多次變更，因此不得把現行燈質回填為2003年燈浮資料。\n\n【二、應如何定位及描述】\n| 燈浮 | 概略位置應以何資料確認 | 必須核對的燈光資料 |\n|---|---|---|\n| 2號燈浮 | 2003年高雄港第二港口港內海圖／燈表 | 燈色、燈質、週期、明暗時間、公稱光程 |\n| 4號燈浮 | 同上，並確認相對航道邊界及碼頭位置 | 同上 |\n| 6號燈浮 | 同上，並確認與港池／航道轉向位置關係 | 同上 |\n\n【三、燈浮設置目的】\n1. 標示港內航道邊界、可航水域或轉向位置，使船舶能在港池及航道內辨識安全通道。\n2. 提醒船舶避開淺灘、岸壁、突出構造、施工水域或其他危險區域。\n3. 在夜間及能見度不佳時提供目視定位參考，配合雷達、海圖及VTS指示維持船位。\n4. 以燈色、燈質及編號協助船舶辨識不同航標，不應只憑閃光頻率判斷左右側，仍須配合當地浮標制度及海圖圖例。\n\n【四、能見距的判讀】\n題目所稱能見距應以燈表的公稱光程（nominal range）為準，並非船舶當時氣象能見度，也不是任何天候下都能看到的固定距離。實際可見距還受燈光強度、燈高、觀測者眼高、氣象透明度及背景燈光影響；霧、雨及港區背景燈光可能使實際可見距顯著降低。\n\n【結論】\n本題應逐一列出2、4、6號燈浮的位置、燈色燈質、週期及公稱光程，並說明標示航道與警示危險的功能。由於目前未取得2003年第二港口2、4、6號燈浮原始燈表與航船布告，這三項歷史數值暫列待查，不能以現行燈杆資料冒充。",
+    "practicalAnalysis": "本題10分，應以表格逐項作答。位置與燈質是歷史助航設施資料，不能從現行設施表或同號燈杆推測；尤其「燈浮」與「燈杆」是不同助航設施。公稱光程也不可與氣象能見度混淆。",
+    "keyPoints": [
+      {
+        "point": "分別列出2、4、6號燈浮位置、燈色燈質、週期及公稱光程。",
+        "importance": "essential"
+      },
+      {
+        "point": "確認燈浮與燈杆不同，不可混用現行設施資料。",
+        "importance": "essential"
+      },
+      {
+        "point": "燈浮用於標示航道邊界、可航水域、危險區或轉向位置。",
+        "importance": "essential"
+      },
+      {
+        "point": "公稱光程不是氣象能見度，實際可見距受霧雨及背景燈光影響。",
+        "importance": "supporting"
+      },
+      {
+        "point": "資料應以2003年燈表、海圖及航船布告核對。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "92年甲種引水人（高雄港）當地水道港灣詳情官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國92年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=343&code=092250&q=1&s=1001&t=Q",
+        "pageOrSection": "第1至7題",
+        "supports": "題目原文及考試年度。"
+      },
+      {
+        "title": "高雄港船舶進出港管制基準（民國93年8月19日修正版本）",
+        "sourceType": "law_or_regulation",
+        "issuer": "交通部法規資訊網",
+        "editionOrEffectiveDate": "民國93年8月19日修正",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0110001&type=-1",
+        "supports": "颱風期間船舶進出港管制、船長自行進港之特定條件及一、二港口能見度門檻；版本晚於本題2003考試年度，僅作相近制度核對。"
+      },
+      {
+        "title": "九九臺灣航行指南（2010年第六版）—高雄港港口誌",
+        "sourceType": "official_publication_copy",
+        "issuer": "海軍大氣海洋局",
+        "editionOrEffectiveDate": "民國99年（2010）第六版",
+        "url": "https://www.scribd.com/document/612202080/%E4%B9%9D%E4%B9%9D%E8%87%BA%E7%81%A3%E8%88%AA%E8%A1%8C%E6%8C%87%E5%8D%97-%E6%B0%91-%E5%AE%8C%E6%95%B4%E7%89%88-1030512",
+        "pageOrSection": "高雄港港口誌，約第38至42頁",
+        "supports": "高雄港錨地分區、危險品船專用錨地、燈標及港內航行資訊；屬2010年版，不可直接視為2003年原貌。"
+      },
+      {
+        "title": "高雄港船舶航行規定",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "supports": "現行VTS、航道、港內船舶安全規定，僅作現行作業原則參考。"
+      },
+      {
+        "title": "The Shiphandler's Guide for Masters and Navigating Officers, Pilots and Tug Masters",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "editionOrEffectiveDate": "2nd edition, 2000",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "強風靠泊、拖船協同、風壓及操船安全原理。"
+      }
+    ],
+    "assumptions": [
+      "題目中的2、4、6號指第二港口港內燈浮，不將同編號燈杆視為同一設施。"
+    ],
+    "limitations": [
+      "未取得2003年第二港口2、4、6號燈浮燈表、座標及航船布告，故不虛構其位置、燈色、週期與公稱光程。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部92年高雄港地方題原卷",
+          "result": "pass",
+          "note": "已依data/sources.json所列考選部官方原卷及題庫逐題核對題文。"
+        },
+        {
+          "item": "2003年港區助航設施、浮筒及歷史港圖",
+          "result": "partial",
+          "note": "未取得完整2003年航船布告、燈表、港區配置圖及繫船浮筒設施圖；不虛構燈質、位置、距離及歷史變更細節。"
+        },
+        {
+          "item": "航行規定及操船原理",
+          "result": "partial",
+          "note": "部分參考資料為2004年後法規版本或2010年航行指南，僅用於核對原理或近年沿革，未冒充2003年當時版本。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "092-kaohsiung-waterway-06-answer-v1",
+    "questionId": "92-kaohsiung-waterway-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、高雄港外海錨地數量及配置】\n依2010年《臺灣沿海航行指南》所載高雄港泊地資料，外海錨泊水域分為一般錨地4處，另設危險品船專用錨地1處，合計5個錨地區域。一般錨地依所服務港口、船舶大小及用途分區：\n\n| 錨地 | 大致位置與用途（依2010年航行指南） | 水深及底質概況 |\n|---|---|---|\n| 第一錨地 | 第一港口北防波堤燈杆向西北延伸約7,300碼；供進出第一港口之中小型船舶，亦作危險品船備用錨區 | 約7–26m，泥沙 |\n| 第二錨地 | 第一港口南防波堤燈杆向西南延伸約6,400碼；供進出第一港口大型船舶，危險品船除外 | 約11–50m，泥沙 |\n| 第三錨地 | 第二港口北防波堤燈杆向西北西延伸約9,500碼；供進出第二港口中小型船舶，危險品船除外 | 約11–50m，泥沙 |\n| 第四錨地 | 第二港口南防波堤燈杆向西南延伸約6,600碼；供進出第二港口大型散裝及貨櫃船，亦作危險品船備用錨區 | 約10–50m，泥沙 |\n| 危險品船專用錨地 | 位於第二及第三錨區之間的指定水域，專供危險品船錨泊 | 約11–50m，泥沙 |\n\n注意：以上是2010年版本資料，僅可作錨地配置背景參考；2003年錨區界線、範圍及用途應以當年海圖和港務公告核對。\n\n【二、危險品船錨地位置與管理目的】\n危險品船專用錨地位於第一港口與第二港口相關錨區之間的指定海域，並非一般船舶可任意進入的錨區。其目的在於將裝載危險貨物的船舶與一般錨泊船舶分隔，降低碰撞、火災、爆炸、毒性物質洩漏及污染事故擴大的風險；同時讓VTS及港務單位集中管理危險品船舶的進港次序與航路。\n\n【三、兩萬總噸、由第一港口進港的危險品船應如何等候】\n應依港務機關／VTS對危險品船的指定錨位與進港管制指示辦理，不得自行選擇一般大型船錨地或直接進入航道。就航行指南所載分區原則，第一錨地是第一港口中小型船舶主要錨區，並兼作危險品船備用錨區；第二錨地則供第一港口大型船舶使用，但排除危險品船。因此，2萬GT危險品船不應因噸位較大就直接選擇第二錨地；應由VTS依危險品專用錨區、第一錨地備用配置、當時船位及進港路線指定安全等候位置。\n\n【四、選擇錨位的考量】\n1. 船舶是否裝載危險品、危險品種類、聯合國編號、閃火點／毒性及應急隔離要求。\n2. 船舶總噸位、長度、吃水、迴旋半徑、錨鏈長度及錨泊能力。\n3. 錨地水深、底質、風流、浪況、拖錨風險及周邊船舶密度。\n4. 與港口入口、航道、其他錨船、沿岸設施及人口密集區的安全距離。\n5. VTS管制、港口開放情況、危險品船進港次序及是否需拖船／護航。\n\n【結論】\n高雄港外海一般錨地4處，加危險品船專用錨地1處，合計5處。危險品船應在指定專用或備用錨區等候；第一港口進港的2萬GT危險品船不能只按噸位選第二錨地，應遵循VTS指定及危險品船隔離原則。",
+    "practicalAnalysis": "本題10分，先答「一般錨地四處＋危險品專用錨地一處」，再說明危險品船錨地在第二、第三錨區之間的指定水域。2010年航行指南明載第一錨地供第一港口中小型船舶且兼作危險品船備用錨區、第二錨地供第一港口大型船但排除危險品船；因此不能將2萬GT危險品船只按噸位送入第二錨地。具體等候錨位仍須由VTS依當時錨區圖及危險品貨種指定。",
+    "keyPoints": [
+      {
+        "point": "外海錨地共一般錨地4處及危險品船專用錨地1處。",
+        "importance": "essential"
+      },
+      {
+        "point": "危險品船專用錨地位於第二及第三錨區間的指定水域。",
+        "importance": "essential"
+      },
+      {
+        "point": "第一錨地可作第一港口中小型船錨地及危險品船備用錨區；第二錨地供第一港口大型船但排除危險品船。",
+        "importance": "essential"
+      },
+      {
+        "point": "2萬GT危險品船不可只按噸位選擇一般大型船錨區，應依VTS指定。",
+        "importance": "supporting"
+      },
+      {
+        "point": "危險品船錨位需考慮貨種、隔離距離、吃水、錨地水深、風流及進港航路。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "92年甲種引水人（高雄港）當地水道港灣詳情官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國92年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=343&code=092250&q=1&s=1001&t=Q",
+        "pageOrSection": "第1至7題",
+        "supports": "題目原文及考試年度。"
+      },
+      {
+        "title": "高雄港船舶進出港管制基準（民國93年8月19日修正版本）",
+        "sourceType": "law_or_regulation",
+        "issuer": "交通部法規資訊網",
+        "editionOrEffectiveDate": "民國93年8月19日修正",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0110001&type=-1",
+        "supports": "颱風期間船舶進出港管制、船長自行進港之特定條件及一、二港口能見度門檻；版本晚於本題2003考試年度，僅作相近制度核對。"
+      },
+      {
+        "title": "九九臺灣航行指南（2010年第六版）—高雄港港口誌",
+        "sourceType": "official_publication_copy",
+        "issuer": "海軍大氣海洋局",
+        "editionOrEffectiveDate": "民國99年（2010）第六版",
+        "url": "https://www.scribd.com/document/612202080/%E4%B9%9D%E4%B9%9D%E8%87%BA%E7%81%A3%E8%88%AA%E8%A1%8C%E6%8C%87%E5%8D%97-%E6%B0%91-%E5%AE%8C%E6%95%B4%E7%89%88-1030512",
+        "pageOrSection": "高雄港港口誌，約第38至42頁",
+        "supports": "高雄港錨地分區、危險品船專用錨地、燈標及港內航行資訊；屬2010年版，不可直接視為2003年原貌。"
+      },
+      {
+        "title": "高雄港船舶航行規定",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "supports": "現行VTS、航道、港內船舶安全規定，僅作現行作業原則參考。"
+      },
+      {
+        "title": "The Shiphandler's Guide for Masters and Navigating Officers, Pilots and Tug Masters",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "editionOrEffectiveDate": "2nd edition, 2000",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "強風靠泊、拖船協同、風壓及操船安全原理。"
+      }
+    ],
+    "assumptions": [
+      "錨地配置及水深引用2010年《臺灣沿海航行指南》第六版資料，非2003年原始版本。",
+      "題目中的「一港口進港」以第一港口方向進港的危險品船理解；實際錨位以當時VTS及港務指定為準。"
+    ],
+    "limitations": [
+      "尚未取得2003年錨地配置圖及當年危險品船專用錨區管理規定，故不將2010年界線、座標及用途宣稱為2003年原貌。",
+      "一港口進港2萬GT危險品船的精確待泊錨位仍需當年官方指泊規則核對。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部92年高雄港地方題原卷",
+          "result": "pass",
+          "note": "已依data/sources.json所列考選部官方原卷及題庫逐題核對題文。"
+        },
+        {
+          "item": "2003年港區助航設施、浮筒及歷史港圖",
+          "result": "partial",
+          "note": "未取得完整2003年航船布告、燈表、港區配置圖及繫船浮筒設施圖；不虛構燈質、位置、距離及歷史變更細節。"
+        },
+        {
+          "item": "航行規定及操船原理",
+          "result": "partial",
+          "note": "部分參考資料為2004年後法規版本或2010年航行指南，僅用於核對原理或近年沿革，未冒充2003年當時版本。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "092-kaohsiung-waterway-07-answer-v1",
+    "questionId": "92-kaohsiung-waterway-07",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、管制基準】\n依高雄港船舶進出港管制基準的能見度規定，當能見度低於下列門檻時，得暫停船舶進出港：\n\n| 港口 | 能見度管制門檻 | 判斷基準位置 |\n|---|---:|---|\n| 第一港口 | 小於1,000公尺 | 第一信號台至第一港口防波堤口一帶 |\n| 第二港口 | 小於1海浬 | VTS塔台至第二港口防波堤口一帶 |\n\n【二、適用期間與注意事項】\n題目明確問平時及颱風期間，因此能見度門檻均應列入港口進出管制判斷。當實際能見度低於門檻時，主管機關／VTS得依規定暫停該港口船舶進出；這是「得暫停」的管制權限，不是船長可自行認定港口必然關閉，也不表示達到門檻以上就必然可以安全通行。\n\n【三、實務補充】\n1. 能見度需依港口指定觀測位置及官方量測／通報資料判斷，不能以船上單一觀察者主觀估計取代。\n2. 即使能見度未低於門檻，若風力、湧浪、流速、航道施工、交通密度或船舶操縱能力不適合，仍可依其他管制基準暫停進出港。\n3. 能見度降低時，船長及引水人應加強雷達瞭望、VHF守聽、適當安全速度、主機備便及音響信號，並遵守COLREG Rule 19及港口VTS指示。\n4. 若港口已暫停進出，船舶應在指定安全水域等待，不得擅自進入防波堤、航道或迴船池。\n\n【結論】\n第一港口低於1,000公尺、第二港口低於1海浬時，平時及颱風期間均得依管制基準暫停船舶進出港。",
+    "practicalAnalysis": "本題10分，數字必須清楚寫出：第一港口1,000公尺、第二港口1浬；並指出平時及颱風期間均適用。交通部法規資訊網可查得民國93年8月19日修正的高雄港管制基準載有相同門檻，但該版本晚於92年考試年度，正式歷史答案仍應以2003年當時公告版本核對。",
+    "keyPoints": [
+      {
+        "point": "第一港口能見度低於1,000公尺得暫停進出港。",
+        "importance": "essential"
+      },
+      {
+        "point": "第二港口能見度低於1海浬得暫停進出港。",
+        "importance": "essential"
+      },
+      {
+        "point": "平時及颱風期間均適用此能見度管制。",
+        "importance": "essential"
+      },
+      {
+        "point": "「得暫停」是主管機關管制權限，不代表門檻以上必然安全或自動開放。",
+        "importance": "supporting"
+      },
+      {
+        "point": "仍須同時考慮風、浪、流、交通及船舶操縱能力。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "92年甲種引水人（高雄港）當地水道港灣詳情官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國92年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=343&code=092250&q=1&s=1001&t=Q",
+        "pageOrSection": "第1至7題",
+        "supports": "題目原文及考試年度。"
+      },
+      {
+        "title": "高雄港船舶進出港管制基準（民國93年8月19日修正版本）",
+        "sourceType": "law_or_regulation",
+        "issuer": "交通部法規資訊網",
+        "editionOrEffectiveDate": "民國93年8月19日修正",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0110001&type=-1",
+        "supports": "颱風期間船舶進出港管制、船長自行進港之特定條件及一、二港口能見度門檻；版本晚於本題2003考試年度，僅作相近制度核對。"
+      },
+      {
+        "title": "九九臺灣航行指南（2010年第六版）—高雄港港口誌",
+        "sourceType": "official_publication_copy",
+        "issuer": "海軍大氣海洋局",
+        "editionOrEffectiveDate": "民國99年（2010）第六版",
+        "url": "https://www.scribd.com/document/612202080/%E4%B9%9D%E4%B9%9D%E8%87%BA%E7%81%A3%E8%88%AA%E8%A1%8C%E6%8C%87%E5%8D%97-%E6%B0%91-%E5%AE%8C%E6%95%B4%E7%89%88-1030512",
+        "pageOrSection": "高雄港港口誌，約第38至42頁",
+        "supports": "高雄港錨地分區、危險品船專用錨地、燈標及港內航行資訊；屬2010年版，不可直接視為2003年原貌。"
+      },
+      {
+        "title": "高雄港船舶航行規定",
+        "sourceType": "official_port_or_authority",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "supports": "現行VTS、航道、港內船舶安全規定，僅作現行作業原則參考。"
+      },
+      {
+        "title": "The Shiphandler's Guide for Masters and Navigating Officers, Pilots and Tug Masters",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "editionOrEffectiveDate": "2nd edition, 2000",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "強風靠泊、拖船協同、風壓及操船安全原理。"
+      }
+    ],
+    "assumptions": [
+      "依可取得的民國93年8月19日修正版管制基準核對門檻。"
+    ],
+    "limitations": [
+      "該可取得版本晚於民國92年考試年度；尚未取得2003年原始有效版本，需核對條文沿革是否有前版差異。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部92年高雄港地方題原卷",
+          "result": "pass",
+          "note": "已依data/sources.json所列考選部官方原卷及題庫逐題核對題文。"
+        },
+        {
+          "item": "2003年港區助航設施、浮筒及歷史港圖",
+          "result": "partial",
+          "note": "未取得完整2003年航船布告、燈表、港區配置圖及繫船浮筒設施圖；不虛構燈質、位置、距離及歷史變更細節。"
+        },
+        {
+          "item": "航行規定及操船原理",
+          "result": "partial",
+          "note": "部分參考資料為2004年後法規版本或2010年航行指南，僅用於核對原理或近年沿革，未冒充2003年當時版本。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
