@@ -309,6 +309,46 @@
         "title": "高雄港船舶航行規則",
         "issuer": "臺灣港務公司",
         "url": "https://kh.twport.com.tw/en/service/Articles?a=1053"
+      },
+      {
+        "title": "引水法（現行條文）",
+        "sourceType": "law_or_regulation",
+        "issuer": "法務部全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+        "supports": "強制引水及引水法第16條等規定。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "高雄港國內航線或港區工程用之中華民國船舶不適用強制引水辦法",
+        "sourceType": "local_regulation",
+        "issuer": "交通部",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/RelateLawContent?LawID=H0028005&LawType=1&RefLawID=H0081005",
+        "supports": "高雄港地方規定中油輪、化學品船及未滿3,000GT雙殼加油船例外條件。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "高雄港港埠營運設施總表",
+        "sourceType": "official_port_data",
+        "issuer": "臺灣港務公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/port/Articles?a=919",
+        "supports": "27號及60號碼頭現行長度、使用水深及改建註記。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "高雄港船舶航行規定（現行版）",
+        "sourceType": "official_port_regulation",
+        "issuer": "臺灣港務公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "supports": "VTS移泊交通管制及港內航行安全。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960(23).pdf",
+        "supports": "MPX、船舶操縱資料及拖船協調。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
