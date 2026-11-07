@@ -5,8 +5,8 @@
     "version": 1,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "船舶航行時產生艉座（Squat），主要是因船舶在水中前進時，必須將船體周圍的水向前、向側方及船底下排開。當船舶進入淺水或狹窄航道，船底與水道底部間的流通截面縮小，水流為通過船體而加速，船底附近壓力下降，船體因而下沉；同時船首、船艉的壓力分布不同，可能產生艏傾或艉傾的縱傾變化。此一船體下沉及縱傾變化即為艉座現象。\n\n**影響艉座量的因素**：\n1. 船速：最重要因素之一。其他條件相近時，艉座量大致隨船速平方增加，即速度提高一倍，艉座可能增加至約四倍的量級；此為概略關係，不是任何水域均適用的精確公式。\n2. 水深與吃水比（h/T）：水深愈淺、吃水愈大，淺水效應愈明顯。\n3. 航道寬度及阻塞比：狹窄航道、運河或兩側受限水域會使水流加速及壓力變化加劇。\n4. 船型與方形係數：船體肥瘦、船寬、吃水、船底形狀及方形係數均影響艉座大小及艏艉分布。\n5. 會船、追越與岸壁效應：兩船交會或靠近岸壁時，交互作用可能增加瞬間下沉或縱傾變化。\n\n**與操船船速的關係**：船速愈高，艉座通常愈大，UKC（龍骨下富餘水深）隨之減少；因此進入淺水、港池、航道轉折處或水深變化區前，應預先降低至符合舵效與安全要求的速度，並將艉座、潮高、波浪造成的升沉／縱搖、測深誤差及安全餘裕納入UKC計算。不得為追求舵效而在淺水區維持過高速度。\n\n**結論**：艉座不是單純「船速快就船尾下沉」的固定現象，而是船舶運動造成的整體下沉與縱傾變化；其量與船速高度相關，並受水深、航道寬度及船型共同影響。",
-    "practicalAnalysis": "題目10分，應先解釋水流加速與壓力降低，再清楚回答速度關係。考試可寫「約與V²成正比」作概念說明，但應加註只是在其他條件相近時的近似關係。實際艉座估算須採用適合航道類型及船型的經驗式或計算模型，不能把開放淺水公式直接套用狹窄運河。",
+    "modelAnswer": "船舶航行時產生艉座（Squat），是船舶前進造成船體周圍水流重新分布，尤其在淺水或受限水道中，船底與河床／海床間的流通截面縮小，水流被迫加速，船底附近靜壓降低，形成向下的水動力作用，使船體相對靜水面下沉（sinkage），並產生縱向力矩而改變吃水分布（trim）。因此Squat的完整定義是船舶前進時產生的動態下沉及縱傾變化，會使船艏或船艉的最大吃水增加、UKC減少；最大艉座量不一定出現在船艉，須依船型、初始縱傾及航道條件判斷。\n\n**影響艉座量的因素**：\n1. 對水船速（speed through water）：最重要因素之一。其他條件相近時，艉座量大致與對水速度平方成正比；速度提高一倍，艉座量可能增至約四倍。這是常用近似關係，並非任何船型、航道及速度範圍均適用的精確定律；接近淺水臨界速度或高度受限水道時，變化可能更非線性。\n2. 水深與吃水比（h/T）：水深愈淺、吃水愈大，船底下流通空間愈小，艉座通常愈明顯。\n3. 航道寬度及阻塞比（blockage factor）：航道愈窄、船舶水下橫剖面積相對航道截面積愈大，水流加速及壓力變化通常愈明顯。\n4. 船型與方形係數：船體肥瘦、船寬、吃水、船底形狀及方形係數均影響艉座大小及艏艉分布。\n5. 船舶交互作用及岸壁效應：會船、追越、靠近岸壁及航道轉彎，均可能改變船體周圍流場；岸壁吸引／岸壁墊水是與Squat不同但可能同時發生的水動力交互作用，會額外影響船舶偏航及操縱。\n\n**與操船船速的關係**：在其他條件相同時，對水速度愈高，艉座通常愈大，UKC（龍骨下富餘水深）隨之減少；減速可顯著降低艉座，但實際減幅仍受船型及航道條件影響。進入淺水、港池、狹窄航道或水深變化區前，應依船舶Squat table、船舶操縱手冊及港方資料預估艉座，並將潮高、波浪造成的升沉／縱搖、船舶縱傾、測深誤差及安全餘裕納入UKC計算。不可為追求舵效而在淺水區維持過高速度。\n\n**結論**：艉座不是單純「船速快就船尾下沉」的固定現象，而是船舶運動造成的整體下沉與縱傾變化；其量與船速高度相關，並受水深、航道寬度及船型共同影響。\n\n**補充：Squat與其他水動力效應的區別**\nSquat是船舶前進所引起的動態下沉及縱傾；Bank suction／bank cushion是船舶靠近岸壁時，船岸間隙水流及壓力分布改變所造成的橫向力與偏航力矩。兩者在狹窄、淺水航道可能同時發生並互相加劇，但不應把岸壁吸引直接當作Squat本身。",
+    "practicalAnalysis": "題目10分，應先解釋水流加速與壓力降低，再清楚回答速度關係。考試可寫「約與V²成正比」作概念說明，但應加註只是在其他條件相近時的近似關係。實際艉座估算須採用適合航道類型及船型的經驗式或計算模型，不能把開放淺水公式直接套用狹窄運河。\n\n本輪複核的關鍵修正：Squat定義為船舶前進造成的動態下沉（sinkage）及縱傾（trim），最大值可能出現在艏或艉，不應把「艉座」字面理解為必然只有船艉下沉。速度平方關係應明確指對水速度（STW），並註明其他條件相近時的近似關係；船型、h/T、阻塞比、航道寬度、岸壁及臨界淺水速度均影響結果。Bank suction／bank cushion與Squat為不同但可同時發生的水動力效應。",
     "keyPoints": [
       {
         "point": "艉座由船體前進使船底及船旁水流加速、壓力下降而產生。",
@@ -55,7 +55,29 @@
         "accessedAt": "2026-11-07",
         "supports": "作答之專業依據；應配合船舶實際操縱資料及當地規定使用。"
       },
-      "方信雄，《航行避碰與操船》；《The Shiphandler's Guide》（Nautical Institute，pivot point及shallow-water handling相關章節；未引用未核實頁碼）。"
+      "方信雄，《航行避碰與操船》；《The Shiphandler's Guide》（Nautical Institute，pivot point及shallow-water handling相關章節；未引用未核實頁碼）。",
+      {
+        "title": "MGN 199 (M) Amendment 1 — Danger of interaction",
+        "sourceType": "official_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
+        "supports": "Squat定義為動態下沉及／或縱傾，導致UKC減少及表觀吃水增加；淺水、狹窄水道及船岸交互作用之風險。"
+      },
+      {
+        "title": "Marine Investigation Report M99C0005 — Squat and Bank Suction Effects",
+        "sourceType": "official_marine_investigation",
+        "issuer": "Transportation Safety Board of Canada",
+        "url": "https://tsb.gc.ca/eng/rapports-reports/marine/1999/m99c0005/m99c0005.html",
+        "supports": "船底流速增加、壓力下降、船體下沉；艉座受對水速度、水深吃水比及船舶／航道截面比影響，近似隨速度平方增加。"
+      },
+      {
+        "title": "Ship Squat Predictions for Ship/Tow Simulator",
+        "sourceType": "technical_report",
+        "issuer": "U.S. Army Engineer Research and Development Center",
+        "editionOrEffectiveDate": "2006",
+        "url": "https://erdc-library.erdc.dren.mil/bitstream/11681/1895/1/CHL-CHETN-I-72.pdf",
+        "supports": "多種經驗公式的適用範圍、深度Froude數、船型與航道阻塞比對艉座預測的影響，提醒不同公式不可任意套用。"
+      }
     ],
     "assumptions": [],
     "limitations": [
@@ -80,6 +102,21 @@
           "item": "官方評分細則",
           "result": "needs_review",
           "note": "未取得考選部官方評分細則。"
+        },
+        {
+          "item": "Squat定義、下沉與縱傾",
+          "result": "pass",
+          "note": "依MCA MGN 199及加拿大TSB調查資料核對；補充最大艉座可能在艏或艉，視船型與條件而定。"
+        },
+        {
+          "item": "艉座與速度平方關係",
+          "result": "pass",
+          "note": "確認近似關係應以對水速度STW為基礎，並非所有水深、航道與臨界速度條件下的精確公式。"
+        },
+        {
+          "item": "水深、阻塞比及其他交互作用",
+          "result": "pass",
+          "note": "依TSB及USACE技術報告補充h/T、航道截面阻塞比、船型及臨界淺水速度；區分Squat與bank suction/cushion。"
         }
       ]
     },
