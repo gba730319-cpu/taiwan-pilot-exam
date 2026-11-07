@@ -49,3 +49,11 @@
 .reference-fold[open] summary::after{content:"－"}
 .reference-fold summary:focus-visible{outline:3px solid #8bbab4;outline-offset:-3px}
 .reference-fold .answer-references{padding:12px 18px 14px 38px}
+
+
+/* Floating close control stays reachable while reading a long answer. */
+.answer-close-floating{position:fixed;z-index:20;right:24px;bottom:calc(20px + env(safe-area-inset-bottom));display:flex;align-items:center;gap:9px;border:0;border-radius:999px;background:#176b68;color:#fff;padding:13px 20px;box-shadow:0 6px 24px #102b2b35;font:inherit;font-size:15px;font-weight:700;cursor:pointer;transition:transform .15s,box-shadow .15s}
+.answer-close-floating:hover{transform:translateY(-2px);box-shadow:0 9px 28px #102b2b40}
+.answer-close-floating:focus-visible{outline:3px solid #8bbab4;outline-offset:3px}
+.answer-close-floating span{font-size:21px;line-height:1}
+@media(max-width:650px){.answer-close-floating{left:18px;right:18px;bottom:calc(14px + env(safe-area-inset-bottom));justify-content:center;padding:15px 20px;font-size:16px;box-shadow:0 5px 22px #102b2b45}}
