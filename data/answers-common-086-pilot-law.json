@@ -670,22 +670,22 @@
   {
     "id": "086-pilot-law-10-answer-v1",
     "questionId": "086-pilot-law-10",
-    "version": 2,
+    "version": 3,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "## 一、晴朗夜間應顯示的號燈\n\n30公尺動力引水船正在執行引水任務時，依COLREG Rule 29：\n1. 在桅頂或附近垂直顯示兩盞環照燈，上白、下紅，作為引水船識別燈。\n2. 船舶在航時，另依動力船規定顯示桅燈、左右舷燈及艉燈。\n3. 30公尺船舶依Rule 22及附錄I，桅燈最小能見距為**5海浬**；引水識別環照燈、舷燈及艉燈最小能見距均為**2海浬**。\n\n## 二、能見度受限制時的號笛\n\n依COLREG Rule 35：\n- 動力船在航且對水有前進速度時，每隔不超過2分鐘鳴放一長聲。\n- 在航但已停止且對水沒有速度時，每隔不超過2分鐘鳴放兩長聲，兩聲間隔約2秒。\n- 正在執行引水任務的引水船，得另鳴放四短聲作為識別信號；此識別信號不取代適用的霧中號聲。\n\n## 三、號笛聲能聽距\n\n30公尺船舶屬20公尺以上、未滿75公尺級距，依COLREG附錄III，號笛參考代表聲能聽距為**1.5海浬**。",
-    "practicalAnalysis": "原答案正確抓到引水船上白下紅及霧中號聲，但漏掉在航動力船應顯示的桅燈；現已補齊並將引水識別燈與一般動力船航行燈分開。聲能聽距依20至75公尺級距為1.5海浬。",
+    "modelAnswer": "## 一、晴朗夜間的號燈\n\n30公尺動力引水船正在執行引水任務時，依COLREG Rule 29：\n\n1. 在桅頂或附近垂直顯示兩盞環照燈，上白、下紅，作為引水船識別燈。\n2. 船舶在航時，除上述白紅識別燈外，另顯示左右舷燈及艉燈。\n3. Rule 29是引水船的特別號燈規定；不要自行把一般動力船Rule 23的桅燈再加列為獨立必備燈號。\n\n依Rule 22，30公尺屬12公尺以上、未滿50公尺級距：\n- 引水識別白、紅環照燈：最小能見距2海浬。\n- 左右舷燈：最小能見距2海浬。\n- 艉燈：最小能見距2海浬。\n\n## 二、能見度受限制時的號笛\n\n依COLREG Rule 35：\n- 動力船在航且對水有前進速度時，每隔不超過2分鐘鳴放一長聲。\n- 在航但已停止且對水沒有速度時，每隔不超過2分鐘鳴放兩長聲，兩聲間隔約2秒。\n- 正在執行引水任務的引水船，得另鳴放四短聲作為識別信號；此識別信號不取代適用的霧中號聲。\n\n## 三、號笛聲能聽距\n\n30公尺船舶屬20公尺以上、未滿75公尺級距，依COLREG附錄III，號笛參考代表聲能聽距為**1海浬**。",
+    "practicalAnalysis": "原答案有兩個需更正處：第一，將Rule 23一般動力船桅燈額外加到Rule 29引水船號燈，Rule 29本身已明列引水識別白紅環照燈及在航舷燈、艉燈，不應把普通桅燈另列為獨立必備燈；第二，30m船舶的號笛聲能聽距不是1.5NM，而是附錄III的20m至未滿75m級距1NM。已依Rule 29、Rule 35、Rule 22及附錄III修正。",
     "keyPoints": [
       {
-        "point": "引水識別燈：桅頂附近上白下紅兩盞環照燈。",
+        "point": "引水識別燈為兩盞垂直環照燈，上白下紅。",
         "importance": "essential"
       },
       {
-        "point": "在航時另顯示動力船桅燈、舷燈及艉燈。",
+        "point": "在航時另顯示左右舷燈及艉燈；依Rule29作答，不另列普通動力船桅燈。",
         "importance": "essential"
       },
       {
-        "point": "30m船桅燈能見距5NM；引水識別燈、舷燈、艉燈2NM。",
+        "point": "30m船舶的白紅識別燈、舷燈及艉燈最小能見距均為2NM。",
         "importance": "essential"
       },
       {
@@ -693,11 +693,11 @@
         "importance": "essential"
       },
       {
-        "point": "引水船可另發四短聲識別信號。",
+        "point": "引水船可另發四短聲識別信號，不取代適用霧中號聲。",
         "importance": "essential"
       },
       {
-        "point": "30m船號笛參考聲能聽距1.5NM。",
+        "point": "30m船舶號笛聲能聽距依20至未滿75m級距為1NM。",
         "importance": "essential"
       }
     ],
@@ -707,36 +707,49 @@
         "sourceType": "official_exam",
         "issuer": "考選部",
         "editionOrEffectiveDate": "民國86年",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=086120&q=1&s=c201&t=Q",
-        "supports": "原題題意及配分。"
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=086120&q=1&s=c181&t=Q",
+        "supports": "原題30m引水船燈號、霧號及聲能聽距題意。"
       },
       {
-        "title": "COLREG 1972（IMO官方）",
+        "title": "COLREG 1972 – Rules 22, 29 and 35",
         "sourceType": "international_convention",
         "issuer": "International Maritime Organization",
         "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
-        "supports": "Rule 6安全速度、Rule 22/23/29燈號、Rule 35霧號及附錄III聲能聽距。"
+        "supports": "燈號最小能見距、引水船白紅燈及霧中聲號、四短聲識別信號。"
+      },
+      {
+        "title": "U.S. Coast Pilot 6 – Navigation Rules, Annex III",
+        "sourceType": "official_navigation_reference",
+        "issuer": "National Oceanic and Atmospheric Administration",
+        "editionOrEffectiveDate": "2025-12-07",
+        "url": "https://nauticalcharts.noaa.gov/publications/coast-pilot/files/cp6/CPB6_AppendixA_WEB.pdf",
+        "supports": "Annex III號笛聲壓及代表聲能聽距表；20m至未滿75m級距為1海浬。"
       }
     ],
     "assumptions": [
-      "假設船舶正在執行引水任務，且題目所述為一般在航狀態；若錨泊或其他狀態，依相應COLREG規則調整。"
+      "假設引水船正在執行引水任務，且題目所述為一般在航狀態；若錨泊，另依Rule29(a)(iii)加掛Rule30錨泊燈號／形狀。"
     ],
     "limitations": [
-      "號燈實際能見距須依COLREG附錄I及船舶設備合規狀況；本題採30m船舶標準級距。"
+      "聲能聽距為附錄III規格下的代表值，不等於實際環境中保證可聽距離；實際效果受風向、背景噪音及設備狀態影響。"
     ],
     "verification": {
       "status": "source_checked",
       "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "現行法規／國際規則",
+          "item": "COLREG Rule 29引水船燈號",
           "result": "pass",
-          "note": "已按現行法規或IMO規則核對，主答以2027考試可用的現行規範為準。"
+          "note": "依Rule29白上紅下、在航另加舷燈及艉燈修正，不額外列普通桅燈。"
         },
         {
-          "item": "民國86年歷史條文",
+          "item": "Rule 22燈光能見距",
           "result": "pass",
-          "note": "本題核心國際規則現行仍適用。"
+          "note": "30m船舶屬12m至未滿50m級距，相關燈號最小能見距2NM。"
+        },
+        {
+          "item": "Rule 35及Annex III聲號",
+          "result": "pass",
+          "note": "四短聲識別信號及20m至未滿75m級距1NM聲能聽距核對完成。"
         }
       ]
     },
