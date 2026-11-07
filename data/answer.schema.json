@@ -235,7 +235,9 @@
                 "technical_reviewed",
                 "approved_for_study",
                 "partially_verified",
-                "calculation_checked"
+                "calculation_checked",
+                "needs_review",
+                "skipped"
               ]
             },
             "checkedAt": {
