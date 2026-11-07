@@ -2211,8 +2211,8 @@
   },
   {
     "questionId": "106-english-03",
-    "modelAnswer": "(1) Head-on situation: A situation in which two power-driven vessels are meeting on reciprocal or nearly reciprocal courses so as to involve risk of collision. Each vessel shall alter her course to starboard so that they pass port side to port side, in accordance with COLREG Rule 14.(2) Permeability: The percentage of the volume of a compartment or space that can be occupied by water, expressed as a proportion of its total volume. It is used in damage-stability calculations.(3) Block coefficient (Cb): The ratio of the underwater volume of a ship to the volume of a rectangular block having the same length, breadth and draught. It indicates the fullness of the ship's hull form.(4) Ship domain: The surrounding water area that a navigator wishes to keep clear of other vessels or obstacles to maintain safe navigation. Its size and shape depend on ship dimensions, speed, manoeuvrability, visibility, traffic density and navigational environment.",
-    "practicalAnalysis": "Head-on situation須連結COLREG Rule 14的互見、近乎相反航向及碰撞危險條件；Permeability是艙室可被水占據容積的百分比；Block coefficient為水下體積與L×B×T長方體體積之比；Ship domain是航行安全研究概念，沒有全球唯一固定尺度。",
+    "modelAnswer": "(1) **Head-on situation**\nA situation in which two power-driven vessels are meeting on reciprocal or nearly reciprocal courses so as to involve risk of collision. In such a situation, each vessel shall alter her course to starboard so that they pass on the port side of each other, in accordance with COLREG Rule 14. The rule applies when the vessels are in sight of one another.\n\n(2) **Permeability**\nThe proportion of the total volume of a compartment or space that can be occupied by water. It is expressed as a decimal or percentage and is used in subdivision and damage-stability calculations. The permeability value depends on the type and contents of the space.\n\n(3) **Block coefficient (Cb)**\nThe ratio of a ship's moulded displacement volume to the volume of a rectangular block having the same length, breadth and draught. It is commonly expressed as:\n\\[\nC_b=\\frac{\\nabla}{L_{PP}\\times B\\times T}\n\\]\nwhere ∇ is the underwater displacement volume, LPP is length between perpendiculars, B is moulded breadth and T is moulded draught. It indicates the fullness of the underwater hull form.\n\n(4) **Ship domain**\nThe effective area of water surrounding a vessel that a navigator wishes to keep clear of other ships and fixed objects in order to maintain safe navigation. Its size and shape are not fixed; they vary with the ship's dimensions, speed, manoeuvrability, visibility, traffic density, waterway restrictions and environmental conditions. It is a navigational safety concept, not a fixed statutory distance.",
+    "practicalAnalysis": "Head-on situation須限於兩艘動力船互見、相反或近乎相反航向且有碰撞危險，對應COLREG Rule 14。Permeability是艙間可被水佔據的容積比例，用於破艙穩度。Block coefficient公式應以LPP、型寬及型吃水表示。Ship domain是航海者希望保持淨空的動態安全水域，並非COLREG固定法定距離。",
     "keyPoints": [
       {
         "point": "Head-on situation",
@@ -2273,34 +2273,58 @@
         "sourceType": "official_or_technical_reference",
         "supports": "原題。",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "SOLAS Chapter II-1, Regulation 7-3 — Permeability",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imorules.com/solas/02_chapter_II-1.html",
+        "supports": "破艙穩度計算中permeability的用途及不同艙間的滲透率。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch), Pub. No. 9",
+        "sourceType": "official_navigation_publication",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/apology_objects/Bowditch_Vol_1.pdf",
+        "supports": "船舶方形係數／Block coefficient定義及船體尺度參數。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "The ship domain in navigational safety assessment",
+        "sourceType": "peer_reviewed_research",
+        "issuer": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0265681",
+        "supports": "Ship domain概念、定義及船舶尺度、航速、海象條件對領域形狀與大小的影響。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "Ship domain為研究與操船分析概念，模型定義及尺度依研究方法不同；不應給出固定全球標準值。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
           "item": "Head-on situation",
           "result": "pass",
-          "note": "定義包含兩動力船、互見、近乎相反航向及碰撞危險。"
+          "note": "依COLREG Rule 14核對適用條件及避讓方向。"
         },
         {
           "item": "Permeability",
           "result": "pass",
-          "note": "定義為艙室可被水占據容積百分比。"
+          "note": "依SOLAS II-1 Regulation 7-3核對破艙穩度用途。"
         },
         {
           "item": "Block coefficient",
           "result": "pass",
-          "note": "公式為水下體積除以L×B×T。"
+          "note": "補入Cb公式及LPP、型寬、型吃水參數。"
         },
         {
           "item": "Ship domain",
-          "result": "verified_with_scope",
-          "note": "屬研究及操船概念，尺度依船型與環境而異。"
+          "result": "pass",
+          "note": "依同行評審研究定義並強調其為動態概念，非固定法定距離。"
         }
       ]
     },
