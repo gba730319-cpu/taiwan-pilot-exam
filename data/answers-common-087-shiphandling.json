@@ -421,31 +421,31 @@
   {
     "id": "087-shiphandling-07-answer-v1",
     "questionId": "087-shiphandling-07",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【拖錨（Dredging Anchor）的定義】\n船舶將錨放出並讓錨爪在海床上拖行或部分抓底，以錨鏈及錨爪阻力協助控制船舶速度、位置或轉向；與正常錨泊完全抓底、固定船位不同。\n【港內運轉時的使用時機】\n1. 船舶進入狹窄港池或迴船池時，需要減少前進速度而主機倒俥反應不足，可適度拖錨增加阻力。\n2. 需要限制船舶向前漂移、控制船艏或維持一定轉向支點時，可依水深及底質拖錨。\n3. 風流較強、船舶低速操縱困難時，可利用錨鏈張力協助保持船位或降低漂移。\n4. 船舶靠離泊或在有限水域調頭時，經計畫後可用拖錨控制艏向及船速。\n5. 緊急情況下，若主機或舵機失效且有安全海床可用，可將錨作為緊急制動或防止船舶失控的措施。\n\n【注意事項】\n- 必須確認水深、底質、錨爪抓力、錨鏈長度及海床是否有電纜、管線或其他設施。\n- 避免在航道、禁錨區、海底管線及其他船舶附近拖錨。\n- 拖錨會使錨鏈及錨機承受衝擊負荷，應控制出鏈速度及張力，避免錨鏈斷裂或錨機損壞。\n- 拖錨不是一般長時間航行的制動方式，應由船長／引水人依操船計畫使用，並通知VTS。",
-    "practicalAnalysis": "本題10分，拖錨是讓錨爪／錨鏈在海床產生阻力，協助減速、控制漂移及轉向。答題要列出狹窄港池、迴船池、強風流及緊急情況，並提醒水深、底質及海底管線限制。",
+    "modelAnswer": "## 一、定義\n\n拖錨（Dredging Anchor）是船舶在低速操縱時，將錨放至海床並使錨爪／錨鏈受控拖行或保持短鏈受力，利用錨的阻力及錨鏈張力協助控制船舶運動；它不同於正常錨泊時讓錨充分抓底、以固定船位為目的的操作。\n\n## 二、港內運轉時的主要運用時機\n\n1. **靠泊接近階段：**在水域狹窄、風流影響明顯時，依操船計畫放出短鏈，使錨鏈產生受控的彈簧作用，協助減速、控制船艉向碼頭的運動，或使船舶沿泊位平行移動。\n2. **控制船艏／艉擺動：**利用錨鏈張力形成額外的約束點及偏航力矩，配合舵與主機控制船首向，尤其在受限水域的低速轉向或靠泊操作。\n3. **順流或受風流影響靠泊：**在船舶仍有適當前進速度、錨爪不致突然深抓的條件下，以錨鏈協助控制船舶向後或向泊位的移動。\n4. **離泊前後的預置與回收：**視泊位及海床條件，預先配置錨鏈作為輔助控制，但須確認起錨不會延誤船舶離泊或妨礙航道。\n\n## 三、操作要領與限制\n\n- 以低速、平順、持續受控的方式操作；錨放得過早或船速過低，錨爪可能抓底過深，船舶突然停住或錨鏈受力過大。\n- 不可讓船舶速度過高，否則錨的控制效果降低，並可能對錨、錨鏈、錨機及船體結構造成危險負荷。\n- 事前確認水深、底質、潮流、可用錨鏈長度、海底電纜／管線、航道禁錨規定及附近船舶。\n- 必須與主機、舵及拖船協調，監控船速、艏向、錨鏈方向與張力；必要時中止操作。\n\n**重要安全界線：**船舶錨設備並非設計用來在暴風中作為背風岸前最後一道防線，也不是用來將大型高速航行船舶緊急煞停的裝置。不得把「緊急制動」列為一般拖錨用途；遇主機失效等緊急情況，應依船舶應變程序評估拋錨風險與海床條件，而非假設錨能可靠停住大型船舶。",
+    "practicalAnalysis": "原答案把拖錨列為主機／舵機故障時的緊急制動，容易造成嚴重錯誤觀念。船舶錨設備不是大型移動船舶的緊急煞車，也不是惡劣天候下最後防線。港內拖錨主要是低速靠泊、控制艏艉擺動及利用錨鏈彈簧作用；操作時須防止錨爪突然抓底及錨鏈過載。",
     "keyPoints": [
       {
-        "point": "拖錨可增加阻力，控制船速及船位。",
+        "point": "拖錨是錨爪／錨鏈在海床受控拖行或短鏈受力，協助低速控制船舶運動。",
         "importance": "essential"
       },
       {
-        "point": "狹窄港池、迴船池、低速操船及強風流時可考慮使用。",
+        "point": "港內主要用於靠泊接近、控制船艏艉擺動及錨鏈彈簧作用。",
         "importance": "essential"
       },
       {
-        "point": "可協助減速、控制艏向及限制漂移。",
+        "point": "須保持低速、平順受控，避免錨爪突然抓底或錨鏈過載。",
         "importance": "essential"
       },
       {
-        "point": "避開禁錨區、海底電纜／管線及其他船舶。",
+        "point": "先確認水深、底質、海底管線、禁錨區及錨鏈受力條件。",
         "importance": "supporting"
       },
       {
-        "point": "控制錨鏈張力，避免錨鏈、錨機過載。",
-        "importance": "supporting"
+        "point": "錨設備不是大型高速船緊急煞車，也不是惡劣天候下最後防線。",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -455,61 +455,70 @@
         "issuer": "考選部",
         "editionOrEffectiveDate": "民國87年",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2003&t=Q",
-        "supports": "船舶操縱八題原卷。"
+        "supports": "原題題意及配分。"
       },
       {
-        "title": "The Shiphandler's Guide",
+        "title": "Ship Handling: Theory and Practice",
         "sourceType": "textbook_or_academic",
-        "issuer": "R.W. Rowe, The Nautical Institute",
-        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
-        "supports": "受限水域、單螺槳船、拖船及錨的操船原理。"
+        "issuer": "David J. House, Elsevier",
+        "editionOrEffectiveDate": "2007",
+        "url": "https://www.rexresearch1.com/SeamanshipNavigationLibrary/ShipHandlingTheoryandPractice.pdf",
+        "supports": "錨作業章節及拖錨作為靠泊輔助控制的原理。"
+      },
+      {
+        "title": "Anchor Work",
+        "sourceType": "professional_training",
+        "issuer": "Marine Teacher",
+        "url": "https://www.marineteacher.com/anchor-work",
+        "supports": "拖錨定義、靠泊使用及錨設備非緊急煞停用途的安全限制。"
       }
     ],
     "assumptions": [
-      "依FPP單螺槳船及港內操船原理作答，未提供的螺槳旋向、船型及水域數據不自行假設。"
+      "題目所稱Dredging Anchor依港內低速操船的拖錨操作解釋，不等同正常錨泊或高速緊急拋錨。"
     ],
-    "limitations": [],
+    "limitations": [
+      "不同船型、錨型、底質及錨鏈配置會影響拖錨效果；不可將教科書中的操作距離或鏈長比例當成所有船舶通用限值。"
+    ],
     "verification": {
-      "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "status": "source_checked",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部87年船舶操縱題目",
+          "item": "拖錨港內用途及錨設備限制",
           "result": "pass",
-          "note": "已核對原卷題文。"
-        },
-        {
-          "item": "操船理論",
-          "result": "pass",
-          "note": "依船舶操縱學及拖船操作原理整理。"
+          "note": "依船舶操縱專書及錨作業教材修正；刪除錨可作大型船緊急煞車的錯誤暗示。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "087-shiphandling-08-answer-v1",
     "questionId": "087-shiphandling-08",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "拖船使大船旋轉時，應將拖船配置在距離大船旋轉支點較遠的船艏或船艉端部，並以接近垂直船體縱向的方向施力，才能形成較大的偏航力矩。\n力矩公式：M=F×L，其中F為拖船施力，L為施力點至旋轉支點的垂直力臂。力臂愈長，在相同拖力下產生的轉向力矩愈大。\n船舶前進時，旋轉支點通常位於船艏後方約1/4船長，因此若要產生較大轉向力矩，拖船配置在船艉端通常具有較長力臂；若旋轉支點或轉向需求不同，則應選擇遠離當時旋轉支點的一端。\n拖船應避免拖纜與螺槳、舵、錨鏈及其他繫纜交纏，並以漸進拖力控制轉首率。",
-    "practicalAnalysis": "本題5分，直接回答「距旋轉支點最遠的船艏或船艉端」，並說明力矩M=F×L；前進中旋轉支點靠近船艏時，船艉拖帶通常可提供較大力臂。",
+    "modelAnswer": "拖船欲使大船旋轉，應將拖船配置在**距離當時旋轉支點（Pivot Point）較遠的船艏或船艉端**，並沿適當方向施力，以取得較大的偏航力矩。\n\n力矩關係：\n\n[\nM=F\\times L\n]\n\n其中：\n- (F)：拖船對大船的有效作用力。\n- (L)：作用力作用線至旋轉支點的垂直距離（力臂）。\n\n在相同拖力下，力臂愈長，產生的偏航力矩愈大。因此不能不分船舶運動狀態一律回答船艏或船艉；應先判斷當時旋轉支點位置，再選擇較遠的一端。\n\n**本題常見情境：**大船前進時，旋轉支點通常位於船艏後方約四分之一船長處，故船艉通常離旋轉支點較遠，拖船在船艉施力較容易形成較大轉向力矩。若大船倒退或運動狀態改變，旋轉支點可能移向船艉，則應重新判斷，不能機械套用前進船的配置。\n\n實務上還須確認拖船型式、拖纜方向、拖力、船速及拖船安全位置，避免拖纜橫向受力造成拖船girding風險。",
+    "practicalAnalysis": "原答案方向正確，但旋轉支點位置不能固定視為船艏後1/4船長。其位置會隨前進／後退、船速、舵角及外力改變；本題正確通則是拖船放在距當時旋轉支點較遠的一端，以最大化偏航力臂。",
     "keyPoints": [
       {
-        "point": "拖船應在距旋轉支點較遠的船艏或船艉端。",
+        "point": "拖船放在距當時旋轉支點較遠的船艏或船艉端。",
         "importance": "essential"
       },
       {
-        "point": "力矩M=F×L，力臂越長轉向力矩越大。",
+        "point": "偏航力矩M=F×L，力臂愈長，轉向力矩愈大。",
         "importance": "essential"
       },
       {
-        "point": "前進時旋轉支點通常靠近船艏，船艉端通常具有較長力臂。",
+        "point": "前進時旋轉支點通常較靠近船艏，船艉通常可提供較長力臂。",
         "importance": "essential"
       },
       {
-        "point": "拖纜須避開螺槳、舵及錨鏈。",
+        "point": "倒退或船舶運動狀態改變時，須重新判斷旋轉支點位置。",
+        "importance": "supporting"
+      },
+      {
+        "point": "拖船操作須避免拖纜橫向受力造成girding。",
         "importance": "supporting"
       }
     ],
@@ -520,36 +529,34 @@
         "issuer": "考選部",
         "editionOrEffectiveDate": "民國87年",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2003&t=Q",
-        "supports": "船舶操縱八題原卷。"
+        "supports": "原題題意及配分。"
       },
       {
-        "title": "The Shiphandler's Guide",
+        "title": "Ship Handling: Theory and Practice",
         "sourceType": "textbook_or_academic",
-        "issuer": "R.W. Rowe, The Nautical Institute",
-        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
-        "supports": "受限水域、單螺槳船、拖船及錨的操船原理。"
+        "issuer": "David J. House, Elsevier",
+        "editionOrEffectiveDate": "2007",
+        "url": "https://www.rexresearch1.com/SeamanshipNavigationLibrary/ShipHandlingTheoryandPractice.pdf",
+        "supports": "旋轉支點、拖船作用位置及操船力矩。"
       }
     ],
     "assumptions": [
-      "依FPP單螺槳船及港內操船原理作答，未提供的螺槳旋向、船型及水域數據不自行假設。"
+      "以船舶當時運動狀態下的瞬時旋轉支點判斷拖船位置。"
     ],
-    "limitations": [],
+    "limitations": [
+      "未指定船舶航行方向、速度及拖船型式，故不將船艏或船艉寫成無條件唯一答案。"
+    ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部87年船舶操縱題目",
+          "item": "拖船施力位置與旋轉支點關係",
           "result": "pass",
-          "note": "已核對原卷題文。"
-        },
-        {
-          "item": "操船理論",
-          "result": "pass",
-          "note": "依船舶操縱學及拖船操作原理整理。"
+          "note": "以力矩及瞬時旋轉支點通則修正，具體端部依船舶運動狀態判斷。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   }
 ]
