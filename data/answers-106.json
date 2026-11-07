@@ -870,7 +870,7 @@
   {
     "questionId": "106-pilotage-01",
     "modelAnswer": "【2027年考試主答｜五種航海圖符號】\n\n本題應以現行IHO INT 1海圖圖式及縮寫作答。下列代碼為IHO／Chart 1對照代碼，考場繪圖時應依海圖圖例中的正式圖形描繪，不宜以一般文字或自創符號代替。\n\n| 題目中文 | 現行英文名稱 | IHO INT 1代碼 | 繪圖及標註重點 |\n|---|---|---|---|\n| 不淹岩 | Rock which does not cover | K10 | 繪出不淹沒岩礁的黑色岩石圖式；依圖上基準標示岩礁高程。此類岩礁在高潮時仍不被淹沒。 |\n| 不到底 | No bottom found | I13 | 使用I13「未測得海底」圖式，並依圖例標註測深資訊。不得誤寫成Foul ground（不良底質／礙錨地）。 |\n| 平均大潮高潮 | Mean High Water Springs | H9 | 以縮寫MHWS標示；屬潮汐基準／潮汐資料縮寫，不是獨立的岩礁或航標圖形。 |\n| 禁區 | Prohibited area | N2.2 | 繪出禁區界線，並在區域內標註PROHIBITED AREA或依海圖註記標明禁止事項；不得與一般Restricted area（N2.1）混淆。 |\n| 退潮流附記速度 | Ebb tidal stream with rate | H41 | 以潮流箭頭表示退潮流方向，並在箭頭旁附註流速，單位通常為kn，例如2 kn；箭頭方向須依當地退潮流向。 |\n\n二、容易混淆的圖式\n1. 不淹岩（K10）表示不會被潮水淹沒的岩礁；會淹沒或乾出的岩礁應使用其他相應圖式。\n2. 不到底（I13）表示測深時未能測得海底；Foul ground表示底質或水下障礙可能妨礙錨泊或拖網，兩者意義完全不同。\n3. 禁區（N2.2）與限制區（N2.1）不同，應讀取海圖註記，不能當成同義詞。\n4. MHWS是Mean High Water Springs，平均大潮高潮；與MHW、MHHW及MLWS不同。\n5. 退潮流（H41）箭頭表示流向，旁邊數字表示速度；不可把退潮流方向與船舶航向或海圖北向混為一談。\n\n三、2027考試使用原則\n- 紙海圖圖式依考題所指定或現行海圖圖例的IHO INT 1版本判讀；目前應以IHO現行INT 1 Edition 9（2026）及IHO S-4標準為依據。\n- 若原題或歷史海圖使用舊版圖式，應保留歷史題意並註明版次；不能把舊符號直接當成2027現行圖式。\n- ENC的S-57／S-100呈現圖式與紙海圖INT 1圖例應分開理解；不要將不同產品規格的符號編碼混為一談。\n\n結論：本題五項依序為K10、I13、H9（MHWS）、N2.2及H41。最重要的校正是「不到底」應為No bottom found（I13），不是Foul ground；「禁區」須與Restricted area區分。",
-    "practicalAnalysis": "原答案把「不到底」誤解為Foul ground，這是重要概念錯誤；已改為IHO I13 No bottom found。並將不淹岩K10、MHWS H9、Prohibited area N2.2、Ebb tidal stream with rate H41分別列出，提供2027現行圖式版次原則。",
+    "practicalAnalysis": "本題五項圖式依IHO INT 1代碼及官方Chart 1核對。特別注意No bottom found（I13）與Foul ground不是同義詞：前者是測深未觸底；後者是可航行但應避免錨泊、拖網或觸底的區域。",
     "keyPoints": [
       "不淹岩：高潮仍露出的岩礁，須表達岩礁位置及高度／危險性。",
       "Foul：測深未觸底或海底狀況不明，不能視為已測得安全水深。",
@@ -917,6 +917,22 @@
         "url": "https://repository.library.noaa.gov/view/noaa/49552/noaa_49552_DS1.pdf",
         "supports": "潮汐與潮流圖式、MHWS縮寫及退潮流附記速度的圖形參考。",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "NOAA U.S. Chart No. 1 — Nautical Chart Symbols",
+        "sourceType": "official_hydrographic_chart_reference",
+        "issuer": "NOAA Office of Coast Survey",
+        "url": "https://www.nauticalcharts.noaa.gov/publications/us-chart-1.html",
+        "supports": "官方海圖符號圖例及紙海圖／ENC符號說明。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IHO S-101 Data Classification and Encoding Guide — Foul Ground",
+        "sourceType": "IHO_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/uploads/user/Services%20and%20Standards/S-100WG/S-101PT5/S101_Data%20Classification%20and%20Encoding%20Guide_1.1.0_Working.pdf",
+        "supports": "Foul Ground定義為可安全航行但應避免錨泊、觸底或底拖漁撈的區域。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
@@ -941,16 +957,30 @@
           "item": "2027圖式版本",
           "result": "pass",
           "note": "依IHO Standards and Specifications頁面確認INT 1 Edition 9（2026）為現行版。"
+        },
+        {
+          "item": "No bottom found與Foul ground定義區分",
+          "result": "pass",
+          "note": "以IHO S-101定義及官方Chart 1交叉核對，已修正keyPoints中容易造成混淆的文字。"
         }
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "answer": "",
+    "keys": [
+      "不淹岩：高潮仍露出的岩礁，依K10圖式及圖例標註。",
+      "No bottom found（I13）：在圖示測深位置及所標示深度仍未測得海底。",
+      "Foul ground：水面航行可通過，但應避免錨泊、拖網或觸底，不是測深未觸底。",
+      "MHWS：Mean High Water Springs，平均大潮高潮，屬潮汐基準面名稱。",
+      "禁區：Prohibited area，與Restricted area不同，須依圖例及區域註記判讀。",
+      "退潮流附記速度：以潮流方向箭頭及速度數值／單位表示。"
+    ]
   },
   {
     "questionId": "106-pilotage-02",
     "modelAnswer": "【2027年考試主答｜五種氣象及海象名詞】\n\n(1) **冷鋒（Cold Front）**：冷而密度較大的空氣團向前推進，取代原有暖空氣團的鋒面。冷空氣通常楔入暖空氣下方，使暖空氣抬升；通過時常見氣溫下降、氣壓上升、風向轉變，並可能伴隨陣雨、積雨雲及雷暴。實際天氣仍取決於水氣、穩定度及鋒面移動速度。\n\n(2) **霧（Fog）**：近地面空氣中懸浮大量微小水滴，或低溫時的微小冰晶，使地面水平能見度降低至1,000公尺以下的現象。海上常見平流霧（暖濕空氣流經較冷海面而冷卻）、輻射霧（地表輻射冷卻）及蒸發霧／混合霧（冷空氣流經較暖水面，水汽蒸發後凝結）。航海上須依COLREG Rule 19及Rule 35採取安全速度、瞭望與霧中聲號措施。\n\n(3) **長浪（Swell）**：由遠處風暴或強風區產生，離開原生成區後仍向外傳播的波浪。相較於當地風浪，長浪通常週期較長、波峰較平順且較規則，波向可能與當地風向不同；即使當地風力已減弱，長浪仍可能持續到達。船舶操縱、靠泊及登輪時須注意長週期波浪造成的船體縱搖、橫搖及引水梯相對運動。\n\n(4) **暴風半徑（Radius of Gale-force Winds／Typhoon Gale Radius）**：由颱風中心向外至達到指定暴風風速門檻的距離。臺灣中央氣象署所稱「七級風暴風半徑」，是中心向外至平均風速約15m/s（約54km/h、蒲福風級7級）的距離；預報資料亦可能另列十級風暴風半徑。暴風半徑越大，代表受強風影響的範圍越廣，但颱風風場通常不完全對稱，實際各象限半徑可能不同。部分國際產品使用34kt（約17.5m/s）的R34，與臺灣15m/s七級風半徑門檻不同，答題應說明所採定義。\n\n(5) **颱風眼（Eye of a Typhoon）**：位於成熟熱帶氣旋中心附近、風力相對微弱的區域，通常呈近圓形，可能有較少雲量、較平靜天氣及下沉氣流；外圍由眼牆（Eyewall）環繞，眼牆附近通常具有最強風力及最劇烈降雨。颱風眼內短暫風雨減弱不代表颱風已經離開，眼牆通過後風向可能改變，強風可能再次增強。\n\n結論：冷鋒是冷空氣取代暖空氣的鋒面；霧使水平能見度低於1km；長浪是離開生成區仍傳播的長週期波浪；臺灣七級風暴風半徑以15m/s為門檻；颱風眼是中心附近相對平靜區，最強風雨通常在眼牆。",
-    "practicalAnalysis": "本題需區分臺灣氣象署七級風暴風半徑與國際部分產品的R34。臺灣氣象署以15m/s（約54km/h）七級風界定暴風半徑；R34則為34kt，兩者門檻不同。霧的標準能見度界線為1km；長浪即使當地風力減弱仍可能存在，對登輪及靠泊有直接風險。",
+    "practicalAnalysis": "暴風半徑的臺灣15m/s七級風門檻與國際R34 34kn並非相同定義，答案已明確區分；霧以能見度低於1,000m界定，長浪則從海況與引水登輪風險連結。",
     "keyPoints": [
       "冷鋒：冷氣團推進、迫使暖空氣抬升，常有陣雨雷暴及風向轉變。",
       "霧：懸浮微滴／冰晶降低能見度；能辨識平流、輻射、蒸發霧。",
@@ -1000,6 +1030,38 @@
         "url": "https://www.noaa.gov/jetstream/ocean/waves",
         "supports": "風浪與長浪生成區、傳播距離、週期及規則波峰差異。",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "NOAA National Hurricane Center Glossary",
+        "url": "https://www.nhc.noaa.gov/aboutgloss.shtml",
+        "issuer": "NOAA",
+        "sourceType": "official_technical_reference",
+        "supports": "熱帶氣旋眼、眼牆及相關氣象術語。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "中央氣象署颱風警報產品說明",
+        "url": "https://opendata.cwa.gov.tw/opendatadoc/Warning/W-C0034-005.pdf",
+        "issuer": "中央氣象署",
+        "sourceType": "official_technical_reference",
+        "supports": "七級風15m/s及十級風25m/s暴風半徑欄位。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "WMO International Cloud Atlas — Fog",
+        "url": "https://cloudatlas.wmo.int/fog-as-seen-from-aircraft.html",
+        "issuer": "World Meteorological Organization",
+        "sourceType": "official_technical_reference",
+        "supports": "霧的組成及水平能見度定義。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "NOAA JetStream — Waves and Swells",
+        "url": "https://www.noaa.gov/jetstream/ocean/waves",
+        "issuer": "NOAA",
+        "sourceType": "official_technical_reference",
+        "supports": "風浪與長浪的生成、傳播及週期差異。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
@@ -1023,6 +1085,11 @@
           "item": "臺灣15m/s與國際R34 34kt差異",
           "result": "pass",
           "note": "明確區分不同產品風速門檻，避免將兩種半徑混為一談。"
+        },
+        {
+          "item": "氣象與海象名詞",
+          "result": "保留風速門檻、能見度及波浪生成區等定義差異。",
+          "note": "pass"
         }
       ]
     },
@@ -1032,7 +1099,7 @@
   {
     "questionId": "106-pilotage-03",
     "modelAnswer": "【2027年考試主答｜船舶迴旋圈（Turning Circle）及影響因素】\n\n一、定義\n船舶迴旋圈是船舶在一定初始航速及操縱條件下，舵向一舷持續操舵後，船舶中點（midship point）所形成的水面運動軌跡。標準試驗通常在穩定直航、初始偏航率為零時，向左舷及右舷分別施以35°舵角，或試驗速度下可用的最大舵角，觀察船舶轉向能力。\n\n二、迴旋圈主要參數\n1. **進距（Advance）：**自下舵令位置起，船舶中點沿原航向方向前進，至船艏向改變90°時所走的距離。\n2. **橫距（Transfer）：**自下舵令位置至船艏向改變90°時，船舶中點相對原航線的橫向位移。\n3. **戰術直徑（Tactical Diameter）：**自下舵令位置至船艏向改變180°時，船舶中點相對原航向的垂直距離。\n4. **穩定迴旋直徑（Final／Steady Turning Diameter）：**船舶進入穩定迴旋後，迴旋軌跡的直徑；須與戰術直徑區分。\n\n三、IMO操縱性標準\n依IMO Resolution MSC.137(76)，迴旋試驗應在左右舷各執行；標準試驗條件包括深而不受限制水域、平靜環境、滿載夏季載重線吃水及平穩接近試驗速度。一般船舶迴旋能力標準：\n- 進距不得超過4.5L。\n- 戰術直徑不得超過5L。\n其中L為標準所定義的船長。此為設計／試驗標準，不代表所有船舶在港內、淺水或不同載況下都能達到相同迴旋尺度。\n\n四、影響迴旋圈的因素\n（一）船舶本身條件：船長、船寬及長寬比；吃水、排水量及縱傾；船體線型；舵型、舵面積、舵角及舵效；單槳／雙槳、固定／可調螺距、可變方位推進器、艏艉側推器及舵槳組合。\n（二）操船條件：初始航速、舵角及操舵時機、主機與推進器操作、倒車效應、載況及船體污損。航速會影響舵上水流及舵力，但對迴旋尺度的影響並非簡單線性，須依本船試驗資料判斷。\n（三）外在水域與環境：水深／吃水比、淺水效應、狹水道、岸吸岸推、船舶交互作用、螺槳排流、風壓、潮流、海流及波浪。流會使船舶對地軌跡偏移，須區分相對水體的迴旋圈（STW基準）與對地軌跡（SOG基準）。\n\n五、引水實務\n1. 不可只依姊妹船或同型船數據推定本船迴旋圈，應查閱本船Pilot Card、Wheelhouse Poster、Manoeuvring Booklet及海試資料。\n2. 進出港、迴船池或狹水道操船時，須將當時吃水、縱傾、航速、水深、潮流、風、鄰船及拖船作業納入評估。\n3. 若港內可用迴旋水域小於本船試驗迴旋尺度，應預先規劃拖船輔助、分段轉向或其他替代方案，不可等到轉向開始後才發現空間不足。\n\n結論：迴旋圈以進距、橫距、戰術直徑及穩定迴旋直徑描述；其大小受船體尺度、吃水、載況、舵與推進器、初始航速、風流、水深、岸壁及船舶交互作用影響。實際引水操船應以本船試驗資料及當時水域條件為準。",
-    "practicalAnalysis": "本題要分清advance、transfer、tactical diameter及steady turning diameter，並以船舶中點為測量基準。另補IMO MSC.137(76)進距4.5L、戰術直徑5L標準及其試驗條件；強調深水試驗結果不能直接套用到港內淺水、受限水域及不同載況。",
+    "practicalAnalysis": "依IMO MSC.137(76)補足標準迴旋試驗條件及進距4.5L、戰術直徑5L標準；提醒此為標準試驗條件，不可直接套用至港內淺水或受限水域。",
     "keyPoints": [
       "定義：一定初始條件下施舵形成的船舶轉向軌跡。",
       "參數：進距、橫距、戰術直徑、穩定迴旋直徑。",
@@ -1075,6 +1142,22 @@
         "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960(23).pdf",
         "supports": "引水人應掌握船舶操縱特性並於MPX中交換操船資訊。",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution MSC.137(76) — Standards for Ship Manoeuvrability",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_technical_reference",
+        "supports": "迴旋圈、進距、戰術直徑及標準試驗條件。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "MCA MGN 301 (M+F) Amendment 1",
+        "url": "https://www.gov.uk/government/publications/mgn-301-mf-amendment-1-manoeuvring-information-onboard-ships",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "sourceType": "official_technical_reference",
+        "supports": "本船Pilot Card、Wheelhouse Poster及Manoeuvring Booklet等個船操縱資訊。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
@@ -1098,6 +1181,11 @@
           "item": "影響因素及實船資料應用",
           "result": "pass",
           "note": "依MCA MGN 301 Amendment 1及IMO A.960(23)補強。"
+        },
+        {
+          "item": "迴旋圈定義及參數",
+          "result": "以船舶中點軌跡及標準術語定義。",
+          "note": "pass"
         }
       ]
     },
@@ -1107,7 +1195,7 @@
   {
     "questionId": "106-pilotage-04",
     "modelAnswer": "【2027年考試主答｜恒向線與大圈線及海圖使用】\n\n一、恒向線（Rhumb Line／Loxodrome）\n1. 定義：恒向線是船舶航行軌跡與所有經線保持相同交角的曲線，亦即航向（真方位）保持不變的航線。\n2. 特性：除赤道、經線等特殊情況外，恒向線不是兩點間最短距離；在墨卡托海圖（Mercator Chart）上呈直線，因此可直接量取航向，適合以固定羅經航向分段航行。\n3. 海圖使用：主要使用墨卡托海圖。船舶可在圖上以平行尺及羅經花量取航向，並依緯度刻度量取距離；跨越較大緯度範圍時，應注意墨卡托投影比例尺隨緯度增加而放大。\n\n二、大圈線（Great Circle）\n1. 定義：大圈是球面上通過地心的平面與地球表面相交形成的圓；大圈弧為球面上兩點間的最短地表距離（兩點不互為對蹠點時取較短弧）。\n2. 特性：除赤道及經線等特殊情況外，大圈航線在墨卡托海圖上呈向赤道方向彎曲的曲線；沿大圈航行時，真航向會隨位置改變，通常不能以單一固定航向完成全程。\n3. 海圖使用：使用心射投影海圖（Gnomonic Chart）規劃大圈航線，因大圈在心射投影上呈直線；但心射投影不保角，不能像墨卡托海圖一樣直接量取全程航向及距離。\n\n三、實務航線規劃\n1. 先在心射投影海圖上連接起點與終點，畫出大圈航線。\n2. 沿大圈航線選取若干經緯度轉折點，再將各點轉繪到墨卡托海圖。\n3. 在墨卡托海圖上將相鄰轉折點連成多段恒向線，逐段計算航向及距離，作為實際航行航路點。\n4. 航行時依ECDIS／GNSS及航行計畫監控航路；須考慮氣象航路、海冰、航行限制區、交通分道及船舶操縱性能，不能只因大圈距離最短就認定為最佳航線。\n\n四、比較表\n\n| 比較項目 | 恒向線 Rhumb Line | 大圈線 Great Circle |\n|---|---|---|\n| 航向 | 與經線交角固定，航向保持不變 | 航向通常隨航程改變 |\n| 距離 | 通常不是最短距離 | 兩點間最短地表距離 |\n| 墨卡托海圖 | 呈直線 | 通常呈曲線 |\n| 心射投影海圖 | 通常呈曲線 | 呈直線 |\n| 主要用途 | 固定航向航行及分段航路 | 長距離航線最短距離規劃 |\n\n結論：恒向線在墨卡托海圖上為直線，適合固定航向航行；大圈線是球面最短航線，在心射投影海圖上為直線，適合長距離航線規劃。實務上常先用心射投影規劃大圈，再轉繪成墨卡托海圖上的多段恒向線執行。",
-    "practicalAnalysis": "本題必須把兩種線與海圖投影配對：恒向線在Mercator上為直線；大圈線在Gnomonic上為直線。實際航行常採「Gnomonic畫大圈—取轉折點—轉繪Mercator—分段恒向線」的流程；不能說大圈線在墨卡托海圖上是直線，也不能把心射投影當成可直接量取航向的保角海圖。",
+    "practicalAnalysis": "依NGA Bowditch及NOAA航海圖學資料，校正恒向線與大圈線在Mercator及Gnomonic投影的呈現；補入遠洋實務的大圈規劃後轉繪為多段恒向線流程。",
     "keyPoints": [
       "恒向線：與各經線交角相同；墨卡托海圖上為直線。",
       "恒向線適合固定羅經航向及短距離航行，但通常非最短路徑。",
@@ -1152,6 +1240,30 @@
         "url": "https://www.admiralty.co.uk/charts/reference-and-plotting",
         "supports": "心射投影海圖用於將大圈航線繪成直線及規劃複合恒向線航路。",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch), Vol. 1",
+        "url": "https://msi.nga.mil/apology_objects/Bowditch_Vol_1.pdf",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "sourceType": "official_technical_reference",
+        "supports": "Mercator投影與恒向線特性。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch), Vol. 2",
+        "url": "https://msi.nga.mil/api/publications/download?key=16693975%2FSFH00000%2FBowditch_Vol_2_LoRes.pdf&type=view",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "sourceType": "official_technical_reference",
+        "supports": "大圈航線規劃及轉繪方法。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "NOAA Office of Coast Survey — Nautical Cartography",
+        "url": "https://www.nauticalcharts.noaa.gov/learn/nautical-cartography.html",
+        "issuer": "NOAA",
+        "sourceType": "official_technical_reference",
+        "supports": "海圖投影及恒向線用途。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
@@ -1175,6 +1287,11 @@
           "item": "大圈航線轉繪實務",
           "result": "pass",
           "note": "補入心射投影取轉折點後轉繪Mercator、分段恒向線執行的流程。"
+        },
+        {
+          "item": "恒向線及大圈線定義",
+          "result": "確認Mercator與Gnomonic投影對應正確。",
+          "note": "pass"
         }
       ]
     },
@@ -1184,7 +1301,7 @@
   {
     "questionId": "106-pilotage-05",
     "modelAnswer": "【2027年考試主答｜旋轉潮流與往復潮流】\n\n一、旋轉潮流（Rotary Tidal Current／Rotary Stream）\n1. **定義：**潮流在一個潮汐週期內，流向持續逐漸改變，方向可依序繞轉各方位，形成旋轉或橢圓形的流速向量軌跡；通常沒有明顯的完全停流時刻，流速會由最大值逐漸減小至最小值，再增強。\n2. **形成原因：**主要由潮汐波傳播、地球自轉造成的科氏力、海岸線形狀、海底地形、水深及水域開闊程度共同影響。潮流不受狹窄水道限制時，流向較容易隨潮汐週期連續旋轉。\n3. **常見地點：**較開闊的外海、陸棚海域、寬廣海灣及較少受岸壁限制的水域。\n4. **旋轉方向：**北半球常見順時針旋轉，南半球常見逆時針旋轉，但這是一般傾向，實際方向及橢圓形狀仍受局部海岸與海底地形影響，不可當成絕對定律。\n\n二、往復潮流（Reversing／Rectilinear Tidal Current）\n1. **定義：**潮流主要沿同一軸線往返流動，漲潮時向一方向流動（Flood），退潮時大致向相反方向流動（Ebb），兩次流向轉換之間通常出現憩流（Slack Water）。\n2. **形成原因：**潮汐水位升降造成水體進出海灣、河口或水道；當水流受到狹窄水道、河道、海峽或兩岸地形限制時，流向較集中於同一方向軸線，漲退潮時便呈相反方向。\n3. **常見地點：**狹窄海峽、港口入口、河口、河道、狹長海灣及受地形約束的水道。\n4. **航行特性：**漲潮流與退潮流方向大致相反；轉流時會出現憩流，但憩流時間不一定與高潮或低潮同時發生，須查當地潮流表或實測資料。\n\n三、兩種潮流比較\n\n| 比較項目 | 旋轉潮流 | 往復潮流 |\n|---|---|---|\n| 流向變化 | 在潮汐週期內連續旋轉 | 主要沿同一軸線往返 |\n| 轉流狀態 | 通常沒有完全憩流，只有最小流速 | 兩個方向轉換時通常有憩流 |\n| 常見環境 | 外海、陸棚、開闊海灣 | 狹窄海峽、河口、港口及狹長水道 |\n| 主要影響因素 | 科氏力、潮波、海岸線、海底地形及水深 | 潮差、水位差、水道形狀及地形限制 |\n| 航行注意 | 流向持續變化，需查潮流向量／潮流橢圓 | 漲退潮方向相反，需掌握憩流時刻及最大流速 |\n\n四、引水實務\n1. 不可把潮汐高潮、低潮時刻直接當成憩流時刻；潮位與潮流轉向可能有時間差。\n2. 旋轉潮流應掌握各時段流向及流速變化；往復潮流則應掌握漲潮流、退潮流及憩流時間。\n3. 靠離泊、狹水道會船及迴船池操船時，應依當地潮流表、港務公告、即時海象資料及現場觀測決定操船時機。\n\n結論：旋轉潮流的流向在潮汐週期內連續改變，通常沒有完全憩流，常見於較開闊水域；往復潮流沿大致相反方向交替流動，轉向時通常有憩流，常見於狹窄海峽、河口及受地形限制的水道。",
-    "practicalAnalysis": "本題核心差異是旋轉潮流在潮汐週期內持續轉向、通常只有最小流速而非完全憩流；往復潮流則沿相反方向交替流動，轉向時通常有憩流。不可把憩流直接等同高潮或低潮時刻。",
+    "practicalAnalysis": "依NOAA潮流詞彙及美國海岸防衛隊潮流表說明，補入迴轉潮流在一個潮週期內流向連續繞轉、通常無憩流；往復潮流受河道／海峽限制，流向反轉時有憩流。北半球未受局部條件改變時通常順時針，南半球相反。",
     "keyPoints": [
       "迴轉潮流：流向隨時間連續旋轉，常見於開放水域或寬廣海灣。",
       "往復潮流：沿固定軸線往返，漲退潮方向相反，可能有憩流。",
@@ -1229,6 +1346,38 @@
         "url": "https://tidesandcurrents.noaa.gov/publications/TidalCurrentsEducationalPamphlet4.pdf",
         "supports": "旋轉潮流、往復潮流、外海與狹窄水域分布及北半球常見旋轉方向。",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "NOAA Tides & Currents Glossary",
+        "url": "https://www.tidesandcurrents.noaa.gov/glossary.html",
+        "issuer": "NOAA",
+        "sourceType": "official_technical_reference",
+        "supports": "Rotary current與reversing current定義、科氏力及半球旋轉方向。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "NOAA Tidal Currents Tutorial",
+        "url": "https://oceanservice.noaa.gov/education/tutorial_currents/02tidal1.html/media/media/supp_cur02a.html",
+        "issuer": "NOAA",
+        "sourceType": "official_technical_reference",
+        "supports": "往復／直線潮流在河口及河道的流向反轉與憩流。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "U.S. Coast Guard — Tide Tables and Tidal Current Tables, Table 5",
+        "url": "https://www.dco.uscg.mil/Portals/9/NMC/pdfs/examinations/08_tide_tables_and_tidal_current_tables.pdf",
+        "issuer": "U.S. Coast Guard",
+        "sourceType": "official_technical_reference",
+        "supports": "迴轉潮流通常位於外海，方向持續轉變且沒有憩流；受限水域常見往復潮流。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部106年引港學試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=106060&q=1&s=1010&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_technical_reference",
+        "supports": "原題。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
@@ -1252,6 +1401,11 @@
           "item": "北／南半球旋轉方向",
           "result": "verified_with_scope",
           "note": "以一般傾向說明，並明確提醒局部海岸與海底地形可改變方向。"
+        },
+        {
+          "item": "迴轉與往復潮流差異",
+          "result": "補入是否有憩流、典型地點及科氏力方向影響。",
+          "note": "pass"
         }
       ]
     },
