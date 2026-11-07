@@ -1012,3 +1012,13 @@
 - 此build commit包含108年度26題v2答案；其後只補充船舶操縱答案參考來源發布者metadata，未改變頁面程式。
 - `npm audit`及`npm audit --omit=dev`均回報6項相依套件弱點（4 low、1 moderate、1 high），包括PostCSS高風險公告及KaTeX低風險公告。npm建議的自動修復會升級Next.js至16.4.5並涉及major版本變更；本輪未執行`npm audit fix --force`，避免未經確認的大版本遷移。應另行評估相容性及安全更新後再部署。
 - 本輪未執行Vercel Production部署；GitHub提交及Sandbox build成功不代表正式網站已更新。
+
+
+### 民國106年度答案面向2027考試補強及前台資料正規化（2026-11-07追加）
+- 本輪針對106年度共通科目中的船舶操縱6題、引港學5題及專業英文4題補強答案；原有航政法規5題及高雄港當地水道6題亦已具備version 2答案。
+- 船舶操縱6題：Q1補入風力平方公式、風壓中心與偏航力矩、艏推器功率不等於推力、拖輪BP與有效力矩；題幹缺少完整風壓投影面積、阻力係數及拖輪BP，故不虛構唯一馬力。Q2區分BTM與題目所稱BTCC，並註明BTCC不是IMO全球統一法定制度名稱。Q3區分舵角指示器（舵葉位置）與ROTI（艏向角速度）。Q4補入靜態BP與動態有效拖力、力臂、拖纜安全及船舶交互作用。Q5依IMO A.960(23)釐清船長與引水人互補分工及船長責任。Q6補入拖錨走受控出鏈、底質、水深、船速及錨鏈過載風險，不把固定出鏈倍數當成通則。
+- 引港學5題：Q1核對K10、I13、H9、N2.2、H41五項圖式，並修正No bottom found與Foul ground的混淆：I13是測深未觸底；Foul ground則是可航行但應避免錨泊、拖網或觸底的區域。Q2明確區分臺灣七級風15m/s暴風半徑與國際R34 34kn門檻。Q3依IMO MSC.137(76)補足進距4.5L、戰術直徑5L及標準試驗條件。Q4補入Gnomonic規劃大圈、轉折點轉繪Mercator並分段恒向線航行的流程。Q5依NOAA潮流詞彙釐清迴轉潮流通常無憩流、往復潮流在方向反轉時有憩流，並補入科氏力及半球方向差異。
+- 專業英文4題：Q1依IMO A.960(23)校對船長責任及OOW用語；Q2忠實翻譯引水船信號及未經船長同意不得提前離船的條件，並註明這是翻譯原題，不將2017文字直接宣稱為現行法規；Q3核對Head-on situation、Permeability、Block coefficient及Ship domain定義；Q4重寫約300字作文，涵蓋專業知識、地方水域、MPX、團隊合作及持續訓練。
+- 前台結構重大修正：發現data/answers-106.json原本使用舊欄位answer、analysis、keys、refs，但app/page.tsx的前台答案元件讀取modelAnswer、practicalAnalysis、keyPoints、references。已將26題全部正規化為前台現行欄位，保留原答案內容並轉換得分關鍵與來源；此修正commit：5d7ce4e10988ce78123300f74860bf8abc660e6e。因此106年度答案現在具備前台可讀的主答、分析、得分關鍵及參考來源欄位。
+- 資料靜態檢查：重新解析106年度原題及答案，原題26題、答案26筆；questionId缺漏0、額外ID 0、重複ID 0；26題均為version 2，且modelAnswer、practicalAnalysis、keyPoints、references四欄均非空。驗證狀態分布：15題source_checked、10題verified_with_scope、1題partially_verified。部分查證仍保留在答案內，尤其歷史港況、原卷圖資及特定泊位條件，不以現況倒推。
+- 年度狀態：106年度五科26題答案均已完成面向2027考試的第一輪補強及資料結構正規化；尚須進行年度終檢，特別檢查高雄港拖船表與歷史資料界線、表格／公式呈現及前台實際展開互動。未完成終檢前，不標記106年度整體完成。
