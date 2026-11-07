@@ -1,0 +1,105 @@
+[
+  {
+    "id": "087-taichung-waterway-01-answer-v1",
+    "questionId": "087-taichung-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "## 一、暴潮（Storm Surge）\n\n暴潮是颱風或強烈氣象系統作用下，海面相對於正常天文潮位的異常增高，主要由強風將海水推向岸邊，以及低氣壓造成的海面抬升所致。其大小受風速、風向、風暴路徑、移動速度、岸線形狀、近岸水深及海灣地形影響。\n\n**注意區別：**暴潮（storm surge）是氣象造成的增水；暴潮位／風暴潮位（storm tide）則是暴潮與當時天文潮位的合成水位。若再考慮波浪爬高、越波，實際淹水高度還可能更高。\n\n## 二、海嘯（Tsunami）\n\n海嘯是海底地震造成海床突然隆起或下陷，使大量海水整體位移，形成長波長、長週期的海洋波動；海底山崩、火山活動等也可能引發海嘯。海嘯在深海傳播時波高可能不顯著，但接近淺海後因水深變淺、波速降低及能量集中，波高可能急遽增加，並以連續波列方式抵達岸邊。\n\n海嘯不是一般由局部海面風力形成的風浪；港灣內可能出現強烈往復流、港池水位振盪及繫泊船舶受力，不能只以岸上觀察到的波高判斷危險。\n\n## 三、副振動或蕩漾（Seiche / Oscillation）\n\n副振動是湖泊、港池、海灣等封閉或半封閉水域，水體受到外力擾動後，以其固有週期產生的自由振盪，常呈現水面兩端升降交替的駐波型態。成因包括強風、氣壓變化、海嘯、地震或其他長週期水位擾動；外力消失後，水體仍可能持續往復振盪一段時間。\n\n港池副振動可能造成水位及流速週期性變化，使船舶產生縱移、橫移、升沉及繫纜負荷變化，影響靠泊與裝卸安全。其週期取決於港池長度、形狀、水深及邊界條件。\n\n## 四、漂沙（Littoral Drift）\n\n漂沙是波浪斜向入射海岸，配合沿岸流等水動力作用，使砂礫等沉積物沿海岸方向搬運的現象。其搬運路徑可分為近岸區的沿岸輸砂及波浪作用下的懸浮、推移運動。漂沙方向與強度受波浪入射角、波高、週期、海岸線方向、潮流及地形影響。\n\n漂沙可能造成港口航道或港池淤積、突堤及防波堤兩側海岸侵淤變化，因此港口規劃與維護須評估沿岸輸砂方向、輸砂量及季節變化。\n\n## 五、沿岸流（Alongshore Current）\n\n沿岸流是近岸波浪以斜角入射並破碎後，所形成大致平行於岸線方向的水流。其流向通常受波浪入射方向控制，流速則與波浪能量、入射角、近岸地形及水深等因素有關。\n\n沿岸流會搬運泥沙，是漂沙的重要動力之一；但兩者不可混為一談：沿岸流是水體流動，漂沙是沉積物的沿岸搬運結果。近岸流速及方向會影響港口入口淤積、航道水深與小型船舶操縱安全。\n\n## 六、坐落現象（Squat）\n\n坐落是船舶航行時，船體周圍及船底水流加速、壓力分布改變，使船舶產生動態下沉（sinkage）及縱傾變化（dynamic trim）的現象，造成船首或船尾吃水增加、龍骨下淨空（UKC）減少。\n\n坐落通常隨船速增加而加劇，並受船型方形係數、吃水與水深比、航道寬度、阻塞比及船舶在航道中的位置影響；淺水、狹水道及大型船舶高速航行時尤其重要。滿載肥大型船可能較偏向船首坐落，較瘦長船型可能較偏向船尾坐落，但實際方向須依船型及水域條件判斷。\n\n**引水實務：**計算可用水深時，應將坐落、潮位、波浪造成的船體運動、船舶縱傾及測深／吃水誤差一併納入UKC評估；不得把靜態吃水直接當成航行中的最大有效吃水。",
+    "practicalAnalysis": "本題為六個港灣及海岸工程／船舶操縱專有名詞。答題時應區分水位現象、海洋長波、港池自由振盪、泥沙搬運、水流與船舶動態下沉；特別注意storm surge與storm tide、沿岸流與漂沙、sinkage與dynamic trim的概念界線。",
+    "keyPoints": [
+      {
+        "point": "暴潮是天文潮以外的氣象增水；storm tide是暴潮與天文潮的合成水位。",
+        "importance": "essential"
+      },
+      {
+        "point": "海嘯是海水整體位移形成的長波，不是一般風浪。",
+        "importance": "essential"
+      },
+      {
+        "point": "副振動是封閉或半封閉水域的固有週期水位振盪，可能造成繫泊風險。",
+        "importance": "essential"
+      },
+      {
+        "point": "漂沙是沉積物沿岸搬運；沿岸流是近岸平行岸線的水流，兩者相關但不同。",
+        "importance": "essential"
+      },
+      {
+        "point": "Squat由動態下沉及縱傾構成，降低UKC，受船速、水深、航道限制及船型影響。",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "What is storm surge? / Storm tide",
+        "sourceType": "official_oceanographic_guidance",
+        "issuer": "NOAA Ocean Service",
+        "url": "https://oceanservice.noaa.gov/facts/stormsurge-stormtide.html",
+        "supports": "暴潮成因及storm surge與storm tide的區別。"
+      },
+      {
+        "title": "Tsunami FAQ",
+        "sourceType": "official_meteorological_guidance",
+        "issuer": "Japan Meteorological Agency",
+        "url": "https://www.jma.go.jp/jma/kishou/know/faq/faq26.html",
+        "supports": "海嘯形成原因、長波特性及與風浪的差異。"
+      },
+      {
+        "title": "What is a seiche?",
+        "sourceType": "official_oceanographic_guidance",
+        "issuer": "NOAA Ocean Service",
+        "url": "https://oceanservice.noaa.gov/facts/seiche.html",
+        "supports": "封閉水域駐波、外力激發及持續振盪特性。"
+      },
+      {
+        "title": "Rip Current Science",
+        "sourceType": "official_coastal_science_guidance",
+        "issuer": "US National Weather Service",
+        "url": "https://www.weather.gov/safety/ripcurrent-science",
+        "supports": "littoral drift、littoral current及longshore current的定義。"
+      },
+      {
+        "title": "Vessel Squat in Shallow Water",
+        "sourceType": "official_navigation_guidance",
+        "issuer": "US National Geospatial-Intelligence Agency",
+        "editionOrEffectiveDate": "2026",
+        "url": "https://msi.nga.mil/api/publications/download?key=16920954%2FSFH00000%2FUNTM%2FSpecial_Notice.pdf&type=view",
+        "supports": "坐落的sinkage與trim組成、影響因素及淺水操船風險。"
+      }
+    ],
+    "assumptions": [
+      "本答案以2027年備考所需的現代海洋、海岸工程及操船概念作答，不將1998年臺中港的舊港況數據當作現況。"
+    ],
+    "limitations": [
+      "本題為名詞解釋，未涉及臺中港特定測站的暴潮、海嘯或副振動實測數值。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-08",
+      "checks": [
+        {
+          "item": "暴潮與storm tide",
+          "result": "pass",
+          "note": "依NOAA官方定義區分氣象增水與天文潮合成水位。"
+        },
+        {
+          "item": "海嘯與副振動",
+          "result": "pass",
+          "note": "依日本氣象廳及NOAA官方資料核對形成機制及波動特性。"
+        },
+        {
+          "item": "漂沙與沿岸流",
+          "result": "pass",
+          "note": "依美國國家氣象局沿岸科學資料區分沉積物搬運與水流。"
+        },
+        {
+          "item": "坐落現象",
+          "result": "pass",
+          "note": "依NGA 2026航海通告核對sinkage、dynamic trim及UKC影響。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-08",
+    "examRelevance": "current_concept"
+  }
+]
