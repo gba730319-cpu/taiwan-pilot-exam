@@ -6,7 +6,7 @@
     "language": "zh-TW",
     "answerType": "translation",
     "modelAnswer": "【第一段英翻中】\n\n引水通常被認為是由熟悉當地水域、且並非經常固定派任於該船舶的專業人員，在港口、港灣及河川中引導單一船舶航行的工作。依照一種便於理解的法律擬制，船舶仍由船長負責，船長在任何時候只要有正當理由，均可推翻引水人的決定。然而，事實上，引水人在不同程度上也分擔了確保船舶作為獨立個體安全航行的責任。\n\n【第二段英翻中】\n\n港區內要達成安全、有效率且無污染的作業，顯然有賴於所有相關要素之間的有效協調。引水人對達成此一目標固然扮演不可或缺的角色，但並非唯一的角色。港口協調必須透過某種具權威性的合作方式，在港區內運作的所有團體之間共同完成。\n\n【重要字詞與翻譯說明】\n1. pilotage：引水、領航業務。\n2. local specialist：熟悉當地水域的專業人員／引水人。\n3. not regularly assigned to the ship：並非固定派任於該船舶。\n4. legal fiction：法律擬制，指法律上為方便適用而採取的假定，不是單純的虛構。\n5. override the pilot：推翻、否決或不採納引水人的建議／指令；應依上下文理解。\n6. for cause：基於正當理由。\n7. in varying degrees：在不同程度上。\n8. safe navigation of the ship as an individual unit：該船舶作為獨立航行單位之安全航行。\n9. effective co-ordination：有效協調。\n10. authoritative form of co-operative effort：具權威性或正式組織性的合作方式。\n11. all the groups which operate within the port area：所有在港區內運作的相關團體，包括港務、VTS、引水、拖船、碼頭及船舶等單位。",
-    "practicalAnalysis": "本題30分，兩段都要注意長句結構。第一段主句是Pilotage is usually thought of as...；not regularly assigned修飾local specialist；according to a convenient legal fiction是法律擬制；for cause為有正當理由；in varying degrees表示引水人分擔責任的程度不同。第二段主詞是The achievement，動詞depends upon；not the only role強調引水人不是港口協調的唯一角色；authoritative form of co-operative effort要翻成具權威性／正式組織性的合作方式。 本輪再以IMO A.960(23)核對船長與引水人責任界線；翻譯忠實呈現原文的legal fiction語氣，不將舊文中的法律擬制誤當作現行法條文。",
+    "practicalAnalysis": "本題30分，兩段都要注意長句結構。第一段主句是Pilotage is usually thought of as...；not regularly assigned修飾local specialist；according to a convenient legal fiction是法律擬制；for cause為有正當理由；in varying degrees表示引水人分擔責任的程度不同。第二段主詞是The achievement，動詞depends upon；not the only role強調引水人不是港口協調的唯一角色；authoritative form of co-operative effort要翻成具權威性／正式組織性的合作方式。\n\n法律提醒：legal fiction是原文作者對船長與引水人責任關係的描述，不等於我國現行法律條文的完整結論。翻譯應忠實保留原文，不把它改寫成法規解釋。原答案曾列IMO A.857(20)，該決議已於2021年由A.1158(32)撤銷，現已移除舊指引並以現行A.1158(32)作港區協調概念背景。",
     "keyPoints": [
       {
         "point": "legal fiction譯為法律擬制，不是法律虛構。",
@@ -54,21 +54,21 @@
         "supports": "引水人、船長及駕駛台團隊之角色、溝通及安全責任背景。"
       },
       {
-        "title": "Resolution A.857(20): Guidelines for Vessel Traffic Services",
-        "sourceType": "international_convention",
-        "issuer": "International Maritime Organization",
-        "editionOrEffectiveDate": "27 November 1997",
-        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.857%2820%29.pdf",
-        "pageOrSection": "Paragraph 2.1 Objectives and 2.3 VTS Services",
-        "supports": "港區安全、效率、環境保護及各單位協調之背景。"
-      },
-      {
         "title": "IMO Resolution A.960(23)",
         "sourceType": "imo_resolution",
         "issuer": "International Maritime Organization",
         "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
         "supports": "引水人與船長責任、Master-Pilot Exchange及引水作業程序。",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Resolution A.1158(32): Guidelines for Vessel Traffic Services",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "15 December 2021",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1158%2832%29.pdf",
+        "pageOrSection": "Annex, paragraphs 3.1–3.2",
+        "supports": "現行VTS目標包括提升航行安全與效率及保護海洋環境；僅作港區協調概念的現行背景，不取代原文翻譯。"
       }
     ],
     "assumptions": [
@@ -76,31 +76,32 @@
       "override the pilot採「推翻／不採納引水人的決定」翻譯，並不表示船長可無正當理由任意忽視安全建議。"
     ],
     "limitations": [
-      "本題為英文翻譯題，譯文依原文句意呈現；涉及船長與引水人法律責任時，仍應以我國引水法及適用國際規範為準。"
+      "本題為英文翻譯題，譯文依原文句意呈現；涉及船長與引水人法律責任時，仍應以我國現行引水法及適用國際規範為準。",
+      "原文中的legal fiction屬作者論述，不應直接當成我國現行法規對船長與引水人責任分配的法律結論。"
     ],
     "verification": {
       "status": "source_checked",
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "原文核對",
+          "item": "原題英文原文與中文翻譯",
           "result": "pass",
-          "note": "依考選部100年專業英文第一題核對兩段英文。"
+          "note": "依考選部100年專業英文第一題核對。"
         },
         {
-          "item": "專業用語",
+          "item": "引水人及船長角色背景",
           "result": "pass",
-          "note": "核對pilotage、legal fiction、for cause及port co-ordination等用語。"
+          "note": "依IMO A.960(23)核對引水人與船長／駕駛台團隊協作原則。"
         },
         {
-          "item": "法律責任語意",
+          "item": "VTS港區協調概念之現行參考",
           "result": "pass",
-          "note": "保留原文對船長及引水人責任分擔的描述，並註明法律擬制語意。"
+          "note": "以IMO A.1158(32)取代已撤銷的A.857(20)，並註明僅作背景參考。"
         },
         {
-          "item": "2027備考責任界線",
+          "item": "legal fiction法律語氣",
           "result": "pass",
-          "note": "區分英文原文中的歷史法律擬制與現行引水人、船長共同安全責任。"
+          "note": "保留原文論述語氣，不將其誤作我國現行法條。"
         }
       ]
     },
@@ -209,8 +210,8 @@
     "version": 2,
     "language": "en",
     "answerType": "definition",
-    "modelAnswer": "**(1) 走錨 — Dragging Anchor**\n\nSentence: The vessel began dragging anchor because of the strong wind and current.\n\n**(2) 自動識別系統 — Automatic Identification System (AIS)**\n\nSentence: The officer of the watch used the Automatic Identification System (AIS), together with radar and visual observations, to monitor nearby traffic.\n\n**(3) 分道通航制 — Traffic Separation Scheme (TSS)**\n\nSentence: Vessels navigating in a traffic separation scheme should proceed in the appropriate traffic lane in the direction of traffic flow.\n\n**(4) 迎艏正遇 — Head-on Situation**\n\nSentence: When two power-driven vessels meet on reciprocal or nearly reciprocal courses and there is a risk of collision, both vessels should alter course to starboard.\n\n【用語補充】\n- Dragging anchor：錨抓力不足，船舶受風流影響而拖錨漂移。\n- Automatic Identification System (AIS)：自動識別系統；第一次出現應先寫全名再加縮寫。\n- Traffic Separation Scheme (TSS)：交通分道制度。\n- Head-on situation：迎艏正遇；COLREG Rule 14使用的正式用語為head-on situation。",
-    "practicalAnalysis": "本題20分，每小題要寫正確英文術語並造完整句子。走錨用Dragging Anchor，不要用anchor dragging作為名詞答案；AIS首次出現寫全名及縮寫；分道通航制用Traffic Separation Scheme；迎艏正遇用Head-on Situation。句子內容最好結合航行安全或COLREG規則，避免只有單字片語。 2027備考時，TSS與Head-on Situation應使用COLREG正式術語；AIS第一次出現寫全名及縮寫，Dragging Anchor用於描述錨泊抓力不足造成的走錨狀態。",
+    "modelAnswer": "**(1) 走錨 — Dragging Anchor**\n\nSentence: The vessel began dragging anchor because of the strong wind and current.\n\n**(2) 自動識別系統 — Automatic Identification System (AIS)**\n\nSentence: The officer of the watch used the Automatic Identification System (AIS), together with radar and visual observations, to monitor nearby traffic.\n\n**(3) 分道通航制 — Traffic Separation Scheme (TSS)**\n\nSentence: Vessels navigating in a traffic separation scheme shall proceed in the appropriate traffic lane in the general direction of traffic flow.\n\n**(4) 迎艏正遇 — Head-on Situation**\n\nSentence: When two power-driven vessels meet on reciprocal or nearly reciprocal courses and there is a risk of collision, both vessels shall alter course to starboard.\n\n【用語補充】\n- Dragging anchor：錨抓力不足，船舶受風流影響而拖錨漂移。\n- Automatic Identification System (AIS)：自動識別系統；第一次出現應先寫全名再加縮寫。\n- Traffic Separation Scheme (TSS)：交通分道制度。\n- Head-on situation：迎艏正遇；COLREG Rule 14使用的正式用語為head-on situation。",
+    "practicalAnalysis": "本題20分，每小題要寫正確英文術語並造完整句子。走錨用Dragging Anchor；AIS首次出現寫全名及縮寫；分道通航制用Traffic Separation Scheme (TSS)；迎艏正遇用Head-on Situation。句子內容最好結合航行安全或COLREG規則，避免只有單字片語。\n\n本次再校正法規句子的情態動詞：COLREG Rule 10(b)(i)及Rule 14(a)使用shall，造句應保留規則的強制語氣，不應弱化成should。Rule 14亦限定於兩艘動力船舶相反或接近相反航向且有碰撞危險的情境。",
     "keyPoints": [
       {
         "point": "走錨：Dragging Anchor。",
@@ -244,8 +245,8 @@
         "sourceType": "international_convention",
         "issuer": "International Maritime Organization",
         "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
-        "pageOrSection": "Rules 10 and 14",
-        "supports": "Traffic Separation Scheme及Head-on Situation正式術語與規則背景。"
+        "pageOrSection": "Rules 10(b)(i) and 14(a)",
+        "supports": "Traffic Separation Scheme及Head-on Situation正式術語與shall規範語氣。"
       },
       {
         "title": "AIS — Automatic Identification System",
@@ -255,8 +256,8 @@
         "supports": "AIS正式英文全名及用途。"
       },
       {
-        "title": "The American Practical Navigator (Bowditch), Chapter 7 — Anchoring",
-        "sourceType": "official_port_or_authority",
+        "title": "The American Practical Navigator (Bowditch), 2019 Edition, Chapter 7 — Anchoring",
+        "sourceType": "other",
         "issuer": "National Geospatial-Intelligence Agency",
         "url": "https://msi.nga.mil/api/publications/download?key=16693975%2FSFH00000%2FBowditch_Vol_1_LoRes_2019.pdf",
         "pageOrSection": "Chapter 7, Anchoring and dragging anchor",
@@ -276,36 +277,37 @@
       "走錨採用Dragging Anchor；AIS、TSS及Head-on Situation採COLREG與IMO通用術語。"
     ],
     "limitations": [
-      "Dragging anchor描述船舶因錨抓力不足而移動；若要表達「錨正在拖動」的動作，可依句構改寫，但考試術語以Dragging Anchor最直接。"
+      "Dragging anchor描述船舶因錨抓力不足而移動；若要表達「錨正在拖動」的動作，可依句構改寫，但考試術語以Dragging Anchor最直接。",
+      "COLREG法規造句應保留shall等規範用語；若只是描述一般建議而非規則義務，才使用should。"
     ],
     "verification": {
       "status": "source_checked",
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "走錨英文",
+          "item": "四個英文術語",
           "result": "pass",
-          "note": "依Bowditch錨泊章節核對dragging anchor。"
+          "note": "依專業航海用語及COLREG正式用語核對。"
         },
         {
-          "item": "AIS英文",
+          "item": "TSS Rule 10(b)(i)句型",
           "result": "pass",
-          "note": "依IMO官方AIS頁核對Automatic Identification System。"
+          "note": "已修正為shall proceed及general direction of traffic flow。"
         },
         {
-          "item": "TSS及迎艏正遇",
+          "item": "Head-on Situation Rule 14(a)句型",
           "result": "pass",
-          "note": "依COLREG Rule 10及Rule 14核對正式英文。"
+          "note": "已修正為both vessels shall alter course to starboard。"
         },
         {
-          "item": "原題核對",
+          "item": "AIS正式全名",
           "result": "pass",
-          "note": "依考選部100年專業英文第三題核對。"
+          "note": "依IMO官方AIS說明核對。"
         },
         {
-          "item": "2027專業術語用法",
+          "item": "Dragging anchor用語",
           "result": "pass",
-          "note": "依現行COLREG Rule 10及Rule 14確認TSS、Head-on Situation；AIS保留正式全名。"
+          "note": "依Bowditch錨泊章節核對。"
         }
       ]
     },
