@@ -136,6 +136,38 @@
         "title": "高雄港船舶航行規則",
         "issuer": "臺灣港務公司",
         "url": "https://kh.twport.com.tw/en/service/Articles?a=1053"
+      },
+      {
+        "title": "高雄港港埠營運設施總表",
+        "sourceType": "official_port_data",
+        "issuer": "臺灣港務公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/port/Articles?a=919",
+        "supports": "第二港口航道、迴船池及118號碼頭長度、寬度、使用水深。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "高雄港船舶航行規定（現行版）",
+        "sourceType": "official_port_regulation",
+        "issuer": "臺灣港務公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "supports": "VTS交通排序、航道單向管制及港區航行安全。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960(23).pdf",
+        "supports": "MPX、船舶操縱資料、拖船配置及應變計畫。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "MGN 199 (M) Amendment 1 — Danger of interaction",
+        "sourceType": "official_maritime_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
+        "supports": "狹水道、淺水、拖船及船舶交互作用風險。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
@@ -143,7 +175,30 @@
       "現行118號碼頭設施資料為2026年公開值，不能直接當作106年考試時歷史數據。"
     ],
     "verification": {
-      "status": "partially_verified"
+      "status": "verified_with_scope",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "118號碼頭現行尺寸及使用水深",
+          "result": "pass",
+          "note": "依高雄港務分公司現行港埠設施總表核對。"
+        },
+        {
+          "item": "第二港口航道及迴船池基本資料",
+          "result": "pass",
+          "note": "依港務公司現行設施資料核對。"
+        },
+        {
+          "item": "颱風後海況、MPX及拖船安全程序",
+          "result": "pass",
+          "note": "依IMO A.960(23)及MCA MGN 199補強。"
+        },
+        {
+          "item": "106年歷史港況",
+          "result": "needs_review",
+          "note": "本版以2027現行資料為主，未逐項還原2017年歷史水深及泊位數值。"
+        }
+      ]
     },
     "version": 2,
     "lastUpdated": "2026-11-07"
