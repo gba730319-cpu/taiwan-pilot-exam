@@ -1,0 +1,54 @@
+[
+  {
+    "id": "answer-114-pilotage-01",
+    "questionId": "114-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、作答原則\n本題考查IHO ECDIS標準顯示符號。考場應依題目英文名稱辨識ENC物標類別及IHO S-52 Presentation Library的標準圖式；符號外觀會受ECDIS顯示模式、比例尺及安全等深線設定影響，正式複習應以IHO ECDIS Chart 1／S-52圖例核對，不宜自行創造看似相近的圖案。\n\n二、五項物標及圖示記憶\n（一）離岸風場 Wind farm (offshore)：以風力發電設施／風機群的專用圖式表示，重點是辨識成群風機所在範圍，不可只把單一風機當作孤立障礙物。作圖時畫出風機符號並以群集／區域方式表現其分布。\n（二）遵循航向的指向燈 Directional light without sector (Direction light with course to be followed)：屬方向燈，表示有一指定航向或方向供船舶遵循；作圖須呈現燈標符號及方向性箭頭／航向指示，不可誤畫成具有不同顏色扇區的導標燈。\n（三）深度未知或低於安全等深線的沈船 Submerged wreck with depth less than the safety contour or depth unknown：屬危險沈船符號，須能與已測得且水深足夠的沈船區別。因深度未知或淺於安全等深線，ECDIS會以危險物標方式強調，航行時應視為可能危及本船龍骨下淨空的障礙。\n（四）環境敏感水域 Environmentally Sensitive Sea Area：以環境保護／敏感海域之區域界線及專用標示呈現，表明該區域有特殊環境保護價值或限制；進入前應查閱海圖註記、航船布告及當地規定。\n（五）交通警戒區 Traffic precautionary area：屬交通管理相關區域，通常以界線及區域名稱／註記呈現，提醒船舶航行時特別注意交通流、交會及航路安排；不得與分道通航制的分隔帶、沿岸通航帶或交通管制區混為一談。\n\n三、ECDIS顯示與航行應用\n1. ECDIS符號並非裝飾圖案，而是ENC物標類別及屬性經S-52符號化後的標準顯示；應同時讀取物標名稱、範圍、限制及附加註記。\n2. 依本船吃水、預定航路及安全等深線設定，確認危險沈船是否觸發危險物標警示；不可只看畫面上符號大小。\n3. 對離岸風場及環境敏感水域，應檢查區域界線、航行限制、風機間通道及最新航船布告；不可任意穿越風機群。\n4. 對方向燈，須核對燈號特性、方向、可見距離與海圖註記，並與雷達、目視方位及其他定位方法交叉驗證。\n5. 對交通警戒區，應預先研判其他船舶交通流、VTS要求、會遇風險及避讓空間，及早調整航路。\n\n四、考試繪圖建議\n先按題目五小題分格作圖，每格寫上英文名稱及中文名稱，再畫標準符號輪廓；符號旁補註「區域物標／點狀物標」「是否涉及安全等深線」「航行注意事項」。最重要是使用IHO正式圖例核對符號細節，不以手繪簡化圖取代標準符號。",
+    "practicalAnalysis": "本題20分重點是辨識IHO S-52 ECDIS標準符號。答題時應逐項寫出中英文名稱、物標類別、圖示特徵及航行意義。尤其危險沈船與安全等深線設定有關；離岸風場及環境敏感水域屬區域性資訊；方向燈不是扇區燈；Traffic precautionary area也不是分道通航制。此答案先提供辨識與繪圖架構，實際符號輪廓仍應以IHO ECDIS Chart 1及該版Presentation Library圖例臨摹。",
+    "keyPoints": [
+      "依IHO S-52 Presentation Library辨識符號，不能自行杜撰圖式。",
+      "離岸風場：注意風機群範圍、風機間通道及航行限制。",
+      "方向燈：表示應遵循之方向／航向，勿與扇區燈混淆。",
+      "危險沈船：深度未知或淺於安全等深線，視為危險物標。",
+      "環境敏感水域：注意區域界線、環境保護限制及航船布告。",
+      "交通警戒區：注意交通流與交會風險，勿與分道通航制混淆。"
+    ],
+    "references": [
+      {
+        "title": "IHO S-52 Colours & Symbols and Presentation Library",
+        "sourceType": "international_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://www.iho-ohi.net/english/about-encs/enc-portrayal/enc-presentation.html",
+        "supports": "ECDIS物標符號化、顏色及S-52 Presentation Library之權威依據。"
+      },
+      {
+        "title": "IHO S-52 Portrayal Bulletins",
+        "sourceType": "international_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://www.iho-ohi.net/english/about-encs/enc-portrayal/s-52-portrayal-bulletins.html",
+        "supports": "S-52物標符號及沈船符號條件顯示之更新資訊。"
+      }
+    ],
+    "limitations": [
+      "目前資料僅核實IHO S-52標準及官方圖例來源，尚未取得本題指定版本的完整Chart 1圖像逐項比對；因此本答案不以文字仿畫冒充精確符號。網站正式答案應補上可辨識的標準符號圖版，供考生直接臨摹。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "IHO S-52標準與圖例來源",
+          "result": "pass"
+        },
+        {
+          "item": "五個物標的逐項標準符號圖形",
+          "result": "needs_review",
+          "note": "須逐圖核對官方ECDIS Chart 1／Presentation Library後才能確認線條細節。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
