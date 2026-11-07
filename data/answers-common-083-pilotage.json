@@ -267,14 +267,14 @@
         "issuer": "考選部",
         "editionOrEffectiveDate": "民國83年（1994）",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=2001&t=Q",
-        "supports": "引港學八題原卷。"
+        "supports": "引港學原卷。"
       },
       {
-        "title": "NOAA JetStream：Weather fronts and cold fronts",
+        "title": "NOAA JetStream: Cold Fronts",
         "sourceType": "official_meteorological_reference",
         "issuer": "NOAA",
-        "url": "https://www.noaa.gov/jetstream",
-        "supports": "冷鋒通過常見氣溫下降、風向轉變、陣雨雷雨及氣壓變化。"
+        "url": "https://www.noaa.gov/jetstream/wxmaps",
+        "supports": "冷鋒前後氣溫、風向、降水及雲況變化。"
       }
     ],
     "assumptions": [
@@ -282,18 +282,18 @@
     ],
     "limitations": [],
     "verification": {
-      "status": "partially_verified",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
           "item": "考選部83年引港學原卷",
           "result": "pass",
-          "note": "鋒面氣壓及冷鋒現象題意已核對。"
+          "note": "題目主題與術語已核對。"
         },
         {
-          "item": "氣象學基本機制",
+          "item": "NOAA冷鋒資料",
           "result": "pass",
-          "note": "補充氣壓、風向、雲雨及海況變化，並避免把鋒後必然晴朗寫成定律。"
+          "note": "確認冷鋒通過前後風向、氣溫及天氣變化。"
         }
       ]
     },
@@ -410,14 +410,21 @@
         "issuer": "考選部",
         "editionOrEffectiveDate": "民國83年（1994）",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=2001&t=Q",
-        "supports": "引港學八題原卷。"
+        "supports": "引港學原卷。"
       },
       {
-        "title": "Central Weather Administration: Taiwan climate and monsoon information",
+        "title": "中央氣象署：隨季節變換的風—季風",
         "sourceType": "official_meteorological_reference",
         "issuer": "中央氣象署",
-        "url": "https://www.cwa.gov.tw/",
-        "supports": "臺灣季風、梅雨、東北季風及地形降雨等氣候背景。"
+        "url": "https://pweb.cwa.gov.tw/PopularScience/wt/wt_3.html",
+        "supports": "亞洲夏季西南季風、冬季東北季風形成及臺灣季節性影響。"
+      },
+      {
+        "title": "中央氣象署：季節氣候",
+        "sourceType": "official_climate_reference",
+        "issuer": "中央氣象署",
+        "url": "https://climate.cwa.gov.tw/SeasonalClimate",
+        "supports": "臺灣各季節環流、迎風面降雨及區域氣候特徵。"
       }
     ],
     "assumptions": [
@@ -425,18 +432,23 @@
     ],
     "limitations": [],
     "verification": {
-      "status": "partially_verified",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
           "item": "考選部83年引港學原卷",
           "result": "pass",
-          "note": "季風成因及臺灣氣候影響題意已核對。"
+          "note": "題目主題與術語已核對。"
         },
         {
-          "item": "臺灣季風氣候資料",
-          "result": "partial",
-          "note": "內容符合一般氣候機制，仍可再補當年指定教材中的季節月份與區域敘述。"
+          "item": "中央氣象署季風科普資料",
+          "result": "pass",
+          "note": "確認海陸熱力差異、東北季風及西南季風成因。"
+        },
+        {
+          "item": "中央氣象署季節氣候資料",
+          "result": "pass",
+          "note": "確認臺灣北東部冬季迎風降雨及中南部夏季／梅雨降雨特徵。"
         }
       ]
     },
@@ -475,14 +487,21 @@
         "issuer": "考選部",
         "editionOrEffectiveDate": "民國83年（1994）",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=2001&t=Q",
-        "supports": "引港學八題原卷。"
+        "supports": "引港學原卷。"
       },
       {
-        "title": "NOAA JetStream: Tropical cyclones and mid-latitude cyclones",
+        "title": "NOAA/AOML Hurricane FAQ: Difference between tropical and extratropical cyclones",
+        "sourceType": "official_meteorological_reference",
+        "issuer": "NOAA Atlantic Oceanographic and Meteorological Laboratory",
+        "url": "https://www.aoml.noaa.gov/hrd/tcfaq/F2.html",
+        "supports": "熱帶氣旋暖心、非鋒面、海氣潛熱能量；溫帶氣旋冷心、鋒面及斜壓能量來源。"
+      },
+      {
+        "title": "NOAA National Hurricane Center: Tropical Definitions",
         "sourceType": "official_meteorological_reference",
         "issuer": "NOAA",
-        "url": "https://www.noaa.gov/jetstream",
-        "supports": "熱帶與溫帶氣旋形成機制、結構及天氣特徵。"
+        "url": "https://www.weather.gov/mob/tropical_definitions",
+        "supports": "熱帶氣旋暖心、非鋒面、海洋熱能與深對流定義。"
       }
     ],
     "assumptions": [
@@ -490,18 +509,23 @@
     ],
     "limitations": [],
     "verification": {
-      "status": "partially_verified",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
           "item": "考選部83年引港學原卷",
           "result": "pass",
-          "note": "熱帶與溫帶氣旋比較題目已核對。"
+          "note": "題目主題與術語已核對。"
         },
         {
-          "item": "氣象學基本定義",
-          "result": "partial",
-          "note": "修正為比較能量來源、結構、鋒面與生命史；實際個案可能有例外。"
+          "item": "NOAA/AOML氣旋比較",
+          "result": "pass",
+          "note": "確認能量來源、暖心／冷心及鋒面特徵。"
+        },
+        {
+          "item": "NOAA/NHC定義",
+          "result": "pass",
+          "note": "補充熱帶氣旋非鋒面系統與溫帶氣旋斜壓能量來源。"
         }
       ]
     },
@@ -544,21 +568,21 @@
         "issuer": "考選部",
         "editionOrEffectiveDate": "民國83年（1994）",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=2001&t=Q",
-        "supports": "引港學八題原卷。"
+        "supports": "引港學原卷。"
       },
       {
-        "title": "NOAA Tides and Currents: Tides and lunar effects",
+        "title": "NOAA Tides and Currents FAQ",
         "sourceType": "official_hydrographic_reference",
         "issuer": "NOAA",
-        "url": "https://tidesandcurrents.noaa.gov/",
-        "supports": "月球及太陽引潮力、月相、月球週期與潮汐變化。"
+        "url": "https://tidesandcurrents.noaa.gov/faq.html",
+        "supports": "月相、朔望大潮、近地點潮及月地距離對潮差的影響。"
       },
       {
-        "title": "IHO S-32 Hydrographic Dictionary",
-        "sourceType": "international_hydrographic_reference",
-        "issuer": "International Hydrographic Organization",
-        "url": "https://portal.iho.int/iho-ohi/S32/engView.php?page=203",
-        "supports": "潮汐相關專有名詞及潮時提前／延遲定義。"
+        "title": "NOAA Ocean Service: Tidal variations—position and distance",
+        "sourceType": "official_hydrographic_reference",
+        "issuer": "NOAA",
+        "url": "https://oceanservice.noaa.gov/education/tutorial_tides/tides06_variations.html",
+        "supports": "日月夾角、月球近地點／遠地點及潮汐變化。"
       }
     ],
     "assumptions": [
@@ -566,18 +590,23 @@
     ],
     "limitations": [],
     "verification": {
-      "status": "partially_verified",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
           "item": "考選部83年引港學原卷",
           "result": "pass",
-          "note": "月球影響潮汐因素題意已核對。"
+          "note": "題目主題與術語已核對。"
         },
         {
-          "item": "潮汐天文因素",
-          "result": "partial",
-          "note": "已區分月相、赤緯、月地距離、時角與軌道週期；地方潮汐仍須看港站調和常數。"
+          "item": "NOAA潮汐資料",
+          "result": "pass",
+          "note": "確認大潮、小潮、近地點潮及月地距離影響。"
+        },
+        {
+          "item": "NOAA潮汐變化教材",
+          "result": "pass",
+          "note": "確認日月相對位置及月球軌道距離對潮差的影響。"
         }
       ]
     },
