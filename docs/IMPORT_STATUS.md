@@ -1649,3 +1649,5 @@
 - **總計544/544題均找到對應答案ID，未發現缺少答案ID或多出不屬於該年度正式範圍的答案ID。**這是題目—答案記錄對應率，不代表544份答案全部已完成專業內容審定；partially_verified、needs_review、skipped等狀態仍須按各筆檢核項目處理。
 - 民國91年原有2筆 verification.status=partial 不符合資料schema，已修正為 partially_verified。另因既有答案資料實際使用 needs_review 與 skipped，已將兩者納入 data/answer.schema.json 合法狀態，並在網站增加 skipped 中文顯示，避免直接把英文狀態碼露出。
 - 本輪尚未完成正式Build、瀏覽器端全頁視覺測試及最新Production部署驗證；Vercel build-rate-limit問題仍待處理。
+
+- **最新Vercel檢查（main commit e6ae336015759abe954dadeef56cf20a3ff50701）：**GitHub commit status仍為failure，Vercel明確回報「Deployment rate limited — retry in 24 hours」，連結指向build-rate-limit頁面。這是平台部署額度限制，不是本輪答案覆蓋率檢查失敗；正式Build與Production部署仍未通過。
