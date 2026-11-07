@@ -1,6 +1,6 @@
 [
   {
-    "id": "102-pilotage-01-answer-v2",
+    "id": "102-pilotage-01",
     "questionId": "102-pilotage-01",
     "version": 2,
     "language": "zh-TW",
@@ -10,18 +10,18 @@
     "keyPoints": [
       {
         "point": "Leading Mark",
-        "explanation": "以兩個以上固定標誌對成導線，指示航道或安全航向。",
-        "result": "pass"
+        "explanation": "以兩個以上固定標誌對成導線，指示航道或安全航向。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "Clearing Mark",
-        "explanation": "以方位或重疊關係確認清除危險；與Safe Water Mark分開。",
-        "result": "verified_with_scope"
+        "explanation": "以方位或重疊關係確認清除危險；與Safe Water Mark分開。；查核：verified_with_scope",
+        "importance": "essential"
       },
       {
         "point": "Range Light",
-        "explanation": "以前低後高燈光對正形成夜間導線。",
-        "result": "pass"
+        "explanation": "以前低後高燈光對正形成夜間導線。；查核：pass",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -59,7 +59,7 @@
       "Leading Mark及Range Light在部分教材用語可能交疊；本答案依IHO及NOAA將日標與燈標分別說明。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -69,8 +69,8 @@
         },
         {
           "item": "Clearing Mark",
-          "result": "verified_with_scope",
-          "note": "以方位或重疊關係確認清除危險；與Safe Water Mark分開。"
+          "result": "pass",
+          "note": "限定適用範圍：以方位或重疊關係確認清除危險；與Safe Water Mark分開。"
         },
         {
           "item": "Range Light",
@@ -79,12 +79,10 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "引港學"
+    "lastUpdated": "2026-11-07"
   },
   {
-    "id": "102-pilotage-02-answer-v2",
+    "id": "102-pilotage-02",
     "questionId": "102-pilotage-02",
     "version": 2,
     "language": "zh-TW",
@@ -94,23 +92,23 @@
     "keyPoints": [
       {
         "point": "比例尺大小與細節關係",
-        "explanation": "大比例尺細節多、涵蓋小；小比例尺涵蓋大、細節少。",
-        "result": "pass"
+        "explanation": "大比例尺細節多、涵蓋小；小比例尺涵蓋大、細節少。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "海圖類別",
-        "explanation": "列出總覽、一般、沿岸、進近、港灣及靠泊圖。",
-        "result": "pass"
+        "explanation": "列出總覽、一般、沿岸、進近、港灣及靠泊圖。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "比例尺區間限定",
-        "explanation": "依IHO說明，區間是用途概略指引，並非全球固定標準。",
-        "result": "verified_with_scope"
+        "explanation": "依IHO說明，區間是用途概略指引，並非全球固定標準。；查核：verified_with_scope",
+        "importance": "essential"
       },
       {
         "point": "近岸與港內選圖",
-        "explanation": "要求使用最大比例尺、最新官方海圖及ENC資料。",
-        "result": "pass"
+        "explanation": "要求使用最大比例尺、最新官方海圖及ENC資料。；查核：pass",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -156,7 +154,7 @@
       "不同版本IHO S-4對Overview及General等類別的範圍可能依圖幅及用途調整，實際應以海圖出版機關的圖幅標示為準。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -171,8 +169,8 @@
         },
         {
           "item": "比例尺區間限定",
-          "result": "verified_with_scope",
-          "note": "依IHO說明，區間是用途概略指引，並非全球固定標準。"
+          "result": "pass",
+          "note": "限定適用範圍：依IHO說明，區間是用途概略指引，並非全球固定標準。"
         },
         {
           "item": "近岸與港內選圖",
@@ -181,12 +179,10 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "引港學"
+    "lastUpdated": "2026-11-07"
   },
   {
-    "id": "102-pilotage-03-answer-v2",
+    "id": "102-pilotage-03",
     "questionId": "102-pilotage-03",
     "version": 2,
     "language": "zh-TW",
@@ -196,28 +192,28 @@
     "keyPoints": [
       {
         "point": "Oc(2+3)",
-        "explanation": "解釋Occulting及2+3複合群明暗次序。",
-        "result": "pass"
+        "explanation": "解釋Occulting及2+3複合群明暗次序。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "LFl",
-        "explanation": "每次發光至少2秒。",
-        "result": "pass"
+        "explanation": "每次發光至少2秒。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "VQ",
-        "explanation": "每分鐘80至159次，通常100或120次。",
-        "result": "pass"
+        "explanation": "每分鐘80至159次，通常100或120次。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "Mo(A)",
-        "explanation": "摩斯碼A為短、長。",
-        "result": "pass"
+        "explanation": "摩斯碼A為短、長。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "Alt",
-        "explanation": "交替燈，並註明現代常見Al形式。",
-        "result": "pass"
+        "explanation": "交替燈，並註明現代常見Al形式。；查核：pass",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -301,12 +297,10 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "引港學"
+    "lastUpdated": "2026-11-07"
   },
   {
-    "id": "102-pilotage-04-answer-v2",
+    "id": "102-pilotage-04",
     "questionId": "102-pilotage-04",
     "version": 2,
     "language": "zh-TW",
@@ -316,23 +310,23 @@
     "keyPoints": [
       {
         "point": "太陰日",
-        "explanation": "約24.84太陽小時，月球連續通過同一子午線。",
-        "result": "pass"
+        "explanation": "約24.84太陽小時，月球連續通過同一子午線。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "日潮與混合潮",
-        "explanation": "區分一高一低與兩高兩低且有明顯日不等。",
-        "result": "pass"
+        "explanation": "區分一高一低與兩高兩低且有明顯日不等。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "Stand Tide與Slack Water",
-        "explanation": "明確區分潮位平台與水平潮流憩流。",
-        "result": "pass"
+        "explanation": "明確區分潮位平台與水平潮流憩流。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "Half Tide Level",
-        "explanation": "等同MTL，為MHW與MLW算術平均。",
-        "result": "pass"
+        "explanation": "等同MTL，為MHW與MLW算術平均。；查核：pass",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -395,12 +389,10 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "引港學"
+    "lastUpdated": "2026-11-07"
   },
   {
-    "id": "102-pilotage-05-answer-v2",
+    "id": "102-pilotage-05",
     "questionId": "102-pilotage-05",
     "version": 2,
     "language": "zh-TW",
@@ -410,23 +402,23 @@
     "keyPoints": [
       {
         "point": "氣團定義及形成條件",
-        "explanation": "水平溫濕性質相近，源地廣大、停留時間足夠及環境穩定。",
-        "result": "pass"
+        "explanation": "水平溫濕性質相近，源地廣大、停留時間足夠及環境穩定。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "氣團分類",
-        "explanation": "區分c/m及A/P/T/E，列舉主要組合類型。",
-        "result": "pass"
+        "explanation": "區分c/m及A/P/T/E，列舉主要組合類型。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "臺灣主要氣團",
-        "explanation": "冬季cP、暖季mT，補充mP及氣團變性。",
-        "result": "pass"
+        "explanation": "冬季cP、暖季mT，補充mP及氣團變性。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "氣團變性與地形降雨",
-        "explanation": "說明經過海面增溫增濕及迎風坡降雨。",
-        "result": "pass"
+        "explanation": "說明經過海面增溫增濕及迎風坡降雨。；查核：pass",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -497,12 +489,10 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "引港學"
+    "lastUpdated": "2026-11-07"
   },
   {
-    "id": "102-pilotage-06-answer-v2",
+    "id": "102-pilotage-06",
     "questionId": "102-pilotage-06",
     "version": 2,
     "language": "zh-TW",
@@ -512,23 +502,23 @@
     "keyPoints": [
       {
         "point": "發展期",
-        "explanation": "暖濕空氣上升、積雲快速發展，主要為上升氣流。",
-        "result": "pass"
+        "explanation": "暖濕空氣上升、積雲快速發展，主要為上升氣流。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "成熟期",
-        "explanation": "上升與下降氣流共存，強降雨、雷電及陣風鋒。",
-        "result": "pass"
+        "explanation": "上升與下降氣流共存，強降雨、雷電及陣風鋒。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "消散期",
-        "explanation": "下降氣流占優勢、暖濕入流中斷、降雨減弱。",
-        "result": "pass"
+        "explanation": "下降氣流占優勢、暖濕入流中斷、降雨減弱。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "海上航行及引水風險",
-        "explanation": "補入突發陣風、下擊暴流、風切變、強降雨及能見度驟降。",
-        "result": "pass"
+        "explanation": "補入突發陣風、下擊暴流、風切變、強降雨及能見度驟降。；查核：pass",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -599,8 +589,6 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "引港學"
+    "lastUpdated": "2026-11-07"
   }
 ]
