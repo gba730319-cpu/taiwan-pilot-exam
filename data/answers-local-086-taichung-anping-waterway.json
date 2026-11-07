@@ -1,0 +1,676 @@
+[
+  {
+    "questionId": "086-taichung-waterway-01",
+    "modelAnswer": "【2027年備考主答｜臺中港港內圖、運煤航道及台電碼頭】\n\n繪圖應以臺中港最新官方港區配置圖及115年4月船席水深圖為底圖，依序標出：港口口門、北／南防波堤、外航道、港內航道、迴船水域、各碼頭區、運煤航道、煤碼頭、台電碼頭及相關卸煤設施。另標示燈塔、燈浮、導標、錨地、引水登輪區、VTS及航道水深。\n\n圖面需有指北箭頭、比例尺、圖例、測深基準及資料日期。若題目指定歷史年度，須另查當年港圖，不能以現行圖替代。",
+    "practicalAnalysis": "本題30分，以圖面得分為主。官方目前提供115年4月測深成果，適合2027備考，但不是民國86年歷史港圖。",
+    "keyPoints": [
+      {
+        "point": "港口及防波堤輪廓",
+        "importance": "essential"
+      },
+      {
+        "point": "外航道、港內航道與迴船水域",
+        "importance": "essential"
+      },
+      {
+        "point": "運煤航道及台電碼頭",
+        "importance": "essential"
+      },
+      {
+        "point": "導航設施、錨區與引水登輪區",
+        "importance": "essential"
+      },
+      {
+        "point": "圖例、比例尺、方位與測深基準",
+        "importance": "essential"
+      }
+    ],
+    "assumptions": [
+      "以2027年引水人考試的現行安全作業角度整理；歷史港況與現行資料分開標示。"
+    ],
+    "limitations": [
+      "未取得民國86年臺中港港內圖及運煤航道歷史圖資。"
+    ],
+    "references": [
+      {
+        "title": "臺中港船席水深測量成果圖（115年4月）",
+        "sourceType": "official_port_chart",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/port/Articles?a=775",
+        "supports": "現行全港及各碼頭水深圖。"
+      },
+      {
+        "title": "臺中港港埠設施與碼頭資料",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/zh-tw/port/Articles?a=778",
+        "supports": "現行碼頭用途、長度、水深及設施。"
+      }
+    ],
+    "verification": {
+      "status": "partially_verified"
+    }
+  },
+  {
+    "questionId": "086-taichung-waterway-02",
+    "modelAnswer": "【2027年備考主答｜臺中港港口分道航行圖】\n\n分道航行圖至少應畫出：\n1. 港外進港航路及出港航路，分別以箭頭標示航向。\n2. 進、出港航路間的分隔區／分隔線，避免船舶交叉或逆向航行。\n3. 航路與港口口門、防波堤端部及港內航道的銜接。\n4. 引水人登輪點、外海待命區、錨地及VTS報告點。\n5. 轉向點、航路寬度、推薦航速及限制區（以現行官方海圖／VTS指南為準）。\n\n規劃原則：航路應順應主要船流及港口地形；進出港船舶盡量分流；避免與漁船、近岸交通及錨泊區交錯；留有足夠轉向與避讓水域；標示清楚且可由助航標誌辨識。\n\n【結論】民國86年原始分道航行圖須查歷史公告；2027年作答應依現行海圖、航船佈告及VTS程序重繪。",
+    "practicalAnalysis": "分道航行不是單純畫兩條平行線，必須交代分隔區、航路端點、引水登輪點、口門與交通衝突點。",
+    "keyPoints": [
+      {
+        "point": "進港與出港航路分離",
+        "importance": "essential"
+      },
+      {
+        "point": "分隔區／分隔線清楚",
+        "importance": "essential"
+      },
+      {
+        "point": "引水登輪點、待命區及VTS報告點",
+        "importance": "essential"
+      },
+      {
+        "point": "航路端點與港口口門銜接",
+        "importance": "essential"
+      },
+      {
+        "point": "依交通流、地形、助航標誌及避碰原則設計",
+        "importance": "essential"
+      }
+    ],
+    "assumptions": [
+      "以2027年引水人考試的現行安全作業角度整理；歷史港況與現行資料分開標示。"
+    ],
+    "limitations": [
+      "未取得民國86年臺中港分道航行制原始公告及航路座標。"
+    ],
+    "references": [
+      {
+        "title": "臺中港船席水深測量成果圖（115年4月）",
+        "sourceType": "official_port_chart",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/port/Articles?a=775",
+        "supports": "現行全港及各碼頭水深圖。"
+      },
+      {
+        "title": "臺中港港埠設施與碼頭資料",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/zh-tw/port/Articles?a=778",
+        "supports": "現行碼頭用途、長度、水深及設施。"
+      }
+    ],
+    "verification": {
+      "status": "partially_verified"
+    }
+  },
+  {
+    "questionId": "086-taichung-waterway-03",
+    "modelAnswer": "【2027年備考主答｜滿載煤輪航道中主機故障】\n\n一、立即處置\n1. 船長立即通知引水人主機故障，確認主機是否可短時間恢復、舵機與電力是否正常，並報告VTS及拖船。\n2. 立即評估船舶剩餘動能、風流、航道寬度、前方障礙及最近可用安全水域；保持舵效，避免不必要大舵角。\n3. 依船位與底質、錨機狀況及港方規定，準備緊急拋錨，但不得未經判斷就在航道中任意拋錨，以免阻塞航道或造成錨鏈／船體危險。\n4. 拖船迅速依事先約定的拖帶點與拖纜配置接手控制船首向、縱向速度及橫向偏移；拖船作業須避免拖纜進入螺槳區。\n\n二、能否停靠台電#101碼頭\n不能只憑題幹資料斷言一定可以。須核對#101泊位前沿水深、泊位長度、周邊船舶、船舶吃水12m的UKC、拖船可用BP、拖帶點強度、風流及可用操船水域。若拖船拖力足夠、航道與泊位水深／空間允許、VTS及碼頭同意，可評估拖帶至安全泊位；若控制能力不足，應優先將船舶移至安全水域或錨泊區待修，不可為了靠泊而冒險。\n\n【結論】主機失效後以保舵、報告、控速、拖船接管及必要時安全錨泊為原則；是否能拖靠#101須以現場條件核定。",
+    "practicalAnalysis": "題目所列LOA、GT及吃水仍不足以判斷拖船能否控制225m滿載煤輪。當年拖船名冊、BP及#101水深須查證，不能以船名或HP推估。",
+    "keyPoints": [
+      {
+        "point": "立即通報主機故障並維持舵效",
+        "importance": "essential"
+      },
+      {
+        "point": "評估動能、風流、航道障礙與緊急錨泊",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船依拖帶點、BP與拖纜安全接手",
+        "importance": "essential"
+      },
+      {
+        "point": "不得未經評估在航道中任意拋錨",
+        "importance": "essential"
+      },
+      {
+        "point": "能否靠#101取決於UKC、泊位條件及拖力",
+        "importance": "essential"
+      }
+    ],
+    "assumptions": [
+      "以2027年引水人考試的現行安全作業角度整理；歷史港況與現行資料分開標示。"
+    ],
+    "limitations": [
+      "未取得民國86年台電專用拖船名冊、各船BP、#101碼頭水深及當年作業規範。"
+    ],
+    "references": [
+      {
+        "title": "臺中港船席水深測量成果圖（115年4月）",
+        "sourceType": "official_port_chart",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/port/Articles?a=775",
+        "supports": "現行全港及各碼頭水深圖。"
+      },
+      {
+        "title": "臺中港港埠設施與碼頭資料",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/zh-tw/port/Articles?a=778",
+        "supports": "現行碼頭用途、長度、水深及設施。"
+      }
+    ],
+    "verification": {
+      "status": "partially_verified"
+    }
+  },
+  {
+    "questionId": "086-taichung-waterway-04",
+    "modelAnswer": "【2027年備考主答｜颱風路徑、港內船舶防颱及大潮潮位】\n\n一、颱風路徑影響\n對臺中港的影響不能只以颱風中心路徑判斷，還須看移速、強度、暴風半徑、外圍環流、季風交互作用及港區相對方位。颱風由臺灣海峽北上、由巴士海峽或臺灣東側北上、在臺灣附近轉向或滯留等路徑，均可能因風向與風浪變化對港口造成不同影響；應以中央氣象署警報及港區實測資料判斷。\n\n二、港內停泊船舶防颱\n1. 依港方防颱會議與指示決定留港、移泊或出港避風。\n2. 加強艏艉纜、倒纜及橫纜，採交叉繫纜並預留潮位變化；檢查纜繩磨耗、導纜孔及繫纜樁。\n3. 機艙保持主機、舵機、發電機、錨機及通訊可用，必要時備車。\n4. 拖船及港勤支援、船員值班、貨物繫固、舷梯及岸電管線均須納入防颱。\n5. 依港方指示選擇安全泊位或離港避風，不可只因船舶已繫妥就忽略拖纜負荷。\n\n三、大潮與颱風同時發生\n天文大潮與風暴增水可能疊加，使實際潮位高於一般潮汐預報；若風向持續把海水推向港灣，可能造成水位偏高，亦可能伴隨港內振盪與異常流速。應以實測潮位、氣壓、風場及港方警戒水位判斷。\n\n【結論】防颱重點是預先移泊／避風、加強繫固及保持動力；潮位則須分辨天文潮與風暴增水的疊加效應。",
+    "practicalAnalysis": "題目所稱「七大類路徑」應回查當年教科書或氣象資料的分類，不宜憑空列出固定七類。2027作答以實際風場、風暴增水及港方防颱措施為核心。",
+    "keyPoints": [
+      {
+        "point": "颱風影響取決於路徑、強度、移速及外圍環流",
+        "importance": "essential"
+      },
+      {
+        "point": "停泊船舶加強纜繩、設備、值班及備車",
+        "importance": "essential"
+      },
+      {
+        "point": "依港方指示決定留港、移泊或出港避風",
+        "importance": "essential"
+      },
+      {
+        "point": "大潮與風暴增水可能疊加造成異常高水位",
+        "importance": "essential"
+      },
+      {
+        "point": "使用實測潮位及港區警戒資料",
+        "importance": "essential"
+      }
+    ],
+    "assumptions": [
+      "以2027年引水人考試的現行安全作業角度整理；歷史港況與現行資料分開標示。"
+    ],
+    "limitations": [
+      "未取得民國86年颱風路徑七分類原始教材及歷年臺中港颱風災損統計。"
+    ],
+    "references": [
+      {
+        "title": "臺中港船席水深測量成果圖（115年4月）",
+        "sourceType": "official_port_chart",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/port/Articles?a=775",
+        "supports": "現行全港及各碼頭水深圖。"
+      },
+      {
+        "title": "臺中港港埠設施與碼頭資料",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/zh-tw/port/Articles?a=778",
+        "supports": "現行碼頭用途、長度、水深及設施。"
+      }
+    ],
+    "verification": {
+      "status": "partially_verified"
+    }
+  },
+  {
+    "questionId": "086-taichung-waterway-05",
+    "modelAnswer": "【2027年備考主答｜十級東北季風、滿載貨櫃船靠#32】\n\n本題不宜直接指定固定拖船艘數。LOA 175m、吃水艏7.5m艉9m仍不足以計算風壓與拖船需求；還需船寬、排水量、受風面積、主機舵效、側推器、拖船BP及當日陣風、潮流與浪況。\n\n作業程序：\n1. 進港前取得風速／陣風、波浪、潮位、潮流、能見度及#32碼頭最新水深圖，計算UKC。\n2. 依十級東北風與碼頭走向分解橫風及縱風，評估船舶漂移、偏航及可用操船水域。\n3. 向港方申請足夠拖船，按船首控制、船尾控制及橫移需求配置；拖船艘數以BP及可用拖力核定，不以HP替代。\n4. 船長、引水人、拖船長及碼頭端完成MPX，確認拖帶點、拖纜SWL、通訊及中止條件。\n5. 以低速進港，保持足夠舵效；進入泊位前先控制縱向速度，再以拖船控制船首向與橫移，船身與碼頭平行後平移平靠。\n6. 若風力或拖船能力超出可控制範圍，應等待風勢減弱或改期靠泊。\n\n【結論】十級風下安全決策優先於完成靠泊；拖船數量必須由完整船舶資料、BP及實際風流計算。",
+    "practicalAnalysis": "題目未提供風壓面積、船舶排水量、拖船BP及當時陣風，故不填「幾艘」的武斷數字。應呈現如何核定拖船數量及安全中止條件。",
+    "keyPoints": [
+      {
+        "point": "以#32最新水深圖計算UKC",
+        "importance": "essential"
+      },
+      {
+        "point": "十級東北風須評估陣風、風壓及漂移",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船艘數依BP、船舶受風面積與風流決定",
+        "importance": "essential"
+      },
+      {
+        "point": "完成MPX並確認拖帶點、SWL與通訊",
+        "importance": "essential"
+      },
+      {
+        "point": "低速、先控縱速再控制橫移，平行平靠",
+        "importance": "essential"
+      },
+      {
+        "point": "超出控制能力時延後靠泊",
+        "importance": "essential"
+      }
+    ],
+    "assumptions": [
+      "以2027年引水人考試的現行安全作業角度整理；歷史港況與現行資料分開標示。"
+    ],
+    "limitations": [
+      "未取得民國86年#32泊位水深、拖船BP、船舶受風面積及當日氣象資料。"
+    ],
+    "references": [
+      {
+        "title": "臺中港船席水深測量成果圖（115年4月）",
+        "sourceType": "official_port_chart",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/port/Articles?a=775",
+        "supports": "現行全港及各碼頭水深圖。"
+      },
+      {
+        "title": "臺中港港埠設施與碼頭資料",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/zh-tw/port/Articles?a=778",
+        "supports": "現行碼頭用途、長度、水深及設施。"
+      }
+    ],
+    "verification": {
+      "status": "partially_verified"
+    }
+  },
+  {
+    "questionId": "086-taichung-waterway-06",
+    "modelAnswer": "【2027年備考主答｜臺中港霧季及霧中引水】\n\n臺中港霧季月份與最低能見度屬地方氣象統計，須引用港區能見度紀錄或氣象署統計，不應把其他港口霧季直接套用。霧中引水作業應依現行VTS能見度管制及COLREG第19條執行。\n\n作業注意事項：\n1. 出港前取得港區能見度、雷達回波、AIS目標、風流及航道交通資訊。\n2. 遵守港方能見度管制，若低於大型船舶進出港門檻，應停止進出港或等待改善。\n3. 降低至安全航速，保持雷達雙重觀測、目視瞭望、聽覺瞭望及VHF通訊。\n4. 依COLREG第19條判斷碰撞危險，避免僅依AIS資料作避碰決策。\n5. 船舶在狹水道／航道內應保持在安全可行的航道側，並依規定鳴放霧號。\n6. 引水人應與船長確認主機、舵機、雷達、測深儀及定位設備狀況；能見度突降時採取最安全措施，必要時停航或在安全水域待命。\n\n【結論】霧季月份與歷史最低能見度先列待查；2027作答重點是依港方能見度限制及COLREG第19條採安全航速、加強瞭望與適時停止作業。",
+    "practicalAnalysis": "歷史題問月份及最低能見度，必須由臺中港測站紀錄支持；不能憑季節印象寫死月份或能見度數字。",
+    "keyPoints": [
+      {
+        "point": "霧季月份與最低能見度須查港區統計",
+        "importance": "essential"
+      },
+      {
+        "point": "遵守港方能見度管制",
+        "importance": "essential"
+      },
+      {
+        "point": "COLREG第19條安全航速與瞭望",
+        "importance": "essential"
+      },
+      {
+        "point": "雷達、AIS、VHF及霧號配合",
+        "importance": "essential"
+      },
+      {
+        "point": "能見度突降時採最安全措施",
+        "importance": "essential"
+      }
+    ],
+    "assumptions": [
+      "以2027年引水人考試的現行安全作業角度整理；歷史港況與現行資料分開標示。"
+    ],
+    "limitations": [
+      "未取得民國86年臺中港霧季統計、歷史最低能見度及現行港方能見度管制表。"
+    ],
+    "references": [
+      {
+        "title": "臺中港船席水深測量成果圖（115年4月）",
+        "sourceType": "official_port_chart",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/port/Articles?a=775",
+        "supports": "現行全港及各碼頭水深圖。"
+      },
+      {
+        "title": "臺中港港埠設施與碼頭資料",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司臺中港務分公司",
+        "url": "https://tc.twport.com.tw/zh-tw/port/Articles?a=778",
+        "supports": "現行碼頭用途、長度、水深及設施。"
+      }
+    ],
+    "verification": {
+      "status": "partially_verified"
+    }
+  },
+  {
+    "questionId": "086-anping-waterway-01",
+    "modelAnswer": "【2027年備考主答｜安平港簡圖、導航設施、碼頭方位、水深及6m等深線】\n\n依現行官方資料，安平港位於臺南西南海岸，港口朝W30°S；南、北防波堤構成港口口門，主航道設計水深約-12m、有效寬約180m，迴船池直徑約500m、水深約-12m。碼頭依工業區、五期重劃區、四鯤鯓及其他區域分布。\n\n繪圖時應標示：\n1. 北、南防波堤及口門。\n2. 主航道、迴船池及外港／內港水域。\n3. 各碼頭編號、岸線方位、現行用途及最新船席水深。\n4. 助航標誌：防波堤燈塔、航道燈浮、導標及其他導航設施，位置以最新海圖為準。\n5. 6m等深線須依最新官方水深圖繪出，不能由-12m航道設計水深自行推算。\n\n【結論】本題圖面必須以水深圖為底圖，將碼頭方位與6m等深線準確標示；現行港圖不能當作民國86年歷史港圖。",
+    "practicalAnalysis": "官方現行資料提供港口方位、航道寬深、迴船池及碼頭資料；精確6m等深線及燈浮座標須從最新海圖／測深圖讀取。",
+    "keyPoints": [
+      {
+        "point": "港口朝W30°S，南北防波堤及口門",
+        "importance": "essential"
+      },
+      {
+        "point": "主航道約180m寬、設計水深-12m",
+        "importance": "essential"
+      },
+      {
+        "point": "迴船池直徑約500m、水深-12m",
+        "importance": "essential"
+      },
+      {
+        "point": "標示碼頭編號、方位、用途及水深",
+        "importance": "essential"
+      },
+      {
+        "point": "6m等深線及導航設施位置依官方水深圖",
+        "importance": "essential"
+      }
+    ],
+    "assumptions": [
+      "以2027年引水人考試的現行安全作業角度整理；歷史港況與現行資料分開標示。"
+    ],
+    "limitations": [
+      "未取得民國86年安平港原始水深圖與6m等深線；現行港區資料僅作2027參考。"
+    ],
+    "references": [
+      {
+        "title": "安平港港埠資訊",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/port/Articles?a=258",
+        "supports": "現行航道、迴船池、碼頭長度與水深。"
+      },
+      {
+        "title": "安平港船舶交通服務指南（115年3月17日）",
+        "sourceType": "official_port_guide",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://www.twport.com.tw/fapi/AttFile?id=14218&l=1&type=AttFile",
+        "supports": "現行港域、單出單進、航道與船舶交通規定。"
+      },
+      {
+        "title": "安平港港口資訊",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司",
+        "url": "https://www.twport.com.tw/business/PortInfo?a=527",
+        "supports": "港口位置、口門、航道、迴船池及計畫船型。"
+      }
+    ],
+    "verification": {
+      "status": "partially_verified"
+    }
+  },
+  {
+    "questionId": "086-anping-waterway-02",
+    "modelAnswer": "【2027年備考主答｜通過護岸耗時兩分鐘求船速】\n\n本題未提供護岸兩端的距離，因此不能算出唯一數值。若船舶通過護岸所經距離為D公尺，耗時2分鐘：\n\n速度（m/s） = D ÷ 120\n速度（kn） = (D ÷ 1852) ÷ (2/60)\n             = D × 60 ÷ 3704\n\n若D以海浬表示，則：\n速度（kn） = 距離（NM） ÷ (2/60) = 30 × D（NM）。\n\n例如僅作公式示範，若通過距離為100m，速度約1.62kn；此例不是題目實際距離，不能當作答案。",
+    "practicalAnalysis": "計算題關鍵在距離單位。題幹若原卷圖示有標出護岸長度或兩端標誌距離，應取該距離代入；沒有距離就必須列式並說明資料不足。",
+    "keyPoints": [
+      {
+        "point": "先確認通過護岸的實際距離",
+        "importance": "essential"
+      },
+      {
+        "point": "時間2分鐘=120秒=1/30小時",
+        "importance": "essential"
+      },
+      {
+        "point": "m/s=D/120；kn=D×60/3704（D以m）",
+        "importance": "essential"
+      },
+      {
+        "point": "若D以NM，速度=30D kn",
+        "importance": "essential"
+      },
+      {
+        "point": "不得把示例距離當成題目數據",
+        "importance": "essential"
+      }
+    ],
+    "assumptions": [
+      "以2027年引水人考試的現行安全作業角度整理；歷史港況與現行資料分開標示。"
+    ],
+    "limitations": [
+      "原題文字未提供護岸距離或附圖尺寸，需核對原始試卷圖示。"
+    ],
+    "references": [
+      {
+        "title": "安平港港埠資訊",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/port/Articles?a=258",
+        "supports": "現行航道、迴船池、碼頭長度與水深。"
+      },
+      {
+        "title": "安平港船舶交通服務指南（115年3月17日）",
+        "sourceType": "official_port_guide",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://www.twport.com.tw/fapi/AttFile?id=14218&l=1&type=AttFile",
+        "supports": "現行港域、單出單進、航道與船舶交通規定。"
+      },
+      {
+        "title": "安平港港口資訊",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司",
+        "url": "https://www.twport.com.tw/business/PortInfo?a=527",
+        "supports": "港口位置、口門、航道、迴船池及計畫船型。"
+      }
+    ],
+    "verification": {
+      "status": "partially_verified"
+    }
+  },
+  {
+    "questionId": "086-anping-waterway-03",
+    "modelAnswer": "【2027年備考主答｜安平港潮汐與潮流】\n\n安平港位於臺灣西南沿岸，受半日潮型態及沿岸地形影響，潮位與潮流須分開說明。官方現行港口資料列平均潮差約0.57m；但此數值不能代替特定日期的大潮、小潮或港內潮流實測。\n\n作答重點：\n1. 潮汐：說明漲潮、滿潮、落潮、乾潮及潮差；潮時與潮高應查安平港潮汐表。\n2. 潮流：方向與流速會受口門、航道、港池、沿岸流及風場影響，不能僅以潮汐漲落方向推定全港流向。\n3. 引水作業：進出港時須取得當日潮位、潮流預報與實測；評估橫流、偏航、船舶吃水、UKC及靠離泊窗口。\n4. 水深基準：潮高與海圖水深必須使用一致基準，避免基準面混用。\n\n【結論】平均潮差可作概況，但實際引水決策必須依當日潮汐表、潮流觀測及港內水域差異判斷。",
+    "practicalAnalysis": "題目問潮汐與潮流概況，應分別交代潮型、平均潮差及局部潮流。歷史潮流方向／速率未查證前不應寫固定節數。",
+    "keyPoints": [
+      {
+        "point": "潮汐與潮流分開說明",
+        "importance": "essential"
+      },
+      {
+        "point": "現行官方資料平均潮差約0.57m",
+        "importance": "essential"
+      },
+      {
+        "point": "潮流方向及速率須依測站、潮時及位置",
+        "importance": "essential"
+      },
+      {
+        "point": "進出港計算UKC並使用一致水深基準",
+        "importance": "essential"
+      },
+      {
+        "point": "使用當日潮汐表及實測資料",
+        "importance": "essential"
+      }
+    ],
+    "assumptions": [
+      "以2027年引水人考試的現行安全作業角度整理；歷史港況與現行資料分開標示。"
+    ],
+    "limitations": [
+      "未取得民國86年安平港潮流觀測報告及當年潮汐表。"
+    ],
+    "references": [
+      {
+        "title": "安平港港埠資訊",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/port/Articles?a=258",
+        "supports": "現行航道、迴船池、碼頭長度與水深。"
+      },
+      {
+        "title": "安平港船舶交通服務指南（115年3月17日）",
+        "sourceType": "official_port_guide",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://www.twport.com.tw/fapi/AttFile?id=14218&l=1&type=AttFile",
+        "supports": "現行港域、單出單進、航道與船舶交通規定。"
+      },
+      {
+        "title": "安平港港口資訊",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司",
+        "url": "https://www.twport.com.tw/business/PortInfo?a=527",
+        "supports": "港口位置、口門、航道、迴船池及計畫船型。"
+      }
+    ],
+    "verification": {
+      "status": "partially_verified"
+    }
+  },
+  {
+    "questionId": "086-anping-waterway-04",
+    "modelAnswer": "【2027年備考主答｜颱風過後於安平港外安全接引水人】\n\n一、登輪前評估\n確認颱風警報解除狀態、港方復航公告、港外風浪、湧浪、潮流、能見度及引水船可用狀態；同時確認船舶舷梯、引水梯、照明及船側登輪位置符合SOLAS要求。\n\n二、接近方式\n1. 船舶與引水站／引水船保持VHF聯繫，依港方指定登輪區及程序接近。\n2. 依風浪方向選擇較平穩的下風舷，調整航向與速度，使船舶在引水梯側形成安全遮蔽水域（lee）。\n3. 船速應足以維持操縱，但不可過快造成引水船相對速度及船側浪流危險。\n4. 避免船舶在大湧浪中橫向拍浪；若引水船無法安全靠近、登輪區湧浪過大或引水梯無法穩定，應暫緩登輪。\n5. 引水人登輪後確認船長MPX，核對主機、舵機、錨及通訊狀態，再依港方許可進港。\n\n【結論】颱風後不以警報解除作為唯一安全依據；須確認港外湧浪及引水船登輪條件，必要時延後引水登輪。",
+    "practicalAnalysis": "此題重點是引水人安全，不是強行把船開到登輪點。颱風後長週期湧浪可能持續，即使風勢減弱也可能不適合登輪。",
+    "keyPoints": [
+      {
+        "point": "確認港方復航與登輪許可",
+        "importance": "essential"
+      },
+      {
+        "point": "評估港外湧浪、風流與引水船能力",
+        "importance": "essential"
+      },
+      {
+        "point": "選擇安全舷側並建立lee",
+        "importance": "essential"
+      },
+      {
+        "point": "控制船速與相對運動",
+        "importance": "essential"
+      },
+      {
+        "point": "登輪不安全時延後，不強行接引水人",
+        "importance": "essential"
+      }
+    ],
+    "assumptions": [
+      "以2027年引水人考試的現行安全作業角度整理；歷史港況與現行資料分開標示。"
+    ],
+    "limitations": [
+      "未取得民國86年安平港引水登輪區及當年登輪程序；作業須依現行港方指南。"
+    ],
+    "references": [
+      {
+        "title": "安平港港埠資訊",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/port/Articles?a=258",
+        "supports": "現行航道、迴船池、碼頭長度與水深。"
+      },
+      {
+        "title": "安平港船舶交通服務指南（115年3月17日）",
+        "sourceType": "official_port_guide",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://www.twport.com.tw/fapi/AttFile?id=14218&l=1&type=AttFile",
+        "supports": "現行港域、單出單進、航道與船舶交通規定。"
+      },
+      {
+        "title": "安平港港口資訊",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司",
+        "url": "https://www.twport.com.tw/business/PortInfo?a=527",
+        "supports": "港口位置、口門、航道、迴船池及計畫船型。"
+      }
+    ],
+    "verification": {
+      "status": "partially_verified"
+    }
+  },
+  {
+    "questionId": "086-anping-waterway-05",
+    "modelAnswer": "【2027年備考主答｜判斷船艉在水面上的大概位置】\n\n船艉位置不能只靠駕駛台正前方視線判斷，應綜合下列方法：\n1. 船艉／船尾甲板視線：利用艉端、艉角、舷牆或甲板固定標記作為相對位置參考。\n2. 岸上固定物方位：選取岸上明顯固定目標，觀察其相對艉部的方位與移動，判斷船尾是否向外掃。\n3. 雷達／ECDIS：以船位、船首向及船長尺度推估船艉位置；確認天線位置與GNSS天線偏移量，避免把天線位置誤當船艉。\n4. 引水人／船長協作：安排船艉瞭望員，以VHF或內部通訊回報船尾與碼頭、他船及障礙物的距離。\n5. 轉向時考慮船尾外掃（swing-out）及船體慣性，不可只看船首是否已通過障礙。\n\n【結論】以船體固定參考點、岸上目標、電子定位及船艉瞭望交叉確認；轉向時特別留意船尾外掃。",
+    "practicalAnalysis": "題目要的是「大概位置」，可用目視相對方位與船體尺度快速估算；高精度靠泊則需結合雷達／ECDIS偏移、瞭望員回報及拖船控制。",
+    "keyPoints": [
+      {
+        "point": "辨識艉端與艉角固定參考點",
+        "importance": "essential"
+      },
+      {
+        "point": "利用岸上固定物相對方位",
+        "importance": "essential"
+      },
+      {
+        "point": "雷達／ECDIS需校正天線與船艉偏移",
+        "importance": "essential"
+      },
+      {
+        "point": "安排船艉瞭望員回報",
+        "importance": "essential"
+      },
+      {
+        "point": "轉向時考慮船尾外掃",
+        "importance": "essential"
+      }
+    ],
+    "assumptions": [
+      "以2027年引水人考試的現行安全作業角度整理；歷史港況與現行資料分開標示。"
+    ],
+    "limitations": [
+      "原題未附船型或駕駛台視線配置，答案以通用操船方法整理。"
+    ],
+    "references": [
+      {
+        "title": "安平港港埠資訊",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/port/Articles?a=258",
+        "supports": "現行航道、迴船池、碼頭長度與水深。"
+      },
+      {
+        "title": "安平港船舶交通服務指南（115年3月17日）",
+        "sourceType": "official_port_guide",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://www.twport.com.tw/fapi/AttFile?id=14218&l=1&type=AttFile",
+        "supports": "現行港域、單出單進、航道與船舶交通規定。"
+      },
+      {
+        "title": "安平港港口資訊",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司",
+        "url": "https://www.twport.com.tw/business/PortInfo?a=527",
+        "supports": "港口位置、口門、航道、迴船池及計畫船型。"
+      }
+    ],
+    "verification": {
+      "status": "partially_verified"
+    }
+  },
+  {
+    "questionId": "086-anping-waterway-06",
+    "modelAnswer": "【2027年備考主答｜6,000 GT、吃水6m水泥船靠安平港6號碼頭】\n\n一、泊位與水深\n現行安平港官方碼頭表列6號碼頭長約150m、水深約-7.5m；船舶吃水6m時，不能只以1.5m差值判斷可進港，還須扣除潮位基準差、squat、波浪運動、縱傾／橫傾及測深誤差，計算UKC。另須核對船舶LOA是否符合碼頭長度及實際可用靠泊長度。\n\n二、進港及靠泊\n1. 依現行安平港VTS指南採單出單進方式，先取得進港許可並確認航道無出港船舶。\n2. 依最新海圖、航道測深及當日潮流規劃航跡；不能僅憑舊題記憶給出固定航向，實際航向須依官方航道邊界與轉向點核定。\n3. 完成MPX，確認2,400HP拖船之BP、拖帶點及拖纜SWL；HP不能直接換算拖力。\n4. 以拖船控制船首向與橫移，進入迴船池後依船舶操縱特性調整船首向；靠近6號碼頭前先減低縱向速度，再將船身調整與碼頭平行。\n5. 以低速平移平靠，按風流與靠泊舷帶妥艏艉纜及橫纜；如UKC不足、拖力不足或交通窗口不安全，應等待潮窗或延後靠泊。\n\n【結論】現行6號碼頭水深約-7.5m、長約150m，可作初步檢核；實際可否靠泊仍須看船舶LOA、潮位、UKC及拖船BP。",
+    "practicalAnalysis": "原題要求列沿路航向，但現行航道與助航設施可能已變更；必須從最新海圖及VTS指南取得航路點，不能在沒有圖資時臆造航向。",
+    "keyPoints": [
+      {
+        "point": "現行6號碼頭長150m、水深約-7.5m",
+        "importance": "essential"
+      },
+      {
+        "point": "吃水6m仍須計算UKC與潮位",
+        "importance": "essential"
+      },
+      {
+        "point": "安平港現行單出單進，依VTS許可",
+        "importance": "essential"
+      },
+      {
+        "point": "2,400HP拖船須查BP及拖纜SWL",
+        "importance": "essential"
+      },
+      {
+        "point": "進入迴船池後低速調向，船身平行後平移平靠",
+        "importance": "essential"
+      },
+      {
+        "point": "航向與轉向點依最新海圖，不沿用舊制",
+        "importance": "essential"
+      }
+    ],
+    "assumptions": [
+      "以2027年引水人考試的現行安全作業角度整理；歷史港況與現行資料分開標示。"
+    ],
+    "limitations": [
+      "未取得民國86年安平港航道圖及當年6號碼頭水深；未提供船舶LOA、排水量與拖船BP。"
+    ],
+    "references": [
+      {
+        "title": "安平港港埠資訊",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/port/Articles?a=258",
+        "supports": "現行航道、迴船池、碼頭長度與水深。"
+      },
+      {
+        "title": "安平港船舶交通服務指南（115年3月17日）",
+        "sourceType": "official_port_guide",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "url": "https://www.twport.com.tw/fapi/AttFile?id=14218&l=1&type=AttFile",
+        "supports": "現行港域、單出單進、航道與船舶交通規定。"
+      },
+      {
+        "title": "安平港港口資訊",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司",
+        "url": "https://www.twport.com.tw/business/PortInfo?a=527",
+        "supports": "港口位置、口門、航道、迴船池及計畫船型。"
+      }
+    ],
+    "verification": {
+      "status": "partially_verified"
+    }
+  }
+]
