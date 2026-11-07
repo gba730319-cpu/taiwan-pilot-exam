@@ -2,10 +2,10 @@
   {
     "id": "answer-112-pilotage-03",
     "questionId": "112-pilotage-03",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "一、Nominal Range（標稱光程）與 Luminous Range（發光光程）\n（一）Luminous Range：指在當時大氣透明度（氣象能見度）及燈光發光強度條件下，航海燈光可被看見的最大距離。其主要受燈光光度、光學設備及大氣透射率影響，並可用Allard's law估算。霧、雨、煙霾或濕度造成大氣透射率下降時，發光光程縮短。\n（二）Nominal Range：指航標燈在標準氣象能見度10海里（meteorological visibility 10 nautical miles）條件下的發光光程。它是用來比較及標示燈光性能的標準化數值，不代表任何天候下實際可見距離。\n（三）比較：Luminous Range會隨當時能見度與燈光強度變化；Nominal Range是在標準能見度10浬下的標準化光程。實際觀測距離還受觀測者眼睛、背景亮度、燈高及地理光程（Geographical Range）限制；燈光即使光學上可見，也可能因地球曲率或地平線遮蔽而看不到。\n\n二、Lateral System（側面標誌系統）與 Cardinal System（方位標誌系統）\n（一）Lateral System：用於標示航道左右側或航道分支，辨識時須依規定的浮標方向（Direction of Buoyage），通常由海向港內或由主管機關指定方向判讀。IALA A區與B區的左右舷顏色相反：A區進港左舷紅、右舷綠；B區進港左舷綠、右舷紅。臺灣、日本及韓國屬IALA B區。側面標誌通常以顏色、形狀、頂標及燈光節奏辨識。\n（二）Cardinal System：以北、東、南、西四個方位標誌，表示危險物周圍哪一側為可航水域；船舶應從標誌所指示的安全方位側通過。四種標誌的顏色與頂標如下：北方位標黑色在上、黃色在下，兩黑錐尖端朝上；東方位標黑黃黑，兩錐底對底；南方位標黃黑，兩錐尖端朝下；西方位標黃黑黃，兩錐尖端相對。燈光為白色，節奏分別為北Q/VQ連續、東Q(3)/VQ(3)、南Q(6)+長閃/VQ(6)+長閃、西Q(9)/VQ(9)。\n（三）比較：側面標誌主要表示航道邊界及左右舷，顏色規則依IALA A/B區不同；方位標誌表示危險物相對方位及安全通過側，全球顏色與頂標規則一致。側面標誌不能脫離浮標方向判讀，方位標誌則以羅經方位判讀。\n\n三、Stand of Tide（停潮／潮位停滯）與 Slack Water（憩流／平潮流）\n（一）Stand of Tide：指高潮或低潮附近，潮位在一段時間內變化很小、看起來暫時停留的現象。重點是水面高度（tide level）變化很小，並非必然代表水流完全停止。\n（二）Slack Water：指潮流由漲轉落或由落轉漲附近，潮流速度短暫降至接近零或很小的時段，之後流向反轉。重點是水體水平流動速度，而不是潮位高度。\n（三）比較及實務：潮位達高潮／低潮時，不一定同時發生憩流；因潮波傳播、地形及水深等因素，潮位轉折與潮流轉向可能有時間差。引水作業應分別查潮汐表及潮流資料，不能把高潮、低潮時刻直接當作流速為零的時間。\n\n結論：Nominal Range是在10浬標準能見度下的標準化光程，Luminous Range則隨當時能見度變化；Lateral System標示航道左右側，Cardinal System標示危險物周圍安全方位；Stand of Tide描述潮位高度暫停變化，Slack Water描述潮流速度接近零。",
+    "modelAnswer": "【2027年考試主答｜現行航海術語查核截至2026-11-07】\n\n一、Nominal Range（標稱光程）與 Luminous Range（發光光程）\n（一）Luminous Range：指在當時大氣透明度／氣象能見度及燈光發光強度條件下，航標燈可被看見的最大光學距離。它不考慮地球曲率、燈高及觀測者眼高；實際可見距離還可能受地理光程限制。\n（二）Nominal Range：指航標燈在均勻大氣、氣象能見度10海里條件下的發光光程，是標準化的燈光性能數值，不代表當時實際可見距離。\n（三）比較：Luminous Range會隨當時能見度及燈光強度改變；Nominal Range則以10海里標準氣象能見度表示。實際目視發現燈光時，還須考慮Geographical Range（地理光程）、燈高、觀測者眼高、背景光及船舶運動。\n\n二、Lateral System（側面標誌系統）與 Cardinal System（方位標誌系統）\n（一）Lateral System：用於標示航道左右側或航道分支，必須依主管機關公布的Direction of Buoyage判讀，通常為由海向港內或沿主管機關指定方向。臺灣屬IALA Region B：依標準浮標方向進港時，左舷標誌為綠色、右舷標誌為紅色；Region A則相反。側面標誌通常以顏色、形狀、頂標及燈光節奏辨識。\n（二）Cardinal System：以北、東、南、西四種方位標誌，表示危險物周圍哪一側為可航水域。船舶應從標誌所命名的方位側通過。四種方位標誌的顏色、頂標及燈光節奏在Region A、B均相同。\n（三）比較：側面標誌表示航道左右邊界，顏色依A/B區不同；方位標誌表示危險物周圍安全通過方向，全球採相同規則。側面標誌不能脫離浮標方向判讀，方位標誌則以羅經方位判讀。\n\n三、Stand of Tide（停潮／潮位停滯）與 Slack Water（憩流／平潮流）\n（一）Stand of Tide：高潮或低潮附近，潮位高度在一段時間內沒有可察覺的變化，水面看起來暫時停留。重點是垂直潮位變化率很小，不代表水平潮流必然停止。\n（二）Slack Water：潮流速度降至零或接近零，尤其指轉流前後潮流方向改變的時段。水體水平流速接近零，之後通常轉為相反方向。\n（三）比較及實務：潮位轉折與潮流轉向不一定同時發生，時間差取決於潮波傳播、海岸地形、水深及局部潮流型態。理想駐波中憩流可能接近高潮／低潮；理想前進波中憩流可能接近高潮與低潮之間。因此引水作業應分別查潮汐表及潮流資料，不可直接把高潮、低潮時刻當作流速為零。\n\n結論：Nominal Range是10海里標準氣象能見度下的標準化發光光程，Luminous Range是當時大氣條件下的光學可見距離；Lateral System標示航道左右側，Cardinal System標示危險物周圍安全方位；Stand of Tide描述潮位高度暫停變化，Slack Water描述潮流速度接近零。",
     "practicalAnalysis": "每小題10分，作答應採「定義—比較—航海應用」結構。第一小題必須寫出Nominal Range的10浬標準能見度；第二小題必須點出臺灣屬IALA B區；第三小題必須清楚區分潮位與潮流，並指出高潮／低潮不必然與憩流同時發生。",
     "keyPoints": [
       {
@@ -61,6 +61,46 @@
         "issuer": "UK Hydrographic Office",
         "url": "https://www.admiralty.co.uk/",
         "supports": "潮位與潮流資料的區別及航海應用。"
+      },
+      {
+        "title": "IALA Dictionary — Nominal Range",
+        "sourceType": "official_navigation_dictionary",
+        "issuer": "International Organization for Marine Aids to Navigation",
+        "url": "https://www.iala.int/wiki/dictionary/index.php/Nominal_Range",
+        "supports": "標稱光程為均勻大氣、氣象能見度10海里下的發光光程。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Admiralty List of Lights and Fog Signals",
+        "sourceType": "official_hydrographic_publication",
+        "issuer": "UK Hydrographic Office",
+        "url": "https://www.admiralty.co.uk/publications/admiralty-list-lights-and-fog-signals",
+        "supports": "燈光發光光程、地理光程及航標燈資料的航海應用。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "R1001 — The IALA Maritime Buoyage System, Edition 2.0",
+        "sourceType": "IALA_standard",
+        "issuer": "International Organization for Marine Aids to Navigation",
+        "url": "https://www.iala.int/product/r1001/",
+        "supports": "側面標誌A/B區差異及方位標誌系統。修訂日期2023年6月3日。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Tidal Glossary",
+        "sourceType": "official_hydrographic_glossary",
+        "issuer": "Australian Hydrographic Office",
+        "url": "https://www.hydro.gov.au/hydrography/tidal-information/tidal-glossary",
+        "supports": "Slack Water及Stand of Tide的水文定義。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "NOAA Tides and Currents Glossary",
+        "sourceType": "official_hydrographic_glossary",
+        "issuer": "NOAA",
+        "url": "https://tidesandcurrents.noaa.gov/glossary",
+        "supports": "Slack water與潮汐相位的關係可能因駐波或前進波而不同。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -69,18 +109,23 @@
       "Stand of Tide與Slack Water的時間差依各地潮波、地形及水深而異，不能套用固定時間。"
     ],
     "verification": {
-      "status": "partially_verified",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "題目",
+          "item": "Nominal與Luminous Range定義",
           "result": "pass",
-          "note": "依112年度題庫主檔核對題目。"
+          "note": "依IALA Dictionary及UKHO出版物核對10海里標準能見度與現況光程的差異。"
         },
         {
-          "item": "主要專業依據",
+          "item": "IALA A/B區及方位標誌系統",
           "result": "pass",
-          "note": "依IMO／IHO／IALA官方標準或主管機關資料整理。"
+          "note": "依IALA R1001 Edition 2.0（2023-06-03修訂）核對；臺灣屬Region B。"
+        },
+        {
+          "item": "Stand of Tide與Slack Water",
+          "result": "pass",
+          "note": "依澳洲水道測量局及NOAA潮汐詞彙表核對，並補充駐波／前進波造成的相位差。"
         }
       ]
     },
