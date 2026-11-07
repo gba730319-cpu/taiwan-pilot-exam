@@ -1,0 +1,77 @@
+[
+  {
+    "id": "answer-112-english-03",
+    "questionId": "112-english-03",
+    "version": 1,
+    "language": "en",
+    "answerType": "essay",
+    "modelAnswer": "(1) Dragging (of anchor)\nThe condition in which an anchor fails to hold the vessel in its intended position and moves along the seabed under the force of wind, current or waves, causing the vessel to drift from its anchorage.\n\n(2) Leeward\nThe side or direction away from which the wind is blowing; the side sheltered from the wind. The opposite side is windward.\n\n(3) Boarding speed\nThe low and controlled speed of a vessel when a pilot or other person is transferring between a pilot boat and the ship. It should be suitable for the prevailing weather and sea conditions and should allow a safe approach, transfer and recovery. There is no single universal speed applicable to every vessel; the master and pilot boat coxswain should agree a safe speed and heading in accordance with local procedures and the pilot transfer arrangement.\n\n(4) Drifting\nThe movement of a vessel or floating object away from its intended position under the influence of wind, current, waves or other external forces, particularly when it is not making effective way through the water or is unable to maintain its intended course or position.",
+    "practicalAnalysis": "Terminology notes:\n- Dragging of anchor: distinguish from ordinary swinging at anchor. A vessel swings around a holding anchor as wind/current changes; dragging means the anchor is not holding and the vessel's position changes over the seabed.\n- Leeward: downwind/sheltered side; windward is the side facing the wind.\n- Boarding speed: the question concerns pilot transfer. Do not give a fixed number of knots unless the port, vessel and pilot boat procedures specify one. A safe heading and lee may be as important as speed.\n- Drifting: a broad motion caused by external forces; it may occur with an anchor dragging, loss of propulsion or while the vessel is not maintaining a controlled track.",
+    "keyPoints": [
+      {
+        "point": "Dragging anchor = anchor does not hold and moves over the seabed, so the vessel's position changes.",
+        "importance": "essential"
+      },
+      {
+        "point": "Leeward = downwind or sheltered side; opposite is windward.",
+        "importance": "essential"
+      },
+      {
+        "point": "Boarding speed = controlled low speed suitable for safe pilot transfer; no universal fixed speed.",
+        "importance": "essential"
+      },
+      {
+        "point": "Drifting = movement under wind, current, waves or other external forces away from intended position.",
+        "importance": "essential"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "note": "Official item-by-item marking scheme not obtained; suggested structure only."
+    },
+    "references": [
+      {
+        "title": "IMO Resolution A.1045(27) — Pilot Transfer Arrangements",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1045%2827%29.pdf",
+        "supports": "Pilot transfer arrangements, safe transfer procedures and operational conditions."
+      },
+      {
+        "title": "IMO Pilotage",
+        "sourceType": "official_guidance",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/pilotage.aspx",
+        "supports": "Pilot boarding safety and SOLAS regulation V/23."
+      },
+      {
+        "title": "International Dictionary of Marine Aids to Navigation",
+        "sourceType": "official_maritime_dictionary",
+        "issuer": "IALA",
+        "url": "https://www.iala.int/wiki/dictionary/",
+        "supports": "Standard maritime terminology and definitions."
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "Boarding speed is operationally determined by vessel/pilot boat characteristics, weather, sea state and local instructions; no universal numerical speed is specified."
+    ],
+    "verification": {
+      "status": "verified_with_scope",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "Original question",
+          "result": "pass",
+          "note": "Checked against the 112 examination question bank."
+        },
+        {
+          "item": "English terminology",
+          "result": "pass",
+          "note": "Cross-checked with IMO SMCP and standard maritime usage."
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
