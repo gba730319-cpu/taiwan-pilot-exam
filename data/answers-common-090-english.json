@@ -1,0 +1,282 @@
+[
+  {
+    "id": "090-english-01-answer-v1",
+    "questionId": "090-english-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "**Resolution 10 — Training of Maritime Pilots, Vessel Traffic Service Personnel and Maritime Personnel Employed on Mobile Offshore Units**\n\nThe Conference,\n\nHaving adopted the 1995 amendments to the International Convention on Standards of Training, Certification and Watchkeeping for Seafarers, 1978;\n\nBearing in mind the contribution made by maritime pilots, vessel traffic service personnel and maritime personnel employed on board mobile offshore units to the safety of life and property at sea and to the protection of the marine environment;\n\nNoting that time constraints have prevented full consideration from being given to the possibility of including provisions on the training and certification of such personnel in the amendments to the 1978 STCW Convention adopted by the Conference;\n\n**Invites the International Maritime Organization to consider developing provisions covering the training and certification of maritime pilots, vessel traffic service personnel and maritime personnel employed on mobile offshore units, for inclusion in the 1978 STCW Convention or in such other instrument or instruments as may be appropriate.**\n\n---\n\n**中文參考譯文**\n\n決議第10號——引水人、船舶交通服務人員及受僱於移動式海上設施之海事人員訓練。\n\n本大會：\n\n鑑於本大會已通過《1978年海員訓練、發證及當值標準國際公約》之1995年修正案；\n\n考量引水人、船舶交通服務人員，以及受僱於移動式海上設施船上之海事人員，對於海上人命與財產安全及海洋環境保護所作之貢獻；\n\n注意到受時間限制所影響，本大會未能充分審議是否將此類人員之訓練及發證規定，納入本大會所通過之《1978年STCW公約》修正案；\n\n爰邀請國際海事組織考量研訂有關引水人、船舶交通服務人員及受僱於移動式海上設施之海事人員訓練與發證規定，並將該等規定納入《1978年STCW公約》，或納入其他適當之國際文書。",
+    "practicalAnalysis": "本題30分，為IMO決議前言式法律英文。應保留Having adopted、Bearing in mind、Noting及Invites等決議常見結構；STCW的正式中文名稱為「海員訓練、發證及當值標準國際公約」。Mobile offshore units譯為「移動式海上設施」，VTS personnel為「船舶交通服務人員」。",
+    "keyPoints": [
+      {
+        "point": "保留決議標題及Conference主詞結構。",
+        "importance": "essential"
+      },
+      {
+        "point": "STCW 1978正式譯名為海員訓練、發證及當值標準國際公約。",
+        "importance": "essential"
+      },
+      {
+        "point": "Bearing in mind譯為考量／鑑於；Noting譯為注意到。",
+        "importance": "essential"
+      },
+      {
+        "point": "Vessel traffic service personnel譯為船舶交通服務人員。",
+        "importance": "supporting"
+      },
+      {
+        "point": "Mobile offshore units譯為移動式海上設施。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Resolution 10—Training of maritime pilots, VTS personnel and mobile offshore unit personnel",
+        "sourceType": "imo_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/Resolution%20A.797(19).pdf",
+        "supports": "STCW 1995修正及引水人、VTS與移動式海上設施人員訓練認證背景。"
+      },
+      {
+        "title": "International Convention on Standards of Training, Certification and Watchkeeping for Seafarers (STCW)",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/ourwork/humanelement/pages/stcw-conv-link.aspx",
+        "supports": "STCW 1978及1995修正的正式名稱與專業用語。"
+      }
+    ],
+    "assumptions": [
+      "英文採海事專業正式文體，保留原文決議語氣及國際公約術語。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部90年專業英文題目",
+          "result": "pass",
+          "note": "已核對原文。"
+        },
+        {
+          "item": "英文譯文與術語",
+          "result": "pass",
+          "note": "依IMO公約及海事英文慣用表達校訂。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "090-english-02-answer-v1",
+    "questionId": "090-english-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "**Model Translation**\n\nShips navigating in narrow and shallow waters are exposed to the risk of marine casualties. Even when a ship can be safely navigated and manoeuvred under such conditions by a single expert, namely a maritime pilot, the pilot still needs the advice and assistance of the master, officers and crew. This clearly demonstrates that, in practice, the successful operation of a ship is achieved primarily through effective cooperation among all personnel concerned.\n\n**Useful alternatives**\n- marine casualties: 海事事故／海難事故\n- navigated and manoeuvred: 航行及操縱\n- the master, officers and crew: 船長、船副及船員\n- effective cooperation: 有效合作",
+    "practicalAnalysis": "本題25分，中文句子長，英文宜拆成三句，避免逐字硬譯。pilot可用maritime pilot；船副與水手合稱officers and crew。狹水及淺水用narrow and shallow waters；海損危險可譯risk of marine casualties。",
+    "keyPoints": [
+      {
+        "point": "用narrow and shallow waters描述狹窄及淺水水域。",
+        "importance": "essential"
+      },
+      {
+        "point": "海損危險譯為risk of marine casualties。",
+        "importance": "essential"
+      },
+      {
+        "point": "領港用maritime pilot，船長用master。",
+        "importance": "essential"
+      },
+      {
+        "point": "忠告及協助用advice and assistance。",
+        "importance": "supporting"
+      },
+      {
+        "point": "以effective cooperation表達各有關人員有效合作。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Resolution 10—Training of maritime pilots, VTS personnel and mobile offshore unit personnel",
+        "sourceType": "imo_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/Resolution%20A.797(19).pdf",
+        "supports": "STCW 1995修正及引水人、VTS與移動式海上設施人員訓練認證背景。"
+      },
+      {
+        "title": "International Convention on Standards of Training, Certification and Watchkeeping for Seafarers (STCW)",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/ourwork/humanelement/pages/stcw-conv-link.aspx",
+        "supports": "STCW 1978及1995修正的正式名稱與專業用語。"
+      }
+    ],
+    "assumptions": [
+      "英文採海事專業正式文體，保留原文決議語氣及國際公約術語。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部90年專業英文題目",
+          "result": "pass",
+          "note": "已核對原文。"
+        },
+        {
+          "item": "英文譯文與術語",
+          "result": "pass",
+          "note": "依IMO公約及海事英文慣用表達校訂。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "090-english-03-answer-v1",
+    "questionId": "090-english-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "| 中文 | 英文術語 |\n|---|---|\n| 危機處理 | crisis management |\n| 技術智識 | technical knowledge |\n| 氣壓梯度 | pressure gradient |\n| 操縱特性 | manoeuvring characteristics |\n| 職業安全 | occupational safety |\n| 分道航行規劃 | traffic separation scheme (TSS) |\n| 前後吃水不當 | improper fore-and-aft trim / improper trim |\n| 引水法條款 | provisions of the Pilotage Act |\n| 電動液壓操舵系統 | electro-hydraulic steering gear system |\n| 全球海上遇險及安全系統 | Global Maritime Distress and Safety System (GMDSS) |\n\n**Sentence using all terms**\n\nEffective crisis management requires sound technical knowledge of the pressure gradient and the vessel's manoeuvring characteristics, strict attention to occupational safety, and compliance with the traffic separation scheme; the pilot must also consider any improper fore-and-aft trim, observe the relevant provisions of the Pilotage Act, ensure that the electro-hydraulic steering gear system is operating properly, and maintain the readiness of the Global Maritime Distress and Safety System (GMDSS).",
+    "practicalAnalysis": "本題20分，術語翻譯與造句各有得分。traffic separation scheme是COLREG及IMO慣用術語；Pilotage Act應大寫作法規名稱；steering gear system不是steering engine；GMDSS第一次出現應寫全名再括號縮寫。",
+    "keyPoints": [
+      {
+        "point": "crisis management、technical knowledge、pressure gradient等術語拼寫正確。",
+        "importance": "essential"
+      },
+      {
+        "point": "Traffic Separation Scheme應使用TSS正式名稱。",
+        "importance": "essential"
+      },
+      {
+        "point": "前後吃水不當用improper fore-and-aft trim。",
+        "importance": "essential"
+      },
+      {
+        "point": "引水法條款用provisions of the Pilotage Act。",
+        "importance": "supporting"
+      },
+      {
+        "point": "電動液壓操舵系統用electro-hydraulic steering gear system。",
+        "importance": "supporting"
+      },
+      {
+        "point": "GMDSS須先寫全名Global Maritime Distress and Safety System。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Resolution 10—Training of maritime pilots, VTS personnel and mobile offshore unit personnel",
+        "sourceType": "imo_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/Resolution%20A.797(19).pdf",
+        "supports": "STCW 1995修正及引水人、VTS與移動式海上設施人員訓練認證背景。"
+      },
+      {
+        "title": "International Convention on Standards of Training, Certification and Watchkeeping for Seafarers (STCW)",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/ourwork/humanelement/pages/stcw-conv-link.aspx",
+        "supports": "STCW 1978及1995修正的正式名稱與專業用語。"
+      }
+    ],
+    "assumptions": [
+      "英文採海事專業正式文體，保留原文決議語氣及國際公約術語。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部90年專業英文題目",
+          "result": "pass",
+          "note": "已核對原文。"
+        },
+        {
+          "item": "英文譯文與術語",
+          "result": "pass",
+          "note": "依IMO公約及海事英文慣用表達校訂。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "090-english-04-answer-v1",
+    "questionId": "090-english-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "translation",
+    "modelAnswer": "**Model Answer**\n\nTo bring a ship alongside a wharf portside without tug assistance, the pilot should first assess the wind, current, available water space, berth orientation, ship's manoeuvring characteristics and the effects of the propeller. The ship should approach the berth at a low but controllable speed, with sufficient headway to maintain rudder effectiveness.\n\nThe approach should normally be made at a small angle, with the port side facing the wharf. The pilot should reduce the ship's speed gradually and use short, carefully timed engine movements and helm orders to control the ship's head and stern. The pivot point must be considered, since the bow and stern will move differently during turning.\n\nWhen the bow is close to the berth, the pilot may use a controlled kick ahead with helm, followed by a brief astern movement, to bring the stern towards the wharf while checking the ship's longitudinal movement. The manoeuvre must be adjusted for the direction and strength of the wind and current. If the wind is blowing the ship off the berth, the ship should retain sufficient steerage and the approach should be planned to avoid losing control before the lines are passed.\n\nThe first line, often a forward or aft spring depending on the ship's movement, should be sent ashore to check the ship's fore-and-aft motion. The remaining mooring lines should then be passed in a planned order and heaved in gradually. The pilot must avoid excessive use of the engine, prevent the propeller wash from damaging the wharf or nearby craft, and ensure that the ship comes alongside with minimum lateral speed.\n\nIf the ship cannot be controlled safely without a tug, the pilot should abort the approach and request tug assistance rather than force the ship alongside.\n\n**Key expressions**\n- portside alongside: 左舷靠泊\n- low but controllable speed: 低但仍可控制的速度\n- pivot point: 旋轉支點\n- spring line: 倒纜／縱向控制纜\n- lateral speed: 橫向速度",
+    "practicalAnalysis": "本題25分，英文答案要有計畫、接近、控制艏艉、繫纜及中止條件。無拖船靠泊的核心是利用船舶自身動量、舵效、主機短促車令及spring line控制縱向運動；不得寫成單純把船開到碼頭再丟纜。",
+    "keyPoints": [
+      {
+        "point": "先評估風流、泊位、船舶操縱特性及螺槳效應。",
+        "importance": "essential"
+      },
+      {
+        "point": "低速但保持舵效，以小接近角靠近。",
+        "importance": "essential"
+      },
+      {
+        "point": "利用主機、舵及旋轉支點控制船艏與船艉。",
+        "importance": "essential"
+      },
+      {
+        "point": "以spring line控制縱向運動，再依序帶妥其他繫纜。",
+        "importance": "supporting"
+      },
+      {
+        "point": "控制橫向接觸速度及螺槳排流。",
+        "importance": "supporting"
+      },
+      {
+        "point": "無法安全控制時中止並請求拖船。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "IMO Resolution 10—Training of maritime pilots, VTS personnel and mobile offshore unit personnel",
+        "sourceType": "imo_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/Resolution%20A.797(19).pdf",
+        "supports": "STCW 1995修正及引水人、VTS與移動式海上設施人員訓練認證背景。"
+      },
+      {
+        "title": "International Convention on Standards of Training, Certification and Watchkeeping for Seafarers (STCW)",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/ourwork/humanelement/pages/stcw-conv-link.aspx",
+        "supports": "STCW 1978及1995修正的正式名稱與專業用語。"
+      }
+    ],
+    "assumptions": [
+      "英文採海事專業正式文體，保留原文決議語氣及國際公約術語。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部90年專業英文題目",
+          "result": "pass",
+          "note": "已核對原文。"
+        },
+        {
+          "item": "英文譯文與術語",
+          "result": "pass",
+          "note": "依IMO公約及海事英文慣用表達校訂。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
