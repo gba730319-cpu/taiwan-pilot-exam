@@ -1,3 +1,5 @@
+"use client";
+
 import answer114Kaohsiung07 from "../data/answers-common-114-kaohsiung-waterway-07.json";
 import answer114Kaohsiung06 from "../data/answers-common-114-kaohsiung-waterway-06.json";
 import answer114Kaohsiung05 from "../data/answers-common-114-kaohsiung-waterway-05.json";
@@ -10,7 +12,7 @@ import answer114Pilotage04 from "../data/answers-common-114-pilotage-04.json";
 import answer114Pilotage03 from "../data/answers-common-114-pilotage-03.json";
 import answer114Pilotage02 from "../data/answers-common-114-pilotage-02.json";
 import answer114Pilotage01 from "../data/answers-common-114-pilotage-01.json";
-"use client";
+
 import { useMemo, useState } from "react";
 import questions from "../data/questions.json";
 import sourceData from "../data/sources.json";
@@ -100,7 +102,7 @@ type Answer = {
   questionId: string;
   modelAnswer: string;
   practicalAnalysis?: string;
-  keyPoints?: AnswerKeyPoint[];
+  keyPoints?: Array<AnswerKeyPoint | string>;
   references?: AnswerReference[];
   assumptions?: Array<string | AnswerReferenceObject>;
   limitations?: Array<string | AnswerReferenceObject> | string;
@@ -155,6 +157,7 @@ export default function Home() {
       : typeof answer.limitations === "string" ? [answer.limitations] : [];
     return {
       ...answer,
+      keyPoints: Array.isArray(answer.keyPoints) ? answer.keyPoints.map((item) => typeof item === "string" ? { point: item } : item) : [],
       assumptions,
       limitations,
       references: [
