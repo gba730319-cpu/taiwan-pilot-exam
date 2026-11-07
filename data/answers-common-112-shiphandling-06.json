@@ -2,10 +2,10 @@
   {
     "id": "answer-112-shiphandling-06",
     "questionId": "112-shiphandling-06",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "一、依IMO A.960(23)進行Master-Pilot Information Exchange（MPX）\nIMO第A.960(23)號決議Annex 2第5.4段建議，每次引航開始前，船長與引水人至少應交換下列重要資訊，並在引航過程中持續補充：\n（一）完成的Pilot Card：確認船舶主要尺度、總噸位、船長、船寬、艏艉吃水、空氣吃水、載況、主機、螺旋槳、舵型、側推器、錨及其他操縱設備等資料。\n（二）操縱性能資料：不同速度下的迴旋率（Rate of Turn）、迴旋圈（Turning Circles）、停止距離（Stopping Distances），以及可取得的其他操縱資料，例如倒俥性能、舵效、側推器能力及船舶風壓特性。\n（三）預定航行計畫及程序：確認航線、轉向點、航速、航向、航道使用、會船／避讓安排、錨地及泊位計畫，並就一般程序及緊急備案取得共識。\n（四）預期特殊環境條件：討論天候、風向風速、能見度、水深、潮汐、潮流、海況及預期船舶交通，並確認是否有航道、潮高或港口管制限制。\n（五）船舶特殊操縱特性及設備問題：說明不尋常的操縱特性、主機或舵機故障、推進器／側推器問題、導航設備異常、警報、船員能力或人力限制等可能影響安全操縱的事項。\n（六）靠泊安排及外部支援：確認泊位、靠泊舷、拖船艘數與特性、拖船工作位置、繫纜艇及其他外部支援設備，並討論拖船與商船的通訊方式。\n（七）繫泊安排：確認繫纜配置、纜繩數量與順序、繫纜設備狀態、岸上繫纜人員及特殊要求。\n（八）駕駛臺及外部通訊語言：確認駕駛臺內部、引水人、拖船、VTS及岸上單位使用的工作語言、VHF頻道、呼號及指令回報方式。\n\n二、MPX的持續性與操作要求\n（一）MPX不是單向由引水人告知船長，而是雙方交換資訊並確認理解；Pilot Card或checklist只作輔助，不能取代口頭溝通。\n（二）航行計畫是預定意圖，不是僵化命令；風流、交通、設備狀況或其他情況改變時，船長與引水人應重新協商並調整計畫。\n（三）船長、值班駕駛員及引水人應明確了解各自角色，駕駛臺團隊應持續監控引水人行動及船舶反應，發現偏差或疑慮應立即提出。\n\n結論：A.960(23)要求至少交換Pilot Card、迴旋率／迴旋圈／停止距離、航行及緊急計畫、天候水深潮流與交通、船舶特殊操縱及設備問題、拖船與靠泊安排、繫泊安排，以及駕駛臺和外部通訊語言。交換應為持續過程，並非只在引水人登輪時完成一次。",
+    "modelAnswer": "【2027年考試主答｜IMO A.960(23)現行MPX要求】\n\n一、引水人登輪後應與船長進行Master-Pilot Information Exchange（MPX）\n依IMO Resolution A.960(23) Annex 2第5.4段，船長與引水人應在引航開始前交換與船舶及預定航程有關的重要資訊，並於引航過程中持續補充。至少包括：\n\n1. Pilot Card：船舶尺度、船長、船寬、艏艉吃水、空氣吃水、載況、主機、螺旋槳、舵型、側推器、錨及其他操縱設備資料。\n2. 操縱性能：不同速度下的Rate of Turn、Turning Circles、Stopping Distances，以及倒俥性能、舵效、側推器能力及其他可用操縱資料。\n3. 預定航行計畫及程序：航線、轉向點、航速、航向、航道使用、會船／避讓安排、錨地、泊位及緊急備案。\n4. 預期特殊環境條件：天候、風向風速、能見度、水深、潮汐、潮流、海況、船舶交通及航道／港口限制。\n5. 船舶特殊操縱特性及設備問題：不尋常操縱特性、主機或舵機故障、推進器／側推器問題、導航設備異常及其他影響安全操縱的限制。\n6. 靠泊安排及外部支援：泊位、靠泊舷、拖船艘數與特性、拖船工作位置、繫纜艇及其他外部支援設備。\n7. 繫泊安排：繫纜配置、纜繩數量與順序、繫纜設備狀態、岸上繫纜人員及特殊要求。\n8. 駕駛臺及外部通訊：駕駛臺內部、引水人、拖船、VTS及岸上單位的工作語言、VHF頻道、呼號及指令回報方式。\n\n二、MPX的執行原則\n（一）MPX是雙向資訊交換，不能只由引水人單方面宣讀航行計畫；雙方應確認理解船舶性能、預定操船方式及風險。\n（二）Pilot Card及checklist是輔助工具，不能取代必要的口頭溝通及確認。\n（三）航行計畫代表預定意圖，不是僵化命令；風流、交通、設備狀況或其他情況改變時，船長與引水人應重新協商及調整。\n（四）船長、值班駕駛員及引水人應明確了解各自角色，駕駛臺團隊須持續監控船位、航向、速度、轉向點、CPA／TCPA、UKC及引水人指令執行情形。\n（五）若船長或駕駛臺團隊對引水人的操船方式有疑慮，應立即提出並確認；引水人亦應主動邀請船長提供船舶特性及任何異常資訊。\n\n結論：MPX至少應交換Pilot Card、操縱性能、航行及緊急計畫、特殊環境條件、船舶操縱及設備問題、拖船與靠泊安排、繫泊安排及通訊方式。資訊交換應持續進行，而不是只在登輪時完成一次。",
     "practicalAnalysis": "本題10分，依A.960(23) Annex 2第5.4段逐項列出即可。建議將七項規範合併為八個記憶群組：Pilot Card與操縱數據、航行／緊急計畫、環境條件、船舶特殊情況、拖船／靠泊支援、繫泊安排、工作語言與通訊。注意第5.4段原文是最低應交換項目，資訊交換應持續整個引航過程。",
     "keyPoints": [
       {
@@ -61,6 +61,22 @@
         "issuer": "International Maritime Organization",
         "url": "https://www.imo.org/en/ourwork/safety/pages/pilotage.aspx",
         "supports": "引水人訓練、認證、MPX及SOLAS引水制度背景。"
+      },
+      {
+        "title": "IMO Resolution A.960(23) — Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "supports": "Annex 2第5.1至5.5段之MPX、Pilot Card及船長／引水人合作程序。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Pilotage",
+        "sourceType": "official_guidance",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/pilotage.aspx",
+        "supports": "引水人訓練、認證、MPX及SOLAS引水制度背景。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -68,18 +84,23 @@
       "依A.960(23) Annex 2第5.4段整理；各港口或引水機構可依地方特性增加交換項目。"
     ],
     "verification": {
-      "status": "verified",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "原題",
+          "item": "IMO A.960(23) Annex 2第5.4段最低交換資訊",
           "result": "pass",
-          "note": "依112年度題庫主檔核對題目。"
+          "note": "依原決議逐項核對八類資訊。"
         },
         {
-          "item": "專業依據",
+          "item": "MPX雙向及持續性",
           "result": "pass",
-          "note": "依IMO／港務及船舶操縱專業資料交叉整理。"
+          "note": "補充資訊確認、航程中更新及橋樓團隊監控。"
+        },
+        {
+          "item": "現行決議版本",
+          "result": "pass",
+          "note": "截至2026-11-07未發現取代A.960(23)之IMO新決議；仍以該決議作為本題核心來源。"
         }
       ]
     },
