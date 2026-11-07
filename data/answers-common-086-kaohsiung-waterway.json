@@ -52,5 +52,180 @@
       ]
     },
     "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "086-kaohsiung-waterway-02-answer-v1",
+    "questionId": "086-kaohsiung-waterway-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【導航設施分類】\n高雄港安全導航設施可分為港口入口燈標、港內導標／燈浮、信號台、雷達／CCTV監控、VHF通信及錨地／禁錨區標誌。\n1. 第一、第二港口北／南防波堤端燈杆：標示口門及防波堤端點。\n2. 高雄燈塔：旗津一帶外海目視定位標誌。\n3. 港內導標及燈浮：標示航道中心、邊界、轉向點及危險物。\n4. 信號台、VHF及VTS：發布進出港許可、交通次序及航行資訊。\n5. 雷達、CCTV及其他監控設備：監視船舶動態及港區交通。\n【歷史限制】題目問最近增加的設施，應列設置年份、位置、名稱及用途；未取得1997年航標增設公告、航船布告及港務局設施清冊，不能將現行設施直接當作當年新增項目。",
+    "practicalAnalysis": "本題10分，考點是當時新設安全導航設施的具體名稱及位置。已整理設施類型及用途；缺1997年港務局公告及航船布告，不能猜測新增清單。",
+    "keyPoints": [
+      {
+        "point": "列出防波堤燈標、導標／燈浮、信號台、雷達／CCTV及VHF。",
+        "importance": "essential"
+      },
+      {
+        "point": "每項說明位置、用途、燈質或服務範圍。",
+        "importance": "essential"
+      },
+      {
+        "point": "具體新增項目應依1997年航船布告及港務局清冊核對。",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "86年甲種引水人高雄港地方題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=040&code=086160&q=1&s=5004&t=Q",
+        "supports": "高雄港地方題原卷。"
+      }
+    ],
+    "assumptions": [
+      "以民國86年高雄港考區為準。"
+    ],
+    "limitations": [
+      "未取得1997年高雄港航標增設公告及港務局設施清冊，無法確認新增設施名稱與數量。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部86年高雄港地方題",
+          "result": "pass",
+          "note": "題文核對。"
+        },
+        {
+          "item": "1997年港務資料",
+          "result": "partial",
+          "note": "歷史原始資料未完整取得。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "086-kaohsiung-waterway-03-answer-v1",
+    "questionId": "086-kaohsiung-waterway-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【濃霧季節】\n高雄港濃霧較可能發生於冬末至春季，冷暖空氣交替、海面與空氣溫差及高濕度可能形成平流霧或局部輻射霧。實際月份及能見度須依當年氣象統計。\n【航行限制及引水措施】\n1. 依港口航行規定及VTS發布的能見度標準，限制大型船進出港、拖帶、移泊及交會；必要時暫停港口進出。\n2. 能見度降低時降低至安全速度，遵守COLREG Rule 19，必要時停止航行。\n3. 保持雷達、AIS、VHF及艏艉瞭望，使用適當雷達量程、PI及連續定位。\n4. 依規定鳴放霧號，主機、舵機及錨機備便，與VTS保持通信。\n5. 引水登輪及離輪須評估引水艇與大船相對運動及引水梯安全；能見度低於港規標準或無法確認船位時應暫緩作業。\n【歷史數值限制】1997年高雄港濃霧停航／限航能見度門檻及霧季統計月份，須依當年港口航行規定及氣象年報核對，未取得原文前不寫死數值。",
+    "practicalAnalysis": "本題10分，需列濃霧季節、港口限航及引水注意。具體停航能見度門檻屬歷史港規，不能以現行數值冒充1997年。",
+    "keyPoints": [
+      {
+        "point": "高雄濃霧較可能出現在冬末至春季。",
+        "importance": "essential"
+      },
+      {
+        "point": "依VTS及港口能見度門檻限制大型船進出港、移泊及交會。",
+        "importance": "essential"
+      },
+      {
+        "point": "降低安全速度、保持雷達及VHF守聽、鳴霧號並備車備舵。",
+        "importance": "essential"
+      },
+      {
+        "point": "登離輪注意引水艇、引水梯及相對運動。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "86年甲種引水人高雄港地方題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=040&code=086160&q=1&s=5004&t=Q",
+        "supports": "高雄港地方題原卷。"
+      }
+    ],
+    "assumptions": [
+      "以民國86年高雄港考區為準。"
+    ],
+    "limitations": [
+      "未取得1997年高雄港濃霧限航條文及氣象年報，故不填固定月份及能見度門檻。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部86年高雄港地方題",
+          "result": "pass",
+          "note": "題文核對。"
+        },
+        {
+          "item": "1997年港務資料",
+          "result": "partial",
+          "note": "歷史原始資料未完整取得。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "086-kaohsiung-waterway-04-answer-v1",
+    "questionId": "086-kaohsiung-waterway-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【以時間及已知距離估算】\n若無航速儀器，可利用船舶通過兩個已知位置或固定物標的時間差，計算對地速度。公式：V（kn）=距離（NM）÷時間（hr）。例如兩標間距2NM，通過時間12分鐘，速度=2÷(12/60)=10kn。\n【其他估算方法】\n1. GNSS／GPS：讀取SOG及COG。\n2. 雷達定位：量測船舶相對固定岸標的距離變化，配合時間計算對地速度。\n3. 測速標／測速距：利用已知距離的兩個浮標、岸標或測速線計時。\n4. 主機轉速及螺槳資料：參考RPM、螺距、滑失率及性能曲線估算對水速度。\n5. 航海日誌：比較定時船位及航跡距離，求平均速度。\n【注意】固定物標計時得到的是對地速度SOG，受到潮流影響；對水速度STW須扣除或加上潮流向量。若用RPM估算，須考慮螺槳滑失、船體污損、吃水及海況。",
+    "practicalAnalysis": "本題10分，最直接方法是以已知距離與通過時間求速度；應區分SOG與STW，固定物標計時測得的是對地速度。",
+    "keyPoints": [
+      {
+        "point": "V=距離/時間，換算成節。",
+        "importance": "essential"
+      },
+      {
+        "point": "可用已知距離兩標計時或雷達岸標距離變化估算。",
+        "importance": "essential"
+      },
+      {
+        "point": "GPS可提供SOG/COG。",
+        "importance": "essential"
+      },
+      {
+        "point": "RPM及螺槳資料只能估算STW，須考慮滑失及載況。",
+        "importance": "supporting"
+      },
+      {
+        "point": "區分對地速度與對水速度，考慮潮流向量。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "86年甲種引水人高雄港地方題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=040&code=086160&q=1&s=5004&t=Q",
+        "supports": "高雄港地方題原卷。"
+      }
+    ],
+    "assumptions": [
+      "以民國86年高雄港考區為準。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部86年高雄港地方題",
+          "result": "pass",
+          "note": "題文核對。"
+        },
+        {
+          "item": "1997年港務資料",
+          "result": "partial",
+          "note": "歷史原始資料未完整取得。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
   }
 ]
