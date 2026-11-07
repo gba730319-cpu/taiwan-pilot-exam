@@ -374,3 +374,6 @@
 - 驗證狀態：COLREG聲號、迴旋圈基本原理、恒向線／大圈線、船長與引水人責任、專業英文翻譯等有官方／權威來源支撐；地方操船題及部分歷史法規題保留 `partially_verified`。
 - **重要待查缺口：**106年版《高雄港務分公司港勤拖船調派暨管理要點》原始表格尚未取得，因此第6題五種總噸級距拖船馬力／艘數未填入推測數字；第1題106年1:30,000港圖、潮汐表與洲際二期泊位原圖未取得；第4題引水法歷史處分條文亦須再逐條核對。
 - 106年度答案不是官方標準答案；官方評分細則未取得，配分與答題架構屬研讀用擬答。
+- 建置驗證：以Vercel Sandbox執行 `npm install && npm run build` 成功；Next.js production build、型別檢查及靜態頁面產生均通過。只有既有CSS autoprefixer警告及lockfile workspace root提示，未阻擋建置。
+- Production部署：GitHub main最新commit為 `3fc45feee4a695e7d19b7129be23aac998965396`，但Vercel Production目前最新READY部署仍對應較舊的110年度commit `92e88cb5a38f96589c1fbd3ea30b25db04f497eb`。本次部署API回應402（每日部署額度超限，需等待24小時）；已依要求嘗試CLI fallback，但CLI回報token無效，故**尚未部署到正式網站**。不得將GitHub已提交或Sandbox build成功說成Production已更新。
+
