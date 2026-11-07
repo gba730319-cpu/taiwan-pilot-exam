@@ -1,0 +1,209 @@
+[
+  {
+    "id": "089-english-01-answer-v1",
+    "questionId": "089-english-01",
+    "version": 1,
+    "language": "en",
+    "answerType": "essay",
+    "modelAnswer": "**The Pros and Cons of Using Thrusters versus Tugboats**\n\nThrusters and tugboats are both useful aids for manoeuvring a ship in confined waters, especially when approaching or leaving a berth. However, they have different capabilities and limitations.\n\nA major advantage of a bow or stern thruster is that it is immediately available on board and can produce transverse thrust without requiring an external vessel. It is particularly useful at low speed for adjusting the bow or stern, maintaining position and making small corrections during berthing. It also reduces the need to coordinate with a tug and may save tug hire costs. Nevertheless, a thruster has limited power, and its effectiveness decreases as the ship's speed increases. Its performance may also be reduced when the tunnel is insufficiently immersed, when air is drawn into the tunnel, or when the motor overheats during prolonged operation. A thruster cannot always overcome strong wind or current, particularly on a large vessel with a high windage area.\n\nTugboats provide much greater external force and can control the bow, stern or the whole vessel. They are especially valuable for large ships, ships with poor manoeuvrability, and operations in strong wind or current. Tugs can also assist with stopping, turning and emergency manoeuvres. Their disadvantages include additional cost, the need for careful communication and coordination, and the risk of tug-line failure or interaction with the ship's propeller and hull.\n\nIn practice, thrusters and tugboats should be regarded as complementary aids. The pilot should assess the ship's characteristics, weather, water depth and berth layout before deciding which assistance is required. Safety, rather than cost alone, must determine the choice.",
+    "practicalAnalysis": "本文超過150字，分別說明側推器與拖船的優缺點，最後指出兩者可互補。考試重點是比較推力能力、速度限制、風流條件、成本、協調及安全風險。",
+    "keyPoints": [
+      {
+        "point": "Thrusters are immediately available and useful for low-speed transverse control.",
+        "importance": "essential"
+      },
+      {
+        "point": "Thruster effectiveness decreases at higher speed and may be limited by immersion, overheating and power.",
+        "importance": "essential"
+      },
+      {
+        "point": "Tugboats provide greater external force and can assist with stopping, turning and emergency manoeuvres.",
+        "importance": "essential"
+      },
+      {
+        "point": "Tug operations require coordination and involve cost and line/propeller hazards.",
+        "importance": "supporting"
+      },
+      {
+        "point": "The pilot should choose assistance according to safety and actual operating conditions.",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "89年甲種引水人實用英文官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國89年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=1001&t=Q",
+        "supports": "三題英文考題原文。"
+      },
+      {
+        "title": "IMO Pilotage and STCW",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/humanelement/pages/stcw-conv-link.aspx",
+        "supports": "引水人、STCW及海事英文專業用語。"
+      }
+    ],
+    "assumptions": [
+      "英文採海事專業文體，並保留題目原意。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部89年實用英文題目",
+          "result": "pass",
+          "note": "已核對題庫原文。"
+        },
+        {
+          "item": "專業英文表達",
+          "result": "pass",
+          "note": "依海事英文慣用語及語法校訂。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "089-english-02-answer-v1",
+    "questionId": "089-english-02",
+    "version": 1,
+    "language": "en",
+    "answerType": "essay",
+    "modelAnswer": "**Corrected Sentences**\n\n(a) When a vessel is anchored with both anchors leading ahead, she is said to be in an open moor.\n\n(b) In a single-screw vessel, the rudder is fitted directly abaft the propeller, and the slipstream strikes directly upon the rudder surface.\n\n(c) Pilot ladders must be capable of being used on either side of the ship; they are to be used only for pilots' access.\n\n(d) The clear-view screens should be tested beforehand, together with the fog-signalling apparatus, in anticipation of poor visibility.\n\n(e) Radar is an additional safeguard, and failure to use it might constitute negligence.\n\n**Grammar notes**\n- (a) Use the past participle *anchored* after “is”. “Open moor” is the name of the anchoring arrangement.\n- (b) Add the passive verb *is fitted* to complete the sentence.\n- (c) Use *being used* after “capable of”; “on either side of the ship” is more idiomatic.\n- (d) Add *be* after the modal verb “should”; use *visibility* as the noun.\n- (e) Use *an* before a vowel sound and join the clauses with a comma and conjunction; *negligence* is an uncountable noun.",
+    "practicalAnalysis": "本題30分，每句先找出文法錯誤再改寫。除時態與被動語態外，也要注意冠詞、介系詞、可數不可數名詞及句子連接。",
+    "keyPoints": [
+      {
+        "point": "(a) anchored; in an open moor.",
+        "importance": "essential"
+      },
+      {
+        "point": "(b) the rudder is fitted directly abaft the propeller.",
+        "importance": "essential"
+      },
+      {
+        "point": "(c) capable of being used; on either side of the ship.",
+        "importance": "essential"
+      },
+      {
+        "point": "(d) should be tested; poor visibility.",
+        "importance": "supporting"
+      },
+      {
+        "point": "(e) an additional safeguard; constitute negligence.",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "89年甲種引水人實用英文官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國89年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=1001&t=Q",
+        "supports": "三題英文考題原文。"
+      },
+      {
+        "title": "IMO Pilotage and STCW",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/humanelement/pages/stcw-conv-link.aspx",
+        "supports": "引水人、STCW及海事英文專業用語。"
+      }
+    ],
+    "assumptions": [
+      "英文採海事專業文體，並保留題目原意。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部89年實用英文題目",
+          "result": "pass",
+          "note": "已核對題庫原文。"
+        },
+        {
+          "item": "專業英文表達",
+          "result": "pass",
+          "note": "依海事英文慣用語及語法校訂。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "089-english-03-answer-v1",
+    "questionId": "089-english-03",
+    "version": 1,
+    "language": "en",
+    "answerType": "essay",
+    "modelAnswer": "**中文參考譯文**\n\n引水人可定義為具備當地水域知識的合格人員，其知識包括淺灘、礁石、潮流等情況，並通常經由主管機關核發執照。船舶所有人僱用引水人，負責引領船舶通過河川、礁石區或航道，或引導船舶進出港口。\n\n主要海港均依法律制定設置引水人制度。引水人享有相應權利，並有義務依照《引水法》及各港相關港口規章的規定執行其職務。\n\n**重要詞彙**\n- qualified individual：合格人員\n- local knowledge：當地水域知識\n- shallows：淺灘\n- currents：潮流／水流\n- appropriate authority：主管機關\n- shipowner：船舶所有人\n- legislative enactments：法律制定／立法規定\n- principal seaports：主要海港\n- provisions of the Pilotage Act：引水法各項規定\n- respective harbour regulations：各該港口規章",
+    "practicalAnalysis": "本題30分，需保留qualified individual、local knowledge、licensed by appropriate authority、employed by shipowner及rights and duties等法律語意。shallows、rocks、currents是引水人當地知識的例子，不宜翻成一般地理知識。",
+    "keyPoints": [
+      {
+        "point": "Pilot譯為引水人，qualified individual為合格人員。",
+        "importance": "essential"
+      },
+      {
+        "point": "local knowledge包括淺灘、礁石及潮流等港區知識。",
+        "importance": "essential"
+      },
+      {
+        "point": "appropriate authority譯為主管機關。",
+        "importance": "essential"
+      },
+      {
+        "point": "legislative enactments譯為法律制定／立法規定。",
+        "importance": "supporting"
+      },
+      {
+        "point": "provisions of the Pilotage Act譯為引水法各項規定。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "89年甲種引水人實用英文官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國89年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=1001&t=Q",
+        "supports": "三題英文考題原文。"
+      },
+      {
+        "title": "IMO Pilotage and STCW",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/humanelement/pages/stcw-conv-link.aspx",
+        "supports": "引水人、STCW及海事英文專業用語。"
+      }
+    ],
+    "assumptions": [
+      "英文採海事專業文體，並保留題目原意。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部89年實用英文題目",
+          "result": "pass",
+          "note": "已核對題庫原文。"
+        },
+        {
+          "item": "專業英文表達",
+          "result": "pass",
+          "note": "依海事英文慣用語及語法校訂。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
