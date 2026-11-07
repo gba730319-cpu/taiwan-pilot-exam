@@ -306,6 +306,38 @@
         "title": "高雄港船舶航行規則",
         "issuer": "臺灣港務公司高雄港務分公司",
         "url": "https://kh.twport.com.tw/en/service/Articles?a=1053"
+      },
+      {
+        "title": "高雄港船舶航行規定（現行版）",
+        "sourceType": "official_port_regulation",
+        "issuer": "臺灣港務公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "supports": "第17點大型船舶特定碼頭靠泊方向限制及港內VTS航行管制。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "高雄港港埠營運設施總表",
+        "sourceType": "official_port_data",
+        "issuer": "臺灣港務公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/port/Articles?a=919",
+        "supports": "第二港口、航道、碼頭及港區水深資料入口。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960(23).pdf",
+        "supports": "MPX、拖船配置及引水人與船長的操船協調。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "MGN 199 (M) Amendment 1 — Danger of interaction",
+        "sourceType": "official_maritime_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
+        "supports": "淺水、狹水道、拖船及船舶交互作用風險。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
@@ -313,7 +345,25 @@
       "本版採2027現行規定，未將現況倒填為2015歷史港況。"
     ],
     "verification": {
-      "status": "partially_verified"
+      "status": "verified_with_scope",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "現行大型船特定碼頭靠泊限制",
+          "result": "pass",
+          "note": "依高雄港航行規定第17點確認LOA門檻與進港船舶適用範圍。"
+        },
+        {
+          "item": "颱風後安全程序及拖船操船",
+          "result": "pass",
+          "note": "依IMO A.960(23)及MCA MGN 199補強。"
+        },
+        {
+          "item": "2015年歷史颱風港況",
+          "result": "needs_review",
+          "note": "題目未提供當年颱風公告及測深資料，本版以2027備考流程作答。"
+        }
+      ]
     },
     "version": 2,
     "lastUpdated": "2026-11-07"
