@@ -343,5 +343,115 @@
       ]
     },
     "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "086-kaohsiung-waterway-07-answer-v1",
+    "questionId": "086-kaohsiung-waterway-07",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "150m重載船由第一港口進港，欲右靠52號碼頭。重載船慣性大、吃水深，轉向前應確認港內迴船水域、52號碼頭泊位方向、水深、潮位、鄰船及拖船配置。\n不宜在第一港口口門或狹窄主航道中突然調頭；應依VTS指示在指定迴船池或有足夠水域處完成轉向。\n進港前交換船舶資料，確認主機倒俥性能、螺槳旋向、舵效、吃水、迴轉圈及拖船能力。先將船速降至適當低速但保持舵效，確認船艏及船艉掃掠不會接近岸壁、浮筒或其他船舶。\n依船舶旋向及風流使用拖船協助船艏或船艉轉向；拖船應在能產生有效偏航力矩的位置推／拉，避免拖纜跨越錨鏈或螺槳。\n接近52號碼頭前逐步減速，將船舶調整至泊位軸線，以小角度、低橫向速度平行靠泊；先送控制纜及spring line，再帶妥艏艉纜。",
+    "practicalAnalysis": "本題10分，重點是選擇足夠迴船水域而非在狹窄航道硬轉；重載船需考慮大慣性、迴轉圈、吃水、拖船及艏艉掃掠。",
+    "keyPoints": [
+      {
+        "point": "不在第一港口口門或狹窄主航道中急調頭。",
+        "importance": "essential"
+      },
+      {
+        "point": "依VTS在指定迴船池或足夠水域轉向。",
+        "importance": "essential"
+      },
+      {
+        "point": "重載船低速但保持舵效，考慮迴轉圈及艏艉掃掠。",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船配置依船舶螺槳旋向、風流及轉向力矩決定。",
+        "importance": "supporting"
+      },
+      {
+        "point": "對準52號碼頭後低速、低橫向速度右舷靠泊。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "86年甲種引水人高雄港地方題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=040&code=086160&q=1&s=5004&t=Q",
+        "supports": "原卷。"
+      }
+    ],
+    "assumptions": [
+      "以民國86年高雄港考區為準。"
+    ],
+    "limitations": [
+      "未取得1997年52號碼頭岸線方向及迴船池圖，故不指定固定調頭點、拖船數量及車舵順序。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部86年高雄港地方題",
+          "result": "pass",
+          "note": "題文核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "086-kaohsiung-waterway-08-answer-v1",
+    "questionId": "086-kaohsiung-waterway-08",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "在駕駛台無法直接看見船艉水線時，可由艉部瞭望員觀察船艉兩側舷角、艉柱或舷牆垂直投影在水面的相對位置，並以固定岸標、浮筒及碼頭角點作參照。\n【雷達與電子定位】\n1. 雷達：量測船艉端相對岸線、碼頭角點或固定物標的距離及方位；須考慮雷達天線位於駕駛台而非船艉，扣除天線至艉端的縱向距離。\n2. GNSS／ECDIS：以船舶定位點、船舶尺度及天線偏移量計算船艉端位置；AIS／ECDIS船形顯示須輸入正確天線至艏艉距離。\n3. CCTV／艉部攝影機：若船舶配備，可直接監視艉部與岸壁、浮筒及他船距離。\n4. 艉部瞭望員：靠離泊時由艉部船員以VHF回報船艉與碼頭／鄰船距離及相對移動。\n5. 平行指標：以雷達PI監控船舶相對岸線的橫向偏移，但須把天線位置與船艉端偏移量納入。\n船舶轉向時艉部會向外掃掠，不能只用船艏位置推斷船艉；須持續計算船艉端與岸壁／鄰船的淨空。",
+    "practicalAnalysis": "本題10分，重點是船艉端位置與駕駛台／雷達天線位置不同。應結合艉部瞭望、雷達距離、GNSS天線偏移、船舶尺度及CCTV判斷。",
+    "keyPoints": [
+      {
+        "point": "艉部瞭望員觀察船艉兩側與岸壁／浮筒的相對位置。",
+        "importance": "essential"
+      },
+      {
+        "point": "雷達量距時扣除雷達天線至船艉的縱向距離。",
+        "importance": "essential"
+      },
+      {
+        "point": "GNSS/ECDIS輸入正確天線偏移及船舶尺度。",
+        "importance": "essential"
+      },
+      {
+        "point": "轉向時注意船艉向外掃掠，持續監控淨空。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "86年甲種引水人高雄港地方題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=040&code=086160&q=1&s=5004&t=Q",
+        "supports": "原卷。"
+      }
+    ],
+    "assumptions": [
+      "以民國86年高雄港考區為準。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部86年高雄港地方題",
+          "result": "pass",
+          "note": "題文核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
   }
 ]
