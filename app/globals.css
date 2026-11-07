@@ -16,3 +16,12 @@
 
 /* Render answer Markdown and mathematical notation clearly on desktop and mobile. */
 .answer-section .katex-display{overflow-x:auto;overflow-y:hidden;padding:8px 2px;margin:14px 0}.answer-section .katex{font-size:1.08em}.answer-section li p{margin-top:6px}.answer-section ul,.answer-section ol{line-height:2}.answer-section p{overflow-wrap:anywhere}
+
+/* GFM tables: preserve real table layout on desktop and allow horizontal scrolling on phones. */
+.answer-section table{display:block;width:100%;max-width:100%;overflow-x:auto;border-collapse:collapse;border-spacing:0;margin:14px 0 20px;font-size:15px;line-height:1.65;-webkit-overflow-scrolling:touch}
+.answer-section thead{background:#edf4f3}
+.answer-section th,.answer-section td{border:1px solid #cbd8d7;padding:10px 12px;text-align:left;vertical-align:top;white-space:normal;min-width:110px}
+.answer-section th{font-weight:700;color:#173d43}
+.answer-section tbody tr:nth-child(even){background:#f8faf9}
+.answer-section tbody tr:hover{background:#eef6f5}
+@media(max-width:650px){.answer-section table{font-size:14px}.answer-section th,.answer-section td{padding:8px 10px;min-width:100px}}
