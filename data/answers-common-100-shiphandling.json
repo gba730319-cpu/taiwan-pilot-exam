@@ -262,8 +262,8 @@
     "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、Close Loop Communication之意義】\n\nClose Loop Communication（閉環式溝通／封閉式溝通）是駕駛台資源管理（Bridge Resource Management, BRM）中重要的人因安全措施，指訊息發出後，接收者必須重複確認，發話者再予以確認或更正，執行者完成命令後再回報，並由相關人員監控結果，使訊息由發出、接收、理解、執行至確認形成完整閉環。\n\n其目的在避免口令誤聽、誤解、記憶錯誤、語言差異及人為疏失，建立駕駛台團隊共同情境認知（Shared Situational Awareness），確保船舶操縱命令被正確理解及執行。\n\n【二、閉環式溝通之主要步驟】\n\n1. **發出命令（Sender gives order）：**發話者以清楚、簡短、標準化用語下達指令，內容應包含明確方向、數值、單位及執行對象，避免含糊不清。\n2. **重複覆誦（Read-back / Repeat）：**接收者完整重複命令，確認自己聽到的內容與發話者一致；重要數字、方向及舵角應逐字覆誦。\n3. **確認或更正（Confirm / Correct）：**發話者確認覆誦正確，明確回覆「Correct」「Yes」等；若錯誤，立即說「Negative」或「Mistake, correction」，再重述正確命令。\n4. **執行命令（Execute）：**接收者依命令執行，並注意實際設備或船舶反應是否與命令相符。\n5. **回報完成（Report completion）：**執行者回報命令已完成或目前狀態，例如舵已到位、主機已停止、拖船已帶妥拖纜。\n6. **監控與確認（Monitor / Verify）：**發話者或駕駛台其他成員確認實際執行結果，必要時修正命令或採取後續措施。不能只因有人覆誦，就認定命令已正確完成。\n\n【三、閉環式溝通之實例】\n\n（一）舵令\n- 引水人：「Starboard ten.（右舵十度）」\n- 操舵手：「Starboard ten.（右舵十度）」\n- 引水人／值班駕駛員：「Correct.（正確）」\n- 操舵手執行後：「Wheel is starboard ten.（舵已右舵十度）」\n- 值班駕駛員確認舵角指示器及船首向反應，確認執行正確。\n\n（二）航向命令\n- 引水人：「Steer course zero nine zero.（航向操舵至090度）」\n- 操舵手：「Steer course zero nine zero.」\n- 操舵手到達航向後：「Steady on zero nine zero.」\n- 發話者確認並回覆：「Correct.」\n\n（三）主機命令\n- 引水人：「Half astern both.（雙車半速倒俥）」\n- 操車人員覆誦：「Half astern both.」\n- 值班駕駛員確認車鐘及主機回應，執行後回報：「Both engines half astern.」\n- 發話者確認實際轉速及船舶減速反應。\n\n（四）拖船及繫纜命令\n- 引水人：「Tug at the stern, pull to port.（船艉拖船向左舷拉）」\n- 拖船船長覆誦確認位置及施力方向。\n- 拖船開始施力後回報拖纜受力及推拉狀態。\n- 引水人及本船船長觀察船舶橫移及船首向，確認是否符合預期。\n\n【四、推行閉環式溝通之目的與效益】\n\n1. **防止誤聽誤解：**尤其在噪音、強風、緊急狀況、不同語言及高工作負荷時，覆誦可及早發現訊息錯誤。\n2. **減少人為疏失：**透過重複、確認及監控，避免舵令、車令、航向、速度、拖船及繫纜指令執行錯誤。\n3. **建立共同情境認知：**使船長、引水人、值班駕駛員、操舵手、輪機部、拖船及繫纜人員掌握一致的操船計畫及船舶狀態。\n4. **明確責任與回報：**每項命令均有發話者、接收者及完成回報，避免命令無人負責或執行結果未被確認。\n5. **及早發現異常：**如操舵手回報船舶未依舵令轉向，或主機未達指定轉速，駕駛台可立即查明故障並採取應變。\n6. **促進團隊合作及安全文化：**任何團隊成員均可提出疑問、要求重複或挑戰不合理命令，避免因階級壓力而沉默。\n\n【五、適用範圍及執行原則】\n\n閉環式溝通不只用於舵令，亦應用於：\n1. 駕駛台內部之航向、舵角、車令、航速、航路及航行設備操作。\n2. 駕駛台與輪機控制室之主機、推進器及機械操作命令。\n3. 駕駛台與船艏、船艉繫纜站之錨、纜繩及靠離泊作業。\n4. 駕駛台與引水人、拖船、VTS及港口作業單位之重要安全指令。\n5. 雷達、ECDIS、測深儀、VHF等設備設定變更及交接班事項。\n\n若訊息不清楚，應立即要求「Say again」；若已收到但不理解，應明確表示「Message not understood」，不可猜測或假裝聽懂。閉環式溝通亦不能取代實際監控，接收者覆誦正確仍可能執行錯誤，故必須確認設備指示及船舶實際反應。\n\n【結論】\n\n閉環式溝通的核心為「命令—覆誦—確認／更正—執行—回報—監控」。藉由發話者與接收者雙向確認，確保舵令、車令、航向、拖船及繫纜指令被正確理解及執行，降低溝通錯誤與人為疏失，建立駕駛台共同情境認知及團隊合作，提升船舶航行與靠離泊安全。",
-    "practicalAnalysis": "本題15分，直接背六步驟：發令、覆誦、確認／更正、執行、回報、監控。注意「閉環」不只是覆誦而已，還要確認命令正確、執行後回報，並監控實際結果。舵令、車令、航向、拖船、繫纜、輪機及VTS重要指令都適用。原則上不清楚就Say again，不理解就Message not understood，不能猜測。\n本輪以2027備考角度複核，補強個船型號／港口作業差異，不將單一船型操作數據泛化為通用規則。",
+    "modelAnswer": "【一、Closed-loop communication之意義】\n\nClosed-loop communication（閉環式溝通／封閉式溝通）是駕駛台資源管理（Bridge Resource Management, BRM）中重要的人因安全措施，指訊息發出後，接收者必須重複確認，發話者再予以確認或更正，執行者完成命令後再回報，並由相關人員監控結果，使訊息由發出、接收、理解、執行至確認形成完整閉環。\n\n其目的在避免口令誤聽、誤解、記憶錯誤、語言差異及人為疏失，建立駕駛台團隊共同情境認知（Shared Situational Awareness），確保船舶操縱命令被正確理解及執行。\n\n【二、閉環式溝通之主要步驟】\n\n1. **發出命令（Sender gives order）：**發話者以清楚、簡短、標準化用語下達指令，內容應包含明確方向、數值、單位及執行對象，避免含糊不清。\n2. **重複覆誦（Read-back / Repeat）：**接收者完整重複命令，確認自己聽到的內容與發話者一致；重要數字、方向及舵角應逐字覆誦。\n3. **確認或更正（Confirm / Correct）：**發話者確認覆誦正確，明確回覆「Correct」「Yes」等；若錯誤，立即說「Negative」或「Mistake, correction」，再重述正確命令。\n4. **執行命令（Execute）：**接收者依命令執行，並注意實際設備或船舶反應是否與命令相符。\n5. **回報完成（Report completion）：**執行者回報命令已完成或目前狀態，例如舵已到位、主機已停止、拖船已帶妥拖纜。\n6. **監控與確認（Monitor / Verify）：**發話者或駕駛台其他成員確認實際執行結果，必要時修正命令或採取後續措施。不能只因有人覆誦，就認定命令已正確完成。\n\n【三、閉環式溝通之實例】\n\n（一）舵令\n- 引水人：「Starboard ten.（右舵十度）」\n- 操舵手：「Starboard ten.（右舵十度）」\n- 引水人／值班駕駛員：「Correct.（正確）」\n- 操舵手執行後：「Wheel is starboard ten.（舵已右舵十度）」\n- 值班駕駛員確認舵角指示器及船首向反應，確認執行正確。\n\n（二）航向命令\n- 引水人：「Steer course zero nine zero.（航向操舵至090度）」\n- 操舵手：「Steer course zero nine zero.」\n- 操舵手到達航向後：「Steady on zero nine zero.」\n- 發話者確認並回覆：「Correct.」\n\n（三）主機命令（示例，實際用語依本船車鐘及SMS）\n- 引水人：「Both engines, half astern.（雙車半速倒俥）」\n- 操車人員覆誦相同命令。\n- 值班駕駛員確認車鐘及主機回應，執行後回報：「Both engines are half astern.」\n- 發話者確認實際轉速及船舶減速反應。\n\n（四）拖船及繫纜命令\n- 引水人：「Tug at the stern, pull to port.（船艉拖船向左舷拉）」\n- 拖船船長覆誦確認位置及施力方向。\n- 拖船開始施力後回報拖纜受力及推拉狀態。\n- 引水人及本船船長觀察船舶橫移及船首向，確認是否符合預期。\n\n【四、推行閉環式溝通之目的與效益】\n\n1. **防止誤聽誤解：**尤其在噪音、強風、緊急狀況、不同語言及高工作負荷時，覆誦可及早發現訊息錯誤。\n2. **減少人為疏失：**透過重複、確認及監控，避免舵令、車令、航向、速度、拖船及繫纜指令執行錯誤。\n3. **建立共同情境認知：**使船長、引水人、值班駕駛員、操舵手、輪機部、拖船及繫纜人員掌握一致的操船計畫及船舶狀態。\n4. **明確責任與回報：**每項命令均有發話者、接收者及完成回報，避免命令無人負責或執行結果未被確認。\n5. **及早發現異常：**如操舵手回報船舶未依舵令轉向，或主機未達指定轉速，駕駛台可立即查明故障並採取應變。\n6. **促進團隊合作及安全文化：**任何團隊成員均可提出疑問、要求重複或挑戰不合理命令，避免因階級壓力而沉默。\n\n【五、適用範圍及執行原則】\n\n閉環式溝通不只用於舵令，亦應用於：\n1. 駕駛台內部之航向、舵角、車令、航速、航路及航行設備操作。\n2. 駕駛台與輪機控制室之主機、推進器及機械操作命令。\n3. 駕駛台與船艏、船艉繫纜站之錨、纜繩及靠離泊作業。\n4. 駕駛台與引水人、拖船、VTS及港口作業單位之重要安全指令。\n5. 雷達、ECDIS、測深儀、VHF等設備設定變更及交接班事項。\n\n若訊息不清楚，應立即要求「Say again」；若已收到但不理解，應明確表示「Message not understood」，不可猜測或假裝聽懂。閉環式溝通亦不能取代實際監控，接收者覆誦正確仍可能執行錯誤，故必須確認設備指示及船舶實際反應。\n\n【結論】\n\nClosed-loop communication（閉環式溝通）的核心為「命令—覆誦—確認／更正—執行—回報—監控」。藉由發話者與接收者雙向確認，確保舵令、車令、航向、拖船及繫纜指令被正確理解及執行，降低溝通錯誤與人為疏失，建立駕駛台共同情境認知及團隊合作，提升船舶航行與靠離泊安全。",
+    "practicalAnalysis": "本題15分，核心為Closed-loop communication（閉環式溝通），不是只把命令覆誦一次。完整循環包括發令、覆誦、確認／更正、執行、完成回報及監控結果。IMO SMCP提供標準舵令、航向及主機用語；BRM訓練強調團隊溝通、共同情境認知及交互監控。實際用語須依船上SMS、車鐘標示及駕駛台程序，不應把單一示例當成所有船型的固定命令格式。",
     "keyPoints": [
       {
         "point": "閉環式溝通是BRM人因安全措施，讓命令從發出到執行結果確認形成完整閉環。",
@@ -304,7 +304,7 @@
         "editionOrEffectiveDate": "Adopted 29 November 2001",
         "url": "https://www.imo.org/en/ourwork/safety/pages/standardmarinecommunicationphrases.aspx",
         "pageOrSection": "Part A2 On-board Communication Phrases; standard wheel and engine orders",
-        "supports": "舵令、航向及主機命令須覆誦，並由值班駕駛員確認正確執行。"
+        "supports": "標準舵令、航向及主機命令用語；實際應依船舶設備及程序使用。"
       },
       {
         "title": "Bridge Resource Management — Model Course 1.22",
@@ -321,7 +321,7 @@
         "editionOrEffectiveDate": "2014",
         "url": "https://www.tsb.gc.ca/sites/default/files/rapports-reports/marine/M13C0071/eng/m13c0071.pdf",
         "pageOrSection": "Bridge communication",
-        "supports": "閉環式溝通係資訊發出、接收者覆誦、發話者重新確認，降低誤解並建立共同理解。"
+        "supports": "閉環式溝通透過訊息覆誦、發話者確認及執行監控降低誤解。"
       },
       {
         "title": "Bridge Team Command and Control — Managing the Navigational Plan",
@@ -345,36 +345,32 @@
       "本題依BRM及IMO SMCP原則說明Closed Loop Communication，並以引水、靠離泊、駕駛台及拖船通訊作為實務例子。"
     ],
     "limitations": [
-      "不同船公司SMS對確認用語可能有特定要求，例如Correct、Yes或Read back；應依船上程序執行，但核心均為覆誦、確認、執行及監控。"
+      "不同船公司SMS、車鐘標示及駕駛台程序對確認用語可能有特定要求；示例用語僅供理解閉環結構，實際應依本船程序及IMO SMCP適用用語執行。",
+      "覆誦正確不代表執行必然正確，仍須監控舵角、主機轉速、推進器狀態及船舶實際反應。"
     ],
     "verification": {
       "status": "source_checked",
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "IMO SMCP覆誦要求",
+          "item": "Closed-loop communication術語與定義",
           "result": "pass",
-          "note": "依IMO A.918(22)官方頁及標準舵令／主機命令條文核對。"
+          "note": "統一採Closed-loop communication，並保留閉環六步驟。"
         },
         {
-          "item": "BRM閉環溝通定義",
+          "item": "SMCP標準舵令及主機用語",
           "result": "pass",
-          "note": "依IMO Model Course 1.22及加拿大TSB事故調查報告核對。"
+          "note": "依IMO A.918(22)及船上程序原則核對；示例註明依船型調整。"
         },
         {
-          "item": "六步驟及實務例子",
+          "item": "BRM團隊溝通與共同情境認知",
           "result": "pass",
-          "note": "依Nautical Institute橋樓團隊指揮及閉環溝通資料整理。"
+          "note": "依IMO Model Course 1.22核對。"
         },
         {
-          "item": "適用範圍",
+          "item": "執行後回報及監控",
           "result": "pass",
-          "note": "依船公司BRM實務、IMO SMCP及引水作業流程整理。"
-        },
-        {
-          "item": "2027備考適用性",
-          "result": "pass",
-          "note": "補入個船操縱資料、設備型號差異及現行安全作業限制。"
+          "note": "補充覆誦不等於完成，需監控設備指示及船舶反應。"
         }
       ]
     },
