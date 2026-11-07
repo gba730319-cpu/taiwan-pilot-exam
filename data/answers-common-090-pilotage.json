@@ -1,0 +1,631 @@
+[
+  {
+    "id": "090-pilotage-01-answer-v1",
+    "questionId": "090-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "本題五種海圖圖例應依考選部指定的「最新版海圖圖例」（Chart No.1／海圖圖式）繪製，圖形方向、線型及註記要正確。文字示意如下，正式答案應照圖例原符號重畫：\n\n| 項目 | 圖面示意 | 意義與標註 |\n|---|---|---|\n| 單向航線 | `━━━━▶` | 船舶應依箭頭方向航行的單向航線。 |\n| 推薦航線（最大審定吃水7m-30） | `— — ▶ 7M-30` | 推薦通過航線，附最大審定吃水及通過限制註記。 |\n| 限航區界 | `-·-·-·-` | 限制航行區域邊界，區內航行受特定限制。 |\n| 無線電報告點 | `◎ R` | 船舶到達指定點時，依規定向VTS／岸台報告。 |\n| 領海直線基線 | `●────●────●` | 連接法定基點的直線基線，供領海及海域制度測算。 |\n\n【繪圖要求】\n1. 單向航線必須有清楚箭頭，不能只畫一條線。\n2. 推薦航線需同時標出最大審定吃水7m及題目給定的「-30」註記；不得自行把-30解讀成深度或座標，應依海圖圖例原格式呈現。\n3. 限航區界要以圖例規定的界線符號繪出，並標示區域名稱／限制內容。\n4. 無線電報告點須畫出定位點符號，並標註報告點名稱或識別。\n5. 領海直線基線應連接法定基點，非任意沿岸線描繪；實際基點依公告海圖及法令。\n\n【結論】\n海圖符號題以圖式標準為唯一依據，以上文字示意僅供記憶辨識；正式作答時應依指定版次Chart No.1逐一臨摹，尤其推薦航線的7M-30註記不得自行改寫。",
+    "practicalAnalysis": "本題10分，主要測試Chart No.1圖式識別。文字或Unicode示意無法完全取代正式海圖符號，網站應保留圖式名稱、用途及提醒；正式圖樣仍需以考試年度版海圖圖例核對。",
+    "keyPoints": [
+      {
+        "point": "單向航線要有方向箭頭。",
+        "importance": "essential"
+      },
+      {
+        "point": "推薦航線附最大審定吃水7m及題目註記7M-30。",
+        "importance": "essential"
+      },
+      {
+        "point": "限航區界使用標準界線符號。",
+        "importance": "essential"
+      },
+      {
+        "point": "無線電報告點需標出報告位置符號及名稱。",
+        "importance": "supporting"
+      },
+      {
+        "point": "領海直線基線連接法定基點，不是沿岸任意線。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "中華民國燈表",
+        "sourceType": "official_hydrographic_publication",
+        "issuer": "海軍大氣海洋局",
+        "url": "https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?AID=30713&ID=30195",
+        "supports": "燈光位置、燈質、公稱光程及浮標制度的查核方法。"
+      },
+      {
+        "title": "GMDSS海事安全資訊與NAVTEX",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/radiocommunications-default.aspx",
+        "supports": "GMDSS海域、遇險警報及海事安全通信原則。"
+      },
+      {
+        "title": "臺灣高程基準及潮位基準",
+        "sourceType": "official_survey_datum",
+        "issuer": "內政部國土測繪中心",
+        "url": "https://www.nlsc.gov.tw/cp.aspx?n=1483",
+        "supports": "TWVD2001以基隆平均海水面為參考的高程基準說明。"
+      },
+      {
+        "title": "中央氣象署潮汐觀測年報",
+        "sourceType": "official_observation",
+        "issuer": "中央氣象署",
+        "url": "https://www.cwa.gov.tw/Data/service/notice/download/Publish_20250527090042.pdf",
+        "supports": "本島潮位資料引測至TWVD2001，離島潮位站可能採當地基準面。"
+      },
+      {
+        "title": "國際海上避碰規則",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "避碰規則與航行安全。"
+      }
+    ],
+    "assumptions": [
+      "以民國90年考試時的航海圖書、海事通信及潮位基準制度為答題背景；現行資料僅作沿革參考。"
+    ],
+    "limitations": [
+      "未取得2001年考選部指定海圖圖例原版圖檔，Unicode示意不等於正式符號圖樣。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部90年引港學題目",
+          "result": "pass",
+          "note": "已核對題庫原文。"
+        },
+        {
+          "item": "2001年版燈表、潮位基準及海岸航安圖資",
+          "result": "partial",
+          "note": "部分歷史版本或座標數值未取得，未虛構。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "090-pilotage-02-answer-v1",
+    "questionId": "090-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、燈光助航設施的涵蓋限制】\n臺灣沿岸雖設有燈塔、燈杆及燈浮，但燈光助航不能形成全岸線連續、無間斷的照明帶。缺口的判定應以2001年版《中華民國燈表》及海圖為準，逐燈核對位置、燈質、明弧、燈高、公稱光程及地理遮蔽，再判斷相鄰燈光的有效覆蓋是否銜接。\n\n【二、四段缺口的作答方法】\n本題要求四段特定海岸缺口，屬歷史燈表／海圖資料題。目前未取得2001年版燈表完整圖幅及考試指定海圖，無法可靠確認四段的起訖地名。為避免將現行燈塔分布誤當成2001年考題答案，暫不臆造四段名稱。\n\n考試正式答案應按下表填入2001年燈表所示的四段海岸：\n\n| 缺口 | 起點燈標／海岸地名 | 終點燈標／海岸地名 | 造成缺口的原因 |\n|---|---|---|---|\n| 第一段 | 依2001年燈表核對 | 依2001年燈表核對 | 相鄰燈光有效弧不連續／地形遮蔽 |\n| 第二段 | 依2001年燈表核對 | 依2001年燈表核對 | 燈光射程不足或無設燈設施 |\n| 第三段 | 依2001年燈表核對 | 依2001年燈表核對 | 岬角、山地或島嶼造成遮蔽 |\n| 第四段 | 依2001年燈表核對 | 依2001年燈表核對 | 燈標分布間距較大／明弧不涵蓋 |\n\n【三、實際航行補救】\n1. 不得將「看不到燈」等同「沒有危險」；以海圖、雷達、GNSS、天文定位及平行指標交叉定位。\n2. 使用燈表的明弧與公稱光程，確認燈光是否因觀測方向落在遮蔽弧之外。\n3. 夜間沿岸航行保持適當離岸距離及安全速度，避免依單一燈標估算船位。\n4. 在燈光缺口、島嶼背光或背景燈光複雜水域，加強雷達瞭望及定時定位，必要時採用平行指標與安全等深線。\n\n【結論】\n四段缺口的精確地名必須依2001年燈表和海圖確認；未取得歷史圖幅前不編造地名。航行上應以雷達、GNSS、海圖、燈表及目視交叉定位，不能只依賴燈光。",
+    "practicalAnalysis": "本題15分，四段海岸地名是唯一性歷史資料，不能用現行燈塔清單推測。已整理缺口形成原因及航行補救方法，並將四段位置保留待查；取得2001年燈表圖幅後可直接補入。",
+    "keyPoints": [
+      {
+        "point": "依2001年版燈表及海圖判斷四段燈光缺口起訖。",
+        "importance": "essential"
+      },
+      {
+        "point": "逐燈核對燈質、明弧、燈高、公稱光程及地理遮蔽。",
+        "importance": "essential"
+      },
+      {
+        "point": "不能將看不到燈等同沒有危險。",
+        "importance": "essential"
+      },
+      {
+        "point": "使用雷達、GNSS、海圖、平行指標及安全等深線交叉定位。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "中華民國燈表",
+        "sourceType": "official_hydrographic_publication",
+        "issuer": "海軍大氣海洋局",
+        "url": "https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?AID=30713&ID=30195",
+        "supports": "燈光位置、燈質、公稱光程及浮標制度的查核方法。"
+      },
+      {
+        "title": "GMDSS海事安全資訊與NAVTEX",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/radiocommunications-default.aspx",
+        "supports": "GMDSS海域、遇險警報及海事安全通信原則。"
+      },
+      {
+        "title": "臺灣高程基準及潮位基準",
+        "sourceType": "official_survey_datum",
+        "issuer": "內政部國土測繪中心",
+        "url": "https://www.nlsc.gov.tw/cp.aspx?n=1483",
+        "supports": "TWVD2001以基隆平均海水面為參考的高程基準說明。"
+      },
+      {
+        "title": "中央氣象署潮汐觀測年報",
+        "sourceType": "official_observation",
+        "issuer": "中央氣象署",
+        "url": "https://www.cwa.gov.tw/Data/service/notice/download/Publish_20250527090042.pdf",
+        "supports": "本島潮位資料引測至TWVD2001，離島潮位站可能採當地基準面。"
+      },
+      {
+        "title": "國際海上避碰規則",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "避碰規則與航行安全。"
+      }
+    ],
+    "assumptions": [
+      "以民國90年考試時的航海圖書、海事通信及潮位基準制度為答題背景；現行資料僅作沿革參考。"
+    ],
+    "limitations": [
+      "尚未取得2001年版《中華民國燈表》完整沿岸燈位略圖及指定海圖，四段缺口起訖地名尚未能核實。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部90年引港學題目",
+          "result": "pass",
+          "note": "已核對題庫原文。"
+        },
+        {
+          "item": "2001年版燈表、潮位基準及海岸航安圖資",
+          "result": "partial",
+          "note": "部分歷史版本或座標數值未取得，未虛構。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "090-pilotage-03-answer-v1",
+    "questionId": "090-pilotage-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "船舶在GMDSS A1海域遇險時，A1區域係指至少由一座VHF DSC海岸電臺之無線電電話涵蓋，並可提供連續DSC遇險警報服務的海域。船長應依下列程序處理：\n\n【一、立即評估與發出遇險警報】\n1. 確認遇險性質、船位（緯度／經度）、UTC時間、遇險種類、船名、呼號、MMSI、人數及所需協助。\n2. 若有立即且嚴重生命危險，使用VHF DSC Channel 70發出Distress Alert；依設備操作程序選擇遇險性質，若無法選擇則使用未指定類別。\n3. DSC警報發出後，轉至VHF Channel 16，以語音Mayday呼叫，依序說明：MAYDAY三次、This is、船名／呼號／MMSI、船位、遇險性質、所需協助、其他有助救援資料。\n4. 若DSC設備失效或無法使用，立即在VHF Ch.16以語音Mayday發出遇險呼叫。\n\n【二、等待及確認救援】\n1. 保持VHF Ch.16及相關DSC設備守聽，接收海岸電臺或其他船舶的遇險確認及指示。\n2. 若未收到確認，依GMDSS程序適時重發警報，並視情況使用其他可用通信設備。\n3. 收到海岸電臺或救援協調中心指示後，提供更新船位、船況、遇險人數、貨物危險性及救生設備狀態。\n\n【三、啟動船上應變】\n1. 發出船內警報，召集船員，依SMS及緊急部署表分工。\n2. 關閉水密門、隔離火源／燃料／電源，採取堵漏、滅火、排水、操船或其他控制措施。\n3. 穿著救生衣及保暖裝備，準備救生艇筏、EPIRB、SART／AIS-SART及救生通信設備。\n4. 若棄船，船長應確認人員清點、救生艇筏下水及EPIRB啟動；除非船舶已無法維持，避免過早棄船。\n\n【四、其他遇險通信與後續】\n- 必要時啟動406 MHz EPIRB，讓衛星系統將遇險資料傳送至救援系統。\n- 若附近船舶能協助，可依海岸電臺／RCC指示進行中繼通信及現場救援。\n- 遇險解除後，應取消誤發警報並向相關電臺通報，避免救援資源浪費。\n\n【結論】\nA1遇險核心是VHF DSC Ch.70數位遇險警報、轉VHF Ch.16語音Mayday、持續守聽及配合RCC／海岸電臺，並同步執行船上應變與救生設備程序。",
+    "practicalAnalysis": "本題15分，按「DSC警報—Ch.16 Mayday—持續守聽—船上應變—EPIRB／SART—配合RCC」排序作答。A1是VHF DSC海岸電臺涵蓋區，不能把A1與A2／A3衛星通信區混淆。",
+    "keyPoints": [
+      {
+        "point": "A1為VHF DSC海岸電臺涵蓋區。",
+        "importance": "essential"
+      },
+      {
+        "point": "VHF DSC Ch.70發出遇險警報。",
+        "importance": "essential"
+      },
+      {
+        "point": "轉VHF Ch.16發Mayday語音，說明船位、遇險性質及所需協助。",
+        "importance": "essential"
+      },
+      {
+        "point": "保持守聽並與海岸電臺／RCC聯絡。",
+        "importance": "supporting"
+      },
+      {
+        "point": "啟動船上應變、EPIRB、SART及救生艇筏準備。",
+        "importance": "supporting"
+      },
+      {
+        "point": "誤發警報應立即取消並通報。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "中華民國燈表",
+        "sourceType": "official_hydrographic_publication",
+        "issuer": "海軍大氣海洋局",
+        "url": "https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?AID=30713&ID=30195",
+        "supports": "燈光位置、燈質、公稱光程及浮標制度的查核方法。"
+      },
+      {
+        "title": "GMDSS海事安全資訊與NAVTEX",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/radiocommunications-default.aspx",
+        "supports": "GMDSS海域、遇險警報及海事安全通信原則。"
+      },
+      {
+        "title": "臺灣高程基準及潮位基準",
+        "sourceType": "official_survey_datum",
+        "issuer": "內政部國土測繪中心",
+        "url": "https://www.nlsc.gov.tw/cp.aspx?n=1483",
+        "supports": "TWVD2001以基隆平均海水面為參考的高程基準說明。"
+      },
+      {
+        "title": "中央氣象署潮汐觀測年報",
+        "sourceType": "official_observation",
+        "issuer": "中央氣象署",
+        "url": "https://www.cwa.gov.tw/Data/service/notice/download/Publish_20250527090042.pdf",
+        "supports": "本島潮位資料引測至TWVD2001，離島潮位站可能採當地基準面。"
+      },
+      {
+        "title": "國際海上避碰規則",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "避碰規則與航行安全。"
+      }
+    ],
+    "assumptions": [
+      "以民國90年考試時的航海圖書、海事通信及潮位基準制度為答題背景；現行資料僅作沿革參考。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部90年引港學題目",
+          "result": "pass",
+          "note": "已核對題庫原文。"
+        },
+        {
+          "item": "2001年版燈表、潮位基準及海岸航安圖資",
+          "result": "partial",
+          "note": "部分歷史版本或座標數值未取得，未虛構。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "090-pilotage-04-answer-v1",
+    "questionId": "090-pilotage-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、500 mb高層天氣圖取得來源】\n1. **中央氣象署**：提供500 hPa（約500 mb）高空天氣分析圖、預報圖及高空觀測資料，是臺灣船舶最直接的官方來源。\n2. **海軍氣象／海洋單位**：可提供海上氣象資料及航海氣象分析。\n3. **國際氣象機構**：日本氣象廳（JMA）、美國NOAA／NCEP、英國氣象局及其他世界氣象組織資料中心，提供全球500 hPa分析與預報場。\n4. **船舶氣象通信服務**：依航區及設備接收氣象傳真、SafetyNET、NAVTEX或其他核准海事氣象資訊；須確認資料時間與有效期。\n\n【二、500 mb圖的主要用途】\n500 mb約位於中對流層，常用等高線及溫度場分析大尺度環流，主要用途包括：\n1. **判讀高空槽、脊及短波槽**：分析天氣系統移動及發展趨勢。\n2. **判斷大尺度引導氣流**：估計低壓、鋒面及熱帶氣旋可能移動方向與速度；颱風路徑仍須搭配低層環流及官方預報。\n3. **辨識冷暖平流與高空冷渦**：研判對流、降雨、雷暴及天氣不穩定區域。\n4. **分析急流及風切變背景**：配合其他高度層資料，評估系統發展及強度變化。\n5. **航線規劃**：預先辨識大尺度惡劣天氣區，調整航線、航速及避風計畫。\n\n【三、使用限制】\n500 mb圖不能直接代表海面風、浪或港口局地風；船長應配合地面天氣圖、850 mb圖、海面氣壓場、波浪預報、衛星雲圖及航行警告綜合判斷。",
+    "practicalAnalysis": "本題15分，來源要列官方及國際氣象機構；用途需說明中層環流、高空槽脊、引導氣流、冷暖平流及航線規劃。不要把500 mb風場直接當成海面風場。",
+    "keyPoints": [
+      {
+        "point": "中央氣象署及JMA、NOAA/NCEP等可取得500 mb分析／預報。",
+        "importance": "essential"
+      },
+      {
+        "point": "500 mb約為中對流層，常用等高線分析槽脊及大尺度環流。",
+        "importance": "essential"
+      },
+      {
+        "point": "可判斷天氣系統引導氣流、冷暖平流及對流不穩定。",
+        "importance": "essential"
+      },
+      {
+        "point": "用於颱風路徑背景及遠洋航線規劃，但須搭配官方預報。",
+        "importance": "supporting"
+      },
+      {
+        "point": "不能直接代表海面風浪，需與低層圖、波浪及衛星資料合用。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "中華民國燈表",
+        "sourceType": "official_hydrographic_publication",
+        "issuer": "海軍大氣海洋局",
+        "url": "https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?AID=30713&ID=30195",
+        "supports": "燈光位置、燈質、公稱光程及浮標制度的查核方法。"
+      },
+      {
+        "title": "GMDSS海事安全資訊與NAVTEX",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/radiocommunications-default.aspx",
+        "supports": "GMDSS海域、遇險警報及海事安全通信原則。"
+      },
+      {
+        "title": "臺灣高程基準及潮位基準",
+        "sourceType": "official_survey_datum",
+        "issuer": "內政部國土測繪中心",
+        "url": "https://www.nlsc.gov.tw/cp.aspx?n=1483",
+        "supports": "TWVD2001以基隆平均海水面為參考的高程基準說明。"
+      },
+      {
+        "title": "中央氣象署潮汐觀測年報",
+        "sourceType": "official_observation",
+        "issuer": "中央氣象署",
+        "url": "https://www.cwa.gov.tw/Data/service/notice/download/Publish_20250527090042.pdf",
+        "supports": "本島潮位資料引測至TWVD2001，離島潮位站可能採當地基準面。"
+      },
+      {
+        "title": "國際海上避碰規則",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "避碰規則與航行安全。"
+      }
+    ],
+    "assumptions": [
+      "以民國90年考試時的航海圖書、海事通信及潮位基準制度為答題背景；現行資料僅作沿革參考。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部90年引港學題目",
+          "result": "pass",
+          "note": "已核對題庫原文。"
+        },
+        {
+          "item": "2001年版燈表、潮位基準及海岸航安圖資",
+          "result": "partial",
+          "note": "部分歷史版本或座標數值未取得，未虛構。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "090-pilotage-05-answer-v1",
+    "questionId": "090-pilotage-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、臺灣本島潮位／高程基準】\n臺灣本島的國家高程基準以基隆驗潮站1957至1991年長期潮汐資料化算，建立臺灣高程基準（TWVD2001）。其基準參考為基隆平均海水面，定義為高程零點；基隆市海門公園的臺灣水準原點以此高程基準為依據。\n\n【二、澎湖地區基準】\n澎湖屬離島潮位站，歷史潮位及港灣測量可能採當地潮位基準面或當地水準基準，並不當然與臺灣本島TWVD2001零點聯測。正式使用時必須依澎湖測站、馬公港水深基準及當年海圖圖式確認其基準面位置與高程，不可把基隆平均海水面零點直接套用到澎湖。\n\n【三、對航海及測量的意義】\n1. 海圖水深通常以海圖基準面（Chart Datum）表示，不一定等同國家高程基準或平均海水面。\n2. 潮位站零點、海圖基準面、平均海水面及陸上水準高程應明確區分。\n3. 使用潮位預報修正海圖水深時，須確認測站基準面與海圖基準面之間的高程差，避免錯誤計算UKC。\n4. 離島資料若未與本島水準網聯測，不得直接比較不同地區的絕對高程。\n\n【結論】\n臺灣本島高程基準以基隆平均海水面為零點（TWVD2001）；澎湖離島潮位站可能採當地基準，必須查當年澎湖測站及海圖的基準面位置與高程。題目要求的澎湖具體地點及高程數值，尚須以2001年澎湖潮位基準圖／驗潮站資料確認，不能以現行測站零點臆填。",
+    "practicalAnalysis": "本題15分，臺灣本島基準可確認為基隆平均海水面作TWVD2001零點；澎湖是離島，基準未必與本島聯測。答題時需把「潮位基準面」與「國家高程基準」及「海圖基準面」分開。題目問澎湖具體位置及高程，須找到2001年官方測量資料才能填數值。",
+    "keyPoints": [
+      {
+        "point": "臺灣本島TWVD2001以基隆平均海水面為零點。",
+        "importance": "essential"
+      },
+      {
+        "point": "基隆海門公園水準原點依基隆平均海水面建立高程基準。",
+        "importance": "essential"
+      },
+      {
+        "point": "澎湖離島潮位資料可能採當地基準，未必聯測回本島。",
+        "importance": "essential"
+      },
+      {
+        "point": "海圖基準面、潮位站零點、平均海水面及國家高程基準不同。",
+        "importance": "supporting"
+      },
+      {
+        "point": "計算UKC前須確認海圖與潮位測站基準面高程差。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "中華民國燈表",
+        "sourceType": "official_hydrographic_publication",
+        "issuer": "海軍大氣海洋局",
+        "url": "https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?AID=30713&ID=30195",
+        "supports": "燈光位置、燈質、公稱光程及浮標制度的查核方法。"
+      },
+      {
+        "title": "GMDSS海事安全資訊與NAVTEX",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/radiocommunications-default.aspx",
+        "supports": "GMDSS海域、遇險警報及海事安全通信原則。"
+      },
+      {
+        "title": "臺灣高程基準及潮位基準",
+        "sourceType": "official_survey_datum",
+        "issuer": "內政部國土測繪中心",
+        "url": "https://www.nlsc.gov.tw/cp.aspx?n=1483",
+        "supports": "TWVD2001以基隆平均海水面為參考的高程基準說明。"
+      },
+      {
+        "title": "中央氣象署潮汐觀測年報",
+        "sourceType": "official_observation",
+        "issuer": "中央氣象署",
+        "url": "https://www.cwa.gov.tw/Data/service/notice/download/Publish_20250527090042.pdf",
+        "supports": "本島潮位資料引測至TWVD2001，離島潮位站可能採當地基準面。"
+      },
+      {
+        "title": "國際海上避碰規則",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "避碰規則與航行安全。"
+      }
+    ],
+    "assumptions": [
+      "以民國90年考試時的航海圖書、海事通信及潮位基準制度為答題背景；現行資料僅作沿革參考。"
+    ],
+    "limitations": [
+      "未取得2001年澎湖馬公潮位基準面原始基準圖及其高程差數值，故不填入未核實數值。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部90年引港學題目",
+          "result": "pass",
+          "note": "已核對題庫原文。"
+        },
+        {
+          "item": "2001年版燈表、潮位基準及海岸航安圖資",
+          "result": "partial",
+          "note": "部分歷史版本或座標數值未取得，未虛構。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "090-pilotage-06-answer-v1",
+    "questionId": "090-pilotage-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、避險線定義】\n避險線（Clearing Line）是航海人員在海圖上選定的安全界線，利用岸上固定物、方位、距離或疊標，確保船舶不越過危險區邊界。其目的在於讓船舶在能見度良好或儀器定位條件下，持續確認船位與危險物之間保有安全距離。\n\n【二、常見避險線種類】\n1. **避險方位線（Clearing Bearing）**：以燈塔、岬角或固定物的方位作界線；船舶保持在安全一側，不得讓物標方位越過危險方位。\n2. **避險距離線（Clearing Range）**：利用雷達距離或目視距離，設定距離危險物的最小安全範圍；不得進入該距離內。\n3. **疊標／導標線（Transit／Leading Line）**：以兩個固定物標重合形成安全航線或界線；保持疊標關係即可維持在指定航道。\n4. **平行指標線（Parallel Index）**：在雷達螢幕上建立與岸線或危險邊界平行的電子線，監控船舶橫向偏移。\n5. **安全等深線／等深線界限**：以海圖水深及安全等深線作為淺水區避險界線，確保船舶不進入UKC不足水域。\n6. **方位與距離組合線**：同時使用方位及距離限制，形成較精確的避險區域，例如不得越過某一方位且不得接近某一距離。\n\n【三、使用注意事項】\n- 避險線應以可靠固定物及最新海圖建立，並考慮海圖基準、磁差、自差及定位誤差。\n- 若使用燈標，須注意燈光明弧、地理見距及燈光故障；不可假設所有方向都能看見燈光。\n- 雷達平行指標須設定正確、考慮雷達天線位置及船體偏移。\n- 避險線是安全監控工具，不取代瞭望、測深、航跡監控及COLREG避碰責任。\n\n【結論】\n避險線是用固定物方位、距離、疊標、雷達PI或安全等深線建立的安全界線，讓船舶保持在危險物外側，避免觸礁、擱淺或進入限制水域。",
+    "practicalAnalysis": "本題20分，應先下定義，再列出多種線型並說明如何使用。方位線、距離線、疊標線、雷達PI及安全等深線可形成完整答案；實務上要考慮磁差、自差、雷達天線偏移、燈光明弧及海圖資料品質。",
+    "keyPoints": [
+      {
+        "point": "避險線是以方位、距離或固定物標界定安全邊界。",
+        "importance": "essential"
+      },
+      {
+        "point": "常見類型有避險方位線、避險距離線、疊標線、平行指標及安全等深線。",
+        "importance": "essential"
+      },
+      {
+        "point": "方位線與距離線須以可靠固定物或雷達目標建立。",
+        "importance": "essential"
+      },
+      {
+        "point": "疊標線保持兩物標重合，PI監控相對岸線偏移。",
+        "importance": "supporting"
+      },
+      {
+        "point": "考慮磁差、自差、雷達偏移、燈光明弧及海圖品質。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "中華民國燈表",
+        "sourceType": "official_hydrographic_publication",
+        "issuer": "海軍大氣海洋局",
+        "url": "https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?AID=30713&ID=30195",
+        "supports": "燈光位置、燈質、公稱光程及浮標制度的查核方法。"
+      },
+      {
+        "title": "GMDSS海事安全資訊與NAVTEX",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/radiocommunications-default.aspx",
+        "supports": "GMDSS海域、遇險警報及海事安全通信原則。"
+      },
+      {
+        "title": "臺灣高程基準及潮位基準",
+        "sourceType": "official_survey_datum",
+        "issuer": "內政部國土測繪中心",
+        "url": "https://www.nlsc.gov.tw/cp.aspx?n=1483",
+        "supports": "TWVD2001以基隆平均海水面為參考的高程基準說明。"
+      },
+      {
+        "title": "中央氣象署潮汐觀測年報",
+        "sourceType": "official_observation",
+        "issuer": "中央氣象署",
+        "url": "https://www.cwa.gov.tw/Data/service/notice/download/Publish_20250527090042.pdf",
+        "supports": "本島潮位資料引測至TWVD2001，離島潮位站可能採當地基準面。"
+      },
+      {
+        "title": "國際海上避碰規則",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "避碰規則與航行安全。"
+      }
+    ],
+    "assumptions": [
+      "以民國90年考試時的航海圖書、海事通信及潮位基準制度為答題背景；現行資料僅作沿革參考。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部90年引港學題目",
+          "result": "pass",
+          "note": "已核對題庫原文。"
+        },
+        {
+          "item": "2001年版燈表、潮位基準及海岸航安圖資",
+          "result": "partial",
+          "note": "部分歷史版本或座標數值未取得，未虛構。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "090-pilotage-07-answer-v1",
+    "questionId": "090-pilotage-07",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、朔望後潮差最大是否固定】\n基隆港與高雄港的潮差不應一概認定都在朔望後1至3天達到最大。朔望時日、月引潮力大致同向，形成大潮；上弦、下弦時引潮力部分抵消，形成小潮。但實際最大潮差會因各港地形、海盆共振、潮波傳播、摩擦及潮汐調和常數不同，而出現在朔望前後不同時間。\n\n【二、主要原因】\n1. **潮波傳播與潮汐齡（Age of Tide）**：最大潮差不一定與朔望同時發生，因潮波由外海傳入近岸及港灣有時間延遲，最大潮差可能落後朔望數小時至數日。\n2. **港灣形狀與水深**：海岸線、海底地形、港池形狀及水深會改變潮波速度、反射及共振，造成各港潮差與時間不同。\n3. **潮汐調和成分**：半日潮、全日潮及日潮不等成分比例不同，造成高潮與低潮高度不對稱。\n4. **氣象因素**：季風、氣壓、風暴潮及海流會使實際潮位偏離天文潮預報，尤其颱風及強季風時更明顯。\n5. **地理位置差異**：基隆位於臺灣北部、受東海與黑潮邊緣潮波影響；高雄位於臺灣西南部、受臺灣海峽潮波及沿岸地形影響，兩地潮差峰值時間不必相同。\n\n【三、實務判斷】\n應分別查閱基隆與高雄的長期驗潮資料及潮汐調和常數，統計朔望前後每日高潮與低潮差，才能判斷各港的平均潮汐齡。航行計畫應以當日官方潮汐表及即時潮位為準，不以「朔望後1至3天」作為固定規則。\n\n【結論】\n朔望形成大潮，但基隆與高雄的最大潮差時間不一定同為朔望後1至3天；其延遲由潮波傳播、港灣地形、水深、潮汐調和成分及氣象因素共同決定。",
+    "practicalAnalysis": "本題10分，核心是指出「朔望造成大潮」與「最大潮差出現時間」是兩個不同概念。港灣潮波傳播及局地地形會造成潮汐齡，基隆與高雄不能套用同一固定延遲。",
+    "keyPoints": [
+      {
+        "point": "朔望時形成大潮，但最大潮差不一定在朔望當天。",
+        "importance": "essential"
+      },
+      {
+        "point": "潮汐齡由潮波傳播延遲、海盆／港灣形狀及摩擦造成。",
+        "importance": "essential"
+      },
+      {
+        "point": "半日潮、全日潮及日潮不等成分影響高潮低潮差。",
+        "importance": "essential"
+      },
+      {
+        "point": "季風、氣壓、風暴潮及海流使實際潮位偏離天文潮。",
+        "importance": "supporting"
+      },
+      {
+        "point": "基隆與高雄須分別依長期驗潮資料判定，不套固定1至3天。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "中華民國燈表",
+        "sourceType": "official_hydrographic_publication",
+        "issuer": "海軍大氣海洋局",
+        "url": "https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?AID=30713&ID=30195",
+        "supports": "燈光位置、燈質、公稱光程及浮標制度的查核方法。"
+      },
+      {
+        "title": "GMDSS海事安全資訊與NAVTEX",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/radiocommunications-default.aspx",
+        "supports": "GMDSS海域、遇險警報及海事安全通信原則。"
+      },
+      {
+        "title": "臺灣高程基準及潮位基準",
+        "sourceType": "official_survey_datum",
+        "issuer": "內政部國土測繪中心",
+        "url": "https://www.nlsc.gov.tw/cp.aspx?n=1483",
+        "supports": "TWVD2001以基隆平均海水面為參考的高程基準說明。"
+      },
+      {
+        "title": "中央氣象署潮汐觀測年報",
+        "sourceType": "official_observation",
+        "issuer": "中央氣象署",
+        "url": "https://www.cwa.gov.tw/Data/service/notice/download/Publish_20250527090042.pdf",
+        "supports": "本島潮位資料引測至TWVD2001，離島潮位站可能採當地基準面。"
+      },
+      {
+        "title": "國際海上避碰規則",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "避碰規則與航行安全。"
+      }
+    ],
+    "assumptions": [
+      "以民國90年考試時的航海圖書、海事通信及潮位基準制度為答題背景；現行資料僅作沿革參考。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部90年引港學題目",
+          "result": "pass",
+          "note": "已核對題庫原文。"
+        },
+        {
+          "item": "2001年版燈表、潮位基準及海岸航安圖資",
+          "result": "partial",
+          "note": "部分歷史版本或座標數值未取得，未虛構。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
