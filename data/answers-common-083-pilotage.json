@@ -2,92 +2,99 @@
   {
     "id": "083-pilotage-01-answer-v1",
     "questionId": "083-pilotage-01",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "本題依「中國浮標制度／中華民國舊制浮標」作答，不可直接套用現行IALA A區或B區左右舷標誌。海軍大氣海洋局第八版《海圖圖例》（2010）仍保留本國自訂浮標符號，並以紅黑、紅白、綠、白等色別表示。\n\n| 題目要求 | 英文 | 顏色／花紋 | 用途及通過原則 | 簡圖示意 |\n|---|---|---|---|---|\n| （1）沉船浮 | Wreck buoy | 綠色（G） | 標示沉船位置或沉船危險區；應依海圖標示及航船布告，從指定安全側通過，不可將其當成一般航道側面浮標。 | 🟩 |\n| （2）中港浮 | Mid-channel buoy | 紅、黑相間橫條（BR） | 標示航道中央／安全水域，供船舶辨識航道中線；依當地浮標制度及海圖註記決定通過側。 | 🟥⬛🟥 |\n| （3）右障浮 | Starboard obstruction buoy | 紅、白相間方格（RW） | 標示航道右側障礙物或右側危險界線；依航行方向及海圖所示，從安全水域一側通過。 | 🟥⬜🟥 |\n| （4）端障浮（障端浮） | Spit ends buoy | 紅、黑相間直條（BR） | 標示突出障礙物、沙嘴或淺灘末端，提醒船舶辨識障礙物端部及安全通航水域。 | 🟥⬛🟥 |\n| （5）測量浮 | Survey buoy | 白色（測量浮） | 標示水文測量或測深作業用途，提醒船舶注意測量作業區及相關設備。 | ⬜ |\n\n【考試手繪示意】\n以下為顏色及條紋的簡化示意，正式圖式應畫出浮體輪廓、頂標及必要燈號：\n\n1. 沉船浮：綠色浮體（G）。\n2. 中港浮：紅黑橫條浮體（BR）。\n3. 右障浮：紅白方格浮體（RW）。\n4. 端障浮：紅黑直條浮體（BR）。\n5. 測量浮：白色浮體。\n\n【易混淆處】\n- 「右障浮」不是「右舷浮」；右舷浮是航道側面標誌，右障浮是障礙物標誌。\n- 「端障浮」在海圖圖例英譯為 **Spit ends buoy**，不是一般航道端點燈浮。\n- 「中港浮」是安全水域／航道中線標誌，不能把其紅黑條紋與右障浮的紅白方格混淆。\n- 2010年《水道燈表》附表五另列白色測量浮、綠色沉船浮；作答時應與海圖圖例的本國自訂符號對照。",
-    "practicalAnalysis": "本題10分，考點是五種浮標的圖式及用途。因「中國浮標制度」是歷史圖式用語，須以考試指定海圖圖例確認顏色及形狀。",
+    "modelAnswer": "## 一、先分清題目年代\n\n民國83年題目指定「中國浮標制度」，是歷史制度題。2027年臺灣現行航路標識已採**IALA海上浮標制度B區（Region B）**，因此本題應分成「歷史題作答」與「現行制度補充」，不可把舊中國浮標制度當成今日臺灣浮標制度。\n\n## 二、2027年臺灣現行制度：IALA Region B\n\n臺灣採IALA B區，船舶由外海進港時：\n- **左側標（Port-hand mark）：綠色**，通常為罐形／圓筒形浮體，頂標如有為綠色圓筒形。\n- **右側標（Starboard-hand mark）：紅色**，通常為錐形浮體，頂標如有為紅色圓錐形。\n- 優先水道標誌依Region B規則，以紅綠橫紋及相應燈質表示。\n\n題目五種標誌在現行IALA系統的對應如下：\n\n| 題目舊稱 | 現行IALA概念 | 現行識別重點 |\n|---|---|---|\n| （1）沉船浮 | Emergency Wreck Mark（新危險／新沉船標誌） | 藍黃等寬垂直條紋，4至8條；柱形或桿形；如有頂標為直立黃色十字；燈光藍、黃交替閃光，週期3秒。必要時可加RACON Morse D或AIS AtoN。 |\n| （2）中港浮 | Safe Water Mark（安全水域標誌） | 紅白垂直條紋；如有頂標為單一紅球；白光可採等明暗、明暗、長閃10秒或摩斯A；表示四周均為可航水域。 |\n| （3）右障浮 | 無一對一舊稱對應；依危險位置採Cardinal Mark或Isolated Danger Mark | 若標示危險物所在方位，使用北、東、南、西方位標；若浮標設於孤立危險物上且四周有可航水域，使用黑色紅橫帶、雙黑球頂標的孤立危險標。 |\n| （4）端障浮 | 依障礙物位置及安全水域方向採Cardinal Mark／Isolated Danger Mark | 不應只因舊稱「端障」就固定畫成某一顏色；須先確認危險物端部及可航水域方位。 |\n| （5）測量浮 | Special Mark（特殊標誌） | 黃色浮體；如有頂標為黃色X；燈光為黃色。用於測量、施工、資料浮標或其他特殊區域／用途，依海圖與航船布告確認。 |\n\n## 三、歷史「中國浮標制度」作答提醒\n\n原題的沉船浮、中港浮、右障浮、端障浮及測量浮，應依民國83年考試指定的中國浮標圖例繪圖。既有歷史答案所列綠色沉船浮、紅黑相間中港浮、紅白方格右障浮、紅黑直條端障浮及白色測量浮，僅作歷史題對照；目前尚未取得考試指定版次的完整原始圖例，故不將其當作已完全核實的現行符號。\n\n## 四、考試及實務結論\n\n- 若題目明確寫「依中國浮標制度」，應按歷史圖例作答，並標明是歷史制度。\n- 若問2027年臺灣現行航路標識，應以IALA Region B作答：進港左綠、右紅；中港浮為紅白垂直條紋安全水域標；新沉船標誌為藍黃垂直條紋；特殊測量標為黃色。\n- 右障、端障等舊稱不能直接套成現行某一種IALA標誌，必須依危險物與安全水域相對位置選擇方位標或孤立危險標。",
+    "practicalAnalysis": "原答案只列歷史中國浮標制度，容易讓2027考生誤以為臺灣現行仍使用該制。航港局及海軍燈表明確指出臺灣採IALA B區，且海軍大氣海洋局官方第9版海圖圖例列出IALA標誌。現已補上Region B左綠右紅、Emergency Wreck Mark、Safe Water Mark、Cardinal／Isolated Danger及Special Mark的現行對照；舊制五種圖式仍保留歷史答案，但因缺原版圖例而標示待查。",
     "keyPoints": [
       {
-        "point": "沉船浮標示沉船危險物。",
+        "point": "臺灣現行航路標識採IALA Region B：進港左側綠、右側紅。",
         "importance": "essential"
       },
       {
-        "point": "中港浮標示航道中央／安全水域。",
+        "point": "中港浮現行對應Safe Water Mark：紅白垂直條紋、紅球頂標、四周可航。",
         "importance": "essential"
       },
       {
-        "point": "右障浮及端障浮標示障礙物側界及末端。",
+        "point": "新沉船／新危險標誌：藍黃垂直條紋、黃色十字頂標、藍黃交替閃光3秒。",
         "importance": "essential"
       },
       {
-        "point": "測量浮標示測量作業區。",
-        "importance": "supporting"
+        "point": "測量浮現行通常依Special Mark：黃色浮體、黃色X頂標、黃燈。",
+        "importance": "essential"
       },
       {
-        "point": "顏色、頂標及燈質依1994年指定圖例，不直接套用現行IALA。",
+        "point": "右障浮及端障浮無一對一現行名稱，依危險方位採Cardinal Mark或Isolated Danger Mark。",
+        "importance": "essential"
+      },
+      {
+        "point": "中國浮標制度僅作民國83年歷史題對照，未取得原版圖例前不可宣稱歷史圖式完全核實。",
         "importance": "supporting"
       }
     ],
     "references": [
       {
-        "title": "考選部83年甲種引水人引港學官方試題",
+        "title": "中華民國海軍水道圖刊物第一種：海圖圖例第9版",
+        "sourceType": "official_chart_reference",
+        "issuer": "海軍大氣海洋局",
+        "editionOrEffectiveDate": "第9版，依2021年IHO海圖規格",
+        "url": "https://navy.mnd.gov.tw/Files/Policy/%E6%B5%B7%E5%9C%8B%E6%B5%B7%E5%9C%96%E5%9C%96%E4%BE%8B%E7%AC%AC9%E7%89%88.pdf",
+        "supports": "IALA浮標制度A、B區、沉船標誌、安全水域標誌、特殊標誌、方位標及孤立危險標。"
+      },
+      {
+        "title": "中華民國101年燈表",
+        "sourceType": "official_chart_reference",
+        "issuer": "海軍大氣海洋局",
+        "editionOrEffectiveDate": "2012-10",
+        "url": "https://navy.mnd.gov.tw/Files/Policy/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%87%88%E8%A1%A8%28101%29.pdf.pdf",
+        "supports": "臺澎金馬採IALA B區、進港左綠右紅及臺灣助航設施管理範圍。"
+      },
+      {
+        "title": "臺灣航路標識制度說明",
+        "sourceType": "official_guidance",
+        "issuer": "交通部航港局",
+        "url": "https://www.motcmpb.gov.tw/Information/Detail/3125d6a4-8313-4065-960f-0574776f60cb?NodeId=495&SiteId=1",
+        "supports": "我國航路標識採IALA B區、左綠右紅。"
+      },
+      {
+        "title": "83年甲種引水人引港學官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國83年（1994）",
+        "editionOrEffectiveDate": "民國83年",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=017&code=083180&q=1&s=2001&t=Q",
-        "supports": "原題要求繪出沉船浮、中港浮、右障浮、端障浮及測量浮。"
-      },
-      {
-        "title": "海圖圖例第八版（2010）Q節：本國自訂浮標符號",
-        "sourceType": "official_naval_chart_legend",
-        "issuer": "海軍大氣海洋局",
-        "editionOrEffectiveDate": "民國99年12月，第八版",
-        "url": "https://www.mnd.gov.tw/newUpload/UserFiles/File/%E5%A4%A7%E6%B0%A3%E6%B5%B7%E6%B4%8B%E5%B1%80/%E6%B5%B7%E5%9C%96%E5%9C%96%E4%BE%8B%281020730%29.pdf",
-        "supports": "中港浮、右障浮、障端浮及沉船浮的本國自訂圖例、英文名稱及色別。"
-      },
-      {
-        "title": "水道燈表第九版附表五：中華民國浮標制度",
-        "sourceType": "official_naval_publication",
-        "issuer": "海軍大氣海洋局",
-        "editionOrEffectiveDate": "民國99年修訂版",
-        "url": "https://www.mnd.gov.tw/NewUpload/userfiles/File/%E5%A4%A7%E6%B0%A3%E6%B5%B7%E6%B4%8B%E5%B1%80/99%E6%B0%B4%E9%81%93%E7%87%88%E8%A1%A8.pdf",
-        "supports": "紅黑橫條、紅黑直條、紅白方格、綠色沉船浮及白色測量浮的制度說明。"
+        "supports": "原題五種中國浮標制度圖式。"
       }
     ],
     "assumptions": [
-      "海圖圖式及潮汐術語依1994年指定教材版本。"
+      "現行制度依臺灣航港局及海軍大氣海洋局官方資料採IALA Region B。",
+      "舊中國浮標圖式僅作歷史對照，未取得指定版次原圖前不作完全確認。"
     ],
     "limitations": [
-      "未取得1994年指定中國浮標制度圖例原圖，故不臆造各浮標顏色、形狀及燈質。"
+      "尚未取得民國83年考試指定版次的中國浮標制度原始圖例；右障浮、端障浮及歷史色別／頂標細節仍待原版圖表核對。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部83年引港學原卷",
+          "item": "臺灣現行IALA Region B制度",
           "result": "pass",
-          "note": "五種浮標名稱核對。"
+          "note": "航港局及海軍燈表均確認臺灣採B區，進港左綠右紅。"
         },
         {
-          "item": "海軍大氣海洋局2010年海圖圖例第八版",
+          "item": "IALA現行五類標誌對照",
           "result": "pass",
-          "note": "確認中港浮、右障浮、端障浮、沉船浮的英文名稱及本國圖式色別。"
+          "note": "依官方第9版海圖圖例核對新沉船標、安全水域標、特殊標、方位標及孤立危險標。"
         },
         {
-          "item": "水道燈表附表五",
-          "result": "pass",
-          "note": "確認紅黑條紋、紅白方格、綠色沉船浮及白色測量浮的制度。"
-        },
-        {
-          "item": "83年考試當時版本圖式",
-          "result": "partial",
-          "note": "已找到後續官方圖例與浮標制度對照，但尚未取得1994年版海圖圖例原本，故不宣稱完全歷史版本核實。"
+          "item": "民國83年中國浮標制度原圖",
+          "result": "needs_review",
+          "note": "缺少原題指定版次的完整圖例，歷史符號細節保留待查。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "083-pilotage-02-answer-v1",
