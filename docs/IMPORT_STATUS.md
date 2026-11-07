@@ -1077,6 +1077,7 @@
 - 前台匯入：`app/page.tsx`已載入`data/answers-104.json`；ReactMarkdown、remark-gfm、remark-math及rehype-katex支援答案中的表格及公式。
 - 重要現行差異已納入：56號碼頭進港船LOA超過150m須順進港方向靠泊且不得在碼頭前迴轉；56至63號碼頭間航速限制；99號碼頭現行專用碼頭用途與石化船靠泊資格須先核實；洲際二期第七貨櫃中心S1–S5已於2023–2024分期完成交付營運。
 - 此次完成的是資料靜態終檢，並非官方標準答案認證；考選部逐題評分細則未取得。前台渲染器已有乾淨建置驗證，但本次尚未逐題進行瀏覽器人工視覺驗收，也未執行Production部署。
+- 最新整合建置：以Vercel Sandbox將GitHub main reset至commit `e075036ce8c2f45d4dff00edf8d2f4acd519c8ec`後重新執行`npm run build`，Next.js 15.5.28編譯成功、型別檢查通過、5/5靜態頁產生完成。僅有既有CSS autoprefixer警告（`end`建議改為`flex-end`），未阻擋建置。此為Sandbox build，不代表Production部署。
 
 
 ### 民國104年度答案面向2027考試第一輪補強（2026-11-07）
