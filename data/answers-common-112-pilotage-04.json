@@ -1,0 +1,85 @@
+[
+  {
+    "id": "answer-112-pilotage-04",
+    "questionId": "112-pilotage-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、IALA方位標誌（Cardinal Marks）的用途\n方位標誌用來表示危險物周圍哪一側為可航水域。標誌名稱分為北、東、南、西方位標，船舶應從該標誌所代表的安全方位側通過；例如北方位標表示標誌北側為安全水域，船舶應保持在標誌北側航行。方位標誌的顏色、頂標及白色燈光節奏全球一致，不因IALA A區或B區而改變。\n\n二、四種方位標誌的顏色及頂標\n（一）北方位標（North Cardinal Mark）：標體上半部黑色、下半部黃色（Black over Yellow）；頂標為兩個黑色圓錐，上下排列且尖端均朝上。記憶：兩錐尖端朝天，安全水域在北側。\n（二）東方位標（East Cardinal Mark）：標體黑、黃、黑三段，中央為黃色寬帶（Black-Yellow-Black）；頂標為兩個黑色圓錐上下排列，底部相對、底對底（base to base）。記憶：兩錐底部相接，安全水域在東側。\n（三）南方位標（South Cardinal Mark）：標體上半部黃色、下半部黑色（Yellow over Black）；頂標為兩個黑色圓錐上下排列，尖端均朝下。記憶：兩錐尖端朝下，安全水域在南側。\n（四）西方位標（West Cardinal Mark）：標體黃、黑、黃三段（Yellow-Black-Yellow）；頂標為兩個黑色圓錐上下排列，尖端相對（point to point）。記憶：兩錐尖端相對，安全水域在西側。\n\n三、燈光特徵（補充）\n四種方位標誌若設燈，均為白色燈光，閃光節奏可用鐘面記憶：北方位連續快速閃光；東方位3閃；南方位6閃加一長閃；西方位9閃。Very Quick與Quick的閃光速度不同，週期亦可能依燈具設定而有差異，辨識時應查海圖及燈表，不宜只憑節奏推測位置。\n\n四、示意圖記憶\n北：黑在上黃在下；頂標 ▲ ▲（尖尖朝上）\n東：黑／黃／黑；頂標 ▼ ▲（兩錐底部相接）\n南：黃在上黑在下；頂標 ▼ ▼（尖尖朝下）\n西：黃／黑／黃；頂標 ▲ ▼（兩錐尖端相對）\n\n五、引水及航行應用\n接近方位標誌時，應先以海圖確認危險物位置、標誌座標、標誌所指示的安全側及可用水深，再以目視、雷達、ECDIS及定位系統交叉確認。不可把方位標誌誤當成側面標誌，也不可只因看到標誌就貼近其旁通過；仍須考慮危險物範圍、船舶吃水、UKC、風流及安全距離。\n\n結論：北方位黑黃、兩錐尖端朝上；東方位黑黃黑、兩錐底對底；南方位黃黑、兩錐尖端朝下；西方位黃黑黃、兩錐尖端相對。標誌所命名的方位，就是船舶應通過的安全側。",
+    "practicalAnalysis": "本題20分，四種標誌各5分。每一種都要同時寫出標體顏色排列及頂標方向，不能只寫顏色。若考場要求繪圖，畫出上下兩錐的相對方向，並在旁標示N/E/S/W及安全通過側；燈光節奏可作加分補充。",
+    "keyPoints": [
+      {
+        "point": "North：黑上黃下；兩黑錐尖端朝上；北側安全。",
+        "importance": "essential"
+      },
+      {
+        "point": "East：黑黃黑；兩黑錐底對底；東側安全。",
+        "importance": "essential"
+      },
+      {
+        "point": "South：黃上黑下；兩黑錐尖端朝下；南側安全。",
+        "importance": "essential"
+      },
+      {
+        "point": "West：黃黑黃；兩黑錐尖端相對；西側安全。",
+        "importance": "essential"
+      },
+      {
+        "point": "方位標誌若設燈均為白燈：北連續快閃、東3閃、南6閃加長閃、西9閃。",
+        "importance": "essential"
+      },
+      {
+        "point": "臺灣採用IALA B區，但方位標誌顏色及頂標不因A/B區而異。",
+        "importance": "essential"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "note": "未取得官方逐項評分細則；配分僅供複習。"
+    },
+    "references": [
+      {
+        "title": "IALA Recommendation R1001 — The IALA Maritime Buoyage System",
+        "sourceType": "IALA_standard",
+        "issuer": "International Organization for Marine Aids to Navigation",
+        "url": "https://www.iala.int/product/r1001/?download=true",
+        "supports": "方位標誌顏色、頂標形狀及燈光節奏的正式標準。"
+      },
+      {
+        "title": "Canadian Chart 1 — IALA Buoyage",
+        "sourceType": "official_hydrographic_chart_legend",
+        "issuer": "Canadian Hydrographic Service",
+        "url": "https://www.chs.gc.ca/publications/chart1-carte1/sections/q-buoys/iala-eng.html",
+        "supports": "四種方位標誌的圖示、顏色及頂標對照。"
+      },
+      {
+        "title": "IALA Buoyage System",
+        "sourceType": "official_navigation_reference",
+        "issuer": "IALA / IALACOLREG",
+        "url": "https://ialacolreg.com/en/iala",
+        "supports": "方位標誌安全側、顏色及頂標的圖像化說明。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "官方逐項評分細則未取得。"
+    ],
+    "verification": {
+      "status": "verified_with_scope",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "題目",
+          "result": "pass",
+          "note": "依112年度題庫主檔核對題目。"
+        },
+        {
+          "item": "主要專業依據",
+          "result": "pass",
+          "note": "依IMO／IHO／IALA官方標準或主管機關資料整理。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
