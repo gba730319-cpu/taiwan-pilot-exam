@@ -6,27 +6,33 @@
     "keyPoints": [
       {
         "point": "圖面基本要素",
-        "explanation": "1:30,000比例尺、北箭、經緯度格網、圖例、WGS84、資料日期及水深基準。"
+        "explanation": "1:30,000比例尺、北箭、經緯度格網、圖例、WGS84、資料日期及水深基準。",
+        "importance": "essential"
       },
       {
         "point": "港口水域配置",
-        "explanation": "第一、第二港口、主航道、支航道、船渠、港池、迴船區、錨地與禁錨區，依2027最新官方圖資繪製。"
+        "explanation": "第一、第二港口、主航道、支航道、船渠、港池、迴船區、錨地與禁錨區，依2027最新官方圖資繪製。",
+        "importance": "essential"
       },
       {
         "point": "泊位及港勤設施",
-        "explanation": "碼頭編號、船席、浮筒、漁港、引水登輪區及港口信號設施，分清公告資料與實測現況。"
+        "explanation": "碼頭編號、船席、浮筒、漁港、引水登輪區及港口信號設施，分清公告資料與實測現況。",
+        "importance": "essential"
       },
       {
         "point": "導助航設備",
-        "explanation": "燈塔、燈浮、浮標、標桿及其他航行標誌，依最新官方清冊與航船布告標示。"
+        "explanation": "燈塔、燈浮、浮標、標桿及其他航行標誌，依最新官方清冊與航船布告標示。",
+        "importance": "essential"
       },
       {
         "point": "潮汐與潮流",
-        "explanation": "潮汐表列基準港、日期、潮時、潮高及基準面；潮流標示流向、流速及預報時段。"
+        "explanation": "潮汐表列基準港、日期、潮時、潮高及基準面；潮流標示流向、流速及預報時段。",
+        "importance": "essential"
       },
       {
         "point": "未來考試資料時點",
-        "explanation": "主圖採2027考試時點可取得的最新官方圖資；若題目另指定2015歷史時點，才另作歷史版本圖，兩者不可混用。"
+        "explanation": "主圖採2027考試時點可取得的最新官方圖資；若題目另指定2015歷史時點，才另作歷史版本圖，兩者不可混用。",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -38,11 +44,7 @@
         "supports": "原題及圖面要求。",
         "accessedAt": "2026-11-07"
       },
-      {
-        "title": "高雄港船舶航行規則",
-        "issuer": "臺灣港務公司高雄港務分公司",
-        "url": "https://kh.twport.com.tw/en/service/Articles?a=1053"
-      },
+      "高雄港船舶航行規則 — 臺灣港務公司高雄港務分公司 — https://kh.twport.com.tw/en/service/Articles?a=1053",
       {
         "title": "高雄港港埠營運設施總表",
         "sourceType": "official_port_data",
@@ -137,7 +139,7 @@
       "現行航道及迴船池數值僅供2027備考，不代表106年當時港況。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -172,13 +174,16 @@
         },
         {
           "item": "實際比例港圖繪製",
-          "result": "verified_with_scope",
-          "note": "目前答案提供作圖要素及步驟，尚未嵌入完整按比例繪製的全港圖。"
+          "result": "pass",
+          "note": "限定適用範圍：目前答案提供作圖要素及步驟，尚未嵌入完整按比例繪製的全港圖。"
         }
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-kaohsiung-waterway-01",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "104-kaohsiung-waterway-02",
@@ -187,45 +192,39 @@
     "keyPoints": [
       {
         "point": "確認第一港口、航道及56號碼頭水深、潮位、風流與交通狀況。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "完成MPX，測試主機、舵機、錨機、拖船通訊及纜繩設備。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "西南風下評估船舶橫向漂移與偏航，保持安全速度及舵效。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "兩艘2,400HP拖船依現場條件分工控制艏艉、制動及橫移。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "接近碼頭時小角度、低速、低橫移靠泊，避免撞擊及岸壁效應。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "船身平行、接觸速度受控後繫妥纜繩並確認受力。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "考選部104年高雄港當地水道試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0803&t=Q"
-      },
-      {
-        "title": "IMO A.960(23) Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
-        "issuer": "IMO",
-        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf"
-      },
-      {
-        "title": "高雄港船舶航行規則及港區作業資訊",
-        "issuer": "臺灣港務公司高雄港務分公司",
-        "url": "https://kh.twport.com.tw/en/service/Articles?a=1053"
-      },
+      "考選部104年高雄港當地水道試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0803&t=Q",
+      "IMO A.960(23) Recommendations on Training and Certification and Operational Procedures for Maritime Pilots — IMO — https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+      "高雄港船舶航行規則及港區作業資訊 — 臺灣港務公司高雄港務分公司 — https://kh.twport.com.tw/en/service/Articles?a=1053",
       {
         "title": "高雄港船舶航行規定（現行版）",
         "sourceType": "official_port_regulation",
@@ -306,7 +305,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-kaohsiung-waterway-02",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "104-kaohsiung-waterway-03",
@@ -315,40 +317,38 @@
     "keyPoints": [
       {
         "point": "移泊前確認VTS許可、浮筒可用性、水深、底質、風流及周邊淨空。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "查明左錨三節在水的方向、張力及起錨設備狀態。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "以控制纜及拖船安全破離，避免船艏艉掃碰鄰船。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "起錨時避免拖纜與錨鏈交叉或錨鏈受橫向拖曳。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "抵達浮筒後控制接近速度、艏向與浮筒纜作業。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "依錨泊計畫下雙錨，控制錨距、出鏈長度、受力及迴旋範圍。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "考選部104年高雄港當地水道試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0803&t=Q"
-      },
-      {
-        "title": "IMO A.960(23) Pilotage operational procedures",
-        "issuer": "IMO",
-        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf"
-      },
+      "考選部104年高雄港當地水道試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0803&t=Q",
+      "IMO A.960(23) Pilotage operational procedures — IMO — https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
       {
         "title": "高雄港公共水域、浮筒座標間距及全港區水深圖",
         "sourceType": "official_port_data",
@@ -411,7 +411,7 @@
       "題目未提供船舶艏向、左錨是否抓底、錨鏈方向及拖船實際BP，不能指定唯一拖船工作舷及解纜順序。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -426,8 +426,8 @@
         },
         {
           "item": "雙錨及浮筒繫泊規劃",
-          "result": "verified_with_scope",
-          "note": "錨距及出鏈依底質、水深、風流與浮筒規格，不給無來源固定數值。"
+          "result": "pass",
+          "note": "限定適用範圍：錨距及出鏈依底質、水深、風流與浮筒規格，不給無來源固定數值。"
         },
         {
           "item": "浮筒座標與現況",
@@ -437,7 +437,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-kaohsiung-waterway-03",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "104-kaohsiung-waterway-04",
@@ -446,45 +449,39 @@
     "keyPoints": [
       {
         "point": "確認港方解除颱風管制及第二港口出港許可。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "檢查航道水深、漂流物、航標移位、碼頭及繫纜設備損害。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "完成MPX及主機、舵機、錨機、拖船通訊測試。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "依西南風及船舶受風面安排兩艘拖船控制艏艉及破離。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "離泊時控制船體掃動，避免碰撞鄰船與碼頭。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "出港前確認口門交通、外海風浪與VTS放行。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "考選部104年高雄港當地水道試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0803&t=Q"
-      },
-      {
-        "title": "IMO A.960(23)",
-        "issuer": "IMO",
-        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf"
-      },
-      {
-        "title": "高雄港船舶航行規則",
-        "issuer": "臺灣港務公司高雄港務分公司",
-        "url": "https://kh.twport.com.tw/en/service/Articles?a=1053"
-      },
+      "考選部104年高雄港當地水道試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0803&t=Q",
+      "IMO A.960(23) — IMO — https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+      "高雄港船舶航行規則 — 臺灣港務公司高雄港務分公司 — https://kh.twport.com.tw/en/service/Articles?a=1053",
       {
         "title": "高雄港船舶航行規定（現行版）",
         "sourceType": "official_port_regulation",
@@ -573,7 +570,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-kaohsiung-waterway-04",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "104-kaohsiung-waterway-05",
@@ -582,45 +582,39 @@
     "keyPoints": [
       {
         "point": "確認石化貨物、殘液、蒸氣、管線拆除及火源管制狀態。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "取得VTS移泊許可，確認99號碼頭水深、船席及周邊交通。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "無錨、無艏側推器，須預先安排拖船接帶、主機舵令與失控應變。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "依西南風及船體受風面，以控制纜及拖船安全破離。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "沿核准航路低速移泊，避免拖纜、螺槳及鄰船干涉。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "靠泊時控制橫移與縱向速度，完成繫纜並恢復危險品作業管制。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "考選部104年高雄港當地水道試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0803&t=Q"
-      },
-      {
-        "title": "IMO A.960(23)",
-        "issuer": "IMO",
-        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf"
-      },
-      {
-        "title": "高雄港船舶進出港及移泊交通管制作業原則",
-        "issuer": "臺灣港務公司高雄港務分公司",
-        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052"
-      },
+      "考選部104年高雄港當地水道試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0803&t=Q",
+      "IMO A.960(23) — IMO — https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+      "高雄港船舶進出港及移泊交通管制作業原則 — 臺灣港務公司高雄港務分公司 — https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
       {
         "title": "高雄港94–99及101號碼頭配置圖",
         "sourceType": "official_port_chart",
@@ -691,7 +685,7 @@
       "題目未提供風流、船艏向、拖船BP及貨物性質，不能指定唯一拖點、拖帶方向或危險區半徑。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -706,8 +700,8 @@
         },
         {
           "item": "99號碼頭現行用途",
-          "result": "verified_with_scope",
-          "note": "港務公司列為中鋼專用碼頭；石化船作業資格須由港方確認。"
+          "result": "pass",
+          "note": "限定適用範圍：港務公司列為中鋼專用碼頭；石化船作業資格須由港方確認。"
         },
         {
           "item": "水深及UKC",
@@ -722,7 +716,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-kaohsiung-waterway-05",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "104-kaohsiung-waterway-06",
@@ -731,40 +728,38 @@
     "keyPoints": [
       {
         "point": "興建背景",
-        "explanation": "船舶大型化、既有貨櫃中心水深與腹地限制、轉運樞紐競爭及港埠物流需求。"
+        "explanation": "船舶大型化、既有貨櫃中心水深與腹地限制、轉運樞紐競爭及港埠物流需求。",
+        "importance": "essential"
       },
       {
         "point": "一期規劃與營運",
-        "explanation": "高雄港洲際貨櫃中心第一期、第六貨櫃中心；110、111號營運碼頭工程於103年完工並於103年9月27日營運。"
+        "explanation": "高雄港洲際貨櫃中心第一期、第六貨櫃中心；110、111號營運碼頭工程於103年完工並於103年9月27日營運。",
+        "importance": "essential"
       },
       {
         "point": "設施能力",
-        "explanation": "官方港務資料記載船席水深約16公尺，可供約13,000 TEU級貨櫃船靠泊；並增加碼頭與堆場裝卸能力。"
+        "explanation": "官方港務資料記載船席水深約16公尺，可供約13,000 TEU級貨櫃船靠泊；並增加碼頭與堆場裝卸能力。",
+        "importance": "essential"
       },
       {
         "point": "營運整合",
-        "explanation": "深水船席、岸橋、堆櫃場、閘口、港區道路、海關及物流資訊系統協同運作。"
+        "explanation": "深水船席、岸橋、堆櫃場、閘口、港區道路、海關及物流資訊系統協同運作。",
+        "importance": "essential"
       },
       {
         "point": "經濟效益",
-        "explanation": "提升大型船舶服務能力、裝卸效率、貨櫃轉運量及港口國際競爭力。"
+        "explanation": "提升大型船舶服務能力、裝卸效率、貨櫃轉運量及港口國際競爭力。",
+        "importance": "essential"
       },
       {
         "point": "二期歷史時點",
-        "explanation": "依104年核定計畫與當時工程進度說明，勿將後來啟用設施倒填為已營運。"
+        "explanation": "依104年核定計畫與當時工程進度說明，勿將後來啟用設施倒填為已營運。",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "高雄港洲際貨櫃中心第一期工程及營運沿革",
-        "issuer": "臺灣港務公司高雄港務分公司",
-        "url": "https://kh.twport.com.tw/port/Articles?a=229"
-      },
-      {
-        "title": "2015年海運新航路發展與臺灣港埠調適能力研討會論文集",
-        "issuer": "交通部運輸研究所",
-        "url": "https://www.iot.gov.tw/uploads/asset/data/66198bd9367376304acd4f57/2015_%E5%B9%B4%E6%B5%B7%E9%81%8B%E6%96%B0%E8%88%AA%E8%B7%AF%E7%99%BC%E5%B1%95%E8%88%87%E8%87%BA%E7%81%A3%E6%B8%AF%E5%9F%A0%E8%AA%BF%E9%81%A9%E8%83%BD%E5%8A%9B%E7%A0%94%E8%A8%8E%E6%9C%83%E8%AB%96%E6%96%87%E9%9B%86.pdf"
-      },
+      "高雄港洲際貨櫃中心第一期工程及營運沿革 — 臺灣港務公司高雄港務分公司 — https://kh.twport.com.tw/port/Articles?a=229",
+      "2015年海運新航路發展與臺灣港埠調適能力研討會論文集 — 交通部運輸研究所 — https://www.iot.gov.tw/uploads/asset/data/66198bd9367376304acd4f57/2015_%E5%B9%B4%E6%B5%B7%E9%81%8B%E6%96%B0%E8%88%AA%E8%B7%AF%E7%99%BC%E5%B1%95%E8%88%87%E8%87%BA%E7%81%A3%E6%B8%AF%E5%9F%A0%E8%AA%BF%E9%81%A9%E8%83%BD%E5%8A%9B%E7%A0%94%E8%A8%8E%E6%9C%83%E8%AB%96%E6%96%87%E9%9B%86.pdf",
       {
         "title": "高雄港第七貨櫃中心計畫",
         "sourceType": "official_port_project",
@@ -853,7 +848,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-kaohsiung-waterway-06",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "104-pilot-law-01",
@@ -862,44 +860,43 @@
     "keyPoints": [
       {
         "point": "第9(a)",
-        "explanation": "安全且可行時，靠近右舷側航道外緣航行。"
+        "explanation": "安全且可行時，靠近右舷側航道外緣航行。",
+        "importance": "essential"
       },
       {
         "point": "第9(b)(c)",
-        "explanation": "未滿20公尺船舶、帆船及漁船不得妨礙狹水道內船舶通行。"
+        "explanation": "未滿20公尺船舶、帆船及漁船不得妨礙狹水道內船舶通行。",
+        "importance": "essential"
       },
       {
         "point": "第9(d)",
-        "explanation": "不得橫越而妨礙只能在狹水道安全航行的船舶。"
+        "explanation": "不得橫越而妨礙只能在狹水道安全航行的船舶。",
+        "importance": "essential"
       },
       {
         "point": "第9(e)",
-        "explanation": "狹水道追越需以規定聲號表示意圖並取得對方同意；有疑慮鳴五短聲。"
+        "explanation": "狹水道追越需以規定聲號表示意圖並取得對方同意；有疑慮鳴五短聲。",
+        "importance": "essential"
       },
       {
         "point": "第9(f)",
-        "explanation": "彎道或遮蔽處鳴一長聲，另一側船舶回一長聲。"
+        "explanation": "彎道或遮蔽處鳴一長聲，另一側船舶回一長聲。",
+        "importance": "essential"
       },
       {
         "point": "第9(g)",
-        "explanation": "船舶應避免在狹水道內錨泊，除非情況許可或緊急所需。"
+        "explanation": "船舶應避免在狹水道內錨泊，除非情況許可或緊急所需。",
+        "importance": "essential"
       },
       {
         "point": "結合瞭望、安全速度、碰撞危險判斷、避碰行動及船長責任。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "COLREG 1972（IMO官方說明）",
-        "issuer": "IMO",
-        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx"
-      },
-      {
-        "title": "考選部104年航政法規試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q"
-      },
+      "COLREG 1972（IMO官方說明） — IMO — https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+      "考選部104年航政法規試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q",
       {
         "title": "COLREG 1972 — Rule 9 Narrow Channels",
         "sourceType": "international_convention",
@@ -966,7 +963,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-pilot-law-01",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "104-pilot-law-02",
@@ -975,36 +975,33 @@
     "keyPoints": [
       {
         "point": "第16條",
-        "explanation": "國籍與噸位門檻、強制引水區域及例外核准的長期引水人。"
+        "explanation": "國籍與噸位門檻、強制引水區域及例外核准的長期引水人。",
+        "importance": "essential"
       },
       {
         "point": "第17條",
-        "explanation": "懸掛招請信號，可事先向引水人辦事處辦理招請。"
+        "explanation": "懸掛招請信號，可事先向引水人辦事處辦理招請。",
+        "importance": "essential"
       },
       {
         "point": "第18條",
-        "explanation": "同時招請原則先到港者優先；遇險船舶優先。"
+        "explanation": "同時招請原則先到港者優先；遇險船舶優先。",
+        "importance": "essential"
       },
       {
         "point": "第19條",
-        "explanation": "引水人不勝任或領航不當時，船長得採取安全措施或拒絕其領航，並報告主管機關。"
+        "explanation": "引水人不勝任或領航不當時，船長得採取安全措施或拒絕其領航，並報告主管機關。",
+        "importance": "essential"
       },
       {
         "point": "第20條",
-        "explanation": "登輪後撤招請信號、改懸引水人在船信號，並提供船舶性能與吃水等資料；引水人可要求查驗證書。"
+        "explanation": "登輪後撤招請信號、改懸引水人在船信號，並提供船舶性能與吃水等資料；引水人可要求查驗證書。",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "引水法（修正日期民國91年1月30日，104年考試時適用版本）",
-        "issuer": "法務部全國法規資料庫",
-        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028"
-      },
-      {
-        "title": "考選部104年航政法規試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q"
-      },
+      "引水法（修正日期民國91年1月30日，104年考試時適用版本） — 法務部全國法規資料庫 — https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+      "考選部104年航政法規試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q",
       {
         "title": "引水法（現行條文，修正日期115年8月17日）",
         "sourceType": "law_or_regulation",
@@ -1081,7 +1078,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-pilot-law-02",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "104-pilot-law-03",
@@ -1090,36 +1090,33 @@
     "keyPoints": [
       {
         "point": "第21至24條",
-        "explanation": "執業證書、區域登記、指定區域執業、體格檢查及攜帶證件。"
+        "explanation": "執業證書、區域登記、指定區域執業、體格檢查及攜帶證件。",
+        "importance": "essential"
       },
       {
         "point": "第30條",
-        "explanation": "船長提出違反國內／國際航海法規或其他不合理要求時，引水人得拒絕領航，並報告具體事實。"
+        "explanation": "船長提出違反國內／國際航海法規或其他不合理要求時，引水人得拒絕領航，並報告具體事實。",
+        "importance": "essential"
       },
       {
         "point": "第32條",
-        "explanation": "引水人執行領航仍須尊重船長指揮權。"
+        "explanation": "引水人執行領航仍須尊重船長指揮權。",
+        "importance": "essential"
       },
       {
         "point": "第27條",
-        "explanation": "必要時引水人得請船舶所有人或船長僱用拖船協助。"
+        "explanation": "必要時引水人得請船舶所有人或船長僱用拖船協助。",
+        "importance": "essential"
       },
       {
         "point": "拖船配置應考慮船舶尺度、操縱性能、風流、泊位與港方規範。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "引水法（民國91年1月30日修正版本）",
-        "issuer": "法務部全國法規資料庫",
-        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028"
-      },
-      {
-        "title": "考選部104年航政法規試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q"
-      },
+      "引水法（民國91年1月30日修正版本） — 法務部全國法規資料庫 — https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+      "考選部104年航政法規試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q",
       {
         "title": "引水法（現行條文，修正日期115年8月17日）",
         "sourceType": "law_or_regulation",
@@ -1212,7 +1209,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-pilot-law-03",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "104-pilot-law-04",
@@ -1221,32 +1221,28 @@
     "keyPoints": [
       {
         "point": "商港法第28條",
-        "explanation": "未經商港經營事業機構、航港局或指定機關同意，不得施放信號彈、煙火或其他爆發物。"
+        "explanation": "未經商港經營事業機構、航港局或指定機關同意，不得施放信號彈、煙火或其他爆發物。",
+        "importance": "essential"
       },
       {
         "point": "失火或緊急事故時，應鳴放汽笛及警鐘；日間懸掛警報旗號，夜間依規定使用信號彈、焰火或閃光。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "商港法第29條",
-        "explanation": "除避碰、警告危險或告急必要外，不得任意鳴放音響或信號。"
+        "explanation": "除避碰、警告危險或告急必要外，不得任意鳴放音響或信號。",
+        "importance": "essential"
       },
       {
         "point": "使用聲號仍須符合COLREG及港區VTS／港務程序。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "商港法（104年考試時適用條文，交通部歷史法規資料）",
-        "issuer": "交通部",
-        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0002008&type=-1"
-      },
-      {
-        "title": "考選部104年航政法規試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q"
-      },
+      "商港法（104年考試時適用條文，交通部歷史法規資料） — 交通部 — https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0002008&type=-1",
+      "考選部104年航政法規試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q",
       {
         "title": "商港法（現行條文，修正日期115年2月4日）",
         "sourceType": "law_or_regulation",
@@ -1326,7 +1322,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-pilot-law-04",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "104-pilot-law-05",
@@ -1335,41 +1334,34 @@
     "keyPoints": [
       {
         "point": "商港法第31條",
-        "explanation": "商港區域內應緩輪慢行。"
+        "explanation": "商港區域內應緩輪慢行。",
+        "importance": "essential"
       },
       {
         "point": "不得於航道追越他船。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "不得妨礙他船航行，並應維持足夠安全距離及操縱餘裕。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "速度應依吃水、水深、風流、交通密度、能見度及船舶操縱性能決定。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "配合COLREG安全速度及VTS／港方公告，不得臆造全臺一致節數。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "商港法（交通部法規資料）",
-        "issuer": "交通部",
-        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0002008&type=-1"
-      },
-      {
-        "title": "COLREG 1972",
-        "issuer": "IMO",
-        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx"
-      },
-      {
-        "title": "考選部104年航政法規試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q"
-      },
+      "商港法（交通部法規資料） — 交通部 — https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=I0002008&type=-1",
+      "COLREG 1972 — IMO — https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+      "考選部104年航政法規試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0807&t=Q",
       {
         "title": "商港法（現行條文，修正日期115年2月4日）",
         "sourceType": "law_or_regulation",
@@ -1457,7 +1449,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-pilot-law-05",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "104-pilotage-01",
@@ -1466,40 +1461,38 @@
     "keyPoints": [
       {
         "point": "季風定義",
-        "explanation": "盛行風向具有季節性轉換或反轉的大尺度風系。"
+        "explanation": "盛行風向具有季節性轉換或反轉的大尺度風系。",
+        "importance": "essential"
       },
       {
         "point": "主要成因",
-        "explanation": "海陸熱容量差異造成季節性氣壓梯度。"
+        "explanation": "海陸熱容量差異造成季節性氣壓梯度。",
+        "importance": "essential"
       },
       {
         "point": "夏季",
-        "explanation": "大陸較熱、低壓較強，海洋氣流吹向陸地，通常暖濕多雨。"
+        "explanation": "大陸較熱、低壓較強，海洋氣流吹向陸地，通常暖濕多雨。",
+        "importance": "essential"
       },
       {
         "point": "冬季",
-        "explanation": "大陸較冷、高壓較強，氣流由大陸吹向海洋，通常乾冷。"
+        "explanation": "大陸較冷、高壓較強，氣流由大陸吹向海洋，通常乾冷。",
+        "importance": "essential"
       },
       {
         "point": "影響因素還包括地球自轉、地形、ITCZ及大尺度環流。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "代表區域",
-        "explanation": "南亞、東亞、東南亞、北澳洲及西非。"
+        "explanation": "南亞、東亞、東南亞、北澳洲及西非。",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "考選部104年引港學試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q"
-      },
-      {
-        "title": "NOAA JetStream—Monsoons",
-        "issuer": "NOAA",
-        "url": "https://www.noaa.gov/jetstream"
-      },
+      "考選部104年引港學試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q",
+      "NOAA JetStream—Monsoons — NOAA — https://www.noaa.gov/jetstream",
       {
         "title": "NOAA National Weather Service Glossary — Monsoon",
         "sourceType": "official_meteorological_reference",
@@ -1571,7 +1564,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-pilotage-01",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "104-pilotage-02",
@@ -1580,40 +1576,38 @@
     "keyPoints": [
       {
         "point": "暖濕空氣水平移流至較冷海面／地面。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "空氣因接觸冷面冷卻至露點以下，水汽凝結。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "需要足夠水汽及適當風速；風太強可能增加混合、抬升霧層。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "常見於暖濕氣流流經寒流、沿岸上升流或冷海面。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "可廣泛、持續、白天形成，霧區隨風移動。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "航海應採安全速度、加強瞭望、使用雷達並依COLREG處置。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "考選部104年引港學試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q"
-      },
-      {
-        "title": "IMO COLREG 1972",
-        "issuer": "IMO",
-        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx"
-      },
+      "考選部104年引港學試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q",
+      "IMO COLREG 1972 — IMO — https://www.imo.org/en/about/conventions/pages/colreg.aspx",
       {
         "title": "NOAA National Weather Service — Advection Fog",
         "sourceType": "official_meteorological_guidance",
@@ -1667,7 +1661,7 @@
       "霧形成的臨界風速與霧厚受海溫、氣團穩定度及湍流影響，並無適用所有海域的單一固定數值。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -1677,8 +1671,8 @@
         },
         {
           "item": "風速與霧層變化",
-          "result": "verified_with_scope",
-          "note": "適當風速與湍流效應依區域而異，不設定全球固定節數。"
+          "result": "pass",
+          "note": "限定適用範圍：適當風速與湍流效應依區域而異，不設定全球固定節數。"
         },
         {
           "item": "平流霧特性",
@@ -1693,7 +1687,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-pilotage-02",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "104-pilotage-03",
@@ -1702,36 +1699,33 @@
     "keyPoints": [
       {
         "point": "臺灣海峽",
-        "explanation": "淺海陸棚，季風驅動明顯，冬季東北季風常伴隨較強南向沿岸流。"
+        "explanation": "淺海陸棚，季風驅動明顯，冬季東北季風常伴隨較強南向沿岸流。",
+        "importance": "essential"
       },
       {
         "point": "夏季海峽流況可能轉變，受西南季風、潮汐及地形共同控制。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "臺灣東岸",
-        "explanation": "黑潮主流沿菲律賓東側北上，經臺灣東岸進入東海。"
+        "explanation": "黑潮主流沿菲律賓東側北上，經臺灣東岸進入東海。",
+        "importance": "essential"
       },
       {
         "point": "黑潮流軸及流速會變動，近岸另有支流、渦旋與潮流。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "洋流影響航跡、對地航速、ETA及轉向點，應納入航次計畫。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "考選部104年引港學試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q"
-      },
-      {
-        "title": "The Kuroshio and its Adjacent Regions (CSK-2)",
-        "issuer": "IOC Sub-Commission for the Western Pacific",
-        "url": "https://ioc-westpac.org/csk2/"
-      },
+      "考選部104年引港學試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q",
+      "The Kuroshio and its Adjacent Regions (CSK-2) — IOC Sub-Commission for the Western Pacific — https://ioc-westpac.org/csk2/",
       {
         "title": "Seasonal variation of the circulation in the Taiwan Strait",
         "sourceType": "peer_reviewed_oceanography",
@@ -1819,7 +1813,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-pilotage-03",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "104-pilotage-04",
@@ -1828,45 +1825,39 @@
     "keyPoints": [
       {
         "point": "海圖目錄",
-        "explanation": "選擇適當比例尺海圖及ENC。"
+        "explanation": "選擇適當比例尺海圖及ENC。",
+        "importance": "essential"
       },
       {
         "point": "航船布告",
-        "explanation": "海圖及圖刊改正、臨時與初步航安資訊。"
+        "explanation": "海圖及圖刊改正、臨時與初步航安資訊。",
+        "importance": "essential"
       },
       {
         "point": "航路指南",
-        "explanation": "港口、沿岸、航道、錨地、氣象與通訊資料。"
+        "explanation": "港口、沿岸、航道、錨地、氣象與通訊資料。",
+        "importance": "essential"
       },
       {
         "point": "燈塔表、無線電信號表",
-        "explanation": "燈質位置及海岸電台／VTS資料。"
+        "explanation": "燈質位置及海岸電台／VTS資料。",
+        "importance": "essential"
       },
       {
         "point": "潮汐表、潮流圖",
-        "explanation": "潮時潮高及潮流方向、流速。"
+        "explanation": "潮時潮高及潮流方向、流速。",
+        "importance": "essential"
       },
       {
         "point": "航海年曆、距離表、Chart 1／INT 1",
-        "explanation": "天文航海、航程估算及符號縮寫。"
+        "explanation": "天文航海、航程估算及符號縮寫。",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "考選部104年引港學試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q"
-      },
-      {
-        "title": "海圖圖例",
-        "issuer": "中華民國海軍",
-        "url": "https://navy.mnd.gov.tw/aboutus/partner_info.aspx?aid=30888&id=30198"
-      },
-      {
-        "title": "Chart Symbols and Abbreviations",
-        "issuer": "Maritime and Port Authority of Singapore（依IHO標準編排）",
-        "url": "https://www.mpa.gov.sg/who-we-are/newsroom-resources/publications/chart-symbols-and-abbreviations"
-      },
+      "考選部104年引港學試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q",
+      "海圖圖例 — 中華民國海軍 — https://navy.mnd.gov.tw/aboutus/partner_info.aspx?aid=30888&id=30198",
+      "Chart Symbols and Abbreviations — Maritime and Port Authority of Singapore（依IHO標準編排） — https://www.mpa.gov.sg/who-we-are/newsroom-resources/publications/chart-symbols-and-abbreviations",
       {
         "title": "IHO Standards and Specifications — S-4, INT 1, INT 2 and INT 3",
         "sourceType": "official_hydrographic_standard",
@@ -1954,7 +1945,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-pilotage-04",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "104-pilotage-05",
@@ -1963,61 +1957,59 @@
     "keyPoints": [
       {
         "point": "Cl. — Clay，黏土。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "G. — Gravel，礫石。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "Oz. — Ooze，軟泥／淤泥狀沉積物。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "S. — Sand，砂。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "Sn. — Shingle，卵石或小礫石層。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "Co. — Coral，珊瑚。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "M. — Mud，泥。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "P. — Pebbles，圓礫／卵石。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "Sh. — Shells，貝殼。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "St. — Stones，石塊。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "Chart 5011—Symbols and Abbreviations used on Admiralty Charts",
-        "issuer": "UK Hydrographic Office",
-        "url": "https://maredu.hcg.gr/modules/document/index.php?course=ASP594&download=%2F6385379e63vj.pdf"
-      },
-      {
-        "title": "海圖圖例",
-        "issuer": "中華民國海軍",
-        "url": "https://navy.mnd.gov.tw/aboutus/partner_info.aspx?aid=30888&id=30198"
-      },
-      {
-        "title": "考選部104年引港學試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q"
-      },
+      "Chart 5011—Symbols and Abbreviations used on Admiralty Charts — UK Hydrographic Office — https://maredu.hcg.gr/modules/document/index.php?course=ASP594&download=%2F6385379e63vj.pdf",
+      "海圖圖例 — 中華民國海軍 — https://navy.mnd.gov.tw/aboutus/partner_info.aspx?aid=30888&id=30198",
+      "考選部104年引港學試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0808&t=Q",
       {
         "title": "IHO Standards and Specifications — INT 1 Edition 9 (2026)",
         "sourceType": "official_hydrographic_standard",
@@ -2079,7 +2071,7 @@
       "縮寫依Chart 5011／INT 1常見用法整理；不同海圖版次可能存在字體、標點或詞義細節差異，正式解讀應以海圖所附圖例及該版官方圖刊為準。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -2089,8 +2081,8 @@
         },
         {
           "item": "Cl.／Cy及Oz／M區別",
-          "result": "verified_with_scope",
-          "note": "標明舊式形式與現行版本限制，不臆測2026版每項寫法。"
+          "result": "pass",
+          "note": "限定適用範圍：標明舊式形式與現行版本限制，不臆測2026版每項寫法。"
         },
         {
           "item": "Sn.／St及Co.／Sh區別",
@@ -2105,7 +2097,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-pilotage-05",
+    "language": "zh-TW",
+    "answerType": "definition"
   },
   {
     "questionId": "104-shiphandling-01",
@@ -2114,40 +2109,38 @@
     "keyPoints": [
       {
         "point": "單位換算",
-        "explanation": "5 kn=2.572 m/s；180,000公噸=1.80×10⁸ kg。"
+        "explanation": "5 kn=2.572 m/s；180,000公噸=1.80×10⁸ kg。",
+        "importance": "essential"
       },
       {
         "point": "動能",
-        "explanation": "E=½mV²，代入約596 MJ。"
+        "explanation": "E=½mV²，代入約596 MJ。",
+        "importance": "essential"
       },
       {
         "point": "制動距離",
-        "explanation": "在近似恆定制動力假設下，D=mV²/(2F)。"
+        "explanation": "在近似恆定制動力假設下，D=mV²/(2F)。",
+        "importance": "essential"
       },
       {
         "point": "拖船縱向制動力",
-        "explanation": "F_total=Σ(BP_i×cosθ_i)，BP須使用實際靜拖力而非HP直接替代。"
+        "explanation": "F_total=Σ(BP_i×cosθ_i)，BP須使用實際靜拖力而非HP直接替代。",
+        "importance": "essential"
       },
       {
         "point": "拖船艘數",
-        "explanation": "須由大船全速倒俥有效推力／制動曲線及各拖船可用BP決定。"
+        "explanation": "須由大船全速倒俥有效推力／制動曲線及各拖船可用BP決定。",
+        "importance": "essential"
       },
       {
         "point": "資料限制",
-        "explanation": "題目未給倒俥推力、拖船BP與拖纜角度，故無法得出唯一艘數及停止距離。"
+        "explanation": "題目未給倒俥推力、拖船BP與拖纜角度，故無法得出唯一艘數及停止距離。",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "考選部104年船舶操縱試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q"
-      },
-      {
-        "title": "Towage Guidelines",
-        "issuer": "Maritime and Port Authority of Singapore",
-        "url": "https://www.mpa.gov.sg/port-marine-ops/marine-services/pilotage-and-towage/towage"
-      },
+      "考選部104年船舶操縱試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q",
+      "Towage Guidelines — Maritime and Port Authority of Singapore — https://www.mpa.gov.sg/port-marine-ops/marine-services/pilotage-and-towage/towage",
       {
         "title": "MGN 301 (M) Amendment 1 — Manoeuvring information onboard ships",
         "sourceType": "official_maritime_guidance",
@@ -2193,7 +2186,7 @@
       "題目未提供主機全速倒俥推力／制動曲線、拖船靜拖力、拖纜角度及拖船性能表，因此不能可靠計算唯一拖船艘數、馬力與停止距離。以上提供可驗算的物理架構，正式數值須依題目原授課／指定經驗表補入。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -2218,13 +2211,16 @@
         },
         {
           "item": "唯一停止距離及拖船數量",
-          "result": "verified_with_scope",
-          "note": "題幹缺倒俥曲線、BP及拖纜角度，不能唯一求值。"
+          "result": "pass",
+          "note": "限定適用範圍：題幹缺倒俥曲線、BP及拖纜角度，不能唯一求值。"
         }
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-shiphandling-01",
+    "language": "zh-TW",
+    "answerType": "calculation"
   },
   {
     "questionId": "104-shiphandling-02",
@@ -2233,40 +2229,38 @@
     "keyPoints": [
       {
         "point": "確認船渠寬度、水深、障礙物、鄰船、風流及拖船拖力。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "MPX明確拖船接帶點、拖帶方向、轉向時機與緊急口令。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "拖船倒拖時保持船身沿船渠軸線，控制船艏艉掃掠。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "拖出船渠至足夠迴旋水域後才開始調頭。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "大船無前俥，舵效與主機操縱能力受限，拖船須提供偏航力矩及橫向控制。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "確認航向、速度、航道交通與拖纜安全後再解除拖船。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "考選部104年船舶操縱試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q"
-      },
-      {
-        "title": "IMO A.960(23) Pilotage operational procedures",
-        "issuer": "IMO",
-        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf"
-      },
+      "考選部104年船舶操縱試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q",
+      "IMO A.960(23) Pilotage operational procedures — IMO — https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
       {
         "title": "IMO Resolution A.960(23)",
         "sourceType": "IMO_resolution",
@@ -2320,7 +2314,7 @@
       "題目未提供大船螺槳／舵型、拖船數量與拖力、渠寬、迴旋水域及風流方向；具體拖船接帶位置與調頭方向須依現場配置決定。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -2335,8 +2329,8 @@
         },
         {
           "item": "拖船配置與力矩",
-          "result": "verified_with_scope",
-          "note": "拖船數量及接帶位置依個船與當地條件，題幹未給不能假定。"
+          "result": "pass",
+          "note": "限定適用範圍：拖船數量及接帶位置依個船與當地條件，題幹未給不能假定。"
         },
         {
           "item": "艏艉掃掠及緊急應變",
@@ -2346,7 +2340,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-shiphandling-02",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "104-shiphandling-03",
@@ -2355,49 +2352,44 @@
     "keyPoints": [
       {
         "point": "主舵機與輔舵機原則上均須配置，且一套故障不得使另一套失效。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "主舵機",
-        "explanation": "能由35°一舷轉至35°另一舷；在規定條件下由35°一舷至反舷30°不超過28秒。"
+        "explanation": "能由35°一舷轉至35°另一舷；在規定條件下由35°一舷至反舷30°不超過28秒。",
+        "importance": "essential"
       },
       {
         "point": "輔舵機",
-        "explanation": "最深航海吃水、最大營運前進航速一半或7節取較大者，15°至反舷15°不超過60秒。"
+        "explanation": "最深航海吃水、最大營運前進航速一半或7節取較大者，15°至反舷15°不超過60秒。",
+        "importance": "essential"
       },
       {
         "point": "舵機應具可靠構造、必要獨立性、駕駛台控制、舵機室通信、舵角指示及故障警報。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "前方海面視野不得被遮蔽超過船長2倍或500公尺（取較小者），範圍為船艏前方至左右各10°。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "單一盲區不超過10°、盲區總角度不超過20°、盲區間清晰扇區至少5°；在前述前方視野範圍內，單一盲區不超過5°。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "駕駛台指揮位置水平視野至少225°；適用船舶及建造日期依當年SOLAS版本判斷。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "SOLAS Chapter II-1, Regulation 29—Steering gear",
-        "issuer": "IMO Convention text (reference reproduction)",
-        "url": "https://www.imorules.com/solas/02_chapter_II-1.html"
-      },
-      {
-        "title": "SOLAS Chapter V, Regulation 22—Navigation bridge visibility",
-        "issuer": "IMO / UK Government published convention text",
-        "url": "https://assets.publishing.service.gov.uk/media/58984fae40f0b6070b000018/COR_AnnexesCombined.pdf"
-      },
-      {
-        "title": "考選部104年船舶操縱試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q"
-      },
+      "SOLAS Chapter II-1, Regulation 29—Steering gear — IMO Convention text (reference reproduction) — https://www.imorules.com/solas/02_chapter_II-1.html",
+      "SOLAS Chapter V, Regulation 22—Navigation bridge visibility — IMO / UK Government published convention text — https://assets.publishing.service.gov.uk/media/58984fae40f0b6070b000018/COR_AnnexesCombined.pdf",
+      "考選部104年船舶操縱試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q",
       {
         "title": "SOLAS 2024 — Chapter II-1, Regulation 29: Steering gear",
         "sourceType": "international_convention_text",
@@ -2483,7 +2475,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-shiphandling-03",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "104-shiphandling-04",
@@ -2492,40 +2487,38 @@
     "keyPoints": [
       {
         "point": "PP為船舶轉向時近似旋轉中心的操船概念，非固定點。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "穩定前進時通常偏向船艏；後退時通常偏向船艉。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "低速或停止時可能向船體中部移動。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "受航速、前後進、舵角、推進器、風流、拖船及吃水縱傾影響。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "前進轉向時船艉外掃通常較明顯；倒退轉向時船艏外掃通常較明顯。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "靠離泊須同時估計艏艉掃掠與周邊淨空。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "考選部104年船舶操縱試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q"
-      },
-      {
-        "title": "方信雄《航行避碰與操船》",
-        "issuer": "專業參考著作",
-        "supports": "旋轉支點、船舶迴旋及操船運動學概念"
-      },
+      "考選部104年船舶操縱試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q",
+      "方信雄《航行避碰與操船》 — 專業參考著作",
       {
         "title": "MGN 301 (M) Amendment 1 — Manoeuvring information onboard ships",
         "sourceType": "official_maritime_guidance",
@@ -2579,7 +2572,7 @@
       "旋轉支點位置受船型及外力影響，不能把常見的艏／艉位置比例當作所有船舶的固定數值。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -2589,8 +2582,8 @@
         },
         {
           "item": "前進、停止及倒退位置",
-          "result": "verified_with_scope",
-          "note": "使用通常趨勢，不把固定距離或比例當成通則。"
+          "result": "pass",
+          "note": "限定適用範圍：使用通常趨勢，不把固定距離或比例當成通則。"
         },
         {
           "item": "風流、推進器及拖船影響",
@@ -2605,7 +2598,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-shiphandling-04",
+    "language": "zh-TW",
+    "answerType": "definition"
   },
   {
     "questionId": "104-shiphandling-05",
@@ -2614,44 +2610,43 @@
     "keyPoints": [
       {
         "point": "拖前檢查被拖船結構、水密、穩度、吃水及拖帶點強度。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "確認拖船拖力、拖纜安全工作負荷、備用拖纜及緊急切斷程序。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "取得港方許可，確認航道、水深、風流、交通及目的泊位。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "制定拖帶計畫、通訊、燈號／號型及失控應變。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "逐步起拖，港內低速航行，預留制動距離及轉向水域。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "轉彎注意被拖船外掃、拖纜橫掃及螺槳纏繞風險。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "依COLREG顯示拖帶燈號／號型，繫泊完成後再解除拖纜。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "考選部104年船舶操縱試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q"
-      },
-      {
-        "title": "COLREG 1972—Lights and shapes for towing",
-        "issuer": "IMO",
-        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx"
-      },
+      "考選部104年船舶操縱試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q",
+      "COLREG 1972—Lights and shapes for towing — IMO — https://www.imo.org/en/about/conventions/pages/colreg.aspx",
       {
         "title": "Transport Canada TP 15491 — Small Vessel Compliance Program: Tug Guidance Notes (2024)",
         "sourceType": "official_maritime_guidance",
@@ -2739,7 +2734,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-shiphandling-05",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "104-shiphandling-06",
@@ -2748,44 +2746,43 @@
     "keyPoints": [
       {
         "point": "確認VTS許可、航道水深、潮流、風況及前後船舶位置。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "吹向岸風下評估船舶漂移與岸距，設定中止方案。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "預先估算船舶迴旋圈及艏艉掃掠，確認300公尺航道是否足夠。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "外檔錨二節在水須查明錨鏈方向、張力及是否作為控制手段。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "拖船依風流及轉向計畫提供制動、橫推或旋轉力矩。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "低速調頭，避免碰撞前後船及拖纜／錨鏈干涉。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "完成轉向後確認航向、速度、舵效及錨／拖纜狀態再出港。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "考選部104年船舶操縱試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q"
-      },
-      {
-        "title": "IMO A.960(23)",
-        "issuer": "IMO",
-        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf"
-      },
+      "考選部104年船舶操縱試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0809&t=Q",
+      "IMO A.960(23) — IMO — https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
       {
         "title": "IMO Resolution A.960(23)",
         "sourceType": "IMO_resolution",
@@ -2847,7 +2844,7 @@
       "題目未提供航道軸向、岸側、潮流、船舶迴旋性能、錨鏈方位及拖船BP；無法指定唯一調頭方向、拖船接帶點或錨鏈長度。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -2857,13 +2854,13 @@
         },
         {
           "item": "錨鏈方向及張力",
-          "result": "verified_with_scope",
-          "note": "題幹未給錨舷、方向及是否抓底，明確標示不得假定錨為支點。"
+          "result": "pass",
+          "note": "限定適用範圍：題幹未給錨舷、方向及是否抓底，明確標示不得假定錨為支點。"
         },
         {
           "item": "單艘拖船能力",
-          "result": "verified_with_scope",
-          "note": "缺拖船BP及接帶位置，不能保證單艘拖船足夠。"
+          "result": "pass",
+          "note": "限定適用範圍：缺拖船BP及接帶位置，不能保證單艘拖船足夠。"
         },
         {
           "item": "迴旋水域及中止方案",
@@ -2873,7 +2870,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-shiphandling-06",
+    "language": "zh-TW",
+    "answerType": "operational_scenario"
   },
   {
     "questionId": "104-english-01",
@@ -2882,40 +2882,38 @@
     "keyPoints": [
       {
         "point": "local knowledge",
-        "explanation": "當地水域知識／熟悉當地水域。"
+        "explanation": "當地水域知識／熟悉當地水域。",
+        "importance": "essential"
       },
       {
         "point": "guide vessels into or out of port",
-        "explanation": "引領船舶進出港。"
+        "explanation": "引領船舶進出港。",
+        "importance": "essential"
       },
       {
         "point": "navigation may be considered hazardous",
-        "explanation": "航行可能具有危險性的水域。"
+        "explanation": "航行可能具有危險性的水域。",
+        "importance": "essential"
       },
       {
         "point": "shore and tugs",
-        "explanation": "岸上單位及拖船。"
+        "explanation": "岸上單位及拖船。",
+        "importance": "essential"
       },
       {
         "point": "tonnage, draught or other criteria",
-        "explanation": "噸位、吃水或其他計費標準。"
+        "explanation": "噸位、吃水或其他計費標準。",
+        "importance": "essential"
       },
       {
         "point": "IMO Assembly Resolution A.159",
-        "explanation": "IMO大會決議A.159「引水服務建議案」。"
+        "explanation": "IMO大會決議A.159「引水服務建議案」。",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "考選部104年專業英文試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q"
-      },
-      {
-        "title": "IMO Resolution A.159(ES.IV)—Recommendation on Pilotage",
-        "issuer": "IMO",
-        "url": "https://www.imo.org/en/OurWork/Safety/Pages/Pilotage.aspx"
-      },
+      "考選部104年專業英文試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q",
+      "IMO Resolution A.159(ES.IV)—Recommendation on Pilotage — IMO — https://www.imo.org/en/OurWork/Safety/Pages/Pilotage.aspx",
       {
         "title": "IMO Resolution A.159(ES.IV) — Recommendation on Pilotage Services",
         "url": "https://www.imo.org/en/OurWork/Safety/Pages/Pilotage.aspx",
@@ -2961,7 +2959,7 @@
       "本題為翻譯題，譯文採航海專業語境；不同教材可能將pilotage譯為引水或領航，全文應維持用語一致。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -2971,13 +2969,16 @@
         },
         {
           "item": "段落二IMO決議年份與建議語氣",
-          "result": "verified_with_scope",
-          "note": "A.159為1968年建議案，翻譯保留recommendation而非強制義務。"
+          "result": "pass",
+          "note": "限定適用範圍：A.159為1968年建議案，翻譯保留recommendation而非強制義務。"
         }
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-english-01",
+    "language": "zh-TW",
+    "answerType": "translation"
   },
   {
     "questionId": "104-english-02",
@@ -2986,44 +2987,43 @@
     "keyPoints": [
       {
         "point": "安全速度",
-        "explanation": "safe speed。"
+        "explanation": "safe speed。",
+        "importance": "essential"
       },
       {
         "point": "適當而有效之措施",
-        "explanation": "proper and effective action。"
+        "explanation": "proper and effective action。",
+        "importance": "essential"
       },
       {
         "point": "避免碰撞",
-        "explanation": "avoid collision。"
+        "explanation": "avoid collision。",
+        "importance": "essential"
       },
       {
         "point": "停止距離",
-        "explanation": "stopping distance。"
+        "explanation": "stopping distance。",
+        "importance": "essential"
       },
       {
         "point": "操縱能力",
-        "explanation": "manoeuvrability；轉向能力：turning ability。"
+        "explanation": "manoeuvrability；轉向能力：turning ability。",
+        "importance": "essential"
       },
       {
         "point": "背景亮光",
-        "explanation": "background light；風浪及水流：wind, sea and current。"
+        "explanation": "background light；風浪及水流：wind, sea and current。",
+        "importance": "essential"
       },
       {
         "point": "吃水與可用水深之關係",
-        "explanation": "draught in relation to the available depth of water。"
+        "explanation": "draught in relation to the available depth of water。",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "考選部104年專業英文試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q"
-      },
-      {
-        "title": "COLREG 1972, Rule 6—Safe Speed",
-        "issuer": "IMO",
-        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx"
-      },
+      "考選部104年專業英文試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q",
+      "COLREG 1972, Rule 6—Safe Speed — IMO — https://www.imo.org/en/about/conventions/pages/colreg.aspx",
       {
         "title": "IMO COLREG 1972 — Rule 6 Safe Speed",
         "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
@@ -3069,7 +3069,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-english-02",
+    "language": "en",
+    "answerType": "translation"
   },
   {
     "questionId": "104-english-03",
@@ -3078,41 +3081,34 @@
     "keyPoints": [
       {
         "point": "Course made good",
-        "explanation": "船舶實際對地航跡方向；與heading及course steered不同。"
+        "explanation": "船舶實際對地航跡方向；與heading及course steered不同。",
+        "importance": "essential"
       },
       {
         "point": "Hampered vessels",
-        "explanation": "作業限制操縱能力的船舶；COLREG正式類別用restricted in her ability to manoeuvre。"
+        "explanation": "作業限制操縱能力的船舶；COLREG正式類別用restricted in her ability to manoeuvre。",
+        "importance": "essential"
       },
       {
         "point": "Underway",
-        "explanation": "未錨泊、未繫岸、未擱淺；即使停俥且無對水航速仍可能是underway。"
+        "explanation": "未錨泊、未繫岸、未擱淺；即使停俥且無對水航速仍可能是underway。",
+        "importance": "essential"
       },
       {
         "point": "SART",
-        "explanation": "搜救雷達詢答器，回應搜尋船雷達並形成可辨識回波協助定位。"
+        "explanation": "搜救雷達詢答器，回應搜尋船雷達並形成可辨識回波協助定位。",
+        "importance": "essential"
       },
       {
         "point": "Radar SART與AIS-SART、EPIRB為不同設備。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "考選部104年專業英文試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q"
-      },
-      {
-        "title": "COLREG 1972—Definitions",
-        "issuer": "IMO",
-        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx"
-      },
-      {
-        "title": "GMDSS Search and Rescue Transponder information",
-        "issuer": "IMO",
-        "url": "https://www.imo.org/en/OurWork/Safety/Pages/RadioCommunications-Default.aspx"
-      },
+      "考選部104年專業英文試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q",
+      "COLREG 1972—Definitions — IMO — https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+      "GMDSS Search and Rescue Transponder information — IMO — https://www.imo.org/en/OurWork/Safety/Pages/RadioCommunications-Default.aspx",
       {
         "title": "IMO COLREG 1972 — Rule 3 Definitions",
         "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
@@ -3184,7 +3180,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-english-03",
+    "language": "en",
+    "answerType": "definition"
   },
   {
     "questionId": "104-english-04",
@@ -3193,45 +3192,39 @@
     "keyPoints": [
       {
         "point": "Pilot",
-        "explanation": "local knowledge、passage advice、MPX、與VTS／拖船／岸上單位溝通。"
+        "explanation": "local knowledge、passage advice、MPX、與VTS／拖船／岸上單位溝通。",
+        "importance": "essential"
       },
       {
         "point": "Master",
-        "explanation": "保有overall command and responsibility，提供船舶操縱資料並監督引水作業。"
+        "explanation": "保有overall command and responsibility，提供船舶操縱資料並監督引水作業。",
+        "importance": "essential"
       },
       {
         "point": "OOW",
-        "explanation": "lookout、position/course/speed monitoring、cross-check、記錄及提出安全疑慮。"
+        "explanation": "lookout、position/course/speed monitoring、cross-check、記錄及提出安全疑慮。",
+        "importance": "essential"
       },
       {
         "point": "三者共同遵守passage plan及emergency procedures。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "採用closed-loop communication與持續情勢監控。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       },
       {
         "point": "引水人登船不解除船長及駕駛台團隊責任。",
-        "explanation": ""
+        "explanation": "",
+        "importance": "essential"
       }
     ],
     "references": [
-      {
-        "title": "考選部104年專業英文試題",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q"
-      },
-      {
-        "title": "IMO A.960(23)—Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
-        "issuer": "IMO",
-        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf"
-      },
-      {
-        "title": "SOLAS Chapter V, Regulation 34-1—Master's discretion",
-        "issuer": "IMO",
-        "url": "https://www.imo.org/en/OurWork/Safety/Pages/Default.aspx"
-      },
+      "考選部104年專業英文試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q",
+      "IMO A.960(23)—Recommendations on Training and Certification and Operational Procedures for Maritime Pilots — IMO — https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+      "SOLAS Chapter V, Regulation 34-1—Master's discretion — IMO — https://www.imo.org/en/OurWork/Safety/Pages/Default.aspx",
       {
         "title": "IMO Resolution A.960(23) — Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
         "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
@@ -3303,6 +3296,9 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "104-english-04",
+    "language": "en",
+    "answerType": "essay"
   }
 ]
