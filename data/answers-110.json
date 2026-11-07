@@ -791,7 +791,7 @@
         "sourceType": "academic_research",
         "issuer": "國立高雄科技大學／臺灣博碩士論文知識加值系統",
         "url": "https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id%3D%22111NKUS0282008%22.&searchmode=basic",
-        "supports": "北側離岸外堤附近海流受堤體結構影響，遮蔽區與非遮蔽區流向及流速特性不同。",
+        "supports": "北側離岸外堤附近海流受堤體結構影響，遮蔽區與非遮蔽區流向及流速特性不同。；北離岸堤A1、A2及西防波堤B1觀測站流速、流向及堤體對局部流場的影響。",
         "accessedAt": "2026-11-07"
       },
       {
@@ -807,7 +807,7 @@
         "sourceType": "official_port_data",
         "issuer": "臺灣港務公司高雄港務分公司",
         "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
-        "supports": "第二港口北離岸防波堤燈杆及警示燈杆等助導航設施，供航行前查核。",
+        "supports": "第二港口北離岸防波堤燈杆及警示燈杆等助導航設施，供航行前查核。；北離岸防波堤燈杆及警示燈杆WGS84座標、燈質及見距。",
         "accessedAt": "2026-11-07"
       },
       {
@@ -832,22 +832,6 @@
         "issuer": "國家運輸安全調查委員會",
         "url": "https://www.ttsb.gov.tw/media/8563/%E9%80%9A%E9%81%8B%E6%B2%B9%E8%BC%AA%E8%88%87fpmc-b-forever%E6%95%A3%E8%A3%9D%E8%88%B9%E8%AA%BF%E6%9F%A5%E5%A0%B1%E5%91%8A_%E7%99%BC%E5%B8%83.pdf",
         "supports": "離岸堤相對雙向航道位置、距北防波堤燈杆約1.55浬及二港口航道背景。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "高雄港第二港口現有航路標識設備一覽表",
-        "sourceType": "official_aids_to_navigation_register",
-        "issuer": "臺灣港務股份有限公司高雄港務分公司",
-        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
-        "supports": "北離岸防波堤燈杆及警示燈杆WGS84座標、燈質及見距。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "高雄港第二港口外堤海流觀測與分析",
-        "sourceType": "academic_research",
-        "issuer": "國立高雄科技大學／臺灣博碩士論文知識加值系統",
-        "url": "https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id%3D%22111NKUS0282008%22.&searchmode=basic",
-        "supports": "北離岸堤A1、A2及西防波堤B1觀測站流速、流向及堤體對局部流場的影響。",
         "accessedAt": "2026-11-07"
       },
       {
@@ -1269,14 +1253,16 @@
         "url": "https://www.imo.org/en/ourwork/safety/pages/shipsrouteing.aspx",
         "sourceType": "official_guidance",
         "issuer": "IMO",
-        "supports": "IMO航路制度及TSS設置目的。"
+        "supports": "IMO航路制度及TSS設置目的。；IMO採納的航路及分道航行制度。",
+        "accessedAt": "2026-11-07"
       },
       {
         "title": "110年引水人考試航政法規原卷",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0909&t=Q",
         "sourceType": "official_exam_paper",
         "issuer": "考選部",
-        "supports": "題目原文。"
+        "supports": "題目原文。",
+        "accessedAt": "2026-11-07"
       },
       {
         "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972 (COLREGs)",
@@ -1284,22 +1270,6 @@
         "issuer": "International Maritime Organization",
         "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
         "supports": "Rule 10分道航行制的目的及主要義務。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "IMO Ships' Routeing",
-        "sourceType": "official_guidance",
-        "issuer": "International Maritime Organization",
-        "url": "https://www.imo.org/en/ourwork/safety/pages/shipsrouteing.aspx",
-        "supports": "IMO採納的航路及分道航行制度。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "110年引水人考試航政法規原卷",
-        "sourceType": "official_exam_paper",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0909&t=Q",
-        "supports": "題目原文。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -2500,7 +2470,8 @@
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0912&t=Q",
         "sourceType": "official_exam_paper",
         "issuer": "考選部",
-        "supports": "英文原文及配分。"
+        "supports": "英文原文及配分。；兩段英文原文及配分。",
+        "accessedAt": "2026-11-07"
       },
       {
         "title": "COLREG 1972",
@@ -2508,14 +2479,6 @@
         "sourceType": "international_convention",
         "issuer": "IMO",
         "supports": "聲號及避碰規則背景。"
-      },
-      {
-        "title": "110年引水人考試專業英文原卷",
-        "sourceType": "official_exam_paper",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0912&t=Q",
-        "supports": "兩段英文原文及配分。",
-        "accessedAt": "2026-11-07"
       },
       {
         "title": "COLREG 1972 — International Regulations for Preventing Collisions at Sea",
@@ -2608,7 +2571,8 @@
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0912&t=Q",
         "sourceType": "official_exam_paper",
         "issuer": "考選部",
-        "supports": "中文原文及配分。"
+        "supports": "中文原文及配分。",
+        "accessedAt": "2026-11-07"
       },
       {
         "title": "COLREG 1972",
@@ -2616,14 +2580,6 @@
         "sourceType": "international_convention",
         "issuer": "IMO",
         "supports": "安全速度、瞭望、雷達及能見度受限制時避碰規則。"
-      },
-      {
-        "title": "110年引水人考試專業英文原卷",
-        "sourceType": "official_exam_paper",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0912&t=Q",
-        "supports": "中文原文及配分。",
-        "accessedAt": "2026-11-07"
       },
       {
         "title": "COLREG 1972 — International Regulations for Preventing Collisions at Sea",
@@ -2708,14 +2664,7 @@
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0912&t=Q",
         "sourceType": "official_exam_paper",
         "issuer": "考選部",
-        "supports": "四個術語及配分。"
-      },
-      {
-        "title": "110年引水人考試專業英文原卷",
-        "sourceType": "official_exam_paper",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0912&t=Q",
-        "supports": "四個海事術語及配分。",
+        "supports": "四個術語及配分。；四個海事術語及配分。",
         "accessedAt": "2026-11-07"
       },
       {
@@ -2817,7 +2766,8 @@
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0912&t=Q",
         "sourceType": "official_exam_paper",
         "issuer": "考選部",
-        "supports": "作文題目及字數要求。"
+        "supports": "作文題目及字數要求。；英文作文題目及約300字要求。",
+        "accessedAt": "2026-11-07"
       },
       {
         "title": "IMO Resolution A.960(23)",
@@ -2825,14 +2775,6 @@
         "sourceType": "IMO_resolution",
         "issuer": "IMO",
         "supports": "引水人訓練、引航程序及船長／駕駛臺團隊協作。"
-      },
-      {
-        "title": "110年引水人考試專業英文原卷",
-        "sourceType": "official_exam_paper",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0912&t=Q",
-        "supports": "英文作文題目及約300字要求。",
-        "accessedAt": "2026-11-07"
       },
       {
         "title": "IMO Resolution A.960(23) — Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
