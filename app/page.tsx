@@ -276,25 +276,65 @@ export default function Home() {
     a.questionNo - b.questionNo
   );
 
+  const portItems = items.filter((q) => matchesPort(q.port, port));
+  const subjectCards = [
+    { title: "航海英文", sub: "MARITIME ENGLISH", count: portItems.filter((q) => ["專業英文", "實用英文"].includes(q.subject)).length, filter: "專業英文", icon: "文" },
+    { title: "航政法規", sub: "MARITIME LAW", count: portItems.filter((q) => q.subject === "航政法規").length, filter: "航政法規", icon: "法" },
+    { title: "引港學", sub: "PILOTAGE", count: portItems.filter((q) => q.subject === "引港學").length, filter: "引港學", icon: "引" },
+    { title: "船舶操縱", sub: "SHIP HANDLING", count: portItems.filter((q) => q.subject === "船舶操縱").length, filter: "船舶操縱", icon: "舵" },
+    { title: "高雄港單港", sub: "KAOHSIUNG WATERWAY", count: portItems.filter((q) => q.subject === "當地水道港灣詳情" && q.port === "高雄港").length, filter: "當地水道港灣詳情", icon: "港" },
+  ];
   return (
-    <main className="shell">
-      <header className="topbar">
-        <div className="mark">引</div>
-        <div><small>TAIWAN PILOT EXAM</small><b>引水人備考題庫</b></div>
-        <span className="port">主港區・高雄港</span>
+    <main className="shell shell-premium">
+      <header className="topbar topbar-premium">
+        <a className="brand-lockup" href="/" aria-label="引水人備考網站首頁">
+          <div className="mark">引</div>
+          <div><small>TAIWAN PILOT EXAM</small><b>引水人備考學院</b></div>
+        </a>
+        <nav className="main-nav" aria-label="主要導覽">
+          <a href="#question-bank">歷屆題庫</a>
+          <a href="/mock-exam">完整模擬考</a>
+        </nav>
+        <span className="port"><span className="port-dot" />高雄考區</span>
       </header>
-      <section className="hero">
-        <small>PILOT EXAM QUESTION BANK</small>
-        <h1>把歷屆考題，<br/><em>整理成真正能備考的資料庫。</em></h1>
-        <p>依年度、考科與港區查找題目。每道正式歷屆題目都附可追溯的原始來源，可直接開啟考選部原卷核對。</p>
-        <p style={{marginTop:18}}><a href="/mock-exam" style={{display:"inline-block",background:"#176b68",color:"#fff",padding:"13px 20px",borderRadius:8,textDecoration:"none",fontWeight:700}}>進入完整隨機模擬考 →</a></p>
-        <div className="stats">
-          <div><b>{items.length}</b><span>已匯入題目</span></div>
-          <div><b>{new Set(items.map((q) => q.year)).size}</b><span>涵蓋年度</span></div>
-          <div><b>高雄港</b><span>主要港區</span></div>
+      <section className="hero hero-premium">
+        <div className="hero-copy">
+          <div className="hero-kicker"><span /> PILOT EXAM PREPARATION · 2027</div>
+          <h1>每一道題目，<br/><em>都朝著引水人的目標前進。</em></h1>
+          <p>整合歷屆試題、專業擬答與隨機模擬考。從共同科目到高雄港單港題，建立有系統的備考節奏。</p>
+          <div className="hero-actions">
+            <a className="hero-primary" href="/mock-exam"><span>▣</span> 開始完整模擬考 <b>→</b></a>
+            <a className="hero-secondary" href="#question-bank">瀏覽歷屆題庫 <b>↓</b></a>
+          </div>
+          <div className="hero-proof"><span>✓</span> 原卷來源可追溯 <i /> <span>✓</span> 高雄考區專用範圍 <i /> <span>✓</span> 參考答案逐題整理</div>
+        </div>
+        <aside className="hero-panel">
+          <div className="panel-topline"><span>STUDY OVERVIEW</span><span className="live-dot">● 系統資料</span></div>
+          <div className="panel-heading">備考資料總覽</div>
+          <div className="panel-total"><strong>{items.length}</strong><span>道正式歷屆題目</span></div>
+          <div className="panel-divider" />
+          <div className="panel-stats">
+            <div><b>{new Set(items.map((q) => q.year)).size}</b><span>涵蓋年度</span></div>
+            <div><b>{portItems.length}</b><span>高雄可練習題目</span></div>
+          </div>
+          <div className="panel-foot"><span>主要考區</span><b>高雄港 KAOHSIUNG</b></div>
+          <div className="compass-watermark">✳</div>
+        </aside>
+      </section>
+      <section className="subject-overview">
+        <div className="section-intro"><div><small>YOUR STUDY AREAS</small><h2>五大備考科目</h2></div><span>依高雄考區題庫統計</span></div>
+        <div className="subject-grid">
+          {subjectCards.map((card) => (
+            <button className="subject-card" key={card.title} onClick={() => { setSubject(card.filter); document.getElementById("question-bank")?.scrollIntoView({ behavior: "smooth" }); }}>
+              <span className="subject-icon">{card.icon}</span>
+              <span className="subject-copy"><b>{card.title}</b><small>{card.sub}</small></span>
+              <span className="subject-count"><b>{card.count}</b><small>題</small></span>
+              <span className="subject-arrow">↗</span>
+            </button>
+          ))}
         </div>
       </section>
-      <section className="bank">
+      <section className="bank bank-premium" id="question-bank">
         <div className="heading">
           <div><small>QUESTION BANK</small><h2>歷屆試題</h2></div>
           <span>{filtered.length} 題</span>
