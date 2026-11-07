@@ -291,52 +291,57 @@
   {
     "id": "100-english-04-answer-v1",
     "questionId": "100-english-04",
-    "version": 1,
+    "version": 2,
     "language": "en",
     "answerType": "composition",
-    "modelAnswer": "**Relationships between Pilots and Vessel Traffic Center**\n\nA good relationship between maritime pilots and a Vessel Traffic Service (VTS) centre is essential for safe and efficient navigation in port areas and their approaches. Although pilots and VTS operators have different duties, they share the common goal of preventing accidents, protecting the marine environment and maintaining an orderly flow of vessel traffic.\n\nFirst, VTS provides pilots and vessels with important traffic and navigational information. Such information may include the positions and intentions of other vessels, weather conditions, tidal currents, waterway restrictions, navigational hazards and changes to port operations. This information helps pilots plan a safe passage and make timely decisions.\n\nSecond, pilots should maintain clear and continuous communication with the VTS centre. Before entering or leaving a port, the pilot should report the vessel's identity, position, destination, estimated time of arrival, draught and other information required by local procedures. During pilotage, the pilot should keep VTS informed of the vessel's movements, intended manoeuvres, delays and any unusual situation. Standard Marine Communication Phrases should be used whenever practicable to avoid misunderstandings.\n\nThird, VTS plays an important role in traffic organization. It can coordinate the movements of arriving, departing and shifting vessels, allocate suitable passage times, provide warnings and assist in preventing dangerous encounters. In restricted visibility, bad weather or heavy traffic, navigational assistance from VTS may be especially valuable.\n\nHowever, VTS does not replace the pilot or the ship's master. The pilot provides local knowledge and conducts the pilotage operation in cooperation with the bridge team, while the master remains responsible for the safety of the ship. VTS instructions should be clearly identified as information, advice, warnings or instructions, and should not interfere with the traditional relationship between the master and the pilot.\n\nIn conclusion, mutual respect, accurate information, timely reporting and effective communication are the foundations of a good relationship between pilots and VTS. By working together, they can improve navigation safety, protect the environment and ensure the smooth movement of ships in port waters.",
-    "practicalAnalysis": "本題30分，約300字作文，建議五段式：引言、VTS提供資訊、引水人回報與通訊、VTS交通組織及責任界線、結論。內容應提到VTS三項服務：Information Service、Navigational Assistance Service、Traffic Organization Service；引水人需報告船舶動態、ETA、吃水及操船意圖；但VTS不取代引水人及船長責任，船長仍負船舶安全責任。作文約300字，採正式海事英文。",
+    "modelAnswer": "**Relationships between Pilots and Vessel Traffic Services (VTS)**\n\nA good working relationship between maritime pilots and a Vessel Traffic Services (VTS) centre is essential for safe and efficient navigation in port areas and their approaches. Although pilots and VTS personnel have different responsibilities, they share the common objectives of protecting life at sea, improving navigational safety and efficiency, and protecting the marine environment.\n\nFirst, VTS provides timely and relevant information that may affect a vessel's movement. Such information includes the position, identity and intentions of other vessels, maritime safety information, navigational hazards, weather and current conditions, waterway restrictions, and any operational limitations that may affect traffic. This information supports the pilot's and master's decision-making.\n\nSecond, VTS monitors and manages vessel traffic. It may plan vessel movements, organize traffic and the allocation of water space, operate traffic-clearance or reporting systems, provide route advice, and coordinate arriving, departing and shifting vessels. The pilot should maintain clear and timely communication with VTS, reporting the vessel's identity, position, course, speed, draught, destination, ETA, intended manoeuvres and any delay, defect or unusual situation as required by local procedures.\n\nThird, VTS responds to developing unsafe situations. These may include restricted visibility, strong winds, a vessel deviating from its route, equipment failure, risk of grounding or collision, or a vessel requiring assistance. Pilots should promptly inform VTS of hazards and request assistance when necessary. Effective cooperation with allied services, such as tugs and linesmen, is also important.\n\nVTS may provide information or issue advice, warnings and instructions. Participating ships should provide required reports, take account of information, advice and warnings, and comply with VTS requirements and instructions unless there are overriding safety or marine-environment reasons not to do so. However, VTS does not replace the pilot or the master's duties. The master retains ultimate responsibility for all aspects of the ship's operation, including safe navigation, while the pilot contributes local knowledge and conducts pilotage in cooperation with the bridge team.\n\nIn conclusion, mutual respect, accurate information, timely reporting and clear communication are the foundations of an effective relationship between pilots and VTS. Close cooperation among the ship, pilot, VTS and allied port services helps prevent accidents, protect the environment and maintain an orderly flow of traffic in port waters.",
+    "practicalAnalysis": "本題30分，建議五段式作文：引言、VTS資訊提供、交通監控與管理、危險情況應變、責任界線及結論。原答案引用IMO A.857(20)已過時：IMO於2021年12月15日採納A.1158(32)，並明文撤銷A.857(20)。因此本次改依現行A.1158(32)組織內容，不再沿用舊版「三項VTS服務」分類。\n\n現行A.1158(32)第3.1段將VTS目的分為三類：提供及時相關資訊；監控及管理船舶交通；對正在發展的不安全情況作出回應。第3.2段指出VTS得視需要提供資訊或發布建議、警告及指示。第6.1段規定參與船舶應提交所需報告、考量VTS提供的資訊／建議／警告，並遵守VTS要求及指示（除非有相反的安全或海洋環境保護理由）；第7.1段明確指出船長對船舶運作及安全航行仍負最終責任。引水人角色與船長、駕駛台團隊協調則另參IMO A.960(23)。SMCP A.918(22)仍可作標準通訊用語依據。",
     "keyPoints": [
       {
-        "point": "引言說明引水人與VTS共同目標為航行安全、保護環境及維持有秩序的船舶交通。",
-        "importance": "essential",
-        "explanation": "建立雙方合作關係。"
+        "point": "VTS目的與合作關係",
+        "explanation": "共同促進海上人命安全、航行安全與效率及海洋環境保護。",
+        "importance": "essential"
       },
       {
-        "point": "VTS提供資訊服務：他船位置與意圖、天候、潮流、水道限制及航行危險。",
-        "importance": "essential",
-        "explanation": "Information Service。"
+        "point": "及時提供相關資訊",
+        "explanation": "他船位置、身分、意圖、航行安全資訊、限制、危險及港區作業資訊。",
+        "importance": "essential"
       },
       {
-        "point": "引水人應持續向VTS報告船位、船舶動態、ETA、目的地、吃水、操船計畫及異常。",
-        "importance": "essential",
-        "explanation": "保持及時、準確、連續的通訊。"
+        "point": "監控與管理交通",
+        "explanation": "預先規劃船舶動態、組織交通及水域分配、通行許可、航路建議與報告。",
+        "importance": "essential"
       },
       {
-        "point": "VTS提供航行協助及交通組織，協調進出港、移泊、通行時段及交通風險。",
-        "importance": "essential",
-        "explanation": "Navigational Assistance Service及Traffic Organization Service。"
+        "point": "應對正在發展的不安全情況",
+        "explanation": "能見度不良、強風、偏離航路、設備故障、擱淺／碰撞風險及緊急應變。",
+        "importance": "essential"
       },
       {
-        "point": "VTS不取代引水人或船長；VTS訊息應明確區分資訊、建議、警告及指令。",
-        "importance": "essential",
-        "explanation": "保留船長及引水人職責界線。"
+        "point": "參與船舶的義務",
+        "explanation": "提交VTS要求報告，考量資訊／建議／警告，並遵守要求及指示，除非有相反安全或環境保護理由。",
+        "importance": "essential"
       },
       {
-        "point": "使用IMO SMCP及清楚標準化通訊，避免語言及資訊誤解。",
-        "importance": "supporting",
-        "explanation": "標準海事通信用語。"
+        "point": "船長最終責任與引水人角色",
+        "explanation": "VTS不取代船長責任；船長仍對船舶安全航行負最終責任，引水人提供地方知識並與駕駛台合作。",
+        "importance": "essential"
+      },
+      {
+        "point": "標準通訊",
+        "explanation": "使用清楚、及時、簡潔且無歧義的通訊，適時採用IMO SMCP。",
+        "importance": "supporting"
       }
     ],
     "references": [
       {
-        "title": "Resolution A.857(20): Guidelines for Vessel Traffic Services",
+        "title": "Resolution A.1158(32): Guidelines for Vessel Traffic Services",
         "sourceType": "international_convention",
         "issuer": "International Maritime Organization",
-        "editionOrEffectiveDate": "27 November 1997",
-        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.857%2820%29.pdf",
-        "pageOrSection": "Paragraphs 2.1–2.4, Objectives, VTS Services and Communication",
-        "supports": "VTS目的、資訊服務、航行協助、交通組織、責任界線及訊息分類。"
+        "editionOrEffectiveDate": "15 December 2021",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1158%2832%29.pdf",
+        "pageOrSection": "Annex, paragraphs 3.1–3.2, 6.1 and 7.1–7.6",
+        "supports": "現行VTS目的、資訊提供、交通監控管理、危險情況應變、資訊／建議／警告／指示、參與船舶義務及船長最終責任；該決議撤銷A.857(20)。"
       },
       {
         "title": "Resolution A.960(23): Recommendations on Training and Certification and on Operational Procedures for Maritime Pilots other than Deep-Sea Pilots",
@@ -353,7 +358,7 @@
         "issuer": "International Maritime Organization",
         "editionOrEffectiveDate": "Resolution A.918(22), 29 November 2001",
         "url": "https://www.imo.org/en/ourwork/safety/pages/standardmarinecommunicationphrases.aspx",
-        "supports": "VTS、船舶及岸台之標準海事通訊用語。"
+        "supports": "船岸、船船及引水人與駕駛台團隊標準海事通訊用語。"
       },
       {
         "title": "100年專門職業及技術人員高等考試引水人試題",
@@ -366,37 +371,48 @@
       }
     ],
     "assumptions": [
-      "作文以2011年考試年度適用之IMO A.857(20)、A.960(23)及A.918(22)為背景，字數約300字。"
+      "作文以2027備考時點仍有效之IMO A.1158(32)作為VTS現行指引；引水人與船長互動另參A.960(23)。"
     ],
     "limitations": [
-      "各港VTS實際權限、通報點、報告內容及通訊頻道依當地港口規章而異；作文描述國際通用原則，不取代個別港口程序。"
+      "各港VTS實際權限、通報點、報告內容及通訊頻道依當地港口規章而異；作文描述國際通用原則，不取代個別港口程序。",
+      "IMO A.857(20)已於2021年由A.1158(32)撤銷，不應再列為現行VTS指引。"
     ],
     "verification": {
       "status": "source_checked",
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "VTS三項服務",
+          "item": "原題與作文字數要求",
           "result": "pass",
-          "note": "依IMO A.857(20)第2.3節核對Information、Navigational Assistance及Traffic Organization Services。"
+          "note": "依考選部100年專業英文第四題核對。"
         },
         {
-          "item": "引水人與船長責任",
+          "item": "VTS現行指引版本",
           "result": "pass",
-          "note": "依IMO A.960(23) Annex 2核對引水人、船長及駕駛台團隊責任。"
+          "note": "IMO A.1158(32)於2021-12-15採納並撤銷A.857(20)。"
         },
         {
-          "item": "VTS訊息分類與通訊",
+          "item": "VTS目的、資訊與交通管理、應變",
           "result": "pass",
-          "note": "依IMO A.857(20)第2.4節及SMCP核對資訊、建議、警告、指令及標準通訊。"
+          "note": "依A.1158(32) Annex paragraphs 3.1–3.2核對。"
         },
         {
-          "item": "作文字數及內容",
+          "item": "參與船舶義務及船長責任",
           "result": "pass",
-          "note": "依考選部100年專業英文第四題確認約300字短文要求。"
+          "note": "依A.1158(32) paragraphs 6.1及7.1核對。"
+        },
+        {
+          "item": "引水人與船長協調",
+          "result": "pass",
+          "note": "依IMO A.960(23) Annex 2核對。"
+        },
+        {
+          "item": "SMCP標準通訊",
+          "result": "pass",
+          "note": "依IMO A.918(22)及IMO官方說明核對。"
         }
       ]
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   }
 ]
