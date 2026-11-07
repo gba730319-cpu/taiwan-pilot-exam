@@ -1,0 +1,213 @@
+[
+  {
+    "id": "087-english-01-answer-v1",
+    "questionId": "087-english-01",
+    "version": 1,
+    "language": "en",
+    "answerType": "translation",
+    "modelAnswer": "【中文譯文】\n（1）操船時，切忌為了表現而刻意炫技。即使是經驗豐富的專家，如果一味追求表演式的操船，也終究可能遭遇挫敗。他的專業知識或許能讓他暫時過關，甚至維持多年，但從長期機率及風險來看，終究會有失手的一天。操船應以安全、穩健及符合船舶性能為原則，而不是為了展示個人技巧而冒險。\n（2）在所有情況下，船舶交通服務中心（VTS）及引水人都能在降低海上航行風險方面發揮重要作用。然而，要達成這個目標，雙方必須密切合作。只要稍微閱讀船舶交通服務中心及引水人的職責，就能看出兩者的工作範圍必然有所重疊；也就是說，雙方都關心如何使船舶在特定的近岸或離岸水域內安全且有效率地航行。",
+    "practicalAnalysis": "本題30分，第一段的grandstand play與showmanship是炫技、作秀，不是字面上的看台表演；meet his Waterloo是遭遇挫敗；law of averages表示長期而言偶然風險終會發生。第二段需保留VTS與引水人職責重疊、密切合作及安全有效率移動船舶的主旨。",
+    "keyPoints": [
+      {
+        "point": "grandstand play／showmanship譯為炫技或表演式操船。",
+        "importance": "essential"
+      },
+      {
+        "point": "meet his Waterloo譯為遭遇挫敗。",
+        "importance": "essential"
+      },
+      {
+        "point": "law of averages譯為長期機率規律或平均法則。",
+        "importance": "essential"
+      },
+      {
+        "point": "vessel traffic centers譯為船舶交通服務中心。",
+        "importance": "supporting"
+      },
+      {
+        "point": "safe and efficient movement保留安全且有效率的航行意義。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人專業英文官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國87年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2004&t=Q",
+        "supports": "專業英文三題原卷。"
+      },
+      {
+        "title": "IMO Pilotage and STCW",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/ourwork/humanelement/pages/stcw-conv-link.aspx",
+        "supports": "引水人職責及海事專業英文術語。"
+      }
+    ],
+    "assumptions": [
+      "英文依海事專業語境及一般英語用法校訂。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部87年專業英文原卷",
+          "result": "pass",
+          "note": "題文核對。"
+        },
+        {
+          "item": "翻譯及術語",
+          "result": "pass",
+          "note": "依海事英文慣用語校訂。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "087-english-02-answer-v1",
+    "questionId": "087-english-02",
+    "version": 1,
+    "language": "en",
+    "answerType": "translation",
+    "modelAnswer": "**1. Port State Control (PSC)**\nPort State Control is the inspection of foreign ships in a national port by the port State to verify that the ships, their equipment, crew and documents comply with applicable international conventions and safety requirements. It helps prevent substandard ships from operating and protects life, property and the marine environment.\n**2. Crash Stops**\nA crash stop is an emergency stopping manoeuvre in which a ship's propulsion is rapidly changed, usually from full ahead to full astern, in order to stop the ship as quickly as practicable. The stopping distance and time depend on the ship's displacement, speed, engine response and manoeuvring characteristics.\n**3. Port Helm Rule**\nThe port helm rule is a traditional single-screw shiphandling principle describing the use of port rudder in conjunction with ahead engine movements to control the vessel's heading or stern movement. Its actual effect depends on propeller rotation, propeller race and the vessel's design, so it must not be applied without considering the ship's characteristics.\n**4. Radar Surveillance**\nRadar surveillance is the continuous observation and plotting of surrounding targets by radar in order to monitor their positions, courses, speeds and relative movements. It assists the bridge team in detecting collision risks, monitoring navigation hazards and maintaining safe distances.\n**5. Transverse Thrust of Propeller**\nTransverse thrust of a propeller, also known as propeller walk, is the sideways force produced by a rotating propeller. It may cause the stern to move sideways, particularly when the propeller is operating astern, and is an important factor in low-speed manoeuvring.\n**6. Righting Moment**\nRighting moment is the moment produced by the separation between a ship's centre of gravity and the line of action of buoyancy when the ship is heeled. It tends to return the ship to the upright position and is commonly expressed as displacement multiplied by the righting lever (GZ).",
+    "practicalAnalysis": "本題30分，英文定義應包含關鍵要素，不只逐字翻譯。Port State Control需提到外國船舶在港口國檢查；Crash stop是緊急倒俥停船；Radar surveillance是連續監視目標；Transverse thrust即propeller walk；Righting moment為排水量乘GZ。",
+    "keyPoints": [
+      {
+        "point": "PSC為港口國對外國船舶進行法規遵循檢查。",
+        "importance": "essential"
+      },
+      {
+        "point": "Crash stop為緊急倒俥停船操作。",
+        "importance": "essential"
+      },
+      {
+        "point": "Port helm rule的效果須依螺槳旋向與船型判斷。",
+        "importance": "essential"
+      },
+      {
+        "point": "Radar surveillance監控目標位置、航向、航速及相對運動。",
+        "importance": "supporting"
+      },
+      {
+        "point": "Transverse thrust又稱propeller walk，造成船艉橫向偏移。",
+        "importance": "supporting"
+      },
+      {
+        "point": "Righting moment=displacement×GZ。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人專業英文官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國87年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2004&t=Q",
+        "supports": "專業英文三題原卷。"
+      },
+      {
+        "title": "IMO Pilotage and STCW",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/ourwork/humanelement/pages/stcw-conv-link.aspx",
+        "supports": "引水人職責及海事專業英文術語。"
+      }
+    ],
+    "assumptions": [
+      "英文依海事專業語境及一般英語用法校訂。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部87年專業英文原卷",
+          "result": "pass",
+          "note": "題文核對。"
+        },
+        {
+          "item": "翻譯及術語",
+          "result": "pass",
+          "note": "依海事英文慣用語校訂。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "087-english-03-answer-v1",
+    "questionId": "087-english-03",
+    "version": 1,
+    "language": "en",
+    "answerType": "translation",
+    "modelAnswer": "**The Responsibility of Pilots**\n\nA maritime pilot has an important responsibility for the safe navigation of a ship in a particular port or waterway. A pilot is expected to possess detailed local knowledge of channels, depths, tides, currents, navigational marks, traffic regulations and port facilities. This knowledge enables the pilot to advise the master and guide the vessel safely through confined or unfamiliar waters.\n\nBefore boarding, the pilot should obtain relevant information about the ship, including its dimensions, draught, manoeuvring characteristics, propulsion system and any defects. After boarding, the pilot should exchange information with the master, agree on a passage plan and explain the intended manoeuvres, tug requirements and emergency procedures. Effective communication is essential throughout the operation.\n\nDuring pilotage, the pilot must maintain a proper lookout, monitor the ship's position and movement, comply with collision regulations and local port rules, and take account of wind, current, visibility and under-keel clearance. The pilot should give clear and timely orders and coordinate closely with the bridge team, tugboats and vessel traffic service. If conditions become unsafe, the pilot should recommend delaying, aborting or changing the manoeuvre.\n\nAlthough the pilot provides professional advice and conducts the pilotage, the master remains responsible for the safety of the ship, crew, cargo and environment. The presence of a pilot does not relieve the master of that responsibility. A good pilot therefore works in close cooperation with the master and all concerned parties, exercises sound judgement and never takes unnecessary risks. Safety must always come before speed, convenience or personal reputation.",
+    "practicalAnalysis": "本題40分，約200–300字短文，須涵蓋當地知識、登輪前資料交換、航行計畫、操船及拖船協調、VTS、風流能見度與UKC，以及船長最終責任。本文約230字，符合題目篇幅。",
+    "keyPoints": [
+      {
+        "point": "具備港區航道、水深、潮流、航標及規則的當地知識。",
+        "importance": "essential"
+      },
+      {
+        "point": "登輪前後與船長交換船舶資料並確認航行計畫。",
+        "importance": "essential"
+      },
+      {
+        "point": "引水期間保持瞭望、定位、避碰及UKC監控。",
+        "importance": "essential"
+      },
+      {
+        "point": "與船橋團隊、拖船及VTS密切合作。",
+        "importance": "supporting"
+      },
+      {
+        "point": "船長仍負船舶安全最終責任，引水人不得冒險炫技。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人專業英文官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國87年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2004&t=Q",
+        "supports": "專業英文三題原卷。"
+      },
+      {
+        "title": "IMO Pilotage and STCW",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "url": "https://www.imo.org/en/ourwork/humanelement/pages/stcw-conv-link.aspx",
+        "supports": "引水人職責及海事專業英文術語。"
+      }
+    ],
+    "assumptions": [
+      "英文依海事專業語境及一般英語用法校訂。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部87年專業英文原卷",
+          "result": "pass",
+          "note": "題文核對。"
+        },
+        {
+          "item": "翻譯及術語",
+          "result": "pass",
+          "note": "依海事英文慣用語校訂。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
