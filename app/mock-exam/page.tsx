@@ -50,7 +50,7 @@ export default function MockExamPage(){
   function finish(){setSubmitted(true);setConfirmSubmit(false);}
   const current=exam[active];
   const left=Math.max(0,duration-elapsed);
-  useEffect(()=>{if(started&&!submitted&&duration>0&&elapsed>=duration)setConfirmSubmit(true);},[started,submitted,duration,elapsed]);
+  useEffect(()=>{if(started&&!submitted&&duration>0&&elapsed>=duration){setSubmitted(true);setConfirmSubmit(false);}},[started,submitted,duration,elapsed]);
   return <main className="mock-shell">
     <header className="mock-top"><Link href="/" className="mock-brand"><span>引</span><div><small>TAIWAN PILOT EXAM</small><b>引水人備考網站</b></div></Link><Link href="/" className="mock-back">返回題庫 ←</Link></header>
     {!started? <section className="mock-intro">
@@ -64,7 +64,7 @@ export default function MockExamPage(){
         <label className="mock-duration">自訂作答時間
           <select value={duration} onChange={e=>setDuration(Number(e.target.value))}><option value={3600}>1 小時</option><option value={7200}>2 小時</option><option value={10800}>3 小時</option><option value={14400}>4 小時</option><option value={21600}>6 小時</option><option value={36000}>10 小時</option></select>
         </label>
-        <p className="mock-note">題數配置參照民國114年完整試卷；作答時間為自訂練習設定，並非官方考試時間。題目保留原始申論、計算及繪圖要求，系統不會自動判定答案分數。</p>
+        <p className="mock-note">題數配置參照民國114年完整試卷；作答時間為自訂練習設定，並非官方考試時間。時間到會自動交卷。題目保留原始申論、計算及繪圖要求，系統不會自動判定答案分數。</p>
         <button className="mock-primary" onClick={makeExam}>隨機組卷並開始考試</button>
       </div>
     </section>: <>
