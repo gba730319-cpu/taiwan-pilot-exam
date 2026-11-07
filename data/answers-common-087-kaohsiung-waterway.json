@@ -1,0 +1,56 @@
+[
+  {
+    "id": "087-kaohsiung-waterway-01-answer-v1",
+    "questionId": "087-kaohsiung-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、繪圖範圍】本題要求第二港口防波堤口至前鎮河口間港域圖，標示中鋼、中船前支航道、碼頭編號、航道水深及最窄處寬度。\n\n【二、港域骨架】\n第二港口外海 → 第二港口口門 → 主航道及迴船池 → 中鋼前支航道（94–101號碼頭）／台船前支航道（85–91號碼頭）→ 前鎮商港區（59–66號碼頭）→ 前鎮河口。\n\n應另標示北、南防波堤燈杆、航道中心線、轉向點、浮筒、禁錨區及碼頭岸線。水深及最窄寬度須依1998年海圖及港務工程圖讀取，不可用2010年或現行數值回推。",
+    "practicalAnalysis": "本題25分，主要是港區圖面題。以第二港口、迴船池、中鋼及台船前支航道、前鎮河口建立空間骨架；1998年原始港區圖及測深資料未取得前，不填未核實水深與寬度。",
+    "keyPoints": [
+      {
+        "point": "標出第二港口至前鎮河口的港域骨架。",
+        "importance": "essential"
+      },
+      {
+        "point": "標出中鋼94–101號及台船85–91號碼頭區。",
+        "importance": "essential"
+      },
+      {
+        "point": "標示主航道、迴船池、兩條前支航道、碼頭及航標。",
+        "importance": "essential"
+      },
+      {
+        "point": "航道水深及最窄寬度須依1998年海圖／工程圖核實。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人高雄港地方題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=5004&t=Q",
+        "supports": "原題"
+      }
+    ],
+    "assumptions": [
+      "以1998年港區配置為準。"
+    ],
+    "limitations": [
+      "未取得1998年港區配置圖及測深圖，精確水深及寬度待查。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部原卷",
+          "result": "pass",
+          "note": "題文核對完成。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
