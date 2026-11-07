@@ -740,31 +740,35 @@
     "practicalAnalysis": "原答案將題意偏向「兩艘船同時招請引水人之先後順序」，但題目真正問的是引水人應招領航時的義務。修訂後以《引水法》第21至33條及第39條為主軸，涵蓋不得無故拒絕、執業資格與區域、證件、信號、單船領航、拖船、學習引水人、尊重船長指揮權及通報義務；第18條先到港／遇險優先僅作補充，不再當作主答。",
     "keyPoints": [
       {
-        "point": "兩船同時招請：先到港優先，遇險船優先",
+        "point": "已應招不得無正當理由拒絕或不領航",
         "importance": "essential"
       },
       {
-        "point": "具有效執業證書並在指定引水區域執業",
+        "point": "持執業證書並完成指定引水區域登記",
         "importance": "essential"
       },
       {
-        "point": "登輪前掌握船舶資料、氣象、潮流、航道及VTS交通",
+        "point": "限於指定引水區域執業並隨身攜帶證件",
         "importance": "essential"
       },
       {
-        "point": "確認引水梯及登輪安全",
+        "point": "引水船顯示規定信號及夜間燈號",
         "importance": "essential"
       },
       {
-        "point": "登輪後完成MPX並核對船舶操縱性能",
+        "point": "每次原則上領航一艘船舶",
         "importance": "essential"
       },
       {
-        "point": "尊重船長指揮權，保持溝通與監控",
+        "point": "必要時請求拖船協助及依規定攜帶學習引水人",
         "importance": "essential"
       },
       {
-        "point": "異常通報、紀錄，不得無故怠忽或拒絕職務",
+        "point": "尊重船長指揮權，遵守航海法規與VTS程序",
+        "importance": "essential"
+      },
+      {
+        "point": "發現水道變遷、障礙、航標異常、遇險或違法情事應即時通報",
         "importance": "essential"
       }
     ],
@@ -804,6 +808,30 @@
         "issuer": "法務部全國法規資料庫／交通部",
         "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0070029",
         "supports": "引水人辦事處、輪值、招請及執業管理程序。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "引水法（現行條文）",
+        "sourceType": "law_or_regulation",
+        "issuer": "法務部全國法規資料庫",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0070028",
+        "supports": "第20至33條引水人執業、領航及通報義務，以及第39條無正當理由拒絕招請或應招後不領航之罰則。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "引水人監理作業",
+        "sourceType": "official_government_guidance",
+        "issuer": "交通部航港局",
+        "url": "https://www.motcmpb.gov.tw/Article?NodeId=498&SiteId=1",
+        "supports": "現行引水人管理規則、領航程序注意事項及地方執業管理資料。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960(23).pdf",
+        "supports": "引水人與船長、駕駛臺團隊的MPX、職責分際及安全操作程序。",
         "accessedAt": "2026-11-07"
       }
     ],
