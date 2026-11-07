@@ -230,3 +230,11 @@
 - 修正原答案對VSP維護成本的過度概括：Voith原廠稱其可靠且維護需求低，因此不應籠統寫成VSP必然維修昂貴；改以專業維修、備件及船底設備損傷風險描述。
 - 強調SRP同樣能360°轉向及提供橫向推力，不能寫成SRP只能前後推、VSP才可橫移；兩者繫柱拉力、效率及油耗須依同條件型號數據比較。
 - 原廠來源：SCHOTTEL https://www.schottel.de/en/portfolio/products/product-details/srp-schottel-rudderpropeller；Voith https://www.voith.com/corp-en/drives-transmissions/voith-schneider-propeller-vsp.html；Voith VSP原理 https://www.voith.com/corp-en/ernst-schneider.html
+
+
+### 114 年船舶操縱第 3 題：艉座定義及速度關係複核（2026-11-07）
+- 依UK MCA MGN 199 (M) Amendment 1及加拿大TSB海事事故調查資料，確認Squat為船舶前進造成的動態下沉（sinkage）及／或縱傾（trim），會減少UKC並使表觀吃水增加；最大值可能在船艏或船艉，不應按中文名稱誤認為必然只有艉部下沉。
+- 速度平方關係應明確指對水速度（STW），在其他條件相近時近似與V²成正比；加註此為常用近似，不是各種船型、航道及臨界淺水條件下的精確公式。
+- 補入水深／吃水比、航道寬度與阻塞比、船型方形係數及深度Froude數等影響因素；提醒不同經驗公式的適用條件不同，不可將開放水域公式直接套用狹窄運河。
+- 區分Squat與bank suction／bank cushion：兩者不同，但在淺窄航道可能同時發生並影響操縱。
+- 官方來源：MCA MGN 199 https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction；加拿大TSB https://tsb.gc.ca/eng/rapports-reports/marine/1999/m99c0005/m99c0005.html；USACE https://erdc-library.erdc.dren.mil/bitstream/11681/1895/1/CHL-CHETN-I-72.pdf
