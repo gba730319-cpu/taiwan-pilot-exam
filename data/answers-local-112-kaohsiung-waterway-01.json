@@ -1,0 +1,111 @@
+[
+  {
+    "id": "answer-112-kaohsiung-waterway-01",
+    "questionId": "112-kaohsiung-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、大型郵輪靠泊位置\n（一）高雄港可供大型郵輪使用的主要區位包括蓬萊區9號碼頭／旅運中心周邊，以及中島區18至21號碼頭等岸線；歷史港區統計亦曾將8至10號及18至21號碼頭列為大型郵輪可用區段。\n（二）112年4月4日名勝世界壹號實際靠泊9號碼頭蓬萊旅運中心，證明該碼頭於考試年度已投入郵輪母港作業。\n（三）實際船席仍須按船長、船寬、吃水、碼頭水深、岸線長度、護舷及繫纜能力、旅運設施與鄰泊船舶逐船確認，不能只憑碼頭區段名稱認定所有郵輪均可停靠。\n\n二、靠泊及離泊注意事項\n（一）靠泊前核對潮位、可用水深及富餘水深，評估船舶下沉量、縱傾與橫傾；確認碼頭有效長度、繫纜樁負荷、護舷配置及岸上設備淨空。\n（二）大型郵輪上層建築高、受風面積大，低速時舵效可能下降，須評估平均風、陣風、風向、流向流速、船舶載況、側推器及主機舵機狀態。\n（三）預先規劃拖船艘數、馬力、拖帶點及工作舷，明確分配艏艉控制、頂推及拖帶任務；拖船實際能力應以bollard pull及拖纜角度判斷，不能把HP直接當成噸力。\n（四）進港時依VTS排序及許可，以可控速度接近，避免過早失速；最後靠泊階段控制橫移速度、接觸角及船體與護舷接觸位置，防止慣性造成碼頭或船體受損。\n（五）離泊前確認主機、舵機、側推器、拖船及纜繩作業均備便，依風流決定先解哪一端纜繩；拖船先建立可用控制力，再依計畫逐條解纜，船體離開碼頭並取得安全橫距後再建立出港航向。\n（六）旅客上下船、登船廊道、行李及岸上車輛作業須與船舶操縱區隔；繫纜人員避開snap-back zone。\n\n三、一港口與二港口選擇及限制\n（一）港口選擇須綜合船舶尺度、吃水、操縱性能、港口有效寬度與水深、航道及迴船池、風流與湧浪、碼頭位置、拖船支援及港口管制狀態。\n（二）高雄港一港口有效寬度及水深較二港口小；二港口航道及迴船池尺度較大，較能提供大型船舶操縱空間。但不得因此概括認定所有大型郵輪均不得使用一港口，應以112年當時港口計畫船型、航行規定及個別核准條件為準。\n（三）若一港口因船舶尺度、吃水、風浪或管制而不適合，改由二港口進出，應由船公司／代理行與港務、VTS及引水人確認改港程序、引水申請、拖船調度、靠泊泊位及航次計畫，並重新評估二港口雙向航道、進出港巷道、離岸堤、迴船池及錨區。\n（四）二港口並非無限制；進出港船舶仍須遵守VTS放行、航道交通排序、船舶間距及大型船舶轉向安排。若船舶尺度或天候超出二港口管制條件，仍不得勉強進出。\n\n結論：郵輪靠泊及港口選擇應以碼頭能力、船舶尺度、風流、拖船及VTS管制整體評估。固定船長或總噸位門檻必須引用112年當時有效的官方限制，不可自行推定。",
+    "practicalAnalysis": "本題15分分為郵輪靠泊位置、靠離泊操船及港口改道限制。已核實112年4月名勝世界壹號靠泊9號碼頭蓬萊旅運中心；歷史統計列有8–10號及18–21號碼頭區段。惟尚未取得112年大型郵輪一港口／二港口限制完整條文，故不臆造船長或總噸位門檻，答案以船舶尺度、航道、風流、拖船及VTS個別核准條件說明。",
+    "keyPoints": [
+      {
+        "point": "112年名勝世界壹號已實際靠泊9號碼頭蓬萊旅運中心。",
+        "importance": "essential"
+      },
+      {
+        "point": "歷史郵輪資料列出8–10號及18–21號碼頭區段，但實際泊位須逐船核對。",
+        "importance": "essential"
+      },
+      {
+        "point": "大型郵輪靠離泊須評估上層建築風壓、低速操縱、潮位水深、拖船及繫纜。",
+        "importance": "essential"
+      },
+      {
+        "point": "一、二港口選擇應考量船舶尺度、吃水、港口有效寬度、水深、迴船池及當時管制。",
+        "importance": "essential"
+      },
+      {
+        "point": "改由二港口進出須重新安排VTS排序、引水、拖船及航路；二港口並非無限制。",
+        "importance": "essential"
+      },
+      {
+        "point": "未取得112年官方限制條文前，不得臆造郵輪固定船長／總噸位門檻。",
+        "importance": "essential"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "totalPoints": 15,
+      "items": [
+        {
+          "criterion": "郵輪靠泊碼頭及適用條件",
+          "points": 4,
+          "basis": "研讀建議配分，非官方評分標準"
+        },
+        {
+          "criterion": "靠離泊操船及安全注意事項",
+          "points": 6,
+          "basis": "研讀建議配分，非官方評分標準"
+        },
+        {
+          "criterion": "一、二港口選擇及改港程序",
+          "points": 5,
+          "basis": "研讀建議配分，非官方評分標準"
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "高雄、香港雙母港郵輪啟航",
+        "sourceType": "official_news",
+        "issuer": "交通部／臺灣港務股份有限公司",
+        "editionOrEffectiveDate": "112年4月6日",
+        "url": "https://www.motc.gov.tw/ch/app/data/view?id=14&module=news&serno=e3387989-915e-4c3d-bbf3-9c5adb1b71d8",
+        "supports": "名勝世界壹號於112年4月4日靠泊9號碼頭蓬萊旅運中心。"
+      },
+      {
+        "title": "108年度高雄港國際郵輪觀光旅客統計概況",
+        "sourceType": "official_statistics",
+        "issuer": "高雄市政府海洋局",
+        "editionOrEffectiveDate": "108年度統計資料",
+        "url": "https://orgws.kcg.gov.tw/Download.ashx?Icon=.pdf&n=MTA45bm05bqm6auY6ZuE5riv5ZyL6Zqb6YO16Lyq6KeA5YWJ5peF5a6i57Wx6KiI5qaC5rOBLTEwODA5MDQucGRm&u=LzAwMS9LY2dPcmdVcGxvYWRGaWxlcy8zMzYvY2tmaWxlL2JkYjczMTEyLTY3MzAtNGYyYS1hNjFkLTU0YWM3YWNlYmRiMy5wZGY%3D",
+        "supports": "歷史郵輪碼頭區位、岸線長度、水深及可停靠船舶等級。"
+      },
+      {
+        "title": "高雄港港口資訊－水域設施及計畫船型",
+        "sourceType": "official_port_information",
+        "issuer": "臺灣港務股份有限公司",
+        "editionOrEffectiveDate": "現行資訊，應與112年歷史版本區分",
+        "url": "https://www.twport.com.tw/zh-tw/business/PortInfo?a=512",
+        "supports": "一、二港口航道寬度、水深、迴船池及計畫船型背景資料。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "尚未取得112年考試時大型郵輪一港口／二港口限制的完整官方條文或個別船舶核准條件，故不列固定船長、總噸位或吃水門檻。",
+      "現行港口資訊及108年統計資料不能單獨證明112年所有泊位仍維持相同狀態。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "112年9號碼頭郵輪母港作業",
+          "result": "pass",
+          "note": "交通部112年4月6日官方新聞確認名勝世界壹號靠泊9號碼頭。"
+        },
+        {
+          "item": "歷史大型郵輪碼頭區段",
+          "result": "partially_verified",
+          "note": "可查108年官方統計資料，尚未逐一核對112年碼頭工程與船席狀態。"
+        },
+        {
+          "item": "一、二港口郵輪專用限制門檻",
+          "result": "needs_review",
+          "note": "尚未取得112年有效完整條文。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
