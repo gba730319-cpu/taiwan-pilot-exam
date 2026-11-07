@@ -462,7 +462,12 @@ export default function Home() {
                     </div>
                     ) : null}
                   </details>
-                ) : null}
+                ) : (
+                  <div className="answer-pending" role="status">
+                    <strong>參考答案整理中</strong>
+                    <span>原題與考選部試卷來源仍可查閱；本題尚未建立經核對的參考答案，請勿以其他港區或年度答案代替。</span>
+                  </div>
+                )}
               </article>
             );
           })}</div>
