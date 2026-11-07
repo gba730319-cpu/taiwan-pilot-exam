@@ -5,8 +5,8 @@
     "version": 1,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "一、作答原則\n本題考查IHO ECDIS標準顯示符號。考場應依題目英文名稱辨識ENC物標類別及IHO S-52 Presentation Library的標準圖式；符號外觀會受ECDIS顯示模式、比例尺及安全等深線設定影響，正式複習應以IHO ECDIS Chart 1／S-52圖例核對，不宜自行創造看似相近的圖案。\n\n二、五項物標及圖示記憶\n（一）離岸風場 Wind farm (offshore)：以風力發電設施／風機群的專用圖式表示，重點是辨識成群風機所在範圍，不可只把單一風機當作孤立障礙物。作圖時畫出風機符號並以群集／區域方式表現其分布。\n（二）遵循航向的指向燈 Directional light without sector (Direction light with course to be followed)：屬方向燈，表示有一指定航向或方向供船舶遵循；作圖須呈現燈標符號及方向性箭頭／航向指示，不可誤畫成具有不同顏色扇區的導標燈。\n（三）深度未知或低於安全等深線的沈船 Submerged wreck with depth less than the safety contour or depth unknown：屬危險沈船符號，須能與已測得且水深足夠的沈船區別。因深度未知或淺於安全等深線，ECDIS會以危險物標方式強調，航行時應視為可能危及本船龍骨下淨空的障礙。\n（四）環境敏感水域 Environmentally Sensitive Sea Area：以環境保護／敏感海域之區域界線及專用標示呈現，表明該區域有特殊環境保護價值或限制；進入前應查閱海圖註記、航船布告及當地規定。\n（五）交通警戒區 Traffic precautionary area：屬交通管理相關區域，通常以界線及區域名稱／註記呈現，提醒船舶航行時特別注意交通流、交會及航路安排；不得與分道通航制的分隔帶、沿岸通航帶或交通管制區混為一談。\n\n二之一、Chart 1 圖例索引（供考場核圖，不取代 ECDIS 實際符號）\n依 IHO INT 1／各國 Chart 1 的索引，五項物標可先按下列代碼定位：\n（一）離岸風場：L5.2（Wind farm）；個別風機為 L5.1。風場可依比例尺以實際風機群或區域界線表示。\n（二）遵循航向的方向燈：P30（Direction lights）。須依圖例及燈光資料辨識方向燈，不能誤作扇區燈 P40 系列。\n（三）沈船：K22（Submerged wreck, depth known）、K23（Submerged wreck, depth unknown）。題目另加「深度低於安全等深線或未知」時，ECDIS 會依 S-52 危險物標條件式符號規則強調；不能只憑紙海圖 K22／K23 符號推定螢幕上最終顯示完全相同。\n（四）環境敏感水域：N22（Environmentally Sensitive Sea Area；各國圖例可能同時列示 PSSA、海洋保護區等相關類別）。\n（五）交通警戒區：M16（Precautionary area），不是分道通航制的分隔帶 M13。\n以上代碼是圖例查找索引。考試若明確要求「ECDIS 上的國際通用符號」，仍須臨摹題目指定版 ECDIS Chart 1／S-52 Presentation Library 的實際圖形，並以游標查詢物標屬性；不得把 INT 1 紙海圖圖式直接當成所有 ECDIS 顯示模式的像素級圖形。\n\n三、ECDIS顯示與航行應用\n1. ECDIS符號並非裝飾圖案，而是ENC物標類別及屬性經S-52符號化後的標準顯示；應同時讀取物標名稱、範圍、限制及附加註記。\n2. 依本船吃水、預定航路及安全等深線設定，確認危險沈船是否觸發危險物標警示；不可只看畫面上符號大小。\n3. 對離岸風場及環境敏感水域，應檢查區域界線、航行限制、風機間通道及最新航船布告；不可任意穿越風機群。\n4. 對方向燈，須核對燈號特性、方向、可見距離與海圖註記，並與雷達、目視方位及其他定位方法交叉驗證。\n5. 對交通警戒區，應預先研判其他船舶交通流、VTS要求、會遇風險及避讓空間，及早調整航路。\n\n四、考試繪圖建議\n先按題目五小題分格作圖，每格寫上英文名稱及中文名稱，再畫標準符號輪廓；符號旁補註「區域物標／點狀物標」「是否涉及安全等深線」「航行注意事項」。最重要是使用IHO正式圖例核對符號細節，不以手繪簡化圖取代標準符號。",
-    "practicalAnalysis": "本題20分重點是辨識IHO S-52 ECDIS標準符號。答題時應逐項寫出中英文名稱、物標類別、圖示特徵及航行意義。尤其危險沈船與安全等深線設定有關；離岸風場及環境敏感水域屬區域性資訊；方向燈不是扇區燈；Traffic precautionary area也不是分道通航制。此答案先提供辨識與繪圖架構，實際符號輪廓仍應以IHO ECDIS Chart 1及該版Presentation Library圖例臨摹。\n\n補充圖例索引：離岸風場 L5.2、方向燈 P30、沈船 K22/K23（另依 S-52 安全等深線條件式符號呈現）、環境敏感水域 N22、交通警戒區 M16。這些代碼用於定位 IHO INT 1／Chart 1 對應圖例，不代表已完成五個 ECDIS 標準圖形的逐項視覺核驗。",
+    "modelAnswer": "一、作答原則\n本題考查IHO ECDIS標準顯示符號。考場應依題目英文名稱辨識ENC物標類別及IHO S-52 Presentation Library的標準圖式；符號外觀會受ECDIS顯示模式、比例尺及安全等深線設定影響，正式複習應以IHO ECDIS Chart 1／S-52圖例核對，不宜自行創造看似相近的圖案。\n\n二、五項物標及圖示記憶\n（一）離岸風場 Wind farm (offshore)：以風力發電設施／風機群的專用圖式表示，重點是辨識成群風機所在範圍，不可只把單一風機當作孤立障礙物。作圖時畫出風機符號並以群集／區域方式表現其分布。\n（二）遵循航向的指向燈 Directional light without sector (Direction light with course to be followed)：屬方向燈，表示有一指定航向或方向供船舶遵循；作圖須呈現燈標符號及方向性箭頭／航向指示，不可誤畫成具有不同顏色扇區的導標燈。\n（三）深度未知或低於安全等深線的沈船 Submerged wreck with depth less than the safety contour or depth unknown：屬危險沈船符號，須能與已測得且水深足夠的沈船區別。因深度未知或淺於安全等深線，ECDIS會以危險物標方式強調，航行時應視為可能危及本船龍骨下淨空的障礙。\n（四）環境敏感水域 Environmentally Sensitive Sea Area：以環境保護／敏感海域之區域界線及專用標示呈現，表明該區域有特殊環境保護價值或限制；進入前應查閱海圖註記、航船布告及當地規定。\n（五）交通警戒區 Traffic precautionary area：屬交通管理相關區域，通常以界線及區域名稱／註記呈現，提醒船舶航行時特別注意交通流、交會及航路安排；不得與分道通航制的分隔帶、沿岸通航帶或交通管制區混為一談。\n\n二之一、Chart 1 圖例索引（供考場核圖，不取代 ECDIS 實際符號）\n依 IHO INT 1／各國 Chart 1 的索引，五項物標可先按下列代碼定位：\n（一）離岸風場：L5.2（Wind farm）；個別風機為 L5.1。風場可依比例尺以實際風機群或區域界線表示。\n（二）遵循航向的方向燈：P30（Direction lights）。須依圖例及燈光資料辨識方向燈，不能誤作扇區燈 P40 系列。\n（三）沈船：K22（Submerged wreck, depth known）、K23（Submerged wreck, depth unknown）。題目另加「深度低於安全等深線或未知」時，ECDIS 會依 S-52 危險物標條件式符號規則強調；不能只憑紙海圖 K22／K23 符號推定螢幕上最終顯示完全相同。\n（四）環境敏感水域：N22（Environmentally Sensitive Sea Area；各國圖例可能同時列示 PSSA、海洋保護區等相關類別）。\n（五）交通警戒區：M16（Precautionary area），不是分道通航制的分隔帶 M13。\n以上代碼是圖例查找索引。考試若明確要求「ECDIS 上的國際通用符號」，仍須臨摹題目指定版 ECDIS Chart 1／S-52 Presentation Library 的實際圖形，並以游標查詢物標屬性；不得把 INT 1 紙海圖圖式直接當成所有 ECDIS 顯示模式的像素級圖形。\n\n三、ECDIS顯示與航行應用\n1. ECDIS符號並非裝飾圖案，而是ENC物標類別及屬性經S-52符號化後的標準顯示；應同時讀取物標名稱、範圍、限制及附加註記。\n2. 依本船吃水、預定航路及安全等深線設定，確認危險沈船是否觸發危險物標警示；不可只看畫面上符號大小。\n3. 對離岸風場及環境敏感水域，應檢查區域界線、航行限制、風機間通道及最新航船布告；不可任意穿越風機群。\n4. 對方向燈，須核對燈號特性、方向、可見距離與海圖註記，並與雷達、目視方位及其他定位方法交叉驗證。\n5. 對交通警戒區，應預先研判其他船舶交通流、VTS要求、會遇風險及避讓空間，及早調整航路。\n\n四、考試繪圖建議\n先按題目五小題分格作圖，每格寫上英文名稱及中文名稱，再畫標準符號輪廓；符號旁補註「區域物標／點狀物標」「是否涉及安全等深線」「航行注意事項」。最重要是使用IHO正式圖例核對符號細節，不以手繪簡化圖取代標準符號。\n\n五、標準版次與歷史考試時點\n版次時點提醒：IHO官方「ENC & ECDIS」頁面（2026-05-12更新）列明 S-52 Annex A:100（IHO S-100 ECDIS Presentation Library for S-57 ENC）第5.0.0版自2026-01-01生效，並註明於雙燃料過渡期間適用。這是截至2026年的現行版次資訊，不能倒推為民國114年（2025年）考試當時版本；若要做歷史版本的逐圖核對，仍須取得2025年當時有效的Presentation Library及其ECDIS Chart 1。",
+    "practicalAnalysis": "本題20分重點是辨識IHO S-52 ECDIS標準符號。答題時應逐項寫出中英文名稱、物標類別、圖示特徵及航行意義。尤其危險沈船與安全等深線設定有關；離岸風場及環境敏感水域屬區域性資訊；方向燈不是扇區燈；Traffic precautionary area也不是分道通航制。此答案先提供辨識與繪圖架構，實際符號輪廓仍應以IHO ECDIS Chart 1及該版Presentation Library圖例臨摹。\n\n補充圖例索引：離岸風場 L5.2、方向燈 P30、沈船 K22/K23（另依 S-52 安全等深線條件式符號呈現）、環境敏感水域 N22、交通警戒區 M16。這些代碼用於定位 IHO INT 1／Chart 1 對應圖例，不代表已完成五個 ECDIS 標準圖形的逐項視覺核驗。\n\n版次提醒：IHO現行頁面列出的S-52 Annex A:100第5.0.0版自2026-01-01生效，僅作現行標準參照；不可直接套用到2025年考試時點。",
     "keyPoints": [
       "依IHO S-52 Presentation Library辨識符號，不能自行杜撰圖式。",
       "離岸風場：注意風機群範圍、風機間通道及航行限制。",
@@ -50,6 +50,13 @@
         "issuer": "Canadian Hydrographic Service",
         "url": "https://charts.gc.ca/publications/chart1-carte1/sections/x-descri/descri-eng.html",
         "supports": "官方水道測量機關圖例索引，列出 ESSA=N22、Precautionary area=M16、Direction light=P30、Windfarm=L5.2/E26.2、沈船 K22/K23 等對照代碼。"
+      },
+      {
+        "title": "IHO ENC & ECDIS — Standards in Force（2026-05-12更新；S-52 Annex A:100 Edition 5.0.0自2026-01-01生效）",
+        "sourceType": "international_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/en/enc-ecdis",
+        "supports": "確認截至2026年的S-52 Presentation Library現行版次及生效日期；用於版次時點辨識，不作為2025年考試當時版次的替代證據。"
       }
     ],
     "limitations": [
@@ -69,6 +76,11 @@
           "item": "五個物標的逐項標準符號圖形",
           "result": "needs_review",
           "note": "尚待取得指定版ECDIS Chart 1／Presentation Library圖像逐項核對，未將文字描述冒充標準圖形。"
+        },
+        {
+          "item": "IHO現行標準版次與114年考試時點區分",
+          "result": "pass",
+          "note": "已依IHO 2026-05-12官方頁核對S-52 Annex A:100 Edition 5.0.0自2026-01-01生效；明確註記不可倒推為2025年考試當時版次。"
         }
       ]
     },
