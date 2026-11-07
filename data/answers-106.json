@@ -39,6 +39,46 @@
         "title": "高雄港船舶航行規則",
         "issuer": "臺灣港務公司高雄港務分公司",
         "url": "https://kh.twport.com.tw/en/service/Articles?a=1053"
+      },
+      {
+        "title": "高雄港港埠營運設施總表",
+        "sourceType": "official_port_data",
+        "issuer": "臺灣港務公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/port/Articles?a=919",
+        "supports": "現行港口、航道、迴船池及各碼頭設施資料。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "高雄港公共水域、浮筒座標間距及全港區水深圖",
+        "sourceType": "official_port_data",
+        "issuer": "臺灣港務公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/port/Articles?a=920",
+        "supports": "浮筒座標、相鄰間距及港區水深圖。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "高雄港第一、第二港口及洲際二期航路標識設備一覽表",
+        "sourceType": "official_port_data",
+        "issuer": "臺灣港務公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/port/Articles?a=950",
+        "supports": "現行航路標識名稱、位置、燈質及高度。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "中央氣象署潮汐預報—未來一個月",
+        "sourceType": "official_meteorological_data",
+        "issuer": "中央氣象署",
+        "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-A0021-001",
+        "supports": "潮汐預報地點、滿乾潮時間、潮高及不同高程基準。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "操船潮便利／海象環境資訊平台",
+        "sourceType": "official_oceanographic_data",
+        "issuer": "中央氣象署",
+        "url": "https://ocean.cwa.gov.tw/V2/sailing_forecast",
+        "supports": "港灣高解析度動態潮流預報及操船定位資訊。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
@@ -46,7 +86,25 @@
       "現行航道及迴船池數值僅供2027備考，不代表106年當時港況。"
     ],
     "verification": {
-      "status": "partially_verified"
+      "status": "verified_with_scope",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "現行港區設施、碼頭及助導航資料來源",
+          "result": "pass",
+          "note": "依高雄港務分公司港埠設施、浮筒座標及航路標識清冊核對。"
+        },
+        {
+          "item": "潮汐與潮流資料來源及基準",
+          "result": "pass",
+          "note": "依中央氣象署潮汐預報與操船潮便利服務核對。"
+        },
+        {
+          "item": "106年歷史洲際二期工程圖及同期航標",
+          "result": "needs_review",
+          "note": "尚未取得完整2017歷史工程配置與同期航標資料，不將現況回填為歷史。"
+        }
+      ]
     },
     "version": 2,
     "lastUpdated": "2026-11-07"
