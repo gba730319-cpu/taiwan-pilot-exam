@@ -1,0 +1,77 @@
+[
+  {
+    "id": "answer-112-english-04",
+    "questionId": "112-english-04",
+    "version": 1,
+    "language": "en",
+    "answerType": "essay",
+    "modelAnswer": "(1) Communicating with the captain of incoming vessels to provide essential information about the port, fairways, traffic conditions and local regulations until the vessel has safely completed its passage to the berth.\n\n(2) Monitoring the weather conditions and communicating with the relevant port authorities, VTS and vessel's bridge team to ensure that the passage and berthing operation can be carried out safely, such as by checking wind speed, visibility, tide, current and sea state.\n\n(3) Enforcing international and national laws pertaining to navigation, collision prevention, port safety and environmental protection, and reporting any observed violation to the competent authority.\n\n(4) Maintaining accurate records of all harbor pilotage operations, including vessel movements, pilot boarding and disembarking times, tug assistance, unusual events, incidents and reports submitted to the port authority.\n\n(5) Determining the best route for ships to take based on charted depths, under-keel clearance, traffic density, weather, tidal streams, navigational hazards and the vessel's manoeuvring characteristics.\n\n(6) Determining the depth of the water along the intended route and near the berth to ensure that the vessel has adequate under-keel clearance, taking account of tide, squat, draught and any relevant safety margins.\n\n(7) Coordinating with local port operators to ensure that berths, tugs, mooring boats, linesmen, terminal equipment and other facilities are ready before the vessel arrives.\n\n(8) Recommending measures to improve safety in the harbor, such as improving aids to navigation, revising traffic routes, establishing speed limits, improving VTS procedures and conducting regular risk assessments.\n\n(9) Providing instructions to tugboat operators on how to assist the vessel safely during berthing, unberthing and shifting, including the required tug positions, push or pull directions, timing, power and communication procedures.",
+    "practicalAnalysis": "Suggested sentence-building approach:\n- Use a gerund phrase for each responsibility to match the stem: Communicating / Monitoring / Enforcing / Maintaining / Determining / Coordinating / Recommending / Providing.\n- Use “to ensure that ...” to state the safety objective.\n- Give two or three maritime examples after “such as” rather than leaving the sentence abstract.\n- Avoid overstating the pilot's statutory authority: “enforcing laws” is interpreted as ensuring compliance during pilotage and reporting violations, not that a pilot personally exercises police or port-state enforcement powers.\n- “Determining the depth” should be understood as checking reliable charted/surveyed depth and current hydrographic information, not independently conducting a hydrographic survey during every transit.",
+    "keyPoints": [
+      {
+        "point": "Use the nine requested responsibility stems in complete, grammatically correct sentences.",
+        "importance": "essential"
+      },
+      {
+        "point": "Include local port information, weather and VTS coordination, laws and reporting, records, route planning, UKC, port operators, safety improvement and tug instructions.",
+        "importance": "essential"
+      },
+      {
+        "point": "Use precise maritime terms: fairway, tidal streams, under-keel clearance, squat, berth, linesmen, aids to navigation.",
+        "importance": "essential"
+      },
+      {
+        "point": "Do not imply that pilots personally possess statutory enforcement powers equivalent to port authorities; describe compliance monitoring and reporting.",
+        "importance": "essential"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "note": "Official item-by-item marking scheme not obtained; suggested structure only."
+    },
+    "references": [
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "supports": "Pilot operational procedures, master-pilot exchange, local conditions and coordination."
+      },
+      {
+        "title": "IMO Resolution A.1158(32) — Vessel Traffic Services",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1158%2832%29.pdf",
+        "supports": "VTS roles, traffic information and navigation safety."
+      },
+      {
+        "title": "IMO COLREG Convention",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "supports": "International collision-prevention rules and safe navigation."
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "Question wording is a sentence-completion prompt with ellipses; model answers supply plausible professional completions rather than claiming a single official wording."
+    ],
+    "verification": {
+      "status": "verified_with_scope",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "Original question",
+          "result": "pass",
+          "note": "Checked against the 112 examination question bank."
+        },
+        {
+          "item": "English terminology",
+          "result": "pass",
+          "note": "Cross-checked with IMO SMCP and standard maritime usage."
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
