@@ -1270,3 +1270,6 @@
 - **100年度航政法規第3題（安全速度）更新現行法源**：將舊版《引水法》引用改為現行2026-08-17修正版本第20條，並明確區分COLREG Rule 6法定考量因素與港內操船實務補充。狀態 source_checked。
 - **100年度航政法規第4題（港內碰撞危機）補強COLREG適用界線**：新增Rule 11第II章Rule 13–18限於互相在視線內之船舶；補正Rule 13追越22.5度定義、Rule 9(e)狹水道追越聲號及同意程序，並區分Rule 19受限能見度。狀態 source_checked。
 - **100年度船舶操縱第2題（AZIPOD）完成現行產品資料複核**：加入ABB現行資料，說明拉式及推式配置；修正「Pod即DP」及「反向推力必然縮短停止距離」等過度概括，強調DP須有完整整合系統、停止距離須依個船型操縱資料判斷。狀態 source_checked。
+
+- **100年度專業英文第1題（引水及港區協調翻譯）更新參考版本**：原參考列IMO A.857(20)已撤銷，移除舊版並改列現行A.1158(32)作港區協調背景；強調legal fiction為原文作者論述，不可誤當我國現行法條結論。狀態 source_checked。
+- **100年度專業英文第3題（航海術語造句）修正COLREG情態動詞**：TSS Rule 10(b)(i)及Head-on Situation Rule 14(a)均使用shall，已將原句should修正為shall，並依IMO正式術語補充general direction of traffic flow。狀態 source_checked。
