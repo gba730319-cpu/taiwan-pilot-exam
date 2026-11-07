@@ -190,3 +190,10 @@
 - 航海應用補入危險半圓：北半球一般位於氣旋移動方向右側，南半球左右相反；屬風場疊加的一般規則，實際避航須依當時風場、海況、預報誤差及船舶操縱性能判斷。
 - 補充溫帶化是部分熱帶氣旋進入中緯度斜壓環境後可能發生的轉化，並非所有登陸或移入冷水的熱帶氣旋都必然溫帶化。
 - 官方來源：NOAA/AOML https://www.aoml.noaa.gov/hrd/tcfaq/G1.html；NOAA/NHC https://www.nhc.noaa.gov/aboutgloss.shtml；NOAA Mariners Guide https://www.nhc.noaa.gov/marinersguide.pdf；NOAA U.S. Coast Pilot https://nauticalcharts.noaa.gov/publications/coast-pilot/files/cp5/CPB5_C03_WEB.pdf
+
+
+### 114 年引港學第 3 題：海流向量計算複核（2026-11-07）
+- 以東、北分量建立甲乙兩船2小時後的相對燈塔位置，重新以高精度三角函數計算：E=-3.14876885 kn、N=-1.25255659 kn、流速3.38875247 kn、流往248.307709°；四捨五入為3.39節、流往248.3°。
+- 補充題意前提：題目船速解讀為對水速度（STW）；若視為對地速度（SOG），兩船在000°航向下應沿000°前進，與測得040°及025°方位不符。
+- 補充流向術語：流往方向（set）248.3°；流來方向（drift from）068.3°，須明確註明，避免差180°。
+- 更新答案推導式、精確數值、節與浬單位提醒及象限判斷說明；計算結果維持原答案。
