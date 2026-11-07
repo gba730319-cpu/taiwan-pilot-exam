@@ -197,3 +197,11 @@
 - 補充題意前提：題目船速解讀為對水速度（STW）；若視為對地速度（SOG），兩船在000°航向下應沿000°前進，與測得040°及025°方位不符。
 - 補充流向術語：流往方向（set）248.3°；流來方向（drift from）068.3°，須明確註明，避免差180°。
 - 更新答案推導式、精確數值、節與浬單位提醒及象限判斷說明；計算結果維持原答案。
+
+
+### 114 年引港學第 4 題：離岸風機對 X／S Band 船用雷達影響追加核驗（2026-11-07）
+- 依National Academies of Sciences, Engineering, and Medicine《Wind Turbine Generator Impacts to Marine Vessel Radar》（2022）逐項補強：塔架強回波（通常為主要反射源）、葉片閃光及多普勒擴散、陰影造成目標消失與ARPA失標、多重路徑／旁瓣／鬼影、接收器飽和及弱目標抑制。
+- 報告指出船用雷達典型中心頻率約X-Band 9.4GHz、S-Band 3GHz；S-Band因低頻衰減較小，通常較能穿透雨霧，但兩頻段都會受到風機回波影響。固態相干多普勒雷達具有分離部分靜止風機與移動目標的潛力，然而現有船用產品的實際抗風場干擾能力仍未完全確立。
+- 特別修正操作建議：不可只靠降低gain／提高偵測門檻清除風機雜波，因為小船與浮標弱回波也可能同時消失；須同時監控ARPA失標、假航跡及CPA/TCPA不合理變化。
+- 補入COLREG第6、7、8、19條在風場附近的安全航速、碰撞危險判斷、避碰及能見度受限操作要求。
+- National Academies報告：https://www.nationalacademies.org/read/26430/chapter/4；交通部運輸研究所離岸風場船舶通訊及雷達研究：https://www.iot.gov.tw/uploads/asset/data/661972b0367376304acd4dd7/B1080640.pdf；IMO MSC.419(97)：https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.419(97).pdf
