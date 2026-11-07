@@ -513,6 +513,54 @@
         "sourceType": "official_local_regulation",
         "issuer": "交通部",
         "supports": "高雄港交通管制與進出港安全規定。"
+      },
+      {
+        "title": "IMO Pilotage — Pilot transfer arrangements and training",
+        "sourceType": "official_imo_guidance",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/pilotage.aspx",
+        "supports": "現行引水梯要求及MSC.576(110)新制預定2028-01-01生效。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Resolution MSC.576(110) — Performance Standards for Pilot Transfer Arrangements",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.576%28110%29.pdf",
+        "supports": "新引水梯性能標準、設備檢查維護及2028-01-01生效時點。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "高雄港港埠營運設施總表",
+        "sourceType": "official_port_data",
+        "issuer": "臺灣港務公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/port/Articles?a=919",
+        "supports": "現行81號碼頭長度120m的官方公開表列資料。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "高雄港第五貨櫃儲運中心碼頭新建工程簡介",
+        "sourceType": "engineering_journal",
+        "issuer": "交通部運輸研究所",
+        "url": "https://www.iot.gov.tw/uploads/asset/data/661a1bc3367376304acd5b86/%E6%B8%AF%E7%81%A3%E5%A0%B1%E5%B0%8E%E7%AC%AC25%E6%9C%9F.pdf",
+        "supports": "早期工程資料記載81號碼頭設計長度約330m，供與現行表列差異交叉比對。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "萬海航運公司擴大營運深耕高雄港，簽署高雄港五櫃79-81號碼頭租約",
+        "sourceType": "official_port_announcement",
+        "issuer": "交通部航港局",
+        "url": "https://web02.mtnet.gov.tw/0/News/Detail/55024?Type=O",
+        "supports": "2022年公告79至81號碼頭合計長度近870m及後續整建／營運調整。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "高雄港船舶航行規定（現行版）",
+        "sourceType": "official_port_regulation",
+        "issuer": "臺灣港務公司高雄港務分公司",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1053",
+        "supports": "現行VTS交通排序及高雄港船舶航行安全規定。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
