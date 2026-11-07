@@ -345,30 +345,38 @@
   {
     "id": "086-shiphandling-06-answer-v1",
     "questionId": "086-shiphandling-06",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、橫流力計算原理】船舶受正橫潮流時，水流對船體水下側投影面積產生阻力。可用阻力公式估算：\nF=½ρC_DAV²\n其中ρ為海水質量密度（約1.99 slug/ft³），C_D為橫向阻力係數，A為水下側投影面積，V為潮流速度。以簡化矩形投影估算，A≈L×T；題目未給船型阻力係數，以下假設C_D=1.0。\n\n【二、單位換算】\n船長L=790ft；1kn=1.6878ft/s；1長噸（long ton）=2,240lb。海水比重約64lb/ft³，質量密度ρ=64/32.174≈1.989 slug/ft³。\n\n【三、壓艙吃水21ft】A=790×21=16,590ft²。\n| 橫流 | 流速(ft/s) | 估算力(long ton-force) |\n|---:|---:|---:|\n| 1kn | 1.688 | 約21.0噸 |\n| 2kn | 3.376 | 約83.9噸 |\n| 3kn | 5.063 | 約188.9噸 |\n\n【四、滿載吃水42ft】A=790×42=33,180ft²。\n| 橫流 | 流速(ft/s) | 估算力(long ton-force) |\n|---:|---:|---:|\n| 1kn | 1.688 | 約42.0噸 |\n| 2kn | 3.376 | 約167.9噸 |\n| 3kn | 5.063 | 約377.7噸 |\n\n【五、結論及限制】在相同流速下，橫流力約與吃水成正比；流速加倍，阻力約增為四倍。水深46ft時，壓艙吃水21ft的水深／吃水比約2.19；滿載吃水42ft僅約1.10，接近淺水條件，實際流場、阻力係數及船底間隙效應可能使簡化結果偏離。正式計算應依題目指定係數或教材公式；此處明確採C_D=1.0及矩形側投影近似。",
-    "practicalAnalysis": "本題的核心是橫向阻力與流速平方成正比。題目沒有明示阻力係數，因此必須把係數假設寫清楚；滿載時水深／吃水比僅1.10，實際流場效應不可忽略。",
+    "modelAnswer": "## 一、橫流力的經驗估算法\n\n本題船舶為70,000 DWT油輪，水線長790 ft，水深46 ft，分別計算壓艙吃水21 ft及滿載吃水42 ft，在1、2、3 kn正橫流下的作用力。\n\n依Henry H. Hooyer《Behavior and Handling of Ships》對正橫流作用力的經驗估算法：\n\n[\nC=f\\times L\\times d\\times V^2\n]\n\n其中：\n- (C)：橫流作用力，short tons（美制短噸力）。\n- (f)：與水深／吃水比（depth-to-draft ratio）有關的經驗係數。\n- (L)：水線長，ft。\n- (d)：平均吃水，ft。\n- (V)：正橫流速度，kn。\n\n係數參考值：\n| 水深／吃水比 | f |\n|---:|---:|\n| 約3.0 | 0.0015 |\n| 約2.0 | 0.0018 |\n| 約1.1 | 0.0036 |\n\n## 二、壓艙狀態（吃水21 ft）\n\n水深／吃水比：\n\n[\n46/21=2.19\\approx2.0\n]\n\n依教材近似採 (f=0.0018)：\n\n[\nC=0.0018\\times790\\times21\\times V^2\n]\n\n| 正橫流 | 計算 | 橫流力 |\n|---:|---|---:|\n| 1 kn | 0.0018 × 790 × 21 × 1² | 約30 short tons |\n| 2 kn | 0.0018 × 790 × 21 × 2² | 約120 short tons |\n| 3 kn | 0.0018 × 790 × 21 × 3² | 約270 short tons |\n\n## 三、滿載狀態（吃水42 ft）\n\n水深／吃水比：\n\n[\n46/42=1.095\\approx1.1\n]\n\n依教材近似採 (f=0.0036)：\n\n[\nC=0.0036\\times790\\times42\\times V^2\n]\n\n| 正橫流 | 計算 | 橫流力 |\n|---:|---|---:|\n| 1 kn | 0.0036 × 790 × 42 × 1² | 約120 short tons |\n| 2 kn | 0.0036 × 790 × 42 × 2² | 約480 short tons |\n| 3 kn | 0.0036 × 790 × 42 × 3² | 約1,075 short tons |\n\n## 四、結論及適用限制\n\n1. 流速加倍，橫流力約增為四倍，因公式與 (V^2) 成正比。\n2. 滿載時水深／吃水比接近1.1，淺水阻塞效應使經驗係數提高，因此滿載橫流力遠大於壓艙狀態。\n3. 本式是船舶操縱教材的經驗估算，用於掌握量級，不是精密水動力計算或繫泊設計公式。\n4. 46/21=2.19採用約2.0的係數級距；若依更細緻的係數曲線內插，壓艙數值會略有不同。題目未提供內插曲線，故採教材範例的近似係數。\n5. 本答案單位為short tons（2,000 lb），不可與long tons（2,240 lb）或公噸混用。",
+    "practicalAnalysis": "原答案使用F=½ρC_DAV²並自行假設C_D=1.0，得到約21、84、189及42、168、378 long tons；但題目數據與教材《Behavior and Handling of Ships》中的70,000 DWT、790ft、46ft水深、21／42ft吃水範例完全相符。該教材指定經驗式C=f×L×d×V²，並依水深／吃水比採f=0.0018及0.0036，得到壓艙約30／120／270 short tons、滿載約120／480／1,075 short tons。故原答案方法與數值均偏離題目預期教材算法，已修正。",
     "keyPoints": [
       {
-        "point": "F=½ρC_DAV²。",
+        "point": "教材經驗公式C=f×L×d×V²，C以short tons計，L及d以ft、V以kn計。",
         "importance": "essential"
       },
       {
-        "point": "A近似L×T，L=790ft，T分別21ft及42ft。",
+        "point": "壓艙吃水21ft，水深／吃水比46/21≈2.19，教材近似採f=0.0018。",
         "importance": "essential"
       },
       {
-        "point": "1kn=1.6878ft/s；1 long ton=2,240lb。",
+        "point": "壓艙橫流力1／2／3kn約30／120／270 short tons。",
         "importance": "essential"
       },
       {
-        "point": "在C_D=1.0假設下列出壓艙及滿載三種流速估算力。",
-        "importance": "supporting"
+        "point": "滿載吃水42ft，水深／吃水比46/42≈1.10，採f=0.0036。",
+        "importance": "essential"
       },
       {
-        "point": "流速加倍，阻力約為四倍；滿載水深／吃水比低，簡化誤差可能較大。",
+        "point": "滿載橫流力1／2／3kn約120／480／1,075 short tons。",
+        "importance": "essential"
+      },
+      {
+        "point": "流速加倍，力約為四倍；水深／吃水比愈小，淺水阻塞效應愈強。",
+        "importance": "essential"
+      },
+      {
+        "point": "本式為操船經驗估算，不可冒充精密繫泊工程計算；short ton不可誤作long ton或公噸。",
         "importance": "supporting"
       }
     ],
@@ -377,40 +385,40 @@
         "title": "86年甲種引水人船舶操縱官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國86年（1997）",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=086120&q=1&s=c211&t=Q",
-        "supports": "船舶操縱六題原卷。"
+        "editionOrEffectiveDate": "民國86年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=086120&q=1&s=c181&t=Q",
+        "supports": "70,000 DWT油輪、790ft水線長、46ft水深及21／42ft吃水條件。"
       },
       {
-        "title": "IMO Resolution MSC.137(76) — Standards for Ship Manoeuvrability",
-        "sourceType": "imo_resolution",
-        "issuer": "IMO",
-        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
-        "supports": "船舶操縱性能及試驗背景。"
+        "title": "Behavior and Handling of Ships",
+        "sourceType": "textbook_or_academic",
+        "issuer": "Henry H. Hooyer, Cornell Maritime Press",
+        "supports": "正橫流力經驗公式、係數f與水深／吃水比，以及70 KDWT油輪的相同算例。"
       }
     ],
     "assumptions": [
-      "計算題已明列採用的阻力係數、投影面積及單位換算假設。"
+      "依Hooyer教材的經驗係數級距，壓艙狀態採f=0.0018，滿載狀態採f=0.0036。",
+      "題目假設正橫流且船舶相對水體近似靜止，採教材簡化經驗公式。"
     ],
     "limitations": [
-      "原題未提供C_D或指定公式；數值以C_D=1.0、A=L×T及海水密度1.989 slug/ft³估算，應與指定教材或原卷附註核對。"
+      "壓艙水深／吃水比2.19採用約2.0係數級距；未提供更精細係數曲線，故不自行內插。結果為short tons的近似值。"
     ],
     "verification": {
-      "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "status": "source_checked",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部86年船舶操縱原卷",
+          "item": "Hooyer教材經驗公式及係數",
           "result": "pass",
-          "note": "六題題文核對。"
+          "note": "核對公式C=f×L×d×V²及f=0.0015、0.0018、0.0036的深度／吃水比級距。"
         },
         {
-          "item": "船舶特定操縱資料及題目指定阻力係數",
-          "result": "partial",
-          "note": "未提供特定船舶手冊或橫流阻力係數，依明列假設估算。"
+          "item": "壓艙及滿載計算",
+          "result": "pass",
+          "note": "依題目數據重新計算，結果約30／120／270及120／480／1,075 short tons。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   }
 ]
