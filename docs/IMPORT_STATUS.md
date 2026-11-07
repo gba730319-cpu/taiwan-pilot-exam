@@ -265,3 +265,10 @@
 - 答案改以避免方案及系統改善兩層作答：引水人安全離輪與交接、會遇前確認實際船位、等待船不得未經許可侵入雙向航道、VTS主動警示與管制、保留通過後轉向空間、MPX及駕駛臺團隊監控。
 - 後續改善追蹤：TTSB-MSR-25-06-004顯示二港口航行規定於114-08-22公告修正並於114-12-03完成相關檢討；TTSB-MSR-25-06-010顯示港務公司已訂定VTS操作員作業原則並於115-08施行，115-10-14解除列管；TTSB-MSR-25-06-014之二港口航道系統風險評估及操船模擬，截至115年仍列管，預計116年完成。
 - 官方來源：TTSB正式調查報告 https://www.ttsb.gov.tw/media/8563/%E9%80%9A%E9%81%8B%E6%B2%B9%E8%BC%AA%E8%88%87fpmc-b-forever%E6%95%A3%E8%A3%9D%E8%88%B9%E8%AA%BF%E6%9F%A5%E5%A0%B1%E5%91%8A_%E7%99%BC%E5%B8%83.pdf；改善建議004 https://www.ttsb.gov.tw/1133/1154/1168/23107/46108/post；010 https://www.ttsb.gov.tw/1133/1154/1168/23107/46128/；014 https://www.ttsb.gov.tw/1133/1154/1168/23107/46140/
+
+
+### 114 年專業英文第 1 題：VTS與船長／引水人責任翻譯複核（2026-11-07）
+- 修訂譯文，統一Vessel Traffic Services為「船舶交通服務」、congested waters為「船舶交通繁忙水域」、safe maneuvering為「安全操縱」。
+- 補充VTS的資訊服務、航行協助服務及交通組織服務三類功能；原文safety instructions可譯「安全指示」，但不得將其擴張成VTS全面取代船長操船決策。
+- 補充primary responsibility remains with the master的法律語意：船長仍負主要航行責任，不代表引水人沒有專業義務；引水人登輪不解除船長及值班駕駛員原有責任。
+- 官方來源：IMO SOLAS V/12與VTS說明 https://www.imo.org/en/ourwork/safety/pages/vesseltrafficservices.aspx；IMO A.1158(32) https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1158%2832%29.pdf；IMO A.960(23) https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf
