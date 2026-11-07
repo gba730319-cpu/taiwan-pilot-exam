@@ -1,0 +1,500 @@
+[
+  {
+    "id": "089-pilotage-01-answer-v1",
+    "questionId": "089-pilotage-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "| 縮寫 | 英文全名 | 中文意義 | 航海使用說明 |\n|---|---|---|---|\n| P.D. | Position Doubtful | 位置存疑 | 海圖所標物標或危險物位置不確定，應提高定位警覺。 |\n| Oc.Lt. | Occulting Light | 明暗光（明長於暗） | 明燈時間長於暗燈時間的燈光特性。 |\n| Obscd. | Obscured | 遮蔽 | 燈光在特定方位被地形或建築物遮住，該方向不可見。 |\n| E.D. | Existence Doubtful | 存在存疑 | 海圖所標危險物或沉船是否存在尚未確認。 |\n| IQ | Interrupted Quick | 間歇快閃光 | 快閃光中有規律較長暗間隔的燈光特性。 |\n\n**注意：**P.D.與E.D.不可混淆：前者是位置不確定，後者是物標／危險物存在本身不確定。Oc.Lt.是燈光特性，Obscd.則是燈光被遮蔽的方位描述。",
+    "practicalAnalysis": "本題10分，縮寫辨識要寫出英文全名及中文意義，尤其P.D.（位置存疑）與E.D.（存在存疑）不同；Oc.Lt.與Obscd.亦分別是燈光特性與遮蔽情況。",
+    "keyPoints": [
+      {
+        "point": "P.D.=Position Doubtful，位置存疑。",
+        "importance": "essential"
+      },
+      {
+        "point": "Oc.Lt.=Occulting Light，明暗光。",
+        "importance": "essential"
+      },
+      {
+        "point": "Obscd.=Obscured，燈光遮蔽。",
+        "importance": "essential"
+      },
+      {
+        "point": "E.D.=Existence Doubtful，存在存疑。",
+        "importance": "supporting"
+      },
+      {
+        "point": "IQ=Interrupted Quick，間歇快閃光。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "89年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國89年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=1001&t=Q",
+        "supports": "第1至6題原文。"
+      },
+      {
+        "title": "IALA Maritime Buoyage System",
+        "sourceType": "international_standard",
+        "issuer": "International Association of Marine Aids to Navigation and Lighthouse Authorities",
+        "url": "https://www.iala-aism.org/product/iala-maritime-buoyage-system/",
+        "supports": "A、B區側面標及方位標制度。"
+      },
+      {
+        "title": "臺灣海峽潮汐與潮流研究",
+        "sourceType": "official_research",
+        "issuer": "交通部運輸研究所",
+        "url": "https://www.iot.gov.tw/uploads/asset/data/6619e1a0367376304acd5456/B0951651.pdf",
+        "supports": "臺灣海峽潮汐潮流、共振及潮差分布背景。"
+      },
+      {
+        "title": "航海定位與雷達測距原理",
+        "sourceType": "textbook_or_academic",
+        "issuer": "The Nautical Institute",
+        "url": "https://www.nautinst.org/",
+        "supports": "方位、距離、雷達及天文定位原理。"
+      }
+    ],
+    "assumptions": [
+      "以民國89年航海圖書、助航標誌及潮汐資料為背景。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部89年引港學題目",
+          "result": "pass",
+          "note": "已核對題庫原文。"
+        },
+        {
+          "item": "海圖圖例、IALA、潮汐及定位資料",
+          "result": "partial",
+          "note": "原卷缺少圖示或歷史圖書資料時已明確標示。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "089-pilotage-02-answer-v1",
+    "questionId": "089-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、IALA A區與B區制度】\nIALA海上浮標制度分為A區及B區，主要差異是側面標（lateral marks）進港方向的紅、綠顏色配置相反；方位標、孤立危險物標、安全水域標及特殊標的基本識別原則相同。\n\n| 項目 | IALA A區 | IALA B區 |\n|---|---|---|\n| 進港時左舷標 | 紅色，通常為圓柱形標體 | 綠色，通常為圓柱形標體 |\n| 進港時右舷標 | 綠色，通常為錐形標體 | 紅色，通常為錐形標體 |\n| 主要適用地區 | 歐洲、非洲、澳洲及亞洲大部分地區 | 北美、中南美、日本、韓國及菲律賓等地區 |\n| 進港顏色記憶 | Red to Port | Red to Starboard |\n\n【二、適用地區及記憶方式】\n- A區：進港時紅燈／紅標在左舷，綠燈／綠標在右舷（Red to Port）。\n- B區：進港時紅標在右舷，綠標在左舷（Red to Starboard）。\n- 側面標顏色是以船舶由海向港內或依當地規定的方向為基準；若沿相反方向出港，左右舷判斷亦相反。\n- 方位標以黑黃顏色及頂標表示安全水域所在方位；孤立危險物標為黑紅黑水平帶及兩黑球頂標；安全水域標為紅白垂直條紋；特殊標為黃色。\n\n【三、航行注意】\n船舶進入陌生港口前，必須查閱海圖及燈表確認當地採用的IALA區域，不能只憑國籍或鄰近國家的制度推定；還應確認航道是否採地方特殊標誌或改良標誌。",
+    "practicalAnalysis": "本題10分，考點是A、B區側面標紅綠相反及主要適用地區。不要把方位標、孤立危險物標、安全水域標及特殊標的顏色也一併反轉；兩區差異主要在側面標。",
+    "keyPoints": [
+      {
+        "point": "A區進港左紅右綠（Red to Port）。",
+        "importance": "essential"
+      },
+      {
+        "point": "B區進港左綠右紅（Red to Starboard）。",
+        "importance": "essential"
+      },
+      {
+        "point": "A區主要為歐洲、非洲、澳洲及亞洲大部分地區。",
+        "importance": "essential"
+      },
+      {
+        "point": "B區主要為美洲、日本、韓國及菲律賓。",
+        "importance": "supporting"
+      },
+      {
+        "point": "方位標、孤立危險物標、安全水域標及特殊標識別原則兩區相同。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "89年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國89年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=1001&t=Q",
+        "supports": "第1至6題原文。"
+      },
+      {
+        "title": "IALA Maritime Buoyage System",
+        "sourceType": "international_standard",
+        "issuer": "International Association of Marine Aids to Navigation and Lighthouse Authorities",
+        "url": "https://www.iala-aism.org/product/iala-maritime-buoyage-system/",
+        "supports": "A、B區側面標及方位標制度。"
+      },
+      {
+        "title": "臺灣海峽潮汐與潮流研究",
+        "sourceType": "official_research",
+        "issuer": "交通部運輸研究所",
+        "url": "https://www.iot.gov.tw/uploads/asset/data/6619e1a0367376304acd5456/B0951651.pdf",
+        "supports": "臺灣海峽潮汐潮流、共振及潮差分布背景。"
+      },
+      {
+        "title": "航海定位與雷達測距原理",
+        "sourceType": "textbook_or_academic",
+        "issuer": "The Nautical Institute",
+        "url": "https://www.nautinst.org/",
+        "supports": "方位、距離、雷達及天文定位原理。"
+      }
+    ],
+    "assumptions": [
+      "以民國89年航海圖書、助航標誌及潮汐資料為背景。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部89年引港學題目",
+          "result": "pass",
+          "note": "已核對題庫原文。"
+        },
+        {
+          "item": "海圖圖例、IALA、潮汐及定位資料",
+          "result": "partial",
+          "note": "原卷缺少圖示或歷史圖書資料時已明確標示。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "089-pilotage-03-answer-v1",
+    "questionId": "089-pilotage-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "臺灣海峽潮差分布並非沿岸均勻，最大潮差區域通常出現在臺灣海峽中部沿岸，尤其臺中外海及附近海域的潮汐放大較明顯；實際最大值位置會因觀測時段、潮汐成分及海岸地形而異。\n\n【原因】\n1. **海盆共振及潮波放大**：臺灣海峽長度、寬度及水深條件，使主要半日潮成分在海峽內傳播及反射，部分區域可能接近共振條件，潮差因此放大。\n2. **水深與海底地形**：海峽中部水深變化、淺灘及海底地形影響潮波速度、能量傳播及潮流分布，造成不同海段潮差差異。\n3. **海岸線形狀與潮波反射**：海峽兩岸海岸線及港灣形狀使潮波產生反射、疊加及局部增幅。\n4. **潮汐成分及潮流摩擦**：半日潮、全日潮及日潮不等成分比例不同，並受海床摩擦影響，造成潮高、潮差及高潮時間不同。\n\n【實務影響】\n潮差大區域潮流可能較強，船舶進出港、錨泊及靠離泊時須考慮流速、流向及潮時；潮差大小不能直接等同潮流流速，仍須查潮流表及港區實測資料。",
+    "practicalAnalysis": "本題15分，先指出最大潮差的主要海域，再說明海盆共振、潮波反射、水深與地形。應避免把潮差最大與潮流速度最大視為同一概念。",
+    "keyPoints": [
+      {
+        "point": "臺灣海峽中部沿岸、臺中外海一帶潮差放大較明顯。",
+        "importance": "essential"
+      },
+      {
+        "point": "海盆共振及潮波傳播造成潮差增幅。",
+        "importance": "essential"
+      },
+      {
+        "point": "水深、海底地形及海岸線形狀影響潮波反射與疊加。",
+        "importance": "essential"
+      },
+      {
+        "point": "半日潮、全日潮及日潮不等成分影響潮差。",
+        "importance": "supporting"
+      },
+      {
+        "point": "潮差大不必然等於潮流速度最大，仍須查潮流資料。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "89年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國89年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=1001&t=Q",
+        "supports": "第1至6題原文。"
+      },
+      {
+        "title": "IALA Maritime Buoyage System",
+        "sourceType": "international_standard",
+        "issuer": "International Association of Marine Aids to Navigation and Lighthouse Authorities",
+        "url": "https://www.iala-aism.org/product/iala-maritime-buoyage-system/",
+        "supports": "A、B區側面標及方位標制度。"
+      },
+      {
+        "title": "臺灣海峽潮汐與潮流研究",
+        "sourceType": "official_research",
+        "issuer": "交通部運輸研究所",
+        "url": "https://www.iot.gov.tw/uploads/asset/data/6619e1a0367376304acd5456/B0951651.pdf",
+        "supports": "臺灣海峽潮汐潮流、共振及潮差分布背景。"
+      },
+      {
+        "title": "航海定位與雷達測距原理",
+        "sourceType": "textbook_or_academic",
+        "issuer": "The Nautical Institute",
+        "url": "https://www.nautinst.org/",
+        "supports": "方位、距離、雷達及天文定位原理。"
+      }
+    ],
+    "assumptions": [
+      "以民國89年航海圖書、助航標誌及潮汐資料為背景。"
+    ],
+    "limitations": [
+      "最大潮差的精確位置及數值需依指定年份潮汐調和分析資料核對，答案以區域性原理說明。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部89年引港學題目",
+          "result": "pass",
+          "note": "已核對題庫原文。"
+        },
+        {
+          "item": "海圖圖例、IALA、潮汐及定位資料",
+          "result": "partial",
+          "note": "原卷缺少圖示或歷史圖書資料時已明確標示。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "089-pilotage-04-answer-v1",
+    "questionId": "089-pilotage-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、已知資料】\n燈塔實際高度H=56m；千分之一比例刻度望遠鏡讀數n=6。每一刻度代表角度約1/1000弧度（1 mil）。\n\n【二、距離公式】\n小角度條件下：\n\n$$\\\\theta\\\\approx\\\\frac{H}{D}$$\n\n望遠鏡讀數為6格，角度：\n\n$$\\\\theta=\\\\frac{6}{1000}=0.006\\\\;rad$$\n\n距離：\n\n$$D=\\\\frac{H}{\\\\theta}=\\\\frac{56}{0.006}=9333.3\\\\;m$$\n\n換算海浬：\n\n$$D=\\\\frac{9333.3}{1852}=5.04\\\\;NM$$\n\n因此觀測船舶至燈塔距離約 **9.33公里，或5.04海浬**。\n\n【三、注意事項】\n1. 假設燈塔高度56m是自海面至燈頂的垂直高度，且觀測者與燈塔基部高程差可忽略。\n2. 6格為角度刻度，不是距離；每格按1/1000弧度計算。\n3. 若望遠鏡刻度定義為其他角度單位，應依儀器說明書修正；本題依題意採1 mil一格。",
+    "practicalAnalysis": "本題10分，使用小角度公式D=H/θ，θ=6/1000 rad，得9,333m=5.04NM。應寫出單位換算及假設，不能把6格當成6/1000度。",
+    "keyPoints": [
+      {
+        "point": "每格1/1000弧度，6格θ=0.006rad。",
+        "importance": "essential"
+      },
+      {
+        "point": "距離D=56/0.006=9,333m。",
+        "importance": "essential"
+      },
+      {
+        "point": "換算海浬為9,333/1,852=5.04NM。",
+        "importance": "essential"
+      },
+      {
+        "point": "說明燈塔高度及觀測者高度差忽略的假設。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "89年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國89年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=1001&t=Q",
+        "supports": "第1至6題原文。"
+      },
+      {
+        "title": "IALA Maritime Buoyage System",
+        "sourceType": "international_standard",
+        "issuer": "International Association of Marine Aids to Navigation and Lighthouse Authorities",
+        "url": "https://www.iala-aism.org/product/iala-maritime-buoyage-system/",
+        "supports": "A、B區側面標及方位標制度。"
+      },
+      {
+        "title": "臺灣海峽潮汐與潮流研究",
+        "sourceType": "official_research",
+        "issuer": "交通部運輸研究所",
+        "url": "https://www.iot.gov.tw/uploads/asset/data/6619e1a0367376304acd5456/B0951651.pdf",
+        "supports": "臺灣海峽潮汐潮流、共振及潮差分布背景。"
+      },
+      {
+        "title": "航海定位與雷達測距原理",
+        "sourceType": "textbook_or_academic",
+        "issuer": "The Nautical Institute",
+        "url": "https://www.nautinst.org/",
+        "supports": "方位、距離、雷達及天文定位原理。"
+      }
+    ],
+    "assumptions": [
+      "以民國89年航海圖書、助航標誌及潮汐資料為背景。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部89年引港學題目",
+          "result": "pass",
+          "note": "已核對題庫原文。"
+        },
+        {
+          "item": "海圖圖例、IALA、潮汐及定位資料",
+          "result": "partial",
+          "note": "原卷缺少圖示或歷史圖書資料時已明確標示。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "089-pilotage-05-answer-v1",
+    "questionId": "089-pilotage-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、中央及南部地區降雨的主要天氣系統】\n臺灣中央及南部地區降雨可由不同季節天氣系統造成：\n1. **梅雨鋒面（5月至6月）**：滯留鋒或鋒面波動造成持續性降雨、雷雨及局部豪雨；鋒面位置稍變即可使雨區南北移動。\n2. **西南季風（夏季）**：西南氣流將暖濕空氣輸送至臺灣西南部，遇中央山脈及西南部地形抬升，易形成持續降雨及局部強降雨。\n3. **颱風及外圍環流（夏秋季）**：颱風本體、外圍雨帶及西南氣流可能帶來豪雨、強風及長週期湧浪。\n4. **午後熱對流（春夏季）**：地面受熱後對流發展，山區及平地午後易有雷陣雨、短時強降雨及雷擊。\n5. **東北季風與華南雲雨帶（秋冬季）**：東北季風主要影響北部及東北部，但水氣及鋒面系統亦可能影響中南部；須依實際天氣圖判斷。\n\n【二、對引水作業的影響】\n- 強降雨降低能見度，雷達可能出現雨雪雜波，目視燈標及岸線辨識困難。\n- 雷雨伴隨陣風、風向突變及短時強流，影響靠離泊及拖船協同。\n- 山區豪雨造成河川出流、漂流木及泥沙進港，可能改變港池流向、水深及航道條件。\n- 颱風或西南氣流造成港外湧浪，影響引水艇接送、引水梯安全及船舶進港。\n- 雷擊及強降雨可能影響通訊、雷達、視線及船員甲板作業安全。\n\n【三、作業對策】\n密切追蹤氣象署雷達回波、雨量、雷暴警報、風場、波浪及河川水位；進港前向VTS確認航道、能見度及流況，必要時延後引水登輪或暫停靠離泊。",
+    "practicalAnalysis": "本題15分，需列出梅雨鋒面、西南季風、颱風外圍、午後對流及地形雨等降雨原因，並連結引水作業中的能見度、陣風、河川出流、漂流木、湧浪與引水梯風險。",
+    "keyPoints": [
+      {
+        "point": "梅雨鋒面造成持續性降雨及雷雨。",
+        "importance": "essential"
+      },
+      {
+        "point": "西南季風輸送暖濕氣流，受地形抬升形成強降雨。",
+        "importance": "essential"
+      },
+      {
+        "point": "颱風及外圍環流帶來豪雨、強風及湧浪。",
+        "importance": "essential"
+      },
+      {
+        "point": "午後熱對流造成短時強降雨、雷擊及陣風。",
+        "importance": "supporting"
+      },
+      {
+        "point": "注意能見度、雷達雨雜波、河川出流、漂流物及引水梯安全。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "89年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國89年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=1001&t=Q",
+        "supports": "第1至6題原文。"
+      },
+      {
+        "title": "IALA Maritime Buoyage System",
+        "sourceType": "international_standard",
+        "issuer": "International Association of Marine Aids to Navigation and Lighthouse Authorities",
+        "url": "https://www.iala-aism.org/product/iala-maritime-buoyage-system/",
+        "supports": "A、B區側面標及方位標制度。"
+      },
+      {
+        "title": "臺灣海峽潮汐與潮流研究",
+        "sourceType": "official_research",
+        "issuer": "交通部運輸研究所",
+        "url": "https://www.iot.gov.tw/uploads/asset/data/6619e1a0367376304acd5456/B0951651.pdf",
+        "supports": "臺灣海峽潮汐潮流、共振及潮差分布背景。"
+      },
+      {
+        "title": "航海定位與雷達測距原理",
+        "sourceType": "textbook_or_academic",
+        "issuer": "The Nautical Institute",
+        "url": "https://www.nautinst.org/",
+        "supports": "方位、距離、雷達及天文定位原理。"
+      }
+    ],
+    "assumptions": [
+      "以民國89年航海圖書、助航標誌及潮汐資料為背景。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部89年引港學題目",
+          "result": "pass",
+          "note": "已核對題庫原文。"
+        },
+        {
+          "item": "海圖圖例、IALA、潮汐及定位資料",
+          "result": "partial",
+          "note": "原卷缺少圖示或歷史圖書資料時已明確標示。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "089-pilotage-06-answer-v1",
+    "questionId": "089-pilotage-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、題目資料與問題】\n船舶航向270°，起始時A點在正北方；1小時後測得D點方位311°；再過1小時測得P點方位030°，且P點位於A點正西30海浬。題目要求船速及P點與船舶最近距離。\n\n【二、目前題文不足以唯一求解】\n若D點與A點是不同固定物標，題目未提供D點相對A、P的位置或距離；若「D點」其實是「A點」的轉錄錯誤，則按航向270°（向西）及初始A在正北，1小時後A應位於船舶東北／東側方位，而不是311°（西北象限）。因此現有文字條件彼此無法形成唯一且一致的平面幾何解。\n\n【三、正確解題所需資料】\n應回查考選部原卷圖示或題目原始文字，確認：\n1. 第一個方位311°所測的是A點、D點或另一物標；\n2. A、D、P三點是否有圖示位置或已知相對距離；\n3. P點在A點正西30NM是否為唯一已知地理關係；\n4. 船舶是否保持航向270°及等速航行。\n\n【四、取得完整圖示後的解題方法】\n以起始船位S₀作原點，依船舶航向270°建立西向航跡；每小時位移為船速V。將A、D、P固定物標轉成平面座標，利用各觀測方位線的反方位建立船舶位置線，再以P=A點西移30NM的關係求V。船舶至P的最近距離為P點至船舶航跡的垂直距離（若最近點位於航跡時間範圍內）。\n\n【結論】\n在未取得原卷圖示、且D點與A點關係不明的情況下，不應任意假設D=A或編造船速與CPA。此題暫列需複核，補入原卷圖示後即可完成幾何解。",
+    "practicalAnalysis": "本題20分為定位幾何題，但目前題庫純文字缺少圖示／點位關係。按航向270°及初始A正北的條件，若1小時後測的是A點且方位311°，幾何方向不一致；若D為另一點則資訊不足。必須回查考選部PDF原圖，不可硬算。",
+    "keyPoints": [
+      {
+        "point": "先確認方位311°所測物標是否為D點或A點。",
+        "importance": "essential"
+      },
+      {
+        "point": "確認A、D、P之間是否有原卷圖示或其他距離資料。",
+        "importance": "essential"
+      },
+      {
+        "point": "以每小時船位位移V及方位線反向定位求解。",
+        "importance": "essential"
+      },
+      {
+        "point": "最近距離為P點至船舶航跡的垂直距離。",
+        "importance": "supporting"
+      },
+      {
+        "point": "目前條件不唯一且可能有轉錄缺圖，暫不給數值答案。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "89年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "editionOrEffectiveDate": "民國89年",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=043&code=089220&q=1&s=1001&t=Q",
+        "supports": "第1至6題原文。"
+      },
+      {
+        "title": "IALA Maritime Buoyage System",
+        "sourceType": "international_standard",
+        "issuer": "International Association of Marine Aids to Navigation and Lighthouse Authorities",
+        "url": "https://www.iala-aism.org/product/iala-maritime-buoyage-system/",
+        "supports": "A、B區側面標及方位標制度。"
+      },
+      {
+        "title": "臺灣海峽潮汐與潮流研究",
+        "sourceType": "official_research",
+        "issuer": "交通部運輸研究所",
+        "url": "https://www.iot.gov.tw/uploads/asset/data/6619e1a0367376304acd5456/B0951651.pdf",
+        "supports": "臺灣海峽潮汐潮流、共振及潮差分布背景。"
+      },
+      {
+        "title": "航海定位與雷達測距原理",
+        "sourceType": "textbook_or_academic",
+        "issuer": "The Nautical Institute",
+        "url": "https://www.nautinst.org/",
+        "supports": "方位、距離、雷達及天文定位原理。"
+      }
+    ],
+    "assumptions": [
+      "以民國89年航海圖書、助航標誌及潮汐資料為背景。"
+    ],
+    "limitations": [
+      "考選部原卷PDF文字層未能提供題目附圖；需檢查PDF頁面圖像，確認D點位置及311°方位對象。"
+    ],
+    "verification": {
+      "status": "needs_review",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部89年引港學題目",
+          "result": "pass",
+          "note": "已核對題庫原文。"
+        },
+        {
+          "item": "海圖圖例、IALA、潮汐及定位資料",
+          "result": "partial",
+          "note": "原卷缺少圖示或歷史圖書資料時已明確標示。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
