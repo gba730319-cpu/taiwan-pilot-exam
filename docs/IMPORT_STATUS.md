@@ -1273,3 +1273,5 @@
 
 - **100年度專業英文第1題（引水及港區協調翻譯）更新參考版本**：原參考列IMO A.857(20)已撤銷，移除舊版並改列現行A.1158(32)作港區協調背景；強調legal fiction為原文作者論述，不可誤當我國現行法條結論。狀態 source_checked。
 - **100年度專業英文第3題（航海術語造句）修正COLREG情態動詞**：TSS Rule 10(b)(i)及Head-on Situation Rule 14(a)均使用shall，已將原句should修正為shall，並依IMO正式術語補充general direction of traffic flow。狀態 source_checked。
+
+- **100年度船舶操縱第1題（側向靠泊制動力計算）完成模型邊界複核**：依CDIT Fender Design Test Guideline核對Cm=1+2T/B及適用條件，重算理想反向側向力約55.3tf／542.5kN。補充題目給定船長294m不進入純側向平移F=Ma模型；若偏心施力則須另算偏航力矩及轉動慣量。並釐清55.3tf不是拖船額定Bollard Pull，而是忽略拖纜角度、動態及阻尼的理想化結果。狀態 source_checked。
