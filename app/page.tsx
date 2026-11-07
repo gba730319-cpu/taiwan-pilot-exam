@@ -239,11 +239,13 @@ export default function Home() {
   const [subject, setSubject] = useState("全部科目");
   const [port, setPort] = useState("高雄港");
   const [hasOpenAnswer, setHasOpenAnswer] = useState(false);
+  const [expandedAnswers, setExpandedAnswers] = useState<Record<string, boolean>>({});
   const closeOpenAnswers = () => {
     document.querySelectorAll<HTMLDetailsElement>(".answer[open]").forEach((element) => {
       element.open = false;
     });
     setHasOpenAnswer(false);
+    setExpandedAnswers({});
   };
   const items = (questions as Question[]).filter((q) => officialYears.has(q.year));
   const sources = sourceData as Source[];
@@ -383,74 +385,80 @@ export default function Home() {
                     <span>{source.exam}</span>
                   </div>
                 ) : (
-                  <div className="source-link missing">原卷來源待補登</div>
-                )}
-                {answer ? (
-                  <details className="answer" onToggle={() => setHasOpenAnswer(document.querySelector(".answer[open]") !== null)}>
+                  <<details className="answer" onToggle={(event) => {
+                    const isOpen = event.currentTarget.open;
+                    setExpandedAnswers((prev) => ({ ...prev, [q.id]: isOpen }));
+                    setHasOpenAnswer(document.querySelector(".answer[open]") !== null);
+                  }}>
                     <summary>參考答案（點擊展開／收合）</summary>
-                    <div className="answer-content">
-                      <section className="answer-section">
-                        <h3>參考擬答</h3>
-                        <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeKatex]}>{normalizeAnswerMarkdown(answer.modelAnswer)}</ReactMarkdown>
-                      </section>
-                      {answer.practicalAnalysis ? (
-                        <section className="answer-section">
-                          <h3>解題分析與作答策略</h3>
-                          <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeKatex]}>{normalizeAnswerMarkdown(answer.practicalAnalysis)}</ReactMarkdown>
-                        </section>
-                      ) : null}
-                      {Array.isArray(answer.keyPoints) && answer.keyPoints.length ? (
-                        <section className="answer-section">
-                          <h3>得分關鍵</h3>
-                          <ol className="answer-keypoints">
-                            {answer.keyPoints.map((item, index) => (
-                              <li key={index}>
-                                {typeof item === "string" ? (
-                                  <b>{item}</b>
-                                ) : (
-                                  <>
-                                    <b>{item.point}</b>
-                                    {item.explanation ? <p>{item.explanation}</p> : null}
-                                  </>
-                                )}
-                              </li>
-                            ))}
-                          </ol>
-                        </section>
-                      ) : null}
-                      {Array.isArray(answer.assumptions) && answer.assumptions.length ? (
-                        <section className="answer-section">
-                          <h3>計算假設</h3>
-                          <ul>{answer.assumptions.map((item, index) => <li key={index}>{item}</li>)}</ul>
-                        </section>
-                      ) : null}
-                      {Array.isArray(answer.limitations) && answer.limitations.length ? (
-                        <section className="answer-section">
-                          <h3>適用限制與注意事項</h3>
-                          <ul>{answer.limitations.map((item, index) => <li key={index}>{item}</li>)}</ul>
-                        </section>
-                      ) : null}
-                      {Array.isArray(answer.references) && answer.references.length ? (
-                        <details className="reference-fold">
-                          <summary>參考資料（點擊展開／收合）</summary>
-                          <ol className="answer-references">
-                            {answer.references.map((item, index) => (
-                              <li key={index}>
-                                {typeof item === "string" ? item : (
-                                  <>
-                                    {item.url ? <a href={item.url} target="_blank" rel="noreferrer">{item.title || item.url}</a> : item.title}
-                                    {item.issuer ? `｜${item.issuer}` : ""}
-                                    {item.pageOrSection ? `（${item.pageOrSection}）` : ""}
-                                    {item.supports ? <span> — {item.supports}</span> : null}
-                                  </>
-                                )}
-                              </li>
-                            ))}
-                          </ol>
-                        </details>
-                      ) : null}
-                      {answer.verification?.status ? (
-                        <div className="answer-status">資料查核狀態：{verificationStatusLabel(answer.verification.status)}</div>
+                    {expandedAnswers[q.id] ? (
+                      <div className="answer-content">
+                                            <section className="answer-section">
+                                              <h3>參考擬答</h3>
+                                              <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeKatex]}>{normalizeAnswerMarkdown(answer.modelAnswer)}</ReactMarkdown>
+                                            </section>
+                                            {answer.practicalAnalysis ? (
+                                              <section className="answer-section">
+                                                <h3>解題分析與作答策略</h3>
+                                                <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeKatex]}>{normalizeAnswerMarkdown(answer.practicalAnalysis)}</ReactMarkdown>
+                                              </section>
+                                            ) : null}
+                                            {Array.isArray(answer.keyPoints) && answer.keyPoints.length ? (
+                                              <section className="answer-section">
+                                                <h3>得分關鍵</h3>
+                                                <ol className="answer-keypoints">
+                                                  {answer.keyPoints.map((item, index) => (
+                                                    <li key={index}>
+                                                      {typeof item === "string" ? (
+                                                        <b>{item}</b>
+                                                      ) : (
+                                                        <>
+                                                          <b>{item.point}</b>
+                                                          {item.explanation ? <p>{item.explanation}</p> : null}
+                                                        </>
+                                                      )}
+                                                    </li>
+                                                  ))}
+                                                </ol>
+                                              </section>
+                                            ) : null}
+                                            {Array.isArray(answer.assumptions) && answer.assumptions.length ? (
+                                              <section className="answer-section">
+                                                <h3>計算假設</h3>
+                                                <ul>{answer.assumptions.map((item, index) => <li key={index}>{item}</li>)}</ul>
+                                              </section>
+                                            ) : null}
+                                            {Array.isArray(answer.limitations) && answer.limitations.length ? (
+                                              <section className="answer-section">
+                                                <h3>適用限制與注意事項</h3>
+                                                <ul>{answer.limitations.map((item, index) => <li key={index}>{item}</li>)}</ul>
+                                              </section>
+                                            ) : null}
+                                            {Array.isArray(answer.references) && answer.references.length ? (
+                                              <details className="reference-fold">
+                                                <summary>參考資料（點擊展開／收合）</summary>
+                                                <ol className="answer-references">
+                                                  {answer.references.map((item, index) => (
+                                                    <li key={index}>
+                                                      {typeof item === "string" ? item : (
+                                                        <>
+                                                          {item.url ? <a href={item.url} target="_blank" rel="noreferrer">{item.title || item.url}</a> : item.title}
+                                                          {item.issuer ? `｜${item.issuer}` : ""}
+                                                          {item.pageOrSection ? `（${item.pageOrSection}）` : ""}
+                                                          {item.supports ? <span> — {item.supports}</span> : null}
+                                                        </>
+                                                      )}
+                                                    </li>
+                                                  ))}
+                                                </ol>
+                                              </details>
+                                            ) : null}
+                                            {answer.verification?.status ? (
+                                              <div className="answer-status">資料查核狀態：{verificationStatusLabel(answer.verification.status)}</div>
+                                            ) : null}
+                                          </div>
+                    ) : null}
+                  </div>rificationStatusLabel(answer.verification.status)}</div>
                       ) : null}
                     </div>
                   </details>
