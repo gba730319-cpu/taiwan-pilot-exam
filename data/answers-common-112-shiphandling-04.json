@@ -1,0 +1,86 @@
+[
+  {
+    "id": "answer-112-shiphandling-04",
+    "questionId": "112-shiphandling-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、大型高乾舷船在受限水域的主要操縱特性\n大型高乾舷船（High-sided vessels）通常具有較大的水上側面投影面積及風壓中心高度，容易受橫風影響產生橫移與偏航；大型船舶排水量大、慣性大，轉向及停船反應較慢；受限水域又使可用迴旋空間、避讓距離及緊急操縱餘裕縮小。因此應提早規劃、降低速度、保持安全水深及預留應變水域。\n\n二、進出港及狹水道應注意事項\n（一）風壓及風向變化：評估風速、陣風、風向、船舶受風面積、風壓中心及載況。壓載船可能有較高乾舷、較低水下側向阻力，風致漂移更明顯；應計算風壓對艏艉偏航的影響，並依風向適當調整航向及速度。\n（二）潮流與橫流：確認潮流方向、流速、潮汐轉換及港池內流況；在狹窄航道中，橫流會使船舶偏離中心線，須預留流壓角並及早修正，避免接近轉向點才大幅操舵。\n（三）安全速度及慣性：依COLREG Rule 6、航道限制及船舶操縱資料設定安全速度。速度過高會增加停船距離、偏航動能、岸壁效應及squat；速度過低則可能失去舵效，應在操縱控制與停船能力間取得平衡。\n（四）水深、UKC及Squat：考慮靜態吃水、潮高、測深基準、船舶下沉及縱傾、波浪、密度差與測深誤差。受限水域中速度增加會使squat上升，可能導致觸底或操縱性能改變。\n（五）岸壁效應及船岸交互作用：船舶靠近岸壁或通過狹窄水道時，可能發生bank suction及bank cushion；應保持適當岸距、避免過速，並預留修正空間。\n（六）航道寬度、迴旋空間及船舶交通：確認航道寬度、彎道半徑、會船點、錨地、轉向池及其他船舶位置；大型船應避免在狹窄處進行不必要的轉向或會船，必要時與VTS協調交通管制。\n（七）拖船及側推器：依風壓、流況、船舶操縱能力、泊位及拖船bollard pull選擇拖船數量與位置。拖船應及早就位，並確認拖纜、通訊頻道、呼號、指令及緊急脫纜程序；不可假設拖船能在任何風速下克服船舶風壓。\n（八）主機、舵機及導航設備：進港前測試主機、舵機、應急舵、側推器、錨機、雷達、ECDIS、GNSS及通訊設備；對任何故障或限制應在MPX時向引水人說明。\n（九）航行計畫及MPX：引水人與船長交換船舶操縱資料、風流潮、水深、航道限制、拖船安排、轉向點、速度計畫及緊急方案；駕駛臺團隊應持續交叉監控船位、航向、航速與偏航率。\n（十）緊急應變：預先設定失去主機、舵機故障、拖船失效、突然陣風、走錨或船位偏離時的應變方案，包括減速、停船、拋錨、拖船支援、退出航道及VTS通報條件。\n\n三、引水實務重點\n高乾舷船在強橫風下可能出現明顯leeway，不能只依GPS航跡判斷船首向與船體運動；須同時觀察艏向、對水速度、對地速度及橫向漂移。若船舶處於壓載狀態，應特別注意風壓與水下側向阻力不成比例。大型船在淺窄水域應避免以增加速度換取舵效，卻忽略squat及岸壁效應的惡化。\n\n結論：大型高乾舷船進出受限港口，核心是風壓、潮流、速度、UKC／squat、岸壁效應、航道空間、拖船配置及設備可靠性。應充分MPX、提早減速、保持足夠操縱餘裕、持續監控船位，並預先準備失去動力或偏離航道的應變方案。",
+    "practicalAnalysis": "本題15分，可按船舶特性與風壓、風流與速度、水深與岸壁效應、拖船與設備、MPX及應變等面向作答。特別指出壓載高乾舷船受風面積大、吃水較淺，可能同時有較大的風致漂移及較小的水下側向阻力。",
+    "keyPoints": [
+      {
+        "point": "高乾舷船水上受風面積大，易受橫風產生leeway及偏航；壓載狀態尤其注意。",
+        "importance": "essential"
+      },
+      {
+        "point": "評估風向風速、潮流、橫流、船舶載況及安全速度。",
+        "importance": "essential"
+      },
+      {
+        "point": "注意UKC、squat、岸壁吸引／岸壁墊水及受限水域船岸交互作用。",
+        "importance": "essential"
+      },
+      {
+        "point": "確認航道寬度、彎道、轉向池、會船點、交通及VTS管制。",
+        "importance": "essential"
+      },
+      {
+        "point": "依風壓及船舶操縱能力配置拖船，確認bollard pull、拖纜及通訊。",
+        "importance": "essential"
+      },
+      {
+        "point": "MPX確認主機舵機、側推器、錨、導航設備、航行計畫及緊急應變。",
+        "importance": "essential"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "note": "未取得考選部官方逐項評分細則；僅供研讀。"
+    },
+    "references": [
+      {
+        "title": "IMO Resolution A.601(15)",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.601%2815%29.pdf",
+        "supports": "操縱性能、轉向圈及停止距離等資料。"
+      },
+      {
+        "title": "MGN 199 (M) Amendment 1 — Danger of interaction",
+        "sourceType": "official_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction",
+        "supports": "受限水域速度、squat及bank effect風險。"
+      },
+      {
+        "title": "A Guide to Good Practice on Port and Marine Facilities",
+        "sourceType": "official_port_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/a-guide-to-good-practice-on-port-marine-operations/a-guide-to-good-practice-on-port-and-marine-facilities",
+        "supports": "港內操船、拖船及風險評估。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "題目未提供完整原圖／個船資料者，依已知條件提出原則性操船方案，實際操作仍須以現場資料及港口程序為準。",
+      "官方逐項評分細則未取得。"
+    ],
+    "verification": {
+      "status": "verified_with_scope",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "原題",
+          "result": "pass",
+          "note": "依112年度題庫主檔核對題目。"
+        },
+        {
+          "item": "專業依據",
+          "result": "pass",
+          "note": "依IMO／港務及船舶操縱專業資料交叉整理。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
