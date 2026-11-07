@@ -1,0 +1,119 @@
+[
+  {
+    "id": "answer-112-kaohsiung-waterway-06",
+    "questionId": "112-kaohsiung-waterway-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、修訂背景\n高雄港引水人登輪區規定的目的，在於依船舶大小及操縱風險，將引水人登輪位置向外分級，避免大型船舶在狹窄港口或防波堤附近才登輪，降低登輪安全及港口交通風險。\n\n二、112年2月15日修訂後的分級制度\n（一）高雄港水域船舶交通服務作業指南依船舶類別區分為L、M、S三類：L類為大型船舶；M類為中小型船舶；S類包括漁船、拖船、作業船及次級船等。\n（二）不同類別依船舶種類、總噸位及操縱特性，配置不同登輪區與引水人數，並非所有船舶均在同一登輪點登輪。\n（三）二港口一般進港船（不包括靠泊洲際二期碼頭）依L、M、S分級。運安會事故調查報告以總噸位94,710之散裝船為例，認定屬L類大型船，登輪區約在防波堤口外2.5浬；報告圖示另標有約2.0浬及1.5浬的分級位置。完整噸位門檻及各類引水人數仍應依112年2月15日指南附錄表核對。\n（四）靠泊洲際二期碼頭船舶不應直接套用二港口一般進港船登輪區圖示，須依指南專屬規定及實際航路確認。\n\n三、登輪作業安全\n（一）引水人登輪前應確認船舶已抵達對應登輪區，船速、風浪、船舷高度、登輪梯及引水艇相對位置適合安全登輪。\n（二）船長應備妥合格引水梯或組合梯，確認梯具固定、照明、舷側開口及甲板接應人員安全。\n（三）登輪後應完成Master-Pilot Exchange，交換船舶操縱特性、吃水、主機舵機狀態、側推器、拖船配置、預定航路、港口交通、風流及緊急應變資訊。\n（四）登輪區須配合VTS通報及港口交通排序；船舶不得為等待引水人而擅自違反航道或VTS管制。\n\n四、版本注意\n本題應採112年度考試時有效的高雄港水域船舶交通服務作業指南（112年2月15日修正）作答。113年12月18日修正後《引水人管理規則》及114年5月23日公告的強制引水範圍暨登離輪區域，均屬考試後制度發展，不得倒套為112年題目的原始答案。\n\n結論：112年修訂重點是依L、M、S三類船舶分級配置登輪區與引水人數；L類大型船二港口登輪區約在防波堤口外2.5浬，其他級距應以當年指南附錄表核對。",
+    "practicalAnalysis": "本題核心為分級登輪。運安會事故調查報告明確記載高雄港依112年2月15日修正的《高雄港水域船舶交通服務作業指南》，將船舶分為L（大型）、M（中小型）、S（漁船、拖船、作業船及次級船等）三類，依類別、噸位及登輪區配置引水人。報告以94,710 GT散裝船為例，屬L類，登輪區在防波堤口外約2.5浬。完整級距及引水人數仍須核對指南附錄表。",
+    "keyPoints": [
+      {
+        "point": "112年2月15日修訂指南採L、M、S三類分級登輪。",
+        "importance": "essential"
+      },
+      {
+        "point": "L類為大型船；M類為中小型船；S類包括漁船、拖船、作業船及次級船等。",
+        "importance": "essential"
+      },
+      {
+        "point": "L類大型船二港口登輪區約在防波堤口外2.5浬。",
+        "importance": "essential"
+      },
+      {
+        "point": "各類別完整噸位門檻、登輪距離及引水人數應以112年指南附錄表為準。",
+        "importance": "essential"
+      },
+      {
+        "point": "洲際二期碼頭船舶不得直接套用二港口一般進港船登輪區圖示。",
+        "importance": "essential"
+      },
+      {
+        "point": "登輪前確認船速、海況、梯具及引水艇安全；登輪後完成Master-Pilot Exchange。",
+        "importance": "essential"
+      },
+      {
+        "point": "114年公告及113年修正後法規不得倒套為112年考試版本。",
+        "importance": "essential"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "totalPoints": 15,
+      "items": [
+        {
+          "criterion": "L/M/S分類及各類船舶說明",
+          "points": 5,
+          "basis": "研讀建議配分，非官方評分標準"
+        },
+        {
+          "criterion": "登輪區分級及L類2.5浬例證",
+          "points": 5,
+          "basis": "研讀建議配分，非官方評分標準"
+        },
+        {
+          "criterion": "登輪安全及版本時點",
+          "points": 5,
+          "basis": "研讀建議配分，非官方評分標準"
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "通運油輪與FPMC B FOREVER散裝船於高雄港會遇時觸碰離岸堤事故調查報告",
+        "sourceType": "official_report",
+        "issuer": "國家運輸安全調查委員會",
+        "editionOrEffectiveDate": "114年6月16日發布；內文引用112年2月15日指南",
+        "url": "https://www.ttsb.gov.tw/media/8564/%E9%80%9A%E9%81%8B%E6%B2%B9%E8%BC%AA%E8%88%87fpmc-b-forever%E6%95%A3%E8%A3%9D%E8%88%B9%E8%AA%BF%E6%9F%A5%E5%A0%B1%E5%91%8A_%E7%99%BC%E5%B8%83.pdf",
+        "supports": "第1.6.3節記載L/M/S三類登輪區，L類94,710 GT散裝船登輪位置約在防波堤口外2.5浬，並提及洲際二期例外。"
+      },
+      {
+        "title": "高雄港水域船舶交通服務作業指南",
+        "sourceType": "official_guideline",
+        "issuer": "臺灣港務股份有限公司高雄港務分公司",
+        "editionOrEffectiveDate": "112年2月15日修正版本",
+        "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052",
+        "supports": "112年考試時登輪分級依據；正式門檻及人數以該版附錄為準。"
+      },
+      {
+        "title": "高雄港強制引水範圍暨其登離輪區域",
+        "sourceType": "official_regulation",
+        "issuer": "交通部",
+        "editionOrEffectiveDate": "114年5月23日修正",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/Info?LawID=H0203000",
+        "supports": "僅作為考試後制度演變的版本界線，不作112年原始規定。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "完整L/M/S級距、總噸位門檻、登輪距離及引水人數須以112年2月15日指南附錄表核對；本答案不以圖示距離推定未核實門檻。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "L/M/S分級制度",
+          "result": "pass",
+          "note": "TTSB官方事故調查報告第1.6.3節明確記載。"
+        },
+        {
+          "item": "L類登輪區約2.5浬",
+          "result": "pass",
+          "note": "TTSB報告以94,710 GT散裝船為例明確指出。"
+        },
+        {
+          "item": "M、S類精確噸位門檻與引水人數",
+          "result": "needs_review",
+          "note": "尚未逐項取得112年指南附錄2完整表格。"
+        },
+        {
+          "item": "114年後公告與112年考試版本區分",
+          "result": "pass",
+          "note": "交通部官方頁顯示114年5月23日修正，晚於112年考試。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
