@@ -199,13 +199,48 @@
         "title": "高雄港船舶進出港及移泊交通管制作業原則（現行公開頁）",
         "issuer": "臺灣港務公司高雄港務分公司",
         "url": "https://kh.twport.com.tw/zh-TW/service/Articles?a=1052"
+      },
+      {
+        "title": "國際商港港勤拖船調派及管理要點（含高雄港附件，2025-07-22修正）",
+        "sourceType": "official_port_regulation",
+        "issuer": "臺灣港務股份有限公司",
+        "url": "https://hl.twport.com.tw/fapi/AttFile?id=4134&l=1&type=AttFile",
+        "supports": "高雄港現行總噸位拖船派遣對照表、拖船備便位置、特殊作業及尖峰優先調派順序。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "立揆貨櫃船碰撞臺港14402號拖船重大事故調查報告",
+        "sourceType": "official_safety_investigation",
+        "issuer": "國家運輸安全調查委員會",
+        "url": "https://www.ttsb.gov.tw/media/6255/%E7%AB%8B%E6%8F%86%E8%B2%A8%E6%AB%83%E8%88%B9%E7%A2%B0%E6%92%9E%E8%87%BA%E6%B8%AF14402%E8%99%9F%E6%8B%96%E8%88%B9%E9%87%8D%E5%A4%A7%E4%BA%8B%E6%95%85%E4%BA%8B%E5%AF%A6%E8%B3%87%E6%96%99%E5%A0%B1%E5%91%8A-1.pdf",
+        "supports": "拖船調派依港務公司要點及高雄港地方附件辦理，補充實務背景。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
-      "106年版《港勤拖船調派暨管理要點》原始全文及總噸級距拖船馬力／艘數表尚未取得；尖峰優先順序目前僅有現行公開作業原則作參照，不能視為106年原始規定。這題維持needs_review，必須取得歷史版本後才能補齊數值。"
+      "現行表為2025-07-22修正版；106年（2017）當時有效的高雄港地方附件尚未取得，若要求歷史答案須另核對歷史版本。",
+      "特殊船舶、側推器減派、危險品夜航、洲際二期及大型船舶特別規定可能改變基本表列配置，實際航次應以現行完整附件及港方核准為準。"
     ],
     "verification": {
-      "status": "partially_verified"
+      "status": "verified_with_scope",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "2027現行高雄港拖船噸位對照表",
+          "result": "pass",
+          "note": "依2025-07-22修正之國際商港港勤拖船調派及管理要點附件5第六點核對。"
+        },
+        {
+          "item": "尖峰時段拖船優先調派順序",
+          "result": "pass",
+          "note": "依高雄港地方附件第3點及高雄港務分公司作業原則核對。"
+        },
+        {
+          "item": "106年歷史版拖船配置表",
+          "result": "needs_review",
+          "note": "未取得2017年有效附件，不將現行表倒填為歷史資料。"
+        }
+      ]
     },
     "version": 2,
     "lastUpdated": "2026-11-07"
