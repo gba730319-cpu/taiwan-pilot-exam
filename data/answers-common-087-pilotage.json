@@ -2,68 +2,114 @@
   {
     "id": "087-pilotage-01-answer-v1",
     "questionId": "087-pilotage-01",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "| 圖例 | 符號示意 | 英文全名／意義 |\n|---|---|---|\n| 引水站 | ⚓ P | Pilot station：引水人登輪／離輪位置。 |\n| 中港浮 | ◉ | Mid-channel buoy：航道中央浮標。 |\n| 防波堤 | ━━━━━╱ | Breakwater：防波堤／突堤結構。 |\n| 礙航沉船 | ⚓✕／Wk | Dangerous wreck：可能妨礙航行的沉船。 |\n| 起重機 | ⚒ | Crane：岸上起重設備。 |\n| 落潮流2節 | ↓ 2 kn | Ebb current, 2 knots：落潮流，流速2節。 |\n| 禁止航行區域界線 | -·-·-·- | Boundary of prohibited area：禁止航行區域界線。 |\n\n上述Unicode示意僅供記憶，正式作答應依指定版次Chart No.1或考選部原卷附圖臨摹；尤其中港浮、礙航沉船及禁止航行區域界線須使用正確的圖式符號、頂標及界線樣式。",
-    "practicalAnalysis": "本題14分，七個符號須逐一畫出並寫名稱。文字示意不能完全取代正式海圖符號，正式答案仍應依Chart No.1原圖重畫。",
+    "modelAnswer": "本題要求畫出七種海圖圖例。正式作答時應依考試指定海圖圖式版本，將符號的線型、點位、方向及註記畫正確；不可用Emoji或自創圖案代替正式符號。\n\n| 題目 | 正式圖式分類／識別 | 作圖要點 |\n|---|---|---|\n| (1) 引水站 | IHO INT 1，T節 Pilotage | 使用引水登輪／離輪位置符號；若題目指定引水站位置，符號須落在正確位置。 |\n| (2) 中港浮 | IHO INT 1，Q節 Buoys and Beacons；依題意採航道中央／安全水域浮標圖式 | 畫出浮標位置及適用標誌型式；燈質、顏色或頂標依題目資料補全。 |\n| (3) 防波堤 | IHO INT 1，F節 Hydraulic Structures，Breakwater | 依比例尺畫出防波堤線狀結構；不同比例尺圖式可能不同。 |\n| (4) 礙航沉船 | IHO INT 1，K節 Wrecks，Dangerous wreck | 依水深已知／未知及危險程度，選用相應沉船符號；不可只畫一般非危險沉船。 |\n| (5) 起重機 | IHO INT 1，D節 Cultural Features／港區地物符號 | 依正式圖式畫出起重機地物符號，置於岸上設施位置。 |\n| (6) 落潮流2節 | IHO INT 1，H41 Ebb tidal stream with rate | 畫出落潮流方向箭頭，旁註流速2 kn；箭頭表示流向，不是船舶航向。 |\n| (7) 禁止航行區域界線 | IHO INT 1，N2.2 Limit of area into which entry is prohibited | 依正式界線線型圈定禁入區域，不可與一般限制區或錨泊禁止區混淆。 |\n\n## 作圖及記憶重點\n\n- 引水登輪位置、浮標、沉船、潮流箭頭及禁入界線分屬不同圖式章節，不能只憑外觀相似而混用。\n- 「落潮流2節」須表達流向及速度；「禁止航行區域界線」須表達區域邊界，必要時加註區域名稱或限制說明。\n- 題目只給中文名稱而未提供圖式版次，故本答案先列正確分類與作圖要求。正式練習應使用IHO INT 1原圖描摹，不以Unicode簡圖當作正式圖例。",
+    "practicalAnalysis": "原答案使用Unicode圖案，並非可確認的海圖正式符號，容易讓考生把示意符號當成正確圖式。已改為依IHO INT 1分類逐項說明，並明確要求以正式版次原圖臨摹。仍須取得民國87年原卷所依海圖圖式版本，才能核實當年指定圖樣。",
     "keyPoints": [
       {
-        "point": "Pilot station為引水站。",
+        "point": "引水站屬INT 1 T節Pilotage圖式。",
         "importance": "essential"
       },
       {
-        "point": "Mid-channel buoy為中港浮／航道中央浮標。",
+        "point": "中港浮依Q節浮標圖式，須按安全水域／中央浮標實際型式繪製。",
         "importance": "essential"
       },
       {
-        "point": "Breakwater為防波堤。",
+        "point": "防波堤屬F節港灣水工結構。",
         "importance": "essential"
       },
       {
-        "point": "Dangerous wreck為礙航沉船。",
+        "point": "礙航沉船屬K節Wrecks，須依危險程度及水深資料選圖式。",
+        "importance": "essential"
+      },
+      {
+        "point": "起重機屬D節文化地物／港區設施圖式。",
         "importance": "supporting"
       },
       {
-        "point": "Crane為起重機。",
-        "importance": "supporting"
+        "point": "落潮流2節屬H41，畫流向箭頭並標示2 kn。",
+        "importance": "essential"
       },
       {
-        "point": "Ebb current 2 knots為落潮流2節。",
-        "importance": "supporting"
-      },
-      {
-        "point": "Prohibited area boundary為禁止航行區域界線。",
-        "importance": "supporting"
+        "point": "禁止進入區界線屬N2.2，不可與一般限制區混淆。",
+        "importance": "essential"
       }
     ],
     "references": [
       {
-        "title": "87年甲種引水人引港學官方試題",
-        "sourceType": "official_exam",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2001&t=Q",
-        "supports": "原題"
+        "title": "IHO INT 1 Symbols and Abbreviations used on Paper Charts, Edition 9 (2026)",
+        "sourceType": "international_standard",
+        "issuer": "International Hydrographic Organization",
+        "editionOrEffectiveDate": "2026",
+        "url": "https://iho.int/standards-and-specifications",
+        "supports": "現行國際海圖符號標準；官方頁面列出INT 1第9版及S-4相關規範。"
+      },
+      {
+        "title": "Canadian Chart 1 – Pilotage, Section T",
+        "sourceType": "official_chart_reference",
+        "issuer": "Fisheries and Oceans Canada",
+        "editionOrEffectiveDate": "2026-10-30",
+        "url": "https://charts.gc.ca/publications/chart1-carte1/sections/t-servic/pilotage-eng.html",
+        "supports": "引水登輪位置圖式分類。"
+      },
+      {
+        "title": "Canadian Chart 1 – Hydraulic Structures, Section F",
+        "sourceType": "official_chart_reference",
+        "issuer": "Fisheries and Oceans Canada",
+        "editionOrEffectiveDate": "2026-10-30",
+        "url": "https://charts.gc.ca/publications/chart1-carte1/sections/f-ports/hydraulic-eng.html",
+        "supports": "防波堤圖式分類。"
+      },
+      {
+        "title": "Canadian Chart 1 – Wrecks, Section K",
+        "sourceType": "official_chart_reference",
+        "issuer": "Fisheries and Oceans Canada",
+        "editionOrEffectiveDate": "2026-10-30",
+        "url": "https://charts.gc.ca/publications/chart1-carte1/sections/k-rocks/wrecks-eng.html",
+        "supports": "危險沉船及水深未知沉船圖式分類。"
+      },
+      {
+        "title": "Canadian Chart 1 – Tidal Streams, Section H",
+        "sourceType": "official_chart_reference",
+        "issuer": "Fisheries and Oceans Canada",
+        "editionOrEffectiveDate": "2026-10-30",
+        "url": "https://charts.gc.ca/publications/chart1-carte1/sections/h-tides/tidalstreams-eng.html",
+        "supports": "H40漲潮流、H41落潮流圖式分類。"
+      },
+      {
+        "title": "Canadian Chart 1 – Areas and Limits, Section N",
+        "sourceType": "official_chart_reference",
+        "issuer": "Fisheries and Oceans Canada",
+        "editionOrEffectiveDate": "2026-10-30",
+        "url": "https://charts.gc.ca/publications/chart1-carte1/sections/n-areas/general-eng.html",
+        "supports": "N2.2禁止進入區域界線分類。"
       }
     ],
     "assumptions": [
-      "以民國87年指定海圖圖式為準。"
+      "以現行IHO INT 1第9版的章節分類協助2027備考；民國87年原卷採用的圖式版次尚未取得。"
     ],
     "limitations": [
-      "未取得考選部原卷圖例附圖及1998年指定Chart No.1版次，符號外觀僅文字示意。"
+      "目前查得官方線上Chart 1章節分類，但未取得民國87年原卷附圖及當年指定版次；起重機及中港浮精確圖樣仍須以原版INT 1確認。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部原卷",
+          "item": "INT 1圖式分類與章節",
           "result": "pass",
-          "note": "題文核對完成。"
+          "note": "核對引水站T、浮標Q、防波堤F、沉船K、潮流H、禁入界線N的分類。"
+        },
+        {
+          "item": "原卷指定版次及完整符號圖樣",
+          "result": "needs_review",
+          "note": "未取得民國87年原卷附圖及當年指定版次，起重機與中港浮精確圖樣需以原版INT 1確認。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "087-pilotage-02-answer-v1",
