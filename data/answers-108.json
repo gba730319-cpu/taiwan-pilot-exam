@@ -1246,5 +1246,724 @@
       ]
     },
     "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-108-shiphandling-01",
+    "questionId": "108-shiphandling-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、先求彎曲河道中心線半徑。若1,000公尺為90°彎道的弧長，則弧度θ=π/2，半徑：\nR=L/θ=1,000÷(π/2)=636.62 m。\n二、以題目給定對地速度SOG=10 kn計算對地航跡轉向率：\n10 kn=10×0.514444=5.144 m/s。\nω=V/R=5.144÷636.62=0.00808 rad/s。\n換算為度／分鐘：\nROT=0.00808×(180/π)×60≈27.8°/min。\n因此，若1,000m代表90°彎道弧長，且題目所給10節是沿彎道的對地速度，對地航跡轉向率約27.8°/min。\n三、潮流的處理：題目另給落潮流2節，但未明確說明船舶相對潮流方向、河道軸線與船舶艏向關係。若10節是SOG，計算地面航跡轉向率時不應再把2節重複加減；若題目其實要求以對水速度STW計算船體艏向ROT，則必須知道落潮流相對航向是順流、逆流或橫流。假設同一直線順流，STW約8節；假設逆流，STW約12節，但這只是方向已知時的條件值，不能由題幹單獨決定。\n四、ROTI故障的實務替代：使用陀螺羅經艏向變化、ECDIS／雷達平行指標、岸標方位、GPS航跡及舵角回饋交叉監控；降低速度並保留足夠轉向水域，採分段小幅度操舵及明確回報，不可僅依計算值盲目操船。",
+    "practicalAnalysis": "此題有一個重要物理區分：船舶艏向ROT與對地航跡轉向率不一定相同，尤其在橫流下，兩者差異可能很大。因題目提供SOG，且彎道長度為地理航道長度，27.8°/min是可直接計算的對地航跡值；落潮流2節只有在要求STW／船體相對水體的轉向率且流向已知時才能納入。",
+    "keyPoints": [
+      {
+        "point": "90°=π/2 rad；彎道半徑R=1,000/(π/2)=636.62m",
+        "importance": "essential"
+      },
+      {
+        "point": "10kn=5.144m/s",
+        "importance": "essential"
+      },
+      {
+        "point": "ROT=V/R=0.00808rad/s≈27.8°/min",
+        "importance": "essential"
+      },
+      {
+        "point": "SOG與STW不可混用；潮流方向未明時不能逕自加減2kn",
+        "importance": "essential"
+      },
+      {
+        "point": "ROTI故障時以羅經、雷達、ECDIS、岸標及舵角交叉監控",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "108年引水人考試官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=108060&q=1&s=1003&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目原文與配分。"
+      },
+      {
+        "title": "IMO Resolution A.526(13) — Performance standards for rate-of-turn indicators",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.526%2813%29.pdf",
+        "sourceType": "international_resolution",
+        "issuer": "IMO",
+        "supports": "ROTI用途及性能標準。"
+      }
+    ],
+    "assumptions": [
+      "假設彎道中心線弧長為1,000m，轉向角90°；對地速度10kn。"
+    ],
+    "limitations": [
+      "計算假設1,000m是90°彎道中心線弧長；若題目指直線河段長度或其他幾何定義，半徑會不同。",
+      "題幹未說明落潮流與船舶航向的相對方向，故不能唯一決定STW。此答案以SOG計算對地航跡轉向率。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考題文字、題號及配分",
+          "result": "pass",
+          "note": "依考選部108年官方原卷核對。"
+        },
+        {
+          "item": "技術內容與歷史標準",
+          "result": "needs_review",
+          "note": "部分技術細節仍須依船舶型式、原廠手冊或考試時點版本確認。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-108-shiphandling-02",
+    "questionId": "108-shiphandling-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "Azipod（吊艙式電力推進系統）是將電動推進馬達置於船底外部的水下吊艙內，吊艙可繞垂直軸旋轉，螺槳推力方向隨吊艙轉向，兼具推進與操舵功能，通常不需傳統長軸系及獨立舵。\n一、主要構造：船上發電機或電力系統供電，經變頻／電力控制設備驅動吊艙內電動馬達；吊艙、螺槳、旋轉機構、冷卻與控制系統組成推進單元。可有拉式（puller）或推式（pusher）配置，亦有單機或多機配置。\n二、操縱原理：吊艙旋轉改變推力方向，可提供前進、倒車及橫向推力；多吊艙船可透過各吊艙推力向量組合，產生艏向控制及橫移能力。相較傳統固定軸線螺槳加舵，低速操縱及狹窄水域機動性通常較佳。\n三、優點：\n1. 推力方向可快速改變，低速操縱、靠離泊及迴轉能力佳。\n2. 不需長軸系及傳統舵，船尾布置彈性增加。\n3. 推進器可直接對準所需推力方向，減少部分舵阻及傳動損失。\n4. 船內振動與噪音可降低，乘客舒適性較佳。\n5. 配合多吊艙及自動控制可提高定位及操縱精度。\n四、限制及風險：\n1. 系統複雜且造價、維護及備件成本較高。\n2. 吊艙軸承、密封、電纜、冷卻、旋轉驅動及電力控制故障會影響推進能力。\n3. 推力與操縱效果受船速、螺槳轉速、吊艙角度、船體流場及淺水影響；不可假設任何角度均有相同推力。\n4. 操縱指令與傳統舵／主機操作方式不同，船長及引水人須熟悉控制介面、模式、限制與故障程序。\n五、引水操縱注意事項：登輪後完成MPX，確認吊艙數量、最大旋轉角速度、最大推力、倒車／制動能力、單機故障模式、緊急停止與備援電源；先確認指令單位及操縱模式，避免將傳統舵角概念直接套用。靠離泊時小幅、漸進調整推力向量，注意吊艙排流對碼頭、鄰船、浮筒及小船的影響；發生故障時立即確認剩餘吊艙能力並重新規劃航路。",
+    "practicalAnalysis": "Azipod不是「螺槳可轉」而已，而是電動吊艙推進器兼具推進與操舵。引水人最重要的是熟悉該船控制介面及失效模式，不能用傳統舵角與主機車鐘經驗直接替代製造商操作程序。",
+    "keyPoints": [
+      {
+        "point": "電動馬達置於水下吊艙，吊艙可旋轉以改變推力方向",
+        "importance": "essential"
+      },
+      {
+        "point": "推進與操舵整合，無傳統長軸系及獨立舵",
+        "importance": "essential"
+      },
+      {
+        "point": "低速機動、靠離泊及迴轉能力通常較佳",
+        "importance": "essential"
+      },
+      {
+        "point": "有拉式／推式、單吊艙／多吊艙等配置",
+        "importance": "essential"
+      },
+      {
+        "point": "成本、維修、密封、電力與控制系統複雜度較高",
+        "importance": "essential"
+      },
+      {
+        "point": "依個船原廠手冊確認操縱模式、推力限制及失效程序",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "108年引水人考試官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=108060&q=1&s=1003&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目原文與配分。"
+      },
+      {
+        "title": "ABB Azipod electric propulsion",
+        "url": "https://www.abb.com/global/en/industries/marine/solutions/marine-electric-propulsion/azipod",
+        "sourceType": "manufacturer_technical",
+        "issuer": "ABB",
+        "supports": "Azipod為吊艙式、無齒輪電力推進器，可360度旋轉兼具推進與操舵。"
+      },
+      {
+        "title": "IMO Resolution A.960(23) — Pilotage procedures",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "sourceType": "international_resolution",
+        "issuer": "IMO",
+        "supports": "引水人與船長、駕駛台團隊的資訊交換及BRM訓練。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "不同世代、廠牌及船型的Azipod控制邏輯、性能與故障程序不完全相同；實際操縱須依個船原廠手冊及海試資料。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考題文字、題號及配分",
+          "result": "pass",
+          "note": "依考選部108年官方原卷核對。"
+        },
+        {
+          "item": "技術內容與歷史標準",
+          "result": "needs_review",
+          "note": "部分技術細節仍須依船舶型式、原廠手冊或考試時點版本確認。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-108-shiphandling-03",
+    "questionId": "108-shiphandling-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "鰭狀穩定器（Fin Stabilizer）是安裝於船體兩舷水下、通常靠近船中附近的翼狀裝置，藉由產生升力／水動力矩抵銷船舶橫搖。\n簡圖（示意，非比例）：\n船艏 → \n        ┌────────船體────────┐\n左舷水下 ──╲____ 鰭狀穩定器 ____╱── 右舷水下\n             （可轉動翼面）\n一、種類：\n1. 主動式（Active fin）：由感測器偵測橫搖，控制系統依橫搖相位調整鰭片攻角，產生反向力矩。\n2. 被動式（Passive fin）：鰭片固定或依水流自行產生阻尼，通常不如主動式可依船舶運動即時調整。\n3. 固定式與可收放式：固定式常態突出船體；可收放式可在低速、港內、狹窄水域或不使用時收回，以減少阻力及避免碰撞。\n4. 部分系統可搭配襟翼（flap）或零航速穩定系統；不同系統設計及適用速度不同。\n二、功能：減少船舶橫搖、改善乘客及船員舒適性、降低貨物移動風險、改善工作環境；不能消除縱搖、艏搖、橫移，也不能取代船舶穩性設計。\n三、使用注意事項：\n1. 鰭片需有足夠水速才能產生設計升力，低速或停船時傳統航行式鰭片效能大幅下降，除非為專用零航速型。\n2. 港內、靠離泊、淺水、狹窄水域、拖船靠近或有浮物時，依船舶手冊決定是否收回，避免與碼頭、拖船、繫纜、浮筒或海底障礙物接觸。\n3. 收放前確認船速、海況、兩舷水下淨空及液壓／電力系統狀態；不可在超過製造商限制的速度下收放。\n4. 若穩定器故障或卡在伸出位置，應評估阻力、操縱性及靠泊安全，必要時通知VTS並調整航行計畫。\n5. 引水人須在MPX中詢問鰭片狀態及操作限制，避免誤把鰭片外伸當作船舶側推器或靠泊輔助裝置。",
+    "practicalAnalysis": "題目要求畫標誌、種類、功能及注意事項。圖示重點是兩舷水下翼片，不是水線以上的舷側標誌。主動式依感測回授調整攻角；固定／被動式則依水流產生阻尼。傳統鰭片依賴船速，在港內低速時通常須依手冊收回。",
+    "keyPoints": [
+      {
+        "point": "鰭片位於船體兩舷水下，產生水動力以抵銷橫搖",
+        "importance": "essential"
+      },
+      {
+        "point": "主動式與被動式；固定式與可收放式",
+        "importance": "essential"
+      },
+      {
+        "point": "降低橫搖、改善舒適性及貨物安全，不等於增加船舶基本穩性",
+        "importance": "essential"
+      },
+      {
+        "point": "航行式鰭片需水速，低速／停船效能有限",
+        "importance": "essential"
+      },
+      {
+        "point": "港內、靠泊、拖船作業及淺水區須確認收放限制",
+        "importance": "essential"
+      },
+      {
+        "point": "依船舶原廠手冊及MPX確認鰭片狀態",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "108年引水人考試官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=108060&q=1&s=1003&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目原文與配分。"
+      },
+      {
+        "title": "Fincantieri — Stabilization systems",
+        "url": "https://www.fincantieri.com/en/business/products/systems--components-e-infrastructures/stabilization-propulsion-positioning-and-generation-systems",
+        "sourceType": "manufacturer_technical",
+        "issuer": "Fincantieri",
+        "supports": "主動式與可收放式鰭狀穩定器之用途及型式。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "不同船型的鰭片位置、型式、控制方式及允許收放速度各異；圖示為概念示意，不代表某一船級或廠牌的標準符號。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考題文字、題號及配分",
+          "result": "pass",
+          "note": "依考選部108年官方原卷核對。"
+        },
+        {
+          "item": "技術內容與歷史標準",
+          "result": "needs_review",
+          "note": "部分技術細節仍須依船舶型式、原廠手冊或考試時點版本確認。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-108-shiphandling-04",
+    "questionId": "108-shiphandling-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "BRM（Bridge Resource Management）是將駕駛台人員、船舶設備、資訊及外部支援資源整合管理，以降低人為因素造成的航行事故。BRM-P可理解為引水作業中將BRM原則制度化、計畫化的訓練與執行方案；不是單靠一份書面計畫即可達成。\n一、沿革：\n1. 航海事故調查顯示，事故常非單一操船技術錯誤，而涉及瞭望不足、溝通失敗、資訊未分享、權威梯度、疲勞及錯誤決策。\n2. 航空業Crew Resource Management（CRM）的人因管理理念逐步引入航運，發展為Bridge Resource Management。\n3. IMO A.960(23)於2003年提出引水人訓練及作業程序建議，明確強調引水人、船長及駕駛台人員的溝通、協調、資訊交換及BRM訓練。\n4. ISM Code、STCW及各國船員訓練制度持續強化安全管理、團隊合作及人因風險控制。\n二、精神主旨：\n1. 情境覺察（Situational Awareness）：所有人共享船位、航向、速度、交通、風流、UKC及設備狀態。\n2. 清楚溝通：使用標準海事通信用語，明確下達操船指令並要求回讀確認（closed-loop communication）。\n3. 角色與責任明確：引水人提供地方知識及操船建議；船長與OOW仍負船舶安全責任，須監控引水人行動。\n4. 團隊監控與交叉檢查：航向、速度、舵令、車令、雷達目標、ECDIS及船位均由團隊交叉驗證。\n5. 工作負荷管理：合理分配瞭望、操船、通訊及記錄工作，避免單一人員過載。\n6. 預先計畫與備援：航路、轉向點、速度、UKC、拖船、緊急錨泊及失去舵／主機等應變計畫。\n7. 勇於質疑：任何團隊成員發現偏離計畫或不安全狀況，應及時提出；避免權威梯度壓制安全訊息。\n三、執行流程：\n登輪後MPX→共同確認航路與風險→指定各人職責→執行閉環通訊→持續監控與修正→事件後檢討與回饋。",
+    "practicalAnalysis": "本題特別問BRM-P沿革與精神，宜將CRM人因管理背景、IMO A.960(23)引水人BRM訓練及MPX連起來。不能把BRM-P寫成引水人單方面指揮制度；它的核心是共享資訊、互相監控、保留船長責任及鼓勵安全質疑。",
+    "keyPoints": [
+      {
+        "point": "由航空CRM人因管理概念發展至航海BRM",
+        "importance": "essential"
+      },
+      {
+        "point": "IMO A.960(23)強調引水人BRM訓練及MPX",
+        "importance": "essential"
+      },
+      {
+        "point": "共享情境覺察、角色責任清楚、閉環溝通",
+        "importance": "essential"
+      },
+      {
+        "point": "交叉監控、工作負荷管理、權威梯度管理",
+        "importance": "essential"
+      },
+      {
+        "point": "航前計畫、備援方案、持續監控及事後回饋",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "108年引水人考試官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=108060&q=1&s=1003&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目原文與配分。"
+      },
+      {
+        "title": "IMO Resolution A.960(23) — Pilotage procedures",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "sourceType": "international_resolution",
+        "issuer": "IMO",
+        "supports": "引水人與船長、駕駛台團隊的資訊交換及BRM訓練。"
+      },
+      {
+        "title": "IMO A.960(23) — MPX and bridge resource management",
+        "url": "https://www.rise.odessa.ua/texts/A960_23e.php3",
+        "sourceType": "international_resolution",
+        "issuer": "IMO",
+        "supports": "BRM、MPX、緊急狀況及持續訓練內容。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "BRM-P並非所有國家或港口都使用同一正式計畫名稱；本答案將其作為引水作業中的BRM計畫化實施概念，不主張它是IMO獨立公約或單一強制性規則。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考題文字、題號及配分",
+          "result": "pass",
+          "note": "依考選部108年官方原卷核對。"
+        },
+        {
+          "item": "技術內容與歷史標準",
+          "result": "needs_review",
+          "note": "部分技術細節仍須依船舶型式、原廠手冊或考試時點版本確認。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-108-shiphandling-05",
+    "questionId": "108-shiphandling-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "Steerage way是船舶具有足夠相對水流通過舵面，使舵能產生有效水動力並維持或改變船舶航向的最低操縱狀態。它不是一個對所有船舶固定相同的速度值，也不等於單純的對地速度（SOG）。\n一、原理：舵力取決於流經舵面的速度、舵面積、舵角、舵型及舵後流場。船舶前進時，水流通過舵面形成升力；螺槳排流亦可能在低速時增加舵面流速，因此有些船在低速甚至接近零對地速度時，仍可能因螺槳流而保有一定舵效。\n二、影響因素：\n1. 船速及對水速度（STW）：舵效通常隨舵面水流速度增加而增強；SOG不等於STW。\n2. 主機與螺槳：螺槳型式、轉速、排流方向及舵位會改變舵面流速。\n3. 舵的型式、面積、舵角及舵機性能。\n4. 船體形狀、吃水、縱傾、載況及艉部流場。\n5. 水深、淺水效應、岸壁效應及橫流。\n6. 風壓、浪、流及船舶慣性。\n7. 雙槳、雙舵、CPP、Azipod或其他推進系統的配置。\n三、操船應用：\n1. 進港、靠泊及狹水道操船時，須維持足夠舵效但避免過速。\n2. 在逆流或順流中應分清STW與SOG；即使SOG很低，若STW及螺槳排流足夠，仍可能有舵效，反之亦然。\n3. 低速時應以小幅、漸進車舵配合拖船或側推器，不可假設舵在任何低速下都有效。\n4. 若失去舵效，應評估增加螺槳排流、改變推進器推力方向、使用側推器／拖船或採取其他備援措施。\n四、Steerage way與minimum steerage speed：前者描述船舶能有效操舵的狀態，後者是特定船舶及環境下維持該狀態所需的最低速度，須由船舶資料及實際試驗判斷。",
+    "practicalAnalysis": "引水人最容易混淆的是SOG、STW與舵效。舵只感受到舵面附近的水流，而非GPS顯示的對地速度；螺槳排流、橫流及推進器型式都會改變最低舵效速度。",
+    "keyPoints": [
+      {
+        "point": "Steerage way是足夠水流通過舵面以維持操舵效果",
+        "importance": "essential"
+      },
+      {
+        "point": "不是固定節數，也不等於SOG",
+        "importance": "essential"
+      },
+      {
+        "point": "STW、螺槳排流、舵型、船速及載況影響舵效",
+        "importance": "essential"
+      },
+      {
+        "point": "淺水、岸壁、橫流、風浪及船舶慣性會改變操縱反應",
+        "importance": "essential"
+      },
+      {
+        "point": "minimum steerage speed須依個船及實際環境決定",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "108年引水人考試官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=108060&q=1&s=1003&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目原文與配分。"
+      },
+      {
+        "title": "IMO Resolution A.960(23) — Pilotage procedures",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "sourceType": "international_resolution",
+        "issuer": "IMO",
+        "supports": "引水人與船長、駕駛台團隊的資訊交換及BRM訓練。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "不同船舶的最低舵效速度及螺槳排流影響須依海試、操縱手冊及實際狀態判斷，沒有可通用的固定數值。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考題文字、題號及配分",
+          "result": "pass",
+          "note": "依考選部108年官方原卷核對。"
+        },
+        {
+          "item": "技術內容與歷史標準",
+          "result": "needs_review",
+          "note": "部分技術細節仍須依船舶型式、原廠手冊或考試時點版本確認。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-108-shiphandling-06",
+    "questionId": "108-shiphandling-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "Washing damage是船舶螺槳排流、船體通過時的水流加速／回流、船行波及水位變化，對鄰近船舶、碼頭、護岸、浮筒、繫纜、海床或水下設施造成的沖刷、碰撞、拉扯或結構損害。其機制包括：\n一、螺槳射流（propeller wash）：螺槳產生高速水流，若距碼頭、岸壁、繫泊船或小艇過近，可能沖擊船體、繫纜、護舷及海床。\n二、船行波與回流：船舶通過時造成水位下降、回升、橫向流及波浪；近岸狹水道中可能引起繫泊船大幅運動、纜繩受力、船舶互撞及岸坡沖刷。\n三、淺水及岸壁效應：水流受限後流速增加、壓力場改變，可能加劇吸引、排斥、下沉及船行波。\n四、風險辨識：靠近碼頭、船渠、漁港、浮筒、小型船舶、海底管線或未固定物時，若需大車、急倒車或大角度操舵，washing damage風險升高。\n疑慮發生時的措施：\n1. 及早減速至可安全操縱的最低速度，避免不必要的大車、急倒車及高轉速螺槳排流。\n2. 與岸壁、繫泊船、小艇、浮筒及水下設施保持適當距離，依航道限制及船舶操縱性調整通過位置。\n3. 需要改變推力時採漸進方式，避免突然增加螺槳轉速；但不可為避免洗流而犧牲舵效或航行安全。\n4. 與VTS、拖船、碼頭及附近船舶通聯，提醒可能受洗流影響者；必要時暫停作業或等待水域淨空。\n5. 靠離泊時合理使用拖船及側推器，避免以主機大車直接沖擊碼頭、浮筒或鄰船。\n6. 若已發生損害或近失事件，立即通報、檢查纜繩／碼頭／護舷及水下設施，保存時間、位置、車鐘與風流紀錄。\n",
+    "practicalAnalysis": "Washing damage不是只有螺槳水流沖壞物件，也包含船行波與水位變化引起的繫泊船運動及岸坡沖刷。操船上要在「減少洗流」與「維持舵效及安全操縱」之間取得平衡，不能為了減少排流而任意失去操縱能力。",
+    "keyPoints": [
+      {
+        "point": "螺槳高速排流可能沖擊碼頭、浮筒、繫纜、鄰船及海床",
+        "importance": "essential"
+      },
+      {
+        "point": "船行波、回流及水位變化可能造成繫泊船運動與岸坡沖刷",
+        "importance": "essential"
+      },
+      {
+        "point": "淺水及狹窄水域會加劇流速與壓力效應",
+        "importance": "essential"
+      },
+      {
+        "point": "減速、減少不必要大車及急倒車，保持適當距離",
+        "importance": "essential"
+      },
+      {
+        "point": "採漸進推力，配合拖船及側推器，並通報VTS與受影響單位",
+        "importance": "essential"
+      },
+      {
+        "point": "發生事件後檢查設施並保存紀錄",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "108年引水人考試官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=108060&q=1&s=1003&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目原文與配分。"
+      },
+      {
+        "title": "PIANC — Harbour approach channels design and ship-generated effects",
+        "url": "https://www.pianc.org/",
+        "sourceType": "industry_guidance",
+        "issuer": "PIANC",
+        "supports": "港池與碼頭區船舶興波、螺槳排流及近岸水動力效應之工程背景。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "Washing damage不是單一標準化事故分類，各港口對洗流、船行波、螺槳排流的定義可能略有差異；本答案按港池及碼頭附近常見水動力損害作答。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考題文字、題號及配分",
+          "result": "pass",
+          "note": "依考選部108年官方原卷核對。"
+        },
+        {
+          "item": "技術內容與歷史標準",
+          "result": "needs_review",
+          "note": "部分技術細節仍須依船舶型式、原廠手冊或考試時點版本確認。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-108-english-01",
+    "questionId": "108-english-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "(1) 任何需要引水人領航的船舶，均應懸掛國際通用或中華民國政府主管機關規定的「招請引水人信號」。船舶所有人或船長得事先與當地引水人辦事處聯繫，辦理僱用引水人的相關事宜。若有兩艘或兩艘以上船舶同時懸掛招請引水人信號，引水人應先為先到港的船舶提供服務；但其中如有船舶遇險，引水人應優先為該遇險船舶提供服務。\n(2) 船舶僱用引水人登輪領航時，船長應降下「招請引水人信號」，改懸表示「引水人在船」的信號，並將船舶的操縱性能、噸位、船長、吃水、航速等資料告知引水人。引水人要求查驗相關證書時，船長不得拒絕。\n(3) 引水人除持有交通部核發的引水人執業證書，並取得該引水區域當地航政主管機關核發的登記證書外，不得執行領航服務。\n用語補充：pilot request signal＝招請引水人信號；pilot on board＝引水人在船信號；maneuvering characteristics＝操縱性能；certificate of registration＝登記證書。",
+    "practicalAnalysis": "翻譯應保留法律義務語氣：shall為「應」，may為「得」，shall not reject為「不得拒絕」。第三段的兩項證件是執業證書及引水區域登記證書，不應誤譯成一般船員適任證書。",
+    "keyPoints": [
+      {
+        "point": "shall／shall not須譯出法定義務與禁止",
+        "importance": "essential"
+      },
+      {
+        "point": "first-come vessel為先到港船舶；distress vessel優先",
+        "importance": "essential"
+      },
+      {
+        "point": "pilot request signal與pilot on board兩種信號不同",
+        "importance": "essential"
+      },
+      {
+        "point": "MOTC執業證書及地方航政機關登記證書須同時具備",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "108年引水人考試官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=108060&q=1&s=1003&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目原文與配分。"
+      },
+      {
+        "title": "引水法第17至21條",
+        "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=H0028005&type=-1",
+        "sourceType": "official_law",
+        "issuer": "交通部",
+        "supports": "題幹所述招請信號、先到港／遇險優先、船舶資料告知及執業登記之法源。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "本題翻譯依108年題幹英文原文；法條內容仍須以108年考試當時有效版本核對。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考題文字、題號及配分",
+          "result": "pass",
+          "note": "依考選部108年官方原卷核對。"
+        },
+        {
+          "item": "技術內容與歷史標準",
+          "result": "pass",
+          "note": "已依可取得的IMO／官方技術資料核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-108-english-02",
+    "questionId": "108-english-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "(1) Any action taken to avoid collision shall be in accordance with the provisions of the International Regulations for Preventing Collisions at Sea. When the circumstances of the case admit, such action shall be positive, made in ample time and with due regard to the observance of good seamanship.\n(2) Any alteration of course and/or speed to avoid collision shall, if the circumstances of the case admit, be large enough to be readily apparent to another vessel observing visually or by radar. A succession of small alterations of course and/or speed should be avoided.\n可替代較貼近COLREG Rule 8原文的用語：\n- positive action：明確、果斷的行動\n- in ample time：及早／有充分時間\n- good seamanship：優良船藝\n- readily apparent：明顯可察覺\n- a succession of small alterations：連續多次小幅改變",
+    "practicalAnalysis": "本題是COLREG Rule 8避碰行動的翻譯，應保留「環境許可時」的條件語氣；不得把所有情況都寫成必須大幅轉向。Rule 8要求避碰行動及早、明確且在可行時幅度足夠，避免連續小幅修正。",
+    "keyPoints": [
+      {
+        "point": "依COLREG Rule 8使用positive action、ample time及good seamanship",
+        "importance": "essential"
+      },
+      {
+        "point": "course and/or speed：航向及／或航速",
+        "importance": "essential"
+      },
+      {
+        "point": "readily apparent by sight or radar：目視或雷達均可明顯察覺",
+        "importance": "essential"
+      },
+      {
+        "point": "避免連續多次小幅航向／航速改變",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "108年引水人考試官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=108060&q=1&s=1003&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目原文與配分。"
+      },
+      {
+        "title": "IMO — COLREG: Preventing collisions at sea",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/preventing-collisions.aspx",
+        "sourceType": "official_imo_guidance",
+        "issuer": "IMO",
+        "supports": "Rule 8避碰行動應及早、明確且具足夠幅度。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "本題英文為建議參考譯文，並非考選部官方標準答案；可接受的同義表達不只一種。"
+    ],
+    "verification": {
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考題文字、題號及配分",
+          "result": "pass",
+          "note": "依考選部108年官方原卷核對。"
+        },
+        {
+          "item": "技術內容與歷史標準",
+          "result": "pass",
+          "note": "已依可取得的IMO／官方技術資料核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-108-english-03",
+    "questionId": "108-english-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "(1) Cardinal buoys: Cardinal buoys are navigation marks used in the IALA Maritime Buoyage System to indicate the direction of safe water in relation to a danger. They are named North, East, South and West cardinal marks. A vessel should pass on the named safe-water side of the mark.\n(2) Closest point of approach (CPA): CPA is the shortest distance that will occur between two vessels if they maintain their present courses and speeds. It is used, together with time to CPA (TCPA), to assess the risk of collision.\n(3) Manoeuvring speed: Manoeuvring speed is a speed selected for safe and effective ship handling in confined waters or during operations such as berthing, unberthing and turning. It must provide adequate control while allowing sufficient time and distance to stop or change direction.\n(4) List: List is a permanent or sustained inclination of a vessel to port or starboard, usually caused by an uneven transverse distribution of weight. It should be distinguished from heel, which is generally a temporary inclination caused by turning, wind or external forces.\n",
+    "practicalAnalysis": "定義要精確區分CPA與TCPA、manoeuvring speed與minimum steerage speed，以及list與heel。Cardinal buoy的重點是標示危險物周圍安全水域方向，不是單純標示航道左／右側。",
+    "keyPoints": [
+      {
+        "point": "Cardinal buoys：北、東、南、西方位標，指示危險物周圍安全水域方向",
+        "importance": "essential"
+      },
+      {
+        "point": "CPA：兩船維持現有航向航速時預計最近會遇距離",
+        "importance": "essential"
+      },
+      {
+        "point": "Manoeuvring speed：受限水域操船所選的可控速度",
+        "importance": "essential"
+      },
+      {
+        "point": "List：持續向左或右傾斜，通常由橫向重量不平衡造成",
+        "importance": "essential"
+      },
+      {
+        "point": "List與短暫外力造成的heel應區分",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "108年引水人考試官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=108060&q=1&s=1003&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目原文與配分。"
+      },
+      {
+        "title": "IALA Maritime Buoyage System",
+        "url": "https://www.iala.int/",
+        "sourceType": "international_standard",
+        "issuer": "IALA",
+        "supports": "方位標誌的安全水域方向及系統定義。"
+      },
+      {
+        "title": "IMO COLREG Rule 7",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/preventing-collisions.aspx",
+        "sourceType": "international_convention",
+        "issuer": "IMO",
+        "supports": "CPA/TCPA與碰撞危險評估背景。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "英文定義為參考作答稿，並非官方逐字標準答案。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考題文字、題號及配分",
+          "result": "pass",
+          "note": "依考選部108年官方原卷核對。"
+        },
+        {
+          "item": "技術內容與歷史標準",
+          "result": "needs_review",
+          "note": "部分技術細節仍須依船舶型式、原廠手冊或考試時點版本確認。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "answer-108-english-04",
+    "questionId": "108-english-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "A pilot's presence on board does not transfer the master's responsibility for the safety of the ship. Nevertheless, accidents may occur during pilotage because of several interacting human, technical and environmental factors.\n\nFirst, poor communication is a major risk. The master, pilot and bridge team may have different expectations, use unclear language or fail to exchange essential information about the ship's manoeuvring characteristics, engine limitations, draft, route and local conditions. A weak master-pilot information exchange can therefore lead to misunderstanding.\n\nSecond, an excessive authority gradient may prevent officers from questioning a pilot's decisions. Bridge team members may notice an unsafe deviation but remain silent because they regard the pilot as the local expert. At the same time, a pilot may assume that the bridge team is monitoring the vessel when it is not.\n\nThird, inadequate situational awareness and workload management can contribute to accidents. A busy port approach may involve traffic, tugs, VTS communications, weather changes, shallow water and frequent manoeuvres. If the bridge team is overloaded, important radar information, position errors or changes in the vessel's speed may be missed.\n\nTechnical factors are also important. Steering gear, propulsion, radar, ECDIS or communication failures may occur. An unfamiliar control system, inaccurate chart data or an incorrect understanding of the vessel's stopping distance can make a difficult situation worse. Fatigue, stress and language barriers further reduce decision-making ability.\n\nSeveral measures can reduce these risks. Before pilotage begins, the master and pilot should conduct a comprehensive master-pilot information exchange and agree on the passage plan, critical points, under-keel clearance, speed limits, tug arrangements and contingency plans. Roles should be clearly assigned. Orders should be repeated and confirmed through closed-loop communication.\n\nThe bridge team must continuously monitor the vessel's position, course, speed and progress against the agreed plan. Officers should be encouraged to speak up whenever they identify a danger. The pilot should welcome questions and explain significant changes to the plan. Radar, ECDIS, visual bearings and independent position checks should be used together rather than relying on one source.\n\nFinally, regular BRM training, simulator exercises, fatigue management and lessons learned from incidents can improve teamwork. Safe pilotage is a shared effort: the pilot contributes local knowledge, while the master and bridge team retain their responsibility to monitor and challenge when necessary.",
+    "practicalAnalysis": "作文約300字，需直接回應兩部分：事故肇因與改善方法。高分答案宜包括MPX、權威梯度、閉環溝通、情境覺察、設備失效、疲勞與持續監控。",
+    "keyPoints": [
+      {
+        "point": "事故因素：溝通不良、MPX不足、權威梯度、監控失效、工作負荷過高",
+        "importance": "essential"
+      },
+      {
+        "point": "設備與資料因素：舵機／主機／雷達／ECDIS故障、海圖或操縱性能資訊錯誤",
+        "importance": "essential"
+      },
+      {
+        "point": "人因因素：疲勞、壓力、語言及文化障礙",
+        "importance": "essential"
+      },
+      {
+        "point": "改善：共同航路計畫、清楚分工、closed-loop communication",
+        "importance": "essential"
+      },
+      {
+        "point": "鼓勵船員提出質疑，持續交叉監控位置、航向、速度及計畫偏差",
+        "importance": "essential"
+      },
+      {
+        "point": "BRM訓練、模擬器、疲勞管理及事故經驗回饋",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "108年引水人考試官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=108060&q=1&s=1003&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目原文與配分。"
+      },
+      {
+        "title": "IMO Resolution A.960(23) — Pilotage procedures",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "sourceType": "international_resolution",
+        "issuer": "IMO",
+        "supports": "引水人與船長、駕駛台團隊的資訊交換及BRM訓練。"
+      },
+      {
+        "title": "IMO A.960(23) — MPX and bridge resource management",
+        "url": "https://www.rise.odessa.ua/texts/A960_23e.php3",
+        "sourceType": "international_resolution",
+        "issuer": "IMO",
+        "supports": "BRM、MPX、緊急狀況及持續訓練內容。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "英文作文為約300字參考稿，並非考選部官方範文；實際評分可能接受其他有條理且專業正確的論述。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考題文字、題號及配分",
+          "result": "pass",
+          "note": "依考選部108年官方原卷核對。"
+        },
+        {
+          "item": "技術內容與歷史標準",
+          "result": "needs_review",
+          "note": "部分技術細節仍須依船舶型式、原廠手冊或考試時點版本確認。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
   }
 ]
