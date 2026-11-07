@@ -1,0 +1,56 @@
+[
+  {
+    "id": "086-kaohsiung-waterway-01-answer-v1",
+    "questionId": "086-kaohsiung-waterway-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、繪圖範圍】\n高雄港簡圖應標示第一、第二港口、兩側防波堤、港內主航道、迴船池、主要商港區、碼頭、船渠、貨櫃中心、導航設施、浮筒、錨地及禁錨區。\n【二、港區骨架】\n北↑；旗津／高雄燈塔；第一港口；蓬萊、鹽埕、苓雅區；中島區；前鎮區；小港區；大仁／中興區；第二港口迴船池；第二港口外海。\n【三、寬度】\n各港池及航道水面寬度應依1997年海圖或港務工程圖量測，並標示測量位置及單位。2010年指南及現行港區已因浚深、碼頭擴建及填築而變更，不能直接回推1997年數值。",
+    "practicalAnalysis": "本題30分，先建立第一、第二港口與各商港區骨架，再標出碼頭、導航設施及水面寬度。1997年港圖未取得前，不填未核實寬度。",
+    "keyPoints": [
+      {
+        "point": "標出第一、第二港口及防波堤。",
+        "importance": "essential"
+      },
+      {
+        "point": "標出主要商港區、碼頭、船渠及貨櫃中心。",
+        "importance": "essential"
+      },
+      {
+        "point": "標出高雄燈塔、燈杆、導標、燈浮及錨地。",
+        "importance": "essential"
+      },
+      {
+        "point": "水面寬度依1997年海圖或工程圖量測。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "86年甲種引水人高雄港地方題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=040&code=086160&q=1&s=5004&t=Q",
+        "supports": "原題"
+      }
+    ],
+    "assumptions": [
+      "以民國86年高雄港考區為準。"
+    ],
+    "limitations": [
+      "未取得1997年高雄港完整港區配置圖及各港池工程測量圖，故不臆造水面寬度及精確岸線。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部86年高雄港地方題",
+          "result": "pass",
+          "note": "題文核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
