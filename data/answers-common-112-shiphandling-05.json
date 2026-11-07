@@ -1,0 +1,85 @@
+[
+  {
+    "id": "answer-112-shiphandling-05",
+    "questionId": "112-shiphandling-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、港勤拖船的基本安全操作要求\n（一）拖船及設備適任：拖船應依工作性質具備足夠馬力、bollard pull、操縱性能、穩度及適當推進器型式；拖纜、拖鈎、拖纜機、導纜器、拖帶柱、護舷及快速脫纜裝置應定期檢查、保養及測試，並符合船級及主管機關要求。\n（二）拖船人員資格與訓練：船長及船員應具備適當證照、熟悉拖船操縱、拖帶設備、緊急脫纜、落水救援、消防及人員防護程序；應定期演練拖纜斷裂、拖船失去動力、拖船傾覆風險及人員落水等情況。\n（三）作業前風險評估與計畫：引水人、拖船調度單位、拖船船長及商船船長應確認船舶尺度、吃水、風流、港池空間、碼頭位置、拖船艘數與馬力、拖帶方式、拖纜位置、作業順序及緊急方案。特殊或非例行拖帶應有書面風險評估及作業計畫。\n\n二、拖船作業中的操縱及人員安全\n（一）拖船應依引水人與商船駕駛臺協調的作業計畫執行拖帶、推頂、護航或協助轉向；拖船船長須確認指令清楚、拖船位置安全及推力方向正確。引水人不得以口頭指令取代拖船船長對拖船自身安全的判斷。\n（二）拖纜受力與危險區：拖纜應使用適當強度、角度及導纜點，避免過度側向拉力及不利lead angle；甲板人員不得站在拖纜回彈區（snap-back zone）、纜繩圈內或受力纜繩可能掃過的位置。拖纜應避免磨損、打結、突然受力及過度衝擊負荷。\n（三）避免拖船被拖覆（girting）：拖船若在拖纜受力方向與船體橫向形成危險角度，可能被主拖船或被協助船舶拖至橫傾、進水甚至傾覆。拖船應保持安全相對位置、控制拖纜角度及張力，並確保快速脫纜裝置隨時可用。\n（四）推頂作業：推頂時應選擇船體結構強度足夠的位置，避免推在外板薄弱區、舷梯、救生設備或突出構件；保持適當推頂角度與護舷接觸，避免拖船被船體擠壓或吸入船艉流。\n（五）通訊：作業前確認VHF工作頻道、呼號、口令、緊急停止指令及回報程序；拖船與引水人、商船駕駛臺及調度單位應保持通訊，重要指令應複誦確認。\n（六）環境限制：風速、陣風、浪高、流速、能見度及港池空間若超出拖船能力或港口限制，應暫停、改變作業方式或增加拖船支援，不得只依拖船馬力數字判斷安全。\n\n三、拖船船長的安全責任及緊急處置\n拖船船長應隨時監控拖船穩度、主機、舵機、推進器、拖纜張力、船員位置及周圍船舶。如作業可能危及人命、拖船本身、被協助船舶或港埠設施，應採取必要安全措施，必要時要求減少推力、改變拖纜、脫纜或停止作業，並立即向引水人／商船船長及調度單位通報。緊急脫纜應依設備設計及操作程序執行，並避免拖纜失控回彈傷人。\n\n四、作業後檢查\n作業結束後檢查拖纜、拖鈎、拖纜機、導纜器、護舷及推進設備是否受損；記錄異常負荷、設備故障及事故徵兆，並依SMS回報及保養。\n\n結論：港勤拖船安全操作須具備適任船舶與設備、合格訓練人員、作業前風險評估、明確通訊、適當拖纜角度與推力、避免snap-back及girting、可立即使用的快速脫纜裝置，以及拖船船長的獨立安全判斷與緊急處置能力。",
+    "practicalAnalysis": "本題15分，重點不只寫「馬力足夠」；要涵蓋拖船適任、設備維護、作業計畫、拖纜危險區、girting／傾覆、推頂位置、通訊、環境限制及緊急脫纜。港內拖船應依港務機關與拖船業者SMS執行，不能把遠洋拖帶規則完全等同港內協助拖船。",
+    "keyPoints": [
+      {
+        "point": "拖船及推進器、拖纜、拖鈎、拖纜機、導纜器、護舷及快速脫纜裝置須適任並定期測試。",
+        "importance": "essential"
+      },
+      {
+        "point": "作業前評估船舶尺度、風流、港池、拖船馬力、拖纜位置、作業計畫及緊急方案。",
+        "importance": "essential"
+      },
+      {
+        "point": "防止拖纜過載、snap-back、girting及拖船傾覆；人員遠離纜繩危險區。",
+        "importance": "essential"
+      },
+      {
+        "point": "推頂應選船體強度足夠位置，避免拖船被擠壓或捲入船艉流。",
+        "importance": "essential"
+      },
+      {
+        "point": "確認VHF頻道、呼號、指令與緊急停止口令，關鍵指令複誦確認。",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船船長有責任監控本船安全，遇危險可要求停止、改變作業或緊急脫纜並通報。",
+        "importance": "essential"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "note": "未取得考選部官方逐項評分細則；僅供研讀。"
+    },
+    "references": [
+      {
+        "title": "A Guide to Good Practice on Port and Marine Facilities — Towage",
+        "sourceType": "official_port_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/a-guide-to-good-practice-on-port-marine-operations/a-guide-to-good-practice-on-port-and-marine-facilities",
+        "supports": "港內拖船風險評估、拖帶作業計畫、協調、緊急程序及訓練。"
+      },
+      {
+        "title": "MSC.1/Circ.1175 — Guidance on Shipboard Towing and Mooring Equipment",
+        "sourceType": "IMO_circular",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/MSC.1-Circ.1175.pdf",
+        "supports": "船舶拖帶及繫泊設備安全設計、強度及操作原則。"
+      },
+      {
+        "title": "MSC/Circ.884 — Guidelines for Safe Ocean Towing",
+        "sourceType": "IMO_circular",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/MSC-Circ.884.pdf",
+        "supports": "拖帶作業風險評估、拖具及應急措施的一般安全原則。"
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "本題為港勤拖船，MSC/Circ.884主要針對海上拖帶，僅引用其通用拖具與風險控制原則；港內作業仍以港務機關及拖船業者程序為準。"
+    ],
+    "verification": {
+      "status": "verified_with_scope",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "原題",
+          "result": "pass",
+          "note": "依112年度題庫主檔核對題目。"
+        },
+        {
+          "item": "專業依據",
+          "result": "pass",
+          "note": "依IMO／港務及船舶操縱專業資料交叉整理。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
