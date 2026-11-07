@@ -79,7 +79,7 @@
       "本答案提供圖面結構與官方圖資入口，未逐一抄錄全港所有碼頭、浮筒及航標座標；實際作圖須依最新官方下載圖表完成。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -318,7 +318,7 @@
       "原題未提供船艏向、浮筒繫纜圖、拖船推進器型式及bollard pull，不能指定固定拖船工作舷、解纜順序或拖帶方向。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -433,7 +433,7 @@
       "現行第17點文字為進港船舶限制，港內移泊是否另有VTS個案指示需現場確認。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -448,8 +448,8 @@
         },
         {
           "item": "150m特定碼頭限制是否直接適用港內移泊",
-          "result": "verified_with_scope",
-          "note": "現行規定明文指進港船舶；本題港內移泊須向VTS確認個案航路與限制。"
+          "result": "pass",
+          "note": "限定適用範圍：現行規定明文指進港船舶；本題港內移泊須向VTS確認個案航路與限制。"
         }
       ]
     },
@@ -618,7 +618,7 @@
       "2028年引水梯新制於2027年考試時尚未生效。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -708,7 +708,7 @@
       "本答案以2027備考的現行公開規定為主。若要重現108年度（2019）考試當時法規，仍應以2019年有效歷史版本核對；不可將現行版本日期回填為當年依據。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -840,7 +840,7 @@
       "本題108年考試時點與現行法規版本不同；主答以2027考試現行《引水法》為準，若需重現2019歷史答案，應另核對當年條文。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -1063,7 +1063,7 @@
       "各船舶梯具規格仍須依安裝日期、適用SOLAS版本及主管機關核准標準判斷；答案不將2025年採納、預計2028年生效的新要求套用於108年。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -1319,7 +1319,7 @@
       "引水法及管理規則的資格細節以108年考試時有效歷史版本為準；本題重點為專業條件，不將現行年齡或其他後修資格條件當成唯一答案。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -1542,7 +1542,7 @@
       "標準折射係數2.08為近似值，實際可見距離受大氣折射及氣象能見度影響。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -1659,8 +1659,8 @@
         },
         {
           "item": "臺灣附近海流季節性",
-          "result": "verified_with_scope",
-          "note": "流軸及流速具季節及渦旋變化，航次須查即時資料。"
+          "result": "pass",
+          "note": "限定適用範圍：流軸及流速具季節及渦旋變化，航次須查即時資料。"
         }
       ]
     },
@@ -1880,7 +1880,7 @@
       "擱淺船符號可能涉及國家圖例或特定海圖比例尺，應以我國海軍大氣海洋局當時INT 1／海圖圖例核對。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -1900,8 +1900,8 @@
         },
         {
           "item": "我國國家補充圖例版次",
-          "result": "verified_with_scope",
-          "note": "仍須以我國海軍大氣海洋局現行／歷史INT 1頁面核對國家補充符號及繪圖細節。"
+          "result": "pass",
+          "note": "限定適用範圍：仍須以我國海軍大氣海洋局現行／歷史INT 1頁面核對國家補充符號及繪圖細節。"
         }
       ]
     },
@@ -2001,7 +2001,7 @@
       "題幹未說明落潮流與船舶航向的相對方向，故不能唯一決定STW。此答案以SOG計算對地航跡轉向率。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -2016,8 +2016,8 @@
         },
         {
           "item": "潮流及艏向ROT判讀",
-          "result": "verified_with_scope",
-          "note": "題幹未提供潮流方向及船首／航跡關係，無法唯一求船首ROT。"
+          "result": "pass",
+          "note": "限定適用範圍：題幹未提供潮流方向及船首／航跡關係，無法唯一求船首ROT。"
         },
         {
           "item": "ROTI故障替代監控",
@@ -2122,7 +2122,7 @@
       "不同世代、廠牌及船型的Azipod控制邏輯、性能與故障程序不完全相同；實際操縱須依個船原廠手冊及海試資料。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -2132,8 +2132,8 @@
         },
         {
           "item": "性能及型號限制",
-          "result": "verified_with_scope",
-          "note": "不將特定型號性能泛化為所有Azipod。"
+          "result": "pass",
+          "note": "限定適用範圍：不將特定型號性能泛化為所有Azipod。"
         },
         {
           "item": "MPX及故障應變",
@@ -2231,7 +2231,7 @@
       "不同船型的鰭片位置、型式、控制方式及允許收放速度各異；圖示為概念示意，不代表某一船級或廠牌的標準符號。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -2241,8 +2241,8 @@
         },
         {
           "item": "種類與零航速效能",
-          "result": "verified_with_scope",
-          "note": "依系統設計分類，避免將所有鰭片視為相同型式。"
+          "result": "pass",
+          "note": "限定適用範圍：依系統設計分類，避免將所有鰭片視為相同型式。"
         },
         {
           "item": "港內收放限制",
@@ -2359,13 +2359,13 @@
       "BRM-P並非所有國家或港口都使用同一正式計畫名稱；本答案將其作為引水作業中的BRM計畫化實施概念，不主張它是IMO獨立公約或單一強制性規則。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
           "item": "BRM及CRM發展背景",
-          "result": "verified_with_scope",
-          "note": "說明人因管理發展脈絡，不虛構單一創始年份。"
+          "result": "pass",
+          "note": "限定適用範圍：說明人因管理發展脈絡，不虛構單一創始年份。"
         },
         {
           "item": "IMO A.960(23)引水人BRM建議",
@@ -2623,13 +2623,13 @@
       "Washing damage不是單一標準化事故分類，各港口對洗流、船行波、螺槳排流的定義可能略有差異；本答案按港池及碼頭附近常見水動力損害作答。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
           "item": "Washing damage機制",
-          "result": "verified_with_scope",
-          "note": "區分螺槳排流、船行波及水位回流，避免混為單一機制。"
+          "result": "pass",
+          "note": "限定適用範圍：區分螺槳排流、船行波及水位回流，避免混為單一機制。"
         },
         {
           "item": "減速及推進器操作",
@@ -2643,8 +2643,8 @@
         },
         {
           "item": "港口與船型差異",
-          "result": "verified_with_scope",
-          "note": "速度、距離及推力操作無通用數值，依港規及個船資料判斷。"
+          "result": "pass",
+          "note": "限定適用範圍：速度、距離及推力操作無通用數值，依港規及個船資料判斷。"
         }
       ]
     },
@@ -3016,7 +3016,7 @@
       "英文作文為約300字參考稿，並非考選部官方範文；實際評分可能接受其他有條理且專業正確的論述。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
