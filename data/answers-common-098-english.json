@@ -1,6 +1,6 @@
 [
   {
-    "id": "098-english-01-answer-v1",
+    "id": "98-english-01",
     "questionId": "98-english-01",
     "version": 1,
     "language": "zh-TW",
@@ -84,7 +84,7 @@
     "lastUpdated": "2026-11-06"
   },
   {
-    "id": "098-english-02-answer-v1",
+    "id": "98-english-02",
     "questionId": "98-english-02",
     "version": 1,
     "language": "en",
@@ -174,11 +174,11 @@
     "lastUpdated": "2026-11-06"
   },
   {
-    "id": "098-english-03-answer-v1",
+    "id": "98-english-03",
     "questionId": "98-english-03",
     "version": 1,
     "language": "en",
-    "answerType": "vocabulary_and_sentences",
+    "answerType": "definition",
     "modelAnswer": "**(1) 助航設施 — Aids to Navigation (AtoN)**\n\nSentence: All vessels should keep a proper lookout for aids to navigation when approaching the port.\n\n**(2) 搜索與救助 — Search and Rescue (SAR)**\n\nSentence: The coast guard coordinated a search and rescue operation for the crew of the disabled vessel.\n\n**(3) 海事報告 — Marine Report / Maritime Accident Report**\n\nSentence: The master submitted a marine report to the competent authority after the vessel was involved in a collision.\n\n**(4) 人為過失 — Human Error**\n\nSentence: Human error is one of the factors that may contribute to a marine accident.\n\n【用語補充】\n- Aids to Navigation (AtoN)：航標、燈塔、浮標及其他助航設施的統稱。\n- Search and Rescue (SAR)：國際通用縮寫。\n- Marine report：一般海事報告；若明確指海難或事故調查報告，可依文件性質使用 maritime accident report 或 marine casualty report。\n- Human error：人為錯誤／人為過失；若法律上強調過失責任，可依句意使用 negligence，但不可將兩者在所有情況下視為完全同義。",
     "practicalAnalysis": "本題20分，每一小題先寫標準英文術語，再造一個完整句子。助航設施建議用IMO常見的Aids to Navigation；搜索與救助用Search and Rescue (SAR)；海事報告可用Marine Report，但若題目指正式事故報告，Marine Casualty Report或Maritime Accident Report更精確；人為過失一般用Human Error，法律責任語境才考慮Negligence。句子須有完整主詞、動詞及語意，不要只寫片語。",
     "keyPoints": [
@@ -275,11 +275,11 @@
     "lastUpdated": "2026-11-06"
   },
   {
-    "id": "098-english-04-answer-v1",
+    "id": "98-english-04",
     "questionId": "98-english-04",
     "version": 1,
     "language": "en",
-    "answerType": "composition",
+    "answerType": "essay",
     "modelAnswer": "**The Training of a Pilot**\n\nA ship pilot plays an important role in ensuring the safe and efficient movement of vessels in ports and confined waters. A pilot must have professional knowledge, practical experience, good communication skills and sound judgment. Therefore, the training of a pilot should include both theoretical study and practical experience.\n\nFirst, a pilot trainee must develop a strong foundation in navigation. Important subjects include ship handling, collision regulations, meteorology, tides, currents, chart work and maritime law. A pilot must understand how different types of ships respond to engines, rudders, thrusters and external forces. Knowledge of local waters is also essential, including channels, depths, traffic patterns, anchorages, port facilities and navigational aids.\n\nSecond, practical training is necessary. Trainees should observe experienced pilots and gradually participate in pilotage under proper supervision. They need to learn how to plan an approach, control a vessel at low speed, use tug assistance, communicate with the master and the vessel's bridge team, and conduct berthing and unberthing operations. Training should cover different ship sizes, loading conditions, weather conditions and emergency situations.\n\nThird, communication and teamwork are vital. A pilot must exchange important information with the master before pilotage begins. The pilot should explain the passage plan, discuss the ship's manoeuvring characteristics and confirm the use of tugs and communication procedures. Good teamwork helps prevent misunderstandings and reduces the risk of accidents.\n\nFinally, pilot training should never stop after certification. Pilots should attend refresher courses, practise emergency procedures and keep up to date with changes in regulations, port facilities and navigational technology. Simulator training can also help pilots practise difficult manoeuvres in a safe environment.\n\nIn conclusion, a competent pilot is developed through continuous learning, supervised practical training, local knowledge and effective communication. The ultimate purpose of pilot training is to protect human life, ships, cargo, port facilities and the marine environment.",
     "practicalAnalysis": "本題30分，約300字短文，採五段式：引言、理論訓練、實務訓練、溝通團隊、持續訓練與結論。文章約300字，涵蓋航海知識、當地水域、拖船、靠離泊、Master-Pilot Exchange、模擬器、緊急應變及持續專業發展。考場可背熟段落結構，再依題目字數調整。",
     "keyPoints": [
