@@ -1416,10 +1416,10 @@
   {
     "id": "answer-110-shiphandling-01",
     "questionId": "110-shiphandling-01",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "一、基本原理：艏推器與拖船均可提供橫向力，但不能直接以裝置功率（kW）或主機馬力換算拖船繫纜樁拉力（bollard pull）。艏推器的實際推力取決於螺槳直徑、轉速、導管、船體開口、吃水、流場及電機／液壓系統效率；拖船BP則是拖船在靜水、零航速、指定試驗條件下可提供的靜態拉力。二、單位換算：3,730kW約等於5,000公制馬力（1kW≈1.3596PS），但這只是功率換算，並非推力換算。三、平衡方法：若要使船艏與船艉橫向力平衡，應比較兩者在實際拖帶角度下的有效橫向分力，並考慮作用點到船舶旋迴支點的力臂。力平衡需滿足ΣFy≈0；若要避免船舶產生艏搖，還需考慮ΣN≈0，即橫向力與其力臂所形成的力矩平衡。四、拖船施力不如艏推器的可能原因：拖纜角度使有效橫向分力下降；拖船推進器效率或拖力不足；拖船受本船船體遮蔽、吸流或排流干擾；拖船位置與力臂不利；拖纜鬆弛、受力方向不正或拖船尚未建立拖力；艏推器在零速附近可迅速提供橫向力，而拖船受操縱反應、纜繩及水域限制；船舶前進速度、吃水及船體流場亦會影響艏推器效能。",
+    "modelAnswer": "【2027年考試主答｜Bow Thruster與拖船Bollard Pull配對】\n\n一、不能以kW直接換算Bollard Pull\n題目給艏側推器裝置功率3,730kW。功率是能量轉換速率，Bollard Pull（BP）是拖船在規定試驗條件下可提供的靜態拉力，兩者物理量不同，不能直接用kW或HP換算出唯一拖船噸數。\n3,730kW約等於5,000 mechanical horsepower（hp），亦約為5,071公制馬力（PS）；這只是功率單位換算，並不表示艏推器推力等於5,000hp拖船的BP。\n\n二、應取得的資料\n1. 艏推器製造商額定推力（Thrust），以kN或tf表示，並確認該數值是靜態推力、額定功率下推力或特定吃水／船速下的有效推力。\n2. 艏推器螺槳直徑、轉速、導管形式、船體開口、吃水、船速及電力／液壓供應限制。\n3. 拖船實際BP證明、拖船型式、推進器方向、拖纜角度及預定拖點；拖船主機馬力不能代替BP。\n4. 作用點相對船舶旋迴支點（Pivot Point）的力臂。\n\n三、力平衡與力矩平衡\n（一）若希望船舶作純橫移而不產生明顯艏搖，艏推器與艉拖船應提供同方向的橫向合力，並使兩者對旋迴支點形成的力矩大致互相抵銷。\n（二）令艏推器橫向有效推力為F_B，艏推器至旋迴支點力臂為l_B；艉拖船橫向有效力為F_T，艉拖點至旋迴支點力臂為l_T，則近似無艏搖條件為：\n\\[\nF_B\\,l_B\\approx F_T\\,l_T\n\\]\n故：\n\\[\nF_T\\approx F_B\\frac{l_B}{l_T}\n\\]\n（三）拖船BP為纜繩方向的拉力，若拖纜與所需橫向方向夾角為θ，理想化橫向分力為：\n\\[\nF_{T,y}=BP\\cos\\theta\n\\]\n實際還須考慮拖纜幾何、拖船姿態、船體交互作用及動態效率。\n（四）若只要求總橫向力平衡，應另檢查合力ΣFy；若要求船舶不產生艏搖，則必須檢查力矩ΣN。不能只以兩具設備功率相等判斷。\n\n四、拖船施力可能不如艏推器的原因\n1. 拖纜方向與船舶橫向不一致，BP只有部分分量用於橫移。\n2. 拖船未建立足夠纜繩張力、拖纜鬆弛、拖點或力臂不利。\n3. 拖船推進器受本船船體遮蔽、吸流、艉流或艏推器排流干擾。\n4. 拖船轉向、加車及建立拖力需要反應時間；艏推器可在設備允許範圍內較快改變推力。\n5. 船舶前進速度、吃水、流場及船體開口影響艏推器實際推力；前進速度增加時，艏推器有效橫向控制能力可能下降。\n6. 拖船BP是靜態試驗值，實際作業時會受拖帶角度、船速、拖船推進器效率及水動力交互作用影響。\n\n結論：本題無法只憑3,730kW算出唯一拖船BP。必須取得艏推器實際推力曲線，再依拖點至旋迴支點力臂、拖纜角度及有效橫向分力計算；若題目未提供這些資料，正確作答應說明限制，不應直接把5,000hp當成5,000噸BP。",
     "practicalAnalysis": "題目未提供艏推器製造商推力曲線或拖船BP資料，因此不能可靠算出唯一噸數。答題應明確指出功率相等不代表推力相等，並以有效橫向力及力矩平衡解釋。若題目要求數值，須取得艏推器額定推力（kN或tf）後再換算為拖船BP。",
     "keyPoints": [
       {
@@ -1450,6 +1450,30 @@
         "sourceType": "official_exam_paper",
         "issuer": "考選部",
         "supports": "題目給定艏推器功率與拖船BP問題。"
+      },
+      {
+        "title": "MGN 301 (M) Amendment 1 — Manoeuvring information onboard ships",
+        "sourceType": "official_maritime_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/mgn-301-mf-amendment-1-manoeuvring-information-onboard-ships",
+        "supports": "應依個船操縱資料、設備限制及實際操縱性能評估艏推器與拖船。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "A Guide to Good Practice on Port and Marine Facilities",
+        "sourceType": "official_port_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/a-guide-to-good-practice-on-port-marine-operations/a-guide-to-good-practice-on-port-and-marine-facilities",
+        "supports": "拖船BP、拖帶計畫、拖纜與船岸協作的安全原則。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "supports": "船長、引水人及拖船之資訊交換與操船協作。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -1461,9 +1485,19 @@
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "題目文字與題號",
+          "item": "3,730kW功率換算",
           "result": "pass",
-          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+          "note": "修正為約5,000 mechanical hp或5,071 PS；明確說明功率不等於推力。"
+        },
+        {
+          "item": "力平衡及力矩平衡",
+          "result": "pass",
+          "note": "分開說明總橫向力與Pivot Point力矩條件。"
+        },
+        {
+          "item": "拖船BP定量數值",
+          "result": "needs_review",
+          "note": "題目未提供艏推器推力曲線、拖船BP及力臂，不能計算唯一噸數。"
         }
       ]
     },
@@ -1472,10 +1506,10 @@
   {
     "id": "answer-110-shiphandling-02",
     "questionId": "110-shiphandling-02",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "一、先辨明Steady指令：在操舵口令中，Steady通常是要求停止船首偏轉並穩住當前航向／舵角狀態，並非保證船舶對地航跡已與港口中心線重合。應依船上既定舵令用語及舵手回覆確認。二、橫流影響：入口橫流3節相當強，船舶對地運動會產生顯著漂移；船艏朝向、船舶航跡及船體對水航速是不同概念。接近防波堤時若只以船首指向入口而未預留流壓修正，船體可能被推向堤頭或航道邊界。三、Steady時機：引水人應預先估算橫流方向、流速、船舶對水速度、漂角、船長及操舵反應，設定足夠提前量；在船首轉至預定修正航向後，於船舶偏轉率降至可控時下達Steady，並確認舵角回中或維持舵角的實際口令含義。四、操船注意：保持足夠但不過大的對水舵效，避免低速失舵；不以大角度急轉造成艏搖及艉部掃堤；使用雷達平行指標、岸標方位、GPS SOG/COG與艏向資料交叉監控；必要時調整進場速度與航向，及早中止進場。五、團隊協作：與船長、舵手及VTS確認口令、橫流資料、主機備便及中止點；如船舶偏移超出可修正範圍，應及早採取安全措施，而非等到堤頭近距離才急轉。",
+    "modelAnswer": "【2027年考試主答｜3節橫流下接近防波堤及Steady口令】\n\n一、先正確理解Steady\n依IMO Standard Marine Communication Phrases（SMCP）Standard Wheel Orders：\n- **Steady：**Reduce the swing as rapidly as possible，即盡快減小船首偏轉／迴轉率，並非單純「保持目前艏向」。\n- **Steady as she goes：**以發出指令當時的羅經艏向穩定航行；舵手應複誦指令並報出當時艏向，船舶穩定後再回報。\n兩者意義不同，不能混用。\n\n二、3節橫流的影響\n1. 3節橫流屬強流，船舶艏向（Heading）、對地航跡（COG／Track）及對水航速（STW）必須分開判斷。\n2. 若橫流與航道方向近乎垂直，船舶會產生明顯Set及Drift；引水人須以預定對地航跡反推所需艏向及流壓角。\n3. 題目未提供船舶速度、橫流方向相對入口軸線及防波堤幾何，不能計算唯一修正角。若對水速度不足，舵效可能降低；若速度過高，則會增加碰撞能量及停船距離。\n\n三、接近防波堤時下達Steady的注意事項\n1. 進港前取得即時流向流速、風、能見度、港口航道寬度及防波堤頭位置；使用雷達平行指標、岸標方位、ECDIS、GNSS及船首向資料交叉監控。\n2. 先設定安全對地航跡及預定艏向，預留流壓修正角；不能只把船首對準入口中心線就認為航跡會通過中心。\n3. 船舶轉向接近預定艏向時，注意偏轉率、舵角、主機反應及船舶慣性。當需停止船首持續轉動時，下達**Steady**，並依SMCP操作以反舵減少偏轉率。\n4. 若目的是保持發令當時的艏向，應下達**Steady as she goes**，並確認舵手複誦及報出艏向。\n5. Steady後仍須監控對地航跡及船位；因橫流仍持續作用，船首停止偏轉不代表船舶已停止橫向漂移。\n6. 維持足夠對水速度以確保舵效，但不得因追求舵效而以過高速度接近防波堤；應預先設定中止點及可用水域。\n7. 如航跡已偏出安全通道、流速超出預估或無法在剩餘距離內修正，應及早中止進港並通報VTS。\n\n四、駕駛臺溝通\n所有舵令須由舵手複誦，值班駕駛員確認執行正確；引水人應讓船長及駕駛臺團隊了解橫流、預定航跡、修正艏向及中止條件。不得只依舵手回報的艏向判斷船舶是否安全通過入口。\n\n結論：3節橫流下必須區分Heading與COG／Track。SMCP中的Steady是盡快減小船首偏轉；Steady as she goes才是維持發令當時羅經艏向。Steady後仍須持續修正流壓造成的對地漂移。",
     "practicalAnalysis": "核心是不要把船首航向當成地面航跡。Steady的下令時機應考慮偏轉率與流壓修正後的預定艏向，並以實際對地航跡是否落在安全通道內作持續判斷。",
     "keyPoints": [
       {
@@ -1517,6 +1551,30 @@
         "sourceType": "IMO_resolution",
         "issuer": "IMO",
         "supports": "引水人與船長／駕駛臺團隊溝通及引航作業。"
+      },
+      {
+        "title": "IMO Resolution A.918(22) — IMO Standard Marine Communication Phrases",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.classnk.or.jp/hp/pdf/activities/statutory/ism/imo/A.918%2822%29.pdf",
+        "supports": "Standard Wheel Orders中Steady與Steady as she goes的明確差異及舵令複誦要求。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "CHIRP Maritime — Helm Order Confusion",
+        "sourceType": "maritime_safety_guidance",
+        "issuer": "CHIRP Maritime",
+        "url": "https://chirp.co.uk/report/helm-order-confusion/",
+        "supports": "Steady與Steady as she goes混淆的實務風險。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "supports": "引水人與船長、駕駛臺團隊之資訊交換及引航協作。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -1524,13 +1582,23 @@
       "Steady的具體舵令執行方式須依船舶採用的舵令體系、船長及舵手理解確認；題目未提供入口流向及船舶速度，不能指定唯一艏向修正角。"
     ],
     "verification": {
-      "status": "draft",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "題目文字與題號",
+          "item": "Steady及Steady as she goes定義",
           "result": "pass",
-          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+          "note": "依IMO SMCP A.918(22)修正原答案對Steady的解釋。"
+        },
+        {
+          "item": "3節橫流下航跡與艏向區分",
+          "result": "pass",
+          "note": "明確區分Heading、COG／Track及STW。"
+        },
+        {
+          "item": "唯一流壓修正角",
+          "result": "needs_review",
+          "note": "題目未提供船速及流向相對航道角度，不能計算唯一修正角。"
         }
       ]
     },
@@ -1539,10 +1607,10 @@
   {
     "id": "answer-110-shiphandling-03",
     "questionId": "110-shiphandling-03",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "一、消極護航（Passive escorting）：拖船在被護航船附近保持待命或伴航位置，通常不持續施加拖力；當船舶航行正常時，拖船以可迅速接近、接拖及協助操縱的狀態跟隨。其目的在於提供緊急支援及縮短反應時間。二、積極護航（Active escorting）：拖船以拖纜或推頂方式與被護航船建立實際作用，持續或按需要施加控制力，協助控制航向、速度、偏移或緊急減速。三、差異：被動護航重在備援與快速介入，船舶正常時拖船不一定承受拖力；主動護航則已建立物理連接或持續施力，拖船可即時提供方向控制或制動力，但拖纜張力、拖點與相對運動風險較高。四、注意事項：護航前須評估船舶尺度、吃水、速度、操縱性能、風流、航道寬度及拖船性能；確認拖點、拖纜強度、拖纜長度、快速脫纜、通訊口令及緊急應變。拖船不得進入本船艉流、螺槳危險區或船體吸流區；拖纜角度與張力須持續監控，避免拖船被拖翻、纜繩斷裂或船體碰撞。主動護航須確認施力不造成被護航船失控或過度偏航；被動護航亦須保持足夠距離與速度差，以確保緊急介入有效。",
+    "modelAnswer": "【2027年考試主答｜拖船消極與積極護航】\n\n一、消極護航（Passive Escorting）\n拖船在被護航船舶附近自由伴航（running free in close attendance），不以拖纜固定於被護航船，也不持續施加拖帶力。拖船保持適當相對位置及速度，隨時準備接近、接拖或採取緊急支援。其優點是拖船可保持較大機動自由；缺點是發生緊急狀況時，仍須接近、帶纜及建立拖力，反應時間較長。\n\n二、積極護航（Active Escorting）\n拖船以拖纜固定於被護航船（fast to the tow），在航行過程中依需要提供方向控制、制動或其他操縱力。主動護航可再分為：\n1. **直接護航（Direct Escorting）：**拖船主要利用自身推進器推力直接建立拖纜力，通常適用於較低速度或以直接推／拉控制為主的情況。\n2. **間接護航（Indirect Escorting）：**拖船以一定漂角相對水流航行，利用船體水動力升力及阻力，配合拖纜張力形成較大的控制力；常見於較高航速護航。6至10節是部分指引所述的典型速度範圍，不是所有船舶與拖船的固定門檻。\n\n三、兩者差異\n\n| 比較項目 | Passive Escorting | Active Escorting |\n|---|---|---|\n| 拖纜連接 | 未固定拖纜，拖船自由伴航 | 已固定拖纜並受力 |\n| 平時施力 | 不持續施加拖力 | 可持續或依需要施加控制力 |\n| 緊急反應 | 需接近及帶纜，反應時間較長 | 可較快施加轉向或制動力 |\n| 操縱自由度 | 拖船機動自由較大 | 受拖纜、拖點及相對位置限制 |\n| 主要風險 | 接近時交互作用、碰撞及帶纜延遲 | 拖纜高張力、girting、拖船傾覆及設備超載 |\n| 適用性 | 近距離待命、港內伴航或可快速支援的航段 | 需要持續控制、制動或高速度護航的指定航段 |\n\n四、操作注意事項\n1. 護航前評估被護航船尺度、吃水、速度、風流、航道、拖船型式、BP、拖點及船上拖帶設備SWL。\n2. 船長、引水人及拖船船長應完成MPX／PTX，確認航速、拖船位置、拖纜連接、通訊口令、緊急脫纜及中止條件。\n3. Active escort時須注意拖纜張力、拖點高度、拖纜角度及拖船漂角；間接護航可能產生很大的水動力及拖纜負荷，不能只看拖船主機馬力。\n4. Passive escort時拖船須保持安全距離及適當位置，避免進入被護航船艉流、艏肩吸流或側推器排流區。\n5. 任何模式均須注意girting、snap-back、拖纜斷裂、拖船失去動力及被護航船突然變速／轉向。\n6. 不同港口及拖船操作手冊可能對護航模式另有程序；應依港口核准的Escort Plan及拖船手冊執行。\n\n結論：Passive是拖船自由伴航、未固定拖纜；Active是拖船已固定拖纜並提供控制力。Active又可分Direct與Indirect兩種施力模式，後者利用拖船水動力形成較大控制力，但拖纜負荷與girting風險也較高。",
     "practicalAnalysis": "可用「有無實際施力／是否建立拖纜連接」區分兩者，但各港及拖船公司操作程序可能有不同定義。考試答案應先下定義，再比較控制能力、反應時間、風險及適用場景。",
     "keyPoints": [
       {
@@ -1580,6 +1648,38 @@
         "sourceType": "IMO_resolution",
         "issuer": "IMO",
         "supports": "引水人、拖船及船舶操縱安全協調的一般原則。"
+      },
+      {
+        "title": "A Guide to Good Practice on Port and Marine Facilities",
+        "sourceType": "official_port_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/a-guide-to-good-practice-on-port-marine-operations/a-guide-to-good-practice-on-port-and-marine-facilities",
+        "supports": "消極護航為拖船自由伴航，積極護航為拖船固定拖纜；須由港口制定護航指引及訓練。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "MGN 199 (M) Amendment 1 — Danger of interaction",
+        "sourceType": "official_maritime_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
+        "supports": "拖船與大型船舶近距離交互作用、低UKC、拖船位置及安全風險。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Escort Tug Guidelines",
+        "sourceType": "technical_maritime_guidance",
+        "issuer": "IMarEST / escort tug guidance",
+        "url": "https://www.imorules.com/GUID-DFE41DEF-A708-4BE3-973A-BF286A541139.html",
+        "supports": "間接護航的水動力、拖纜力及典型速度範圍。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "supports": "引水人、船長及拖船之資訊交換與協作。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -1587,13 +1687,23 @@
       "Passive/active escorting在不同港口與拖船操作手冊可能有特定定義；本文採一般操船概念，應再對照原題所依教材或港方拖船規範。"
     ],
     "verification": {
-      "status": "draft",
+      "status": "verified_with_scope",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "題目文字與題號",
+          "item": "Passive及Active定義",
           "result": "pass",
-          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+          "note": "依MCA港口作業指引核對free running與fast to tow的差異。"
+        },
+        {
+          "item": "Active Direct及Indirect模式",
+          "result": "pass",
+          "note": "補充間接護航利用拖船水動力及拖纜張力形成控制力。"
+        },
+        {
+          "item": "固定速度門檻",
+          "result": "verified_with_scope",
+          "note": "6至10節僅為部分技術指引典型範圍，非通用法定門檻。"
         }
       ]
     },
@@ -1602,10 +1712,10 @@
   {
     "id": "answer-110-shiphandling-04",
     "questionId": "110-shiphandling-04",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "劍型船艏（Seaworthy Bow／Sea Sword Bow）是一種較細長、向前延伸或具有特殊入水線形的船艏設計，設計理念通常著重降低波浪衝擊、改善迎浪航行性能、減少砰擊（slamming）及降低阻力，並可能改善艏部波浪穿越與甲板上浪情形。其實際幾何形式依船廠與船型而異，不能把所有稱為Sword Bow的設計視為同一標準船型。一、對縱向運動：較尖細的艏部可能改變浮力分布與縱搖反應，降低部分迎浪砰擊，但也可能影響艏部升沉及波浪中縱搖幅度。二、對阻力與航速：在特定航速、載況及波浪條件下可能減少興波阻力或波浪附加阻力，但不代表所有航速與海況都更省油。三、對耐波性：可改善某些迎浪條件下的入浪與甲板上浪，但橫浪、斜浪、追浪及低速操縱時的效果須依模型試驗及實船資料評估。四、對操縱性：艏部水線形狀、浸水長度及側向投影面積改變，可能影響風壓中心、側向力、艏搖慣性與轉向反應；在港內低速時不可只依遠洋耐波性推定其操縱性能。五、限制：艏部結構強度、貨艙容積、錨設備、視線、建造成本及不同載況下的浮態均須整體設計。",
+    "modelAnswer": "【2027年考試主答｜Sea Sword Bow劍型船艏】\n\n一、設計背景與概念\nSea Sword Bow（SSB）是臺灣國際造船公司（CSBC）使用的船型設計名稱之一。依CSBC相關船舶產品資料，Energy Saving Sea Sword Bow（ES-SSB）並非只將船艏做成尖長形狀，而是結合船體線型最佳化、高效率螺旋槳及節能舵設計的整體推進系統方案，目標為降低波浪阻力、提高推進效率及減少螺旋槳旋轉能量損失。\nCSBC為其3,000 TEU貨櫃船系列採用ES-SSB；WAN HAI 331等新造船公開資料指出此設計有助於降低水阻並達成EEDI Phase III能效要求。此為特定船廠的產品設計，不應把所有新造船的細長艏或劍型艏視為同一種標準船型。\n\n二、主要設計概念\n1. 優化艏部水線及船體線型，降低波浪形成及船體前進時的阻力。\n2. 與高效率螺旋槳及節能舵整合，改善推進效率並減少推進器旋轉流失。\n3. 依預定航速、吃水、載況及航線海況調整船型，使設計點的阻力與推進效率取得較佳平衡。\n4. 設計效益須由模型試驗、CFD分析及實船航行資料驗證，不能僅憑外觀推定。\n\n三、對船舶運動及操縱可能產生的影響\n（一）阻力與航速：在設計航速、吃水及波浪條件下，可能降低興波阻力或波浪附加阻力，減少達到相同航速所需的推進功率；偏離設計條件時效益可能下降。\n（二）縱搖及升沉：艏部入水線及浮力分布改變，可能改變波浪中的艏部升沉、縱搖及入浪方式；實際幅度須依船型模型試驗或實船數據確認。\n（三）砰擊及上浪：艏部形狀會影響波浪衝擊、艏部砰擊及甲板上浪，但目前公開ES-SSB產品資料主要宣稱降低阻力及提高推進效率，未提供足以證明所有海況下均降低砰擊或縱搖的定量數據。\n（四）艏搖及低速操縱：艏部水線形狀、浸水長度及側向投影可能影響艏部水動力、風壓中心及轉向反應；港內低速操縱仍須依本船Pilot Card及Manoeuvring Booklet，不能由遠洋節能設計推定港內操縱性能。\n（五）整體性能：船型優化須同時考量貨艙容積、結構強度、吃水、穩度、推進器效率、載況及建造成本，不存在所有船速與海況都最優的單一船艏。\n\n四、引水人應注意\n引水人應查閱本船操縱資料及船舶型線／設備說明，了解其設計航速、風壓、轉向、停止距離及低速操縱特性。不得僅因船艏外觀尖長或有「Sea Sword Bow」名稱，就推定其在橫浪、追浪、低速或狹水道中必然較易操縱。\n\n結論：Sea Sword Bow是CSBC的節能船型方案，重點在船體線型、高效率螺旋槳及節能舵的整合，以降低阻力及提高推進效率。其對縱搖、升沉、砰擊及操縱性的實際影響仍須依特定船型的模型試驗與實船資料判斷，不能作普遍化結論。",
     "practicalAnalysis": "本題要避免把行銷名稱當成單一船型標準。應先說明設計目標，再分別討論阻力、耐波、砰擊、縱搖、上浪及操縱性，並強調效益依船型、航速、載況與波浪方向而異。",
     "keyPoints": [
       {
@@ -1640,6 +1750,30 @@
         "sourceType": "official_exam_paper",
         "issuer": "考選部",
         "supports": "題目原文。"
+      },
+      {
+        "title": "3,000 TEU container vessel — Taiwan Excellence Award",
+        "sourceType": "official_product_information",
+        "issuer": "Taiwan Excellence / CSBC Corporation",
+        "url": "https://www.taiwanexcellence.org/en/award/product/1130040",
+        "supports": "CSBC ES-SSB設計結合船體線型、高效率螺旋槳及ES舵，目標降低波浪阻力及提高推進效率。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Wan Hai Lines Holds Ship Naming Ceremony for New Vessel WAN HAI 331",
+        "sourceType": "maritime_industry_news",
+        "issuer": "Korea Shipping Gazette",
+        "url": "https://ksg.co.kr/news/main_newsView.jsp?pNum=137786",
+        "supports": "WAN HAI 331採用Sea Sword Bow及其降低水阻、達成EEDI Phase III設計目標的公開說明。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "A Review of Experimental and Numerical Research on the Slamming Problem of High-Performance Vessels (2025)",
+        "sourceType": "peer_reviewed_research",
+        "issuer": "Journal of Marine Science and Engineering",
+        "url": "https://www.mdpi.com/2077-1312/13/7/1310",
+        "supports": "船艏形狀、入水角度、相對垂直速度及砰擊載荷之關係；提醒不同設計須以模型及實船資料評估。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -1647,13 +1781,23 @@
       "未取得本題指定的劍型船艏設計圖或特定船廠技術論文；對其幾何特徵及性能增益採一般性分析，不提供未經證實的百分比或單一性能結論。"
     ],
     "verification": {
-      "status": "draft",
+      "status": "verified_with_scope",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "題目文字與題號",
+          "item": "Sea Sword Bow設計來源",
           "result": "pass",
-          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+          "note": "依CSBC產品資料及WAN HAI 331公開資訊確認為船廠特定整合式節能設計。"
+        },
+        {
+          "item": "阻力與推進效率主張",
+          "result": "pass",
+          "note": "依CSBC公開產品說明，將效益限定於設計條件及整體推進系統。"
+        },
+        {
+          "item": "縱搖、砰擊及操縱效益",
+          "result": "verified_with_scope",
+          "note": "公開資料未提供所有海況下的定量運動響應，僅以船型水動力原理說明可能影響。"
         }
       ]
     },
@@ -1662,10 +1806,10 @@
   {
     "id": "answer-110-shiphandling-05",
     "questionId": "110-shiphandling-05",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "由牛頓第二運動定律及功—能定理推導。船舶質量為m，初速為v，受到大小近似固定、方向與運動相反的制動力F，停止距離為S。初始動能為(1/2)mv²，停止時動能為0；制動力所作負功大小為F×S，因此F S=(1/2)mv²，得S=mv²/(2F)。若m以公噸（tonne）表示，v以節（kn）表示，F以公噸力（tf）表示，S以公尺表示，則1kn=0.514444m/s，1tf=9.80665kN=9806.65N，1tonne=1000kg。代入SI單位：S=[1000m×(0.514444v)²]/[2×9806.65F]，整理得S≈0.01349×(mv²/F)，四捨五入即S=0.0135×(mv²/F)。因此係數0.0135來自節、公噸及公噸力轉換。實際船舶倒俥停止距離不會完全符合此簡化式，因制動力隨主機倒俥建立時間、螺槳反轉效率、船速、船體阻力、風流、淺水效應及船舶載況改變；若F不是恆定平均制動力，應使用積分或實船試驗資料。",
+    "modelAnswer": "【2027年考試主答｜倒俥停止距離公式推導】\n\n一、基本假設\n船舶質量為m，初速為v，倒俥後受到與原運動方向相反、大小近似固定的平均制動力F，船舶由初速減至零，停止距離為S。忽略風流、淺水、船體阻力變化及倒俥建立時間。\n\n二、由功—能定理推導\n初始動能：\n\\[\nE_k=\\frac{1}{2}mv^2\n\\]\n停止時末動能為零。制動力F在停止距離S內所作負功大小為：\n\\[\nW=FS\n\\]\n由功—能定理，制動力所作負功等於動能減少量：\n\\[\nFS=\\frac{1}{2}mv^2\n\\]\n整理得：\n\\[\nS=\\frac{mv^2}{2F}\n\\]\n\n三、換算為題目使用單位\n若：\n- m以公噸（metric tonne）表示；\n- v以節（kn）表示；\n- F以公噸力（tonne-force, tf）表示；\n- S以公尺（m）表示。\n\n單位換算：\n\\[\n1\\text{ kn}=0.514444\\text{ m/s}\n\\]\n\\[\n1\\text{ tonne}=1000\\text{ kg}\n\\]\n\\[\n1\\text{ tf}=9806.65\\text{ N}\n\\]\n代入SI公式：\n\\[\nS=\\frac{1000m(0.514444v)^2}{2(9806.65F)}\n\\]\n整理：\n\\[\nS\\approx0.01349\\frac{mv^2}{F}\n\\]\n四捨五入：\n\\[\n\\boxed{S=0.0135\\times\\frac{mv^2}{F}}\n\\]\n\n四、公式物理意義\n1. 停止距離與質量成正比：質量越大，其他條件相同時停止距離越長。\n2. 停止距離與速度平方成正比：速度增加一倍，理想停止距離增加四倍。\n3. 停止距離與制動力成反比：平均制動力越大，停止距離越短。\n\n五、實際船舶應用限制\n1. 倒俥推力不是瞬間建立；主機換向、轉速下降、螺槳流場及推進器效率均影響實際制動力。\n2. 船體阻力會隨速度改變，不能視為固定F。\n3. 風、流、淺水、UKC、船舶載況及船體交互作用會改變停止距離。\n4. F應理解為沿航向的平均淨制動力，而不是主機額定馬力或單純的螺槳推力。\n5. 實際操船應優先使用本船Manoeuvring Booklet、Pilot Card及海試停船資料；公式只作理想化估算。\n\n結論：先由功—能定理得S=mv²/(2F)，再以公噸、節及公噸力換算，即得係數0.0135。此式假設平均制動力固定，實際倒俥停止距離須以本船操縱資料及當時環境條件判斷。",
     "practicalAnalysis": "本題的得分重點是先用能量守恆推得S=mv²/2F，再代入單位換算說明0.0135。需明確寫出m=公噸、v=節、F=公噸力、S=公尺；若題目未交代單位，應指出此係數只在上述單位制下成立。",
     "keyPoints": [
       {
@@ -1700,6 +1844,22 @@
         "sourceType": "official_exam_paper",
         "issuer": "考選部",
         "supports": "公式及題目符號定義。"
+      },
+      {
+        "title": "IMO Resolution A.601(15) — Provision and Display of Manoeuvring Information",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.601%2815%29.pdf",
+        "supports": "船舶操縱資料、停船性能及船上Manoeuvring Booklet資訊。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "MGN 301 (M) Amendment 1 — Manoeuvring information onboard ships",
+        "sourceType": "official_maritime_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/mgn-301-mf-amendment-1-manoeuvring-information-onboard-ships",
+        "supports": "以個船操縱手冊、Pilot Card及Wheelhouse Poster資料判斷停止性能。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -1711,9 +1871,19 @@
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "題目文字與題號",
+          "item": "功—能定理推導",
           "result": "pass",
-          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+          "note": "由FS=½mv²推得S=mv²/(2F)。"
+        },
+        {
+          "item": "0.0135單位換算係數",
+          "result": "pass",
+          "note": "使用公噸、節、公噸力及公尺，精確係數約0.01349。"
+        },
+        {
+          "item": "實船倒俥停止距離適用限制",
+          "result": "pass",
+          "note": "明確列出固定平均制動力假設及實船操縱資料優先原則。"
         }
       ]
     },
@@ -1722,10 +1892,10 @@
   {
     "id": "answer-110-shiphandling-06",
     "questionId": "110-shiphandling-06",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "一、可能肇事原因：1. 進港前對吹攏風與漲潮流的合成效果估計不足，船舶可能被推向碼頭，且風力變化4至14節使風壓並非穩定。2. 13,900TEU貨櫃船受風面積大，駕駛臺位於船舯，視線盲區與船體長度造成艏艉位置判斷及碼頭間隙估計困難。3. 船舶前進速度過高或進場角度不當，造成接近碼頭後仍有較大縱向動能，拖船與艏推器不足以及時修正。4. 兩艘5,000HP拖船雖配置在艏艉，但若拖點、拖纜角度、拖船相對位置或施力時機不佳，可能無法產生所需橫向力矩；拖船馬力不等於實際BP。5. 艏推器2,800HP在船舶有前進速度時可能受流場影響，且艏推器作用位置與駕駛臺／旋迴支點的力臂不同，無法單獨控制全船側移。6. 船長、引水人、舵手及拖船間可能存在指令回讀、語言、BRM或VTS協調不足；題目未提供VDR、ECDIS、拖船紀錄，不能將任何一項直接認定為事故事實。二、避免方法：進港前完成MPX及風流風險評估，確認船舶風壓中心、艏艉受力、主機舵機及艏推器限制；預先設定進場航向、速度、轉向點、拖船工作位置及中止點。以低速、可控的對水速度接近，提前利用拖船建立側向控制，避免最後階段才大幅施力；保持船舶與碼頭平行或採小角度接近，持續監控橫移速度、艏艉間隙與船尾掃掠範圍。若風流變化或定位誤差超出預設門檻，應中止靠泊、退出或重新定位。三、改善：使用岸基雷達／雷射靠泊監測、即時風流資料、拖船推力與纜繩張力回報、駕駛臺翼樓觀測員及明確口令；事故後檢討VDR、AIS、ECDIS、VTS通話、拖船作業紀錄及氣象資料，建立近失事件回饋。",
+    "modelAnswer": "【2027年考試主答｜大型貨櫃船靠泊碰撞事故分析】\n\n一、題目已知條件\n13,900 TEU貨櫃船，前後吃水均9m，駕駛臺位於船舯；吹攏風4至14節、漲潮流0.4至0.7節；艏推器2,800HP，右舷船艏及船艉各有一艘5,000HP拖船協助；主機、輔機及操船機具正常，船舶撞擊停泊船舶間的碼頭及橋式機。\n以上僅為題目給定條件；原卷圖未取得，無法確認船艏方向、碰撞位置、碼頭幾何、進場角度及拖船施力方向。\n\n二、可能肇事原因（須以VDR等證據驗證）\n（一）風流估算不足\n1. 吹攏風會使船舶向碼頭方向漂移；風速由4至14節變化，代表風壓及其造成的漂移可能在進場過程中明顯改變。\n2. 漲潮流0.4至0.7節會改變船舶對地航跡；應分別分析流向相對碼頭及航道的縱向、橫向分量。\n3. 風與流合成作用可能使船舶在最後階段產生未預期的橫移或偏航。\n\n（二）船舶尺度與慣性\n13,900 TEU大型貨櫃船排水量、慣性及風壓面積大，進場速度稍高即可能累積較大動能；船艏、船艉掃掠範圍大，最後階段不易快速修正。駕駛臺位於船舯，駕駛員對船艏及船艉至碼頭、岸橋及鄰泊船的距離判斷，須依船艏艉觀測員、雷達及靠泊監測交叉確認。\n\n（三）進場速度、角度及靠泊態勢\n1. 進場速度過高會增加停船距離及碰撞能量；船舶與碼頭間若仍有較大夾角，艏艉兩端的橫向掃掠距離會增加。\n2. 若船舶未先建立近乎平行的靠泊態勢，拖船及艏推器可能同時需要控制橫移與艏搖，增加操作負荷。\n3. 最後階段才使用大推力修正，可能因設備反應、拖纜建立及船舶慣性而來不及。\n\n（四）拖船及艏推器效能\n1. 5,000HP是拖船主機功率，不等於5,000噸BP；應查拖船實際BP、推進器型式及拖纜角度。\n2. 拖船雖配置於右舷船艏及船艉，但若位置、拖點、施力方向或拖纜角度不利，可能無法產生所需的橫向合力及艏搖力矩。\n3. 艏推器2,800HP的實際推力取決於額定推力、船速、吃水及流場；前進速度增加時，艏推器有效側推能力可能下降。\n4. 拖船與本船之間的船體交互作用、艏肩吸流、艉流及近岸效應，亦可能改變拖船實際控制力。\n\n（五）橋樓團隊及碼頭資訊\n應檢查MPX、拖船簡報、VHF通訊、舵令及車鐘回讀、VTS指示、岸橋吊臂位置、碼頭淨空及艏艉觀測資訊。題目未提供VDR、AIS、ECDIS、拖船紀錄及氣象資料，不能直接認定為人為失誤或設備故障。\n\n三、避免類似事故的操船方法\n1. **進港前完成風流評估：**取得即時風速、陣風、流向流速及潮位，依船舶載況、風壓面積、操縱性能及泊位方向計算風流分量。\n2. **完成MPX／PTX：**確認船舶操縱資料、進場航線、預定艏向、速度、轉向點、拖船位置、BP、拖纜角度、通訊頻道及緊急停止口令。\n3. **控制接近速度：**在進入最後靠泊區前提早減速，保持足夠舵效但不過速；設定最大允許橫移速度、偏航率及中止點。\n4. **先建立平行態勢：**避免以較大角度直接接近碼頭；先控制艏向與船位，再以低速橫移靠泊。\n5. **善用拖船：**依風流及旋迴支點配置艏艉拖船，明確分工控制橫移與艏搖；確認拖船實際BP而非僅看HP，並注意拖纜角度及拖船安全位置。\n6. **艏推器與主機舵協同：**依本船艏推器在不同速度下的有效推力安排操作，不能在較高前進速度時假設艏推器仍有額定側推能力。\n7. **保持觀測及中止能力：**使用岸基雷達、雷射靠泊監測、艏艉觀測員及VTS資訊；若風流超出計畫、船位或橫移速度無法控制，應停止靠泊、退出或重新定位。\n\n四、事故調查應查證的資料\n應取得VDR／ECDIS／AIS軌跡、GPS SOG／COG及艏向、主機與舵機紀錄、艏推器負荷、拖船BP與作業紀錄、VHF通話、風流潮觀測、碼頭監視器及橋式機位置。依時間序列重建船舶動態，才能區分主要肇因與促成因素。\n\n五、2026年最新專業安全補充\nMCA於2026年11月3日發布MGN 199 (M) Amendment 1，提醒淺水、狹窄水域、船舶交互作用及拖船近距離作業可能改變實際推力與船舶運動；MCA MGN 301則要求以本船Pilot Card、Wheelhouse Poster及Manoeuvring Booklet確認個船操縱資料。此等指引可作現代安全分析補充，不是臺灣港口事故的直接原因證據。\n\n結論：可能肇因包括風流變化、船舶慣性、進場速度及角度、拖船有效BP與拖點力臂、艏推器在前進速度下的效率，以及橋樓與岸上資訊協調。因原卷圖及事故紀錄缺漏，不能將任何一項認定為確定事故原因；應以VDR、拖船紀錄及碼頭監視器重建事故。",
     "practicalAnalysis": "本題附圖是判斷船舶相對碼頭角度、靠泊位置及拖船配置的重要資料；目前題文未包含原卷圖面，故答案採通用事故分析架構，不臆測船舶當時的艏向、進場速度或碰撞點。事故原因應以證據分級：已知條件、合理假設、仍待VDR驗證。",
     "keyPoints": [
       {
@@ -1771,6 +1941,38 @@
         "sourceType": "IMO_resolution",
         "issuer": "IMO",
         "supports": "引水人與船長、駕駛臺團隊之協作及安全引航程序。"
+      },
+      {
+        "title": "MGN 199 (M) Amendment 1 — Danger of interaction",
+        "sourceType": "official_maritime_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
+        "supports": "2026年11月3日更新淺水、受限水域、船舶交互作用及拖船近距離作業風險。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "MGN 301 (M) Amendment 1 — Manoeuvring information onboard ships",
+        "sourceType": "official_maritime_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/mgn-301-mf-amendment-1-manoeuvring-information-onboard-ships",
+        "supports": "依個船Pilot Card、Wheelhouse Poster及Manoeuvring Booklet確認操縱資料。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "supports": "MPX及船長、引水人、駕駛臺團隊與拖船的資訊交換。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "A Guide to Good Practice on Port and Marine Facilities",
+        "sourceType": "official_port_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/a-guide-to-good-practice-on-port-marine-operations/a-guide-to-good-practice-on-port-and-marine-facilities",
+        "supports": "港內拖船配置、靠泊風險評估及船岸協作。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "assumptions": [],
@@ -1783,9 +1985,19 @@
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "題目文字與題號",
+          "item": "題目已知條件",
           "result": "pass",
-          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+          "note": "保留13,900 TEU、9m吃水、風流、艏推器及兩艘拖船等已知條件。"
+        },
+        {
+          "item": "風流、船舶慣性、拖船及艏推器分析",
+          "result": "pass",
+          "note": "將可能原因分層，並區分HP與BP、橫向合力及艏搖力矩。"
+        },
+        {
+          "item": "原卷附圖及事故證據",
+          "result": "needs_review",
+          "note": "原題附圖及VDR／AIS／拖船紀錄未取得，不能確定碰撞位置、進場角度或唯一肇因。"
         }
       ]
     },
