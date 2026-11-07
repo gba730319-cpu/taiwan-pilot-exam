@@ -1051,13 +1051,55 @@
         "title": "考選部106年引港學試題",
         "issuer": "考選部",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=106060&q=1&s=1010&t=Q"
+      },
+      {
+        "title": "Resolution MSC.137(76) — Standards for Ship Manoeuvrability",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
+        "supports": "迴旋圈標準試驗、advance、tactical diameter定義及4.5L／5L標準。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "MGN 301 (M+F) Amendment 1 — Manoeuvring information onboard ships",
+        "sourceType": "official_maritime_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/mgn-301-mf-amendment-1-manoeuvring-information-onboard-ships/mgn-301-mf-amendment-1-maneuvering-information-onboard-ships",
+        "supports": "Pilot Card、Wheelhouse Poster、Manoeuvring Booklet及轉向、停船、推進器效能等船舶個別操縱資料。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960(23).pdf",
+        "supports": "引水人應掌握船舶操縱特性並於MPX中交換操船資訊。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "迴旋圈數值須依個別船舶操縱性能資料；IMO標準為設計評估基準，不代表所有船舶實際迴旋圈完全相同。"
     ],
     "verification": {
-      "status": "source_checked"
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "迴旋圈及各參數定義",
+          "result": "pass",
+          "note": "依IMO MSC.137(76)標準定義船舶中點、進距及戰術直徑。"
+        },
+        {
+          "item": "IMO迴旋能力標準",
+          "result": "pass",
+          "note": "確認advance不超過4.5L、tactical diameter不超過5L及標準試驗條件。"
+        },
+        {
+          "item": "影響因素及實船資料應用",
+          "result": "pass",
+          "note": "依MCA MGN 301 Amendment 1及IMO A.960(23)補強。"
+        }
+      ]
     },
     "version": 2,
     "lastUpdated": "2026-11-07"
