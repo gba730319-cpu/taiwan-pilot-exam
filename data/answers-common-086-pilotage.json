@@ -2,73 +2,90 @@
   {
     "id": "086-pilotage-01-answer-v1",
     "questionId": "086-pilotage-01",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "| 圖例項目 | 圖面標示／英文 | 說明 |\n|---|---|---|\n| WGS | WGS 84 | World Geodetic System 1984，大地基準系統；座標須註明基準。 |\n| Fl | Fl | Flashing light，閃光燈標。 |\n| WRG 15s 21M/15M/11M | WRG | White/Red/Green sectors，白／紅／綠扇形燈；週期15秒，各色扇區可見距依題示資料分別為21、15、11海浬。 |\n| 領海直線基線 | Straight baseline | 連接適當基點的直線基線，用以量測領海寬度，須依官方公布座標。 |\n| 警戒區 | Cautionary area | 航行須特別注意的水域，並非當然禁止航行。 |\n| 檢疫錨泊區 | Quarantine anchorage | 指定檢疫錨泊水域。 |\n| 海底電力電纜區 | Submarine power cable | 海底電纜路線／區域，應避免下錨及拖網。 |\n| 海產養殖場 | Marine farm / fish farm | 小比例尺海圖養殖區符號，航行應避讓。 |\n| 推薦航線090°–270° | Recommended track | 推薦航向範圍090°至270°，依圖示及航行方向判讀。 |\n| 貨櫃起重機50T | Container crane, SWL 50 t | 岸上起重設備，標示安全工作負荷50公噸。 |\n| 高壓電纜及鐵塔，安全淨空64m | Overhead cable / tower, vertical clearance 64m | 船舶最高點須保留足夠淨空，並確認潮位及垂直基準。 |\n\n正式作答應依考試指定版次海圖圖式（Chart 1／Chart No.1）臨摹，不應以表格文字代替需要繪製的正式符號。",
-    "practicalAnalysis": "本題20分，十項符號／註記逐一對應，特別要分清楚警戒區不是禁航區、海底電纜不是可拋錨區，以及燈標扇區顏色與週期。",
+    "modelAnswer": "本題為海圖圖例解讀及繪圖題。下表列出符號含義、縮寫及正式圖式分類；實際圖形須依臺灣海圖圖例（Chart Symbols and Abbreviations）指定版次臨摹，不以自製簡圖代替。\n\n| 項目 | 縮寫／圖式 | 正確解讀及作圖重點 |\n|---|---|---|\n| (1) WGS | WGS 84 | World Geodetic System 1984，世界大地坐標系統；屬水平定位基準，不是水深基準面。 |\n| (2) Fl(3) WRG 15s 21M 15–11M | Fl(3)：三閃一組；WRG：白、紅、綠分弧；15s：整組週期15秒 | 依燈表及海圖註記畫出分弧燈。21M及15–11M為海圖所載光程資料，不應未看扇區圖就自行指定各色對應值；依原圖及燈表確認各色光弧與光程。 |\n| (3) 領海直線基線 | Straight territorial sea baseline with base points | 依官方公布基點及座標畫直線基線；不可自行連接任意海岸點。 |\n| (4) 警戒區 | Precautionary area | 海圖航道規劃符號，表示船舶須特別注意的水域；不是禁航區。 |\n| (5) 檢疫錨泊區 | Quarantine anchorage area | 指定檢疫錨泊水域，依N節錨地界線圖式繪出區域。 |\n| (6) 海底電力電纜區 | Submarine power cable / cable area | 海底電力電纜以電纜圖式表示；若題目要求「區域」，應依圖例以區域界線呈現，並注意不可下錨或拖網。 |\n| (7) 海產養殖場（小尺度圖） | Marine farm / aquaculture area | 依指定版次的小尺度海圖國家補充圖式繪出養殖區；若圖例未提供該項標準符號，應以圖上註記及公告界線為準，不可自行創造符號。 |\n| (8) 推薦航線090°–270° | Recommended track, 090°–270° | 依M節推薦航線圖式繪出航線，並標示090°–270°；須分辨有固定標誌及無固定標誌的推薦航線。 |\n| (9) 貨櫃起重機50T | Container crane (with lifting capacity) | 依D節貨櫃起重機圖式，旁註舉重限量50T。 |\n| (10) 高壓電纜及鐵塔，安全直隙64M | Power transmission line with pylons and safe vertical clearance | 依D節圖式標出電纜及鐵塔，註明安全垂直淨空64m；應核對高度基準面及潮位。 |\n\n## 容易失分的辨識\n\n1. WGS84是水平大地基準；海圖深度基準面（Chart Datum）是垂直基準，兩者不可混為一談。\n2. Precautionary area是警戒區，不等於Prohibited area（禁航區）。\n3. Fl(3)表示三閃一組；WRG表示白、紅、綠扇區；15s是整組週期。\n4. 燈光註記中的M為海里光程；扇區各色的實際光程須依圖示及燈表判讀，不能將所有數字任意分配。\n5. 推薦航線的090°–270°是航線標示資料，不等於船舶在所有情況下必須維持該航向。\n6. 64m為安全垂直淨空，應按海圖註記的高度基準及實際水位評估，不可只看船舶空載高度。",
+    "practicalAnalysis": "原答案只做文字翻譯，未拆解燈光註記及圖式類別。依臺灣海圖圖例官方資料補充WGS84、警戒區、檢疫錨泊區、直線領海基線、推薦航線、貨櫃起重機及高壓電纜圖式。燈光註記的各色光程和小尺度海產養殖場符號，未取得原卷指定版次完整圖頁前不強行推定。",
     "keyPoints": [
       {
-        "point": "WGS84是大地基準，不是燈標。",
+        "point": "WGS84是水平大地坐標基準，不是海圖水深基準。",
         "importance": "essential"
       },
       {
-        "point": "WRG代表白、紅、綠扇形燈，題示週期15秒及分色光程。",
+        "point": "Fl(3)為三閃一組，WRG為白紅綠分弧，15s為整組週期。",
         "importance": "essential"
       },
       {
-        "point": "警戒區、檢疫錨地、海底電纜及養殖場用途不同。",
+        "point": "領海直線基線須依官方基點及座標，不可自行連線。",
         "importance": "essential"
       },
       {
-        "point": "高壓電纜安全淨空64m須核對垂直基準及潮位。",
-        "importance": "supporting"
+        "point": "Precautionary area為警戒區，不是禁航區。",
+        "importance": "essential"
       },
       {
-        "point": "正式圖式依指定版次Chart 1繪製。",
-        "importance": "supporting"
+        "point": "檢疫錨泊區為Quarantine anchorage area。",
+        "importance": "essential"
+      },
+      {
+        "point": "海底電力電纜區依Submarine power cable area圖式標示。",
+        "importance": "essential"
+      },
+      {
+        "point": "推薦航線090°–270°依M節圖式表示，並區分有無固定標誌。",
+        "importance": "essential"
+      },
+      {
+        "point": "貨櫃起重機50T依D節Container crane with lifting capacity標示。",
+        "importance": "essential"
+      },
+      {
+        "point": "高壓電纜及鐵塔64m依D節Power transmission line with pylons and safe vertical clearance標示。",
+        "importance": "essential"
       }
     ],
     "references": [
       {
+        "title": "中華民國海軍水道圖刊物第一種：海圖圖例（Pub. No.1 Chart Symbols and Abbreviations）",
+        "sourceType": "official_chart_reference",
+        "issuer": "海軍大氣海洋局",
+        "editionOrEffectiveDate": "第8版，2010-12",
+        "url": "https://navy.mnd.gov.tw/Files/Policy/%E6%B5%B7%E8%BB%8D_%E6%B5%B7%E5%9C%96%E5%9C%96%E4%BE%8B.pdf",
+        "supports": "WGS84、燈光註記、警戒區、檢疫錨泊區、直線領海基線、推薦航線、貨櫃起重機及高壓電纜圖式。"
+      },
+      {
         "title": "86年甲種引水人引港學官方試題",
         "sourceType": "official_exam",
         "issuer": "考選部",
-        "editionOrEffectiveDate": "民國86年（1997）",
+        "editionOrEffectiveDate": "民國86年",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=243&code=086120&q=1&s=c181&t=Q",
-        "supports": "引港學六題原卷。"
-      },
-      {
-        "title": "IALA Maritime Buoyage System",
-        "sourceType": "official_guidance",
-        "issuer": "IALA",
-        "url": "https://www.iala-aism.org/product/iala-maritime-buoyage-system/",
-        "supports": "浮標系統及航標辨識。"
+        "supports": "原題十項海圖符號與配分。"
       }
     ],
     "assumptions": [
-      "海圖圖例依題目指定的當年版本；航行實務依現行官方資料補充。"
+      "以臺灣官方海圖圖例可核對的圖式作為主要參考；如題目要求小尺度圖式，仍須依指定版次的縮尺符號繪製。"
     ],
     "limitations": [
-      "文字示意不能完全取代Chart 1正式符號；應依題目所指新制海圖圖例版本重畫。"
+      "所查官方PDF為2010年第8版；題目所稱新制海圖圖例的指定版次及海產養殖場小尺度圖式仍須核對原卷或最新版官方圖例。WRG光程需依原圖扇區及燈表確認。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部86年引港學原卷",
+          "item": "官方海圖圖例可查項目",
           "result": "pass",
-          "note": "六題題文核對。"
+          "note": "已核對WGS84、警戒區、檢疫錨泊區、直線領海基線、推薦航線、貨櫃起重機及高壓電纜圖式。"
         },
         {
-          "item": "Chart 1歷史圖例及題目原始定位圖",
-          "result": "partial",
-          "note": "歷史圖例版次及第6題原始方位圖尚待核對。"
+          "item": "指定版次、養殖場小尺度符號及WRG各色光程",
+          "result": "needs_review",
+          "note": "尚未取得原題指定版次完整圖頁及對應燈表，不作無根據的符號或光程配對。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "086-pilotage-02-answer-v1",
