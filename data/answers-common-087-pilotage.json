@@ -64,5 +64,298 @@
       ]
     },
     "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "087-pilotage-02-answer-v1",
+    "questionId": "087-pilotage-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、公式及基準面】\n我國歷史海圖水深基準面可用平均海面下四個主要分潮振幅總和表示：Z0 = Z - (Hm + Hs + H' + Ho)。\nHm：M2主太陰半日潮振幅，週期約12.42小時。\nHs：S2主太陽半日潮振幅，週期約12.00小時。\nH'：K1日月合成日潮振幅，週期約23.93小時。\nHo：O1主太陰日潮振幅，週期約25.82小時。\n\n【二、分潮意義】\nM2及S2是主要半日潮成分，與朔望大潮、上下弦小潮及半日潮潮差有關；K1及O1是主要日潮成分，會影響每日一次潮及日潮不等。\n【三、使用意義】\n以四個主要分潮振幅總和估算平均海面至低水基準面的距離，可使海圖水深在一般天文潮條件下較少出現負潮高。現代海圖基準可能依最低天文潮位（LAT）及各地測量制度更新，不能將歷史公式直接套用到所有現代海域。",
+    "practicalAnalysis": "本題14分，四個符號須正確對應M2、S2、K1、O1；H'是K1、Ho是O1，容易顛倒。",
+    "keyPoints": [
+      {
+        "point": "Hm=M2主太陰半日周潮振幅。",
+        "importance": "essential"
+      },
+      {
+        "point": "Hs=S2主太陽半日周潮振幅。",
+        "importance": "essential"
+      },
+      {
+        "point": "H'=K1日月合成日周潮振幅。",
+        "importance": "essential"
+      },
+      {
+        "point": "Ho=O1主太陰日周潮振幅。",
+        "importance": "supporting"
+      },
+      {
+        "point": "水深基準面約為平均海面下四個主要分潮振幅總和。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2001&t=Q",
+        "supports": "引港學六題原卷。"
+      }
+    ],
+    "assumptions": [
+      "以民國87年考試使用的海圖圖式、燈表及潮位資料為背景。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部原卷",
+          "result": "pass",
+          "note": "題文核對。"
+        },
+        {
+          "item": "歷史圖式／潮位資料",
+          "result": "partial",
+          "note": "原始版本未完整取得者保留待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "087-pilotage-03-answer-v1",
+    "questionId": "087-pilotage-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、公稱光程】\n公稱光程（Nominal Range）是燈標在標準氣象能見度10海浬條件下的光學可見距離，不等同實際地理能見距。\n【二、地理能見距】\n燈塔高度h1=22m，觀測者眼高h2=14m。地理能見距Dg=2.08(√h1+√h2)。\nDg=2.08(√22+√14)=2.08(4.690+3.742)=17.54 NM。\n【三、實際可見距】\n公稱光程19NM；氣象能見度10NM時，光學可見距依公稱光程為19NM。地理能見距只有17.54NM，故實際可見距取較小值17.54NM。\n【四、計算時間】\n目前船距燈塔20NM，須再接近20-17.54=2.46NM。船速10kn，時間t=(2.46/10)×60=14.76分鐘。\n因此約14.8分鐘後可見燈光。\n注意：此計算未計地形遮蔽、燈光明弧及其他障礙；若實際能見度低於10NM，還須修正光程。",
+    "practicalAnalysis": "本題16分，先分清公稱光程與地理能見距。實際可見距取兩者較小值，再用剩餘距離除以船速。",
+    "keyPoints": [
+      {
+        "point": "地理能見距=2.08(√22+√14)=17.54NM。",
+        "importance": "essential"
+      },
+      {
+        "point": "實際可見距=min(19,17.54)=17.54NM。",
+        "importance": "essential"
+      },
+      {
+        "point": "需接近2.46NM，10kn下約14.8分鐘。",
+        "importance": "essential"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2001&t=Q",
+        "supports": "引港學六題原卷。"
+      }
+    ],
+    "assumptions": [
+      "以民國87年考試使用的海圖圖式、燈表及潮位資料為背景。"
+    ],
+    "limitations": [
+      "假設燈塔高度及觀測者眼高均以海面為基準，未計地形遮蔽。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部原卷",
+          "result": "pass",
+          "note": "題文核對。"
+        },
+        {
+          "item": "歷史圖式／潮位資料",
+          "result": "partial",
+          "note": "原始版本未完整取得者保留待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "087-pilotage-04-answer-v1",
+    "questionId": "087-pilotage-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、定義及單位】\n氣壓（Atmospheric Pressure）是大氣柱重量作用於單位面積所產生的壓力。常用單位為hPa（百帕）或mbar（毫巴），1hPa=1mbar；標準海平面氣壓約1013.25hPa。\n【二、氣壓趨勢法】\n氣壓趨勢法是觀察連續一段時間內氣壓上升、下降或穩定的幅度與速度，推測天氣系統接近或遠離，常以過去3小時氣壓變化作參考。\n1. 氣壓持續快速下降：低壓、鋒面或颱風可能接近，風雨可能增強。\n2. 氣壓下降後轉為穩定：可能接近低壓中心或鋒面通過，須配合風向及雲況判斷。\n3. 氣壓快速上升：高壓或冷空氣可能移入，天氣通常趨向穩定，但冷鋒後仍可能有強風及陣雨。\n4. 氣壓緩慢上升且風勢減弱：通常表示天氣逐漸好轉。\n5. 氣壓短時間劇烈下降並伴隨風向突變：可能有強烈低壓或熱帶氣旋接近，應立即查閱官方警報。\n【三、判斷原則】\n氣壓下降通常表示天氣趨向不穩定，氣壓上升通常表示天氣趨向穩定；不能單憑氣壓預測風雨強度，應同時觀察風向風速、雲況、降雨及天氣圖。",
+    "practicalAnalysis": "本題18分，需定義氣壓、列單位，再說明氣壓趨勢與天氣變化；應指出氣壓趨勢需與風、雲、雨及天氣圖配合。",
+    "keyPoints": [
+      {
+        "point": "氣壓是大氣重量對單位面積施加的壓力。",
+        "importance": "essential"
+      },
+      {
+        "point": "單位hPa或mbar，1hPa=1mbar。",
+        "importance": "essential"
+      },
+      {
+        "point": "持續下降表示低壓／鋒面／颱風可能接近。",
+        "importance": "essential"
+      },
+      {
+        "point": "持續上升通常表示高壓或天氣趨穩。",
+        "importance": "supporting"
+      },
+      {
+        "point": "氣壓趨勢須配合風、雲、雨及天氣圖判讀。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2001&t=Q",
+        "supports": "引港學六題原卷。"
+      }
+    ],
+    "assumptions": [
+      "以民國87年考試使用的海圖圖式、燈表及潮位資料為背景。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部原卷",
+          "result": "pass",
+          "note": "題文核對。"
+        },
+        {
+          "item": "歷史圖式／潮位資料",
+          "result": "partial",
+          "note": "原始版本未完整取得者保留待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "087-pilotage-05-answer-v1",
+    "questionId": "087-pilotage-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "兩側防波堤燈標同時可見，只能證明兩燈標在觀測者視界內，不能單憑兩燈都看得到就判定船舶沒有偏離航道。船舶可能偏左或偏右，只要兩燈尚未被地形或距離遮蔽，仍可能同時可見。\n【可能情況】\n1. 船舶在航道中心線上，兩燈相對方位大致對稱。\n2. 船舶偏左或偏右，但兩燈仍同時可見；兩燈相對方位會不對稱。\n3. 船舶航向雖對準口門，卻受橫流、風壓或舵效不足影響而逐漸偏移。\n4. 兩燈與船舶不在同一橫斷面，透視及距離差造成視覺誤差。\n【確認方法】\n以雷達量測兩側防波堤端點的方位及距離，建立平行指標；用GNSS/ECDIS核對船位及航跡；觀察兩燈相對方位是否對稱，並以固定物疊標及連續定位交叉確認。發現偏離時及早小幅修正並向VTS報告。",
+    "practicalAnalysis": "本題18分，核心是兩燈可見不代表船位在中央；須考慮透視、橫流及船舶偏移，使用雷達PI、GNSS/ECDIS及連續定位。",
+    "keyPoints": [
+      {
+        "point": "兩側燈標都可見不代表船舶在航道中心。",
+        "importance": "essential"
+      },
+      {
+        "point": "可能偏左、偏右或受風流造成橫移。",
+        "importance": "essential"
+      },
+      {
+        "point": "用雷達距離／方位、PI、GNSS/ECDIS及疊標定位。",
+        "importance": "essential"
+      },
+      {
+        "point": "發現偏離及早小幅修正並向VTS通報。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2001&t=Q",
+        "supports": "引港學六題原卷。"
+      }
+    ],
+    "assumptions": [
+      "以民國87年考試使用的海圖圖式、燈表及潮位資料為背景。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部原卷",
+          "result": "pass",
+          "note": "題文核對。"
+        },
+        {
+          "item": "歷史圖式／潮位資料",
+          "result": "partial",
+          "note": "原始版本未完整取得者保留待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "087-pilotage-06-answer-v1",
+    "questionId": "087-pilotage-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、UKC需求】\n海圖水深8m，船舶吃水8.5m，要求UKC 0.5m，所需水深至少8.5+0.5=9.0m。\n因此潮高至少為9.0-8.0=1.0m。\n【二、潮位條件】\n0100時潮高0.6m，0726時潮高3.5m，表示潮位上升。船舶須等潮高升至1.0m以上才符合題目給定的靜態UKC條件。\n若以簡化半正弦潮曲線估算，0100至0726為386分鐘，潮位由0.6m升至3.5m。令h(t)=0.6+[(3.5-0.6)/2]×[1-cos(πt/386)]。令h=1.0m，解得t約93分鐘，因此約0233時達1.0m。\n【三、實務限制】\n0233是半正弦曲線估算；若原題附潮汐曲線圖，應由曲線讀取1.0m的交點。實際出港還須計入squat、波浪、縱傾、橫傾、測深誤差及安全餘裕，故允許時間可能更晚。",
+    "practicalAnalysis": "本題20分，先算所需潮高1.0m，再由漲潮曲線找時間。半正弦曲線估算約0233，正式答案須依原題潮汐曲線或調和常數確認。",
+    "keyPoints": [
+      {
+        "point": "所需水深9.0m，潮高至少1.0m。",
+        "importance": "essential"
+      },
+      {
+        "point": "0100潮高0.6m，0726潮高3.5m，屬漲潮。",
+        "importance": "essential"
+      },
+      {
+        "point": "半正弦曲線估算約0233達1.0m。",
+        "importance": "essential"
+      },
+      {
+        "point": "實際出港須加計squat、波浪、縱傾及測深誤差。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "87年甲種引水人引港學官方試題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=041&code=087160&q=1&s=2001&t=Q",
+        "supports": "引港學六題原卷。"
+      }
+    ],
+    "assumptions": [
+      "以民國87年考試使用的海圖圖式、燈表及潮位資料為背景。"
+    ],
+    "limitations": [
+      "未取得題目所附潮汐曲線圖及完整潮時資料，0233為半正弦曲線估算值，不是精確官方答案。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部原卷",
+          "result": "pass",
+          "note": "題文核對。"
+        },
+        {
+          "item": "歷史圖式／潮位資料",
+          "result": "partial",
+          "note": "原始版本未完整取得者保留待查。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
   }
 ]
