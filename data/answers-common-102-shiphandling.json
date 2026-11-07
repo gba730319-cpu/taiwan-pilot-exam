@@ -1,6 +1,6 @@
 [
   {
-    "id": "102-shiphandling-01-answer-v2",
+    "id": "102-shiphandling-01",
     "questionId": "102-shiphandling-01",
     "version": 2,
     "language": "zh-TW",
@@ -10,23 +10,23 @@
     "keyPoints": [
       {
         "point": "船艉至駕駛台距離",
-        "explanation": "220−35=185m。",
-        "result": "pass"
+        "explanation": "220−35=185m。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "船艉幾何偏移",
-        "explanation": "185sin7°=22.55m。",
-        "result": "pass"
+        "explanation": "185sin7°=22.55m。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "最近堤岸淨距",
-        "explanation": "115−18−22.55=74.45m。",
-        "result": "pass"
+        "explanation": "115−18−22.55=74.45m。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "偏流角與整段側漂區別",
-        "explanation": "明列兩種解讀，避免把偏流角重複累加。",
-        "result": "verified_with_scope"
+        "explanation": "明列兩種解讀，避免把偏流角重複累加。；查核：verified_with_scope",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -56,7 +56,7 @@
       "最近堤岸距離以船艉外側角點的平面投影估算；實際船體外板形狀及舵、螺槳等突出物未納入。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -76,17 +76,15 @@
         },
         {
           "item": "偏流角與整段側漂區別",
-          "result": "verified_with_scope",
-          "note": "明列兩種解讀，避免把偏流角重複累加。"
+          "result": "pass",
+          "note": "限定適用範圍：明列兩種解讀，避免把偏流角重複累加。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "船舶操縱"
+    "lastUpdated": "2026-11-07"
   },
   {
-    "id": "102-shiphandling-02-answer-v2",
+    "id": "102-shiphandling-02",
     "questionId": "102-shiphandling-02",
     "version": 2,
     "language": "zh-TW",
@@ -96,23 +94,23 @@
     "keyPoints": [
       {
         "point": "大型客船操縱資料",
-        "explanation": "要求查核個船Pilot Card及操縱手冊。",
-        "result": "pass"
+        "explanation": "要求查核個船Pilot Card及操縱手冊。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "慣性及風壓",
-        "explanation": "說明高排水量與高風壓面積影響。",
-        "result": "pass"
+        "explanation": "說明高排水量與高風壓面積影響。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "低速及淺水操縱",
-        "explanation": "補入舵效、Squat、UKC、岸壁效應及交互作用。",
-        "result": "pass"
+        "explanation": "補入舵效、Squat、UKC、岸壁效應及交互作用。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "拖船及乘客安全",
-        "explanation": "納入BP、力臂、旅客舒適及靠泊衝擊。",
-        "result": "pass"
+        "explanation": "納入BP、力臂、旅客舒適及靠泊衝擊。；查核：pass",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -183,12 +181,10 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "船舶操縱"
+    "lastUpdated": "2026-11-07"
   },
   {
-    "id": "102-shiphandling-03-answer-v2",
+    "id": "102-shiphandling-03",
     "questionId": "102-shiphandling-03",
     "version": 2,
     "language": "zh-TW",
@@ -198,23 +194,23 @@
     "keyPoints": [
       {
         "point": "Single Point Failure定義",
-        "explanation": "單一環節失效即導致整體功能失效且缺乏備援。",
-        "result": "pass"
+        "explanation": "單一環節失效即導致整體功能失效且缺乏備援。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "人員、設備、資訊及程序案例",
-        "explanation": "補入多種引水作業單點失效情境。",
-        "result": "pass"
+        "explanation": "補入多種引水作業單點失效情境。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "冗餘與交叉核對",
-        "explanation": "補入設備備援、多源定位及閉環溝通。",
-        "result": "pass"
+        "explanation": "補入設備備援、多源定位及閉環溝通。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "BRM安全文化",
-        "explanation": "強調共享資訊、角色分工及安全質疑。",
-        "result": "pass"
+        "explanation": "強調共享資訊、角色分工及安全質疑。；查核：pass",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -284,12 +280,10 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "船舶操縱"
+    "lastUpdated": "2026-11-07"
   },
   {
-    "id": "102-shiphandling-04-answer-v2",
+    "id": "102-shiphandling-04",
     "questionId": "102-shiphandling-04",
     "version": 2,
     "language": "zh-TW",
@@ -299,28 +293,28 @@
     "keyPoints": [
       {
         "point": "動能與慣性",
-        "explanation": "以E=1/2mV²說明速度平方關係。",
-        "result": "pass"
+        "explanation": "以E=1/2mV²說明速度平方關係。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "停船距離及倒俥延遲",
-        "explanation": "以個船海試及操縱手冊為依據。",
-        "result": "pass"
+        "explanation": "以個船海試及操縱手冊為依據。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "舵效、Squat及UKC",
-        "explanation": "兼顧最低舵效速度與淺水安全。",
-        "result": "pass"
+        "explanation": "兼顧最低舵效速度與淺水安全。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "SOG與STW",
-        "explanation": "區分地速與對水速度在操縱及ETA上的用途。",
-        "result": "pass"
+        "explanation": "區分地速與對水速度在操縱及ETA上的用途。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "固定速限避免",
-        "explanation": "不創造全船型通用港內速度。",
-        "result": "pass"
+        "explanation": "不創造全船型通用港內速度。；查核：pass",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -404,12 +398,10 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "船舶操縱"
+    "lastUpdated": "2026-11-07"
   },
   {
-    "id": "102-shiphandling-05-answer-v2",
+    "id": "102-shiphandling-05",
     "questionId": "102-shiphandling-05",
     "version": 2,
     "language": "zh-TW",
@@ -419,28 +411,28 @@
     "keyPoints": [
       {
         "point": "慣性係數定義",
-        "explanation": "不同文獻對Inertia Factor與附加質量係數的用法不完全一致，答案列出兩種定義並標示。",
-        "result": "verified_with_scope"
+        "explanation": "不同文獻對Inertia Factor與附加質量係數的用法不完全一致，答案列出兩種定義並標示。；查核：verified_with_scope",
+        "importance": "essential"
       },
       {
         "point": "附加質量影響因素",
-        "explanation": "列出船型、運動方向、水深、速度及載況。",
-        "result": "pass"
+        "explanation": "列出船型、運動方向、水深、速度及載況。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "操船上的影響",
-        "explanation": "連結加減速、橫移、迴轉及淺水效應。",
-        "result": "pass"
+        "explanation": "連結加減速、橫移、迴轉及淺水效應。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "Equipment Number公式",
-        "explanation": "依IMO及IACS列出EN=Δ^(2/3)+2Bh+0.1A。",
-        "result": "pass"
+        "explanation": "依IMO及IACS列出EN=Δ^(2/3)+2Bh+0.1A。；查核：pass",
+        "importance": "essential"
       },
       {
         "point": "艤裝數用途",
-        "explanation": "用於選定錨、錨鏈及相關設備，與GT及操縱性能區分。",
-        "result": "pass"
+        "explanation": "用於選定錨、錨鏈及相關設備，與GT及操縱性能區分。；查核：pass",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -495,13 +487,13 @@
       "IMO MSC.1/Circ.1175/Rev.1為2020年修訂版，作為公式及當代設備規範的補充引用；考試歷史背景仍依2013年適用之IACS及載重線規範。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
           "item": "慣性係數定義",
-          "result": "verified_with_scope",
-          "note": "不同文獻對Inertia Factor與附加質量係數的用法不完全一致，答案列出兩種定義並標示。"
+          "result": "pass",
+          "note": "限定適用範圍：不同文獻對Inertia Factor與附加質量係數的用法不完全一致，答案列出兩種定義並標示。"
         },
         {
           "item": "附加質量影響因素",
@@ -525,8 +517,6 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "船舶操縱"
+    "lastUpdated": "2026-11-07"
   }
 ]
