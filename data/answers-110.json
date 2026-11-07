@@ -1028,54 +1028,83 @@
     "version": 1,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "一、紅黑相間橫條紋：依IALA浮標系統，黑色與紅色橫帶相間的孤立危險物標（Isolated Danger Mark），表示其所在位置或附近有孤立危險物，周圍水域仍可通航但須保持安全距離；頂標通常為兩個黑色球形。二、紅黑相間直條紋：本題所指若為紅白垂直條紋，則為安全水域標（Safe Water Mark），表示標誌周圍均為可航水域，常用於航道中線、航道入口或 landfall；其燈色為白色，可採不同燈質。惟題幹明確寫「紅黑」，與標準IALA安全水域標的紅白配色不符，必須回看原卷圖示／題文是否有辨識或轉錄差異。三、紅黑相間方格：標準IALA浮標系統並無以紅黑方格作為通用側面標誌的標準型式；須依原題圖示、地方航標制度或特殊標誌圖例核對，不宜直接指定其意義。四、綠色浮標：在IALA A區域，進港時綠色側面標誌通常置於右舷（starboard-hand），紅色置於左舷（port-hand）；但航行方向及地方特殊規則仍須依海圖及航標表確認。",
-    "practicalAnalysis": "本題三個紅黑圖樣的顏色組合值得特別複核。IALA常見標誌為孤立危險物標黑紅橫帶、安全水域標紅白直帶、側面標誌紅／綠；「紅黑直條紋」與「紅黑方格」不能憑印象硬套。網站答案已將可確認的孤立危險物及綠色側面標誌說明，另外兩項保留圖例核對。",
+    "modelAnswer": "本題應依考題所稱「我國浮標制度」作答，不可直接套用IALA-B側面標誌。依我國舊制航標圖例：\n（一）紅、黑相間橫條紋浮標：設於港灣航道中界／航路中央，標示航道中心。官方不同版本對通過側有文字差異：部分官方燈表記載船舶應在其右側通過；航港研究資料則記載可由任一側通過。考試作答應依110年當時適用的《水道燈表》／港區航標圖例確認，不能不加說明地混用。\n（二）紅、黑相間直條紋浮標：設於地形突出端、沙洲、淺灘或險礁的內外端；標示危險物邊界，標誌兩側均有可航水道，但不得從浮標與其所標示危險物之間通過。\n（三）紅、黑相間方格浮標：標示海中礁石及範圍較小的障礙物；其兩側均有航道可通，若標示障礙物，通常設於危險物向海的一側。若以成對方格標示障礙物兩側，紅白方格與黑白方格另有各自的左右側通過意義，須依圖例辨認。\n（四）綠色浮標：我國舊制用於標示沉船，不可誤認為IALA-B的綠色側面標誌。沉船位於外海或兩側均有寬闊航道時，浮標設於沉船向海一側；位於江內、港內、河口或狹窄水道時，則設於沉船向航道一側。若為燈浮，依舊制圖例使用綠色燈光。\n注意：我國現行航路標識已採IALA-B制度，但考題問的是「我國浮標系統」的歷史圖例；必須分辨題目所指制度與現行IALA-B側面標誌，避免把綠色沉船標誤判為左側標。",
+    "practicalAnalysis": "本題四種標誌是我國舊制特殊航標圖例，並非全數可一對一套用IALA-B。可確定的重點是直條紋標示地形危險物邊界、方格標示礁石／小型障礙物、綠色浮標標示沉船。橫條紋標誌的通過側在不同版本官方／研究資料間存在文字差異，已保留查核註記。",
     "keyPoints": [
       {
-        "point": "孤立危險物標：黑色主體、紅色橫帶、兩黑球頂標",
+        "point": "紅黑橫條紋：航道中界／航路中央；通過側須依110年當時有效官方燈表核對，來源版本有差異。",
         "importance": "essential"
       },
       {
-        "point": "安全水域標標準配色為紅白垂直條紋，題目紅黑文字需核原卷",
+        "point": "紅黑直條紋：標示沙洲、淺灘、險礁等突出端，兩側可航，但不可從浮標與危險物之間通過。",
         "importance": "essential"
       },
       {
-        "point": "IALA A區域進港：綠標通常為右舷側標",
+        "point": "紅黑方格：標示海中礁石及小範圍障礙物，兩側均有航道可通；成對方格須依顏色辨識通過側。",
         "importance": "essential"
       },
       {
-        "point": "特殊標誌及地方標誌須依海圖、航標表與原圖判讀",
+        "point": "綠色浮標：我國舊制用以標示沉船，非IALA-B綠色側面標誌。",
+        "importance": "essential"
+      },
+      {
+        "point": "我國現行採IALA-B與考題所問歷史國內浮標圖例須明確區分。",
         "importance": "essential"
       }
     ],
     "references": [
       {
-        "title": "110年引水人考試引港學原卷",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110060&q=1&s=0910&t=Q",
-        "sourceType": "official_exam_paper",
-        "issuer": "考選部",
-        "supports": "題目原始圖樣及用字須回看。"
+        "title": "中華民國水道燈表（附表五：中華民國浮標制度）",
+        "url": "https://www.mnd.gov.tw/NewUpload/userfiles/File/大氣海洋局/99水道燈表.pdf",
+        "sourceType": "official_hydrographic_publication",
+        "issuer": "國防部海軍大氣海洋局",
+        "supports": "紅黑橫條、直條、方格及綠色浮標之國內舊制定義；其中橫條通過側記載為右側通過。"
       },
       {
-        "title": "IALA Maritime Buoyage System",
-        "url": "https://www.iala-aism.org/product/iala-maritime-buoyage-system/",
-        "sourceType": "international_standard",
-        "issuer": "IALA",
-        "supports": "側面標誌、孤立危險物標、安全水域標及特殊標誌的標準色彩與頂標。"
+        "title": "我國引水制度、法規修正研究及船舶進出港之智慧化導航系統探討",
+        "url": "https://www.iot.gov.tw/uploads/asset/data/6619d9d0367376304acd53cb/B0961880.pdf",
+        "sourceType": "government_research_report",
+        "issuer": "交通部運輸研究所",
+        "supports": "附錄二我國浮標制度：紅黑橫條航道中央、直條危險物邊界、方格障礙物、綠色沉船標誌；橫條通過側文字與另一版本略有不同。"
+      },
+      {
+        "title": "110年引水人考試引港學原卷",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=505&code=110060&q=1&s=0910&t=Q",
+        "sourceType": "official_exam_paper",
+        "issuer": "考選部",
+        "supports": "題目四種浮標名稱及考試原文。"
+      },
+      {
+        "title": "航港局遊艇活動安全指引",
+        "url": "https://www.motcmpb.gov.tw/ServerFile/Get/deb15b57-4629-4176-ac91-0728f867a650?DLCount=1&attachTable=4",
+        "sourceType": "official_guidance",
+        "issuer": "交通部航港局",
+        "supports": "我國現行IALA-B側面標誌：進港左綠右紅；用以區別舊制綠色沉船浮標。"
       }
     ],
     "assumptions": [],
     "limitations": [
-      "題幹的「紅黑相間直條紋」及「紅黑相間方格」未能僅依標準IALA浮標類別確認；須檢視考選部原卷圖示或當時臺灣航標圖例，未核實前不作確定判讀。"
+      "我國舊制紅黑橫條紋浮標之通過側，在國防部99年版《水道燈表》與交通部運輸研究所研究報告附錄二出現文字差異；須以考試當時有效正式航標規章／燈表原件為最終依據。",
+      "現行臺灣採IALA-B，但考題明確使用我國舊制浮標名稱，不能將現行側面標誌顏色直接回套。"
     ],
     "verification": {
       "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "題目文字與題號",
+          "item": "四種我國舊制浮標類別及一般意義",
           "result": "pass",
-          "note": "依本專案 questions.json 中已完成考選部官方原卷核對的題文。"
+          "note": "以國防部99年水道燈表及交通部運輸研究所研究報告交叉核對。"
+        },
+        {
+          "item": "紅黑橫條紋標誌的通過側",
+          "result": "needs_review",
+          "note": "不同官方／研究版本文字略有差異，待取得110年考試當時有效正式圖例原件。"
+        },
+        {
+          "item": "現行IALA-B與我國舊制綠色沉船標的區別",
+          "result": "pass",
+          "note": "航港局指引說明臺灣現行IALA-B；舊制圖例另以綠色標示沉船。"
         }
       ]
     },
