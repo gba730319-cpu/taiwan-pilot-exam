@@ -227,5 +227,121 @@
       ]
     },
     "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "086-kaohsiung-waterway-05-answer-v1",
+    "questionId": "086-kaohsiung-waterway-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "1,000 GT重載化學品船靠泊27號碼頭，應先確認船舶總長、船寬、前後吃水、貨物種類及危險品等級，核對碼頭設計水深、潮位、護舷、繫纜設備及泊位相容性。\n進港前完成Master-Pilot Exchange，交換船舶操縱特性、主機／舵機、螺槳旋向、錨機及吃水資料；確認航道及泊位無障礙，依VTS指示進港。\n港池內保持低但仍有舵效的速度，評估潮流、風、岸壁效應及艏艉掃掠。以小接近角、低橫向速度平行靠泊，必要時申請拖船控制船艏艉。\n先送控制纜／spring line控制縱向運動，再依序帶妥艏纜、艉纜及倒纜，確認護舷受力均勻。\n化學品船須依IMDG Code申報貨物、確認裝卸管線、緊急切斷、接地／靜電控制、消防設備及禁火區；拖船不得推頂貨管、閥件或船體薄弱處。\n靠妥後確認舷梯、繫纜、貨管連接、防污染及消防值守。",
+    "practicalAnalysis": "本題10分，重點是化學品船貨物申報、碼頭相容性、低速靠泊、繫纜及防火防污染；不要只寫一般貨船靠泊程序。",
+    "keyPoints": [
+      {
+        "point": "核對吃水、潮位、27號碼頭水深、護舷及繫纜設備。",
+        "importance": "essential"
+      },
+      {
+        "point": "完成Master-Pilot Exchange並依VTS及指定航道進港。",
+        "importance": "essential"
+      },
+      {
+        "point": "低速、小角度、低橫向接觸速度平行靠泊。",
+        "importance": "essential"
+      },
+      {
+        "point": "依IMDG Code申報危險品並確認貨管、緊急切斷、消防及接地。",
+        "importance": "supporting"
+      },
+      {
+        "point": "避免拖船推頂貨管及薄弱結構。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "86年甲種引水人高雄港地方題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=040&code=086160&q=1&s=5004&t=Q",
+        "supports": "原卷。"
+      }
+    ],
+    "assumptions": [
+      "以民國86年高雄港考區為準。"
+    ],
+    "limitations": [
+      "未取得1997年27號碼頭護舷、裝卸管線及設計水深資料，故不指定固定靠泊速度及拖船配置。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部86年高雄港地方題",
+          "result": "pass",
+          "note": "題文核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "086-kaohsiung-waterway-06-answer-v1",
+    "questionId": "086-kaohsiung-waterway-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "5,000 GT空船繫泊25號浮筒並下雙錨，吹4級西北風。空船乾舷高、受風面積大，離泊時須控制船艏及錨鏈，避免船舶被風推向浮筒或鄰船。\n離泊前通知VTS，確認水域、風速陣風、潮流及鄰近船舶；主機、舵機、錨機及拖船通訊備便，確認兩錨出鏈方向及張力。\n船艏拖船先接妥拖纜並建立控制力，確認拖點、拖纜角度、bollard pull及緊急解拖程序。\n依風向及錨鏈受力，先起較不受力或下風側錨，再收另一錨；不可同時急收兩錨而失去控制。起錨過程由拖船控制船艏及橫移，避免船艉掃碰浮筒或他船。\n兩錨收妥後，拖船牽引船舶離開浮筒，保持船艏朝向可控方向；進入足夠水域後調整航向，確認拖纜安全解除並向VTS報告。\n若風力超過拖船能力，應延後離泊或增派拖船；監控錨鏈張力，避免錨鏈交叉、錨爪勾纜或錨機過載。",
+    "practicalAnalysis": "本題10分，核心是空船受風面積大、雙錨起錨順序及船艏拖船控制。先起哪一錨須依當時風向、錨鏈受力及錨位判斷。",
+    "keyPoints": [
+      {
+        "point": "空船乾舷高，西北風下受風漂移明顯。",
+        "importance": "essential"
+      },
+      {
+        "point": "先接妥船艏拖纜並建立拖船控制。",
+        "importance": "essential"
+      },
+      {
+        "point": "依錨鏈受力及風向決定先起哪一錨，避免雙錨同時急收。",
+        "importance": "essential"
+      },
+      {
+        "point": "拖船控制船艏及橫移，避免船艉掃碰。",
+        "importance": "supporting"
+      },
+      {
+        "point": "拖力不足時延後或增派拖船。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "86年甲種引水人高雄港地方題",
+        "sourceType": "official_exam",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=040&code=086160&q=1&s=5004&t=Q",
+        "supports": "原卷。"
+      }
+    ],
+    "assumptions": [
+      "以民國86年高雄港考區為準。"
+    ],
+    "limitations": [
+      "未提供25號浮筒方位、雙錨方向、螺槳旋向及拖船bollard pull，故不指定固定先起左／右錨及拖帶方向。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部86年高雄港地方題",
+          "result": "pass",
+          "note": "題文核對。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
   }
 ]
