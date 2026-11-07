@@ -280,6 +280,7 @@ export default function Home() {
         <small>PILOT EXAM QUESTION BANK</small>
         <h1>把歷屆考題，<br/><em>整理成真正能備考的資料庫。</em></h1>
         <p>依年度、考科與港區查找題目。每道正式歷屆題目都附可追溯的原始來源，可直接開啟考選部原卷核對。</p>
+        <p style={{marginTop:18}}><a href="/mock-exam" style={{display:"inline-block",background:"#176b68",color:"#fff",padding:"13px 20px",borderRadius:8,textDecoration:"none",fontWeight:700}}>進入完整隨機模擬考 →</a></p>
         <div className="stats">
           <div><b>{items.length}</b><span>已匯入題目</span></div>
           <div><b>{new Set(items.map((q) => q.year)).size}</b><span>涵蓋年度</span></div>
