@@ -247,3 +247,12 @@
 - 後退時支點移向船艉，艏推器仍可有效控制倒俥船艏向，但反應較慢，須留意偏航率、螺槳側推及船艉掃掠。
 - 已區分「無外力時基準支點約在重心附近」與「艏推器施力時的有效迴旋支點」兩種情況，避免概念混淆。
 - 參考來源：《Notes on Shiphandling》https://library.bsma.edu.ge/BOOKS/Notes_%20on_shiphandling.pdf；《The Shiphandler's Guide》https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf
+
+
+### 114 年船舶操縱第 5 題：貨櫃船、汽車船及郵輪受風操縱差異複核（2026-11-07）
+- 依PIANC WG 211補強汽車／車輛運輸船：高windage area、封閉車輛甲板、船艏外飄，且實際操作吃水常低於夏季滿載吃水；壓載狀態可能同時具有高受風面積及較小水下側向阻力。
+- 依日本船舶海洋工學會J-STAGE研究補強貨櫃船：風載荷與甲板貨櫃堆疊／間隙及箱位配置有關，風壓中心隨裝載改變；壓載與滿載狀態應分別評估。
+- 郵輪部分補入高層旅客甲板與上層建築受風面積、常見艏艉側推器及方位吊艙推進器的低速控制能力，但強調個船差異及強風可能超過側推器能力。
+- 依IMO A.601(15)補入應查個船資料：滿載／壓載風力與力矩、保向限制、風致漂移、側面投影面積、艏艉盲區、側推器能力及零速轉向效能；依MCA MGN 301補充Pilot Card、Wheelhouse Poster及Manoeuvring Booklet。
+- 重要題幹界線：駕駛臺位置不等於迴旋支點。現代大型貨櫃船常見艉部上層建築，題幹「三類船型駕駛臺均近艏」應視為特定假設或個船配置，不可泛化為船型通則。
+- 官方／專業來源：PIANC WG 211 https://www.kscoe.or.kr/%21/download/?ct=76&filename=7.+PIANC+MarCom+WG+211.pdf&oi=20312&path=%2Fmedia%2F51%2Fboard%2F2025%2F01%2F31%2F7._PIANC_MarCom_WG_211.pdf；J-STAGE貨櫃船風載研究 https://www.jstage.jst.go.jp/article/jjasnaoe/10/0/10_0_159/_article/-char/en；IMO A.601(15) https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.601%2815%29.pdf；MCA MGN 301 https://www.gov.uk/government/publications/mgn-301-mf-amendment-1-manoeuvring-information-onboard-ships/mgn-301-mf-amendment-1-manoeuvring-information-onboard-ships
