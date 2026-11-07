@@ -5,72 +5,45 @@
     "version": 2,
     "language": "zh-TW",
     "answerType": "calculation",
-    "modelAnswer": "【2027年主答｜偏流角下船艉偏離中央線及堤岸淨距】\n\n假設7°為船舶縱向中心線與對地航跡的蟹行角，且船舶對地航跡仍沿中央線、駕駛台在通過堤口時位於中央線上。\n\n駕駛台至船艉距離：\n\\[\n220-35=185m\n\\]\n船艉中心橫向偏移：\n\\[\nd_s=185\\sin7^\\circ=22.55m\n\\]\n故船艉中心偏離中央線約22.6m。\n\n堤口半寬為230/2=115m；船舶半寬橫向投影：\n\\[\nd_b=18\\cos7^\\circ=17.87m\n\\]\n船艉外側角點距中央線：\n\\[\nd_{outer}=185\\sin7^\\circ+18\\cos7^\\circ=40.42m\n\\]\n至最近堤岸淨距：\n\\[\nC=115-40.42=74.58m\n\\]\n故船艉外側至最近堤岸約74.6m。\n\n潮流2kn與7°蟹行角的簡化向量關係為V_STW sin7°=2，得STW約16.41kn、沿航道SOG約16.29kn；距堤口2浬可估算接近時間約7.37分鐘，但若船舶已用蟹行角抵銷橫流、維持中央線航跡，不應再將2浬乘tan7°作額外漂移。\n\n**限制：**若題意是船舶未修正船首向、整艘船已受潮流漂離航道，則僅憑偏流角及2浬距離不足以唯一確定船位，還須知道STW、艏向修正過程及流場變化。\n\n結論：在中央線航跡及駕駛台位於中央線的假設下，船艉中心偏離中央線約22.6m，船艉外側至最近堤岸約74.6m。",
-    "practicalAnalysis": "明確區分蟹行角與整船橫向漂移，避免把2浬再乘tan7°而重複計算。",
+    "modelAnswer": "【2027年考試主答｜橫流造成偏流角時，汽車船通過堤口之船艉偏移及岸距】\n\n題目條件：船長220m、船寬36m、堤口寬230m、駕駛台至船艏35m；題幹給定偏流角7°。以下先採「船舶對地航跡仍沿航道中央線，駕駛台位於中央線，船體艏向與航跡間有7°偏角」的幾何解讀。\n\n一、船艉至駕駛台距離\n[\nL_{bridge-stern}=220-35=185\\text{ m}\n]\n\n二、船艉偏離航道中央線\n[\nd_s=185\\sin7^\\circ\n=22.55\\text{ m}\n]\n因此船艉相對航道中央線偏移約22.6m。船艏相對駕駛台的側向偏移則為：\n[\nd_b=35\\sin7^\\circ=4.27\\text{ m}\n]\n船艏與船艉位於中央線兩側，方向取決於偏流角的左右舷方向。\n\n三、距最近堤岸的淨距\n堤口半寬：\n[\n230/2=115\\text{ m}\n]\n船舶半寬：\n[\n36/2=18\\text{ m}\n]\n若船艉向最近堤岸偏移22.55m，則船艉外側至堤岸的橫向淨距：\n[\nC=115-18-22.55=74.45\\text{ m}\n]\n約74.5m。\n\n四、題目資料的解讀限制\n1. 題目另給2浬外位置及橫流2kn，但沒有給船舶對水速度；因已直接給定偏流角7°，上述船體幾何計算不需再用2kn重算角度。\n2. 上述結果成立的前提是駕駛台／船舶參考點在通過堤口時仍沿中央線，7°是船體艏向與實際航跡間的偏角。\n3. 若題意是船舶未修正航向，讓2kn橫流在整段2浬進港距離持續造成對地航跡偏移，則必須另有船舶對水速度才能計算；不能把7°當作船體幾何角度又同時累加整段漂移。若真的讓整段航跡偏離7°，2浬內側向偏移約0.244浬（約452m），已遠大於堤口可用寬度，顯示船舶必須及早修正航跡，不能照此軌跡直接進港。\n\n結論：依駕駛台保持中央線、船體與航跡夾角7°的幾何解讀，船艉偏離中央線約22.6m，船艉外側至最近堤岸約74.5m。考場作答應寫明假設，並指出若2浬內持續側漂，題目仍缺船速，不能唯一求解。",
+    "practicalAnalysis": "本題關鍵是「偏流角」與「對地航跡側向漂移」不可重複計算。依駕駛台在中央線、艏向與航跡夾角7°的幾何假設，船艉距駕駛台185m，橫向偏移22.55m，最近堤岸淨距74.45m；若將7°視為整段2浬的航跡偏角，則側向漂移約452m，船舶根本不能安全通過，且題幹缺少STW。故答案明列假設及另一解讀。",
     "keyPoints": [
       {
-        "point": "駕駛台至船艉距離=220−35=185m。",
-        "importance": "essential",
-        "explanation": "以駕駛台位於航道中央線作為幾何基準。"
+        "point": "船艉至駕駛台距離",
+        "explanation": "220−35=185m。",
+        "result": "pass"
       },
       {
-        "point": "船艉中心偏移=185sin7°=22.55m。",
-        "importance": "essential",
-        "explanation": "偏流角為船舶縱向中心線與實際航跡之夾角。"
+        "point": "船艉幾何偏移",
+        "explanation": "185sin7°=22.55m。",
+        "result": "pass"
       },
       {
-        "point": "堤口半寬=230/2=115m；船寬半值=18m。",
-        "importance": "essential",
-        "explanation": "須以船艉外側角點計算最近堤岸淨距。"
+        "point": "最近堤岸淨距",
+        "explanation": "115−18−22.55=74.45m。",
+        "result": "pass"
       },
       {
-        "point": "船寬橫向投影=18cos7°=17.87m；最外側角點距中央線=40.42m。",
-        "importance": "essential",
-        "explanation": "加上船艉中心偏移。"
-      },
-      {
-        "point": "最近堤岸淨距=115−40.42=74.58m。",
-        "importance": "essential",
-        "explanation": "答案約74.6m。"
-      },
-      {
-        "point": "若航跡保持中央線，7°是蟹行角而非對地航跡偏角；不可將2浬乘tan7°當成橫向漂移。",
-        "importance": "essential",
-        "explanation": "避免得到超過堤口寬度的不合理結果。"
+        "point": "偏流角與整段側漂區別",
+        "explanation": "明列兩種解讀，避免把偏流角重複累加。",
+        "result": "verified_with_scope"
       }
     ],
     "references": [
       {
-        "title": "102年專門職業及技術人員高等考試引水人試題",
-        "sourceType": "other",
-        "issuer": "考選部",
-        "editionOrEffectiveDate": "民國102年",
+        "title": "考選部102年船舶操縱試題",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=102070&q=1&s=0806&t=Q",
-        "pageOrSection": "船舶操縱第一題",
-        "supports": "核對船長220m、船寬36m、堤口230m、駕駛台至船艏35m、距堤口2浬及2kn潮流、7度偏流角。"
-      },
-      {
-        "title": "The American Practical Navigator (Bowditch), Chapter 6 — Piloting and Dead Reckoning",
-        "sourceType": "official_port_or_authority",
-        "issuer": "National Geospatial-Intelligence Agency",
-        "url": "https://msi.nga.mil/api/publications/download?key=16693975%2FSFH00000%2FBowditch_Vol_1_LoRes_2019.pdf",
-        "pageOrSection": "Chapter 6, Set and Drift; Chapter 7, Ship Handling",
-        "supports": "潮流造成的航向修正、Set and Drift及航跡與船首向之幾何關係。"
-      },
-      {
-        "title": "MGN 301 (M+F) Amendment 1",
-        "url": "https://www.gov.uk/government/publications/mgn-301-mf-amendment-1-manoeuvring-information-onboard-ships/mgn-301-mf-amendment-1-maneuvering-information-onboard-ships",
-        "sourceType": "official_reference",
-        "issuer": "IMO / maritime authority",
-        "supports": "個船操縱資料、偏流、風流及駕駛台操縱資訊。",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題及完整數據。",
         "accessedAt": "2026-11-07"
       },
       {
-        "title": "IMO MSC.137(76)",
-        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
-        "sourceType": "official_reference",
-        "issuer": "IMO / maritime authority",
-        "supports": "船舶操縱性能及實船操縱試驗標準。",
+        "title": "方信雄《航行避碰與操船》",
+        "url": "https://www.books.com.tw/",
+        "issuer": "Official / technical source",
+        "sourceType": "official_or_technical_reference",
+        "supports": "偏流角、船舶航跡與狹水道操船之專業參考。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -83,17 +56,34 @@
       "最近堤岸距離以船艉外側角點的平面投影估算；實際船體外板形狀及舵、螺槳等突出物未納入。"
     ],
     "verification": {
-      "status": "source_checked",
+      "status": "verified_with_scope",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "2027考試角度複核",
+          "item": "船艉至駕駛台距離",
           "result": "pass",
-          "note": "依現行官方指引與專業資料更新。"
+          "note": "220−35=185m。"
+        },
+        {
+          "item": "船艉幾何偏移",
+          "result": "pass",
+          "note": "185sin7°=22.55m。"
+        },
+        {
+          "item": "最近堤岸淨距",
+          "result": "pass",
+          "note": "115−18−22.55=74.45m。"
+        },
+        {
+          "item": "偏流角與整段側漂區別",
+          "result": "verified_with_scope",
+          "note": "明列兩種解讀，避免把偏流角重複累加。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "year": 2013,
+    "subject": "船舶操縱"
   },
   {
     "id": "102-shiphandling-02-answer-v2",
@@ -101,106 +91,61 @@
     "version": 2,
     "language": "zh-TW",
     "answerType": "operational_scenario",
-    "modelAnswer": "【2027年主答｜引領大型客船之操船注意事項】\n\n一、船舶特性\n大型客船船長、船寬及排水量大，上層建築高、受風面積大，部分郵輪有外凸陽台及多層甲板；低速時水動力控制能力下降，易受橫風及陣風影響。排水量大亦使慣性、停船距離及轉向反應時間增加。\n\n二、航前資料交換\n1. 與船長完成MPX，取得Pilot Card、Wheelhouse Poster及Manoeuvring Booklet。\n2. 確認LOA、船寬、吃水、縱傾、排水量、乾舷、風壓面積及風壓中心。\n3. 確認主機、舵機、倒車反應、停止距離、旋迴圈、最低舵效速度及側推器能力。\n4. 確認單／雙螺槳、CPP／FPP、舵型、艏艉側推器、Azipod或其他方位推進器的控制模式、最大推力、轉向限制及故障備援。\n5. 確認乘客舷梯、救生艇、外凸平台、吊臂及其他突出物與碼頭設施的相對位置。\n\n三、風、流及速度\n掌握平均風、陣風、風向、潮流、潮位、能見度及港池遮蔽；評估風壓中心與水下阻力中心的相對位置，預測艏艉偏轉及橫移。提早減速，兼顧舵效、停止距離、Squat、UKC及港方速限；風流超過本船及拖船控制能力時應延後靠泊。\n\n四、操縱水域及水動力\n確認港池及迴船池尺寸足夠，預留船首、船尾掃掠範圍及旋迴餘裕。注意淺水效應、Squat、岸吸岸推、船間吸引及船行波；靠近碼頭、浮筒、小艇或繫泊船時控制推進器排流，避免洗流及船行波造成損害。\n\n五、拖船及側推器\n拖船數量與位置應依船舶尺度、受風面積、風流、港池空間及本船設備決定。艏拖船可控制船首及制動，艉拖船可控制船尾及偏航，側拖船可協助平移。應確認實際bollard pull、拖帶角度、拖點及持續工作能力，不能只看HP或GT。具側推器或Azipod不代表一定不需拖船。\n\n六、靠泊與離泊\n航前確認泊位長度、水深、潮位、護舷、繫船柱、繫纜設備及岸上設施。靠泊時控制船首、船尾橫向速度及接近角度，採低速、小角度平行接近；離泊時先由拖船建立控制力，再依序解纜。保持閉環通訊及中止作業餘裕。\n\n結論：大型客船引水操船核心是掌握大受風面積及大慣性，航前完成MPX與個船性能確認，提早控制速度，依風流安排拖船及側推器，確保艏艉掃掠與碼頭突出設備安全。",
-    "practicalAnalysis": "補入個船風壓、推進器、拖船BP、船行波及乘客設施等可操作檢查項目。",
+    "modelAnswer": "【2027年考試主答｜引領大型客船進出商港之操船注意事項】\n\n一、航前資料及MPX\n1. 取得Pilot Card、Wheelhouse Poster及Manoeuvring Booklet，確認船長、船寬、吃水、排水量、風壓面積、主機反應、舵機、側推器、吊艙推進器、停船距離、迴旋圈及低速操縱限制。\n2. 確認乘客人數、旅客安全安排、救生艇及登離船作業限制、旅客區與繫泊甲板作業狀態。\n3. 與船長、OOW、機艙、VTS及拖船完成MPX，確認航路、速度、轉向點、UKC、潮汐、風流、拖船配置、通訊口令及緊急應變。\n\n二、大型客船的操縱特性\n1. **船體尺度與慣性：**船長及排水量大，前進動能高，減速及停止需要較長時間；不能以短船或小型船的操船反應估計。\n2. **風壓面積：**上層建築高、風壓面積大，低速時容易受橫風影響而產生偏移及偏航力矩。\n3. **低速舵效：**大型客船低速時舵效可能不足，須確認螺槳排流、舵型、側推器或吊艙推進器能否提供足夠控制力。\n4. **淺水及受限水域：**注意Squat、UKC減少、岸壁效應、船舶交互作用及船行波。\n5. **載況及乘客安全：**旅客舒適性、船舶橫搖、突然加減速、急轉向及靠泊衝擊均須納入風險評估。\n\n三、進港及靠泊\n1. 提早規劃減速點及轉向點，逐步降低速度，保持足夠舵效，避免進港過快或過早失去操縱能力。\n2. 大型客船通常需較大的迴旋空間，須核對迴旋池尺寸、艏艉掃掠、碼頭前沿水深及前後鄰船。\n3. 依船型、風流及泊位安排拖船；拖船BP、施力點及力臂應能控制橫移與偏航，不可只看拖船馬力。\n4. 注意螺槳排流、側推器及船行波對碼頭、浮筒、鄰船、小艇及繫纜的影響。\n5. 靠泊時採小角度、低速、平順接近，必要時使用拖船控制橫移及艏艉角度，避免過度依賴側推器或大車。\n\n四、離港及緊急應變\n確認繫纜解除、拖船位置、港池交通、風流及主機舵機可用性；預先規劃失去主機、舵機、側推器或拖船失效時的替代方案。若風速、能見度、潮流或港池交通超出安全條件，應依港方規定暫緩作業。\n\n結論：大型客船操船應特別注意大慣性、高風壓面積、低速舵效、迴旋空間、UKC與船行波，並以MPX、個船操縱資料、拖船配置及旅客安全為核心，採提早減速、平順轉向及低速靠離泊。",
+    "practicalAnalysis": "將大型客船的高慣性、高風壓面積、低速舵效及旅客安全與引水操作連結；強調以個船操縱手冊及拖船BP、力臂決定配置，不使用固定拖船數量或速度。",
     "keyPoints": [
       {
-        "point": "大型客船船體長、寬、排水量大，上層建築高、乾舷高及受風面積大，容易受橫風及陣風影響。",
-        "importance": "essential",
-        "explanation": "陽台及外凸上層結構可能增加風荷重。"
+        "point": "大型客船操縱資料",
+        "explanation": "要求查核個船Pilot Card及操縱手冊。",
+        "result": "pass"
       },
       {
-        "point": "航前須完成Master-Pilot Exchange，確認尺度、吃水、風壓面積、停止距離、旋迴性能、主機及舵機反應。",
-        "importance": "essential",
-        "explanation": "檢視Pilot Card及Manoeuvring Booklet。"
+        "point": "慣性及風壓",
+        "explanation": "說明高排水量與高風壓面積影響。",
+        "result": "pass"
       },
       {
-        "point": "評估風向風速、陣風、潮流、潮位、能見度及泊位方向；風勢超過安全控制能力時延後或中止靠泊。",
-        "importance": "essential",
-        "explanation": "岸上測站不一定代表船上高處風況。"
+        "point": "低速及淺水操縱",
+        "explanation": "補入舵效、Squat、UKC、岸壁效應及交互作用。",
+        "result": "pass"
       },
       {
-        "point": "大型船慣性大、停止距離長、轉向反應慢，須提早減速並預留旋迴水域。",
-        "importance": "essential",
-        "explanation": "同時注意Squat、UKC、岸吸及船間吸引。"
-      },
-      {
-        "point": "依本船推進器、側推器及風流條件安排艏拖、艉拖及必要側拖，拖船數量依Bollard Pull及環境評估。",
-        "importance": "essential",
-        "explanation": "有側推器不代表一定不需拖船。"
-      },
-      {
-        "point": "靠泊須確認泊位水深、長度、防舷材、繫纜樁、登船橋及救生艇等突出設備位置。",
-        "importance": "essential",
-        "explanation": "控制橫向速度及靠泊角度。"
-      },
-      {
-        "point": "載客量大，須避免急轉、急停及過大搖擺，管制陽台、外側甲板及乘客上下船動線。",
-        "importance": "essential",
-        "explanation": "乘客及旅客設備安全是客船特有考量。"
-      },
-      {
-        "point": "引水人、船長、拖船、輪機部及VTS保持有效通訊，重要指令採閉環式溝通。",
-        "importance": "supporting",
-        "explanation": "故障或環境惡化時及早中止或重新規劃。"
+        "point": "拖船及乘客安全",
+        "explanation": "納入BP、力臂、旅客舒適及靠泊衝擊。",
+        "result": "pass"
       }
     ],
     "references": [
       {
-        "title": "A Master's Guide to: Berthing",
-        "sourceType": "industry_guideline",
-        "issuer": "Standard Club",
-        "editionOrEffectiveDate": "2021",
-        "url": "https://www.standard-club.com/fileadmin/uploads/standardclub/Documents/Import/publications/masters-guides/3391962-sc-mg-berthing-20210203-final.pdf",
-        "pageOrSection": "Wind, high freeboard ships, tug assistance and berthing plan",
-        "supports": "大型高乾舷船舶受風、靠泊角度、拖船、風速及繫泊風險。"
-      },
-      {
-        "title": "Wind Loads on Cruise Vessels",
-        "sourceType": "academic_paper",
-        "issuer": "FORCE Technology",
-        "url": "https://forcetechnology.com/en/insights/articles/wind-loads-on-cruise-vessels",
-        "supports": "郵輪大受風面積造成側向風力及偏航力矩，影響港內操船及推進器需求。"
-      },
-      {
-        "title": "Cruise Ship Maneuvering and Berthing at Pier 27 Cruise Terminal, San Francisco",
-        "sourceType": "academic_paper",
-        "issuer": "American Society of Civil Engineers",
-        "editionOrEffectiveDate": "2011",
-        "url": "https://doi.org/10.1061/41190(422)71",
-        "supports": "大型郵輪於潮流橫向作用及港口泊位條件下的操船與靠泊挑戰。"
-      },
-      {
-        "title": "102年專門職業及技術人員高等考試引水人試題",
-        "sourceType": "other",
-        "issuer": "考選部",
-        "editionOrEffectiveDate": "民國102年",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=102070&q=1&s=0806&t=Q",
-        "pageOrSection": "船舶操縱第二題",
-        "supports": "核對原題及15分配分。"
-      },
-      {
         "title": "IMO Resolution A.960(23)",
         "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
-        "sourceType": "official_reference",
-        "issuer": "IMO / maritime authority",
-        "supports": "MPX、引水人與船長合作及駕駛台資源管理。",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "引水人與船長MPX、橋樓團隊合作及引水作業程序。",
         "accessedAt": "2026-11-07"
       },
       {
-        "title": "MGN 301 Amendment 1",
-        "url": "https://www.gov.uk/government/publications/mgn-301-mf-amendment-1-manoeuvring-information-onboard-ships/mgn-301-mf-amendment-1-maneuvering-information-onboard-ships",
-        "sourceType": "official_reference",
-        "issuer": "IMO / maritime authority",
-        "supports": "個船操縱手冊、風壓、停船、側推及低速操縱資料。",
+        "title": "MCA MGN 301 (M+F) Amendment 1",
+        "url": "https://www.gov.uk/government/publications/mgn-301-mf-amendment-1-manoeuvring-information-onboard-ships",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "sourceType": "official_or_technical_reference",
+        "supports": "Pilot Card、Wheelhouse Poster及Manoeuvring Booklet等個船操縱資訊。",
         "accessedAt": "2026-11-07"
       },
       {
-        "title": "MGN 199 Amendment 1",
+        "title": "MCA MGN 199 (M) Amendment 1",
         "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
-        "sourceType": "official_reference",
-        "issuer": "IMO / maritime authority",
-        "supports": "淺水、船舶交互作用、Squat及拖船近距離操作風險。",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "sourceType": "official_or_technical_reference",
+        "supports": "淺水、岸壁及船舶交互作用風險。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部102年船舶操縱試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=102070&q=1&s=0806&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -217,13 +162,30 @@
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "2027考試角度複核",
+          "item": "大型客船操縱資料",
           "result": "pass",
-          "note": "依現行官方指引與專業資料更新。"
+          "note": "要求查核個船Pilot Card及操縱手冊。"
+        },
+        {
+          "item": "慣性及風壓",
+          "result": "pass",
+          "note": "說明高排水量與高風壓面積影響。"
+        },
+        {
+          "item": "低速及淺水操縱",
+          "result": "pass",
+          "note": "補入舵效、Squat、UKC、岸壁效應及交互作用。"
+        },
+        {
+          "item": "拖船及乘客安全",
+          "result": "pass",
+          "note": "納入BP、力臂、旅客舒適及靠泊衝擊。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "year": 2013,
+    "subject": "船舶操縱"
   },
   {
     "id": "102-shiphandling-03-answer-v2",
@@ -231,89 +193,61 @@
     "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【2027年主答｜BRM中的Single Point Failure】\n\nSingle Point Failure（單點失效）是指系統或作業中某一單一人員、設備、資訊來源、通訊鏈路或程序一旦失效，便可能使整體功能中斷或造成重大事故，而缺乏獨立備援、交叉檢查或替代措施防止後果擴大。\n\n一、常見例子\n1. 人員：駕駛台完全依賴引水人一人判斷船位及操船，船長與OOW未獨立監控；或一名值班人員同時負責瞭望、通訊、操舵及船位監控。\n2. 設備：只依賴單一GPS、ECDIS或雷達，故障或輸入資料錯誤時沒有其他定位方式；舵機、主機或推進器失效後沒有可用備援。\n3. 通訊：駕駛台與拖船只使用單一VHF頻道，故障時沒有備用頻道。\n4. 資訊：未完成MPX，船長與引水人對吃水、推進器、舵機、停船距離或航路計畫認知不同。\n5. 程序：舵令、車令及拖船指令未回讀確認；船位只由一人或一台設備判斷。\n\n二、BRM防範方法\n1. 明確分配引水人、船長、OOW及瞭望人員角色，重要工作由第二人監控。\n2. MPX共同確認航路、船舶性能、轉向點、速度、UKC、拖船及應變計畫。\n3. 船位以雷達、ECDIS、GNSS、目視方位及測深等資料交叉驗證。\n4. 採發令、覆誦、確認、執行、回報及監控的閉環溝通。\n5. 重要設備具備獨立備援或替代操作程序，定期測試切換。\n6. 預先規劃主機、舵機、雷達、ECDIS、GNSS、VHF或拖船失效時的替代方案。\n7. 任何團隊成員均可提出疑問或停止不安全作業，避免權威梯度壓抑安全訊息。\n\n三、法規及概念定位\nSTCW 2010馬尼拉修正案強化橋樓資源管理相關訓練；IMO A.960(23)強調引水人與船長及駕駛台團隊合作、資訊交換及BRM。Single Point Failure是可靠度與風險管理概念，不應誤稱為STCW獨立列出的法定術語。\n\n結論：單點失效是關鍵單一要素失效即可能導致整體功能喪失或事故的風險。BRM透過團隊分工、獨立監控、交叉檢查、閉環溝通、設備備援及應變計畫，避免過度依賴單一人員或設備。",
-    "practicalAnalysis": "釐清Single Point Failure是系統可靠度概念，不是STCW獨立定義的法定術語。",
+    "modelAnswer": "【2027年考試主答｜BRM中的Single Point Failure】\n\n一、定義\nSingle Point Failure（單點失效）是指一項單一的人員、設備、資訊來源、程序或通訊環節發生故障或失誤，就足以使整個系統或作業失去安全功能，且沒有有效備援可防止後果擴大。\n\n二、引水作業中的例子\n1. **人員單點失效：**只有引水人掌握航路、潮流或操船計畫，船長及OOW不清楚計畫，也沒有其他人能接手。\n2. **設備單點失效：**只依賴一部GNSS、ECDIS、雷達、羅經或舵角指示器；設備故障後無其他定位或監控來源。\n3. **資訊單點失效：**只依賴一份過期海圖、單一潮汐預報或未經核實的港口資訊。\n4. **通訊單點失效：**駕駛台與拖船、VTS或船首作業人員只使用一種通訊方式，設備失效後無備援。\n5. **程序單點失效：**沒有第二人交叉核對舵令、車令、轉向點或UKC，錯誤指令無人察覺。\n6. **推進／操舵單點失效：**關鍵設備只有一套且缺乏有效備援，故障後船舶立即失去必要操縱能力。\n\n三、預防方法\n1. **冗餘（Redundancy）：**重要設備及通訊設置獨立備援，例如多種定位來源、備用電源及替代通訊方式。\n2. **交叉核對（Cross-checking）：**雷達、ECDIS、GNSS、羅經、目視岸標及測深資料互相驗證。\n3. **團隊共享資訊：**MPX時讓船長、引水人及OOW掌握相同航路、風流、速度、拖船及緊急計畫，不讓關鍵資訊只存在一人腦中。\n4. **角色分工及監控：**明確指定操船、瞭望、定位、通訊及記錄人員，互相監控並採閉環溝通。\n5. **應變計畫：**事先規劃失去GNSS、雷達、主機、舵機、VHF或拖船時的替代方案及中止條件。\n6. **訓練及演練：**透過BRM訓練、模擬器及事故案例檢討，建立安全質疑文化，避免權威梯度使錯誤無法被指出。\n\n四、BRM的核心\nBRM並非要求每個人重複做同一件事，而是透過資訊共享、任務分工、獨立監控、備援及有效溝通，避免任何單一失誤直接演變成事故。\n\n結論：Single Point Failure是單一環節失效即可使整個作業失去安全功能的弱點。引水作業應透過設備冗餘、資訊共享、交叉核對、團隊監控、閉環溝通及預先應變消除單點失效。",
+    "practicalAnalysis": "本題依STCW 2010 BRM課程精神，將單點失效擴及人員、設備、資訊、通訊及程序；不是只指設備故障。重點是找出沒有備援或交叉監控的單一環節，並以冗餘及團隊共享資訊降低風險。",
     "keyPoints": [
       {
-        "point": "Single Point Failure是單一關鍵要素失效，即可能使整個系統失效或造成重大事故，缺乏獨立備援。",
-        "importance": "essential",
-        "explanation": "可來自人員、設備、資訊或程序。"
+        "point": "Single Point Failure定義",
+        "explanation": "單一環節失效即導致整體功能失效且缺乏備援。",
+        "result": "pass"
       },
       {
-        "point": "人員單點失效：過度依賴引水人、船長不監督、駕駛台無人交叉檢查、單一人員負荷過重。",
-        "importance": "essential",
-        "explanation": "船長及駕駛台團隊不能將責任完全交給引水人。"
+        "point": "人員、設備、資訊及程序案例",
+        "explanation": "補入多種引水作業單點失效情境。",
+        "result": "pass"
       },
       {
-        "point": "設備單點失效：只依賴單一GPS、ECDIS、雷達、舵機、主機或VHF，故障即失去操縱或定位能力。",
-        "importance": "essential",
-        "explanation": "應有備援或替代方法。"
+        "point": "冗餘與交叉核對",
+        "explanation": "補入設備備援、多源定位及閉環溝通。",
+        "result": "pass"
       },
       {
-        "point": "資訊及程序單點失效：未做Master-Pilot Exchange、指令不覆誦、船位不交叉核對、無應變程序。",
-        "importance": "essential",
-        "explanation": "溝通及程序失誤也會形成單點失效。"
-      },
-      {
-        "point": "BRM以團隊合作、共同情境認知、交叉監控及閉環式溝通避免單一錯誤擴大。",
-        "importance": "essential",
-        "explanation": "任何成員均可提出疑問或挑戰不安全決策。"
-      },
-      {
-        "point": "透過設備冗餘、備用通訊、替代定位、足夠人力及緊急應變計畫降低風險。",
-        "importance": "essential",
-        "explanation": "事前辨識關鍵失效點。"
+        "point": "BRM安全文化",
+        "explanation": "強調共享資訊、角色分工及安全質疑。",
+        "result": "pass"
       }
     ],
     "references": [
       {
-        "title": "STCW Code, Section A-VIII/2 — Watchkeeping Arrangements and Principles to be Observed",
-        "sourceType": "international_convention",
-        "issuer": "International Maritime Organization",
-        "editionOrEffectiveDate": "2010 Manila Amendments",
-        "url": "https://www.imo.org/en/OurWork/HumanElement/Pages/STCW-Convention.aspx",
-        "pageOrSection": "Section A-VIII/2, Part 3-1, Principles to be observed in keeping a navigational watch",
-        "supports": "駕駛台值班、團隊監控、船長及值班駕駛員責任與安全瞭望。"
-      },
-      {
-        "title": "IMO Model Course 1.22 — Bridge Resource Management",
-        "sourceType": "official_port_or_authority",
-        "issuer": "International Maritime Organization",
-        "editionOrEffectiveDate": "2014 edition",
-        "url": "https://imo-epublications.org/content/books/9789280117592",
-        "supports": "BRM團隊合作、溝通、共同情境認知、資源分配及錯誤攔截。"
-      },
-      {
-        "title": "MSC.1/Circ.1503/Rev.1 — ECDIS Guidance for Good Practice",
-        "sourceType": "international_convention",
-        "issuer": "International Maritime Organization",
-        "editionOrEffectiveDate": "2017",
-        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/MSC.1-Circ.1503-Rev.1.pdf",
-        "supports": "ECDIS不可單獨依賴，須維持適當交叉檢查及備援航行方法。"
-      },
-      {
-        "title": "102年專門職業及技術人員高等考試引水人試題",
-        "sourceType": "other",
-        "issuer": "考選部",
-        "editionOrEffectiveDate": "民國102年",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=102070&q=1&s=0806&t=Q",
-        "pageOrSection": "船舶操縱第三題",
-        "supports": "核對原題及15分配分。"
-      },
-      {
-        "title": "STCW Convention and Code",
+        "title": "IMO STCW Convention and Code — 2010 Manila Amendments",
         "url": "https://www.imo.org/en/ourwork/humanelement/pages/stcw-conv-link.aspx",
-        "sourceType": "official_reference",
-        "issuer": "IMO / maritime authority",
-        "supports": "2010馬尼拉修正案及橋樓資源管理訓練背景。",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "BRM及駕駛台團隊訓練的國際規範背景。",
         "accessedAt": "2026-11-07"
       },
       {
         "title": "IMO Resolution A.960(23)",
         "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
-        "sourceType": "official_reference",
-        "issuer": "IMO / maritime authority",
-        "supports": "引水人與船長、駕駛台團隊合作及MPX。",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "引水人、船長及OOW合作、MPX及BRM建議。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.893(21) — Guidelines for Voyage Planning",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.893%2821%29.pdf",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "航次計畫、監控、備援及應變。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部102年船舶操縱試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=102070&q=1&s=0806&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -329,13 +263,30 @@
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "2027考試角度複核",
+          "item": "Single Point Failure定義",
           "result": "pass",
-          "note": "依現行官方指引與專業資料更新。"
+          "note": "單一環節失效即導致整體功能失效且缺乏備援。"
+        },
+        {
+          "item": "人員、設備、資訊及程序案例",
+          "result": "pass",
+          "note": "補入多種引水作業單點失效情境。"
+        },
+        {
+          "item": "冗餘與交叉核對",
+          "result": "pass",
+          "note": "補入設備備援、多源定位及閉環溝通。"
+        },
+        {
+          "item": "BRM安全文化",
+          "result": "pass",
+          "note": "強調共享資訊、角色分工及安全質疑。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "year": 2013,
+    "subject": "船舶操縱"
   },
   {
     "id": "102-shiphandling-04-answer-v2",
@@ -343,101 +294,74 @@
     "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【2027年主答｜港內操縱大型重載船舶的船速控制原則】\n\n大型重載船排水量、慣性及動量大，減速、停船及轉向反應通常較慢。港內可用水域有限，且可能受風流、淺水、岸壁效應及船舶交互作用影響。速度控制原則為提早規劃、及早減速、維持必要舵效、保留停船距離及隨時可中止作業。\n\n一、航前掌握個船性能\n取得Pilot Card、Wheelhouse Poster及Manoeuvring Booklet，確認載況、吃水、主機反應、換俥時間、停止距離、倒車能力、旋迴圈及側推器性能。依航道、水深、轉向點、船席及交通規劃速度與減速點。\n\n二、提早減速及保持安全速度\n1. 依實際停止距離及預定停船位置提早減速，避免接近口門或碼頭才突然大量倒俥。\n2. 同時監控SOG及STW；順流時SOG可能增加，逆流時SOG可能降低，兩者不可互相替代。\n3. 遵守港方速限及VTS指示；若能見度、交通、水深或風流不佳，即使未超過法定速限仍須進一步減速。\n4. 安全速度不是越低越好，必須保留足夠舵效及操縱能力；最低舵效速度依個船、載況及環境決定。\n\n三、考量淺水、Squat及UKC\n船舶在淺水或狹窄水道航行時，船底流速及壓力場改變，會產生動態下沉及縱傾（Squat），減少UKC並增加表觀吃水。Squat通常隨速度增加而顯著增加，在相似條件下常近似與速度平方相關；實際數值仍須依船型、阻塞率、水深及航道形狀計算。重載深吃水船應依實測水深、潮位、吃水及港方UKC標準控制速度。\n\n四、風流及船舶交互作用\n橫風及橫流可能造成偏移與偏航；順流可能增加對地速度，逆流可能降低SOG但船舶仍須足夠STW及舵面水流。狹水道會船、追越、靠近碼頭或拖船作業時，應降低速度並增加船間距離，減少岸吸岸推、船間吸引、船行波及螺槳排流。需要減速時應在交互作用發生前及早完成。\n\n五、主機、舵及拖船協同\n主機由前進轉倒車有反應延遲，且倒俥時舵效可能下降；應依個船手冊及現場狀況逐步操縱。必要時使用拖船、側推器或其他推進設備協助，並確認其實際推力、限制及備援程序。\n\n結論：港內大型重載船應提早減速，依個船停止與操縱資料控制速度，兼顧舵效、SOG／STW、Squat、UKC、風流及交互作用。目標不是一味追求最低速度，而是維持足夠操縱能力並保有安全停船與避讓餘裕。",
-    "practicalAnalysis": "補入2026年MCA MGN 199 Amendment 1對淺水、船舶交互作用及拖船效能的最新提醒，並避免把Squat與速度平方關係當作所有船型的精確公式。",
+    "modelAnswer": "【2027年考試主答｜港內操縱大型重載船舶的船速控制原則】\n\n一、以安全速度為基本原則\n港內船速應使船舶能及早採取有效操船行動，並能在可用距離內停下。速度不得只依船長或港口一般經驗決定，須依本船操縱性能、風流、潮汐、水深、UKC、交通、航道寬度及泊位條件動態調整。\n\n二、大型重載船舶的速度特性\n1. **動能與慣性大：**船舶動能為\\(E=\\frac12mV^2\\)，排水量越大、速度越高，停止所需吸收的能量越大；速度增加會以平方方式增加動能。\n2. **停船距離長：**主機由前進轉倒俥需時間，倒俥推力建立亦有延遲；應依本船試航資料及操縱手冊掌握停止時間與Track Reach。\n3. **低速舵效：**船速過低會使舵面水流減少，降低舵效；需維持足以控制航向的最低安全速度，並配合螺槳排流、拖船或側推器。\n4. **淺水及受限水域：**速度過高會增加Squat、船體下沉及縱傾，減少UKC；並加劇岸壁效應、船行波及船舶交互作用。\n5. **風流及載況：**重載船通常吃水較深、風壓面積相對較小，但仍須考量風流、流壓中心、載況及縱傾對操縱的影響。\n\n三、港內船速控制方法\n1. 航前依Pilot Card、Wheelhouse Poster及Manoeuvring Booklet規劃減速點、轉向點、停船距離及備用方案。\n2. 提早逐步減速，避免接近港池或泊位才急速倒俥；避免頻繁大幅度車令造成推進器排流、船行波及操縱反應不穩。\n3. 進出狹水道及靠離泊時，應兼顧舵效、停船距離及UKC；不得為減少船行波而降至失去操縱能力。\n4. 順流時應注意對地速度（SOG）可能高於對水速度（STW），逆流則相反；判斷舵效及停船能力須看本船對水運動與實際操縱反應，ETA及與岸壁距離則須同時看SOG。\n5. 遇風流突變、前船減速、航道受阻或設備故障，應及早降低速度、增加間距，必要時停止進港或使用拖船協助。\n\n四、引水人操作重點\n速度控制不是越慢越安全，而是在保有舵效、足夠操縱能力與可接受停船距離之間取得平衡。須持續監控船速、艏向、ROT、船位、UKC、風流及拖船反應，並依港口規定及當日條件修正。\n\n結論：大型重載船舶港內操縱應提早減速、依個船停船資料控制動能，兼顧舵效、Squat、UKC、船行波及風流影響；速度必須依當時環境及本船性能決定，沒有適用所有船舶的固定節數。",
+    "practicalAnalysis": "將速度控制連結大型船舶動能平方關係、倒俥延遲、舵效、SOG/STW、Squat及UKC。依IMO MSC.137(76)及MCA操縱資料要求，個船停船性能以海試資料及操縱手冊為準，不給通用停止距離或港內固定節數。",
     "keyPoints": [
       {
-        "point": "大型重載船排水量及動量大，慣性高、停止距離長、主機換俥及推力反應有延遲。",
-        "importance": "essential",
-        "explanation": "須航前掌握停止距離及操縱性能。"
+        "point": "動能與慣性",
+        "explanation": "以E=1/2mV²說明速度平方關係。",
+        "result": "pass"
       },
       {
-        "point": "提早減速，依Pilot Card及Manoeuvring Booklet規劃各航段速度及減速點。",
-        "importance": "essential",
-        "explanation": "不可接近碼頭才突然大量倒俥。"
+        "point": "停船距離及倒俥延遲",
+        "explanation": "以個船海試及操縱手冊為依據。",
+        "result": "pass"
       },
       {
-        "point": "安全速度不是愈慢愈好，須維持最低適當舵效及操縱能力。",
-        "importance": "essential",
-        "explanation": "過低速度可能受風流推移而失控。"
+        "point": "舵效、Squat及UKC",
+        "explanation": "兼顧最低舵效速度與淺水安全。",
+        "result": "pass"
       },
       {
-        "point": "淺水航行須考量Squat、吃水及UKC；Squat通常隨船速平方增加。",
-        "importance": "essential",
-        "explanation": "深吃水船舶須控制速度以避免擱淺。"
+        "point": "SOG與STW",
+        "explanation": "區分地速與對水速度在操縱及ETA上的用途。",
+        "result": "pass"
       },
       {
-        "point": "順流、逆流下SOG與STW不同，須同時觀察對地及對水速度。",
-        "importance": "essential",
-        "explanation": "SOG影響對岸及其他船舶的接近速度；STW影響舵效及水動力。"
-      },
-      {
-        "point": "適時使用主機、舵、艏艉側推器及拖船制動、轉向與控制橫移。",
-        "importance": "essential",
-        "explanation": "拖船應提早建立拖力，不能等失控才要求。"
-      },
-      {
-        "point": "靠泊前須同時控制縱向及橫向速度，拖船保持控制至船舶繫妥。",
-        "importance": "supporting",
-        "explanation": "橫向速度過大仍會撞擊防舷材。"
+        "point": "固定速限避免",
+        "explanation": "不創造全船型通用港內速度。",
+        "result": "pass"
       }
     ],
     "references": [
       {
-        "title": "The American Practical Navigator (Bowditch), Chapter 7 — Ship Handling",
-        "sourceType": "official_port_or_authority",
-        "issuer": "National Geospatial-Intelligence Agency",
-        "url": "https://msi.nga.mil/api/publications/download?key=16693975%2FSFH00000%2FBowditch_Vol_1_LoRes_2019.pdf",
-        "pageOrSection": "Chapter 7, Stopping distance, ship inertia and shallow-water effects",
-        "supports": "船舶慣性、停止距離、舵效、風流及淺水操船原理。"
-      },
-      {
-        "title": "A Master's Guide to: Berthing",
-        "sourceType": "industry_guideline",
-        "issuer": "Standard Club",
-        "editionOrEffectiveDate": "2021",
-        "url": "https://www.standard-club.com/fileadmin/uploads/standardclub/Documents/Import/publications/masters-guides/3391962-sc-mg-berthing-20210203-final.pdf",
-        "pageOrSection": "Approach speed, stopping distance, tug assistance and shallow water",
-        "supports": "靠泊速度、停止距離、拖船及淺水操縱之實務原則。"
-      },
-      {
-        "title": "The Effect of Ship Speed on Squat in Shallow Water",
-        "sourceType": "academic_paper",
-        "issuer": "The Journal of Navigation",
-        "url": "https://doi.org/10.1017/S0373463300010105",
-        "supports": "船速與船體下沉（Squat）之關係。"
-      },
-      {
-        "title": "102年專門職業及技術人員高等考試引水人試題",
-        "sourceType": "other",
-        "issuer": "考選部",
-        "editionOrEffectiveDate": "民國102年",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=102070&q=1&s=0806&t=Q",
-        "pageOrSection": "船舶操縱第四題",
-        "supports": "核對原題及15分配分。"
-      },
-      {
-        "title": "MGN 199 (M) Amendment 1 — Danger of interaction",
-        "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
-        "sourceType": "official_reference",
-        "issuer": "IMO / maritime authority",
-        "supports": "2026年11月3日更新的淺水、Squat、岸壁及船舶交互作用指引。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "MGN 301 Amendment 1 — Manoeuvring information onboard ships",
-        "url": "https://www.gov.uk/government/publications/mgn-301-mf-amendment-1-manoeuvring-information-onboard-ships/mgn-301-mf-amendment-1-maneuvering-information-onboard-ships",
-        "sourceType": "official_reference",
-        "issuer": "IMO / maritime authority",
-        "supports": "個船停止、減速、加速、Squat及風中操縱資料。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "IMO MSC.137(76)",
+        "title": "IMO Resolution MSC.137(76) — Standards for Ship Manoeuvrability",
         "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
-        "sourceType": "official_reference",
-        "issuer": "IMO / maritime authority",
-        "supports": "船舶操縱性能及實船試驗標準。",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "標準操縱試驗及停船性能、Track Reach。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO MSC/Circ.1053 — Explanatory Notes to the Standards for Ship Manoeuvrability",
+        "url": "https://rise.odessa.ua/texts/MSC_Circ1053e.php3",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "停船能力、慣性及操縱性能的解釋。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "MCA MGN 301 (M+F) Amendment 1",
+        "url": "https://www.gov.uk/government/publications/mgn-301-mf-amendment-1-manoeuvring-information-onboard-ships",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "sourceType": "official_or_technical_reference",
+        "supports": "個船操縱資料及停船性能。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "MCA MGN 199 (M) Amendment 1",
+        "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "sourceType": "official_or_technical_reference",
+        "supports": "淺水、岸壁及船舶交互作用風險。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部102年船舶操縱試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=102070&q=1&s=0806&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -454,13 +378,35 @@
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "2027考試角度複核",
+          "item": "動能與慣性",
           "result": "pass",
-          "note": "依現行官方指引與專業資料更新。"
+          "note": "以E=1/2mV²說明速度平方關係。"
+        },
+        {
+          "item": "停船距離及倒俥延遲",
+          "result": "pass",
+          "note": "以個船海試及操縱手冊為依據。"
+        },
+        {
+          "item": "舵效、Squat及UKC",
+          "result": "pass",
+          "note": "兼顧最低舵效速度與淺水安全。"
+        },
+        {
+          "item": "SOG與STW",
+          "result": "pass",
+          "note": "區分地速與對水速度在操縱及ETA上的用途。"
+        },
+        {
+          "item": "固定速限避免",
+          "result": "pass",
+          "note": "不創造全船型通用港內速度。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "year": 2013,
+    "subject": "船舶操縱"
   },
   {
     "id": "102-shiphandling-05-answer-v2",
@@ -468,126 +414,74 @@
     "version": 2,
     "language": "zh-TW",
     "answerType": "definition",
-    "modelAnswer": "【2027年主答｜慣性係數（Inertia Factor）及船舶艤裝數（Equipment Number）】\n\n一、慣性係數\n船舶操縱中的慣性，是船舶對改變原有運動狀態的抗拒程度。船舶質量、周圍被帶動水體（附加質量）、船體形狀及質量分布均會影響加速、減速、橫移及艏搖反應。\n\n部分操船教材以排水量與主機功率比（Δ/P）作為比較船舶加速／減速反應的簡化指標；Δ/P愈大，通常表示相對推進功率而言船舶質量較大，操縱反應較遲緩。但這是教材或經驗比較指標，並非IMO統一法定的無因次慣性係數，不能取代實船操縱資料。嚴格分析須分別考慮縱向、橫向及艏搖的附加質量／附加慣性矩。\n\n二、影響因素\n1. 排水量與載況：排水量愈大，平移質量及動量通常愈大；吃水、縱傾及貨物配置亦影響操縱。\n2. 船體尺度與形狀：船長、船寬、吃水、方形係數、艉部線型及水下側面積影響水動力阻力、附加質量及旋迴性能。\n3. 附加質量：船舶運動會帶動周圍水體，縱向、橫向及艏搖方向的附加質量不同。\n4. 主機及推進系統：可用功率、倒車能力、換俥時間、螺槳型式、舵與螺槳配置、側推器及吊艙推進器均影響反應。\n5. 風流與水深：風壓、潮流、淺水、岸壁及船舶交互作用改變實際運動。\n6. 質量分布：貨物、燃油及壓艙水配置影響重心與艏搖慣性矩；質量離旋轉軸愈遠，旋轉慣性矩通常愈大。\n\n三、船舶艤裝數（Equipment Number, EN）\n艤裝數依船舶排水量、型寬、夏季載重水線至上層建築頂部的有效高度，以及水線以上船體與上層建築側投影面積計算，用以決定錨、錨鏈及相關繫泊／拖帶設備規格。\n\n依IMO MSC.1/Circ.1175/Rev.1附錄B，常用計算式：\n\\[\nEN=\\Delta^{2/3}+2Bh+0.1A\n\\]\n其中：\n- Δ：夏季載重水線的型排水量（公噸）。\n- B：型寬（m）。\n- h：夏季載重水線至最上層甲板室頂部的有效高度（m）。\n- A：設備長度範圍內，夏季載重水線以上船體、上層建築及甲板室的側投影面積（m²），納入條件依通函附錄B。\n\n四、用途及注意事項\n1. 依艤裝數及適用規範表格選定錨重量、錨鏈直徑及長度，以及相關拖帶／繫泊設備要求。\n2. 艤裝數不是錨的實際抓力，也不能直接換算為安全錨泊風速。\n3. 不可只憑總噸位決定錨及錨鏈規格；應依船級規則、船舶設計及法定要求核對。\n\n結論：Δ/P可作教材中的慣性比較指標，但非IMO法定係數；艤裝數則依Δ、B、h及A計算，用來選定錨、錨鏈及相關艤裝設備，不是船舶慣性或錨抓力的直接量度。",
-    "practicalAnalysis": "Δ/P是教材常見簡化比較法，不能誤稱IMO法定係數；Equipment Number公式依IMO MSC.1/Circ.1175/Rev.1附錄B。",
+    "modelAnswer": "【2027年考試主答｜慣性係數（Inertia Factor）及船舶艤裝數（Equipment Number）】\n\n一、慣性係數（Inertia Factor）\n船舶在水中運動時，不只需要加速或減速船體本身，還必須帶動船體周圍一部分水體一起運動。這部分被帶動的水體形成附加質量（Added Mass），使船舶的有效慣性大於單純以排水量計算的船體質量。\n\n在船舶操縱及港灣工程常見的「虛擬慣性係數／附加質量係數」概念，可表示為：\n[\nC_m=\\frac{M_s+M_w}{M_s}\n=1+\\frac{M_w}{M_s}\n]\n其中\\(M_s\\)為船舶質量（以排水量換算），\\(M_w\\)為隨船運動的周圍水體附加質量。部分教材將附加質量比\\(M_w/M_s\\)稱為virtual inertia factor，另有教材將整體比值\\((M_s+M_w)/M_s\\)稱為inertia coefficient；因此考試時應先說明採用的定義，不可把兩種係數混為一談。\n\n二、影響慣性係數／附加質量的因素\n1. **船體形狀：**船寬、吃水、船長、方形係數、艏艉線型及船底形狀。\n2. **運動方向：**縱向前進／後退、橫向移動及繞垂直軸迴轉所帶動的水體不同，附加質量與附加慣性矩也不同。\n3. **水深及受限程度：**淺水、低UKC、狹窄航道及岸壁會改變船體周圍流場，通常增加部分運動阻力及附加質量效應。\n4. **船速及運動狀態：**速度、加速度、偏流角及迴轉狀態會影響周圍水體運動及船體受力。\n5. **載況及吃水：**滿載、壓載、縱傾及水下體積改變，均會影響船舶與周圍水體的互動。\n\n三、對操船的影響\n附加質量使船舶加速、減速、橫移及迴轉時需要較大的力；因此大型船舶在港內具有較大的慣性反應，停止及改變運動狀態需要時間與距離。淺水及受限水域的附加質量、阻力及交互作用亦可能改變操縱性能，應以個船試驗及港區資料為準。\n\n四、船舶艤裝數（Equipment Number, EN）\n艤裝數是依船舶主要尺度、排水量及水線以上受風面積計算的無因次指標，用以選定錨、錨鏈及相關錨泊／繫泊設備的規格與強度；它不是總噸位，也不是船舶操縱性能指數。\n\n依IMO MSC.1/Circ.1175/Rev.1及IACS UR A1常用公式：\n[\nEN=\\Delta^{2/3}+2.0Bh+0.1A\n]\n其中：\n- \\(\\Delta\\)：夏季載重水線的型排水量（公噸）。\n- \\(B\\)：最大型寬（m）。\n- \\(h\\)：夏季載重水線至最上層甲板室頂部的有效高度（m），依規則計入符合寬度條件的甲板室。\n- \\(A\\)：夏季載重水線以上、在設備長度範圍內且符合寬度條件的船體、上層建築、甲板室及桅杆等側投影面積（m²）。\n\n依EN對照船級規則表格，決定錨的數量與重量、錨鏈直徑及長度、錨機與相關設備規格。實際設備須依船舶適用的船級規則、建造日期及服務限制判定。\n\n結論：慣性係數反映船舶運動時周圍水體附加質量對有效慣性的影響，受船型、運動方向、水深、船速及載況影響；艤裝數則依排水量、船寬、上層建築高度及側投影面積計算，用於選定錨、錨鏈及相關設備。",
+    "practicalAnalysis": "「Inertia Factor」在不同教材可能指附加質量比或含附加質量的整體虛擬慣性係數；目前未找到全球統一的船舶操縱定義，因此答案先列出兩種常見定義並要求說明採用版本。Equipment Number依IMO MSC.1/Circ.1175/Rev.1及IACS UR A1列式，並與船舶操縱性能及GT區分。",
     "keyPoints": [
       {
-        "point": "慣性係數可用排水量／主機功率比D/P作為實務比較指標，D/P愈大，船舶相對推進功率愈重，操縱反應通常較慢。",
-        "importance": "essential",
-        "explanation": "並非IMO統一法定無因次係數。"
+        "point": "慣性係數定義",
+        "explanation": "不同文獻對Inertia Factor與附加質量係數的用法不完全一致，答案列出兩種定義並標示。",
+        "result": "verified_with_scope"
       },
       {
-        "point": "慣性受排水量、船體形狀、方形係數Cb、長寬比、吃水及附加質量影響。",
-        "importance": "essential",
-        "explanation": "船舶會帶動周圍水體，增加有效質量。"
+        "point": "附加質量影響因素",
+        "explanation": "列出船型、運動方向、水深、速度及載況。",
+        "result": "pass"
       },
       {
-        "point": "水深及UKC會改變附加質量與水動力效應；淺水及受限水域影響更明顯。",
-        "importance": "essential",
-        "explanation": "需區分縱向、橫向及艏搖慣性。"
+        "point": "操船上的影響",
+        "explanation": "連結加減速、橫移、迴轉及淺水效應。",
+        "result": "pass"
       },
       {
-        "point": "主機可用功率、倒車功率、換俥時間、螺槳型式及推進效率會影響加減速及停止能力。",
-        "importance": "essential",
-        "explanation": "推進系統特性會改變實際D/P操縱效果。"
+        "point": "Equipment Number公式",
+        "explanation": "依IMO及IACS列出EN=Δ^(2/3)+2Bh+0.1A。",
+        "result": "pass"
       },
       {
-        "point": "艏搖慣性矩取決於質量分布，貨物、壓艙水及燃油配置會影響旋迴反應。",
-        "importance": "supporting",
-        "explanation": "質量離旋轉軸愈遠，慣性矩通常愈大。"
-      },
-      {
-        "point": "艤裝數公式EN=Δ^(2/3)+2.0Bh+A/10。",
-        "importance": "essential",
-        "explanation": "Δ為夏季載重線型排水量；B為型寬；h為有效高度；A為水線以上側投影面積。"
-      },
-      {
-        "point": "EN用於選定錨、錨鏈及相關繫泊／拖帶設備規格，不等於總噸位或載重噸。",
-        "importance": "essential",
-        "explanation": "須依船級規範表及服務等級選擇。"
-      },
-      {
-        "point": "標準錨泊設備主要供港內或遮蔽水域暫時錨泊，不是用來在暴風浪中長期 удерж船或停止高速船舶。",
-        "importance": "supporting",
-        "explanation": "依IACS UR A1設計假設。"
+        "point": "艤裝數用途",
+        "explanation": "用於選定錨、錨鏈及相關設備，與GT及操縱性能區分。",
+        "result": "pass"
       }
     ],
     "references": [
       {
-        "title": "Ship Handling",
-        "sourceType": "book",
-        "issuer": "Hervé Baudu, DOKMAR Maritime Publishers",
-        "editionOrEffectiveDate": "2014 first edition",
-        "url": "https://pdfcoffee.com/herve-baudu-ship-handling-dokmar-2017-sta-ocr-3-pdf-free.html",
-        "pageOrSection": "Chapter 1, Section 4, Vessel inertia — power/displacement ratio; Chapter 2, Section 1.4, Equipment Number",
-        "supports": "船舶慣性與排水量／主機功率比、船體形狀及方形係數對附加質量的影響；艤裝數章節。"
-      },
-      {
-        "title": "Guide for Vessel Maneuverability",
-        "sourceType": "official_port_or_authority",
-        "issuer": "American Bureau of Shipping",
-        "editionOrEffectiveDate": "2017",
-        "url": "https://ww2.eagle.org/content/dam/eagle/rules-and-guides/current/conventional_ocean_service/145_vesselmaneuverability/Vessel_Maneuverability_Guide_e-Feb17.pdf",
-        "pageOrSection": "Appendix 2, Definitions and Nomenclature for Maneuvering Simulation",
-        "supports": "船舶質量、重心位置、艏搖質量慣性矩及無因次質量參數。"
-      },
-      {
-        "title": "MSC.1/Circ.1175/Rev.1 — Revised Guidance on Shipboard Towing and Mooring Equipment",
-        "sourceType": "international_convention",
-        "issuer": "International Maritime Organization",
-        "editionOrEffectiveDate": "9 December 2020",
-        "url": "https://wwwcdn.imo.org/localresources/en/Documents/MSC.1-Circ.1175-Rev.1.pdf",
-        "pageOrSection": "Appendix B, Equipment Number",
-        "supports": "艤裝數公式、Δ、B、h、A定義及其用途。"
-      },
-      {
-        "title": "Unified Requirement A1 — Anchoring Equipment",
-        "sourceType": "official_port_or_authority",
-        "issuer": "International Association of Classification Societies (IACS)",
-        "editionOrEffectiveDate": "Rev.7, September 2020",
-        "url": "https://iacs.org.uk/resolutions/unified-requirements/ur-a/ur-a1-rev7-cln",
-        "pageOrSection": "A1.1–A1.2, Equipment Number and anchoring equipment table",
-        "supports": "艤裝數之設計假設、公式及錨、錨鏈選擇表。"
-      },
-      {
-        "title": "The Coefficients of Equipment Number Formula of Ships",
-        "sourceType": "academic_paper",
-        "issuer": "Journal of Marine Science and Engineering",
-        "editionOrEffectiveDate": "10 November 2020",
-        "url": "https://doi.org/10.3390/jmse8110898",
-        "supports": "艤裝數各項係數與船體水下受流面積、上層建築迎風面積及側風面積的關係。"
-      },
-      {
-        "title": "102年專門職業及技術人員高等考試引水人試題",
-        "sourceType": "other",
-        "issuer": "考選部",
-        "editionOrEffectiveDate": "民國102年",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=102070&q=1&s=0806&t=Q",
-        "pageOrSection": "船舶操縱第五題",
-        "supports": "核對原題及15分配分。"
-      },
-      {
-        "title": "IMO MSC.1/Circ.1175/Rev.1 — Appendix B Equipment Number",
+        "title": "IMO MSC.1/Circ.1175/Rev.1 — Revised Guidance on Shipboard Towing and Mooring Equipment, Appendix B",
         "url": "https://www.imorules.com/GUID-EB85167C-911F-4C0A-881C-A32182BE47DF.html",
-        "sourceType": "official_reference",
-        "issuer": "IMO / maritime authority",
-        "supports": "艤裝數EN公式及Δ、B、h、A定義。",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "艤裝數公式、型排水量、型寬、有效高度及側投影面積定義。",
         "accessedAt": "2026-11-07"
       },
       {
-        "title": "IMO MSC.1/Circ.1175/Rev.1 — Shipboard Towing and Mooring Equipment",
-        "url": "https://www.imo.org/en/ourwork/safety/pages/shipboard-towing-and-mooring-equipment.aspx",
-        "sourceType": "official_reference",
-        "issuer": "IMO / maritime authority",
-        "supports": "錨、錨鏈、拖帶及繫泊設備規格指引。",
+        "title": "IACS Unified Requirement A1 — Anchoring Equipment",
+        "url": "https://www.classnk.or.jp/hp/pdf/info_service/iacs_ur_and_ui/ur_a1_rev.8_june_2023_ul.pdf",
+        "issuer": "Official / technical source",
+        "sourceType": "official_or_technical_reference",
+        "supports": "艤裝數對應錨及錨鏈規格的船級規則。",
         "accessedAt": "2026-11-07"
       },
       {
-        "title": "IMO MSC.137(76) — Standards for Ship Manoeuvrability",
-        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
-        "sourceType": "official_reference",
-        "issuer": "IMO / maritime authority",
-        "supports": "船舶操縱性能及動態反應標準背景。",
+        "title": "國立海洋科技博物館：船舶基本性能／適航性",
+        "url": "https://ship.nmmst.gov.tw/ship/content/122/487",
+        "issuer": "國立海洋科技博物館",
+        "sourceType": "official_or_technical_reference",
+        "supports": "船舶慣性衝程、操縱性能及船型、載況差異。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "港灣構造物設計基準（上冊）",
+        "url": "https://www.ceci.org.tw/Upload/Download/4C6E0F38-EB5D-4F3B-94C3-3D43D0D2B05C.pdf",
+        "issuer": "Official / technical source",
+        "sourceType": "official_or_technical_reference",
+        "supports": "附加質量係數Cm=(船舶質量+周圍水體附加質量)/船舶質量之港灣工程定義。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部102年船舶操縱試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=102070&q=1&s=0806&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題。",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -601,13 +495,134 @@
       "IMO MSC.1/Circ.1175/Rev.1為2020年修訂版，作為公式及當代設備規範的補充引用；考試歷史背景仍依2013年適用之IACS及載重線規範。"
     ],
     "verification": {
-      "status": "source_checked",
+      "status": "verified_with_scope",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "2027考試角度複核",
+          "item": "慣性係數定義",
+          "result": "verified_with_scope",
+          "note": "不同文獻對Inertia Factor與附加質量係數的用法不完全一致，答案列出兩種定義並標示。"
+        },
+        {
+          "item": "附加質量影響因素",
           "result": "pass",
-          "note": "依現行官方指引與專業資料更新。"
+          "note": "列出船型、運動方向、水深、速度及載況。"
+        },
+        {
+          "item": "操船上的影響",
+          "result": "pass",
+          "note": "連結加減速、橫移、迴轉及淺水效應。"
+        },
+        {
+          "item": "Equipment Number公式",
+          "result": "pass",
+          "note": "依IMO及IACS列出EN=Δ^(2/3)+2Bh+0.1A。"
+        },
+        {
+          "item": "艤裝數用途",
+          "result": "pass",
+          "note": "用於選定錨、錨鏈及相關設備，與GT及操縱性能區分。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07",
+    "year": 2013,
+    "subject": "船舶操縱"
+  },
+  {
+    "questionId": "102-shiphandling-06",
+    "year": 2013,
+    "subject": "船舶操縱",
+    "version": 2,
+    "modelAnswer": "【2027年考試主答｜錨在船舶操縱上的運用】\n\n一、錨泊及保持船位\n1. 在適當水深、底質及水域投錨，利用錨爪抓底及錨鏈重量／摩擦力抵抗風、流及浪，使船舶保持在預定錨位。\n2. 依水深、潮差、底質、風流、船舶尺度及錨型決定出鏈長度；須考慮旋迴半徑、鄰船、航道、管線及禁錨區。\n3. 錨泊後監控船位、旋迴圈、錨鏈方向、張力及拖錨情況，必要時加派值班及備妥主機。\n\n二、控制船速及緊急制動\n1. 船舶有前進慣性時，可在適當條件下使用錨及錨鏈增加阻力、協助減速或限制漂移。\n2. 拖錨走（Dredging Anchor）是受控放出有限錨鏈，使錨在海床拖行或間歇抓底，以提供阻力及控制船舶移動；出鏈長度依水深、底質、船速及所需阻力決定，不能用固定倍數套用所有情況。\n3. 緊急投錨可能有助於限制船舶漂移或避免觸礁，但錨鏈突然抓底會產生極大衝擊，可能損壞錨機、制鏈器、錨鏈及船體；須依船舶程序及實際情況判斷。\n\n三、協助迴轉及控制船艏\n1. 在適當底質及水域，可利用單錨或雙錨控制船舶旋轉支點、限制某一方向的漂移，配合主機、舵及拖船進行迴轉。\n2. 依錨位、錨鏈方向及受力方向，錨可協助控制船艏或減少船舶向風／流下風漂移；不可假定錨一定能作為固定支點。\n3. 迴轉前應確認錨鏈不會與推進器、舵、拖纜或其他船舶干涉，並保留足夠迴旋空間。\n\n四、靠離泊及移泊輔助\n在特定港池、狹水道或無法充分使用拖船的情況下，可使用錨作為輔助控制工具，例如以錨限制船艏移動、協助船舶轉向或控制船身橫移；實際作法須依港規、船型、錨位及底質評估，不能取代必要的拖船及主機舵機。\n\n五、錨作業風險及注意事項\n1. **底質與抓力：**泥、砂、礫石、岩石及珊瑚底的抓錨能力不同；底質不明或有海床管線、電纜時不得任意拖錨。\n2. **錨鏈及錨機負荷：**避免突然大量出鏈、錨鏈過載、煞車滑動、制鏈器損壞及鏈條斷裂。\n3. **船速及水深：**高速投錨或淺水區拖錨可能造成巨大衝擊、錨鏈跳動或船體受損。\n4. **推進器及舵系：**確認錨鏈方向，避免錨鏈捲入螺槳、舵或側推器。\n5. **周邊船舶與港區設施：**注意旋迴圈、鄰船、航道、碼頭、浮筒、管線及水下障礙物。\n6. **人員安全：**錨鏈作業區及鏈條回彈區應管制人員，駕駛台與船首保持清楚通訊。\n\n結論：錨可用於錨泊保持船位、拖錨減速、緊急制動、控制漂移、協助迴轉及靠離泊移泊。使用前必須評估底質、水深、船速、錨鏈方向與負荷、推進器及周邊設施，並依個船程序安全操作。",
+    "practicalAnalysis": "以操船功能分類錨的用途，將正常錨泊、拖錨走、緊急制動、控制迴轉及靠離泊輔助分開。補入拖錨風險及錨鏈與推進器干涉，不把錨當作可無條件使用的煞車或固定支點。",
+    "keyPoints": [
+      {
+        "point": "錨泊保持船位",
+        "explanation": "依水深、底質、風流及出鏈長度控制錨泊。",
+        "result": "pass"
+      },
+      {
+        "point": "拖錨及緊急制動",
+        "explanation": "區分受控拖錨與緊急投錨，補入錨鏈衝擊風險。",
+        "result": "pass"
+      },
+      {
+        "point": "協助迴轉及靠離泊",
+        "explanation": "錨可作輔助控制，但不能假定任何港況都能作固定支點。",
+        "result": "verified_with_scope"
+      },
+      {
+        "point": "錨鏈及人員安全",
+        "explanation": "補入過載、推進器干涉、管線及回彈區風險。",
+        "result": "pass"
+      }
+    ],
+    "references": [
+      {
+        "title": "Port Revel Shiphandling Course Manual — Dredging Anchor",
+        "url": "https://armcol.org/wp-content/uploads/2024/08/2852.-Manual-2006-Shiphandling.pdf",
+        "issuer": "Official / technical source",
+        "sourceType": "official_or_technical_reference",
+        "supports": "拖錨走的出鏈控制、低速操船及錨鏈負荷風險。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "MCA MGN 199 (M) Amendment 1 — Danger of interaction",
+        "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "sourceType": "official_or_technical_reference",
+        "supports": "狹水道、淺水及船舶交互作用風險。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "引水作業安全程序及船長與引水人協調。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "國立海洋科技博物館：船舶基本性能／適航性",
+        "url": "https://ship.nmmst.gov.tw/ship/content/122/487",
+        "issuer": "國立海洋科技博物館",
+        "sourceType": "official_or_technical_reference",
+        "supports": "船舶操縱主要手段及錨、纜、拖船作為輔助手段。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部102年船舶操縱試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=803&code=102070&q=1&s=0806&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題。",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "verification": {
+      "status": "verified_with_scope",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "錨泊保持船位",
+          "result": "pass",
+          "note": "依水深、底質、風流及出鏈長度控制錨泊。"
+        },
+        {
+          "item": "拖錨及緊急制動",
+          "result": "pass",
+          "note": "區分受控拖錨與緊急投錨，補入錨鏈衝擊風險。"
+        },
+        {
+          "item": "協助迴轉及靠離泊",
+          "result": "verified_with_scope",
+          "note": "錨可作輔助控制，但不能假定任何港況都能作固定支點。"
+        },
+        {
+          "item": "錨鏈及人員安全",
+          "result": "pass",
+          "note": "補入過載、推進器干涉、管線及回彈區風險。"
         }
       ]
     },
