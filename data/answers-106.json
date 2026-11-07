@@ -1435,7 +1435,14 @@
       }
     ],
     "references": [
-      "考選部106年引港學試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=106060&q=1&s=1010&t=Q",
+      {
+        "title": "考選部106年引港學試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=106060&q=1&s=1010&t=Q",
+        "supports": "原始考試題目與題幹依據。",
+        "accessedAt": "2026-11-07"
+      },
       {
         "title": "The American Practical Navigator (Bowditch), Pub. No. 9, Vol. 1 — Nautical Charts and Mercator Projection",
         "sourceType": "official_navigation_publication",
@@ -1547,7 +1554,14 @@
       }
     ],
     "references": [
-      "考選部106年引港學試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=106060&q=1&s=1010&t=Q",
+      {
+        "title": "考選部106年引港學試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=106060&q=1&s=1010&t=Q",
+        "supports": "原始考試題目與題幹依據。",
+        "accessedAt": "2026-11-07"
+      },
       {
         "title": "Definitions for content on tides and currents",
         "sourceType": "official_hydrographic_glossary",
@@ -2427,7 +2441,14 @@
       }
     ],
     "references": [
-      "考選部106年專業英文試題 — 考選部 — https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1012&t=Q",
+      {
+        "title": "考選部106年專業英文試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=106060&q=1&s=1012&t=Q",
+        "supports": "原始考試題目與題幹依據。",
+        "accessedAt": "2026-11-07"
+      },
       {
         "title": "IMO Resolution A.960(23)",
         "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
