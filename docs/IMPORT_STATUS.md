@@ -798,3 +798,5 @@
 - 考選部原卷來源：
   - 基隆港：`https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=014&code=082150&q=1&s=2011&t=Q`
   - 臺中港：`https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=014&code=082150&q=1&s=2021&t=Q`
+
+- **本次資料完整性複核（2026-11-07）：**12題均有完整題文、唯一ID、正確題號及來源識別；基隆港6題、臺中港6題。確認本年度沒有高雄港題目，且題庫中沒有81年度或更早年度資料，因此不建立答案檔、不產生虛構的高雄港參考答案。82年度原卷僅作跨港歷史備查。
