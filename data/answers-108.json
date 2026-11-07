@@ -1978,7 +1978,8 @@
         "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.526%2813%29.pdf",
         "sourceType": "international_resolution",
         "issuer": "IMO",
-        "supports": "ROTI用途及性能標準。"
+        "supports": "ROTI用途及性能標準。；ROTI性能標準及轉向率指示用途。",
+        "accessedAt": "2026-11-07"
       },
       {
         "title": "IMO Resolution A.526(13) — Performance Standards for Rate-of-Turn Indicators",
@@ -2002,14 +2003,6 @@
         "issuer": "International Organization for Standardization",
         "url": "https://www.iso.org/standard/74753.html",
         "supports": "現行ROTI建造、性能及測試要求。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "IMO Resolution A.526(13) — Performance standards for rate-of-turn indicators",
-        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.526%2813%29.pdf",
-        "sourceType": "IMO_resolution",
-        "issuer": "International Maritime Organization",
-        "supports": "ROTI性能標準及轉向率指示用途。",
         "accessedAt": "2026-11-07"
       },
       {
@@ -2338,7 +2331,7 @@
         "sourceType": "IMO_resolution",
         "issuer": "International Maritime Organization",
         "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
-        "supports": "引水人訓練、船長與引水人資訊交換、操作程序及橋樓合作。",
+        "supports": "引水人訓練、船長與引水人資訊交換、操作程序及橋樓合作。；引水人訓練、MPX及駕駛台團隊合作。",
         "accessedAt": "2026-11-07"
       },
       {
@@ -2355,14 +2348,6 @@
         "issuer": "UK Maritime and Coastguard Agency",
         "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
         "supports": "最新船舶交互作用、拖船與受限水域風險案例，可納入BRM-P情境訓練。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "IMO Resolution A.960(23)",
-        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
-        "sourceType": "IMO_resolution",
-        "issuer": "International Maritime Organization",
-        "supports": "引水人訓練、MPX及駕駛台團隊合作。",
         "accessedAt": "2026-11-07"
       },
       {
@@ -2464,7 +2449,7 @@
         "sourceType": "official_maritime_guidance",
         "issuer": "UK Maritime and Coastguard Agency",
         "url": "https://www.gov.uk/government/publications/mgn-301-mf-amendment-1-manoeuvring-information-onboard-ships",
-        "supports": "依個船操縱手冊及Pilot Card判斷舵效、速度及操縱性能。",
+        "supports": "依個船操縱手冊及Pilot Card判斷舵效、速度及操縱性能。；個船操縱資料及不同載況下操縱性能。",
         "accessedAt": "2026-11-07"
       },
       {
@@ -2473,14 +2458,6 @@
         "issuer": "International Maritime Organization",
         "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.601%2815%29.pdf",
         "supports": "船舶操縱資料及個船操縱性能資訊。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "MGN 301 (M) Amendment 1 — Manoeuvring information onboard ships",
-        "url": "https://www.gov.uk/government/publications/mgn-301-mf-amendment-1-manoeuvring-information-onboard-ships",
-        "sourceType": "official_maritime_guidance",
-        "issuer": "UK Maritime and Coastguard Agency",
-        "supports": "個船操縱資料及不同載況下操縱性能。",
         "accessedAt": "2026-11-07"
       },
       {
@@ -2586,7 +2563,7 @@
         "sourceType": "official_maritime_guidance",
         "issuer": "UK Maritime and Coastguard Agency",
         "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
-        "supports": "大型船舶、淺水、狹窄水域及拖船交互作用造成的水動力風險。",
+        "supports": "大型船舶、淺水、狹窄水域及拖船交互作用造成的水動力風險。；船舶交互作用、淺水及受限水域水動力風險。",
         "accessedAt": "2026-11-07"
       },
       {
@@ -2619,14 +2596,6 @@
         "issuer": "NSW Government",
         "url": "https://www.nsw.gov.au/driving-boating-and-transport/boating-and-marine/waterways-safety-and-rules/rules/wash",
         "supports": "船舶wash對繫泊船、岸邊設施及水上作業的損害及速度管理。",
-        "accessedAt": "2026-11-07"
-      },
-      {
-        "title": "MGN 199 (M) Amendment 1 — Danger of interaction",
-        "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
-        "sourceType": "official_maritime_guidance",
-        "issuer": "UK Maritime and Coastguard Agency",
-        "supports": "船舶交互作用、淺水及受限水域水動力風險。",
         "accessedAt": "2026-11-07"
       },
       {
@@ -2710,7 +2679,8 @@
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=108060&q=1&s=1003&t=Q",
         "sourceType": "official_exam_paper",
         "issuer": "考選部",
-        "supports": "題目原文與配分。"
+        "supports": "題目原文與配分。；三段英文原文及配分。",
+        "accessedAt": "2026-11-07"
       },
       {
         "title": "引水法第17至21條",
@@ -2718,14 +2688,6 @@
         "sourceType": "official_law",
         "issuer": "交通部",
         "supports": "題幹所述招請信號、先到港／遇險優先、船舶資料告知及執業登記之法源。"
-      },
-      {
-        "title": "108年引水人考試官方試題",
-        "sourceType": "official_exam_paper",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=108060&q=1&s=1003&t=Q",
-        "supports": "三段英文原文及配分。",
-        "accessedAt": "2026-11-07"
       },
       {
         "title": "引水法（現行條文，修正日期115年8月17日）",
@@ -2795,7 +2757,8 @@
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=108060&q=1&s=1003&t=Q",
         "sourceType": "official_exam_paper",
         "issuer": "考選部",
-        "supports": "題目原文與配分。"
+        "supports": "題目原文與配分。；兩段中文原文及配分。",
+        "accessedAt": "2026-11-07"
       },
       {
         "title": "IMO — COLREG: Preventing collisions at sea",
@@ -2803,14 +2766,6 @@
         "sourceType": "official_imo_guidance",
         "issuer": "IMO",
         "supports": "Rule 8避碰行動應及早、明確且具足夠幅度。"
-      },
-      {
-        "title": "108年引水人考試官方試題",
-        "sourceType": "official_exam_paper",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=108060&q=1&s=1003&t=Q",
-        "supports": "兩段中文原文及配分。",
-        "accessedAt": "2026-11-07"
       },
       {
         "title": "COLREG 1972 — International Regulations for Preventing Collisions at Sea",
@@ -2879,7 +2834,8 @@
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=108060&q=1&s=1003&t=Q",
         "sourceType": "official_exam_paper",
         "issuer": "考選部",
-        "supports": "題目原文與配分。"
+        "supports": "題目原文與配分。；四個海事術語及配分。",
+        "accessedAt": "2026-11-07"
       },
       {
         "title": "IALA Maritime Buoyage System",
@@ -2894,14 +2850,6 @@
         "sourceType": "international_convention",
         "issuer": "IMO",
         "supports": "CPA/TCPA與碰撞危險評估背景。"
-      },
-      {
-        "title": "108年引水人考試官方試題",
-        "sourceType": "official_exam_paper",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=108060&q=1&s=1003&t=Q",
-        "supports": "四個海事術語及配分。",
-        "accessedAt": "2026-11-07"
       },
       {
         "title": "IALA Recommendation R1001 — The IALA Maritime Buoyage System, Edition 2.0",
@@ -2995,7 +2943,8 @@
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=108060&q=1&s=1003&t=Q",
         "sourceType": "official_exam_paper",
         "issuer": "考選部",
-        "supports": "題目原文與配分。"
+        "supports": "題目原文與配分。；英文作文題目及約300字要求。",
+        "accessedAt": "2026-11-07"
       },
       {
         "title": "IMO Resolution A.960(23) — Pilotage procedures",
@@ -3010,14 +2959,6 @@
         "sourceType": "international_resolution",
         "issuer": "IMO",
         "supports": "BRM、MPX、緊急狀況及持續訓練內容。"
-      },
-      {
-        "title": "108年引水人考試官方試題",
-        "sourceType": "official_exam_paper",
-        "issuer": "考選部",
-        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=108060&q=1&s=1003&t=Q",
-        "supports": "英文作文題目及約300字要求。",
-        "accessedAt": "2026-11-07"
       },
       {
         "title": "IMO Resolution A.960(23) — Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
