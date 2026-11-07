@@ -1979,16 +1979,16 @@
       {
         "title": "IMO Resolution A.526(13) — Performance standards for rate-of-turn indicators",
         "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.526%2813%29.pdf",
-        "sourceType": "technical_reference",
-        "issuer": "Official / technical source",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
         "supports": "ROTI性能標準及轉向率指示用途。",
         "accessedAt": "2026-11-07"
       },
       {
         "title": "IMO Resolution A.960(23)",
         "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
-        "sourceType": "technical_reference",
-        "issuer": "Official / technical source",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
         "supports": "引水作業程序及引水人與船長溝通。",
         "accessedAt": "2026-11-07"
       }
@@ -2103,16 +2103,16 @@
       {
         "title": "Azipod electric propulsion",
         "url": "https://www.abb.com/global/en/industries/marine/solutions/marine-electric-propulsion/azipod",
-        "sourceType": "technical_reference",
-        "issuer": "Official / technical source",
+        "sourceType": "manufacturer_or_industry_technical",
+        "issuer": "ABB",
         "supports": "ABB吊艙式電力推進系統及產品配置。",
         "accessedAt": "2026-11-07"
       },
       {
         "title": "IMO Resolution A.960(23)",
         "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
-        "sourceType": "technical_reference",
-        "issuer": "Official / technical source",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
         "supports": "引水人與船長資訊交換及作業程序。",
         "accessedAt": "2026-11-07"
       }
@@ -2220,8 +2220,8 @@
       {
         "title": "Stabilization, propulsion and positioning systems",
         "url": "https://www.fincantieri.com/en/business/products/systems--components-e-infrastructures/stabilization-propulsion-positioning-and-generation-systems",
-        "sourceType": "technical_reference",
-        "issuer": "Official / technical source",
+        "sourceType": "manufacturer_or_industry_technical",
+        "issuer": "Fincantieri",
         "supports": "船舶穩定系統及鰭狀穩定器相關產品型式。",
         "accessedAt": "2026-11-07"
       }
@@ -2332,24 +2332,24 @@
       {
         "title": "IMO Resolution A.960(23)",
         "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
-        "sourceType": "technical_reference",
-        "issuer": "Official / technical source",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
         "supports": "引水人訓練、MPX及駕駛台團隊合作。",
         "accessedAt": "2026-11-07"
       },
       {
         "title": "IMO International Safety Management (ISM) Code",
         "url": "https://www.imo.org/en/ourwork/humanelement/pages/ismcode.aspx",
-        "sourceType": "technical_reference",
-        "issuer": "Official / technical source",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
         "supports": "安全管理制度、船上責任及持續改善背景。",
         "accessedAt": "2026-11-07"
       },
       {
         "title": "STCW Convention and Code",
         "url": "https://www.imo.org/en/ourwork/humanelement/pages/stcw-conv-link.aspx",
-        "sourceType": "technical_reference",
-        "issuer": "Official / technical source",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
         "supports": "船員能力及橋樓團隊訓練背景。",
         "accessedAt": "2026-11-07"
       }
@@ -2450,24 +2450,24 @@
       {
         "title": "MGN 301 (M) Amendment 1 — Manoeuvring information onboard ships",
         "url": "https://www.gov.uk/government/publications/mgn-301-mf-amendment-1-manoeuvring-information-onboard-ships",
-        "sourceType": "technical_reference",
-        "issuer": "Official / technical source",
+        "sourceType": "official_maritime_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
         "supports": "個船操縱資料及不同載況下操縱性能。",
         "accessedAt": "2026-11-07"
       },
       {
         "title": "MGN 199 (M) Amendment 1 — Danger of interaction",
         "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
-        "sourceType": "technical_reference",
-        "issuer": "Official / technical source",
+        "sourceType": "official_maritime_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
         "supports": "淺水、狹窄水域及船舶交互作用風險。",
         "accessedAt": "2026-11-07"
       },
       {
         "title": "IMO Resolution A.960(23)",
         "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
-        "sourceType": "technical_reference",
-        "issuer": "Official / technical source",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
         "supports": "引水作業程序及船舶操縱資訊交換。",
         "accessedAt": "2026-11-07"
       }
@@ -2596,24 +2596,24 @@
       {
         "title": "MGN 199 (M) Amendment 1 — Danger of interaction",
         "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
-        "sourceType": "technical_reference",
-        "issuer": "Official / technical source",
+        "sourceType": "official_maritime_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
         "supports": "船舶交互作用、淺水及受限水域水動力風險。",
         "accessedAt": "2026-11-07"
       },
       {
         "title": "PIANC — Harbour Approach Channels Design Guidelines",
         "url": "https://www.pianc.org/publications",
-        "sourceType": "technical_reference",
-        "issuer": "Official / technical source",
+        "sourceType": "manufacturer_or_industry_technical",
+        "issuer": "PIANC",
         "supports": "港口航道及船舶通過效應的工程背景。",
         "accessedAt": "2026-11-07"
       },
       {
         "title": "IMO Resolution A.960(23)",
         "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
-        "sourceType": "technical_reference",
-        "issuer": "Official / technical source",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
         "supports": "引水作業安全溝通、計畫及合作。",
         "accessedAt": "2026-11-07"
       }
