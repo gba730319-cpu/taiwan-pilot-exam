@@ -1120,13 +1120,63 @@
         "title": "考選部106年引港學試題",
         "issuer": "考選部",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=106060&q=1&s=1010&t=Q"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch), Pub. No. 9, Vol. 1 — Nautical Charts and Mercator Projection",
+        "sourceType": "official_navigation_publication",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/apology_objects/Bowditch_Vol_1.pdf",
+        "supports": "恒向線在Mercator上為直線、大圈線在Mercator上為曲線，以及Mercator投影特性。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch), Pub. No. 9, Vol. 2 — Great Circle Sailing by Chart",
+        "sourceType": "official_navigation_publication",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/api/publications/download?key=16693975%2FSFH00000%2FBowditch_Vol_2_LoRes.pdf&type=view",
+        "supports": "使用Gnomonic海圖畫大圈，再將轉折點轉繪至Mercator海圖分段恒向線航行。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "NOAA Office of Coast Survey — Nautical Cartography",
+        "sourceType": "official_hydrographic_guidance",
+        "issuer": "NOAA",
+        "url": "https://www.nauticalcharts.noaa.gov/learn/nautical-cartography.html",
+        "supports": "Mercator海圖上直線為恒向線及其航向量測用途。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Admiralty Reference and Plotting Charts — Gnomonic Charts",
+        "sourceType": "official_hydrographic_chart_reference",
+        "issuer": "UK Hydrographic Office",
+        "url": "https://www.admiralty.co.uk/charts/reference-and-plotting",
+        "supports": "心射投影海圖用於將大圈航線繪成直線及規劃複合恒向線航路。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "海圖投影與航線計算應依實際海圖比例尺及緯度；不可把墨卡托圖上的直線一概視為地球表面最短距離。"
     ],
     "verification": {
-      "status": "source_checked"
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "恒向線定義與Mercator海圖特性",
+          "result": "pass",
+          "note": "依NGA Bowditch及NOAA航海圖學資料核對。"
+        },
+        {
+          "item": "大圈線定義與Gnomonic投影特性",
+          "result": "pass",
+          "note": "依NGA Bowditch及UKHO Gnomonic Chart用途核對。"
+        },
+        {
+          "item": "大圈航線轉繪實務",
+          "result": "pass",
+          "note": "補入心射投影取轉折點後轉繪Mercator、分段恒向線執行的流程。"
+        }
+      ]
     },
     "version": 2,
     "lastUpdated": "2026-11-07"
