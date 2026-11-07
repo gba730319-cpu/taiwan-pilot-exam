@@ -99,7 +99,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-kaohsiung-waterway-01",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "106-kaohsiung-waterway-02",
@@ -181,7 +184,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-kaohsiung-waterway-02",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "106-kaohsiung-waterway-03",
@@ -257,7 +263,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-kaohsiung-waterway-03",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "106-kaohsiung-waterway-04",
@@ -324,7 +333,10 @@
       "status": "partially_verified"
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-kaohsiung-waterway-04",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "106-kaohsiung-waterway-05",
@@ -397,7 +409,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-kaohsiung-waterway-05",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "106-kaohsiung-waterway-06",
@@ -456,7 +471,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-kaohsiung-waterway-06",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "106-pilot-law-01",
@@ -509,7 +527,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-pilot-law-01",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "106-pilot-law-02",
@@ -575,7 +596,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-pilot-law-02",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "106-pilot-law-03",
@@ -631,7 +655,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-pilot-law-03",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "106-pilot-law-04",
@@ -697,7 +724,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-pilot-law-04",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "106-pilot-law-05",
@@ -769,7 +799,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-pilot-law-05",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "106-pilotage-01",
@@ -858,7 +891,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-pilotage-01",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "106-pilotage-02",
@@ -947,13 +983,16 @@
         },
         {
           "item": "氣象與海象名詞",
-          "result": "保留風速門檻、能見度及波浪生成區等定義差異。",
-          "note": "pass"
+          "result": "pass",
+          "note": "保留風速門檻、能見度及波浪生成區等定義差異。"
         }
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-pilotage-02",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "106-pilotage-03",
@@ -1035,13 +1074,16 @@
         },
         {
           "item": "迴旋圈定義及參數",
-          "result": "以船舶中點軌跡及標準術語定義。",
-          "note": "pass"
+          "result": "pass",
+          "note": "以船舶中點軌跡及標準術語定義。"
         }
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-pilotage-03",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "106-pilotage-04",
@@ -1129,13 +1171,16 @@
         },
         {
           "item": "恒向線及大圈線定義",
-          "result": "確認Mercator與Gnomonic投影對應正確。",
-          "note": "pass"
+          "result": "pass",
+          "note": "確認Mercator與Gnomonic投影對應正確。"
         }
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-pilotage-04",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "106-pilotage-05",
@@ -1231,13 +1276,16 @@
         },
         {
           "item": "迴轉與往復潮流差異",
-          "result": "補入是否有憩流、典型地點及科氏力方向影響。",
-          "note": "pass"
+          "result": "pass",
+          "note": "補入是否有憩流、典型地點及科氏力方向影響。"
         }
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-pilotage-05",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "106-shiphandling-01",
@@ -1251,7 +1299,7 @@
       },
       {
         "point": "投影面積與風壓中心",
-        "importance": "important",
+        "importance": "supporting",
         "explanation": "查核：pass；限定適用範圍：需由實際輪廓估算；題幹未提供完整貨櫃寬度及投影圖。"
       },
       {
@@ -1266,7 +1314,7 @@
       },
       {
         "point": "所需拖輪馬力數值",
-        "importance": "important",
+        "importance": "supporting",
         "explanation": "查核：pass；限定適用範圍：題目資料不足，不能唯一求解，不虛構數值。"
       }
     ],
@@ -1349,7 +1397,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-shiphandling-01",
+    "language": "zh-TW",
+    "answerType": "calculation"
   },
   {
     "questionId": "106-shiphandling-02",
@@ -1363,7 +1414,7 @@
       },
       {
         "point": "BTCC概念解釋",
-        "importance": "important",
+        "importance": "supporting",
         "explanation": "查核：pass；限定適用範圍：以題目語境解釋command/control，不宣稱為IMO法定制度。"
       },
       {
@@ -1446,7 +1497,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-shiphandling-02",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "106-shiphandling-03",
@@ -1470,7 +1524,7 @@
       },
       {
         "point": "設備法規適用範圍",
-        "importance": "important",
+        "importance": "supporting",
         "explanation": "查核：pass；限定適用範圍：未將特定船舶類別的配備規定泛化至所有船舶。"
       }
     ],
@@ -1556,7 +1610,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-shiphandling-03",
+    "language": "zh-TW",
+    "answerType": "definition"
   },
   {
     "questionId": "106-shiphandling-04",
@@ -1684,7 +1741,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-shiphandling-04",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "106-shiphandling-05",
@@ -1786,7 +1846,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-shiphandling-05",
+    "language": "zh-TW",
+    "answerType": "essay"
   },
   {
     "questionId": "106-shiphandling-06",
@@ -1805,7 +1868,7 @@
       },
       {
         "point": "出鏈長度與速度控制",
-        "importance": "important",
+        "importance": "supporting",
         "explanation": "查核：pass；限定適用範圍：依訓練教材列出影響因素，不將1.5–2D當作普遍硬性規則。"
       },
       {
@@ -1892,7 +1955,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-shiphandling-06",
+    "language": "zh-TW",
+    "answerType": "operational_scenario"
   },
   {
     "questionId": "106-english-01",
@@ -1968,7 +2034,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-english-01",
+    "language": "en",
+    "answerType": "translation"
   },
   {
     "questionId": "106-english-02",
@@ -2043,7 +2112,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-english-02",
+    "language": "en",
+    "answerType": "translation"
   },
   {
     "questionId": "106-english-03",
@@ -2067,7 +2139,7 @@
       },
       {
         "point": "Ship domain",
-        "importance": "important",
+        "importance": "supporting",
         "explanation": "查核：pass；限定適用範圍：屬研究及操船概念，尺度依船型與環境而異。"
       }
     ],
@@ -2145,7 +2217,10 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-english-03",
+    "language": "en",
+    "answerType": "definition"
   },
   {
     "questionId": "106-english-04",
@@ -2242,6 +2317,9 @@
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-07",
+    "id": "106-english-04",
+    "language": "en",
+    "answerType": "essay"
   }
 ]
