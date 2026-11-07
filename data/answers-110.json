@@ -118,7 +118,7 @@
       "原題屬110年度歷史考題；目前未取得完整2021年版全港1:30,000圖幅、同期浮筒表及燈表，因此不能宣稱現行公開數值等同2021年考試時資料。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -392,7 +392,7 @@
       "2028年生效的新引水梯性能標準應作未來法規時點說明，不得倒寫為2027年已全面生效。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -559,7 +559,7 @@
       "原題為2021年考題；本版依2027備考原則以目前可查得現行法規及仍有效的高雄港地方辦法作主答，若需重現2021年考試時點，應另標示當時有效法規版本。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -699,7 +699,7 @@
       "海岬型船的實際吃水、航速、拖船數量及迴旋計畫未提供，交會安全距離須依當時港況與雙方操縱能力決定。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -865,7 +865,7 @@
       "流場研究可證明堤體附近海流受結構影響，但特定船舶、特定潮時的橫流大小仍須依即時觀測、潮流預報及現場資料判斷。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -885,7 +885,7 @@
         },
         {
           "item": "局部海流定量影響",
-          "result": "verified_with_scope",
+          "result": "partially_verified",
           "note": "採特定觀測站研究結果作為示例，明確註明不可當成即時或全航道固定流速。"
         }
       ]
@@ -978,7 +978,7 @@
       "本題屬制度評論題，改善建議為專業分析，不代表現行法定義務。引用管理規則時須以2021年有效歷史版本，不得套用113年全文修正後條文。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -1200,7 +1200,7 @@
       "條文逐款引用須再以2021年歷史版本核對；現行引水人管理規則於113年12月18日全文修正，不應套用新條號或新義務。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -1557,7 +1557,7 @@
       "洋流名稱及範圍在不同教材可能採不同分區方式；考試時以海洋學教材的標準流系圖配合方向作答。"
     ],
     "verification": {
-      "status": "source_checked",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -1572,7 +1572,7 @@
         },
         {
           "item": "臺灣附近黑潮與海峽季節性",
-          "result": "verified_with_scope",
+          "result": "partially_verified",
           "note": "海流路徑及流速具季節、渦旋及地形變化，不能用固定示意線作航次預報。"
         }
       ]
@@ -2148,7 +2148,7 @@
       "Passive/active escorting在不同港口與拖船操作手冊可能有特定定義；本文採一般操船概念，應再對照原題所依教材或港方拖船規範。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -2163,7 +2163,7 @@
         },
         {
           "item": "固定速度門檻",
-          "result": "verified_with_scope",
+          "result": "partially_verified",
           "note": "6至10節僅為部分技術指引典型範圍，非通用法定門檻。"
         }
       ]
@@ -2242,7 +2242,7 @@
       "未取得本題指定的劍型船艏設計圖或特定船廠技術論文；對其幾何特徵及性能增益採一般性分析，不提供未經證實的百分比或單一性能結論。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -2257,7 +2257,7 @@
         },
         {
           "item": "縱搖、砰擊及操縱效益",
-          "result": "verified_with_scope",
+          "result": "partially_verified",
           "note": "公開資料未提供所有海況下的定量運動響應，僅以船型水動力原理說明可能影響。"
         }
       ]
@@ -2540,7 +2540,7 @@
       "此題為忠實翻譯練習；原文對警戒區追越的絕對敘述應與適用海域的法規及地方規定分別理解，不宜由翻譯直接推論所有水域一律禁止。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -2625,7 +2625,7 @@
       "此為考題中譯英參考版本；不同教材對部分COLREG固定用語可能採略有差異的譯法。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -2827,7 +2827,7 @@
       "此為英文作文參考稿，非官方標準答案；實際字數及評分依考選部閱卷標準（未取得）為準。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "source_checked",
       "checkedAt": "2026-11-07",
       "checks": [
         {
