@@ -99,11 +99,11 @@
   {
     "id": "083-pilotage-02-answer-v1",
     "questionId": "083-pilotage-02",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【1. Diurnal inequality（日不等）】\n同一太陰日內，連續兩次高潮的潮高或潮時不相等，或連續兩次低潮的潮高或潮時不相等，稱為日不等。主要與月球赤緯及觀測地緯度有關；月球赤緯偏離天球赤道時，兩次潮汐隆起對當地的作用不對稱，日不等通常較明顯。\n\n【2. Solar tide（太陽潮）】\n太陽引潮力所造成的潮汐分量。雖然太陽質量遠大於月球，但因距離地球甚遠，其引潮作用仍小於月球；太陽潮與月球潮疊加，形成大潮、小潮及潮差的週期變化。\n\n【3. Perigean tide（近地點潮）】\n月球位於近地點附近時，因月地距離較近，月球引潮力增強而形成的潮汐。若近地點又與朔、望相近，月球潮與太陽潮疊加，潮差可能特別大；但實際潮高仍受當地海岸及海底地形影響。\n\n【4. Spring tide（大潮）】\n朔、望附近，日、月、地大致成一直線，太陽與月球引潮力在主要方向上相互加強，高潮較高、低潮較低，潮差較大。Spring並非指春季。\n\n【5. Priming of the tide（潮汐提前／潮時加速）】\n依IHO水文學詞典，指因太陽與月球相對位置改變，使高潮、低潮發生時間週期性加速、較原預期提前的現象；相反現象稱lagging of the tides（潮汐延遲）。此處重點是潮時提前，不是單純指潮流流速增加，也不等同於某港站因地形造成的局部潮時差。\n\n【記憶對照】\nDiurnal inequality＝同一太陰日兩次潮高／潮時不等；\nSolar tide＝太陽引潮分量；\nPerigean tide＝月球近地點時的潮汐；\nSpring tide＝朔望大潮；\nPriming＝日月相對位置變化造成高潮、低潮時刻提前。",
-    "practicalAnalysis": "本題10分，五個名詞逐一解釋。Diurnal inequality主要由月球赤緯造成；Spring tide是朔望大潮，不是季節春潮。",
+    "modelAnswer": "【1. Diurnal inequality（日不等）】\n同一太陰日內，連續兩次高潮的潮高或潮時不相等，或連續兩次低潮的潮高或潮時不相等，稱為日不等。主要與月球赤緯及觀測地緯度有關；月球赤緯偏離天球赤道時，兩次潮汐隆起對當地的作用不對稱，日不等通常較明顯。\n\n【2. Solar tide（太陽潮）】\n太陽引潮力所造成的潮汐分量。雖然太陽質量遠大於月球，但因距離地球甚遠，其引潮作用仍小於月球；太陽潮與月球潮疊加，形成大潮、小潮及潮差的週期變化。\n\n【3. Perigean tide（近地點潮）】\n月球位於近地點附近時，因月地距離較近，月球引潮力增強而形成的潮汐。若近地點又與朔、望相近，月球潮與太陽潮疊加，潮差可能特別大；但實際潮高仍受當地海岸及海底地形影響。\n\n【4. Spring tide（大潮）】\n朔、望附近，日、月、地大致成一直線，太陽與月球引潮力在主要方向上相互加強，高潮較高、低潮較低，潮差較大。Spring並非指春季。\n\n【5. Priming of the tide（潮汐提前／潮時加速）】\n依IHO水文學詞典，指因太陽與月球相對位置改變，使高潮、低潮發生時間週期性加速、較原預期提前的現象。通常在朔月至上弦、滿月至下弦期間較明顯；高潮可能早於月球通過當地子午線的時刻。相反現象稱lagging of the tides（潮汐延遲），通常在上弦至滿月、下弦至朔月期間，高潮可能晚於月球通過當地子午線。此處重點是潮時提前，不是潮流流速增加，也不等同於某港站因地形造成的局部潮時差。\n\n【記憶對照】\nDiurnal inequality＝同一太陰日兩次潮高／潮時不等；\nSolar tide＝太陽引潮分量；\nPerigean tide＝月球近地點時的潮汐；\nSpring tide＝朔望大潮；\nPriming＝日月相對位置變化造成高潮、低潮時刻提前。",
+    "practicalAnalysis": "原答案對Priming的核心定義正確，但未列出發生月相區間及高潮相對月球中天的時間關係。依IHO S-32及NGA Bowditch補充：朔至上弦、滿月至下弦為priming時段，高潮可能早於月球中天；反向時段為lagging。",
     "keyPoints": [
       {
         "point": "Diurnal inequality：同一太陰日兩次高潮／低潮不等。",
@@ -148,6 +148,20 @@
         "issuer": "NOAA",
         "url": "https://tidesandcurrents.noaa.gov/glossary",
         "supports": "Priming of tide為日月相對位置變化造成高潮、低潮時刻週期性提前。"
+      },
+      {
+        "title": "IHO Hydrographic Dictionary S-32 – Priming of the tides",
+        "sourceType": "international_standard",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://portal.iho.int/iho-ohi/S32/engView.php?page=203",
+        "supports": "Priming為日月相對位置變化造成高潮與低潮發生時間週期性加速。"
+      },
+      {
+        "title": "The American Practical Navigator (Bowditch), Volume 2",
+        "sourceType": "official_navigation_reference",
+        "issuer": "National Geospatial-Intelligence Agency",
+        "url": "https://msi.nga.mil/api/publications/download?key=16693975%2FSFH00000%2FBowditch_Vol_2_LoRes_2019.pdf",
+        "supports": "Priming及lagging發生的月相區間與高潮相對月球中天時間。"
       }
     ],
     "assumptions": [
@@ -158,21 +172,21 @@
     ],
     "verification": {
       "status": "source_checked",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部83年引港學原卷",
+          "item": "五個潮汐名詞",
           "result": "pass",
-          "note": "五個英文名詞逐項核對。"
+          "note": "核對Diurnal inequality、Solar tide、Perigean tide、Spring tide及Priming。"
         },
         {
-          "item": "IHO／NOAA潮汐術語",
+          "item": "Priming月相區間及時刻關係",
           "result": "pass",
-          "note": "修正Priming of tide原答案的含糊描述，明確為潮時提前。"
+          "note": "依IHO S-32及Bowditch補充朔至上弦、滿月至下弦期間的潮時提前。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "083-pilotage-03-answer-v1",
