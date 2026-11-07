@@ -209,6 +209,7 @@ function verificationStatusLabel(status: string) {
     calculation_checked: "計算已複核",
     partially_verified: "部分核對，仍有項目待查",
     needs_review: "待複核",
+    skipped: "暫不核對，需確認略過原因",
     draft: "草稿，尚未完成查核",
   };
   return labels[status] || status;
