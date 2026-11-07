@@ -377,3 +377,10 @@
 - 建置驗證：以Vercel Sandbox執行 `npm install && npm run build` 成功；Next.js production build、型別檢查及靜態頁面產生均通過。只有既有CSS autoprefixer警告及lockfile workspace root提示，未阻擋建置。
 - Production部署：GitHub main最新commit為 `3fc45feee4a695e7d19b7129be23aac998965396`，但Vercel Production目前最新READY部署仍對應較舊的110年度commit `92e88cb5a38f96589c1fbd3ea30b25db04f497eb`。本次部署API回應402（每日部署額度超限，需等待24小時）；已依要求嘗試CLI fallback，但CLI回報token無效，故**尚未部署到正式網站**。不得將GitHub已提交或Sandbox build成功說成Production已更新。
 
+
+
+### 114 年共同科目・船舶操縱第 3 題：艉座公式補強（2026-11-07）
+- 依閱讀回饋，在原有Squat成因、速度平方關係及操船注意事項中，新增Barrass常用簡化估算式：開闊水域 \(S_q=C_B V_{STW}^2/100\) m；受限航道 \(S_q=C_B V_{STW}^2/50\) m。
+- 補上變數定義（最大艉座量、方形係數、對水速度STW）、單位、適用範圍提醒，以及CB=0.75、STW=8 kn的教學算例（0.48m／0.96m）。明確提醒不可直接將SOG代入，也不可將速算式當作所有航道的精確值；精算須依阻塞比、H/T、船型及本船Squat table／港方UKC要求。
+- 來源補充：ATSB《Grounding of MV Leichhardt》Appendix G及USACE《Ship Squat Predictions for Ship/Tow Simulator》。
+- 已更新 `data/answers-common-114-shiphandling-03.json`，保留原答案並增加公式、實例、得分重點與限制說明。
