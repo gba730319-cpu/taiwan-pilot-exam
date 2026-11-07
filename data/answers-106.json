@@ -1183,8 +1183,8 @@
   },
   {
     "questionId": "106-pilotage-05",
-    "modelAnswer": "迴轉潮流（Rotary Tidal Current）是潮流方向隨時間連續順時針或逆時針轉變，通常在一個潮週期內流向繞行接近360度，流速亦隨時間變化。其成因多與潮波傳播、地球自轉、海岸線形狀、海底地形及科氏力共同作用有關，常見於開放海域及較寬廣海灣。往復潮流（Reversing／Rectilinear Tidal Current）則主要沿大致固定軸線往返流動，漲潮與退潮流向相反，中間可能出現憩流；常見於狹窄海峽、河口、港灣入口及受地形約束的水道。實際流向、流速及憩流時間須查潮流表或潮流圖，不能僅由潮汐高低推定。",
-    "practicalAnalysis": "引水操船時，迴轉潮流須注意流向持續變化，不能只以漲潮／退潮兩個方向簡化；往復潮流則須掌握轉流及憩流時刻。兩者均受局部地形、風及河川流量影響。",
+    "modelAnswer": "【2027年考試主答｜旋轉潮流與往復潮流】\n\n一、旋轉潮流（Rotary Tidal Current／Rotary Stream）\n1. **定義：**潮流在一個潮汐週期內，流向持續逐漸改變，方向可依序繞轉各方位，形成旋轉或橢圓形的流速向量軌跡；通常沒有明顯的完全停流時刻，流速會由最大值逐漸減小至最小值，再增強。\n2. **形成原因：**主要由潮汐波傳播、地球自轉造成的科氏力、海岸線形狀、海底地形、水深及水域開闊程度共同影響。潮流不受狹窄水道限制時，流向較容易隨潮汐週期連續旋轉。\n3. **常見地點：**較開闊的外海、陸棚海域、寬廣海灣及較少受岸壁限制的水域。\n4. **旋轉方向：**北半球常見順時針旋轉，南半球常見逆時針旋轉，但這是一般傾向，實際方向及橢圓形狀仍受局部海岸與海底地形影響，不可當成絕對定律。\n\n二、往復潮流（Reversing／Rectilinear Tidal Current）\n1. **定義：**潮流主要沿同一軸線往返流動，漲潮時向一方向流動（Flood），退潮時大致向相反方向流動（Ebb），兩次流向轉換之間通常出現憩流（Slack Water）。\n2. **形成原因：**潮汐水位升降造成水體進出海灣、河口或水道；當水流受到狹窄水道、河道、海峽或兩岸地形限制時，流向較集中於同一方向軸線，漲退潮時便呈相反方向。\n3. **常見地點：**狹窄海峽、港口入口、河口、河道、狹長海灣及受地形約束的水道。\n4. **航行特性：**漲潮流與退潮流方向大致相反；轉流時會出現憩流，但憩流時間不一定與高潮或低潮同時發生，須查當地潮流表或實測資料。\n\n三、兩種潮流比較\n\n| 比較項目 | 旋轉潮流 | 往復潮流 |\n|---|---|---|\n| 流向變化 | 在潮汐週期內連續旋轉 | 主要沿同一軸線往返 |\n| 轉流狀態 | 通常沒有完全憩流，只有最小流速 | 兩個方向轉換時通常有憩流 |\n| 常見環境 | 外海、陸棚、開闊海灣 | 狹窄海峽、河口、港口及狹長水道 |\n| 主要影響因素 | 科氏力、潮波、海岸線、海底地形及水深 | 潮差、水位差、水道形狀及地形限制 |\n| 航行注意 | 流向持續變化，需查潮流向量／潮流橢圓 | 漲退潮方向相反，需掌握憩流時刻及最大流速 |\n\n四、引水實務\n1. 不可把潮汐高潮、低潮時刻直接當成憩流時刻；潮位與潮流轉向可能有時間差。\n2. 旋轉潮流應掌握各時段流向及流速變化；往復潮流則應掌握漲潮流、退潮流及憩流時間。\n3. 靠離泊、狹水道會船及迴船池操船時，應依當地潮流表、港務公告、即時海象資料及現場觀測決定操船時機。\n\n結論：旋轉潮流的流向在潮汐週期內連續改變，通常沒有完全憩流，常見於較開闊水域；往復潮流沿大致相反方向交替流動，轉向時通常有憩流，常見於狹窄海峽、河口及受地形限制的水道。",
+    "practicalAnalysis": "本題核心差異是旋轉潮流在潮汐週期內持續轉向、通常只有最小流速而非完全憩流；往復潮流則沿相反方向交替流動，轉向時通常有憩流。不可把憩流直接等同高潮或低潮時刻。",
     "keyPoints": [
       "迴轉潮流：流向隨時間連續旋轉，常見於開放水域或寬廣海灣。",
       "往復潮流：沿固定軸線往返，漲退潮方向相反，可能有憩流。",
@@ -1197,14 +1197,66 @@
         "title": "考選部106年引港學試題",
         "issuer": "考選部",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=603&code=106060&q=1&s=1010&t=Q"
+      },
+      {
+        "title": "Definitions for content on tides and currents",
+        "sourceType": "official_hydrographic_glossary",
+        "issuer": "Canadian Hydrographic Service",
+        "url": "https://www.tides.gc.ca/en/definitions-content-tides-and-currents",
+        "supports": "Reversing current及Rotary current的定義，並說明往復潮流主要出現在狹窄水道。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "NOAA Tidal Currents — Currents Tutorial",
+        "sourceType": "official_oceanography",
+        "issuer": "NOAA National Ocean Service",
+        "url": "https://oceanservice.noaa.gov/education/tutorial_currents/02tidal1.html",
+        "supports": "往復潮流、漲潮流、退潮流及憩流形成與河口、海灣地形關係。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Tidal Current Prediction User Guide",
+        "sourceType": "official_oceanographic_guidance",
+        "issuer": "NOAA Center for Operational Oceanographic Products and Services",
+        "url": "https://www.tidesandcurrents.noaa.gov/education/tech-assist/training/user-guides/assets/pdfs/Current_Predictions_User_Guide_v5.pdf",
+        "supports": "潮流與潮位差異、flood、ebb、slack water定義。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Tidal Currents Educational Pamphlet",
+        "sourceType": "official_oceanographic_education",
+        "issuer": "NOAA",
+        "url": "https://tidesandcurrents.noaa.gov/publications/TidalCurrentsEducationalPamphlet4.pdf",
+        "supports": "旋轉潮流、往復潮流、外海與狹窄水域分布及北半球常見旋轉方向。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "潮流型態會因地點及季節而異，題目未指定海域，故以一般海洋學原理作答，不列未經核實的特定港口案例。"
     ],
     "verification": {
-      "status": "partially_verified"
-    }
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "旋轉潮流定義與流速變化",
+          "result": "pass",
+          "note": "依加拿大水文局及NOAA潮流資料核對，通常沒有完全憩流而有最小流速。"
+        },
+        {
+          "item": "往復潮流定義及地形分布",
+          "result": "pass",
+          "note": "依官方水文詞彙及NOAA資料核對狹窄水道、河口及海峽特徵。"
+        },
+        {
+          "item": "北／南半球旋轉方向",
+          "result": "verified_with_scope",
+          "note": "以一般傾向說明，並明確提醒局部海岸與海底地形可改變方向。"
+        }
+      ]
+    },
+    "version": 2,
+    "lastUpdated": "2026-11-07"
   },
   {
     "questionId": "106-shiphandling-01",
