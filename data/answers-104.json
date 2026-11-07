@@ -2495,8 +2495,8 @@
   },
   {
     "questionId": "104-english-01",
-    "modelAnswer": "(1) 具有當地知識的引水人數百年來一直受僱登上船舶，在船舶進出港口，或於任何被認為航行具有危險性的水域航行時，為船舶提供引導，尤其是在船長不熟悉該區域的情況下。除了熟悉當地水域並具備專業知識外，引水人也能以有效方式與岸上單位及拖船溝通，而且往往能使用當地語言進行聯繫。\\n\\n(2) 合格引水人通常由當地港口或海事主管機關聘用，並向船舶提供引水服務，收取的費用通常依船舶噸位、吃水或其他標準計算。對於進入港口及其他需要專門當地知識的水域，僱用合格引水人的重要性早已受到國際海事組織（IMO）重視。IMO於1968年正式通過大會決議A.159「引水服務建議案」，確認此一重要性。該決議建議各國政府組織引水服務，並界定哪些船舶及船舶類別必須僱用引水人。",
-    "practicalAnalysis": "翻譯應掌握pilotage語境：pilot是引水人，不是飛行員；local knowledge是當地水域知識；approaches to ports是港口進港航道／港口進近水域；pilotage service是引水服務。原文中的employed by local port or maritime administration是一般制度描述，不宜翻成每個國家均由港務機關直接僱用引水人。",
+    "modelAnswer": "(1) For hundreds of years, pilots with local knowledge have been employed to board ships and guide them into or out of ports, or through any waters where navigation may be considered hazardous, particularly when the master is unfamiliar with the area. In addition to their knowledge of local waters and professional expertise, pilots can communicate effectively with shore authorities and tugs, often using the local language.\n\n(2) Qualified pilots are usually employed or authorized by local port or maritime authorities to provide pilotage services to ships. Pilotage fees are commonly calculated according to the ship's tonnage, draught or other applicable criteria. The importance of employing qualified pilots for entering ports and navigating other waters requiring specialized local knowledge has long been recognized by the International Maritime Organization (IMO). In 1968, the IMO formally adopted Assembly Resolution A.159(ES.IV), Recommendation on Pilotage Services. The resolution recommended that Governments organize pilotage services and determine which ships or classes of ships should be required to use them.",
+    "practicalAnalysis": "本題為歷史英文段落翻譯。pilot一律依海事語境譯為引水人；employed or authorized by local port or maritime authorities是一般制度描述，不代表所有國家均採同一僱用模式。A.159(ES.IV)為1968年歷史決議；現代引水人訓練及作業程序另參考IMO A.960(23)，不可把兩者混為同一決議。",
     "keyPoints": [
       "local knowledge：當地水域知識／熟悉當地水域。",
       "guide vessels into or out of port：引領船舶進出港。",
@@ -2515,19 +2515,63 @@
         "title": "IMO Resolution A.159(ES.IV)—Recommendation on Pilotage",
         "issuer": "IMO",
         "url": "https://www.imo.org/en/OurWork/Safety/Pages/Pilotage.aspx"
+      },
+      {
+        "title": "IMO Resolution A.159(ES.IV) — Recommendation on Pilotage Services",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/Pilotage.aspx",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "1968年IMO大會通過引水服務建議案的歷史背景。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "現代引水人訓練、MPX及引水作業程序的參考依據。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部104年專業英文試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "本題為翻譯題，譯文採航海專業語境；不同教材可能將pilotage譯為引水或領航，全文應維持用語一致。"
     ],
     "verification": {
-      "status": "partially_verified"
-    }
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "pilot與pilotage語境",
+          "result": "pass",
+          "note": "依海事專業用語翻譯為引水人及引水服務。"
+        },
+        {
+          "item": "local knowledge與hazardous waters",
+          "result": "pass",
+          "note": "保留當地水域知識及危險水域語意。"
+        },
+        {
+          "item": "A.159(ES.IV)歷史年份",
+          "result": "pass",
+          "note": "確認1968年決議，並與現行A.960(23)分開。"
+        }
+      ]
+    },
+    "version": 2,
+    "lastUpdated": "2026-11-07"
   },
   {
     "questionId": "104-english-02",
-    "modelAnswer": "(1) Every vessel shall at all times proceed at a safe speed so that she can take proper and effective action to avoid collision and be stopped within a distance appropriate to the prevailing circumstances and conditions.\\n\\n(2) In determining a safe speed, all vessels shall take into account the state of visibility, the traffic density including concentrations of fishing vessels or any other vessels, the manoeuvrability of the vessel with special reference to stopping distance and turning ability in the prevailing conditions, at night the presence of background light such as from shore lights or from back scatter of her own lights, the state of wind, sea and current, and the proximity of navigational hazards, as well as the draught in relation to the available depth of water.",
-    "practicalAnalysis": "本題內容對應COLREG第6條安全速度。翻譯時應使用safe speed、proper and effective action、stopping distance、turning ability、background light、wind, sea and current、draught in relation to available depth等標準用語。第二句原文列舉因素，英文宜保留並列結構；其中traffic density不只一般船流，也包含漁船或其他船舶集中區。",
+    "modelAnswer": "(1) Every vessel shall at all times proceed at a safe speed so that she can take proper and effective action to avoid collision and be stopped within a distance appropriate to the prevailing circumstances and conditions.\n\n(2) In determining a safe speed, all vessels shall take into account the following factors:\n(a) the state of visibility;\n(b) the traffic density, including concentrations of fishing vessels or any other vessels;\n(c) the manoeuvrability of the vessel, with special reference to stopping distance and turning ability in the prevailing conditions;\n(d) at night, the presence of background light, such as from shore lights or from backscatter of the vessel's own lights;\n(e) the state of wind, sea and current; and\n(f) the proximity of navigational hazards, as well as the draught in relation to the available depth of water.",
+    "practicalAnalysis": "本題對應COLREG Rule 6。英文保留原文 shall 的義務語氣及各項因素；safe speed不是固定節數，必須依當時能見度、交通、操縱性能、背景燈光、風浪流、航行危險及吃水／可用水深綜合判斷。",
     "keyPoints": [
       "安全速度：safe speed。",
       "適當而有效之措施：proper and effective action。",
@@ -2547,19 +2591,55 @@
         "title": "COLREG 1972, Rule 6—Safe Speed",
         "issuer": "IMO",
         "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx"
+      },
+      {
+        "title": "IMO COLREG 1972 — Rule 6 Safe Speed",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "安全速度規則及各項判斷因素。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部104年專業英文試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "不同英語拼法可採英式manoeuvrability、draught或美式maneuverability、draft；考試宜採IMO公約英文原文用字。"
     ],
     "verification": {
-      "status": "source_checked"
-    }
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "shall與safe speed語意",
+          "result": "pass",
+          "note": "保留法規義務語氣及安全速度概念。"
+        },
+        {
+          "item": "六類判斷因素",
+          "result": "pass",
+          "note": "完整涵蓋能見度、交通、操縱、背景光、風浪流及航行危險／吃水。"
+        },
+        {
+          "item": "安全速度非固定數值",
+          "result": "pass",
+          "note": "補充依當時情況判斷，不誤作固定港速。"
+        }
+      ]
+    },
+    "version": 2,
+    "lastUpdated": "2026-11-07"
   },
   {
     "questionId": "104-english-03",
-    "modelAnswer": "(1) Course made good: The actual direction of the track made good over the ground, measured from the point of departure to the point of arrival, or over a specified period. It is the resultant direction of the vessel's movement after the effects of wind, current and other external forces have been taken into account.\\n\\n(2) Hampered vessels: Vessels which, by the nature of their work, are restricted in their ability to manoeuvre as required by the COLREGs and are therefore unable to keep out of the way of another vessel. The term is commonly used in operational discussion; the COLREG-defined category is a vessel restricted in her ability to manoeuvre (RAM).\\n\\n(3) Underway: A vessel is underway when she is not at anchor, or made fast to the shore, or aground. A vessel may be underway even when stopped and making no way through the water.\\n\\n(4) Search and rescue transponder (SART): A radar transponder carried on a survival craft or ship which, when interrogated by a searching ship's radar, responds with a distinctive series of signals on the radar display to help rescuers locate the survival craft or vessel in distress. A radar SART normally operates in the 9 GHz X-band; AIS-SART is a separate type using AIS transmissions.",
-    "practicalAnalysis": "Course made good是實際對地航跡方向，不等同船首向（heading）或計畫航向（course steered）；Underway是COLREG定義，船舶即使停俥、對水無航速，只要未錨泊、未繫岸且未擱淺，仍屬underway。Hampered vessels不是COLREG正式定義用語，答題最好連結至restricted in her ability to manoeuvre，並說明是否符合規則第3條定義須看其工作性質及限制。SART應說明雷達回波定位功能，不可與EPIRB或AIS-SART混為一談。",
+    "modelAnswer": "(1) **Course made good:** The direction of the actual track made good over the ground, usually expressed as the direction from the point of departure to the point of arrival over a specified period. It is the resultant direction of the vessel's movement over the ground, taking the effects of wind, current and other external forces into account. It is not necessarily the vessel's heading or the course steered.\n\n(2) **Hampered vessels:** A general descriptive expression for vessels whose work or condition makes them less able to manoeuvre freely. The formal COLREG category is a **vessel restricted in her ability to manoeuvre (RAM)**, as defined in Rule 3(g). Whether a vessel qualifies as RAM depends on the nature of her work and the actual restriction; the expression “hampered vessel” alone is not a separate COLREG status.\n\n(3) **Underway:** A vessel is underway when she is not at anchor, or made fast to the shore, or aground. A vessel may therefore be underway even when she is stopped and making no way through the water.\n\n(4) **Search and rescue transponder (SART):** A radar transponder carried on a ship or survival craft which responds when interrogated by a searching ship's radar, producing a distinctive series of signals on the radar display to assist rescuers in locating the casualty. A conventional radar SART operates in the 9 GHz X-band. An AIS-SART is a separate type of locating device which transmits AIS messages and should not be confused with a radar SART or an EPIRB.",
+    "practicalAnalysis": "校正Course made good與heading／course steered的區別；Hampered vessels不是COLREG正式法定類別，應對照Rule 3(g) RAM；Underway沿用Rule 3(i)定義；SART分開說明X-band radar SART、AIS-SART及EPIRB。",
     "keyPoints": [
       "Course made good：船舶實際對地航跡方向；與heading及course steered不同。",
       "Hampered vessels：作業限制操縱能力的船舶；COLREG正式類別用restricted in her ability to manoeuvre。",
@@ -2582,19 +2662,68 @@
         "title": "GMDSS Search and Rescue Transponder information",
         "issuer": "IMO",
         "url": "https://www.imo.org/en/OurWork/Safety/Pages/RadioCommunications-Default.aspx"
+      },
+      {
+        "title": "IMO COLREG 1972 — Rule 3 Definitions",
+        "url": "https://www.imo.org/en/about/conventions/pages/colreg.aspx",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "RAM、underway等COLREG正式定義。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO GMDSS and Search and Rescue information",
+        "url": "https://www.imo.org/en/OurWork/Safety/Pages/RadioCommunications-Default.aspx",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "GMDSS及搜救設備背景。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部104年專業英文試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "Hampered vessels不是COLREG獨立正式定義術語；依題目用字提供一般定義並補充法規正式用語，以免誤稱所有受妨礙船舶均自動屬RAM。"
     ],
     "verification": {
-      "status": "partially_verified"
-    }
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "Course made good",
+          "result": "pass",
+          "note": "明確區分對地航跡、船首向及操舵航向。"
+        },
+        {
+          "item": "Hampered vessels與RAM",
+          "result": "pass",
+          "note": "註明Hampered不是獨立COLREG類別，對照Rule 3(g)。"
+        },
+        {
+          "item": "Underway",
+          "result": "pass",
+          "note": "依Rule 3(i)定義，即使停俥仍可能underway。"
+        },
+        {
+          "item": "SART分類",
+          "result": "pass",
+          "note": "區分X-band radar SART、AIS-SART及EPIRB。"
+        }
+      ]
+    },
+    "version": 2,
+    "lastUpdated": "2026-11-07"
   },
   {
     "questionId": "104-english-04",
-    "modelAnswer": "A pilot, the master and the officer of the watch (OOW) must work as a bridge team to ensure the safe navigation of the vessel. Each has distinct responsibilities, but effective communication and cooperation are essential.\\n\\nThe pilot provides expert knowledge of local waters, including channels, depths, tides, currents, traffic patterns, port regulations and berthing arrangements. The pilot advises the master on the intended passage, manoeuvres the vessel in accordance with the agreed plan and communicates with VTS, tugs and shore authorities. The pilot should conduct a master-pilot exchange before commencing the pilotage, obtain essential information about the vessel's manoeuvring characteristics and promptly report any change in conditions. The pilot must also respect the master's overriding authority and should not undertake an unsafe or unlawful manoeuvre.\\n\\nThe master retains overall command and responsibility for the safety of the ship, crew, cargo and environment. The master must ensure that the vessel is seaworthy, properly manned and equipped, and that the bridge team understands the passage plan and emergency procedures. The master should provide the pilot with accurate information about draught, propulsion, steering, stopping distance, turning ability, defects and operational limitations. The master must monitor the pilot's conduct and intervene whenever there is a clear safety concern.\\n\\nThe OOW supports the master and pilot by maintaining a proper lookout, monitoring the vessel's position, course, speed and progress, checking the passage plan and navigational hazards, and ensuring that charts and publications are up to date. The OOW should independently verify the pilot's orders and the vessel's response, maintain situational awareness, record relevant events and immediately challenge any order or action that appears unsafe. The OOW must not assume that the presence of a pilot relieves the bridge team of its duties.\\n\\nIn conclusion, safe pilotage depends on a shared understanding of the passage plan, clear closed-loop communication, continuous monitoring and mutual respect. The pilot contributes local expertise, the master retains command, and the OOW provides independent monitoring and operational support.",
-    "practicalAnalysis": "約300字英文作答應有引言、三個角色分述及結論。核心概念是pilot provides local expertise, master retains command and responsibility, OOW monitors and cross-checks。避免寫成引水人接管船長職權；也不能把OOW定位成只聽命而不監控。應提到MPX、passage plan、closed-loop communication、independent monitoring及必要時challenge unsafe orders。",
+    "modelAnswer": "A pilot, the master and the officer of the watch (OOW) must work together as a bridge team to ensure the safe navigation of a vessel. Although each has distinct responsibilities, effective communication, cooperation and continuous monitoring are essential.\n\nThe pilot contributes expert knowledge of local waters, including channels, depths, tides, currents, traffic patterns, port regulations and berthing arrangements. Before pilotage begins, the pilot should conduct a Master-Pilot Exchange (MPX) with the master and bridge team. They should discuss the passage plan, the ship's manoeuvring characteristics, environmental conditions, tug arrangements, communication methods and emergency procedures. During the passage, the pilot provides local advice and conducts the agreed manoeuvres while keeping the master and OOW informed.\n\nThe master retains overall command and responsibility for the safety of the ship, crew, cargo and the environment. The master should provide accurate information about the vessel's draught, propulsion, steering, stopping distance, turning ability, defects and operational limitations. The master must ensure that the bridge team understands the passage plan and should intervene whenever there is a clear safety concern. The presence of a pilot does not relieve the master of these responsibilities.\n\nThe OOW supports the master and pilot by maintaining a proper lookout, monitoring the vessel's position, heading, speed and progress, checking the passage plan and navigational hazards, and ensuring that charts and publications are up to date. The OOW should independently verify the pilot's orders and the vessel's response, maintain situational awareness, record relevant events and promptly report any unsafe condition or deviation from the plan.\n\nIn conclusion, safe pilotage depends on shared situational awareness, a common understanding of the passage plan, closed-loop communication and mutual support. The pilot provides local expertise, the master retains command, and the OOW provides independent monitoring and operational support.",
+    "practicalAnalysis": "約300字英文作文，依IMO A.960(23)釐清三個角色：引水人提供地方專業知識及領航建議、船長保有船舶安全指揮責任、OOW獨立監控並交叉核對。補入MPX、閉環溝通及安全質疑，避免將引水人描述成取代船長。",
     "keyPoints": [
       "Pilot：local knowledge、passage advice、MPX、與VTS／拖船／岸上單位溝通。",
       "Master：保有overall command and responsibility，提供船舶操縱資料並監督引水作業。",
@@ -2618,13 +2747,62 @@
         "title": "SOLAS Chapter V, Regulation 34-1—Master's discretion",
         "issuer": "IMO",
         "url": "https://www.imo.org/en/OurWork/Safety/Pages/Default.aspx"
+      },
+      {
+        "title": "IMO Resolution A.960(23) — Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "引水人、船長與駕駛台團隊角色、MPX及BRM。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IMO Resolution A.893(21) — Guidelines for Voyage Planning",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.893%2821%29.pdf",
+        "issuer": "International Maritime Organization",
+        "sourceType": "official_or_technical_reference",
+        "supports": "航次計畫、執行、監控及應變。",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "考選部104年專業英文試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=503&code=104060&q=1&s=0810&t=Q",
+        "issuer": "考選部",
+        "sourceType": "official_or_technical_reference",
+        "supports": "原題。",
+        "accessedAt": "2026-11-07"
       }
     ],
     "limitations": [
       "本題為英文申論，篇幅及用字可依考場時間調整；IMO A.960(23)為引水人訓練與作業建議，不取代SOLAS及船旗國法規對船長責任的規定。"
     ],
     "verification": {
-      "status": "partially_verified"
-    }
+      "status": "source_checked",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "引水人角色",
+          "result": "pass",
+          "note": "地方水域知識、MPX及領航協作。"
+        },
+        {
+          "item": "船長責任",
+          "result": "pass",
+          "note": "明確保留overall command及安全責任。"
+        },
+        {
+          "item": "OOW監控",
+          "result": "pass",
+          "note": "獨立核對船位、航向、速度及引水人操船反應。"
+        },
+        {
+          "item": "MPX及團隊溝通",
+          "result": "pass",
+          "note": "補入閉環溝通、情境覺察及安全質疑。"
+        }
+      ]
+    },
+    "version": 2,
+    "lastUpdated": "2026-11-07"
   }
 ]
