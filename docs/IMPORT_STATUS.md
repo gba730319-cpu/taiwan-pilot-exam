@@ -278,3 +278,10 @@
 - 第2題修正「高度警戒」主譯為high state of alertness，避免未經原文授權直接加成proper lookout；主機備妥譯為ready for immediate manoeuvring；引水前職責界定使用respective roles and responsibilities。
 - 第3題Boarding arrangements依SOLAS V/23及IMO A.1045(27)擴充為整套設備、裝置、通道與監督程序；Crash-stop依IMO MSC.137(76)連結full astern stopping test及track reach；Steerage way補充propeller wash亦可提供舵效水流，並非固定節數；Safe speed依COLREG Rule 6列出核心判準及影響因素。
 - 官方來源：SOLAS V/23及IMO A.1045(27) https://www.imo.org/en/ourwork/safety/pages/pilotage.aspx；IMO A.1045(27) https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1045%2827%29.pdf；IMO MSC.137(76) https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf；COLREG https://www.imo.org/en/about/conventions/pages/colreg.aspx
+
+
+### 114 年專業英文第 4 題：300字作文與案例補強（2026-11-07）
+- 作文修訂至約310字，符合around 300 words要求，保留重要性、MPX、引航中閉環溝通、異常情況應變及結論架構。
+- 加入高雄港通運輪事故作為實務例證：TTSB正式調查指出長輝引水人未充分執行MPX、駕駛臺團隊未充分確認操船意圖及監控不足，說明溝通與BRM的重要性。
+- 核心責任關係依IMO A.960(23)：引水人提供地方知識及操船協助，但不解除船長及值班駕駛員責任。
+- 官方來源：IMO A.960(23) https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf；TTSB通運輪事故調查 https://www.ttsb.gov.tw/media/8563/%E9%80%9A%E9%81%8B%E6%B2%B9%E8%BC%AA%E8%88%87fpmc-b-forever%E6%95%A3%E8%A3%9D%E8%88%B9%E8%AA%BF%E6%9F%A5%E5%A0%B1%E5%91%8A_%E7%99%BC%E5%B8%83.pdf
