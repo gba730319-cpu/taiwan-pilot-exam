@@ -5,8 +5,8 @@
     "version": 1,
     "language": "zh-TW",
     "answerType": "translation",
-    "modelAnswer": "（一）船舶交通服務（VTS）在提升交通繁忙水域的航行安全與效率方面，扮演重要角色。VTS透過即時通訊及監控，提供船舶重要的航行資訊與安全指示，因而能降低船舶碰撞風險及對海洋環境造成危害的可能性。\n\n（二）即使引水人已在船上，船舶航行的主要責任仍由船長承擔。然而，引水人具備專業的當地水域知識及航行技能，尤其在具挑戰性或船舶不熟悉的水域中，能對船舶安全操縱作出重大貢獻。",
-    "practicalAnalysis": "翻譯須保留責任關係與原文語氣。VTS譯為「船舶交通服務」；primary responsibility remains with the master 表示船長仍負主要責任，不代表引水人沒有專業義務。safe maneuvering 可譯「安全操縱」。",
+    "modelAnswer": "（一）船舶交通服務（VTS）在提升船舶交通繁忙水域之航行安全與效率方面，扮演關鍵角色。VTS透過即時通訊及交通監控，向船舶提供重要航行資訊與安全指示，藉此大幅降低船舶碰撞風險及海上交通活動可能造成的環境危害。\n\n（二）即使船上已有引水人，船舶航行的主要責任仍由船長承擔。然而，引水人具備專業的當地水域知識及航行技能，尤其在具挑戰性或船舶不熟悉的水域中，能對船舶安全操縱提供重大助益。",
+    "practicalAnalysis": "本題為專業英文翻譯，評分重點在語意完整、術語正確及責任關係不失真。\n\n1. Vessel Traffic Services (VTS)：正式術語為「船舶交通服務」，不可只譯成一般的船舶管理或港口管制。\n2. congested waters：可譯「船舶交通繁忙水域」或「船舶交通密集水域」。\n3. real-time communication and monitoring：宜譯「即時通訊及監控」，此處monitoring是交通監控。\n4. navigational information and safety instructions：可譯「航行資訊與安全指示」。但在專業理解上，VTS的資訊服務、航行協助服務及交通組織服務各有不同；原文instructions不代表所有VTS建議均具有命令性，實際權限依SOLAS、IMO指南及當地法規。\n5. environmental hazards：此處指海上交通活動可能造成的環境危害，可譯「環境危害」或「海洋環境風險」。\n6. primary responsibility for the ship's navigation remains with the master：船長仍負船舶航行的主要責任。不可翻成「引水人不負責」；IMO A.960(23)強調引水人登輪不解除船長及值班駕駛員原有職責與責任。\n7. pilot's expert local knowledge：宜譯「引水人專業的當地水域知識」或「對當地水域的專業知識」。\n8. safe maneuvering：宜譯「安全操縱」，不只是安全航行。\n\nVTS法理背景：SOLAS V/12及IMO A.1158(32)說明VTS目的包括海上人命安全、航行安全與效率及海洋環境保護；服務可包含資訊、航行協助及交通組織。船舶有效航行及操縱的最終決策責任仍由船長承擔。",
     "keyPoints": [
       {
         "point": "Vessel Traffic Services 譯為船舶交通服務（VTS）。",
@@ -22,6 +22,18 @@
       },
       {
         "point": "pilot's expert local knowledge 譯為引水人的專業當地水域知識。",
+        "importance": "supporting"
+      },
+      {
+        "point": "VTS的 safety instructions 應依原文譯為「安全指示」，但不能延伸成VTS全面取代船長操船決策。",
+        "importance": "essential"
+      },
+      {
+        "point": "primary responsibility remains with the master 表示船長仍負主要航行責任，不代表引水人沒有專業義務。",
+        "importance": "essential"
+      },
+      {
+        "point": "safe maneuvering 應譯「安全操縱」，environmental hazards可譯「環境危害／海洋環境風險」。",
         "importance": "supporting"
       }
     ],
@@ -49,6 +61,21 @@
         "pageOrSection": "Annex 2, section 2",
         "accessedAt": "2026-11-07",
         "supports": "引水人登輪後船長、駕駛臺與引水人的責任及協調關係。"
+      },
+      {
+        "title": "SOLAS Chapter V, Regulation 12 — Vessel Traffic Services",
+        "sourceType": "international_convention",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/vesseltrafficservices.aspx",
+        "supports": "VTS對人命安全、航行安全與效率及海洋環境保護的目的；VTS與船長航行責任之界線。"
+      },
+      {
+        "title": "IMO Resolution A.1158(32) — Guidelines for Vessel Traffic Services",
+        "sourceType": "imo_resolution",
+        "issuer": "International Maritime Organization",
+        "editionOrEffectiveDate": "2021-12-15",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1158%2832%29.pdf",
+        "supports": "VTS資訊服務、航行協助、交通組織及危險態勢應變的功能分類。"
       }
     ],
     "assumptions": [],
@@ -73,6 +100,16 @@
           "item": "官方評分細則",
           "result": "needs_review",
           "note": "未取得官方評分細則。"
+        },
+        {
+          "item": "VTS正式術語與服務功能",
+          "result": "pass",
+          "note": "依SOLAS V/12及IMO A.1158(32)核對船舶交通服務及其資訊、航行協助、交通組織功能。"
+        },
+        {
+          "item": "VTS指示與船長責任關係",
+          "result": "pass",
+          "note": "依IMO A.1158(32)、A.960(23)及IMO官方VTS說明，避免將VTS安全指示誤解為全面接管船舶操縱。"
         }
       ]
     },
