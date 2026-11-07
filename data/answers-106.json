@@ -6,27 +6,33 @@
     "keyPoints": [
       {
         "point": "比例尺與圖面基本要素",
-        "explanation": "1:30,000、北箭、圖例、圖名、日期、資料來源及座標／經緯網。"
+        "explanation": "1:30,000、北箭、圖例、圖名、日期、資料來源及座標／經緯網。",
+        "importance": "essential"
       },
       {
         "point": "港口與航道",
-        "explanation": "一、二港口、進出港航道、港池、船渠、轉向區與限制水域。"
+        "explanation": "一、二港口、進出港航道、港池、船渠、轉向區與限制水域。",
+        "importance": "essential"
       },
       {
         "point": "泊位與繫泊設施",
-        "explanation": "碼頭編號、泊位、浮筒、錨地及禁錨區。"
+        "explanation": "碼頭編號、泊位、浮筒、錨地及禁錨區。",
+        "importance": "essential"
       },
       {
         "point": "助航與引水設施",
-        "explanation": "燈塔、燈浮、航標、引水登輪區及相關信號設施。"
+        "explanation": "燈塔、燈浮、航標、引水登輪區及相關信號設施。",
+        "importance": "essential"
       },
       {
         "point": "洲際二期工程",
-        "explanation": "按106年當時資料標示工程範圍及各泊位，區分施工中與已啟用。"
+        "explanation": "按106年當時資料標示工程範圍及各泊位，區分施工中與已啟用。",
+        "importance": "essential"
       },
       {
         "point": "潮信",
-        "explanation": "列出基準港、潮時、潮高、日期及潮高基準。"
+        "explanation": "列出基準港、潮時、潮高、日期及潮高基準。",
+        "importance": "essential"
       }
     ],
     "references": [
