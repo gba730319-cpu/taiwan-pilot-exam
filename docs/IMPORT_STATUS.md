@@ -1553,3 +1553,5 @@
 - 已更新 `data/answers-common-098-kaohsiung-waterway.json` 中第6題答案、來源及verification，維持 partially_verified。
 - 本次為答案內容與歷史來源交叉查核，不計入「第二輪逐題原卷複核」181/604題統計。
 - 官方來源：運研所2009年研究摘要 https://www.iot.gov.tw/zh_tw/archive/pub/reports/-63478947；高雄港務分公司現行設施總表 https://kh.twport.com.tw/port/Articles?a=919；近同期研究報告 https://www.iot.gov.tw/uploads/asset/data/6619b599367376304acd5195/B1004760.pdf
+
+- **新增關鍵追索路徑（2026-11-08）：**已讀取運研所《港灣地區碼頭腐蝕資料及設施結構資料更新建置（2/2）》第4章（PDF第4-1至4-9頁）。報告明確記載高雄港工程資料庫可逐席查詢碼頭斷面向量檔、斷面文字資料，並已將碼頭平面、立面及細部設計掃描PDF存入系統。此證實原始圖資有具體資料庫保存路徑；下一步應取得五席對應圖檔，再核對其圖面日期、設計版次及方位基準。報告本身沒有提供本題五席的個別圖檔或方位數值，故仍維持待查。來源：https://www.ihmt.gov.tw/periodical/pdf/B1004780.pdf
