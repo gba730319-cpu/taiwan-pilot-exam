@@ -1,0 +1,476 @@
+[
+  {
+    "id": "090-shiphandling-01-answer-v1",
+    "questionId": "090-shiphandling-01",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "舵力主要由舵面兩側流速及壓力差產生。下列流體現象會使舵面有效流速下降、流場分離或舵面壓力差減小，因而使舵力降低：\n\n1. **流動分離（Flow Separation／Stall）**：舵角過大、來流速度或流向不適當時，舵面背流側邊界層無法克服逆壓力梯度，流線分離並形成渦流，舵面升力係數下降，舵效可能突然降低。舵角並非愈大舵力愈大。\n2. **空氣吸入／通氣（Ventilation）**：舵面或螺槳附近的低壓區將水面空氣吸入水下流場，空氣進入舵面後使水流密度及有效動壓降低，舵力下降；淺水、船艉升沉、船速及螺槳吸力均可能加劇。\n3. **空化（Cavitation）**：舵面局部壓力降至水的蒸氣壓以下形成氣泡，氣泡在高壓區崩潰，造成舵面壓力分布改變、振動、噪音、侵蝕及有效舵力下降。\n4. **邊界層增厚及黏滯效應**：舵面表面粗糙、污損、腐蝕或來流紊亂，使邊界層增厚、摩擦阻力增加，降低舵面有效流速及升力效率。\n5. **淺水與阻塞效應**：淺水時船底與海床間隙變小，流場受限制，船舶下沉（squat）、縱傾及流速分布改變；舵面有效來流可能不均勻，舵效下降或操縱反應改變。\n6. **螺槳尾流不均及遮蔽**：舵若未處於有效螺槳射流區，或受船體、附體遮蔽，舵面來流速度降低；螺槳轉速下降、倒俥或空化亦會改變舵面流場。\n\n【改善措施】\n控制舵角避免失速，保持適當對水速度及螺槳射流；避免過淺水域高速航行；維護舵面光滑完整；在低速或倒俥時了解舵效下降，必要時配合側推器或拖船。",
+    "practicalAnalysis": "本題15分，宜把「流動分離、通氣、空化」作為核心，再補充淺水效應、邊界層及螺槳尾流。需區分通氣（外部空氣進入）與空化（水蒸氣泡形成），兩者機理不同。",
+    "keyPoints": [
+      {
+        "point": "流動分離／失速使舵面升力係數下降。",
+        "importance": "essential"
+      },
+      {
+        "point": "通氣使空氣進入舵面水流，降低有效動壓。",
+        "importance": "essential"
+      },
+      {
+        "point": "空化使局部壓力低於蒸氣壓，形成氣泡並影響舵力。",
+        "importance": "essential"
+      },
+      {
+        "point": "邊界層、淺水阻塞及螺槳尾流改變也會降低或削弱舵效。",
+        "importance": "supporting"
+      },
+      {
+        "point": "控制舵角、速度、舵面狀況並配合拖船／側推器。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "Ship Manoeuvring and Control",
+        "sourceType": "textbook_or_academic",
+        "issuer": "T. I. Fossen／船舶操縱控制理論參考資料",
+        "url": "https://www.fossen.biz/wiley/Ship%20Manoeuvring%20and%20Control.pdf",
+        "supports": "Nomoto操縱模型、船舶操縱性及控制參數。"
+      },
+      {
+        "title": "The Shiphandler's Guide",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "迴轉圈、拖船協助、側推器及靠離泊操船原理。"
+      },
+      {
+        "title": "Ship Manoeuvrability—IMO Resolution A.751(18)",
+        "sourceType": "imo_resolution",
+        "issuer": "IMO",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.751(18).pdf",
+        "supports": "迴轉性能及操縱性評估背景。"
+      }
+    ],
+    "assumptions": [
+      "以船舶操縱及流體力學原理作答；題目未提供的船型係數、推進器效率及港區環境不自行假設。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部90年船舶操縱題目",
+          "result": "pass",
+          "note": "已核對題庫原文及數值。"
+        },
+        {
+          "item": "公式及操船原理",
+          "result": "pass",
+          "note": "依船舶操縱學及流體力學基本原理整理。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "090-shiphandling-02-answer-v1",
+    "questionId": "090-shiphandling-02",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "船艏橫向推進器（Bow Thruster）利用船艏橫向隧道內螺槳產生橫向推力，主要用於低速靠離泊及港內操船。使用時應注意：\n\n1. **速度限制**：船速增加時，船體前進水流與側推器橫向射流互相干擾，側推效果迅速下降；應依製造商規定的最大有效船速使用，不可把側推器當成高速航行的轉向設備。\n2. **吃水與浸水深度**：船艏側推器隧道必須充分浸水；吃水太淺或縱傾使隧道接近水面，容易吸入空氣、產生渦流及通氣，推力大幅下降，並可能造成振動與噪音。\n3. **連續使用時間**：電動馬達、變頻器、液壓系統及螺槳均有額定負荷與工作週期限制。長時間連續使用可能過熱或觸發保護停機，應遵守製造商的連續／間歇工作時間。\n4. **電力負荷**：側推器啟動電流大，須確認發電機、配電盤、變壓器及電纜容量；避免與其他大功率設備同時啟動造成電壓下降或跳脫。\n5. **風流限制**：側推器額定推力有限，強風、強流或高乾舷船舶可能超出其能力。須先評估風壓面積、船舶排水量、側推器有效推力及拖船需求。\n6. **使用方式**：以短時間、漸進式操作為原則，避免左右舷頻繁快速反覆切換；側推器不能取代主機、舵及拖船，也不應在船艏附近有小艇、潛水員或人員時任意操作。\n7. **水深及障礙物**：注意隧道口附近淺水、泥沙、纜繩及漂流物，避免吸入異物或螺槳受損；側推器排流可能危及碼頭小艇、工作人員及其他船舶。\n8. **操船協調**：與船長、艏樓及拖船保持通訊，清楚使用「Bow thruster port/starboard」指令，確認推力方向及反應；注意艏部橫移不代表艉部同步移動，仍須監控船艉外擺。\n9. **故障備援**：使用前測試控制、電源及警報；若過熱、異常振動、異音或推力下降，立即停止使用並改以主機、舵及拖船控制。\n\n【結論】\n側推器最有效的情境是低速、隧道充分浸水、電力及工作週期允許的港內操船；高速、淺吃水、強風流及超過額定能力時不可過度依賴。",
+    "practicalAnalysis": "本題15分，答案需包括「船速、吃水／浸水、工作週期、電力、風流、操作協調及故障備援」。尤其要指出側推器推力在高速時下降，且淺吃水可能造成吸氣通氣，這是常見失效原因。",
+    "keyPoints": [
+      {
+        "point": "側推器主要用於低速港內靠離泊，船速高時有效推力下降。",
+        "importance": "essential"
+      },
+      {
+        "point": "隧道需充分浸水，淺吃水可能吸氣通氣及失去推力。",
+        "importance": "essential"
+      },
+      {
+        "point": "注意馬達過熱、額定工作週期及啟動電流。",
+        "importance": "essential"
+      },
+      {
+        "point": "強風流、空船高乾舷時可能超出側推器能力，需拖船備援。",
+        "importance": "supporting"
+      },
+      {
+        "point": "短時、漸進操作，協調艏艉及拖船，防止排流傷及人員／小艇。",
+        "importance": "supporting"
+      },
+      {
+        "point": "異音、振動、過熱或推力異常時停止並採備援操船。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "Ship Manoeuvring and Control",
+        "sourceType": "textbook_or_academic",
+        "issuer": "T. I. Fossen／船舶操縱控制理論參考資料",
+        "url": "https://www.fossen.biz/wiley/Ship%20Manoeuvring%20and%20Control.pdf",
+        "supports": "Nomoto操縱模型、船舶操縱性及控制參數。"
+      },
+      {
+        "title": "The Shiphandler's Guide",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "迴轉圈、拖船協助、側推器及靠離泊操船原理。"
+      },
+      {
+        "title": "Ship Manoeuvrability—IMO Resolution A.751(18)",
+        "sourceType": "imo_resolution",
+        "issuer": "IMO",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.751(18).pdf",
+        "supports": "迴轉性能及操縱性評估背景。"
+      }
+    ],
+    "assumptions": [
+      "以船舶操縱及流體力學原理作答；題目未提供的船型係數、推進器效率及港區環境不自行假設。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部90年船舶操縱題目",
+          "result": "pass",
+          "note": "已核對題庫原文及數值。"
+        },
+        {
+          "item": "公式及操船原理",
+          "result": "pass",
+          "note": "依船舶操縱學及流體力學基本原理整理。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "090-shiphandling-03-answer-v1",
+    "questionId": "090-shiphandling-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、船舶操縱性與操縱性指數】\n船舶操縱性（Manoeuvring Characteristics）是船舶在舵、主機、側推器、拖船及外力作用下改變航向、航速與運動狀態的能力，包括航向穩定性、轉向能力、停止能力及橫移能力。操縱性指數（Manoeuvrability Indices）則是用數學模型描述船舶對舵角輸入的反應速度與轉向增益，例如Nomoto模型中的K及T。\n\n【二、用舵瞬間後的一階Nomoto模型】\n\n$$T\\\\frac{dr}{dt}+r=K\\\\delta$$\n\n其中：\n- δ：舵角（rudder angle）。\n- r：艏向角速度／轉首率（rate of turn）。\n- K：操縱增益（gain），反映單位舵角所產生的穩態轉首率。\n- T：時間常數（time constant），反映轉首率建立的遲滯程度。\n\n當舵角突然由0變成固定δ₀，且初始r(0)=0時：\n\n$$r(t)=K\\\\delta_0\\\\left(1-e^{-t/T}\\\\right)$$\n\n穩態時：\n\n$$r(\\\\infty)=K\\\\delta_0$$\n\n**K增大**：相同舵角可產生較大的穩態轉首率，迴轉能力較強，但若過大可能使船舶過度敏感、航向修正頻繁。**T減小**：轉首率建立較快，舵效反應迅速；T增大則反應遲緩、轉向滯後。\n\n【三、二階Nomoto模型】\n較完整模型可表示為：\n\n$$T_1T_2\\\\frac{d^2r}{dt^2}+(T_1+T_2)\\\\frac{dr}{dt}+r=K\\\\left(\\\\delta+T_3\\\\frac{d\\\\delta}{dt}\\\\right)$$\n\nT₁、T₂表示不同時間尺度的動態反應；T₃表示舵角變化率對轉首反應的影響。實際船舶參數須由操縱試驗或辨識資料求得。\n\n【四、指數消長與操船影響】\n1. K較大、T較小：轉向反應快、穩態轉首率高，適合需要快速改變航向的情境，但需避免過度轉向及艏艉掃掠。\n2. K較小、T較大：船舶轉向反應慢、轉首率較低，操船需較早下舵並預留更大水域。\n3. 航向穩定性與轉向敏捷性存在取捨：過度追求快速轉向可能降低航向保持能力；航向穩定性高的船可能需要較長時間及較大舵角才開始轉向。\n4. 載況、吃水、縱傾、船速、淺水、風流、螺槳及舵型都會改變K、T等操縱指數。\n\n【五、圖解說明】\n舵角突然固定後，轉首率由零逐漸上升至穩態值Kδ₀；T越小，曲線越快接近穩態；K越大，最終穩態值越高。作圖時橫軸為時間t，縱軸為轉首率r，畫出小T與大T兩條上升曲線，以及不同K的不同穩態終值。\n\n【結論】\n操縱性指數K代表轉向增益，T代表反應時間尺度。K大使轉向能力增強，T小使反應更快；兩者與航向穩定性、操船水域及安全裕度必須綜合評估。",
+    "practicalAnalysis": "本題15分，應寫出一階Nomoto方程式及舵角階躍後的指數響應，再解釋K、T的物理意義。若能補充二階模型T1、T2、T3，並說明船速、吃水、載況及淺水會改變操縱係數，答案更完整。",
+    "keyPoints": [
+      {
+        "point": "操縱性是船舶對舵、主機及外力輸入的運動反應。",
+        "importance": "essential"
+      },
+      {
+        "point": "一階Nomoto：T dr/dt+r=Kδ。",
+        "importance": "essential"
+      },
+      {
+        "point": "舵角階躍後r(t)=Kδ₀(1−e^(−t/T))。",
+        "importance": "essential"
+      },
+      {
+        "point": "K為轉向增益，K大則穩態轉首率大。",
+        "importance": "supporting"
+      },
+      {
+        "point": "T為時間常數，T小則轉首反應快。",
+        "importance": "supporting"
+      },
+      {
+        "point": "二階模型可包含T1、T2、T3，並需由操縱試驗辨識。",
+        "importance": "supporting"
+      },
+      {
+        "point": "載況、船速、淺水、風流及舵型影響操縱指數。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "Ship Manoeuvring and Control",
+        "sourceType": "textbook_or_academic",
+        "issuer": "T. I. Fossen／船舶操縱控制理論參考資料",
+        "url": "https://www.fossen.biz/wiley/Ship%20Manoeuvring%20and%20Control.pdf",
+        "supports": "Nomoto操縱模型、船舶操縱性及控制參數。"
+      },
+      {
+        "title": "The Shiphandler's Guide",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "迴轉圈、拖船協助、側推器及靠離泊操船原理。"
+      },
+      {
+        "title": "Ship Manoeuvrability—IMO Resolution A.751(18)",
+        "sourceType": "imo_resolution",
+        "issuer": "IMO",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.751(18).pdf",
+        "supports": "迴轉性能及操縱性評估背景。"
+      }
+    ],
+    "assumptions": [
+      "以船舶操縱及流體力學原理作答；題目未提供的船型係數、推進器效率及港區環境不自行假設。"
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部90年船舶操縱題目",
+          "result": "pass",
+          "note": "已核對題庫原文及數值。"
+        },
+        {
+          "item": "公式及操船原理",
+          "result": "pass",
+          "note": "依船舶操縱學及流體力學基本原理整理。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "090-shiphandling-04-answer-v1",
+    "questionId": "090-shiphandling-04",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、影響迴轉圈大小的因素】\n1. 船舶尺度與船型：船長、船寬、吃水、方形係數、船體線型及水下側面積。\n2. 船速：初始速度愈高，通常進距及迴轉圈尺度愈大；實際變化依船型及舵效而異。\n3. 舵角與舵效：舵角、舵面積、舵型、舵機反應及舵前來流速度。\n4. 推進器與主機：螺槳旋向、單／雙螺槳、主機功率、推進器尾流及倒俥性能。\n5. 載況：滿載／空載、吃水、縱傾及重心／慣性矩。\n6. 水域條件：水深、航道寬度、岸壁效應、底質、潮流及風。\n7. 操船方式：下舵時機、舵角保持時間、是否減速、拖船或側推器協助。\n\n【二、計算】\n已知：\n- 180°迴轉時間t=2分40秒=160秒。\n- 最大橫距D=450m。\n\n若題目所稱最大橫距為180°轉向後的橫向位移（即近似戰術直徑／半圓直徑），則半徑：\n\n$$R=\\\\frac{450}{2}=225\\\\;m$$\n\n180°半圓弧長：\n\n$$S=\\\\pi R=\\\\pi\\\\times225=706.86\\\\;m$$\n\n平均速度：\n\n$$V=\\\\frac{S}{t}=\\\\frac{706.86}{160}=4.418\\\\;m/s$$\n\n換算節：\n\n$$V=4.418\\\\times1.94384=8.59\\\\;kn$$\n\n因此，依「450m為180°轉向後橫向位移」的解讀，迴轉平均船速約 **8.6 kn**。\n\n【三、計算假設及提醒】\n若題目中的450m其實指半徑而非直徑，計算結果會不同；應以題目圖示或「最大橫距」的定義判斷。實際船舶迴轉圈不是完美圓形， advance、transfer、tactical diameter及steady turning diameter不同，故此題依半圓近似求平均速度，不代表操縱試驗精確速度。",
+    "practicalAnalysis": "本題15分，先列影響因素，再計算。關鍵是把「最大橫距450m」視為180°後橫向位移，近似迴轉直徑，半徑225m；半圓距離πR，除以160秒得4.418m/s，即8.59kn。若原題附圖對450m另有定義，須依圖修正。",
+    "keyPoints": [
+      {
+        "point": "影響因素包括船型尺度、初速、舵角、推進器、載況、水深、風流及岸壁。",
+        "importance": "essential"
+      },
+      {
+        "point": "將450m視為180°後橫向位移，半徑225m。",
+        "importance": "essential"
+      },
+      {
+        "point": "半圓弧長π×225=706.86m。",
+        "importance": "essential"
+      },
+      {
+        "point": "平均速度706.86/160=4.418m/s=8.59kn。",
+        "importance": "supporting"
+      },
+      {
+        "point": "明確說明半圓近似及橫距定義假設。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "Ship Manoeuvring and Control",
+        "sourceType": "textbook_or_academic",
+        "issuer": "T. I. Fossen／船舶操縱控制理論參考資料",
+        "url": "https://www.fossen.biz/wiley/Ship%20Manoeuvring%20and%20Control.pdf",
+        "supports": "Nomoto操縱模型、船舶操縱性及控制參數。"
+      },
+      {
+        "title": "The Shiphandler's Guide",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "迴轉圈、拖船協助、側推器及靠離泊操船原理。"
+      },
+      {
+        "title": "Ship Manoeuvrability—IMO Resolution A.751(18)",
+        "sourceType": "imo_resolution",
+        "issuer": "IMO",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.751(18).pdf",
+        "supports": "迴轉性能及操縱性評估背景。"
+      }
+    ],
+    "assumptions": [
+      "以船舶操縱及流體力學原理作答；題目未提供的船型係數、推進器效率及港區環境不自行假設。"
+    ],
+    "limitations": [
+      "題目未提供迴轉軌跡圖，450m是否為直徑／橫向位移仍須依原卷圖示確認。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部90年船舶操縱題目",
+          "result": "pass",
+          "note": "已核對題庫原文及數值。"
+        },
+        {
+          "item": "公式及操船原理",
+          "result": "pass",
+          "note": "依船舶操縱學及流體力學基本原理整理。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "090-shiphandling-05-answer-v1",
+    "questionId": "090-shiphandling-05",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、船艏側推器功率計算】\n已知電流I=1,500A，電壓V=440V。若依題目簡化假設將V×I視為有效電功率：\n\n$$P=VI=440\\\\times1500=660,000\\\\;W=660\\\\;kW$$\n\n換算機械馬力（1 hp=0.746 kW）：\n\n$$HP=\\\\frac{660}{0.746}=884.7\\\\;hp$$\n\n約 **885 hp**。\n\n注意：若側推器為三相交流馬達，實際有功輸入功率應為√3×V×I×功率因數；軸輸出功率還須扣除馬達及傳動效率。題目未提供相數、功率因數及效率，因此考試計算依簡化P=VI處理，並註明假設。\n\n【二、吹開風五級下靠泊】\n吹開風表示風由岸吹向外海，船舶會被推離碼頭。15,000 GT貨櫃船上層貨櫃受風面積大，靠泊時要同時控制艏、艉橫移，且側推器只作用於船艏，不能單獨控制整艘船。\n\n1. **靠泊前評估**：確認船長、船寬、吃水、貨櫃堆疊、風速陣風、潮流、泊位水深、護舷及拖船實際bollard pull；側推器及主機舵機先測試。\n2. **拖船配置**：3,200 hp拖船應依風向、泊位方向及船舶操縱特性配置於能有效控制船艉或主要受風端的位置；以拖纜拉帶或推頂方式抵抗離岸風。馬力不等於bollard pull，須確認拖船實際拖力。\n3. **船艏側推器**：在低速、隧道充分浸水及額定工作週期內，以短時、漸進推力將船艏推向碼頭，配合主機及舵控制船艏角度。\n4. **保持最低有效舵速**：不可過早將船速降至完全失去舵效；保持可控的低速，利用舵及主機微調船艏，拖船控制船艉及橫移。\n5. **控制靠泊角與橫向速度**：以小接近角、平行方式接近碼頭，先控制縱向速度，再將橫向速度降至極低；避免船艏先撞碼頭、船艉仍被風推離。\n6. **繫纜**：先建立控制纜，迅速但有序帶妥艏艉纜及倒纜，監控風力及纜繩受力；不得以纜繩強拉船體撞靠。\n7. **中止條件**：若拖船無法抵抗離岸風、側推器過熱或推力不足、船位偏移超出安全範圍，應停止靠泊並重新定位或增派拖船。\n\n【結論】\n依題目簡化算法側推器功率約885 hp。吹開風五級時，以3,200 hp拖船控制船艉／主要風壓端，側推器控制船艏，主機及舵維持低速舵效，並以低橫向速度平行靠泊；拖船能力以實際bollard pull評估。",
+    "practicalAnalysis": "本題20分，計算部分依P=VI得660kW、約885hp，但必須註明三相AC馬達還需功率因數與效率。操船部分要分工：艏側推器控制船艏，拖船控制船艉或主要風壓端，主機舵保持舵效，避免把側推器當成唯一控制來源。",
+    "keyPoints": [
+      {
+        "point": "P=VI=660kW，簡化換算約885hp。",
+        "importance": "essential"
+      },
+      {
+        "point": "三相AC實際功率需考慮√3、功率因數及效率。",
+        "importance": "essential"
+      },
+      {
+        "point": "吹開風使船舶離岸漂移，貨櫃船受風面積大。",
+        "importance": "essential"
+      },
+      {
+        "point": "側推器控制船艏，拖船控制船艉／主要受風端。",
+        "importance": "supporting"
+      },
+      {
+        "point": "保持低速舵效、低橫向速度及平行接近。",
+        "importance": "supporting"
+      },
+      {
+        "point": "拖船馬力不等於bollard pull，能力不足時中止或增派。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "Ship Manoeuvring and Control",
+        "sourceType": "textbook_or_academic",
+        "issuer": "T. I. Fossen／船舶操縱控制理論參考資料",
+        "url": "https://www.fossen.biz/wiley/Ship%20Manoeuvring%20and%20Control.pdf",
+        "supports": "Nomoto操縱模型、船舶操縱性及控制參數。"
+      },
+      {
+        "title": "The Shiphandler's Guide",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "迴轉圈、拖船協助、側推器及靠離泊操船原理。"
+      },
+      {
+        "title": "Ship Manoeuvrability—IMO Resolution A.751(18)",
+        "sourceType": "imo_resolution",
+        "issuer": "IMO",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.751(18).pdf",
+        "supports": "迴轉性能及操縱性評估背景。"
+      }
+    ],
+    "assumptions": [
+      "以船舶操縱及流體力學原理作答；題目未提供的船型係數、推進器效率及港區環境不自行假設。"
+    ],
+    "limitations": [
+      "題目未說明側推器電源為單相／三相AC或DC，未給功率因數與效率；885hp為題目簡化P=VI的理論值。",
+      "未提供拖船bollard pull、船舶風壓面積及碼頭方位，不指定固定拖點及車舵時序。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部90年船舶操縱題目",
+          "result": "pass",
+          "note": "已核對題庫原文及數值。"
+        },
+        {
+          "item": "公式及操船原理",
+          "result": "pass",
+          "note": "依船舶操縱學及流體力學基本原理整理。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  },
+  {
+    "id": "090-shiphandling-06-answer-v1",
+    "questionId": "090-shiphandling-06",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "【一、已知條件】\n錨在水中重量Wa=5 tons；錨鏈水中單位重量wc=0.1 ton/m；放錨6節，每節27.5m；總鏈長：\n\n$$L=6\\\\times27.5=165\\\\;m$$\n\n船體水平風壓F=40 tons；錨及錨鏈繫留係數分別為6及2。\n\n【二、錨的繫留力】\n$$H_a=5\\\\times6=30\\\\;tons$$\n\n【三、錨鏈重量及繫留力】\n$$W_c=165\\\\times0.1=16.5\\\\;tons$$\n\n$$H_c=16.5\\\\times2=33\\\\;tons$$\n\n【四、總繫留力】\n$$H=H_a+H_c=30+33=63\\\\;tons$$\n\n與風壓比較：\n\n$$63\\\\;tons>40\\\\;tons$$\n\n安全餘裕：\n\n$$63-40=23\\\\;tons$$\n\n因此依題目指定的簡化繫留係數，總繫留力63 tons大於風壓40 tons，判斷為**可安全停泊**。\n\n【五、Bell Mouth與垂直距離】\nBell Mouth至海底垂直距離21m，總鏈長165m。此條件說明錨鏈有足夠長度形成懸鏈線並在海床上提供鏈重摩擦／拖曳阻力；若作幾何直線近似，水平投影為：\n\n$$X=\\\\sqrt{165^2-21^2}=163.66\\\\;m$$\n\n實際錨鏈為懸鏈線，並非完全直線；題目已提供錨及鏈的繫留係數，故依指定簡化算法計算，不另加入未提供的海床摩擦係數或動態風壓。\n\n【六、實務限制】\n實際錨泊安全還受底質、錨爪抓力、鏈長與水深比、風向變化、流、浪、船舶受風面積、錨鏈磨耗及拖錨風險影響。題目明示不計其他外力，因此本題只按係數比較；實務上仍須監控船位、錨鏈方向、GPS錨泊警報及周邊船舶距離。",
+    "practicalAnalysis": "本題20分，依題目給定的錨及錨鏈繫留係數計算：錨30t，鏈重16.5t、鏈繫留力33t，總計63t，大於風壓40t，故簡化條件下安全。21m垂直距離可用來說明鏈條形成懸鏈線及水平投影，但不可把直線幾何投影誤當實際鏈形。",
+    "keyPoints": [
+      {
+        "point": "六節鏈總長165m。",
+        "importance": "essential"
+      },
+      {
+        "point": "錨繫留力5×6=30t。",
+        "importance": "essential"
+      },
+      {
+        "point": "鏈重165×0.1=16.5t，鏈繫留力16.5×2=33t。",
+        "importance": "essential"
+      },
+      {
+        "point": "總繫留力63t，大於風壓40t，簡化條件下可安全停泊。",
+        "importance": "supporting"
+      },
+      {
+        "point": "安全餘裕23t；實務仍需考慮底質、流、浪、風向及拖錨監控。",
+        "importance": "supporting"
+      }
+    ],
+    "references": [
+      {
+        "title": "Ship Manoeuvring and Control",
+        "sourceType": "textbook_or_academic",
+        "issuer": "T. I. Fossen／船舶操縱控制理論參考資料",
+        "url": "https://www.fossen.biz/wiley/Ship%20Manoeuvring%20and%20Control.pdf",
+        "supports": "Nomoto操縱模型、船舶操縱性及控制參數。"
+      },
+      {
+        "title": "The Shiphandler's Guide",
+        "sourceType": "textbook_or_academic",
+        "issuer": "R.W. Rowe, The Nautical Institute",
+        "url": "https://maritimesafetyinnovationlab.org/wp-content/uploads/2021/02/THE-SHIPHANDLERS-GUIDE-Rowe.pdf",
+        "supports": "迴轉圈、拖船協助、側推器及靠離泊操船原理。"
+      },
+      {
+        "title": "Ship Manoeuvrability—IMO Resolution A.751(18)",
+        "sourceType": "imo_resolution",
+        "issuer": "IMO",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.751(18).pdf",
+        "supports": "迴轉性能及操縱性評估背景。"
+      }
+    ],
+    "assumptions": [
+      "以船舶操縱及流體力學原理作答；題目未提供的船型係數、推進器效率及港區環境不自行假設。"
+    ],
+    "limitations": [
+      "依題目給定的整段鏈重及繫留係數計算；若原題或教材定義僅計算海床接觸鏈長，需依該公式調整。",
+      "懸鏈線實際形狀需鏈重、張力及海床接觸長度資料，題目未提供。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "考選部90年船舶操縱題目",
+          "result": "pass",
+          "note": "已核對題庫原文及數值。"
+        },
+        {
+          "item": "公式及操船原理",
+          "result": "pass",
+          "note": "依船舶操縱學及流體力學基本原理整理。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
