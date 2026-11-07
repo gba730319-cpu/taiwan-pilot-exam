@@ -1,0 +1,70 @@
+[
+  {
+    "id": "answer-112-english-01",
+    "questionId": "112-english-01",
+    "version": 1,
+    "language": "en",
+    "answerType": "essay",
+    "modelAnswer": "Legally, even when a pilot is on board, the master remains fully responsible for the safe navigation of the vessel. If the master has clear grounds to believe that the pilot may endanger the safety of navigation, the master may relieve the pilot of his or her duties and request that another pilot be embarked. In all circumstances, while on board and performing pilotage duties, the pilot remains under the authority of the master, but is at all times outside the ship's chain of command. The pilot remains on board as an important and indispensable member of the bridge team.",
+    "practicalAnalysis": "Translation notes:\n1. 「依法而言」可譯為Legally或As a matter of law。\n2. 「船長對其船舶之安全航行負完全責任」譯為the master remains fully responsible for the safe navigation of the vessel，保留責任主體為master。\n3. 「有明確的理由認為」譯為has clear grounds to believe；「解除引水人的職責」譯為relieve the pilot of his or her duties。\n4. 「要求另一名引水人登船」譯為request that another pilot be embarked。\n5. 「處於船長的權力之下」譯為under the authority of the master；「船舶指揮鏈之外」譯為outside the ship's chain of command。\n6. 「重要且不可或缺的駕駛臺團隊一員」譯為an important and indispensable member of the bridge team。\n\nLegal nuance: The pilot's presence does not relieve the master or the officer in charge of the navigational watch of their duties. The phrase 'outside the chain of command' describes the pilot's professional advisory/pilotage role and does not mean the pilot is independent of the master's overall authority.",
+    "keyPoints": [
+      {
+        "point": "The master remains fully responsible for the safe navigation of the vessel.",
+        "importance": "essential"
+      },
+      {
+        "point": "The master may relieve a pilot where there are clear grounds to believe the pilot may endanger navigational safety, and request another pilot.",
+        "importance": "essential"
+      },
+      {
+        "point": "The pilot is under the master's authority while remaining outside the ship's chain of command.",
+        "importance": "essential"
+      },
+      {
+        "point": "The pilot is an important member of the bridge team; the pilot's presence does not remove the master's and OOW's responsibilities.",
+        "importance": "essential"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "note": "Official item-by-item marking scheme not obtained; suggested structure only."
+    },
+    "references": [
+      {
+        "title": "IMO Resolution A.960(23) — Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "supports": "Annex 2, duties of master, bridge officers and pilot; pilot presence does not relieve master or OOW of duties."
+      },
+      {
+        "title": "IMO Pilotage",
+        "sourceType": "official_guidance",
+        "issuer": "International Maritime Organization",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/pilotage.aspx",
+        "supports": "Pilotage role, training and coordination with the bridge team."
+      }
+    ],
+    "assumptions": [],
+    "limitations": [
+      "The English rendering is a faithful translation of the supplied Chinese question text; legal interpretation should be read with the applicable national pilotage law and IMO A.960(23)."
+    ],
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "Original question",
+          "result": "pass",
+          "note": "Checked against the 112 examination question bank."
+        },
+        {
+          "item": "English terminology",
+          "result": "pass",
+          "note": "Cross-checked with IMO SMCP and standard maritime usage."
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
