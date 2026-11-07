@@ -17,35 +17,44 @@
     ],
     "references": [
       {
-        "title": "IHO S-52 Colours & Symbols and Presentation Library",
+        "title": "IHO S-57 ENC Portrayal / S-52 Presentation Library",
         "sourceType": "international_standard",
         "issuer": "International Hydrographic Organization",
-        "url": "https://www.iho-ohi.net/english/about-encs/enc-portrayal/enc-presentation.html",
-        "supports": "ECDIS物標符號化、顏色及S-52 Presentation Library之權威依據。"
+        "url": "https://iho.int/en/s-57-enc-portrayal",
+        "supports": "IHO官方說明S-52負責ENC於ECDIS之符號與色彩顯示，Presentation Library包含符號庫、線型、填色及符號化規則；ECDIS Chart 1為圖形索引。"
       },
       {
         "title": "IHO S-52 Portrayal Bulletins",
         "sourceType": "international_standard",
         "issuer": "International Hydrographic Organization",
-        "url": "https://www.iho-ohi.net/english/about-encs/enc-portrayal/s-52-portrayal-bulletins.html",
-        "supports": "S-52物標符號及沈船符號條件顯示之更新資訊。"
+        "url": "https://iho.int/s-52-portrayal-bulletins",
+        "supports": "查閱S-52符號呈現及ENC編碼相關公告，確認圖式更新與特殊顯示情形。"
+      },
+      {
+        "title": "IHO Standards in Force",
+        "sourceType": "official_standard_register",
+        "issuer": "International Hydrographic Organization",
+        "url": "https://iho.int/standards-in-force",
+        "supports": "確認ECDIS適用之S-52及Presentation Library版本狀態。"
       }
     ],
     "limitations": [
-      "目前資料僅核實IHO S-52標準及官方圖例來源，尚未取得本題指定版本的完整Chart 1圖像逐項比對；因此本答案不以文字仿畫冒充精確符號。網站正式答案應補上可辨識的標準符號圖版，供考生直接臨摹。"
+      "目前已核實IHO官方標準架構與圖例來源，但尚未取得本題指定版本的完整Chart 1圖像逐項比對；因此本答案不以文字仿畫冒充精確符號。",
+      "S-52符號化可能包含條件式符號程序，且部分物標不一定有獨立畫面符號，必要時須以ECDIS游標查詢物標屬性；正式圖示仍須依題目指定版本及實際ECDIS圖例核對。"
     ],
     "verification": {
       "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
-          "item": "IHO S-52標準與圖例來源",
-          "result": "pass"
+          "item": "IHO S-52標準架構及官方圖例來源",
+          "result": "pass",
+          "note": "已核對IHO官方S-57 ENC Portrayal、S-52 Portrayal Bulletins及Standards in Force頁面。"
         },
         {
           "item": "五個物標的逐項標準符號圖形",
           "result": "needs_review",
-          "note": "須逐圖核對官方ECDIS Chart 1／Presentation Library後才能確認線條細節。"
+          "note": "尚待取得指定版ECDIS Chart 1／Presentation Library圖像逐項核對，未將文字描述冒充標準圖形。"
         }
       ]
     },
