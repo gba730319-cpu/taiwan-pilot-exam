@@ -1,6 +1,6 @@
 [
   {
-    "id": "102-pilot-law-01-answer-v2",
+    "id": "102-pilot-law-01",
     "questionId": "102-pilot-law-01",
     "version": 2,
     "language": "zh-TW",
@@ -10,19 +10,23 @@
     "keyPoints": [
       {
         "point": "積極資格",
-        "explanation": "國籍、考試及格、完成三個月學習引水、取得執業證書及區域登記、體格合格。"
+        "explanation": "國籍、考試及格、完成三個月學習引水、取得執業證書及區域登記、體格合格。",
+        "importance": "essential"
       },
       {
         "point": "消極資格",
-        "explanation": "喪失國籍、停止執業期間未滿或執照廢止、視聽體格不適任、逾65歲、徒刑三年以上確定。"
+        "explanation": "喪失國籍、停止執業期間未滿或執照廢止、視聽體格不適任、逾65歲、徒刑三年以上確定。",
+        "importance": "essential"
       },
       {
         "point": "甲種引水人噸位限制",
-        "explanation": "初取得證書原則領航未滿15,000GT；服務滿二年且未受停止執業處分後得領航更大型船舶，或經核准例外。"
+        "explanation": "初取得證書原則領航未滿15,000GT；服務滿二年且未受停止執業處分後得領航更大型船舶，或經核准例外。",
+        "importance": "essential"
       },
       {
         "point": "現行持續執業要求",
-        "explanation": "每日執勤前酒測0.00、每年至少8小時在職訓練及測驗合格；與基本資格分開作答。"
+        "explanation": "每日執勤前酒測0.00、每年至少8小時在職訓練及測驗合格；與基本資格分開作答。",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -93,13 +97,10 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "航政法規",
-    "questionNo": 1
+    "lastUpdated": "2026-11-07"
   },
   {
-    "id": "102-pilot-law-02-answer-v2",
+    "id": "102-pilot-law-02",
     "questionId": "102-pilot-law-02",
     "version": 2,
     "language": "zh-TW",
@@ -109,19 +110,23 @@
     "keyPoints": [
       {
         "point": "設置及監督",
-        "explanation": "每個引水區域由引水人共同設置，規約報航政機關核定，並受監督。"
+        "explanation": "每個引水區域由引水人共同設置，規約報航政機關核定，並受監督。",
+        "importance": "essential"
       },
       {
         "point": "法定功能",
-        "explanation": "招請領航、輪值簿及排班、航區形勢圖與潮汐資料、引水船與無線電、設備經費。"
+        "explanation": "招請領航、輪值簿及排班、航區形勢圖與潮汐資料、引水船與無線電、設備經費。",
+        "importance": "essential"
       },
       {
         "point": "設置必要性",
-        "explanation": "全天候服務、公平派遣、專業資訊共享、事故應變協調、可追溯及可監督。"
+        "explanation": "全天候服務、公平派遣、專業資訊共享、事故應變協調、可追溯及可監督。",
+        "importance": "essential"
       },
       {
         "point": "權責界線",
-        "explanation": "辦事處是共同服務平台，不取代交通部、航港局或地方航政機關的公權力。"
+        "explanation": "辦事處是共同服務平台，不取代交通部、航港局或地方航政機關的公權力。",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -184,13 +189,10 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "航政法規",
-    "questionNo": 2
+    "lastUpdated": "2026-11-07"
   },
   {
-    "id": "102-pilot-law-03-answer-v2",
+    "id": "102-pilot-law-03",
     "questionId": "102-pilot-law-03",
     "version": 2,
     "language": "zh-TW",
@@ -200,23 +202,28 @@
     "keyPoints": [
       {
         "point": "法律依據與執行機關",
-        "explanation": "商港法第58至60、75條；航港局執行。"
+        "explanation": "商港法第58至60、75條；航港局執行。",
+        "importance": "essential"
       },
       {
         "point": "檢查對象",
-        "explanation": "進出商港之外國商船，依風險資訊及適航性疑慮選船。"
+        "explanation": "進出商港之外國商船，依風險資訊及適航性疑慮選船。",
+        "importance": "essential"
       },
       {
         "point": "檢查標準",
-        "explanation": "SOLAS、MARPOL、STCW、Load Lines、Tonnage、MLC、ISM、ISPS、COLREG、AFS等適用規範。"
+        "explanation": "SOLAS、MARPOL、STCW、Load Lines、Tonnage、MLC、ISM、ISPS、COLREG、AFS等適用規範。",
+        "importance": "essential"
       },
       {
         "point": "缺失處理",
-        "explanation": "紀錄、船長簽認、限期改善、複檢；嚴重缺失得留置。"
+        "explanation": "紀錄、船長簽認、限期改善、複檢；嚴重缺失得留置。",
+        "importance": "essential"
       },
       {
         "point": "特殊准航例外",
-        "explanation": "缺乏修繕資源或留置影響公共利益時，須符合第60條證明及航港局同意條件。"
+        "explanation": "缺乏修繕資源或留置影響公共利益時，須符合第60條證明及航港局同意條件。",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -262,7 +269,7 @@
       "Tokyo MOU及IMO PSC程序會持續修訂；本題為2013年歷史考題，引用A.1052(27) 2011版，不以現行2025程序倒套。"
     ],
     "verification": {
-      "status": "verified_with_scope",
+      "status": "partially_verified",
       "checkedAt": "2026-11-07",
       "checks": [
         {
@@ -282,18 +289,15 @@
         },
         {
           "item": "作業程序版本",
-          "result": "verified_with_scope",
-          "note": "引用航港局2022年公開程序文件；若有更新版，後續應改以最新版為準。"
+          "result": "pass",
+          "note": "限定適用範圍：引用航港局2022年公開程序文件；若有更新版，後續應改以最新版為準。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "航政法規",
-    "questionNo": 3
+    "lastUpdated": "2026-11-07"
   },
   {
-    "id": "102-pilot-law-04-answer-v2",
+    "id": "102-pilot-law-04",
     "questionId": "102-pilot-law-04",
     "version": 2,
     "language": "zh-TW",
@@ -303,23 +307,28 @@
     "keyPoints": [
       {
         "point": "主管機關及國際商港權責",
-        "explanation": "交通部主管；國際商港由商港經營事業機構經營管理，涉及公權力部分由航港局辦理。"
+        "explanation": "交通部主管；國際商港由商港經營事業機構經營管理，涉及公權力部分由航港局辦理。",
+        "importance": "essential"
       },
       {
         "point": "港區治安與消防",
-        "explanation": "港務警察負責治安秩序，港務消防機關或委辦地方政府負責消防。"
+        "explanation": "港務警察負責治安秩序，港務消防機關或委辦地方政府負責消防。",
+        "importance": "essential"
       },
       {
         "point": "港口設施保全",
-        "explanation": "商港法第42、43條，保全評估、計畫核定、查核、測試及改善。"
+        "explanation": "商港法第42、43條，保全評估、計畫核定、查核、測試及改善。",
+        "importance": "essential"
       },
       {
         "point": "入出港、門禁及危險物品",
-        "explanation": "查核船舶入出港、通行證、登輪檢查、危險物品督導及事故應變。"
+        "explanation": "查核船舶入出港、通行證、登輪檢查、危險物品督導及事故應變。",
+        "importance": "essential"
       },
       {
         "point": "權責區分",
-        "explanation": "航港局行使公權力，港務公司負責設施營運與日常管理，警察及消防各司其職。"
+        "explanation": "航港局行使公權力，港務公司負責設施營運與日常管理，警察及消防各司其職。",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -398,13 +407,10 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "航政法規",
-    "questionNo": 4
+    "lastUpdated": "2026-11-07"
   },
   {
-    "id": "102-pilot-law-05-answer-v2",
+    "id": "102-pilot-law-05",
     "questionId": "102-pilot-law-05",
     "version": 2,
     "language": "zh-TW",
@@ -414,23 +420,28 @@
     "keyPoints": [
       {
         "point": "Rule 5至8",
-        "explanation": "瞭望、安全速度、碰撞危險判斷及及早有效避碰。"
+        "explanation": "瞭望、安全速度、碰撞危險判斷及及早有效避碰。",
+        "importance": "essential"
       },
       {
         "point": "Rule 19",
-        "explanation": "雷達單獨偵測、避免特定方向轉向、聽到前方霧號時減速至最低可維持航向速度，必要時take all way off。"
+        "explanation": "雷達單獨偵測、避免特定方向轉向、聽到前方霧號時減速至最低可維持航向速度，必要時take all way off。",
+        "importance": "essential"
       },
       {
         "point": "Rule 35霧號",
-        "explanation": "making way一長；underway stopped二長；NUC/RAM/CBD等一長二短；有人被拖船一長三短；錨泊與擱淺另有鐘鑼信號。"
+        "explanation": "making way一長；underway stopped二長；NUC/RAM/CBD等一長二短；有人被拖船一長三短；錨泊與擱淺另有鐘鑼信號。",
+        "importance": "essential"
       },
       {
         "point": "設備與團隊",
-        "explanation": "雷達／ARPA連續標繪、ECDIS及GNSS交叉監控，AIS與VHF僅作輔助。"
+        "explanation": "雷達／ARPA連續標繪、ECDIS及GNSS交叉監控，AIS與VHF僅作輔助。",
+        "importance": "essential"
       },
       {
         "point": "港區應變",
-        "explanation": "遵守VTS及地方能見度限制，必要時減速、等待或暫停進出港。"
+        "explanation": "遵守VTS及地方能見度限制，必要時減速、等待或暫停進出港。",
+        "importance": "essential"
       }
     ],
     "references": [
@@ -501,9 +512,6 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07",
-    "year": 2013,
-    "subject": "航政法規",
-    "questionNo": 5
+    "lastUpdated": "2026-11-07"
   }
 ]
