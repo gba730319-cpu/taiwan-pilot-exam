@@ -181,3 +181,12 @@
 - 航港局官方「引水人監理作業」頁面列示引水法、管理規則、領航程序注意事項、各港引水費率、引航作業注意事項、標準作業程序、勤前自檢表、酒測紀錄表及標準引航計畫卡；目前未見全國統一船方—引水人通用契約全文。
 - 因此答案已修正為：以題目所稱通用契約進行一般契約法理分析，但未取得具體正式條款前，不臆測免責、責任上限、保險及索賠期限。相關契約全文子項維持 needs_review。
 - 官方來源：《引水人管理規則》https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0070029；行政院公報113年12月18日修正令 https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg030237/ch06/type1/gov50/num11/Eg.pdf；航港局監理作業資料清單 https://www.motcmpb.gov.tw/Article?NodeId=498&SiteId=1
+
+
+### 114 年引港學第 2 題：溫帶氣旋與熱帶氣旋比較追加複核（2026-11-07）
+- 依NOAA/AOML及NHC官方資料補強兩者能量來源、暖心／冷心、鋒面、風場對稱性及溫帶化差異。
+- 更精確區分：溫帶氣旋主要由水平溫度梯度及斜壓不穩定供能，潛熱回饋仍可能增強；熱帶氣旋由暖海洋供應熱量，透過蒸發、深厚對流及凝結潛熱維持暖心環流。
+- 補入熱帶氣旋近地面最強風通常靠近眼牆；溫帶氣旋風雨分布較不對稱，鋒面及廣大風場影響範圍可很大。
+- 航海應用補入危險半圓：北半球一般位於氣旋移動方向右側，南半球左右相反；屬風場疊加的一般規則，實際避航須依當時風場、海況、預報誤差及船舶操縱性能判斷。
+- 補充溫帶化是部分熱帶氣旋進入中緯度斜壓環境後可能發生的轉化，並非所有登陸或移入冷水的熱帶氣旋都必然溫帶化。
+- 官方來源：NOAA/AOML https://www.aoml.noaa.gov/hrd/tcfaq/G1.html；NOAA/NHC https://www.nhc.noaa.gov/aboutgloss.shtml；NOAA Mariners Guide https://www.nhc.noaa.gov/marinersguide.pdf；NOAA U.S. Coast Pilot https://nauticalcharts.noaa.gov/publications/coast-pilot/files/cp5/CPB5_C03_WEB.pdf
