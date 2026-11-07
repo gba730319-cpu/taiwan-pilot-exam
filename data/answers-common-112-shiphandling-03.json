@@ -1,0 +1,89 @@
+[
+  {
+    "id": "answer-112-shiphandling-03",
+    "questionId": "112-shiphandling-03",
+    "version": 1,
+    "language": "zh-TW",
+    "answerType": "essay",
+    "modelAnswer": "一、操船前評估與基本計畫\nA輪為17,000總噸散裝船，LOA 165m，單俥右旋螺旋槳、無艏艉側推，主機7,000HP，艏吃水4.5m、艉吃水6.0m；兩艘3,000HP拖船協助。港外北風20節，潮流向西南、流速2節，港內水深12m。靠左舷泊位前，應先確認泊位配置圖、進港航道、轉向水域、碼頭前水深及靠泊方向；題目未附碼頭配置圖，以下依「左舷靠泊」作原則性操船說明，實際拖船位置須依泊位方位及水域圖調整。\n（一）確認船舶操縱資料：右旋單俥在前進及倒俥時的螺槳側推（transverse thrust）方向、舵效、停船距離、迴旋圈、風壓面積、船舶載況及主機反應時間。\n（二）環境分析：北風20節對高乾舷散裝船產生顯著風壓，風向為由北向南；潮流向西南、2節，對地運動會受流壓影響。進港前需確認風流是否同向或交角、港池內流速是否減弱，以及潮流是否造成橫向漂移或艏向偏轉。\n（三）水深及Squat：港內水深12m，艉吃水6m，靜態名義UKC約6m，但仍須扣除潮位基準差、船舶下沉（squat）、縱傾變化、波浪及測深誤差；不可直接把12−6當作全程可用UKC。\n\n二、拖船配置與溝通\n（一）一艘拖船配置於艏部，另一艘於艉部，通常以拖纜方式協助控制船舶艏向與橫移；若靠泊條件及拖船性能允許，艏艉拖船應分工，一艘控制艏部位置與偏航，另一艘控制艉部橫移及艏向，避免同時施力方向不一致。\n（二）拖船位置應避開螺槳流、船艉倒俥吸流及船體突出部；拖纜角度、導纜點及拖船工作側須在作業前確認。靠泊最後階段可視現場情況改採頂推（push）方式，但須確認拖船推力作用點與船殼受力位置。\n（三）在VHF上確認呼號、工作頻道、指令用語、緊急停止口令、拖船施力方向及回報方式；引水人下達指令後，拖船應複誦並回報完成。\n\n三、進港及靠泊操船步驟\n（一）進港前：以適當安全速度接近港口，提早降低船速並確認拖船已就位；評估北風對船艏及船艉的風壓力矩，與西南流共同估算船舶漂移。保持足夠舵效但不可過速，並依港口規定與VTS通報。\n（二）進入港池：控制船位在航道中央或港口指定線，利用主機及舵保持艏向；若流向造成偏移，應預留適當流壓角，避免到轉向點才大幅修正。轉向時注意船舶迴旋支點及艉部掃掠空間。\n（三）建立靠泊態勢：在泊位外側先減速、確認船舶與碼頭平行或接近平行，並讓船舶保持足夠操縱餘裕。單俥右旋螺旋槳在低速及倒俥時可能產生明顯側推，須將其納入船艉靠近碼頭時的偏航修正，不可只靠拖船抵銷。\n（四）艏艉拖船配合：艏拖船依風流及艏向偏差施力，防止船艏向下風或流向漂移；艉拖船控制船艉與碼頭距離，並抵銷右旋單俥側推造成的艉部偏移。兩拖船須依船舶縱向運動及轉艏需求協調施力，避免一艏一艉同時產生過大反向力矩。\n（五）最後橫移：船速降至最低安全操縱速度後，以拖船逐步控制橫移，讓船身平移接近碼頭；避免以大角度斜靠，並控制橫移速度及偏航率。船艏、船艉均應監控與碼頭及相鄰船舶距離，必要時暫停施力重新評估。\n（六）繫纜：先依碼頭作業程序帶妥艏艉控制纜及倒纜／橫纜，逐步收緊並監控纜繩受力；確認船舶已穩定後才解除拖船，不得在纜繩尚未有效控制船位時提前解拖。\n\n四、風險控制與應變\n若風速、陣風或流速超出拖船可提供的有效推力，或船舶無法維持安全靠泊角及橫移速度，應停止靠泊、保持安全水域或退出重整。若主機／舵機反應異常、拖纜失效或拖船失去動力，應立即通報VTS並採取中止靠泊、拋錨或改變靠泊計畫等措施。\n\n結論：本船無側推、右旋單俥且受北風20節及西南流2節影響，應提早減速、掌握右旋單俥側推與風流漂移，兩艘3,000HP拖船分別控制艏艉偏航及橫移，最後以低速、近乎平行的態勢平移靠泊。因原題碼頭配置圖未出現在文字資料中，拖船工作舷及具體靠泊路徑須依原圖補正。",
+    "practicalAnalysis": "本題20分為情境操船題。答案應呈現「進港前評估—拖船配置—靠泊步驟—應變」完整邏輯。北風20節與西南流2節必須分開判讀方向，不可把潮流當成風；右旋單俥的側推效果須依實際前進／倒俥狀態說明。題目附圖未能在題庫文字中取得，因此不虛構碼頭方向及拖船工作舷。",
+    "keyPoints": [
+      {
+        "point": "先確認碼頭配置圖、轉向水域、泊位水深、船舶操縱資料及風流方向。",
+        "importance": "essential"
+      },
+      {
+        "point": "北風20節對高乾舷散裝船造成風壓；西南流2節造成對地漂移，需分別估算。",
+        "importance": "essential"
+      },
+      {
+        "point": "港內水深12m、艉吃水6m，靜態名義UKC約6m，仍須扣除squat、潮位及其他動態因素。",
+        "importance": "essential"
+      },
+      {
+        "point": "兩艘3,000HP拖船宜分置艏艉，分工控制偏航與橫移，避免推力方向互相抵銷或形成過大力矩。",
+        "importance": "essential"
+      },
+      {
+        "point": "掌握右旋單俥前進／倒俥側推，最後以低速、近乎平行態勢平移靠泊。",
+        "importance": "essential"
+      },
+      {
+        "point": "若風流或設備狀態超出安全控制能力，應中止靠泊並重整。",
+        "importance": "essential"
+      }
+    ],
+    "scoringGuide": {
+      "status": "editorial_estimate",
+      "note": "未取得考選部官方逐項評分細則；僅供研讀。"
+    },
+    "references": [
+      {
+        "title": "IMO Resolution A.601(15) — Provision and Display of Manoeuvring Information",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.601%2815%29.pdf",
+        "supports": "迴旋、停船及船舶操縱資料的提供與使用。"
+      },
+      {
+        "title": "IMO Resolution A.960(23)",
+        "sourceType": "IMO_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
+        "supports": "MPX、拖船配置、風流水深及特殊操船條件交換。"
+      },
+      {
+        "title": "A Guide to Good Practice on Port and Marine Facilities",
+        "sourceType": "official_port_guidance",
+        "issuer": "UK Maritime and Coastguard Agency",
+        "url": "https://www.gov.uk/government/publications/a-guide-to-good-practice-on-port-marine-operations/a-guide-to-good-practice-on-port-and-marine-facilities",
+        "supports": "港內拖船風險評估、拖船配置與作業協調。"
+      }
+    ],
+    "assumptions": [
+      "原題碼頭配置圖未在題庫文字內容中取得；依題幹「左舷靠泊」提出通用方案，未指定泊位方位及拖船實際工作舷。",
+      "題幹未提供船舶風壓面積、迴旋圈、停止距離、主機倒俥性能及拖船bollard pull，故不計算精確漂移或靠泊時間。"
+    ],
+    "limitations": [
+      "題目未提供完整原圖／個船資料者，依已知條件提出原則性操船方案，實際操作仍須以現場資料及港口程序為準。",
+      "官方逐項評分細則未取得。"
+    ],
+    "verification": {
+      "status": "partially_verified",
+      "checkedAt": "2026-11-07",
+      "checks": [
+        {
+          "item": "原題",
+          "result": "pass",
+          "note": "依112年度題庫主檔核對題目。"
+        },
+        {
+          "item": "專業依據",
+          "result": "pass",
+          "note": "依IMO／港務及船舶操縱專業資料交叉整理。"
+        }
+      ]
+    },
+    "lastUpdated": "2026-11-07"
+  }
+]
