@@ -283,25 +283,25 @@
       "幾何題明列視線距離起算點。"
     ],
     "limitations": [
-      "考選部原卷附圖A、B未匯入題目文字，無法確認拖船實際接觸點、拖纜角度及唯一軌跡。"
+      "必須補回原卷圖A、圖B，才能畫出唯一的艏艉偏轉及運動軌跡；目前只保留力矩原理說明，不臆畫圖形。"
     ],
     "verification": {
-      "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "status": "needs_review",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部83年船舶操縱原卷",
-          "result": "pass",
-          "note": "七題題文核對。"
+          "item": "推頂／拉引施力點與原卷圖示",
+          "result": "needs_review",
+          "note": "題目引用圖A、圖B，但目前題庫缺少原卷附圖，無法確認拖船接觸點、拖纜角度及力臂。"
         },
         {
-          "item": "原卷圖示及拖船性能資料",
-          "result": "partial",
-          "note": "第4題附圖及第6題拖力馬力係數待查。"
+          "item": "力矩與旋轉支點原理",
+          "result": "pass",
+          "note": "以N=F×d說明施力線是否通過旋轉支點，原理可核對。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "083-shiphandling-05-answer-v1",
@@ -444,31 +444,25 @@
       "幾何題明列視線距離起算點。"
     ],
     "limitations": [
-      "船體側投影面積以230×9 m²簡化，未計上層建築及貨櫃突出面積；若原題圖示或教材另有受風面積計算方式，應依其修正。",
-      "原題未提供拖船bollard pull與BHP換算係數；每100 HP約1 tf僅作條件式經驗估算，920 HP不是可獨立驗證的最低拖船馬力。"
+      "拖船馬力部分缺少題目指定的馬力—拖力係數或拖船bollard pull資料，故920HP僅為條件式估算，無法證明是唯一最低馬力。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "風速平方比例換算",
+          "item": "風壓力計算",
           "result": "pass",
-          "note": "2.5×(16/12)^2=4.444 kgf/m²。"
+          "note": "依題目風壓係數及風速平方關係，側投影面積2070m²，計得約9.2tf。"
         },
         {
-          "item": "簡化側投影面積及風壓力",
-          "result": "pass",
-          "note": "A=230×(18−9)=2070 m²；F約9200 kgf，即9.2 tf。"
-        },
-        {
-          "item": "拖船馬力",
-          "result": "partial",
-          "note": "920 HP取決於每100 HP約1 tf的未明示經驗係數；缺少bollard pull或題目指定換算表，不能驗證為最低值。"
+          "item": "拖船馬力換算",
+          "result": "needs_review",
+          "note": "題目未提供BHP與bollard pull換算表；920HP僅在100HP/tf經驗係數成立時可得。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "083-shiphandling-07-answer-v1",
