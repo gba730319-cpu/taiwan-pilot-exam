@@ -213,3 +213,12 @@
 - 依UK MCA MGN 379 (M+F) Amendment 1複核平行索引：只能監控是否維持預定航跡，不能表示沿航路的進度，也不能取代定期船位定位；補入GNSS天線位置可能不等於船舶中心，須確認天線偏移及感測器輸入。
 - 修正原答案中「必要時每分鐘定位」的表述，避免誤成全港固定標準；改依船速、航道寬度、定位誤差、風流及可用操船時間決定頻率。
 - 官方來源：IMO A.893(21) https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.893%2821%29.pdf；MCA MGN 379 Amendment 1 https://www.gov.uk/government/publications/mgn-379-mf-amendment-1-use-of-electronic-navigational-aids/mgn-379-mf-amendment-1-use-of-electronic-navigational-aids；IMO COLREG https://www.imo.org/en/about/conventions/pages/colreg.aspx
+
+
+### 114 年船舶操縱第 1 題：EVER GIVEN 擱淺事故調查逐項核對（2026-11-07）
+- 以PMA原始調查報告R-026-2021-DIAM（2023年7月）作主要依據，並以韓國中央海洋安全審判院／海洋水產部官方翻譯發布摘要交叉核對。
+- 根本原因明確為loss of maneuverability（船舶失去操縱能力），不是單純「風太大」。主要因素包括風速及風向變化、squat、bank suction、bank cushion及引水人使用hard helm orders而非course orders。
+- 數據修正：事故時約12節為GPS/SOG；VDR分析顯示事故前航速曾達12–13.5節SOG。PMA報告引用蘇伊士運河建議速度約8–9節／8.64節。此速度規定僅屬蘇伊士運河個案，不可泛化為各港通則。
+- PMA報告記載風向在通過期間明顯變化，船舶受風面積大；靠近左岸且航速高時，squat與bank effect加劇。引水人未依惡劣天候請求拖輪、以大幅hard port／hard starboard舵令修正、未持續核對航跡；駕駛臺溝通不足亦使團隊難以及時理解風險。
+- 報告未發現導航或機械缺陷，舵角指示器及舵機未見操作故障；答案已避免把事故歸因於未證實的機械故障。
+- 官方摘要：https://www.mof.go.kr/doc/ko/selectDoc.do?bbsSeq=10&docSeq=54655&menuSeq=971；PMA原始報告：https://marineindustrynews.co.uk/wp-content/uploads/2023/07/Final-Investigation-Report-Ever-Given-23-March-2021.pdf
