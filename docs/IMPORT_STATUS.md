@@ -1916,3 +1916,14 @@
 - **彎曲河道ROT（108-shiphandling-01）：**在「1,000m為90°圓弧中心線弧長」的假設下，半徑約636.6m；以10kn SOG計算對地航跡轉向率約27.8°/min。題目只給2kn落潮流，未給流向及船舶對水速度，故不能將此數值稱為唯一船首ROT；現有答案有清楚區分對地航跡與艏向轉向率。
 - **本批結論：**110年停止距離係數、84／89年重複拖船制動題、96年碰撞前速度與動能、92年加速模型及102年偏流幾何的現有計算未發現算術錯誤；92年拖曳角與104年大型船制動題仍受原卷圖／實船性能資料限制。未因計算重算而升級任何原有驗證狀態。
 - 下一批續核：民國85年橫流作用力、90年迴轉速度與艏推器電力換算、98年舵面積／操縱標準、100年靠泊側向制動，以及112年Flare／Overhang幾何題；須逐題取得完整答案及原卷圖示後再作定論。
+
+
+### 船舶操縱數值題核對第二批（側向附加質量、三相電力與迴轉估算）
+- **側向靠泊附加質量（100-shiphandling-01）：**現有答案使用 (C_m=1+2T/B)，以70,000t、T=12.2m、B=32.2m得 (C_m\approx1.7578)，再計算30m內由1kn減至零所需理想反向側力約55.3tf。公式形式可追溯至Vasco Costa的附加質量係數近似式；ShibataFenderTeam Design Manual將 (C_m) 明確列為水動力／附加質量係數，並將Vasco Costa (C_m=1+2D/B) 列於靠泊能量設計章節。**重要限制：**該來源的用途是靠泊碰墊能量評估；本題把等效質量套入30m內的拖船制動力計算，是理想化側向動力模型，不是設計手冊直接提供的拖船選型公式。答案已揭示恆定拖力、作用線通過重心及忽略拖纜建立時間等假設，應保留這些警語，不得把55.3tf當作實際拖船最低BP。
+- **側推器電力（090-shiphandling-05）：**現有答案以 (P=VI=660kW\approx885hp) 作題目簡化結果，並已提示三相交流電不能直接套用此式。若440V為三相線電壓、1,500A為線電流，平衡三相有功輸入功率應為 (P=\sqrt3VI\cos\phi)；若求馬達軸輸出，還須再乘馬達／傳動效率。題目未提供相數、功率因數及效率，故885hp只能保留為單相／直流或題目簡化假設下的數字，不能作為三相側推器的確定額定輸出；此題的精確電力答案維持待查核。
+- **迴轉平均船速（090-shiphandling-04）：**現有8.59kn係以450m作為180°迴轉的戰術直徑、假設路徑為半圓弧後計算。實際操縱試驗中的advance、transfer、tactical diameter與steady turning diameter是不同量，迴轉軌跡亦非完美圓形；若原卷的「最大橫距」定義或圖示不同，不能沿用8.59kn。答案已明確列出半圓近似及圖示待確認條件，故不改成無條件確定值。
+- **Froude／Squat（085-shiphandling-06）：**與上一批ITTC及ISO定義核對一致；船長Froude與水深Froude須分開，不能將「大型船在淺水不會squat」寫成通則。
+- **本批結論：**100年附加質量係數算術正確，但拖船力屬延伸的理想化模型；90年側推器電力題缺電源相數及功率因數，885hp不得當成確定三相輸出；90年迴轉平均速度依賴半圓近似。以上限制已記錄，不將答案狀態自動升級。
+- **來源：**
+  - ShibataFenderTeam, *Fender Design Manual*，附加質量係數及Vasco Costa方法：https://wpassets.porttechnology.org/wp-content/uploads/2021/02/02163600/SFT-Design-Manual-A4-English-Low-Resolution.pdf
+  - Mitsubishi Electric, *Electrical Power and Electrical Energy in Three-Phase AC Circuits*，三相有功功率 (P=\sqrt3VI\cos\phi)：https://www.mitsubishielectric.com/fa/service-support/global/e-learning/pdf/eng/FA_Equip_for_Begin_eng_PowerDistributionControlProducts.pdf
