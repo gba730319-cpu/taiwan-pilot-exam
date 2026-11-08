@@ -8,6 +8,10 @@ export const metadata: Metadata = {
   manifest: "/manifest.webmanifest",
   appleWebApp: { capable: true, statusBarStyle: "default", title: "引水人備考" },
   applicationName: "引水人備考學院",
+  icons: {
+    icon: [{ url: "/icons/pilot-192.svg", type: "image/svg+xml" }],
+    apple: [{ url: "/icons/pilot-192.svg" }],
+  },
 };
 
 export const viewport: Viewport = {
