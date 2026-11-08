@@ -475,6 +475,14 @@
         "sourceType": "official_or_technical_reference",
         "supports": "原題。",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "IACS Unified Requirement A1 Rev.8, Anchoring Equipment",
+        "sourceType": "classification_rule",
+        "issuer": "International Association of Classification Societies",
+        "editionOrEffectiveDate": "June 2023",
+        "url": "https://www.iacs.org.uk/resolutions/unified-requirements/ur-a",
+        "supports": "A1.2.1 Equipment Number完整公式及煙囪有效正投影面積S_fun定義"
       }
     ],
     "assumptions": [
@@ -488,7 +496,7 @@
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "慣性係數定義",
@@ -508,7 +516,7 @@
         {
           "item": "Equipment Number公式",
           "result": "pass",
-          "note": "依IMO及IACS列出EN=Δ^(2/3)+2Bh+0.1A。"
+          "note": "已修正為IACS UR A1 Rev.8 (2023)完整公式EN=Δ^(2/3)+2.0(hB+S_fun)+A/10，並補充S_fun及A的定義；適用版本仍依建造合約日期與船級規則判定。"
         },
         {
           "item": "艤裝數用途",
