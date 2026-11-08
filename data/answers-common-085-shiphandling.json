@@ -2,7 +2,7 @@
   {
     "id": "085-shiphandling-01-answer-v1",
     "questionId": "085-shiphandling-01",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
     "modelAnswer": "【一、定義】岸壁效應（Bank Effect）是船舶在狹窄水道或靠近岸壁航行時，船體與岸壁之間的水流受限、流速及壓力分布不對稱，造成船艏與船艉受到不同橫向力及偏航力矩的現象。典型情形是船艏受到排斥力（bow cushion），船艉受到吸引力（stern suction），使船艏偏離岸壁、船艉被吸向岸壁；實際方向仍受岸形、船位及流況影響。\n\n【二、效應最顯著的情況】\n1. 船舶距離岸壁很近，船岸間隙小。\n2. 航道狹窄、淺水或水深／吃水比小，回流空間不足。\n3. 船速較高，船體排水及回流流速增加。\n4. 船舶尺度大、吃水深、方形係數高，排水量大。\n5. 船舶平行岸壁航行，且岸壁連續、垂直或水下坡度陡。\n6. 船舶靠近航道邊坡、碼頭前沿或另一艘大型船時，類似交互作用亦可能發生。\n\n【三、操船措施】保持安全岸距及速度，避免高速貼岸；以雷達平行指標及目視監控船位，預留艏艉掃掠空間。若發生偏航，及早適當反舵並平順調整車速，避免大舵角及突然倒俥造成舵效喪失。",
@@ -40,15 +40,28 @@
         "issuer": "IMO",
         "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
         "supports": "船舶操縱性能與操縱資料。"
+      },
+      {
+        "title": "船舶引航專論",
+        "sourceType": "professional_book",
+        "issuer": "方信雄",
+        "supports": "引航實務、船舶操縱與港內領航分析。"
+      },
+      {
+        "title": "航行避碰與操船",
+        "sourceType": "professional_book",
+        "issuer": "方信雄",
+        "supports": "避碰判斷、操船理論與實務。"
       }
     ],
     "assumptions": [
-      "計算題明列BHP與RPM三次方關係、固定推力及忽略阻抗的簡化假設。"
+      "計算題明列BHP與RPM三次方關係、固定推力及忽略阻抗的簡化假設。",
+      "以未來引水人考試所需的現行航海專業知識與法規為主；民國85年原題僅作題型背景，歷史法規與現行規範分開說明。"
     ],
     "limitations": [],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "考選部85年船舶操縱原卷",
@@ -57,20 +70,20 @@
         },
         {
           "item": "船舶特定操縱資料及舊教材公式",
-          "result": "partial",
+          "result": "needs_review",
           "note": "未提供特定船舶推力曲線及原教材公式。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "085-shiphandling-02-answer-v1",
     "questionId": "085-shiphandling-02",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、拖船調頭配置方式】港內利用拖船協助大船調頭，常見配置包括：\n1. **艏拖船＋艉拖船（Bow and stern tugs）：**一艘控制船艏、一艘控制船艉，可形成較大的轉向力矩並控制艏艉掃掠；優點是控制力強、適合大型船及狹窄水域；缺點是成本高、協調複雜，拖船間須避免拖纜交叉。\n2. **單艘拖船在艏部或艉部拖帶／推頂：**利用長力臂產生偏航力矩；優點是配置簡單、成本較低；缺點是船艏艉另一端控制較弱，容易受風流或慣性影響。\n3. **拖船在船中附近側推：**推力線接近重心／旋轉中心，偏航力矩較小，可控制側移或協助定位；若要調頭，須改變作用點或配合船舶舵機產生旋轉。\n4. **拖船以拖纜牽引（Indirect／towline assist）：**拖船在船艏或船艉以拖纜牽引，利用拖纜角度及拖船運動形成轉向力矩；優點是能在一定距離外施力，缺點是拖纜受力大、回轉空間及拖船操縱要求高。\n5. **推頂式（Pushing）：**拖船頂靠船體適當位置施力；優點是近距離控制直接，缺點是需注意接觸點結構、護舷及船體局部受力。\n\n【二、配置選擇】依船舶尺度、排水量、風壓面積、風流、迴船水域、拖船bollard pull、拖點及螺槳旋向決定；拖船配置須使合力及力矩符合所需旋轉方向，同時保留緊急中止方案。",
+    "modelAnswer": "【一、拖船調頭配置方式】港內利用拖船協助大船調頭，常見配置包括：\n1. **艏拖船＋艉拖船（Bow and stern tugs）：**一艘控制船艏、一艘控制船艉，可形成較大的轉向力矩並控制艏艉掃掠；優點是控制力強、適合大型船及狹窄水域；缺點是成本高、協調複雜，拖船間須避免拖纜交叉。\n2. **單艘拖船在艏部或艉部拖帶／推頂：**利用長力臂產生偏航力矩；優點是配置簡單、成本較低；缺點是船艏艉另一端控制較弱，容易受風流或慣性影響。\n3. **拖船在船中附近側推：**推力線接近重心／旋轉中心，偏航力矩較小，可控制側移或協助定位；若要調頭，須改變作用點或配合船舶舵機產生旋轉。\n4. **拖船以拖纜牽引（Indirect／towline assist）：**拖船在船艏或船艉以拖纜牽引，利用拖纜角度及拖船運動形成轉向力矩；優點是能在一定距離外施力，缺點是拖纜受力大、回轉空間及拖船操縱要求高。\n5. **推頂式（Pushing）：**拖船頂靠船體適當位置施力；優點是近距離控制直接，缺點是需注意接觸點結構、護舷及船體局部受力。\n\n【二、配置選擇】依船舶尺度、排水量、風壓面積、風流、迴船水域、拖船bollard pull、拖點及螺槳旋向決定；拖船配置須使合力及力矩符合所需旋轉方向，同時保留緊急中止方案。\n\n【待查核】拖船實際位置及拖纜配置須依港區作業規定、船舶結構及拖船能力決定。",
     "practicalAnalysis": "本題10分，應比較艏艉雙拖船、單拖船、船中側推及拖纜牽引／推頂配置的控制能力與限制。",
     "keyPoints": [
       {
@@ -105,17 +118,30 @@
         "issuer": "IMO",
         "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
         "supports": "船舶操縱性能與操縱資料。"
+      },
+      {
+        "title": "船舶引航專論",
+        "sourceType": "professional_book",
+        "issuer": "方信雄",
+        "supports": "引航實務、船舶操縱與港內領航分析。"
+      },
+      {
+        "title": "航行避碰與操船",
+        "sourceType": "professional_book",
+        "issuer": "方信雄",
+        "supports": "避碰判斷、操船理論與實務。"
       }
     ],
     "assumptions": [
-      "計算題明列BHP與RPM三次方關係、固定推力及忽略阻抗的簡化假設。"
+      "計算題明列BHP與RPM三次方關係、固定推力及忽略阻抗的簡化假設。",
+      "以未來引水人考試所需的現行航海專業知識與法規為主；民國85年原題僅作題型背景，歷史法規與現行規範分開說明。"
     ],
     "limitations": [
       "拖船實際位置及拖纜配置須依港區作業規定、船舶結構及拖船能力決定。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "考選部85年船舶操縱原卷",
@@ -124,17 +150,17 @@
         },
         {
           "item": "船舶特定操縱資料及舊教材公式",
-          "result": "partial",
+          "result": "needs_review",
           "note": "未提供特定船舶推力曲線及原教材公式。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "085-shiphandling-03-answer-v1",
     "questionId": "085-shiphandling-03",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
     "modelAnswer": "【一、接近碼頭速度的判定方法】\n1. **雷達距離變化法：**選固定岸標或碼頭角點，連續量測距離，依距離變化率估算接近速度。\n2. **平行指標（PI）：**觀察岸線相對船舶的移動，配合雷達距離及時間判斷橫向接近速度。\n3. **目視固定物法：**觀察岸上固定物方位變化及相對運動，配合距離估算速度；不能只用方位變化而忽略船舶轉向。\n4. **GNSS／速度資料：**可參考SOG、STW及艏向，但靠泊時須區分縱向速度與橫向速度。\n5. **拖船／纜繩回饋：**觀察拖船推拉負荷、纜繩受力及護舷接觸狀態，作為接近速度的輔助判斷。\n6. **接觸能量法：**船舶接觸能量E=½mV²，質量越大，容許接觸速度越低。\n\n【二、靠泊角度考量】\n1. 風向風速、陣風及潮流方向／流速。\n2. 船舶長度、寬度、吃水、排水量、操縱性能及螺槳旋向。\n3. 泊位方向、護舷型式、碼頭結構及可用泊位長度。\n4. 航道寬度、港池水深、UKC及岸壁效應。\n5. 拖船數量、拖點及推拉能力。\n6. 其他船舶、浮筒、碼頭設備及艏艉掃掠空間。\n\n一般以低速、小角度接近可降低接觸能量，但角度不能小到失去橫向控制；應依風流及船舶性能調整。",
@@ -172,15 +198,28 @@
         "issuer": "IMO",
         "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
         "supports": "船舶操縱性能與操縱資料。"
+      },
+      {
+        "title": "船舶引航專論",
+        "sourceType": "professional_book",
+        "issuer": "方信雄",
+        "supports": "引航實務、船舶操縱與港內領航分析。"
+      },
+      {
+        "title": "航行避碰與操船",
+        "sourceType": "professional_book",
+        "issuer": "方信雄",
+        "supports": "避碰判斷、操船理論與實務。"
       }
     ],
     "assumptions": [
-      "計算題明列BHP與RPM三次方關係、固定推力及忽略阻抗的簡化假設。"
+      "計算題明列BHP與RPM三次方關係、固定推力及忽略阻抗的簡化假設。",
+      "以未來引水人考試所需的現行航海專業知識與法規為主；民國85年原題僅作題型背景，歷史法規與現行規範分開說明。"
     ],
     "limitations": [],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "考選部85年船舶操縱原卷",
@@ -189,17 +228,17 @@
         },
         {
           "item": "船舶特定操縱資料及舊教材公式",
-          "result": "partial",
+          "result": "needs_review",
           "note": "未提供特定船舶推力曲線及原教材公式。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "085-shiphandling-04-answer-v1",
     "questionId": "085-shiphandling-04",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
     "modelAnswer": "【一、影響迴轉性能的船舶因素】\n1. 船體長寬比、線型、方形係數及水下側向投影面積。\n2. 排水量、吃水、縱傾及重心位置。\n3. 舵面積、舵型、舵位置及舵效；螺槳型式、旋向、數量及推進器尾流。\n4. 船速、主機功率、倒俥性能及側推器。\n5. 裝載狀態、船體污損及水下附體。\n6. 水深、航道寬度、風、流及岸壁效應等外界條件。\n\n【二、迴轉力矩】偏航迴轉力矩可表示為N=F×l，其中F為舵、拖船或水動力產生的橫向力，l為作用線至旋轉中心／重心的垂直力臂。若考慮舵力，可用F_R≈½ρV_R²A_RC_L估算，再乘以力臂求偏航力矩。\n\n【三、船身加長後在限制水域操縱】船長增加會改變迴轉直徑、艏艉掃掠、旋轉支點及停船性能，應重新取得操縱資料及更新Pilot Card／Wheelhouse Poster。實務上：降低進入受限水域速度、提早轉向、預留較大迴轉水域、避免急轉及大舵角；注意艉部外掃及船艏切角；必要時配置拖船控制艏艉；使用雷達PI及岸標持續監控，並預先設定中止方案。",
@@ -237,15 +276,28 @@
         "issuer": "IMO",
         "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
         "supports": "船舶操縱性能與操縱資料。"
+      },
+      {
+        "title": "船舶引航專論",
+        "sourceType": "professional_book",
+        "issuer": "方信雄",
+        "supports": "引航實務、船舶操縱與港內領航分析。"
+      },
+      {
+        "title": "航行避碰與操船",
+        "sourceType": "professional_book",
+        "issuer": "方信雄",
+        "supports": "避碰判斷、操船理論與實務。"
       }
     ],
     "assumptions": [
-      "計算題明列BHP與RPM三次方關係、固定推力及忽略阻抗的簡化假設。"
+      "計算題明列BHP與RPM三次方關係、固定推力及忽略阻抗的簡化假設。",
+      "以未來引水人考試所需的現行航海專業知識與法規為主；民國85年原題僅作題型背景，歷史法規與現行規範分開說明。"
     ],
     "limitations": [],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "考選部85年船舶操縱原卷",
@@ -254,21 +306,21 @@
         },
         {
           "item": "船舶特定操縱資料及舊教材公式",
-          "result": "partial",
+          "result": "needs_review",
           "note": "未提供特定船舶推力曲線及原教材公式。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "085-shiphandling-05-answer-v1",
     "questionId": "085-shiphandling-05",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、定義】Directional instability（航向不穩定）是船舶在直航時，受到微小偏航擾動後，不能自然恢復原航向，反而偏航角或偏航角速度持續增加，必須頻繁操舵才能保持航向的特性。\n\n【二、可能具有此特性的船舶】船體長寬比大、船艉側向阻力不足、舵面積或舵效不足、重心及水下側向力分布不利，或在特定吃水、trim及速度下，可能呈現方向不穩定。不能僅以船種名稱判斷，應依船舶操縱試驗及操縱手冊確認。\n\n【三、操縱注意】\n1. 以小幅、及早、連續修正舵角控制航向，避免等偏航擴大後才大舵角修正。\n2. 保持足夠舵效，但避免過高速度造成過度轉向及岸壁效應。\n3. 在狹水道、港池及靠離泊時預留更大水域，必要時降低速度及配置拖船。\n4. 監控艏向變化率、舵角、船位及風流，使用雷達PI／ECDIS交叉定位。\n5. 船長及引水人應熟悉船舶操縱資料，預先約定舵令、主機反應及緊急措施。",
-    "practicalAnalysis": "本題要以動態穩定性定義作答：小擾動後偏航不會自行衰減，而可能持續增大。不能僅憑船種名稱斷言所有同型船都不穩定。",
+    "modelAnswer": "【一、定義】Directional instability（航向不穩定）是船舶在直航時，受到微小偏航擾動後，不能自然恢復原航向，反而偏航角或偏航角速度持續增加，必須頻繁操舵才能保持航向的特性。\n\n【二、可能具有此特性的船舶】較常見於艏部較肥滿、方形係數較高的船型（例如部分油輪、散裝船），尤其艏傾（trim by the head）或特定吃水、速度及裝載狀態下；但方向穩定性由船體水下側向力分布、舵效及操縱導數共同決定，不能僅憑船種名稱斷定。\n\n【三、操縱注意】\n1. 以小幅、及早、連續修正舵角控制航向，避免等偏航擴大後才大舵角修正。\n2. 保持足夠舵效，但避免過高速度造成過度轉向及岸壁效應。\n3. 在狹水道、港池及靠離泊時預留更大水域，必要時降低速度及配置拖船。\n4. 監控艏向變化率、舵角、船位及風流，使用雷達PI／ECDIS交叉定位。\n5. 船長及引水人應熟悉船舶操縱資料，預先約定舵令、主機反應及緊急措施。",
+    "practicalAnalysis": "本題要以動態穩定性定義作答：小擾動後偏航不會自行衰減，而可能持續增大。不能僅憑船種名稱斷言所有同型船都不穩定。 方向不穩定船舶可能需要連續小舵角修正；部分艏部肥滿、艏傾的油輪或散裝船較容易出現此特性，但應以個船操縱資料、試驗及實際載況判定，不能把所有同船種船舶一概而論。",
     "keyPoints": [
       {
         "point": "方向不穩定船受小偏航擾動後不易自行回正。",
@@ -302,15 +354,28 @@
         "issuer": "IMO",
         "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
         "supports": "船舶操縱性能與操縱資料。"
+      },
+      {
+        "title": "船舶引航專論",
+        "sourceType": "professional_book",
+        "issuer": "方信雄",
+        "supports": "引航實務、船舶操縱與港內領航分析。"
+      },
+      {
+        "title": "航行避碰與操船",
+        "sourceType": "professional_book",
+        "issuer": "方信雄",
+        "supports": "避碰判斷、操船理論與實務。"
       }
     ],
     "assumptions": [
-      "計算題明列BHP與RPM三次方關係、固定推力及忽略阻抗的簡化假設。"
+      "計算題明列BHP與RPM三次方關係、固定推力及忽略阻抗的簡化假設。",
+      "以未來引水人考試所需的現行航海專業知識與法規為主；民國85年原題僅作題型背景，歷史法規與現行規範分開說明。"
     ],
     "limitations": [],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "考選部85年船舶操縱原卷",
@@ -319,21 +384,26 @@
         },
         {
           "item": "船舶特定操縱資料及舊教材公式",
-          "result": "partial",
+          "result": "needs_review",
           "note": "未提供特定船舶推力曲線及原教材公式。"
+        },
+        {
+          "item": "Directional stability概念與船型傾向",
+          "result": "pass",
+          "note": "以船舶操縱文獻及造船研究確認方向不穩定與艏部線型、操縱導數及舵效相關，非單純船種標籤。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "085-shiphandling-06-answer-v1",
     "questionId": "085-shiphandling-06",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、Froude Number】Froude數為船速與重力波傳播特徵速度之比：Fn=V/√(gL)，其中V為船速（m/s），g為重力加速度（9.81m/s²），L為特徵船長（通常取水線長）。Fn用於比較船舶興波及尺度效應。\n\n【二、Squat】Squat是船舶在航行時因船體周圍水流加速、壓力降低及受限水域回流受阻，造成船體相對靜水狀態下沉（sinkage）及縱傾（trim）的現象。淺水、狹水道、速度高、方形係數大及阻塞比高時通常更顯著。船底餘裕水深因此減少，可能造成觸底。\n\n【三、超大型船舶是否不發生Squat】「超大型船舶在淺水中不發生squat」不是普遍成立的物理定律。超大型船舶若因吃水深、船寬大及水道阻塞比高，反而可能有顯著squat；但若因淺水限制而大幅減速，速度平方效應降低，squat可能相對小。實際大小須依船速、船型、H/T、阻塞比及經驗公式計算，不能只以船舶噸位判斷。",
-    "practicalAnalysis": "本題第三小問的敘述帶有前提疑義。正確觀念是大型船並非不會發生squat；若船舶在淺水中受限而降速，才可能因速度降低而減小squat。",
+    "modelAnswer": "## 一、Froude's Number（弗勞德數）\n\n船長弗勞德數（length Froude number）為：\n\n\\[Fn_L=\\frac{V}{\\sqrt{gL}}\\]\n\n其中V為船速（m/s）、g為重力加速度（9.81m/s²）、L為船長特徵尺度（通常取水線長）。此數用於比較船舶尺度與重力波效應、興波阻力等。\n\n在淺水及受限航道分析Squat時，另常用**水深弗勞德數**：\n\n\\[Fn_h=\\frac{V}{\\sqrt{gh}}\\]\n\n其中h為水深。不得把兩種Froude數的特徵長度混為一談。\n\n## 二、Squat（船體下沉與縱傾）\n\n船舶航行時，船底及船側水流加速、局部壓力下降，船體相對靜水狀態產生下沉（sinkage）及縱傾（trim），合稱squat。其大小受船速、水深吃水比、航道阻塞比、船型（尤其方形係數）、水道斷面及船舶載況影響；通常船速增加會使squat快速增加，狹窄淺水航道更須注意。\n\n## 三、超大型船舶在淺水中是否不發生Squat？\n\n「超大型船舶在淺水中不發生squat」並非普遍成立的物理定律。大型船舶若吃水深、船寬大、阻塞比高，可能產生顯著squat；若因淺水限制而降低航速，squat才可能因速度下降而減小。應依個船速度、水深、吃水、方形係數及航道斷面，採用適當經驗公式或模擬估算，並保留UKC安全裕度。\n\n**考試重點：**船長Froude數與水深Froude數用途不同；大型船並非不會發生squat。\n\n【待查核】題目「超大型船舶在淺水中不發生squat」可能是舊教材特定情境或文字轉錄疑義，未找到原教材前不把它當普遍定律。",
+    "practicalAnalysis": "本題需分清兩種無因次數：Fn_L=V/√(gL)為船長弗勞德數，Fn_h=V/√(gh)為水深弗勞德數，後者常用於淺水流況及squat評估。超大型船在淺水中仍會發生squat，不能將降速後squat減小誤說成完全不發生。",
     "keyPoints": [
       {
         "point": "Fn=V/√(gL)。",
@@ -367,17 +437,38 @@
         "issuer": "IMO",
         "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
         "supports": "船舶操縱性能與操縱資料。"
+      },
+      {
+        "title": "船舶引航專論",
+        "sourceType": "professional_book",
+        "issuer": "方信雄",
+        "supports": "引航實務、船舶操縱與港內領航分析。"
+      },
+      {
+        "title": "航行避碰與操船",
+        "sourceType": "professional_book",
+        "issuer": "方信雄",
+        "supports": "避碰判斷、操船理論與實務。"
+      },
+      {
+        "title": "EM 1110-2-1613: Hydraulic Design of Deep-Draft Navigation Projects",
+        "sourceType": "official_engineering_manual",
+        "issuer": "U.S. Army Corps of Engineers",
+        "editionOrEffectiveDate": "2006-05-31",
+        "url": "https://www.publications.usace.army.mil/Portals/76/Publications/EngineerManuals/EM_1110-2-1613.pdf",
+        "supports": "水深弗勞德數、航道阻塞比及squat估算方法。"
       }
     ],
     "assumptions": [
-      "計算題明列BHP與RPM三次方關係、固定推力及忽略阻抗的簡化假設。"
+      "計算題明列BHP與RPM三次方關係、固定推力及忽略阻抗的簡化假設。",
+      "以未來引水人考試所需的現行航海專業知識與法規為主；民國85年原題僅作題型背景，歷史法規與現行規範分開說明。"
     ],
     "limitations": [
       "題目「超大型船舶在淺水中不發生squat」可能是舊教材特定情境或文字轉錄疑義，未找到原教材前不把它當普遍定律。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "考選部85年船舶操縱原卷",
@@ -386,21 +477,31 @@
         },
         {
           "item": "船舶特定操縱資料及舊教材公式",
-          "result": "partial",
+          "result": "needs_review",
           "note": "未提供特定船舶推力曲線及原教材公式。"
+        },
+        {
+          "item": "船長與水深Froude數",
+          "result": "pass",
+          "note": "分別核對Fn_L=V/√(gL)與Fn_h=V/√(gh)的用途。"
+        },
+        {
+          "item": "Squat物理觀念",
+          "result": "pass",
+          "note": "官方工程手冊確認squat與速度、水深、航道斷面及阻塞比有關；大型船不會因尺度大而免於squat。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "085-shiphandling-07-answer-v1",
     "questionId": "085-shiphandling-07",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、半速倒俥轉速】題示半速倒俥為S/50，即50rpm。假設BHP與RPM三次方成正比：BHP_ast=9628×(50/110)^3≈904.7BHP。\n\n【二、倒俥推力】船舶前進惰力3kn=3×0.51444=1.543m/s。以功率P=F×V估算倒俥推力，取1BHP≈75kgf·m/s：F=75×904.7/1.543≈43,970kgf≈43.97噸力。\n\n【三、停止距離】排水量質量近似17,101公噸。忽略風、流及船體阻抗，並假設半速倒俥期間推力近似固定，停止距離由動能定理：F·s=½mV²，因此s=mV²/(2F)。代入m=17,101,000kg、V=1.543m/s、F=43,970kgf×9.81N/kgf，得s≈47m。\n\n【四、結論】理想化計算約在N旗前47公尺開始半速倒俥，可使船舶於N旗處停止。實際船舶推力會隨船速、螺槳進速及主機負荷變化，且倒俥反應有延遲；題目雖排除阻抗，實務仍須留安全裕度。",
-    "practicalAnalysis": "本題依題目提供的RPM與BHP，以BHP∝RPM³估算50rpm時功率，再由P=FV及動能定理求停止距離。固定推力及忽略所有阻抗是本題簡化假設。",
+    "modelAnswer": "【一、半速倒俥轉速及功率】\n題示半速倒俥為S/50，即50 rpm。依題目常用簡化假設，固定螺槳條件下功率與轉速三次方成正比：\n\n\\[BHP_{50}=9628\\times(50/110)^3\\approx904.2\\ BHP\\]\n\n【二、以3 kn前進惰力換算倒俥力】\n前進惰力3 kn=1.543 m/s。依功率關係 \\(P=F\\times V\\)，且1 BHP約75 kgf·m/s：\n\n\\[F=75\\times904.2/1.543\\approx43,941\\ kgf=43.94\\ tf\\]\n\n【三、理想停止距離】\n排水量17,101公噸近似質量17,101,000 kg。忽略風、流及船體阻抗，並假設倒俥推力固定，以動能定理：\n\n\\[F s=\\frac12mV^2\\]\n\n\\[s=\\frac{17,101,000\\times1.543^2}{2\\times43,941\\times9.80665}\\approx47.3\\ m\\]\n\n【四、結論】依題目理想化假設，約在N旗前47公尺開始半速倒俥，可使船舶於N旗附近停止。\n\n【實務限制】實船倒俥推力不會在全減速過程保持固定，倒俥反應、螺槳進速、主機負荷及船體阻抗亦會改變停止距離；本題數值是依題目簡化條件求得的理論估算，不可直接當作實際靠泊操作距離。\n\n【待查核】計算假設BHP與RPM三次方成正比、倒俥推力固定，並以P=FV換算；實際螺槳倒俥推力曲線可能不同。",
+    "practicalAnalysis": "本題依題目常見近似法，先以BHP∝RPM³估算50rpm時功率約904.2BHP，再以P=FV換算倒俥力約43.94tf，最後用動能定理得理想停止距離約47.3m。這個解法把倒俥推力視為固定，並忽略船體阻抗，實際船舶必須依螺槳倒俥特性與試俥資料修正。",
     "keyPoints": [
       {
         "point": "半速倒俥S/50=50rpm。",
@@ -438,17 +539,30 @@
         "issuer": "IMO",
         "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.137%2876%29.pdf",
         "supports": "船舶操縱性能與操縱資料。"
+      },
+      {
+        "title": "船舶引航專論",
+        "sourceType": "professional_book",
+        "issuer": "方信雄",
+        "supports": "引航實務、船舶操縱與港內領航分析。"
+      },
+      {
+        "title": "航行避碰與操船",
+        "sourceType": "professional_book",
+        "issuer": "方信雄",
+        "supports": "避碰判斷、操船理論與實務。"
       }
     ],
     "assumptions": [
-      "計算題明列BHP與RPM三次方關係、固定推力及忽略阻抗的簡化假設。"
+      "計算題明列BHP與RPM三次方關係、固定推力及忽略阻抗的簡化假設。",
+      "以未來引水人考試所需的現行航海專業知識與法規為主；民國85年原題僅作題型背景，歷史法規與現行規範分開說明。"
     ],
     "limitations": [
       "計算假設BHP與RPM三次方成正比、倒俥推力固定，並以P=FV換算；實際螺槳倒俥推力曲線可能不同。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "考選部85年船舶操縱原卷",
@@ -457,11 +571,16 @@
         },
         {
           "item": "船舶特定操縱資料及舊教材公式",
-          "result": "partial",
+          "result": "needs_review",
           "note": "未提供特定船舶推力曲線及原教材公式。"
+        },
+        {
+          "item": "50rpm功率與停止距離算術",
+          "result": "pass",
+          "note": "重算BHP約904.2、推力約43.94tf、理想停止距離約47.3m。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   }
 ]
