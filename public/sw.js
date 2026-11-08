@@ -1,4 +1,4 @@
-const CACHE_NAME = "pilot-exam-offline-v5";
+const CACHE_NAME = "pilot-exam-offline-v6";
 const APP_ROUTES = ["/", "/mock-exam"];
 const APP_SHELL = ["/offline.html", "/manifest.webmanifest", "/icons/pilot-192.svg", "/icons/pilot-512.svg"];
 
@@ -100,24 +100,31 @@ self.addEventListener("fetch", (event) => {
 
   if (request.mode === "navigate") {
     event.respondWith((async () => {
+      const cache = await caches.open(CACHE_NAME);
+      const cachedPage = (await cache.match(request, { ignoreSearch: true }))
+        || (await cache.match(absolute(url.pathname)))
+        || (await cache.match(absolute("/")));
+
+      // iOS standalone mode can leave a network navigation pending for a long
+      // time while offline. Bound the wait, then serve the local app shell.
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 4000);
       try {
-        const response = await fetch(request);
+        const response = await fetch(request, { signal: controller.signal });
         if (response.ok) {
-          const cache = await caches.open(CACHE_NAME);
           await cache.put(request, response.clone());
           await cache.put(absolute(url.pathname), response.clone());
         }
         return response;
       } catch (_) {
-        const cache = await caches.open(CACHE_NAME);
-        return (await cache.match(request, { ignoreSearch: true }))
-          || (await cache.match(absolute(url.pathname)))
-          || (await cache.match(absolute("/")))
+        return cachedPage
           || (await cache.match(absolute("/offline.html")))
           || new Response("離線版本尚未完整快取。請先連網開啟網站並等待快取完成。", {
             status: 503,
             headers: { "Content-Type": "text/plain; charset=utf-8" }
           });
+      } finally {
+        clearTimeout(timeout);
       }
     })());
     return;
