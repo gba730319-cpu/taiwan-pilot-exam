@@ -488,6 +488,14 @@
         "editionOrEffectiveDate": "June 2023",
         "url": "https://www.iacs.org.uk/resolutions/unified-requirements/ur-a",
         "supports": "A1.2.1 Equipment Number完整公式及煙囪有效正投影面積S_fun定義"
+      },
+      {
+        "title": "Behavior and Handling of Ships — Henry H. Hooyer",
+        "issuer": "Cornell Maritime Press",
+        "sourceType": "professional_reference",
+        "url": "https://www.pupgroup33.com/Web-Content/documents/books/ship_handling/Behavior_and_Handling_of_Ship.pdf",
+        "supports": "船舶慣性、動量、推進功率相對於排水量，以及大型船舶加速與停止特性；不作為D/P具有法定統一名稱的依據。",
+        "accessedAt": "2026-11-08"
       }
     ],
     "assumptions": [
