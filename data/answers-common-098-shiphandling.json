@@ -71,8 +71,8 @@
       "總噸位不是排水量，且此經驗公式不使用GRT；不可把GRT直接當成船舶質量代入。"
     ],
     "verification": {
-      "status": "source_checked",
-      "checkedAt": "2026-11-06",
+      "status": "partially_verified",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "DNV舵面積公式",
@@ -92,7 +92,7 @@
         {
           "item": "GRT及設計水深解讀",
           "result": "needs_review",
-          "note": "GRT不代入此公式；題目用語「設計水深」按設計吃水解讀，應留意原始命題是否為設計吃水。"
+          "note": "GRT不代入此DNV經驗式；題目原文「設計水深」與公式所需設計吃水T並非同一概念。現有答案依設計吃水9m計算，但未能確認命題是否誤植或原卷字樣，故保留待查核。"
         },
         {
           "item": "2027備考適用範圍",
@@ -101,7 +101,7 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "98-shiphandling-02",
