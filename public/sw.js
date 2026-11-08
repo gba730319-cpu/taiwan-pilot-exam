@@ -1,6 +1,6 @@
 const CACHE_NAME = "pilot-exam-offline-v6";
 const APP_ROUTES = ["/", "/mock-exam"];
-const APP_SHELL = ["/offline.html", "/manifest.webmanifest", "/icons/pilot-192.svg", "/icons/pilot-512.svg"];
+const APP_SHELL = ["/offline-check.html", "/offline.html", "/manifest.webmanifest", "/icons/pilot-192.svg", "/icons/pilot-512.svg"];
 
 function absolute(path) {
   return new URL(path, self.location.origin).href;
