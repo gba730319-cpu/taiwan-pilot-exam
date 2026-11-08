@@ -1,20 +1,16 @@
-const CACHE_NAME = "pilot-exam-offline-v4";
-const APP_SHELL = ["/", "/mock-exam", "/offline.html", "/manifest.webmanifest", "/icons/pilot-192.svg", "/icons/pilot-512.svg"];
+const CACHE_NAME = "pilot-exam-offline-v5";
+const APP_ROUTES = ["/", "/mock-exam"];
+const APP_SHELL = ["/offline.html", "/manifest.webmanifest", "/icons/pilot-192.svg", "/icons/pilot-512.svg"];
 
 function absolute(path) {
   return new URL(path, self.location.origin).href;
 }
 
-async function cacheResponse(cache, request, response) {
-  if (!response || !response.ok || response.type === "opaque") return false;
+async function putResponse(cache, request, response) {
+  if (!response || !response.ok || response.type === "opaque") {
+    throw new Error("Offline cache failed: " + request.url);
+  }
   await cache.put(request, response.clone());
-  return true;
-}
-
-async function precachePath(cache, path) {
-  const request = new Request(absolute(path), { credentials: "same-origin", cache: "reload" });
-  const response = await fetch(request);
-  if (!await cacheResponse(cache, request, response)) throw new Error("Required offline asset failed: " + path);
 }
 
 function findAppAssets(html) {
@@ -22,38 +18,66 @@ function findAppAssets(html) {
   const tags = html.match(/<(?:script|link)\b[^>]*>/gi) || [];
   for (const tag of tags) {
     const isScript = /^<script/i.test(tag);
-    const isCss = /^<link/i.test(tag) && /rel=["']stylesheet["']/i.test(tag);
-    if (!isScript && !isCss) continue;
-    const match = tag.match(isScript ? /\bsrc=["']([^"']+)["']/i : /\bhref=["']([^"']+)["']/i);
+    const isAssetLink = /^<link/i.test(tag) &&
+      /(stylesheet|modulepreload|preload)/i.test(tag);
+    if (!isScript && !isAssetLink) continue;
+    const match = tag.match(isScript
+      ? /\bsrc=["']([^"']+)["']/i
+      : /\bhref=["']([^"']+)["']/i);
     if (!match) continue;
     try {
       const url = new URL(match[1], self.location.origin);
-      if (url.origin === self.location.origin && url.pathname.startsWith("/_next/")) assets.add(url.href);
+      if (url.origin !== self.location.origin) continue;
+      if (url.pathname.startsWith("/_next/")) assets.add(url.href);
     } catch (_) {}
   }
   return [...assets];
 }
 
+async function cacheAsset(cache, url) {
+  const request = new Request(url, {
+    method: "GET",
+    credentials: "same-origin",
+    cache: "reload"
+  });
+  const response = await fetch(request);
+  await putResponse(cache, request, response);
+}
+
+async function cacheRoute(cache, path) {
+  const request = new Request(absolute(path), {
+    method: "GET",
+    credentials: "same-origin",
+    cache: "reload"
+  });
+  const response = await fetch(request);
+  if (!response.ok) throw new Error("Offline page cache failed: " + path);
+  const html = await response.clone().text();
+  await putResponse(cache, request, response);
+
+  const assets = findAppAssets(html);
+  // Do not activate an incomplete offline version: every script/style asset
+  // referenced by each app route must be available in the cache.
+  await Promise.all(assets.map((url) => cacheAsset(cache, url)));
+  return { path, assets: assets.length };
+}
+
 self.addEventListener("install", (event) => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_NAME);
-    const homeRequest = new Request(absolute("/"), { credentials: "same-origin", cache: "reload" });
-    const homeResponse = await fetch(homeRequest);
-    if (!await cacheResponse(cache, homeRequest, homeResponse)) {
-      throw new Error("Homepage could not be cached; offline install aborted.");
+    for (const path of APP_SHELL) {
+      const request = new Request(absolute(path), {
+        credentials: "same-origin",
+        cache: "reload"
+      });
+      const response = await fetch(request);
+      await putResponse(cache, request, response);
     }
-
-    const assets = findAppAssets(await homeResponse.clone().text());
-    await Promise.all(APP_SHELL.filter((path) => path !== "/").map((path) => precachePath(cache, path)));
-
-    const assetResults = await Promise.all(assets.map(async (url) => {
-      const request = new Request(url, { credentials: "same-origin", cache: "reload" });
-      try {
-        const response = await fetch(request);
-        return await cacheResponse(cache, request, response);
-      } catch (_) { return false; }
-    }));
-    console.info("[Pilot Exam PWA] App shell cached", { html: true, assetsFound: assets.length, assetsCached: assetResults.filter(Boolean).length });
+    const results = [];
+    for (const path of APP_ROUTES) {
+      results.push(await cacheRoute(cache, path));
+    }
+    console.info("[Pilot Exam PWA] Complete offline app shell cached", results);
     await self.skipWaiting();
   })());
 });
@@ -61,7 +85,9 @@ self.addEventListener("install", (event) => {
 self.addEventListener("activate", (event) => {
   event.waitUntil((async () => {
     const keys = await caches.keys();
-    await Promise.all(keys.filter((key) => key.startsWith("pilot-exam-offline-") && key !== CACHE_NAME).map((key) => caches.delete(key)));
+    await Promise.all(keys
+      .filter((key) => key.startsWith("pilot-exam-offline-") && key !== CACHE_NAME)
+      .map((key) => caches.delete(key)));
     await self.clients.claim();
   })());
 });
@@ -78,8 +104,8 @@ self.addEventListener("fetch", (event) => {
         const response = await fetch(request);
         if (response.ok) {
           const cache = await caches.open(CACHE_NAME);
-          await cache.put(absolute("/"), response.clone());
           await cache.put(request, response.clone());
+          await cache.put(absolute(url.pathname), response.clone());
         }
         return response;
       } catch (_) {
@@ -88,7 +114,10 @@ self.addEventListener("fetch", (event) => {
           || (await cache.match(absolute(url.pathname)))
           || (await cache.match(absolute("/")))
           || (await cache.match(absolute("/offline.html")))
-          || new Response("離線快取尚未準備完成。請先連線開啟網站一次。", { status: 503, headers: { "Content-Type": "text/plain; charset=utf-8" } });
+          || new Response("離線版本尚未完整快取。請先連網開啟網站並等待快取完成。", {
+            status: 503,
+            headers: { "Content-Type": "text/plain; charset=utf-8" }
+          });
       }
     })());
     return;
@@ -100,7 +129,9 @@ self.addEventListener("fetch", (event) => {
     if (cached) return cached;
     try {
       const response = await fetch(request);
-      if (response.ok && (response.type === "basic" || response.type === "cors")) await cache.put(request, response.clone());
+      if (response.ok && (response.type === "basic" || response.type === "cors")) {
+        await cache.put(request, response.clone());
+      }
       return response;
     } catch (_) {
       return new Response("", { status: 503, statusText: "Offline" });
