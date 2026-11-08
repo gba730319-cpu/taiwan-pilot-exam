@@ -1,37 +1,30 @@
-const CACHE_NAME = "pilot-exam-offline-v3";
+const CACHE_NAME = "pilot-exam-offline-v4";
 const APP_SHELL = ["/", "/mock-exam", "/offline.html", "/manifest.webmanifest", "/icons/pilot-192.svg", "/icons/pilot-512.svg"];
 
 function absolute(path) {
   return new URL(path, self.location.origin).href;
 }
 
-async function store(cache, request, response) {
-  if (response && response.ok && response.type !== "opaque") {
-    await cache.put(request, response.clone());
-    return true;
-  }
-  return false;
+async function cacheResponse(cache, request, response) {
+  if (!response || !response.ok || response.type === "opaque") return false;
+  await cache.put(request, response.clone());
+  return true;
 }
 
-async function precacheAsset(cache, path) {
-  const url = absolute(path);
-  const request = new Request(url, { credentials: "same-origin", cache: "reload" });
+async function precachePath(cache, path) {
+  const request = new Request(absolute(path), { credentials: "same-origin", cache: "reload" });
   const response = await fetch(request);
-  if (!await store(cache, request, response)) {
-    throw new Error("Unable to precache required app shell asset: " + path);
-  }
-  return response;
+  if (!await cacheResponse(cache, request, response)) throw new Error("Required offline asset failed: " + path);
 }
 
 function findAppAssets(html) {
   const assets = new Set();
-  const tags = html.match(/<(?:script|link)\\b[^>]*>/gi) || [];
+  const tags = html.match(/<(?:script|link)\b[^>]*>/gi) || [];
   for (const tag of tags) {
     const isScript = /^<script/i.test(tag);
     const isCss = /^<link/i.test(tag) && /rel=["']stylesheet["']/i.test(tag);
     if (!isScript && !isCss) continue;
-    const attr = isScript ? "src" : "href";
-    const match = tag.match(new RegExp(attr + "=[\\"']([^\\"']+)[\\"']", "i"));
+    const match = tag.match(isScript ? /\bsrc=["']([^"']+)["']/i : /\bhref=["']([^"']+)["']/i);
     if (!match) continue;
     try {
       const url = new URL(match[1], self.location.origin);
@@ -44,25 +37,23 @@ function findAppAssets(html) {
 self.addEventListener("install", (event) => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_NAME);
-    const homeUrl = absolute("/");
-    const homeRequest = new Request(homeUrl, { credentials: "same-origin", cache: "reload" });
+    const homeRequest = new Request(absolute("/"), { credentials: "same-origin", cache: "reload" });
     const homeResponse = await fetch(homeRequest);
-    if (!await store(cache, homeRequest, homeResponse)) {
-      throw new Error("Homepage could not be cached; offline support is not ready.");
+    if (!await cacheResponse(cache, homeRequest, homeResponse)) {
+      throw new Error("Homepage could not be cached; offline install aborted.");
     }
 
-    const html = await homeResponse.clone().text();
-    const assets = findAppAssets(html);
-    await Promise.all(APP_SHELL.filter((path) => path !== "/").map((path) => precacheAsset(cache, path)));
-    await Promise.all(assets.map(async (url) => {
+    const assets = findAppAssets(await homeResponse.clone().text());
+    await Promise.all(APP_SHELL.filter((path) => path !== "/").map((path) => precachePath(cache, path)));
+
+    const assetResults = await Promise.all(assets.map(async (url) => {
       const request = new Request(url, { credentials: "same-origin", cache: "reload" });
       try {
         const response = await fetch(request);
-        await store(cache, request, response);
-      } catch (error) {
-        console.warn("[Pilot Exam PWA] Could not precache asset:", url, error);
-      }
+        return await cacheResponse(cache, request, response);
+      } catch (_) { return false; }
     }));
+    console.info("[Pilot Exam PWA] App shell cached", { html: true, assetsFound: assets.length, assetsCached: assetResults.filter(Boolean).length });
     await self.skipWaiting();
   })());
 });
@@ -97,10 +88,7 @@ self.addEventListener("fetch", (event) => {
           || (await cache.match(absolute(url.pathname)))
           || (await cache.match(absolute("/")))
           || (await cache.match(absolute("/offline.html")))
-          || new Response("離線快取尚未準備完成。請先連線開啟引水人備考網站一次，再重新嘗試。", {
-            status: 503,
-            headers: { "Content-Type": "text/plain; charset=utf-8" }
-          });
+          || new Response("離線快取尚未準備完成。請先連線開啟網站一次。", { status: 503, headers: { "Content-Type": "text/plain; charset=utf-8" } });
       }
     })());
     return;
