@@ -83,14 +83,6 @@
         "supports": "多種經驗公式的適用範圍、深度Froude數、船型與航道阻塞比對艉座預測的影響，提醒不同公式不可任意套用。"
       },
       {
-        "title": "Grounding of MV Leichhardt — Appendix G: Squat",
-        "sourceType": "official_marine_investigation",
-        "issuer": "Australian Transport Safety Bureau (ATSB)",
-        "url": "https://www.atsb.gov.au/sites/default/files/investigation-reports/mair21_001.pdf",
-        "accessedAt": "2026-11-07",
-        "supports": "Barrass艉座經驗公式、方形係數、速度與阻塞因素，以及H/T適用條件的實際調查案例。"
-      },
-      {
         "title": "Ship Squat Predictions for Ship/Tow Simulator",
         "sourceType": "technical_report",
         "issuer": "U.S. Army Engineer Research and Development Center",
@@ -108,13 +100,19 @@
         "supports": "最新官方海事安全指引定義Squat為船舶前進造成的動態下沉及／或縱傾，減少UKC並使表觀吃水增加；提醒窄航道、淺水、會船及拖輪短纜的交互作用風險。"
       },
       {
-        "title": "PIANC Report No. 121 — Harbour Approach Channels Design Guidelines",
-        "sourceType": "international_engineering_guideline",
-        "issuer": "PIANC",
+        "title": "PIANC Report No. 121, Harbour Approach Channels Design Guidelines",
+        "sourceType": "technical_guideline",
+        "issuer": "PIANC Maritime Navigation Commission",
         "editionOrEffectiveDate": "2014",
         "url": "https://icoffshore.com.vn/Uploads/files/Nghien_Cuu/TCQP/TCQT/2_ABP12_P%20-%20PIANC%20Harbour%20Approach%20Design%20Guidelines%20%282014%29.PDF",
-        "accessedAt": "2026-11-07",
-        "supports": "Barrass3簡化式及其阻塞係數、H/T適用範圍；指南指出S約0.10至0.25及H/T約1.10至1.40的限制，超出範圍不應直接套用簡化式。"
+        "supports": "Appendix D.4.4 Barrass3 simplified squat method, blockage factor and formula conditions"
+      },
+      {
+        "title": "Grounding of MV Leichhardt, Appendix G: Squat",
+        "sourceType": "official_investigation_report",
+        "issuer": "Australian Transport Safety Bureau",
+        "url": "https://www.atsb.gov.au/sites/default/files/investigation-reports/mair21_001.pdf",
+        "supports": "Barrass open-water formula, H/T range and practical limitations of empirical squat estimates"
       }
     ],
     "assumptions": [],
