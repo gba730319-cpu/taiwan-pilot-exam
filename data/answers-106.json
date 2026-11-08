@@ -1777,7 +1777,7 @@
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "22kn風速換算與風壓公式",
@@ -1806,13 +1806,13 @@
         },
         {
           "item": "蒲福風級與22kn數值一致性",
-          "result": "pass",
-          "note": "依NOAA NWS風級表，22kn屬蒲福六級下限；計算明確採題目給定的22kn。"
+          "result": "needs_review",
+          "note": "題幹同時寫蒲福五級及22kn，兩者不一致；NOAA NWS Beaufort表中22kn為六級下限（五級為17–21kn）。計算暫按題目明確給定22kn進行，但應標示題幹資料矛盾待查核。"
         }
       ]
     },
     "version": 2,
-    "lastUpdated": "2026-11-07",
+    "lastUpdated": "2026-11-08",
     "id": "106-shiphandling-01",
     "language": "zh-TW",
     "answerType": "calculation"
