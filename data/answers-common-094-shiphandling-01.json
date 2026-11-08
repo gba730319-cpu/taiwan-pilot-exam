@@ -86,8 +86,8 @@
       "若採其他風壓係數公式、相對風速或不同風壓中心，風力及風力矩會有差異。"
     ],
     "verification": {
-      "status": "source_checked",
-      "checkedAt": "2026-11-06",
+      "status": "partially_verified",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "原始考題數據及條件",
