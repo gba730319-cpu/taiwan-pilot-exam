@@ -7,42 +7,58 @@
 <title>離線功能檢查</title>
 <style>
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding:24px;line-height:1.65;color:#172033}
-h1{font-size:24px} .item{padding:12px;margin:10px 0;border:1px solid #ddd;border-radius:10px;overflow-wrap:anywhere}
+h1{font-size:24px}.item{padding:12px;margin:10px 0;border:1px solid #ddd;border-radius:10px;overflow-wrap:anywhere}
 .ok{color:#087443}.bad{color:#b42318}.muted{color:#667085}
 </style>
 </head>
 <body>
 <h1>引水人備考網站｜離線診斷</h1>
-<p class="muted">這個頁面用來確認 iPad 是否成功保存離線網站資料。</p>
-<div id="results">正在檢查……</div>
+<p class="muted">Safari 診斷簡化版。結果會逐項顯示，不會等所有檢查完成才出現。</p>
+<div id="results"><div class="item">診斷程式已啟動，正在讀取資料……</div></div>
 <script>
-(async()=>{
+(function(){
  const root=document.getElementById("results");
- const add=(label,value,ok)=>{const d=document.createElement("div");d.className="item";const s=document.createElement("strong");s.textContent=label+"：";const v=document.createElement("span");v.className=ok?"ok":"bad";v.textContent=value;d.append(s,v);root.append(d)};
- add("目前連線",navigator.onLine?"有網路":"離線",navigator.onLine);
- if(!("serviceWorker" in navigator)){add("Service Worker","此瀏覽器不支援",false)}
- else{
-  const reg=await navigator.serviceWorker.getRegistration("/");
-  add("Service Worker 註冊",reg?(reg.active?"已啟用":"已註冊但尚未啟用"):"找不到註冊",!!reg&&!!reg.active);
-  add("目前頁面控制權",navigator.serviceWorker.controller?"有控制（可攔截請求）":"沒有控制權",!!navigator.serviceWorker.controller);
+ root.textContent="";
+ function add(label,value,ok){
+  const d=document.createElement("div");d.className="item";
+  const s=document.createElement("strong");s.textContent=label+"：";
+  const v=document.createElement("span");v.className=ok?"ok":"bad";v.textContent=value;
+  d.append(s,v);root.append(d);
  }
- if(!("caches" in window)){add("Cache Storage","不支援",false);return}
- const keys=await caches.keys();
- add("快取版本",keys.filter(k=>k.startsWith("pilot-exam-offline-")).join(", ")||"找不到備考網站快取",keys.some(k=>k.startsWith("pilot-exam-offline-")));
- const key=keys.find(k=>k.startsWith("pilot-exam-offline-"));
- if(key){
-  const cache=await caches.open(key);const requests=await cache.keys();
-  add("已保存資源數",String(requests.length),requests.length>0);
-  const urls=requests.map(r=>new URL(r.url).pathname);
-  add("首頁 HTML",urls.includes("/")?"已保存":"未保存",urls.includes("/"));
-  add("離線提示頁",urls.includes("/offline.html")?"已保存":"未保存",urls.includes("/offline.html"));
-  const js=urls.filter(u=>u.startsWith("/_next/")&&u.endsWith(".js"));
-  add("JavaScript 檔案",js.length+" 個",js.length>0);
-  const css=urls.filter(u=>u.startsWith("/_next/")&&u.endsWith(".css"));
-  add("CSS 檔案",css.length+" 個",css.length>0);
+ function note(t){const p=document.createElement("p");p.className="muted";p.textContent=t;root.append(p)}
+ function timeout(p,ms,label){return Promise.race([p,new Promise((_,reject)=>setTimeout(()=>reject(new Error(label+"逾時")),ms))])}
+ try{
+  add("診斷程式","已成功執行",true);
+  add("目前連線",navigator.onLine?"有網路":"離線",navigator.onLine);
+  add("Service Worker API","serviceWorker" in navigator?"支援":"不支援",("serviceWorker" in navigator));
+  add("Cache Storage API","caches" in window?"支援":"不支援",("caches" in window));
+ }catch(e){add("基本檢查錯誤",String(e),false)}
+ if("serviceWorker" in navigator){
+  timeout(navigator.serviceWorker.getRegistration("/"),5000,"讀取 Service Worker")
+   .then(reg=>{
+    add("Service Worker 註冊",reg?(reg.active?"已啟用":"已註冊但尚未啟用"):"找不到註冊",!!reg&&!!reg.active);
+    add("目前頁面控制權",navigator.serviceWorker.controller?"有控制權":"沒有控制權",!!navigator.serviceWorker.controller);
+   }).catch(e=>add("Service Worker 檢查",e.message,false));
+ }else{add("Service Worker","此瀏覽器不支援",false)}
+ if("caches" in window){
+  timeout(caches.keys(),5000,"讀取快取清單").then(keys=>{
+   const matches=keys.filter(k=>k.startsWith("pilot-exam-offline-"));
+   add("快取版本",matches.join(", ")||"找不到備考網站快取",matches.length>0);
+   if(!matches.length)return;
+   return timeout(caches.open(matches[matches.length-1]),5000,"開啟快取").then(cache=>timeout(cache.keys(),5000,"讀取快取項目")).then(reqs=>{
+    const urls=reqs.map(r=>new URL(r.url).pathname);
+    add("已保存資源數",String(reqs.length),reqs.length>0);
+    add("首頁 HTML",urls.includes("/")?"已保存":"未保存",urls.includes("/"));
+    add("離線提示頁",urls.includes("/offline.html")?"已保存":"未保存",urls.includes("/offline.html"));
+    const js=urls.filter(u=>u.startsWith("/_next/")&&u.endsWith(".js"));
+    add("JavaScript 檔案",js.length+" 個",js.length>0);
+    const css=urls.filter(u=>u.startsWith("/_next/")&&u.endsWith(".css"));
+    add("CSS 檔案",css.length+" 個",css.length>0);
+   });
+  }).catch(e=>add("快取檢查",e.message,false));
  }
- const note=document.createElement("p");note.className="muted";note.textContent="請截圖此頁結果回傳。若要測離線，先在線上開啟此頁，等結果全部出現，再關閉網路並重新整理此頁。";root.append(note);
-})().catch(e=>{document.getElementById("results").textContent="診斷錯誤："+e.message});
+ note("請等候最多 5 秒，截圖所有結果。若只看到「診斷程式已成功執行」，代表 Safari 的部分 API 沒有回應。");
+})();
 </script>
 </body>
 </html>
