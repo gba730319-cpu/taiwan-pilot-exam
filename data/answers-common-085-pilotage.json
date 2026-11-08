@@ -2,11 +2,11 @@
   {
     "id": "085-pilotage-01-answer-v1",
     "questionId": "085-pilotage-01",
-    "version": 2,
+    "version": 3,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "本題為九種海圖圖式／註記繪圖題。依臺灣海軍大氣海洋局《海圖圖例》第9版（依2021年版IHO海圖規格編製）核對如下。正式作答須照圖例原符號描繪，不能以文字或Emoji替代。\n\n| 項目 | 圖例代碼／英文 | 作圖及辨識重點 |\n|---|---|---|\n| 防波堤 | F4.1 – Breakwater (in general) | 一般防波堤；另有卵石／四腳塊及混凝土坡壁等不同圖式，須依題目結構選用。 |\n| 海關 | D61 – Custom Office（圖例縮寫Cus Ho） | 海關辦公處所的地物符號，不是海關界線（Customs limit）。 |\n| 暗渠 | Culvert／暗渠 | 第9版圖例未查得與「暗渠」完全對應的獨立標準符號；須回查原題指定版次或國家補充符號，不能逕以海底放流管（Outfall）替代。 |\n| 高架電線 | D27 – Overhead cable with vertical clearance | 高架電纜並附安全垂直淨空；依題目原圖畫出電線及淨空註記。 |\n| 漁港 | F10 – Fishery harbor | 漁港圖式，依港埠設施圖例表示。 |\n| 雷達標 | E2 – Ramark；E3 – Racon | Ramark為連續發射信號的雷達標；Racon為雷達回訊標。題目只寫「雷達標」時，須依原圖或題目資料確認是哪一種，不能混畫。 |\n| 海底管線區 | L40.2 – Supply pipeline area | 以管線區域圖式標示；依註記區分油、瓦斯、化學品或水等輸送內容。不可與海底電力電纜區混淆。 |\n| 拖底掃測 | I24 – Area swept by wire drag | 表示經拖底掃測之水域，圖上可標掃測深度及最新掃測年份；掃測深度以Chart Datum為基準。 |\n| 089°30′ Mds | Bearing／direction annotation + Mds | 089°30′為角度／方位註記；Mds在第9版圖例明確代表Madrepore（石珊瑚，海底底質）。Mds不是Magnetic direction。方位究竟為真方位或磁方位，須依原圖的T／M標示或羅經註記判定。 |\n\n## 重要辨識與作圖提醒\n\n1. 海關辦公室（Custom Office）與海關界線（Customs limit）是不同圖式。\n2. 雷達標至少要分清Ramark與Racon：前者連續發射，後者接收雷達波後回傳識別訊號。\n3. 海底管線區（Pipeline area）與海底電力電纜區（Submarine power cable area）圖式不同。\n4. 拖底掃測區的掃測深度以Chart Datum為基準，且可能附最新掃測年份；不能解讀成永久保證無障礙。\n5. Mds是石珊瑚底質縮寫，不是磁方位縮寫；089°30′的真／磁性質需看原圖標示。\n6. 暗渠在目前可查第9版圖例中未找到完全相同的獨立項目，保留原卷版次待查，不自行畫成海底排水口。",
-    "practicalAnalysis": "本題原答案對多項圖式僅作泛稱，且把Mds誤解為magnetic direction。臺灣官方《海圖圖例》第9版（依2021年IHO規格）可核對：防波堤F4.1、海關D61、電線D27、漁港F10、Ramark／Racon、海底管線區L40.2、拖底掃測I24；Mds明確是Madrepore石珊瑚底質。暗渠與089°30′方位註記的真／磁性質仍須原卷指定版次或圖面確認。",
+    "modelAnswer": "本題為九種海圖圖式／註記繪圖題。依臺灣海軍大氣海洋局《海圖圖例》第9版（依2021年版IHO海圖規格編製）核對如下。正式作答須照圖例原符號描繪，不能以文字或Emoji替代。\n\n| 項目 | 圖例代碼／英文 | 作圖及辨識重點 |\n|---|---|---|\n| 防波堤 | F4.1 – Breakwater (in general) | 一般防波堤；另有卵石／四腳塊及混凝土坡壁等不同圖式，須依題目結構選用。 |\n| 海關 | D61 – Custom Office（圖例縮寫Cus Ho） | 海關辦公處所的地物符號，不是海關界線（Customs limit）。 |\n| 暗渠 | Culvert／暗渠 | 第9版圖例未查得與「暗渠」完全對應的獨立標準符號；須回查原題指定版次或國家補充符號，不能逕以海底放流管（Outfall）替代。 |\n| 高架電線 | D26.2 – Power transmission line with pylons and safe vertical clearance | 若題意為高壓輸電線及鐵塔，應用D26.2；D27是高架電訊線路（電話／電報線）附垂直淨空，不可混用。 |\n| 漁港 | F10 – Fishery harbor | 漁港圖式，依港埠設施圖例表示。 |\n| 雷達標 | E2 – Ramark；E3 – Racon | Ramark為連續發射信號的雷達標；Racon為雷達回訊標。題目只寫「雷達標」時，須依原圖或題目資料確認是哪一種，不能混畫。 |\n| 海底管線區 | L40.2 – Supply pipeline area | 以管線區域圖式標示；依註記區分油、瓦斯、化學品或水等輸送內容。不可與海底電力電纜區混淆。 |\n| 拖底掃測 | I24 – Area swept by wire drag | 表示經拖底掃測之水域，圖上可標掃測深度及最新掃測年份；掃測深度以Chart Datum為基準。 |\n| 089°30′ Mds | Bearing／direction annotation + Mds | 089°30′為角度／方位註記；Mds在第9版圖例明確代表Madrepore（石珊瑚，海底底質）。Mds不是Magnetic direction。方位究竟為真方位或磁方位，須依原圖的T／M標示或羅經註記判定。 |\n\n## 重要辨識與作圖提醒\n\n1. 海關辦公室（Custom Office）與海關界線（Customs limit）是不同圖式。\n2. 雷達標至少要分清Ramark與Racon：前者連續發射，後者接收雷達波後回傳識別訊號。\n3. 海底管線區（Pipeline area）與海底電力電纜區（Submarine power cable area）圖式不同。\n4. 拖底掃測區的掃測深度以Chart Datum為基準，且可能附最新掃測年份；不能解讀成永久保證無障礙。\n5. Mds是石珊瑚底質縮寫，不是磁方位縮寫；089°30′的真／磁性質需看原圖標示。\n6. 暗渠在目前可查第9版圖例中未找到完全相同的獨立項目，保留原卷版次待查，不自行畫成海底排水口。\n\n【待查核】目前未取得民國85年考試指定海圖圖例原頁；暗渠圖式及089°30′方位的真／磁性質仍待原卷附圖確認。",
+    "practicalAnalysis": "本題原答案對多項圖式僅作泛稱，且把Mds誤解為magnetic direction。臺灣官方《海圖圖例》第9版（依2021年IHO規格）可核對：防波堤F4.1、海關D61、電線D27、漁港F10、Ramark／Racon、海底管線區L40.2、拖底掃測I24；Mds明確是Madrepore石珊瑚底質。暗渠與089°30′方位註記的真／磁性質仍須原卷指定版次或圖面確認。 再核對第9版圖例第17–18頁：D26.2才是附鐵塔及安全垂直淨空的高壓輸電線；D27是電話／電報高架電訊線。考題「高架電線」如無附圖，應依線路是否有輸電鐵塔判別，不能將D27直接當成高壓電線。",
     "keyPoints": [
       {
         "point": "防波堤一般圖式F4.1。",
@@ -64,7 +64,8 @@
       }
     ],
     "assumptions": [
-      "依臺灣官方海圖圖例第9版核對現行圖式；對原題只給文字、未提供符號原圖的項目，保留版次差異。"
+      "依臺灣官方海圖圖例第9版核對現行圖式；對原題只給文字、未提供符號原圖的項目，保留版次差異。",
+      "以未來引水人考試所需的現行航海專業知識與法規為主；民國85年原題僅作題型背景，歷史法規與現行規範分開說明。"
     ],
     "limitations": [
       "目前未取得民國85年考試指定海圖圖例原頁；暗渠圖式及089°30′方位的真／磁性質仍待原卷附圖確認。"
@@ -82,6 +83,16 @@
           "item": "暗渠及089°30′方位標示",
           "result": "needs_review",
           "note": "未取得原卷附圖，不能確定暗渠專用符號及該方位的真／磁性質。"
+        },
+        {
+          "item": "第9版海圖圖例：高架輸電線與電訊線",
+          "result": "pass",
+          "note": "官方圖例區分D26.2 power transmission line with pylons與D27 overhead telephone/telegraph line。"
+        },
+        {
+          "item": "第9版海圖圖例：其餘圖式及Mds",
+          "result": "pass",
+          "note": "核對F4.1防波堤、D61海關、F10漁港、Ramark/Racon、L40.2輸送管線區、I24 wire-drag sweep及Mds=Madrepore。"
         }
       ]
     },
@@ -90,11 +101,11 @@
   {
     "id": "085-pilotage-02-answer-v1",
     "questionId": "085-pilotage-02",
-    "version": 2,
+    "version": 3,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "## 一、Rise（潮升）與Range（潮差）的差別\n\n**Rise不是低潮到高潮的差值。**在海圖潮汐基準用語中，Rise是某一高潮面高於海圖基準面（Chart Datum）的高度；Range才是高潮面與低潮面之間的垂直差。\n\n- **Rise：**高潮面相對Chart Datum的高度。\n- **Range：**高潮與低潮之間的高度差。\n\n## 二、各項名詞\n\n| 名詞 | 定義 |\n|---|---|\n| Spring Rise | 大潮高潮面高於Chart Datum的高度。 |\n| Mean Spring Rise | 平均大潮高潮面（MHWS）高於Chart Datum的高度。 |\n| Neap Rise | 小潮高潮面高於Chart Datum的高度。 |\n| Mean Neap Rise | 平均小潮高潮面（MHWN）高於Chart Datum的高度。 |\n| Spring Range | 大潮潮差，平均大潮高潮面MHWS減平均大潮低潮面MLWS。 |\n| Neap Range | 小潮潮差，平均小潮高潮面MHWN減平均小潮低潮面MLWN。 |\n| Mean Range | 平均潮差，平均高潮面MHW減平均低潮面MLW。 |\n| Diurnal Range | 日潮區的日潮差，通常指平均較高潮面MHHW減平均較低潮面MLLW。 |\n\n## 三、圖示\n\n以下為概念示意，垂直高度不按比例：\n\n```\n潮高 ↑\n             MHWS ───────── 平均大潮高潮面\n              ↑ Mean Spring Rise（至Chart Datum）\n             MHWN ───────── 平均小潮高潮面\n              ↑ Mean Neap Rise（至Chart Datum）\n             MHW  ───────── 平均高潮面\n              ↑ Mean Rise（至Chart Datum）\n\n             MLW  ───────── 平均低潮面\n             MLWS ───────── 平均大潮低潮面\n             MLWN ───────── 平均小潮低潮面\n\nChart Datum ───────────────── 海圖基準面\n```\n\n- **Spring Range：**MHWS − MLWS。\n- **Neap Range：**MHWN − MLWN。\n- **Mean Range：**MHW − MLW。\n- **Diurnal Range：**MHHW − MLLW（適用日潮型水域）。\n\n## 四、考試易錯點\n\n1. Rise是從Chart Datum量到指定高潮面的高度。\n2. Range是高、低潮面之間的差值。\n3. Spring／Neap Rise與Spring／Neap Range不可混為一談。\n4. Diurnal Range不是任意連續一次高潮與低潮的差值，而是日潮型水域所採用的統計基準差。",
-    "practicalAnalysis": "原答案將Rise定義為低潮至高潮的潮高上升量，這與潮汐基準術語不符。依IHO水文詞典及澳洲水文局潮汐詞彙，Rise是指定高潮面高於Chart Datum的高度；Range才是高潮與低潮的高度差。Mean Spring Rise、Mean Neap Rise及Diurnal Range均已重新定義並以基準面圖示說明。",
+    "modelAnswer": "## 一、Rise（潮升）與Range（潮差）的差別\n\n**Rise不是低潮到高潮的差值。**在海圖潮汐基準用語中，Rise是某一高潮面高於海圖基準面（Chart Datum）的高度；Range才是高潮面與低潮面之間的垂直差。\n\n- **Rise：**高潮面相對Chart Datum的高度。\n- **Range：**高潮與低潮之間的高度差。\n\n## 二、各項名詞\n\n| 名詞 | 定義 |\n|---|---|\n| Spring Rise | 某次大潮（spring tide）高潮面高於Chart Datum的高度；若題目指平均統計值，應使用Mean Spring Rise。 |\n| Mean Spring Rise | 平均大潮高潮面（MHWS）高於Chart Datum的高度。 |\n| Neap Rise | 某次小潮（neap tide）高潮面高於Chart Datum的高度；若題目指平均統計值，應使用Mean Neap Rise。 |\n| Mean Neap Rise | 平均小潮高潮面（MHWN）高於Chart Datum的高度。 |\n| Spring Range | 大潮潮差，平均大潮高潮面MHWS減平均大潮低潮面MLWS。 |\n| Neap Range | 小潮潮差，平均小潮高潮面MHWN減平均小潮低潮面MLWN。 |\n| Mean Range | 平均潮差，平均高潮面MHW減平均低潮面MLW。 |\n| Diurnal Range | 日潮區的日潮差，通常指平均較高潮面MHHW減平均較低潮面MLLW。 |\n\n## 三、圖示\n\n以下為概念示意，垂直高度不按比例：\n\n```\n潮高 ↑\n             MHWS ───────── 平均大潮高潮面\n              ↑ Mean Spring Rise（至Chart Datum）\n             MHWN ───────── 平均小潮高潮面\n              ↑ Mean Neap Rise（至Chart Datum）\n             MHW  ───────── 平均高潮面\n              ↑ Mean Rise（至Chart Datum）\n\n             MLW  ───────── 平均低潮面\n             MLWS ───────── 平均大潮低潮面\n             MLWN ───────── 平均小潮低潮面\n\nChart Datum ───────────────── 海圖基準面\n```\n\n- **Spring Range：**MHWS − MLWS。\n- **Neap Range：**MHWN − MLWN。\n- **Mean Range：**MHW − MLW。\n- **Diurnal Range：**MHHW − MLLW（適用日潮型水域）。\n\n## 四、考試易錯點\n\n1. Rise是從Chart Datum量到指定高潮面的高度。\n2. Range是高、低潮面之間的差值。\n3. Spring／Neap Rise與Spring／Neap Range不可混為一談。\n4. Diurnal Range不是任意連續一次高潮與低潮的差值，而是日潮型水域所採用的統計基準差。\n\n【待查核】原卷未指定海圖基準面與教材版次；圖示為名詞關係示意，非特定港口實際潮位比例圖。",
+    "practicalAnalysis": "原答案將Rise定義為低潮至高潮的潮高上升量，這與潮汐基準術語不符。依IHO水文詞典及澳洲水文局潮汐詞彙，Rise是指定高潮面高於Chart Datum的高度；Range才是高潮與低潮的高度差。Mean Spring Rise、Mean Neap Rise及Diurnal Range均已重新定義並以基準面圖示說明。 額外區分未加Mean的Spring Rise／Neap Rise（某次大潮／小潮高潮面高於基準面的高度）與Mean Spring Rise／Mean Neap Rise（長期平均大潮／小潮高潮面高於基準面的高度）。NOAA所稱Great Diurnal Range為MHHW−MLLW。",
     "keyPoints": [
       {
         "point": "Rise是高潮面高於Chart Datum的高度，不是低潮到高潮的差值。",
@@ -154,10 +165,19 @@
         "issuer": "National Oceanic and Atmospheric Administration",
         "url": "https://www.tidesandcurrents.noaa.gov/glossary.html",
         "supports": "Mean range、Spring range及Diurnal range定義。"
+      },
+      {
+        "title": "中華民國海軍水道圖刊物第一種：海圖圖例第9版",
+        "sourceType": "official_chart_reference",
+        "issuer": "海軍大氣海洋局",
+        "editionOrEffectiveDate": "第9版，2022-12",
+        "url": "https://navy.mnd.gov.tw/Files/Policy/%E6%B5%B7%E5%9C%96%E5%9C%96%E4%BE%8B%E7%AC%AC9%E7%89%88.pdf",
+        "supports": "海圖符號、縮寫、潮汐基準及潮流圖例。"
       }
     ],
     "assumptions": [
-      "採IHO、澳洲水文局及NOAA潮汐基準術語；不同國家或舊教材縮寫可能略有差異，作答時以題目指定海圖圖例為準。"
+      "採IHO、澳洲水文局及NOAA潮汐基準術語；不同國家或舊教材縮寫可能略有差異，作答時以題目指定海圖圖例為準。",
+      "以未來引水人考試所需的現行航海專業知識與法規為主；民國85年原題僅作題型背景，歷史法規與現行規範分開說明。"
     ],
     "limitations": [
       "原卷未指定海圖基準面與教材版次；圖示為名詞關係示意，非特定港口實際潮位比例圖。"
@@ -175,6 +195,16 @@
           "item": "Spring／Neap／Mean／Diurnal各項定義",
           "result": "pass",
           "note": "各Rise以Chart Datum為起算基準，各Range為指定高低潮面之差。"
+        },
+        {
+          "item": "AHO潮汐詞彙：Rise及Range",
+          "result": "pass",
+          "note": "Rise of tide為高潮面高於基準面的高度；range為連續高潮與低潮高度差；Mean Spring/Neap Rise分別以MHWS/MHWN為基準。"
+        },
+        {
+          "item": "Diurnal Range",
+          "result": "pass",
+          "note": "AHO及NOAA詞彙確認Great Diurnal Range為MHHW與MLLW之差。"
         }
       ]
     },
@@ -183,10 +213,10 @@
   {
     "id": "085-pilotage-03-answer-v1",
     "questionId": "085-pilotage-03",
-    "version": 2,
+    "version": 3,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "## 一、海霧的主要生成機制\n\n中國沿海海霧以**平流冷卻霧（advection cooling fog）**為重要類型：暖濕空氣由較暖海域移流至較冷海面，下層空氣因與冷海面接觸而冷卻至露點，水汽凝結成微小水滴，能見度降低。\n\n主要有利條件：\n1. **暖濕氣流移流至冷海面：**海氣溫差及水平溫度梯度明顯，最有利於平流冷卻霧形成。\n2. **水汽充足：**海面蒸發及暖濕氣團提供水汽。\n3. **冷水及海流交界：**冷流、沿岸冷水或鋒面附近海溫差異，可形成局部高發霧區。\n4. **低層穩定及逆溫：**限制垂直混合，使霧層維持；適當風速有利於霧的輸送，風過強則可能加強混合而使霧消散。\n5. **季風及天氣系統：**暖濕季風氣流、冷空氣南下及海陸溫差，均會改變霧的形成、維持與消散。\n\n## 二、中國沿海主要分布及季節\n\n| 海區 | 常見霧季／高發時段 | 主要分布 |\n|---|---|---|\n| 南海北部 | 約2–4月較多 | 兩廣、海南沿海及雷州半島附近，冬末至春季較常見。 |\n| 東海 | 約3–7月，4–6月較多 | 長江口、舟山群島、浙江沿岸及臺灣海峽北口。 |\n| 黃海 | 約4–8月，春夏較多 | 黃海全區，成山頭及山東半島沿岸為著名多霧區。 |\n| 渤海 | 約5–7月較多 | 東部較西部多，遼東半島及山東北部沿岸較常見。 |\n\n## 三、航行安全影響\n\n海霧使目視能見度降低，增加碰撞、擱淺及偏離航道風險。船舶應依COLREG Rule 19：\n- 以安全速度航行，機艙備便，保持嚴格瞭望。\n- 正確使用雷達及ARPA，持續標繪目標並評估CPA／TCPA。\n- 依Rule 35鳴放適用霧號。\n- 依港口VTS及港務管制決定是否進出港；若能見度低於港口限制，應等待或採取安全措施。\n\n**結論：**中國沿海海霧具有明顯區域與季節差異，南海北部偏冬末春季，東海春季至初夏，黃海春夏，渤海則以晚春至夏季較多；不能只用「春季至初夏」概括全部海區。",
+    "modelAnswer": "## 一、海霧的主要生成機制\n\n中國沿海海霧以**平流冷卻霧（advection cooling fog）**為重要類型：暖濕空氣由較暖海域移流至較冷海面，下層空氣因與冷海面接觸而冷卻至露點，水汽凝結成微小水滴，能見度降低。\n\n主要有利條件：\n1. **暖濕氣流移流至冷海面：**海氣溫差及水平溫度梯度明顯，最有利於平流冷卻霧形成。\n2. **水汽充足：**海面蒸發及暖濕氣團提供水汽。\n3. **冷水及海流交界：**冷流、沿岸冷水或鋒面附近海溫差異，可形成局部高發霧區。\n4. **低層穩定及逆溫：**限制垂直混合，使霧層維持；適當風速有利於霧的輸送，風過強則可能加強混合而使霧消散。\n5. **季風及天氣系統：**暖濕季風氣流、冷空氣南下及海陸溫差，均會改變霧的形成、維持與消散。\n\n## 二、中國沿海主要分布及季節\n\n| 海區 | 常見霧季／高發時段 | 主要分布 |\n|---|---|---|\n| 南海北部 | 約2–4月較多 | 兩廣、海南沿海及雷州半島附近，冬末至春季較常見。 |\n| 東海 | 約3–7月，4–6月較多 | 長江口、舟山群島、浙江沿岸及臺灣海峽北口。 |\n| 黃海 | 約4–8月，春夏較多 | 黃海全區，成山頭及山東半島沿岸為著名多霧區。 |\n| 渤海 | 約5–7月較多 | 東部較西部多，遼東半島及山東北部沿岸較常見。 |\n\n## 三、航行安全影響\n\n海霧使目視能見度降低，增加碰撞、擱淺及偏離航道風險。船舶應依COLREG Rule 19：\n- 以安全速度航行，機艙備便，保持嚴格瞭望。\n- 正確使用雷達及ARPA，持續標繪目標並評估CPA／TCPA。\n- 依Rule 35鳴放適用霧號。\n- 依港口VTS及港務管制決定是否進出港；若能見度低於港口限制，應等待或採取安全措施。\n\n**結論：**中國沿海海霧具有明顯區域與季節差異，南海北部偏冬末春季，東海春季至初夏，黃海春夏，渤海則以晚春至夏季較多；不能只用「春季至初夏」概括全部海區。\n\n【待查核】各海區月份為氣候平均概況，不代表每年固定起訖日期或即時海霧預報。",
     "practicalAnalysis": "原答案雖正確說明平流冷卻霧，但區域分布過於概括，未區分南海、東海、黃海及渤海不同霧季。已依中國氣象局公開海霧資料補上區域月份，並保留形成機制與航行安全措施。",
     "keyPoints": [
       {
@@ -242,10 +272,19 @@
         "editionOrEffectiveDate": "2023",
         "url": "https://castjournals.cast.org.cn/joweb/hyxb/CN/1200396945870148308",
         "supports": "黃海春夏季暖濕氣流移流至冷海面及逆溫層對海霧維持的作用。"
+      },
+      {
+        "title": "中華民國海軍水道圖刊物第一種：海圖圖例第9版",
+        "sourceType": "official_chart_reference",
+        "issuer": "海軍大氣海洋局",
+        "editionOrEffectiveDate": "第9版，2022-12",
+        "url": "https://navy.mnd.gov.tw/Files/Policy/%E6%B5%B7%E5%9C%96%E5%9C%96%E4%BE%8B%E7%AC%AC9%E7%89%88.pdf",
+        "supports": "海圖符號、縮寫、潮汐基準及潮流圖例。"
       }
     ],
     "assumptions": [
-      "區域霧季月份採公開氣象資料的概括範圍，實際每年受季風、海溫及天氣系統影響。"
+      "區域霧季月份採公開氣象資料的概括範圍，實際每年受季風、海溫及天氣系統影響。",
+      "以未來引水人考試所需的現行航海專業知識與法規為主；民國85年原題僅作題型背景，歷史法規與現行規範分開說明。"
     ],
     "limitations": [
       "各海區月份為氣候平均概況，不代表每年固定起訖日期或即時海霧預報。"
@@ -271,11 +310,11 @@
   {
     "id": "085-pilotage-04-answer-v1",
     "questionId": "085-pilotage-04",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、0900潮流】潮流資料顯示0619時為憩流（0），0950時達3.1節落潮流（e）。若以簡諧潮流近似，憩流至最大流速期間：V=Vmax·sin[(π/2)(t/T)]。\n0619至0950共211分鐘；0900距0619為161分鐘。\nV=3.1×sin[(π/2)×161/211]≈2.89節，方向為題示落潮流（ebb）方向。\n【二、流速低於1節的時間】以同一簡諧模型，從憩流至最大流速的時間比例為f=(2/π)arcsin(1/Vmax)。依各段憩流與最大流速估算：\n1. 0031憩流至0326最大2.5節：流速由0升至1節約在0117；因此0031–0117低於1節。\n2. 0326最大2.5節至0619憩流：降至1節約在0534；0619後至0950最大3.1節，升至1節約在0703。因此0534–0703低於1節。\n3. 0950最大3.1節至1322憩流：降至1節約在1238；1322後至1554最大3.5節，升至1節約在1350。因此1238–1350低於1節。\n4. 1554最大3.5節至1830憩流：降至1節約在1801；1830後至2201最大2.5節，升至1節約在1925。因此1801–1925低於1節。\n5. 2201後至下一次憩流的資料未提供，無法完整求出當晚後半段低於1節的時間。\n【三、結論】按簡諧近似，0900約2.89節落潮；流速低於1節的可用時段約為0031–0117、0534–0703、1238–1350及1801–1925。實際入港仍須以即時潮流及港務管制為準。",
-    "practicalAnalysis": "本題用憩流至最大流速的簡諧曲線內插。若原考試教材指定線性內插或另有潮流曲線，數值會不同；此答案明列採用的模型。",
+    "modelAnswer": "【一、0900潮流】潮流資料顯示0619時為憩流（0），0950時達3.1節落潮流（e）。若以簡諧潮流近似，憩流至最大流速期間：V=Vmax·sin[(π/2)(t/T)]。\n0619至0950共211分鐘；0900距0619為161分鐘。\nV=3.1×sin[(π/2)×161/211]≈2.89節，方向為題示落潮流（ebb）方向。\n【二、流速低於1節的時間】以同一簡諧模型，從憩流至最大流速的時間比例為f=(2/π)arcsin(1/Vmax)。依各段憩流與最大流速估算：\n1. 0031憩流至0326最大2.5節：流速由0升至1節約在0117；因此0031–0117低於1節。\n2. 0326最大2.5節至0619憩流：降至1節約在0534；0619後至0950最大3.1節，升至1節約在0703。因此0534–0703低於1節。\n3. 0950最大3.1節至1322憩流：降至1節約在1238；1322後至1554最大3.5節，升至1節約在1350。因此1238–1350低於1節。\n4. 1554最大3.5節至1830憩流：降至1節約在1801；1830後至2201最大2.5節，升至1節約在1925。因此1801–1925低於1節。\n5. 2201後至下一次憩流的資料未提供，無法完整求出當晚後半段低於1節的時間。\n【三、結論】按簡諧近似，0900約2.89節落潮；流速低於1節的可用時段約為0031–0117、0534–0703、1238–1350及1801–1925。實際入港仍須以即時潮流及港務管制為準。\n\n【待查核】題目未提供潮流曲線圖或明示內插模型；此處採簡諧潮流近似，須與指定教材曲線核對。",
+    "practicalAnalysis": "本題用憩流至最大流速的簡諧曲線內插。若原考試教材指定線性內插或另有潮流曲線，數值會不同；此答案明列採用的模型。 已重新核對簡諧內插時間：0900距0619憩流161/211，V=3.1 sin[(π/2)(161/211)]≈2.89 kn。低於1 kn的完整可用時段依題示資料約為0031–0117、0534–0703、1238–1350、1801–1925；此為假設每一憩流至最大流速採四分之一正弦曲線的估算，不是原始觀測值。",
     "keyPoints": [
       {
         "point": "0619至0950為0至3.1節落潮流。",
@@ -302,17 +341,26 @@
         "editionOrEffectiveDate": "民國85年（1996）",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=023&code=085150&q=1&s=2001&t=Q",
         "supports": "引港學五題原卷。"
+      },
+      {
+        "title": "中華民國海軍水道圖刊物第一種：海圖圖例第9版",
+        "sourceType": "official_chart_reference",
+        "issuer": "海軍大氣海洋局",
+        "editionOrEffectiveDate": "第9版，2022-12",
+        "url": "https://navy.mnd.gov.tw/Files/Policy/%E6%B5%B7%E5%9C%96%E5%9C%96%E4%BE%8B%E7%AC%AC9%E7%89%88.pdf",
+        "supports": "海圖符號、縮寫、潮汐基準及潮流圖例。"
       }
     ],
     "assumptions": [
-      "計算題明列方位解讀及潮流內插模型。"
+      "計算題明列方位解讀及潮流內插模型。",
+      "以未來引水人考試所需的現行航海專業知識與法規為主；民國85年原題僅作題型背景，歷史法規與現行規範分開說明。"
     ],
     "limitations": [
       "題目未提供潮流曲線圖或明示內插模型；此處採簡諧潮流近似，須與指定教材曲線核對。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "考選部85年引港學原卷",
@@ -321,21 +369,26 @@
         },
         {
           "item": "1996年海圖圖例／潮流曲線",
-          "result": "partial",
+          "result": "needs_review",
           "note": "歷史圖例版次及指定潮流內插曲線待查。"
+        },
+        {
+          "item": "0900潮流與低於1節時段算術複核",
+          "result": "pass",
+          "note": "依題示憩流與最大流速時間重新計算，0900約2.89 kn；低於1 kn時間為四段近似區間。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "085-pilotage-05-answer-v1",
     "questionId": "085-pilotage-05",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、建立座標】以B為原點，東為E正、北為N正。A在B正北28NM。甲船航速20kn、乙船15kn，均航向180°，航行1小時後，無流推算位置分別為：甲在B北8NM，乙在B北13NM。\n【二、利用方位求實際位置】\n甲船位於B方位334°，設距離B為r₁；乙船位於B方位351°，設距離B為r₂。兩船受到相同流，實際位置差仍等於對水航程差5NM，方向向南。\n東分量：r₁sin334°−r₂sin351°=0。\n北分量：r₁cos334°−r₂cos351°=−5。\n解得r₁≈2.68NM，r₂≈7.50NM。甲船實際座標約(E,N)=(−1.17,+2.40)NM。\n【三、求流】甲船無流推算位置為(0,+8)NM，因此流位移=(−1.17,2.40)−(0,8)=(−1.17,−5.60)NM。航行時間1小時，流速=√(1.17²+5.60²)≈5.72節。\n流向為流往約192°T（南偏西約12°）。\n【四、檢查】方位334°及351°均按由B指向船舶的位置方位解讀；若原題方位定義不同，向量方向須重算。",
-    "practicalAnalysis": "兩船相同起點、相同航向、不同船速，受到相同流後，其實際位置差仍為5NM向南。利用兩個方位射線聯立求距離，再由DR與實際船位差求流向流速。",
+    "modelAnswer": "【一、建立座標】以B為原點，東為E正、北為N正。A在B正北28NM。甲船航速20kn、乙船15kn，均航向180°，航行1小時後，無流推算位置分別為：甲在B北8NM，乙在B北13NM。\n【二、利用方位求實際位置】\n甲船位於B方位334°，設距離B為r₁；乙船位於B方位351°，設距離B為r₂。兩船受到相同流，實際位置差仍等於對水航程差5NM，方向向南。\n東分量：r₁sin334°−r₂sin351°=0。\n北分量：r₁cos334°−r₂cos351°=−5。\n解得r₁≈2.68NM，r₂≈7.50NM。甲船實際座標約(E,N)=(−1.17,+2.40)NM。\n【三、求流】甲船無流推算位置為(0,+8)NM，因此流位移=(−1.17,2.40)−(0,8)=(−1.17,−5.60)NM。航行時間1小時，流速=√(1.17²+5.60²)≈5.72節。\n流向為流往約192°T（南偏西約12°）。\n【四、檢查】方位334°及351°均按由B指向船舶的位置方位解讀；若原題方位定義不同，向量方向須重算。\n\n【待查核】方位角依題文視為由B指向兩船；若原卷有其他方位基準，需重新計算。",
+    "practicalAnalysis": "兩船相同起點、相同航向、不同船速，受到相同流後，其實際位置差仍為5NM向南。利用兩個方位射線聯立求距離，再由DR與實際船位差求流向流速。 已用東、北分量重新檢算兩條方位射線：r甲約2.68 NM、r乙約7.50 NM；甲船實際位置約(E,N)=(-1.17,+2.40)NM，扣除無流DR位置(0,+8)後，流速約5.72 kn，流往約192°T。",
     "keyPoints": [
       {
         "point": "以B為原點，A在正北28NM。",
@@ -362,17 +415,26 @@
         "editionOrEffectiveDate": "民國85年（1996）",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=023&code=085150&q=1&s=2001&t=Q",
         "supports": "引港學五題原卷。"
+      },
+      {
+        "title": "中華民國海軍水道圖刊物第一種：海圖圖例第9版",
+        "sourceType": "official_chart_reference",
+        "issuer": "海軍大氣海洋局",
+        "editionOrEffectiveDate": "第9版，2022-12",
+        "url": "https://navy.mnd.gov.tw/Files/Policy/%E6%B5%B7%E5%9C%96%E5%9C%96%E4%BE%8B%E7%AC%AC9%E7%89%88.pdf",
+        "supports": "海圖符號、縮寫、潮汐基準及潮流圖例。"
       }
     ],
     "assumptions": [
-      "計算題明列方位解讀及潮流內插模型。"
+      "計算題明列方位解讀及潮流內插模型。",
+      "以未來引水人考試所需的現行航海專業知識與法規為主；民國85年原題僅作題型背景，歷史法規與現行規範分開說明。"
     ],
     "limitations": [
       "方位角依題文視為由B指向兩船；若原卷有其他方位基準，需重新計算。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "考選部85年引港學原卷",
@@ -381,11 +443,16 @@
         },
         {
           "item": "1996年海圖圖例／潮流曲線",
-          "result": "partial",
+          "result": "needs_review",
           "note": "歷史圖例版次及指定潮流內插曲線待查。"
+        },
+        {
+          "item": "兩船方位向量與流速計算",
+          "result": "pass",
+          "note": "以共同流及兩船一小時對水航程差5 NM建立聯立方程，結果與答案一致。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   }
 ]
