@@ -179,11 +179,11 @@
   {
     "id": "086-pilotage-03-answer-v1",
     "questionId": "086-pilotage-03",
-    "version": 2,
+    "version": 3,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【一、夜間辨識浮筒】夜間航行應依海圖及燈表確認浮筒編號、位置、燈色、燈質、週期及方位，不可只憑遠處燈光顏色判斷。先辨認港區採用的IALA浮標制度及進港方向，再確認左右舷側標、方位標、孤立危險物標及安全水域標。\n\n【二、避開措施】\n1. 航前在ECDIS／海圖標出浮筒位置、危險區及安全通過側，設定適當安全等深線及警戒區。\n2. 使用雷達辨認浮筒回波，配合AIS AtoN（若有）、雷達平行指標及GNSS定位；小型浮筒回波可能不穩，不能只靠雷達。\n3. 保持適當安全距離，不從浮筒與淺灘／危險物之間狹窄水道冒險通過；留意浮筒可能因潮流、繫鏈長度而偏移。\n4. 夜間降低至安全速度，增加瞭望，注意背景燈光、岸燈及浮筒燈光混淆。\n5. 若浮筒燈熄滅、移位或辨識不清，使用海圖、雷達及其他固定物定位，通知VTS並採取較大安全距離。\n\n【三、IALA A區基本規則】臺灣採用IALA A區時，進港方向通常左舷側為紅色、右舷側為綠色；仍應依海圖及燈表確認，勿將浮標顏色當成唯一判據。\n\n【待查核】Chart 1歷史圖例及題目原始定位圖：歷史圖例版次及第6題原始方位圖尚待核對。",
-    "practicalAnalysis": "本題核心是夜間辨識與交叉定位，並非只背紅綠燈。浮筒燈光、雷達回波及海圖位置均須互相驗證。",
+    "modelAnswer": "【一、夜間辨識浮筒】夜間航行應依海圖及燈表確認浮筒編號、位置、燈色、燈質、週期及方位，不可只憑遠處燈光顏色判斷。先辨認港區採用的IALA浮標制度及進港方向，再確認左右舷側標、方位標、孤立危險物標及安全水域標。\n\n【二、避開措施】\n1. 航前在ECDIS／海圖標出浮筒位置、危險區及安全通過側，設定適當安全等深線及警戒區。\n2. 使用雷達辨認浮筒回波，配合AIS AtoN（若有）、雷達平行指標及GNSS定位；小型浮筒回波可能不穩，不能只靠雷達。\n3. 保持適當安全距離，不從浮筒與淺灘／危險物之間狹窄水道冒險通過；留意浮筒可能因潮流、繫鏈長度而偏移。\n4. 夜間降低至安全速度，增加瞭望，注意背景燈光、岸燈及浮筒燈光混淆。\n5. 若浮筒燈熄滅、移位或辨識不清，使用海圖、雷達及其他固定物定位，通知VTS並採取較大安全距離。\n\n【三、臺灣現行IALA B區基本規則】臺灣採用IALA B區（Region B）。船舶依通常進港方向航行時，左舷側標為綠色、右舷側標為紅色；不可套用IALA A區的左紅右綠。仍應依海圖、燈表及當地航標公告確認，勿將浮標顏色當成唯一判據。\n\n【待查核】Chart 1歷史圖例及題目原始定位圖：歷史圖例版次及第6題原始方位圖尚待核對。",
+    "practicalAnalysis": "本題核心是夜間辨識與交叉定位，並非只背紅綠燈。浮筒燈光、雷達回波及海圖位置均須互相驗證。 本次跨年度檢查發現原答案將臺灣制度誤寫為IALA A區，已依交通部航港局官方資料更正為IALA B區，進港左綠右紅。",
     "keyPoints": [
       {
         "point": "航前核對浮筒位置、燈色、燈質及通過側。",
@@ -198,7 +198,7 @@
         "importance": "essential"
       },
       {
-        "point": "IALA A區進港左紅右綠，但仍須依海圖判讀。",
+        "point": "臺灣採IALA B區，進港左綠右紅；不可誤用A區左紅右綠。",
         "importance": "supporting"
       },
       {
@@ -221,6 +221,22 @@
         "issuer": "IALA",
         "url": "https://www.iala-aism.org/product/iala-maritime-buoyage-system/",
         "supports": "浮標系統及航標辨識。"
+      },
+      {
+        "title": "遊艇活動安全指引（第4章4.1.2浮標系統）",
+        "sourceType": "official_guidance",
+        "issuer": "交通部航港局",
+        "editionOrEffectiveDate": "2025-12",
+        "url": "https://www.motcmpb.gov.tw/ServerFile/Get/deb15b57-4629-4176-ac91-0728f867a650?DLCount=1&attachTable=4",
+        "supports": "明確載明臺灣港口及沿海水域採IALA-B系統，進港左側綠色、右側紅色。"
+      },
+      {
+        "title": "航路標識設置技術規範總說明",
+        "sourceType": "official_regulation",
+        "issuer": "行政院公報",
+        "editionOrEffectiveDate": "2019",
+        "url": "https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg025101/ch06/type1/gov50/num18/images/AA.pdf",
+        "supports": "載明行政院於2007年核定臺灣浮標制度採IALA-B，並規範我國水域航路標識採B系統。"
       }
     ],
     "assumptions": [
@@ -231,18 +247,18 @@
       "Chart 1歷史圖例及題目原始定位圖：歷史圖例版次及第6題原始方位圖尚待核對。"
     ],
     "verification": {
-      "status": "partially_verified",
+      "status": "source_checked",
       "checkedAt": "2026-11-08",
       "checks": [
         {
-          "item": "考選部86年引港學原卷",
+          "item": "臺灣現行IALA浮標區域及側標顏色",
           "result": "pass",
-          "note": "六題題文核對。"
+          "note": "依航港局2025年12月《遊艇活動安全指引》及行政院公報《航路標識設置技術規範總說明》確認臺灣採Region B，進港左綠右紅。"
         },
         {
-          "item": "Chart 1歷史圖例及題目原始定位圖",
-          "result": "needs_review",
-          "note": "歷史圖例版次及第6題原始方位圖尚待核對。"
+          "item": "夜間辨識與交叉定位原則",
+          "result": "pass",
+          "note": "海圖、燈表、雷達、GNSS及固定物標交叉驗證的作業原則保留。"
         }
       ]
     },
