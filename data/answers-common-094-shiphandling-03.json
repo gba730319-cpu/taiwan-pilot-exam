@@ -104,8 +104,8 @@
       "「anchor aweigh」表示錨已離底而尚未收至anchor home；按9m/min計算的剩餘鏈長時間不等於完整收錨至錨穴的全部作業時間。"
     ],
     "verification": {
-      "status": "source_checked",
-      "checkedAt": "2026-11-06",
+      "status": "partially_verified",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "Equipment Number公式及參數定義",
