@@ -7,25 +7,28 @@ export default function PwaRegister() {
     if (!("serviceWorker" in navigator)) return;
 
     const reloadKey = "pilot-exam-sw-controller-reload";
-    // Clear the one-shot marker after the controller-triggered reload.
-    // This also allows a later service-worker update to refresh the page.
-    if (window.sessionStorage.getItem(reloadKey) === "1") {
-      window.sessionStorage.removeItem(reloadKey);
-    }
+    const safeGet = () => {
+      try { return window.sessionStorage.getItem(reloadKey); } catch (_) { return null; }
+    };
+    const safeSet = (value: string) => {
+      try { window.sessionStorage.setItem(reloadKey, value); } catch (_) {}
+    };
+    const safeRemove = () => {
+      try { window.sessionStorage.removeItem(reloadKey); } catch (_) {}
+    };
+
+    if (safeGet() === "1") safeRemove();
 
     const onControllerChange = () => {
-      // The first controller takes over an already-rendered page. Reload once
-      // so its Next.js chunks and other same-origin assets are fetched through
-      // the service worker and become available to the offline cache.
-      if (window.sessionStorage.getItem(reloadKey) === "1") return;
-      window.sessionStorage.setItem(reloadKey, "1");
+      if (safeGet() === "1") return;
+      safeSet("1");
       window.location.reload();
     };
 
     navigator.serviceWorker.addEventListener("controllerchange", onControllerChange);
 
     const register = () => {
-      navigator.serviceWorker.register("/sw.js", { scope: "/" }).catch((error) => {
+      navigator.serviceWorker.register("/sw.js", { scope: "/", updateViaCache: "none" }).catch((error) => {
         console.error("PWA service worker registration failed:", error);
       });
     };
