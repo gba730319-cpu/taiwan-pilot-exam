@@ -2,7 +2,7 @@
   {
     "id": "083-practical-english-01-answer-v1",
     "questionId": "083-practical-english-01",
-    "version": 1,
+    "version": 2,
     "language": "en",
     "answerType": "essay",
     "modelAnswer": "**Suggested answer**\n\nI wish to become a harbor pilot because the position allows me to apply my seagoing experience, shiphandling knowledge and professional judgement to the safe movement of ships in port.\n\nDuring my service at sea, I have learned that every vessel has different manoeuvring characteristics. Safe navigation therefore requires careful passage planning, a thorough knowledge of local waters, tides, currents, weather, navigational marks and port regulations, as well as clear communication with the master, the bridge team and tug crews.\n\nI am particularly interested in the practical challenge of bringing different types of vessels safely into and out of port. A pilot must assess changing conditions quickly, anticipate risks and make sound decisions while maintaining effective communication.\n\nI also understand that the pilot's presence does not relieve the master or the bridge team of their duties and responsibilities. The pilot provides local knowledge and professional advice, and works together with the ship's team to ensure safety.\n\nI intend to pursue this profession because I value responsibility, continuous learning and the opportunity to contribute to port safety and efficiency.\n\n**中文答題架構**\n1. 個人動機：運用遠洋資歷及操船經驗。\n2. 專業要求：熟悉港區地形、水文、氣象、航標及港務法規。\n3. 工作特性：不同船型操縱差異、即時判斷、引水與拖船協調。\n4. 責任認知：引水人提供地方專業知識，但不解除船長及駕駛台團隊的責任。\n5. 結語：持續精進並提升港口航行安全與效率。",
@@ -45,15 +45,23 @@
         "editionOrEffectiveDate": "2003",
         "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960%2823%29.pdf",
         "supports": "引水人與船長／駕駛台團隊的角色、責任、資訊交換及安全協作。"
+      },
+      {
+        "title": "IMO Resolution A.960(23): Recommendations on Training and Certification and Operational Procedures for Maritime Pilots",
+        "sourceType": "imo_resolution",
+        "issuer": "International Maritime Organization",
+        "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/A.960(23).pdf",
+        "supports": "引水人與船長、駕駛台團隊之資訊交換及合作責任。"
       }
     ],
     "assumptions": [
-      "依考選部原題及海事英文語境作答。"
+      "依考選部原題及海事英文語境作答。",
+      "以未來引水人考試所需的現行專業知識、法規與港區資訊為主；民國83年原題只作題型背景，歷史數據與現況分開呈現。"
     ],
     "limitations": [],
     "verification": {
       "status": "source_checked",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "考選部83年實用英文原卷",
@@ -69,15 +77,20 @@
           "item": "IMO A.960(23) Annex 2",
           "result": "pass",
           "note": "確認引水人與船長責任關係、資訊交換及合作描述正確。"
+        },
+        {
+          "item": "職業動機英文作文及引水責任描述",
+          "result": "pass",
+          "note": "答案以一般第一人稱示範，不虛構個人履歷；引水人與船長團隊合作、責任界線依IMO A.960(23)整理。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "083-practical-english-02-answer-v1",
     "questionId": "083-practical-english-02",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
     "modelAnswer": "**完整中文翻譯**\n\n操船是航海技術中最高層次的專業。之所以稱為一門藝術，是因為操船所涉及的因素繁多、變化多端，而且不同船舶在各種風浪條件下的特性也各不相同。\n\n船舶能否成功操縱，完全取決於操船者是否廣泛了解各種影響因素。其中有些因素，例如舵與螺槳，是操船者可以控制的；另一些因素則不受操船者控制。操船者必須迅速評估這些因素所造成的影響，並據以作出適當的預留與修正。\n\n有些因素，例如風與流，只要充分了解其特性，便能善加利用，甚至對操船產生極大的助益。\n\n**重要字詞與句型**\n- *the highest form of seamanship*：航海技術／船藝中最高層次的專業。\n- *the factors involved*：所涉及的各項因素。\n- *so many, so variable*：因素繁多且變化多端。\n- *from ship to ship*：因船型不同而異。\n- *under all conditions of wind and sea*：在各種風浪條件下。\n- *controllable by him*：可由操船者控制。\n- *make due allowance for them*：對其影響作適當預留、修正或補償。\n- *used to great advantage*：善加利用而獲得很大助益。\n\n**翻譯重點**\n本段不是說所有操船因素都能控制，而是區分可控制因素（例如舵、螺槳）與不可控制因素（例如風、流）；操船者的專業在於迅速評估並適當運用或補償這些因素。",
@@ -117,12 +130,13 @@
       }
     ],
     "assumptions": [
-      "依考選部原題及海事英文語境作答。"
+      "依考選部原題及海事英文語境作答。",
+      "以未來引水人考試所需的現行專業知識、法規與港區資訊為主；民國83年原題只作題型背景，歷史數據與現況分開呈現。"
     ],
     "limitations": [],
     "verification": {
       "status": "source_checked",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "考選部83年實用英文原卷",
@@ -136,15 +150,15 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "083-practical-english-03-answer-v1",
     "questionId": "083-practical-english-03",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "| 中文詞語 | 建議英文 | 專業用法及例句 |\n|---|---|---|\n| （一）掛滿旗 | **Dress ship / Dress overall** | *The vessel will dress overall on the national holiday.*（本船將於國慶日掛滿旗。） |\n| （二）壞天氣 | **Bad weather / Foul weather** | *The pilotage operation was postponed due to foul weather.*（因天候惡劣，引水作業延期。） |\n| （三）禁泊區 | **Prohibited anchorage / No-anchoring area** | *Anchoring is prohibited in this area.*（本區禁止下錨。） |\n| （四）巡航半徑 | **Cruising radius / Radius of action** | *The vessel's radius of action is limited by her fuel capacity.*（本船的活動半徑受燃油容量限制。） |\n| （五）貨櫃船格 | **Container cell / Cell guide** | *The container must be stowed in the designated cell.*（貨櫃必須裝入指定船格。） |\n| （六）車葉橫推力 | **Propeller transverse thrust / Propeller side thrust** | *The pilot allowed for transverse thrust when the vessel was moving astern.*（船舶倒俥時，引水人已考慮螺槳橫向推力。） |\n| （七）迴旋場 | **Turning basin** | *The vessel requires a sufficient turning basin before berthing.*（船舶靠泊前需要足夠的迴旋水域。） |\n| （八）臨界轉數 | **Critical RPM / Critical revolutions** | *The engine should pass through the critical RPM range promptly.*（主機應迅速通過臨界轉速範圍。） |\n| （九）空氣壓縮機 | **Air compressor** | *The air compressor supplies starting air to the main engine.*（空氣壓縮機供應主機起動空氣。） |\n| （十）快速碼頭 | **Quick-turnaround berth / Express berth** | *The port provides a quick-turnaround berth for vessels requiring short port stays.*（港口提供供短時間停港船舶使用的快速周轉泊位。） |\n\n**用語辨析**\n1. **Dress ship** 是掛旗裝飾船舶的通用說法；**dress overall** 特別強調沿船首至船尾及桅桿掛滿旗。\n2. **Prohibited anchorage／No-anchoring area** 是禁止下錨；若題目指禁止船舶靠泊，應改用 **No-berthing area**。\n3. **Container cell** 指貨櫃在船上的格位；**cell guide** 指導引及固定貨櫃的導槽結構。\n4. **Radius of action** 常用於船舶在燃油、續航力限制下可執行任務的活動半徑；**cruising radius** 亦可理解，但需依語境選用。\n5. **Critical RPM** 指主機臨界轉速；若指不得長時間停留的轉速區間，較精確用語為 **barred speed range**。\n6. 「快速碼頭」不是單一固定的國際標準術語；若強調快速裝卸、縮短停港時間，**quick-turnaround berth** 比直譯 *fast quay* 自然。",
+    "modelAnswer": "| 中文詞語 | 建議英文 | 專業用法及例句 |\n|---|---|---|\n| （一）掛滿旗 | **Dress ship / Dress overall** | *The vessel will dress overall on the national holiday.*（本船將於國慶日掛滿旗。） |\n| （二）壞天氣 | **Bad weather / Foul weather** | *The pilotage operation was postponed due to foul weather.*（因天候惡劣，引水作業延期。） |\n| （三）禁泊區 | **Prohibited anchorage / No-anchoring area** | *Anchoring is prohibited in this area.*（本區禁止下錨。） |\n| （四）巡航半徑 | **Cruising radius / Radius of action** | *The vessel's radius of action is limited by her fuel capacity.*（本船的活動半徑受燃油容量限制。） |\n| （五）貨櫃船格 | **Container cell / Cell guide** | *The container must be stowed in the designated cell.*（貨櫃必須裝入指定船格。） |\n| （六）車葉橫推力 | **Propeller transverse thrust / Propeller side thrust** | *The pilot allowed for transverse thrust when the vessel was moving astern.*（船舶倒俥時，引水人已考慮螺槳橫向推力。） |\n| （七）迴旋場 | **Turning basin** | *The vessel requires a sufficient turning basin before berthing.*（船舶靠泊前需要足夠的迴旋水域。） |\n| （八）臨界轉數 | **Critical RPM / Critical revolutions** | *The engine should pass through the critical RPM range promptly.*（主機應迅速通過臨界轉速範圍。） |\n| （九）空氣壓縮機 | **Air compressor** | *The air compressor supplies starting air to the main engine.*（空氣壓縮機供應主機起動空氣。） |\n| （十）快速碼頭 | **Quick-turnaround berth / Express berth** | *The port provides a quick-turnaround berth for vessels requiring short port stays.*（港口提供供短時間停港船舶使用的快速周轉泊位。） |\n\n**用語辨析**\n1. **Dress ship** 是掛旗裝飾船舶的通用說法；**dress overall** 特別強調沿船首至船尾及桅桿掛滿旗。\n2. **Prohibited anchorage／No-anchoring area** 是禁止下錨；若題目指禁止船舶靠泊，應改用 **No-berthing area**。\n3. **Container cell** 指貨櫃在船上的格位；**cell guide** 指導引及固定貨櫃的導槽結構。\n4. **Radius of action** 常用於船舶在燃油、續航力限制下可執行任務的活動半徑；**cruising radius** 亦可理解，但需依語境選用。\n5. **Critical RPM** 指主機臨界轉速；若指不得長時間停留的轉速區間，較精確用語為 **barred speed range**。\n6. 「快速碼頭」不是單一固定的國際標準術語；若強調快速裝卸、縮短停港時間，**quick-turnaround berth** 比直譯 *fast quay* 自然。\n\n【待查核】「快速碼頭」及「貨櫃船格」可能是舊教材特定術語，需依原教材語境確認。",
     "practicalAnalysis": "本題30分，十個詞語均須翻譯並造完整英文句子。對禁泊區、貨櫃船格及快速碼頭等詞，需依上下文選擇更精確的術語。",
     "keyPoints": [
       {
@@ -186,14 +200,15 @@
       }
     ],
     "assumptions": [
-      "依考選部原題及海事英文語境作答。"
+      "依考選部原題及海事英文語境作答。",
+      "以未來引水人考試所需的現行專業知識、法規與港區資訊為主；民國83年原題只作題型背景，歷史數據與現況分開呈現。"
     ],
     "limitations": [
       "「快速碼頭」及「貨櫃船格」可能是舊教材特定術語，需依原教材語境確認。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "考選部83年實用英文原卷",
@@ -202,11 +217,16 @@
         },
         {
           "item": "航海英文及專業用語",
-          "result": "partial",
+          "result": "needs_review",
           "note": "多數詞彙可對應專業英文；「快速碼頭」須依題目原始教材語境確認，避免視為唯一標準譯名。"
+        },
+        {
+          "item": "十個專業詞語及例句",
+          "result": "needs_review",
+          "note": "大部分術語可對應；「快速碼頭」與「貨櫃船格」仍須指定教材語境確認，不能將單一譯法視為唯一標準。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   }
 ]
