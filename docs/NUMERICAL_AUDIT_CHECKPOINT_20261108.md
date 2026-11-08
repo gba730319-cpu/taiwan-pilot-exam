@@ -291,3 +291,24 @@
 - 已交叉核對ITTC Dictionary 2024、ITTC推進資料呈現文件及USNA EN400：IHP、BHP、SHP、DHP、THP、EHP的定義與量測位置；`BHP=2πnQ`中的n須用r/s，不能直接用rpm。
 - 已將整體狀態調整為 **partially_verified**，因題目未指定船型及推進配置，典型效率範圍不可視為固定功率比例；伴流係數w若採Taylor定義，船體效率常寫`η_H=(1−t)/(1−w)`，但必須明確說明w及t的定義，不能與其他伴流慣例混用。
 - 已保留重要觀念：船體效率可能大於1；功率鏈箭頭是功率分析順序，不代表每一級都必然比前一級小。
+
+
+### 35. 民國98年第1題：DNV舵面積經驗式及題幹參數歧義
+
+- 題目ID：`98-shiphandling-01`。
+- 依舵位於螺槳正後方的DNV經驗式，`A_R=(T×LBP/100)[1+25(B/LBP)^2]`；代入T=9m、LBP=150m、B=26m，得23.64m²，算術正確。
+- 題目原文資料目前顯示為「設計水深9m」，但公式所需參數是船舶設計吃水T；航道水深不能直接代替船舶吃水。已將狀態調整為 **partially_verified**，答案仍以T=9m作條件式演算，並清楚說明若9m實為航道水深，則題目缺少吃水資料，無法唯一求得舵面積。
+- GRT 15,000不代入該經驗式；本式是初步設計估算，不是法定通用最低舵面積。
+
+### 36. 民國96年第5題：置換性干預（Convert interference）術語待查核
+
+- 題目ID：`96-shiphandling-05`。
+- 考選部題庫文字為「置換性干預（Convert interference）」。Convert interference並非已確認的標準海事操船術語；現有答案依語境推測可能涉及Conning／Control interference，即引水人操船指揮遭不當干預或出現雙重指令。
+- **維持 needs_review／待查核**：未找到IMO或權威海事詞典對Convert interference的正式定義，不能把推測解釋包裝成確定術語。答案已將「原題英文非標準術語」及可能解讀明確標示，並以BRM、Master-Pilot Exchange及臺灣引水法權責說明可確定的處置原則。
+- 後續若取得考選部原卷清晰影像、命題參考書或當年授課教材，再判斷是否為Conning interference、Control interference或其他用語；未確認前不改寫原題。
+
+### 37. 民國96年船舶操縱題庫整體檢查
+
+- `96-shiphandling-01`：25tf恆定倒俥力模型重算，停止距離466.34m；障礙物距離450m時殘速約2.25kn、平移動能約4.01MJ。維持source_checked，並保留理想化推力假設。
+- `96-shiphandling-02`至`96-shiphandling-04`及`96-shiphandling-06`為交互作用、MMG、AZIPOD及視覺透視效應題，非數值計算題；已檢查其主要技術定義及實務限制，未發現需因算術而修改的內容。
+- 題庫中另有`answers-2003-shiphandling.json`保存相同92年題號的舊draft資料；目前網站`app/page.tsx`直接匯入的是`answers-common-092-shiphandling.json`，未匯入該舊draft檔。先保留舊檔，不擅自刪除，避免破壞歷史資料；後續可另做孤兒資料清理。
