@@ -93,8 +93,8 @@
       "實際船舶的大舵角轉向會伴隨減速、漂角及非線性，固定速度的一階模型無法完整呈現。"
     ],
     "verification": {
-      "status": "source_checked",
-      "checkedAt": "2026-11-06",
+      "status": "partially_verified",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "原始題目及輸入數值",
