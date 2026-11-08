@@ -115,8 +115,8 @@
       "船體效率可能大於1，故IHP至EHP的簡化箭頭只代表功率分析順序，不能解讀為每一項效率皆小於1。"
     ],
     "verification": {
-      "status": "source_checked",
-      "checkedAt": "2026-11-06",
+      "status": "partially_verified",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "IHP與BHP定義及機械效率",
@@ -146,7 +146,7 @@
         {
           "item": "各種效率是否可視為固定功率百分比",
           "result": "needs_review",
-          "note": "題目未指定船型與推進配置，答案列典型範圍，不宣稱為通用固定比率。"
+          "note": "核心功率定義已由ITTC/USNA核對，但未指定船型與推進配置，典型效率範圍僅供參考，不可當成該船固定功率比例。"
         },
         {
           "item": "SHP與DHP量測位置及定義",
@@ -161,7 +161,7 @@
         {
           "item": "船體效率伴流定義",
           "result": "needs_review",
-          "note": "(1−t)/(1−w)採Taylor伴流分數慣例；不同文獻若採Froude伴流定義，公式形式不同，考試應標明慣例。"
+          "note": "(1−t)/(1−w)採Taylor伴流分數慣例；其他文獻若採Froude伴流定義，符號及公式可能不同，作答須明確定義w與t。"
         },
         {
           "item": "考選部原題PDF題號連結",
@@ -170,6 +170,6 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-08"
   }
 ]
