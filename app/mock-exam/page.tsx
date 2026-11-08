@@ -34,6 +34,34 @@ export default function MockExamPage(){
   const [duration,setDuration]=useState(3600);
   const [active,setActive]=useState(0);
   const [confirmSubmit,setConfirmSubmit]=useState(false);
+  const [sessionRestored,setSessionRestored]=useState(false);
+  useEffect(()=>{
+    try {
+      const raw=window.localStorage.getItem("pilot-exam-mock-session-v1");
+      if(raw){
+        const saved=JSON.parse(raw);
+        if(Array.isArray(saved.exam)&&saved.exam.length===26)setExam(saved.exam);
+        if(saved.answers&&typeof saved.answers==="object")setAnswers(saved.answers);
+        if(typeof saved.started==="boolean")setStarted(saved.started);
+        if(typeof saved.submitted==="boolean")setSubmitted(saved.submitted);
+        if(Number.isFinite(saved.elapsed))setElapsed(Math.max(0,saved.elapsed));
+        if(Number.isFinite(saved.duration))setDuration(Math.max(0,saved.duration));
+        if(Number.isInteger(saved.active))setActive(Math.min(25,Math.max(0,saved.active)));
+      }
+    } catch(error) {
+      console.warn("Unable to restore mock exam session:",error);
+    } finally {
+      setSessionRestored(true);
+    }
+  },[]);
+  useEffect(()=>{
+    if(!sessionRestored)return;
+    try {
+      window.localStorage.setItem("pilot-exam-mock-session-v1",JSON.stringify({exam,answers,started,submitted,elapsed,duration,active}));
+    } catch(error) {
+      console.warn("Unable to save mock exam session locally:",error);
+    }
+  },[sessionRestored,exam,answers,started,submitted,elapsed,duration,active]);
   useEffect(()=>{if(!started||submitted)return;const id=window.setInterval(()=>setElapsed(v=>v+1),1000);return()=>window.clearInterval(id);},[started,submitted]);
   const answered=useMemo(()=>exam.filter(q=>(answers[q.id]||"").trim().length>0).length,[exam,answers]);
   const grouped=useMemo(()=>plan.map(p=>({ ...p,questions:exam.filter(q=>q.examSubject===p.subject)})),[exam]);
@@ -78,7 +106,7 @@ export default function MockExamPage(){
         <div className="mock-result-score"><b>{answered}/26</b><span>已填答題數</span></div>
         <h2>本次作答完成</h2><p>申論、計算與繪圖題需要依評分標準人工檢討，因此網站不會用關鍵字或字數假裝替你打分。</p>
         {grouped.map(g=><div className="mock-review-group" key={g.subject}><h3>{g.subject} <small>{g.questions.filter(q=>(answers[q.id]||"").trim()).length}/{g.count} 題已作答</small></h3>{g.questions.map((q,i)=><article key={q.id}><b>第 {i+1} 題｜民國{q.year-1911}年</b><p>{q.question}</p><div className="mock-own-answer">{answers[q.id]||"本題未作答"}</div><Link href={"/?search="+encodeURIComponent(q.question.slice(0,24))}>回題庫查看參考擬答 ↗</Link></article>)}</div>)}
-        <button className="mock-primary" onClick={()=>{setStarted(false);setSubmitted(false);setExam([]);}}>重新設定下一份試卷</button>
+        <button className="mock-primary" onClick={()=>{setStarted(false);setSubmitted(false);setExam([]);setAnswers({});setElapsed(0);setActive(0);}}>重新設定下一份試卷</button>
       </section>: <section className="mock-work">
         <aside className="mock-nav"><h3>試題索引</h3>{grouped.map(g=><div className="mock-nav-group" key={g.subject}><b>{g.subject}</b><div>{g.questions.map(q=>{const n=exam.findIndex(x=>x.id===q.id);return <button key={q.id} className={(active===n?"active ":"")+(answers[q.id]?.trim()?"done":"")} onClick={()=>setActive(n)}>{n+1}</button>;})}</div></div>)}<small>綠色代表已填答</small></aside>
         <div className="mock-paper">
@@ -88,7 +116,7 @@ export default function MockExamPage(){
           <label htmlFor="mock-answer">作答區</label>
           <textarea id="mock-answer" value={answers[current.id]||""} onChange={e=>setAnswers(v=>({...v,[current.id]:e.target.value}))} placeholder="請在此輸入你的完整答案；若需繪圖，可先寫出圖示要點，正式練習時建議另備紙筆。" />
           <div className="mock-paper-actions"><button className="mock-secondary" disabled={active===0} onClick={()=>setActive(v=>v-1)}>上一題</button><button className="mock-secondary" disabled={active===25} onClick={()=>setActive(v=>v+1)}>下一題</button></div>
-          <div className="mock-savehint">答案會暫存在目前頁面；交卷前可自由切換題目修改。</div>
+          <div className="mock-savehint">作答會自動儲存在這台裝置；重新整理或關閉頁面後仍可接續，交卷前可自由切換題目修改。</div>
         </div>
       </section>}
       {!submitted&&<div className="mock-submitbar"><span>已填答 <b>{answered}</b> / 26 題</span><button onClick={()=>setConfirmSubmit(true)}>交卷</button></div>}
