@@ -418,6 +418,14 @@
         "sourceType": "textbook_or_academic",
         "issuer": "Henry H. Hooyer, Cornell Maritime Press",
         "supports": "正橫流力經驗公式、係數f與水深／吃水比，以及70 KDWT油輪的相同算例。"
+      },
+      {
+        "title": "Behavior and Handling of Ships",
+        "sourceType": "textbook_or_academic",
+        "issuer": "Henry H. Hooyer, Cornell Maritime Press / Schiffer Publishing",
+        "editionOrEffectiveDate": "1983; reprint 2009",
+        "url": "https://www.pupgroup33.com/Web-Content/documents/books/ship_handling/Behavior_and_Handling_of_Ship.pdf",
+        "supports": "Beam current force estimate C=f×L×d×v², coefficient values for depth/draft ratios, and the exact 70 KDWT tanker worked example"
       }
     ],
     "assumptions": [
@@ -435,7 +443,7 @@
         {
           "item": "Hooyer教材經驗公式及係數",
           "result": "pass",
-          "note": "核對公式C=f×L×d×V²及f=0.0015、0.0018、0.0036的深度／吃水比級距。"
+          "note": "已核對Hooyer原書章節及70 KDWT、790ft水線長、46ft水深範例；原書列出f=0.0015（H/d=3）、0.0018（H/d=2）、0.0036（H/d=1.1）。"
         },
         {
           "item": "壓艙及滿載計算",
