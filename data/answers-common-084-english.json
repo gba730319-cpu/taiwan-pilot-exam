@@ -2,7 +2,7 @@
   {
     "id": "084-english-01-answer-v1",
     "questionId": "084-english-01",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
     "modelAnswer": "【中文翻譯】\\n\\n（1）當主機以慢速前進或全速倒俥運轉時，螺槳所產生的轉向作用最大；而船舶在水中的航速愈高，其迴轉圈半徑也愈大。\\n\\n（2）主機從停止狀態開始運轉時，螺槳攪動水流的現象最為劇烈，尤其是在倒俥時更是如此；若由全速前進突然轉為全速倒俥，情況尤其明顯。此時船舶各處所感受到的劇烈振動，是由空蝕現象所造成：螺槳葉片接連快速地進入同一個低壓空穴，而水流尚來不及重新填滿該空穴。\\n\\n【術語】\\n- screw：螺槳／螺旋槳。\\n- turning effect：橫向推力造成的轉向效應，與螺槳旋向及車鐘狀態有關。\\n- turning circle：迴轉圈／迴轉軌跡。\\n- churning：劇烈攪動水流。\\n- cavitation：空蝕，因局部壓力降低形成汽泡，汽泡潰滅時造成振動及侵蝕。\\n- cavity：空穴／汽穴。",
@@ -36,12 +36,13 @@
       }
     ],
     "assumptions": [
-      "依考選部題目原文及海事英文語境作答。"
+      "依考選部題目原文及海事英文語境作答。",
+      "以2027年及未來引水人考試所需之現行專業知識、法規與安全實務為主；民國84年原題僅作題型背景，歷史條文與現行規範分層說明。"
     ],
     "limitations": [],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "考選部84年實用英文原卷",
@@ -50,17 +51,17 @@
         },
         {
           "item": "機械及航標專業術語",
-          "result": "partial",
+          "result": "needs_review",
           "note": "球形舵柱及雷達導燈仍需原教材確認。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "084-english-02-answer-v1",
     "questionId": "084-english-02",
-    "version": 1,
+    "version": 2,
     "language": "en",
     "answerType": "essay",
     "modelAnswer": "**Mooring with Both Anchors in a Roadstead During Bad Weather**\\n\\nBefore approaching the anchorage, I would check the weather forecast, wind direction, sea state, current, tide and available depth. The main engine, steering gear, windlass, brakes and communication equipment must be tested and kept ready. The crew should be briefed, the anchor parties should wear proper protective equipment, and both anchors and cables should be prepared. The ship should have a suitable draft and trim, with all openings secured and cargo properly lashed.\\n\\nWhen approaching in bad weather, I would proceed at a safe speed with the bow kept as nearly into the wind and sea as practicable. I would avoid turning broadside to the waves and maintain enough speed for steerage. The vessel's position should be checked continuously by radar, GNSS and visual bearings. If necessary, I would request tug assistance and keep the master, VTS and anchor parties informed.\\n\\nA suitable anchorage should provide good shelter, adequate depth, a safe holding ground and enough swinging room. I would also check the proximity of other vessels, traffic routes, submarine cables, pipelines and prohibited anchoring areas. The expected wind shift and the vessel's swinging circle must be considered.\\n\\nFor two-anchor mooring, I would approach the selected position heading into the prevailing wind or current. I would let go the first anchor on the appropriate weather side, pay out the cable under control and allow the ship to fall back. When the vessel reaches the planned position and heading, I would let go the second anchor and pay out its cable. The cables should be adjusted to obtain a suitable spread and prevent them from crossing or fouling each other. Finally, I would check the cable leads, apply the brakes, take bearings and record the position. An anchor watch must be maintained continuously, especially while the weather is deteriorating.",
@@ -98,12 +99,13 @@
       }
     ],
     "assumptions": [
-      "依考選部題目原文及海事英文語境作答。"
+      "依考選部題目原文及海事英文語境作答。",
+      "以2027年及未來引水人考試所需之現行專業知識、法規與安全實務為主；民國84年原題僅作題型背景，歷史條文與現行規範分層說明。"
     ],
     "limitations": [],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "考選部84年實用英文原卷",
@@ -112,20 +114,20 @@
         },
         {
           "item": "機械及航標專業術語",
-          "result": "partial",
+          "result": "needs_review",
           "note": "球形舵柱及雷達導燈仍需原教材確認。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "084-english-03-answer-v1",
     "questionId": "084-english-03",
-    "version": 2,
+    "version": 3,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "| 中文詞語 | 建議英文 | 英文例句 |\n|---|---|---|\n| 暴風軌跡 | Storm track | The vessel altered her route to keep clear of the forecast storm track. |\n| 氣壓梯度 | Pressure gradient | A steep pressure gradient may produce strong winds. |\n| 東北季風 | Northeast monsoon | The northeast monsoon often brings rough seas to the northern coast of Taiwan. |\n| 應急舵 | Emergency steering gear | The crew tested the emergency steering gear before entering the port. |\n| 雷達導標／雷達標 | Radar beacon; specifically RACON or RAMARK according to type | The RACON responded to the ship's radar and helped the pilot identify the harbour entrance. |\n| 危險暗礁 | Dangerous submerged reef | The chart indicates a dangerous submerged reef close to the channel. |\n| 橫向推進器 | Bow thruster / transverse thruster | The bow thruster assisted the vessel during berthing. |\n| 球形舵柱 | Spherical rudder stock (literal); spherical bearing of the rudder stock (if referring to the bearing) | The spherical bearing of the rudder stock was inspected during dry docking. |\n| 傾斜角 | Angle of heel | The officer monitored the angle of heel during cargo operations. |\n| 自脫鉤 | Quick-release hook / automatic release hook | The tug's quick-release hook was tested before the towing operation. |\n\n【術語注意】\n\n1. **雷達導標：**若指船舶雷達發射後會回傳識別訊號的航標，通常稱RACON（radar transponder beacon）；RAMARK則是連續發射雷達訊號的雷達標。題目未指定型式時可先寫radar beacon，再依設備型式細分。\n2. **球形舵柱：**spherical rudder stock是字面翻譯，但並非常見標準設備名稱。若原教材實際指舵柱的球面軸承，應寫spherical bearing of the rudder stock；若指球接頭，則應寫ball-and-socket joint。須回查原教材圖示確認。\n3. **自脫鉤：**拖船設備通常使用quick-release hook，強調可快速釋放拖纜；automatic release hook可作一般描述，但不一定是所有設備的正式名稱。",
+    "modelAnswer": "| 中文詞語 | 建議英文 | 英文例句 |\n|---|---|---|\n| 暴風軌跡 | Storm track | The vessel altered her route to keep clear of the forecast storm track. |\n| 氣壓梯度 | Pressure gradient | A steep pressure gradient may produce strong winds. |\n| 東北季風 | Northeast monsoon | The northeast monsoon often brings rough seas to the northern coast of Taiwan. |\n| 應急舵 | Emergency steering gear | The crew tested the emergency steering gear before entering the port. |\n| 雷達導標／雷達標 | Radar beacon; specifically RACON or RAMARK according to type | The RACON responded to the ship's radar and helped the pilot identify the harbour entrance. |\n| 危險暗礁 | Dangerous submerged reef | The chart indicates a dangerous submerged reef close to the channel. |\n| 橫向推進器 | Bow thruster / transverse thruster | The bow thruster assisted the vessel during berthing. |\n| 球形舵柱 | Spherical rudder stock (literal); spherical bearing of the rudder stock (if referring to the bearing) | The spherical bearing of the rudder stock was inspected during dry docking. |\n| 傾斜角 | Angle of heel | The officer monitored the angle of heel during cargo operations. |\n| 自脫鉤 | Quick-release hook / automatic release hook | The tug's quick-release hook was tested before the towing operation. |\n\n【術語注意】\n\n1. **雷達導標：**若指船舶雷達發射後會回傳識別訊號的航標，通常稱RACON（radar transponder beacon）；RAMARK則是連續發射雷達訊號的雷達標。題目未指定型式時可先寫radar beacon，再依設備型式細分。\n2. **球形舵柱：**spherical rudder stock是字面翻譯，但並非常見標準設備名稱。若原教材實際指舵柱的球面軸承，應寫spherical bearing of the rudder stock；若指球接頭，則應寫ball-and-socket joint。須回查原教材圖示確認。\n3. **自脫鉤：**拖船設備通常使用quick-release hook，強調可快速釋放拖纜；automatic release hook可作一般描述，但不一定是所有設備的正式名稱。\n\n【待查核】「球形舵柱」未附原教材圖示，無法確認是舵柱本體、球面軸承或球接頭；正式答案須依原圖確認。",
     "practicalAnalysis": "原答案將雷達導燈直接譯為Radar beacon／Racon，未區分RACON與RAMARK；將球形舵柱直譯成spherical rudder stock也可能不符合實際機械構件。現已補充RACON／RAMARK差別、舵柱球面軸承與球接頭的可能對應，並將自脫鉤優先譯為拖船常用的quick-release hook。",
     "keyPoints": [
       {
@@ -171,10 +173,18 @@
         "issuer": "Marine engineering equipment references",
         "url": "https://www.anschuetz.com/fileadmin/user_upload/10000001271_Rudder_Feedback_Unit_AS_101-532.NG001-004_E01_OP_SE.pdf",
         "supports": "舵柱、球接頭及球面軸承相關機械術語。"
+      },
+      {
+        "title": "84年甲種引水人實用英文官方試題",
+        "sourceType": "official_exam_question",
+        "issuer": "考選部",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=016&code=084140&q=1&s=3001&t=Q",
+        "supports": "原題全文與題型核對。"
       }
     ],
     "assumptions": [
-      "依常見海事英文及設備用語提供主譯；有歧義的中文構件詞保留替代譯法。"
+      "依常見海事英文及設備用語提供主譯；有歧義的中文構件詞保留替代譯法。",
+      "以2027年及未來引水人考試所需之現行專業知識、法規與安全實務為主；民國84年原題僅作題型背景，歷史條文與現行規範分層說明。"
     ],
     "limitations": [
       "「球形舵柱」未附原教材圖示，無法確認是舵柱本體、球面軸承或球接頭；正式答案須依原圖確認。"
@@ -192,6 +202,11 @@
           "item": "雷達標與球形舵柱",
           "result": "needs_review",
           "note": "雷達標須依RACON／RAMARK型式區分；球形舵柱缺原教材圖示，保留可能譯法。"
+        },
+        {
+          "item": "雷達導標及球形舵柱術語",
+          "result": "needs_review",
+          "note": "雷達導標須按RACON／RAMARK型式區分；「球形舵柱」缺原教材圖示，保留舵柱本體、球面軸承或球接頭等可能解釋。"
         }
       ]
     },
