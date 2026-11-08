@@ -2,11 +2,11 @@
   {
     "id": "085-english-01-answer-v1",
     "questionId": "085-english-01",
-    "version": 1,
+    "version": 2,
     "language": "en",
     "answerType": "essay",
-    "modelAnswer": "**1. Wind rode**\n\nA vessel is said to be wind-rode when the wind has a strong influence on her heading or movement, often causing her bow to pay off or the vessel to drift. The exact meaning should be understood from the anchoring context.\n\n**2. Clear hawse**\n\nA condition in which the port and starboard anchor cables are clear of each other and are not crossed or fouled.\n\n**3. Muster list**\n\nA shipboard list assigning each crew member specific duties in an emergency, such as abandoning ship, fire-fighting, closing watertight doors and mustering passengers.\n\n**4. Bower anchor**\n\nOne of the principal anchors carried at the bow of a ship and used for normal anchoring. Ships commonly carry a port bower and a starboard bower anchor.\n\n**5. Tender ship**\n\nA ship with relatively small metacentric height (GM), which has a slow and relatively large rolling motion. A tender condition may indicate insufficient initial stability and requires careful assessment.\n\n**6. Wake current**\n\nThe current or water flow produced by a moving vessel, including the water displaced and accelerated astern by the hull and propeller. It may affect nearby vessels, small craft and objects in the water.",
-    "practicalAnalysis": "本題30分，六個詞組以海事英文定義作答。Wind rode及wake current須結合錨泊及船舶運動語境，避免直譯造成誤解。",
+    "modelAnswer": "**1. Wind-rode**\n\nA vessel is *wind-rode* when she is lying at anchor with her bow heading into the wind. If the tidal stream is stronger than the wind effect, the vessel may instead lie tide-rode.\n\n**2. Clear hawse**\n\nA condition in which the port and starboard anchor cables are clear of each other and are not crossed, foul or twisted.\n\n**3. Muster list**\n\nA shipboard list assigning each crew member specific duties and stations in an emergency, such as fire, abandon ship, closing watertight doors and mustering passengers.\n\n**4. Bower anchor**\n\nA principal working anchor carried at the bow, normally one of the ship’s port or starboard anchors, used for ordinary anchoring.\n\n**5. Tender ship**\n\nA ship with relatively small metacentric height (GM), usually having a slow, long-period roll. A tender condition indicates low initial stability and must be distinguished from a stiff ship with large GM and quick, short-period rolling.\n\n**6. Wake current**\n\nA ship-induced water movement in the wake region, arising from hull friction and propeller action as the vessel moves ahead. It is distinct from the visible surface wake alone and may affect nearby small craft or the flow entering a following vessel’s propeller.\n\n**術語提醒：**Wind-rode的錨泊姿態可明確定義；wake current在不同教材中的使用範圍略有差異，考試宜依指定教材用語核對。\n\n【待查核】Wake current在不同海事教材中的定義範圍略有差異，仍待與指定教材逐字核對。",
+    "practicalAnalysis": "本題30分，六個詞組應以海事語境定義。Wind-rode是錨泊船艏向風；Tender ship描述初穩度較小、橫搖週期較長；Wake current是船體與螺槳造成的船舶誘發水流，不宜只寫成表面航跡。",
     "keyPoints": [
       {
         "point": "Clear hawse：兩錨鏈不交叉、不纏繞。",
@@ -37,17 +37,25 @@
         "editionOrEffectiveDate": "民國85年（1996）",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=023&code=085150&q=1&s=3001&t=Q",
         "supports": "實用英文三題原卷。"
+      },
+      {
+        "title": "Glossary of Marine Navigation",
+        "sourceType": "nautical_reference",
+        "issuer": "National Geospatial-Intelligence Agency (archived edition)",
+        "url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/23/69/30/50/2023693050/2023693050.pdf",
+        "supports": "Wind-rode：錨泊船艏向風之術語定義。"
       }
     ],
     "assumptions": [
-      "依題目指定英文寫作及海事專業語境作答。"
+      "依題目指定英文寫作及海事專業語境作答。",
+      "以未來引水人考試所需的現行航海專業知識與法規為主；民國85年原題僅作題型背景，歷史法規與現行規範分開說明。"
     ],
     "limitations": [
-      "Wind rode及wake current在不同航海教材可能有特定用法，需依題目指定教材術語核對。"
+      "Wake current在不同海事教材中的定義範圍略有差異，仍待與指定教材逐字核對。"
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "考選部85年實用英文原卷",
@@ -56,17 +64,27 @@
         },
         {
           "item": "專業術語定義",
-          "result": "partial",
+          "result": "needs_review",
           "note": "Wind rode及wake current用法需與指定教材核對。"
+        },
+        {
+          "item": "Wind-rode錨泊用語",
+          "result": "pass",
+          "note": "航海辭典定義為船舶錨泊時艏向風。"
+        },
+        {
+          "item": "Wake current教材用語",
+          "result": "needs_review",
+          "note": "已補充船體摩擦及螺槳造成的船舶誘發流，但不同教材定義範圍仍待核對。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "085-english-02-answer-v1",
     "questionId": "085-english-02",
-    "version": 1,
+    "version": 2,
     "language": "en",
     "answerType": "essay",
     "modelAnswer": "**(1) Declarative mode（直述句）**\nThe ship is approaching the harbour entrance at a safe speed.\n**(2) Interrogative mode（疑問句）**\nIs the ship ready to receive the pilot?\n**(3) Exclamatory mode（感嘆句）**\nWhat a magnificent ship she is!\n**(4) Imperative mode（祈使句）**\nKeep the ship clear of the breakwater!\n\n【文法提醒】\n直述句陳述事實；疑問句提出問題；感嘆句表達強烈情緒；祈使句表示命令、請求或指示。四句均以ship作主題，且句型清楚符合題目要求。",
@@ -100,12 +118,13 @@
       }
     ],
     "assumptions": [
-      "依題目指定英文寫作及海事專業語境作答。"
+      "依題目指定英文寫作及海事專業語境作答。",
+      "以未來引水人考試所需的現行航海專業知識與法規為主；民國85年原題僅作題型背景，歷史法規與現行規範分開說明。"
     ],
     "limitations": [],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "考選部85年實用英文原卷",
@@ -114,17 +133,17 @@
         },
         {
           "item": "專業術語定義",
-          "result": "partial",
+          "result": "needs_review",
           "note": "Wind rode及wake current用法需與指定教材核對。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "085-english-03-answer-v1",
     "questionId": "085-english-03",
-    "version": 1,
+    "version": 2,
     "language": "en",
     "answerType": "essay",
     "modelAnswer": "**Harbor Pilot**\n\nA harbor pilot is a qualified maritime professional who has detailed knowledge of a particular port and its approaches. His main duty is to assist a ship in navigating safely through local waters and in carrying out berthing, unberthing and shifting operations. He is familiar with the channel, water depth, tides, currents, weather, navigational marks, traffic regulations and local hazards.\n\nBefore boarding, the pilot should obtain the vessel's particulars, including her length, beam, draft, propulsion system, manoeuvring characteristics and any defects affecting navigation. After boarding, he should exchange information with the master and agree on a passage or berthing plan. This exchange is important because the master knows his ship best, while the pilot knows the local waters best.\n\nDuring the operation, the pilot gives professional advice and conducts the pilotage in cooperation with the master and the bridge team. He may also coordinate tugboats, mooring crews and the Vessel Traffic Service. Clear communication, proper lookout and continuous monitoring are essential. The pilot must be prepared to revise the plan when wind, current, visibility or traffic conditions change.\n\nA pilot does not relieve the master of the responsibility for the safety of the ship. The master remains in command and should ensure that the pilot's actions are properly monitored. If an unsafe situation develops, either the master or the pilot should speak up and take appropriate action.\n\nIn short, a good harbor pilot combines local knowledge, ship-handling skill, sound judgement and effective communication. His purpose is not to show off his ability, but to protect life, property and the marine environment while ensuring the safe and efficient movement of ships.",
@@ -162,12 +181,13 @@
       }
     ],
     "assumptions": [
-      "依題目指定英文寫作及海事專業語境作答。"
+      "依題目指定英文寫作及海事專業語境作答。",
+      "以未來引水人考試所需的現行航海專業知識與法規為主；民國85年原題僅作題型背景，歷史法規與現行規範分開說明。"
     ],
     "limitations": [],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "考選部85年實用英文原卷",
@@ -176,11 +196,11 @@
         },
         {
           "item": "專業術語定義",
-          "result": "partial",
+          "result": "needs_review",
           "note": "Wind rode及wake current用法需與指定教材核對。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   }
 ]
