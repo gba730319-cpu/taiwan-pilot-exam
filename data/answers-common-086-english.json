@@ -2,10 +2,10 @@
   {
     "id": "086-english-01-answer-v1",
     "questionId": "086-english-01",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【修訂後完整書信】\nCapt. P. C. Chiu\nTai An Marine Supplies\n7th Floor, No. 75, Nanking East Road, Sec. 4\nTaipei, Taiwan\n\nDear Capt. Chiu:\n\nOn December 12, 1996, I placed an order for one set of three charts from Tai An Marine Supplies. Whoever took the order for your organization must have misunderstood my order, as they wrote an order for three sets of three charts. When the order arrived, I told T. K. Chen, the delivery driver, that I had only ordered one set and that I could not accept the additional sets, which were not part of our order. Mr. Chen said that since he worked for Speedy Delivery and Tai An Marine Supplies, they could not alter the shipment. They said we either had to accept the order as it was or reject the entire shipment. We rejected the incorrect order entirely. I have just received an invoice from Tai An Marine Supplies, which states that I owe NT$900 for three sets of charts. Obviously, this is a mistake which we would like to see corrected. In addition, I am still awaiting receipt of my original order, which has still not arrived. I would appreciate your looking into why we have not yet received my one set of charts.\n\nThank you.\n\n【主要錯誤及理由】\n1. Sec. 4th → Sec. 4：地址中的道路段號不加序數詞尾綴。\n2. the additional sets which was → the additional sets, which were：先行詞sets為複數，動詞用were。\n3. not a part of our order → not part of our order：較自然、精簡的固定用法。\n4. as it were → as it was：此處指訂單原本的狀態，應用直述式was。\n5. I has → I have：第一人稱單數現在完成式用have。\n6. this are → this is：this為單數主詞。\n7. which have still not arrived → which has still not arrived：先行詞order為單數。\n8. No.75 → No. 75：數字前留空格，屬格式修正。\n商務書信應清楚列明原訂購數量、錯誤出貨、拒收事實、錯誤發票金額及尚未收到的原訂貨物。",
+    "modelAnswer": "【修訂後完整書信】\nCapt. P. C. Chiu\nTai An Marine Supplies\n7th Floor, No. 75, Nanking East Road, Sec. 4\nTaipei, Taiwan\n\nDear Capt. Chiu:\n\nOn December 12, 1996, I placed an order for one set of three charts from Tai An Marine Supplies. Whoever took the order for your organization must have misunderstood my order, as they wrote an order for three sets of three charts. When the order arrived, I told T. K. Chen, the delivery driver, that I had only ordered one set and that I could not accept the additional sets, which were not part of our order. Mr. Chen said that since he worked for Speedy Delivery and Tai An Marine Supplies, they could not alter the shipment. They said we either had to accept the order as it was or reject the entire shipment. We rejected the incorrect order entirely. I have just received an invoice from Tai An Marine Supplies, which states that I owe NT$900 for three sets of charts. Obviously, this is a mistake which we would like to see corrected. In addition, I am still awaiting receipt of my original order, which has still not arrived. I would appreciate your looking into why we have not yet received my one set of charts.\n\nThank you.\n\n【主要錯誤及理由】\n1. Sec. 4th → Sec. 4：地址中的道路段號不加序數詞尾綴。\n2. the additional sets which was → the additional sets, which were：先行詞sets為複數，動詞用were。\n3. not a part of our order → not part of our order：較自然、精簡的固定用法。\n4. as it were → as it was：此處指訂單原本的狀態，應用直述式was。\n5. I has → I have：第一人稱單數現在完成式用have。\n6. this are → this is：this為單數主詞。\n7. which have still not arrived → which has still not arrived：先行詞order為單數。\n8. No.75 → No. 75：數字前留空格，屬格式修正。\n商務書信應清楚列明原訂購數量、錯誤出貨、拒收事實、錯誤發票金額及尚未收到的原訂貨物。\n\n【待查核】專業術語語境：迴轉穩定器需依原題所指設備型式確認。",
     "practicalAnalysis": "本題40分，先交付完整修訂書信，再逐項列出文法與格式錯誤。保留原信事實，不任意更改日期、公司、訂購數量及發票金額。",
     "keyPoints": [
       {
@@ -36,12 +36,15 @@
       }
     ],
     "assumptions": [
-      "依題目原文保留人物、日期、公司及金額；詞彙採海事商務語境。"
+      "依題目原文保留人物、日期、公司及金額；詞彙採海事商務語境。",
+      "以未來考試所需的現行航海專業知識與現行法規為主；民國86年題文及歷史條次僅作題型背景，不將現行規範倒填為當年法規。"
     ],
-    "limitations": [],
+    "limitations": [
+      "專業術語語境：迴轉穩定器需依原題所指設備型式確認。"
+    ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "考選部86年實用英文原卷",
@@ -50,17 +53,17 @@
         },
         {
           "item": "專業術語語境",
-          "result": "partial",
+          "result": "needs_review",
           "note": "迴轉穩定器需依原題所指設備型式確認。"
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   {
     "id": "086-english-02-answer-v1",
     "questionId": "086-english-02",
-    "version": 3,
+    "version": 4,
     "language": "zh-TW",
     "answerType": "essay",
     "modelAnswer": "【中文翻譯】\n\n（1）接下來的三個小時，他的工作與此前每一位海灣及港口引水人的工作並無二致；這項職業的歷史甚至可追溯至聖經時代。他必須運用自己對海洋以及海灣複雜水域的深入了解，引導船舶安全進港或出港。\n\n（2）引水人並不接管船舶，也不直接操作船上的任何操縱設備。依某些海事法制中的傳統法律用語，他是船舶所「借用的受僱人」（the borrowed servant of the vessel）。船長仍然掌握船舶指揮權，甚至可以解僱引水人或不採納其指令；然而，船舶航行及操縱的實際引領工作，則由引水人提供專業協助。\n\n【重要語意】\n\n- bay and harbor pilot：海灣及港口引水人，指熟悉特定水域的專業引水人。\n- intimate knowledge：深入、熟悉的知識，不是「親密的知識」。\n- borrowed servant of the vessel：船舶借用的受僱人／專業服務者，是部分法域的傳統法律概念，不是船長身分，也不是所有國家現行法的統一法律定位。\n- the conduct of the vessel：船舶航行及操縱的引領，不代表船長指揮權移轉。\n\n【2027備考補充】\n\n原文的borrowed servant屬歷史法律用語，翻譯時應忠實呈現，但不可把它直接當成臺灣現行法的法律定義。依現行《引水法》第32條，引水人應招登船執行領航業務時，仍須尊重船長指揮權；引水人負專業領航工作，船長仍保有指揮權。\n\n【待查核】原文未標示所依據的法域，故不將borrowed servant doctrine擴張為臺灣或國際統一法則。",
@@ -106,7 +109,8 @@
       }
     ],
     "assumptions": [
-      "翻譯忠實保留原文借用受僱人概念，但以臺灣現行法律作為備考補充。"
+      "翻譯忠實保留原文借用受僱人概念，但以臺灣現行法律作為備考補充。",
+      "以未來考試所需的現行航海專業知識與現行法規為主；民國86年題文及歷史條次僅作題型背景，不將現行規範倒填為當年法規。"
     ],
     "limitations": [
       "原文未標示所依據的法域，故不將borrowed servant doctrine擴張為臺灣或國際統一法則。"
@@ -132,7 +136,7 @@
   {
     "id": "086-english-03-answer-v1",
     "questionId": "086-english-03",
-    "version": 2,
+    "version": 3,
     "language": "zh-TW",
     "answerType": "essay",
     "modelAnswer": "| 中文詞語 | 建議英文 | 英文例句 |\n|---|---|---|\n| 不良船席 | Unsuitable berth / Poor berth | The vessel should not be assigned to an unsuitable berth because the depth alongside is insufficient. |\n| 易變天氣 | Changeable weather / Unsettled weather | The pilot advised the master to delay departure because of the changeable weather. |\n| 迴轉穩定器 | Gyroscopic stabilizer | The ship is fitted with a gyroscopic stabilizer to reduce rolling in rough seas. |\n| 海事報告 | Marine incident report / Maritime report | The master submitted a marine incident report to the port authority after the collision. |\n| 舉證責任 | Burden of proof | The burden of proof rests with the party making the allegation. |\n\n【用語補充】\n1. 不良船席：若指水深不足或泊位條件不安全，用unsuitable berth較自然。\n2. 易變天氣：changeable weather或unsettled weather。\n3. 迴轉穩定器：若指陀螺式減搖設備，用gyroscopic stabilizer；若指船側減搖鰭，則為fin stabilizer，兩者不可混淆。\n4. 海事報告：事故情境宜用marine incident report。\n5. 舉證責任：標準法律用語為burden of proof。\n\n【待查核】迴轉穩定器的精確英文取決於題目原始術語所指設備型式。",
@@ -174,7 +178,8 @@
       }
     ],
     "assumptions": [
-      "依題目原文保留人物、日期、公司及金額；詞彙採海事商務語境。"
+      "依題目原文保留人物、日期、公司及金額；詞彙採海事商務語境。",
+      "以未來考試所需的現行航海專業知識與現行法規為主；民國86年題文及歷史條次僅作題型背景，不將現行規範倒填為當年法規。"
     ],
     "limitations": [
       "迴轉穩定器的精確英文取決於題目原始術語所指設備型式。"
@@ -190,7 +195,7 @@
         },
         {
           "item": "專業術語語境",
-          "result": "partial",
+          "result": "needs_review",
           "note": "迴轉穩定器需依原題所指設備型式確認。"
         }
       ]
