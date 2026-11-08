@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<title>離線功能檢查</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding:24px;line-height:1.65;color:#172033}
+h1{font-size:24px} .item{padding:12px;margin:10px 0;border:1px solid #ddd;border-radius:10px;overflow-wrap:anywhere}
+.ok{color:#087443}.bad{color:#b42318}.muted{color:#667085}
+</style>
+</head>
+<body>
+<h1>引水人備考網站｜離線診斷</h1>
+<p class="muted">這個頁面用來確認 iPad 是否成功保存離線網站資料。</p>
+<div id="results">正在檢查……</div>
+<script>
+(async()=>{
+ const root=document.getElementById("results");
+ const add=(label,value,ok)=>{const d=document.createElement("div");d.className="item";const s=document.createElement("strong");s.textContent=label+"：";const v=document.createElement("span");v.className=ok?"ok":"bad";v.textContent=value;d.append(s,v);root.append(d)};
+ add("目前連線",navigator.onLine?"有網路":"離線",navigator.onLine);
+ if(!("serviceWorker" in navigator)){add("Service Worker","此瀏覽器不支援",false)}
+ else{
+  const reg=await navigator.serviceWorker.getRegistration("/");
+  add("Service Worker 註冊",reg?(reg.active?"已啟用":"已註冊但尚未啟用"):"找不到註冊",!!reg&&!!reg.active);
+  add("目前頁面控制權",navigator.serviceWorker.controller?"有控制（可攔截請求）":"沒有控制權",!!navigator.serviceWorker.controller);
+ }
+ if(!("caches" in window)){add("Cache Storage","不支援",false);return}
+ const keys=await caches.keys();
+ add("快取版本",keys.filter(k=>k.startsWith("pilot-exam-offline-")).join(", ")||"找不到備考網站快取",keys.some(k=>k.startsWith("pilot-exam-offline-")));
+ const key=keys.find(k=>k.startsWith("pilot-exam-offline-"));
+ if(key){
+  const cache=await caches.open(key);const requests=await cache.keys();
+  add("已保存資源數",String(requests.length),requests.length>0);
+  const urls=requests.map(r=>new URL(r.url).pathname);
+  add("首頁 HTML",urls.includes("/")?"已保存":"未保存",urls.includes("/"));
+  add("離線提示頁",urls.includes("/offline.html")?"已保存":"未保存",urls.includes("/offline.html"));
+  const js=urls.filter(u=>u.startsWith("/_next/")&&u.endsWith(".js"));
+  add("JavaScript 檔案",js.length+" 個",js.length>0);
+  const css=urls.filter(u=>u.startsWith("/_next/")&&u.endsWith(".css"));
+  add("CSS 檔案",css.length+" 個",css.length>0);
+ }
+ const note=document.createElement("p");note.className="muted";note.textContent="請截圖此頁結果回傳。若要測離線，先在線上開啟此頁，等結果全部出現，再關閉網路並重新整理此頁。";root.append(note);
+})().catch(e=>{document.getElementById("results").textContent="診斷錯誤："+e.message});
+</script>
+</body>
+</html>
