@@ -60,10 +60,10 @@
   {
     "id": "086-english-02-answer-v1",
     "questionId": "086-english-02",
-    "version": 2,
+    "version": 3,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "【中文翻譯】\n\n（1）接下來的三個小時，他的工作與此前每一位海灣及港口引水人的工作並無二致；這項職業的歷史甚至可追溯至聖經時代。他必須運用自己對海洋以及海灣複雜水域的深入了解，引導船舶安全進港或出港。\n\n（2）引水人並不接管船舶，也不直接操作船上的任何操縱設備。依某些海事法制中的傳統法律用語，他是船舶所「借用的受僱人」（the borrowed servant of the vessel）。船長仍然掌握船舶指揮權，甚至可以解僱引水人或不採納其指令；然而，船舶航行及操縱的實際引領工作，則由引水人提供專業協助。\n\n【重要語意】\n\n- bay and harbor pilot：海灣及港口引水人，指熟悉特定水域的專業引水人。\n- intimate knowledge：深入、熟悉的知識，不是「親密的知識」。\n- borrowed servant of the vessel：船舶借用的受僱人／專業服務者，是部分法域的傳統法律概念，不是船長身分，也不是所有國家現行法的統一法律定位。\n- the conduct of the vessel：船舶航行及操縱的引領，不代表船長指揮權移轉。\n\n【2027備考補充】\n\n原文的borrowed servant屬歷史法律用語，翻譯時應忠實呈現，但不可把它直接當成臺灣現行法的法律定義。依現行《引水法》第32條，引水人應招登船執行領航業務時，仍須尊重船長指揮權；引水人負專業領航工作，船長仍保有指揮權。",
+    "modelAnswer": "【中文翻譯】\n\n（1）接下來的三個小時，他的工作與此前每一位海灣及港口引水人的工作並無二致；這項職業的歷史甚至可追溯至聖經時代。他必須運用自己對海洋以及海灣複雜水域的深入了解，引導船舶安全進港或出港。\n\n（2）引水人並不接管船舶，也不直接操作船上的任何操縱設備。依某些海事法制中的傳統法律用語，他是船舶所「借用的受僱人」（the borrowed servant of the vessel）。船長仍然掌握船舶指揮權，甚至可以解僱引水人或不採納其指令；然而，船舶航行及操縱的實際引領工作，則由引水人提供專業協助。\n\n【重要語意】\n\n- bay and harbor pilot：海灣及港口引水人，指熟悉特定水域的專業引水人。\n- intimate knowledge：深入、熟悉的知識，不是「親密的知識」。\n- borrowed servant of the vessel：船舶借用的受僱人／專業服務者，是部分法域的傳統法律概念，不是船長身分，也不是所有國家現行法的統一法律定位。\n- the conduct of the vessel：船舶航行及操縱的引領，不代表船長指揮權移轉。\n\n【2027備考補充】\n\n原文的borrowed servant屬歷史法律用語，翻譯時應忠實呈現，但不可把它直接當成臺灣現行法的法律定義。依現行《引水法》第32條，引水人應招登船執行領航業務時，仍須尊重船長指揮權；引水人負專業領航工作，船長仍保有指揮權。\n\n【待查核】原文未標示所依據的法域，故不將borrowed servant doctrine擴張為臺灣或國際統一法則。",
     "practicalAnalysis": "原答案翻譯基本正確，但把borrowed servant寫得像普遍且現行的海事法律定義，可能讓考生混淆不同法域。現已保留原文歷史性法律用語，同時註明其非所有國家的統一法律定位，並以臺灣現行《引水法》第32條作為2027備考依據。",
     "keyPoints": [
       {
@@ -132,10 +132,10 @@
   {
     "id": "086-english-03-answer-v1",
     "questionId": "086-english-03",
-    "version": 1,
+    "version": 2,
     "language": "zh-TW",
     "answerType": "essay",
-    "modelAnswer": "| 中文詞語 | 建議英文 | 英文例句 |\n|---|---|---|\n| 不良船席 | Unsuitable berth / Poor berth | The vessel should not be assigned to an unsuitable berth because the depth alongside is insufficient. |\n| 易變天氣 | Changeable weather / Unsettled weather | The pilot advised the master to delay departure because of the changeable weather. |\n| 迴轉穩定器 | Gyroscopic stabilizer | The ship is fitted with a gyroscopic stabilizer to reduce rolling in rough seas. |\n| 海事報告 | Marine incident report / Maritime report | The master submitted a marine incident report to the port authority after the collision. |\n| 舉證責任 | Burden of proof | The burden of proof rests with the party making the allegation. |\n\n【用語補充】\n1. 不良船席：若指水深不足或泊位條件不安全，用unsuitable berth較自然。\n2. 易變天氣：changeable weather或unsettled weather。\n3. 迴轉穩定器：若指陀螺式減搖設備，用gyroscopic stabilizer；若指船側減搖鰭，則為fin stabilizer，兩者不可混淆。\n4. 海事報告：事故情境宜用marine incident report。\n5. 舉證責任：標準法律用語為burden of proof。",
+    "modelAnswer": "| 中文詞語 | 建議英文 | 英文例句 |\n|---|---|---|\n| 不良船席 | Unsuitable berth / Poor berth | The vessel should not be assigned to an unsuitable berth because the depth alongside is insufficient. |\n| 易變天氣 | Changeable weather / Unsettled weather | The pilot advised the master to delay departure because of the changeable weather. |\n| 迴轉穩定器 | Gyroscopic stabilizer | The ship is fitted with a gyroscopic stabilizer to reduce rolling in rough seas. |\n| 海事報告 | Marine incident report / Maritime report | The master submitted a marine incident report to the port authority after the collision. |\n| 舉證責任 | Burden of proof | The burden of proof rests with the party making the allegation. |\n\n【用語補充】\n1. 不良船席：若指水深不足或泊位條件不安全，用unsuitable berth較自然。\n2. 易變天氣：changeable weather或unsettled weather。\n3. 迴轉穩定器：若指陀螺式減搖設備，用gyroscopic stabilizer；若指船側減搖鰭，則為fin stabilizer，兩者不可混淆。\n4. 海事報告：事故情境宜用marine incident report。\n5. 舉證責任：標準法律用語為burden of proof。\n\n【待查核】迴轉穩定器的精確英文取決於題目原始術語所指設備型式。",
     "practicalAnalysis": "本題20分，除詞彙翻譯外，還要求每個詞組造出完整英文句子。答案以航運及港口實務語境造句，並說明迴轉穩定器可能涉及陀螺式或減搖鰭式設備。",
     "keyPoints": [
       {
@@ -181,7 +181,7 @@
     ],
     "verification": {
       "status": "partially_verified",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "checks": [
         {
           "item": "考選部86年實用英文原卷",
@@ -195,6 +195,6 @@
         }
       ]
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   }
 ]
