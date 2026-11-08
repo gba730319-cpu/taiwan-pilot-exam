@@ -1887,3 +1887,18 @@
 - 民國114年第3題將Squat定義為動態下沉及縱傾變化，並將岸壁吸引／岸壁墊水視為不同但可能同時發生的水動力交互作用；與民國83、85、86、87、89、90、92年答案的基本概念一致。
 - 本批未發現需要立即修正的跨年度物理概念矛盾。民國104年第1、2、4、6題，108年第1至4、6題，110年第1、3、4、6題，112年第1至3題等仍保留 partially_verified，原有不確定條件不因本次一致性初篩而升級。
 - 本批為民國104至114年抽樣交叉檢查；未對所有數值題重算，亦未取得各船型完整操縱試驗資料。下一批續查Froude數與附加質量、風壓與拖船力計算、舵效與螺槳橫向推力，並將全部跨年度發現整理成最終待查清單。
+
+
+### 船舶操縱跨年度一致性第三批（Froude數、附加質量、風壓與舵槳作用）
+- 查核範圍：抽查民國85年Froude數／Squat題、民國83年風壓與拖船估算題、民國102年慣性係數／船舶艤裝數題，以及民國106、110年風壓、側推器與拖船BP題；並對照民國84、87、100年舵效及螺槳橫向推力相關答案。此批為概念與公式一致性查核，不代表全年度逐題原卷複核。
+- **Froude數定義：**民國85年船舶操縱第6題答案正確區分船長Froude數 (Fn_L=V/\sqrt{gL}) 與水深Froude數 (Fn_h=V/\sqrt{gh})。ITTC《Dictionary of Hydromechanics》（2024）將一般Froude數定義為 (V/\sqrt{gL})，並指出其他形式可使用浸沒深度或受限水域水深等特徵尺度；ISO 13643-1亦分別列出Froude number與Froude depth number。兩者不可混用，計算時速度須採船舶對水速度及一致SI單位。
+- **附加質量與虛擬慣性：**民國102年船舶操縱第5題答案已說明船舶加速時須帶動周圍水體，故有效慣性包含船體質量與附加質量；並指出教材對「virtual inertia factor／inertia coefficient」有兩種常見定義：附加質量比 (M_w/M_s)，或整體虛擬質量比 ((M_s+M_w)/M_s)。ITTC 2024將Added mass定義為與加速度同相且成正比的水動力，並將Added mass coefficient定義為依運動模態區分的無因次係數；另將Virtual mass定義為船體質量與附加質量的合併效果。故答案保留「先交代採用定義」是必要且正確的，不能把單一係數值或名稱當成跨教材通用定義。附加質量亦須區分縱向、橫向、垂向及轉動模態，不可只用一個固定百分比代表所有方向。
+- **風壓與拖船能力：**民國83年第6題以題目提供的基準風壓及風速平方比例估算約9.2 tf，並明確把矩形側投影面積及「每100 HP約1 tf」列為題設／經驗簡化假設，而非通用工程公式。民國106年第1題採 (q=\frac12\rho_a V^2)、(F_w=qC_DA)，並計算風壓中心力臂與偏航力矩；民國110年第1題則正確區分側推器額定功率與推力、拖船HP與Bollard Pull。學術船舶操縱模型亦以相對風速平方、空氣密度、投影面積及風向係數估算風力。結論：83年答案的9.2 tf可作題目簡化計算結果，但920 HP僅為條件式經驗估算；106年公式架構較適合作為現代通用說明，仍須取得實際投影面積、風阻係數、相對風向及拖船BP，不能由HP直接推算安全拖力。
+- **舵力與螺槳流：**民國84、100年相關答案均以舵面相對水流作為舵力來源，並指出螺槳尾流可改變舵面來流；民國108年吊艙推進器答案則提醒推力向量及低速操縱能力須依設備型號與船舶流場判斷。MMG標準操縱數學模型將船體、螺槳及舵力分項處理，並明列舵—船體交互作用係數；因此答案應避免把「船速」直接等同舵面流速，也不可將所有舵力視為只由自由流產生。螺槳橫向推力（propeller walk）方向則須依螺槳旋向、前進／倒俥、轉速及船艉流場判斷，不宜在題目未提供螺槳型式時給出固定車舵口令。
+- **本批結果：**未發現上述題目現有主答存在需立即改寫的公式性錯誤；民國85年第6題、102年第5題及83年第6題已有必要的定義／假設警語。未將任何答案的 partially_verified 或 needs_review 狀態自動升級，也未以跨年度概念比對取代原卷圖表、船舶手冊或實船性能資料。
+- **本批官方／專業來源：**
+  - ITTC, *Dictionary of Hydromechanics*, Version 2024（Froude number、Added mass、Added mass coefficient、Virtual mass）：https://ittc.info/media/12042/ittc-hydromechanics-dictionary_alphabetical_2024.pdf
+  - ISO 13643-1:2013, *Ships and marine technology — Manoeuvring of ships — Part 1: General quantities*（Froude number與Froude depth number定義）：https://standards.iteh.ai/catalog/standards/iso/ba918c37-71c9-4a35-8ce9-25ebfeb0c7a9/iso-13643-1-2013
+  - Yasukawa & Yoshimura, *Introduction of MMG standard method for ship maneuvering predictions*（船體、螺槳、舵力及交互作用模型）：https://doi.org/10.1007/s00773-014-0293-y
+  - *Preliminary Study on the Contribution of External Forces to Ship Behavior*（風力與舵力模型，含相對風向係數）：https://www.mdpi.com/2077-1312/7/3/72
+- 下一批：將船舶操縱數值題按題目ID建立公式／已知條件／單位／假設核對清單，優先檢查停止距離、拖力、風壓、Squat及潮流偏流角；缺原卷圖表或船舶性能資料者維持待查核。
