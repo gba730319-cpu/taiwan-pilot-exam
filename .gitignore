@@ -3,3 +3,13 @@ node_modules/
 .vercel/
 out/
 *.tsbuildinfo
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Private keys and credentials
+*.pem
+id_rsa
+id_ed25519
