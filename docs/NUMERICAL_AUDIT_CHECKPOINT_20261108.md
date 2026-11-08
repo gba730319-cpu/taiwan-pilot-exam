@@ -383,3 +383,12 @@
 ### 47. 114年第3題Barrass公式修正紀錄
 
 - 詳見第42節。本次修正的核心不是單純調整係數，而是釐清PIANC Barrass3公式的K值會隨阻塞係數S變動；只有S約0.25時才可近似採分母50。blockage factor定義為`A_s/A_c`，不可與velocity return factor `A_s/(A_c-A_s)`混用。
+
+### 48. 民國102年第5題：Inertia Factor與Equipment Number名詞一致性
+
+- 題目ID：`102-shiphandling-05`；原題只問慣性係數及其影響因素，未提供船舶數據或指定教材定義。
+- 發現舊答案內部不一致：assumptions將Inertia Factor解讀為排水量／主機功率比（D/P），但主答卻以附加質量係數`C_m=(M_s+M_w)/M_s`作為主定義，兩者不是同一物理量。
+- 依Henry H. Hooyer《Behavior and Handling of Ships》對慣性、動量、大型船舶加速與停止特性的說明，修正主答：先定義船舶慣性與動量，再將D/P列為相對推進能力及操縱反應的比較指標；明確說明Inertia Factor並非IMO／SOLAS全球統一法定公式，不把D/P與附加質量係數或轉動慣量混為一談。
+- 影響因素補列排水量／載況、可用推進功率及主機反應、船體尺度與線型、速度、水深及受限程度、運動方向及既有轉動狀態；並提醒D/P不能單獨預測停止距離。
+- Equipment Number部分保留IACS UR A1 Rev.8完整公式及煙囪有效投影面積定義，與慣性概念分開處理。
+- 狀態維持 **partially_verified**：慣性與動量物理概念及Hooyer的船舶操縱敘述已核對；考選部題幹未指定Inertia Factor的教材定義，因此不宣稱D/P為唯一標準答案。
