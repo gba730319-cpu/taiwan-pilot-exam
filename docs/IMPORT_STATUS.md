@@ -1767,3 +1767,11 @@
 - [ ] 以瀏覽器實測正式部署首頁、篩選、答案展開、數學公式及模擬考；Vercel API 顯示最近 Production deployment 為 READY，但仍須完成實際瀏覽器驗收。
 - [ ] 目前 Vercel 專案的 SSO Protection 設定為對非自訂網域部署啟用；確認正式使用者是否能直接開啟 `.vercel.app` 網址，必要時調整存取保護設定。
 - [ ] 第二輪官方原卷逐字複核累計數字須依實際完成紀錄重新統計；本次未將舊紀錄的181/604直接沿用為最新數字。
+
+
+## Vercel 部署診斷（2026-11-08，阻塞事項）
+- 正式網址 `taiwan-pilot-exam.vercel.app` 所屬 Vercel 專案為 `taiwan-pilot-exam`（`prj_oQBH33aHGQQGGeSO4KP9Ni61jpT6`），該專案沒有 Git repository link，最近 Production deployment 為 `dpl_Hr9FukureTJYPBqPjxxC5rs5YD7X`，READY，部署時間2026-11-04；因此不能假設它已包含11月8日GitHub main最新內容。
+- 同一 Vercel team 另有已連接 GitHub `gba730319-cpu/taiwan-pilot-exam` 的專案 `taiwan-pilot-exam-github`（`prj_hfXEBE1W85PmkNGdAEFAyiTndnaB`），其最新可見 Production deployment commit為 `3b019ed7dae6ebf3d478ed89490fb2dde7e2eea4`，仍早於本次11月8日main commit `30b3194338541b2919b3a631cb82790c596e60fb`。
+- 兩個專案的 `ssoProtection` 均為 enabled、`all_except_custom_domains`。因此 `.vercel.app` 專案網址會受到Vercel Authentication保護；一般考生不能假設可直接公開瀏覽。尚未改動此安全設定。
+- 已嘗試對原正式專案以GitHub main SHA `30b3194338541b2919b3a631cb82790c596e60fb` 建立Production deployment。Vercel拒絕，回應HTTP 402：Hobby plan `api-deployments-free-per-day` 配額已用完，要求等待超過1天。未建立新部署，亦未更改部署保護設定。
+- **結論：**目前不能宣稱最新版本已上線；需等Vercel配額恢復，或由專案管理者依Vercel帳戶提示處理計畫／配額問題後，才能部署及實測。部署前需決定以原網址專案為正式主專案，並確保GitHub main連接與公開存取設定正確；避免讓兩個Vercel專案繼續分歧。
